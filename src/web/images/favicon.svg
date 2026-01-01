@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Transformational Epicenter Favicon -->
+  <!-- A stylized lotus/seed symbol representing transformation and growth -->
+
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="16" fill="#1A3A3A"/>
+
+  <!-- Inner glow -->
+  <circle cx="16" cy="16" r="13" fill="none" stroke="#C4A962" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Central lotus/transformation symbol -->
+  <!-- Center petal -->
+  <path d="M16 6C16 6 13 11 13 15C13 19 14.5 22 16 24C17.5 22 19 19 19 15C19 11 16 6 16 6Z"
+        fill="none" stroke="#C4A962" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Left petal -->
+  <path d="M10 12C10 12 11 15 13 17C14.5 18.5 16 19 16 19"
+        fill="none" stroke="#C4A962" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+
+  <!-- Right petal -->
+  <path d="M22 12C22 12 21 15 19 17C17.5 18.5 16 19 16 19"
+        fill="none" stroke="#C4A962" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+
+  <!-- Base/ground -->
+  <path d="M12 26C12 26 14 24 16 24C18 24 20 26 20 26"
+        fill="none" stroke="#C4A962" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+</svg>

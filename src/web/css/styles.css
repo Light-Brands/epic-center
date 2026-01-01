@@ -629,19 +629,6 @@ p {
   color: var(--neutral-50);
 }
 
-.card__icon {
-  width: 56px;
-  height: 56px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--secondary-100);
-  border-radius: var(--radius-lg);
-  margin-bottom: var(--space-5);
-  color: var(--secondary-600);
-  font-size: var(--text-2xl);
-}
-
 .card__title {
   font-size: var(--text-xl);
   margin-bottom: var(--space-3);
@@ -825,12 +812,6 @@ p {
   color: var(--neutral-600);
 }
 
-.image-placeholder__icon {
-  font-size: var(--text-4xl);
-  margin-bottom: var(--space-4);
-  opacity: 0.5;
-}
-
 .image-placeholder__label {
   font-family: var(--font-accent);
   font-size: var(--text-sm);
@@ -932,19 +913,6 @@ p {
   display: flex;
   gap: var(--space-5);
   align-items: flex-start;
-}
-
-.feature-item__icon {
-  flex-shrink: 0;
-  width: 48px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--secondary-100);
-  border-radius: var(--radius-lg);
-  color: var(--secondary-600);
-  font-size: var(--text-xl);
 }
 
 .feature-item__content h4 {
@@ -1423,6 +1391,178 @@ p {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+/* ------------------------------------------------
+   Icon System
+   ------------------------------------------------ */
+.icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+.icon--sm {
+  width: 16px;
+  height: 16px;
+}
+
+.icon--md {
+  width: 24px;
+  height: 24px;
+}
+
+.icon--lg {
+  width: 32px;
+  height: 32px;
+}
+
+.icon--xl {
+  width: 48px;
+  height: 48px;
+}
+
+.icon--2xl {
+  width: 64px;
+  height: 64px;
+}
+
+/* Icon colors */
+.icon--primary {
+  color: var(--primary-800);
+}
+
+.icon--secondary {
+  color: var(--secondary-500);
+}
+
+.icon--gold {
+  color: var(--secondary-400);
+}
+
+.icon--muted {
+  color: var(--neutral-500);
+}
+
+.icon--light {
+  color: var(--neutral-200);
+}
+
+.icon--white {
+  color: var(--neutral-50);
+}
+
+/* Feature item icon container with icon */
+.feature-item__icon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-100);
+  border-radius: var(--radius-lg);
+  color: var(--secondary-600);
+}
+
+.feature-item__icon .icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Card icon container */
+.card__icon {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-100);
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--space-5);
+  color: var(--secondary-600);
+}
+
+.card__icon .icon {
+  width: 28px;
+  height: 28px;
+}
+
+/* Image placeholder icon */
+.image-placeholder__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--space-4);
+  opacity: 0.5;
+  color: var(--neutral-600);
+}
+
+.image-placeholder__icon .icon {
+  width: 48px;
+  height: 48px;
+}
+
+/* Value card icon */
+.value-card__icon {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto var(--space-5);
+  background: linear-gradient(135deg, var(--primary-800) 0%, var(--primary-600) 100%);
+  border-radius: var(--radius-xl);
+  color: var(--secondary-400);
+}
+
+.value-card__icon .icon {
+  width: 36px;
+  height: 36px;
+}
+
+/* Protocol card icon */
+.protocol-card__icon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--primary-800) 0%, var(--primary-600) 100%);
+  border-radius: var(--radius-lg);
+  color: var(--secondary-400);
+}
+
+.protocol-card__icon .icon {
+  width: 32px;
+  height: 32px;
+}
+
+/* Amenity card icon */
+.amenity-card__icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-100);
+  border-radius: var(--radius-lg);
+  flex-shrink: 0;
+  color: var(--secondary-600);
+}
+
+.amenity-card__icon .icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Team member placeholder icon */
+.team-member__image .icon {
+  width: 48px;
+  height: 48px;
+  color: var(--neutral-400);
 }
 
 /* ------------------------------------------------
