@@ -422,6 +422,36 @@ p {
   }
 }
 
+/* Navigation - Transparent state for dark hero/page-header backgrounds */
+.nav--transparent .nav__logo {
+  color: var(--neutral-50);
+}
+
+.nav--transparent .nav__link {
+  color: var(--neutral-200);
+}
+
+.nav--transparent .nav__link:hover {
+  color: var(--neutral-50);
+}
+
+.nav--transparent .nav__toggle span {
+  background-color: var(--neutral-50);
+}
+
+/* Reset to default colors when scrolled */
+.nav--transparent.nav--scrolled .nav__logo {
+  color: var(--primary-800);
+}
+
+.nav--transparent.nav--scrolled .nav__link {
+  color: var(--neutral-700);
+}
+
+.nav--transparent.nav--scrolled .nav__toggle span {
+  background-color: var(--primary-800);
+}
+
 /* ------------------------------------------------
    Buttons
    ------------------------------------------------ */
