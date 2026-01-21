@@ -4,7 +4,7 @@
 
 # Transformational Epicenter - Architect Agent Profile
 
-> *"This is not about escaping life. It's about helping people return to life whole, present, sovereign, and awake."*
+> *"Bringing the lost travelers home to gardens of their hearts and souls."*
 
 ---
 
