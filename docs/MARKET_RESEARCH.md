@@ -83,6 +83,41 @@ This research will directly inform:
 | Messaging & Value Proposition | Market differentiation and communication |
 | AI-Driven Personalization | System requirements and data models |
 
+```mermaid
+flowchart TD
+    subgraph RESEARCH["🔬 MARKET RESEARCH"]
+        A[Global Competitive Scan]
+        B[Pricing Analysis]
+        C[Client Demand Mapping]
+        D[Geographic Intelligence]
+    end
+
+    subgraph OUTPUTS["📊 STRATEGIC OUTPUTS"]
+        E[Clinical Offerings]
+        F[Protocol Design]
+        G[Pricing Architecture]
+        H[Geographic Position]
+        I[Value Proposition]
+        J[AI Personalization]
+    end
+
+    A --> E
+    A --> I
+    B --> G
+    C --> E
+    C --> F
+    C --> I
+    D --> H
+
+    A --> J
+    B --> J
+    C --> J
+    D --> J
+
+    style RESEARCH fill:#1a365d,stroke:#2c5282,color:#fff
+    style OUTPUTS fill:#234e52,stroke:#285e61,color:#fff
+```
+
 ---
 
 ## 2. Reference Clinics for Initial Benchmarking
@@ -160,6 +195,34 @@ The AI should identify:
 - **Where outcomes fall short** — Limitations of existing approaches
 - **Where experiences fragment** — Lack of integration and continuity
 
+```mermaid
+mindmap
+  root((Global Category Scan))
+    Medical & Longevity
+      Functional Medicine
+      Hormonal Optimization
+      Peptide Therapy
+      Regenerative Medicine
+      Advanced Diagnostics
+    Biohacking & Performance
+      Hyperbaric Oxygen
+      Photobiomodulation
+      Cryotherapy
+      Functional Fitness
+      Neurocognitive Training
+    Plant Medicine & Trauma
+      Ibogaine Treatment
+      Psychedelic Therapy
+      Addiction Interruption
+      Nervous System Work
+      Identity Repair
+    Luxury Wellness
+      High-Touch Service
+      Privacy & Discretion
+      Concierge Care
+      Spiritual Integration
+```
+
 ---
 
 ## 4. Stress-Testing Our Concept Against the Global Best
@@ -168,77 +231,91 @@ The AI system should stress-test our concept against the global benchmark across
 
 ### Integration
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                           INTEGRATION ADVANTAGE                              │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│  MOST CLINICS:         Specialize in ONE vertical                           │
-│                        ─────────────────────────────                        │
-│                        Medical OR Spiritual OR Performance                   │
-│                                                                              │
-│  TRANSFORMATIONAL      Integrate ALL dimensions into ONE continuum          │
-│  EPICENTER:            ─────────────────────────────────────────           │
-│                                                                              │
-│                        Medical ─────┐                                       │
-│                        Spiritual ───┼──▶ Unified Healing Journey            │
-│                        Psychological┤                                       │
-│                        Physiological┤                                       │
-│                        Identity ────┘                                       │
-│                                                                              │
-└─────────────────────────────────────────────────────────────────────────────┘
+**Most Clinics:** Specialize in ONE vertical — Medical OR Spiritual OR Performance
+
+**Transformational Epicenter:** Integrates ALL dimensions into ONE continuum
+
+```mermaid
+flowchart LR
+    subgraph COMPETITORS["❌ MOST CLINICS"]
+        direction TB
+        C1[Medical Only]
+        C2[Spiritual Only]
+        C3[Performance Only]
+    end
+
+    subgraph EPICENTER["✓ TRANSFORMATIONAL EPICENTER"]
+        direction TB
+        M[Medical] --> U((Unified<br/>Healing<br/>Journey))
+        S[Spiritual] --> U
+        PS[Psychological] --> U
+        PH[Physiological] --> U
+        I[Identity] --> U
+    end
+
+    style COMPETITORS fill:#7f1d1d,stroke:#991b1b,color:#fff
+    style EPICENTER fill:#14532d,stroke:#166534,color:#fff
+    style U fill:#f59e0b,stroke:#d97706,color:#000
 ```
 
 ### Continuity
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                           CONTINUITY ADVANTAGE                               │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│  MOST CLINICS:         Treat an EVENT                                       │
-│                        ───────────────                                      │
-│                        Arrival ──▶ Treatment ──▶ Departure ──▶ [Nothing]   │
-│                                                                              │
-│  TRANSFORMATIONAL      Deliver a JOURNEY                                    │
-│  EPICENTER:            ───────────────────                                  │
-│                                                                              │
-│  Pre-Care ──▶ Immersive Treatment ──▶ Post-Care ──▶ Identity Embodiment    │
-│      │                                     │                │               │
-│      │                                     │                │               │
-│      └─────────── Long-Term Integration ───┴────────────────┘               │
-│                                                                              │
-└─────────────────────────────────────────────────────────────────────────────┘
+**Most Clinics:** Treat an EVENT — Arrival → Treatment → Departure → *Nothing*
+
+**Transformational Epicenter:** Delivers a JOURNEY with continuous support
+
+```mermaid
+flowchart TB
+    subgraph COMPETITORS["❌ MOST CLINICS — The Event Model"]
+        direction LR
+        A1[Arrival] --> T1[Treatment] --> D1[Departure] --> N1[Nothing]
+        style N1 fill:#7f1d1d,stroke:#991b1b,color:#fff
+    end
+
+    subgraph EPICENTER["✓ TRANSFORMATIONAL EPICENTER — The Journey Model"]
+        direction LR
+        P[Pre-Care] --> T[Immersive<br/>Treatment] --> PC[Post-Care] --> IE[Identity<br/>Embodiment]
+
+        P -.->|Long-Term Integration| LTI((Continuous<br/>Support))
+        T -.-> LTI
+        PC -.-> LTI
+        IE -.-> LTI
+    end
+
+    style COMPETITORS fill:#7f1d1d,stroke:#991b1b,color:#fff
+    style EPICENTER fill:#14532d,stroke:#166534,color:#fff
+    style LTI fill:#f59e0b,stroke:#d97706,color:#000
 ```
 
 ### Personalization
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                         PERSONALIZATION ADVANTAGE                            │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│  MOST CLINICS:         Customize protocols MANUALLY                         │
-│                        ─────────────────────────────                        │
-│                        Static assessments ──▶ Fixed protocols               │
-│                                                                              │
-│  TRANSFORMATIONAL      Deploy AI SUPERINTELLIGENT SYSTEM                    │
-│  EPICENTER:            ─────────────────────────────────                    │
-│                                                                              │
-│                        ┌─────────────────────────────────┐                  │
-│                        │   AI SUPERINTELLIGENT SYSTEM    │                  │
-│                        ├─────────────────────────────────┤                  │
-│                        │ • Aggregates all biometric and  │                  │
-│                        │   diagnostic data               │                  │
-│                        │ • Designs dynamic, evolving     │                  │
-│                        │   protocols                     │                  │
-│                        │ • Learns and adapts in real     │                  │
-│                        │   time                          │                  │
-│                        │ • Guides patients beyond the    │                  │
-│                        │   stay                          │                  │
-│                        └─────────────────────────────────┘                  │
-│                                                                              │
-└─────────────────────────────────────────────────────────────────────────────┘
+**Most Clinics:** Customize protocols MANUALLY — Static assessments → Fixed protocols
+
+**Transformational Epicenter:** Deploys AI SUPERINTELLIGENT SYSTEM for dynamic personalization
+
+```mermaid
+flowchart TB
+    subgraph COMPETITORS["❌ MOST CLINICS"]
+        direction LR
+        SA[Static Assessment] --> FP[Fixed Protocol]
+    end
+
+    subgraph EPICENTER["✓ TRANSFORMATIONAL EPICENTER"]
+        direction TB
+        subgraph AI["🤖 AI SUPERINTELLIGENT SYSTEM"]
+            D[Aggregate Biometric<br/>& Diagnostic Data]
+            E[Design Dynamic<br/>Evolving Protocols]
+            L[Learn & Adapt<br/>in Real Time]
+            G[Guide Beyond<br/>the Stay]
+        end
+
+        D --> E --> L --> G
+        G -.->|Continuous Feedback| D
+    end
+
+    style COMPETITORS fill:#7f1d1d,stroke:#991b1b,color:#fff
+    style EPICENTER fill:#14532d,stroke:#166534,color:#fff
+    style AI fill:#1e3a5f,stroke:#2563eb,color:#fff
 ```
 
 ---
@@ -269,6 +346,27 @@ The AI system should map current global pricing across all relevant categories.
 | **21-Day Transformation** | Complete treatment cycles, comprehensive healing | Serious transformation seekers |
 | **28-Day Identity Restoration** | Full journey, identity-level change, lasting integration | Premium, committed individuals |
 | **White-Glove Executive & Family** | Private, customized, multi-person programs | Ultra-high-net-worth individuals |
+
+```mermaid
+flowchart LR
+    subgraph TIERS["📈 PROTOCOL PROGRESSION"]
+        direction LR
+        R[🌱 7-Day<br/>Reset] --> O[⚡ 14-Day<br/>Optimization] --> T[🔄 21-Day<br/>Transformation] --> I[✨ 28-Day<br/>Identity<br/>Restoration] --> W[👑 White-Glove<br/>Executive]
+    end
+
+    R -.- E1[Entry-Level]
+    O -.- E2[Performance-Focused]
+    T -.- E3[Serious Seekers]
+    I -.- E4[Premium Committed]
+    W -.- E5[Ultra-HNW]
+
+    style TIERS fill:#1e3a5f,stroke:#2563eb,color:#fff
+    style R fill:#059669,stroke:#047857,color:#fff
+    style O fill:#0891b2,stroke:#0e7490,color:#fff
+    style T fill:#7c3aed,stroke:#6d28d9,color:#fff
+    style I fill:#db2777,stroke:#be185d,color:#fff
+    style W fill:#f59e0b,stroke:#d97706,color:#000
+```
 
 ### AI Evaluation Criteria
 
@@ -302,6 +400,41 @@ The AI should evaluate:
 | **Privacy** | Distance from personal/professional networks |
 | **Integration** | Comprehensive experiences not offered domestically |
 
+```mermaid
+flowchart TB
+    subgraph CLIENT["🎯 CLIENT NEEDS"]
+        N1[Safety & Medical<br/>Legitimacy]
+        N2[Deep Healing]
+        N3[Addiction<br/>Interruption]
+        N4[Trauma Resolution]
+        N5[Longevity & Vitality]
+        N6[Meaning & Purpose]
+    end
+
+    subgraph DRIVERS["✈️ WHY TRAVEL INTERNATIONALLY"]
+        D1[Access to<br/>Unavailable Treatments]
+        D2[Better Value<br/>for Outcomes]
+        D3[Privacy &<br/>Discretion]
+        D4[Comprehensive<br/>Integration]
+    end
+
+    subgraph DESTINATION["🏔️ TRANSFORMATIONAL EPICENTER"]
+        TE((The Summit<br/>Destination))
+    end
+
+    N1 & N2 & N3 --> D1
+    N3 & N4 & N5 --> D2
+    N1 & N3 & N6 --> D3
+    N2 & N4 & N5 & N6 --> D4
+
+    D1 & D2 & D3 & D4 --> TE
+
+    style CLIENT fill:#1e3a5f,stroke:#2563eb,color:#fff
+    style DRIVERS fill:#7c2d12,stroke:#9a3412,color:#fff
+    style DESTINATION fill:#14532d,stroke:#166534,color:#fff
+    style TE fill:#f59e0b,stroke:#d97706,color:#000
+```
+
 ---
 
 ## 7. Geographic Intelligence Layer
@@ -334,41 +467,43 @@ The AI system should evaluate optimal geographic zones for clinic establishment.
 
 The AI Superintelligent System will execute the following research functions:
 
-### Data Collection
+### AI Research Execution Functions
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                    AI RESEARCH EXECUTION FUNCTIONS                           │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│  DATA COLLECTION                                                            │
-│  ───────────────                                                            │
-│  • Scrape global clinic websites and offerings                              │
-│  • Extract pricing, positioning, and protocol information                   │
-│  • Catalog service menus and treatment modalities                           │
-│  • Document facility features and amenities                                 │
-│                                                                              │
-│  ANALYSIS                                                                   │
-│  ────────                                                                   │
-│  • Analyze pricing patterns and positioning strategies                      │
-│  • Identify unmet demand and market gaps                                    │
-│  • Map competitive landscape and differentiation opportunities              │
-│  • Assess outcome claims and evidence bases                                 │
-│                                                                              │
-│  MODELING                                                                   │
-│  ────────                                                                   │
-│  • Model optimal service stacks for different client segments               │
-│  • Recommend pricing architectures and tier structures                      │
-│  • Inform facility design and equipment selection                           │
-│  • Design data flows for personalized treatment engines                     │
-│                                                                              │
-│  INTEGRATION                                                                │
-│  ───────────                                                                │
-│  • Feed directly into personalized treatment engines                        │
-│  • Inform protocol design and sequencing                                    │
-│  • Support real-time optimization during guest journeys                     │
-│                                                                              │
-└─────────────────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TB
+    subgraph DC["📥 DATA COLLECTION"]
+        DC1[Scrape Global<br/>Clinic Websites]
+        DC2[Extract Pricing &<br/>Positioning Info]
+        DC3[Catalog Service<br/>Menus & Modalities]
+        DC4[Document Facility<br/>Features]
+    end
+
+    subgraph AN["🔍 ANALYSIS"]
+        AN1[Analyze Pricing<br/>Patterns]
+        AN2[Identify Unmet<br/>Demand & Gaps]
+        AN3[Map Competitive<br/>Landscape]
+        AN4[Assess Outcome<br/>Claims]
+    end
+
+    subgraph MD["🧮 MODELING"]
+        MD1[Model Optimal<br/>Service Stacks]
+        MD2[Recommend Pricing<br/>Architecture]
+        MD3[Inform Facility<br/>Design]
+        MD4[Design Data<br/>Flows]
+    end
+
+    subgraph INT["⚡ INTEGRATION"]
+        INT1[Personalized<br/>Treatment Engines]
+        INT2[Protocol Design<br/>& Sequencing]
+        INT3[Real-Time<br/>Optimization]
+    end
+
+    DC --> AN --> MD --> INT
+
+    style DC fill:#1e3a5f,stroke:#2563eb,color:#fff
+    style AN fill:#7c2d12,stroke:#9a3412,color:#fff
+    style MD fill:#4c1d95,stroke:#6d28d9,color:#fff
+    style INT fill:#14532d,stroke:#166534,color:#fff
 ```
 
 ### Research Philosophy
@@ -394,25 +529,66 @@ By the end of this phase, we will have:
 
 ### Success Criteria
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                         RESEARCH PHASE SUCCESS                               │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│  ✓ Every major competitor analyzed and mapped                               │
-│  ✓ Pricing benchmarks established across all categories                     │
-│  ✓ Market gaps identified and validated                                     │
-│  ✓ Geographic options evaluated with clear recommendation                   │
-│  ✓ Client demand patterns understood and documented                         │
-│  ✓ AI system requirements defined based on research findings                │
-│  ✓ Summit-level positioning articulated and defensible                      │
-│                                                                              │
-└─────────────────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart LR
+    subgraph SUCCESS["✅ RESEARCH PHASE SUCCESS CRITERIA"]
+        direction TB
+        S1[Every major competitor<br/>analyzed and mapped]
+        S2[Pricing benchmarks<br/>established]
+        S3[Market gaps identified<br/>and validated]
+        S4[Geographic options<br/>evaluated]
+        S5[Client demand patterns<br/>documented]
+        S6[AI system requirements<br/>defined]
+        S7[Summit-level positioning<br/>articulated]
+    end
+
+    S1 --> S2 --> S3 --> S4 --> S5 --> S6 --> S7 --> DONE((✓<br/>COMPLETE))
+
+    style SUCCESS fill:#14532d,stroke:#166534,color:#fff
+    style DONE fill:#f59e0b,stroke:#d97706,color:#000
 ```
 
 ---
 
 ## Research Execution Framework
+
+```mermaid
+flowchart LR
+    subgraph P1A["📥 PHASE 1A<br/>Data Collection"]
+        A1[Compile<br/>Competitor List]
+        A2[Extract Offerings<br/>& Pricing]
+        A3[Document<br/>Facilities]
+        A4[Catalog<br/>Testimonials]
+    end
+
+    subgraph P1B["🔍 PHASE 1B<br/>Analysis"]
+        B1[Identify<br/>Patterns]
+        B2[Map Gaps &<br/>Unmet Needs]
+        B3[Analyze Pricing<br/>Psychology]
+        B4[Assess Geographic<br/>Options]
+    end
+
+    subgraph P1C["💡 PHASE 1C<br/>Recommendations"]
+        C1[Define Service<br/>Stack]
+        C2[Recommend<br/>Pricing]
+        C3[Propose<br/>Geography]
+        C4[Outline AI<br/>Requirements]
+    end
+
+    subgraph P1D["📄 PHASE 1D<br/>Integration"]
+        D1[Document<br/>Findings]
+        D2[Update<br/>Master Plan]
+        D3[Refine<br/>Protocols]
+        D4[Feed AI<br/>System]
+    end
+
+    P1A --> P1B --> P1C --> P1D
+
+    style P1A fill:#1e3a5f,stroke:#2563eb,color:#fff
+    style P1B fill:#7c2d12,stroke:#9a3412,color:#fff
+    style P1C fill:#4c1d95,stroke:#6d28d9,color:#fff
+    style P1D fill:#14532d,stroke:#166534,color:#fff
+```
 
 ### Phase 1A: Data Collection
 
@@ -469,36 +645,24 @@ This is not an oversight—it is a structural limitation. Building such an offer
 
 ### The White Space — An Unoccupied Summit
 
+```mermaid
+quadrantChart
+    title Market Positioning Map
+    x-axis Low Medical Rigor --> High Medical Rigor
+    y-axis Low Integration --> High Integration
+    quadrant-1 THE SUMMIT
+    quadrant-2 Wellness Focus
+    quadrant-3 Single Modality
+    quadrant-4 Clinical Focus
+    Transformational Epicenter: [0.90, 0.95]
+    Longevity Clinics: [0.70, 0.60]
+    Luxury Wellness: [0.35, 0.65]
+    Medical Retreats: [0.75, 0.45]
+    Spiritual Retreats: [0.25, 0.40]
+    Ibogaine Centers: [0.40, 0.25]
 ```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                         MARKET POSITIONING MAP                               │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│  HIGH                                                                        │
-│   ▲                                                                          │
-│   │                              ★ TRANSFORMATIONAL EPICENTER                │
-│   │                                (Unoccupied Summit)                       │
-│   │                                                                          │
-│ I │                    ┌─────────┐                                          │
-│ N │      ┌─────────┐   │Longevity│                                          │
-│ T │      │ Luxury  │   │ Clinics │                                          │
-│ E │      │ Wellness│   └─────────┘                                          │
-│ G │      └─────────┘                                                         │
-│ R │   ┌─────────┐        ┌─────────┐                                        │
-│ A │   │Spiritual│        │ Medical │                                        │
-│ T │   │ Retreats│        │ Retreats│                                        │
-│ I │   └─────────┘        └─────────┘                                        │
-│ O │                                                                          │
-│ N │        ┌─────────┐                                                       │
-│   │        │Ibogaine │                                                       │
-│   │        │ Centers │                                                       │
-│   │        └─────────┘                                                       │
-│   │                                                                          │
-│  LOW ──────────────────────────────────────────────────────────────▶        │
-│          LOW              MEDICAL RIGOR              HIGH                   │
-│                                                                              │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+
+**The Summit Position:** Transformational Epicenter occupies the uncontested upper-right quadrant—maximum medical rigor combined with maximum integration across all healing dimensions.
 
 ### The Opportunity — Category Creation, Not Competition
 
@@ -521,6 +685,42 @@ Transformational Epicenter is not entering an existing category to compete—it 
 | **AI Superintelligent System** | Dynamic, learning, personalized protocol engine | Very High — significant R&D and data investment |
 | **Medical-Plant Medicine Bridge** | Proper medical oversight for powerful substances | High — requires rare expertise combination |
 | **Outcome Orientation** | Priced on transformation delivered, not services rendered | Medium — requires confidence and track record |
+
+```mermaid
+flowchart TB
+    subgraph MOATS["🏰 COMPETITIVE MOATS — Layers of Defense"]
+        direction TB
+
+        subgraph L1["OUTER LAYER — Medium Difficulty"]
+            M5[Outcome<br/>Orientation]
+        end
+
+        subgraph L2["MIDDLE LAYER — High Difficulty"]
+            M4[Medical-Plant<br/>Medicine Bridge]
+            M2[Continuity<br/>Model]
+        end
+
+        subgraph L3["INNER LAYER — Very High Difficulty"]
+            M3[AI Superintelligent<br/>System]
+            M1[Integration<br/>Architecture]
+        end
+
+        subgraph CORE["🏔️ THE SUMMIT"]
+            TE((Transformational<br/>Epicenter))
+        end
+    end
+
+    M5 --> M4 & M2
+    M4 & M2 --> M3 & M1
+    M3 & M1 --> TE
+
+    style MOATS fill:#1e1e2e,stroke:#45475a,color:#fff
+    style L1 fill:#92400e,stroke:#b45309,color:#fff
+    style L2 fill:#7c2d12,stroke:#9a3412,color:#fff
+    style L3 fill:#4c1d95,stroke:#6d28d9,color:#fff
+    style CORE fill:#14532d,stroke:#166534,color:#fff
+    style TE fill:#f59e0b,stroke:#d97706,color:#000
+```
 
 ### Market Size & Demand Signals
 
@@ -577,46 +777,49 @@ When a 28-day program delivers:
 
 ### Strategic Position Summary
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│               TRANSFORMATIONAL EPICENTER — STRATEGIC POSITION                │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│  WHAT WE ARE:                                                               │
-│  ────────────                                                               │
-│  The world's first fully integrated medical, bio-optimization, plant        │
-│  medicine, and identity transformation clinic—powered by AI—delivering      │
-│  continuous care from first contact through lifelong integration.           │
-│                                                                              │
-│  WHAT WE ARE NOT:                                                           │
-│  ────────────────                                                           │
-│  • A medical retreat (we go beyond the physical)                            │
-│  • A wellness spa (we create lasting change)                                │
-│  • An ibogaine clinic (we integrate medicine into a complete journey)       │
-│  • A biohacking center (we address the whole person)                        │
-│  • A spiritual retreat (we ground transformation in medical science)        │
-│                                                                              │
-│  OUR POSITION:                                                              │
-│  ─────────────                                                              │
-│  Category-defining. Summit-level. The destination for those who have        │
-│  tried everything else and are ready for real transformation.               │
-│                                                                              │
-│  THE OPPORTUNITY:                                                           │
-│  ────────────────                                                           │
-│  • Massive unmet demand across multiple client segments                     │
-│  • No integrated competitor occupying this position                         │
-│  • Regulatory environment increasingly favorable                            │
-│  • Technology enables personalization at scale                              │
-│  • Medical tourism infrastructure mature and growing                        │
-│  • Cultural moment: post-pandemic meaning-seeking at all-time high          │
-│                                                                              │
-│  THE PATH:                                                                  │
-│  ─────────                                                                  │
-│  Execute Phase 1 research with precision. Validate assumptions. Build       │
-│  the AI foundation. Design protocols informed by global intelligence.       │
-│  Launch as the undisputed summit—not by claiming it, but by being it.       │
-│                                                                              │
-└─────────────────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TB
+    subgraph POSITION["🏔️ TRANSFORMATIONAL EPICENTER — STRATEGIC POSITION"]
+        direction TB
+
+        subgraph WHATWEARE["✅ WHAT WE ARE"]
+            WA[The world's first fully integrated<br/>medical, bio-optimization, plant medicine,<br/>and identity transformation clinic<br/>— powered by AI —<br/>delivering continuous care from<br/>first contact through lifelong integration]
+        end
+
+        subgraph WHATWERENOT["❌ WHAT WE ARE NOT"]
+            N1[Not a medical retreat<br/>— we go beyond physical]
+            N2[Not a wellness spa<br/>— we create lasting change]
+            N3[Not just ibogaine<br/>— we integrate into complete journey]
+            N4[Not a biohacking center<br/>— we address whole person]
+            N5[Not a spiritual retreat<br/>— we ground in medical science]
+        end
+
+        subgraph OURPOSITION["⭐ OUR POSITION"]
+            OP[Category-defining • Summit-level<br/>The destination for those ready<br/>for real transformation]
+        end
+
+        subgraph OPPORTUNITY["🎯 THE OPPORTUNITY"]
+            O1[Massive unmet demand]
+            O2[No integrated competitor]
+            O3[Favorable regulatory environment]
+            O4[Technology enables personalization]
+            O5[Mature medical tourism infrastructure]
+            O6[Post-pandemic meaning-seeking]
+        end
+
+        subgraph PATH["🛤️ THE PATH"]
+            P[Execute Phase 1 research → Validate assumptions<br/>→ Build AI foundation → Design protocols<br/>→ Launch as the undisputed summit]
+        end
+    end
+
+    WHATWEARE --> WHATWERENOT --> OURPOSITION --> OPPORTUNITY --> PATH
+
+    style POSITION fill:#1e1e2e,stroke:#45475a,color:#fff
+    style WHATWEARE fill:#14532d,stroke:#166534,color:#fff
+    style WHATWERENOT fill:#7f1d1d,stroke:#991b1b,color:#fff
+    style OURPOSITION fill:#f59e0b,stroke:#d97706,color:#000
+    style OPPORTUNITY fill:#1e3a5f,stroke:#2563eb,color:#fff
+    style PATH fill:#4c1d95,stroke:#6d28d9,color:#fff
 ```
 
 ### Final Assessment
