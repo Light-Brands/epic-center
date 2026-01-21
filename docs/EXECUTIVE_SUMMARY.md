@@ -384,29 +384,29 @@ After evaluating multiple countries, Mexico (specifically the Quintana Roo regio
 
 ## The Long-Term Vision
 
-### Phase 1: Foundation (Year 1-2)
+### Phase 1: Foundation (Year 1)
 - Launch first Transformational Epicenter in Mexico
 - Establish protocols and outcomes measurement
 - Build digital platform MVP
 - Develop training programs for staff
 
-### Phase 2: Optimization (Year 2-3)
+### Phase 2: Optimization (Year 2)
 - Refine all protocols based on outcomes data
 - Expand digital platform features
 - Build international reputation
 - Prepare expansion playbook
 
-### Phase 3: Expansion (Year 3-10)
+### Phase 3: Expansion (Year 3)
 - Launch second and third locations (Europe, Asia-Pacific)
-- Develop licensing/franchise model
-- Create training academy
-- Build research partnerships
+- Aggressive licensing/franchise model expansion
+- Establish training academy for rapid talent development
+- Build research partnerships across multiple continents
 
-### Phase 4: Network (Year 10+)
-- 30+ Transformational Epicenters globally
-- Unified platform and community
-- Research institute
-- Thought leadership in the field
+### Phase 4: Network (Year 4-10)
+- Scale to 30+ Transformational Epicenters globally
+- Unified platform and community spanning all major markets
+- World-class research institute
+- Definitive thought leadership in the field
 
 ---
 
