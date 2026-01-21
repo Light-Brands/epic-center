@@ -329,30 +329,25 @@ We've studied every major player. Here's why they won't follow us into this spac
 
 ### Program Pricing
 
-| Program | Duration | Price Range |
-|---------|----------|-------------|
-| Reset | 7 days | $25,000 - $35,000 |
-| Interruption | 14 days | $45,000 - $65,000 |
-| Recalibration | 21 days | $65,000 - $95,000 |
-| Full Transformation | 28 days | $95,000 - $150,000 |
-| Custom Extended | 30+ days | $150,000+ |
+**Base Rate: $2,000/day**
 
-### Revenue Growth
+| Program | Duration | Price |
+|---------|----------|-------|
+| Reset | 7 days | $14,000 |
+| Interruption | 14 days | $28,000 |
+| Recalibration | 21 days | $42,000 |
+| Full Transformation | 28 days | $56,000 |
+| Custom Extended | 30+ days | $60,000+ |
 
-| Year | Revenue | Guests Served | Key Milestone |
-|------|---------|---------------|---------------|
-| Year 1 | ~$10 Million | 150+ | Launch flagship location |
-| Year 3 | ~$38 Million | 400+ | Proven model, strong reputation |
-| Year 5 | ~$98 Million | 800+ | Multiple locations, $500M+ valuation |
+### Revenue Model
 
-### Investment Needed
+**10 rooms × 70% occupancy × $2,000/day = ~$5.1M annual revenue**
 
-| Phase | Timeline | Capital Required | Purpose |
-|-------|----------|------------------|---------|
-| Phase 1 | Months 1-18 | $25-35 Million | Land, construction, core team |
-| Phase 2 | Months 18-36 | $15-20 Million | Operations, marketing, technology |
-| Phase 3 | Months 36-60 | $40-60 Million | Expansion to additional locations |
-| **Total** | **5 Years** | **$80-115 Million** | |
+| Year | Revenue | Occupancy | Key Milestone |
+|------|---------|-----------|---------------|
+| Year 1 | ~$3.6 Million | 50% | Launch flagship location |
+| Year 3 | ~$5.1 Million | 70% | Proven model, strong reputation |
+| Year 5 | ~$11.7 Million | 80% (2 locations) | Expansion to second location |
 
 ---
 
@@ -449,17 +444,16 @@ After evaluating multiple countries, Mexico (specifically the Quintana Roo regio
 - Research contributions
 
 ### Year 1 Targets
-- 150+ guests served
-- Average revenue per guest: $60,000+
+- 120+ guests served
+- Average revenue per guest: $30,000 (~15-day average stay)
 - Net Promoter Score: 80+
 - Zero serious safety incidents
 - 40%+ of guests from referrals
 
 ### Year 5 Targets
-- 800+ guests annually
-- $90+ million revenue
-- 3 operating locations
-- $500+ million enterprise valuation
+- 300+ guests annually (2 locations)
+- $11+ million revenue
+- 2 operating locations
 - Category-defining brand recognition
 
 ---
