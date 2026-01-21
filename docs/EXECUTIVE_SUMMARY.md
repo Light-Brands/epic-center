@@ -343,11 +343,11 @@ We've studied every major player. Here's why they won't follow us into this spac
 
 **10 rooms × 70% occupancy × $2,000/day = ~$5.1M annual revenue**
 
-| Year | Revenue | Occupancy | Key Milestone |
-|------|---------|-----------|---------------|
-| Year 1 | ~$3.6 Million | 50% | Launch flagship location |
-| Year 3 | ~$5.1 Million | 70% | Proven model, strong reputation |
-| Year 5 | ~$11.7 Million | 80% (2 locations) | Expansion to second location |
+| Year | Revenue | Guests Served | Occupancy | Key Milestone |
+|------|---------|---------------|-----------|---------------|
+| Year 1 | ~$3.6 Million | 120+ | 50% | Launch flagship location |
+| Year 3 | ~$5.1 Million | 170+ | 70% | Proven model, strong reputation |
+| Year 5 | ~$11.7 Million | 300+ | 80% (2 locations) | Expansion to second location |
 
 ---
 
