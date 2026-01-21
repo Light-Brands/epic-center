@@ -2,41 +2,120 @@
 
 > *Helping people return to life whole, present, sovereign, and awake.*
 
+<div align="center">
+
+[![Status](https://img.shields.io/badge/Status-Phase%200%20Foundation-blue)](#project-status)
+[![Docs](https://img.shields.io/badge/Docs-25%2B%20Documents-green)](#-documentation-nav)
+[![Stack](https://img.shields.io/badge/Stack-Next.js%20%7C%20React%20Native%20%7C%20NestJS-purple)](#technology-stack)
+
+</div>
+
 ---
 
-## Vision
+## Quick Nav
+
+| Section | Description |
+|---------|-------------|
+| [Vision & Strategy](#-vision--strategy) | Core philosophy, master plan, pitch materials |
+| [The Eight Pillars](#-the-eight-pillars) | Deep dives into our foundational approach |
+| [Programs](#-programs) | 7, 14, 21, and 28-day program structures |
+| [Technical Architecture](#-technical-architecture) | System design, data, security, infrastructure |
+| [Design & Brand](#-design--brand) | Design system, brand guidelines |
+| [Source Code](#-source-code) | Web, mobile, API, admin dashboards |
+| [Business & Fundraising](#-business--fundraising) | Pitch packet, investor materials |
+
+---
+
+## Documentation Nav
+
+### Vision & Strategy
+
+| Document | Description | Link |
+|----------|-------------|------|
+| **Vision** | Core philosophy, guest journey, transformation framework | [View](./docs/VISION.md) |
+| **Master Plan** | 6-phase implementation roadmap, milestones, timeline | [View](./docs/MASTER_PLAN.md) |
+| **Architect Guide** | Development principles, agent profile, coding standards | [View](./ARCHITECT.md) |
+
+---
+
+### The Eight Pillars
+
+| # | Pillar | Focus | Link |
+|---|--------|-------|------|
+| 1 | **Medical & Scientific Oversight** | Evidence-based care, safety screening, measurable outcomes | [View](./docs/pillars/01_MEDICAL_OVERSIGHT.md) |
+| 2 | **Plant Medicine** | Iboga & Ibogaine - medically supervised, trauma-informed ceremonies | [View](./docs/pillars/02_PLANT_MEDICINE.md) |
+| 3 | **Bio-Optimization** | State-of-the-art modalities for recovery and vitality | [View](./docs/pillars/03_BIO_OPTIMIZATION.md) |
+| 4 | **Trauma Integration** | Nervous system restoration and lasting change | [View](./docs/pillars/04_TRAUMA_INTEGRATION.md) |
+| 5 | **Hospitality & Fitness** | Luxury care enabling complete surrender to healing | [View](./docs/pillars/05_HOSPITALITY.md) |
+| 6 | **Digital Ecosystem** | AI Superintelligent System supporting the complete journey | [View](./docs/pillars/06_DIGITAL_ECOSYSTEM.md) |
+| 7 | **Pre-Care** | 4-8 weeks of preparation, safety, intention setting | [View](./docs/pillars/07_PRE_CARE.md) |
+| 8 | **Post-Care** | 3-12+ months of integration, community, longevity | [View](./docs/pillars/08_POST_CARE.md) |
+
+---
+
+### Programs
+
+| Program | Duration | Focus | Link |
+|---------|----------|-------|------|
+| **Overview** | - | Philosophy, structure, pricing approach | [View](./docs/programs/PROGRAM_OVERVIEW.md) |
+| **Reset** | 7 days | Nervous system reset, 1 ceremony | [View](./docs/programs/7_DAY_RESET.md) |
+| **Interruption** | 14 days | Trauma interruption and integration | [View](./docs/programs/14_DAY_INTERRUPTION.md) |
+| **Recalibration** | 21 days | Deep recalibration, extended integration | [View](./docs/programs/21_DAY_RECALIBRATION.md) |
+| **Transformation** | 28 days | Full transformation arc | [View](./docs/programs/28_DAY_TRANSFORMATION.md) |
+
+---
+
+### Technical Architecture
+
+| Document | Description | Link |
+|----------|-------------|------|
+| **System Overview** | Application architecture, microservices, system context | [View](./docs/architecture/SYSTEM_OVERVIEW.md) |
+| **Data Architecture** | Database strategy, data classification, PHI handling | [View](./docs/architecture/DATA_ARCHITECTURE.md) |
+| **Security & Compliance** | HIPAA/GDPR framework, encryption, audit logging | [View](./docs/architecture/SECURITY_COMPLIANCE.md) |
+| **Integration Map** | External systems, APIs, third-party services | [View](./docs/architecture/INTEGRATION_MAP.md) |
+| **Infrastructure** | AWS setup, Kubernetes, disaster recovery, scaling | [View](./docs/architecture/INFRASTRUCTURE.md) |
+
+---
+
+### Design & Brand
+
+| Document | Description | Link |
+|----------|-------------|------|
+| **Design System** | Colors, typography, components, spacing, patterns | [View](./design/DESIGN_SYSTEM.md) |
+| **Brand Guidelines** | Logo usage, voice, tone, visual identity | [View](./design/brand/BRAND_GUIDELINES.md) |
+
+---
+
+### Source Code
+
+| Directory | Description | Link |
+|-----------|-------------|------|
+| **Source Root** | Development setup, monorepo structure | [View](./src/README.md) |
+| **Web (Marketing)** | Next.js marketing website | [View](./src/web/README.md) |
+| **Mobile (Guest App)** | React Native guest application | [View](./src/mobile/README.md) |
+| **API (Backend)** | NestJS backend services | [View](./src/api/README.md) |
+| **Admin Dashboard** | Next.js admin interface | [View](./src/admin/README.md) |
+| **Shared** | Shared types, utilities, constants | [View](./src/shared/README.md) |
+
+---
+
+### Business & Fundraising
+
+| Document | Description | Link |
+|----------|-------------|------|
+| **Digital Pitch Packet** | $5M raise strategy, pitch narrative, investor approach | [View](./docs/DIGITAL_PITCH_PACKET.md) |
+| **Quick Start** | 10-minute fundraise overview, immediate actions | [View](./docs/pitch-packet/QUICK_START.md) |
+| **Investor Portal Spec** | Technical spec for investor web experience | [View](./docs/pitch-packet/INVESTOR_PORTAL_SPEC.md) |
+| **Content Checklist** | 107 content items needed for pitch | [View](./docs/pitch-packet/CONTENT_CHECKLIST.md) |
+| **Financial Model Guide** | Unit economics, projections, use of funds | [View](./docs/pitch-packet/FINANCIAL_MODEL_GUIDE.md) |
+
+---
+
+## Overview
 
 Transformational Epicenter is a network of medical-based wellness and bio-optimization clinics offering luxury retreat experiences designed to address healing at the root level: physical, neurological, emotional, and spiritual.
 
 **This is not about escaping life. It's about returning to it - transformed.**
-
----
-
-## The Eight Pillars
-
-Our approach rests on eight foundational pillars:
-
-| Pillar | Focus |
-|--------|-------|
-| 1. Medical & Scientific Oversight | Evidence-based care, safety screening, measurable outcomes |
-| 2. Plant Medicine (Iboga & Ibogaine) | Medically supervised, trauma-informed ceremonies |
-| 3. Advanced Bio-Optimization | State-of-the-art modalities for recovery and vitality |
-| 4. Trauma Integration | Nervous system restoration and lasting change |
-| 5. Five-Star Hospitality & Functional Fitness | Luxury care that allows complete surrender to healing |
-| 6. Digital Ecosystem | AI Superintelligent System supporting the complete journey |
-| 7. Pre-Care (Preparation) | 4-8 weeks of readiness, safety, intention, nervous system priming |
-| 8. Post-Care (Integration) | 3-12+ months of integration, embodiment, community, longevity |
-
----
-
-## Programs
-
-| Program | Duration | Focus |
-|---------|----------|-------|
-| **Reset** | 7 days | Nervous system reset |
-| **Interruption** | 14 days | Trauma interruption and integration |
-| **Recalibration** | 21 days | Deep recalibration |
-| **Transformation** | 28 days | Full transformation arc |
 
 ---
 
@@ -45,17 +124,18 @@ Our approach rests on eight foundational pillars:
 ```
 /epic-center
 │
-├── ARCHITECT.md              # Architect agent profile (development guide)
-├── README.md                 # This file
+├── README.md                 # You are here - Navigation hub
+├── ARCHITECT.md              # Development guide & principles
 │
 ├── /docs                     # Documentation
 │   ├── VISION.md             # Core vision and philosophy
 │   ├── MASTER_PLAN.md        # Implementation roadmap
-│   ├── /architecture         # Technical architecture
-│   ├── /pillars              # Seven pillar deep dives
-│   ├── /programs             # Program structure details
-│   ├── /operations           # Operational planning
-│   └── /business             # Business planning
+│   ├── DIGITAL_PITCH_PACKET.md # Fundraising strategy
+│   │
+│   ├── /architecture         # Technical architecture (5 docs)
+│   ├── /pillars              # Eight pillar deep dives (8 docs)
+│   ├── /programs             # Program structures (5 docs)
+│   └── /pitch-packet         # Investor materials (4 docs)
 │
 ├── /src                      # Application source code
 │   ├── /web                  # Marketing website (Next.js)
@@ -65,9 +145,7 @@ Our approach rests on eight foundational pillars:
 │   └── /admin                # Admin dashboard (Next.js)
 │
 ├── /design                   # Design system
-│   ├── DESIGN_SYSTEM.md      # Design system documentation
-│   ├── /tokens               # Design tokens
-│   ├── /components           # Component specifications
+│   ├── DESIGN_SYSTEM.md      # Design documentation
 │   └── /brand                # Brand guidelines
 │
 └── /infrastructure           # DevOps and infrastructure
@@ -128,20 +206,37 @@ Our approach rests on eight foundational pillars:
 
 ---
 
+## Project Status
+
+**Current Phase**: Phase 0 - Foundation
+
+| Status | Area |
+|--------|------|
+| Complete | Documentation framework (25+ docs) |
+| Complete | Technical architecture design |
+| Complete | Design system foundation |
+| Complete | Pitch packet strategy |
+| In Progress | Platform development |
+| Planned | Facility buildout |
+| Planned | Team expansion |
+
+---
+
 ## Getting Started
 
 ### For Development
+1. See [ARCHITECT.md](./ARCHITECT.md) for development principles
+2. See [/src/README.md](./src/README.md) for setup instructions
 
-See [ARCHITECT.md](./ARCHITECT.md) for the complete architect agent profile and development guidelines.
+### For Understanding the Vision
+1. Start with [VISION.md](./docs/VISION.md)
+2. Review the [Eight Pillars](#-the-eight-pillars)
+3. Explore [Program Structures](#-programs)
 
-See [/src/README.md](./src/README.md) for development setup instructions.
-
-### Key Documentation
-
-- [Vision & Philosophy](./docs/VISION.md)
-- [Master Implementation Plan](./docs/MASTER_PLAN.md)
-- [System Architecture](./docs/architecture/SYSTEM_OVERVIEW.md)
-- [Design System](./design/DESIGN_SYSTEM.md)
+### For Investors
+1. Start with [Digital Pitch Packet](./docs/DIGITAL_PITCH_PACKET.md)
+2. Quick overview: [Quick Start](./docs/pitch-packet/QUICK_START.md)
+3. Financials: [Financial Model Guide](./docs/pitch-packet/FINANCIAL_MODEL_GUIDE.md)
 
 ---
 
@@ -150,7 +245,7 @@ See [/src/README.md](./src/README.md) for development setup instructions.
 30+ Transformational Epicenters globally, aligned under the same ethical, medical, and spiritual framework.
 
 Each location will offer:
-- The same seven-pillar foundation
+- The same eight-pillar foundation
 - Consistent medical and safety protocols
 - Unified digital ecosystem
 - Global community connection
@@ -158,18 +253,58 @@ Each location will offer:
 
 ---
 
-## Contributing
+## Document Index (A-Z)
 
-This is a private project. See the ARCHITECT.md for development guidelines.
+<details>
+<summary>Click to expand full document list</summary>
+
+| Document | Path |
+|----------|------|
+| 7-Day Reset | [docs/programs/7_DAY_RESET.md](./docs/programs/7_DAY_RESET.md) |
+| 14-Day Interruption | [docs/programs/14_DAY_INTERRUPTION.md](./docs/programs/14_DAY_INTERRUPTION.md) |
+| 21-Day Recalibration | [docs/programs/21_DAY_RECALIBRATION.md](./docs/programs/21_DAY_RECALIBRATION.md) |
+| 28-Day Transformation | [docs/programs/28_DAY_TRANSFORMATION.md](./docs/programs/28_DAY_TRANSFORMATION.md) |
+| Admin README | [src/admin/README.md](./src/admin/README.md) |
+| API README | [src/api/README.md](./src/api/README.md) |
+| Architect Guide | [ARCHITECT.md](./ARCHITECT.md) |
+| Bio-Optimization | [docs/pillars/03_BIO_OPTIMIZATION.md](./docs/pillars/03_BIO_OPTIMIZATION.md) |
+| Brand Guidelines | [design/brand/BRAND_GUIDELINES.md](./design/brand/BRAND_GUIDELINES.md) |
+| Content Checklist | [docs/pitch-packet/CONTENT_CHECKLIST.md](./docs/pitch-packet/CONTENT_CHECKLIST.md) |
+| Data Architecture | [docs/architecture/DATA_ARCHITECTURE.md](./docs/architecture/DATA_ARCHITECTURE.md) |
+| Design System | [design/DESIGN_SYSTEM.md](./design/DESIGN_SYSTEM.md) |
+| Digital Ecosystem | [docs/pillars/06_DIGITAL_ECOSYSTEM.md](./docs/pillars/06_DIGITAL_ECOSYSTEM.md) |
+| Digital Pitch Packet | [docs/DIGITAL_PITCH_PACKET.md](./docs/DIGITAL_PITCH_PACKET.md) |
+| Financial Model Guide | [docs/pitch-packet/FINANCIAL_MODEL_GUIDE.md](./docs/pitch-packet/FINANCIAL_MODEL_GUIDE.md) |
+| Hospitality & Fitness | [docs/pillars/05_HOSPITALITY.md](./docs/pillars/05_HOSPITALITY.md) |
+| Infrastructure | [docs/architecture/INFRASTRUCTURE.md](./docs/architecture/INFRASTRUCTURE.md) |
+| Integration Map | [docs/architecture/INTEGRATION_MAP.md](./docs/architecture/INTEGRATION_MAP.md) |
+| Investor Portal Spec | [docs/pitch-packet/INVESTOR_PORTAL_SPEC.md](./docs/pitch-packet/INVESTOR_PORTAL_SPEC.md) |
+| Master Plan | [docs/MASTER_PLAN.md](./docs/MASTER_PLAN.md) |
+| Medical Oversight | [docs/pillars/01_MEDICAL_OVERSIGHT.md](./docs/pillars/01_MEDICAL_OVERSIGHT.md) |
+| Mobile README | [src/mobile/README.md](./src/mobile/README.md) |
+| Plant Medicine | [docs/pillars/02_PLANT_MEDICINE.md](./docs/pillars/02_PLANT_MEDICINE.md) |
+| Post-Care | [docs/pillars/08_POST_CARE.md](./docs/pillars/08_POST_CARE.md) |
+| Pre-Care | [docs/pillars/07_PRE_CARE.md](./docs/pillars/07_PRE_CARE.md) |
+| Program Overview | [docs/programs/PROGRAM_OVERVIEW.md](./docs/programs/PROGRAM_OVERVIEW.md) |
+| Quick Start (Pitch) | [docs/pitch-packet/QUICK_START.md](./docs/pitch-packet/QUICK_START.md) |
+| Security & Compliance | [docs/architecture/SECURITY_COMPLIANCE.md](./docs/architecture/SECURITY_COMPLIANCE.md) |
+| Shared README | [src/shared/README.md](./src/shared/README.md) |
+| Source README | [src/README.md](./src/README.md) |
+| System Overview | [docs/architecture/SYSTEM_OVERVIEW.md](./docs/architecture/SYSTEM_OVERVIEW.md) |
+| Trauma Integration | [docs/pillars/04_TRAUMA_INTEGRATION.md](./docs/pillars/04_TRAUMA_INTEGRATION.md) |
+| Vision | [docs/VISION.md](./docs/VISION.md) |
+| Web README | [src/web/README.md](./src/web/README.md) |
+
+</details>
 
 ---
 
-## Contact
+## Contributing
 
-*Contact information to be added*
+This is a private project. See [ARCHITECT.md](./ARCHITECT.md) for development guidelines.
 
 ---
 
 **Version**: 1.0.0
 **Status**: Phase 0 - Foundation
-**Last Updated**: December 2024
+**Last Updated**: January 2025

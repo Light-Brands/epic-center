@@ -1,3 +1,7 @@
+<[Home](../../README.md) | [Design System](../DESIGN_SYSTEM.md) | [Vision](../../docs/VISION.md) | [Pitch Packet](../../docs/DIGITAL_PITCH_PACKET.md)>
+
+---
+
 # Transformational Epicenter - Brand Guidelines
 
 > *The visual expression of transformation*

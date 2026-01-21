@@ -1,3 +1,7 @@
+<[Home](../../README.md) | [All Architecture](../../README.md#technical-architecture) | Next: [Data](./DATA_ARCHITECTURE.md) | [Source Code](../../src/README.md)>
+
+---
+
 # System Architecture Overview
 
 > *The digital nervous system of Transformational Epicenter*

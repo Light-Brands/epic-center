@@ -1,3 +1,7 @@
+<[Home](../../README.md) | [Vision](../VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Next: [Plant Medicine](./02_PLANT_MEDICINE.md)>
+
+---
+
 # Pillar 1: Medical and Scientific Oversight
 
 > *Evidence-based care protecting the sacred journey*

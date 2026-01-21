@@ -1,3 +1,7 @@
+<[README](../README.md) | [Master Plan](./MASTER_PLAN.md) | [Pillars](./pillars/01_MEDICAL_OVERSIGHT.md) | [Programs](./programs/PROGRAM_OVERVIEW.md) | [Architecture](./architecture/SYSTEM_OVERVIEW.md)>
+
+---
+
 # Transformational Epicenter - Vision & Philosophy
 
 > *"This is not about escaping life. It's about helping people return to life whole, present, sovereign, and awake."*

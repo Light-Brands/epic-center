@@ -1,3 +1,7 @@
+<[Home](../../README.md) | [Vision](../VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Prev: [Pre-Care](./07_PRE_CARE.md) | [Programs](../programs/PROGRAM_OVERVIEW.md)>
+
+---
+
 # Pillar 8: Post-Care (Integration)
 
 > *Where transformation becomes embodiment*

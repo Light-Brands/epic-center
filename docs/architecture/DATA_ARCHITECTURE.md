@@ -1,3 +1,7 @@
+<[Home](../../README.md) | [All Architecture](../../README.md#technical-architecture) | Prev: [System](./SYSTEM_OVERVIEW.md) | Next: [Security](./SECURITY_COMPLIANCE.md)>
+
+---
+
 # Data Architecture
 
 > *The foundation of guest safety and transformation tracking*
