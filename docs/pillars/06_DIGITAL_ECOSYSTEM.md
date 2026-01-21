@@ -38,6 +38,46 @@ Our digital ecosystem exists to:
 
 The AI Superintelligent System functions as a centralized intelligence layer that aggregates, organizes, and analyzes all relevant individual data collected throughout pre-care, on-site care, and post-care.
 
+```mermaid
+flowchart TB
+    subgraph SOURCES["📥 DATA SOURCES"]
+        direction TB
+        S1[🧬 Epigenetic Testing]
+        S2[🔬 DNA & Genetic Data]
+        S3[🩸 Blood & Biomarkers]
+        S4[⚗️ Hormonal & Metabolic]
+        S5[🧠 Brain Mapping]
+        S6[📋 Medical Intake]
+        S7[📊 Engagement Data]
+    end
+
+    subgraph AI["🤖 AI SUPERINTELLIGENT SYSTEM"]
+        direction TB
+        AGG[Aggregate & Organize]
+        ANAL[Analyze Patterns]
+        GEN[Generate Protocols]
+        ADAPT[Adapt Over Time]
+
+        AGG --> ANAL --> GEN --> ADAPT
+        ADAPT -.-> AGG
+    end
+
+    subgraph OUTPUT["📤 PERSONALIZED OUTPUTS"]
+        direction TB
+        O1[Pre-Care Protocols]
+        O2[Treatment Sequencing]
+        O3[Recovery Pathways]
+        O4[Integration Practices]
+        O5[Long-Term Optimization]
+    end
+
+    SOURCES --> AI --> OUTPUT
+
+    style SOURCES fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style AI fill:#fef3c7,stroke:#fbbf24,color:#92400e
+    style OUTPUT fill:#d1fae5,stroke:#34d399,color:#065f46
+```
+
 **Data Sources**
 - Epigenetic testing data
 - DNA and genetic testing data
@@ -77,32 +117,70 @@ This allows Transformational Epicenter to deliver adaptive, data-informed, and i
 
 ### Core Modules
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                        GUEST APP ARCHITECTURE                                │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                               │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐        │
-│  │ ONBOARDING  │  │  PRE-CARE   │  │   ON-SITE   │  │ INTEGRATION │        │
-│  │             │  │             │  │             │  │             │        │
-│  │ - Account   │  │ - Prep      │  │ - Schedule  │  │ - Practices │        │
-│  │ - Medical   │  │   content   │  │ - Booking   │  │ - Journal   │        │
-│  │   intake    │  │ - Practices │  │ - Community │  │ - Coaching  │        │
-│  │ - Consent   │  │ - Checklist │  │ - Services  │  │ - Progress  │        │
-│  │ - Payment   │  │ - Intention │  │ - Messaging │  │ - Resources │        │
-│  └─────────────┘  └─────────────┘  └─────────────┘  └─────────────┘        │
-│                                                                               │
-│  ┌─────────────────────────────────────────────────────────────────────┐    │
-│  │                         COMMUNITY                                     │    │
-│  │  - Cohort groups  - Direct messaging  - Events  - Alumni network    │    │
-│  └─────────────────────────────────────────────────────────────────────┘    │
-│                                                                               │
-│  ┌─────────────────────────────────────────────────────────────────────┐    │
-│  │                         PROFILE                                       │    │
-│  │  - Personal info  - Health data  - Preferences  - Settings          │    │
-│  └─────────────────────────────────────────────────────────────────────┘    │
-│                                                                               │
-└─────────────────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TB
+    subgraph APP["📱 GUEST APP ARCHITECTURE"]
+        direction TB
+
+        subgraph JOURNEY["🛤️ JOURNEY MODULES"]
+            direction LR
+
+            subgraph OB["📋 ONBOARDING"]
+                OB1[Account]
+                OB2[Medical Intake]
+                OB3[Consent]
+                OB4[Payment]
+            end
+
+            subgraph PC["🌱 PRE-CARE"]
+                PC1[Prep Content]
+                PC2[Practices]
+                PC3[Checklist]
+                PC4[Intention]
+            end
+
+            subgraph OS["🏔️ ON-SITE"]
+                OS1[Schedule]
+                OS2[Booking]
+                OS3[Community]
+                OS4[Messaging]
+            end
+
+            subgraph INT["🔄 INTEGRATION"]
+                INT1[Practices]
+                INT2[Journal]
+                INT3[Coaching]
+                INT4[Progress]
+            end
+        end
+
+        subgraph COMMUNITY["👥 COMMUNITY"]
+            COM1[Cohort Groups]
+            COM2[Direct Messaging]
+            COM3[Events]
+            COM4[Alumni Network]
+        end
+
+        subgraph PROFILE["👤 PROFILE"]
+            PRO1[Personal Info]
+            PRO2[Health Data]
+            PRO3[Preferences]
+            PRO4[Settings]
+        end
+    end
+
+    OB --> PC --> OS --> INT
+    JOURNEY --> COMMUNITY
+    JOURNEY --> PROFILE
+
+    style APP fill:#f8fafc,stroke:#cbd5e1,color:#334155
+    style JOURNEY fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style OB fill:#fef3c7,stroke:#fbbf24,color:#92400e
+    style PC fill:#d1fae5,stroke:#34d399,color:#065f46
+    style OS fill:#ede9fe,stroke:#a78bfa,color:#5b21b6
+    style INT fill:#fce7f3,stroke:#f472b6,color:#9d174d
+    style COMMUNITY fill:#ffedd5,stroke:#fb923c,color:#9a3412
+    style PROFILE fill:#e0e7ff,stroke:#6366f1,color:#3730a3
 ```
 
 ---
@@ -154,11 +232,16 @@ This allows Transformational Epicenter to deliver adaptive, data-informed, and i
 - Video consultation scheduling
 
 **User Flow**
-```
-┌─────────┐    ┌─────────┐    ┌─────────┐    ┌─────────┐    ┌─────────┐
-│ Apply   │───▶│ Medical │───▶│  Labs   │───▶│ Consult │───▶│Approved │
-│         │    │ Intake  │    │ Upload  │    │ Video   │    │         │
-└─────────┘    └─────────┘    └─────────┘    └─────────┘    └─────────┘
+
+```mermaid
+flowchart LR
+    A[📝 Apply] --> B[🏥 Medical<br/>Intake] --> C[🧪 Labs<br/>Upload] --> D[📹 Video<br/>Consult] --> E[✅ Approved]
+
+    style A fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style B fill:#fef3c7,stroke:#fbbf24,color:#92400e
+    style C fill:#ede9fe,stroke:#a78bfa,color:#5b21b6
+    style D fill:#ffedd5,stroke:#fb923c,color:#9a3412
+    style E fill:#d1fae5,stroke:#34d399,color:#065f46
 ```
 
 ### Stage 2: Pre-Care (Weeks -4 to 0)

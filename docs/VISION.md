@@ -85,6 +85,44 @@ Our guests are high-functioning individuals who have achieved external success b
 
 ## The Transformation We Facilitate
 
+```mermaid
+flowchart LR
+    subgraph FROM["❌ FROM"]
+        direction TB
+        F1[Nervous system<br/>dysregulation]
+        F2[Unprocessed<br/>trauma]
+        F3[Disconnection<br/>from body]
+        F4[Chronic stress<br/>& anxiety]
+        F5[Identity<br/>fragmentation]
+        F6[Lost purpose]
+        F7[Isolation]
+        F8[Surviving]
+    end
+
+    subgraph TRANSFORM["✨ TRANSFORMATION"]
+        T((Transformational<br/>Epicenter<br/>Journey))
+    end
+
+    subgraph TO["✅ TO"]
+        direction TB
+        T1[Nervous system<br/>coherence]
+        T2[Integrated<br/>experience]
+        T3[Embodied<br/>presence]
+        T4[Calm, grounded<br/>resilience]
+        T5[Coherent<br/>sense of self]
+        T6[Aligned<br/>mission]
+        T7[Connected<br/>community]
+        T8[Thriving]
+    end
+
+    FROM --> TRANSFORM --> TO
+
+    style FROM fill:#fee2e2,stroke:#f87171,color:#7f1d1d
+    style TRANSFORM fill:#fef3c7,stroke:#fbbf24,color:#92400e
+    style TO fill:#d1fae5,stroke:#34d399,color:#065f46
+    style T fill:#fef3c7,stroke:#fbbf24,color:#92400e
+```
+
 ### From → To
 
 | From | To |
@@ -104,6 +142,51 @@ Our guests are high-functioning individuals who have achieved external success b
 ## The Eight Pillars
 
 Our approach rests on eight foundational pillars, each essential to the whole:
+
+```mermaid
+mindmap
+  root((Transformational<br/>Epicenter))
+    🏥 Medical & Scientific
+      Evidence-based protocols
+      Rigorous safety screening
+      Continuous monitoring
+      Measurable outcomes
+    🌿 Plant Medicine
+      Iboga & Ibogaine
+      Trauma-informed
+      Medical oversight
+      Sacred reverence
+    🧬 Bio-Optimization
+      State-of-the-art modalities
+      Nervous system restoration
+      Recovery acceleration
+      Long-term vitality
+    💚 Trauma Integration
+      Personalized support
+      Somatic therapies
+      Nervous system work
+      Identity healing
+    ✨ Five-Star Hospitality
+      Luxury environment
+      Therapeutic massage
+      Organic cuisine
+      Functional fitness
+    📱 Digital Ecosystem
+      AI Superintelligent System
+      Medical onboarding
+      Community connection
+      HIPAA-compliant
+    🌱 Pre-Care
+      4-8 weeks preparation
+      Psychological readiness
+      Nervous system priming
+      Intention setting
+    🔄 Post-Care
+      3-12+ months integration
+      Coaching & community
+      Lasting change
+      Alumni pathways
+```
 
 ### Pillar 1: Medical and Scientific Oversight
 Evidence-based protocols. Rigorous safety screening. Continuous monitoring. Measurable outcomes. We honor the body's complexity with medical precision.
@@ -132,6 +215,37 @@ Where transformation becomes embodiment. 3-12+ months of processing, understandi
 ---
 
 ## The Guest Journey Arc
+
+```mermaid
+flowchart LR
+    subgraph JOURNEY["🛤️ THE GUEST JOURNEY ARC"]
+        direction LR
+
+        subgraph P1["🌅 PHASE 1<br/>AWAKENING"]
+            P1A[4-8 weeks<br/>before arrival]
+        end
+
+        subgraph P2["🌊 PHASE 2<br/>IMMERSION"]
+            P2A[7, 14, 21, or<br/>28 days on-site]
+        end
+
+        subgraph P3["🌱 PHASE 3<br/>INTEGRATION"]
+            P3A[3-12 months<br/>post-retreat]
+        end
+
+        subgraph P4["✨ PHASE 4<br/>EMBODIMENT"]
+            P4A[Lifetime<br/>transformation]
+        end
+    end
+
+    P1 --> P2 --> P3 --> P4
+
+    style JOURNEY fill:#f8fafc,stroke:#cbd5e1,color:#334155
+    style P1 fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style P2 fill:#fef3c7,stroke:#fbbf24,color:#92400e
+    style P3 fill:#d1fae5,stroke:#34d399,color:#065f46
+    style P4 fill:#ede9fe,stroke:#a78bfa,color:#5b21b6
+```
 
 ### Phase 1: Awakening (Pre-Retreat)
 *Duration: 4-8 weeks before arrival*
@@ -206,6 +320,49 @@ The Transformational Epicenter is not merely a building - it is a therapeutic en
 ---
 
 ## The Long-Term Vision
+
+```mermaid
+flowchart TB
+    subgraph VISION["🔭 LONG-TERM VISION"]
+        direction TB
+
+        subgraph Y12["📋 PHASE 1: FOUNDATION<br/>Year 1-2"]
+            Y12A[Launch Mexico Location]
+            Y12B[Establish Protocols]
+            Y12C[Digital Platform MVP]
+            Y12D[Staff Training]
+        end
+
+        subgraph Y23["⚡ PHASE 2: OPTIMIZATION<br/>Year 2-3"]
+            Y23A[Refine Protocols]
+            Y23B[Expand Platform]
+            Y23C[Build Reputation]
+            Y23D[Expansion Playbook]
+        end
+
+        subgraph Y310["🚀 PHASE 3: EXPANSION<br/>Year 3-10"]
+            Y310A[2nd & 3rd Locations]
+            Y310B[Licensing Model]
+            Y310C[Training Academy]
+            Y310D[Research Partnerships]
+        end
+
+        subgraph Y10["🌍 PHASE 4: NETWORK<br/>Year 10+"]
+            Y10A[30+ Global Locations]
+            Y10B[Unified Platform]
+            Y10C[Research Institute]
+            Y10D[Thought Leadership]
+        end
+    end
+
+    Y12 --> Y23 --> Y310 --> Y10
+
+    style VISION fill:#f8fafc,stroke:#cbd5e1,color:#334155
+    style Y12 fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style Y23 fill:#fef3c7,stroke:#fbbf24,color:#92400e
+    style Y310 fill:#d1fae5,stroke:#34d399,color:#065f46
+    style Y10 fill:#ede9fe,stroke:#a78bfa,color:#5b21b6
+```
 
 ### Phase 1: Foundation (Year 1-2)
 - Launch first Transformational Epicenter in Mexico

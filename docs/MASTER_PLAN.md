@@ -45,6 +45,28 @@ Transformational Epicenter × Light Brands Consulting will design and build a HI
 
 ## Phase Overview
 
+```mermaid
+flowchart LR
+    subgraph PHASES["🗺️ IMPLEMENTATION PHASES"]
+        direction LR
+        P0["📋 Phase 0<br/><b>FOUNDATION</b><br/>Planning & Architecture"]
+        P1["🎨 Phase 1<br/><b>DESIGN</b><br/>Digital & Physical"]
+        P2["⚙️ Phase 2<br/><b>DEVELOPMENT</b><br/>Building"]
+        P3["🔗 Phase 3<br/><b>INTEGRATION</b><br/>Systems & Training"]
+        P4["🚀 Phase 4<br/><b>LAUNCH</b><br/>Go-Live"]
+        P5["📈 Phase 5<br/><b>SCALE</b><br/>Growth"]
+    end
+
+    P0 --> P1 --> P2 --> P3 --> P4 --> P5
+
+    style P0 fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style P1 fill:#ede9fe,stroke:#a78bfa,color:#5b21b6
+    style P2 fill:#fef3c7,stroke:#fbbf24,color:#92400e
+    style P3 fill:#ffedd5,stroke:#fb923c,color:#9a3412
+    style P4 fill:#d1fae5,stroke:#34d399,color:#065f46
+    style P5 fill:#fce7f3,stroke:#f472b6,color:#9d174d
+```
+
 | Phase | Name | Focus | Key Deliverables |
 |-------|------|-------|------------------|
 | 0 | Foundation | Planning & Architecture | Documentation, technical architecture, team formation |
@@ -59,6 +81,30 @@ Transformational Epicenter × Light Brands Consulting will design and build a HI
 ## AI Superintelligent System Phases
 
 The AI platform development runs parallel to the physical implementation with its own phase structure:
+
+```mermaid
+flowchart TB
+    subgraph AIPHASES["🤖 AI SUPERINTELLIGENT SYSTEM PHASES"]
+        direction TB
+
+        AP0["🔐 Phase 0<br/><b>HIPAA-FIRST ARCHITECTURE</b><br/>Platform + App Foundation"]
+        AP1["🌐 Phase 1<br/><b>WEBSITE → AI INTELLIGENCE</b><br/>Previews & Front Door"]
+        AP2["📱 Phase 2<br/><b>WHITE-LABEL PLATFORM</b><br/>Core Value Delivery"]
+        AP3["👥 Phase 3<br/><b>COMMUNITY ARCHITECTURE</b><br/>App-Based Communities"]
+        AP4["📈 Phase 4<br/><b>PROGRAMS & LTV</b><br/>Boosters & Expansion"]
+        AP5["🌐 Phase 5<br/><b>SYSTEM MAP</b><br/>Complete Ecosystem"]
+    end
+
+    AP0 --> AP1 --> AP2 --> AP3 --> AP4 --> AP5
+
+    style AIPHASES fill:#f8fafc,stroke:#cbd5e1,color:#334155
+    style AP0 fill:#fee2e2,stroke:#f87171,color:#7f1d1d
+    style AP1 fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style AP2 fill:#d1fae5,stroke:#34d399,color:#065f46
+    style AP3 fill:#fef3c7,stroke:#fbbf24,color:#92400e
+    style AP4 fill:#ede9fe,stroke:#a78bfa,color:#5b21b6
+    style AP5 fill:#fce7f3,stroke:#f472b6,color:#9d174d
+```
 
 ### AI Phase 0: HIPAA-First Architecture (Platform + App Foundation)
 
@@ -168,20 +214,38 @@ Triggered by:
 
 ### AI Phase 5: System Map (Complete Ecosystem)
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│               TRANSFORMATIONAL EPICENTER ECOSYSTEM                   │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                       │
-│  Website ─▶ Platform ─▶ App ─▶ AI ─▶ Communities ─▶ Care            │
-│                                          │                            │
-│                                          ├─▶ Capital                  │
-│                                          │                            │
-│                                          └─▶ Referrals                │
-│                                                                       │
-│  One login │ One intelligence layer │ One Epicenter-owned ecosystem │
-│                                                                       │
-└─────────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart LR
+    subgraph ECOSYSTEM["🌐 TRANSFORMATIONAL EPICENTER ECOSYSTEM"]
+        direction LR
+
+        WEB[🌍 Website] --> PLAT[📱 Platform] --> APP[📲 App] --> AI[🤖 AI]
+
+        AI --> COM[👥 Communities]
+
+        COM --> CARE[💚 Care]
+        COM --> CAP[💰 Capital]
+        COM --> REF[🔗 Referrals]
+    end
+
+    subgraph UNIFIED["✨ UNIFIED EXPERIENCE"]
+        U1[One Login]
+        U2[One Intelligence Layer]
+        U3[One Epicenter-Owned Ecosystem]
+    end
+
+    ECOSYSTEM --> UNIFIED
+
+    style ECOSYSTEM fill:#f8fafc,stroke:#cbd5e1,color:#334155
+    style WEB fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style PLAT fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style APP fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style AI fill:#fef3c7,stroke:#fbbf24,color:#92400e
+    style COM fill:#d1fae5,stroke:#34d399,color:#065f46
+    style CARE fill:#d1fae5,stroke:#34d399,color:#065f46
+    style CAP fill:#ede9fe,stroke:#a78bfa,color:#5b21b6
+    style REF fill:#ffedd5,stroke:#fb923c,color:#9a3412
+    style UNIFIED fill:#fce7f3,stroke:#f472b6,color:#9d174d
 ```
 
 ---

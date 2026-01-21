@@ -30,24 +30,34 @@ This document outlines our strategy for creating a **100% digital pitch ecosyste
 
 ### 1.1 Core Components
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                    INVESTOR EXPERIENCE FLOW                         │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                     │
-│   ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐    │
-│   │ Landing  │───▶│Interactive│───▶│  Data    │───▶│ Meeting  │    │
-│   │  Page    │    │  Pitch   │    │  Room    │    │ Scheduler│    │
-│   └──────────┘    └──────────┘    └──────────┘    └──────────┘    │
-│        │               │               │               │           │
-│        ▼               ▼               ▼               ▼           │
-│   ┌──────────────────────────────────────────────────────────┐     │
-│   │              INVESTOR ENGAGEMENT ANALYTICS               │     │
-│   │  • Time on page  • Sections viewed  • Documents opened  │     │
-│   │  • Return visits  • Questions asked  • Interest score   │     │
-│   └──────────────────────────────────────────────────────────┘     │
-│                                                                     │
-└─────────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TB
+    subgraph FLOW["🎯 INVESTOR EXPERIENCE FLOW"]
+        direction LR
+        L[🏠 Landing<br/>Page] --> I[📊 Interactive<br/>Pitch] --> D[📁 Data<br/>Room] --> M[📅 Meeting<br/>Scheduler]
+    end
+
+    subgraph ANALYTICS["📈 INVESTOR ENGAGEMENT ANALYTICS"]
+        direction TB
+        A1[⏱️ Time on Page]
+        A2[👁️ Sections Viewed]
+        A3[📄 Documents Opened]
+        A4[🔄 Return Visits]
+        A5[❓ Questions Asked]
+        A6[⭐ Interest Score]
+    end
+
+    L --> ANALYTICS
+    I --> ANALYTICS
+    D --> ANALYTICS
+    M --> ANALYTICS
+
+    style FLOW fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style ANALYTICS fill:#d1fae5,stroke:#10b981,color:#065f46
+    style L fill:#fef3c7,stroke:#fbbf24,color:#92400e
+    style I fill:#fef3c7,stroke:#fbbf24,color:#92400e
+    style D fill:#fef3c7,stroke:#fbbf24,color:#92400e
+    style M fill:#fef3c7,stroke:#fbbf24,color:#92400e
 ```
 
 ### 1.2 What We're Building
@@ -135,40 +145,49 @@ for the next era of mental health.
 ```
 
 #### Section 4: Business Model
+
+```mermaid
+flowchart TB
+    subgraph REVENUE["💰 REVENUE ARCHITECTURE"]
+        direction TB
+
+        subgraph RETREATS["🏔️ RETREAT PROGRAMS — Primary Revenue"]
+            R1[🌱 7-Day Reset]
+            R2[⚡ 14-Day Interruption]
+            R3[🔄 21-Day Recalibration]
+            R4[✨ 28-Day Transformation]
+        end
+
+        subgraph BIOOPT["🧬 BIO-OPTIMIZATION ADD-ONS"]
+            B1[Extended Protocols]
+            B2[Longevity Packages]
+            B3[Executive Assessments]
+        end
+
+        subgraph DIGITAL["📱 DIGITAL PLATFORM"]
+            D1[Post-Care Subscriptions]
+            D2[Community Memberships]
+            D3[Corporate Partnerships]
+        end
+
+        subgraph GROWTH["🚀 GROWTH DRIVERS"]
+            G1[Ambassador Network<br/>2.5-10% Referral]
+            G2[Licensing & Franchise<br/>Year 3+]
+        end
+    end
+
+    RETREATS --> BIOOPT
+    BIOOPT --> DIGITAL
+    DIGITAL --> GROWTH
+
+    style REVENUE fill:#f8fafc,stroke:#cbd5e1,color:#334155
+    style RETREATS fill:#d1fae5,stroke:#34d399,color:#065f46
+    style BIOOPT fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style DIGITAL fill:#ede9fe,stroke:#a78bfa,color:#5b21b6
+    style GROWTH fill:#fef3c7,stroke:#fbbf24,color:#92400e
 ```
-REVENUE ARCHITECTURE
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-[Interactive revenue calculator]
-
-CORE REVENUE STREAMS:
-
-1. RETREAT PROGRAMS
-   ├── 7-Day Reset      → $XX,XXX
-   ├── 14-Day Interruption → $XX,XXX
-   ├── 21-Day Recalibration → $XX,XXX
-   └── 28-Day Transformation → $XX,XXX
-
-2. BIO-OPTIMIZATION ADD-ONS
-   ├── Extended protocols
-   ├── Longevity packages
-   └── Executive health assessments
-
-3. DIGITAL PLATFORM
-   ├── Post-care subscriptions
-   ├── Community memberships
-   └── Corporate wellness partnerships
-
-4. AMBASSADOR NETWORK
-   ├── 2.5-10% referral commissions (cost, not revenue)
-   └── Network effect growth driver
-
-5. FUTURE: LICENSING & FRANCHISE (Year 3+)
-   └── Platform licensing to certified centers
-
-[Slider: Adjust occupancy rate to see revenue projections]
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
+*[Interactive: Slider to adjust occupancy rate and see revenue projections]*
 
 #### Section 5: Traction & Validation
 ```
@@ -226,37 +245,50 @@ No one else is building all three together.
 ```
 
 #### Section 7: Go-to-Market
+
+```mermaid
+flowchart LR
+    subgraph P1["🏗️ PHASE 1: FOUNDATION<br/>Months 1-12"]
+        direction TB
+        P1A[Launch Mexico<br/>12 beds]
+        P1B[MVP Platform]
+        P1C[Core Team]
+        P1D[Target: 50-75 guests]
+    end
+
+    subgraph P2["⚡ PHASE 2: OPTIMIZATION<br/>Months 12-24"]
+        direction TB
+        P2A[Refine Protocols]
+        P2B[Full Platform]
+        P2C[Expand to 20 beds]
+        P2D[Target: 150-200 guests]
+    end
+
+    subgraph P3["🚀 PHASE 3: SCALE<br/>Months 24-36"]
+        direction TB
+        P3A[Second Location]
+        P3B[Training Academy]
+        P3C[Research Partners]
+        P3D[Target: 300+ guests]
+    end
+
+    P1 --> P2 --> P3
+
+    style P1 fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style P2 fill:#fef3c7,stroke:#fbbf24,color:#92400e
+    style P3 fill:#d1fae5,stroke:#34d399,color:#065f46
 ```
-GROWTH STRATEGY
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-[Animated growth funnel]
+**Acquisition Channels:**
 
-PHASE 1: FOUNDATION (Months 1-12)
-├── Launch Mexico facility (12 beds)
-├── MVP digital platform
-├── Core team operational
-└── Target: 50-75 guests
-
-PHASE 2: OPTIMIZATION (Months 12-24)
-├── Refine protocols based on outcomes
-├── Full platform feature set
-├── Expand to 20 beds
-└── Target: 150-200 guests
-
-PHASE 3: SCALE (Months 24-36)
-├── Second location planning
-├── Training academy launch
-├── Research partnerships
-└── Target: 300+ guests
-
-ACQUISITION CHANNELS:
-1. Ambassador referral network (40%)
-2. Executive/entrepreneur networks (25%)
-3. Healthcare provider referrals (20%)
-4. Content marketing & thought leadership (10%)
-5. Strategic partnerships (5%)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```mermaid
+pie showData
+    title Guest Acquisition Mix
+    "Ambassador Referrals" : 40
+    "Executive Networks" : 25
+    "Healthcare Referrals" : 20
+    "Content Marketing" : 10
+    "Strategic Partnerships" : 5
 ```
 
 #### Section 8: Financial Projections
@@ -334,13 +366,16 @@ RAISING: $5,000,000
 STRUCTURE: [SAFE / Priced Round - TBD]
 
 USE OF FUNDS:
-┌─────────────────────────────────────────────────────────────┐
-│ ████████████████████░░░░░░  Facility & Operations   40%    │
-│ ██████████████░░░░░░░░░░░░  Platform Development    30%    │
-│ ████████░░░░░░░░░░░░░░░░░░  Team Expansion          15%    │
-│ ██████░░░░░░░░░░░░░░░░░░░░  Marketing & Growth      10%    │
-│ ██░░░░░░░░░░░░░░░░░░░░░░░░  Legal & Compliance       5%    │
-└─────────────────────────────────────────────────────────────┘
+
+```mermaid
+pie showData
+    title Use of Funds — $5M Allocation
+    "Facility & Operations" : 40
+    "Platform Development" : 30
+    "Team Expansion" : 15
+    "Marketing & Growth" : 10
+    "Legal & Compliance" : 5
+```
 
 MILESTONES THIS FUNDING ENABLES:
 ✓ First facility operational (Mexico)
@@ -370,24 +405,46 @@ TERMS: [Details in data room]
 
 **URL Structure**: `invest.transformationalepicenter.com`
 
-```
-PORTAL ARCHITECTURE
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```mermaid
+flowchart TB
+    subgraph PORTAL["🌐 PORTAL ARCHITECTURE"]
+        direction TB
 
-/                           → Landing page with email capture
-/pitch                      → Interactive pitch experience
-/demo                       → Live platform demo
-/data-room                  → Document repository
-/data-room/financials       → Financial models & projections
-/data-room/legal            → Legal documents
-/data-room/technical        → Technical documentation
-/data-room/team             → Team backgrounds & references
-/model                      → Interactive financial model
-/faq                        → AI-powered FAQ
-/schedule                   → Meeting booking
-/[investor-name]            → Personalized investor pages
+        subgraph PUBLIC["Public Pages"]
+            HOME[/ Landing Page<br/>Email Capture]
+            PITCH[/pitch Interactive<br/>Pitch Experience]
+            DEMO[/demo Live<br/>Platform Demo]
+        end
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        subgraph DATAROOM["📁 Data Room"]
+            DR[/data-room Repository]
+            DR --> DRF[/financials]
+            DR --> DRL[/legal]
+            DR --> DRT[/technical]
+            DR --> DRTE[/team]
+        end
+
+        subgraph TOOLS["🛠️ Interactive Tools"]
+            MODEL[/model Financial<br/>Calculator]
+            FAQ[/faq AI-Powered<br/>Q&A]
+            SCHED[/schedule Meeting<br/>Booking]
+        end
+
+        subgraph PERSONAL["✨ Personalized"]
+            INV[/investor-name Custom<br/>Experience]
+        end
+    end
+
+    HOME --> PITCH --> DEMO
+    DEMO --> DATAROOM
+    DEMO --> TOOLS
+    TOOLS --> INV
+
+    style PORTAL fill:#f8fafc,stroke:#cbd5e1,color:#334155
+    style PUBLIC fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style DATAROOM fill:#d1fae5,stroke:#34d399,color:#065f46
+    style TOOLS fill:#fef3c7,stroke:#fbbf24,color:#92400e
+    style PERSONAL fill:#ede9fe,stroke:#a78bfa,color:#5b21b6
 ```
 
 **Tech Stack**:
@@ -550,34 +607,45 @@ DATA ROOM STRUCTURE
 
 ### 5.1 Outreach Flow
 
-```
-INVESTOR JOURNEY
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```mermaid
+flowchart TB
+    subgraph S1["📢 STAGE 1: AWARENESS"]
+        direction TB
+        A1[Warm intro email]
+        A2[Personalized landing page]
+        A3[Soft ask for thoughts]
+    end
 
-STAGE 1: AWARENESS
-├── Warm intro email (personalized)
-├── Link to personalized landing page
-└── Soft ask: "Would love your thoughts on our approach"
+    subgraph S2["👀 STAGE 2: INTEREST"]
+        direction TB
+        B1[Views interactive pitch]
+        B2[Analytics track engagement]
+        B3[Automated follow-up]
+        B4[Offer walkthrough]
+    end
 
-STAGE 2: INTEREST
-├── Investor views interactive pitch
-├── Analytics track engagement
-├── Automated follow-up if high engagement
-└── Offer: "Happy to walk you through anything"
+    subgraph S3["🔍 STAGE 3: EVALUATION"]
+        direction TB
+        C1[Data room access]
+        C2[Deep-dive meeting]
+        C3[Technical demo]
+        C4[Reference calls]
+    end
 
-STAGE 3: EVALUATION
-├── Data room access granted
-├── Deep-dive meeting scheduled
-├── Technical demo if requested
-└── Reference calls facilitated
+    subgraph S4["✅ STAGE 4: DECISION"]
+        direction TB
+        D1[Term sheet discussion]
+        D2[Due diligence support]
+        D3[Legal review]
+        D4[Close]
+    end
 
-STAGE 4: DECISION
-├── Term sheet discussion
-├── Final due diligence support
-├── Legal document review
-└── Close
+    S1 --> S2 --> S3 --> S4
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    style S1 fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style S2 fill:#fef3c7,stroke:#fbbf24,color:#92400e
+    style S3 fill:#ede9fe,stroke:#a78bfa,color:#5b21b6
+    style S4 fill:#d1fae5,stroke:#34d399,color:#065f46
 ```
 
 ### 5.2 Personalization Strategy

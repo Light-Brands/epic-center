@@ -14,42 +14,55 @@ A dedicated web application for presenting our investment opportunity in an inte
 
 ## Architecture
 
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                         INVESTOR PORTAL                                  │
-├─────────────────────────────────────────────────────────────────────────┤
-│                                                                          │
-│  ┌─────────────────────────────────────────────────────────────────┐    │
-│  │                        NEXT.JS 14 APP                           │    │
-│  │                                                                  │    │
-│  │  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐           │    │
-│  │  │ Landing  │ │Interactive│ │  Data    │ │ Schedule │           │    │
-│  │  │  Page    │ │  Pitch   │ │  Room    │ │   Page   │           │    │
-│  │  └──────────┘ └──────────┘ └──────────┘ └──────────┘           │    │
-│  │                                                                  │    │
-│  │  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐           │    │
-│  │  │Financial │ │   Team   │ │    AI    │ │Personalized│          │    │
-│  │  │  Model   │ │Showcase  │ │   FAQ    │ │  Pages   │           │    │
-│  │  └──────────┘ └──────────┘ └──────────┘ └──────────┘           │    │
-│  │                                                                  │    │
-│  └─────────────────────────────────────────────────────────────────┘    │
-│                                                                          │
-│  ┌─────────────────────────────────────────────────────────────────┐    │
-│  │                        SERVICES LAYER                            │    │
-│  │                                                                  │    │
-│  │  ┌────────────┐  ┌────────────┐  ┌────────────┐                 │    │
-│  │  │  Supabase  │  │  PostHog   │  │   Cal.com  │                 │    │
-│  │  │ Auth + DB  │  │ Analytics  │  │ Scheduling │                 │    │
-│  │  └────────────┘  └────────────┘  └────────────┘                 │    │
-│  │                                                                  │    │
-│  │  ┌────────────┐  ┌────────────┐  ┌────────────┐                 │    │
-│  │  │   OpenAI   │  │  Vercel    │  │   Resend   │                 │    │
-│  │  │  FAQ Bot   │  │  Hosting   │  │   Email    │                 │    │
-│  │  └────────────┘  └────────────┘  └────────────┘                 │    │
-│  │                                                                  │    │
-│  └─────────────────────────────────────────────────────────────────┘    │
-│                                                                          │
-└─────────────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TB
+    subgraph PORTAL["🌐 INVESTOR PORTAL"]
+        direction TB
+
+        subgraph APP["⚛️ NEXT.JS 14 APP"]
+            direction TB
+
+            subgraph PAGES1["Core Pages"]
+                LP[🏠 Landing<br/>Page]
+                IP[📊 Interactive<br/>Pitch]
+                DR[📁 Data<br/>Room]
+                SP[📅 Schedule<br/>Page]
+            end
+
+            subgraph PAGES2["Feature Pages"]
+                FM[💰 Financial<br/>Model]
+                TS[👥 Team<br/>Showcase]
+                FAQ[🤖 AI<br/>FAQ]
+                PP[✨ Personalized<br/>Pages]
+            end
+        end
+
+        subgraph SERVICES["🔧 SERVICES LAYER"]
+            direction TB
+
+            subgraph ROW1["Data & Auth"]
+                SB[🔐 Supabase<br/>Auth + DB]
+                PH[📈 PostHog<br/>Analytics]
+                CAL[📅 Cal.com<br/>Scheduling]
+            end
+
+            subgraph ROW2["AI & Delivery"]
+                OAI[🧠 OpenAI<br/>FAQ Bot]
+                VER[▲ Vercel<br/>Hosting]
+                RES[📧 Resend<br/>Email]
+            end
+        end
+    end
+
+    APP --> SERVICES
+
+    style PORTAL fill:#f8fafc,stroke:#cbd5e1,color:#334155
+    style APP fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style SERVICES fill:#d1fae5,stroke:#34d399,color:#065f46
+    style PAGES1 fill:#fef3c7,stroke:#fbbf24,color:#92400e
+    style PAGES2 fill:#ede9fe,stroke:#a78bfa,color:#5b21b6
+    style ROW1 fill:#ffedd5,stroke:#fb923c,color:#9a3412
+    style ROW2 fill:#fce7f3,stroke:#f472b6,color:#9d174d
 ```
 
 ---
@@ -434,6 +447,38 @@ aligns strongly with your investment criteria..."
 
 ### Investor Scoring
 
+```mermaid
+flowchart LR
+    subgraph EVENTS["📊 Engagement Events"]
+        PV[Page View<br/>+1 pt]
+        SD[Scroll Depth<br/>+0.05×depth]
+        VP[Video Play<br/>+5 pts]
+        VC[Video Complete<br/>+10 pts]
+        DD[Doc Download<br/>+15 pts]
+        FQ[FAQ Question<br/>+8 pts]
+        MB[Meeting Booked<br/>+50 pts]
+    end
+
+    subgraph CALC["🧮 Score Calculation"]
+        SUM[Sum All Events]
+        REC[Recency Bonus<br/>×1.2 if < 7 days]
+        CAP[Cap at 100]
+    end
+
+    subgraph OUTPUT["🎯 Interest Level"]
+        LOW[🔵 Low 0-25]
+        MED[🟡 Medium 26-50]
+        HIGH[🟠 High 51-75]
+        HOT[🔴 Hot 76-100]
+    end
+
+    EVENTS --> SUM --> REC --> CAP --> OUTPUT
+
+    style EVENTS fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style CALC fill:#fef3c7,stroke:#fbbf24,color:#92400e
+    style OUTPUT fill:#d1fae5,stroke:#34d399,color:#065f46
+```
+
 ```typescript
 // Engagement scoring algorithm
 function calculateEngagementScore(events: Event[]): number {
@@ -536,6 +581,39 @@ jobs:
 ---
 
 ## Development Phases
+
+```mermaid
+gantt
+    title Investor Portal Development Roadmap
+    dateFormat  YYYY-MM-DD
+    section Phase 1: MVP
+    Project Setup           :p1a, 2025-01-01, 3d
+    Landing Page            :p1b, after p1a, 3d
+    Authentication          :p1c, after p1b, 2d
+    Static Pitch            :p1d, after p1c, 3d
+    Data Room               :p1e, after p1d, 2d
+    Cal.com + Analytics     :p1f, after p1e, 2d
+
+    section Phase 2: Interactive
+    Scroll Animations       :p2a, after p1f, 4d
+    Data Visualizations     :p2b, after p2a, 4d
+    Financial Model         :p2c, after p2b, 3d
+    Team Videos             :p2d, after p2c, 2d
+    Watermarking            :p2e, after p2d, 2d
+
+    section Phase 3: Intelligence
+    AI FAQ Chatbot          :p3a, after p2e, 4d
+    Personalized Pages      :p3b, after p3a, 3d
+    Engagement Scoring      :p3c, after p3b, 3d
+    Admin Dashboard         :p3d, after p3c, 4d
+
+    section Phase 4: Polish
+    Mobile Optimization     :p4a, after p3d, 3d
+    Performance Tuning      :p4b, after p4a, 2d
+    Security Audit          :p4c, after p4b, 3d
+    User Testing            :p4d, after p4c, 4d
+    Launch                  :milestone, p4e, after p4d, 0d
+```
 
 ### Phase 1: MVP (Week 1-2)
 - [ ] Project setup (Next.js, Tailwind, Supabase)
