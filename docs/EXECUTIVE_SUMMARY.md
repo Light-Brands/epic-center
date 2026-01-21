@@ -58,6 +58,70 @@ Our research identified four market segments that Transformational Epicenter ser
 
 **The key insight**: We don't need a large market share. Capturing even a small slice of ultra-high-net-worth individuals seeking transformation creates a substantial business.
 
+### The Four Market Segments in Detail
+
+#### Market Segment 1: Medical & Longevity Clinics
+
+| Offering | Description |
+|----------|-------------|
+| Functional Medicine Diagnostics | Root-cause analysis and systems-based medicine |
+| Hormonal Optimization | Testosterone, thyroid, cortisol, and metabolic balancing |
+| Peptides | BPC-157, Thymosin Alpha-1, growth hormone secretagogues |
+| Anti-Aging & Regenerative Therapies | Stem cells, PRP, exosomes, NAD+ |
+| Advanced Testing | Epigenetic, DNA, blood panels, microbiome analysis |
+
+**Gap**: Clinical credibility and diagnostic depth, but lack spiritual and identity dimensions.
+
+#### Market Segment 2: Biohacking & Performance Centers
+
+| Offering | Description |
+|----------|-------------|
+| Hyperbaric Oxygen Therapy | Cellular regeneration and healing acceleration |
+| Red Light & Photobiomodulation | Mitochondrial function and tissue repair |
+| Cryotherapy & Cold Exposure | Inflammation reduction and metabolic activation |
+| Functional Fitness & Recovery | Movement protocols and performance optimization |
+| Neurocognitive Optimization | Brain training, nootropics, neurofeedback |
+
+**Gap**: Cutting-edge technology and bio-optimization, but transactional with no continuity of care.
+
+#### Market Segment 3: Plant Medicine & Trauma Resolution Centers
+
+| Offering | Description |
+|----------|-------------|
+| Ibogaine & Iboga | Medically supervised addiction interruption |
+| Psychedelic-Assisted Therapy | Legal jurisdictions: psilocybin, ketamine, MDMA |
+| Addiction Interruption Protocols | Comprehensive detox and reset programs |
+| Nervous System Restoration | Vagal toning, somatic release, polyvagal approaches |
+| Trauma & Identity Repair | Deep psychological and spiritual integration |
+
+**Gap**: Powerful addiction interruption, but often lack medical rigor and no integration support.
+
+#### Market Segment 4: Luxury Wellness & Transformational Retreats
+
+| Offering | Description |
+|----------|-------------|
+| High-Touch Hospitality | Personalized service and attention to detail |
+| Privacy & Discretion | Ultra-private settings for high-profile clientele |
+| Concierge-Level Care | Dedicated support teams and custom experiences |
+| Spiritual & Emotional Integration | Meaning-making and identity transformation |
+
+**Gap**: Hospitality excellence and beautiful settings, but surface-level with no lasting transformation.
+
+---
+
+### The Strategic Opportunity
+
+**No single player has unified these four market segments into a coherent, continuous healing journey.**
+
+This is not an oversight—it is a structural limitation. Building such an offering requires:
+- Medical expertise willing to work alongside plant medicine
+- Hospitality talent committed to therapeutic outcomes
+- Technology infrastructure for personalized continuity
+- Operational discipline to maintain safety at scale
+- Capital patience to build reputation before volume
+
+Transformational Epicenter is purpose-built to bridge all four segments.
+
 ---
 
 ## Who Is Our Customer?
