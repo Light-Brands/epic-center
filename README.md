@@ -34,6 +34,7 @@
 |----------|-------------|------|
 | **Vision** | Core philosophy, guest journey, transformation framework | [View](./docs/VISION.md) |
 | **Master Plan** | 6-phase implementation roadmap, milestones, timeline | [View](./docs/MASTER_PLAN.md) |
+| **Market Research** | Global competitive analysis, pricing strategy, positioning | [View](./docs/MARKET_RESEARCH.md) |
 | **Architect Guide** | Development principles, agent profile, coding standards | [View](./ARCHITECT.md) |
 
 ---
@@ -279,6 +280,7 @@ Each location will offer:
 | Infrastructure | [docs/architecture/INFRASTRUCTURE.md](./docs/architecture/INFRASTRUCTURE.md) |
 | Integration Map | [docs/architecture/INTEGRATION_MAP.md](./docs/architecture/INTEGRATION_MAP.md) |
 | Investor Portal Spec | [docs/pitch-packet/INVESTOR_PORTAL_SPEC.md](./docs/pitch-packet/INVESTOR_PORTAL_SPEC.md) |
+| Market Research | [docs/MARKET_RESEARCH.md](./docs/MARKET_RESEARCH.md) |
 | Master Plan | [docs/MASTER_PLAN.md](./docs/MASTER_PLAN.md) |
 | Medical Oversight | [docs/pillars/01_MEDICAL_OVERSIGHT.md](./docs/pillars/01_MEDICAL_OVERSIGHT.md) |
 | Mobile README | [src/mobile/README.md](./src/mobile/README.md) |
