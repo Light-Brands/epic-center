@@ -10,6 +10,50 @@ Security at Transformational Epicenter is not merely a technical requirement - i
 
 ---
 
+## HIPAA-First Architecture
+
+HIPAA compliance is embedded at both the platform and app layer from the beginning, not added later. This is a foundational architectural principle.
+
+### Compliance Scope
+
+The white-label platform and app comply with:
+- **HIPAA Privacy Rule** - Protecting the use and disclosure of PHI
+- **HIPAA Security Rule** - Technical, physical, and administrative safeguards
+- **HIPAA Breach Notification Rule** - Procedures for breach response
+
+### Legal Layer
+
+Before launch, the following Business Associate Agreements (BAAs) must be in place:
+
+| Party | BAA Required | Status |
+|-------|--------------|--------|
+| Transformational Epicenter | Covered Entity | ☐ |
+| Light Brands Consulting | Business Associate | ☐ |
+| Cloud Infrastructure (AWS) | Business Associate | ☐ |
+| AI Services Provider | Business Associate | ☐ |
+| Payment Processor | Business Associate | ☐ |
+| Storage/Backup Provider | Business Associate | ☐ |
+
+### Data Classification Model
+
+| Tier | Classification | Examples | Security Requirements |
+|------|----------------|----------|----------------------|
+| Tier 1 | Public / Non-PHI | Website content, marketing funnels | Standard security |
+| Tier 2 | Protected User Data (Non-PHI) | App accounts, login credentials, referral dashboards | Encryption, access control |
+| Tier 3 | PHI (STRICT) | Intake forms, medical history, treatment-related data, post-care follow-ups | Maximum protection, isolated systems, comprehensive audit logging |
+
+### PHI Handling Requirements
+
+PHI is:
+- Encrypted at rest and in transit (AES-256, TLS 1.3)
+- Isolated from non-PHI systems
+- Access-logged and permission-controlled
+- Never exposed to referral/ambassador systems
+- Retained per HIPAA requirements (minimum 6 years)
+- Subject to minimum necessary standard
+
+---
+
 ## Compliance Framework
 
 ### HIPAA (Health Insurance Portability and Accountability Act)
@@ -506,6 +550,6 @@ function getApiKey(): string {
 
 ---
 
-**Version**: 1.0.0
-**Last Updated**: December 2024
+**Version**: 2.0.0
+**Last Updated**: January 2025
 **Security Officer**: TBD
