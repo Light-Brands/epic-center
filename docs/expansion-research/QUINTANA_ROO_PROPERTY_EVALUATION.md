@@ -70,8 +70,8 @@ Before detailed scoring, each property must pass these non-negotiable requiremen
 
 | Criterion | Points | Scoring Guide |
 |-----------|--------|---------------|
-| **2.1 Cancun Airport Distance** | 0-5 | |
-| - ≤30 min | 5 | |
+| **2.1 International Airport Distance** | 0-5 | |
+| - ≤30 min to CUN or TQO | 5 | Cancun (CUN) or Tulum (TQO) |
 | - 30-45 min | 4 | |
 | - 45-60 min | 3 | |
 | - 60-90 min | 2 | |
@@ -425,11 +425,36 @@ Use this to compare multiple properties side-by-side:
 | **Akumal** | Beautiful, cenotes, tranquil | Further from hospitals | Cancun 50-60 min |
 | **Playa del Carmen South** | Good value, developing | Less established | Hospital Playa 15-20 min |
 
+### Emerging Zones (Requires Verification)
+
+| Area | Pros | Cons | Hospital Access |
+|------|------|------|-----------------|
+| **Tulum** | Tulum Airport now operational, Tren Maya connectivity, wellness reputation, cenotes, spiritual positioning | ⚠️ **MUST VERIFY hospital access** - Need JCI-quality hospital with cardiac cath lab ≤30 min | **TO BE VERIFIED** - Hospital Joya expanding? New facilities? |
+
+**Tulum Status Update (January 2026):**
+- ✅ **Tulum International Airport (TQO)** - Now operational, direct flights available
+- ✅ **Tren Maya** - Active, connects Tulum to Cancun and other cities
+- ⚠️ **Hospital Infrastructure** - CRITICAL GAP TO VERIFY:
+  - Is there a JCI-quality hospital with cardiac catheterization within 30 minutes?
+  - Hospital Joya was expanding to Tulum - current status?
+  - What is actual ambulance response time?
+  - Is helicopter evacuation to Cancun viable (<20 min)?
+
+**If hospital access can be verified ≤30 min to cardiac capability, Tulum moves to "Optimal Zones"**
+
+The combination of:
+- International airport (guest convenience)
+- Tren Maya (staff/supply chain connectivity)
+- Wellness destination reputation (brand alignment)
+- Cenotes and natural beauty (healing environment)
+- Lower density than Playa del Carmen (privacy)
+
+...makes Tulum potentially the **best location IF medical infrastructure is confirmed**.
+
 ### Avoid Zones
 
 | Area | Reason |
 |------|--------|
-| **Tulum** | Infrastructure issues, airport construction, traffic |
 | **Hotel Zone Cancun** | Too commercial, no privacy, expensive |
 | **Far South (Sian Ka'an)** | Too remote, limited medical access |
 
@@ -438,10 +463,20 @@ Use this to compare multiple properties side-by-side:
 ## Part 7: Key Contacts for Verification
 
 ### Hospitals (Verify Capability)
-- **Galenia Hospital**: +52 998 891 5200
-- **Hospital Amerimed Cancun**: +52 998 881 3400
-- **Hospiten Cancun**: +52 998 881 8500
-- **Hospital Playa del Carmen**: +52 984 803 1002
+- **Galenia Hospital** (Cancun): +52 998 891 5200 - Level 5, cardiac cath lab ✅
+- **Hospital Amerimed Cancun**: +52 998 881 3400 - JCI accredited, cardiac ✅
+- **Hospiten Cancun**: +52 998 881 8500 - Full capabilities ✅
+- **Hospital Playa del Carmen**: +52 984 803 1002 - General emergency
+- **Hospital Joya** (Tulum area): VERIFY current status and capabilities
+- **Costamed** (Multiple locations): Network coverage
+
+### Airports
+- **Cancun International (CUN)**: Primary hub, 500+ daily flights
+- **Tulum International (TQO)**: Now operational - verify flight schedules and FBO services
+
+### Tren Maya Stations
+- Cancun, Puerto Morelos, Playa del Carmen, Tulum stations operational
+- Potential for staff commuting and supply chain logistics
 
 ### Municipal Offices (Zoning)
 - **Solidaridad (Playa del Carmen)**: Dirección de Desarrollo Urbano
