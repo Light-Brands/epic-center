@@ -8,6 +8,51 @@
 
 ---
 
+## TL;DR — Executive Summary
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                              AT A GLANCE                                     │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│  THE MARKET:        Fragmented. Medical, wellness, plant medicine, and      │
+│                     longevity clinics all operate in silos. No one has      │
+│                     unified them into a single transformational journey.    │
+│                                                                              │
+│  THE GAP:           An unoccupied summit position exists at the             │
+│                     intersection of medical rigor, plant medicine,          │
+│                     bio-optimization, luxury hospitality, and AI-driven     │
+│                     personalization.                                        │
+│                                                                              │
+│  THE OPPORTUNITY:   $5.6T global wellness economy. Rising demand for        │
+│                     deep transformation. Post-pandemic meaning-seeking.     │
+│                     Psychedelic medicine going mainstream.                  │
+│                                                                              │
+│  OUR POSITION:      Category-defining, not competitive. We integrate        │
+│                     what others separate, continue what others interrupt,   │
+│                     and personalize what others generalize.                 │
+│                                                                              │
+│  KEY ADVANTAGES:    • Full integration (medical + spiritual + identity)     │
+│                     • Continuity (pre-care → treatment → post-care)         │
+│                     • AI Superintelligent System (dynamic personalization)  │
+│                     • Outcome-anchored pricing (transformation, not days)   │
+│                                                                              │
+│  TARGET CLIENTS:    HNW executives, addiction sufferers, trauma survivors,  │
+│                     longevity seekers, meaning seekers — willing to pay     │
+│                     $15,000 – $100,000+ for lasting transformation.         │
+│                                                                              │
+│  THE VERDICT:       The market is ready. Demand is acute. Competition is    │
+│                     fragmented. The summit is unoccupied. The time is now.  │
+│                                                                              │
+│  ─────────────────────────────────────────────────────────────────────────  │
+│                                                                              │
+│  "We are not building a better clinic. We are building THE destination."    │
+│                                                                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
 ## 1. Objective of the Market Research
 
 The primary objective of this market research phase is to map, benchmark, and stress-test the current global landscape of:
