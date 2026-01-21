@@ -1,3 +1,7 @@
+<[Home](../../README.md) | [All Architecture](../../README.md#technical-architecture) | Prev: [Data](./DATA_ARCHITECTURE.md) | Next: [Integrations](./INTEGRATION_MAP.md)>
+
+---
+
 # Security & Compliance Framework
 
 > *Protecting the sacred trust of healing data*

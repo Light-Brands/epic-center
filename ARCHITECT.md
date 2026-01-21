@@ -1,3 +1,7 @@
+<[README](./README.md) | [Vision](./docs/VISION.md) | [Master Plan](./docs/MASTER_PLAN.md) | [Architecture](./docs/architecture/SYSTEM_OVERVIEW.md) | [Design](./design/DESIGN_SYSTEM.md)>
+
+---
+
 # Transformational Epicenter - Architect Agent Profile
 
 > *"This is not about escaping life. It's about helping people return to life whole, present, sovereign, and awake."*

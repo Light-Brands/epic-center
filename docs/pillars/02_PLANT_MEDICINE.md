@@ -1,3 +1,7 @@
+<[Home](../../README.md) | [Vision](../VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Prev: [Medical](./01_MEDICAL_OVERSIGHT.md) | Next: [Bio-Opt](./03_BIO_OPTIMIZATION.md)>
+
+---
+
 # Pillar 2: Plant Medicine (Iboga & Ibogaine)
 
 > *The medicine is a catalyst, not the destination*

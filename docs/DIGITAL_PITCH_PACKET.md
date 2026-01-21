@@ -1,3 +1,7 @@
+<[Home](../README.md) | [Pitch Packet Folder](./pitch-packet/README.md) | [Quick Start](./pitch-packet/QUICK_START.md) | [Vision](./VISION.md) | [Master Plan](./MASTER_PLAN.md)>
+
+---
+
 # Digital Pitch Packet: $5M Raise Strategy
 
 ## The New Age Approach to Fundraising

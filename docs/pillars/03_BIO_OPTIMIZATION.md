@@ -1,3 +1,7 @@
+<[Home](../../README.md) | [Vision](../VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Prev: [Plant Medicine](./02_PLANT_MEDICINE.md) | Next: [Trauma](./04_TRAUMA_INTEGRATION.md)>
+
+---
+
 # Pillar 3: Advanced Bio-Optimization and Longevity
 
 > *Restoring the vessel that carries transformation*

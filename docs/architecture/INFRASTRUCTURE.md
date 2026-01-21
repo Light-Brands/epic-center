@@ -1,3 +1,7 @@
+<[Home](../../README.md) | [All Architecture](../../README.md#technical-architecture) | Prev: [Integrations](./INTEGRATION_MAP.md) | [Design System](../../design/DESIGN_SYSTEM.md)>
+
+---
+
 # Infrastructure Architecture
 
 > *Reliable, secure, and scalable foundations*
