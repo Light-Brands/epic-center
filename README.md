@@ -16,13 +16,13 @@
 
 | Section | Description |
 |---------|-------------|
-| [Vision & Strategy](#-vision--strategy) | Core philosophy, master plan, pitch materials |
-| [The Eight Pillars](#-the-eight-pillars) | Deep dives into our foundational approach |
-| [Programs](#-programs) | 7, 14, 21, and 28-day program structures |
-| [Technical Architecture](#-technical-architecture) | System design, data, security, infrastructure |
-| [Design & Brand](#-design--brand) | Design system, brand guidelines |
-| [Source Code](#-source-code) | Web, mobile, API, admin dashboards |
-| [Business & Fundraising](#-business--fundraising) | Pitch packet, investor materials |
+| [Vision & Strategy](#vision--strategy) | Core philosophy, master plan, pitch materials |
+| [The Eight Pillars](#the-eight-pillars) | Deep dives into our foundational approach |
+| [Programs](#programs) | 7, 14, 21, and 28-day program structures |
+| [Technical Architecture](#technical-architecture) | System design, data, security, infrastructure |
+| [Design & Brand](#design--brand) | Design system, brand guidelines |
+| [Source Code](#source-code) | Web, mobile, API, admin dashboards |
+| [Business & Fundraising](#business--fundraising) | Pitch packet, investor materials |
 
 ---
 
