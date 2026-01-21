@@ -97,9 +97,9 @@ Our guests are high-functioning individuals who have achieved external success b
 
 ---
 
-## The Seven Pillars
+## The Eight Pillars
 
-Our approach rests on seven foundational pillars, each essential to the whole:
+Our approach rests on eight foundational pillars, each essential to the whole:
 
 ### Pillar 1: Medical and Scientific Oversight
 Evidence-based protocols. Rigorous safety screening. Continuous monitoring. Measurable outcomes. We honor the body's complexity with medical precision.
@@ -117,10 +117,13 @@ The medicine opens doors; integration walks through them. Personalized support t
 A luxury retreat environment where every detail supports healing. Daily therapeutic massage, organic chef-prepared meals, conscious architectural and interior design, exceptional human care, and functional fitness practices designed to support nervous system regulation, structural balance, strength, mobility, and resilience.
 
 ### Pillar 6: Digital Ecosystem and Community Support
-Technology that extends care beyond walls. Medical onboarding, preparation content, daily schedules, integration practices, and community connection - all in one cohesive platform.
+Technology that extends care beyond walls. Medical onboarding, preparation content, daily schedules, integration practices, and community connection - all in one cohesive platform powered by the AI Superintelligent System.
 
-### Pillar 7: Pre-Care and Post-Care
-The complete arc. Preparation before arrival. Integration after departure. Ongoing support for embodiment, identity, and purpose. Optional longevity and optimization programs.
+### Pillar 7: Pre-Care (Preparation)
+The foundation of transformation. 4-8 weeks of medical preparation, psychological readiness, nervous system priming, intention setting, and practical logistics. Preparation is not overhead - it determines the depth of what's possible.
+
+### Pillar 8: Post-Care (Integration)
+Where transformation becomes embodiment. 3-12+ months of processing, understanding, anchoring, and living the changes. Coaching, community, practices, and support to ensure insights become lasting change. Optional longevity and optimization programs.
 
 ---
 
