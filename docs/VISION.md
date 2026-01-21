@@ -4,7 +4,7 @@
 
 # Transformational Epicenter - Vision & Philosophy
 
-> *"This is not about escaping life. It's about helping people return to life whole, present, sovereign, and awake."*
+> *"Bringing the lost travelers home to gardens of their hearts and souls."*
 
 ---
 
@@ -295,9 +295,7 @@ Transformational Epicenter exists because millions of people are suffering unnec
 
 We exist to create environments and experiences where people can remember who they really are.
 
-This is not about escaping life.
-
-It's about returning to it - whole, present, sovereign, and awake.
+Bringing the lost travelers home to gardens of their hearts and souls.
 
 ---
 

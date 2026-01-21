@@ -11,7 +11,7 @@
 ## Brand Overview
 
 ### Mission
-To create environments and experiences where people can remember who they really are - returning to life whole, present, sovereign, and awake.
+Bringing the lost travelers home to gardens of their hearts and souls.
 
 ### Vision
 30+ Transformational Epicenters globally, united under one ethical, medical, and spiritual framework.

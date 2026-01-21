@@ -1,6 +1,6 @@
 # Transformational Epicenter
 
-> *Helping people return to life whole, present, sovereign, and awake.*
+> *Bringing the lost travelers home to gardens of their hearts and souls.*
 
 <div align="center">
 
