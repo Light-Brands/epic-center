@@ -18,12 +18,13 @@ Before detailed scoring, each property must pass these non-negotiable requiremen
 |------|-------------|---------------------|-----------|
 | **G1: Hospital Access** | JCI hospital reachable within 30 minutes (non-traffic) | Google Maps + physical drive test | |
 | **G2: Cardiac Capability** | Hospital has cardiac catheterization lab | Hospital verification call | |
-| **G3: Land Size** | Minimum 0.5 hectares (1.24 acres) usable | Survey/deed verification | |
+| **G3: Minimum Capacity** | ≥5 existing bedrooms OR space for 8+ guest rooms | Property inspection | |
 | **G4: Zoning** | Permits residential, hospitality, or medical use | Municipal zoning verification | |
 | **G5: Security Zone** | Not in US Level 3/4 advisory micro-zone | State Dept + local assessment | |
 | **G6: Legal Title** | Clear title, no encumbrances, foreign ownership permitted | Legal counsel review | |
 | **G7: Utilities** | Reliable power, water, internet available | Utility company verification | |
 | **G8: Access Road** | Paved road access, ambulance accessible | Physical inspection | |
+| **G9: Structural Integrity** | Building structurally sound for conversion | Engineer assessment | |
 
 **Scoring Rule:** If ANY gate fails, property is disqualified. Do not proceed to detailed scoring.
 
@@ -95,38 +96,61 @@ Before detailed scoring, each property must pass these non-negotiable requiremen
 
 ---
 
-### Category 3: Property Characteristics (15 Points)
+### Category 3: Property & Building Assessment (15 Points)
 
-*Physical suitability for facility development*
+*Evaluating pre-built luxury properties for conversion to treatment facility*
 
 | Criterion | Points | Scoring Guide |
 |-----------|--------|---------------|
-| **3.1 Land Size** | 0-4 | |
-| - ≥1.5 hectares (3.7 acres) | 4 | Ideal for full buildout |
-| - 1.0-1.5 hectares | 3 | Good, some constraints |
-| - 0.75-1.0 hectares | 2 | Workable |
-| - 0.5-0.75 hectares | 1 | Minimum viable |
-| **3.2 Topography** | 0-3 | |
-| - Flat/gentle, buildable | 3 | |
-| - Moderate grading needed | 2 | |
-| - Significant earthwork | 1 | |
-| - Unbuildable areas >30% | 0 | |
-| **3.3 Existing Structures** | 0-3 | |
-| - Quality structures, renovate | 3 | Faster timeline |
-| - Basic structures, partial use | 2 | |
-| - Demolition required | 1 | |
-| - Raw land | 2 | Clean slate |
-| **3.4 Natural Features** | 0-3 | |
-| - Cenote, beach, or exceptional | 3 | Major differentiator |
-| - Jungle/garden, good nature | 2 | |
-| - Basic landscaping potential | 1 | |
-| - No natural appeal | 0 | |
-| **3.5 Expansion Potential** | 0-2 | |
-| - Adjacent land available | 2 | |
-| - Some expansion possible | 1 | |
-| - Landlocked | 0 | |
+| **3.1 Guest Room Capacity** | 0-4 | |
+| - 12+ existing bedrooms/suites | 4 | Ideal capacity, minimal addition needed |
+| - 8-11 bedrooms/suites | 3 | Good base, some addition possible |
+| - 5-7 bedrooms/suites | 2 | Workable, expansion may be needed |
+| - <5 bedrooms | 1 | Significant expansion required |
+| **3.2 Building Quality & Condition** | 0-3 | |
+| - Excellent condition, luxury finishes | 3 | Cosmetic updates only |
+| - Good condition, quality construction | 2 | Moderate renovation |
+| - Fair condition, solid structure | 1 | Significant renovation needed |
+| - Poor condition | 0 | Major structural work - likely disqualify |
+| **3.3 Layout Suitability** | 0-3 | |
+| - Ideal flow for treatment center | 3 | Private rooms, communal spaces, medical area possible |
+| - Good layout, minor modifications | 2 | Can create appropriate zones |
+| - Challenging layout, major reconfig | 1 | Significant architectural changes needed |
+| - Incompatible layout | 0 | Cannot be reasonably converted |
+| **3.4 Existing Amenities** | 0-3 | |
+| - Full amenities (pool, commercial kitchen, spa area, outdoor spaces) | 3 | Leverage existing infrastructure |
+| - Good amenities (pool, kitchen, some outdoor) | 2 | Most needs met |
+| - Basic amenities | 1 | Significant additions needed |
+| - Minimal amenities | 0 | Nearly full buildout required |
+| **3.5 Natural Features & Grounds** | 0-2 | |
+| - Cenote, beach access, or exceptional grounds | 2 | Major differentiator |
+| - Good gardens, jungle, natural setting | 1 | Healing environment present |
+| - Minimal outdoor appeal | 0 | |
 
 **Category 3 Total: ___/15**
+
+---
+
+### Category 3B: Conversion Feasibility Assessment
+
+*Additional evaluation for pre-built property conversion*
+
+| Element | Current State | Conversion Needs | Estimated Cost |
+|---------|---------------|------------------|----------------|
+| **Medical Suite** | ☐ Space exists ☐ Must create | | $ |
+| **Treatment/Ceremony Room** | ☐ Space exists ☐ Must create | | $ |
+| **Commercial Kitchen** | ☐ Exists ☐ Upgrade needed ☐ Must create | | $ |
+| **Guest Bathrooms** | ☐ En-suite all ☐ Partial ☐ Shared | | $ |
+| **Staff Quarters** | ☐ On-site ☐ Must add ☐ Off-site OK | | $ |
+| **Group/Integration Space** | ☐ Space exists ☐ Must create | | $ |
+| **Bio-optimization Area** | ☐ Space exists ☐ Must create | | $ |
+| **Outdoor Treatment Spaces** | ☐ Exists ☐ Must develop | | $ |
+| **Parking/Access** | ☐ Adequate ☐ Needs work | | $ |
+| **Generator/Backup Power** | ☐ Exists ☐ Must add | | $ |
+
+**Conversion Cost Estimate:** $____________
+
+**Timeline to Operational:** ______ months
 
 ---
 
@@ -216,25 +240,47 @@ Before detailed scoring, each property must pass these non-negotiable requiremen
 
 ### Category 7: Financial Considerations (8 Points)
 
-*Value and cost efficiency*
+*Value and cost efficiency for pre-built property conversion*
 
 | Criterion | Points | Scoring Guide |
 |-----------|--------|---------------|
 | **7.1 Acquisition Price** | 0-3 | |
-| - Below market (<$3M) | 3 | |
-| - Market rate ($3-5M) | 2 | |
-| - Premium ($5-8M) | 1 | |
-| - Ultra-premium (>$8M) | 0 | |
-| **7.2 Development Cost Estimate** | 0-3 | |
-| - Standard construction costs | 3 | |
-| - Moderate premium (10-20%) | 2 | |
-| - Significant premium (>20%) | 1 | |
-| **7.3 Operating Cost Factors** | 0-2 | |
-| - Standard operating costs | 2 | |
-| - Some premium (access, logistics) | 1 | |
-| - High operating cost factors | 0 | |
+| - Strong value (<$4M) | 3 | Below market for comparable |
+| - Fair market ($4-7M) | 2 | Reasonable for quality |
+| - Premium ($7-10M) | 1 | High but justifiable |
+| - Ultra-premium (>$10M) | 0 | Must be exceptional property |
+| **7.2 Conversion/Renovation Cost** | 0-3 | |
+| - Light renovation (<$2M) | 3 | Cosmetic + medical suite |
+| - Moderate renovation ($2-4M) | 2 | Significant upgrades needed |
+| - Heavy renovation ($4-6M) | 1 | Major conversion work |
+| - Extensive rebuild (>$6M) | 0 | Approaching new construction cost |
+| **7.3 Total Project Cost (Acquisition + Conversion)** | 0-2 | |
+| - Under $10M total | 2 | Excellent value |
+| - $10-15M total | 1 | Acceptable range |
+| - Over $15M total | 0 | Premium investment |
 
 **Category 7 Total: ___/8**
+
+---
+
+### Category 7B: Financial Summary
+
+| Line Item | Estimate | Notes |
+|-----------|----------|-------|
+| Acquisition Price | $ | |
+| Renovation/Conversion | $ | |
+| Medical Equipment | $ | Est. $500K-1M |
+| Bio-optimization Equipment | $ | Est. $300K-600K |
+| FF&E (Furniture, Fixtures) | $ | |
+| Technology Systems | $ | Est. $200K-400K |
+| Pre-opening Costs | $ | Staff, licensing, marketing |
+| Working Capital | $ | 6 months operations |
+| Contingency (15%) | $ | |
+| **TOTAL PROJECT COST** | **$** | |
+
+**Price per Guest Room:** $____________ (Total ÷ # rooms)
+
+**Target:** <$1M per guest room for good value
 
 ---
 
