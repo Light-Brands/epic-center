@@ -320,6 +320,84 @@ Key modalities:
 
 ---
 
+### Functional Fitness
+
+**Philosophy**
+
+Functional fitness at Transformational Epicenter is approached as a restorative and integrative modality, not performance-driven training. Movement is designed to support nervous system regulation, structural balance, strength, mobility, and resilience.
+
+**Core Principles**
+- Nervous-system–aware training protocols
+- Adapted to individual's physical condition, medical status, and stage of recovery
+- Restorative rather than depleting
+- Supporting integration rather than competing for energy
+
+**Modalities Offered**
+
+| Modality | Purpose | Best For |
+|----------|---------|----------|
+| Personalized Movement Assessments | Baseline evaluation, identify patterns | All guests (Day 1-2) |
+| Functional Strength Work | Build foundational strength | Recovery phase |
+| Mobility Work | Restore range of motion | All phases |
+| Corrective Exercise | Address imbalances, structural issues | As indicated |
+| Restorative Exercise | Gentle movement, recovery support | Post-ceremony |
+| Low-Impact Conditioning | Build capacity without stress | Integration phase |
+
+**Personalized Approach**
+
+Each guest receives:
+- Initial movement assessment
+- Protocol designed for their condition
+- Modifications based on medical status
+- Progression appropriate to recovery stage
+- Integration with overall treatment plan
+
+**Movement Assessment Components**
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                    FUNCTIONAL FITNESS ASSESSMENT                        │
+├────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│  Structural Assessment                                                  │
+│  └── Posture analysis                                                   │
+│  └── Movement pattern screening                                         │
+│  └── Joint mobility evaluation                                          │
+│  └── Muscle balance assessment                                          │
+│                                                                          │
+│  Functional Capacity                                                    │
+│  └── Basic movement competency                                          │
+│  └── Strength baselines                                                 │
+│  └── Flexibility assessment                                             │
+│  └── Balance and stability                                              │
+│                                                                          │
+│  Nervous System Integration                                             │
+│  └── Movement quality under stress                                      │
+│  └── Recovery capacity                                                  │
+│  └── Breath-movement coordination                                       │
+│                                                                          │
+└────────────────────────────────────────────────────────────────────────┘
+```
+
+**Contraindications & Modifications**
+
+All fitness and movement practices are adapted based on:
+- Medical clearance status
+- Current energy levels
+- Stage in treatment journey
+- Post-ceremony recovery needs
+- Pre-existing conditions or injuries
+
+**Staff Requirements**
+
+- Certified fitness professionals
+- Trauma-informed movement training
+- Understanding of nervous system regulation
+- Experience with clinical populations
+- Ongoing coordination with medical team
+
+---
+
 ## Treatment Integration
 
 ### Sample Daily Schedule
@@ -485,6 +563,6 @@ Each guest receives a personalized bio-optimization plan based on:
 
 ---
 
-**Version**: 1.0.0
-**Last Updated**: December 2024
+**Version**: 2.0.0
+**Last Updated**: January 2025
 **Wellness Director**: TBD

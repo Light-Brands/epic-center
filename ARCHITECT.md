@@ -123,13 +123,13 @@ Transformational Epicenter is a network of medical-based wellness and bio-optimi
 ### The First Location
 - **Location**: Mexico
 - **Land**: 0.5 to 1 hectare
-- **Capacity**: 20-30 private guest rooms
+- **Capacity**: 10 private guest rooms
 - **Design**: Low-density buildings integrated into nature
 
-### The Seven Pillars
+### The Eight Pillars
 
 #### Pillar 1: Medical and Scientific Oversight
-Evidence-based intake, diagnostics, safety screening, and measurable outcomes. Continuous monitoring. Medical supervision throughout.
+Evidence-based intake, diagnostics, safety screening, and measurable outcomes. Continuous monitoring. Medical supervision throughout. AI-integrated data collection and longitudinal outcome measurement.
 
 #### Pillar 2: Plant Medicine (Iboga & Ibogaine)
 Trauma-informed, ethically held ceremonies with rigorous medical oversight. The medicine is a catalyst, not the destination.
@@ -140,15 +140,17 @@ State-of-the-art modalities: saunas, cold therapy, red light, hyperbaric oxygen,
 #### Pillar 4: Trauma Integration and Nervous System Restoration
 Personalized support through facilitators, counselors, somatic therapies, and integration practices that resolve trauma at the root.
 
-#### Pillar 5: Five-Star Hospitality, Nutrition, and Care
-Daily therapeutic massage, organic chef-prepared meals, conscious design, exceptional human care.
+#### Pillar 5: Five-Star Hospitality, Nutrition, Care, and Functional Fitness
+Daily therapeutic massage, organic chef-prepared meals, conscious design, exceptional human care, and functional fitness practices for nervous system regulation.
 
 #### Pillar 6: Digital Ecosystem and Community Support
-The Transformational Epicenter app: medical onboarding, preparation, schedules, integration practices, community, long-term follow-up.
+HIPAA-compliant AI Superintelligent System: medical onboarding, preparation, schedules, integration practices, community, referral engine, long-term follow-up.
 
-#### Pillar 7: Pre-Care and Post-Care
-**Pre-Care**: Readiness, safety, intention setting, nervous system preparation.
-**Post-Care**: Integration, embodiment, identity anchoring, soul purpose alignment, optional longevity support.
+#### Pillar 7: Pre-Care (Preparation)
+4-8 weeks of readiness, safety, intention setting, nervous system preparation, medical clearance, and facilitator connection. Preparation determines the depth of transformation.
+
+#### Pillar 8: Post-Care (Integration)
+3-12+ months of processing, understanding, anchoring, and embodiment. Coaching, community, practices, longevity programs. Where transformation becomes lasting change.
 
 ### Program Structures
 - **7 Days**: Nervous system reset
@@ -213,14 +215,15 @@ Analytics:     PostHog (self-hosted for HIPAA)
 │   │   ├── INTEGRATION_MAP.md
 │   │   └── INFRASTRUCTURE.md
 │   │
-│   ├── /pillars                    # Seven pillar deep dives
+│   ├── /pillars                    # Eight pillar deep dives
 │   │   ├── 01_MEDICAL_OVERSIGHT.md
 │   │   ├── 02_PLANT_MEDICINE.md
 │   │   ├── 03_BIO_OPTIMIZATION.md
 │   │   ├── 04_TRAUMA_INTEGRATION.md
 │   │   ├── 05_HOSPITALITY.md
 │   │   ├── 06_DIGITAL_ECOSYSTEM.md
-│   │   └── 07_PRE_POST_CARE.md
+│   │   ├── 07_PRE_CARE.md
+│   │   └── 08_POST_CARE.md
 │   │
 │   ├── /programs                   # Program structures
 │   │   ├── PROGRAM_OVERVIEW.md

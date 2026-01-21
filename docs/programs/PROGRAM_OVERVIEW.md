@@ -14,12 +14,46 @@ Our programs are not packages - they are carefully designed containers for trans
 
 ## Program Options
 
+### Plant Medicine Programs
+
 | Program | Duration | Focus | Best For |
 |---------|----------|-------|----------|
 | **Reset** | 7 Days | Nervous system reset | Introduction, maintenance, busy schedules |
 | **Interruption** | 14 Days | Trauma interruption | Deep work with recovery time |
 | **Recalibration** | 21 Days | Full recalibration | Comprehensive transformation |
 | **Transformation** | 28 Days | Complete arc | Major life transitions, complex histories |
+
+### Wellness-Only Programs (Non-Plant Medicine)
+
+In addition to plant medicine–supported journeys, Transformational Epicenter offers dedicated wellness and health-focused programs that do not include plant medicine.
+
+| Program | Duration | Focus | Best For |
+|---------|----------|-------|----------|
+| **Wellness Reset** | 7 Days | Nervous system regulation | Those seeking non-plant medicine healing |
+| **Wellness Intensive** | 14 Days | Deep restoration | Comprehensive non-medicine wellness |
+| **Longevity Retreat** | 7-14 Days | Bio-optimization focus | Preventive health, anti-aging |
+| **Executive Reset** | 5-7 Days | Burnout recovery | High-performers, busy schedules |
+
+These non–plant medicine programs are designed for individuals seeking:
+- Nervous system regulation
+- Physical and neurological optimization
+- Emotional resilience
+- Longevity and regenerative health
+- Recovery and preventive health
+- Deep recalibration without plant medicine participation
+
+These wellness-only programs leverage the same infrastructure:
+- Medical and scientific oversight
+- Advanced bio-optimization and longevity modalities
+- Trauma-informed nervous system support
+- Somatic therapies and breathwork
+- Five-star hospitality and nutrition
+- Functional fitness
+- Pre-care preparation
+- Post-care integration
+- Long-term digital ecosystem support
+
+This approach allows Transformational Epicenter to serve a broader population while maintaining the same ethical, medical, and experiential standards.
 
 ---
 
@@ -344,5 +378,5 @@ While programs have standard structures, customization is possible:
 
 ---
 
-**Version**: 1.0.0
-**Last Updated**: December 2024
+**Version**: 2.0.0
+**Last Updated**: January 2025

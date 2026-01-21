@@ -6,16 +6,48 @@
 
 ## Overview
 
-The data architecture for Transformational Epicenter prioritizes three core concerns:
+The data architecture for Transformational Epicenter prioritizes four core concerns:
 1. **Security & Compliance** - HIPAA/GDPR compliant medical data handling
 2. **Guest Journey Continuity** - Complete view of the transformation arc
 3. **Operational Efficiency** - Support for staff and clinical workflows
+4. **AI Intelligence** - Enabling personalized protocols through data aggregation
 
 ---
 
-## Data Classification
+## HIPAA-First Data Classification Model
 
-### Tier 1: Protected Health Information (PHI)
+The data classification model is foundational to the HIPAA-first architecture. This model applies to both the platform and app layers.
+
+### Tier 1: Public / Non-PHI
+**Standard sensitivity - Normal protection**
+
+- Website content
+- Marketing funnels
+- Public educational resources
+- General program information
+
+**Security Requirements**:
+- Standard web security practices
+- CDN delivery
+- No special access controls needed
+
+### Tier 2: Protected User Data (Non-PHI)
+**Moderate sensitivity - Enhanced protection required**
+
+- App accounts and login credentials
+- Referral dashboards and ambassador data
+- User preferences and settings
+- Community participation (non-clinical)
+- Payment history (non-medical)
+
+**Security Requirements**:
+- Encryption at rest and in transit
+- Access logging
+- Authentication required
+- Isolated from PHI systems
+- Ambassador/referral systems have NO access to PHI
+
+### Tier 3: PHI (STRICT)
 **Highest sensitivity - Maximum protection required**
 
 - Medical intake forms
@@ -25,6 +57,10 @@ The data architecture for Transformational Epicenter prioritizes three core conc
 - Medication history
 - Treatment notes
 - Progress assessments
+- Brain mapping data
+- Epigenetic/genetic testing data
+- Post-care follow-ups
+- Clinical assessments
 
 **Security Requirements**:
 - AES-256 encryption at rest
@@ -33,29 +69,9 @@ The data architecture for Transformational Epicenter prioritizes three core conc
 - Comprehensive audit logging
 - Role-based access control
 - Data masking in non-production
-
-### Tier 2: Personally Identifiable Information (PII)
-**High sensitivity - Strong protection required**
-
-- Full name and demographics
-- Contact information
-- Emergency contacts
-- Payment information
-- Identity documents
-
-**Security Requirements**:
-- Encryption at rest
-- Access logging
-- Minimal exposure principle
-- Anonymization for analytics
-
-### Tier 3: Operational Data
-**Standard sensitivity - Normal protection**
-
-- Schedules and bookings
-- Content and resources
-- Staff assignments
-- General communications
+- Isolated from non-PHI systems
+- Access-logged and permission-controlled
+- Minimum necessary standard enforced
 
 ### Tier 4: Analytics Data
 **Low sensitivity - Aggregated and anonymized**
@@ -64,6 +80,68 @@ The data architecture for Transformational Epicenter prioritizes three core conc
 - Outcome measurements
 - Operational KPIs
 - Anonymized research data
+
+**Security Requirements**:
+- Anonymization required
+- No re-identification possible
+- Aggregate access only
+
+---
+
+## AI Superintelligent System Data Integration
+
+### Data Ingestion for Personalized Protocols
+
+The AI Superintelligent System aggregates data across the guest journey to generate personalized treatment protocols.
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                    AI DATA INTEGRATION ARCHITECTURE                      │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│  Data Sources (Tier 3 PHI)          AI Processing Layer                 │
+│  ┌────────────────────────┐         ┌────────────────────────┐         │
+│  │ Epigenetic Testing     │────────▶│                        │         │
+│  │ DNA/Genetic Testing    │────────▶│  AI Superintelligent   │         │
+│  │ Blood Tests/Biomarkers │────────▶│       System           │         │
+│  │ Hormonal Panels        │────────▶│                        │         │
+│  │ Brain Mapping          │────────▶│  - Data Aggregation    │         │
+│  │ Clinical Assessments   │────────▶│  - Pattern Analysis    │         │
+│  │ Engagement Data        │────────▶│  - Protocol Generation │         │
+│  └────────────────────────┘         └───────────┬────────────┘         │
+│                                                  │                       │
+│                                                  ▼                       │
+│                                     ┌────────────────────────┐         │
+│                                     │ Personalized Protocols │         │
+│                                     │ - Treatment Plans      │         │
+│                                     │ - Bio-optimization     │         │
+│                                     │ - Nutrition            │         │
+│                                     │ - Functional Fitness   │         │
+│                                     │ - Integration          │         │
+│                                     └────────────────────────┘         │
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+### Data Sources for AI
+
+| Source | Data Type | Tier | Use in AI |
+|--------|-----------|------|-----------|
+| Epigenetic Testing | Methylation patterns, biological age | PHI | Personalization |
+| DNA/Genetic Testing | Pharmacogenomics, predispositions | PHI | Protocol selection |
+| Blood Tests | Biomarkers, metabolic status | PHI | Baseline/tracking |
+| Hormonal Panels | Hormone levels, balance | PHI | Optimization |
+| Brain Mapping | Neurophysiological data | PHI | Outcome tracking |
+| Clinical Assessments | Intake, progress, outcomes | PHI | Protocol refinement |
+| Engagement Data | App usage, practice completion | Tier 2 | Adaptive recommendations |
+
+### AI Security Requirements
+
+- All AI processing occurs within HIPAA-compliant infrastructure
+- No PHI leaves the secure environment
+- AI models are trained on anonymized/aggregated data only
+- Individual predictions use PHI in isolated, secure compute
+- All AI access to PHI is logged and audited
 
 ---
 
@@ -491,5 +569,5 @@ interface MedicalStaffAccess {
 
 ---
 
-**Version**: 1.0.0
-**Last Updated**: December 2024
+**Version**: 2.0.0
+**Last Updated**: January 2025

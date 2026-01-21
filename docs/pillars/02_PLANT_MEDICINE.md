@@ -335,7 +335,7 @@ The ceremony itself is only 10% of the transformation. The other 90% happens in 
 - Practice guidance
 - Check-ins at intervals
 
-See [Pillar 4: Trauma Integration](./04_TRAUMA_INTEGRATION.md) and [Pillar 7: Pre & Post Care](./07_PRE_POST_CARE.md) for more.
+See [Pillar 4: Trauma Integration](./04_TRAUMA_INTEGRATION.md), [Pillar 7: Pre-Care](./07_PRE_CARE.md), and [Pillar 8: Post-Care](./08_POST_CARE.md) for more.
 
 ---
 

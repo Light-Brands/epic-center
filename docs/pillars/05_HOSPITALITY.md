@@ -1,4 +1,4 @@
-# Pillar 5: Five-Star Hospitality, Nutrition, and Care
+# Pillar 5: Five-Star Hospitality, Nutrition, Care, and Functional Fitness
 
 > *Luxury as the physical expression of love*
 
@@ -239,6 +239,50 @@ Five-star hospitality creates the container for transformation:
 
 ---
 
+## Functional Fitness
+
+### Philosophy
+
+Functional fitness and movement practices at Transformational Epicenter are designed to support nervous system regulation, structural balance, strength, mobility, and resilience. This is approached as a restorative and integrative modality, not performance-driven training.
+
+### Movement Offerings
+
+**Available Practices**
+
+| Practice | Focus | Intensity |
+|----------|-------|-----------|
+| Personalized Movement Assessments | Baseline evaluation | Low |
+| Functional Strength & Mobility | Strength, range of motion | Low-Medium |
+| Corrective & Restorative Exercise | Address imbalances | Low |
+| Low-Impact Conditioning | Build capacity | Low-Medium |
+| Nervous-System–Aware Protocols | Regulation support | Varies |
+
+### Approach
+
+All fitness and movement practices are:
+- Adapted to the individual's physical condition
+- Modified based on medical status
+- Appropriate to stage of recovery
+- Supportive rather than depleting
+- Integrated with the overall care plan
+
+### Facilities
+
+- Dedicated movement studio
+- Quality equipment (functional, not gym-style)
+- Indoor/outdoor movement options
+- Private session capability
+- Integration with nature
+
+### Staff
+
+- Certified fitness professionals
+- Trauma-informed movement training
+- Coordination with medical team
+- Understanding of recovery needs
+
+---
+
 ## Staff Standards
 
 ### Hiring Criteria
@@ -414,6 +458,6 @@ Five-star hospitality creates the container for transformation:
 
 ---
 
-**Version**: 1.0.0
-**Last Updated**: December 2024
+**Version**: 2.0.0
+**Last Updated**: January 2025
 **Hospitality Director**: TBD

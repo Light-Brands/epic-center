@@ -14,6 +14,7 @@ This pillar exists to:
 3. **Monitor continuously** during vulnerable phases
 4. **Measure outcomes** to prove and improve our work
 5. **Build credibility** through scientific rigor
+6. **Enable personalization** through data-informed protocols integrated with the AI Superintelligent System
 
 ---
 
@@ -126,6 +127,81 @@ This pillar exists to:
 | 12-Lead ECG | Cardiac rhythm, QT interval | Within 14 days |
 | Liver Function Tests | Metabolism capacity | Within 30 days |
 | Electrolytes | K, Mg critical for QT | Within 14 days |
+
+### Advanced Pre-Care Testing (Optional/Recommended)
+
+Comprehensive pre-care testing and diagnostics may be conducted to support safety, personalization, and protocol design.
+
+| Category | Tests | Purpose |
+|----------|-------|---------|
+| Genetic | DNA/Genetic testing | Pharmacogenomics, predispositions |
+| Epigenetic | Epigenetic testing | Biological age, methylation patterns |
+| Inflammatory | Inflammatory markers, immune panels | Systemic inflammation, immune status |
+| Hormonal | Full hormonal panels | Hormonal balance assessment |
+| Metabolic | Advanced metabolic assessments | Metabolic function, energy production |
+| Nutritional | Micronutrient analysis | Nutritional deficiencies |
+| Acid-Base | Acid-base balance testing | Systemic pH regulation |
+
+These assessments are integrated into the AI Superintelligent System to help map highly personalized treatment, bio-optimization, and integration protocols for each individual.
+
+---
+
+## Longitudinal Data Collection & Outcome Measurement
+
+A critical component of medical and scientific oversight is data collection and outcome measurement, particularly focused on neurological, physiological, and nervous system markers.
+
+### Brain Mapping & Neurophysiological Assessments
+
+The Epicenter utilizes brain mapping and neurophysiological assessments to establish:
+
+| Assessment Point | Timing | Purpose |
+|------------------|--------|---------|
+| Baseline | Prior to treatment | Establish pre-treatment neurological state |
+| Post-Treatment | Immediately following experience | Measure acute changes |
+| 3-Month Follow-up | ~3 months post-treatment | Assess sustained changes |
+| 6-Month Follow-up | ~6 months post-treatment | Evaluate long-term trajectory |
+
+### Data Collection Framework
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                    LONGITUDINAL DATA COLLECTION                          │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│  PRE-CARE                  ON-SITE                  POST-CARE           │
+│  ┌────────────┐            ┌────────────┐           ┌────────────┐      │
+│  │ Baseline   │            │ During &   │           │ Follow-up  │      │
+│  │ Assessment │───────────▶│ Immediate  │──────────▶│ Assessment │      │
+│  │            │            │ Post       │           │ (3mo, 6mo) │      │
+│  └────────────┘            └────────────┘           └────────────┘      │
+│       │                         │                        │              │
+│       ▼                         ▼                        ▼              │
+│  ┌─────────────────────────────────────────────────────────────────┐   │
+│  │                  AI SUPERINTELLIGENT SYSTEM                       │   │
+│  │   Aggregates, analyzes, and generates personalized protocols      │   │
+│  └─────────────────────────────────────────────────────────────────┘   │
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+### Clinical Value of Longitudinal Data
+
+This approach is especially important in the context of addiction, trauma, depression, anxiety, and nervous system dysregulation, enabling the Epicenter to:
+
+- **Track objective neurological and physiological changes** over time
+- **Correlate subjective healing experiences** with measurable data
+- **Support continuous improvement** of protocols
+- **Contribute to evidence-informed practices** and long-term outcome validation
+- **Enable adaptive protocol recommendations** through AI analysis
+
+### AI Integration for Personalized Protocols
+
+By combining clinical data, biological markers, neurological insights, and experiential inputs, the AI Superintelligent System supports:
+
+- Individualized care pathways
+- Adaptive protocol recommendations
+- Ongoing refinement based on outcomes and follow-up data
+- Personalized treatment over defined time horizons (weeks, months, long-term)
 
 ### Absolute Contraindications (Ibogaine)
 
@@ -406,6 +482,6 @@ This pillar exists to:
 
 ---
 
-**Version**: 1.0.0
-**Last Updated**: December 2024
+**Version**: 2.0.0
+**Last Updated**: January 2025
 **Medical Director**: TBD

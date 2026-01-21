@@ -12,9 +12,9 @@ Transformational Epicenter is a network of medical-based wellness and bio-optimi
 
 ---
 
-## The Seven Pillars
+## The Eight Pillars
 
-Our approach rests on seven foundational pillars:
+Our approach rests on eight foundational pillars:
 
 | Pillar | Focus |
 |--------|-------|
@@ -22,9 +22,10 @@ Our approach rests on seven foundational pillars:
 | 2. Plant Medicine (Iboga & Ibogaine) | Medically supervised, trauma-informed ceremonies |
 | 3. Advanced Bio-Optimization | State-of-the-art modalities for recovery and vitality |
 | 4. Trauma Integration | Nervous system restoration and lasting change |
-| 5. Five-Star Hospitality | Luxury care that allows complete surrender to healing |
-| 6. Digital Ecosystem | App supporting the complete journey |
-| 7. Pre-Care & Post-Care | Full continuum from preparation through lifelong integration |
+| 5. Five-Star Hospitality & Functional Fitness | Luxury care that allows complete surrender to healing |
+| 6. Digital Ecosystem | AI Superintelligent System supporting the complete journey |
+| 7. Pre-Care (Preparation) | 4-8 weeks of readiness, safety, intention, nervous system priming |
+| 8. Post-Care (Integration) | 3-12+ months of integration, embodiment, community, longevity |
 
 ---
 

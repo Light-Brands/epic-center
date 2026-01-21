@@ -6,7 +6,15 @@
 
 ## Vision
 
-The Transformational Epicenter app is not a product - it is an extension of the care relationship. It serves guests before they arrive, during their stay, and for life after they leave.
+The Transformational Epicenter digital ecosystem is a HIPAA-compliant, white-label AI Superintelligent System platform and mobile app that transforms the traditional retreat model into a fully integrated, owned ecosystem.
+
+**Core Positioning**: This is a white-label platform and app owned by Transformational Epicenter. The website, platform, and app are one intelligence system. Every guest downloads the Transformational Epicenter App.
+
+This system is:
+- Fully branded as Transformational Epicenter
+- Deployed as Transformational Epicenter's own platform and app
+- Not rented software or a third-party marketplace
+- Not dependent on external manpower
 
 Our digital ecosystem exists to:
 1. **Prepare** guests for their journey
@@ -14,6 +22,50 @@ Our digital ecosystem exists to:
 3. **Sustain** transformation through integration
 4. **Connect** a community of transformed individuals
 5. **Measure** outcomes for continuous improvement
+6. **Automate** referrals and ambassador payouts
+7. **Personalize** treatment through AI-driven protocols
+8. **Protect** data through HIPAA-compliant architecture
+
+---
+
+## AI Superintelligent System
+
+### AI Data Ingestion, Analytics, and Personalized Protocol Engine
+
+The AI Superintelligent System functions as a centralized intelligence layer that aggregates, organizes, and analyzes all relevant individual data collected throughout pre-care, on-site care, and post-care.
+
+**Data Sources**
+- Epigenetic testing data
+- DNA and genetic testing data
+- Blood tests and biomarker panels
+- Hormonal, metabolic, and inflammatory markers
+- Brain mapping and neurophysiological data
+- Medical intake and clinical assessments
+- Engagement, behavioral, and integration data over time
+
+**Personalized Protocol Generation**
+
+The system synthesizes information to generate highly personalized treatment and optimization protocols:
+
+| Protocol Area | Examples |
+|---------------|----------|
+| Pre-care preparation | Nervous system readiness, dietary protocols |
+| On-site treatment | Modality selection, treatment sequencing |
+| Bio-optimization | Recovery pathways, therapy scheduling |
+| Integration | Lifestyle recommendations, practice sequences |
+| Functional fitness | Personalized movement protocols |
+| Nutrition | Dietary guidance, supplementation |
+| Long-term follow-up | Optimization over defined time horizons |
+
+**Adaptive Intelligence**
+
+Personalized protocols are designed and adjusted over weeks, months, or longer-term timeframes, with the AI continuously refining recommendations based on:
+- New test results
+- Follow-up assessments
+- Engagement patterns
+- Outcome measurements
+
+This allows Transformational Epicenter to deliver adaptive, data-informed, and individualized care at scale, while maintaining medical oversight, safety, and ethical governance.
 
 ---
 
@@ -48,6 +100,37 @@ Our digital ecosystem exists to:
 │                                                                               │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+
+---
+
+## HIPAA-Compliant App Capabilities
+
+### Core Features
+
+| Feature | Capabilities |
+|---------|--------------|
+| Patient Onboarding | Secure intake forms, medical + consent documentation, automated scheduling, HIPAA-encrypted data vault |
+| Payments | Deposits, full payments, automated invoices |
+| Referral & Ambassador Engine | Unique referral links, automated commission tracking (2.5%–10%), monthly auto-payouts, no access to PHI |
+| Smart Status Routing | Patients automatically placed into: Main Community, Pre-Care Community, Post-Care Community |
+
+### Referral & Ambassador Engine
+
+**How It Works**
+- Each ambassador receives a unique referral link
+- System tracks referrals automatically
+- Commission rates: 2.5%–10% (configurable)
+- Monthly automated payouts
+- Full dashboard visibility for ambassadors
+- No access to PHI or patient information
+
+**Ambassador Dashboard Features**
+- Unique referral link management
+- Real-time referral tracking
+- Commission history
+- Payout schedule
+- Marketing resources
+- Performance analytics
 
 ---
 
@@ -146,9 +229,43 @@ Our digital ecosystem exists to:
 
 ### Purpose
 
-Transformation is sustained through connection. Our community platform creates ongoing support and belonging.
+Transformation is sustained through connection. Our community platform creates ongoing support and belonging through AI-moderated, HIPAA-aware community spaces.
 
-### Community Structure
+### Community Architecture (Inside the App)
+
+**Main Transformational Epicenter Community**
+- Orientation and welcome
+- General Q&A
+- AI-moderated (no PHI allowed)
+- All members have access
+
+**Pre-Care Communities**
+
+| Community | Focus |
+|-----------|-------|
+| Addiction Pre-Care | Preparation for addiction recovery journeys |
+| Mental Health Pre-Care | Preparation for mental health focused work |
+| Veterans Pre-Care | Preparation specific to veteran needs |
+| First-Time Journeys | Support for first-time participants |
+
+**Post-Care Communities**
+
+| Community | Focus |
+|-----------|-------|
+| Addiction Integration | Long-term addiction recovery support |
+| Mental Health Integration | Ongoing mental health support |
+| Veterans Integration | Veteran-specific integration support |
+| Booster Pathways | For those considering return visits |
+
+**Smart Status Routing**
+
+Guests are automatically placed into appropriate communities based on:
+- Journey stage (pre-care, on-site, post-care)
+- Primary focus area (addiction, mental health, etc.)
+- Program type
+- Opt-in preferences
+
+### Traditional Community Structure
 
 **Cohort Groups**
 - Automatic group for retreat cohort
@@ -172,6 +289,14 @@ Transformation is sustained through connection. Our community platform creates o
 - Geographic connection
 - In-person meetup coordination
 - Local resources
+
+### Community Safety Standards
+
+All communities are:
+- Support-based
+- Non-clinical
+- Actively moderated by AI and rules to prevent PHI sharing
+- Facilitator-overseen for escalation
 
 ### Features
 
@@ -470,6 +595,6 @@ Transformation is sustained through connection. Our community platform creates o
 
 ---
 
-**Version**: 1.0.0
-**Last Updated**: December 2024
+**Version**: 2.0.0
+**Last Updated**: January 2025
 **Product Lead**: TBD

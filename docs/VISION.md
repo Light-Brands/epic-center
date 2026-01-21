@@ -4,6 +4,16 @@
 
 ---
 
+## Foundational Vision
+
+Transformational Epicenter is a medical-based wellness and bio-optimization clinic with a luxury retreat experience, designed to address healing at the root level: physical, neurological, emotional, and spiritual.
+
+The first Epicenter is envisioned to be in Mexico, with an average of 10 private guest rooms.
+
+The core intention is not detox or short-term relief, but true transformation, nervous system repair, trauma resolution, and human remembrance.
+
+---
+
 ## The Core Truth
 
 Modern humans are suffering from a crisis of disconnection - from their bodies, their nervous systems, their emotions, their purpose, and their essential nature.
@@ -87,9 +97,9 @@ Our guests are high-functioning individuals who have achieved external success b
 
 ---
 
-## The Seven Pillars
+## The Eight Pillars
 
-Our approach rests on seven foundational pillars, each essential to the whole:
+Our approach rests on eight foundational pillars, each essential to the whole:
 
 ### Pillar 1: Medical and Scientific Oversight
 Evidence-based protocols. Rigorous safety screening. Continuous monitoring. Measurable outcomes. We honor the body's complexity with medical precision.
@@ -103,14 +113,17 @@ State-of-the-art modalities that restore the nervous system, accelerate recovery
 ### Pillar 4: Trauma Integration and Nervous System Restoration
 The medicine opens doors; integration walks through them. Personalized support through facilitators, somatic therapies, and practices that anchor transformation in the body.
 
-### Pillar 5: Five-Star Hospitality, Nutrition, and Care
-A luxury retreat environment where every detail supports healing. Therapeutic massage, organic nutrition, conscious design - the physical container that allows complete surrender.
+### Pillar 5: Five-Star Hospitality, Nutrition, Care, and Functional Fitness
+A luxury retreat environment where every detail supports healing. Daily therapeutic massage, organic chef-prepared meals, conscious architectural and interior design, exceptional human care, and functional fitness practices designed to support nervous system regulation, structural balance, strength, mobility, and resilience.
 
 ### Pillar 6: Digital Ecosystem and Community Support
-Technology that extends care beyond walls. Medical onboarding, preparation content, daily schedules, integration practices, and community connection - all in one cohesive platform.
+Technology that extends care beyond walls. Medical onboarding, preparation content, daily schedules, integration practices, and community connection - all in one cohesive platform powered by the AI Superintelligent System.
 
-### Pillar 7: Pre-Care and Post-Care
-The complete arc. Preparation before arrival. Integration after departure. Ongoing support for embodiment, identity, and purpose. Optional longevity and optimization programs.
+### Pillar 7: Pre-Care (Preparation)
+The foundation of transformation. 4-8 weeks of medical preparation, psychological readiness, nervous system priming, intention setting, and practical logistics. Preparation is not overhead - it determines the depth of what's possible.
+
+### Pillar 8: Post-Care (Integration)
+Where transformation becomes embodiment. 3-12+ months of processing, understanding, anchoring, and living the changes. Coaching, community, practices, and support to ensure insights become lasting change. Optional longevity and optimization programs.
 
 ---
 
@@ -175,7 +188,7 @@ The Transformational Epicenter is not merely a building - it is a therapeutic en
 
 - **Location**: Mexico (specific site TBD)
 - **Land**: 0.5 to 1 hectare
-- **Capacity**: 20-30 private guest rooms
+- **Capacity**: 10 private guest rooms
 - **Structure**: Low-density buildings integrated into nature
 - **Facilities**:
   - Medical center
@@ -239,6 +252,39 @@ The Transformational Epicenter is not merely a building - it is a therapeutic en
 
 ---
 
+## AI Superintelligent System
+
+Transformational Epicenter is supported by a HIPAA-compliant AI Superintelligent System that functions as a centralized intelligence layer, aggregating, organizing, and analyzing all relevant individual data collected throughout pre-care, on-site care, and post-care.
+
+This system enables:
+- Highly personalized treatment and optimization protocols
+- Individualized care pathways
+- Adaptive protocol recommendations
+- Ongoing refinement based on outcomes and follow-up data
+- Data-informed, individualized care at scale
+
+Medical rigor, safety, personalization, and accountability are embedded from pre-care through long-term post-care.
+
+---
+
+## Wellness-Only Programs
+
+In addition to plant medicine–supported journeys, Transformational Epicenter also offers dedicated wellness and health-focused programs that do not include plant medicine.
+
+These non–plant medicine programs are designed for individuals seeking:
+- Nervous system regulation
+- Physical and neurological optimization
+- Emotional resilience
+- Longevity and regenerative health
+- Recovery and preventive health
+- Deep recalibration without plant medicine participation
+
+These wellness-only programs leverage the same medical, bio-optimization, hospitality, functional fitness, and integration infrastructure, offering true healing, restoration, and transformation without requiring plant medicine participation.
+
+This approach allows Transformational Epicenter to serve a broader population while maintaining the same ethical, medical, and experiential standards.
+
+---
+
 ## Closing
 
 Transformational Epicenter exists because millions of people are suffering unnecessarily - disconnected from their bodies, their purpose, and their essential nature.
@@ -251,5 +297,5 @@ It's about returning to it - whole, present, sovereign, and awake.
 
 ---
 
-**Version**: 1.0.0
-**Last Updated**: December 2024
+**Version**: 2.0.0
+**Last Updated**: January 2025

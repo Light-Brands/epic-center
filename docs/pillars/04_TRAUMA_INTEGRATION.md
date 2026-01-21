@@ -352,7 +352,7 @@ Working with internal "parts" that carry different beliefs, emotions, and protec
 - Contained environment
 
 **Post-Departure (Phases 2-4)**
-See [Pillar 7: Pre & Post Care](./07_PRE_POST_CARE.md) for detailed post-care programming.
+See [Pillar 8: Post-Care (Integration)](./08_POST_CARE.md) for detailed post-care programming.
 
 ---
 
