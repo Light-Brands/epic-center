@@ -114,8 +114,8 @@ flowchart TD
     C --> J
     D --> J
 
-    style RESEARCH fill:#1a365d,stroke:#2c5282,color:#fff
-    style OUTPUTS fill:#234e52,stroke:#285e61,color:#fff
+    style RESEARCH fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style OUTPUTS fill:#d1fae5,stroke:#10b981,color:#065f46
 ```
 
 ---
@@ -253,9 +253,9 @@ flowchart LR
         I[Identity] --> U
     end
 
-    style COMPETITORS fill:#7f1d1d,stroke:#991b1b,color:#fff
-    style EPICENTER fill:#14532d,stroke:#166534,color:#fff
-    style U fill:#f59e0b,stroke:#d97706,color:#000
+    style COMPETITORS fill:#fee2e2,stroke:#f87171,color:#7f1d1d
+    style EPICENTER fill:#d1fae5,stroke:#34d399,color:#065f46
+    style U fill:#fef3c7,stroke:#fbbf24,color:#92400e
 ```
 
 ### Continuity
@@ -269,7 +269,7 @@ flowchart TB
     subgraph COMPETITORS["❌ MOST CLINICS — The Event Model"]
         direction LR
         A1[Arrival] --> T1[Treatment] --> D1[Departure] --> N1[Nothing]
-        style N1 fill:#7f1d1d,stroke:#991b1b,color:#fff
+        style N1 fill:#fecaca,stroke:#f87171,color:#7f1d1d
     end
 
     subgraph EPICENTER["✓ TRANSFORMATIONAL EPICENTER — The Journey Model"]
@@ -282,9 +282,9 @@ flowchart TB
         IE -.-> LTI
     end
 
-    style COMPETITORS fill:#7f1d1d,stroke:#991b1b,color:#fff
-    style EPICENTER fill:#14532d,stroke:#166534,color:#fff
-    style LTI fill:#f59e0b,stroke:#d97706,color:#000
+    style COMPETITORS fill:#fee2e2,stroke:#f87171,color:#7f1d1d
+    style EPICENTER fill:#d1fae5,stroke:#34d399,color:#065f46
+    style LTI fill:#fef3c7,stroke:#fbbf24,color:#92400e
 ```
 
 ### Personalization
@@ -313,9 +313,9 @@ flowchart TB
         G -.->|Continuous Feedback| D
     end
 
-    style COMPETITORS fill:#7f1d1d,stroke:#991b1b,color:#fff
-    style EPICENTER fill:#14532d,stroke:#166534,color:#fff
-    style AI fill:#1e3a5f,stroke:#2563eb,color:#fff
+    style COMPETITORS fill:#fee2e2,stroke:#f87171,color:#7f1d1d
+    style EPICENTER fill:#d1fae5,stroke:#34d399,color:#065f46
+    style AI fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
 ```
 
 ---
@@ -360,12 +360,12 @@ flowchart LR
     I -.- E4[Premium Committed]
     W -.- E5[Ultra-HNW]
 
-    style TIERS fill:#1e3a5f,stroke:#2563eb,color:#fff
-    style R fill:#059669,stroke:#047857,color:#fff
-    style O fill:#0891b2,stroke:#0e7490,color:#fff
-    style T fill:#7c3aed,stroke:#6d28d9,color:#fff
-    style I fill:#db2777,stroke:#be185d,color:#fff
-    style W fill:#f59e0b,stroke:#d97706,color:#000
+    style TIERS fill:#f1f5f9,stroke:#94a3b8,color:#334155
+    style R fill:#d1fae5,stroke:#34d399,color:#065f46
+    style O fill:#cffafe,stroke:#22d3ee,color:#155e75
+    style T fill:#ede9fe,stroke:#a78bfa,color:#5b21b6
+    style I fill:#fce7f3,stroke:#f472b6,color:#9d174d
+    style W fill:#fef3c7,stroke:#fbbf24,color:#92400e
 ```
 
 ### AI Evaluation Criteria
@@ -429,10 +429,10 @@ flowchart TB
 
     D1 & D2 & D3 & D4 --> TE
 
-    style CLIENT fill:#1e3a5f,stroke:#2563eb,color:#fff
-    style DRIVERS fill:#7c2d12,stroke:#9a3412,color:#fff
-    style DESTINATION fill:#14532d,stroke:#166534,color:#fff
-    style TE fill:#f59e0b,stroke:#d97706,color:#000
+    style CLIENT fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style DRIVERS fill:#ffedd5,stroke:#fb923c,color:#9a3412
+    style DESTINATION fill:#d1fae5,stroke:#34d399,color:#065f46
+    style TE fill:#fef3c7,stroke:#fbbf24,color:#92400e
 ```
 
 ---
@@ -500,10 +500,10 @@ flowchart TB
 
     DC --> AN --> MD --> INT
 
-    style DC fill:#1e3a5f,stroke:#2563eb,color:#fff
-    style AN fill:#7c2d12,stroke:#9a3412,color:#fff
-    style MD fill:#4c1d95,stroke:#6d28d9,color:#fff
-    style INT fill:#14532d,stroke:#166534,color:#fff
+    style DC fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style AN fill:#ffedd5,stroke:#fb923c,color:#9a3412
+    style MD fill:#ede9fe,stroke:#a78bfa,color:#5b21b6
+    style INT fill:#d1fae5,stroke:#34d399,color:#065f46
 ```
 
 ### Research Philosophy
@@ -544,8 +544,8 @@ flowchart LR
 
     S1 --> S2 --> S3 --> S4 --> S5 --> S6 --> S7 --> DONE((✓<br/>COMPLETE))
 
-    style SUCCESS fill:#14532d,stroke:#166534,color:#fff
-    style DONE fill:#f59e0b,stroke:#d97706,color:#000
+    style SUCCESS fill:#d1fae5,stroke:#34d399,color:#065f46
+    style DONE fill:#fef3c7,stroke:#fbbf24,color:#92400e
 ```
 
 ---
@@ -584,10 +584,10 @@ flowchart LR
 
     P1A --> P1B --> P1C --> P1D
 
-    style P1A fill:#1e3a5f,stroke:#2563eb,color:#fff
-    style P1B fill:#7c2d12,stroke:#9a3412,color:#fff
-    style P1C fill:#4c1d95,stroke:#6d28d9,color:#fff
-    style P1D fill:#14532d,stroke:#166534,color:#fff
+    style P1A fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style P1B fill:#ffedd5,stroke:#fb923c,color:#9a3412
+    style P1C fill:#ede9fe,stroke:#a78bfa,color:#5b21b6
+    style P1D fill:#d1fae5,stroke:#34d399,color:#065f46
 ```
 
 ### Phase 1A: Data Collection
@@ -714,12 +714,12 @@ flowchart TB
     M4 & M2 --> M3 & M1
     M3 & M1 --> TE
 
-    style MOATS fill:#1e1e2e,stroke:#45475a,color:#fff
-    style L1 fill:#92400e,stroke:#b45309,color:#fff
-    style L2 fill:#7c2d12,stroke:#9a3412,color:#fff
-    style L3 fill:#4c1d95,stroke:#6d28d9,color:#fff
-    style CORE fill:#14532d,stroke:#166534,color:#fff
-    style TE fill:#f59e0b,stroke:#d97706,color:#000
+    style MOATS fill:#f8fafc,stroke:#cbd5e1,color:#334155
+    style L1 fill:#fef3c7,stroke:#fbbf24,color:#92400e
+    style L2 fill:#ffedd5,stroke:#fb923c,color:#9a3412
+    style L3 fill:#ede9fe,stroke:#a78bfa,color:#5b21b6
+    style CORE fill:#d1fae5,stroke:#34d399,color:#065f46
+    style TE fill:#fef3c7,stroke:#fbbf24,color:#92400e
 ```
 
 ### Market Size & Demand Signals
@@ -814,12 +814,12 @@ flowchart TB
 
     WHATWEARE --> WHATWERENOT --> OURPOSITION --> OPPORTUNITY --> PATH
 
-    style POSITION fill:#1e1e2e,stroke:#45475a,color:#fff
-    style WHATWEARE fill:#14532d,stroke:#166534,color:#fff
-    style WHATWERENOT fill:#7f1d1d,stroke:#991b1b,color:#fff
-    style OURPOSITION fill:#f59e0b,stroke:#d97706,color:#000
-    style OPPORTUNITY fill:#1e3a5f,stroke:#2563eb,color:#fff
-    style PATH fill:#4c1d95,stroke:#6d28d9,color:#fff
+    style POSITION fill:#f8fafc,stroke:#cbd5e1,color:#334155
+    style WHATWEARE fill:#d1fae5,stroke:#34d399,color:#065f46
+    style WHATWERENOT fill:#fee2e2,stroke:#f87171,color:#7f1d1d
+    style OURPOSITION fill:#fef3c7,stroke:#fbbf24,color:#92400e
+    style OPPORTUNITY fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style PATH fill:#ede9fe,stroke:#a78bfa,color:#5b21b6
 ```
 
 ### Final Assessment
