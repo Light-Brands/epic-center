@@ -1,4 +1,4 @@
-# Epic Center Documentation Hub
+# Transformational Epicenter Documentation Hub
 
 > **Your compass for navigating the complete blueprint of a transformational medical wellness company.**
 
@@ -99,7 +99,7 @@ pitch-packet/DIGITAL_PITCH_PACKET.md → Full pitch strategy
 ---
 
 ### 🔷 Segments
-*The 8 operational pillars that define Epic Center's integrated offering*
+*The 8 operational pillars that define Transformational Epicenter's integrated offering*
 
 | # | Segment | Focus Area |
 |---|---------|------------|

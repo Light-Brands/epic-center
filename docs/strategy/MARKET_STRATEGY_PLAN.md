@@ -19,7 +19,7 @@ quadrantChart
     quadrant-2 Luxury Wellness
     quadrant-3 Basic Wellness
     quadrant-4 Medical Clinics
-    Epic Center: [0.92, 0.92]
+    Transformational Epicenter: [0.92, 0.92]
     Clinique La Prairie: [0.85, 0.70]
     SHA Wellness: [0.80, 0.65]
     Aman Resorts: [0.30, 0.90]
@@ -70,7 +70,7 @@ flowchart TB
     BIOHACK -->|"Transactional model<br/>No luxury DNA"| BLOCKED3((❌))
     PLANT -->|"Can't achieve luxury<br/>or medical standards"| BLOCKED4((❌))
 
-    subgraph EPICENTER["🏔️ EPIC CENTER"]
+    subgraph EPICENTER["🏔️ TRANSFORMATIONAL EPICENTER"]
         EC((All Four<br/>Pillars<br/>Integrated))
     end
 
@@ -352,7 +352,7 @@ flowchart LR
         C5["Minimal follow-up"]
     end
 
-    subgraph NEW["✓ Epic Center Standard"]
+    subgraph NEW["✓ Transformational Epicenter Standard"]
         direction TB
         N1["Full cardiac workup"]
         N2["Continuous telemetry"]
@@ -416,7 +416,7 @@ flowchart LR
 | **Secure Prime Location** | Quintana Roo, Mexico — 50+ acres, ocean access, private airstrip, ibogaine legal |
 | **Assemble Dream Team** | CEO (Aman/Four Seasons), CMO (academic medicine), COO (resort ops), Medical Director (plant medicine + longevity) |
 | **Build Flagship Facility** | 20 private villas, medical center with ICU, biohacking center, ceremonial spaces, Michelin culinary |
-| **Develop Proprietary Protocols** | Document "Epic Center Method," signature combinations, outcome framework, AI personalization |
+| **Develop Proprietary Protocols** | Document "Transformational Epicenter Method," signature combinations, outcome framework, AI personalization |
 
 ### Phase 2: Market Capture (Months 18-36)
 
@@ -522,7 +522,7 @@ flowchart TB
         M1C["Government<br/>relationships"]
     end
 
-    subgraph CORE["🏔️ EPIC CENTER"]
+    subgraph CORE["🏔️ TRANSFORMATIONAL EPICENTER"]
         EC((Category<br/>of One))
     end
 
