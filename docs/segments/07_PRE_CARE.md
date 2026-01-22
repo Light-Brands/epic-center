@@ -1,8 +1,8 @@
-<[Home](../../README.md) | [Vision](../strategy/VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Prev: [Digital](./06_DIGITAL_ECOSYSTEM.md) | Next: [Post-Care](./08_POST_CARE.md)>
+<[Home](../../README.md) | [Vision](../strategy/VISION.md) | [All Segments](../../README.md#the-eight-segments) | Prev: [Digital](./06_DIGITAL_ECOSYSTEM.md) | Next: [Post-Care](./08_POST_CARE.md)>
 
 ---
 
-# Pillar 7: Pre-Care (Preparation)
+# Segment 7: Pre-Care (Preparation)
 
 > *Readiness is the foundation of transformation*
 
@@ -30,7 +30,7 @@ Pre-care is where transformation begins. The work done before arrival determines
 │   │         │           │          │          │                          │  │
 │   └─────────┘           └─────────┘           └─────────────────────────┘  │
 │                                                                              │
-│   This Document         On-Site Experience    See Pillar 8: Post-Care      │
+│   This Document         On-Site Experience    See Segment 8: Post-Care     │
 │                                                                              │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -109,7 +109,7 @@ Pre-care is not administrative overhead - it is the foundation of safe, profound
 - Physical readiness assessment
 - Tapering progress (if applicable)
 
-See [Pillar 1: Medical Oversight](./01_MEDICAL_OVERSIGHT.md) for detailed medical protocols.
+See [Segment 1: Medical Oversight](./01_MEDICAL_OVERSIGHT.md) for detailed medical protocols.
 
 ---
 

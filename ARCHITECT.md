@@ -130,30 +130,30 @@ Transformational Epicenter is a network of medical-based wellness and bio-optimi
 - **Capacity**: 10 private guest rooms
 - **Design**: Low-density buildings integrated into nature
 
-### The Eight Pillars
+### The Eight Segments
 
-#### Pillar 1: Medical and Scientific Oversight
+#### Segment 1: Medical and Scientific Oversight
 Evidence-based intake, diagnostics, safety screening, and measurable outcomes. Continuous monitoring. Medical supervision throughout. AI-integrated data collection and longitudinal outcome measurement.
 
-#### Pillar 2: Plant Medicine (Iboga & Ibogaine)
+#### Segment 2: Plant Medicine (Iboga & Ibogaine)
 Trauma-informed, ethically held ceremonies with rigorous medical oversight. The medicine is a catalyst, not the destination.
 
-#### Pillar 3: Advanced Bio-Optimization and Longevity
+#### Segment 3: Advanced Bio-Optimization and Longevity
 State-of-the-art modalities: saunas, cold therapy, red light, hyperbaric oxygen, IV/ozone therapy, massage, breathwork, somatic therapies.
 
-#### Pillar 4: Trauma Integration and Nervous System Restoration
+#### Segment 4: Trauma Integration and Nervous System Restoration
 Personalized support through facilitators, counselors, somatic therapies, and integration practices that resolve trauma at the root.
 
-#### Pillar 5: Five-Star Hospitality, Nutrition, Care, and Functional Fitness
+#### Segment 5: Five-Star Hospitality, Nutrition, Care, and Functional Fitness
 Daily therapeutic massage, organic chef-prepared meals, conscious design, exceptional human care, and functional fitness practices for nervous system regulation.
 
-#### Pillar 6: Digital Ecosystem and Community Support
+#### Segment 6: Digital Ecosystem and Community Support
 HIPAA-compliant AI Superintelligent System: medical onboarding, preparation, schedules, integration practices, community, referral engine, long-term follow-up.
 
-#### Pillar 7: Pre-Care (Preparation)
+#### Segment 7: Pre-Care (Preparation)
 4-8 weeks of readiness, safety, intention setting, nervous system preparation, medical clearance, and facilitator connection. Preparation determines the depth of transformation.
 
-#### Pillar 8: Post-Care (Integration)
+#### Segment 8: Post-Care (Integration)
 3-12+ months of processing, understanding, anchoring, and embodiment. Coaching, community, practices, longevity programs. Where transformation becomes lasting change.
 
 ### Program Structures
@@ -219,7 +219,7 @@ Analytics:     PostHog (self-hosted for HIPAA)
 │   │   ├── INTEGRATION_MAP.md
 │   │   └── INFRASTRUCTURE.md
 │   │
-│   ├── /pillars                    # Eight pillar deep dives
+│   ├── /segments                   # Eight segment deep dives
 │   │   ├── 01_MEDICAL_OVERSIGHT.md
 │   │   ├── 02_PLANT_MEDICINE.md
 │   │   ├── 03_BIO_OPTIMIZATION.md
@@ -298,7 +298,7 @@ Analytics:     PostHog (self-hosted for HIPAA)
 When beginning any work session, recall:
 
 1. **The Guest** - Everything serves their transformation
-2. **The Pillars** - Seven foundations that must stay in balance
+2. **The Segments** - Eight foundations that must stay in balance
 3. **The Arc** - Preparation → Experience → Integration
 4. **The Scale** - Build for one, design for thirty
 5. **The Soul** - Technology carries intention

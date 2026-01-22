@@ -1,8 +1,8 @@
-<[Home](../../README.md) | [Vision](../strategy/VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Prev: [Trauma](./04_TRAUMA_INTEGRATION.md) | Next: [Digital](./06_DIGITAL_ECOSYSTEM.md)>
+<[Home](../../README.md) | [Vision](../strategy/VISION.md) | [All Segments](../../README.md#the-eight-segments) | Prev: [Trauma](./04_TRAUMA_INTEGRATION.md) | Next: [Digital](./06_DIGITAL_ECOSYSTEM.md)>
 
 ---
 
-# Pillar 5: Five-Star Hospitality, Nutrition, Care, and Functional Fitness
+# Segment 5: Five-Star Hospitality, Nutrition, Care, and Functional Fitness
 
 > *Luxury as the physical expression of love*
 

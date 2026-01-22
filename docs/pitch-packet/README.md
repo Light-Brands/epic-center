@@ -36,14 +36,14 @@ This folder contains the complete strategy and specifications for a **100% digit
 
 **Why Competitors Can't Copy This:**
 
-| Competitor Type | Why They Won't Integrate All 8 Pillars |
+| Competitor Type | Why They Won't Integrate All 4 Pillars |
 |-----------------|----------------------------------------|
 | Medical Clinics (Clinique La Prairie, SHA Wellness) | Won't touch plant medicine—regulatory risk |
 | Luxury Resorts (Aman, Six Senses) | Lack medical expertise & infrastructure |
 | Plant Medicine Centers (Beond, Rythmia) | Can't attract luxury talent or afford medical |
 | Biohacking Centers (Upgrade Labs, Restore) | Transactional model, not transformational |
 
-**Our 8 Foundational Pillars:**
+**Our 8 Operational Segments:**
 1. Medical & Scientific Oversight (24/7, hospital-grade)
 2. Plant Medicine (Iboga/Ibogaine, medically supervised)
 3. Advanced Bio-Optimization & Longevity
@@ -113,7 +113,7 @@ The 10-minute executive summary. Start here to understand:
 The comprehensive strategy document covering:
 - Full pitch narrative (11 sections aligned with Executive Summary):
   1. The Hook (Problem/Crisis of Disconnection)
-  2. The Solution (8 Pillars)
+  2. The Solution (8 Segments)
   3. Why Now (Market Timing)
   4. Market Opportunity ($5.6T across 4 segments)
   5. Business Model ($2,000/day base rate)

@@ -9,7 +9,7 @@
 | Section | Description | Start Here |
 |---------|-------------|------------|
 | [Strategy](#-strategy) | Vision, mission, and master plan | [VISION.md](./strategy/VISION.md) |
-| [Segments](#-segments) | The 8 operational pillars | [01_MEDICAL_OVERSIGHT.md](./segments/01_MEDICAL_OVERSIGHT.md) |
+| [Segments](#-segments) | The 8 operational segments | [01_MEDICAL_OVERSIGHT.md](./segments/01_MEDICAL_OVERSIGHT.md) |
 | [Programs](#-programs) | Guest transformation programs | [PROGRAM_OVERVIEW.md](./programs/PROGRAM_OVERVIEW.md) |
 | [Architecture](#-architecture) | Technical platform design | [SYSTEM_OVERVIEW.md](./architecture/SYSTEM_OVERVIEW.md) |
 | [Market Research](#-market-research) | Competitive intelligence | [README.md](./market-research/README.md) |
@@ -24,7 +24,7 @@
 ```
 docs/
 ├── strategy/              # Vision & high-level planning
-├── segments/              # 8 operational pillars (the "what")
+├── segments/              # 8 operational segments (the "what")
 ├── programs/              # Guest programs (the "experience")
 ├── architecture/          # Technical platform specs
 ├── market-research/       # Competitive landscape
@@ -50,7 +50,7 @@ strategy/MASTER_PLAN.md         → Complete implementation roadmap
 
 ### 2. Understand the Offering
 ```
-segments/01-08                  → The 8 operational pillars
+segments/01-08                  → The 8 operational segments
 programs/PROGRAM_OVERVIEW.md    → Guest journey framework
 programs/7_DAY_RESET.md         → Entry-level program
 programs/28_DAY_TRANSFORMATION.md → Flagship program
@@ -99,7 +99,7 @@ pitch-packet/DIGITAL_PITCH_PACKET.md → Full pitch strategy
 ---
 
 ### 🔷 Segments
-*The 8 operational pillars that define Transformational Epicenter's integrated offering*
+*The 8 operational segments that define Transformational Epicenter's integrated offering*
 
 | # | Segment | Focus Area |
 |---|---------|------------|
@@ -233,7 +233,7 @@ pitch-packet/DIGITAL_PITCH_PACKET.md → Full pitch strategy
           ▼                       ▼                       ▼
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
 │    SEGMENTS     │     │   ARCHITECTURE  │     │    PROGRAMS     │
-│ (8 Pillars)     │     │ (Platform Tech) │     │ (Guest Journey) │
+│ (8 Segments)    │     │ (Platform Tech) │     │ (Guest Journey) │
 └─────────────────┘     └─────────────────┘     └─────────────────┘
           │                       │                       │
           └───────────────────────┼───────────────────────┘

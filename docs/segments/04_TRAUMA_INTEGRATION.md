@@ -1,8 +1,8 @@
-<[Home](../../README.md) | [Vision](../strategy/VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Prev: [Bio-Opt](./03_BIO_OPTIMIZATION.md) | Next: [Hospitality](./05_HOSPITALITY.md)>
+<[Home](../../README.md) | [Vision](../strategy/VISION.md) | [All Segments](../../README.md#the-eight-segments) | Prev: [Bio-Opt](./03_BIO_OPTIMIZATION.md) | Next: [Hospitality](./05_HOSPITALITY.md)>
 
 ---
 
-# Pillar 4: Trauma Integration and Nervous System Restoration
+# Segment 4: Trauma Integration and Nervous System Restoration
 
 > *Resolving trauma at the root, restoring internal coherence*
 
@@ -356,7 +356,7 @@ Working with internal "parts" that carry different beliefs, emotions, and protec
 - Contained environment
 
 **Post-Departure (Phases 2-4)**
-See [Pillar 8: Post-Care (Integration)](./08_POST_CARE.md) for detailed post-care programming.
+See [Segment 8: Post-Care (Integration)](./08_POST_CARE.md) for detailed post-care programming.
 
 ---
 

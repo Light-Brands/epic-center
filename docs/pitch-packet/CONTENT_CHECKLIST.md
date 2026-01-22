@@ -54,7 +54,7 @@ This checklist tracks all content assets needed for the digital pitch packet. Us
 
 - [ ] **Section 2: The Solution**
   - Transformational Epicenter one-sentence pitch
-  - 8 Foundational Pillars (detailed from Executive Summary)
+  - 8 Operational Segments (detailed from Executive Summary)
   - Transformation architecture concept
   - "From/To" transformation outcomes table
 
@@ -250,7 +250,7 @@ This checklist tracks all content assets needed for the digital pitch packet. Us
 
 ### Pitch Graphics
 
-- [ ] **8 Pillars Diagram**
+- [ ] **8 Segments Diagram**
   - Interactive/animated version
   - Static version for documents
 
@@ -289,7 +289,7 @@ This checklist tracks all content assets needed for the digital pitch packet. Us
 
 ### Iconography
 
-- [ ] **Custom icons for 8 pillars**
+- [ ] **Custom icons for 8 segments**
 - [ ] **Feature icons** (for product sections)
 - [ ] **Process icons** (for guest journey)
 
