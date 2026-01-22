@@ -45,16 +45,19 @@ There's a massive gap in the wellness market that nobody is filling.
 
 ---
 
-## The Market: $5.6 Trillion and Growing
+## The Market: Over $1 Trillion and Growing
 
 Our research identified four market segments that Transformational Epicenter serves simultaneously:
 
 | Market Segment | Size | Annual Growth |
 |----------------|------|---------------|
-| Medical & Longevity Clinics | $27-33 Billion | 12-15% |
 | Luxury Wellness Hospitality | $850 Billion - $1.1 Trillion | 7-10% |
+| Medical & Longevity Clinics | $27-33 Billion | 12-15% |
 | Biohacking & Performance | $24-33 Billion | 18-22% |
 | Plant Medicine & Psychedelics | $3-5 Billion | 15-20% |
+| **Combined Market** | **$904 Billion - $1.17 Trillion** | **8-12%** |
+
+*Note: The global wellness economy is valued at $5.6 trillion (Global Wellness Institute, 2024), of which our addressable segments represent approximately $1 trillion.*
 
 **The key insight**: We don't need a large market share. Capturing even a small slice of ultra-high-net-worth individuals seeking transformation creates a substantial business.
 

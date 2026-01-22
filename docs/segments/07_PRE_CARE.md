@@ -71,6 +71,52 @@ Pre-care is not administrative overhead - it is the foundation of safe, profound
 - Dietary adjustments begin
 - Facilitator assignment
 
+### 4 Weeks Before: PRE-TESTING MILESTONE
+
+**Comprehensive Pre-Testing Phase**
+
+This is a critical milestone where baseline data is collected to:
+1. Establish pre-treatment baselines for outcome measurement
+2. Identify any emerging contraindications
+3. Personalize on-site protocols based on individual data
+4. Ensure guest is progressing appropriately in preparation
+
+**Required Pre-Testing:**
+
+| Test Category | Specific Tests | Purpose |
+|---------------|----------------|---------|
+| **Cardiac** | ECG/EKG, Echocardiogram (if indicated) | Safety clearance for plant medicine |
+| **Blood Panel** | CBC, CMP, Lipid Panel, HbA1c | Metabolic baseline |
+| **Hormonal** | Thyroid (TSH, T3, T4), Cortisol, Testosterone/Estrogen | Endocrine optimization |
+| **Inflammatory** | hsCRP, ESR, Homocysteine | Inflammation markers |
+| **Nutritional** | Vitamin D, B12, Folate, Iron Panel, Magnesium | Deficiency identification |
+| **Genetic/Epigenetic** | DNA analysis, Biological age testing | Personalization data |
+| **HRV Baseline** | 7-day wearable data | Nervous system baseline |
+| **Psychological** | PHQ-9, GAD-7, PCL-5 (if applicable) | Mental health baseline |
+
+**Optional Advanced Testing:**
+- Microbiome analysis
+- Heavy metal panel
+- Organic acids test
+- Food sensitivity panel
+- Neurotransmitter metabolites
+
+**Pre-Testing Logistics:**
+- Tests ordered at 6-week mark
+- Results due by 4-week mark
+- Remote testing through partner labs (e.g., Alliance)
+- Home collection kits for applicable tests
+- Medical team reviews all results within 48 hours
+- Protocol adjustments communicated to guest
+
+**Pre-Testing Outcomes:**
+- [ ] All required tests completed
+- [ ] Results reviewed by medical team
+- [ ] No new contraindications identified
+- [ ] Personalized protocol adjustments made
+- [ ] Guest informed of any findings
+- [ ] Baseline data logged for comparison
+
 ### 4-2 Weeks Before
 
 **Active Preparation**
@@ -79,6 +125,7 @@ Pre-care is not administrative overhead - it is the foundation of safe, profound
 - Intention setting work begins
 - Facilitator connection deepens
 - Nervous system preparation practices
+- Pre-testing results integration into protocols
 
 ### 2-0 Weeks Before
 
