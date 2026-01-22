@@ -318,25 +318,39 @@ A full month provides the complete arc of transformation - from deep preparation
 
 ---
 
-## Pricing Philosophy
+## Pricing
 
-**What's Included**
-- All accommodations
-- All meals
-- All bio-optimization
-- Daily massage
-- All therapeutic sessions
-- Medical oversight
-- Post-care program
-- App access (lifetime)
+### Program Pricing
 
-**Not Included**
-- Transportation to/from
+**Base Rate: $2,000/day**
+
+| Program | Duration | Price |
+|---------|----------|-------|
+| Reset | 7 days | $14,000 |
+| Interruption | 14 days | $28,000 |
+| Recalibration | 21 days | $42,000 |
+| Full Transformation | 28 days | $56,000 |
+| Custom Extended | 30+ days | $60,000+ |
+
+*Wellness-only programs follow the same pricing structure.*
+
+### What's Included
+- All accommodations (private villa)
+- All meals (Michelin-quality functional cuisine)
+- All bio-optimization modalities
+- Daily therapeutic massage
+- All therapeutic and integration sessions
+- Medical oversight and monitoring
+- Post-care program (duration by program)
+- App and community access (lifetime)
+
+### Not Included
+- Transportation to/from facility
 - Pre-arrival labs/testing
-- Extended longevity programs
+- Extended longevity programs (post-stay)
 - Future return visits
 
-**Pricing Principles**
+### Pricing Principles
 - All-inclusive (no nickel-and-diming)
 - Value-based (reflects true cost of excellence)
 - Scholarship considerations available

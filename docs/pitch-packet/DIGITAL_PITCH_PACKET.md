@@ -254,6 +254,9 @@ CORE RETREAT PROGRAMS:
 │ Custom Extended       │ 30+ days │ $60,000+                    │
 └────────────────────────────────────────────────────────────────┘
 
+*Wellness-only programs (same pricing) available for guests seeking
+bio-optimization and nervous system restoration without plant medicine.*
+
 ADDITIONAL REVENUE STREAMS:
 
 2. BIO-OPTIMIZATION ADD-ONS
