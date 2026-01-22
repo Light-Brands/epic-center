@@ -1,4 +1,4 @@
-<[README](../README.md) | [Vision](./VISION.md) | [Market Research](./MARKET_RESEARCH.md) | [Programs](./programs/PROGRAM_OVERVIEW.md)>
+<[README](../../README.md) | [Vision](../strategy/VISION.md) | [Market Research](./MARKET_RESEARCH.md) | [Programs](../programs/PROGRAM_OVERVIEW.md)>
 
 ---
 
@@ -786,4 +786,4 @@ Based on market analysis, the following price points position Transformational E
 **Version**: 1.0.0
 **Last Updated**: January 2025
 **Status**: Market Intelligence - Pricing Analysis
-**Related Documents**: [MARKET_RESEARCH.md](./MARKET_RESEARCH.md) | [PROGRAM_OVERVIEW.md](./programs/PROGRAM_OVERVIEW.md)
+**Related Documents**: [MARKET_RESEARCH.md](./MARKET_RESEARCH.md) | [PROGRAM_OVERVIEW.md](../programs/PROGRAM_OVERVIEW.md)

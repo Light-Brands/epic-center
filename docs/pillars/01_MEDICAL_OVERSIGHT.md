@@ -1,4 +1,4 @@
-<[Home](../../README.md) | [Vision](../VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Next: [Plant Medicine](./02_PLANT_MEDICINE.md)>
+<[Home](../../README.md) | [Vision](../strategy/VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Next: [Plant Medicine](./02_PLANT_MEDICINE.md)>
 
 ---
 

@@ -1,4 +1,4 @@
-<[Home](../../README.md) | [Vision](../VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Prev: [Plant Medicine](./02_PLANT_MEDICINE.md) | Next: [Trauma](./04_TRAUMA_INTEGRATION.md)>
+<[Home](../../README.md) | [Vision](../strategy/VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Prev: [Plant Medicine](./02_PLANT_MEDICINE.md) | Next: [Trauma](./04_TRAUMA_INTEGRATION.md)>
 
 ---
 

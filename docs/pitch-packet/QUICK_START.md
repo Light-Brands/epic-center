@@ -1,4 +1,4 @@
-<[Home](../../README.md) | [Pitch Packet](./README.md) | [Full Strategy](../DIGITAL_PITCH_PACKET.md) | [Portal Spec](./INVESTOR_PORTAL_SPEC.md) | [Checklist](./CONTENT_CHECKLIST.md)>
+<[Home](../../README.md) | [Pitch Packet](./README.md) | [Full Strategy](./DIGITAL_PITCH_PACKET.md) | [Portal Spec](./INVESTOR_PORTAL_SPEC.md) | [Checklist](./CONTENT_CHECKLIST.md)>
 
 ---
 

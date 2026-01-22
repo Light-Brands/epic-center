@@ -1,4 +1,4 @@
-<[Home](../../README.md) | [Vision](../VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Prev: [Trauma](./04_TRAUMA_INTEGRATION.md) | Next: [Digital](./06_DIGITAL_ECOSYSTEM.md)>
+<[Home](../../README.md) | [Vision](../strategy/VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Prev: [Trauma](./04_TRAUMA_INTEGRATION.md) | Next: [Digital](./06_DIGITAL_ECOSYSTEM.md)>
 
 ---
 

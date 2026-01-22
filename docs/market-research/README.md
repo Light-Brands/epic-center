@@ -180,7 +180,7 @@ This research was compiled through:
 
 ## Related Documents
 
-- [MARKET_RESEARCH.md](../MARKET_RESEARCH.md) - Original market research framework and mandate
+- [MARKET_RESEARCH.md](./MARKET_RESEARCH.md) - Original market research framework and mandate
 
 ---
 

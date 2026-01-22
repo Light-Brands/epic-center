@@ -1,4 +1,4 @@
-<[README](../README.md) | [Vision](./VISION.md) | [Master Plan](./MASTER_PLAN.md) | [Market Research](./MARKET_RESEARCH.md) | [Pillars](./pillars/01_MEDICAL_OVERSIGHT.md) | [Programs](./programs/PROGRAM_OVERVIEW.md)>
+<[README](../../README.md) | [Vision](../strategy/VISION.md) | [Master Plan](../strategy/MASTER_PLAN.md) | [Market Research](../market-research/MARKET_RESEARCH.md) | [Pillars](../pillars/01_MEDICAL_OVERSIGHT.md) | [Programs](../programs/PROGRAM_OVERVIEW.md)>
 
 ---
 
@@ -1167,4 +1167,4 @@ Based on the Clinical Guidelines for Ibogaine-Assisted Detoxification:
 
 ---
 
-*This document supports the Geographic Intelligence Layer outlined in Section 7 of the [Market Research](./MARKET_RESEARCH.md) document.*
+*This document supports the Geographic Intelligence Layer outlined in Section 7 of the [Market Research](../market-research/MARKET_RESEARCH.md) document.*
