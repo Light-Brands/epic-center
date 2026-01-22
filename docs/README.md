@@ -43,7 +43,7 @@ For a comprehensive understanding, follow this recommended sequence:
 ### 1. Start with Strategy
 ```
 strategy/VISION.md              → Core vision & philosophy
-strategy/EXECUTIVE_SUMMARY.md   → Business overview
+EXECUTIVE_SUMMARY.md            → Business overview
 strategy/MARKET_STRATEGY_PLAN.md → Market positioning
 strategy/MASTER_PLAN.md         → Complete implementation roadmap
 ```
@@ -92,7 +92,7 @@ pitch-packet/DIGITAL_PITCH_PACKET.md → Full pitch strategy
 | Document | Purpose |
 |----------|---------|
 | [VISION.md](./strategy/VISION.md) | Core vision, mission, values, philosophical positioning |
-| [EXECUTIVE_SUMMARY.md](./strategy/EXECUTIVE_SUMMARY.md) | Business overview, market opportunity, investment thesis |
+| [EXECUTIVE_SUMMARY.md](./EXECUTIVE_SUMMARY.md) | Business overview, market opportunity, investment thesis |
 | [MARKET_STRATEGY_PLAN.md](./strategy/MARKET_STRATEGY_PLAN.md) | Market positioning and competitive advantages |
 | [MASTER_PLAN.md](./strategy/MASTER_PLAN.md) | 6-phase implementation roadmap from vision to scale |
 
