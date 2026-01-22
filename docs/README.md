@@ -26,10 +26,10 @@ docs/
 ├── strategy/              # Vision & high-level planning
 ├── segments/              # 8 operational segments (the "what")
 ├── programs/              # Guest programs (the "experience")
-├── architecture/          # Technical platform specs
-├── market-research/       # Competitive landscape
+├── architecture/          # Technical platform specs + AI Guide
+├── market-research/       # Competitive landscape + trends
 ├── expansion-research/    # 30-location expansion blueprint
-├── quintana-roo/          # Flagship property evaluation
+├── quintana-roo/          # Flagship property evaluation + regulatory
 │   └── properties/        # Individual property scorecards
 └── pitch-packet/          # Investor-facing materials
 ```
@@ -137,6 +137,7 @@ pitch-packet/DIGITAL_PITCH_PACKET.md → Full pitch strategy
 | [INFRASTRUCTURE.md](./architecture/INFRASTRUCTURE.md) | AWS cloud architecture, disaster recovery |
 | [SECURITY_COMPLIANCE.md](./architecture/SECURITY_COMPLIANCE.md) | HIPAA/GDPR compliance, security layers, authentication |
 | [INTEGRATION_MAP.md](./architecture/INTEGRATION_MAP.md) | EMR, payment gateway, video platform integrations |
+| [AI_GUIDE_FRAMEWORK.md](./architecture/AI_GUIDE_FRAMEWORK.md) | **NEW** - AI chatbot guidelines, boundaries, medical safety, escalation protocols |
 
 **Tech Stack**: React Native (mobile) + Next.js (web) + NestJS (backend) + PostgreSQL + AWS
 
@@ -156,6 +157,13 @@ pitch-packet/DIGITAL_PITCH_PACKET.md → Full pitch strategy
 | 06 | [Pricing Analysis](./market-research/06_PRICING_ANALYSIS.md) | Detailed pricing by category and tier |
 | 07 | [Medical Tourism](./market-research/07_MEDICAL_TOURISM.md) | Client segments, decision factors, journey mapping |
 | 08 | [Geographic Intelligence](./market-research/08_GEOGRAPHIC_INTELLIGENCE.md) | Location suitability analysis |
+
+**Strategic Research (NEW):**
+
+| Document | Coverage |
+|----------|----------|
+| [Global Wellness Trends](./market-research/GLOBAL_WELLNESS_TRENDS.md) | Global Wellness Institute trends, psychedelic renaissance, longevity movement |
+| [High-Functioning Addiction Program](./market-research/HIGH_FUNCTIONING_ADDICTION_PROGRAM.md) | "Successful addict" treatment model, executive addiction protocols |
 
 **White Space Opportunity**: No competitor integrates medical + luxury + biohacking + plant medicine
 
@@ -191,6 +199,7 @@ pitch-packet/DIGITAL_PITCH_PACKET.md → Full pitch strategy
 |----------|---------|
 | [README.md](./quintana-roo/README.md) | Property pipeline and evaluation criteria |
 | [PROPERTY_EVALUATION_FRAMEWORK.md](./quintana-roo/PROPERTY_EVALUATION_FRAMEWORK.md) | 100-point scoring framework |
+| [MEXICO_REGULATORY_REQUIREMENTS.md](./quintana-roo/MEXICO_REGULATORY_REQUIREMENTS.md) | **NEW** - Comprehensive licenses, permits, COFEPRIS, regenerative medicine authorization |
 
 **Property Evaluations** (`/properties`):
 
@@ -258,7 +267,7 @@ pitch-packet/DIGITAL_PITCH_PACKET.md → Full pitch strategy
 
 | Metric | Value |
 |--------|-------|
-| Total Documents | 60+ files |
+| Total Documents | 65+ files |
 | Implementation Timeline | 6 phases (12-24 months to launch) |
 | Global Expansion Target | 30 locations over 10 years |
 | Flagship Location | Quintana Roo, Mexico |
