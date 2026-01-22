@@ -207,7 +207,7 @@ Establish the complete planning framework, technical architecture, and team stru
 ├── VISION.md                    # Core vision and philosophy
 ├── MASTER_PLAN.md              # This implementation roadmap
 ├── /architecture               # Technical architecture
-├── /pillars                    # Seven pillar deep dives
+├── /segments                   # Eight segment deep dives
 ├── /programs                   # Program structures
 ├── /operations                 # Operational planning
 └── /business                   # Business planning
@@ -305,7 +305,7 @@ Create complete designs for all digital products (app, website, admin) and estab
 
 #### Pages
 1. **Homepage** - Vision, credibility, journey overview
-2. **The Experience** - Pillar overview, what to expect
+2. **The Experience** - Segment overview, what to expect
 3. **Programs** - 7/14/21/28-day program details
 4. **The Location** - Facility, environment, gallery
 5. **The Science** - Medical approach, research, safety

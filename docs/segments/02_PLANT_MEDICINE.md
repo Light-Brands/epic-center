@@ -452,6 +452,6 @@ Each would require distinct protocols, training, and regulatory consideration.
 
 ---
 
-**Version**: 1.0.0
-**Last Updated**: December 2024
+**Version**: 2.0.0
+**Last Updated**: January 2025
 **Clinical Lead**: TBD
