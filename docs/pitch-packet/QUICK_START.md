@@ -4,15 +4,24 @@
 
 # Digital Pitch Packet: Quick Start Guide
 
+> *"Bringing the lost travelers home to gardens of their hearts and souls."*
+
 ## The 10-Minute Overview
 
-This guide summarizes everything you need to know about our digital pitch packet strategy. For details, see the full documents in this folder.
+**One Sentence**: Transformational Epicenter is building the world's first luxury medical wellness destination that combines hospital-grade care, five-star hospitality, cutting-edge health technology, and transformational medicine—a combination no competitor offers today.
+
+This guide summarizes everything you need to know about our digital pitch packet strategy. For details, see the [Executive Summary](../strategy/EXECUTIVE_SUMMARY.md) and full documents in this folder.
 
 ---
 
 ## What We're Building
 
-A **100% digital investor pitch experience** that:
+A **100% digital investor pitch experience** to raise **$5M** for:
+- MVP platform development (AI Superintelligent System)
+- First facility buildout (Mexico, Quintana Roo region)
+- Initial operations and team
+
+The pitch experience itself:
 
 1. **Demonstrates capability** - The pitch IS our first product demo
 2. **Stands out** - Interactive, not another PDF deck
@@ -116,33 +125,49 @@ A **100% digital investor pitch experience** that:
 ## Content Priorities
 
 ### Must-Have First
-1. One-pager PDF
+1. One-pager PDF (aligned with Executive Summary)
 2. Founder story video (2-3 min)
-3. Financial model (Excel)
-4. Core pitch narrative (10 sections)
+3. Financial model (Excel) with actual figures:
+   - $2,000/day base rate
+   - $14K-$56K program pricing
+   - $3.6M-$5.1M Year 1-3 revenue targets
+4. Core pitch narrative (11 sections)
 5. Basic data room documents
 
 ### Can Wait
 1. Sizzle reel
-2. 3D visualizations
+2. 3D facility visualizations
 3. All team videos
 4. Advisor videos
 5. Industry reports
 
+### Key Numbers to Memorize
+- **$5.6T** - Total addressable market across 4 segments
+- **$2,000/day** - Base rate
+- **$30,000** - Average revenue per guest (~15-day stay)
+- **$50K-$150K+** - What guests are willing to invest
+- **120+** - Year 1 guest target
+- **$3.6M** - Year 1 revenue (50% occupancy)
+- **$5.1M** - Year 3 revenue (70% occupancy)
+- **$11.7M** - Year 5 revenue (2 locations)
+- **40%+** - Target referral rate
+- **80+** - Target NPS score
+
 ---
 
-## The Pitch Story Arc
+## The Pitch Story Arc (11 Sections)
 
-1. **The Problem** - Mental health crisis + limitations of current solutions
-2. **The Solution** - Transformational Epicenter overview
-3. **Why Now** - Market timing, regulatory changes
-4. **Business Model** - How we make money
-5. **Traction** - What we've built, validated
-6. **Competition** - Why we win
-7. **Go-to-Market** - How we grow
-8. **Financials** - The numbers
-9. **Team** - Why we're the ones
-10. **The Ask** - $5M, use of funds, terms
+1. **The Hook** - Crisis of disconnection, the gap no one is filling
+2. **The Solution** - 8 foundational pillars, transformation architecture
+3. **Why Now** - Market timing, structural opportunity
+4. **Market Opportunity** - $5.6T across 4 segments, ideal guest profile
+5. **Business Model** - $2,000/day base rate, program pricing
+6. **Traction** - Documentation, architecture, validation
+7. **Competition** - Why competitors can't copy, 5 layers of moat
+8. **Go-to-Market** - 4-phase vision to 30+ locations
+9. **Financials** - Year 1: $3.6M, Year 5: $11.7M+
+10. **Team** - Founders, advisors, key hires
+11. **The Ask** - $5M, use of funds, milestones, risks
 
 ---
 
@@ -158,6 +183,13 @@ A **100% digital investor pitch experience** that:
 - [ ] 5+ minute average session time
 - [ ] 20%+ meeting conversion rate
 - [ ] $5M raised
+
+### Year 1 Business Targets (Post-Funding)
+- [ ] 120+ guests served
+- [ ] $30,000 average revenue per guest
+- [ ] Net Promoter Score: 80+
+- [ ] Zero serious safety incidents
+- [ ] 40%+ of guests from referrals
 
 ---
 
@@ -223,9 +255,12 @@ A: The portal becomes a permanent asset. It scales our outreach, saves time on r
 
 ```
 /docs/
-├── DIGITAL_PITCH_PACKET.md          ← Main strategy document
+├── strategy/
+│   └── EXECUTIVE_SUMMARY.md         ← Source of truth for pitch content
 └── pitch-packet/
+    ├── README.md                    ← Folder overview
     ├── QUICK_START.md               ← You are here
+    ├── DIGITAL_PITCH_PACKET.md      ← Main strategy (11 pitch sections)
     ├── INVESTOR_PORTAL_SPEC.md      ← Technical specification
     ├── CONTENT_CHECKLIST.md         ← All content needed
     └── FINANCIAL_MODEL_GUIDE.md     ← Financial model structure
@@ -239,4 +274,7 @@ For questions about this pitch packet strategy, reach out to the project lead.
 
 ---
 
-*Let's build something that raises $5M by being undeniably impressive.*
+*Document Version: 2.0 | January 2026*
+*Aligned with: Executive Summary v2.0*
+
+*"Bringing the lost travelers home to gardens of their hearts and souls."*

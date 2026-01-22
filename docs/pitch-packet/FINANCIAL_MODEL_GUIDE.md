@@ -4,9 +4,17 @@
 
 # Financial Model Structure Guide
 
+> *Financial projections aligned with Executive Summary v2.0*
+
 ## Overview
 
 This document outlines the structure for our financial model - both the spreadsheet version for due diligence and the interactive web version for the investor portal.
+
+**Key Financial Targets** (from Executive Summary):
+- **Base Rate**: $2,000/day
+- **Year 1 Revenue**: ~$3.6M (50% occupancy, 120+ guests)
+- **Year 3 Revenue**: ~$5.1M (70% occupancy, 170+ guests)
+- **Year 5 Revenue**: ~$11.7M (2 locations, 300+ guests)
 
 ---
 
@@ -36,18 +44,23 @@ This document outlines the structure for our financial model - both the spreadsh
 
 ### Revenue Assumptions
 
-| Program | Price Point | % Mix (Est.) |
-|---------|-------------|--------------|
-| 7-Day Reset | $XX,XXX | 25% |
-| 14-Day Interruption | $XX,XXX | 40% |
-| 21-Day Recalibration | $XX,XXX | 25% |
-| 28-Day Transformation | $XX,XXX | 10% |
-| **Blended Average** | **$XX,XXX** | 100% |
+**Base Rate**: $2,000/day
+
+| Program | Duration | Price | % Mix (Est.) |
+|---------|----------|-------|--------------|
+| Reset | 7 days | $14,000 | 25% |
+| Interruption | 14 days | $28,000 | 40% |
+| Recalibration | 21 days | $42,000 | 25% |
+| Full Transformation | 28 days | $56,000 | 10% |
+| Custom Extended | 30+ days | $60,000+ | Varies |
+| **Blended Average** | **~15 days** | **$30,000** | 100% |
 
 **Additional Revenue**:
 - Bio-optimization add-ons: +10-15% of program revenue
-- Alumni/post-care subscriptions: $XXX/month
+- Alumni/post-care subscriptions: TBD
 - Corporate wellness (future): TBD
+
+**Guest Investment Range**: $50,000 - $150,000+ for genuine transformation
 
 ### Cost Assumptions
 
@@ -73,14 +86,17 @@ This document outlines the structure for our financial model - both the spreadsh
 | G&A | $X,XXX |
 | **Total Fixed** | **$XXX,XXX** |
 
-### Growth Assumptions
+### Growth Assumptions (Aligned with Executive Summary)
 
 | Metric | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 |
 |--------|--------|--------|--------|--------|--------|
-| Locations | 1 | 1 | 2 | 3 | 5 |
-| Total beds | 12 | 12 | 28 | 44 | 72 |
-| Avg occupancy | 50% | 70% | 80% | 85% | 85% |
-| Guests/year | 75 | 150 | 350 | 600 | 1,000 |
+| Locations | 1 | 1 | 2 | 2+ | 2+ |
+| Rooms (per location) | 10 | 10 | 10 | 10 | 10 |
+| Avg occupancy | 50% | 70% | 80% | 80% | 80% |
+| Guests/year | 120+ | 170+ | 300+ | 500+ | 800+ |
+| Revenue | ~$3.6M | ~$5.1M | ~$11.7M | Growth | Growth |
+
+**Key Milestone**: ~$5.1M annual revenue at 10 rooms × 70% occupancy × $2,000/day
 
 ---
 
@@ -333,63 +349,73 @@ Annual Break-Even:
 
 ## Use of Funds Detail
 
-### $5M Allocation
+### $5M Allocation (Aligned with Executive Summary)
 
 ```
 USE OF FUNDS BREAKDOWN
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 FACILITY & OPERATIONS (40% = $2.0M)
-├── Facility buildout/renovation        $XXX,XXX
-├── Equipment & furnishings             $XXX,XXX
-├── Medical equipment                   $XXX,XXX
-├── Initial inventory                   $XX,XXX
-├── Deposits & working capital          $XXX,XXX
-└── Operations buffer                   $XXX,XXX
+├── First facility buildout (Mexico, Quintana Roo)
+├── Equipment & furnishings
+├── Medical equipment (hospital-grade, 24/7 capability)
+├── Initial inventory
+├── Deposits & working capital
+└── Operations buffer
 
 PLATFORM DEVELOPMENT (30% = $1.5M)
-├── Engineering team (12 months)        $XXX,XXX
-├── Design & UX                         $XXX,XXX
-├── Infrastructure & hosting            $XX,XXX
-├── Third-party integrations            $XX,XXX
-├── Security audit & compliance         $XX,XXX
-└── Contingency                         $XX,XXX
+├── AI Superintelligent System development
+├── HIPAA-compliant digital ecosystem
+├── Guest app (Pre-Care, On-Site, Post-Care phases)
+├── Smart status routing & content personalization
+├── Community moderation & referral engine
+└── Biometric integration (HRV, PCL-5, PHQ-9, GAD-7)
 
 TEAM EXPANSION (15% = $750K)
-├── Key hires (4-5 positions)           $XXX,XXX
-├── Medical director retainer           $XXX,XXX
-├── Recruiting & onboarding             $XX,XXX
-└── Training programs                   $XX,XXX
+├── CEO candidate (term sheet discussions)
+├── CMO candidate (term sheet discussions)
+├── Medical Director candidate (term sheet discussions)
+├── Head of Operations
+├── Lead Facilitator
+└── Training programs
 
 MARKETING & GROWTH (10% = $500K)
-├── Brand development                   $XX,XXX
-├── Content creation                    $XX,XXX
-├── Ambassador program launch           $XX,XXX
-├── PR & awareness                      $XX,XXX
-└── Digital marketing                   $XXX,XXX
+├── Brand development
+├── Content creation
+├── Ambassador program launch (2.5-10% commissions)
+├── PR & awareness
+└── Digital marketing
 
 LEGAL & COMPLIANCE (5% = $250K)
-├── Corporate legal                     $XX,XXX
-├── Regulatory compliance               $XX,XXX
-├── Insurance setup                     $XX,XXX
-├── IP protection                       $XX,XXX
-└── Contracts & agreements              $XX,XXX
+├── Corporate legal
+├── Regulatory compliance
+├── Insurance setup (full coverage)
+├── IP protection
+└── Government relationships
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TOTAL                                   $5,000,000
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-### Milestone Mapping
+### Milestone Mapping (Aligned with Executive Summary)
 
 | Milestone | Funding Required | Target |
 |-----------|-----------------|--------|
-| Facility operational | $1.5M | Month 6 |
-| Platform MVP live | $1.0M | Month 8 |
-| First guests | $0.2M | Month 9 |
-| 50 guests served | $0.3M | Month 12 |
+| First Transformational Epicenter operational (Mexico) | $1.5M | Month 6 |
+| Digital platform MVP live (AI Superintelligent System) | $1.0M | Month 8 |
+| First guests through programs | $0.2M | Month 9 |
+| 120+ guests served (Year 1 target) | $0.3M | Month 12 |
+| $3.6M annual revenue (50% occupancy) | - | Month 12 |
 | Cash flow positive (monthly) | - | Month 18 |
-| Series A ready | $1.0M | Month 18 |
+| Series A ready (outcomes data compiled) | $1.0M | Month 18 |
+
+**Success Metrics from Executive Summary:**
+- 120+ guests served (Year 1)
+- Average revenue per guest: $30,000 (~15-day stay)
+- Net Promoter Score: 80+
+- Zero serious safety incidents
+- 40%+ of guests from referrals
 
 ---
 
@@ -450,5 +476,6 @@ TOTAL                                   $5,000,000
 
 ---
 
-*Document Version: 1.0*
-*Last Updated: [Date]*
+*Document Version: 2.0*
+*Last Updated: January 2026*
+*Aligned with: Executive Summary v2.0*
