@@ -4,13 +4,17 @@
 
 # Digital Pitch Packet: $5M Raise Strategy
 
+> *"Bringing the lost travelers home to gardens of their hearts and souls."*
+
 ## The New Age Approach to Fundraising
 
-> **Our Philosophy**: In 2024+, pitch decks are dead. Investors are inundated with PDFs that all look the same. As an experienced dev business, we have the unique ability to create an **immersive, interactive, data-driven pitch experience** that demonstrates our capabilities while presenting our vision.
+> **Our Philosophy**: In 2026+, pitch decks are dead. Investors are inundated with PDFs that all look the same. As an experienced dev business, we have the unique ability to create an **immersive, interactive, data-driven pitch experience** that demonstrates our capabilities while presenting our vision.
 
 ---
 
 ## Executive Summary
+
+**One Sentence**: Transformational Epicenter is building the world's first luxury medical wellness destination that combines hospital-grade care, five-star hospitality, cutting-edge health technology, and transformational medicine—a combination no competitor offers today.
 
 **Raising**: $5,000,000
 **Vehicle**: Seed/Series A (or SAFE Notes)
@@ -69,24 +73,32 @@ This document outlines our strategy for creating a **100% digital pitch ecosyste
 
 ### 2.1 The Story Arc (Interactive Pitch Sections)
 
-#### Section 1: The Hook
+#### Section 1: The Hook (Problem Statement)
 ```
-PROBLEM STATEMENT
+THE CRISIS OF DISCONNECTION
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-"The mental health crisis isn't just growing—it's evolving beyond
-what traditional care can address."
+Modern humans are suffering from a crisis of disconnection—from
+their bodies, their nervous systems, their emotions, their purpose,
+and their essential nature.
 
-Key Statistics (animated reveal):
-• $280B+ spent annually on mental health in US alone
-• 80% of people feel traditional therapy isn't working
-• Psychedelic-assisted therapy market: $2.4B → $10.75B by 2027
-• 76% of Ibogaine participants report lasting transformation
+THE GAP (animated reveal):
+• Traditional healthcare treats symptoms—not root causes
+• Luxury wellness offers temporary escape—not transformation
+• Spiritual retreats can bypass the body
+• Plant medicine ceremonies without integration leave experiences unanchored
 
-The Gap: No one has built a technology-first, medically-rigorous,
-luxury wellness ecosystem that scales deep healing.
+WEALTHY INDIVIDUALS SEEKING TRANSFORMATION MUST CHOOSE BETWEEN:
+┌────────────────────────────────────────────────────────────────┐
+│ Medical Clinics        → Great doctors, but clinical and cold │
+│ Luxury Resorts         → Beautiful, but surface-level wellness│
+│ Biohacking Centers     → Trendy tech, but no medical oversight│
+│ Plant Medicine Retreats→ Powerful, but often unsafe           │
+└────────────────────────────────────────────────────────────────┘
 
-Until now.
+No one offers all four together. Until now.
+
+Transformational Epicenter is purpose-built to fill this gap.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
@@ -95,26 +107,50 @@ Until now.
 TRANSFORMATIONAL EPICENTER
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-A vertically-integrated wellness ecosystem combining:
+A medical-based wellness and bio-optimization clinic with a luxury
+retreat experience, designed to address healing at the root level:
+physical, neurological, emotional, and spiritual.
+
+THE CORE INTENTION: Not detox or short-term relief, but true
+transformation—nervous system repair, trauma resolution, and
+human remembrance.
 
 [Interactive diagram showing the 8 pillars connecting]
 
+THE EIGHT FOUNDATIONAL PILLARS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 1. Medical & Scientific Oversight
-2. Plant Medicine (Iboga/Ibogaine)
-3. Advanced Bio-Optimization
-4. Trauma Integration & Nervous System Restoration
-5. Five-Star Hospitality
-6. AI-Powered Digital Ecosystem
-7. Pre-Care (4-8 weeks)
-8. Post-Care (3-12+ months)
+   → Full medical team 24/7, hospital-grade protocols, outcome tracking
 
+2. Plant Medicine (Iboga & Ibogaine)
+   → Trauma-informed, cardiac screening, physicians present
+
+3. Advanced Bio-Optimization & Longevity
+   → Hyperbaric oxygen, IV therapy, cryotherapy, neurofeedback
+
+4. Trauma Integration & Nervous System Restoration
+   → Polyvagal framework, somatic therapies, breathwork
+
+5. Five-Star Hospitality, Nutrition & Functional Fitness
+   → Private villas, 3:1 staff ratio, Michelin-quality cuisine
+
+6. Digital Ecosystem & Community Support
+   → AI-powered platform extending care beyond walls
+
+7. Pre-Care (Preparation)
+   → 4-8 weeks: medical prep, psychological readiness, intention
+
+8. Post-Care (Integration)
+   → 3-12+ months: coaching, community, anchoring change
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Not just a retreat. A complete transformation architecture.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 #### Section 3: Why Now
 ```
-MARKET TIMING
+MARKET TIMING & STRUCTURAL OPPORTUNITY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 [Timeline visualization]
@@ -125,32 +161,103 @@ MARKET TIMING
 2023: Australia approves MDMA & psilocybin for treatment
 2024: Ketamine clinics proliferate; mainstream acceptance
 2025: Regulatory pathways clearing globally
+2026: Category creation window open → WE ARE HERE
 
-The Window: We're at the inflection point between
-"alternative" and "standard of care"
+WHY NO ONE ELSE HAS BUILT THIS:
+┌────────────────────────────────────────────────────────────────┐
+│ Building this requires:                                        │
+│ • Medical expertise willing to work alongside plant medicine   │
+│ • Hospitality talent committed to therapeutic outcomes         │
+│ • Technology infrastructure for personalized continuity        │
+│ • Operational discipline to maintain safety at scale           │
+│ • Capital patience to build reputation before volume           │
+└────────────────────────────────────────────────────────────────┘
 
-First-mover advantage in building the infrastructure
-for the next era of mental health.
+No single player has unified all four market segments into a
+coherent, continuous healing journey. This is not an oversight—
+it is a structural limitation we are purpose-built to bridge.
+
+The Window: First-mover advantage in building infrastructure
+for the next era of transformational healing.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-#### Section 4: Business Model
+#### Section 4: Market Opportunity
+```
+THE $5.6 TRILLION OPPORTUNITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[Animated market size visualization]
+
+WE SERVE FOUR MARKET SEGMENTS SIMULTANEOUSLY:
+┌────────────────────────────────┬───────────────┬───────────────┐
+│ Market Segment                 │ Size          │ Annual Growth │
+├────────────────────────────────┼───────────────┼───────────────┤
+│ Medical & Longevity Clinics    │ $27-33B       │ 12-15%        │
+│ Luxury Wellness Hospitality    │ $850B-$1.1T   │ 7-10%         │
+│ Biohacking & Performance       │ $24-33B       │ 18-22%        │
+│ Plant Medicine & Psychedelics  │ $3-5B         │ 15-20%        │
+└────────────────────────────────┴───────────────┴───────────────┘
+
+KEY INSIGHT: We don't need large market share. Capturing even a
+small slice of ultra-high-net-worth individuals seeking
+transformation creates a substantial business.
+
+OUR IDEAL GUEST:
+┌────────────────────────────────────────────────────────────────┐
+│ A successful person who senses something is missing.          │
+│                                                                │
+│ They've achieved wealth and status, but:                      │
+│ • They're exhausted from constant performance                 │
+│ • They've tried therapy, meditation, health programs          │
+│ • They carry stress, trauma, or burnout affecting everything  │
+│ • They want real change, not another temporary fix            │
+│ • They're willing to invest $50,000-$150,000+ for genuine     │
+│   transformation                                               │
+└────────────────────────────────────────────────────────────────┘
+
+WHO THEY ARE:
+• Executives and entrepreneurs carrying the weight of performance
+• Healthcare providers who have given so much they've depleted
+• Artists and creatives seeking deeper channels of expression
+• Parents and partners wanting to show up more fully
+• Seekers who have tried many modalities without breakthrough
+• Survivors of trauma ready to finally release what they carry
+
+COMMON CHARACTERISTICS:
+✓ Resourceful and self-aware
+✓ Ready for deep change, not just relief
+✓ Willing to do the work, not seeking a "magic pill"
+✓ Value quality and willing to invest in themselves
+✓ Often have prior personal growth experience
+✓ Seeking not just healing, but remembrance of who they truly are
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+#### Section 5: Business Model
 ```
 REVENUE ARCHITECTURE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 [Interactive revenue calculator]
 
-CORE REVENUE STREAMS:
+BASE RATE: $2,000/day
 
-1. RETREAT PROGRAMS
-   ├── 7-Day Reset      → $XX,XXX
-   ├── 14-Day Interruption → $XX,XXX
-   ├── 21-Day Recalibration → $XX,XXX
-   └── 28-Day Transformation → $XX,XXX
+CORE RETREAT PROGRAMS:
+┌────────────────────────────────────────────────────────────────┐
+│ Program               │ Duration │ Price                       │
+├────────────────────────────────────────────────────────────────┤
+│ Reset                 │ 7 days   │ $14,000                     │
+│ Interruption          │ 14 days  │ $28,000                     │
+│ Recalibration         │ 21 days  │ $42,000                     │
+│ Full Transformation   │ 28 days  │ $56,000                     │
+│ Custom Extended       │ 30+ days │ $60,000+                    │
+└────────────────────────────────────────────────────────────────┘
+
+ADDITIONAL REVENUE STREAMS:
 
 2. BIO-OPTIMIZATION ADD-ONS
-   ├── Extended protocols
+   ├── Extended protocols (+10-15% of program revenue)
    ├── Longevity packages
    └── Executive health assessments
 
@@ -160,17 +267,20 @@ CORE REVENUE STREAMS:
    └── Corporate wellness partnerships
 
 4. AMBASSADOR NETWORK
-   ├── 2.5-10% referral commissions (cost, not revenue)
-   └── Network effect growth driver
+   ├── 2.5-10% referral commissions
+   └── Network effect growth driver (40%+ referral target)
 
 5. FUTURE: LICENSING & FRANCHISE (Year 3+)
    └── Platform licensing to certified centers
+
+REVENUE MODEL:
+10 rooms × 70% occupancy × $2,000/day = ~$5.1M annual revenue
 
 [Slider: Adjust occupancy rate to see revenue projections]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-#### Section 5: Traction & Validation
+#### Section 6: Traction & Validation
 ```
 PROOF POINTS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -178,19 +288,27 @@ PROOF POINTS
 [Metrics dashboard - live data where possible]
 
 DEVELOPMENT PROGRESS:
-✅ 8,600+ lines of documentation
-✅ Complete technical architecture
-✅ Design system established
-✅ Technology stack defined
-✅ HIPAA compliance framework
-✅ 8 foundational pillars documented
-✅ 4 program structures defined
+✅ Comprehensive documentation ecosystem (30+ documents)
+✅ Complete technical architecture designed
+✅ AI Superintelligent System architecture defined
+✅ HIPAA compliance framework established
+✅ 8 foundational pillars fully documented
+✅ 4 program structures with pricing finalized
+✅ Guest journey arc mapped (Awakening → Embodiment)
+✅ Mexico (Quintana Roo) location research complete
+✅ 30-location global expansion strategy planned
 
 MARKET VALIDATION:
 • [Letters of Intent - count]
 • [Waitlist signups - count]
 • [Strategic partnership discussions]
 • [Industry advisor commitments]
+
+COMPETITIVE RESEARCH COMPLETE:
+✅ 4 market segments analyzed ($5.6T total)
+✅ Competitive landscape documented
+✅ Differentiation points validated
+✅ Pricing benchmarked against competitors
 
 TEAM ASSEMBLED:
 • [Founding team experience]
@@ -199,59 +317,98 @@ TEAM ASSEMBLED:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-#### Section 6: Competition & Differentiation
+#### Section 7: Competition & Differentiation
 ```
 COMPETITIVE LANDSCAPE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 [Interactive comparison matrix]
 
-                    Traditional  Ketamine    Plant Medicine  EPICENTER
-                    Retreats     Clinics     Retreats
+WHY COMPETITORS CAN'T COPY THIS:
+┌──────────────────────┬─────────────────────────────────────────┐
+│ Competitor Type      │ Why They Won't Integrate All 8 Pillars │
+├──────────────────────┼─────────────────────────────────────────┤
+│ Medical Clinics      │ Won't touch plant medicine—too much    │
+│ (Clinique La Prairie,│ brand and regulatory risk              │
+│  SHA Wellness)       │                                         │
+├──────────────────────┼─────────────────────────────────────────┤
+│ Luxury Resorts       │ Don't have medical expertise or        │
+│ (Aman, Six Senses)   │ clinical infrastructure                │
+├──────────────────────┼─────────────────────────────────────────┤
+│ Plant Medicine       │ Can't attract luxury talent or afford  │
+│ Centers (Beond,      │ medical infrastructure                  │
+│ Rythmia)             │                                         │
+├──────────────────────┼─────────────────────────────────────────┤
+│ Biohacking Centers   │ Wrong business model—transactional,    │
+│ (Upgrade Labs,       │ not transformational                    │
+│ Restore)             │                                         │
+└──────────────────────┴─────────────────────────────────────────┘
+
+FEATURE COMPARISON:
+                    Medical    Luxury     Plant Med   EPICENTER
+                    Clinics    Resorts    Centers
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Medical Oversight   Limited      Clinical    Variable        ✅ Full
-Pre-Care Program    ❌           ❌          Limited         ✅ 4-8 weeks
-Post-Care Support   ❌           Limited     Limited         ✅ 3-12+ mo
-Digital Platform    ❌           ❌          ❌              ✅ Full Suite
-AI Personalization  ❌           ❌          ❌              ✅ Core
-Bio-Optimization    ❌           ❌          Limited         ✅ Integrated
-HIPAA Compliance    ❌           ✅          ❌              ✅ Native
-Outcomes Tracking   ❌           Limited     ❌              ✅ Comprehensive
-Scalable Model      ❌           Limited     ❌              ✅ 30+ locations
+Medical Oversight   ✅ Full    Limited    Variable    ✅ Hospital-grade
+Plant Medicine      ❌         ❌         ✅          ✅ Medically supervised
+Bio-Optimization    Limited    ❌         Limited     ✅ Integrated
+Pre-Care (4-8 wks)  ❌         ❌         Limited     ✅ Comprehensive
+Post-Care (3-12mo)  ❌         ❌         Limited     ✅ Full integration
+Digital Platform    ❌         ❌         ❌          ✅ AI-powered
+Luxury Hospitality  ❌         ✅ Full    ❌          ✅ 5-star, 3:1 ratio
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Our Moat: Technology + Medical Rigor + Luxury Hospitality
-No one else is building all three together.
+OUR MOAT (5 Layers of Competitive Defense):
+1. First-Mover: First to integrate all 8 pillars in legal jurisdiction
+2. Talent Lock-Up: Top physicians & practitioners on long-term contracts
+3. Brand & Reputation: Word-of-mouth among the wealthy is everything
+4. Proprietary Protocols: Documented, refined, proven with outcome data
+5. Network Effects: Alumni community creates compounding referrals
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-#### Section 7: Go-to-Market
+#### Section 8: Go-to-Market
 ```
-GROWTH STRATEGY
+GROWTH STRATEGY & LONG-TERM VISION
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 [Animated growth funnel]
 
-PHASE 1: FOUNDATION (Months 1-12)
-├── Launch Mexico facility (12 beds)
-├── MVP digital platform
-├── Core team operational
-└── Target: 50-75 guests
+PHASE 1: FOUNDATION (Year 1)
+├── Launch first Transformational Epicenter in Mexico
+├── Establish protocols and outcomes measurement
+├── Build digital platform MVP
+├── Develop training programs for staff
+└── Target: 120+ guests, $3.6M revenue
 
-PHASE 2: OPTIMIZATION (Months 12-24)
-├── Refine protocols based on outcomes
-├── Full platform feature set
-├── Expand to 20 beds
-└── Target: 150-200 guests
+PHASE 2: OPTIMIZATION (Year 2)
+├── Refine all protocols based on outcomes data
+├── Expand digital platform features
+├── Build international reputation
+├── Prepare expansion playbook
+└── Target: 170+ guests, $5.1M revenue (70% occupancy)
 
-PHASE 3: SCALE (Months 24-36)
-├── Second location planning
-├── Training academy launch
-├── Research partnerships
+PHASE 3: EXPANSION (Year 3)
+├── Launch second and third locations (Europe, Asia-Pacific)
+├── Aggressive licensing/franchise model expansion
+├── Establish training academy for rapid talent development
+├── Build research partnerships across multiple continents
 └── Target: 300+ guests
 
+PHASE 4: NETWORK (Years 4-10)
+├── Scale to 30+ Transformational Epicenters globally
+├── Unified platform and community spanning all major markets
+├── World-class research institute
+└── Definitive thought leadership in the field
+
+GUEST JOURNEY ARC:
+┌─────────────────────────────────────────────────────────────────┐
+│ AWAKENING → IMMERSION → INTEGRATION → EMBODIMENT               │
+│ (Pre-Care)   (Retreat)   (Post-Care)   (Ongoing)               │
+│  4-8 weeks    7-28 days   3-12 months   Lifetime                │
+└─────────────────────────────────────────────────────────────────┘
+
 ACQUISITION CHANNELS:
-1. Ambassador referral network (40%)
+1. Ambassador referral network (40%+)
 2. Executive/entrepreneur networks (25%)
 3. Healthcare provider referrals (20%)
 4. Content marketing & thought leadership (10%)
@@ -259,36 +416,50 @@ ACQUISITION CHANNELS:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-#### Section 8: Financial Projections
+#### Section 9: Financial Projections
 ```
 FINANCIAL MODEL
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 [Interactive financial dashboard with adjustable assumptions]
 
+PRICING STRUCTURE:
+┌─────────────────────────────────────────────┐
+│ Base Daily Rate:            $2,000          │
+│ 7-Day Reset:                $14,000         │
+│ 14-Day Interruption:        $28,000         │
+│ 21-Day Recalibration:       $42,000         │
+│ 28-Day Full Transformation: $56,000         │
+│ 30+ Day Custom Extended:    $60,000+        │
+└─────────────────────────────────────────────┘
+
 UNIT ECONOMICS:
 ┌─────────────────────────────────────────────┐
-│ Average Program Revenue:    $XX,XXX         │
-│ Cost of Delivery:           $X,XXX          │
-│ Gross Margin:               XX%             │
-│ Customer Acquisition Cost:  $X,XXX          │
-│ Lifetime Value:             $XX,XXX         │
-│ LTV:CAC Ratio:             X:1             │
+│ Average Revenue per Guest:  $30,000         │
+│   (based on ~15-day average stay)           │
+│ Guests willing to invest:   $50K-$150K+     │
+│   for genuine transformation                │
 └─────────────────────────────────────────────┘
 
 5-YEAR PROJECTIONS:
         Year 1    Year 2    Year 3    Year 4    Year 5
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Guests    75       200       450       800      1,500
-Revenue   $X.XM    $X.XM     $X.XM     $XX.XM   $XX.XM
-EBITDA    ($X.XM)  $X.XM     $X.XM     $X.XM    $X.XM
+Guests    120+     170+      300+      500+     800+
+Occupancy 50%      70%       80%       80%      80%
+Locations 1        1         2         2        2+
+Revenue   ~$3.6M   ~$5.1M    ~$11.7M   Growth   Growth
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY MILESTONES:
+• Year 1: 120+ guests, NPS 80+, zero serious safety incidents
+• Year 3: 70% occupancy, proven model, strong reputation
+• Year 5: 300+ guests annually (2 locations), $11M+ revenue
 
 [Download full financial model →]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-#### Section 9: Team
+#### Section 10: Team
 ```
 THE BUILDERS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -317,14 +488,22 @@ ADVISORY BOARD:
 [Grid of advisors with hover cards showing credentials]
 
 KEY HIRES PLANNED (with funding):
+• CEO candidate (term sheet discussions)
+• CMO candidate (term sheet discussions)
+• Medical Director candidate (term sheet discussions)
 • Head of Operations
 • Lead Facilitator
 • Platform Lead
-• Growth Lead
+
+TALENT LOCK-UP STRATEGY:
+• Top physicians, hospitality leaders, practitioners on long-term contracts
+• Equity vesting structures
+• Deep bench development
+• Documented systems for continuity
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-#### Section 10: The Ask
+#### Section 11: The Ask
 ```
 INVESTMENT OPPORTUNITY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -336,18 +515,36 @@ STRUCTURE: [SAFE / Priced Round - TBD]
 USE OF FUNDS:
 ┌─────────────────────────────────────────────────────────────┐
 │ ████████████████████░░░░░░  Facility & Operations   40%    │
+│   ($2.0M) First facility buildout, equipment, operations   │
+│                                                             │
 │ ██████████████░░░░░░░░░░░░  Platform Development    30%    │
+│   ($1.5M) AI Superintelligent System, digital ecosystem    │
+│                                                             │
 │ ████████░░░░░░░░░░░░░░░░░░  Team Expansion          15%    │
+│   ($750K) Key hires: CEO, CMO, Medical Director            │
+│                                                             │
 │ ██████░░░░░░░░░░░░░░░░░░░░  Marketing & Growth      10%    │
+│   ($500K) Brand, content, ambassador program               │
+│                                                             │
 │ ██░░░░░░░░░░░░░░░░░░░░░░░░  Legal & Compliance       5%    │
+│   ($250K) Regulatory, insurance, IP protection             │
 └─────────────────────────────────────────────────────────────┘
 
 MILESTONES THIS FUNDING ENABLES:
-✓ First facility operational (Mexico)
-✓ Full digital platform MVP
-✓ First 100 guests through programs
-✓ Outcomes data for Series A
-✓ Path to profitability visible
+✓ First Transformational Epicenter operational (Mexico)
+✓ Full AI-powered digital platform MVP
+✓ 120+ guests through programs in Year 1
+✓ Comprehensive outcomes data for Series A
+✓ Path to $5.1M annual revenue at 70% occupancy
+
+KEY RISKS & MITIGATIONS:
+┌─────────────────────────────────────────────────────────────┐
+│ Regulatory change → Multi-country strategy, diversified    │
+│ Safety incident   → Hospital-grade protocols, full insurance│
+│ Key person leaves → Equity vesting, deep bench, systems    │
+│ Economic downturn → Ultra-wealthy less affected, flexibility│
+│ Competitors       → Speed to market, talent locked up       │
+└─────────────────────────────────────────────────────────────┘
 
 TERMS: [Details in data room]
 
@@ -799,6 +996,7 @@ The pitch packet becomes our first product. The investor experience previews the
 
 ---
 
-*Document Version: 1.0*
-*Last Updated: [Date]*
+*Document Version: 2.0*
+*Last Updated: January 2026*
 *Status: Planning*
+*Aligned with: Executive Summary v2.0*

@@ -4,11 +4,15 @@
 
 # Investor Portal Technical Specification
 
+> Technical specification for the digital pitch experience that demonstrates Transformational Epicenter's capabilities while raising $5M.
+
 ## Overview
 
 A dedicated web application for presenting our investment opportunity in an interactive, engaging, and trackable format.
 
 **URL**: `invest.transformationalepicenter.com`
+
+**One-Sentence Pitch**: Transformational Epicenter is building the world's first luxury medical wellness destination that combines hospital-grade care, five-star hospitality, cutting-edge health technology, and transformational medicine—a combination no competitor offers today.
 
 ---
 
@@ -196,17 +200,18 @@ CREATE TABLE investor_content (
 
 **Purpose**: Immersive storytelling experience
 
-**Sections** (scroll-driven):
-1. The Problem (animated statistics)
-2. The Solution (8 pillars visualization)
-3. Why Now (timeline animation)
-4. Business Model (interactive revenue breakdown)
-5. Traction (live metrics dashboard)
-6. Competition (comparison matrix)
-7. Go-to-Market (growth funnel animation)
-8. Financials (summary with link to full model)
-9. Team (video cards)
-10. The Ask (investment details + CTAs)
+**Sections** (scroll-driven, aligned with Executive Summary v2.0):
+1. The Hook (Crisis of Disconnection - animated gap visualization)
+2. The Solution (8 Foundational Pillars interactive diagram)
+3. Why Now (Timeline + structural opportunity)
+4. Market Opportunity ($5.6T visualization, ideal guest profile)
+5. Business Model ($2,000/day, program pricing breakdown)
+6. Traction (live metrics dashboard, development progress)
+7. Competition (why competitors can't copy, 5 layers of moat)
+8. Go-to-Market (4-phase growth to 30+ locations, guest journey arc)
+9. Financials ($3.6M-$11.7M projections with adjustable assumptions)
+10. Team (video cards, key hires roadmap)
+11. The Ask ($5M, use of funds, milestones, risk mitigation)
 
 **Technical Implementation**:
 ```typescript
@@ -634,5 +639,6 @@ jobs:
 
 ---
 
-*Document Version: 1.0*
-*Last Updated: [Date]*
+*Document Version: 2.0*
+*Last Updated: January 2026*
+*Aligned with: Executive Summary v2.0*

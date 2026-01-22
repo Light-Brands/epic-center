@@ -4,9 +4,13 @@
 
 # Pitch Packet Content Checklist
 
+> *"Bringing the lost travelers home to gardens of their hearts and souls."*
+
 ## Overview
 
 This checklist tracks all content assets needed for the digital pitch packet. Use this to ensure nothing is missed before launch.
+
+**Source Document**: [Executive Summary v2.0](../strategy/EXECUTIVE_SUMMARY.md) - All content should align with and reference this document.
 
 ---
 
@@ -40,67 +44,76 @@ This checklist tracks all content assets needed for the digital pitch packet. Us
   - Why us
   - Return potential
 
-### Pitch Narrative Sections
+### Pitch Narrative Sections (11 Sections - Aligned with Executive Summary v2.0)
 
-- [ ] **The Problem**
-  - Mental health crisis statistics
-  - Limitations of traditional care
-  - Market gap identification
+- [ ] **Section 1: The Hook (Problem)**
+  - Crisis of disconnection narrative
+  - The gap wealthy individuals face (medical vs. luxury vs. biohacking vs. plant medicine)
+  - Why no one offers all four together
   - Human story/example
 
-- [ ] **The Solution**
-  - Transformational Epicenter overview
-  - 8 pillars explanation
-  - Unique approach description
-  - Guest journey narrative
+- [ ] **Section 2: The Solution**
+  - Transformational Epicenter one-sentence pitch
+  - 8 Foundational Pillars (detailed from Executive Summary)
+  - Transformation architecture concept
+  - "From/To" transformation outcomes table
 
-- [ ] **Why Now**
-  - Regulatory timeline
-  - Market acceptance trends
-  - Technology enablers
-  - Competitive timing
+- [ ] **Section 3: Why Now**
+  - Regulatory timeline (2020-2026)
+  - Structural opportunity explanation
+  - Why competitors can't build this
+  - First-mover advantage
 
-- [ ] **Business Model**
-  - Revenue streams description
-  - Pricing strategy rationale
-  - Unit economics explanation
-  - Growth model
+- [ ] **Section 4: Market Opportunity**
+  - $5.6T market across 4 segments (with specific figures)
+  - Ideal guest profile (successful person who senses something missing)
+  - Guest personas (executives, healthcare providers, artists, parents, seekers, survivors)
+  - Common characteristics checklist
 
-- [ ] **Market Opportunity**
-  - TAM/SAM/SOM analysis
-  - Target customer profiles
-  - Market growth projections
-  - Industry trends
+- [ ] **Section 5: Business Model**
+  - $2,000/day base rate
+  - Program pricing ($14K-$56K+)
+  - Revenue model: 10 rooms × 70% occupancy = ~$5.1M
+  - Additional revenue streams (bio-optimization, digital platform, ambassador network)
 
-- [ ] **Traction**
-  - Development progress
-  - Partnerships/LOIs
-  - Waitlist/interest data
-  - Advisor commitments
+- [ ] **Section 6: Traction**
+  - Documentation ecosystem (30+ documents)
+  - Technical architecture designed
+  - AI Superintelligent System architecture
+  - Location research complete (Quintana Roo)
+  - 30-location global expansion strategy
 
-- [ ] **Competition**
-  - Competitive landscape analysis
-  - Differentiation points
+- [ ] **Section 7: Competition**
+  - Why competitors can't copy (detailed by type)
+  - 5 layers of competitive defense
+  - Feature comparison matrix
   - Moat description
-  - Positioning statement
 
-- [ ] **Go-to-Market**
-  - Launch strategy
-  - Customer acquisition channels
-  - Growth timeline
-  - Marketing approach
+- [ ] **Section 8: Go-to-Market**
+  - 4-Phase long-term vision (Years 1-10)
+  - Guest journey arc (Awakening → Immersion → Integration → Embodiment)
+  - Acquisition channels breakdown
+  - 30+ locations target
 
-- [ ] **Team**
+- [ ] **Section 9: Financials**
+  - Year 1: ~$3.6M (120+ guests, 50% occupancy)
+  - Year 3: ~$5.1M (170+ guests, 70% occupancy)
+  - Year 5: ~$11.7M (300+ guests, 2 locations)
+  - Success metrics and targets
+
+- [ ] **Section 10: Team**
   - Founder bios (detailed)
   - Co-founder bios
   - Key team bios
   - Advisor bios
-  - Why this team wins
+  - Key hires planned (CEO, CMO, Medical Director)
+  - Talent lock-up strategy
 
-- [ ] **The Ask**
-  - Amount and structure
-  - Use of funds detail
+- [ ] **Section 11: The Ask**
+  - $5M raise amount
+  - Use of funds breakdown (40/30/15/10/5%)
   - Milestones enabled
+  - Key risks and mitigations
   - Terms overview
 
 ### FAQ Content
@@ -479,7 +492,7 @@ Prepare templates for:
 
 | Category | Items | Complete | % |
 |----------|-------|----------|---|
-| Written Content | 15 | 0 | 0% |
+| Written Content | 16 | 0 | 0% |
 | Financial Materials | 8 | 0 | 0% |
 | Video Content | 12 | 0 | 0% |
 | Visual Assets | 20 | 0 | 0% |
@@ -488,7 +501,9 @@ Prepare templates for:
 | Personalization | 8 | 0 | 0% |
 | Email Templates | 8 | 0 | 0% |
 | Supporting Materials | 8 | 0 | 0% |
-| **Total** | **107** | **0** | **0%** |
+| **Total** | **108** | **0** | **0%** |
+
+**Note**: Executive Summary v2.0 is complete and serves as the source of truth for all pitch content.
 
 ---
 
@@ -517,5 +532,6 @@ Prepare templates for:
 
 ---
 
-*Document Version: 1.0*
-*Last Updated: [Date]*
+*Document Version: 2.0*
+*Last Updated: January 2026*
+*Aligned with: Executive Summary v2.0*
