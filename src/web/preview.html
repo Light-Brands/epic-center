@@ -1,0 +1,1595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Transformational Epicenter - Executive Summary Preview. A confidential overview of the world's first luxury medical wellness destination.">
+  <meta name="robots" content="noindex, nofollow">
+
+  <title>Executive Preview | Transformational Epicenter</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+  <!-- Page-specific styles -->
+  <style>
+    /* ================================================
+       COMBO LOCK OVERLAY
+       ================================================ */
+    .lock-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 10000;
+      background: linear-gradient(135deg, var(--primary-900) 0%, var(--primary-800) 50%, var(--primary-900) 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.8s ease, visibility 0.8s ease;
+    }
+
+    .lock-overlay.hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .lock-container {
+      text-align: center;
+      padding: var(--space-10);
+      max-width: 500px;
+    }
+
+    .lock-icon {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto var(--space-8);
+      background: linear-gradient(135deg, var(--secondary-400) 0%, var(--secondary-500) 100%);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 60px rgba(196, 169, 98, 0.3);
+    }
+
+    .lock-icon svg {
+      width: 36px;
+      height: 36px;
+      color: var(--primary-900);
+    }
+
+    .lock-title {
+      font-family: var(--font-heading);
+      font-size: var(--text-4xl);
+      color: var(--neutral-50);
+      margin-bottom: var(--space-4);
+    }
+
+    .lock-subtitle {
+      font-size: var(--text-lg);
+      color: var(--neutral-300);
+      margin-bottom: var(--space-10);
+      line-height: 1.6;
+    }
+
+    .combo-input-wrapper {
+      display: flex;
+      justify-content: center;
+      gap: var(--space-3);
+      margin-bottom: var(--space-6);
+    }
+
+    .combo-digit {
+      width: 64px;
+      height: 80px;
+      font-family: var(--font-heading);
+      font-size: var(--text-4xl);
+      text-align: center;
+      background: rgba(255, 255, 255, 0.05);
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      border-radius: var(--radius-lg);
+      color: var(--neutral-50);
+      transition: all var(--transition-fast);
+      -webkit-appearance: none;
+      -moz-appearance: textfield;
+    }
+
+    .combo-digit::-webkit-outer-spin-button,
+    .combo-digit::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    .combo-digit:focus {
+      outline: none;
+      border-color: var(--secondary-400);
+      background: rgba(196, 169, 98, 0.1);
+      box-shadow: 0 0 20px rgba(196, 169, 98, 0.2);
+    }
+
+    .combo-digit.correct {
+      border-color: var(--success-500);
+      background: rgba(34, 197, 94, 0.1);
+    }
+
+    .combo-digit.incorrect {
+      border-color: var(--error-500);
+      background: rgba(239, 68, 68, 0.1);
+      animation: shake 0.5s ease;
+    }
+
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      20%, 60% { transform: translateX(-5px); }
+      40%, 80% { transform: translateX(5px); }
+    }
+
+    .lock-hint {
+      font-size: var(--text-sm);
+      color: var(--neutral-500);
+      font-style: italic;
+    }
+
+    .lock-error {
+      color: var(--error-500);
+      font-size: var(--text-sm);
+      margin-top: var(--space-4);
+      opacity: 0;
+      transition: opacity var(--transition-fast);
+    }
+
+    .lock-error.visible {
+      opacity: 1;
+    }
+
+    /* ================================================
+       PREVIEW PAGE STYLES
+       ================================================ */
+    .preview-content {
+      opacity: 0;
+      transition: opacity 1s ease 0.3s;
+    }
+
+    .preview-content.visible {
+      opacity: 1;
+    }
+
+    /* Confidential Badge */
+    .confidential-badge {
+      position: fixed;
+      top: var(--space-4);
+      right: var(--space-4);
+      z-index: 999;
+      background: rgba(26, 58, 58, 0.9);
+      backdrop-filter: blur(10px);
+      padding: var(--space-2) var(--space-4);
+      border-radius: var(--radius-full);
+      font-family: var(--font-accent);
+      font-size: var(--text-xs);
+      color: var(--secondary-400);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      border: 1px solid rgba(196, 169, 98, 0.3);
+    }
+
+    /* Hero Stats */
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: var(--space-12);
+      margin-top: var(--space-12);
+      padding-top: var(--space-8);
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .hero-stat {
+      text-align: center;
+    }
+
+    .hero-stat__value {
+      font-family: var(--font-heading);
+      font-size: var(--text-4xl);
+      color: var(--secondary-400);
+      line-height: 1;
+      margin-bottom: var(--space-2);
+    }
+
+    .hero-stat__label {
+      font-family: var(--font-accent);
+      font-size: var(--text-xs);
+      color: var(--neutral-400);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 768px) {
+      .hero-stats {
+        flex-wrap: wrap;
+        gap: var(--space-6);
+      }
+      .hero-stat {
+        flex: 1 1 40%;
+      }
+    }
+
+    /* Opportunity Statement */
+    .opportunity-statement {
+      background: linear-gradient(135deg, var(--secondary-50) 0%, var(--neutral-50) 100%);
+      padding: var(--space-20) 0;
+    }
+
+    .opportunity-box {
+      background: white;
+      border-radius: var(--radius-2xl);
+      padding: var(--space-12);
+      box-shadow: var(--shadow-xl);
+      border-left: 4px solid var(--secondary-400);
+    }
+
+    .opportunity-box__quote {
+      font-family: var(--font-heading);
+      font-size: clamp(var(--text-xl), 3vw, var(--text-3xl));
+      color: var(--primary-800);
+      line-height: 1.5;
+      font-style: italic;
+    }
+
+    /* Market Section */
+    .market-cards {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: var(--space-6);
+    }
+
+    @media (max-width: 1024px) {
+      .market-cards { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 640px) {
+      .market-cards { grid-template-columns: 1fr; }
+    }
+
+    .market-card {
+      background: white;
+      border-radius: var(--radius-xl);
+      padding: var(--space-8);
+      text-align: center;
+      box-shadow: var(--shadow-md);
+      transition: all var(--transition-normal);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .market-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--secondary-400) 0%, var(--secondary-500) 100%);
+    }
+
+    .market-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-xl);
+    }
+
+    .market-card__size {
+      font-family: var(--font-heading);
+      font-size: var(--text-4xl);
+      color: var(--primary-800);
+      margin-bottom: var(--space-2);
+    }
+
+    .market-card__label {
+      font-family: var(--font-accent);
+      font-size: var(--text-sm);
+      font-weight: 600;
+      color: var(--neutral-700);
+      margin-bottom: var(--space-4);
+    }
+
+    .market-card__growth {
+      display: inline-block;
+      background: var(--primary-100);
+      color: var(--primary-700);
+      font-size: var(--text-sm);
+      font-weight: 600;
+      padding: var(--space-1) var(--space-3);
+      border-radius: var(--radius-full);
+    }
+
+    /* Segment Cards */
+    .segment-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: var(--space-6);
+    }
+
+    @media (max-width: 1024px) {
+      .segment-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 640px) {
+      .segment-grid { grid-template-columns: 1fr; }
+    }
+
+    .segment-card {
+      background: linear-gradient(180deg, var(--primary-800) 0%, var(--primary-900) 100%);
+      border-radius: var(--radius-xl);
+      padding: var(--space-8);
+      color: var(--neutral-100);
+      position: relative;
+      overflow: hidden;
+      transition: all var(--transition-normal);
+    }
+
+    .segment-card::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -50%;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle, rgba(196, 169, 98, 0.15) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .segment-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-xl);
+    }
+
+    .segment-card__number {
+      font-family: var(--font-heading);
+      font-size: var(--text-5xl);
+      color: var(--secondary-400);
+      opacity: 0.3;
+      position: absolute;
+      top: var(--space-4);
+      right: var(--space-6);
+    }
+
+    .segment-card__title {
+      font-size: var(--text-lg);
+      font-weight: 600;
+      color: var(--neutral-50);
+      margin-bottom: var(--space-3);
+    }
+
+    .segment-card__text {
+      font-size: var(--text-sm);
+      color: var(--neutral-400);
+      line-height: 1.6;
+    }
+
+    /* Transformation Table */
+    .transformation-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--space-6);
+    }
+
+    @media (max-width: 768px) {
+      .transformation-grid { grid-template-columns: 1fr; }
+    }
+
+    .transformation-item {
+      background: white;
+      border-radius: var(--radius-lg);
+      padding: var(--space-6);
+      display: flex;
+      align-items: center;
+      gap: var(--space-4);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .transformation-item__from {
+      flex: 1;
+      text-align: right;
+      color: var(--neutral-500);
+      font-size: var(--text-sm);
+    }
+
+    .transformation-item__arrow {
+      width: 40px;
+      height: 40px;
+      background: var(--secondary-100);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .transformation-item__arrow svg {
+      width: 20px;
+      height: 20px;
+      color: var(--secondary-600);
+    }
+
+    .transformation-item__to {
+      flex: 1;
+      color: var(--primary-800);
+      font-weight: 600;
+      font-size: var(--text-sm);
+    }
+
+    /* Financial Section */
+    .financial-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-10);
+      align-items: start;
+    }
+
+    @media (max-width: 968px) {
+      .financial-grid { grid-template-columns: 1fr; }
+    }
+
+    .pricing-table {
+      background: white;
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .pricing-table__header {
+      background: var(--primary-800);
+      color: var(--neutral-50);
+      padding: var(--space-6);
+      text-align: center;
+    }
+
+    .pricing-table__header h3 {
+      color: var(--neutral-50);
+      margin-bottom: var(--space-2);
+    }
+
+    .pricing-table__rate {
+      font-family: var(--font-heading);
+      font-size: var(--text-3xl);
+      color: var(--secondary-400);
+    }
+
+    .pricing-table__body {
+      padding: var(--space-6);
+    }
+
+    .pricing-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: var(--space-4) 0;
+      border-bottom: 1px solid var(--neutral-200);
+    }
+
+    .pricing-row:last-child {
+      border-bottom: none;
+    }
+
+    .pricing-row__program {
+      font-weight: 500;
+    }
+
+    .pricing-row__duration {
+      font-size: var(--text-sm);
+      color: var(--neutral-500);
+    }
+
+    .pricing-row__price {
+      font-family: var(--font-heading);
+      font-size: var(--text-xl);
+      color: var(--primary-800);
+    }
+
+    .revenue-projection {
+      background: linear-gradient(135deg, var(--primary-800) 0%, var(--primary-700) 100%);
+      border-radius: var(--radius-xl);
+      padding: var(--space-8);
+      color: var(--neutral-100);
+    }
+
+    .revenue-projection h3 {
+      color: var(--neutral-50);
+      margin-bottom: var(--space-6);
+    }
+
+    .revenue-year {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: var(--space-4) 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .revenue-year:last-child {
+      border-bottom: none;
+    }
+
+    .revenue-year__label {
+      font-weight: 500;
+    }
+
+    .revenue-year__amount {
+      font-family: var(--font-heading);
+      font-size: var(--text-2xl);
+      color: var(--secondary-400);
+    }
+
+    .revenue-year__note {
+      font-size: var(--text-sm);
+      color: var(--neutral-400);
+    }
+
+    /* Competitive Moat */
+    .moat-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: var(--space-4);
+    }
+
+    @media (max-width: 1024px) {
+      .moat-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    @media (max-width: 640px) {
+      .moat-grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .moat-item {
+      background: var(--primary-800);
+      border-radius: var(--radius-lg);
+      padding: var(--space-6);
+      text-align: center;
+      color: var(--neutral-100);
+    }
+
+    .moat-item__number {
+      font-family: var(--font-heading);
+      font-size: var(--text-3xl);
+      color: var(--secondary-400);
+      margin-bottom: var(--space-2);
+    }
+
+    .moat-item__title {
+      font-size: var(--text-sm);
+      font-weight: 600;
+      color: var(--neutral-50);
+      margin-bottom: var(--space-2);
+    }
+
+    .moat-item__text {
+      font-size: var(--text-xs);
+      color: var(--neutral-400);
+      line-height: 1.5;
+    }
+
+    /* Guest Profile */
+    .guest-profile {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-10);
+      align-items: center;
+    }
+
+    @media (max-width: 768px) {
+      .guest-profile { grid-template-columns: 1fr; }
+    }
+
+    .guest-profile__visual {
+      background: linear-gradient(135deg, var(--primary-100) 0%, var(--secondary-100) 100%);
+      border-radius: var(--radius-2xl);
+      padding: var(--space-12);
+      text-align: center;
+    }
+
+    .guest-profile__icon {
+      width: 120px;
+      height: 120px;
+      background: white;
+      border-radius: 50%;
+      margin: 0 auto var(--space-6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .guest-profile__icon svg {
+      width: 60px;
+      height: 60px;
+      color: var(--primary-700);
+    }
+
+    .guest-profile__quote {
+      font-family: var(--font-heading);
+      font-size: var(--text-xl);
+      font-style: italic;
+      color: var(--primary-800);
+      line-height: 1.6;
+    }
+
+    .guest-types {
+      display: grid;
+      gap: var(--space-4);
+    }
+
+    .guest-type {
+      display: flex;
+      gap: var(--space-4);
+      padding: var(--space-4);
+      background: var(--neutral-100);
+      border-radius: var(--radius-lg);
+    }
+
+    .guest-type__icon {
+      width: 40px;
+      height: 40px;
+      background: var(--secondary-100);
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .guest-type__title {
+      font-weight: 600;
+      margin-bottom: var(--space-1);
+    }
+
+    .guest-type__text {
+      font-size: var(--text-sm);
+      color: var(--neutral-600);
+      margin-bottom: 0;
+    }
+
+    /* Competitor Analysis */
+    .competitor-table {
+      width: 100%;
+      background: white;
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .competitor-table th,
+    .competitor-table td {
+      padding: var(--space-4) var(--space-5);
+      text-align: left;
+      border-bottom: 1px solid var(--neutral-200);
+    }
+
+    .competitor-table th {
+      background: var(--primary-800);
+      color: var(--neutral-50);
+      font-family: var(--font-accent);
+      font-size: var(--text-sm);
+      font-weight: 600;
+    }
+
+    .competitor-table th:first-child {
+      border-radius: var(--radius-xl) 0 0 0;
+    }
+
+    .competitor-table th:last-child {
+      border-radius: 0 var(--radius-xl) 0 0;
+    }
+
+    .competitor-table td {
+      font-size: var(--text-sm);
+      vertical-align: top;
+    }
+
+    .competitor-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    .competitor-table tr:hover td {
+      background: var(--neutral-50);
+    }
+
+    /* Next Steps */
+    .next-steps-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: var(--space-6);
+    }
+
+    @media (max-width: 968px) {
+      .next-steps-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 640px) {
+      .next-steps-grid { grid-template-columns: 1fr; }
+    }
+
+    .next-step {
+      background: white;
+      border-radius: var(--radius-xl);
+      padding: var(--space-8);
+      text-align: center;
+      box-shadow: var(--shadow-md);
+      transition: all var(--transition-normal);
+    }
+
+    .next-step:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .next-step__number {
+      width: 48px;
+      height: 48px;
+      background: var(--secondary-400);
+      color: var(--primary-900);
+      font-family: var(--font-heading);
+      font-size: var(--text-2xl);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto var(--space-4);
+    }
+
+    .next-step__title {
+      font-size: var(--text-base);
+      font-weight: 600;
+      margin-bottom: var(--space-2);
+    }
+
+    .next-step__text {
+      font-size: var(--text-sm);
+      color: var(--neutral-600);
+      margin-bottom: 0;
+    }
+
+    /* Vision Timeline */
+    .vision-timeline {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: var(--space-6);
+      position: relative;
+    }
+
+    .vision-timeline::before {
+      content: '';
+      position: absolute;
+      top: 40px;
+      left: 60px;
+      right: 60px;
+      height: 2px;
+      background: var(--secondary-400);
+      z-index: 0;
+    }
+
+    @media (max-width: 968px) {
+      .vision-timeline {
+        grid-template-columns: 1fr;
+      }
+      .vision-timeline::before {
+        display: none;
+      }
+    }
+
+    .vision-phase {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+    }
+
+    .vision-phase__marker {
+      width: 80px;
+      height: 80px;
+      background: var(--primary-800);
+      border: 4px solid var(--secondary-400);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto var(--space-5);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .vision-phase__year {
+      font-family: var(--font-heading);
+      font-size: var(--text-2xl);
+      color: var(--secondary-400);
+    }
+
+    .vision-phase__title {
+      font-weight: 600;
+      margin-bottom: var(--space-2);
+    }
+
+    .vision-phase__text {
+      font-size: var(--text-sm);
+      color: var(--neutral-600);
+    }
+
+    /* Tagline Footer */
+    .tagline-section {
+      background: var(--primary-900);
+      padding: var(--space-20) 0;
+      text-align: center;
+    }
+
+    .tagline-section__quote {
+      font-family: var(--font-heading);
+      font-size: clamp(var(--text-2xl), 4vw, var(--text-5xl));
+      font-style: italic;
+      color: var(--neutral-50);
+      max-width: 900px;
+      margin: 0 auto var(--space-8);
+      line-height: 1.4;
+    }
+
+    .tagline-section__version {
+      font-family: var(--font-accent);
+      font-size: var(--text-xs);
+      color: var(--neutral-500);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Combo Lock Overlay -->
+  <div class="lock-overlay" id="lockOverlay">
+    <div class="lock-container">
+      <div class="lock-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+          <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+        </svg>
+      </div>
+      <h1 class="lock-title">Executive Preview</h1>
+      <p class="lock-subtitle">This confidential document is protected.<br>Please enter the access code to continue.</p>
+
+      <div class="combo-input-wrapper">
+        <input type="number" class="combo-digit" id="digit1" maxlength="1" min="0" max="9" inputmode="numeric" autofocus>
+        <input type="number" class="combo-digit" id="digit2" maxlength="1" min="0" max="9" inputmode="numeric">
+        <input type="number" class="combo-digit" id="digit3" maxlength="1" min="0" max="9" inputmode="numeric">
+        <input type="number" class="combo-digit" id="digit4" maxlength="1" min="0" max="9" inputmode="numeric">
+      </div>
+
+      <p class="lock-hint">Enter 4-digit access code</p>
+      <p class="lock-error" id="lockError">Incorrect code. Please try again.</p>
+    </div>
+  </div>
+
+  <!-- Main Preview Content -->
+  <div class="preview-content" id="previewContent">
+
+    <!-- Confidential Badge -->
+    <div class="confidential-badge">Confidential Preview</div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero__bg">
+        <div class="image-placeholder" style="width: 100%; height: 100%; min-height: 100vh; border-radius: 0;">
+          <div class="image-placeholder__text">
+            <div class="image-placeholder__icon"><svg class="icon icon--xl"><use href="images/icons.svg#icon-sun"/></svg></div>
+            <div class="image-placeholder__label">[IMAGE: hero-investor-preview.jpg]</div>
+          </div>
+        </div>
+        <div class="hero__overlay"></div>
+      </div>
+
+      <div class="hero__content">
+        <p class="hero__eyebrow">Executive Summary</p>
+        <h1 class="hero__title">Transformational Epicenter</h1>
+        <p class="hero__subtitle">
+          Building the world's first luxury medical wellness destination that combines hospital-grade care, five-star hospitality, cutting-edge health technology, and transformational medicine&mdash;a combination no competitor offers today.
+        </p>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="hero-stat__value">$5.6T+</div>
+            <div class="hero-stat__label">Total Market</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat__value">4</div>
+            <div class="hero-stat__label">Market Segments</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat__value">$11M+</div>
+            <div class="hero-stat__label">Year 5 Revenue</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat__value">8</div>
+            <div class="hero-stat__label">Integrated Pillars</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Opportunity Statement -->
+    <section class="opportunity-statement">
+      <div class="container container--content">
+        <div class="opportunity-box">
+          <p class="opportunity-box__quote">
+            "Bringing the lost travelers back home to the garden of their hearts and soul"
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Problem Section -->
+    <section class="section section--lg">
+      <div class="container">
+        <div class="text-center mb-16">
+          <p class="eyebrow mb-4">The Opportunity</p>
+          <h2 class="mb-6">A Massive Gap No One Is Filling</h2>
+          <p class="lead" style="max-width: 800px; margin: 0 auto;">
+            Wealthy individuals seeking deep transformation have to choose between fragmented options. No one offers all four pillars together. We're building something entirely new from the ground up.
+          </p>
+        </div>
+
+        <div class="market-cards">
+          <div class="market-card">
+            <div class="market-card__size">$27-33B</div>
+            <div class="market-card__label">Medical & Longevity Clinics</div>
+            <span class="market-card__growth">12-15% annual growth</span>
+          </div>
+          <div class="market-card">
+            <div class="market-card__size">$850B-1.1T</div>
+            <div class="market-card__label">Luxury Wellness Hospitality</div>
+            <span class="market-card__growth">7-10% annual growth</span>
+          </div>
+          <div class="market-card">
+            <div class="market-card__size">$24-33B</div>
+            <div class="market-card__label">Biohacking & Performance</div>
+            <span class="market-card__growth">18-22% annual growth</span>
+          </div>
+          <div class="market-card">
+            <div class="market-card__size">$3-5B</div>
+            <div class="market-card__label">Plant Medicine & Psychedelics</div>
+            <span class="market-card__growth">15-20% annual growth</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Competitors Can't Copy -->
+    <section class="section section--cream">
+      <div class="container">
+        <div class="text-center mb-12">
+          <p class="eyebrow mb-4">Competitive Advantage</p>
+          <h2 class="mb-6">Why Competitors Can't Follow</h2>
+        </div>
+
+        <div style="overflow-x: auto;">
+          <table class="competitor-table">
+            <thead>
+              <tr>
+                <th>Competitor Type</th>
+                <th>Why They Won't Integrate All Four Pillars</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Medical Clinics</strong><br><span style="color: var(--neutral-500); font-size: var(--text-xs);">Clinique La Prairie, SHA Wellness</span></td>
+                <td>Won't touch plant medicine&mdash;too much brand and regulatory risk</td>
+              </tr>
+              <tr>
+                <td><strong>Luxury Resorts</strong><br><span style="color: var(--neutral-500); font-size: var(--text-xs);">Aman, Six Senses</span></td>
+                <td>Don't have medical expertise or clinical infrastructure</td>
+              </tr>
+              <tr>
+                <td><strong>Plant Medicine Centers</strong><br><span style="color: var(--neutral-500); font-size: var(--text-xs);">Beond, Rythmia</span></td>
+                <td>Can't attract luxury talent or afford medical infrastructure</td>
+              </tr>
+              <tr>
+                <td><strong>Biohacking Centers</strong><br><span style="color: var(--neutral-500); font-size: var(--text-xs);">Upgrade Labs, Restore</span></td>
+                <td>Wrong business model&mdash;transactional, not transformational</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="text-center mt-12">
+          <p style="font-size: var(--text-lg); color: var(--primary-700); font-weight: 500;">
+            Our advantage: We're building this from scratch with all four pillars integrated from day one.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Eight Segments -->
+    <section class="section section--lg">
+      <div class="container">
+        <div class="text-center mb-16">
+          <p class="eyebrow mb-4">Our Approach</p>
+          <h2 class="mb-6">The Eight Integrated Segments</h2>
+          <p class="lead" style="max-width: 700px; margin: 0 auto;">
+            Each segment amplifies the others. The whole is greater than the sum of parts.
+          </p>
+        </div>
+
+        <div class="segment-grid">
+          <div class="segment-card">
+            <span class="segment-card__number">01</span>
+            <h4 class="segment-card__title">Medical & Scientific Oversight</h4>
+            <p class="segment-card__text">Full medical team 24/7. Hospital-grade protocols. Measurable outcomes.</p>
+          </div>
+          <div class="segment-card">
+            <span class="segment-card__number">02</span>
+            <h4 class="segment-card__title">Plant Medicine</h4>
+            <p class="segment-card__text">Iboga & Ibogaine with cardiac screening, physician presence, sacred context.</p>
+          </div>
+          <div class="segment-card">
+            <span class="segment-card__number">03</span>
+            <h4 class="segment-card__title">Bio-Optimization & Longevity</h4>
+            <p class="segment-card__text">Hyperbaric oxygen, IV therapy, cryotherapy, neurofeedback, light therapy.</p>
+          </div>
+          <div class="segment-card">
+            <span class="segment-card__number">04</span>
+            <h4 class="segment-card__title">Trauma Integration</h4>
+            <p class="segment-card__text">Somatic Experiencing, EMDR, breathwork, polyvagal framework, parts work.</p>
+          </div>
+          <div class="segment-card">
+            <span class="segment-card__number">05</span>
+            <h4 class="segment-card__title">Five-Star Hospitality</h4>
+            <p class="segment-card__text">Private villas, 3:1 staff ratio, Michelin-quality cuisine, daily massage.</p>
+          </div>
+          <div class="segment-card">
+            <span class="segment-card__number">06</span>
+            <h4 class="segment-card__title">Digital Ecosystem</h4>
+            <p class="segment-card__text">AI-powered platform for onboarding, scheduling, integration, community.</p>
+          </div>
+          <div class="segment-card">
+            <span class="segment-card__number">07</span>
+            <h4 class="segment-card__title">Pre-Care</h4>
+            <p class="segment-card__text">4-8 weeks of medical screening, nervous system priming, intention setting.</p>
+          </div>
+          <div class="segment-card">
+            <span class="segment-card__number">08</span>
+            <h4 class="segment-card__title">Post-Care</h4>
+            <p class="segment-card__text">3-12+ months of coaching, community, practices, and lifestyle integration.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Transformation Section -->
+    <section class="section section--cream">
+      <div class="container">
+        <div class="text-center mb-12">
+          <p class="eyebrow mb-4">The Transformation</p>
+          <h2 class="mb-6">From Surviving to Thriving</h2>
+        </div>
+
+        <div class="transformation-grid">
+          <div class="transformation-item">
+            <span class="transformation-item__from">Nervous system dysregulation</span>
+            <div class="transformation-item__arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </div>
+            <span class="transformation-item__to">Nervous system coherence</span>
+          </div>
+          <div class="transformation-item">
+            <span class="transformation-item__from">Unprocessed trauma</span>
+            <div class="transformation-item__arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </div>
+            <span class="transformation-item__to">Integrated experience</span>
+          </div>
+          <div class="transformation-item">
+            <span class="transformation-item__from">Disconnection from body</span>
+            <div class="transformation-item__arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </div>
+            <span class="transformation-item__to">Embodied presence</span>
+          </div>
+          <div class="transformation-item">
+            <span class="transformation-item__from">Chronic stress & anxiety</span>
+            <div class="transformation-item__arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </div>
+            <span class="transformation-item__to">Calm, grounded resilience</span>
+          </div>
+          <div class="transformation-item">
+            <span class="transformation-item__from">Identity fragmentation</span>
+            <div class="transformation-item__arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </div>
+            <span class="transformation-item__to">Coherent sense of self</span>
+          </div>
+          <div class="transformation-item">
+            <span class="transformation-item__from">Lost purpose</span>
+            <div class="transformation-item__arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </div>
+            <span class="transformation-item__to">Aligned mission</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Guest Profile Section -->
+    <section class="section section--lg">
+      <div class="container">
+        <div class="text-center mb-12">
+          <p class="eyebrow mb-4">Who We Serve</p>
+          <h2 class="mb-6">The Transformational Epicenter Guest</h2>
+        </div>
+
+        <div class="guest-profile">
+          <div class="guest-profile__visual">
+            <div class="guest-profile__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                <circle cx="12" cy="7" r="4"/>
+              </svg>
+            </div>
+            <p class="guest-profile__quote">
+              "A successful person who senses something is missing&mdash;ready for transformation that goes beyond surface-level relief."
+            </p>
+          </div>
+
+          <div class="guest-types">
+            <div class="guest-type">
+              <div class="guest-type__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--secondary-600)" stroke-width="2">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                </svg>
+              </div>
+              <div>
+                <p class="guest-type__title">Executives & Entrepreneurs</p>
+                <p class="guest-type__text">Carrying the weight of constant performance</p>
+              </div>
+            </div>
+            <div class="guest-type">
+              <div class="guest-type__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--secondary-600)" stroke-width="2">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                </svg>
+              </div>
+              <div>
+                <p class="guest-type__title">Healthcare Providers</p>
+                <p class="guest-type__text">Who have given so much they've depleted themselves</p>
+              </div>
+            </div>
+            <div class="guest-type">
+              <div class="guest-type__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--secondary-600)" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+                  <line x1="12" y1="17" x2="12.01" y2="17"/>
+                </svg>
+              </div>
+              <div>
+                <p class="guest-type__title">Seekers</p>
+                <p class="guest-type__text">Who have tried many modalities but haven't found the breakthrough</p>
+              </div>
+            </div>
+            <div class="guest-type">
+              <div class="guest-type__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--secondary-600)" stroke-width="2">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                  <path d="M2 17l10 5 10-5"/>
+                  <path d="M2 12l10 5 10-5"/>
+                </svg>
+              </div>
+              <div>
+                <p class="guest-type__title">Trauma Survivors</p>
+                <p class="guest-type__text">Ready to finally release what they've been carrying</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-12">
+          <p style="font-size: var(--text-lg); color: var(--primary-700);">
+            <strong>Investment level:</strong> $50,000&ndash;$150,000+ for genuine transformation
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Financial Section -->
+    <section class="section section--dark">
+      <div class="container">
+        <div class="text-center mb-12">
+          <p class="eyebrow mb-4" style="color: var(--secondary-400);">Financial Picture</p>
+          <h2 class="mb-6">The Business Model</h2>
+        </div>
+
+        <div class="financial-grid">
+          <div class="pricing-table">
+            <div class="pricing-table__header">
+              <h3>Program Pricing</h3>
+              <div class="pricing-table__rate">$2,000/day base rate</div>
+            </div>
+            <div class="pricing-table__body">
+              <div class="pricing-row">
+                <div>
+                  <div class="pricing-row__program">The Reset</div>
+                  <div class="pricing-row__duration">7 days</div>
+                </div>
+                <div class="pricing-row__price">$14,000</div>
+              </div>
+              <div class="pricing-row">
+                <div>
+                  <div class="pricing-row__program">The Interruption</div>
+                  <div class="pricing-row__duration">14 days</div>
+                </div>
+                <div class="pricing-row__price">$28,000</div>
+              </div>
+              <div class="pricing-row">
+                <div>
+                  <div class="pricing-row__program">The Recalibration</div>
+                  <div class="pricing-row__duration">21 days</div>
+                </div>
+                <div class="pricing-row__price">$42,000</div>
+              </div>
+              <div class="pricing-row">
+                <div>
+                  <div class="pricing-row__program">Full Transformation</div>
+                  <div class="pricing-row__duration">28 days</div>
+                </div>
+                <div class="pricing-row__price">$56,000</div>
+              </div>
+              <div class="pricing-row">
+                <div>
+                  <div class="pricing-row__program">Custom Extended</div>
+                  <div class="pricing-row__duration">30+ days</div>
+                </div>
+                <div class="pricing-row__price">$60,000+</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="revenue-projection">
+            <h3>Revenue Projections</h3>
+            <p style="color: var(--neutral-400); font-size: var(--text-sm); margin-bottom: var(--space-6);">
+              10 rooms x 70% occupancy x $2,000/day = ~$5.1M annual
+            </p>
+            <div class="revenue-year">
+              <div>
+                <div class="revenue-year__label">Year 1</div>
+                <div class="revenue-year__note">Launch flagship, 50% occupancy</div>
+              </div>
+              <div class="revenue-year__amount">~$3.6M</div>
+            </div>
+            <div class="revenue-year">
+              <div>
+                <div class="revenue-year__label">Year 3</div>
+                <div class="revenue-year__note">Proven model, 70% occupancy</div>
+              </div>
+              <div class="revenue-year__amount">~$5.1M</div>
+            </div>
+            <div class="revenue-year">
+              <div>
+                <div class="revenue-year__label">Year 5</div>
+                <div class="revenue-year__note">2 locations, 80% occupancy</div>
+              </div>
+              <div class="revenue-year__amount">~$11.7M</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Competitive Moat Section -->
+    <section class="section section--lg">
+      <div class="container">
+        <div class="text-center mb-12">
+          <p class="eyebrow mb-4">Defensibility</p>
+          <h2 class="mb-6">Five Layers of Protection</h2>
+        </div>
+
+        <div class="moat-grid">
+          <div class="moat-item">
+            <div class="moat-item__number">1</div>
+            <h4 class="moat-item__title">First-Mover</h4>
+            <p class="moat-item__text">First to integrate all four pillars in a legal jurisdiction with luxury infrastructure</p>
+          </div>
+          <div class="moat-item">
+            <div class="moat-item__number">2</div>
+            <h4 class="moat-item__title">Talent Lock-Up</h4>
+            <p class="moat-item__text">Top physicians, hospitality leaders, and practitioners on long-term contracts</p>
+          </div>
+          <div class="moat-item">
+            <div class="moat-item__number">3</div>
+            <h4 class="moat-item__title">Brand & Reputation</h4>
+            <p class="moat-item__text">Word-of-mouth among the wealthy is everything in this market</p>
+          </div>
+          <div class="moat-item">
+            <div class="moat-item__number">4</div>
+            <h4 class="moat-item__title">Proprietary Protocols</h4>
+            <p class="moat-item__text">Documented, refined methods proven with outcome data</p>
+          </div>
+          <div class="moat-item">
+            <div class="moat-item__number">5</div>
+            <h4 class="moat-item__title">Network Effects</h4>
+            <p class="moat-item__text">Alumni community creates referrals and loyalty that compounds</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vision Timeline -->
+    <section class="section section--cream">
+      <div class="container">
+        <div class="text-center mb-16">
+          <p class="eyebrow mb-4">The Vision</p>
+          <h2 class="mb-6">Long-Term Roadmap</h2>
+        </div>
+
+        <div class="vision-timeline">
+          <div class="vision-phase">
+            <div class="vision-phase__marker">
+              <span class="vision-phase__year">Y1</span>
+            </div>
+            <h4 class="vision-phase__title">Foundation</h4>
+            <p class="vision-phase__text">Launch first location in Mexico. Establish protocols. Build digital platform MVP.</p>
+          </div>
+          <div class="vision-phase">
+            <div class="vision-phase__marker">
+              <span class="vision-phase__year">Y2</span>
+            </div>
+            <h4 class="vision-phase__title">Optimization</h4>
+            <p class="vision-phase__text">Refine protocols with outcomes data. Build international reputation. Expansion playbook.</p>
+          </div>
+          <div class="vision-phase">
+            <div class="vision-phase__marker">
+              <span class="vision-phase__year">Y3</span>
+            </div>
+            <h4 class="vision-phase__title">Expansion</h4>
+            <p class="vision-phase__text">Launch locations in Europe & Asia-Pacific. Licensing model. Training academy.</p>
+          </div>
+          <div class="vision-phase">
+            <div class="vision-phase__marker">
+              <span class="vision-phase__year">Y4-10</span>
+            </div>
+            <h4 class="vision-phase__title">Global Network</h4>
+            <p class="vision-phase__text">30+ locations globally. Unified platform. World-class research institute.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="section section--lg">
+      <div class="container">
+        <div class="content-section">
+          <div class="content-section__text">
+            <p class="eyebrow mb-4">First Location</p>
+            <h2 class="mb-6">Why Mexico</h2>
+            <p class="mb-6">
+              After evaluating multiple countries, Mexico (specifically the Quintana Roo region) emerged as our top choice for the flagship location.
+            </p>
+            <ul style="display: grid; gap: var(--space-3);">
+              <li style="display: flex; gap: var(--space-3); align-items: flex-start;">
+                <span style="color: var(--secondary-500);">&#10003;</span>
+                <span><strong>Legal clarity</strong> &mdash; Ibogaine is legal/unregulated</span>
+              </li>
+              <li style="display: flex; gap: var(--space-3); align-items: flex-start;">
+                <span style="color: var(--secondary-500);">&#10003;</span>
+                <span><strong>Accessibility</strong> &mdash; Short flights from major U.S. cities</span>
+              </li>
+              <li style="display: flex; gap: var(--space-3); align-items: flex-start;">
+                <span style="color: var(--secondary-500);">&#10003;</span>
+                <span><strong>Infrastructure</strong> &mdash; World-class resort infrastructure exists</span>
+              </li>
+              <li style="display: flex; gap: var(--space-3); align-items: flex-start;">
+                <span style="color: var(--secondary-500);">&#10003;</span>
+                <span><strong>Hospital access</strong> &mdash; Quality emergency facilities within 15 minutes</span>
+              </li>
+              <li style="display: flex; gap: var(--space-3); align-items: flex-start;">
+                <span style="color: var(--secondary-500);">&#10003;</span>
+                <span><strong>Talent pool</strong> &mdash; Experienced hospitality and medical professionals</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="content-section__image">
+            <div class="image-placeholder" style="height: 500px;">
+              <div class="image-placeholder__text">
+                <div class="image-placeholder__icon"><svg class="icon icon--xl"><use href="images/icons.svg#icon-house"/></svg></div>
+                <div class="image-placeholder__label">[IMAGE: quintana-roo-aerial.jpg]</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Next Steps Section -->
+    <section class="section section--dark">
+      <div class="container">
+        <div class="text-center mb-12">
+          <p class="eyebrow mb-4" style="color: var(--secondary-400);">Immediate Priorities</p>
+          <h2 class="mb-6">Next Steps</h2>
+        </div>
+
+        <div class="next-steps-grid">
+          <div class="next-step">
+            <div class="next-step__number">1</div>
+            <h4 class="next-step__title">Capital Raise</h4>
+            <p class="next-step__text">Finalize investor presentation and begin capital discussions</p>
+          </div>
+          <div class="next-step">
+            <div class="next-step__number">2</div>
+            <h4 class="next-step__title">Site Selection</h4>
+            <p class="next-step__text">Conduct site visits to top 3 locations in Quintana Roo</p>
+          </div>
+          <div class="next-step">
+            <div class="next-step__number">3</div>
+            <h4 class="next-step__title">Leadership Team</h4>
+            <p class="next-step__text">Engage term sheets with CEO, CMO, and Medical Director candidates</p>
+          </div>
+          <div class="next-step">
+            <div class="next-step__number">4</div>
+            <h4 class="next-step__title">Concept Design</h4>
+            <p class="next-step__text">Retain architecture firm for concept development</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="cta-section__bg"></div>
+      <div class="cta-section__pattern"></div>
+      <div class="container">
+        <div class="cta-section__content">
+          <h2 class="cta-section__title">A Category-Creation Opportunity</h2>
+          <p class="cta-section__text">
+            We're not building a slightly better spa or a more luxurious clinic. We're creating an entirely new type of destination for people who have everything except peace, purpose, and presence.
+          </p>
+          <p style="color: var(--secondary-400); font-size: var(--text-xl); font-weight: 500; margin-bottom: var(--space-8);">
+            The question isn't whether this market will be served. It's whether we'll be the ones to serve it first.
+          </p>
+          <a href="mailto:hello@transformational-epicenter.com" class="btn btn--gold btn--lg">Request a Conversation</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tagline Footer -->
+    <section class="tagline-section">
+      <div class="container">
+        <p class="tagline-section__quote">
+          "Bringing the lost travelers back home to the garden of their hearts and soul"
+        </p>
+        <p class="tagline-section__version">
+          Executive Summary v2.0 &bull; January 2026 &bull; Confidential
+        </p>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Combo Lock JavaScript -->
+  <script>
+    (function() {
+      const CORRECT_CODE = '8888';
+      const digits = [
+        document.getElementById('digit1'),
+        document.getElementById('digit2'),
+        document.getElementById('digit3'),
+        document.getElementById('digit4')
+      ];
+      const lockOverlay = document.getElementById('lockOverlay');
+      const previewContent = document.getElementById('previewContent');
+      const lockError = document.getElementById('lockError');
+
+      // Check if already unlocked in this session
+      if (sessionStorage.getItem('previewUnlocked') === 'true') {
+        unlockContent();
+      }
+
+      // Handle input for each digit
+      digits.forEach((digit, index) => {
+        digit.addEventListener('input', function(e) {
+          // Ensure single digit
+          if (this.value.length > 1) {
+            this.value = this.value.slice(-1);
+          }
+
+          // Only allow numbers
+          this.value = this.value.replace(/[^0-9]/g, '');
+
+          // Move to next input
+          if (this.value && index < 3) {
+            digits[index + 1].focus();
+          }
+
+          // Check code when all digits are filled
+          checkCode();
+        });
+
+        digit.addEventListener('keydown', function(e) {
+          // Handle backspace
+          if (e.key === 'Backspace' && !this.value && index > 0) {
+            digits[index - 1].focus();
+          }
+
+          // Handle arrow keys
+          if (e.key === 'ArrowLeft' && index > 0) {
+            digits[index - 1].focus();
+          }
+          if (e.key === 'ArrowRight' && index < 3) {
+            digits[index + 1].focus();
+          }
+        });
+
+        // Select all on focus
+        digit.addEventListener('focus', function() {
+          this.select();
+        });
+      });
+
+      function checkCode() {
+        const enteredCode = digits.map(d => d.value).join('');
+
+        if (enteredCode.length === 4) {
+          if (enteredCode === CORRECT_CODE) {
+            // Success
+            digits.forEach(d => d.classList.add('correct'));
+            lockError.classList.remove('visible');
+
+            // Store in session
+            sessionStorage.setItem('previewUnlocked', 'true');
+
+            // Unlock after brief delay
+            setTimeout(unlockContent, 500);
+          } else {
+            // Wrong code
+            digits.forEach(d => {
+              d.classList.add('incorrect');
+              d.value = '';
+            });
+            lockError.classList.add('visible');
+            digits[0].focus();
+
+            // Remove error state after animation
+            setTimeout(() => {
+              digits.forEach(d => d.classList.remove('incorrect'));
+            }, 500);
+          }
+        }
+      }
+
+      function unlockContent() {
+        lockOverlay.classList.add('hidden');
+        previewContent.classList.add('visible');
+        document.body.style.overflow = '';
+      }
+
+      // Prevent scrolling when lock is active
+      if (!sessionStorage.getItem('previewUnlocked')) {
+        document.body.style.overflow = 'hidden';
+      }
+    })();
+  </script>
+</body>
+</html>
