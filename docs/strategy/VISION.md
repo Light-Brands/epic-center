@@ -101,32 +101,32 @@ Our guests are high-functioning individuals who have achieved external success b
 
 ---
 
-## The Eight Pillars
+## The Eight Segments
 
-Our approach rests on eight foundational pillars, each essential to the whole:
+Our approach is operationalized through eight integrated segments, each essential to the whole:
 
-### Pillar 1: Medical and Scientific Oversight
+### Segment 1: Medical and Scientific Oversight
 Evidence-based protocols. Rigorous safety screening. Continuous monitoring. Measurable outcomes. We honor the body's complexity with medical precision.
 
-### Pillar 2: Plant Medicine (Iboga & Ibogaine)
+### Segment 2: Plant Medicine (Iboga & Ibogaine)
 Trauma-informed, ethically held plant medicine experiences with strong medical oversight. We work primarily with Iboga and Ibogaine - medicines with profound capacity for nervous system reset and trauma resolution.
 
-### Pillar 3: Advanced Bio-Optimization and Longevity
+### Segment 3: Advanced Bio-Optimization and Longevity
 State-of-the-art modalities that restore the nervous system, accelerate recovery, and support long-term vitality. The body is the vehicle; we ensure it's optimized for the journey.
 
-### Pillar 4: Trauma Integration and Nervous System Restoration
+### Segment 4: Trauma Integration and Nervous System Restoration
 The medicine opens doors; integration walks through them. Personalized support through facilitators, somatic therapies, and practices that anchor transformation in the body.
 
-### Pillar 5: Five-Star Hospitality, Nutrition, Care, and Functional Fitness
+### Segment 5: Five-Star Hospitality, Nutrition, Care, and Functional Fitness
 A luxury retreat environment where every detail supports healing. Daily therapeutic massage, organic chef-prepared meals, conscious architectural and interior design, exceptional human care, and functional fitness practices designed to support nervous system regulation, structural balance, strength, mobility, and resilience.
 
-### Pillar 6: Digital Ecosystem and Community Support
+### Segment 6: Digital Ecosystem and Community Support
 Technology that extends care beyond walls. Medical onboarding, preparation content, daily schedules, integration practices, and community connection - all in one cohesive platform powered by the AI Superintelligent System.
 
-### Pillar 7: Pre-Care (Preparation)
+### Segment 7: Pre-Care (Preparation)
 The foundation of transformation. 4-8 weeks of medical preparation, psychological readiness, nervous system priming, intention setting, and practical logistics. Preparation is not overhead - it determines the depth of what's possible.
 
-### Pillar 8: Post-Care (Integration)
+### Segment 8: Post-Care (Integration)
 Where transformation becomes embodiment. 3-12+ months of processing, understanding, anchoring, and living the changes. Coaching, community, practices, and support to ensure insights become lasting change. Optional longevity and optimization programs.
 
 ---

@@ -17,7 +17,7 @@
 | Section | Description |
 |---------|-------------|
 | [Vision & Strategy](#vision--strategy) | Core philosophy, master plan, pitch materials |
-| [The Eight Pillars](#the-eight-pillars) | Deep dives into our foundational approach |
+| [The Eight Segments](#the-eight-segments) | Deep dives into our operational framework |
 | [Programs](#programs) | 7, 14, 21, and 28-day program structures |
 | [Technical Architecture](#technical-architecture) | System design, data, security, infrastructure |
 | [Design & Brand](#design--brand) | Design system, brand guidelines |
@@ -39,9 +39,9 @@
 
 ---
 
-### The Eight Pillars
+### The Eight Segments
 
-| # | Pillar | Focus | Link |
+| # | Segment | Focus | Link |
 |---|--------|-------|------|
 | 1 | **Medical & Scientific Oversight** | Evidence-based care, safety screening, measurable outcomes | [View](./docs/segments/01_MEDICAL_OVERSIGHT.md) |
 | 2 | **Plant Medicine** | Iboga & Ibogaine - medically supervised, trauma-informed ceremonies | [View](./docs/segments/02_PLANT_MEDICINE.md) |
@@ -134,7 +134,7 @@ Transformational Epicenter is a network of medical-based wellness and bio-optimi
 │   ├── DIGITAL_PITCH_PACKET.md # Fundraising strategy
 │   │
 │   ├── /architecture         # Technical architecture (5 docs)
-│   ├── /pillars              # Eight pillar deep dives (8 docs)
+│   ├── /segments             # Eight segment deep dives (8 docs)
 │   ├── /programs             # Program structures (5 docs)
 │   └── /pitch-packet         # Investor materials (4 docs)
 │
@@ -231,7 +231,7 @@ Transformational Epicenter is a network of medical-based wellness and bio-optimi
 
 ### For Understanding the Vision
 1. Start with [VISION.md](./docs/VISION.md)
-2. Review the [Eight Pillars](#-the-eight-pillars)
+2. Review the [Eight Segments](#-the-eight-segments)
 3. Explore [Program Structures](#-programs)
 
 ### For Investors
@@ -246,7 +246,7 @@ Transformational Epicenter is a network of medical-based wellness and bio-optimi
 30+ Transformational Epicenters globally, aligned under the same ethical, medical, and spiritual framework.
 
 Each location will offer:
-- The same eight-pillar foundation
+- The same eight-segment foundation
 - Consistent medical and safety protocols
 - Unified digital ecosystem
 - Global community connection

@@ -1,8 +1,8 @@
-<[Home](../../README.md) | [Vision](../strategy/VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Next: [Plant Medicine](./02_PLANT_MEDICINE.md)>
+<[Home](../../README.md) | [Vision](../strategy/VISION.md) | [All Segments](../../README.md#the-eight-segments) | Next: [Plant Medicine](./02_PLANT_MEDICINE.md)>
 
 ---
 
-# Pillar 1: Medical and Scientific Oversight
+# Segment 1: Medical and Scientific Oversight
 
 > *Evidence-based care protecting the sacred journey*
 
@@ -10,9 +10,9 @@
 
 ## Purpose
 
-Medical and scientific oversight is the foundation upon which all other pillars rest. Without rigorous medical protocols, we cannot ensure guest safety. Without measurable outcomes, we cannot claim transformation. Without evidence-based practices, we cannot build credibility.
+Medical and scientific oversight is the foundation upon which all other segments rest. Without rigorous medical protocols, we cannot ensure guest safety. Without measurable outcomes, we cannot claim transformation. Without evidence-based practices, we cannot build credibility.
 
-This pillar exists to:
+This segment exists to:
 1. **Protect guests** from preventable medical complications
 2. **Screen appropriately** for contraindications and risks
 3. **Monitor continuously** during vulnerable phases

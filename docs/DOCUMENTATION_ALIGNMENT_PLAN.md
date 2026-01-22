@@ -5,6 +5,37 @@
 
 ---
 
+## Critical Terminology: Pillars vs Segments
+
+**This distinction is essential for clarity across all documentation:**
+
+| Term | Count | Definition | Usage |
+|------|-------|------------|-------|
+| **4 Pillars** | Four | Market categories we integrate | External/market view |
+| **8 Segments** | Eight | Operational framework | Internal/operational view |
+
+### The 4 Pillars (Market Categories)
+1. Medical & Longevity Clinics
+2. Luxury Wellness Hospitality
+3. Biohacking & Performance
+4. Plant Medicine & Psychedelics
+
+*"No competitor integrates all four pillars. We do."*
+
+### The 8 Segments (Operational Framework)
+1. Medical and Scientific Oversight
+2. Plant Medicine (Iboga & Ibogaine)
+3. Advanced Bio-Optimization and Longevity
+4. Trauma Integration and Nervous System Restoration
+5. Five-Star Hospitality, Nutrition, Care, and Functional Fitness
+6. Digital Ecosystem and Community Support
+7. Pre-Care (Preparation)
+8. Post-Care (Integration)
+
+*"Our eight segments operationalize the four-pillar integration."*
+
+---
+
 ## Executive Summary v2.0: Source of Truth
 
 The Executive Summary establishes these **canonical elements** that should be consistent across all documentation:
@@ -23,7 +54,7 @@ The Executive Summary establishes these **canonical elements** that should be co
 
 **Key Insight**: We serve all four simultaneously. No one else does.
 
-### The Eight Pillars (Exact Naming)
+### The Eight Segments (Exact Naming)
 
 1. Medical and Scientific Oversight
 2. Plant Medicine (Iboga & Ibogaine)
@@ -111,23 +142,23 @@ AWAKENING → IMMERSION → INTEGRATION → EMBODIMENT
 | `docs/strategy/MASTER_PLAN.md` | 🔍 Check | Verify financial projections match |
 | `docs/strategy/MARKET_STRATEGY_PLAN.md` | 🔍 Check | Verify market segments/sizing |
 
-### Priority 2: Segment Documents (The Eight Pillars)
+### Priority 2: Segment Documents (The Eight Segments)
 
-Each pillar document should reference:
-- Its role in the "eight pillar" framework
-- How it connects to the four market segments
+Each segment document should reference:
+- Its role in the "eight segments" framework
+- How it connects to the four market pillars
 - Specific deliverables that justify the $2,000/day rate
 
-| Document | Pillar | Key Alignment Points |
-|----------|--------|---------------------|
-| `segments/01_MEDICAL_OVERSIGHT.md` | Pillar 1 | ✅ Well-aligned, includes AI system, outcome scales |
-| `segments/02_PLANT_MEDICINE.md` | Pillar 2 | 🔍 Check Iboga/Ibogaine framing |
-| `segments/03_BIO_OPTIMIZATION.md` | Pillar 3 | 🔍 Check "Advanced Bio-Optimization and Longevity" naming |
-| `segments/04_TRAUMA_INTEGRATION.md` | Pillar 4 | 🔍 Check "Trauma Integration and Nervous System Restoration" |
-| `segments/05_HOSPITALITY.md` | Pillar 5 | 🔍 Check "Five-Star Hospitality, Nutrition, Care, and Functional Fitness" |
-| `segments/06_DIGITAL_ECOSYSTEM.md` | Pillar 6 | 🔍 Check AI Superintelligent System integration |
-| `segments/07_PRE_CARE.md` | Pillar 7 | 🔍 Check 4-8 week timeline, preparation emphasis |
-| `segments/08_POST_CARE.md` | Pillar 8 | 🔍 Check 3-12+ month timeline, integration emphasis |
+| Document | Segment | Key Alignment Points |
+|----------|---------|---------------------|
+| `segments/01_MEDICAL_OVERSIGHT.md` | Segment 1 | ✅ Well-aligned, includes AI system, outcome scales |
+| `segments/02_PLANT_MEDICINE.md` | Segment 2 | 🔍 Check Iboga/Ibogaine framing |
+| `segments/03_BIO_OPTIMIZATION.md` | Segment 3 | 🔍 Check "Advanced Bio-Optimization and Longevity" naming |
+| `segments/04_TRAUMA_INTEGRATION.md` | Segment 4 | 🔍 Check "Trauma Integration and Nervous System Restoration" |
+| `segments/05_HOSPITALITY.md` | Segment 5 | 🔍 Check "Five-Star Hospitality, Nutrition, Care, and Functional Fitness" |
+| `segments/06_DIGITAL_ECOSYSTEM.md` | Segment 6 | 🔍 Check AI Superintelligent System integration |
+| `segments/07_PRE_CARE.md` | Segment 7 | 🔍 Check 4-8 week timeline, preparation emphasis |
+| `segments/08_POST_CARE.md` | Segment 8 | 🔍 Check 3-12+ month timeline, integration emphasis |
 
 ### Priority 3: Program Documents
 
@@ -160,7 +191,7 @@ These should reflect the four-segment framework:
 |----------|-----------------|
 | `architecture/SYSTEM_OVERVIEW.md` | AI Superintelligent System framing |
 | `architecture/DATA_ARCHITECTURE.md` | HIPAA compliance, data types from Exec Summary |
-| `architecture/INTEGRATION_MAP.md` | Eight pillar integration |
+| `architecture/INTEGRATION_MAP.md` | Eight segment integration |
 
 ### Priority 6: Expansion Research
 
@@ -187,9 +218,9 @@ These should reflect the four-segment framework:
 - [ ] `expansion-research/12_IMPLEMENTATION_ROADMAP.md`
 - [ ] `pitch-packet/DIGITAL_PITCH_PACKET.md` - verify matches
 
-### Task 2: Verify Pillar Naming Consistency
+### Task 2: Verify Segment Naming Consistency
 
-The exact pillar names from Executive Summary:
+The exact segment names from Executive Summary:
 1. "Medical and Scientific Oversight"
 2. "Plant Medicine (Iboga & Ibogaine)"
 3. "Advanced Bio-Optimization and Longevity"
@@ -302,7 +333,7 @@ After alignment, update version numbers and "Last Updated" dates to indicate ali
 > "Wealthy individuals seeking deep transformation have to choose between medical clinics (great doctors, but clinical and cold), luxury resorts (beautiful, but surface-level wellness), biohacking centers (trendy tech, but no medical oversight), and plant medicine retreats (powerful, but often unsafe or unprofessional). No one offers all four together."
 
 ### Why Competitors Can't Follow
-> "We're building this from scratch with all eight pillars integrated from day one. You can't bolt this together after the fact."
+> "We're building this from scratch with all four pillars integrated from day one—operationalized through eight segments. You can't bolt this together after the fact."
 
 ### The Customer
 > "A successful person who senses something is missing."
@@ -362,25 +393,19 @@ Based on initial review, these documents are already strong:
 ├── /pillars                    # Seven pillar deep dives
 ```
 
-**Fix**: Update to "Eight pillar deep dives" and note folder is actually `/segments`
+**Fix**: Update to "Eight segment deep dives" and update folder reference to `/segments`
 
 ---
 
-### Finding 4: Competitive Landscape "Four Pillars" vs "Eight Pillars"
+### Finding 4: Terminology Cleanup - Pillars vs Segments ✅ RESOLVED
 
-**Issue**: The competitive landscape document uses "four pillars" framework for market segments
+**Previous Issue**: Confusion between "four pillars" (market) and "eight pillars" (operational)
 
-**Context**: This is intentional - it's describing the four market segments competitors fail to unify:
-1. Medical Excellence
-2. Luxury Hospitality
-3. Biohacking Technology
-4. Transformational Healing
+**Resolution**: New canonical terminology:
+- **4 Pillars** = Market categories (Medical & Longevity, Luxury Wellness, Biohacking, Plant Medicine)
+- **8 Segments** = Operational framework (our eight delivery areas)
 
-**Note**: This is NOT the same as our Eight Pillars (operational model). The language may cause confusion.
-
-**Recommendation**: Consider adding a clarifying note that distinguishes:
-- "Four Market Segments" (external market view)
-- "Eight Pillars" (our operational framework)
+**Action Required**: Update all docs that say "Eight Pillars" to "Eight Segments"
 
 ---
 
@@ -420,21 +445,25 @@ Executive Summary mentions wellness-only programs. Need to verify this is consis
 
 ### High Priority (Investor/Customer-Facing)
 
-1. **PROGRAM_OVERVIEW.md** - Add explicit pricing
-2. **VISION.md** - Align timeline phases
-3. **MASTER_PLAN.md** - Update pillar count reference
+1. **EXECUTIVE_SUMMARY.md** - Change "Eight Pillars" → "Eight Segments"
+2. **VISION.md** - Change terminology + align timeline phases
+3. **README.md, docs/README.md, ARCHITECT.md** - Update pillar → segment references
+4. **PROGRAM_OVERVIEW.md** - Add explicit pricing
+5. **MASTER_PLAN.md** - Update to "Eight segments" and correct folder reference
 
 ### Medium Priority (Internal Consistency)
 
-4. **02_PLANT_MEDICINE.md** - Version bump and review
-5. **Competitive Landscape** - Add clarifying note on pillars vs segments
-6. **Market Research docs** - Verify market sizing numbers
+6. **All 8 segment docs (01-08)** - Change "Pillar X:" → "Segment X:" in headers
+7. **pitch-packet docs** - Update "8 Pillars" → "8 Segments"
+8. **02_PLANT_MEDICINE.md** - Version bump and review
 
 ### Lower Priority (Completeness)
 
-7. Review all segment docs for v2.0 alignment
-8. Ensure wellness-only programs mentioned consistently
-9. Verify AI Superintelligent System described consistently
+9. Review all segment docs for v2.0 alignment
+10. Ensure wellness-only programs mentioned consistently
+11. Verify AI Superintelligent System described consistently
+
+**Note**: Market research and expansion docs should KEEP "four pillars" language—that's correct for market categories.
 
 ---
 

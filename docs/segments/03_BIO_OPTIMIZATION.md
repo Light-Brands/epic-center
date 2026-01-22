@@ -1,8 +1,8 @@
-<[Home](../../README.md) | [Vision](../strategy/VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Prev: [Plant Medicine](./02_PLANT_MEDICINE.md) | Next: [Trauma](./04_TRAUMA_INTEGRATION.md)>
+<[Home](../../README.md) | [Vision](../strategy/VISION.md) | [All Segments](../../README.md#the-eight-segments) | Prev: [Plant Medicine](./02_PLANT_MEDICINE.md) | Next: [Trauma](./04_TRAUMA_INTEGRATION.md)>
 
 ---
 
-# Pillar 3: Advanced Bio-Optimization and Longevity
+# Segment 3: Advanced Bio-Optimization and Longevity
 
 > *Restoring the vessel that carries transformation*
 
@@ -314,7 +314,7 @@ Intentional breathing practices for nervous system regulation, emotional release
 
 ### Somatic Therapies
 
-Detailed in [Pillar 4: Trauma Integration](./04_TRAUMA_INTEGRATION.md)
+Detailed in [Segment 4: Trauma Integration](./04_TRAUMA_INTEGRATION.md)
 
 Key modalities:
 - Somatic Experiencing

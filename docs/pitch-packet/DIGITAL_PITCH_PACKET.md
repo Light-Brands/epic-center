@@ -115,9 +115,9 @@ THE CORE INTENTION: Not detox or short-term relief, but true
 transformation—nervous system repair, trauma resolution, and
 human remembrance.
 
-[Interactive diagram showing the 8 pillars connecting]
+[Interactive diagram showing the 8 segments connecting]
 
-THE EIGHT FOUNDATIONAL PILLARS:
+THE EIGHT OPERATIONAL SEGMENTS:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 1. Medical & Scientific Oversight
    → Full medical team 24/7, hospital-grade protocols, outcome tracking
@@ -292,7 +292,7 @@ DEVELOPMENT PROGRESS:
 ✅ Complete technical architecture designed
 ✅ AI Superintelligent System architecture defined
 ✅ HIPAA compliance framework established
-✅ 8 foundational pillars fully documented
+✅ 8 operational segments fully documented
 ✅ 4 program structures with pricing finalized
 ✅ Guest journey arc mapped (Awakening → Embodiment)
 ✅ Mexico (Quintana Roo) location research complete
@@ -326,7 +326,7 @@ COMPETITIVE LANDSCAPE
 
 WHY COMPETITORS CAN'T COPY THIS:
 ┌──────────────────────┬─────────────────────────────────────────┐
-│ Competitor Type      │ Why They Won't Integrate All 8 Pillars │
+│ Competitor Type      │ Why They Won't Integrate All 4 Pillars │
 ├──────────────────────┼─────────────────────────────────────────┤
 │ Medical Clinics      │ Won't touch plant medicine—too much    │
 │ (Clinique La Prairie,│ brand and regulatory risk              │
@@ -358,7 +358,7 @@ Luxury Hospitality  ❌         ✅ Full    ❌          ✅ 5-star, 3:1 ratio
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 OUR MOAT (5 Layers of Competitive Defense):
-1. First-Mover: First to integrate all 8 pillars in legal jurisdiction
+1. First-Mover: First to integrate all 4 pillars in legal jurisdiction
 2. Talent Lock-Up: Top physicians & practitioners on long-term contracts
 3. Brand & Reputation: Word-of-mouth among the wealthy is everything
 4. Proprietary Protocols: Documented, refined, proven with outcome data

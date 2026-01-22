@@ -158,7 +158,7 @@ The pitch experience itself:
 ## The Pitch Story Arc (11 Sections)
 
 1. **The Hook** - Crisis of disconnection, the gap no one is filling
-2. **The Solution** - 8 foundational pillars, transformation architecture
+2. **The Solution** - 8 operational segments, transformation architecture
 3. **Why Now** - Market timing, structural opportunity
 4. **Market Opportunity** - $5.6T across 4 segments, ideal guest profile
 5. **Business Model** - $2,000/day base rate, program pricing

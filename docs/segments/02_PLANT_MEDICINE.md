@@ -1,8 +1,8 @@
-<[Home](../../README.md) | [Vision](../strategy/VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Prev: [Medical](./01_MEDICAL_OVERSIGHT.md) | Next: [Bio-Opt](./03_BIO_OPTIMIZATION.md)>
+<[Home](../../README.md) | [Vision](../strategy/VISION.md) | [All Segments](../../README.md#the-eight-segments) | Prev: [Medical](./01_MEDICAL_OVERSIGHT.md) | Next: [Bio-Opt](./03_BIO_OPTIMIZATION.md)>
 
 ---
 
-# Pillar 2: Plant Medicine (Iboga & Ibogaine)
+# Segment 2: Plant Medicine (Iboga & Ibogaine)
 
 > *The medicine is a catalyst, not the destination*
 
@@ -197,7 +197,7 @@ Ibogaine is the primary psychoactive alkaloid found in the root bark of the Ibog
 
 ### Monitoring During Ceremony
 
-See [Pillar 1: Medical Oversight](./01_MEDICAL_OVERSIGHT.md) for detailed monitoring protocols.
+See [Segment 1: Medical Oversight](./01_MEDICAL_OVERSIGHT.md) for detailed monitoring protocols.
 
 **Key Monitoring Points**
 - Continuous cardiac monitoring
@@ -308,7 +308,7 @@ See [Pillar 1: Medical Oversight](./01_MEDICAL_OVERSIGHT.md) for detailed monito
 
 ### Medical Staff Requirements
 
-See [Pillar 1: Medical Oversight](./01_MEDICAL_OVERSIGHT.md)
+See [Segment 1: Medical Oversight](./01_MEDICAL_OVERSIGHT.md)
 
 ---
 
@@ -339,7 +339,7 @@ The ceremony itself is only 10% of the transformation. The other 90% happens in 
 - Practice guidance
 - Check-ins at intervals
 
-See [Pillar 4: Trauma Integration](./04_TRAUMA_INTEGRATION.md), [Pillar 7: Pre-Care](./07_PRE_CARE.md), and [Pillar 8: Post-Care](./08_POST_CARE.md) for more.
+See [Segment 4: Trauma Integration](./04_TRAUMA_INTEGRATION.md), [Segment 7: Pre-Care](./07_PRE_CARE.md), and [Segment 8: Post-Care](./08_POST_CARE.md) for more.
 
 ---
 
@@ -418,7 +418,7 @@ See [Pillar 4: Trauma Integration](./04_TRAUMA_INTEGRATION.md), [Pillar 7: Pre-C
 - Active psychosis
 - Schizophrenia spectrum
 - Pregnancy
-- Certain medications (see Medical Pillar)
+- Certain medications (see Medical Segment)
 - Lack of informed consent
 
 ### Relative (Case-by-Case)

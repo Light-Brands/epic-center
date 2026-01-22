@@ -1,8 +1,8 @@
-<[Home](../../README.md) | [Vision](../strategy/VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Prev: [Pre-Care](./07_PRE_CARE.md) | [Programs](../programs/PROGRAM_OVERVIEW.md)>
+<[Home](../../README.md) | [Vision](../strategy/VISION.md) | [All Segments](../../README.md#the-eight-segments) | Prev: [Pre-Care](./07_PRE_CARE.md) | [Programs](../programs/PROGRAM_OVERVIEW.md)>
 
 ---
 
-# Pillar 8: Post-Care (Integration)
+# Segment 8: Post-Care (Integration)
 
 > *Where transformation becomes embodiment*
 
@@ -30,7 +30,7 @@ Post-care is where transformation becomes real life. The insights, openings, and
 │   │         │           │          │          │                          │  │
 │   └─────────┘           └─────────┘           └─────────────────────────┘  │
 │                                                                              │
-│   See Pillar 7          On-Site Experience    This Document                 │
+│   See Segment 7         On-Site Experience    This Document                 │
 │   Pre-Care                                                                   │
 │                                                                              │
 └────────────────────────────────────────────────────────────────────────────┘

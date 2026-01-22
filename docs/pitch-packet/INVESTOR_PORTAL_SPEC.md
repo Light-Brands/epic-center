@@ -202,7 +202,7 @@ CREATE TABLE investor_content (
 
 **Sections** (scroll-driven, aligned with Executive Summary v2.0):
 1. The Hook (Crisis of Disconnection - animated gap visualization)
-2. The Solution (8 Foundational Pillars interactive diagram)
+2. The Solution (8 Operational Segments interactive diagram)
 3. Why Now (Timeline + structural opportunity)
 4. Market Opportunity ($5.6T visualization, ideal guest profile)
 5. Business Model ($2,000/day, program pricing breakdown)

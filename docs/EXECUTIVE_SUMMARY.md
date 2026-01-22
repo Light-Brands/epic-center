@@ -197,11 +197,11 @@ Individual transformation flourishes within supportive community. We build conta
 
 ---
 
-## The Eight Pillars
+## The Eight Segments
 
-Our approach rests on eight foundational pillars, each essential to the whole:
+Our approach is operationalized through eight integrated segments, each essential to the whole:
 
-### Pillar 1: Medical and Scientific Oversight
+### Segment 1: Medical and Scientific Oversight
 Evidence-based protocols. Rigorous safety screening. Continuous monitoring. Measurable outcomes. We honor the body's complexity with medical precision.
 
 - Full medical team on-site 24/7
@@ -209,7 +209,7 @@ Evidence-based protocols. Rigorous safety screening. Continuous monitoring. Meas
 - Comprehensive health assessments before, during, and after
 - Outcome tracking so guests can see measurable improvement
 
-### Pillar 2: Plant Medicine (Iboga & Ibogaine)
+### Segment 2: Plant Medicine (Iboga & Ibogaine)
 Trauma-informed, ethically held plant medicine experiences with strong medical oversight. We work primarily with Iboga and Ibogaine—medicines with profound capacity for nervous system reset and trauma resolution.
 
 - Full cardiac screening and monitoring (critical for safety)
@@ -217,7 +217,7 @@ Trauma-informed, ethically held plant medicine experiences with strong medical o
 - Months of preparation before and integration support after
 - Sacred context with ethical framework
 
-### Pillar 3: Advanced Bio-Optimization and Longevity
+### Segment 3: Advanced Bio-Optimization and Longevity
 State-of-the-art modalities that restore the nervous system, accelerate recovery, and support long-term vitality. The body is the vehicle; we ensure it's optimized for the journey.
 
 - Evidence-based tools: hyperbaric oxygen, IV therapy, cryotherapy, neurofeedback
@@ -225,7 +225,7 @@ State-of-the-art modalities that restore the nervous system, accelerate recovery
 - Personalized protocols based on individual health data
 - Focus on what works, not what's trendy
 
-### Pillar 4: Trauma Integration and Nervous System Restoration
+### Segment 4: Trauma Integration and Nervous System Restoration
 The medicine opens doors; integration walks through them. Personalized support through facilitators, somatic therapies, and practices that anchor transformation in the body.
 
 - Polyvagal framework for nervous system regulation
@@ -233,7 +233,7 @@ The medicine opens doors; integration walks through them. Personalized support t
 - Breathwork and movement practices
 - Daily integration structure and group circles
 
-### Pillar 5: Five-Star Hospitality, Nutrition, Care, and Functional Fitness
+### Segment 5: Five-Star Hospitality, Nutrition, Care, and Functional Fitness
 A luxury retreat environment where every detail supports healing.
 
 - Private villas, 3:1 staff-to-guest ratio
@@ -242,16 +242,16 @@ A luxury retreat environment where every detail supports healing.
 - Daily therapeutic massage and functional fitness
 - Every detail says "you matter"
 
-### Pillar 6: Digital Ecosystem and Community Support
+### Segment 6: Digital Ecosystem and Community Support
 Technology that extends care beyond walls. Medical onboarding, preparation content, daily schedules, integration practices, and community connection—all in one cohesive platform powered by the AI Superintelligent System.
 
-### Pillar 7: Pre-Care (Preparation)
+### Segment 7: Pre-Care (Preparation)
 The foundation of transformation. 4-8 weeks of medical preparation, psychological readiness, nervous system priming, intention setting, and practical logistics. Preparation is not overhead—it determines the depth of what's possible.
 
-### Pillar 8: Post-Care (Integration)
+### Segment 8: Post-Care (Integration)
 Where transformation becomes embodiment. 3-12+ months of processing, understanding, anchoring, and living the changes. Coaching, community, practices, and support to ensure insights become lasting change.
 
-**Why this combination matters**: Each pillar amplifies the others. Medical oversight makes plant medicine safe enough for cautious high-achievers. Luxury environment supports nervous system healing. Technology accelerates recovery. Pre-care maximizes depth. Post-care ensures lasting change. The whole is greater than the sum of parts.
+**Why this combination matters**: Each segment amplifies the others. Medical oversight makes plant medicine safe enough for cautious high-achievers. Luxury environment supports nervous system healing. Technology accelerates recovery. Pre-care maximizes depth. Post-care ensures lasting change. The whole is greater than the sum of parts.
 
 ---
 
@@ -301,7 +301,7 @@ Where transformation becomes embodiment. 3-12+ months of processing, understandi
 
 ## AI Superintelligent System: The Intelligence Layer
 
-Transformational Epicenter is powered by a HIPAA-compliant AI Superintelligent System that functions as a centralized intelligence layer, weaving together all eight pillars into a personalized, adaptive experience for each guest.
+Transformational Epicenter is powered by a HIPAA-compliant AI Superintelligent System that functions as a centralized intelligence layer, weaving together all eight segments into a personalized, adaptive experience for each guest.
 
 ### How AI Weaves Everything Together
 
@@ -378,14 +378,14 @@ This allows Transformational Epicenter to deliver **adaptive, data-informed, and
 
 We've studied every major player. Here's why they won't follow us into this space:
 
-| Competitor Type | Why They Won't Integrate All Eight Pillars |
+| Competitor Type | Why They Won't Integrate All Four Pillars |
 |-----------------|-------------------------------------------|
 | **Medical Clinics** (Clinique La Prairie, SHA Wellness) | Won't touch plant medicine—too much brand and regulatory risk |
 | **Luxury Resorts** (Aman, Six Senses) | Don't have medical expertise or clinical infrastructure |
 | **Plant Medicine Centers** (Beond, Rythmia) | Can't attract luxury talent or afford medical infrastructure |
 | **Biohacking Centers** (Upgrade Labs, Restore) | Wrong business model—transactional, not transformational |
 
-**Our advantage**: We're building this from scratch with all eight pillars integrated from day one. You can't bolt this together after the fact.
+**Our advantage**: We're building this from scratch with all four pillars integrated from day one—operationalized through eight segments. You can't bolt this together after the fact.
 
 ---
 
@@ -419,7 +419,7 @@ We've studied every major player. Here's why they won't follow us into this spac
 
 Five layers of competitive defense:
 
-1. **First-Mover Advantage**: We're first to integrate all eight pillars in a legal jurisdiction with luxury infrastructure
+1. **First-Mover Advantage**: We're first to integrate all four pillars in a legal jurisdiction with luxury infrastructure
 2. **Talent Lock-Up**: Top physicians, hospitality leaders, and practitioners on long-term contracts
 3. **Brand & Reputation**: In this market, word-of-mouth among the wealthy is everything
 4. **Proprietary Protocols**: Our methods are documented, refined, and proven with outcome data
