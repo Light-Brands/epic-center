@@ -424,7 +424,7 @@ Nature and wellness themed images - macro shots of plants, landscapes, meditatio
 │   ├── location-hero.jpg
 │   ├── about-hero.jpg
 │   └── apply-hero.jpg
-├── /pillars/
+├── /segments/
 │   ├── pillar-medical.jpg
 │   ├── pillar-medicine.jpg
 │   ├── pillar-bio-optimization.jpg

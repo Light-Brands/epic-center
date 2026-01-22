@@ -1,4 +1,4 @@
-<[Home](../../README.md) | [Vision](../strategy/VISION.md) | [Pillars](../pillars/01_MEDICAL_OVERSIGHT.md) | [All Programs](../../README.md#programs)>
+<[Home](../../README.md) | [Vision](../strategy/VISION.md) | [Segments](../segments/01_MEDICAL_OVERSIGHT.md) | [All Programs](../../README.md#programs)>
 
 ---
 

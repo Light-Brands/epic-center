@@ -1,4 +1,4 @@
-<[README](../../README.md) | [Vision](../strategy/VISION.md) | [Master Plan](../strategy/MASTER_PLAN.md) | [Pillars](../pillars/01_MEDICAL_OVERSIGHT.md) | [Programs](../programs/PROGRAM_OVERVIEW.md) | [Architecture](../architecture/SYSTEM_OVERVIEW.md)>
+<[README](../../README.md) | [Vision](../strategy/VISION.md) | [Master Plan](../strategy/MASTER_PLAN.md) | [Segments](../segments/01_MEDICAL_OVERSIGHT.md) | [Programs](../programs/PROGRAM_OVERVIEW.md) | [Architecture](../architecture/SYSTEM_OVERVIEW.md)>
 
 ---
 

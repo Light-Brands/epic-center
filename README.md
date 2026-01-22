@@ -43,14 +43,14 @@
 
 | # | Pillar | Focus | Link |
 |---|--------|-------|------|
-| 1 | **Medical & Scientific Oversight** | Evidence-based care, safety screening, measurable outcomes | [View](./docs/pillars/01_MEDICAL_OVERSIGHT.md) |
-| 2 | **Plant Medicine** | Iboga & Ibogaine - medically supervised, trauma-informed ceremonies | [View](./docs/pillars/02_PLANT_MEDICINE.md) |
-| 3 | **Bio-Optimization** | State-of-the-art modalities for recovery and vitality | [View](./docs/pillars/03_BIO_OPTIMIZATION.md) |
-| 4 | **Trauma Integration** | Nervous system restoration and lasting change | [View](./docs/pillars/04_TRAUMA_INTEGRATION.md) |
-| 5 | **Hospitality & Fitness** | Luxury care enabling complete surrender to healing | [View](./docs/pillars/05_HOSPITALITY.md) |
-| 6 | **Digital Ecosystem** | AI Superintelligent System supporting the complete journey | [View](./docs/pillars/06_DIGITAL_ECOSYSTEM.md) |
-| 7 | **Pre-Care** | 4-8 weeks of preparation, safety, intention setting | [View](./docs/pillars/07_PRE_CARE.md) |
-| 8 | **Post-Care** | 3-12+ months of integration, community, longevity | [View](./docs/pillars/08_POST_CARE.md) |
+| 1 | **Medical & Scientific Oversight** | Evidence-based care, safety screening, measurable outcomes | [View](./docs/segments/01_MEDICAL_OVERSIGHT.md) |
+| 2 | **Plant Medicine** | Iboga & Ibogaine - medically supervised, trauma-informed ceremonies | [View](./docs/segments/02_PLANT_MEDICINE.md) |
+| 3 | **Bio-Optimization** | State-of-the-art modalities for recovery and vitality | [View](./docs/segments/03_BIO_OPTIMIZATION.md) |
+| 4 | **Trauma Integration** | Nervous system restoration and lasting change | [View](./docs/segments/04_TRAUMA_INTEGRATION.md) |
+| 5 | **Hospitality & Fitness** | Luxury care enabling complete surrender to healing | [View](./docs/segments/05_HOSPITALITY.md) |
+| 6 | **Digital Ecosystem** | AI Superintelligent System supporting the complete journey | [View](./docs/segments/06_DIGITAL_ECOSYSTEM.md) |
+| 7 | **Pre-Care** | 4-8 weeks of preparation, safety, intention setting | [View](./docs/segments/07_PRE_CARE.md) |
+| 8 | **Post-Care** | 3-12+ months of integration, community, longevity | [View](./docs/segments/08_POST_CARE.md) |
 
 ---
 
@@ -268,32 +268,32 @@ Each location will offer:
 | Admin README | [src/admin/README.md](./src/admin/README.md) |
 | API README | [src/api/README.md](./src/api/README.md) |
 | Architect Guide | [ARCHITECT.md](./ARCHITECT.md) |
-| Bio-Optimization | [docs/pillars/03_BIO_OPTIMIZATION.md](./docs/pillars/03_BIO_OPTIMIZATION.md) |
+| Bio-Optimization | [docs/segments/03_BIO_OPTIMIZATION.md](./docs/segments/03_BIO_OPTIMIZATION.md) |
 | Brand Guidelines | [design/brand/BRAND_GUIDELINES.md](./design/brand/BRAND_GUIDELINES.md) |
 | Content Checklist | [docs/pitch-packet/CONTENT_CHECKLIST.md](./docs/pitch-packet/CONTENT_CHECKLIST.md) |
 | Data Architecture | [docs/architecture/DATA_ARCHITECTURE.md](./docs/architecture/DATA_ARCHITECTURE.md) |
 | Design System | [design/DESIGN_SYSTEM.md](./design/DESIGN_SYSTEM.md) |
-| Digital Ecosystem | [docs/pillars/06_DIGITAL_ECOSYSTEM.md](./docs/pillars/06_DIGITAL_ECOSYSTEM.md) |
+| Digital Ecosystem | [docs/segments/06_DIGITAL_ECOSYSTEM.md](./docs/segments/06_DIGITAL_ECOSYSTEM.md) |
 | Digital Pitch Packet | [docs/DIGITAL_PITCH_PACKET.md](./docs/DIGITAL_PITCH_PACKET.md) |
 | Financial Model Guide | [docs/pitch-packet/FINANCIAL_MODEL_GUIDE.md](./docs/pitch-packet/FINANCIAL_MODEL_GUIDE.md) |
-| Hospitality & Fitness | [docs/pillars/05_HOSPITALITY.md](./docs/pillars/05_HOSPITALITY.md) |
+| Hospitality & Fitness | [docs/segments/05_HOSPITALITY.md](./docs/segments/05_HOSPITALITY.md) |
 | Infrastructure | [docs/architecture/INFRASTRUCTURE.md](./docs/architecture/INFRASTRUCTURE.md) |
 | Integration Map | [docs/architecture/INTEGRATION_MAP.md](./docs/architecture/INTEGRATION_MAP.md) |
 | Investor Portal Spec | [docs/pitch-packet/INVESTOR_PORTAL_SPEC.md](./docs/pitch-packet/INVESTOR_PORTAL_SPEC.md) |
 | Market Research | [docs/MARKET_RESEARCH.md](./docs/MARKET_RESEARCH.md) |
 | Master Plan | [docs/MASTER_PLAN.md](./docs/MASTER_PLAN.md) |
-| Medical Oversight | [docs/pillars/01_MEDICAL_OVERSIGHT.md](./docs/pillars/01_MEDICAL_OVERSIGHT.md) |
+| Medical Oversight | [docs/segments/01_MEDICAL_OVERSIGHT.md](./docs/segments/01_MEDICAL_OVERSIGHT.md) |
 | Mobile README | [src/mobile/README.md](./src/mobile/README.md) |
-| Plant Medicine | [docs/pillars/02_PLANT_MEDICINE.md](./docs/pillars/02_PLANT_MEDICINE.md) |
-| Post-Care | [docs/pillars/08_POST_CARE.md](./docs/pillars/08_POST_CARE.md) |
-| Pre-Care | [docs/pillars/07_PRE_CARE.md](./docs/pillars/07_PRE_CARE.md) |
+| Plant Medicine | [docs/segments/02_PLANT_MEDICINE.md](./docs/segments/02_PLANT_MEDICINE.md) |
+| Post-Care | [docs/segments/08_POST_CARE.md](./docs/segments/08_POST_CARE.md) |
+| Pre-Care | [docs/segments/07_PRE_CARE.md](./docs/segments/07_PRE_CARE.md) |
 | Program Overview | [docs/programs/PROGRAM_OVERVIEW.md](./docs/programs/PROGRAM_OVERVIEW.md) |
 | Quick Start (Pitch) | [docs/pitch-packet/QUICK_START.md](./docs/pitch-packet/QUICK_START.md) |
 | Security & Compliance | [docs/architecture/SECURITY_COMPLIANCE.md](./docs/architecture/SECURITY_COMPLIANCE.md) |
 | Shared README | [src/shared/README.md](./src/shared/README.md) |
 | Source README | [src/README.md](./src/README.md) |
 | System Overview | [docs/architecture/SYSTEM_OVERVIEW.md](./docs/architecture/SYSTEM_OVERVIEW.md) |
-| Trauma Integration | [docs/pillars/04_TRAUMA_INTEGRATION.md](./docs/pillars/04_TRAUMA_INTEGRATION.md) |
+| Trauma Integration | [docs/segments/04_TRAUMA_INTEGRATION.md](./docs/segments/04_TRAUMA_INTEGRATION.md) |
 | Vision | [docs/VISION.md](./docs/VISION.md) |
 | Web README | [src/web/README.md](./src/web/README.md) |
 
