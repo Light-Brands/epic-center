@@ -843,6 +843,315 @@
       letter-spacing: 0.1em;
       text-transform: uppercase;
     }
+
+    /* ================================================
+       MODAL POPUP STYLES
+       ================================================ */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 10001;
+      background: rgba(21, 44, 44, 0.9);
+      backdrop-filter: blur(8px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: var(--space-6);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+
+    .modal-overlay.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .modal {
+      background: white;
+      border-radius: var(--radius-2xl);
+      max-width: 700px;
+      width: 100%;
+      max-height: 85vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transform: scale(0.9) translateY(20px);
+      transition: transform 0.3s var(--ease-out);
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+    }
+
+    .modal-overlay.active .modal {
+      transform: scale(1) translateY(0);
+    }
+
+    .modal--dark {
+      background: linear-gradient(180deg, var(--primary-800) 0%, var(--primary-900) 100%);
+      color: var(--neutral-100);
+    }
+
+    .modal__header {
+      padding: var(--space-8) var(--space-8) var(--space-6);
+      border-bottom: 1px solid var(--neutral-200);
+      position: relative;
+    }
+
+    .modal--dark .modal__header {
+      border-bottom-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .modal__close {
+      position: absolute;
+      top: var(--space-4);
+      right: var(--space-4);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: var(--neutral-100);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all var(--transition-fast);
+      cursor: pointer;
+    }
+
+    .modal__close:hover {
+      background: var(--neutral-200);
+      transform: rotate(90deg);
+    }
+
+    .modal--dark .modal__close {
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--neutral-100);
+    }
+
+    .modal--dark .modal__close:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .modal__close svg {
+      width: 20px;
+      height: 20px;
+      color: var(--neutral-600);
+    }
+
+    .modal--dark .modal__close svg {
+      color: var(--neutral-200);
+    }
+
+    .modal__eyebrow {
+      font-family: var(--font-accent);
+      font-size: var(--text-xs);
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--secondary-500);
+      margin-bottom: var(--space-2);
+    }
+
+    .modal__title {
+      font-family: var(--font-heading);
+      font-size: var(--text-3xl);
+      color: var(--primary-800);
+      margin-bottom: 0;
+    }
+
+    .modal--dark .modal__title {
+      color: var(--neutral-50);
+    }
+
+    .modal__body {
+      padding: var(--space-8);
+      overflow-y: auto;
+      flex: 1;
+    }
+
+    .modal__lead {
+      font-size: var(--text-lg);
+      color: var(--neutral-600);
+      line-height: 1.7;
+      margin-bottom: var(--space-6);
+    }
+
+    .modal--dark .modal__lead {
+      color: var(--neutral-300);
+    }
+
+    .modal__section {
+      margin-bottom: var(--space-6);
+    }
+
+    .modal__section:last-child {
+      margin-bottom: 0;
+    }
+
+    .modal__section-title {
+      font-family: var(--font-accent);
+      font-size: var(--text-sm);
+      font-weight: 600;
+      color: var(--primary-800);
+      margin-bottom: var(--space-3);
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+    }
+
+    .modal--dark .modal__section-title {
+      color: var(--secondary-400);
+    }
+
+    .modal__list {
+      display: grid;
+      gap: var(--space-3);
+    }
+
+    .modal__list-item {
+      display: flex;
+      gap: var(--space-3);
+      align-items: flex-start;
+      font-size: var(--text-base);
+      color: var(--neutral-700);
+    }
+
+    .modal--dark .modal__list-item {
+      color: var(--neutral-300);
+    }
+
+    .modal__list-item::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      background: var(--secondary-400);
+      border-radius: 50%;
+      margin-top: 8px;
+      flex-shrink: 0;
+    }
+
+    .modal__stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--space-4);
+      background: var(--neutral-100);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5);
+    }
+
+    .modal--dark .modal__stats {
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .modal__stat {
+      text-align: center;
+    }
+
+    .modal__stat-value {
+      font-family: var(--font-heading);
+      font-size: var(--text-2xl);
+      color: var(--primary-800);
+      line-height: 1;
+      margin-bottom: var(--space-1);
+    }
+
+    .modal--dark .modal__stat-value {
+      color: var(--secondary-400);
+    }
+
+    .modal__stat-label {
+      font-size: var(--text-xs);
+      color: var(--neutral-500);
+    }
+
+    .modal--dark .modal__stat-label {
+      color: var(--neutral-400);
+    }
+
+    .modal__highlight {
+      background: linear-gradient(135deg, var(--secondary-50) 0%, var(--secondary-100) 100%);
+      border-left: 4px solid var(--secondary-400);
+      border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+      padding: var(--space-5);
+      margin: var(--space-6) 0;
+    }
+
+    .modal--dark .modal__highlight {
+      background: rgba(196, 169, 98, 0.1);
+    }
+
+    .modal__highlight p {
+      margin-bottom: 0;
+      font-style: italic;
+      color: var(--primary-700);
+    }
+
+    .modal--dark .modal__highlight p {
+      color: var(--neutral-200);
+    }
+
+    .modal__footer {
+      padding: var(--space-6) var(--space-8);
+      border-top: 1px solid var(--neutral-200);
+      background: var(--neutral-50);
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .modal--dark .modal__footer {
+      border-top-color: rgba(255, 255, 255, 0.1);
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    /* Clickable card indicator */
+    .clickable-card {
+      cursor: pointer;
+      position: relative;
+    }
+
+    .clickable-card::after {
+      content: 'Click for details';
+      position: absolute;
+      bottom: var(--space-3);
+      right: var(--space-3);
+      font-family: var(--font-accent);
+      font-size: var(--text-xs);
+      color: var(--secondary-500);
+      opacity: 0;
+      transform: translateY(4px);
+      transition: all var(--transition-fast);
+    }
+
+    .clickable-card:hover::after {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .segment-card.clickable-card::after,
+    .moat-item.clickable-card::after {
+      color: var(--secondary-400);
+    }
+
+    /* Mobile modal adjustments */
+    @media (max-width: 640px) {
+      .modal {
+        max-height: 90vh;
+        border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+        margin-top: auto;
+      }
+
+      .modal__header {
+        padding: var(--space-6);
+      }
+
+      .modal__body {
+        padding: var(--space-6);
+      }
+
+      .modal__stats {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
 <body>
@@ -940,22 +1249,22 @@
         </div>
 
         <div class="market-cards">
-          <div class="market-card">
+          <div class="market-card clickable-card" data-modal="market-medical">
             <div class="market-card__size">$27-33B</div>
             <div class="market-card__label">Medical & Longevity Clinics</div>
             <span class="market-card__growth">12-15% annual growth</span>
           </div>
-          <div class="market-card">
+          <div class="market-card clickable-card" data-modal="market-hospitality">
             <div class="market-card__size">$850B-1.1T</div>
             <div class="market-card__label">Luxury Wellness Hospitality</div>
             <span class="market-card__growth">7-10% annual growth</span>
           </div>
-          <div class="market-card">
+          <div class="market-card clickable-card" data-modal="market-biohacking">
             <div class="market-card__size">$24-33B</div>
             <div class="market-card__label">Biohacking & Performance</div>
             <span class="market-card__growth">18-22% annual growth</span>
           </div>
-          <div class="market-card">
+          <div class="market-card clickable-card" data-modal="market-plant">
             <div class="market-card__size">$3-5B</div>
             <div class="market-card__label">Plant Medicine & Psychedelics</div>
             <span class="market-card__growth">15-20% annual growth</span>
@@ -1021,42 +1330,42 @@
         </div>
 
         <div class="segment-grid">
-          <div class="segment-card">
+          <div class="segment-card clickable-card" data-modal="segment-medical">
             <span class="segment-card__number">01</span>
             <h4 class="segment-card__title">Medical & Scientific Oversight</h4>
             <p class="segment-card__text">Full medical team 24/7. Hospital-grade protocols. Measurable outcomes.</p>
           </div>
-          <div class="segment-card">
+          <div class="segment-card clickable-card" data-modal="segment-plant">
             <span class="segment-card__number">02</span>
             <h4 class="segment-card__title">Plant Medicine</h4>
             <p class="segment-card__text">Iboga & Ibogaine with cardiac screening, physician presence, sacred context.</p>
           </div>
-          <div class="segment-card">
+          <div class="segment-card clickable-card" data-modal="segment-bio">
             <span class="segment-card__number">03</span>
             <h4 class="segment-card__title">Bio-Optimization & Longevity</h4>
             <p class="segment-card__text">Hyperbaric oxygen, IV therapy, cryotherapy, neurofeedback, light therapy.</p>
           </div>
-          <div class="segment-card">
+          <div class="segment-card clickable-card" data-modal="segment-trauma">
             <span class="segment-card__number">04</span>
             <h4 class="segment-card__title">Trauma Integration</h4>
             <p class="segment-card__text">Somatic Experiencing, EMDR, breathwork, polyvagal framework, parts work.</p>
           </div>
-          <div class="segment-card">
+          <div class="segment-card clickable-card" data-modal="segment-hospitality">
             <span class="segment-card__number">05</span>
             <h4 class="segment-card__title">Five-Star Hospitality</h4>
             <p class="segment-card__text">Private villas, 3:1 staff ratio, Michelin-quality cuisine, daily massage.</p>
           </div>
-          <div class="segment-card">
+          <div class="segment-card clickable-card" data-modal="segment-digital">
             <span class="segment-card__number">06</span>
             <h4 class="segment-card__title">Digital Ecosystem</h4>
             <p class="segment-card__text">AI-powered platform for onboarding, scheduling, integration, community.</p>
           </div>
-          <div class="segment-card">
+          <div class="segment-card clickable-card" data-modal="segment-precare">
             <span class="segment-card__number">07</span>
             <h4 class="segment-card__title">Pre-Care</h4>
             <p class="segment-card__text">4-8 weeks of medical screening, nervous system priming, intention setting.</p>
           </div>
-          <div class="segment-card">
+          <div class="segment-card clickable-card" data-modal="segment-postcare">
             <span class="segment-card__number">08</span>
             <h4 class="segment-card__title">Post-Care</h4>
             <p class="segment-card__text">3-12+ months of coaching, community, practices, and lifestyle integration.</p>
@@ -1074,7 +1383,7 @@
         </div>
 
         <div class="transformation-grid">
-          <div class="transformation-item">
+          <div class="transformation-item clickable-card" data-modal="transform-nervous">
             <span class="transformation-item__from">Nervous system dysregulation</span>
             <div class="transformation-item__arrow">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1083,7 +1392,7 @@
             </div>
             <span class="transformation-item__to">Nervous system coherence</span>
           </div>
-          <div class="transformation-item">
+          <div class="transformation-item clickable-card" data-modal="transform-trauma">
             <span class="transformation-item__from">Unprocessed trauma</span>
             <div class="transformation-item__arrow">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1092,7 +1401,7 @@
             </div>
             <span class="transformation-item__to">Integrated experience</span>
           </div>
-          <div class="transformation-item">
+          <div class="transformation-item clickable-card" data-modal="transform-body">
             <span class="transformation-item__from">Disconnection from body</span>
             <div class="transformation-item__arrow">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1101,7 +1410,7 @@
             </div>
             <span class="transformation-item__to">Embodied presence</span>
           </div>
-          <div class="transformation-item">
+          <div class="transformation-item clickable-card" data-modal="transform-stress">
             <span class="transformation-item__from">Chronic stress & anxiety</span>
             <div class="transformation-item__arrow">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1110,7 +1419,7 @@
             </div>
             <span class="transformation-item__to">Calm, grounded resilience</span>
           </div>
-          <div class="transformation-item">
+          <div class="transformation-item clickable-card" data-modal="transform-identity">
             <span class="transformation-item__from">Identity fragmentation</span>
             <div class="transformation-item__arrow">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1119,7 +1428,7 @@
             </div>
             <span class="transformation-item__to">Coherent sense of self</span>
           </div>
-          <div class="transformation-item">
+          <div class="transformation-item clickable-card" data-modal="transform-purpose">
             <span class="transformation-item__from">Lost purpose</span>
             <div class="transformation-item__arrow">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1154,7 +1463,7 @@
           </div>
 
           <div class="guest-types">
-            <div class="guest-type">
+            <div class="guest-type clickable-card" data-modal="guest-executives">
               <div class="guest-type__icon">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--secondary-600)" stroke-width="2">
                   <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
@@ -1166,7 +1475,7 @@
                 <p class="guest-type__text">Carrying the weight of constant performance</p>
               </div>
             </div>
-            <div class="guest-type">
+            <div class="guest-type clickable-card" data-modal="guest-healthcare">
               <div class="guest-type__icon">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--secondary-600)" stroke-width="2">
                   <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
@@ -1177,7 +1486,7 @@
                 <p class="guest-type__text">Who have given so much they've depleted themselves</p>
               </div>
             </div>
-            <div class="guest-type">
+            <div class="guest-type clickable-card" data-modal="guest-seekers">
               <div class="guest-type__icon">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--secondary-600)" stroke-width="2">
                   <circle cx="12" cy="12" r="10"/>
@@ -1190,7 +1499,7 @@
                 <p class="guest-type__text">Who have tried many modalities but haven't found the breakthrough</p>
               </div>
             </div>
-            <div class="guest-type">
+            <div class="guest-type clickable-card" data-modal="guest-trauma">
               <div class="guest-type__icon">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--secondary-600)" stroke-width="2">
                   <path d="M12 2L2 7l10 5 10-5-10-5z"/>
@@ -1307,27 +1616,27 @@
         </div>
 
         <div class="moat-grid">
-          <div class="moat-item">
+          <div class="moat-item clickable-card" data-modal="moat-first">
             <div class="moat-item__number">1</div>
             <h4 class="moat-item__title">First-Mover</h4>
             <p class="moat-item__text">First to integrate all four pillars in a legal jurisdiction with luxury infrastructure</p>
           </div>
-          <div class="moat-item">
+          <div class="moat-item clickable-card" data-modal="moat-talent">
             <div class="moat-item__number">2</div>
             <h4 class="moat-item__title">Talent Lock-Up</h4>
             <p class="moat-item__text">Top physicians, hospitality leaders, and practitioners on long-term contracts</p>
           </div>
-          <div class="moat-item">
+          <div class="moat-item clickable-card" data-modal="moat-brand">
             <div class="moat-item__number">3</div>
             <h4 class="moat-item__title">Brand & Reputation</h4>
             <p class="moat-item__text">Word-of-mouth among the wealthy is everything in this market</p>
           </div>
-          <div class="moat-item">
+          <div class="moat-item clickable-card" data-modal="moat-protocols">
             <div class="moat-item__number">4</div>
             <h4 class="moat-item__title">Proprietary Protocols</h4>
             <p class="moat-item__text">Documented, refined methods proven with outcome data</p>
           </div>
-          <div class="moat-item">
+          <div class="moat-item clickable-card" data-modal="moat-network">
             <div class="moat-item__number">5</div>
             <h4 class="moat-item__title">Network Effects</h4>
             <p class="moat-item__text">Alumni community creates referrals and loyalty that compounds</p>
@@ -1345,28 +1654,28 @@
         </div>
 
         <div class="vision-timeline">
-          <div class="vision-phase">
+          <div class="vision-phase clickable-card" data-modal="vision-y1">
             <div class="vision-phase__marker">
               <span class="vision-phase__year">Y1</span>
             </div>
             <h4 class="vision-phase__title">Foundation</h4>
             <p class="vision-phase__text">Launch first location in Mexico. Establish protocols. Build digital platform MVP.</p>
           </div>
-          <div class="vision-phase">
+          <div class="vision-phase clickable-card" data-modal="vision-y2">
             <div class="vision-phase__marker">
               <span class="vision-phase__year">Y2</span>
             </div>
             <h4 class="vision-phase__title">Optimization</h4>
             <p class="vision-phase__text">Refine protocols with outcomes data. Build international reputation. Expansion playbook.</p>
           </div>
-          <div class="vision-phase">
+          <div class="vision-phase clickable-card" data-modal="vision-y3">
             <div class="vision-phase__marker">
               <span class="vision-phase__year">Y3</span>
             </div>
             <h4 class="vision-phase__title">Expansion</h4>
             <p class="vision-phase__text">Launch locations in Europe & Asia-Pacific. Licensing model. Training academy.</p>
           </div>
-          <div class="vision-phase">
+          <div class="vision-phase clickable-card" data-modal="vision-y4">
             <div class="vision-phase__marker">
               <span class="vision-phase__year">Y4-10</span>
             </div>
@@ -1432,22 +1741,22 @@
         </div>
 
         <div class="next-steps-grid">
-          <div class="next-step">
+          <div class="next-step clickable-card" data-modal="step-capital">
             <div class="next-step__number">1</div>
             <h4 class="next-step__title">Capital Raise</h4>
             <p class="next-step__text">Finalize investor presentation and begin capital discussions</p>
           </div>
-          <div class="next-step">
+          <div class="next-step clickable-card" data-modal="step-site">
             <div class="next-step__number">2</div>
             <h4 class="next-step__title">Site Selection</h4>
             <p class="next-step__text">Conduct site visits to top 3 locations in Quintana Roo</p>
           </div>
-          <div class="next-step">
+          <div class="next-step clickable-card" data-modal="step-leadership">
             <div class="next-step__number">3</div>
             <h4 class="next-step__title">Leadership Team</h4>
             <p class="next-step__text">Engage term sheets with CEO, CMO, and Medical Director candidates</p>
           </div>
-          <div class="next-step">
+          <div class="next-step clickable-card" data-modal="step-design">
             <div class="next-step__number">4</div>
             <h4 class="next-step__title">Concept Design</h4>
             <p class="next-step__text">Retain architecture firm for concept development</p>
@@ -1486,6 +1795,24 @@
       </div>
     </section>
 
+  </div>
+
+  <!-- Modal Overlay -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="modal">
+      <div class="modal__header">
+        <button class="modal__close" id="modalClose">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 6L6 18M6 6l12 12"/>
+          </svg>
+        </button>
+        <p class="modal__eyebrow" id="modalEyebrow"></p>
+        <h2 class="modal__title" id="modalTitle"></h2>
+      </div>
+      <div class="modal__body" id="modalBody">
+        <!-- Dynamic content inserted here -->
+      </div>
+    </div>
   </div>
 
   <!-- Combo Lock JavaScript -->
@@ -1589,6 +1916,1369 @@
       if (!sessionStorage.getItem('previewUnlocked')) {
         document.body.style.overflow = 'hidden';
       }
+    })();
+
+    // ================================================
+    // MODAL FUNCTIONALITY
+    // ================================================
+    (function() {
+      const modalOverlay = document.getElementById('modalOverlay');
+      const modal = document.getElementById('modal');
+      const modalClose = document.getElementById('modalClose');
+      const modalEyebrow = document.getElementById('modalEyebrow');
+      const modalTitle = document.getElementById('modalTitle');
+      const modalBody = document.getElementById('modalBody');
+
+      // Modal content data
+      const modalContent = {
+        // Market Segments
+        'market-medical': {
+          eyebrow: 'Market Segment',
+          title: 'Medical & Longevity Clinics',
+          dark: false,
+          content: `
+            <p class="modal__lead">The medical longevity market represents a rapidly growing sector driven by aging populations and increasing interest in preventive healthcare among affluent individuals.</p>
+            <div class="modal__stats">
+              <div class="modal__stat">
+                <div class="modal__stat-value">$27-33B</div>
+                <div class="modal__stat-label">Market Size</div>
+              </div>
+              <div class="modal__stat">
+                <div class="modal__stat-value">12-15%</div>
+                <div class="modal__stat-label">Annual Growth</div>
+              </div>
+              <div class="modal__stat">
+                <div class="modal__stat-value">2030</div>
+                <div class="modal__stat-label">Projected Peak</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Key Players</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Clinique La Prairie (Switzerland) - $50,000+ programs</div>
+                <div class="modal__list-item">SHA Wellness Clinic (Spain) - Medical spa leader</div>
+                <div class="modal__list-item">Lanserhof (Germany/Austria) - Mayr method specialists</div>
+                <div class="modal__list-item">Canyon Ranch (USA) - Wellness resort pioneer</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Why This Matters</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">High-net-worth individuals prioritize health optimization</div>
+                <div class="modal__list-item">Existing players lack plant medicine integration</div>
+                <div class="modal__list-item">Strong demand for measurable outcomes and data</div>
+                <div class="modal__list-item">Premium pricing accepted for genuine results</div>
+              </div>
+            </div>
+            <div class="modal__highlight">
+              <p>"Medical clinics won't touch plant medicine due to regulatory and brand risk—creating our opportunity."</p>
+            </div>
+          `
+        },
+        'market-hospitality': {
+          eyebrow: 'Market Segment',
+          title: 'Luxury Wellness Hospitality',
+          dark: false,
+          content: `
+            <p class="modal__lead">The luxury wellness hospitality sector represents the largest market opportunity, encompassing high-end resorts with wellness programming.</p>
+            <div class="modal__stats">
+              <div class="modal__stat">
+                <div class="modal__stat-value">$850B-1.1T</div>
+                <div class="modal__stat-label">Market Size</div>
+              </div>
+              <div class="modal__stat">
+                <div class="modal__stat-value">7-10%</div>
+                <div class="modal__stat-label">Annual Growth</div>
+              </div>
+              <div class="modal__stat">
+                <div class="modal__stat-value">$1,500+</div>
+                <div class="modal__stat-label">Avg. Night Rate</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Key Players</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Aman Resorts - Ultra-luxury wellness integration</div>
+                <div class="modal__list-item">Six Senses - Sustainability + wellness positioning</div>
+                <div class="modal__list-item">Four Seasons - Premium brand entering wellness</div>
+                <div class="modal__list-item">Como Hotels - Holistic wellness focus</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">The Gap We Fill</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Beautiful properties but surface-level wellness</div>
+                <div class="modal__list-item">Lack of medical oversight or clinical infrastructure</div>
+                <div class="modal__list-item">Cannot offer transformational experiences</div>
+                <div class="modal__list-item">Focus on relaxation, not deep change</div>
+              </div>
+            </div>
+            <div class="modal__highlight">
+              <p>"Luxury resorts excel at hospitality but cannot pivot to medical—they lack the expertise and infrastructure."</p>
+            </div>
+          `
+        },
+        'market-biohacking': {
+          eyebrow: 'Market Segment',
+          title: 'Biohacking & Performance',
+          dark: false,
+          content: `
+            <p class="modal__lead">The fastest-growing segment, driven by tech entrepreneurs, executives, and athletes seeking cognitive and physical optimization.</p>
+            <div class="modal__stats">
+              <div class="modal__stat">
+                <div class="modal__stat-value">$24-33B</div>
+                <div class="modal__stat-label">Market Size</div>
+              </div>
+              <div class="modal__stat">
+                <div class="modal__stat-value">18-22%</div>
+                <div class="modal__stat-label">Annual Growth</div>
+              </div>
+              <div class="modal__stat">
+                <div class="modal__stat-value">$500-2K</div>
+                <div class="modal__stat-label">Per Session</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Technologies & Modalities</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Hyperbaric oxygen therapy (HBOT)</div>
+                <div class="modal__list-item">Cryotherapy and cold plunge protocols</div>
+                <div class="modal__list-item">IV therapy and peptide treatments</div>
+                <div class="modal__list-item">Neurofeedback and brain optimization</div>
+                <div class="modal__list-item">Red light and photobiomodulation</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Key Players</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Upgrade Labs (Dave Asprey) - Franchising model</div>
+                <div class="modal__list-item">Restore Hyper Wellness - Rapid expansion</div>
+                <div class="modal__list-item">Next Health - Medical integration attempt</div>
+              </div>
+            </div>
+            <div class="modal__highlight">
+              <p>"Biohacking centers are transactional—quick visits, no continuity. We offer immersive, transformational stays."</p>
+            </div>
+          `
+        },
+        'market-plant': {
+          eyebrow: 'Market Segment',
+          title: 'Plant Medicine & Psychedelics',
+          dark: false,
+          content: `
+            <p class="modal__lead">An emerging category experiencing explosive growth as legal frameworks evolve and mainstream acceptance increases.</p>
+            <div class="modal__stats">
+              <div class="modal__stat">
+                <div class="modal__stat-value">$3-5B</div>
+                <div class="modal__stat-label">Market Size</div>
+              </div>
+              <div class="modal__stat">
+                <div class="modal__stat-value">15-20%</div>
+                <div class="modal__stat-label">Annual Growth</div>
+              </div>
+              <div class="modal__stat">
+                <div class="modal__stat-value">$8-25K</div>
+                <div class="modal__stat-label">Program Range</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Current Landscape</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Beond (Netherlands) - Ibogaine for addiction</div>
+                <div class="modal__list-item">Rythmia (Costa Rica) - Ayahuasca resort</div>
+                <div class="modal__list-item">Soltara (Costa Rica) - Shipibo tradition</div>
+                <div class="modal__list-item">Various ketamine clinics (USA) - Limited scope</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Critical Gaps We Address</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Most centers lack proper medical oversight</div>
+                <div class="modal__list-item">Poor cardiac screening and emergency protocols</div>
+                <div class="modal__list-item">Minimal integration support post-experience</div>
+                <div class="modal__list-item">Spartan accommodations, not luxury</div>
+                <div class="modal__list-item">No bio-optimization or longevity component</div>
+              </div>
+            </div>
+            <div class="modal__highlight">
+              <p>"Plant medicine centers can't afford luxury infrastructure or attract top medical talent—we can."</p>
+            </div>
+          `
+        },
+
+        // Segments
+        'segment-medical': {
+          eyebrow: 'Segment 01',
+          title: 'Medical & Scientific Oversight',
+          dark: true,
+          content: `
+            <p class="modal__lead">Hospital-grade medical care woven seamlessly into the experience—invisible unless needed, always present.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Medical Team</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Board-certified Medical Director (full-time)</div>
+                <div class="modal__list-item">Cardiologist for pre-screening and monitoring</div>
+                <div class="modal__list-item">Emergency medicine physician on-call 24/7</div>
+                <div class="modal__list-item">Psychiatric consultation available</div>
+                <div class="modal__list-item">Nursing staff with ICU experience</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Protocols & Equipment</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Full cardiac monitoring during plant medicine sessions</div>
+                <div class="modal__list-item">12-lead EKG capability on-site</div>
+                <div class="modal__list-item">Emergency resuscitation equipment</div>
+                <div class="modal__list-item">Direct line to hospital (15 min away)</div>
+                <div class="modal__list-item">Comprehensive lab work and biomarker tracking</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Measurable Outcomes</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Pre/post biomarker comparison</div>
+                <div class="modal__list-item">HRV and nervous system metrics</div>
+                <div class="modal__list-item">Sleep quality data</div>
+                <div class="modal__list-item">Cognitive assessment scores</div>
+                <div class="modal__list-item">Long-term outcome tracking at 3/6/12 months</div>
+              </div>
+            </div>
+          `
+        },
+        'segment-plant': {
+          eyebrow: 'Segment 02',
+          title: 'Plant Medicine',
+          dark: true,
+          content: `
+            <p class="modal__lead">Sacred plant medicine experiences held in the safest possible container—medical rigor meets ancient wisdom.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Primary Modalities</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Ibogaine - For deep neurological reset and addiction interruption</div>
+                <div class="modal__list-item">Iboga - For spiritual connection and life review</div>
+                <div class="modal__list-item">5-MeO-DMT - For ego dissolution and unity experiences</div>
+                <div class="modal__list-item">Psilocybin - For emotional processing (where legal)</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Safety Protocols</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Mandatory cardiac screening (EKG, echocardiogram if indicated)</div>
+                <div class="modal__list-item">Drug interaction screening and washout period</div>
+                <div class="modal__list-item">Physician present during all flood doses</div>
+                <div class="modal__list-item">Continuous vital sign monitoring</div>
+                <div class="modal__list-item">QTc interval monitoring for ibogaine</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">The Container</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Purpose-built ceremony spaces</div>
+                <div class="modal__list-item">Trained facilitators with 1,000+ hours experience</div>
+                <div class="modal__list-item">Integration support before, during, and after</div>
+                <div class="modal__list-item">Respect for indigenous traditions and lineages</div>
+              </div>
+            </div>
+          `
+        },
+        'segment-bio': {
+          eyebrow: 'Segment 03',
+          title: 'Bio-Optimization & Longevity',
+          dark: true,
+          content: `
+            <p class="modal__lead">Cutting-edge technologies to optimize cellular function, accelerate recovery, and extend healthspan.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Core Technologies</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Hyperbaric Oxygen Therapy (HBOT) - 1.5-2.0 ATA chambers</div>
+                <div class="modal__list-item">Cryotherapy - Whole body and localized</div>
+                <div class="modal__list-item">IV Therapy - NAD+, glutathione, Myers cocktails</div>
+                <div class="modal__list-item">Red Light Therapy - Full body panels</div>
+                <div class="modal__list-item">PEMF - Pulsed electromagnetic field therapy</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Neurotechnology</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Neurofeedback training (40 Hz gamma protocols)</div>
+                <div class="modal__list-item">Brain mapping and optimization</div>
+                <div class="modal__list-item">Transcranial stimulation (tDCS/tACS)</div>
+                <div class="modal__list-item">Float tanks for deep theta states</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Synergy with Plant Medicine</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">HBOT before and after enhances neuroplasticity</div>
+                <div class="modal__list-item">Cold exposure supports nervous system regulation</div>
+                <div class="modal__list-item">IV support optimizes recovery and integration</div>
+                <div class="modal__list-item">Neurofeedback helps stabilize post-experience gains</div>
+              </div>
+            </div>
+          `
+        },
+        'segment-trauma': {
+          eyebrow: 'Segment 04',
+          title: 'Trauma Integration',
+          dark: true,
+          content: `
+            <p class="modal__lead">Evidence-based therapeutic approaches to help process and integrate what arises during the journey.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Therapeutic Modalities</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Somatic Experiencing (Peter Levine methodology)</div>
+                <div class="modal__list-item">EMDR - Eye Movement Desensitization and Reprocessing</div>
+                <div class="modal__list-item">IFS - Internal Family Systems / Parts Work</div>
+                <div class="modal__list-item">Polyvagal-informed approaches</div>
+                <div class="modal__list-item">Attachment-focused therapy</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Body-Based Practices</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Breathwork (Holotropic, Wim Hof, coherence)</div>
+                <div class="modal__list-item">Trauma-sensitive yoga</div>
+                <div class="modal__list-item">Nervous system regulation exercises</div>
+                <div class="modal__list-item">Movement and dance therapy</div>
+                <div class="modal__list-item">Bodywork and craniosacral therapy</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Why Integration Matters</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Plant medicine opens doors—integration walks through them</div>
+                <div class="modal__list-item">Without support, insights fade within weeks</div>
+                <div class="modal__list-item">Proper integration creates lasting neural pathways</div>
+                <div class="modal__list-item">Our approach: 60% of value comes from integration work</div>
+              </div>
+            </div>
+          `
+        },
+        'segment-hospitality': {
+          eyebrow: 'Segment 05',
+          title: 'Five-Star Hospitality',
+          dark: true,
+          content: `
+            <p class="modal__lead">Luxury that serves transformation—every detail designed to support the journey, not distract from it.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Accommodations</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Private villas with ocean/jungle views</div>
+                <div class="modal__list-item">1,500+ sq ft per guest suite</div>
+                <div class="modal__list-item">Outdoor showers and private gardens</div>
+                <div class="modal__list-item">Blackout capability for deep rest</div>
+                <div class="modal__list-item">Circadian lighting systems</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Service Excellence</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">3:1 staff-to-guest ratio</div>
+                <div class="modal__list-item">Dedicated personal concierge</div>
+                <div class="modal__list-item">24/7 room service and support</div>
+                <div class="modal__list-item">Discreet, trauma-informed service training</div>
+                <div class="modal__list-item">Staff understand the journey deeply</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Nourishment</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Michelin-quality executive chef</div>
+                <div class="modal__list-item">Personalized nutrition protocols</div>
+                <div class="modal__list-item">Organic, local, mostly plant-based</div>
+                <div class="modal__list-item">Ceremonial diets honored with delicious food</div>
+                <div class="modal__list-item">Daily massage and bodywork included</div>
+              </div>
+            </div>
+          `
+        },
+        'segment-digital': {
+          eyebrow: 'Segment 06',
+          title: 'Digital Ecosystem',
+          dark: true,
+          content: `
+            <p class="modal__lead">An AI-powered platform that extends the experience before, during, and long after the stay.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Pre-Arrival Platform</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Secure onboarding portal</div>
+                <div class="modal__list-item">Medical history intake and screening</div>
+                <div class="modal__list-item">Intention-setting modules</div>
+                <div class="modal__list-item">Preparatory content and education</div>
+                <div class="modal__list-item">Scheduling and logistics coordination</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">On-Site Technology</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Wearable integration (Oura, Whoop, Apple Watch)</div>
+                <div class="modal__list-item">Real-time biomarker dashboards</div>
+                <div class="modal__list-item">Digital journaling with voice transcription</div>
+                <div class="modal__list-item">Session scheduling and tracking</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Post-Stay Platform</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Integration coaching scheduling</div>
+                <div class="modal__list-item">Practice library and guided meditations</div>
+                <div class="modal__list-item">Alumni community and peer support</div>
+                <div class="modal__list-item">Long-term outcome tracking</div>
+                <div class="modal__list-item">Return visit planning and loyalty program</div>
+              </div>
+            </div>
+          `
+        },
+        'segment-precare': {
+          eyebrow: 'Segment 07',
+          title: 'Pre-Care Program',
+          dark: true,
+          content: `
+            <p class="modal__lead">4-8 weeks of preparation that dramatically improves outcomes and safety.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Medical Screening</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Comprehensive health history review</div>
+                <div class="modal__list-item">Cardiac screening (EKG, echocardiogram)</div>
+                <div class="modal__list-item">Drug interaction assessment</div>
+                <div class="modal__list-item">Medication tapering protocols</div>
+                <div class="modal__list-item">Lab work and baseline biomarkers</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Nervous System Preparation</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Daily breathwork practices</div>
+                <div class="modal__list-item">Meditation introduction</div>
+                <div class="modal__list-item">Sleep optimization protocols</div>
+                <div class="modal__list-item">Dietary preparation (clean eating transition)</div>
+                <div class="modal__list-item">Stress reduction techniques</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Intention & Mindset</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Guided intention-setting sessions</div>
+                <div class="modal__list-item">Education about what to expect</div>
+                <div class="modal__list-item">Fear and resistance exploration</div>
+                <div class="modal__list-item">Life context assessment</div>
+                <div class="modal__list-item">Support system preparation</div>
+              </div>
+            </div>
+          `
+        },
+        'segment-postcare': {
+          eyebrow: 'Segment 08',
+          title: 'Post-Care Program',
+          dark: true,
+          content: `
+            <p class="modal__lead">3-12+ months of integration support—where the real transformation takes root.</p>
+            <div class="modal__stats">
+              <div class="modal__stat">
+                <div class="modal__stat-value">60%</div>
+                <div class="modal__stat-label">Of Value from Integration</div>
+              </div>
+              <div class="modal__stat">
+                <div class="modal__stat-value">12+</div>
+                <div class="modal__stat-label">Months Support</div>
+              </div>
+              <div class="modal__stat">
+                <div class="modal__stat-value">Weekly</div>
+                <div class="modal__stat-label">Check-ins</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Coaching & Support</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Weekly 1:1 integration coaching (first 3 months)</div>
+                <div class="modal__list-item">Bi-weekly sessions months 4-6</div>
+                <div class="modal__list-item">Monthly sessions months 7-12</div>
+                <div class="modal__list-item">Emergency support line always available</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Community & Connection</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Private alumni community platform</div>
+                <div class="modal__list-item">Monthly group integration circles</div>
+                <div class="modal__list-item">Annual alumni retreats</div>
+                <div class="modal__list-item">Peer support matching</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Lifestyle Integration</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Custom practice routines</div>
+                <div class="modal__list-item">Relationship navigation support</div>
+                <div class="modal__list-item">Career and purpose alignment</div>
+                <div class="modal__list-item">Return visit discounts and planning</div>
+              </div>
+            </div>
+          `
+        },
+
+        // Transformation Items
+        'transform-nervous': {
+          eyebrow: 'Transformation',
+          title: 'Nervous System Coherence',
+          dark: false,
+          content: `
+            <p class="modal__lead">From constant fight-or-flight to calm, regulated presence—the foundation of all transformation.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">The Problem</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Chronic sympathetic activation (always "on")</div>
+                <div class="modal__list-item">Poor vagal tone and recovery capacity</div>
+                <div class="modal__list-item">Sleep disruption and circadian dysregulation</div>
+                <div class="modal__list-item">Inability to truly rest or feel safe</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">How We Address It</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Polyvagal-informed environment and care</div>
+                <div class="modal__list-item">Plant medicine resets stress response patterns</div>
+                <div class="modal__list-item">Daily breathwork and cold exposure training</div>
+                <div class="modal__list-item">HRV biofeedback and neurofeedback</div>
+                <div class="modal__list-item">Somatic practices build lasting capacity</div>
+              </div>
+            </div>
+            <div class="modal__highlight">
+              <p>"When the nervous system feels safe, everything else becomes possible—healing, growth, connection, joy."</p>
+            </div>
+          `
+        },
+        'transform-trauma': {
+          eyebrow: 'Transformation',
+          title: 'Trauma Integration',
+          dark: false,
+          content: `
+            <p class="modal__lead">From carrying the weight of the past to living freely in the present.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">The Problem</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Unprocessed experiences stored in the body</div>
+                <div class="modal__list-item">Triggers that hijack present-moment experience</div>
+                <div class="modal__list-item">Protective patterns that once served but now limit</div>
+                <div class="modal__list-item">Emotional numbness or volatility</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">How We Address It</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Plant medicine accesses stored trauma directly</div>
+                <div class="modal__list-item">Somatic therapies complete incomplete responses</div>
+                <div class="modal__list-item">EMDR and IFS process specific memories</div>
+                <div class="modal__list-item">Safe container allows full expression</div>
+                <div class="modal__list-item">Extended integration builds new patterns</div>
+              </div>
+            </div>
+            <div class="modal__highlight">
+              <p>"Trauma isn't what happened to you—it's what stays stuck inside you. We help it finally move through."</p>
+            </div>
+          `
+        },
+        'transform-body': {
+          eyebrow: 'Transformation',
+          title: 'Embodied Presence',
+          dark: false,
+          content: `
+            <p class="modal__lead">From living in your head to inhabiting your full body—feeling alive again.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">The Problem</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Dissociation and "living from the neck up"</div>
+                <div class="modal__list-item">Numbness to physical sensations</div>
+                <div class="modal__list-item">Chronic tension and holding patterns</div>
+                <div class="modal__list-item">Disconnection from pleasure and vitality</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">How We Address It</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Plant medicine reconnects mind and body</div>
+                <div class="modal__list-item">Daily bodywork releases chronic tension</div>
+                <div class="modal__list-item">Movement practices restore natural rhythm</div>
+                <div class="modal__list-item">Breath and cold exposure wake up sensation</div>
+                <div class="modal__list-item">Bio-optimization restores physical vitality</div>
+              </div>
+            </div>
+            <div class="modal__highlight">
+              <p>"The body keeps the score—and it also holds the key to healing. We help you come home to it."</p>
+            </div>
+          `
+        },
+        'transform-stress': {
+          eyebrow: 'Transformation',
+          title: 'Grounded Resilience',
+          dark: false,
+          content: `
+            <p class="modal__lead">From chronic anxiety to a calm center that can meet whatever arises.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">The Problem</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Background anxiety that never fully resolves</div>
+                <div class="modal__list-item">Overwhelm from constant demands</div>
+                <div class="modal__list-item">Inability to truly relax even when "off"</div>
+                <div class="modal__list-item">Reactive patterns under stress</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">How We Address It</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Plant medicine interrupts chronic worry loops</div>
+                <div class="modal__list-item">Nervous system training builds stress capacity</div>
+                <div class="modal__list-item">Meditation practices create inner stillness</div>
+                <div class="modal__list-item">Bio-optimization supports calm biochemistry</div>
+                <div class="modal__list-item">Post-care maintains gains long-term</div>
+              </div>
+            </div>
+            <div class="modal__highlight">
+              <p>"True resilience isn't about pushing through—it's about having a calm center no matter what's happening around you."</p>
+            </div>
+          `
+        },
+        'transform-identity': {
+          eyebrow: 'Transformation',
+          title: 'Coherent Sense of Self',
+          dark: false,
+          content: `
+            <p class="modal__lead">From feeling scattered and unsure to knowing who you are at your core.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">The Problem</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Wearing different masks in different contexts</div>
+                <div class="modal__list-item">Not knowing what you truly want</div>
+                <div class="modal__list-item">Inner conflict between different "parts"</div>
+                <div class="modal__list-item">Lost connection to authentic self</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">How We Address It</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Plant medicine shows your true nature</div>
+                <div class="modal__list-item">Parts work integrates inner conflicts</div>
+                <div class="modal__list-item">Deep rest allows authentic self to emerge</div>
+                <div class="modal__list-item">Journaling and reflection clarify values</div>
+                <div class="modal__list-item">Integration coaching maintains coherence</div>
+              </div>
+            </div>
+            <div class="modal__highlight">
+              <p>"Beneath all the roles and adaptations, there's a you that has been waiting to be remembered."</p>
+            </div>
+          `
+        },
+        'transform-purpose': {
+          eyebrow: 'Transformation',
+          title: 'Aligned Mission',
+          dark: false,
+          content: `
+            <p class="modal__lead">From going through the motions to living with clear purpose and direction.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">The Problem</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">"Is this all there is?" feeling despite success</div>
+                <div class="modal__list-item">Accomplishments that feel hollow</div>
+                <div class="modal__list-item">Living someone else's definition of success</div>
+                <div class="modal__list-item">Disconnection from deeper meaning</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">How We Address It</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Plant medicine reveals what truly matters</div>
+                <div class="modal__list-item">Life review processes clarify priorities</div>
+                <div class="modal__list-item">Values exploration work</div>
+                <div class="modal__list-item">Integration coaching for life redesign</div>
+                <div class="modal__list-item">Alumni community for accountability</div>
+              </div>
+            </div>
+            <div class="modal__highlight">
+              <p>"Purpose isn't found—it's uncovered. It's been there all along, waiting beneath the noise."</p>
+            </div>
+          `
+        },
+
+        // Guest Types
+        'guest-executives': {
+          eyebrow: 'Guest Profile',
+          title: 'Executives & Entrepreneurs',
+          dark: false,
+          content: `
+            <p class="modal__lead">High-achievers who have built empires but lost themselves in the process.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Common Patterns</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Identity fused with work and achievement</div>
+                <div class="modal__list-item">Difficulty with genuine intimacy and vulnerability</div>
+                <div class="modal__list-item">Chronic stress masked as "just how it is"</div>
+                <div class="modal__list-item">Using substances or behaviors to manage</div>
+                <div class="modal__list-item">Sense that something fundamental is missing</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">What They Seek</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Reconnection with family and loved ones</div>
+                <div class="modal__list-item">Sustainable energy without burnout cycles</div>
+                <div class="modal__list-item">Clarity on what comes next</div>
+                <div class="modal__list-item">Release from the prison of constant performance</div>
+                <div class="modal__list-item">A sense of meaning beyond success metrics</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Why They Choose Us</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Privacy and discretion paramount</div>
+                <div class="modal__list-item">Efficiency—condensed, intensive approach</div>
+                <div class="modal__list-item">Measurable outcomes resonate</div>
+                <div class="modal__list-item">Luxury expected and provided</div>
+                <div class="modal__list-item">Medical credibility matters to them</div>
+              </div>
+            </div>
+          `
+        },
+        'guest-healthcare': {
+          eyebrow: 'Guest Profile',
+          title: 'Healthcare Providers',
+          dark: false,
+          content: `
+            <p class="modal__lead">Healers who have given so much to others that they've depleted themselves.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Common Patterns</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Compassion fatigue and burnout</div>
+                <div class="modal__list-item">Vicarious trauma from patient care</div>
+                <div class="modal__list-item">Difficulty receiving care themselves</div>
+                <div class="modal__list-item">Perfectionism and over-responsibility</div>
+                <div class="modal__list-item">Questioning their calling</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">What They Seek</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Restoration of original calling</div>
+                <div class="modal__list-item">Processing of accumulated grief</div>
+                <div class="modal__list-item">Permission to receive, not just give</div>
+                <div class="modal__list-item">Reconnection with their own body</div>
+                <div class="modal__list-item">Sustainable relationship with work</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Why They Choose Us</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Medical standards they can trust</div>
+                <div class="modal__list-item">Understanding of healthcare culture</div>
+                <div class="modal__list-item">Evidence-based approaches</div>
+                <div class="modal__list-item">Confidentiality (licensing concerns)</div>
+                <div class="modal__list-item">Colleagues in the alumni community</div>
+              </div>
+            </div>
+          `
+        },
+        'guest-seekers': {
+          eyebrow: 'Guest Profile',
+          title: 'Seekers',
+          dark: false,
+          content: `
+            <p class="modal__lead">Those who have tried many paths but haven't found the breakthrough they're looking for.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Common Patterns</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Years of therapy with limited progress</div>
+                <div class="modal__list-item">Spiritual practices that help but don't transform</div>
+                <div class="modal__list-item">Multiple retreats and workshops</div>
+                <div class="modal__list-item">Sophisticated understanding of their patterns</div>
+                <div class="modal__list-item">Frustration at the gap between knowing and being</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">What They Seek</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">The breakthrough they sense is possible</div>
+                <div class="modal__list-item">Direct experience, not just insight</div>
+                <div class="modal__list-item">Something that actually works</div>
+                <div class="modal__list-item">Integration support they haven't had</div>
+                <div class="modal__list-item">A new relationship with themselves</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Why They Choose Us</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Comprehensive approach addresses their frustrations</div>
+                <div class="modal__list-item">Plant medicine offers depth they haven't accessed</div>
+                <div class="modal__list-item">Long-term integration addresses past failures</div>
+                <div class="modal__list-item">Medical safety provides comfort</div>
+                <div class="modal__list-item">Luxury doesn't hurt either</div>
+              </div>
+            </div>
+          `
+        },
+        'guest-trauma': {
+          eyebrow: 'Guest Profile',
+          title: 'Trauma Survivors',
+          dark: false,
+          content: `
+            <p class="modal__lead">Those ready to finally release what they've been carrying—often for decades.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Common Patterns</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Childhood trauma impacting adult life</div>
+                <div class="modal__list-item">PTSD from specific events</div>
+                <div class="modal__list-item">Complex trauma from ongoing situations</div>
+                <div class="modal__list-item">Addiction as coping mechanism</div>
+                <div class="modal__list-item">Relationship difficulties rooted in past</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">What They Seek</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Freedom from the past</div>
+                <div class="modal__list-item">To feel safe in their own body</div>
+                <div class="modal__list-item">Healthy relationships</div>
+                <div class="modal__list-item">To stop passing pain to children</div>
+                <div class="modal__list-item">A future not defined by the past</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Why They Choose Us</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Safety is our highest priority</div>
+                <div class="modal__list-item">Trauma-informed throughout</div>
+                <div class="modal__list-item">Medical oversight provides security</div>
+                <div class="modal__list-item">Plant medicine accesses what talk therapy can't</div>
+                <div class="modal__list-item">Long integration prevents retraumatization</div>
+              </div>
+            </div>
+          `
+        },
+
+        // Moat Items
+        'moat-first': {
+          eyebrow: 'Competitive Moat',
+          title: 'First-Mover Advantage',
+          dark: true,
+          content: `
+            <p class="modal__lead">Being first to integrate all four pillars creates compounding advantages that are extremely difficult to replicate.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">What "First" Means</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">First to combine medical, hospitality, plant medicine, and tech</div>
+                <div class="modal__list-item">First in a legal jurisdiction with proper infrastructure</div>
+                <div class="modal__list-item">First to build the operating playbook</div>
+                <div class="modal__list-item">First to establish safety standards for this category</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Why It's Defensible</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Head start on building brand reputation</div>
+                <div class="modal__list-item">Early capture of top talent</div>
+                <div class="modal__list-item">Learning curve advantages in protocols</div>
+                <div class="modal__list-item">Alumni network starts accumulating immediately</div>
+                <div class="modal__list-item">Regulatory relationships established</div>
+              </div>
+            </div>
+            <div class="modal__highlight">
+              <p>"The gap between first and second in this market is likely 2-3 years—and in that time, network effects compound dramatically."</p>
+            </div>
+          `
+        },
+        'moat-talent': {
+          eyebrow: 'Competitive Moat',
+          title: 'Talent Lock-Up',
+          dark: true,
+          content: `
+            <p class="modal__lead">The best physicians, practitioners, and hospitality leaders—on exclusive, long-term contracts.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Critical Roles</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Medical Director with plant medicine expertise</div>
+                <div class="modal__list-item">GM from Aman or equivalent luxury background</div>
+                <div class="modal__list-item">Executive Chef (Michelin-caliber)</div>
+                <div class="modal__list-item">Lead Facilitators with 1,000+ hours experience</div>
+                <div class="modal__list-item">Trauma therapists (SE, EMDR, IFS certified)</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Retention Strategy</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Above-market compensation</div>
+                <div class="modal__list-item">Equity participation in success</div>
+                <div class="modal__list-item">Mission alignment (why most will come)</div>
+                <div class="modal__list-item">Beautiful work environment</div>
+                <div class="modal__list-item">Personal transformation opportunities</div>
+              </div>
+            </div>
+            <div class="modal__highlight">
+              <p>"In this industry, the talent IS the product. Lock them up early, treat them well, and competitors can't follow."</p>
+            </div>
+          `
+        },
+        'moat-brand': {
+          eyebrow: 'Competitive Moat',
+          title: 'Brand & Reputation',
+          dark: true,
+          content: `
+            <p class="modal__lead">In the ultra-wealthy market, word-of-mouth is everything—and it compounds over time.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">How Reputation Builds</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Every guest is a potential advocate</div>
+                <div class="modal__list-item">Success stories spread in tight networks</div>
+                <div class="modal__list-item">Family office and wealth manager referrals</div>
+                <div class="modal__list-item">Physician and therapist recommendations</div>
+                <div class="modal__list-item">Media coverage of the category leader</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Why It's Defensible</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Trust takes years to build, seconds to lose</div>
+                <div class="modal__list-item">New entrants start at zero trust</div>
+                <div class="modal__list-item">Our alumni become our sales force</div>
+                <div class="modal__list-item">Safety track record cannot be shortcut</div>
+                <div class="modal__list-item">Brand premium allows premium pricing</div>
+              </div>
+            </div>
+            <div class="modal__highlight">
+              <p>"When someone's considering a $50,000+ transformational experience, they ask their network. We want to be the only answer."</p>
+            </div>
+          `
+        },
+        'moat-protocols': {
+          eyebrow: 'Competitive Moat',
+          title: 'Proprietary Protocols',
+          dark: true,
+          content: `
+            <p class="modal__lead">Documented, refined methods with outcome data that prove effectiveness.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Protocol Development</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Detailed documentation of every intervention</div>
+                <div class="modal__list-item">Continuous refinement based on outcomes</div>
+                <div class="modal__list-item">Integration of guest feedback</div>
+                <div class="modal__list-item">Staff training programs</div>
+                <div class="modal__list-item">Safety incident prevention learnings</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Outcome Tracking</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Pre/post biomarker comparison</div>
+                <div class="modal__list-item">Validated psychological assessments</div>
+                <div class="modal__list-item">3, 6, and 12-month follow-up data</div>
+                <div class="modal__list-item">Net Promoter Score tracking</div>
+                <div class="modal__list-item">Long-term outcome studies</div>
+              </div>
+            </div>
+            <div class="modal__highlight">
+              <p>"Data is the new moat. When we can prove 80%+ improvement on key metrics, that's indefensible competitive advantage."</p>
+            </div>
+          `
+        },
+        'moat-network': {
+          eyebrow: 'Competitive Moat',
+          title: 'Network Effects',
+          dark: true,
+          content: `
+            <p class="modal__lead">Every guest makes the experience more valuable for the next—a flywheel that accelerates over time.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Network Components</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Alumni community platform</div>
+                <div class="modal__list-item">Peer support matching</div>
+                <div class="modal__list-item">Monthly integration circles</div>
+                <div class="modal__list-item">Annual reunion retreats</div>
+                <div class="modal__list-item">Business and personal referral network</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Compounding Benefits</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">More alumni = more referrals</div>
+                <div class="modal__list-item">Better peer matching options</div>
+                <div class="modal__list-item">Richer community experience</div>
+                <div class="modal__list-item">More diverse support available</div>
+                <div class="modal__list-item">Higher return visit rates</div>
+              </div>
+            </div>
+            <div class="modal__highlight">
+              <p>"The community itself becomes a reason to choose us. Competitors can't replicate 5 years of alumni relationships."</p>
+            </div>
+          `
+        },
+
+        // Next Steps
+        'step-capital': {
+          eyebrow: 'Next Step',
+          title: 'Capital Raise',
+          dark: false,
+          content: `
+            <p class="modal__lead">Finalizing investor presentation and beginning discussions with aligned capital partners.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Capital Requirements</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Seed round: $3-5M for first location</div>
+                <div class="modal__list-item">Property acquisition or long-term lease</div>
+                <div class="modal__list-item">Renovation and medical infrastructure</div>
+                <div class="modal__list-item">Initial team hiring and training</div>
+                <div class="modal__list-item">Platform MVP development</div>
+                <div class="modal__list-item">Working capital for first 12 months</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Ideal Investor Profile</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Aligned with mission and values</div>
+                <div class="modal__list-item">Patient capital (5-7 year horizon)</div>
+                <div class="modal__list-item">Network in UHNW or healthcare</div>
+                <div class="modal__list-item">Strategic value beyond capital</div>
+                <div class="modal__list-item">Comfortable with regulatory landscape</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Current Status</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Executive summary complete</div>
+                <div class="modal__list-item">Financial model in development</div>
+                <div class="modal__list-item">Pitch deck in progress</div>
+                <div class="modal__list-item">Initial investor conversations begun</div>
+              </div>
+            </div>
+          `
+        },
+        'step-site': {
+          eyebrow: 'Next Step',
+          title: 'Site Selection',
+          dark: false,
+          content: `
+            <p class="modal__lead">Evaluating top properties in Quintana Roo for the flagship location.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Evaluation Criteria</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">8-15 guest capacity (villas or suites)</div>
+                <div class="modal__list-item">Privacy and seclusion</div>
+                <div class="modal__list-item">Natural beauty (ocean, jungle, cenotes)</div>
+                <div class="modal__list-item">15 minutes from quality hospital</div>
+                <div class="modal__list-item">45 minutes from international airport</div>
+                <div class="modal__list-item">Renovation vs. new build feasibility</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Top Candidates</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Puerto Morelos area - Balance of access and privacy</div>
+                <div class="modal__list-item">Akumal - Beautiful coastline, growing infrastructure</div>
+                <div class="modal__list-item">Tulum outskirts - Strong brand association, higher costs</div>
+                <div class="modal__list-item">Existing boutique hotel conversions</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Current Status</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Property evaluation framework complete</div>
+                <div class="modal__list-item">Initial virtual tours conducted</div>
+                <div class="modal__list-item">Site visit trip planned</div>
+              </div>
+            </div>
+          `
+        },
+        'step-leadership': {
+          eyebrow: 'Next Step',
+          title: 'Leadership Team',
+          dark: false,
+          content: `
+            <p class="modal__lead">Engaging term sheets with key executive and clinical leadership candidates.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Critical Hires</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">CEO/General Manager - Hospitality + mission alignment</div>
+                <div class="modal__list-item">Medical Director - Board certified, plant medicine expertise</div>
+                <div class="modal__list-item">Clinical Director - Trauma therapy leadership</div>
+                <div class="modal__list-item">Head of Guest Experience - Luxury hospitality background</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Candidate Criteria</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Deep mission alignment (non-negotiable)</div>
+                <div class="modal__list-item">Relevant experience in their domain</div>
+                <div class="modal__list-item">Track record of building from scratch</div>
+                <div class="modal__list-item">Cultural fit with founding vision</div>
+                <div class="modal__list-item">Willing to relocate to Mexico (or hybrid)</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Current Status</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Job descriptions drafted</div>
+                <div class="modal__list-item">Compensation benchmarking complete</div>
+                <div class="modal__list-item">Executive search discussions begun</div>
+                <div class="modal__list-item">Several warm introductions made</div>
+              </div>
+            </div>
+          `
+        },
+        'step-design': {
+          eyebrow: 'Next Step',
+          title: 'Concept Design',
+          dark: false,
+          content: `
+            <p class="modal__lead">Engaging an architecture firm to develop the spatial and experiential concept.</p>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Design Requirements</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Guest villas with private outdoor space</div>
+                <div class="modal__list-item">Dedicated ceremony and treatment spaces</div>
+                <div class="modal__list-item">Medical suite with monitoring capability</div>
+                <div class="modal__list-item">Communal dining and gathering areas</div>
+                <div class="modal__list-item">Bio-optimization technology rooms</div>
+                <div class="modal__list-item">Staff quarters and operational spaces</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Design Principles</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Biophilic design - connection to nature</div>
+                <div class="modal__list-item">Sacred geometry and intentional spaces</div>
+                <div class="modal__list-item">Sound isolation for ceremony areas</div>
+                <div class="modal__list-item">Circadian lighting throughout</div>
+                <div class="modal__list-item">Sustainability and local materials</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Architect Criteria</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Luxury hospitality portfolio</div>
+                <div class="modal__list-item">Experience in Mexico/tropical climates</div>
+                <div class="modal__list-item">Understanding of wellness design</div>
+                <div class="modal__list-item">Ability to work with existing structures</div>
+              </div>
+            </div>
+          `
+        },
+
+        // Vision Timeline
+        'vision-y1': {
+          eyebrow: 'Year 1',
+          title: 'Foundation',
+          dark: false,
+          content: `
+            <p class="modal__lead">Launch the flagship location, prove the model, and build the foundation for everything that follows.</p>
+            <div class="modal__stats">
+              <div class="modal__stat">
+                <div class="modal__stat-value">10</div>
+                <div class="modal__stat-label">Guest Capacity</div>
+              </div>
+              <div class="modal__stat">
+                <div class="modal__stat-value">50%</div>
+                <div class="modal__stat-label">Target Occupancy</div>
+              </div>
+              <div class="modal__stat">
+                <div class="modal__stat-value">~$3.6M</div>
+                <div class="modal__stat-label">Projected Revenue</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Key Milestones</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Complete capital raise</div>
+                <div class="modal__list-item">Finalize property and begin renovation</div>
+                <div class="modal__list-item">Hire and train core team</div>
+                <div class="modal__list-item">Develop and document all protocols</div>
+                <div class="modal__list-item">Launch digital platform MVP</div>
+                <div class="modal__list-item">Host first guests (soft launch)</div>
+                <div class="modal__list-item">Establish outcome tracking systems</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Success Metrics</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Zero safety incidents</div>
+                <div class="modal__list-item">NPS > 80</div>
+                <div class="modal__list-item">Guest outcome improvement > 70%</div>
+                <div class="modal__list-item">Positive unit economics by month 9</div>
+              </div>
+            </div>
+          `
+        },
+        'vision-y2': {
+          eyebrow: 'Year 2',
+          title: 'Optimization',
+          dark: false,
+          content: `
+            <p class="modal__lead">Refine the model based on data, build the reputation, and prepare for expansion.</p>
+            <div class="modal__stats">
+              <div class="modal__stat">
+                <div class="modal__stat-value">10</div>
+                <div class="modal__stat-label">Guest Capacity</div>
+              </div>
+              <div class="modal__stat">
+                <div class="modal__stat-value">65%</div>
+                <div class="modal__stat-label">Target Occupancy</div>
+              </div>
+              <div class="modal__stat">
+                <div class="modal__stat-value">~$4.7M</div>
+                <div class="modal__stat-label">Projected Revenue</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Key Milestones</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Publish first outcome study</div>
+                <div class="modal__list-item">Refine protocols based on 100+ guests</div>
+                <div class="modal__list-item">Build international reputation and press</div>
+                <div class="modal__list-item">Develop expansion playbook</div>
+                <div class="modal__list-item">Begin site selection for location #2</div>
+                <div class="modal__list-item">Raise Series A for expansion</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Success Metrics</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">50%+ guests from referrals</div>
+                <div class="modal__list-item">25%+ return visit rate</div>
+                <div class="modal__list-item">Waiting list established</div>
+                <div class="modal__list-item">Documented protocols for expansion</div>
+              </div>
+            </div>
+          `
+        },
+        'vision-y3': {
+          eyebrow: 'Year 3',
+          title: 'Expansion',
+          dark: false,
+          content: `
+            <p class="modal__lead">Launch additional locations and begin building the global network.</p>
+            <div class="modal__stats">
+              <div class="modal__stat">
+                <div class="modal__stat-value">2-3</div>
+                <div class="modal__stat-label">Locations</div>
+              </div>
+              <div class="modal__stat">
+                <div class="modal__stat-value">70%</div>
+                <div class="modal__stat-label">Target Occupancy</div>
+              </div>
+              <div class="modal__stat">
+                <div class="modal__stat-value">~$8M+</div>
+                <div class="modal__stat-label">Projected Revenue</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Expansion Targets</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Europe - Portugal or Netherlands (legal frameworks)</div>
+                <div class="modal__list-item">Asia-Pacific - Thailand or Bali (wellness tourism)</div>
+                <div class="modal__list-item">Americas - Costa Rica or Jamaica (diverse regulatory)</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Key Milestones</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Open second location</div>
+                <div class="modal__list-item">Launch training academy for practitioners</div>
+                <div class="modal__list-item">Begin licensing conversations</div>
+                <div class="modal__list-item">Unified platform across locations</div>
+                <div class="modal__list-item">Cross-location alumni network active</div>
+              </div>
+            </div>
+          `
+        },
+        'vision-y4': {
+          eyebrow: 'Years 4-10',
+          title: 'Global Network',
+          dark: false,
+          content: `
+            <p class="modal__lead">Become the definitive global brand for transformational experiences.</p>
+            <div class="modal__stats">
+              <div class="modal__stat">
+                <div class="modal__stat-value">30+</div>
+                <div class="modal__stat-label">Locations</div>
+              </div>
+              <div class="modal__stat">
+                <div class="modal__stat-value">5,000+</div>
+                <div class="modal__stat-label">Annual Guests</div>
+              </div>
+              <div class="modal__stat">
+                <div class="modal__stat-value">$100M+</div>
+                <div class="modal__stat-label">Revenue Target</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Long-Term Vision</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">30+ owned and licensed locations globally</div>
+                <div class="modal__list-item">World-class research institute</div>
+                <div class="modal__list-item">Practitioner certification programs</div>
+                <div class="modal__list-item">Digital platform serving 100K+ members</div>
+                <div class="modal__list-item">Pharmaceutical partnerships for clinical trials</div>
+              </div>
+            </div>
+            <div class="modal__section">
+              <h4 class="modal__section-title">Exit Opportunities</h4>
+              <div class="modal__list">
+                <div class="modal__list-item">Strategic acquisition by luxury hospitality group</div>
+                <div class="modal__list-item">Healthcare system partnership</div>
+                <div class="modal__list-item">IPO if scale warrants</div>
+                <div class="modal__list-item">Long-term hold with dividend</div>
+              </div>
+            </div>
+            <div class="modal__highlight">
+              <p>"We're not building a single retreat—we're creating an entirely new category of transformational destination."</p>
+            </div>
+          `
+        }
+      };
+
+      // Open modal function
+      function openModal(modalId) {
+        const content = modalContent[modalId];
+        if (!content) return;
+
+        modalEyebrow.textContent = content.eyebrow;
+        modalTitle.textContent = content.title;
+        modalBody.innerHTML = content.content;
+
+        // Toggle dark mode
+        if (content.dark) {
+          modal.classList.add('modal--dark');
+        } else {
+          modal.classList.remove('modal--dark');
+        }
+
+        modalOverlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+
+      // Close modal function
+      function closeModal() {
+        modalOverlay.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+
+      // Event listeners
+      modalClose.addEventListener('click', closeModal);
+
+      modalOverlay.addEventListener('click', function(e) {
+        if (e.target === modalOverlay) {
+          closeModal();
+        }
+      });
+
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && modalOverlay.classList.contains('active')) {
+          closeModal();
+        }
+      });
+
+      // Add click handlers to all clickable cards
+      document.querySelectorAll('[data-modal]').forEach(card => {
+        card.addEventListener('click', function() {
+          const modalId = this.getAttribute('data-modal');
+          openModal(modalId);
+        });
+      });
     })();
   </script>
 </body>
