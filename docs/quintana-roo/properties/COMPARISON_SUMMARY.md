@@ -129,40 +129,204 @@ Four properties in Quintana Roo were evaluated against the established verificat
 
 ---
 
-## Critical Next Steps
+## Critical Questions - RESOLVED
+
+> *Research completed: January 22, 2026*
+
+### Question 1: Hospital Joya Tulum Status
+
+**FINDING: Hospital Joya Tulum does NOT currently exist.**
+
+| Question | Answer |
+|----------|--------|
+| Does Hospital Joya Tulum exist? | ❌ **NO** - Announced for expansion but not yet operational |
+| JCI accreditation? | N/A - Facility not built |
+| Cardiac cath capability? | N/A - Facility not built |
+
+**Details:**
+- Hospital Joya has announced expansion plans to Tulum as part of a 1+ billion peso investment in Cancún/Riviera Maya
+- Current Hospital Joya locations: Puerto Vallarta, San Miguel de Allende, Cancún, Querétaro, Guadalajara, La Peñita, Playa del Carmen, Nuevo Vallarta
+- Planned locations include: Tulum, Torreón, Los Cabos, Manzanillo
+- **No timeline confirmed for Tulum opening**
+
+**Source:** [Hospital Joya - Nosotros](https://hospitaljoya.com/en/nosotros/)
+
+---
+
+### Question 2: What Hospital IS Available in Tulum?
+
+**FINDING: Hospital Costamed Tulum is the only private hospital in Tulum.**
+
+| Capability | Status |
+|------------|--------|
+| 24/7 Emergency | ✅ Yes |
+| ICU | ✅ Yes - Advanced technology, Total Care beds |
+| Cardiac Life Support | ✅ Staff ACLS certified |
+| Cardiac Catheterization | ❌ **NO** - Complex cardiac cases transfer out |
+| Accreditation | Canadian Council (2018, renewed 2022) - NOT JCI |
+
+**Details:**
+- Operating since 2015 - only private hospital in Tulum
+- 19-30 hospital beds, emergency areas with shock rooms, operating rooms
+- Can stabilize cardiac patients but **cannot perform interventional cardiology**
+- Complex cases transferred to Playa del Carmen (~45 min) or Cancún (~70 min)
+
+**Source:** [Hospital Costamed Tulum](https://www.costamed.com.mx/en/hospital/tulum)
+
+---
+
+### Question 3: Nearest Cardiac Cath Lab?
+
+**FINDING: Galenia Hospital Cancún - 70-80 minutes by ground from Tulum**
+
+| Hospital | Distance from Tulum | Cardiac Cath | JCI |
+|----------|---------------------|--------------|-----|
+| **Galenia Hospital** (Cancún) | 70-80 min | ✅ **YES** - Full hemodynamics lab | ✅ JCI Level 5 |
+| Amerimed Cancún | 70-80 min | ✅ Yes | ✅ JCI |
+| Hospiten Cancún | 70-80 min | ✅ Yes | ✅ JCI |
+| Hospital Playa del Carmen | 40-45 min | ⚠️ Limited | ❌ Not JCI |
+
+**Galenia Hospital Cardiac Capabilities:**
+- State-of-the-art hemodynamics room for intravascular and intracardiac procedures
+- Interventional cardiologists on staff (Dr. Víctor Gabriel Gómez Saviñón, others)
+- Stenting, angioplasty, full cardiovascular surgery unit
+- 24/7 availability
+
+**Source:** [Galenia Hospital](https://hospitalgalenia.com/en/)
+
+---
+
+### Question 4: Helicopter Evacuation Feasibility
+
+**FINDING: Possible but NOT ideal - no local HEMS base**
+
+| Factor | Status |
+|--------|--------|
+| Helicopter flight time Tulum → Cancún | **35-50 minutes** |
+| Local helicopter ambulance base | ❌ **NO** - Nearest HEMS is Mexico City |
+| Fixed-wing air ambulance | ✅ Available - Jet Rescue Air serves Cancún |
+| Response time (fixed-wing) | ~3 hours from payment secured |
+| Commercial helicopter transfers | ✅ Available - $2,250-4,750 USD |
+
+**Key Providers:**
+- **[Jet Rescue Air](https://www.jetrescueairambulance.com/)** - Only air ambulance based in Cancún region
+  - Fleet: 10 medical jets, 1 helicopter (based in Mexico City)
+  - HEMS helicopter operates within 90-mile radius of Mexico City (does NOT cover Riviera Maya)
+  - Can respond to Cancún with fixed-wing in ~3 hours
+
+- **[Helikan](https://www.helikan.com/)** - Commercial helicopter transfers
+  - Tulum to Cancún: 50 min, ~$4,750
+  - NOT a medical service - scenic/VIP transfers only
+
+- **[Aeromed](https://www.mexicoairambulance.com/mexico)** - International air ambulance
+  - Serves Riviera Maya for evacuation to US/international
+
+**CRITICAL GAP:** No physician-staffed helicopter emergency service covers Tulum. Closest HEMS is 90+ miles away in Mexico City.
+
+---
+
+### Question 5: Can the Hospital Gap Be Solved?
+
+**ASSESSMENT: Partially - requires multi-layer approach**
+
+| Solution | Feasibility | Notes |
+|----------|-------------|-------|
+| Wait for Hospital Joya Tulum | ⚠️ Unknown | No timeline, could be years |
+| Helicopter evacuation protocol | ⚠️ Partial | 35-50 min flight + no local HEMS base |
+| Enhanced on-site capability | ✅ Feasible | On-site ICU + physician can stabilize |
+| Ground ambulance to Cancún | ⚠️ Marginal | 70-80 min exceeds 30-min gate requirement |
+
+**Recommended Protocol (if proceeding with Tulum property):**
+
+1. **On-Site ICU Capability (REQUIRED)**
+   - 2-4 bed ICU with cardiac monitoring
+   - 24/7 physician with ACLS certification
+   - Defibrillator, crash cart, stabilization equipment
+   - Estimated cost: $500K-1M setup + $300K+/year staffing
+
+2. **Pre-Arranged Air Evacuation (REQUIRED)**
+   - Contract with Jet Rescue Air or similar
+   - Pre-positioned authorization for rapid dispatch
+   - Estimated cost: $50K-100K/year retainer + per-use fees
+
+3. **Helicopter Landing Zone (REQUIRED)**
+   - Beach landing or on-property helipad
+   - Coordinate with commercial helicopter services for emergency use
+   - Estimated cost: $150-300K for formal helipad
+
+4. **Hospital Partnership (RECOMMENDED)**
+   - Pre-admission agreement with Galenia Hospital
+   - Direct communication line with ER/cardiology
+   - Shared patient records system
+
+**Total Additional Investment for Medical Gap Mitigation: $700K-1.5M setup + $400K+/year ongoing**
+
+---
+
+### Updated Gate Assessment for Tulum Properties
+
+With research complete, here is the updated gate status:
+
+| Gate | Original Assessment | Updated Assessment |
+|------|--------------------|--------------------|
+| G1: Hospital ≤30 min | ⚠️ CRITICAL | ❌ **FAILS** - Costamed Tulum lacks cardiac cath, Cancún is 70+ min |
+| G2: Cardiac Cath Lab | ⚠️ CRITICAL | ❌ **FAILS** - Nearest is Galenia Cancún (70-80 min) |
+
+**HOWEVER:** The framework allows for mitigation through:
+- Enhanced on-site capability
+- Helicopter evacuation protocol
+- Hospital partnership agreements
+
+**Revised recommendation:** Tulum properties can proceed IF:
+1. $700K-1.5M additional investment in medical infrastructure is acceptable
+2. Ongoing $400K+/year medical operations cost is budgeted
+3. Risk acceptance for 35-50 min helicopter evacuation time (vs. 30 min ground target)
+
+---
+
+## Revised Next Steps
 
 ### Immediate Actions (This Week)
 
-1. **URGENT: Verify Hospital Joya Tulum Status**
-   - Does it have JCI accreditation or equivalent?
-   - Is cardiac catheterization capability available?
-   - What is actual ambulance response time?
+1. ~~**URGENT: Verify Hospital Joya Tulum Status**~~ ✅ **RESOLVED: Not operational, no timeline**
 
-2. **Research Helicopter Evacuation Options**
-   - Contact air ambulance services in Riviera Maya
-   - Determine flight time Tulum → Cancún JCI hospitals
-   - Assess helicopter landing feasibility at Hotel Alea/Hacienda Caracol
+2. ~~**Research Helicopter Evacuation Options**~~ ✅ **RESOLVED: 35-50 min flight, no local HEMS**
 
-### If Hospital Access Can Be Resolved
+3. **NEW: Financial Decision Required**
+   - Is $700K-1.5M additional medical infrastructure investment acceptable?
+   - Is $400K+/year ongoing medical operations cost within budget?
+   - Is 35-50 min helicopter evacuation (vs 30 min ground) acceptable risk?
 
-3. **Schedule Site Visit: Hotel Alea Tulum**
+4. **NEW: Contact Jet Rescue Air**
+   - Request quote for retainer/on-call agreement
+   - Discuss response time guarantees for Tulum area
+   - Contact: [Jet Rescue Air - Cancun](https://www.jetrescueairambulance.com/cancun-air-ambulance)
+
+5. **NEW: Contact Galenia Hospital**
+   - Discuss partnership/pre-admission agreement
+   - Understand their capacity for emergency transfers
+   - Contact: [Galenia Hospital](https://hospitalgalenia.com/en/)
+
+### If Medical Investment Is Approved
+
+6. **Schedule Site Visit: Hotel Alea Tulum**
    - Physical inspection of property
+   - Assess ICU/helipad build-out locations
    - Meet with current ownership
-   - Assess conversion requirements
-   - Test actual drive times
+   - Test actual drive times to Costamed Tulum
 
-4. **Initiate Due Diligence**
+7. **Initiate Due Diligence**
    - Title search (10+ years)
-   - Zoning confirmation
+   - Zoning confirmation for medical facility
    - Environmental assessment
    - Financial review (current operations)
 
-### Parallel Tracks
+### Alternative Track
 
-5. **Continue Property Search**
-   - Focus on Puerto Morelos (better hospital access)
-   - Explore Playa del Carmen North options
-   - Look for properties with hospital proximity AND natural setting
+8. **Explore Puerto Morelos / Playa del Carmen North**
+   - These locations are 30-45 min from Cancún hospitals
+   - May meet G1/G2 gates without additional medical investment
+   - Trade-off: Less "healing atmosphere" than Tulum
 
 ---
 
@@ -178,8 +342,40 @@ All evaluated properties reveal a fundamental trade-off in Quintana Roo:
 
 **The framework correctly identified this:** Tulum is potentially the BEST location IF medical infrastructure can be verified/established.
 
-**Recommendation:** Aggressively pursue Hospital Joya Tulum verification and helicopter evacuation protocol. If solvable, Tulum (Hotel Alea specifically) moves to the top of the list.
+**Research Conclusion:** Hospital Joya Tulum does not exist yet, and there is no local helicopter ambulance service. However, the gap CAN be mitigated through:
+- Enhanced on-site ICU capability
+- Pre-arranged helicopter evacuation (35-50 min to Cancún)
+- Partnership with Galenia Hospital
+
+**Updated Recommendation:**
+- If additional $700K-1.5M capital + $400K/year operations cost is acceptable → **Proceed with Hotel Alea Tulum**
+- If not → **Pivot to Puerto Morelos/Playa del Carmen North** properties that meet hospital gates without mitigation
+
+---
+
+## Sources
+
+### Hospital Information
+- [Hospital Joya Network](https://hospitaljoya.com/en/nosotros/) - Expansion plans information
+- [Hospital Costamed Tulum](https://www.costamed.com.mx/en/hospital/tulum) - Current Tulum hospital capabilities
+- [Galenia Hospital](https://hospitalgalenia.com/en/) - Cardiac cath lab and JCI accreditation
+- [Hospiten Riviera Maya](https://hospiten.com/en/hospitals/hospiten-riviera-maya) - Playa del Carmen hospital
+
+### Air Ambulance Services
+- [Jet Rescue Air Ambulance](https://www.jetrescueairambulance.com/) - Primary air ambulance serving Cancún region
+- [Jet Rescue Air - Cancun](https://www.jetrescueairambulance.com/cancun-air-ambulance) - Local service details
+- [Aeromed Mexico](https://www.mexicoairambulance.com/mexico) - International air ambulance
+- [Helikan](https://www.helikan.com/) - Commercial helicopter transfers
+
+### Helicopter Transfer Information
+- [Cancun Airplane Tours - Air Ambulance](https://www.cancunairplanetours.com/air-ambulance/) - Flight times and pricing
+- [Your Tulum Concierge - Helicopter Transfer](https://yourtulumconcierge.com/guide/get-to/cancun-to-tulum-helicopter/) - Transfer options
+
+### Healthcare Guides
+- [Nomadoc - Hospitals in Tulum](https://www.nomadoc.com.mx/en/blog/hospitals-in-tulum-mexico) - Overview of Tulum medical facilities
+- [Tulum Charters - Riviera Maya Hospitals](https://tulumcharters.com/riviera-maya-activities/cities/hospitals-in-the-riviera-maya) - Regional healthcare guide
 
 ---
 
 *Analysis completed: January 22, 2026*
+*Research update: January 22, 2026*
