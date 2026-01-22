@@ -1,6 +1,6 @@
 # Executive Summary: Transformational Epicenter
 
-> *"Bringing the lost travelers home to gardens of their hearts and souls."*
+> *"bringing the lost travellers back home to the garden of their hearts and soul"*
 
 > **One sentence**: Transformational Epicenter is building the world's first luxury medical wellness destination that combines hospital-grade care, five-star hospitality, cutting-edge health technology, and transformational medicine—a combination no competitor offers today.
 
@@ -559,7 +559,7 @@ The market is massive. The gap is clear. The demand is proven. The competition c
 
 ---
 
-*Bringing the lost travelers home to gardens of their hearts and souls.*
+*bringing the lost travellers back home to the garden of their hearts and soul*
 
 ---
 
