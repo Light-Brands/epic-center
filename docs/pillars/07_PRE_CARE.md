@@ -1,4 +1,4 @@
-<[Home](../../README.md) | [Vision](../VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Prev: [Digital](./06_DIGITAL_ECOSYSTEM.md) | Next: [Post-Care](./08_POST_CARE.md)>
+<[Home](../../README.md) | [Vision](../strategy/VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Prev: [Digital](./06_DIGITAL_ECOSYSTEM.md) | Next: [Post-Care](./08_POST_CARE.md)>
 
 ---
 

@@ -1,4 +1,4 @@
-<[Home](../../README.md) | [Digital Pitch Packet](../DIGITAL_PITCH_PACKET.md) | [Vision](../VISION.md) | [Master Plan](../MASTER_PLAN.md)>
+<[Home](../../README.md) | [Digital Pitch Packet](./DIGITAL_PITCH_PACKET.md) | [Vision](../strategy/VISION.md) | [Master Plan](../strategy/MASTER_PLAN.md)>
 
 ---
 
@@ -13,7 +13,7 @@
 | Document | Purpose | Start Here |
 |----------|---------|------------|
 | [Quick Start](./QUICK_START.md) | 10-minute overview | Yes - Start here |
-| [Digital Pitch Packet](../DIGITAL_PITCH_PACKET.md) | Full strategy document | After Quick Start |
+| [Digital Pitch Packet](./DIGITAL_PITCH_PACKET.md) | Full strategy document | After Quick Start |
 | [Investor Portal Spec](./INVESTOR_PORTAL_SPEC.md) | Technical implementation | For dev team |
 | [Content Checklist](./CONTENT_CHECKLIST.md) | All assets needed | For content team |
 | [Financial Model Guide](./FINANCIAL_MODEL_GUIDE.md) | Numbers & projections | For finance |
@@ -80,7 +80,7 @@ The 10-minute executive summary. Start here to understand:
 - Budget overview
 - Success metrics
 
-### [Digital Pitch Packet](../DIGITAL_PITCH_PACKET.md)
+### [Digital Pitch Packet](./DIGITAL_PITCH_PACKET.md)
 The comprehensive strategy document covering:
 - Full pitch narrative (10 sections)
 - Digital ecosystem architecture
@@ -176,9 +176,9 @@ Structure for financial projections:
 | Direction | Link |
 |-----------|------|
 | Back to Home | [README.md](../../README.md) |
-| Parent Doc | [Digital Pitch Packet](../DIGITAL_PITCH_PACKET.md) |
-| Vision | [VISION.md](../VISION.md) |
-| Master Plan | [MASTER_PLAN.md](../MASTER_PLAN.md) |
+| Parent Doc | [Digital Pitch Packet](./DIGITAL_PITCH_PACKET.md) |
+| Vision | [VISION.md](../strategy/VISION.md) |
+| Master Plan | [MASTER_PLAN.md](../strategy/MASTER_PLAN.md) |
 
 ---
 

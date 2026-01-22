@@ -1,4 +1,4 @@
-<[Home](../../README.md) | [Vision](../VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Prev: [Hospitality](./05_HOSPITALITY.md) | Next: [Pre-Care](./07_PRE_CARE.md)>
+<[Home](../../README.md) | [Vision](../strategy/VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Prev: [Hospitality](./05_HOSPITALITY.md) | Next: [Pre-Care](./07_PRE_CARE.md)>
 
 ---
 

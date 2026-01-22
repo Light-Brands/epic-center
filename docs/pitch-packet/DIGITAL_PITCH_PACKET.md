@@ -1,4 +1,4 @@
-<[Home](../README.md) | [Pitch Packet Folder](./pitch-packet/README.md) | [Quick Start](./pitch-packet/QUICK_START.md) | [Vision](./VISION.md) | [Master Plan](./MASTER_PLAN.md)>
+<[Home](../../README.md) | [Pitch Packet Folder](./README.md) | [Quick Start](./QUICK_START.md) | [Vision](../strategy/VISION.md) | [Master Plan](../strategy/MASTER_PLAN.md)>
 
 ---
 

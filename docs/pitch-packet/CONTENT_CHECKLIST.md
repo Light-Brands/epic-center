@@ -1,4 +1,4 @@
-<[Home](../../README.md) | [Pitch Packet](./README.md) | [Full Strategy](../DIGITAL_PITCH_PACKET.md) | [Quick Start](./QUICK_START.md) | [Financials](./FINANCIAL_MODEL_GUIDE.md)>
+<[Home](../../README.md) | [Pitch Packet](./README.md) | [Full Strategy](./DIGITAL_PITCH_PACKET.md) | [Quick Start](./QUICK_START.md) | [Financials](./FINANCIAL_MODEL_GUIDE.md)>
 
 ---
 

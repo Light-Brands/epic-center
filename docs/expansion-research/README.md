@@ -144,10 +144,10 @@ All locations must satisfy:
 
 ## Related Documentation
 
-- [FACILITY_EXPANSION_STRATEGY.md](../FACILITY_EXPANSION_STRATEGY.md) - Original 30-location framework
-- [GEOGRAPHIC_ANALYSIS.md](../GEOGRAPHIC_ANALYSIS.md) - Detailed geographic analysis
-- [MARKET_STRATEGY_PLAN.md](../MARKET_STRATEGY_PLAN.md) - Market domination strategy
-- [EXECUTIVE_SUMMARY.md](../EXECUTIVE_SUMMARY.md) - Overall business executive summary
+- [FACILITY_EXPANSION_STRATEGY.md](./FACILITY_EXPANSION_STRATEGY.md) - Original 30-location framework
+- [GEOGRAPHIC_ANALYSIS.md](./GEOGRAPHIC_ANALYSIS.md) - Detailed geographic analysis
+- [MARKET_STRATEGY_PLAN.md](../strategy/MARKET_STRATEGY_PLAN.md) - Market domination strategy
+- [EXECUTIVE_SUMMARY.md](../strategy/EXECUTIVE_SUMMARY.md) - Overall business executive summary
 
 ---
 

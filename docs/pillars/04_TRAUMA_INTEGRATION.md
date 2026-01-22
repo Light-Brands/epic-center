@@ -1,4 +1,4 @@
-<[Home](../../README.md) | [Vision](../VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Prev: [Bio-Opt](./03_BIO_OPTIMIZATION.md) | Next: [Hospitality](./05_HOSPITALITY.md)>
+<[Home](../../README.md) | [Vision](../strategy/VISION.md) | [All Pillars](../../README.md#the-eight-pillars) | Prev: [Bio-Opt](./03_BIO_OPTIMIZATION.md) | Next: [Hospitality](./05_HOSPITALITY.md)>
 
 ---
 
