@@ -1,0 +1,1 @@
+strategy/EXECUTIVE_SUMMARY.md
