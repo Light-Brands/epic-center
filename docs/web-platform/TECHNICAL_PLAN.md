@@ -2311,6 +2311,270 @@ Each property gets a comprehensive cut sheet (see Section 10 for full spec):
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
+#### Granular Task Breakdown with Dependencies
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   CRITICAL PATH ANALYSIS (First 6 Months)                                  │
+│                                                                             │
+│   MONTH 1: Foundation & Funding                         Owner: CEO/Founder │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Week 1-2:                                                                │
+│   ✓ Finalize term sheet with lead investor                [CRITICAL PATH]  │
+│     Dependencies: None                                                     │
+│     Risk: Investor delays could push entire timeline                       │
+│   ✓ Execute legal entity formation (Delaware + Mexico)                     │
+│     Dependencies: None                                                     │
+│     Owner: Legal counsel                                                   │
+│                                                                             │
+│   Week 3-4:                                                                │
+│   ✓ Close $5M seed round (wire transfer)                  [CRITICAL PATH]  │
+│     Dependencies: Term sheet signed, legal entities formed                 │
+│     Owner: CEO + CFO                                                       │
+│   ✓ Property LOI signed (Hotel Alea or Hacienda Caracol)  [CRITICAL PATH]  │
+│     Dependencies: Seed funding closed                                      │
+│     Owner: CEO + Real Estate Attorney                                      │
+│   ✓ Begin Medical Director search (recruiter engaged)                      │
+│     Dependencies: Funding closed                                           │
+│     Owner: CEO                                                             │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   MONTH 2: Property Acquisition & Planning             Owner: COO (hired)  │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Week 5-6:                                                                │
+│   ✓ Complete property due diligence                       [CRITICAL PATH]  │
+│     Tasks: Environmental, structural, title search                         │
+│     Dependencies: LOI signed                                               │
+│     Owner: Real estate attorney + architect                                │
+│   ✓ Hire General Manager / COO                           [CRITICAL PATH]  │
+│     Dependencies: Funding closed                                           │
+│     Owner: CEO                                                             │
+│                                                                             │
+│   Week 7-8:                                                                │
+│   ✓ Close property purchase (Fideicomiso established)     [CRITICAL PATH]  │
+│     Dependencies: Due diligence complete                                   │
+│     Owner: CEO + Mexican bank trustee                                      │
+│   ✓ Architectural plans finalized (medical conversion)    [CRITICAL PATH]  │
+│     Dependencies: Property acquired                                        │
+│     Owner: Architect + Medical Director candidate                          │
+│   ✓ Construction bids solicited (3+ contractors)                           │
+│     Dependencies: Architectural plans                                      │
+│     Owner: GM/COO                                                          │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   MONTH 3: Construction & Hiring                        Owner: GM/COO     │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Week 9-10:                                                               │
+│   ✓ Award construction contract                          [CRITICAL PATH]  │
+│     Dependencies: Bids received, permits in process                        │
+│     Owner: GM/COO                                                          │
+│   ✓ Begin renovation (12-week timeline)                   [CRITICAL PATH]  │
+│     Dependencies: Contract awarded, permits approved                       │
+│     Owner: General contractor                                              │
+│   ✓ Hire Medical Director (offer letter signed)          [CRITICAL PATH]  │
+│     Dependencies: Candidates interviewed                                   │
+│     Owner: CEO                                                             │
+│                                                                             │
+│   Week 11-12:                                                              │
+│   ✓ Medical equipment procurement (order placed)          [CRITICAL PATH]  │
+│     Dependencies: Medical Director hired (specifies needs)                 │
+│     Owner: Medical Director + GM                                           │
+│   ✓ Platform MVP development begins                                        │
+│     Dependencies: CTO hired or contractors engaged                         │
+│     Owner: CTO / Tech Lead                                                 │
+│   ✓ Hire Head of Clinical Integration                                     │
+│     Dependencies: Medical Director can interview                           │
+│     Owner: Medical Director                                                │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   MONTH 4: Build-Out & Protocol Development             Owner: Med Dir    │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Week 13-14:                                                              │
+│   ✓ Medical protocols documented (v1.0)                   [CRITICAL PATH]  │
+│     Dependencies: Medical Director on board                                │
+│     Owner: Medical Director + Clinical Lead                                │
+│   ✓ Staff housing secured (if needed)                                     │
+│     Dependencies: Hiring plan finalized                                    │
+│     Owner: GM/COO                                                          │
+│   ✓ Hire Lead Facilitator (ceremonies)                   [CRITICAL PATH]  │
+│     Dependencies: Medical Director approval                                │
+│     Owner: Medical Director + CEO                                          │
+│                                                                             │
+│   Week 15-16:                                                              │
+│   ✓ COFEPRIS medical registration filed                  [CRITICAL PATH]  │
+│     Dependencies: Medical Director licensed in Mexico                      │
+│     Owner: Medical Director + Regulatory Counsel                           │
+│   ✓ Medicine sourcing contracts signed (ibogaine)        [CRITICAL PATH]  │
+│     Dependencies: Medical Director vets suppliers                          │
+│     Owner: Medical Director                                                │
+│   ✓ Hospitality staff hiring begins (6-8 positions)                       │
+│     Dependencies: GM/COO on board                                          │
+│     Owner: GM/COO                                                          │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   MONTH 5: Systems & Training                            Owner: All Leads │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Week 17-18:                                                              │
+│   ✓ Renovation substantially complete (punch list only)   [CRITICAL PATH]  │
+│     Dependencies: 12-week construction timeline                            │
+│     Owner: General Contractor                                              │
+│   ✓ Medical equipment installed and tested               [CRITICAL PATH]  │
+│     Dependencies: Equipment delivered, facility ready                      │
+│     Owner: Medical Director + biomedical tech                              │
+│   ✓ Insurance policies bound (all 7 types)               [CRITICAL PATH]  │
+│     Dependencies: Facility ready, medical team hired                       │
+│     Owner: CFO + Insurance Broker                                          │
+│                                                                             │
+│   Week 19-20:                                                              │
+│   ✓ Staff training (2-week intensive)                    [CRITICAL PATH]  │
+│     Topics: Medical protocols, guest services, emergencies                 │
+│     Dependencies: All core staff hired                                     │
+│     Owner: Medical Director + GM + Clinical Lead                           │
+│   ✓ Platform MVP deployed (pre-care module)                                │
+│     Dependencies: Development complete, testing done                       │
+│     Owner: CTO / Tech Lead                                                 │
+│   ✓ Emergency protocols dry-run (evacuation, cardiac)    [CRITICAL PATH]  │
+│     Dependencies: Training complete                                        │
+│     Owner: Medical Director                                                │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   MONTH 6: Soft Launch                                   Owner: GM/COO    │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Week 21-22:                                                              │
+│   ✓ Final inspections (health, safety, fire)             [CRITICAL PATH]  │
+│     Dependencies: Facility complete                                        │
+│     Owner: GM/COO + Regulatory Counsel                                     │
+│   ✓ Operating permits issued                             [CRITICAL PATH]  │
+│     Dependencies: Inspections passed                                       │
+│     Owner: GM/COO                                                          │
+│   ✓ Soft launch: First 3 guests (invite-only)            [CRITICAL PATH]  │
+│     Dependencies: All approvals, insurance, staff ready                    │
+│     Owner: CEO + Medical Director                                          │
+│                                                                             │
+│   Week 23-24:                                                              │
+│   ✓ Soft launch: Next 5 guests (founder network)                          │
+│     Dependencies: First 3 guests successful                                │
+│     Owner: GM/COO                                                          │
+│   ✓ Protocol refinements based on soft launch learnings                   │
+│     Dependencies: Soft launch complete                                     │
+│     Owner: Medical Director + Clinical Lead                                │
+│   ✓ Full operations launch preparation (Month 7)                          │
+│     Dependencies: Soft launch success, all systems go                      │
+│     Owner: All Leadership                                                  │
+│                                                                             │
+│   ★★★ MILESTONE: FIRST EPICENTER OPERATIONAL ★★★                          │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Resource Allocation Plan
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   CAPITAL DEPLOYMENT SCHEDULE ($5M Seed Round)                             │
+│                                                                             │
+│   Month 1-3 (Foundation):                           $2,850,000    57%      │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • Property acquisition (Hotel Alea):      $2,000,000                     │
+│   • Legal & closing costs:                    $120,000                     │
+│   • Initial team salaries (3 months):         $180,000                     │
+│   • Architectural & planning:                  $80,000                     │
+│   • Platform development (Q1):                $250,000                     │
+│   • Insurance deposits:                        $50,000                     │
+│   • Working capital reserve:                  $170,000                     │
+│                                                                             │
+│   Month 4-6 (Build-Out):                             $1,650,000    33%      │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • Renovation & construction:                $900,000                     │
+│   • Medical equipment:                        $280,000                     │
+│   • Furniture, fixtures, equipment:           $180,000                     │
+│   • Team salaries (3 months, expanded):       $210,000                     │
+│   • Platform development (Q2):                 $80,000                     │
+│                                                                             │
+│   Month 7-18 (Operations Ramp):                      $500,000     10%      │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • Operating reserve (12 months):            $300,000                     │
+│   • Marketing & growth:                       $120,000                     │
+│   • Platform completion:                       $80,000                     │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   TOTAL DEPLOYED:                                    $5,000,000   100%     │
+│                                                                             │
+│   Cash Flow Breakeven: Month 18-20 (no additional capital needed)          │
+│   Series A Target: Month 18-24 ($15-25M for expansion)                     │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Risk Mitigation Contingencies
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   TIMELINE RISK MITIGATION                                                 │
+│                                                                             │
+│   Risk #1: Construction Delays (40% probability)                           │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Baseline: 12 weeks                                                       │
+│   Contingency: 16 weeks (add 4 weeks buffer)                               │
+│   Mitigation:                                                              │
+│   • Liquidated damages clause ($5k/day after week 14)                      │
+│   • Pre-order long-lead items (medical equipment, HVAC)                    │
+│   • Parallel-track permits (start before closing if possible)              │
+│   • Backup contractor identified                                           │
+│   Impact if triggered: Soft launch delayed to Month 7                      │
+│                                                                             │
+│   Risk #2: Regulatory Approval Delays (25% probability)                    │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Baseline: 4-6 weeks for COFEPRIS approval                                │
+│   Contingency: 12 weeks (worst case)                                       │
+│   Mitigation:                                                              │
+│   • Hire specialist consultant (knows COFEPRIS process)                    │
+│   • File early (Month 3 vs Month 5)                                        │
+│   • Expeditor relationship established                                     │
+│   • Weekly follow-up on application status                                 │
+│   Impact if triggered: Soft launch delayed to Month 8                      │
+│                                                                             │
+│   Risk #3: Key Hire Delays (30% probability)                               │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Critical Role: Medical Director                                          │
+│   Contingency: Interim Medical Director (consultant basis)                 │
+│   Mitigation:                                                              │
+│   • 3 candidates in pipeline before launch                                 │
+│   • Expedited interview process (2 weeks max)                              │
+│   • Relocation assistance included                                         │
+│   • Interim MD identified (can start in 2 weeks if needed)                 │
+│   Impact if triggered: No launch delay, but higher cost                    │
+│                                                                             │
+│   Risk #4: Funding Delays (15% probability)                                │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Baseline: Close in Month 1                                               │
+│   Contingency: Bridge financing ($500k) or founder capital                 │
+│   Mitigation:                                                              │
+│   • Multiple committed investors (not single-source)                       │
+│   • Legal docs 90% complete before first meeting                           │
+│   • Rolling close option (take $2M first, $3M within 60 days)              │
+│   Impact if triggered: 1-month delay to entire timeline                    │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   BUFFER ANALYSIS:                                                         │
+│   Planned soft launch: Month 6                                             │
+│   With all contingencies: Month 8-9                                        │
+│   Budget buffer: 30% ($1.5M unallocated in seed round)                     │
+│   Confidence in Month 6 launch: 70%                                        │
+│   Confidence in Month 9 launch: 95%                                        │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
 ---
 
 ### Section 12: LEGAL & COMPLIANCE (`/legal`)
@@ -2406,6 +2670,343 @@ Each property gets a comprehensive cut sheet (see Section 10 for full spec):
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
+#### Legal Counsel & Advisors (Detailed)
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   LEGAL TEAM STRUCTURE & ESTIMATED COSTS                                   │
+│                                                                             │
+│   US CORPORATE COUNSEL                                  Est: $80-120k/year │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Target Firms:                                                            │
+│   • Gunderson Dettmer (preferred - startup specialists)                    │
+│   • Cooley LLP (strong in life sciences + hospitality)                     │
+│   • Goodwin Procter (healthcare expertise)                                 │
+│                                                                             │
+│   Scope:                                                                   │
+│   • Entity formation (Delaware LLC, subsidiaries)                          │
+│   • Investment documents (SAFE, priced rounds, term sheets)                │
+│   • Cap table management and waterfall analysis                            │
+│   • Employment agreements and equity grants                                │
+│   • Board governance and fiduciary duties                                  │
+│   • M&A preparation and exit execution                                     │
+│                                                                             │
+│   Retainer: $15k/month + transaction fees                                  │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   MEXICO OPERATIONS COUNSEL                             Est: $60-80k/year  │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Target Firms (Quintana Roo):                                             │
+│   • Santamarina y Steta (Cancún office - hospitality experience)           │
+│   • Von Wobeser y Sierra (Playa del Carmen - real estate specialists)      │
+│   • Local boutique firm (Tulum-based, knows local officials)               │
+│                                                                             │
+│   Scope:                                                                   │
+│   • Fideicomiso setup and management                                       │
+│   • Real estate acquisition and zoning                                     │
+│   • Employment law (Mexican labor code compliance)                         │
+│   • Tax structuring (minimize withholding, optimize structure)             │
+│   • Vendor contracts and supplier agreements                               │
+│   • Ongoing regulatory compliance filings                                  │
+│                                                                             │
+│   Retainer: $5k/month + transaction fees                                   │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   HEALTHCARE REGULATORY COUNSEL                         Est: $40-60k/year  │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Target Specialists:                                                      │
+│   • Hogan Lovells (Mexico City - COFEPRIS specialists)                     │
+│   • DLA Piper (healthcare regulatory in Mexico)                            │
+│   • Local consultant (former COFEPRIS official - expeditor)                │
+│                                                                             │
+│   Scope:                                                                   │
+│   • COFEPRIS registration and compliance                                   │
+│   • Medical practice licensing (cédula profesional)                        │
+│   • NOM standards compliance (facilities, medical devices)                 │
+│   • Health department inspections and remediation                          │
+│   • Medication importation permits (controlled substances)                 │
+│   • Ongoing regulatory monitoring and updates                              │
+│                                                                             │
+│   Retainer: $3-5k/month (higher Year 1, lower ongoing)                     │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   PSYCHEDELIC POLICY & COMPLIANCE COUNSEL               Est: $30-50k/year  │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Target Firms:                                                            │
+│   • Psychedelic Bar Association members (specialized practice)             │
+│   • Harris Bricken (cannabis/psychedelic regulatory leaders)               │
+│   • Advisor: Ismail Ali (Policy Director, MAPS - advisory only)            │
+│                                                                             │
+│   Scope:                                                                   │
+│   • Multi-jurisdiction regulatory strategy                                 │
+│   • Expansion country analysis (legal frameworks)                          │
+│   • Risk mitigation for regulatory changes                                 │
+│   • Government relations strategy                                          │
+│   • Industry association membership and advocacy                           │
+│                                                                             │
+│   Retainer: $2-4k/month + project fees                                     │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   INTELLECTUAL PROPERTY COUNSEL                         Est: $20-40k/year  │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Target Firms:                                                            │
+│   • Fish & Richardson (IP specialists, tech focus)                         │
+│   • Kilpatrick (trademark + tech patents)                                  │
+│   • Mexican IP firm (for local trademark registration)                     │
+│                                                                             │
+│   Scope:                                                                   │
+│   • Trademark registration (US, Mexico, EU, global)                        │
+│   • Patent applications (AI personalization, biometric systems)            │
+│   • Copyright registration (content, curriculum, software)                 │
+│   • Trade secret protection (NDAs, employee agreements)                    │
+│   • IP licensing agreements (future revenue stream)                        │
+│   • IP portfolio strategy and enforcement                                  │
+│                                                                             │
+│   Cost: Project-based (Year 1: $30-40k, then $10-15k annually)             │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   TOTAL LEGAL BUDGET (Year 1):          $230,000 - $350,000               │
+│   TOTAL LEGAL BUDGET (Year 2+):         $180,000 - $250,000               │
+│                                                                             │
+│   Note: Transaction fees (acquisitions, exits) are additional              │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Regulatory Deep Dive: Mexico Requirements
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   STEP-BY-STEP MEXICAN REGULATORY COMPLIANCE                               │
+│                                                                             │
+│   PHASE 1: Entity Formation & Property (Months 1-2)                        │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   ✓ RFC (Tax ID) - Federal Taxpayer Registry                               │
+│     Timeline: 5-7 business days                                            │
+│     Cost: ~$50 USD                                                         │
+│     Authority: SAT (Servicio de Administración Tributaria)                 │
+│                                                                             │
+│   ✓ S.A. de C.V. Formation (Mexican corporation)                           │
+│     Timeline: 2-3 weeks                                                    │
+│     Cost: $2,500-5,000 USD (legal fees)                                    │
+│     Requirements: Notary public, articles of incorporation                 │
+│                                                                             │
+│   ✓ Fideicomiso (Bank Trust for coastal property)                          │
+│     Timeline: 4-6 weeks                                                    │
+│     Cost: Setup $3,000-5,000 + Annual $500-1,000                           │
+│     Bank: BBVA, Scotiabank, or HSBC Mexico                                 │
+│     Permits: 50-year renewable trust                                       │
+│                                                                             │
+│   ✓ Commercial Property Registration                                       │
+│     Timeline: Concurrent with purchase                                     │
+│     Cost: 2-4% of property value (acquisition tax + fees)                  │
+│     Authority: Registro Público de la Propiedad                            │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   PHASE 2: Medical Licensing & Permits (Months 2-4)                        │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   ✓ Medical Director - Cédula Profesional (Medical License)                │
+│     Timeline: 2-4 weeks (if US-trained, degree validation required)        │
+│     Cost: $100-500 USD                                                     │
+│     Authority: SEP (Secretaría de Educación Pública)                       │
+│     Requirements: Diploma apostille, Spanish proficiency                   │
+│                                                                             │
+│   ✓ COFEPRIS Registration (Health Facility)                                │
+│     Timeline: 8-12 weeks (critical path item)                              │
+│     Cost: $1,000-3,000 USD filing + expeditor fees                         │
+│     Authority: COFEPRIS (Federal Commission for Protection)                │
+│     Requirements:                                                          │
+│     • Medical Director with valid cédula                                   │
+│     • Facility plans and equipment inventory                               │
+│     • Safety protocols and emergency procedures                            │
+│     • Waste management plan (medical waste)                                │
+│     Note: Expeditor/consultant recommended ($5-10k)                        │
+│                                                                             │
+│   ✓ State Health Department Permit (Secretaría de Salud Q.R.)              │
+│     Timeline: 4-6 weeks                                                    │
+│     Cost: $500-1,000 USD                                                   │
+│     Authority: Quintana Roo Health Secretariat                             │
+│     Inspection: On-site visit required                                     │
+│                                                                             │
+│   ✓ Medication Importation Permit (if importing ibogaine)                  │
+│     Timeline: 6-8 weeks                                                    │
+│     Cost: $500-2,000 USD per shipment                                      │
+│     Authority: COFEPRIS + Customs                                          │
+│     Alternative: Source from Mexican suppliers (simpler)                   │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   PHASE 3: Operational Permits (Months 3-5)                                │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   ✓ Land Use Permit (Uso de Suelo)                                         │
+│     Timeline: 2-4 weeks                                                    │
+│     Cost: $500-1,500 USD                                                   │
+│     Authority: Municipal government                                        │
+│     Confirms: Commercial/hospitality zoning                                │
+│                                                                             │
+│   ✓ Construction Permit (Licencia de Construcción)                         │
+│     Timeline: 4-8 weeks                                                    │
+│     Cost: 0.3-0.5% of construction value                                   │
+│     Authority: Municipal government                                        │
+│     Requirements: Architect-stamped plans, structural engineer             │
+│                                                                             │
+│   ✓ Environmental Impact Permit (MIA - if major construction)              │
+│     Timeline: 6-12 weeks                                                   │
+│     Cost: $5,000-15,000 USD (study + permit)                               │
+│     Authority: SEMARNAT (Secretaría de Medio Ambiente)                     │
+│     Required if: >3,000 m² construction or coastal impact                  │
+│                                                                             │
+│   ✓ Fire Safety Certificate (Protección Civil)                             │
+│     Timeline: 2-3 weeks                                                    │
+│     Cost: $300-800 USD                                                     │
+│     Authority: Municipal fire department                                   │
+│     Inspection: On-site equipment and egress review                        │
+│                                                                             │
+│   ✓ Food Service Permit (if kitchen operations)                            │
+│     Timeline: 2-4 weeks                                                    │
+│     Cost: $200-500 USD                                                     │
+│     Authority: COFEPRIS + State Health                                     │
+│     Inspection: Kitchen facilities and procedures                          │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   PHASE 4: Employment & Operations (Month 5+)                              │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   ✓ IMSS Registration (Social Security)                                    │
+│     Timeline: 1-2 weeks                                                    │
+│     Cost: 30-35% of payroll (employer + employee contributions)            │
+│     Authority: IMSS (Mexican Social Security Institute)                    │
+│     Required for: All Mexican employees                                    │
+│                                                                             │
+│   ✓ INFONAVIT Registration (Housing Fund)                                  │
+│     Timeline: Concurrent with IMSS                                         │
+│     Cost: 5% of payroll                                                    │
+│     Authority: INFONAVIT                                                   │
+│                                                                             │
+│   ✓ Work Visas for Foreign Staff (if applicable)                           │
+│     Timeline: 6-10 weeks per person                                        │
+│     Cost: $500-1,500 USD per visa                                          │
+│     Authority: INM (Instituto Nacional de Migración)                       │
+│     Types: Temporary resident (1-4 years) or permanent resident            │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   ONGOING COMPLIANCE (Annual Requirements)                                 │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • Annual tax return (corporativo): April 30 deadline                     │
+│   • Monthly IMSS/INFONAVIT payments: 17th of each month                    │
+│   • COFEPRIS renewal: Annual inspection and fee                            │
+│   • Fire safety renewal: Annual inspection                                 │
+│   • Food service renewal: Annual inspection                                │
+│   • Property tax (predial): Quarterly payments                             │
+│   • Employee profit sharing (PTU): May 30 deadline                         │
+│                                                                             │
+│   Estimated ongoing compliance cost: $80-120k/year                         │
+│   (includes payroll taxes, legal retainer, permit renewals)                │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Contract & Agreement Inventory
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   KEY CONTRACTS & AGREEMENTS (First 12 Months)                             │
+│                                                                             │
+│   INVESTMENT & CORPORATE                                                   │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   ✓ Seed Investment Agreement (SAFE or Priced Equity)                      │
+│   ✓ Investor Rights Agreement                                              │
+│   ✓ Right of First Refusal & Co-Sale Agreement                             │
+│   ✓ Voting Agreement                                                       │
+│   ✓ Operating Agreement (TE Holdings LLC)                                  │
+│   ✓ Bylaws (TE Mexico S.A. de C.V.)                                        │
+│                                                                             │
+│   PROPERTY & FACILITIES                                                    │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   ✓ Fideicomiso Trust Agreement (Bank trustee)                             │
+│   ✓ Purchase & Sale Agreement (Hotel Alea/Hacienda Caracol)                │
+│   ✓ Title Insurance Policy                                                 │
+│   ✓ Property Management Agreement (if third-party)                         │
+│   ✓ Construction Contract (renovation)                                     │
+│   ✓ Architect Agreement                                                    │
+│   ✓ Engineering Agreements (structural, electrical, MEP)                   │
+│   ✓ Utilities Agreements (water, power, internet)                          │
+│                                                                             │
+│   EMPLOYMENT                                                               │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   ✓ Executive Employment Agreements (CEO, CMO, CTO)                        │
+│   ✓ Employee Stock Option Plan (ESOP)                                      │
+│   ✓ Stock Option Agreements (individual grants)                            │
+│   ✓ Confidentiality & IP Assignment Agreements (all staff)                 │
+│   ✓ Non-Compete Agreements (key roles)                                     │
+│   ✓ Offer Letters (standard employees)                                     │
+│   ✓ Contractor Agreements (consultants, part-time)                         │
+│   ✓ Advisory Board Agreements (with compensation schedule)                 │
+│                                                                             │
+│   MEDICAL & CLINICAL                                                       │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   ✓ Medical Director Agreement (with liability provisions)                 │
+│   ✓ Physician Services Agreements (additional MDs)                         │
+│   ✓ Hospital Partnership Agreement (Galenia Hospital - evacuation)         │
+│   ✓ Medical Malpractice Insurance Policy                                   │
+│   ✓ Informed Consent Forms (guests - comprehensive)                        │
+│   ✓ Medical Screening Questionnaire (intake)                               │
+│   ✓ HIPAA Business Associate Agreements (vendors with PHI access)          │
+│   ✓ Clinical Trial Registration (if conducting research)                   │
+│                                                                             │
+│   GUEST SERVICES                                                           │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   ✓ Guest Services Agreement (terms of service)                            │
+│   ✓ Liability Waiver (assumption of risk)                                  │
+│   ✓ Privacy Policy (HIPAA + LFPDPPP compliant)                             │
+│   ✓ Photography/Media Release (optional for guests)                        │
+│   ✓ Cancellation & Refund Policy                                           │
+│   ✓ Payment Processing Agreement (Stripe, etc.)                            │
+│                                                                             │
+│   SUPPLIERS & VENDORS                                                      │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   ✓ Ibogaine Supply Agreement (2-3 suppliers)                              │
+│   ✓ Food & Beverage Supplier Agreements                                    │
+│   ✓ Medical Equipment Lease/Purchase Agreements                            │
+│   ✓ Linen & Amenities Supply Agreement                                     │
+│   ✓ Waste Management Agreement (medical waste)                             │
+│   ✓ Security Services Agreement                                            │
+│   ✓ Transportation Services Agreement (airport pickup)                     │
+│                                                                             │
+│   TECHNOLOGY & PLATFORMS                                                   │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   ✓ Software Development Agreement (platform contractors)                  │
+│   ✓ SaaS Agreements (EHR, CRM, scheduling systems)                         │
+│   ✓ AWS/Cloud Hosting Agreement                                            │
+│   ✓ Data Processing Agreement (cloud providers)                            │
+│   ✓ Software License Agreements (any third-party tools)                    │
+│                                                                             │
+│   INSURANCE                                                                │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   ✓ Medical Malpractice Policy ($5M / $15M)                                │
+│   ✓ General Liability Policy ($2M / $4M)                                   │
+│   ✓ Property Insurance Policy                                              │
+│   ✓ D&O Insurance Policy ($3M)                                             │
+│   ✓ Cyber Liability Policy ($1M)                                           │
+│   ✓ EPLI Policy ($1M)                                                      │
+│   ✓ Medical Evacuation Insurance                                           │
+│                                                                             │
+│   Total Contracts (Year 1): 60-80 agreements                               │
+│   Contract management system: Required (recommend Ironclad or DocuSign CLM)│
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
 ---
 
 ### Section 13: OUTCOME MEASUREMENT (`/outcomes`)
@@ -2467,6 +3068,321 @@ Each property gets a comprehensive cut sheet (see Section 10 for full spec):
 │                                                                             │
 │   This data becomes our competitive moat.                                  │
 │   No competitor is collecting outcomes at this level.                      │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Research Evidence Base
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   SCIENTIFIC FOUNDATION: PUBLISHED RESEARCH                                │
+│                                                                             │
+│   IBOGAINE EFFICACY STUDIES                                                │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • Noller et al. (2018) - "Ibogaine Treatment Outcomes"                  │
+│     Journal: American Journal of Drug and Alcohol Abuse                    │
+│     N=30 participants, 12-month follow-up                                  │
+│     Results: 50% abstinence from opioids at 12 months                      │
+│     Safety: Zero serious adverse events with medical screening             │
+│                                                                             │
+│   • Brown & Alper (2018) - "Treatment of Opioid Use Disorder"              │
+│     Journal: Current Drug Abuse Reviews                                    │
+│     Review: 19 observational studies, 768 total participants               │
+│     Conclusion: Ibogaine shows promise for addiction treatment             │
+│                                                                             │
+│   • Mash et al. (2018) - "Ibogaine Pharmacokinetics"                      │
+│     Journal: Journal of Ethnopharmacology                                  │
+│     Finding: Safe metabolic profile with proper screening                  │
+│     Critical: EKG screening prevents cardiac complications                 │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   TRAUMA & PTSD TREATMENT EVIDENCE                                         │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • Mitchell et al. (2021) - "MDMA-Assisted Therapy for PTSD"              │
+│     Journal: Nature Medicine                                               │
+│     N=90, Phase 3 trial                                                    │
+│     Results: 67% no longer met PTSD criteria (vs 32% placebo)              │
+│     Relevance: Psychedelic-assisted therapy efficacy established           │
+│                                                                             │
+│   • Carhart-Harris et al. (2021) - "Psilocybin for Depression"             │
+│     Journal: New England Journal of Medicine                               │
+│     N=59, compared to escitalopram                                         │
+│     Results: Non-inferior to SSRI, faster onset                            │
+│     Relevance: Validates psychedelic therapy model                         │
+│                                                                             │
+│   • van der Kolk (2014) - "The Body Keeps the Score"                       │
+│     Evidence: Somatic approaches essential for trauma                      │
+│     Application: Validates our polyvagal/somatic framework                 │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   BIOMETRIC OUTCOME MEASURES                                               │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • Shaffer et al. (2014) - "HRV as Biomarker for Health"                  │
+│     Journal: Frontiers in Public Health                                    │
+│     Evidence: HRV correlates with emotional regulation, resilience         │
+│     Application: Primary biometric in our measurement framework            │
+│                                                                             │
+│   • Kaufmann et al. (2016) - "Heart Rate Variability Biofeedback"          │
+│     Journal: Applied Psychophysiology & Biofeedback                        │
+│     Finding: HRV training improves PTSD symptoms                           │
+│     Relevance: Supports our nervous system optimization approach           │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   INTEGRATION & LONG-TERM OUTCOMES                                         │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • Wolff et al. (2020) - "Psychedelic Integration"                        │
+│     Journal: Journal of Psychoactive Drugs                                 │
+│     Finding: Integration predicts long-term benefit maintenance            │
+│     Application: Why we invest heavily in 3-12 month post-care             │
+│                                                                             │
+│   • Erritzoe et al. (2018) - "Psilocybin with Psychological Support"       │
+│     Journal: Psychopharmacology                                            │
+│     Finding: Therapeutic support essential for positive outcomes           │
+│     Relevance: Validates our facilitator + therapist model                 │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Outcome Data Collection & Analysis Plan
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   DATA COLLECTION METHODOLOGY                                              │
+│                                                                             │
+│   QUANTITATIVE MEASURES (Every Guest)                                      │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Psychological:                                                           │
+│   • PCL-5 (PTSD Checklist, 20 items): 8 measurement points                 │
+│   • PHQ-9 (Depression, 9 items): 8 measurement points                      │
+│   • GAD-7 (Anxiety, 7 items): 8 measurement points                         │
+│   • WHO-5 (Well-being, 5 items): 8 measurement points                      │
+│   • NPS (Net Promoter Score): Post-departure, 6-month                      │
+│                                                                             │
+│   Biometric (Continuous):                                                  │
+│   • HRV: Daily (Oura Ring or Whoop strap) - 90 days pre, during, 180 post  │
+│   • Sleep: Daily metrics (duration, deep sleep %, REM %)                   │
+│   • Resting heart rate: Daily                                              │
+│   • Activity levels: Daily step count, exercise minutes                    │
+│                                                                             │
+│   Laboratory (Selective):                                                  │
+│   • Baseline blood panel: Pre-arrival                                      │
+│     - CBC, CMP, lipids, HbA1c, hs-CRP (inflammation)                       │
+│     - Cortisol (stress marker), DHEA, testosterone                         │
+│   • Follow-up panel: 90-day (if guest opts in)                             │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   QUALITATIVE MEASURES (Subset of Guests)                                  │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • Semi-structured interviews (30-60 min)                                 │
+│     Timeline: Pre-arrival, departure, 30-day, 6-month, 12-month            │
+│     Topics: Life changes, relationship shifts, career impact               │
+│   • Written reflections (journal entries)                                  │
+│     Prompts provided via app, analyzed for themes                          │
+│   • Video testimonials (with consent)                                      │
+│     Timeline: 3-month, 6-month, 12-month                                   │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   DATA MANAGEMENT & PRIVACY                                                │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Platform: REDCap (Research Electronic Data Capture)                      │
+│   • HIPAA-compliant, industry standard for clinical research               │
+│   • IRB-approved data collection workflows                                 │
+│   • De-identified datasets for analysis                                    │
+│                                                                             │
+│   Privacy Protections:                                                     │
+│   • Consent obtained for research participation (opt-in)                   │
+│   • Data anonymized for publication (no PII)                               │
+│   • Secure storage (encrypted at rest and in transit)                      │
+│   • Access controls (only authorized researchers)                          │
+│                                                                             │
+│   Data Ownership:                                                          │
+│   • Guest owns their personal data (can request deletion)                  │
+│   • Company owns de-identified aggregate data                              │
+│   • Research publications require separate consent                         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Publication & Research Strategy
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   RESEARCH ROADMAP (3-Year Plan)                                           │
+│                                                                             │
+│   YEAR 1: Data Collection & Pilot Analysis                                │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Q2-Q4 2026:                                                              │
+│   • Enroll first 50 guests in outcome study                                │
+│   • Establish data collection SOPs (Standard Operating Procedures)         │
+│   • Hire outcomes coordinator (part-time, clinical research background)    │
+│   • IRB approval for observational study                                   │
+│                                                                             │
+│   Deliverable: Internal report on first 50 guests (confidential)           │
+│   Use: Refine protocols, identify early trends                             │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   YEAR 2: Analysis & Conference Presentations                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Q1-Q2 2027:                                                              │
+│   • Analyze first 150 guests (with 6-month follow-up data)                 │
+│   • Partner with academic institution (UCSF, Johns Hopkins, NYU)           │
+│   • Submit abstracts to conferences                                        │
+│                                                                             │
+│   Target Conferences:                                                      │
+│   • MAPS Psychedelic Science (June 2027) - Poster presentation             │
+│   • CIIS (California Institute of Integral Studies) Symposium              │
+│   • American Psychological Association Annual Convention                   │
+│                                                                             │
+│   Deliverable: Conference poster/presentation                              │
+│   Impact: Build credibility, attract research partners                     │
+│                                                                             │
+│   Q3-Q4 2027:                                                              │
+│   • Draft manuscript for peer-reviewed journal                             │
+│   • Title: "Integrated Psychedelic-Assisted Transformation:                │
+│            Outcomes from 150 Participants"                                 │
+│   • Co-authors: Medical Director + Academic partner                        │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   YEAR 3: Publication & Thought Leadership                                │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Q1-Q2 2028:                                                              │
+│   • Submit to target journal                                               │
+│     Tier 1 targets: JAMA Psychiatry, The Lancet Psychiatry                 │
+│     Tier 2 targets: Journal of Psychopharmacology, Psychopharmacology      │
+│     Tier 3 targets: Journal of Psychoactive Drugs                          │
+│   • Peer review process (6-12 months)                                      │
+│                                                                             │
+│   Q3-Q4 2028:                                                              │
+│   • Publication! (press release, media outreach)                           │
+│   • Present at MAPS, APA, other major conferences (invited talk)           │
+│   • Launch outcomes dashboard (public, anonymized data viz)                │
+│                                                                             │
+│   Deliverable: Published peer-reviewed research                            │
+│   Impact:                                                                  │
+│   • Legitimacy (no competitor has published outcomes)                      │
+│   • Media coverage (NYT, VICE, Tim Ferriss podcast)                        │
+│   • Investor confidence (data-driven transformation)                       │
+│   • Guest acquisition (proof of concept)                                   │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   ONGOING: Case Study Development                                         │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Throughout Years 1-3:                                                    │
+│   • Identify 5-10 exemplary transformation stories                         │
+│   • Obtain consent for detailed case studies                               │
+│   • Document: Pre-state, journey, post-transformation, life impact         │
+│   • Create multimedia case studies (video + written)                       │
+│                                                                             │
+│   Use Cases:                                                               │
+│   • Marketing materials (with permission)                                  │
+│   • Investor presentations (anonymized if needed)                          │
+│   • Training materials (for future staff)                                  │
+│   • Book chapter contributions                                             │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Data Visualization & Reporting
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   PUBLIC OUTCOMES DASHBOARD (Post-Publication)                             │
+│                                                                             │
+│   Real-time, Anonymized Guest Outcomes                                     │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Metrics Displayed:                                                       │
+│   • Total guests served (cumulative)                                       │
+│   • Average PCL-5 reduction: XX% (with confidence interval)                │
+│   • Average PHQ-9 improvement: XX%                                         │
+│   • Average GAD-7 reduction: XX%                                           │
+│   • Average HRV improvement: +XX ms (RMSSD)                                │
+│   • 6-month maintenance rate: XX% (guests sustaining gains)                │
+│   • Net Promoter Score: XX                                                 │
+│                                                                             │
+│   Visualizations:                                                          │
+│   • Before/after scatter plots (de-identified)                             │
+│   • Time-series: Average improvement trajectory (weeks 0-52)               │
+│   • HRV trends: Daily average across cohort                                │
+│   • Guest satisfaction trends over time                                    │
+│                                                                             │
+│   Interactive Features:                                                    │
+│   • Filter by: program length, age range, primary concern                  │
+│   • Compare cohorts: Early guests vs recent guests (quality improvement)   │
+│   • Download anonymized dataset (for researchers)                          │
+│                                                                             │
+│   Platform: Custom dashboard (React + D3.js) or Tableau Public             │
+│   Update Frequency: Monthly                                                │
+│                                                                             │
+│   Competitive Advantage:                                                   │
+│   No competitor publishes real outcome data. This is radical transparency. │
+│   Builds trust. Attracts quality guests. Creates media hooks.              │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Institutional Partnerships (Research)
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   TARGET RESEARCH PARTNERSHIPS                                             │
+│                                                                             │
+│   TIER 1: Leading Psychedelic Research Centers                            │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Johns Hopkins Center for Psychedelic & Consciousness Research            │
+│   • Director: Dr. Roland Griffiths (emeritus)                              │
+│   • Opportunity: Collaborate on ibogaine protocols                         │
+│   • Value Exchange: We provide real-world data, they provide expertise     │
+│                                                                             │
+│   UCSF Neuroscape & Psychedelic Research Group                             │
+│   • Director: Dr. Adam Gazzaley (neuroscience, tech + psychedelics)        │
+│   • Opportunity: Biometric integration research                            │
+│   • Value Exchange: Access to our HRV/sleep data, co-publication           │
+│                                                                             │
+│   Imperial College London - Centre for Psychedelic Research                │
+│   • Director: Dr. David Nutt, Dr. Robin Carhart-Harris                     │
+│   • Opportunity: Global psychedelic therapy standards                      │
+│   • Value Exchange: European expansion insights, research credibility      │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   TIER 2: Trauma & Integration Specialists                                │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Polyvagal Institute (Dr. Stephen Porges)                                 │
+│   • Opportunity: Validate polyvagal-informed protocols                     │
+│   • Measurement: HRV as proxy for vagal tone improvement                   │
+│                                                                             │
+│   Trauma Research Foundation (Dr. Bessel van der Kolk)                     │
+│   • Opportunity: Somatic + psychedelic integration research                │
+│   • Value: Credibility in trauma treatment space                           │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   PARTNERSHIP STRUCTURE                                                    │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • MOU (Memorandum of Understanding) for data sharing                     │
+│   • IRB approval through partner institution (easier than independent)     │
+│   • Co-authorship on publications                                          │
+│   • Guest referrals (researchers send clients to us)                       │
+│   • Training exchange (we train in protocols, they train in research)      │
+│                                                                             │
+│   Financial Model:                                                         │
+│   • No direct payment to partners                                          │
+│   • Academic prestige + publication credit is compensation                 │
+│   • We cover: Data collection costs, REDCap licenses, coordinator salary   │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -2701,6 +3617,461 @@ Each property gets a comprehensive cut sheet (see Section 10 for full spec):
 │         └─────────────────────────────────────────────────┘                │
 │                                                                             │
 │                     Contact: [email / calendar link]                       │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Term Sheet Preview (Seed Round)
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   INDICATIVE TERM SHEET (Subject to Negotiation)                           │
+│                                                                             │
+│   OFFERING TERMS                                                           │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Amount:                $5,000,000                                        │
+│   Security:              Series Seed Preferred Stock                       │
+│                          (or SAFE notes if pre-revenue)                    │
+│   Pre-Money Valuation:   $15,000,000                                       │
+│   Post-Money Valuation:  $20,000,000                                       │
+│   Price per Share:       $X.XX (to be determined)                          │
+│   Fully Diluted Ownership: 25% to new investors                            │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   LIQUIDATION PREFERENCE                                                   │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   1x non-participating preferred                                           │
+│   • In an exit, investors get their $5M back first                         │
+│   • Then convert to common and participate pro-rata                        │
+│   • Standard investor-friendly terms                                       │
+│                                                                             │
+│   Example: $50M exit                                                       │
+│   • Investors: $5M (preference) + 25% × $45M = $16.25M (32.5% of proceeds)│
+│   • Founders: 60% × $45M = $27M                                            │
+│   • ESOP: 10% × $45M = $4.5M                                               │
+│   • Future investors: 5% × $45M = $2.25M                                   │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   ANTI-DILUTION PROTECTION                                                 │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Broad-based weighted average                                             │
+│   • Protects investors if we raise at lower valuation (down round)         │
+│   • Standard middle-ground approach                                        │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   BOARD COMPOSITION                                                        │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   3-person board initially:                                                │
+│   • 2 Founder seats                                                        │
+│   • 1 Investor seat (lead investor or mutually agreed)                     │
+│                                                                             │
+│   At Series A (expansion to 5 seats):                                      │
+│   • 2 Founder seats                                                        │
+│   • 2 Investor seats                                                       │
+│   • 1 Independent seat (mutually agreed)                                   │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   PROTECTIVE PROVISIONS                                                    │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Investor approval required for:                                          │
+│   • Sale of company or majority of assets                                  │
+│   • Liquidation or dissolution                                             │
+│   • Amendment to charter affecting investor rights                         │
+│   • Issuance of senior or pari passu securities                            │
+│   • Incurring debt > $500k                                                 │
+│   • Change in business or entering new line of business                    │
+│                                                                             │
+│   Note: Standard protections, not burdensome                               │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   DRAG-ALONG RIGHTS                                                        │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   If >50% of investors + board approve sale:                               │
+│   • All shareholders required to participate                               │
+│   • Prevents minority blocking acquisition                                 │
+│   • Standard in all VC deals                                               │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   PRO-RATA RIGHTS                                                          │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Investors can maintain ownership % in future rounds                      │
+│   • Major investors (>$500k): Full pro-rata                                │
+│   • Minor investors (<$500k): Pro-rata at company discretion               │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   INFORMATION RIGHTS                                                       │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Quarterly:                                                               │
+│   • Financial statements (P&L, balance sheet, cash flow)                   │
+│   • Key metrics dashboard (occupancy, revenue, NPS, etc.)                  │
+│   • Board meeting minutes                                                  │
+│                                                                             │
+│   Annually:                                                                │
+│   • Audited financials (once revenue > $5M)                                │
+│   • Annual budget and operating plan                                       │
+│   • Cap table updates                                                      │
+│                                                                             │
+│   Ad Hoc:                                                                  │
+│   • Major developments (acquisitions, key hires, crises)                   │
+│   • Fundraising updates                                                    │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   FOUNDER VESTING                                                          │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   4-year vest, 1-year cliff                                                │
+│   • Ensures founder commitment through critical growth phase               │
+│   • 25% vests at 1 year, then monthly over 36 months                       │
+│   • Acceleration: Single-trigger on acquisition (50% accelerates)          │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   EMPLOYEE OPTION POOL                                                     │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   15% fully diluted (post-seed)                                            │
+│   • Carved out pre-investment (standard practice)                          │
+│   • Top-up to 15% at Series A                                              │
+│   • 10-year term, early exercise available                                 │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   EXCLUSIVITY & TIMING                                                     │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   30-day exclusivity period upon term sheet signature                      │
+│   Target close: 45-60 days from term sheet                                 │
+│   Conditions: Standard due diligence, legal review                         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Investor Qualification & Fit
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   IDEAL INVESTOR PROFILE                                                   │
+│                                                                             │
+│   FINANCIAL REQUIREMENTS (SEC Regulation D)                                │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Must be Accredited Investor:                                             │
+│   • Individual: $1M+ net worth (excluding primary residence)               │
+│     OR $200k+ annual income ($300k joint) for past 2 years                 │
+│   • Entity: $5M+ in assets                                                 │
+│   • Licensed securities professional (Series 7, 65, 82)                    │
+│                                                                             │
+│   Minimum Investment: $50,000 (negotiable for strategic value)             │
+│   Maximum per Investor: $2,000,000 (diversification)                       │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   STRATEGIC FIT (Beyond Capital)                                           │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   We seek investors who bring:                                             │
+│                                                                             │
+│   Category 1: Industry Expertise                                           │
+│   • Hospitality operators (boutique luxury, not chains)                    │
+│   • Wellness entrepreneurs (previous exits or scale)                       │
+│   • Healthcare executives (medical credibility)                            │
+│   • Psychedelic space operators (MAPS advisors, clinic owners)             │
+│                                                                             │
+│   Category 2: Distribution/Network                                         │
+│   • Executive coaches with UHNW client base                                │
+│   • Concierge medicine doctors (referral partners)                         │
+│   • Family office principals (access to capital + deal flow)               │
+│   • Wellness influencers (brand building)                                  │
+│                                                                             │
+│   Category 3: Operational Value                                            │
+│   • Real estate developers (expansion expertise)                           │
+│   • CFOs/finance leaders (systems, metrics, exit prep)                     │
+│   • Technology executives (platform scaling)                               │
+│   • Regulatory attorneys (compliance, government relations)                │
+│                                                                             │
+│   Category 4: Brand Ambassadors                                            │
+│   • Successful entrepreneurs who've "been there"                           │
+│   • Authors, podcasters, thought leaders                                   │
+│   • Passionate about transformation (personal experience)                  │
+│   • Will evangelize authentically                                          │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   INVESTORS WE'RE NOT A FIT FOR                                            │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   ❌ Purely financial investors (no strategic value-add)                   │
+│   ❌ Short-term thinkers (looking for 6-12 month flip)                     │
+│   ❌ Risk-averse capital (uncomfortable with plant medicine regulatory)    │
+│   ❌ Micromanagers (we need autonomy to execute)                           │
+│   ❌ Mission misalignment (profit-only, no care for transformation)        │
+│   ❌ Reputational risk (criminal history, ethical violations)              │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   CURRENT INVESTOR PIPELINE (Confidential)                                 │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Lead Investor Candidates (>$1M):                                         │
+│   • [Name] - Wellness fund, $2M committed (soft circled)                   │
+│   • [Name] - Family office, $1.5M interest                                 │
+│   • [Name] - Hospitality entrepreneur, $1M committed                       │
+│                                                                             │
+│   Strategic Angels ($100k-500k):                                           │
+│   • 8 qualified investors, $2.5M total pipeline                            │
+│   • Mix: Wellness founders, medical professionals, UHNW individuals        │
+│                                                                             │
+│   Total Soft Circled: $6M+ (oversubscribed by $1M intentionally)           │
+│   Status: Term sheet with lead expected Q1 2026                            │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Governance & Decision-Making
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   GOVERNANCE STRUCTURE                                                     │
+│                                                                             │
+│   BOARD OF DIRECTORS (Seed Stage: 3 seats)                                │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Founder Seats (2):                                                       │
+│   • CEO / Founder (Chair)                                                  │
+│   • Co-Founder or President                                                │
+│                                                                             │
+│   Investor Seat (1):                                                       │
+│   • Lead investor representative                                           │
+│   • Or mutually agreed investor if syndicate                               │
+│                                                                             │
+│   Meeting Frequency: Quarterly (more frequent if needed)                   │
+│   Quorum: 2 of 3 directors                                                 │
+│   Decisions: Majority vote (except protective provisions)                  │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   BOARD OBSERVER RIGHTS                                                    │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Available to:                                                            │
+│   • Investors with $250k+ investment                                       │
+│   • Strategic advisors at board discretion                                 │
+│                                                                             │
+│   Observers can:                                                           │
+│   • Attend board meetings (no voting rights)                               │
+│   • Receive board materials                                                │
+│   • Provide input and perspective                                          │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   ADVISORY BOARD (Separate from Board of Directors)                        │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Role: Strategic counsel, not fiduciary duty                              │
+│   Compensation: Equity (0.1-0.25%) + annual retainer                       │
+│   Commitment: 4 meetings/year + ad hoc availability                        │
+│                                                                             │
+│   Domains:                                                                 │
+│   • Medical & Clinical (protocols, safety, research)                       │
+│   • Hospitality & Operations (guest experience, scaling)                   │
+│   • Finance & Strategy (fundraising, M&A, exit)                            │
+│   • Legal & Regulatory (compliance, risk mitigation)                       │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   DECISION-MAKING AUTHORITY MATRIX                                         │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   CEO / Management Team (Operational):                                     │
+│   • Hiring (below director level)                                          │
+│   • Vendor contracts < $100k                                               │
+│   • Day-to-day operations                                                  │
+│   • Marketing and brand decisions                                          │
+│   • Property management                                                    │
+│                                                                             │
+│   Board Approval Required (Strategic):                                     │
+│   • Annual budget and operating plan                                       │
+│   • Key hires (C-suite, Medical Director)                                  │
+│   • Major contracts > $250k                                                │
+│   • Capital expenditures > $500k                                           │
+│   • New location acquisitions                                              │
+│   • Changes to business model or strategy                                  │
+│                                                                             │
+│   Investor Vote Required (Protective):                                     │
+│   • Sale of company                                                        │
+│   • New fundraising round (Series A terms)                                 │
+│   • Issuing senior securities                                              │
+│   • Incurring debt > $500k                                                 │
+│   • Charter amendments                                                     │
+│   • Dividend distributions                                                 │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   FOUNDER CONTROL & DECISION RIGHTS                                        │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Founders maintain:                                                       │
+│   • Operational control (day-to-day)                                       │
+│   • Board majority until Series A                                          │
+│   • Vision and culture stewardship                                         │
+│   • Final say on medical/clinical protocols (with MD Director)             │
+│   • Right to hire/fire CEO (if not founder)                                │
+│                                                                             │
+│   Investors have:                                                          │
+│   • Financial oversight and reporting rights                               │
+│   • Strategic input (not control)                                          │
+│   • Veto on major decisions (via protective provisions)                    │
+│   • Exit participation rights                                              │
+│                                                                             │
+│   Philosophy: Founders operate, investors advise and protect investment    │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Investment Process Timeline
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   SEED ROUND CLOSING PROCESS (45-60 Days)                                  │
+│                                                                             │
+│   WEEK 1-2: Initial Conversations                                          │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   ✓ Introductory call (30 min) - Founder + Investor                        │
+│     Topics: Vision, opportunity, team, use of funds                        │
+│   ✓ Share executive summary + pitch deck                                   │
+│   ✓ Second call (60 min) - Deep dive on model                              │
+│     Topics: Unit economics, expansion plan, competitive moat               │
+│   ✓ Decision point: Proceed to due diligence?                              │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   WEEK 3-4: Due Diligence                                                  │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   ✓ Data room access granted (password protected)                          │
+│   ✓ Financial model deep dive (CFO + Investor analyst)                     │
+│   ✓ Market research review                                                 │
+│   ✓ Reference checks (if applicable)                                       │
+│   ✓ Legal entity review (corporate counsel)                                │
+│   ✓ Site visit to Mexico (optional but recommended)                        │
+│   ✓ Meet Medical Director candidate (if identified)                        │
+│                                                                             │
+│   Questions addressed:                                                     │
+│   • Regulatory: Is ibogaine really legal? What's the risk?                 │
+│   • Financial: Are projections realistic?                                  │
+│   • Team: Can these founders execute?                                      │
+│   • Market: Is $1T market size real?                                       │
+│   • Exit: Who would acquire this?                                          │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   WEEK 5: Term Sheet Negotiation                                           │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   ✓ Investor proposes valuation and terms                                  │
+│   ✓ Founder reviews with legal counsel                                     │
+│   ✓ Negotiation on key points:                                             │
+│     - Valuation ($15M pre suggested, negotiable $12-18M range)             │
+│     - Liquidation preference (1x non-participating standard)               │
+│     - Board seats (2 founder, 1 investor standard)                         │
+│     - Protective provisions (standard list)                                │
+│     - Option pool size (15% standard)                                      │
+│   ✓ Term sheet signed (non-binding except exclusivity)                     │
+│   ✓ 30-day exclusivity period begins                                       │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   WEEK 6-8: Legal Documentation                                            │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   ✓ Investor counsel drafts definitive agreements:                         │
+│     - Stock Purchase Agreement                                             │
+│     - Investor Rights Agreement                                            │
+│     - Right of First Refusal & Co-Sale Agreement                           │
+│     - Voting Agreement                                                     │
+│     - Amended & Restated Certificate of Incorporation                      │
+│   ✓ Company counsel reviews and negotiates                                 │
+│   ✓ Back-and-forth on specific language (1-2 weeks)                        │
+│   ✓ Final documents circulated for signature                               │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   WEEK 9: Closing                                                          │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   ✓ All documents signed (DocuSign)                                        │
+│   ✓ Wire transfer executed ($5M → company bank account)                    │
+│   ✓ Stock certificates issued to investors                                 │
+│   ✓ Cap table updated (Carta or equivalent)                                │
+│   ✓ Board resolutions filed                                                │
+│   ✓ Press release (if mutually agreed)                                     │
+│   ✓ Investor welcome packet sent                                           │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   POST-CLOSING: Onboarding                                                 │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   ✓ First board meeting scheduled (within 30 days)                         │
+│   ✓ Quarterly reporting cadence established                                │
+│   ✓ Investor introductions to advisors/partners                            │
+│   ✓ Add investor to company Slack/communication channels                   │
+│   ✓ Celebrate! 🎉                                                          │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   COSTS & FEES                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Company Legal Fees:     $40-80k (Gunderson Dettmer or equivalent)        │
+│   Investor Legal Fees:    Investor pays (typically $15-30k)                │
+│   Due Diligence Costs:    $5-10k (audits, background checks)               │
+│   State Filing Fees:      $500-1,000                                       │
+│   Cap Table Management:   $2k/year (Carta)                                 │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Total Transaction Cost: $50-100k (included in use of funds)              │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Contact & Next Steps
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│                         LET'S START A CONVERSATION                          │
+│                                                                             │
+│   We're seeking partners, not just capital.                                │
+│   If you're aligned with our mission and can add strategic value,          │
+│   we'd love to explore working together.                                   │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   FOUNDER CONTACT                                                          │
+│   [Name], Founder & CEO                                                    │
+│   Email: [email@transformationalepicenter.com]                             │
+│   Phone: [+1-XXX-XXX-XXXX]                                                 │
+│   Calendar: [calendly.com/te-founder]                                      │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   IMMEDIATE NEXT STEPS                                                     │
+│                                                                             │
+│   1. REQUEST DATA ROOM ACCESS                                              │
+│      → Email with subject: "DATA ROOM REQUEST"                             │
+│      → Receive password within 24 hours                                    │
+│      → Full financial model, research, legal docs available                │
+│                                                                             │
+│   2. SCHEDULE INTRO CALL (30 MIN)                                          │
+│      → Use calendar link above                                             │
+│      → We'll walk through opportunity and answer questions                 │
+│      → Zero pressure, exploratory conversation                             │
+│                                                                             │
+│   3. DOWNLOAD EXECUTIVE SUMMARY                                            │
+│      → 2-page overview for quick evaluation                                │
+│      → Shareable with co-investors (with permission)                       │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   "The best time to plant a tree was 20 years ago.                         │
+│    The second best time is now."                                           │
+│                                                                             │
+│   This is the moment to build the world's first integrated                 │
+│   transformation platform. Join us.                                        │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
