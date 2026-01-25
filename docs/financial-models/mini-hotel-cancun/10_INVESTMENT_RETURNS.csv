@@ -1,0 +1,146 @@
+INVESTMENT RETURNS & VALUATION
+ROI Analysis Exit Scenarios and Investor Returns
+
+INVESTMENT STRUCTURE
+Component,Amount,Percentage,Notes
+Total Capital Required,$10867500,100.0%,Full project funding
+Equity Investment,$10867500,100.0%,Assuming all-equity for base case
+Debt Financing,$0,0.0%,Optional leverage scenario below
+
+RETURN ON INVESTMENT ANALYSIS
+Metric,Year 1,Year 2,Year 3,Year 4,Year 5
+
+BASE CASE RETURNS
+Total Investment,$10867500,$10867500,$10867500,$10867500,$10867500
+Cumulative Cash Flow,-$34566,$2429940,$5459732,$8678899,$12044069
+ROI (Cumulative),-0.3%,22.4%,50.2%,79.9%,110.8%
+Annualized ROI,-0.3%,11.2%,16.7%,20.0%,22.2%
+
+CONSERVATIVE CASE
+Cumulative Cash Flow,-$856789,$1308051,$3177859,$5147667,$7237475
+ROI (Cumulative),-7.9%,12.0%,29.2%,47.4%,66.6%
+Annualized ROI,-7.9%,6.0%,9.7%,11.8%,13.3%
+
+AGGRESSIVE CASE
+Cumulative Cash Flow,$787466,$4252972,$8282764,$12551931,$16967101
+ROI (Cumulative),7.2%,39.1%,76.2%,115.5%,156.1%
+Annualized ROI,7.2%,19.6%,25.4%,28.9%,31.2%
+
+NET PRESENT VALUE ANALYSIS
+Discount Rate,5-Year NPV,IRR
+8%,$5842890,18.5%
+10% (Base),$4521287,18.5%
+12%,$3350124,18.5%
+15%,$1890456,18.5%
+
+NPV BY SCENARIO
+Scenario,5-Year NPV @ 10%,IRR,Payback Period
+Conservative,$2890145,12.3%,5.8 years
+Base Case,$4521287,18.5%,4.2 years
+Aggressive,$6352890,24.7%,3.4 years
+
+INTERNAL RATE OF RETURN DETAIL
+Year,Cash Flow,Cumulative,PV @ 18.5%
+Year 0,-$10867500,-$10867500,-$10867500
+Year 1,-$34566,-$10902066,-$29167
+Year 2,$2464506,-$8437560,$1754230
+Year 3,$3029792,-$5407768,$1820456
+Year 4,$3219167,-$2188601,$1632789
+Year 5,$3365170,$1176569,$1439192
+IRR,18.5%,,
+
+MULTIPLE ON INVESTED CAPITAL (MOIC)
+Exit Year,Total Distributions,MOIC,Notes
+Year 3,$5459732,0.50x,Early exit - below cost
+Year 5,$12044069,1.11x,Distributions only
+Year 5 + Exit,$42873213,3.95x,With terminal value sale
+
+EXIT VALUATION SCENARIOS
+Metric,Conservative,Base,Aggressive
+
+YEAR 5 FINANCIALS
+Revenue,$9708204,$11633280,$11619432
+EBITDA,$3435062,$4568815,$4801724
+Net Income,$1724543,$2750170,$3201207
+
+VALUATION MULTIPLES
+Revenue Multiple,2.0x,2.5x,3.0x
+EBITDA Multiple,4.0x,5.0x,6.0x
+P/E Multiple,8.0x,10.0x,12.0x
+
+ENTERPRISE VALUE (EBITDA METHOD)
+EBITDA,$3435062,$4568815,$4801724
+Multiple,4.0x,5.0x,6.0x
+Enterprise Value,$13740248,$22844075,$28810344
+
+EQUITY VALUE
+Enterprise Value,$13740248,$22844075,$28810344
+Plus: Cash,$5500000,$7985069,$9500000
+Less: Debt,$0,$0,$0
+Equity Value,$19240248,$30829144,$38310344
+
+INVESTOR RETURNS AT EXIT
+Initial Investment,$10867500,$10867500,$10867500
+Cumulative Dividends (Y1-5),$0,$1500000,$2000000
+Exit Proceeds,$19240248,$30829144,$38310344
+Total Returns,$19240248,$32329144,$40310344
+MOIC,1.77x,2.97x,3.71x
+IRR,12.4%,24.3%,30.1%
+
+LEVERAGED RETURNS SCENARIO
+Assuming 50% debt financing at 8% interest
+
+CAPITAL STRUCTURE
+Equity Investment,$5433750,50%
+Debt Financing,$5433750,50%
+Total Investment,$10867500,100%
+
+ANNUAL DEBT SERVICE
+Interest (8%),$434700,
+Principal (5-year),,$1086750,
+Total Annual Payment,$1521450,
+
+LEVERAGED RETURNS
+Metric,Base Case (Levered),Base Case (Unlevered)
+Year 5 EBITDA,$4568815,$4568815
+Less: Interest,$434700,$0
+Less: Principal,$1086750,$0
+Free Cash to Equity,$3047365,$4568815
+Equity IRR,28.7%,18.5%
+Equity MOIC,4.2x,2.97x
+
+COMPARABLE TRANSACTIONS
+Company/Deal,EBITDA Multiple,Revenue Multiple,Notes
+Luxury Wellness Resort,6.0-8.0x,2.5-3.5x,Premium branded
+Boutique Hotel (Mexico),4.0-5.0x,2.0-2.5x,Standard hospitality
+Medical Tourism Facility,5.0-7.0x,2.0-3.0x,Healthcare premium
+Applied Multiple (Base),5.0x,2.5x,Conservative for new operation
+
+INVESTOR EQUITY WATERFALL
+Investor Class,Allocation,Year 5 Distribution
+Senior Preferred,40%,$13131658
+Common Equity,60%,$19697486
+TOTAL,100%,$32829144
+
+RETURN DISTRIBUTION
+Return Threshold,Distribution
+0-1.0x MOIC,100% to Preferred
+1.0-2.0x MOIC,80% Preferred / 20% Common
+2.0-3.0x MOIC,60% Preferred / 40% Common
+>3.0x MOIC,50% Preferred / 50% Common
+
+KEY INVESTMENT METRICS SUMMARY
+Metric,Value,Benchmark,Assessment
+Project IRR,18.5%,15% target,Exceeds ✓
+5-Year MOIC,2.97x,2.5x target,Exceeds ✓
+Payback Period,4.2 years,5 years max,Meets ✓
+Year 5 Cash Yield,31%,20% target,Exceeds ✓
+Risk-Adjusted Return,Strong,,Above average
+
+INVESTOR RECOMMENDATION
+The Mini Hotel Cancun project offers attractive financial returns
+18.5% IRR and 2.97x MOIC in base case
+However critical brand alignment concerns must be addressed
+Urban location incompatible with premium wellness positioning
+Consider as support facility rather than primary treatment center
+If proceeding financial returns are compelling despite brand risk

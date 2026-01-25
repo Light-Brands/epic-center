@@ -1,0 +1,112 @@
+ASSUMPTIONS TAB
+All model inputs and adjustable parameters
+
+PROPERTY ASSUMPTIONS
+Parameter,Base Case,Conservative,Aggressive,Notes/Source
+Acquisition Price (USD),$1100000,$1100000,$1100000,Listing price - fixed
+Total Guest Rooms,20,20,20,Existing room count
+Target Room Capacity After Conversion,16,14,18,Some rooms converted to treatment/common areas
+Usable Beds Per Room,1,1,1,Private occupancy for wellness retreats
+Land Size (sqm),TBD,TBD,TBD,Requires site visit verification
+Building Size (sqm),TBD,TBD,TBD,Requires site visit verification
+
+RENOVATION & CONVERSION ASSUMPTIONS
+Category,Base Cost,Low Estimate,High Estimate,Basis
+Medical Suite Build-out,$800000,$650000,$1000000,Full ICU/monitoring capability
+Treatment/Ceremony Rooms,$400000,$300000,$500000,2-3 dedicated treatment spaces
+Commercial Kitchen Upgrade,$200000,$150000,$300000,Special diet/wellness food prep
+Guest Bathroom Upgrades,$400000,$300000,$500000,$25K per bathroom wellness standard
+Staff Quarters,$300000,$200000,$400000,On-site staff housing
+Group/Integration Space,$300000,$200000,$400000,Large group therapy/meeting rooms
+Bio-optimization Area,$1500000,$1200000,$1800000,Full diagnostic and treatment suite
+Outdoor Treatment Areas,$200000,$150000,$300000,Creative urban solutions
+Generator/Backup Power,$150000,$100000,$200000,Medical-grade backup systems
+TOTAL CONVERSION,$4250000,$3250000,$5400000,
+
+EQUIPMENT ASSUMPTIONS
+Category,Base Cost,Notes
+Medical Equipment,$750000,Hospital-grade monitoring cardiac support defibrillators
+Bio-optimization Equipment,$450000,IV therapy hyperbaric NAD+ delivery
+FF&E (Furniture Fixtures Equipment),$1000000,$50K per room including common areas
+Technology Systems,$300000,EMR systems security access control
+TOTAL EQUIPMENT,$2500000,
+
+OPERATIONAL ASSUMPTIONS
+Parameter,Base Case,Conservative,Aggressive,Notes
+Programs Per Month Per Bed,1.8,1.5,2.2,Account for turnover and prep time
+Occupancy Rate Year 1,50%,40%,60%,Ramp-up period
+Occupancy Rate Year 2,65%,55%,75%,Building reputation
+Occupancy Rate Year 3,75%,65%,85%,Established operations
+Occupancy Rate Year 4,80%,70%,90%,Mature operations
+Occupancy Rate Year 5,85%,75%,90%,Optimal utilization
+Average Stay Duration (Days),14,14,14,Based on program mix
+Seasonality Factor,10%,15%,5%,High/low season variance
+
+PRICING ASSUMPTIONS
+Program Type,Duration (Days),Price (USD),Mix %,Revenue/Guest
+7-Day Reset,7,$14000,25%,$14000
+14-Day Interruption,14,$28000,40%,$28000
+21-Day Recalibration,21,$42000,25%,$42000
+28-Day Full Transformation,28,$56000,10%,$56000
+Weighted Average,15.4,$30100,100%,$30100
+
+ADDITIONAL REVENUE STREAMS
+Revenue Type,% of Base Revenue,Year 1 Start,Notes
+Bio-optimization Add-ons,12%,Month 6,Stem cells NAD+ PRP
+Wellness Products,3%,Month 9,Supplements protocols
+Post-care Subscriptions,5%,Year 2,Monthly follow-up programs
+Corporate Wellness,0%,Year 3,Enterprise contracts
+
+COST ASSUMPTIONS - DIRECT (Per Guest)
+Cost Category,Amount,% of Revenue,Notes
+Medical Staff & Oversight,$3500,11.6%,Physician supervision per guest
+Facilitators & Therapy,$2500,8.3%,Ceremony facilitation integration
+Food & Hospitality,$2000,6.6%,14 days premium organic food
+Bio-optimization Supplies,$800,2.7%,IV supplies biologics
+Plant Medicine Materials,$500,1.7%,Ibogaine psilocybin sourcing
+Guest Amenities,$300,1.0%,Welcome kit linens
+TOTAL DIRECT COST/GUEST,$9600,31.9%,Gross margin ~68%
+
+COST ASSUMPTIONS - FIXED (Monthly)
+Cost Category,Amount,Notes
+Facility Costs,$35000,Utilities maintenance insurance
+Full-time Staff (Non-guest),$85000,Admin operations security
+Platform/Technology,$8000,Software EMR subscriptions
+Marketing,$40000,Digital content PR
+Professional Services,$15000,Legal accounting compliance
+General & Administrative,$25000,Office supplies travel misc
+TOTAL FIXED MONTHLY,$208000,~$2.5M annually
+
+STAFFING MODEL
+Role,Headcount,Monthly Cost,Annual Cost
+Medical Director,1,$25000,$300000
+Physicians (on-call),2,$15000,$180000
+Nurses,4,$8000,$96000
+Facilitators,4,$6000,$72000
+Therapists/Counselors,3,$7000,$84000
+Kitchen Staff,4,$3500,$42000
+Housekeeping,4,$2500,$30000
+Security,3,$3000,$36000
+Front Desk/Admin,2,$4000,$48000
+Operations Manager,1,$8000,$96000
+Marketing/Sales,2,$6000,$72000
+IT/Technology,1,$5000,$60000
+TOTAL STAFF,31,$93000,$1116000
+
+REGULATORY & COMPLIANCE COSTS
+Category,One-time Cost,Annual Cost,Notes
+Legal/Consulting Fees,$75000,$25000,Initial setup + ongoing
+Permit Fees,$30000,$10000,COFEPRIS SSA municipal
+Credential Validation,$15000,$5000,Foreign physician licensing
+Fideicomiso (Bank Trust),$5000,$2000,Coastal property requirement
+Insurance,$50000,$150000,Medical liability property
+TOTAL REGULATORY,$175000,$192000,
+
+FINANCIAL ASSUMPTIONS
+Parameter,Value,Notes
+Discount Rate (WACC),10%,Blended cost of capital
+Tax Rate (Mexico),30%,Corporate income tax
+Working Capital % Revenue,15%,Cash buffer requirement
+Contingency Buffer,15%,All estimates
+Inflation Rate (Mexico),4%,Annual cost escalation
+USD/MXN Exchange Rate,17.5,Current assumption
