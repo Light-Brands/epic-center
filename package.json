@@ -2,23 +2,33 @@
   "name": "transformational-epicenter",
   "version": "0.1.0",
   "private": true,
-  "description": "Transformational Epicenter - A luxury medical retreat platform for deep healing through plant medicine, bio-optimization, and trauma integration",
-  "keywords": [
-    "wellness",
-    "medical retreat",
-    "healing",
-    "ibogaine",
-    "bio-optimization"
-  ],
-  "homepage": "https://github.com/danlawless/epic-center",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/danlawless/epic-center.git"
-  },
-  "license": "UNLICENSED",
+  "description": "Transformational Epicenter - Investor pitch website for a luxury medical retreat platform",
   "scripts": {
-    "start": "npx serve src/web",
-    "dev": "npx serve src/web -l 3000"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.14.1",
+    "framer-motion": "^11.15.0",
+    "lucide-react": "^0.469.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.21",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
   },
   "engines": {
     "node": ">=18.0.0"

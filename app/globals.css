@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-neutral-50 text-neutral-700 antialiased;
+    font-feature-settings: "kern" 1, "liga" 1;
+  }
+
+  body {
+    @apply font-body min-h-screen;
+  }
+
+  h1, h2, h3 {
+    @apply font-heading text-neutral-900;
+  }
+
+  h4, h5, h6 {
+    @apply font-body text-neutral-900;
+  }
+
+  /* Allow text color inheritance in dark sections */
+  .bg-primary-800 h1, .bg-primary-800 h2, .bg-primary-800 h3,
+  .bg-primary-800 h4, .bg-primary-800 h5, .bg-primary-800 h6,
+  .bg-primary-900 h1, .bg-primary-900 h2, .bg-primary-900 h3,
+  .bg-primary-900 h4, .bg-primary-900 h5, .bg-primary-900 h6,
+  [class*="bg-gradient"] h1, [class*="bg-gradient"] h2, [class*="bg-gradient"] h3,
+  [class*="bg-gradient"] h4, [class*="bg-gradient"] h5, [class*="bg-gradient"] h6 {
+    color: inherit;
+  }
+
+  /* Also handle paragraphs and other text in dark sections */
+  .bg-primary-800, .bg-primary-900, [class*="from-primary-8"], [class*="from-primary-9"] {
+    color: white;
+  }
+
+  .bg-primary-800 p, .bg-primary-800 span, .bg-primary-800 li,
+  .bg-primary-900 p, .bg-primary-900 span, .bg-primary-900 li {
+    color: inherit;
+  }
+
+  /* Typography styles */
+  h1 {
+    @apply text-5xl font-normal tracking-tight;
+  }
+
+  h2 {
+    @apply text-4xl font-normal tracking-tight;
+  }
+
+  h3 {
+    @apply text-2xl font-medium;
+  }
+
+  h4 {
+    @apply text-xl font-semibold;
+  }
+
+  /* Focus styles for accessibility */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-primary-600 ring-offset-2;
+  }
+}
+
+@layer components {
+  /* Button base styles */
+  .btn {
+    @apply inline-flex items-center justify-center font-accent text-sm font-medium uppercase tracking-wide;
+    @apply transition-all duration-200;
+    @apply disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-primary {
+    @apply btn bg-primary-800 text-white hover:bg-primary-700;
+    @apply px-7 py-3.5;
+  }
+
+  .btn-secondary {
+    @apply btn bg-transparent text-primary-800 border border-primary-800;
+    @apply hover:bg-primary-800 hover:text-white;
+    @apply px-7 py-3.5;
+  }
+
+  .btn-accent {
+    @apply btn bg-secondary-400 text-primary-900 hover:bg-secondary-500;
+    @apply px-7 py-3.5;
+  }
+
+  .btn-ghost {
+    @apply btn bg-transparent text-primary-800;
+    @apply hover:underline underline-offset-4;
+  }
+
+  /* Card styles */
+  .card {
+    @apply bg-neutral-100 rounded-lg shadow-card;
+    @apply transition-shadow duration-200;
+  }
+
+  .card-hover {
+    @apply card hover:shadow-card-hover;
+  }
+
+  /* Container */
+  .container-narrow {
+    @apply max-w-container-lg mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .container-wide {
+    @apply max-w-container-2xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+@layer utilities {
+  /* Text styles */
+  .text-body-large {
+    @apply text-lg font-normal leading-relaxed;
+  }
+
+  .text-caption {
+    @apply font-accent text-xs font-medium tracking-wide;
+  }
+
+  /* Status badge utilities */
+  .status-shortlist {
+    @apply bg-success-50 text-success-700;
+  }
+
+  .status-hold {
+    @apply bg-warning-50 text-warning-700;
+  }
+
+  .status-pass {
+    @apply bg-error-50 text-error-700;
+  }
+
+  /* Chart grid lines */
+  .chart-grid {
+    stroke: theme('colors.neutral.200');
+    stroke-dasharray: 3, 3;
+  }
+}
