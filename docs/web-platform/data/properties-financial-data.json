@@ -1,0 +1,535 @@
+{
+  "_metadata": {
+    "source": "Google Sheets - MULTI UNIT - FINANCIAL MODEL DASHBOARD",
+    "spreadsheetId": "1Z0_N_V2gM-0rpW3IP9oRO12nmj51XwcTV_9R9fNsyWo",
+    "lastSynced": "2026-01-25",
+    "modelDate": "January 2026"
+  },
+
+  "properties": {
+    "hotel-alea-tulum": {
+      "id": "hotel-alea-tulum",
+      "name": "Hotel Alea Tulum",
+      "location": "Bahía de Solimán, Tulum, Q.R.",
+      "propertyType": "Operating 4-star boutique hotel",
+      "currentUse": "Hotel operations",
+      "targetMarket": "HNW Individuals",
+      "propertyScore": 75,
+      "status": "SHORTLIST",
+      "statusReason": "Top Candidate - Resolve medical infrastructure",
+
+      "capacity": {
+        "totalRooms": 21,
+        "usableTreatmentBeds": {
+          "base": 17,
+          "conservative": 15,
+          "aggressive": 19
+        },
+        "maxGuestsPerYear": 310,
+        "averageStayDays": 17
+      },
+
+      "acquisition": {
+        "purchasePrice": 6400000,
+        "closingCosts": 192000,
+        "titleInsurance": 64000,
+        "dueDiligence": 50000,
+        "legalFees": 35000,
+        "fideicomisoSetup": 8000,
+        "currencyHedge": 25000,
+        "totalAcquisition": 6774000
+      },
+
+      "renovation": {
+        "medicalSuiteBuildout": 1000000,
+        "treatmentCeremonyRooms": 500000,
+        "commercialKitchenUpgrade": 250000,
+        "guestBathroomUpgrades": 500000,
+        "staffQuartersExpansion": 400000,
+        "groupIntegrationSpaces": 300000,
+        "bioOptimizationCenter": 1500000,
+        "outdoorTreatmentAreas": 400000,
+        "generatorBackupPower": 200000,
+        "helipadConstruction": 300000,
+        "totalRenovation": 5350000
+      },
+
+      "otherCapital": {
+        "medicalEquipment": 1000000,
+        "bioOptimizationEquipment": 600000,
+        "ffAndE": 1300000,
+        "technology": 370000,
+        "preOpening": 565000,
+        "workingCapital": 1700000,
+        "contingencyRate": 0.15
+      },
+
+      "totalProjectCost": 19036750,
+      "costPerRoom": 906512,
+
+      "pricing": {
+        "priceMultiplier": 1.0,
+        "averageDailyRate": 2321,
+        "averageRevenuePerGuest": 39457,
+        "totalRevenuePerGuestWithAddons": 48138,
+        "programs": {
+          "7DayReset": { "days": 7, "dailyRate": 2500, "totalPrice": 17500, "mix": 0.20 },
+          "14DayInterruption": { "days": 14, "dailyRate": 2400, "totalPrice": 33600, "mix": 0.35 },
+          "21DayRecalibration": { "days": 21, "dailyRate": 2300, "totalPrice": 48300, "mix": 0.30 },
+          "28DayTransformation": { "days": 28, "dailyRate": 2200, "totalPrice": 61600, "mix": 0.15 }
+        }
+      },
+
+      "directCostsPerGuest": {
+        "medicalStaffOversight": 4200,
+        "facilitatorsTherapy": 3000,
+        "foodHospitality": 2800,
+        "bioOptimizationSupplies": 1200,
+        "plantMedicineMaterials": 600,
+        "guestAmenities": 500,
+        "medicalEvacuationReserve": 300,
+        "totalDirectCost": 12600,
+        "grossMarginPerGuest": 35538,
+        "grossMarginPercent": 0.68
+      },
+
+      "fixedCostsMonthly": {
+        "facility": 48000,
+        "personnel": 167500,
+        "professionalServices": 19000,
+        "technology": 12000,
+        "marketing": 55000,
+        "gAndA": 42000,
+        "totalFixed": 343500
+      },
+
+      "occupancyAssumptions": {
+        "year1": { "base": 0.45, "conservative": 0.35, "aggressive": 0.55 },
+        "year2": { "base": 0.60, "conservative": 0.50, "aggressive": 0.70 },
+        "year3": { "base": 0.72, "conservative": 0.62, "aggressive": 0.80 },
+        "year4": { "base": 0.78, "conservative": 0.68, "aggressive": 0.85 },
+        "year5": { "base": 0.82, "conservative": 0.72, "aggressive": 0.88 }
+      },
+
+      "revenueProjections": {
+        "base": {
+          "year1": 7614215,
+          "year2": 11212101,
+          "year3": 13434319,
+          "year4": 14545428,
+          "year5": 15303003,
+          "fiveYearTotal": 62109066
+        },
+        "conservative": {
+          "year1": 5853446,
+          "year2": 9124431,
+          "year3": 11294566,
+          "year4": 12379634,
+          "year5": 13119453,
+          "fiveYearTotal": 51771530
+        },
+        "aggressive": {
+          "year1": 9611725,
+          "year2": 13029688,
+          "year3": 14840764,
+          "year4": 15796610,
+          "year5": 16349994,
+          "fiveYearTotal": 69628781
+        }
+      },
+
+      "profitability": {
+        "base": {
+          "year1": { "ebitda": 1400615, "netIncome": 348864, "ebitdaMargin": 0.18, "netMargin": 0.05 },
+          "year2": { "ebitda": 4016133, "netIncome": 2179727, "ebitdaMargin": 0.36, "netMargin": 0.19 },
+          "year3": { "ebitda": 5350874, "netIncome": 3114045, "ebitdaMargin": 0.40, "netMargin": 0.23 },
+          "year4": { "ebitda": 5826833, "netIncome": 3447216, "ebitdaMargin": 0.40, "netMargin": 0.24 },
+          "year5": { "ebitda": 6014560, "netIncome": 3578625, "ebitdaMargin": 0.39, "netMargin": 0.23 }
+        },
+        "fiveYearTotals": {
+          "ebitda": 22609014,
+          "netIncome": 12668476,
+          "grossProfit": 44935095,
+          "avgGrossMargin": 0.72,
+          "avgEbitdaMargin": 0.36,
+          "avgNetMargin": 0.20
+        }
+      },
+
+      "investmentReturns": {
+        "conservative": { "irr": 0.2279, "moic": 1.76, "exitMultiple": 4.5, "enterpriseValue": 31560149 },
+        "base": { "irr": 0.2954, "moic": 2.61, "exitMultiple": 5.5, "enterpriseValue": 45464746 },
+        "aggressive": { "irr": 0.36, "moic": 3.55, "exitMultiple": 7.0, "enterpriseValue": 62040341 }
+      },
+
+      "cashFlow": {
+        "year1": 2941102,
+        "year2": 5603066,
+        "year3": 8364349,
+        "year4": 10608803,
+        "year5": 12384667
+      },
+
+      "unitEconomics": {
+        "blendedCAC": 2613,
+        "revenuePerGuest": 48138,
+        "directCostPerGuest": 12600,
+        "grossProfitPerGuest": 35538,
+        "contributionMarginPerGuest": 33932,
+        "contributionMarginPercent": 0.70,
+        "breakEvenOccupancy": 0.42
+      },
+
+      "fundingAllocation": {
+        "acquisition": { "amount": 6774000, "percentage": 0.36 },
+        "renovationConversion": { "amount": 5350000, "percentage": 0.28 },
+        "medicalEquipment": { "amount": 1000000, "percentage": 0.05 },
+        "bioOptimizationEquipment": { "amount": 600000, "percentage": 0.03 },
+        "ffAndE": { "amount": 1300000, "percentage": 0.07 },
+        "technology": { "amount": 370000, "percentage": 0.02 },
+        "preOpening": { "amount": 565000, "percentage": 0.03 },
+        "workingCapital": { "amount": 1700000, "percentage": 0.09 },
+        "contingency": { "amount": 1377750, "percentage": 0.07 }
+      }
+    },
+
+    "hacienda-caracol": {
+      "id": "hacienda-caracol",
+      "name": "Hacienda Caracol",
+      "location": "Soliman Bay, Tulum, Q.R.",
+      "propertyType": "Luxury vacation rental",
+      "currentUse": "Vacation rental ($2,425/night)",
+      "targetMarket": "U-HNW Individuals",
+      "propertyScore": 76,
+      "status": "HOLD",
+      "statusReason": "Pending medical infrastructure verification",
+
+      "capacity": {
+        "totalRooms": 10,
+        "usableTreatmentBeds": {
+          "base": 8,
+          "conservative": 7,
+          "aggressive": 9
+        },
+        "maxGuestsPerYear": 146,
+        "averageStayDays": 17
+      },
+
+      "acquisition": {
+        "purchasePrice": 4900000,
+        "closingCosts": 147000,
+        "titleInsurance": 49000,
+        "dueDiligence": 50000,
+        "legalFees": 35000,
+        "fideicomisoSetup": 8000,
+        "currencyHedge": 20000,
+        "totalAcquisition": 5209000
+      },
+
+      "renovation": {
+        "medicalSuiteBuildout": 1000000,
+        "treatmentCeremonyRooms": 400000,
+        "commercialKitchenUpgrade": 200000,
+        "guestBathroomUpgrades": 200000,
+        "staffQuartersExpansion": 300000,
+        "groupIntegrationSpaces": 250000,
+        "bioOptimizationCenter": 1200000,
+        "outdoorTreatmentAreas": 300000,
+        "generatorBackupPower": 200000,
+        "helipadConstruction": 150000,
+        "totalRenovation": 4200000
+      },
+
+      "otherCapital": {
+        "medicalEquipment": 750000,
+        "bioOptimizationEquipment": 450000,
+        "ffAndE": 600000,
+        "technology": 300000,
+        "preOpening": 400000,
+        "workingCapital": 1000000,
+        "contingencyRate": 0.15
+      },
+
+      "pricing": {
+        "priceMultiplier": 1.36,
+        "averageDailyRate": 3157,
+        "averageRevenuePerGuest": 53669,
+        "note": "Premium pricing for U-HNW tier"
+      },
+
+      "directCostsPerGuest": {
+        "totalDirectCost": 11500,
+        "note": "Lower per-guest cost due to smaller scale"
+      },
+
+      "fixedCostsMonthly": {
+        "facility": 30000,
+        "personnel": 95000,
+        "professionalServices": 12000,
+        "technology": 10000,
+        "marketing": 35000,
+        "gAndA": 28000,
+        "totalFixed": 210000
+      },
+
+      "capacityScaleFactor": 0.55
+    },
+
+    "mini-hotel-cancun": {
+      "id": "mini-hotel-cancun",
+      "name": "Mini Hotel Cancún",
+      "location": "Cancún, Q.R.",
+      "propertyType": "Operating mini hotel",
+      "currentUse": "Mini hotel operations",
+      "targetMarket": "HNW Individuals",
+      "propertyScore": 79,
+      "status": "PASS",
+      "statusReason": "Brand misalignment - urban location incompatible with wellness brand",
+
+      "capacity": {
+        "totalRooms": 20,
+        "usableTreatmentBeds": {
+          "base": 16,
+          "conservative": 14,
+          "aggressive": 18
+        },
+        "maxGuestsPerYear": 292,
+        "averageStayDays": 17
+      },
+
+      "acquisition": {
+        "purchasePrice": 1100000,
+        "closingCosts": 33000,
+        "titleInsurance": 11000,
+        "dueDiligence": 50000,
+        "legalFees": 35000,
+        "fideicomisoSetup": 8000,
+        "currencyHedge": 15000,
+        "totalAcquisition": 1252000
+      },
+
+      "renovation": {
+        "medicalSuiteBuildout": 800000,
+        "treatmentCeremonyRooms": 400000,
+        "commercialKitchenUpgrade": 200000,
+        "guestBathroomUpgrades": 400000,
+        "staffQuartersExpansion": 300000,
+        "groupIntegrationSpaces": 300000,
+        "bioOptimizationCenter": 1500000,
+        "outdoorTreatmentAreas": 200000,
+        "generatorBackupPower": 150000,
+        "helipadConstruction": 0,
+        "totalRenovation": 4250000
+      },
+
+      "otherCapital": {
+        "medicalEquipment": 750000,
+        "bioOptimizationEquipment": 450000,
+        "ffAndE": 1000000,
+        "technology": 300000,
+        "preOpening": 400000,
+        "workingCapital": 1200000,
+        "contingencyRate": 0.15
+      },
+
+      "pricing": {
+        "priceMultiplier": 1.0,
+        "averageDailyRate": 2321,
+        "averageRevenuePerGuest": 39457
+      },
+
+      "directCostsPerGuest": {
+        "totalDirectCost": 12000
+      },
+
+      "fixedCostsMonthly": {
+        "facility": 35000,
+        "personnel": 140000,
+        "professionalServices": 15000,
+        "technology": 10000,
+        "marketing": 45000,
+        "gAndA": 35000,
+        "totalFixed": 280000
+      },
+
+      "capacityScaleFactor": 0.80,
+      "alternativeUseRecommendation": "Admin hub, guest check-in point, or staff training facility"
+    },
+
+    "casa-sueno-de-mar": {
+      "id": "casa-sueno-de-mar",
+      "name": "Casa Sueño de Mar",
+      "location": "Tulum Country Club, Akumal, Q.R.",
+      "propertyType": "Residential (gated community)",
+      "currentUse": "Residential",
+      "targetMarket": "HNW Individuals",
+      "propertyScore": 66,
+      "status": "PASS",
+      "statusReason": "Residential zoning prohibits medical operations; HOA/CCR restrictions",
+
+      "capacity": {
+        "totalRooms": 7,
+        "usableTreatmentBeds": {
+          "base": 6,
+          "conservative": 5,
+          "aggressive": 7
+        },
+        "maxGuestsPerYear": 110,
+        "averageStayDays": 17
+      },
+
+      "acquisition": {
+        "purchasePrice": 3990000,
+        "closingCosts": 119700,
+        "titleInsurance": 39900,
+        "dueDiligence": 50000,
+        "legalFees": 35000,
+        "fideicomisoSetup": 8000,
+        "currencyHedge": 20000,
+        "totalAcquisition": 4262600
+      },
+
+      "renovation": {
+        "medicalSuiteBuildout": 800000,
+        "treatmentCeremonyRooms": 400000,
+        "commercialKitchenUpgrade": 300000,
+        "guestBathroomUpgrades": 300000,
+        "staffQuartersExpansion": 400000,
+        "groupIntegrationSpaces": 250000,
+        "bioOptimizationCenter": 1000000,
+        "outdoorTreatmentAreas": 200000,
+        "generatorBackupPower": 200000,
+        "helipadConstruction": 0,
+        "totalRenovation": 3850000
+      },
+
+      "otherCapital": {
+        "medicalEquipment": 600000,
+        "bioOptimizationEquipment": 350000,
+        "ffAndE": 400000,
+        "technology": 250000,
+        "preOpening": 300000,
+        "workingCapital": 600000,
+        "contingencyRate": 0.15
+      },
+
+      "pricing": {
+        "priceMultiplier": 1.0,
+        "averageDailyRate": 2321,
+        "averageRevenuePerGuest": 39457
+      },
+
+      "directCostsPerGuest": {
+        "totalDirectCost": 10000
+      },
+
+      "fixedCostsMonthly": {
+        "facility": 35000,
+        "personnel": 100000,
+        "professionalServices": 15000,
+        "technology": 10000,
+        "marketing": 35000,
+        "gAndA": 30000,
+        "totalFixed": 225000
+      },
+
+      "capacityScaleFactor": 0.45,
+      "disqualificationReasons": [
+        "Residential zoning prohibits medical operations",
+        "HOA/CCR restrictions on commercial use",
+        "Highest cost per room ($1.699M)",
+        "Smallest capacity (7 rooms)"
+      ]
+    }
+  },
+
+  "portfolioSummary": {
+    "totalPropertiesEvaluated": 4,
+    "shortlisted": 1,
+    "onHold": 1,
+    "passed": 2,
+
+    "comparisonMatrix": {
+      "askingPrice": {
+        "hotelAleaTulum": 6400000,
+        "haciendaCaracol": 4900000,
+        "miniHotelCancun": 1100000,
+        "casaSuenoDeMar": 3990000
+      },
+      "totalRooms": {
+        "hotelAleaTulum": 21,
+        "haciendaCaracol": 10,
+        "miniHotelCancun": 20,
+        "casaSuenoDeMar": 7
+      },
+      "propertyScore": {
+        "hotelAleaTulum": 75,
+        "haciendaCaracol": 76,
+        "miniHotelCancun": 79,
+        "casaSuenoDeMar": 66
+      },
+      "costPerRoom": {
+        "hotelAleaTulum": 906512,
+        "haciendaCaracol": "TBD - Calculate from totals",
+        "miniHotelCancun": "TBD - Calculate from totals",
+        "casaSuenoDeMar": "TBD - Calculate from totals"
+      }
+    },
+
+    "recommendedStrategy": {
+      "primary": "Hotel Alea Tulum",
+      "secondary": "Hacienda Caracol (pending medical verification)",
+      "dualPropertyTotal": "~$32-35M combined investment",
+      "blendedCapacity": "31 rooms (25 usable treatment beds)"
+    }
+  },
+
+  "programPricing": {
+    "hnwTier": {
+      "baseDailyRate": 2321,
+      "programs": [
+        { "name": "7-Day Reset", "days": 7, "dailyRate": 2500, "totalPrice": 17500, "mix": 0.20 },
+        { "name": "14-Day Interruption", "days": 14, "dailyRate": 2400, "totalPrice": 33600, "mix": 0.35 },
+        { "name": "21-Day Recalibration", "days": 21, "dailyRate": 2300, "totalPrice": 48300, "mix": 0.30 },
+        { "name": "28-Day Transformation", "days": 28, "dailyRate": 2200, "totalPrice": 61600, "mix": 0.15 }
+      ],
+      "weightedAverageDuration": 17,
+      "weightedAveragePrice": 39457
+    },
+    "uhnwTier": {
+      "priceMultiplier": 1.36,
+      "baseDailyRate": 3157,
+      "weightedAveragePrice": 53669
+    },
+    "addOnRevenue": {
+      "bioOptimizationPremium": { "percentOfBase": 0.15, "startMonth": 4 },
+      "wellnessProducts": { "percentOfBase": 0.04, "startMonth": 6 },
+      "postCareSubscriptions": { "percentOfBase": 0.06, "startYear": 2 },
+      "conciergeServices": { "percentOfBase": 0.03, "startMonth": 1 },
+      "totalAddOnPotential": 0.25
+    }
+  },
+
+  "sensitivityScenarios": {
+    "conservative": {
+      "probability": 0.25,
+      "occupancyMultiplier": 0.85,
+      "notes": "Lower demand, slower ramp-up"
+    },
+    "base": {
+      "probability": 0.50,
+      "occupancyMultiplier": 1.0,
+      "notes": "Expected performance"
+    },
+    "aggressive": {
+      "probability": 0.20,
+      "occupancyMultiplier": 1.15,
+      "notes": "Strong demand, faster ramp-up"
+    },
+    "downside": {
+      "probability": 0.05,
+      "occupancyMultiplier": 0.50,
+      "notes": "Significant market or operational challenges"
+    }
+  }
+}

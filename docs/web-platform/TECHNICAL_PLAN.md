@@ -467,23 +467,24 @@ What's Included:
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-#### Portfolio Summary (Visual Grid)
+#### Portfolio Summary (Visual Grid) — Data from Google Sheets Model
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                                                                             │
 │   ┌─────────────────────────┐     ┌─────────────────────────┐              │
 │   │                         │     │                         │              │
-│   │    HACIENDA CARACOL     │     │    HOTEL ALEA TULUM     │              │
+│   │    HOTEL ALEA TULUM     │     │    HACIENDA CARACOL     │              │
 │   │    ──────────────────   │     │    ──────────────────   │              │
-│   │    📍 Soliman Bay       │     │    📍 Tankah Bay        │              │
-│   │    💰 $4.9M asking      │     │    💰 $6.4M asking      │              │
-│   │    🛏️ 10 rooms          │     │    🛏️ 21 rooms          │              │
-│   │    📊 76/100            │     │    📊 75/100            │              │
-│   │    💵 $13.9M total      │     │    💵 $19.0M total      │              │
-│   │    📈 29.88% IRR        │     │    📈 28.51% IRR        │              │
+│   │    📍 Bahía de Solimán  │     │    📍 Soliman Bay       │              │
+│   │    💰 $6.4M asking      │     │    💰 $4.9M asking      │              │
+│   │    🛏️ 21 rooms (17 beds)│     │    🛏️ 10 rooms (8 beds) │              │
+│   │    📊 75/100            │     │    📊 76/100            │              │
+│   │    💵 $19.04M total     │     │    💵 ~$14.5M total     │              │
+│   │    📈 29.54% IRR        │     │    📈 TBD (model pend)  │              │
+│   │    🎯 HNW Market        │     │    🎯 U-HNW Market      │              │
 │   │                         │     │                         │              │
-│   │    ⏸️ HOLD              │     │    ✅ SHORTLIST         │              │
-│   │    (Pending Medical)    │     │    (Top Candidate)      │              │
+│   │    ✅ SHORTLIST         │     │    ⏸️ HOLD              │              │
+│   │    (Top Candidate)      │     │    (Pending Medical)    │              │
 │   │                         │     │                         │              │
 │   │    [VIEW CUT SHEET →]   │     │    [VIEW CUT SHEET →]   │              │
 │   │                         │     │                         │              │
@@ -491,17 +492,18 @@ What's Included:
 │                                                                             │
 │   ┌─────────────────────────┐     ┌─────────────────────────┐              │
 │   │                         │     │                         │              │
-│   │   CASA SUEÑO DE MAR     │     │   MINI HOTEL CANCÚN     │              │
+│   │   MINI HOTEL CANCÚN     │     │   CASA SUEÑO DE MAR     │              │
 │   │   ──────────────────    │     │   ──────────────────    │              │
-│   │   📍 Akumal             │     │   📍 Central Cancún     │              │
-│   │   💰 $3.99M asking      │     │   💰 $1.1M asking       │              │
-│   │   🛏️ 7 rooms            │     │   🛏️ 20 rooms           │              │
-│   │   📊 66/100             │     │   📊 79/100             │              │
-│   │   💵 $11.5M total       │     │   💵 $10.7M total       │              │
-│   │   📈 1.13% IRR          │     │   📈 -20.00% IRR        │              │
+│   │   📍 Cancún, Q.R.       │     │   📍 Akumal/Tulum CC    │              │
+│   │   💰 $1.1M asking       │     │   💰 $3.99M asking      │              │
+│   │   🛏️ 20 rooms (16 beds) │     │   🛏️ 7 rooms (6 beds)   │              │
+│   │   📊 79/100             │     │   📊 66/100             │              │
+│   │   💵 ~$11.0M total      │     │   💵 ~$12.2M total      │              │
+│   │   📈 Non-viable         │     │   📈 Non-viable         │              │
+│   │   🎯 HNW Market         │     │   🎯 HNW Market         │              │
 │   │                         │     │                         │              │
 │   │   ❌ PASS               │     │   ❌ PASS               │              │
-│   │   (Residential Zoning)  │     │   (Brand Misalignment)  │              │
+│   │   (Brand Misalignment)  │     │   (Residential Zoning)  │              │
 │   │                         │     │                         │              │
 │   │   [VIEW ANALYSIS →]     │     │   [VIEW ANALYSIS →]     │              │
 │   │                         │     │                         │              │
@@ -510,17 +512,23 @@ What's Included:
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-#### Quick Comparison Matrix
-| Metric | Hacienda Caracol | Hotel Alea | Casa Sueño | Mini Hotel |
-|--------|------------------|------------|------------|------------|
-| **Asking Price** | $4.9M | $6.4M | $3.99M | $1.1M |
-| **Rooms** | 10 | 21 | 7 | 20 |
-| **Total Investment** | $13.9M | $19.0M | $11.5M | $10.7M |
-| **Cost/Room** | $1.449M | $928K | $1.699M | $543K |
-| **5-Year IRR** | 29.88% | 28.51% | 1.13% | -20.00% |
-| **Year 5 Revenue** | $5.9M | $15.1M | $2.1M | N/A |
-| **Score** | 76/100 | 75/100 | 66/100 | 79/100 |
-| **Verdict** | ⏸️ HOLD | ✅ GO | ❌ PASS | ❌ PASS |
+#### Quick Comparison Matrix (Synced from Google Sheets Model)
+| Metric | Hotel Alea | Hacienda Caracol | Mini Hotel | Casa Sueño |
+|--------|------------|------------------|------------|------------|
+| **Asking Price** | $6.4M | $4.9M | $1.1M | $3.99M |
+| **Total Rooms** | 21 | 10 | 20 | 7 |
+| **Usable Treatment Beds** | 17 | 8 | 16 | 6 |
+| **Total Investment** | $19.04M | ~$14.5M | ~$11.0M | ~$12.2M |
+| **Cost/Room** | $906K | ~$1.45M | ~$550K | ~$1.74M |
+| **Target Market** | HNW | U-HNW | HNW | HNW |
+| **Avg Daily Rate** | $2,321 | $3,157 | $2,321 | $2,321 |
+| **Avg Rev/Guest** | $39,457 | $53,669 | $39,457 | $39,457 |
+| **5-Year IRR (Base)** | 29.54% | TBD | N/A | N/A |
+| **Y5 Revenue (Base)** | $15.3M | TBD | N/A | N/A |
+| **Score** | 75/100 | 76/100 | 79/100 | 66/100 |
+| **Verdict** | ✅ SHORTLIST | ⏸️ HOLD | ❌ PASS | ❌ PASS |
+
+*Note: Full financial models available for Hotel Alea Tulum. Other properties have cost estimates.*
 
 #### Individual Property Cut Sheets (`/properties/[slug]`)
 
@@ -1305,19 +1313,102 @@ interface GlobalLocation {
 
 ---
 
+## Data Source: Google Sheets Financial Model
+
+### Source of Truth
+The master financial model is maintained in Google Sheets and serves as the single source of truth for all property financial data.
+
+**Spreadsheet:** MULTI UNIT - FINANCIAL MODEL DASHBOARD
+**ID:** `1Z0_N_V2gM-0rpW3IP9oRO12nmj51XwcTV_9R9fNsyWo`
+**URL:** https://docs.google.com/spreadsheets/d/1Z0_N_V2gM-0rpW3IP9oRO12nmj51XwcTV_9R9fNsyWo
+
+### Sheets Structure (11 Tabs)
+| Sheet | Purpose |
+|-------|---------|
+| **Dashboard** | Executive summary, property selector, key metrics |
+| **Assumptions** | 100+ editable parameters per property |
+| **Acquisition Costs** | Purchase price, closing costs, fees |
+| **Revenue Model** | 5-year projections by scenario |
+| **Operating Expenses** | Fixed & variable cost structure |
+| **P&L Statement** | Full profit & loss projections |
+| **Cash Flow** | Cash flow analysis & ending balances |
+| **Unit Economics** | Per-guest CAC, LTV, contribution margin |
+| **Sensitivity** | Scenario analysis & risk factors |
+| **Investment Returns** | IRR, MOIC, NPV, exit valuations |
+| **Property Data** | Multi-property lookup table (all 4 properties) |
+
+### Synced Data File
+A structured JSON export of the spreadsheet data is maintained at:
+```
+/docs/web-platform/data/properties-financial-data.json
+```
+
+This file should be re-synced whenever the spreadsheet is updated.
+
+### Corrected Financial Metrics (from Spreadsheet)
+
+| Property | Metric | Previous | Corrected |
+|----------|--------|----------|-----------|
+| **Hotel Alea Tulum** | Total Project Cost | $19.0M | $19,036,750 |
+| | Cost Per Room | $928K | $906,512 |
+| | IRR (Base) | 28.51% | 29.54% |
+| | Y5 Revenue | $15.1M | $15,303,003 |
+| | 5-Year Revenue | — | $62,109,066 |
+| | Y5 EBITDA | — | $6,014,560 |
+| | EBITDA Margin Y5 | — | 39% |
+| | Gross Margin | — | 72% avg |
+| **Hacienda Caracol** | Daily Rate | $2,000 | $3,157 (1.36x UHNW) |
+| | Avg Revenue/Guest | ~$30K | $53,669 |
+| | Target Market | HNW | U-HNW Individuals |
+| **Mini Hotel Cancún** | IRR | -20% | Model confirms non-viable |
+| **Casa Sueño de Mar** | IRR | 1.13% | Disqualified (zoning) |
+
+### Key Data Points Now Available
+
+**Per-Guest Unit Economics (Hotel Alea):**
+- Total Revenue per Guest: $48,138 (with add-ons)
+- Direct Cost per Guest: $12,600
+- Gross Profit per Guest: $35,538
+- Contribution Margin: $33,932 (70%)
+- Blended CAC: $2,613
+- Break-even Occupancy: 42%
+
+**5-Year Revenue by Scenario (Hotel Alea):**
+| Scenario | Y1 | Y3 | Y5 | 5-Yr Total |
+|----------|----|----|----|----|
+| Conservative | $5.9M | $11.3M | $13.1M | $51.8M |
+| Base | $7.6M | $13.4M | $15.3M | $62.1M |
+| Aggressive | $9.6M | $14.8M | $16.3M | $69.6M |
+
+**Investment Returns (Hotel Alea):**
+| Scenario | IRR | MOIC | Enterprise Value |
+|----------|-----|------|------------------|
+| Conservative | 22.79% | 1.76x | $31.6M |
+| Base | 29.54% | 2.61x | $45.5M |
+| Aggressive | 36.00% | 3.55x | $62.0M |
+
+---
+
 ## Appendix: Content Migration
 
 ### From Existing Docs
 | Source | Destination | Notes |
 |--------|-------------|-------|
-| `/docs/quintana-roo/properties/*.md` | `/content/properties/*.json` | Parse to structured JSON |
-| `/docs/financial-models/*` | `/content/properties/*/financials` | Import projections |
+| **Google Sheets Model** | `/content/properties/*.json` | **PRIMARY SOURCE** |
+| `/docs/quintana-roo/properties/*.md` | `/content/properties/*.json` | Qualitative data (strengths, concerns) |
 | `/docs/pitch-packet/*` | Various sections | Extract copy and data |
 | `/docs/research/expansion/*` | `/content/locations/*.json` | 30 global locations |
 | `/docs/research/competitors/*` | `/content/competitors/*.json` | Competitive data |
 
+### Sync Process
+1. Update Google Sheets model with new data
+2. Run sync script to export to JSON
+3. Commit and push changes
+4. Platform auto-rebuilds with new data
+
 ---
 
-*Document Version: 2.0*
+*Document Version: 2.1*
 *Created: January 2025*
+*Updated: January 2026 - Synced with Google Sheets financial model*
 *Vision: The definitive pitch experience for Transformational Epicenter*
