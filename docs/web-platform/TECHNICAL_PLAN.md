@@ -479,9 +479,10 @@ What's Included:
 │   │    💰 $6.4M asking      │     │    💰 $4.9M asking      │              │
 │   │    🛏️ 21 rooms (17 beds)│     │    🛏️ 10 rooms (8 beds) │              │
 │   │    📊 75/100            │     │    📊 76/100            │              │
-│   │    💵 $19.04M total     │     │    💵 ~$14.5M total     │              │
-│   │    📈 29.54% IRR        │     │    📈 TBD (model pend)  │              │
+│   │    💵 $19.04M total     │     │    💵 $13.91M total     │              │
+│   │    📈 29.54% IRR        │     │    📈 18% IRR           │              │
 │   │    🎯 HNW Market        │     │    🎯 U-HNW Market      │              │
+│   │    💎 $62.1M 5yr rev    │     │    💎 $32.3M 5yr rev    │              │
 │   │                         │     │                         │              │
 │   │    ✅ SHORTLIST         │     │    ⏸️ HOLD              │              │
 │   │    (Top Candidate)      │     │    (Pending Medical)    │              │
@@ -498,12 +499,13 @@ What's Included:
 │   │   💰 $1.1M asking       │     │   💰 $3.99M asking      │              │
 │   │   🛏️ 20 rooms (16 beds) │     │   🛏️ 7 rooms (6 beds)   │              │
 │   │   📊 79/100             │     │   📊 66/100             │              │
-│   │   💵 ~$11.0M total      │     │   💵 ~$12.2M total      │              │
-│   │   📈 Non-viable         │     │   📈 Non-viable         │              │
+│   │   💵 $10.52M total      │     │   💵 $11.48M total      │              │
+│   │   📈 -15% IRR           │     │   📈 2% IRR             │              │
 │   │   🎯 HNW Market         │     │   🎯 HNW Market         │              │
+│   │   ⚠️ Brand mismatch     │     │   ⚠️ Zoning blocked     │              │
 │   │                         │     │                         │              │
 │   │   ❌ PASS               │     │   ❌ PASS               │              │
-│   │   (Brand Misalignment)  │     │   (Residential Zoning)  │              │
+│   │   (Urban Location)      │     │   (Residential Zoning)  │              │
 │   │                         │     │                         │              │
 │   │   [VIEW ANALYSIS →]     │     │   [VIEW ANALYSIS →]     │              │
 │   │                         │     │                         │              │
@@ -518,17 +520,17 @@ What's Included:
 | **Asking Price** | $6.4M | $4.9M | $1.1M | $3.99M |
 | **Total Rooms** | 21 | 10 | 20 | 7 |
 | **Usable Treatment Beds** | 17 | 8 | 16 | 6 |
-| **Total Investment** | $19.04M | ~$14.5M | ~$11.0M | ~$12.2M |
-| **Cost/Room** | $906K | ~$1.45M | ~$550K | ~$1.74M |
+| **Total Investment** | $19.04M | $13.91M | $10.52M | $11.48M |
+| **Cost/Room** | $906,512 | $1,391,400 | $525,850 | $1,639,300 |
 | **Target Market** | HNW | U-HNW | HNW | HNW |
 | **Avg Daily Rate** | $2,321 | $3,157 | $2,321 | $2,321 |
 | **Avg Rev/Guest** | $39,457 | $53,669 | $39,457 | $39,457 |
-| **5-Year IRR (Base)** | 29.54% | TBD | N/A | N/A |
-| **Y5 Revenue (Base)** | $15.3M | TBD | N/A | N/A |
+| **5-Year IRR (Base)** | 29.54% | 18% | -15% | 2% |
+| **MOIC (Base)** | 2.61x | 1.85x | 0.65x | 1.05x |
+| **Y5 Revenue (Base)** | $15.3M | $7.9M | N/A | N/A |
+| **5-Year Revenue** | $62.1M | $32.3M | N/A | N/A |
 | **Score** | 75/100 | 76/100 | 79/100 | 66/100 |
 | **Verdict** | ✅ SHORTLIST | ⏸️ HOLD | ❌ PASS | ❌ PASS |
-
-*Note: Full financial models available for Hotel Alea Tulum. Other properties have cost estimates.*
 
 #### Individual Property Cut Sheets (`/properties/[slug]`)
 

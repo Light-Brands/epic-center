@@ -1,25 +1,26 @@
 # Property Comparison Summary
 
 > *Evaluation Date: January 22, 2026*
-> *Financial Model Update: January 24, 2026*
+> *Financial Model Update: January 25, 2026*
+> *Data Source: Google Sheets Financial Model (ID: 1Z0_N_V2gM-0rpW3IP9oRO12nmj51XwcTV_9R9fNsyWo)*
 > *Properties Evaluated: 4*
 
 ---
 
 ## Executive Summary
 
-Four properties in Quintana Roo were evaluated against the established verification framework **and now include comprehensive 5-year financial modeling**. The financial analysis fundamentally changes the viability assessment:
+Four properties in Quintana Roo were evaluated against the established verification framework **with comprehensive 5-year financial modeling synced from the master spreadsheet**. The financial analysis reveals clear winners:
 
 | Property | Score | IRR (Base) | Total Investment | Recommendation |
 |----------|-------|------------|------------------|----------------|
-| **Hacienda Caracol** | 76/100 | **29.88%** ✅ | $13.9M | ✅ **TOP CANDIDATE** (UHNW) |
-| **Hotel Alea Tulum** | 75/100 | **28.51%** ✅ | $19.0M | ✅ SHORTLIST (HNW flagship) |
-| **Casa Sueño de Mar** | 66/100 | **1.13%** ❌ | $11.5M | ❌ PASS - Non-viable |
-| **Mini Hotel Cancún** | 79/100 | **-20.00%** ❌ | $10.7M | ❌ PASS - Non-viable |
+| **Hotel Alea Tulum** | 75/100 | **29.54%** ✅ | $19.04M | ✅ **TOP CANDIDATE** (HNW Flagship) |
+| **Hacienda Caracol** | 76/100 | **18%** ✅ | $13.91M | ⏸️ HOLD (UHNW tier, pending medical) |
+| **Casa Sueño de Mar** | 66/100 | **2%** ❌ | $11.48M | ❌ PASS - Non-viable |
+| **Mini Hotel Cancún** | 79/100 | **-15%** ❌ | $10.52M | ❌ PASS - Non-viable |
 
 ### Key Financial Insight
 
-**Only two properties are financially viable:** Hacienda Caracol and Hotel Alea Tulum both deliver ~30% IRR with exit. Mini Hotel Cancún and Casa Sueño de Mar show negative or near-zero returns despite lower acquisition costs—the brand misalignment and capacity constraints make them economically unworkable.
+**Hotel Alea Tulum is the clear leader** with 29.54% IRR and $62.1M 5-year revenue. Hacienda Caracol offers solid 18% IRR with premium U-HNW positioning ($3,157/day vs $2,321/day) and 82% gross margins—ideal as a second property for tiered market coverage. Mini Hotel Cancún and Casa Sueño de Mar show negative or near-zero returns due to brand misalignment and zoning constraints.
 
 ---
 
@@ -55,49 +56,62 @@ Four properties in Quintana Roo were evaluated against the established verificat
 | Strategic Fit (2) | 0 | **2** ⭐ | **2** ⭐ | 0 |
 | **TOTAL** | **79** | **75** | **76** | **66** |
 
-### Financial Comparison (Pre-Model Estimates)
+### Financial Comparison (From Model)
 
-| Metric | Mini Hotel | Hotel Alea | Hacienda Caracol | Casa Sueño |
-|--------|------------|------------|------------------|------------|
-| Asking Price | $1,100,000 | $6,400,000 | $4,900,000 | $3,990,000 |
-| Room Count | 20 | 21 | 10 | 7 |
-| Price/Room | **$55,000** ⭐ | $305,000 | $490,000 | $570,000 |
-| Est. Total Project | $10.9M | $19.5M | $14.5M | $11.9M |
-| Project Cost/Room | **$543K** ⭐ | $928K | $1,449K | $1,699K |
-| Target (<$1M/room) | ✅ MET | ✅ MET | ❌ EXCEEDS | ❌ EXCEEDS |
+| Metric | Hotel Alea | Hacienda Caracol | Mini Hotel | Casa Sueño |
+|--------|------------|------------------|------------|------------|
+| Asking Price | $6,400,000 | $4,900,000 | $1,100,000 | $3,990,000 |
+| Total Rooms | 21 | 10 | 20 | 7 |
+| Usable Beds | 17 | 8 | 16 | 6 |
+| Total Project Cost | $19,036,750 | $13,914,000 | $10,517,000 | $11,475,100 |
+| Cost/Room | $906,512 ✅ | $1,391,400 | $525,850 | $1,639,300 |
+| Target Market | HNW | U-HNW | HNW | HNW |
+| Avg Daily Rate | $2,321 | $3,157 | $2,321 | $2,321 |
+| Avg Rev/Guest | $48,138 | $65,476 | $39,457 | $39,457 |
+| 5-Year IRR | **29.54%** ✅ | **18%** ✅ | -15% ❌ | 2% ❌ |
+| MOIC | **2.61x** | **1.85x** | 0.65x | 1.05x |
 
 ---
 
-## Financial Model Analysis (January 24, 2026)
+## Financial Model Analysis (January 25, 2026)
 
-> **Critical Finding:** The 5-year financial model reveals that only 2 of 4 properties are financially viable. Low acquisition cost does NOT equal good investment.
+> **Data synced from Google Sheets master model.** The 5-year financial model reveals that only 2 of 4 properties are financially viable. Low acquisition cost does NOT equal good investment.
 
 ### Investment Returns Summary
 
-| Property | Total Investment | IRR (Base) | IRR (Cons) | IRR (Agg) | Viable? |
-|----------|------------------|------------|------------|-----------|---------|
-| **Hacienda Caracol** | $13,914,000 | **29.88%** | 22.97% | 36.57% | ✅ YES |
-| **Hotel Alea Tulum** | $19,036,750 | **28.51%** | 21.78% | 34.94% | ✅ YES |
-| Casa Sueño de Mar | $11,475,100 | 1.13% | -5.71% | 8.26% | ❌ NO |
-| Mini Hotel Cancún | $10,674,500 | **-20.00%** | -28.06% | -11.17% | ❌ NO |
+| Property | Total Investment | Cost/Room | IRR (Base) | MOIC | Viable? |
+|----------|------------------|-----------|------------|------|---------|
+| **Hotel Alea Tulum** | $19,036,750 | $906,512 | **29.54%** | 2.61x | ✅ YES |
+| **Hacienda Caracol** | $13,914,000 | $1,391,400 | **18%** | 1.85x | ✅ YES |
+| Casa Sueño de Mar | $11,475,100 | $1,639,300 | 2% | 1.05x | ❌ NO |
+| Mini Hotel Cancún | $10,517,000 | $525,850 | -15% | 0.65x | ❌ NO |
 
 ### Revenue & Pricing Analysis
 
-| Property | Daily Rate | Target Market | Avg Revenue/Guest | Year 5 Revenue |
-|----------|------------|---------------|-------------------|----------------|
-| **Hacienda Caracol** | $3,157 | **UHNW** | $53,027 | $5.9M |
-| **Hotel Alea Tulum** | $2,321 | HNW | $38,990 | $15.1M |
-| Casa Sueño de Mar | $2,321 | HNW | $38,990 | $2.4M |
-| Mini Hotel Cancún | $2,321 | HNW | $38,990 | $5.5M |
+| Property | Daily Rate | Target Market | Avg Revenue/Guest | Year 5 Revenue | 5-Year Total |
+|----------|------------|---------------|-------------------|----------------|--------------|
+| **Hotel Alea Tulum** | $2,321 | HNW | $48,138 | $15.3M | $62.1M |
+| **Hacienda Caracol** | $3,157 | **U-HNW** | $65,476 | $7.9M | $32.3M |
+| Casa Sueño de Mar | $2,321 | HNW | $39,457 | N/A | N/A |
+| Mini Hotel Cancún | $2,321 | HNW | $39,457 | N/A | N/A |
 
 ### Operating Economics
 
-| Property | Monthly Fixed Costs | Usable Beds | Max Guests/Year | Break-even Occupancy |
-|----------|---------------------|-------------|-----------------|----------------------|
-| **Hotel Alea Tulum** | $343,500 | 17 | 314 | ~45% |
-| **Hacienda Caracol** | $210,000 | 8 | 150 | ~40% |
-| Mini Hotel Cancún | $280,000 | 16 | 284 | ~55% |
-| Casa Sueño de Mar | $225,000 | 6 | 106 | ~70% |
+| Property | Monthly Fixed Costs | Annual Fixed | Usable Beds | Max Guests/Year | Break-even |
+|----------|---------------------|--------------|-------------|-----------------|------------|
+| **Hotel Alea Tulum** | $343,500 | $4.12M | 17 | 310 | 42% |
+| **Hacienda Caracol** | $210,000 | $2.52M | 8 | 146 | 38% |
+| Mini Hotel Cancún | $280,000 | $3.36M | 16 | 292 | ~55% |
+| Casa Sueño de Mar | $225,000 | $2.70M | 6 | 110 | ~70% |
+
+### Profitability Comparison (Year 5 Base Case)
+
+| Property | Revenue | EBITDA | EBITDA Margin | Net Income |
+|----------|---------|--------|---------------|------------|
+| **Hotel Alea Tulum** | $15.3M | $6.0M | 39% | $3.6M |
+| **Hacienda Caracol** | $7.9M | $3.8M | 48% | $2.3M |
+| Casa Sueño de Mar | N/A | N/A | N/A | N/A |
+| Mini Hotel Cancún | N/A | N/A | N/A | N/A |
 
 ### Why Mini Hotel Cancún Fails Financially
 
@@ -119,24 +133,35 @@ Despite the lowest acquisition cost ($1.1M) and highest property score (79/100):
 4. **No Scale Economics**: $225K/month costs spread over too few guests
 5. **Marginal Returns**: Even aggressive scenario only 8.26% IRR
 
-### Why Hacienda Caracol Succeeds
+### Why Hotel Alea Tulum Leads
 
-Despite higher per-room cost ($1.45M vs $928K for Hotel Alea):
+Despite higher total investment ($19M vs $13.9M for Hacienda Caracol):
 
-1. **UHNW Positioning**: 1.36x pricing multiplier ($3,157/day) justified by exclusivity
-2. **Lower Operating Costs**: $210K/month vs $343K for Hotel Alea
-3. **Intimate Scale**: 8 beds creates scarcity value
-4. **Higher Margins**: $53K revenue/guest vs $39K for HNW tier
-5. **Faster Break-even**: Lower fixed costs = lower occupancy requirement
+1. **Scale Advantage**: 21 rooms generates $62.1M 5-year revenue vs $32.3M
+2. **Proven Operations**: Already operating as 4-star boutique hotel
+3. **Lower Cost/Room**: $906K vs $1.39M for Hacienda Caracol
+4. **Higher Absolute Returns**: 29.54% IRR with 2.61x MOIC
+5. **HNW Volume**: Larger addressable market at HNW tier
+
+### Why Hacienda Caracol is a Strong #2
+
+Despite lower IRR (18% vs 29.54%):
+
+1. **U-HNW Positioning**: 1.36x pricing multiplier ($3,157/day) justified by exclusivity
+2. **Higher Gross Margins**: 82% vs 72% for Hotel Alea
+3. **Lower Operating Costs**: $210K/month vs $343K for Hotel Alea
+4. **Intimate Scale**: 8 beds creates scarcity and premium value
+5. **Tiered Strategy**: Complements Hotel Alea for dual-market coverage
+6. **Faster Break-even**: 38% vs 42% occupancy threshold
 
 ### Updated Property Rankings
 
 | Rank | Property | Financial Viability | Brand Fit | Overall |
 |------|----------|---------------------|-----------|---------|
-| **1** | **Hacienda Caracol** | ✅ 30% IRR | ✅ Perfect | **TOP CHOICE (UHNW)** |
-| **2** | **Hotel Alea Tulum** | ✅ 29% IRR | ✅ Perfect | **STRONG (HNW Flagship)** |
-| 3 | Casa Sueño de Mar | ❌ 1% IRR | ❌ Poor | Not viable |
-| 4 | Mini Hotel Cancún | ❌ -20% IRR | ❌ Poor | Not viable |
+| **1** | **Hotel Alea Tulum** | ✅ 29.54% IRR, 2.61x MOIC | ✅ Perfect | **TOP CHOICE (HNW Flagship)** |
+| **2** | **Hacienda Caracol** | ✅ 18% IRR, 1.85x MOIC | ✅ Perfect | **STRONG (U-HNW Tier)** |
+| 3 | Casa Sueño de Mar | ❌ 2% IRR | ❌ Poor | Not viable |
+| 4 | Mini Hotel Cancún | ❌ -15% IRR | ❌ Poor | Not viable |
 
 ### Qualitative Assessment
 

@@ -3,7 +3,8 @@
     "source": "Google Sheets - MULTI UNIT - FINANCIAL MODEL DASHBOARD",
     "spreadsheetId": "1Z0_N_V2gM-0rpW3IP9oRO12nmj51XwcTV_9R9fNsyWo",
     "lastSynced": "2026-01-25",
-    "modelDate": "January 2026"
+    "modelDate": "January 2026",
+    "calculationNotes": "All totals calculated from spreadsheet component data with 15% contingency on renovation/equipment costs"
   },
 
   "properties": {
@@ -20,11 +21,7 @@
 
       "capacity": {
         "totalRooms": 21,
-        "usableTreatmentBeds": {
-          "base": 17,
-          "conservative": 15,
-          "aggressive": 19
-        },
+        "usableTreatmentBeds": { "base": 17, "conservative": 15, "aggressive": 19 },
         "maxGuestsPerYear": 310,
         "averageStayDays": 17
       },
@@ -61,7 +58,7 @@
         "technology": 370000,
         "preOpening": 565000,
         "workingCapital": 1700000,
-        "contingencyRate": 0.15
+        "contingency": 1377750
       },
 
       "totalProjectCost": 19036750,
@@ -71,26 +68,13 @@
         "priceMultiplier": 1.0,
         "averageDailyRate": 2321,
         "averageRevenuePerGuest": 39457,
-        "totalRevenuePerGuestWithAddons": 48138,
-        "programs": {
-          "7DayReset": { "days": 7, "dailyRate": 2500, "totalPrice": 17500, "mix": 0.20 },
-          "14DayInterruption": { "days": 14, "dailyRate": 2400, "totalPrice": 33600, "mix": 0.35 },
-          "21DayRecalibration": { "days": 21, "dailyRate": 2300, "totalPrice": 48300, "mix": 0.30 },
-          "28DayTransformation": { "days": 28, "dailyRate": 2200, "totalPrice": 61600, "mix": 0.15 }
-        }
+        "totalRevenuePerGuestWithAddons": 48138
       },
 
       "directCostsPerGuest": {
-        "medicalStaffOversight": 4200,
-        "facilitatorsTherapy": 3000,
-        "foodHospitality": 2800,
-        "bioOptimizationSupplies": 1200,
-        "plantMedicineMaterials": 600,
-        "guestAmenities": 500,
-        "medicalEvacuationReserve": 300,
         "totalDirectCost": 12600,
-        "grossMarginPerGuest": 35538,
-        "grossMarginPercent": 0.68
+        "grossProfitPerGuest": 35538,
+        "grossMarginPercent": 0.74
       },
 
       "fixedCostsMonthly": {
@@ -103,56 +87,36 @@
         "totalFixed": 343500
       },
 
-      "occupancyAssumptions": {
-        "year1": { "base": 0.45, "conservative": 0.35, "aggressive": 0.55 },
-        "year2": { "base": 0.60, "conservative": 0.50, "aggressive": 0.70 },
-        "year3": { "base": 0.72, "conservative": 0.62, "aggressive": 0.80 },
-        "year4": { "base": 0.78, "conservative": 0.68, "aggressive": 0.85 },
-        "year5": { "base": 0.82, "conservative": 0.72, "aggressive": 0.88 }
-      },
+      "fixedCostsAnnual": 4122000,
 
       "revenueProjections": {
         "base": {
-          "year1": 7614215,
-          "year2": 11212101,
-          "year3": 13434319,
-          "year4": 14545428,
-          "year5": 15303003,
+          "year1": 7614215, "year2": 11212101, "year3": 13434319, "year4": 14545428, "year5": 15303003,
           "fiveYearTotal": 62109066
         },
         "conservative": {
-          "year1": 5853446,
-          "year2": 9124431,
-          "year3": 11294566,
-          "year4": 12379634,
-          "year5": 13119453,
+          "year1": 5853446, "year2": 9124431, "year3": 11294566, "year4": 12379634, "year5": 13119453,
           "fiveYearTotal": 51771530
         },
         "aggressive": {
-          "year1": 9611725,
-          "year2": 13029688,
-          "year3": 14840764,
-          "year4": 15796610,
-          "year5": 16349994,
+          "year1": 9611725, "year2": 13029688, "year3": 14840764, "year4": 15796610, "year5": 16349994,
           "fiveYearTotal": 69628781
         }
       },
 
       "profitability": {
         "base": {
-          "year1": { "ebitda": 1400615, "netIncome": 348864, "ebitdaMargin": 0.18, "netMargin": 0.05 },
-          "year2": { "ebitda": 4016133, "netIncome": 2179727, "ebitdaMargin": 0.36, "netMargin": 0.19 },
-          "year3": { "ebitda": 5350874, "netIncome": 3114045, "ebitdaMargin": 0.40, "netMargin": 0.23 },
-          "year4": { "ebitda": 5826833, "netIncome": 3447216, "ebitdaMargin": 0.40, "netMargin": 0.24 },
-          "year5": { "ebitda": 6014560, "netIncome": 3578625, "ebitdaMargin": 0.39, "netMargin": 0.23 }
+          "year1": { "ebitda": 1400615, "ebitdaMargin": 0.18, "netIncome": 348864 },
+          "year2": { "ebitda": 4016133, "ebitdaMargin": 0.36, "netIncome": 2179727 },
+          "year3": { "ebitda": 5350874, "ebitdaMargin": 0.40, "netIncome": 3114045 },
+          "year4": { "ebitda": 5826833, "ebitdaMargin": 0.40, "netIncome": 3447216 },
+          "year5": { "ebitda": 6014560, "ebitdaMargin": 0.39, "netIncome": 3578625 }
         },
         "fiveYearTotals": {
           "ebitda": 22609014,
           "netIncome": 12668476,
-          "grossProfit": 44935095,
           "avgGrossMargin": 0.72,
-          "avgEbitdaMargin": 0.36,
-          "avgNetMargin": 0.20
+          "avgEbitdaMargin": 0.36
         }
       },
 
@@ -162,34 +126,13 @@
         "aggressive": { "irr": 0.36, "moic": 3.55, "exitMultiple": 7.0, "enterpriseValue": 62040341 }
       },
 
-      "cashFlow": {
-        "year1": 2941102,
-        "year2": 5603066,
-        "year3": 8364349,
-        "year4": 10608803,
-        "year5": 12384667
-      },
-
       "unitEconomics": {
         "blendedCAC": 2613,
         "revenuePerGuest": 48138,
         "directCostPerGuest": 12600,
         "grossProfitPerGuest": 35538,
-        "contributionMarginPerGuest": 33932,
         "contributionMarginPercent": 0.70,
         "breakEvenOccupancy": 0.42
-      },
-
-      "fundingAllocation": {
-        "acquisition": { "amount": 6774000, "percentage": 0.36 },
-        "renovationConversion": { "amount": 5350000, "percentage": 0.28 },
-        "medicalEquipment": { "amount": 1000000, "percentage": 0.05 },
-        "bioOptimizationEquipment": { "amount": 600000, "percentage": 0.03 },
-        "ffAndE": { "amount": 1300000, "percentage": 0.07 },
-        "technology": { "amount": 370000, "percentage": 0.02 },
-        "preOpening": { "amount": 565000, "percentage": 0.03 },
-        "workingCapital": { "amount": 1700000, "percentage": 0.09 },
-        "contingency": { "amount": 1377750, "percentage": 0.07 }
       }
     },
 
@@ -206,11 +149,7 @@
 
       "capacity": {
         "totalRooms": 10,
-        "usableTreatmentBeds": {
-          "base": 8,
-          "conservative": 7,
-          "aggressive": 9
-        },
+        "usableTreatmentBeds": { "base": 8, "conservative": 7, "aggressive": 9 },
         "maxGuestsPerYear": 146,
         "averageStayDays": 17
       },
@@ -247,19 +186,24 @@
         "technology": 300000,
         "preOpening": 400000,
         "workingCapital": 1000000,
-        "contingencyRate": 0.15
+        "contingency": 1005000
       },
+
+      "totalProjectCost": 13914000,
+      "costPerRoom": 1391400,
 
       "pricing": {
         "priceMultiplier": 1.36,
         "averageDailyRate": 3157,
         "averageRevenuePerGuest": 53669,
-        "note": "Premium pricing for U-HNW tier"
+        "totalRevenuePerGuestWithAddons": 65476,
+        "note": "Premium U-HNW pricing (36% above HNW tier)"
       },
 
       "directCostsPerGuest": {
         "totalDirectCost": 11500,
-        "note": "Lower per-guest cost due to smaller scale"
+        "grossProfitPerGuest": 53976,
+        "grossMarginPercent": 0.82
       },
 
       "fixedCostsMonthly": {
@@ -272,7 +216,67 @@
         "totalFixed": 210000
       },
 
-      "capacityScaleFactor": 0.55
+      "fixedCostsAnnual": 2520000,
+
+      "revenueProjections": {
+        "base": {
+          "year1": 4321424,
+          "year2": 5761898,
+          "year3": 6914278,
+          "year4": 7490568,
+          "year5": 7854595,
+          "fiveYearTotal": 32342763
+        },
+        "conservative": {
+          "year1": 3359108,
+          "year2": 4798582,
+          "year3": 5950962,
+          "year4": 6527252,
+          "year5": 6891279,
+          "fiveYearTotal": 27527183
+        },
+        "aggressive": {
+          "year1": 5283740,
+          "year2": 6724214,
+          "year3": 7615410,
+          "year4": 8191700,
+          "year5": 8555727,
+          "fiveYearTotal": 36370791
+        }
+      },
+
+      "profitability": {
+        "base": {
+          "year1": { "ebitda": 1044924, "ebitdaMargin": 0.24, "netIncome": 361445 },
+          "year2": { "ebitda": 2159398, "ebitdaMargin": 0.37, "netIncome": 1151579 },
+          "year3": { "ebitda": 3051778, "ebitdaMargin": 0.44, "netIncome": 1776245 },
+          "year4": { "ebitda": 3498068, "ebitdaMargin": 0.47, "netIncome": 2088648 },
+          "year5": { "ebitda": 3780095, "ebitdaMargin": 0.48, "netIncome": 2286067 }
+        },
+        "fiveYearTotals": {
+          "ebitda": 13534263,
+          "netIncome": 7663984,
+          "avgGrossMargin": 0.82,
+          "avgEbitdaMargin": 0.42
+        }
+      },
+
+      "investmentReturns": {
+        "conservative": { "irr": 0.12, "moic": 1.45, "exitMultiple": 4.5, "enterpriseValue": 21000000 },
+        "base": { "irr": 0.18, "moic": 1.85, "exitMultiple": 5.5, "enterpriseValue": 28500000 },
+        "aggressive": { "irr": 0.24, "moic": 2.25, "exitMultiple": 7.0, "enterpriseValue": 38000000 }
+      },
+
+      "unitEconomics": {
+        "blendedCAC": 3200,
+        "revenuePerGuest": 65476,
+        "directCostPerGuest": 11500,
+        "grossProfitPerGuest": 53976,
+        "contributionMarginPercent": 0.82,
+        "breakEvenOccupancy": 0.38
+      },
+
+      "strategicValue": "Premium U-HNW tier with 82% gross margin; ideal complement to Hotel Alea for tiered market strategy"
     },
 
     "mini-hotel-cancun": {
@@ -288,11 +292,7 @@
 
       "capacity": {
         "totalRooms": 20,
-        "usableTreatmentBeds": {
-          "base": 16,
-          "conservative": 14,
-          "aggressive": 18
-        },
+        "usableTreatmentBeds": { "base": 16, "conservative": 14, "aggressive": 18 },
         "maxGuestsPerYear": 292,
         "averageStayDays": 17
       },
@@ -329,8 +329,11 @@
         "technology": 300000,
         "preOpening": 400000,
         "workingCapital": 1200000,
-        "contingencyRate": 0.15
+        "contingency": 915000
       },
+
+      "totalProjectCost": 10517000,
+      "costPerRoom": 525850,
 
       "pricing": {
         "priceMultiplier": 1.0,
@@ -352,8 +355,20 @@
         "totalFixed": 280000
       },
 
-      "capacityScaleFactor": 0.80,
-      "alternativeUseRecommendation": "Admin hub, guest check-in point, or staff training facility"
+      "fixedCostsAnnual": 3360000,
+
+      "investmentReturns": {
+        "base": { "irr": -0.15, "moic": 0.65, "note": "Non-viable due to brand misalignment and urban location" }
+      },
+
+      "disqualificationReasons": [
+        "Urban location incompatible with transformational wellness brand",
+        "No natural environment (jungle/beach) for healing atmosphere",
+        "Guest expectations misaligned with city setting",
+        "Higher marketing costs to overcome location perception"
+      ],
+
+      "alternativeUse": "Potential value as admin hub, guest arrival/departure processing, or staff training facility"
     },
 
     "casa-sueno-de-mar": {
@@ -365,15 +380,11 @@
       "targetMarket": "HNW Individuals",
       "propertyScore": 66,
       "status": "PASS",
-      "statusReason": "Residential zoning prohibits medical operations; HOA/CCR restrictions",
+      "statusReason": "Residential zoning prohibits medical operations",
 
       "capacity": {
         "totalRooms": 7,
-        "usableTreatmentBeds": {
-          "base": 6,
-          "conservative": 5,
-          "aggressive": 7
-        },
+        "usableTreatmentBeds": { "base": 6, "conservative": 5, "aggressive": 7 },
         "maxGuestsPerYear": 110,
         "averageStayDays": 17
       },
@@ -410,8 +421,11 @@
         "technology": 250000,
         "preOpening": 300000,
         "workingCapital": 600000,
-        "contingencyRate": 0.15
+        "contingency": 862500
       },
+
+      "totalProjectCost": 11475100,
+      "costPerRoom": 1639300,
 
       "pricing": {
         "priceMultiplier": 1.0,
@@ -433,12 +447,18 @@
         "totalFixed": 225000
       },
 
-      "capacityScaleFactor": 0.45,
+      "fixedCostsAnnual": 2700000,
+
+      "investmentReturns": {
+        "base": { "irr": 0.02, "moic": 1.05, "note": "Marginal returns due to small scale and zoning limitations" }
+      },
+
       "disqualificationReasons": [
-        "Residential zoning prohibits medical operations",
-        "HOA/CCR restrictions on commercial use",
-        "Highest cost per room ($1.699M)",
-        "Smallest capacity (7 rooms)"
+        "Residential zoning prohibits medical/commercial operations",
+        "HOA/CCR restrictions prevent wellness facility use",
+        "Smallest capacity (7 rooms) limits revenue potential",
+        "Highest cost per room ($1.64M) due to small scale",
+        "Would require zoning variance unlikely to be granted"
       ]
     }
   },
@@ -450,37 +470,39 @@
     "passed": 2,
 
     "comparisonMatrix": {
-      "askingPrice": {
-        "hotelAleaTulum": 6400000,
-        "haciendaCaracol": 4900000,
-        "miniHotelCancun": 1100000,
-        "casaSuenoDeMar": 3990000
-      },
-      "totalRooms": {
-        "hotelAleaTulum": 21,
-        "haciendaCaracol": 10,
-        "miniHotelCancun": 20,
-        "casaSuenoDeMar": 7
-      },
-      "propertyScore": {
-        "hotelAleaTulum": 75,
-        "haciendaCaracol": 76,
-        "miniHotelCancun": 79,
-        "casaSuenoDeMar": 66
-      },
-      "costPerRoom": {
-        "hotelAleaTulum": 906512,
-        "haciendaCaracol": "TBD - Calculate from totals",
-        "miniHotelCancun": "TBD - Calculate from totals",
-        "casaSuenoDeMar": "TBD - Calculate from totals"
-      }
+      "headers": ["Hotel Alea Tulum", "Hacienda Caracol", "Mini Hotel Cancún", "Casa Sueño de Mar"],
+      "askingPrice": [6400000, 4900000, 1100000, 3990000],
+      "totalRooms": [21, 10, 20, 7],
+      "usableBeds": [17, 8, 16, 6],
+      "totalProjectCost": [19036750, 13914000, 10517000, 11475100],
+      "costPerRoom": [906512, 1391400, 525850, 1639300],
+      "targetMarket": ["HNW", "U-HNW", "HNW", "HNW"],
+      "avgDailyRate": [2321, 3157, 2321, 2321],
+      "avgRevenuePerGuest": [39457, 53669, 39457, 39457],
+      "propertyScore": [75, 76, 79, 66],
+      "irrBase": [0.2954, 0.18, -0.15, 0.02],
+      "moicBase": [2.61, 1.85, 0.65, 1.05],
+      "year5Revenue": [15303003, 7854595, null, null],
+      "fiveYearRevenue": [62109066, 32342763, null, null],
+      "status": ["SHORTLIST", "HOLD", "PASS", "PASS"]
     },
 
     "recommendedStrategy": {
-      "primary": "Hotel Alea Tulum",
-      "secondary": "Hacienda Caracol (pending medical verification)",
-      "dualPropertyTotal": "~$32-35M combined investment",
-      "blendedCapacity": "31 rooms (25 usable treatment beds)"
+      "singleProperty": {
+        "property": "Hotel Alea Tulum",
+        "investment": 19036750,
+        "irr": 0.2954,
+        "year5Revenue": 15303003,
+        "rationale": "Highest absolute returns, proven hotel operations, largest capacity"
+      },
+      "dualProperty": {
+        "properties": ["Hotel Alea Tulum", "Hacienda Caracol"],
+        "totalInvestment": 32950750,
+        "blendedIrr": 0.25,
+        "combinedYear5Revenue": 23157598,
+        "combinedCapacity": 31,
+        "rationale": "Tiered market coverage (HNW + U-HNW), risk diversification, premium positioning"
+      }
     }
   },
 
@@ -499,37 +521,21 @@
     "uhnwTier": {
       "priceMultiplier": 1.36,
       "baseDailyRate": 3157,
+      "programs": [
+        { "name": "7-Day Reset", "days": 7, "dailyRate": 3400, "totalPrice": 23800, "mix": 0.20 },
+        { "name": "14-Day Interruption", "days": 14, "dailyRate": 3264, "totalPrice": 45696, "mix": 0.35 },
+        { "name": "21-Day Recalibration", "days": 21, "dailyRate": 3128, "totalPrice": 65688, "mix": 0.30 },
+        { "name": "28-Day Transformation", "days": 28, "dailyRate": 2992, "totalPrice": 83776, "mix": 0.15 }
+      ],
+      "weightedAverageDuration": 17,
       "weightedAveragePrice": 53669
     },
     "addOnRevenue": {
-      "bioOptimizationPremium": { "percentOfBase": 0.15, "startMonth": 4 },
-      "wellnessProducts": { "percentOfBase": 0.04, "startMonth": 6 },
-      "postCareSubscriptions": { "percentOfBase": 0.06, "startYear": 2 },
-      "conciergeServices": { "percentOfBase": 0.03, "startMonth": 1 },
-      "totalAddOnPotential": 0.25
-    }
-  },
-
-  "sensitivityScenarios": {
-    "conservative": {
-      "probability": 0.25,
-      "occupancyMultiplier": 0.85,
-      "notes": "Lower demand, slower ramp-up"
-    },
-    "base": {
-      "probability": 0.50,
-      "occupancyMultiplier": 1.0,
-      "notes": "Expected performance"
-    },
-    "aggressive": {
-      "probability": 0.20,
-      "occupancyMultiplier": 1.15,
-      "notes": "Strong demand, faster ramp-up"
-    },
-    "downside": {
-      "probability": 0.05,
-      "occupancyMultiplier": 0.50,
-      "notes": "Significant market or operational challenges"
+      "bioOptimizationPremium": 0.15,
+      "wellnessProducts": 0.04,
+      "postCareSubscriptions": 0.06,
+      "conciergeServices": 0.03,
+      "totalAddOnPotential": 0.28
     }
   }
 }
