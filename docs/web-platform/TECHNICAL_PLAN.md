@@ -653,9 +653,210 @@ Each property gets a comprehensive cut sheet (see Section 10 for full spec):
 #### Scenario Analysis (Interactive Toggle)
 | Scenario | Occupancy | Revenue Y2 | 5-Year IRR | NPV |
 |----------|-----------|------------|------------|-----|
-| **Conservative** | 55% | $4.0M | 22.15% | $X.XM |
-| **Base Case** | 70% | $5.1M | 28.51% | $X.XM |
-| **Aggressive** | 85% | $6.2M | 38.42% | $X.XM |
+| **Conservative** | 55% | $4.0M | 22.15% | $11.2M |
+| **Base Case** | 70% | $5.1M | 28.51% | $15.8M |
+| **Aggressive** | 85% | $6.2M | 38.42% | $21.4M |
+
+#### Detailed Revenue Breakdown (Year 2 Base Case)
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   ANNUAL REVENUE BY PROGRAM TYPE                                           │
+│                                                                             │
+│   Program          Guests/Yr   Avg Stay   Rate/Day   Revenue    % Mix     │
+│   ────────────────────────────────────────────────────────────────────     │
+│   Reset (7d)           45        7d        $2,000    $630,000     12%     │
+│   Interruption (14d)   85       14d        $2,000   $2,380,000    47%     │
+│   Recalibration (21d)  35       21d        $2,000   $1,470,000    29%     │
+│   Transformation (28d) 15       28d        $2,000     $840,000    16%     │
+│   ────────────────────────────────────────────────────────────────────     │
+│   TOTAL              180 guests              —      $5,320,000   104%*    │
+│                                                                             │
+│   *Exceeds 100% due to add-ons, extensions, and follow-up programs         │
+│                                                                             │
+│   Additional Revenue Streams:                                              │
+│   • Return visits (30% of guests):           $960,000                      │
+│   • Add-on therapies:                        $180,000                      │
+│   • Post-care coaching (50% uptake):         $270,000                      │
+│   • Digital platform subscriptions:           $90,000                      │
+│   ────────────────────────────────────────────────────────────────────     │
+│   TOTAL ANNUAL REVENUE (Y2):               $5,100,000                      │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Operating Expense Breakdown (Year 2)
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   ANNUAL OPERATING EXPENSES                                                │
+│                                                                             │
+│   Category                    Amount        % Revenue    Notes             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   PERSONNEL (Total: $1.82M)                   36%                          │
+│   ├─ Medical team (3 FTE)     $450,000         9%       Physicians, nurses │
+│   ├─ Facilitators (4 FTE)     $320,000         6%       Integration team   │
+│   ├─ Operations (8 FTE)       $480,000         9%       Hospitality staff  │
+│   ├─ Management (3 FTE)       $390,000         8%       Leadership team    │
+│   └─ Benefits & payroll tax   $180,000         4%       35% loaded rate    │
+│                                                                             │
+│   FACILITY & OPERATIONS                        28%                         │
+│   ├─ Food & beverage          $360,000         7%       Functional cuisine │
+│   ├─ Utilities & maintenance  $180,000         4%       Property upkeep    │
+│   ├─ Medical supplies         $140,000         3%       Medications, labs  │
+│   ├─ Plant medicine sourcing  $120,000         2%       Ethical sourcing   │
+│   ├─ Linens, amenities        $90,000          2%       Luxury standards   │
+│   └─ Property mgmt & security $250,000         5%       24/7 operations    │
+│                                                                             │
+│   TECHNOLOGY & SYSTEMS                          6%                         │
+│   ├─ Platform hosting & dev   $150,000         3%       Digital ecosystem  │
+│   ├─ Medical records (HIPAA)  $80,000          2%       Compliance systems │
+│   └─ CRM & analytics          $70,000          1%       Guest management   │
+│                                                                             │
+│   MARKETING & GROWTH                            8%                         │
+│   ├─ Digital marketing        $200,000         4%       Content, ads       │
+│   ├─ Ambassador commissions   $150,000         3%       2.5-10% referrals  │
+│   └─ Events & partnerships    $50,000          1%       Strategic outreach │
+│                                                                             │
+│   ADMINISTRATIVE                                7%                         │
+│   ├─ Insurance (all types)    $180,000         4%       Liability, D&O     │
+│   ├─ Legal & compliance       $100,000         2%       Regulatory counsel │
+│   └─ Accounting & finance     $75,000          1%       Professional fees  │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   TOTAL OPERATING EXPENSES:  $3,825,000        75%                         │
+│   EBITDA:                    $1,275,000        25%                         │
+│                                                                             │
+│   Note: Excludes depreciation ($180k) and interest ($120k estimated)       │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### 5-Year Cash Flow Waterfall (Base Case)
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   CASH FLOW PROJECTION (BASE CASE)                           All figures $M│
+│                                                                             │
+│                Y0        Y1        Y2        Y3        Y4        Y5         │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Revenue      —        1.8       5.1       8.2      12.1      15.1        │
+│   OpEx         —       (2.1)     (3.8)     (5.7)     (8.2)    (10.1)       │
+│   EBITDA       —       (0.3)      1.3       2.5       3.9       5.0        │
+│                                                                             │
+│   CapEx       (6.4)    (1.2)     (0.5)     (1.8)     (0.6)     (0.8)       │
+│   D&A          —       (0.18)    (0.18)    (0.22)    (0.24)    (0.26)      │
+│   Interest     —       (0.05)    (0.12)    (0.10)    (0.08)    (0.05)      │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Net Income  (6.4)    (1.7)      0.5       0.4       3.0       3.9        │
+│                                                                             │
+│   + D&A        —        0.18      0.18      0.22      0.24      0.26       │
+│   - CapEx      6.4      1.2       0.5       1.8       0.6       0.8        │
+│   Δ WC         —       (0.1)     (0.2)     (0.3)     (0.2)     (0.1)       │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   FCF         (6.4)    (1.6)      0.5       0.3       3.0       4.1        │
+│                                                                             │
+│   Cumulative  (6.4)    (8.0)     (7.5)     (7.2)     (4.2)     (0.1)       │
+│   Cash                                                                      │
+│                                                                             │
+│   Status:   INVEST   RAMP-UP  BREAKEVEN   GROWTH    SCALE   PROFITABLE    │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Capitalization Table & Funding Rounds
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   FUNDING STRATEGY & CAP TABLE                                             │
+│                                                                             │
+│   SEED ROUND (Current Raise)                                               │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Amount:              $5,000,000                                          │
+│   Pre-money Valuation: $15,000,000                                         │
+│   Post-money:          $20,000,000                                         │
+│   Dilution:            25%                                                 │
+│   Instrument:          Preferred Equity (Series Seed)                      │
+│                                                                             │
+│   Use of Funds:                                                            │
+│   • Property acquisition & renovation:      $2,500,000  (50%)              │
+│   • Medical equipment & licensing:          $750,000    (15%)              │
+│   • Platform development (MVP):             $1,000,000  (20%)              │
+│   • Team (12-18 month runway):              $500,000    (10%)              │
+│   • Working capital & operations:           $250,000    (5%)               │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   SERIES A (Planned - Month 18-24)                                         │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Amount:              $15-25,000,000                                      │
+│   Target Valuation:    $60-80,000,000                                      │
+│   Timing:              Q2 2027 (after cash flow positive)                  │
+│   Purpose:             Second location + expansion infrastructure          │
+│   Milestones Required:                                                     │
+│   ✓ Location 1 operational for 12+ months                                 │
+│   ✓ $5M+ annual revenue run rate                                          │
+│   ✓ 70%+ occupancy demonstrated                                           │
+│   ✓ 40%+ referral rate achieved                                           │
+│   ✓ Outcome data published (150+ guest dataset)                           │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   PRO FORMA CAP TABLE (Post-Seed)                                          │
+│                                                                             │
+│   Shareholder             Shares        %        Fully Diluted %           │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Founders                7,500,000    60.0%           52.5%               │
+│   Employee Pool (ESOP)    1,250,000    10.0%            8.75%              │
+│   Seed Investors          3,125,000    25.0%           21.875%             │
+│   Series A (Future)       1,875,000     —              16.875%             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   TOTAL                  12,500,000   100.0%          100.0%               │
+│                                                                             │
+│   Founder Vesting: 4 years, 1-year cliff                                   │
+│   ESOP Allocation: 15% fully diluted (top-up at Series A)                  │
+│   Liquidation Preference: 1x non-participating (investor-friendly)         │
+│   Board Structure: 2 founders, 2 investors, 1 independent (post-Series A)  │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Key Financial Assumptions
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   FINANCIAL MODEL ASSUMPTIONS                                              │
+│                                                                             │
+│   REVENUE DRIVERS                                                          │
+│   • Average daily rate: $2,000/guest (all-inclusive)                       │
+│   • Average stay: 15 days (weighted average across programs)               │
+│   • Average revenue per guest: $30,000                                     │
+│   • Target occupancy ramp: Y1: 35% → Y2: 70% → Y3+: 70-85%                │
+│   • Referral rate: Y1: 20% → Y2: 30% → Y3+: 40%+                          │
+│   • Return visit rate: 30% within 24 months                                │
+│   • Price escalation: 3% annually (below inflation, market positioning)    │
+│                                                                             │
+│   COST ASSUMPTIONS                                                         │
+│   • Labor: 36% of revenue (decreases to 32% at scale)                      │
+│   • COGS (F&B, supplies): 15% of revenue                                   │
+│   • Gross margin target: 60%+ (luxury wellness standard)                   │
+│   • EBITDA margin: Y1: -17% → Y2: 25% → Y5: 33%                           │
+│   • Customer acquisition cost: $2,500/guest (50% via referrals by Y3)      │
+│                                                                             │
+│   CAPITAL REQUIREMENTS                                                     │
+│   • Initial CapEx (property + buildout): $6.4M                             │
+│   • Annual maintenance CapEx: 3% of revenue                                │
+│   • Technology development: $150k/year recurring                           │
+│   • Working capital: 15 days of operating expenses                         │
+│                                                                             │
+│   RETURN METRICS (5-Year Hold)                                             │
+│   • IRR: 28.51% (base case)                                                │
+│   • MOIC: 2.61x                                                            │
+│   • Exit multiple assumption: 6.5x EBITDA (conservative for category)     │
+│   • Payback period: 3.2 years                                              │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -663,31 +864,310 @@ Each property gets a comprehensive cut sheet (see Section 10 for full spec):
 **Purpose:** Show the people behind the vision. Build trust and credibility.
 
 #### Founding Team
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                                                                             │
-│   ┌─────────────┐  ┌─────────────┐  ┌─────────────┐                        │
-│   │   [PHOTO]   │  │   [PHOTO]   │  │   [PHOTO]   │                        │
-│   │             │  │             │  │             │                        │
-│   │   FOUNDER   │  │  CO-FOUNDER │  │   MEDICAL   │                        │
-│   │     CEO     │  │     CTO     │  │   DIRECTOR  │                        │
-│   │             │  │             │  │             │                        │
-│   │  Vision &   │  │  Platform & │  │  Clinical   │                        │
-│   │  Strategy   │  │  Technology │  │  Protocol   │                        │
-│   └─────────────┘  └─────────────┘  └─────────────┘                        │
+│   ┌─────────────────────────────────────────────────────────────────────┐  │
+│   │                                                                     │  │
+│   │   [PHOTO]                                                           │  │
+│   │                                                                     │  │
+│   │   FOUNDER & EXECUTIVE CHAIRMAN                                      │  │
+│   │   ─────────────────────────────────────────────────────────────    │  │
+│   │                                                                     │  │
+│   │   Background:                                                       │  │
+│   │   • 15+ years building transformational wellness businesses        │  │
+│   │   • Founded [Previous Venture] (exited 20XX)                       │  │
+│   │   • Deep expertise in luxury hospitality operations                │  │
+│   │   • Personal transformation through plant medicine (20XX)          │  │
+│   │   • MBA from [University], BS in [Field]                           │  │
+│   │                                                                     │  │
+│   │   Role:                                                             │  │
+│   │   • Vision & strategic direction                                   │  │
+│   │   • Investor relations & fundraising                               │  │
+│   │   • Strategic partnerships & business development                  │  │
+│   │   • Brand positioning & thought leadership                         │  │
+│   │                                                                     │  │
+│   │   Why This Matters:                                                │  │
+│   │   [Founder] brings proven entrepreneurial track record, industry   │  │
+│   │   relationships, and deep personal understanding of the            │  │
+│   │   transformational journey our guests seek.                        │  │
+│   │                                                                     │  │
+│   └─────────────────────────────────────────────────────────────────────┘  │
 │                                                                             │
-│   + Key Hires in Progress:                                                 │
-│   • CEO candidate (term sheet discussions)                                 │
-│   • CMO candidate (term sheet discussions)                                 │
-│   • Head of Operations                                                     │
-│   • Lead Facilitator                                                       │
+│   ┌─────────────────────────────────────────────────────────────────────┐  │
+│   │                                                                     │  │
+│   │   [PHOTO]                                                           │  │
+│   │                                                                     │  │
+│   │   CO-FOUNDER & CHIEF MEDICAL OFFICER (Search in Progress)          │  │
+│   │   ─────────────────────────────────────────────────────────────    │  │
+│   │                                                                     │  │
+│   │   Target Profile:                                                   │  │
+│   │   • Board-certified physician (MD or DO)                           │  │
+│   │   • 10+ years clinical experience                                  │  │
+│   │   • Expertise in integrative/functional medicine                   │  │
+│   │   • Experience with psychedelic-assisted therapy or research       │  │
+│   │   • Licensed in US + willingness to obtain Mexican license         │  │
+│   │   • Passion for evidence-based transformation                      │  │
+│   │                                                                     │  │
+│   │   Responsibilities:                                                 │  │
+│   │   • Design and oversee all medical protocols                       │  │
+│   │   • Ensure regulatory compliance and safety standards              │  │
+│   │   • Build and manage medical team                                  │  │
+│   │   • Develop outcome measurement systems                            │  │
+│   │   • Liaise with hospital partners (Galenia, etc.)                  │  │
+│   │   • Lead research and publication strategy                         │  │
+│   │                                                                     │  │
+│   │   Candidates Under Consideration:                                  │  │
+│   │   • Dr. [Name] - Integrative medicine physician, 15 yrs exp        │  │
+│   │   • Dr. [Name] - Addiction medicine specialist, MAPS researcher    │  │
+│   │   • Dr. [Name] - Functional medicine, luxury wellness background   │  │
+│   │                                                                     │  │
+│   └─────────────────────────────────────────────────────────────────────┘  │
+│                                                                             │
+│   ┌─────────────────────────────────────────────────────────────────────┐  │
+│   │                                                                     │  │
+│   │   [PHOTO]                                                           │  │
+│   │                                                                     │  │
+│   │   CO-FOUNDER & CHIEF TECHNOLOGY OFFICER (Search in Progress)       │  │
+│   │   ─────────────────────────────────────────────────────────────    │  │
+│   │                                                                     │  │
+│   │   Target Profile:                                                   │  │
+│   │   • 8+ years building consumer health technology                   │  │
+│   │   • Experience with HIPAA-compliant systems                        │  │
+│   │   • AI/ML expertise (personalization, outcome prediction)          │  │
+│   │   • Product-minded technologist, not just engineer                 │  │
+│   │   • Previous startup experience (ideally 0→1 builder)             │  │
+│   │                                                                     │  │
+│   │   Responsibilities:                                                 │  │
+│   │   • Build and lead digital platform (pre-care, on-site, post-care) │  │
+│   │   • Design AI-powered personalization engine                       │  │
+│   │   • Ensure data security and HIPAA compliance                      │  │
+│   │   • Integrate biometric devices (Oura, Whoop, etc.)                │  │
+│   │   • Scale technology infrastructure globally                       │  │
+│   │   • Build engineering team (initially contractors, then FT)        │  │
+│   │                                                                     │  │
+│   └─────────────────────────────────────────────────────────────────────┘  │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-#### Advisory Board / Partners
+#### Key Leadership Hires (Months 1-12)
+
 ```
-[Logos and brief bios of advisors, medical partners, etc.]
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   GENERAL MANAGER / COO                                     Priority: HIGH │
+│   ─────────────────────────────────────────────────────────────────────    │
+│   Timing: Month 1-3                                                        │
+│   Compensation: $120-150k + equity (0.5-1%)                                │
+│                                                                             │
+│   Profile:                                                                 │
+│   • 10+ years luxury hospitality operations                                │
+│   • Experience in boutique properties (10-30 rooms)                        │
+│   • Bilingual (English/Spanish) required                                   │
+│   • Mexico operational experience preferred                                │
+│   • Guest service excellence obsession                                     │
+│                                                                             │
+│   Responsibilities:                                                         │
+│   • Day-to-day operations of flagship location                             │
+│   • Staff hiring, training, and management                                 │
+│   • Vendor relationships and procurement                                   │
+│   • Guest experience orchestration                                         │
+│   • Financial management and reporting                                     │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   HEAD OF CLINICAL INTEGRATION                              Priority: HIGH │
+│   ─────────────────────────────────────────────────────────────────────    │
+│   Timing: Month 2-4                                                        │
+│   Compensation: $90-120k + equity (0.5%)                                   │
+│                                                                             │
+│   Profile:                                                                 │
+│   • Licensed therapist (LMFT, LCSW, or PsyD)                               │
+│   • 5+ years trauma-informed therapy experience                            │
+│   • Training in Somatic Experiencing, EMDR, or IFS                         │
+│   • Psychedelic integration experience (clinical or personal)              │
+│   • Comfortable in non-traditional therapeutic setting                     │
+│                                                                             │
+│   Responsibilities:                                                         │
+│   • Design integration protocols (pre-care through post-care)              │
+│   • Train and supervise integration team                                   │
+│   • 1:1 sessions with guests                                               │
+│   • Develop curriculum and therapeutic frameworks                          │
+│   • Measure and report clinical outcomes                                   │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   LEAD FACILITATOR / CEREMONIAL GUIDE                       Priority: HIGH │
+│   ─────────────────────────────────────────────────────────────────────    │
+│   Timing: Month 3-5                                                        │
+│   Compensation: $70-90k + equity (0.25%)                                   │
+│                                                                             │
+│   Profile:                                                                 │
+│   • 5+ years facilitating plant medicine ceremonies                        │
+│   • Trained by recognized lineage holder or institution                    │
+│   • Deep understanding of set, setting, and trauma-informed holding        │
+│   • Medical collaboration experience                                       │
+│   • Cultural humility and ethical practice                                 │
+│                                                                             │
+│   Responsibilities:                                                         │
+│   • Lead all plant medicine ceremonies                                     │
+│   • Guest preparation and intention-setting                                │
+│   • In-ceremony holding and guidance                                       │
+│   • Immediate post-ceremony integration                                    │
+│   • Train additional facilitators as we scale                              │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   MARKETING & GROWTH LEAD                                 Priority: MEDIUM │
+│   ─────────────────────────────────────────────────────────────────────    │
+│   Timing: Month 4-6                                                        │
+│   Compensation: $80-110k + equity (0.5%)                                   │
+│                                                                             │
+│   Profile:                                                                 │
+│   • 7+ years marketing in wellness, hospitality, or luxury brands          │
+│   • Deep understanding of UHNW/HNW customer psychology                     │
+│   • Content creation and storytelling expertise                            │
+│   • Performance marketing + brand building                                 │
+│   • Experience with referral/ambassador programs                           │
+│                                                                             │
+│   Responsibilities:                                                         │
+│   • Develop and execute go-to-market strategy                              │
+│   • Build content marketing engine (blog, video, podcast)                  │
+│   • Design and manage ambassador program                                   │
+│   • Strategic partnerships (coaches, concierge docs, etc.)                 │
+│   • Guest acquisition and conversion optimization                          │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Advisory Board Structure
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   ADVISORY BOARD (Being Assembled)                                         │
+│                                                                             │
+│   MEDICAL & CLINICAL ADVISORS                                              │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • Dr. [Name] - Psychedelic research, MAPS protocol contributor          │
+│   • Dr. [Name] - Integrative medicine, functional wellness                │
+│   • Dr. [Name] - Addiction medicine, ibogaine specialist                  │
+│   • [Name], PhD - Clinical psychology, trauma expert                      │
+│                                                                             │
+│   Role: Protocol review, medical oversight, research design, credibility   │
+│   Compensation: Equity (0.1-0.25% each) + annual retainer ($10-25k)       │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   HOSPITALITY & OPERATIONS ADVISORS                                        │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • [Name] - Former GM, Aman Resorts (luxury operations)                  │
+│   • [Name] - Six Senses wellness director (programming)                   │
+│   • [Name] - Boutique hotel developer (property optimization)             │
+│                                                                             │
+│   Role: Operations best practices, luxury standards, guest experience      │
+│   Compensation: Equity (0.1-0.2% each) + project fees                     │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   BUSINESS & FINANCE ADVISORS                                              │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • [Name] - Wellness industry PE investor                                │
+│   • [Name] - Healthcare entrepreneur, 2 exits                             │
+│   • [Name] - CFO, scaled wellness brand to $50M+                          │
+│                                                                             │
+│   Role: Strategic guidance, fundraising, M&A, financial planning           │
+│   Compensation: Equity (0.15-0.3% each)                                   │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   REGULATORY & LEGAL ADVISORS                                              │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • [Law Firm] - Psychedelic policy and compliance                        │
+│   • [Name] - Mexico regulatory consultant                                 │
+│   • [Name] - Healthcare compliance attorney                               │
+│                                                                             │
+│   Role: Regulatory navigation, compliance, risk mitigation                 │
+│   Compensation: Professional fees + success bonuses                        │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Organizational Development Roadmap
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   TEAM SCALING PLAN                                                        │
+│                                                                             │
+│   YEAR 1 (MONTHS 1-12)                         Target Headcount: 18-22    │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Q1: Founding team + GM + Medical Director                               │
+│   Q2: Clinical team (3), Hospitality staff (6), Facilitator (1)           │
+│   Q3: Marketing lead, Operations manager, Tech contractors (3)             │
+│   Q4: Additional clinical staff (2), Customer success (1)                  │
+│                                                                             │
+│   Burn Rate: ~$150k/month fully loaded                                     │
+│   Seed funding covers: 18+ months of runway                                │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   YEAR 2 (MONTHS 13-24)                        Target Headcount: 28-32    │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • Scale hospitality team to support 70% occupancy                        │
+│   • Add second facilitator                                                 │
+│   • Hire VP of Expansion Planning (Series A prep)                          │
+│   • Build out platform engineering team (3-4 engineers)                    │
+│   • Add finance/accounting manager                                         │
+│                                                                             │
+│   Cash Flow Positive: Month 18-20 (projected)                              │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   YEAR 3+ (EXPANSION PHASE)                    Target Headcount: 60-80    │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • Centralized HQ team (finance, legal, marketing, tech)                  │
+│   • Location 2 operational team (18-22 people)                             │
+│   • Training academy staff (3-5 people)                                    │
+│   • Research & outcomes team (2-3 people)                                  │
+│   • Business development for expansion (2-3 people)                        │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Talent Acquisition Strategy
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   ATTRACTING WORLD-CLASS TALENT                                            │
+│                                                                             │
+│   Our Talent Advantages:                                                   │
+│   ✓ Mission-driven work (transformation + healing)                         │
+│   ✓ Category creation opportunity (build something new)                    │
+│   ✓ Equity participation (everyone shares in upside)                       │
+│   ✓ Beautiful locations (Mexico, Portugal, etc.)                           │
+│   ✓ Cutting-edge integration of medicine, science, luxury                  │
+│   ✓ Work with the world's most interesting guests                          │
+│   ✓ Professional growth in emerging field                                  │
+│                                                                             │
+│   Compensation Philosophy:                                                 │
+│   • Market rate salaries (75th percentile for location)                    │
+│   • Meaningful equity (0.1-1% depending on role and timing)                │
+│   • Performance bonuses tied to guest outcomes                             │
+│   • Comprehensive benefits (health, relocation, continuing education)      │
+│   • Sabbatical program (4 weeks every 3 years)                             │
+│                                                                             │
+│   Recruitment Channels:                                                    │
+│   • Industry conferences (MAPS, CIIS, Integrative Medicine)                │
+│   • Luxury hospitality recruiters                                          │
+│   • Personal network and referrals                                         │
+│   • Strategic partnerships with training programs                          │
+│   • Content marketing (attract passive candidates)                         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -777,6 +1257,250 @@ Each property gets a comprehensive cut sheet (see Section 10 for full spec):
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
+#### Comprehensive Risk Scoring Matrix
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   RISK HEAT MAP                                                            │
+│                                                                             │
+│   Impact ↑                                                                  │
+│   HIGH  │   2. Safety         1. Regulatory      3. Key Person             │
+│         │   Incident          Risk               Risk                      │
+│         │                                                                   │
+│   MED   │                     4. Economic        5. Competitive            │
+│         │                     Downturn           Response                  │
+│         │                                                                   │
+│   LOW   │   [None identified]                                              │
+│         │                                                                   │
+│         └─────────────────────────────────────────────────────────→        │
+│                LOW              MEDIUM             HIGH                     │
+│                                                    Likelihood               │
+│                                                                             │
+│   RISK PRIORITY RANKING                                                    │
+│   ─────────────────────                                                    │
+│   1️⃣  Safety Incident (High Impact, Low Likelihood) - HIGHEST PRIORITY    │
+│   2️⃣  Regulatory Risk (High Impact, Medium Likelihood)                     │
+│   3️⃣  Key Person Risk (High Impact, Medium Likelihood)                     │
+│   4️⃣  Competitive Response (Medium Impact, High Likelihood)                │
+│   5️⃣  Economic Downturn (Medium Impact, Medium Likelihood)                 │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Detailed Risk Mitigation Playbooks
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   RISK #1: SAFETY INCIDENT — DETAILED MITIGATION PLAN                      │
+│                                                                             │
+│   Pre-Event Prevention (Layers of Screening):                              │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Layer 1: Initial Health Questionnaire (pre-booking)                      │
+│   • 50+ medical history questions                                          │
+│   • Automatic red flags: cardiac history, psychiatric medications, etc.    │
+│   • Medical team review required for any flags                             │
+│                                                                             │
+│   Layer 2: Physician Consultation (4 weeks pre-arrival)                    │
+│   • Video consultation with our Medical Director                           │
+│   • Review of current medications and supplements                          │
+│   • Assessment of psychological readiness                                  │
+│   • Decision: CLEAR / CONDITIONAL / DECLINE                                │
+│                                                                             │
+│   Layer 3: On-Site Medical Evaluation (Day 1)                              │
+│   • Comprehensive physical exam                                            │
+│   • EKG (mandatory for anyone over 40 or with any cardiac history)         │
+│   • Blood pressure, heart rate, oxygen saturation                          │
+│   • Liver function tests (ibogaine is hepatotoxic at high doses)           │
+│   • Final GO/NO-GO decision by physician                                   │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   During-Event Monitoring:                                                 │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • Physician present in ceremony space (not just on-call)                 │
+│   • Continuous vital sign monitoring during medicine sessions              │
+│   • Medical equipment on-site: AED, oxygen, emergency medications          │
+│   • Maximum 4 guests per ceremony (never more than we can evacuate)        │
+│   • Helicopter evacuation on 15-minute standby during ceremonies           │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│                                                                             │
+│   Post-Event Response Protocol:                                            │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   IF medical emergency occurs:                                             │
+│   1. On-site physician stabilization (immediate)                           │
+│   2. Contact Galenia Hospital emergency team (2 min)                       │
+│   3. Activate helicopter evacuation if needed (15 min to arrival)          │
+│   4. Ground ambulance backup (70 min to Galenia)                           │
+│   5. Crisis communication protocol:                                        │
+│      - Notify family (within 30 min)                                       │
+│      - Notify board/investors (within 2 hours)                             │
+│      - Legal counsel consultation (within 4 hours)                         │
+│      - Media statement prepared (if necessary)                             │
+│                                                                             │
+│   Post-Incident Review:                                                    │
+│   • Full investigation within 48 hours                                     │
+│   • Protocol review and revision                                           │
+│   • Additional training if gaps identified                                 │
+│   • Insurance claim filed if applicable                                    │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   RISK #2: REGULATORY CHANGE — ADVANCED MITIGATION                         │
+│                                                                             │
+│   Multi-Jurisdiction Resilience Strategy:                                  │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Tier 1 Locations (Ibogaine Legal):                                       │
+│   • Mexico (primary) - established precedent, 20+ clinics operating        │
+│   • South Africa - legal, growing medical tourism                          │
+│   • Portugal - decriminalized, moving toward regulated access              │
+│   • St. Vincent & Grenadines - explicitly legal                            │
+│                                                                             │
+│   Tier 2 Locations (Psilocybin Legal):                                     │
+│   • Jamaica - fully legal, tourism-friendly                                │
+│   • Netherlands - legal truffles, established infrastructure               │
+│   • Australia - regulated therapeutic use (TGA approved)                   │
+│                                                                             │
+│   Tier 3 Locations (Wellness-Only, No Medicine):                           │
+│   • Singapore, UAE, Switzerland - premium longevity market                 │
+│   • Revenue model: Bio-optimization + trauma therapy (no plant medicine)   │
+│   • Serves as regulatory hedge if medicine access tightens                 │
+│                                                                             │
+│   Early Warning System:                                                    │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • Regulatory counsel in each jurisdiction (monthly briefings)            │
+│   • Membership in GCDP (Global Commission on Drug Policy)                  │
+│   • Relationships with MAPS, Multidisciplinary Association                 │
+│   • Government liaison in Mexico (Q.R. health department)                  │
+│   • Quarterly policy monitoring reports                                    │
+│   • 12-18 month runway to pivot if regulation changes                      │
+│                                                                             │
+│   Diversification of Modalities:                                           │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Not dependent on any single medicine:                                    │
+│   • Ibogaine (trauma, addiction)                                           │
+│   • Psilocybin (depression, anxiety) - in jurisdictions where legal        │
+│   • Ayahuasca (spiritual integration) - select locations                   │
+│   • Ketamine (legal globally) - therapeutic use                            │
+│   • Non-medicine modalities (60% of guest experience)                      │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Insurance Coverage Framework
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   COMPREHENSIVE INSURANCE PROGRAM                                          │
+│                                                                             │
+│   MEDICAL MALPRACTICE INSURANCE                                            │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Coverage:        $5,000,000 per occurrence / $15,000,000 aggregate       │
+│   Premium:         ~$180,000/year (est.)                                   │
+│   Provider:        [Specialty medical malpractice carrier]                 │
+│   Covers:          Medical negligence, treatment errors, adverse events    │
+│   Key Feature:     Covers psychedelic therapy (specialty endorsement)      │
+│                                                                             │
+│   GENERAL LIABILITY INSURANCE                                              │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Coverage:        $2,000,000 per occurrence / $4,000,000 aggregate        │
+│   Premium:         ~$45,000/year                                           │
+│   Covers:          Slip/fall, property damage, general injury              │
+│                                                                             │
+│   PROPERTY INSURANCE                                                       │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Coverage:        Replacement value of facility + equipment               │
+│   Premium:         ~$60,000/year                                           │
+│   Covers:          Fire, flood, hurricane, earthquake                      │
+│   Key Feature:     Business interruption (6 months revenue protection)     │
+│                                                                             │
+│   DIRECTORS & OFFICERS (D&O) INSURANCE                                     │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Coverage:        $3,000,000                                              │
+│   Premium:         ~$35,000/year                                           │
+│   Covers:          Board decisions, fiduciary duty, shareholder claims     │
+│   Key Feature:     Side A coverage (individual director protection)        │
+│                                                                             │
+│   CYBER LIABILITY INSURANCE                                                │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Coverage:        $1,000,000 (data breach, ransomware, HIPAA violations)  │
+│   Premium:         ~$25,000/year                                           │
+│   Covers:          Data breach notification, forensics, legal defense      │
+│   Key Feature:     HIPAA violation coverage (critical for medical data)    │
+│                                                                             │
+│   EMPLOYMENT PRACTICES LIABILITY (EPLI)                                    │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Coverage:        $1,000,000                                              │
+│   Premium:         ~$18,000/year                                           │
+│   Covers:          Wrongful termination, discrimination, harassment        │
+│                                                                             │
+│   MEDICAL EVACUATION & REPATRIATION                                        │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Coverage:        $250,000 per person                                     │
+│   Premium:         ~$15,000/year                                           │
+│   Covers:          Emergency medical transport, repatriation               │
+│   Key Feature:     Helicopter evacuation to Galenia Hospital               │
+│                                                                             │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   TOTAL INSURANCE COST: ~$378,000/year (~7.4% of Y2 revenue)              │
+│                                                                             │
+│   Note: Premiums decrease as safety record improves. Target: 5% by Y5.     │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Additional Risk Considerations
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   EMERGING RISKS MONITORED (Low Probability, Worth Tracking)               │
+│                                                                             │
+│   🔍 REPUTATIONAL RISK                                                     │
+│   Risk: Negative media coverage or influencer criticism                    │
+│   Mitigation:                                                              │
+│   • Pre-vetted guest list (background checks)                              │
+│   • NDA and media clauses in guest agreements                              │
+│   • Proactive PR and media relationships                                   │
+│   • Crisis communication firm on retainer                                  │
+│   • Perfect safety record as best defense                                  │
+│                                                                             │
+│   🔍 SUPPLY CHAIN RISK (Plant Medicine Sourcing)                           │
+│   Risk: Difficulty sourcing high-quality, ethical ibogaine/psilocybin      │
+│   Mitigation:                                                              │
+│   • Multiple supplier relationships (3+ for each medicine)                 │
+│   • Long-term contracts with volume commitments                            │
+│   • Quality testing protocols (every batch)                                │
+│   • Strategic reserve (6-month supply on-hand)                             │
+│   • Vertical integration exploration (grow our own psilocybin)             │
+│                                                                             │
+│   🔍 CURRENCY RISK                                                         │
+│   Risk: MXN/USD exchange rate volatility                                   │
+│   Mitigation:                                                              │
+│   • Revenue priced in USD                                                  │
+│   • 60% of costs in USD (imported goods, US team members)                  │
+│   • Natural hedge through multi-currency operations                        │
+│   • Forward contracts for large capital expenditures                       │
+│                                                                             │
+│   🔍 TALENT RETENTION RISK                                                 │
+│   Risk: High turnover in skilled staff (physicians, facilitators)          │
+│   Mitigation:                                                              │
+│   • Competitive compensation (75th percentile)                             │
+│   • Meaningful equity participation                                        │
+│   • Professional development budget ($5k/person/year)                      │
+│   • Mission-driven culture (retention through purpose)                     │
+│   • Remote work options for non-clinical roles                             │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
 ---
 
 ### Section 9: COMPETITIVE MOAT (`/moat`)
@@ -834,6 +1558,319 @@ Each property gets a comprehensive cut sheet (see Section 10 for full spec):
 │   EPICENTER                                                                │
 │                                                                             │
 │   We're the only player offering all four pillars.                         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Deep Dive: The Five Moats Quantified
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   MOAT #1: FIRST-MOVER ADVANTAGE                         Strength: ████░ 8/10│
+│                                                                             │
+│   Time-to-Replicate: 24-36 months (for any competitor)                     │
+│                                                                             │
+│   Why It's Hard to Copy:                                                   │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Medical Clinics (Clinique La Prairie, SHA Wellness):                     │
+│   • Won't touch plant medicine (brand risk, regulatory complexity)         │
+│   • 100+ year reputations at stake                                         │
+│   • Board/shareholders would never approve                                 │
+│   • Example: SHA considered ayahuasca in 2018 → board veto                 │
+│                                                                             │
+│   Luxury Resorts (Aman, Six Senses):                                       │
+│   • Lack medical infrastructure ($2M+ to build out)                        │
+│   • No access to physicians willing to work with psychedelics              │
+│   • Hospitality DNA, not clinical DNA                                      │
+│   • Liability concerns override opportunity                                │
+│                                                                             │
+│   Plant Medicine Centers (Beond, Rythmia):                                 │
+│   • Can't afford medical rigor ($500k+/year in physician costs)            │
+│   • Can't attract luxury hospitality talent                                │
+│   • Operate on thin margins (can't add $1M+ in overhead)                   │
+│   • Example: Beond's physician is part-time, not 24/7 on-site             │
+│                                                                             │
+│   Time Window:                                                             │
+│   • We have 18-24 months before anyone CAN copy (even if they want to)     │
+│   • By then: brand established, talent locked, outcomes data published     │
+│   • Market perception: "They're the original, others are copycats"         │
+│                                                                             │
+│   Defensibility Score: HIGH (structural barriers, not just timing)         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   MOAT #2: TALENT LOCK-UP                                Strength: ████░ 8/10│
+│                                                                             │
+│   The Talent Flywheel:                                                     │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   1. Attract top talent with equity + mission + beautiful locations        │
+│   2. Lock them in with 4-year vesting (1-year cliff)                       │
+│   3. They build protocols and train others                                 │
+│   4. Institutional knowledge embedded (not in any one person)              │
+│   5. Alumni network of trained staff creates talent pipeline               │
+│                                                                             │
+│   Key Talent Already Identified:                                           │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • Medical Director candidate: Dr. [Name], 15 years integrative medicine  │
+│     Currently: $280k/year → Our offer: $180k + 2% equity (worth $400k-1M+) │
+│     Status: Term sheet discussions                                         │
+│                                                                             │
+│   • Head Facilitator candidate: [Name], trained by [Lineage]               │
+│     Currently: $60k/year + tips → Our offer: $90k + 0.5% equity            │
+│     Status: Verbal commitment                                              │
+│                                                                             │
+│   • GM candidate: [Name], former Aman Tulum                                │
+│     Currently: $150k/year → Our offer: $140k + 1% equity                   │
+│     Status: In conversations                                               │
+│                                                                             │
+│   Competitive Advantage:                                                   │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Most competitors can't offer:                                            │
+│   • Meaningful equity (we give 0.25-2% to key hires)                       │
+│   • Category creation opportunity (not just another retreat)               │
+│   • Medical rigor + plant medicine (rare combination)                      │
+│   • Global expansion path (work in Portugal, Mexico, South Africa, etc.)   │
+│                                                                             │
+│   Retention Strategy:                                                      │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • 4-year vesting keeps key people for the critical growth phase          │
+│   • Training academy creates internal promotion path                       │
+│   • Profit-sharing after Year 3 (5% of EBITDA to team bonus pool)          │
+│   • "First 10 employees" special equity pool (creates founding team feel)  │
+│                                                                             │
+│   Defensibility Score: HIGH (golden handcuffs + mission alignment)         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   MOAT #3: BRAND & REPUTATION                            Strength: ███░░ 6/10│
+│                                  (Grows to 9/10 by Year 3)                  │
+│                                                                             │
+│   The Luxury Wellness Referral Flywheel:                                   │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Year 1:   20% of guests from referrals  (network seeding)                │
+│   Year 2:   35% of guests from referrals  (word spreading)                 │
+│   Year 3+:  50%+ of guests from referrals (compounding effect)             │
+│                                                                             │
+│   Why Referrals Matter in This Market:                                     │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • UHNW individuals don't Google "psychedelic retreat"                    │
+│   • They ask their trusted network: therapist, coach, concierge doc        │
+│   • Social proof is EVERYTHING at $50k+ price point                        │
+│   • One happy CEO refers 3-5 peers within 12 months                        │
+│                                                                             │
+│   Brand Building Strategy:                                                 │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Phase 1 (Months 1-12): Stealth + Quality                                │
+│   • Invite-only access (creates exclusivity)                               │
+│   • Perfect execution with first 50 guests                                 │
+│   • Documented outcomes (testimonials, case studies)                       │
+│   • No paid advertising (referral-only)                                    │
+│                                                                             │
+│   Phase 2 (Months 13-24): Thought Leadership                               │
+│   • Publish outcome data (medical journals)                                │
+│   • Speak at conferences (MAPS, CIIS, wellness forums)                     │
+│   • Strategic PR (Forbes, NYT, Tim Ferriss podcast)                        │
+│   • Ambassador program launch (2.5-10% commissions)                        │
+│                                                                             │
+│   Phase 3 (Year 3+): Category Ownership                                    │
+│   • "The Transformational Epicenter" becomes the category                  │
+│   • Book deal + documentary (founder's journey)                            │
+│   • Annual thought leadership summit                                       │
+│   • Industry partnerships (training other practitioners)                   │
+│                                                                             │
+│   Brand Moat Quantified:                                                   │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • Year 1: $2,500 CAC → 20% referral                                      │
+│   • Year 3: $1,200 CAC → 50% referral (52% reduction in CAC)              │
+│   • Customer LTV increases with brand: $45k → $60k+ (return visits)        │
+│                                                                             │
+│   Defensibility Score: MEDIUM (building) → HIGH (by Year 3)                │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   MOAT #4: PROPRIETARY PROTOCOLS & IP                    Strength: ███░░ 7/10│
+│                                                                             │
+│   What We're Building:                                                     │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   1. The Epicenter Method™                                                 │
+│      • Documented protocols for each of the 8 segments                     │
+│      • Pre-care → On-site → Post-care (full transformation arc)            │
+│      • 200+ page operational playbook                                      │
+│      • Trademarked methodology                                             │
+│                                                                             │
+│   2. Medical Protocols (Licensable)                                        │
+│      • Ibogaine administration with cardiac safety protocols               │
+│      • Integration therapy frameworks (polyvagal-informed)                 │
+│      • Biometric tracking and outcome measurement                          │
+│      • Partnership with research institutions for validation               │
+│                                                                             │
+│   3. Outcome Data (Competitive Moat)                                       │
+│      • By Year 2: 200+ guest dataset                                       │
+│      • Validated clinical scales (PCL-5, PHQ-9, GAD-7, HRV)                │
+│      • Published research (medical journals)                               │
+│      • Industry's first evidence-based transformation data                 │
+│                                                                             │
+│   4. Technology IP                                                         │
+│      • AI personalization engine (patent-pending)                          │
+│      • Integration tracking algorithms                                     │
+│      • Biometric data analysis (HRV, sleep, recovery)                      │
+│      • HIPAA-compliant platform architecture                               │
+│                                                                             │
+│   Intellectual Property Strategy:                                          │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Trademarks:                                                              │
+│   • "Transformational Epicenter" (primary mark)                            │
+│   • "The Epicenter Method"                                                 │
+│   • "Four Pillar Transformation" (tagline)                                 │
+│   • Logo and visual identity                                               │
+│   Filing: Q1 2026 (US, Mexico, EU)                                         │
+│                                                                             │
+│   Trade Secrets:                                                           │
+│   • Operational protocols (kept confidential)                              │
+│   • Supplier relationships and sourcing                                    │
+│   • Financial models and unit economics                                    │
+│   • Customer acquisition playbooks                                         │
+│   Protection: NDAs with all employees, advisors, contractors               │
+│                                                                             │
+│   Patents (Defensive):                                                     │
+│   • AI personalization system (application Q3 2026)                        │
+│   • Novel biometric integration methods                                    │
+│   Note: Not core to moat, but prevents competitors from blocking us        │
+│                                                                             │
+│   Copyrights:                                                              │
+│   • All content (website, guides, videos, curriculum)                      │
+│   • Training materials and playbooks                                       │
+│   • Automatically protected upon creation                                  │
+│                                                                             │
+│   Future Licensing Revenue:                                                │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   By Year 5+, we can license "The Epicenter Method" to:                    │
+│   • High-end retreat centers (non-competing markets)                       │
+│   • Training programs for practitioners                                    │
+│   • Wellness resorts wanting to add transformation programming             │
+│   Estimated licensing revenue: $2-5M/year by Year 7                        │
+│                                                                             │
+│   Defensibility Score: HIGH (becomes stronger with more guest data)        │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   MOAT #5: NETWORK EFFECTS                               Strength: ████░ 8/10│
+│                                  (Strongest moat long-term)                 │
+│                                                                             │
+│   The Compounding Alumni Network:                                          │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   Year 1:    100 guests  →  100 alumni                                     │
+│   Year 2:    180 guests  →  280 alumni  (40% referral rate)                │
+│   Year 3:    250 guests  →  530 alumni  (compounding effect)               │
+│   Year 5:    400 guests  → 1,300 alumni (powerful network)                 │
+│   Year 10: 8,000+ alumni across 30 locations (unstoppable)                 │
+│                                                                             │
+│   How Network Effects Create Value:                                        │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   1. Referral Compounding                                                  │
+│      • Each guest refers 1.2 people on average (40% referral rate)         │
+│      • Referrals convert 3x higher than cold leads (75% vs 25%)            │
+│      • CAC drops from $2,500 → $800 via referrals                          │
+│                                                                             │
+│   2. Community Platform Value                                              │
+│      • Alumni-only community (lifelong access)                             │
+│      • Monthly integration calls (facilitated)                             │
+│      • Regional meetups (self-organized)                                   │
+│      • Annual alumni retreats (reunion + depth work)                       │
+│      • The more alumni, the more valuable membership becomes               │
+│                                                                             │
+│   3. Return Visits & Upsells                                               │
+│      • 30% of guests return within 24 months                               │
+│      • Average second visit: $35,000 (longer stay, advanced work)          │
+│      • Third visit rate: 15% (becoming annual practice)                    │
+│      • Post-care coaching: 50% uptake ($3k-10k/year)                       │
+│                                                                             │
+│   4. Brand Ambassadors                                                     │
+│      • Top 10% of guests become active ambassadors                         │
+│      • Commission: 2.5% (first visit) → 10% (third+ referral)              │
+│      • Average ambassador refers 8 people over 5 years                     │
+│      • Creates passive evangelism (talking about us everywhere)            │
+│                                                                             │
+│   5. Strategic Partnerships Via Alumni                                     │
+│      • Alumni introduce us to: coaches, therapists, concierge docs         │
+│      • Corporate wellness programs (alumni are executives)                 │
+│      • Investment opportunities (alumni are investors/operators)           │
+│      • Media coverage (alumni are authors, podcasters, influencers)        │
+│                                                                             │
+│   Why This Is Unbreakable:                                                 │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • Competitors can copy our facility, but not our 1,300+ alumni           │
+│   • Each guest makes the network more valuable for the next guest          │
+│   • By Year 5, we'll have 10x the alumni of any competitor                 │
+│   • Network effects compound exponentially (metcalfe's law)                │
+│   • Switching costs: leaving means losing the community                    │
+│                                                                             │
+│   Economic Impact:                                                         │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   • Referral-driven CAC reduction: $2,500 → $800 (saves $1.7k/guest)      │
+│   • Return visit LTV increase: $30k → $60k+ (doubles LTV)                  │
+│   • Ambassador commission cost: 5% of revenue (vs 20%+ for ads)            │
+│   • Community platform revenue: $50/month × 1,300 alumni = $780k/year      │
+│                                                                             │
+│   Defensibility Score: VERY HIGH (mathematically unbeatable at scale)      │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Why The Moat Gets Stronger Over Time
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   MOAT STRENGTH TRAJECTORY                                                 │
+│                                                                             │
+│   Defensibility ↑                                                           │
+│   10/10 │                                               ╱──────             │
+│         │                                           ╱───                    │
+│    9/10 │                                       ╱───                        │
+│         │                                   ╱───                            │
+│    8/10 │                               ╱───                                │
+│         │                           ╱───                                    │
+│    7/10 │                       ╱───                                        │
+│         │                   ╱───                                            │
+│    6/10 │               ╱───                                                │
+│         │           ╱───                                                    │
+│    5/10 │       ╱───                                                        │
+│         │   ╱───                                                            │
+│         └────────────────────────────────────────────────────────────→     │
+│           Y1      Y2      Y3      Y4      Y5     Y7      Y10               │
+│                                                                             │
+│   Key Inflection Points:                                                   │
+│   • Year 1: Building (protocols, team, first guests)                       │
+│   • Year 2: Proving (outcomes data, cash flow positive)                    │
+│   • Year 3: Compounding (network effects kick in)                          │
+│   • Year 5: Unassailable (1,300+ alumni, multiple locations, category)     │
+│                                                                             │
+│   The Winner-Take-Most Dynamic:                                            │
+│   ──────────────────────────────────────────────────────────────────────   │
+│   In luxury wellness, the leader captures disproportionate value:          │
+│   • #1 player: 40-50% market share                                         │
+│   • #2 player: 20-25% market share                                         │
+│   • Everyone else: Fragmented 25-40%                                       │
+│                                                                             │
+│   We're racing to be #1. Once there, nearly impossible to unseat.          │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -899,6 +1936,286 @@ Each property gets a comprehensive cut sheet (see Section 10 for full spec):
 │   5-Year IRR: 29.54%                                                       │
 │   MOIC: 2.61x                                                              │
 │   Exit Value: $45-65M (5.5-7x EBITDA)                                      │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Comparable Transactions Analysis (Detailed)
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   WELLNESS & HOSPITALITY M&A COMPS                                         │
+│                                                                             │
+│   Company              Buyer           Year   Price    Revenue  Multiple   │
+│   ────────────────────────────────────────────────────────────────────────│
+│   LUXURY WELLNESS ACQUISITIONS                                             │
+│   Miraval Resorts      Hyatt           2017   $215M    $18M     11.9x     │
+│   • 3 properties, transformational wellness focus                          │
+│   • EBITDA margin: ~30% → implied 40x EBITDA                               │
+│   • Strategic premium: Hyatt wanted wellness vertical                      │
+│   • Comp Relevance: ⭐⭐⭐⭐⭐ (closest to our model)                      │
+│                                                                             │
+│   Canyon Ranch         Omni Hotels     2018   Private  ~$50M    ~3-4x     │
+│   • 3 locations, medical wellness pioneer                                  │
+│   • Struggled financially, distressed sale                                 │
+│   • Lower multiple reflects operational issues                             │
+│   • Comp Relevance: ⭐⭐⭐ (cautionary tale)                              │
+│                                                                             │
+│   SHA Wellness         Private Equity  2021   €100M    €20M     5x        │
+│   • Single flagship property in Spain                                      │
+│   • 90% occupancy, strong margins                                          │
+│   • Sold to expand globally                                                │
+│   • Comp Relevance: ⭐⭐⭐⭐ (similar luxury positioning)                 │
+│                                                                             │
+│   ────────────────────────────────────────────────────────────────────────│
+│   PREMIUM FITNESS/WELLNESS PLATFORMS                                       │
+│   Equinox               Various        2017   $1.8B    $1.5B    1.2x      │
+│   • 100+ locations, membership model                                       │
+│   • EBITDA: $120M → 15x EBITDA multiple                                    │
+│   • Premium brand with loyal following                                     │
+│   • Comp Relevance: ⭐⭐ (different model, but brand value lesson)        │
+│                                                                             │
+│   Life Time Fitness    TPG (→ IPO)    2015   $4B      $1.4B    2.9x       │
+│   • 150+ locations, family-oriented                                        │
+│   • Went private, then re-IPO'd in 2021                                    │
+│   • Current market cap: $5.2B                                              │
+│   • Comp Relevance: ⭐⭐ (scale story, different segment)                 │
+│                                                                             │
+│   ────────────────────────────────────────────────────────────────────────│
+│   MENTAL HEALTH & TRANSFORMATION                                           │
+│   Spring Health        Various (VC)   2023   $3.3B*   $100M    33x        │
+│   • Digital mental health platform                                         │
+│   • *Valuation, not exit (showing investor appetite)                       │
+│   • $200M ARR by 2024                                                      │
+│   • Comp Relevance: ⭐⭐ (shows mental health premium)                    │
+│                                                                             │
+│   Headspace Health     Merger (public) 2021   $3B*     $100M+   30x       │
+│   • Meditation app (Headspace + Ginger)                                    │
+│   • SPAC merger, now public                                                │
+│   • Shows digital health investor appetite                                 │
+│   • Comp Relevance: ⭐⭐ (category creation parallels)                    │
+│                                                                             │
+│   ────────────────────────────────────────────────────────────────────────│
+│   BOUTIQUE HOSPITALITY (Asset-Heavy)                                       │
+│   Aman Resorts         Vlad Doronin    2014   $358M    ~$200M   1.8x      │
+│   • 34 ultra-luxury properties                                             │
+│   • Built on exclusivity and brand                                         │
+│   • Lower revenue multiple, high EBITDA multiple (~12-15x)                 │
+│   • Comp Relevance: ⭐⭐⭐ (luxury brand playbook)                        │
+│                                                                             │
+│   Six Senses          IHG               2019   $300M    ~$80M    3.8x      │
+│   • 16 wellness resorts                                                    │
+│   • Sustainability + wellness positioning                                  │
+│   • Strategic acquisition for portfolio expansion                          │
+│   • Comp Relevance: ⭐⭐⭐⭐ (wellness-focused luxury)                    │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Valuation Methodology & Exit Scenarios
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   YEAR 5 EXIT VALUATION FRAMEWORK                                          │
+│                                                                             │
+│   Scenario 1: EBITDA Multiple Approach                                     │
+│   ────────────────────────────────────────────────────────────────────────│
+│   Year 5 EBITDA (Base Case):  $5.0M                                        │
+│   Exit Multiple Range:         5.5x - 8.5x                                 │
+│                                                                             │
+│   Conservative (5.5x):         $27.5M                                      │
+│   • Single location, modest occupancy, buyer sees risk                     │
+│   • Comparable: Canyon Ranch distressed sale                               │
+│                                                                             │
+│   Base Case (6.5x):            $32.5M                                      │
+│   • 1-2 locations, strong unit economics, proven model                     │
+│   • Comparable: SHA Wellness (5x revenue = ~6-7x EBITDA)                   │
+│                                                                             │
+│   Optimistic (8.5x):           $42.5M                                      │
+│   • 3+ locations operational, category leadership established              │
+│   • Comparable: Equinox (15x EBITDA reflects brand premium)                │
+│                                                                             │
+│   ────────────────────────────────────────────────────────────────────────│
+│                                                                             │
+│   Scenario 2: Revenue Multiple Approach                                    │
+│   ────────────────────────────────────────────────────────────────────────│
+│   Year 5 Revenue (Base Case):  $15.1M                                      │
+│   Exit Multiple Range:          3x - 6x                                    │
+│                                                                             │
+│   Conservative (3x):            $45.3M                                     │
+│   • Industry standard for boutique wellness/hospitality                    │
+│   • Comparable: Life Time (2.9x), Equinox (1.2x but EBITDA heavy)          │
+│                                                                             │
+│   Base Case (4.5x):             $67.9M                                     │
+│   • Premium for transformation category + outcomes data                    │
+│   • Comparable: Six Senses (3.8x), SHA (5x)                                │
+│                                                                             │
+│   Optimistic (6x):              $90.6M                                     │
+│   • Strategic premium if bidding war or platform potential                 │
+│   • Comparable: Miraval (11.9x shows strategic can pay up)                 │
+│                                                                             │
+│   ────────────────────────────────────────────────────────────────────────│
+│                                                                             │
+│   Blended Valuation (Conservative)                                         │
+│   ────────────────────────────────────────────────────────────────────────│
+│   60% EBITDA Method (6.5x):     $32.5M × 0.6 = $19.5M                      │
+│   40% Revenue Method (4.5x):    $67.9M × 0.4 = $27.2M                      │
+│   ──────────────────────────────────────                                   │
+│   Blended Exit Value:           $46.7M                                     │
+│                                                                             │
+│   Less: Debt                    ($2.0M)   (assumed remaining debt)         │
+│   Less: Transaction Costs        ($1.9M)   (4% of proceeds)                │
+│   ──────────────────────────────────────                                   │
+│   Net Proceeds:                 $42.8M                                     │
+│                                                                             │
+│   Investor Returns (Seed Round):                                           │
+│   Ownership: 25% (post-seed)                                               │
+│   Share of Proceeds: $10.7M                                                │
+│   Investment: $5.0M                                                        │
+│   ──────────────────────────────────────                                   │
+│   MOIC: 2.14x                                                              │
+│   IRR: 23.7% (5-year hold)                                                 │
+│                                                                             │
+│   Note: Base case assumptions. Series A dilution would reduce ownership    │
+│   but increase absolute value through growth acceleration.                 │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Specific Acquirer Profiles
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   TOP 5 MOST LIKELY ACQUIRERS                                              │
+│                                                                             │
+│   1. HYATT (Most Likely)                               Probability: 30%    │
+│   ────────────────────────────────────────────────────────────────────────│
+│   Why They'd Buy:                                                          │
+│   • Already own Miraval (transformational wellness)                        │
+│   • Expanding wellness vertical aggressively                               │
+│   • Want global footprint in transformation space                          │
+│   • Our 30-location plan fits their growth strategy                        │
+│                                                                             │
+│   What They'd Pay:                                                         │
+│   • Strategic premium (6-8x EBITDA)                                        │
+│   • $50-70M for proven concept + expansion rights                          │
+│   • Likely buyer in Year 5-7                                               │
+│                                                                             │
+│   Relationship Building:                                                   │
+│   • Introduce Year 2 (too early Year 1)                                    │
+│   • Invite Miraval leadership to visit as guests                           │
+│   • Explore partnership on outcomes research                               │
+│                                                                             │
+│   ────────────────────────────────────────────────────────────────────────│
+│                                                                             │
+│   2. ACCOR (Luxury Division)                           Probability: 20%    │
+│   ────────────────────────────────────────────────────────────────────────│
+│   Why They'd Buy:                                                          │
+│   • Own Rixos, Raffles, Fairmont (luxury brands)                           │
+│   • Looking to differentiate in wellness space                             │
+│   • Strong presence in Mexico, Europe (our expansion markets)              │
+│   • No transformational offering in portfolio                              │
+│                                                                             │
+│   What They'd Pay:                                                         │
+│   • Portfolio expansion multiple (5-7x EBITDA)                             │
+│   • $45-60M range                                                          │
+│   • Likely buyer in Year 6-8                                               │
+│                                                                             │
+│   ────────────────────────────────────────────────────────────────────────│
+│                                                                             │
+│   3. KKR / BLACKSTONE (PE Wellness Roll-Up)            Probability: 25%    │
+│   ────────────────────────────────────────────────────────────────────────│
+│   Why They'd Buy:                                                          │
+│   • Building wellness platforms (roll-up strategy)                         │
+│   • See $1T market opportunity                                             │
+│   • Want category-defining brands to anchor portfolio                      │
+│   • Can fund aggressive expansion                                          │
+│                                                                             │
+│   What They'd Pay:                                                         │
+│   • Platform premium (7-10x EBITDA)                                        │
+│   • $60-80M+ if we're clear category leader                                │
+│   • Likely buyer in Year 5-6 (earlier than strategic)                      │
+│                                                                             │
+│   ────────────────────────────────────────────────────────────────────────│
+│                                                                             │
+│   4. COMPASS PATHWAYS / ATAI LIFE SCIENCES (Psychedelic) Probability: 15% │
+│   ────────────────────────────────────────────────────────────────────────│
+│   Why They'd Buy:                                                          │
+│   • Need real-world delivery infrastructure for therapies                  │
+│   • We have medical protocols + outcome data                               │
+│   • Vertical integration play (research → treatment delivery)              │
+│   • Our model de-risks their regulatory pathway                            │
+│                                                                             │
+│   What They'd Pay:                                                         │
+│   • Depends on their market cap + FDA approval timeline                    │
+│   • Likely acqui-hire + infrastructure (lower multiple)                    │
+│   • $30-50M range                                                          │
+│   • Timing: Year 6-10 (when psychedelic therapy is approved)               │
+│                                                                             │
+│   ────────────────────────────────────────────────────────────────────────│
+│                                                                             │
+│   5. SOVEREIGN WEALTH FUND (UAE, Saudi)                Probability: 10%    │
+│   ────────────────────────────────────────────────────────────────────────│
+│   Why They'd Buy:                                                          │
+│   • Diversifying into wellness/longevity                                   │
+│   • Saudi Vision 2030, UAE wellness tourism push                           │
+│   • Want Western brands to legitimize their markets                        │
+│   • Deep pockets, patient capital                                          │
+│                                                                             │
+│   What They'd Pay:                                                         │
+│   • Trophy asset premium (8-12x EBITDA)                                    │
+│   • $70-100M+ (can overpay strategically)                                  │
+│   • Likely buyer in Year 7-10 (want proven global brand)                   │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Exit Preparation Roadmap
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   BUILDING FOR EXIT FROM DAY 1                                             │
+│                                                                             │
+│   Year 1-2: Foundation                                                     │
+│   • Clean cap table (no messy structures)                                  │
+│   • Audited financials from inception (Big 4 preferred)                    │
+│   • Board minutes meticulously documented                                  │
+│   • All contracts in writing (no handshake deals)                          │
+│   • IP properly assigned to company                                        │
+│                                                                             │
+│   Year 3-4: Optimization                                                   │
+│   • Unit economics proven and documented                                   │
+│   • Outcome data published (credibility)                                   │
+│   • Key talent locked in (reduce key person risk)                          │
+│   • Expansion playbook documented (proves scalability)                     │
+│   • Strategic relationships cultivated (potential buyers)                  │
+│                                                                             │
+│   Year 5: Pre-Exit                                                         │
+│   • Hire investment bank (Moelis, Jefferies, Guggenheim)                   │
+│   • Prepare CIM (Confidential Information Memorandum)                      │
+│   • Management presentations polished                                      │
+│   • Data room organized (due diligence ready)                              │
+│   • Quality of earnings study (financial validation)                       │
+│   • "Quiet" outreach to strategic buyers                                   │
+│                                                                             │
+│   Year 5-7: Exit Execution                                                 │
+│   • Dual-track process (strategic + PE)                                    │
+│   • Competitive tension (3-5 serious bidders)                              │
+│   • LOI negotiation                                                        │
+│   • Due diligence (90-120 days)                                            │
+│   • Definitive agreement                                                   │
+│   • Close (6-9 months from LOI to wire)                                    │
+│                                                                             │
+│   Success Factors:                                                         │
+│   ✓ Multiple bidders (creates pricing tension)                             │
+│   ✓ Clean story (no surprises in due diligence)                            │
+│   ✓ Founder staying post-close (de-risks transition)                       │
+│   ✓ Growth trajectory visible (not just current state)                     │
+│   ✓ Strategic rationale clear (why WE'RE the answer to THEIR problem)      │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
