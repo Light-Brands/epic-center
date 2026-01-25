@@ -1,0 +1,142 @@
+UNIT ECONOMICS
+Per-Guest and Per-Location Analysis
+
+PER-GUEST UNIT ECONOMICS
+Component,Amount,% of Revenue,Notes
+
+REVENUE PER GUEST
+Program Fee (Avg 15.4 days),$30100,100.0%,Base wellness program
+Bio-optimization Add-ons,$3612,12.0%,Stem cells NAD+ PRP
+Wellness Products,$903,3.0%,Supplements protocols
+TOTAL GUEST REVENUE,$34615,115.0%,
+
+DIRECT COSTS PER GUEST
+Medical Staff/Oversight,$3500,11.6%,24/7 physician allocation
+Facilitators/Therapy,$2500,8.3%,Ceremony integration support
+Food/Hospitality,$2000,6.6%,Premium organic meals
+Bio-optimization Supplies,$800,2.7%,IV materials biologics
+Plant Medicine Materials,$500,1.7%,Sourcing and preparation
+Guest Amenities,$300,1.0%,Welcome kit linens toiletries
+TOTAL DIRECT COSTS,$9600,31.9%,
+
+GROSS PROFIT/GUEST,$24995,83.0%,At fully loaded revenue
+
+CONTRIBUTION MARGIN
+Gross Profit,$24995,
+Fixed Cost Allocation,$12281,Based on 240 guests/year at capacity
+CONTRIBUTION MARGIN/GUEST,$12714,42.2%,
+
+CUSTOMER ACQUISITION COST (CAC)
+Channel,Cost/Guest,Mix %,Blended Cost
+Direct/Organic,$500,30%,$150
+Referral Program,$2000,40%,$800
+Paid Digital,$4000,20%,$800
+PR/Content,$1500,10%,$150
+BLENDED CAC,$1900,100%,$1900
+
+LIFETIME VALUE (LTV) CALCULATION
+Component,Amount,Probability,Expected Value
+Initial Program,$30100,100%,$30100
+Return Visit (within 2 years),$28000,15%,$4200
+Post-care Subscription (12 mo),$2400,40%,$960
+Referral Value (1.2 referrals avg),$3000,30%,$900
+TOTAL LTV,,$36160,
+
+LTV/CAC ANALYSIS
+Metric,Value,Benchmark,Status
+LTV,$36160,$30000+,Exceeds
+CAC,$1900,$5000 max,Strong
+LTV:CAC Ratio,19.0x,3.0x minimum,Excellent
+Payback Period,1.9 months,12 months max,Excellent
+
+GUEST COHORT ANALYSIS
+Cohort,Guests,Revenue/Guest,Retention %,2-Year Value
+High-Net-Worth,$45000+,$45000,25%,$56250
+Standard,$30100,$30100,12%,$33712
+Short-Stay (7-day),$14000,$14000,20%,$16800
+BLENDED,,$30100,15%,$34615
+
+PER-LOCATION UNIT ECONOMICS
+Metric,At 50% Occ,At 75% Occ,At 85% Occ
+
+CAPACITY
+Available Beds,16,16,16
+Guest-Days/Year,5840,5840,5840
+Occupancy %,50%,75%,85%
+Occupied Guest-Days,2920,4380,4964
+Guests/Year (15.4 day avg),190,284,322
+
+REVENUE
+Gross Program Revenue,$5719000,$8551800,$9694400
+Add-on Revenue (15%),$857850,$1282770,$1454160
+TOTAL REVENUE,$6576850,$9834570,$11148560
+
+DIRECT COSTS
+Per-Guest Costs,$1824000,$2726400,$3091200
+GROSS PROFIT,$4752850,$7108170,$8057360
+Gross Margin,72.3%,72.3%,72.3%
+
+OPERATING COSTS
+Facility,$384000,$415254,$449219
+Personnel,$1495440,$1617468,$1749454
+Professional,$180000,$194688,$210575
+Technology,$108000,$116813,$126345
+Marketing,$480000,$519168,$561532
+G&A,$300000,$324480,$350958
+TOTAL OPEX,$2947440,$3187871,$3448083
+
+LOCATION EBITDA,$1805410,$3920299,$4609277
+EBITDA Margin,27.5%,39.9%,41.3%
+
+RETURN ON INVESTMENT
+Initial Investment,$10867500,$10867500,$10867500
+Annual EBITDA,$1805410,$3920299,$4609277
+Simple Payback (Years),6.0,2.8,2.4
+5-Year ROI,83%,180%,212%
+
+SCALING ECONOMICS
+Metric,1 Location,2 Locations,3 Locations
+
+REVENUE
+Per Location (at 75%),$9834570,$9834570,$9834570
+TOTAL REVENUE,$9834570,$19669140,$29503710
+
+COSTS
+Direct (Variable),$2726400,$5452800,$8179200
+Fixed per Location,$2947440,$2507324,$2192409
+Shared Services,$0,$750000,$1250000
+TOTAL COSTS,$5673840,$11217448,$16374418
+
+EBITDA,$4160730,$8451692,$13129292
+EBITDA Margin,42.3%,43.0%,44.5%
+
+ECONOMIES OF SCALE
+Fixed cost sharing across locations reduces per-location overhead
+Marketing efficiency improves with brand recognition
+Technology platform scales with minimal incremental cost
+Purchasing power increases for supplies and equipment
+
+BREAK-EVEN ANALYSIS
+Scenario,Break-even Point
+Guests Per Month,12 guests
+Occupancy %,37.5%
+Revenue/Month,$361200
+Days to Break-even from Opening,~180 days
+Months to Cash Flow Positive,15-18 months
+
+SENSITIVITY: PRICE CHANGES
+Price Change,Revenue Impact,EBITDA Impact,Break-even Change
+-20%,-$7228032,-$5023632,+25% occupancy needed
+-10%,-$3614016,-$2511816,+12% occupancy needed
+Base,$0,$0,37.5% break-even
++10%,+$3614016,+$2511816,-10% occupancy buffer
++20%,+$7228032,+$5023632,-17% occupancy buffer
+
+SENSITIVITY: OCCUPANCY CHANGES
+Occupancy,Guests,Revenue,EBITDA,Margin
+50%,190,$6576850,$1805410,27.5%
+60%,228,$7892220,$2893292,36.7%
+70%,266,$9207590,$3981174,43.2%
+75%,284,$9834570,$4525115,46.0%
+80%,304,$10462550,$5069056,48.4%
+85%,322,$11148560,$4609277,41.3%

@@ -1,0 +1,122 @@
+REVENUE MODEL
+5-Year Revenue Projections with Monthly Year 1 Detail
+
+PROGRAM PRICING STRUCTURE
+Program,Duration,Daily Rate,Total Price,Target Mix %
+7-Day Reset,7,$2000,$14000,25%
+14-Day Interruption,14,$2000,$28000,40%
+21-Day Recalibration,21,$2000,$42000,25%
+28-Day Full Transformation,28,$2000,$56000,10%
+WEIGHTED AVERAGE,15.4,$2000,$30100,100%
+
+CAPACITY ASSUMPTIONS
+Metric,Value,Notes
+Total Rooms,20,Current property
+Usable Treatment Beds,16,4 rooms converted to treatment/common
+Days Per Month,30,Standard month
+Max Guest-Days/Month,480,16 beds x 30 days
+Programs Per Bed/Month,2,With turnover and prep time
+Max Guests/Month,32,At 100% occupancy
+
+YEAR 1 - MONTHLY REVENUE PROJECTION (BASE CASE)
+Month,Occupancy %,Guests,Avg Revenue/Guest,Gross Revenue,Add-on Revenue (12%),Total Revenue
+Month 1,0%,0,$30100,$0,$0,$0
+Month 2,0%,0,$30100,$0,$0,$0
+Month 3,0%,0,$30100,$0,$0,$0
+Month 4,15%,5,$30100,$150500,$0,$150500
+Month 5,25%,8,$30100,$240800,$0,$240800
+Month 6,35%,11,$30100,$331100,$39732,$370832
+Month 7,45%,14,$30100,$421400,$50568,$471968
+Month 8,50%,16,$30100,$481600,$57792,$539392
+Month 9,55%,18,$30100,$541800,$65016,$606816
+Month 10,55%,18,$30100,$541800,$65016,$606816
+Month 11,55%,18,$30100,$541800,$65016,$606816
+Month 12,55%,18,$30100,$541800,$65016,$606816
+YEAR 1 TOTAL,,-,126,,$3792600,$408156,$4200756
+
+YEAR 1 - CONSERVATIVE CASE
+Month,Occupancy %,Guests,Total Revenue
+Month 1-3,0%,0,$0
+Month 4,10%,3,$90300
+Month 5,20%,6,$180600
+Month 6,25%,8,$240800
+Month 7,35%,11,$371332
+Month 8,40%,13,$436188
+Month 9,45%,14,$490056
+Month 10,45%,14,$490056
+Month 11,45%,14,$490056
+Month 12,45%,14,$490056
+YEAR 1 TOTAL,-,97,$3279444
+
+YEAR 1 - AGGRESSIVE CASE
+Month,Occupancy %,Guests,Total Revenue
+Month 1-3,0%,0,$0
+Month 4,20%,6,$180600
+Month 5,30%,10,$301000
+Month 6,45%,14,$501668
+Month 7,55%,18,$636036
+Month 8,60%,19,$699692
+Month 9,65%,21,$763348
+Month 10,65%,21,$763348
+Month 11,65%,21,$763348
+Month 12,65%,21,$763348
+YEAR 1 TOTAL,-,151,$5372388
+
+5-YEAR REVENUE PROJECTION
+Metric,Year 1,Year 2,Year 3,Year 4,Year 5
+CAPACITY
+Available Beds,16,16,16,16,16
+Days Per Year,365,365,365,365,365
+Max Guest-Days,5840,5840,5840,5840,5840
+
+BASE CASE
+Occupancy Rate,35%,65%,75%,80%,85%
+Occupied Guest-Days,2044,3796,4380,4672,4964
+Number of Guests,133,247,284,303,322
+Avg Stay (Days),15.4,15.4,15.4,15.4,15.4
+
+REVENUE
+Gross Program Revenue,$4002100,$7433900,$8551800,$9123100,$9694400
+Bio-optimization Add-ons (12%),$360189,$892068,$1026216,$1094772,$1163328
+Wellness Products (3%),$0,$223017,$256554,$273693,$290832
+Post-care Subscriptions (5%),$0,$371695,$427590,$456155,$484720
+TOTAL REVENUE,$4362289,$8920680,$10262160,$10947720,$11633280
+
+CONSERVATIVE CASE
+Occupancy Rate,27%,55%,65%,70%,75%
+Number of Guests,97,199,234,252,271
+TOTAL REVENUE,$3279444,$7135740,$8394984,$9024558,$9708204
+
+AGGRESSIVE CASE
+Occupancy Rate,42%,75%,85%,90%,90%
+Number of Guests,151,271,306,324,324
+TOTAL REVENUE,$5372388,$9710460,$10966728,$11619432,$11619432
+
+REVENUE BY PROGRAM TYPE (YEAR 3 BASE CASE)
+Program,Mix %,Guests,Revenue
+7-Day Reset,25%,71,$994000
+14-Day Interruption,40%,114,$3192000
+21-Day Recalibration,25%,71,$2982000
+28-Day Full Transformation,10%,28,$1568000
+TOTAL PROGRAM REVENUE,100%,284,$8736000
+
+SEASONALITY ADJUSTMENT
+Quarter,Adjustment Factor,Notes
+Q1 (Jan-Mar),1.15,Peak season - holidays resolutions
+Q2 (Apr-Jun),0.90,Shoulder season
+Q3 (Jul-Sep),0.85,Low season - summer
+Q4 (Oct-Dec),1.10,Rising season
+
+REVENUE CONCENTRATION RISK
+Revenue Source,Year 1 %,Year 3 %,Year 5 %
+Core Programs,92%,83%,83%
+Bio-optimization,8%,10%,10%
+Products,0%,3%,3%
+Subscriptions,0%,4%,4%
+TOTAL,100%,100%,100%
+
+GUEST VOLUME GROWTH
+Metric,Year 1,Year 2,Year 3,Year 4,Year 5
+Guests (Base),133,247,284,303,322
+YoY Growth,-,86%,15%,7%,6%
+Cumulative Guests,133,380,664,967,1289

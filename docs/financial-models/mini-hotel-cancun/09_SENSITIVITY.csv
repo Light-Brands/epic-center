@@ -1,0 +1,117 @@
+SENSITIVITY ANALYSIS
+Risk Assessment and Scenario Modeling
+
+TORNADO CHART - KEY VARIABLES IMPACT ON 5-YEAR NPV
+Variable,Low Case,Base Case,High Case,NPV Impact Range
+Occupancy Rate,-30%,Base,+15%,$3200000
+Average Price,-15%,Base,+15%,$2800000
+COGS Percentage,+20%,Base,-10%,$1500000
+Fixed Costs,+15%,Base,-10%,$1200000
+Ramp-up Speed,-3 months,Base,+3 months,$900000
+Working Capital,+25%,Base,-15%,$400000
+
+SCENARIO ANALYSIS
+Scenario,Description,Probability,Year 5 Revenue,Year 5 EBITDA,5-Year NPV,IRR
+
+Bear Case,Slow ramp regulatory delays,20%,$9708204,$3435062,$2890145,12.3%
+Base Case,Expected performance,50%,$11633280,$4568815,$4521287,18.5%
+Bull Case,Fast ramp premium pricing,25%,$11619432,$4801724,$6352890,24.7%
+Failure Case,Unable to achieve operations,5%,$0,-$5000000,-$8500000,N/A
+
+OCCUPANCY SENSITIVITY
+Year 3 Occupancy,Revenue,EBITDA,Net Income,NPV Change
+55%,$7680408,$2430537,$1301376,-28%
+65%,$8970804,$3278987,$1845291,-12%
+75% (Base),$10262160,$4125417,$2439792,0%
+85%,$11552556,$4973867,$3034293,+15%
+
+PRICING SENSITIVITY
+Avg Price/Guest,Revenue,EBITDA,Net Income,NPV Change
+$25000,-17%,-35%,-42%,-32%
+$28000,-7%,-18%,-22%,-15%
+$30100 (Base),0%,0%,0%,0%
+$33000,+10%,+22%,+28%,+18%
+$36000,+20%,+44%,+56%,+35%
+
+COST SENSITIVITY
+Cost Change,COGS Impact,EBITDA Impact,Net Income Impact,NPV Change
+COGS +20%,-$590000,-$413000,-$289100,-8%
+COGS +10%,-$295000,-$206500,-$144550,-4%
+Base,$0,$0,$0,0%
+COGS -10%,+$295000,+$206500,+$144550,+4%
+
+Fixed Costs +15%,-$478181,-$478181,-$334727,-10%
+Fixed Costs +10%,-$318787,-$318787,-$223151,-7%
+Base,$0,$0,$0,0%
+Fixed Costs -10%,+$318787,+$318787,+$223151,+7%
+
+BREAK-EVEN SCENARIOS
+Scenario,Fixed Costs,Contribution Margin,Break-even Guests,Break-even Occupancy
+Current,$2947440,$20500,144,60%
+High Fixed Costs (+20%),$3536928,$20500,173,72%
+Low Contribution (-15%),$2947440,$17425,169,70%
+Worst Case,$3536928,$17425,203,85%
+Best Case,$2507724,$23575,106,44%
+
+MONTE CARLO SIMULATION SUMMARY
+Percentile,5-Year NPV,IRR
+5th Percentile,$1250000,8.2%
+25th Percentile,$3100000,14.1%
+50th Percentile (Median),$4300000,17.8%
+75th Percentile,$5800000,22.5%
+95th Percentile,$7500000,28.3%
+Mean,$4521287,18.5%
+Standard Deviation,$1850000,5.2%
+
+RISK FACTORS AND MITIGATION
+Risk Category,Risk Description,Probability,Impact,Mitigation Strategy
+
+MARKET RISKS
+Demand Risk,Lower than expected guest demand,Medium,High,Pre-sales validation phased opening marketing
+Price Sensitivity,Guests unwilling to pay premium,Low,High,Value demonstration flexible programs
+Competition,New entrants or existing competitors,Medium,Medium,Brand differentiation IP protection
+
+OPERATIONAL RISKS
+Regulatory Delay,COFEPRIS permits take longer,Medium,High,Early engagement buffer timeline parallel workstreams
+Medical Incidents,Serious adverse events,Low,Critical,Rigorous screening protocols insurance hospital access
+Staff Retention,Key personnel turnover,Medium,Medium,Competitive compensation equity incentives
+
+FINANCIAL RISKS
+Cost Overruns,Renovation exceeds budget,Medium,Medium,15% contingency detailed engineering phased approach
+FX Risk,USD/MXN volatility,Low,Low,Natural hedge local revenue hedging contracts
+Interest Rates,Financing cost increases,Low,Low,Primarily equity funded lock rates early
+
+EXTERNAL RISKS
+Political/Regulatory,Mexico policy changes,Low,Medium,Legal counsel government relations insurance
+Natural Disaster,Hurricane damage,Low,High,Insurance structural resilience emergency plans
+Pandemic,Health crisis restricts travel,Low,High,Virtual programs diversified locations cash reserves
+
+STRESS TESTING
+Stress Scenario,Description,Financial Impact,Survival Assessment
+
+Mild Recession
+Revenue decline,25% reduction,Year 3 revenue: $7.7M
+EBITDA impact,45% reduction,EBITDA: $2.3M
+Cash position,Burn rate increase,Still cash positive
+Assessment,,Survives with reduced margins
+
+Severe Recession
+Revenue decline,50% reduction,Year 3 revenue: $5.1M
+EBITDA impact,90% reduction,EBITDA: $0.4M
+Cash position,Extended burn,Break-even challenged
+Assessment,,Requires cost cuts or additional capital
+
+Regulatory Shutdown
+Operations cease,3-6 months,Lost revenue: $2.6-5.2M
+Fixed costs continue,Reduced to 50%,$1.5M cash burn
+Recovery time,6-12 months,Significant but recoverable
+Assessment,,Survives if <6 months requires capital if longer
+
+KEY METRICS DASHBOARD
+Metric,Bear,Base,Bull,Threshold
+5-Year Revenue CAGR,18%,23%,17%,15% min
+Year 5 EBITDA Margin,35%,39%,41%,30% min
+Year 5 Net Margin,18%,24%,28%,15% min
+Payback Period,5.8 yrs,4.2 yrs,3.4 yrs,6 yrs max
+Project IRR,12.3%,18.5%,24.7%,10% min
+LTV:CAC,14x,19x,23x,3x min
