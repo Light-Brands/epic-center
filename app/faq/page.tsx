@@ -91,7 +91,7 @@ const FAQS: FAQ[] = [
   {
     category: 'Team',
     question: 'Who is the management team?',
-    answer: 'Dan Lawless (Founder/CEO) leads the venture. We are actively recruiting a Medical Director, Director of Nursing, and Clinical Psychologist—all critical hires before operations begin.',
+    answer: 'Nicholas Courchesne (Founder/CEO) and Jason Sparks (Co-Founder/COO) lead the venture, supported by Dan Lawless as Technical Lead, Dr. Mariana Hoyo as Chief Medical Officer, and a growing team of dedicated professionals.',
   },
   {
     category: 'Team',

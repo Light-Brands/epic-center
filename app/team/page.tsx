@@ -5,63 +5,62 @@ import { ArrowLeft, ArrowRight, Linkedin, Mail, Globe, Award, Briefcase, Graduat
 import { Button, Card } from '@/components/ui'
 import { Footer } from '@/components/layout'
 
-const LEADERSHIP_TEAM = [
+const FOUNDERS = [
   {
-    name: 'Dan Lawless',
+    name: 'Nicholas Courchesne',
     role: 'Founder & CEO',
-    bio: 'Serial entrepreneur with deep experience in hospitality, healthcare, and alternative medicine. Passionate about bringing evidence-based psychedelic therapy to those who need it most.',
-    expertise: ['Business Strategy', 'Fundraising', 'Operations'],
+    bio: 'Visionary leader and master relationship builder driving Epic Center\'s mission forward. A natural connector with deep networks across industries, Nicholas brings strategic vision and heartfelt purpose to every partnership and stakeholder relationship.',
+    expertise: ['Strategic Vision', 'Partnerships', 'Business Development'],
     background: [
-      '15+ years entrepreneurial experience',
-      'Previous exits in hospitality tech',
+      'Deep networks across wellness and hospitality industries',
+      'Proven track record building strategic partnerships',
       'Personal transformation through plant medicine',
-      'Network in HNW and institutional capital',
+      'Passionate advocate for accessible healing',
+    ],
+    image: null,
+  },
+  {
+    name: 'Jason Sparks',
+    role: 'Co-Founder & COO',
+    bio: 'Seasoned hospitality executive bringing operational excellence and guest experience mastery to Epic Center. Jason combines analytical rigor with hands-on leadership to ensure world-class operations and exceptional guest experiences.',
+    expertise: ['Operations', 'Hospitality', 'Guest Experience'],
+    background: [
+      'Extensive luxury resort operations experience',
+      'Expert in guest experience optimization',
+      'Strong operational and analytical skills',
+      'Committed to service excellence',
     ],
     image: null,
   },
 ]
 
-const ADVISORS_PARTNERS = [
-  {
-    name: 'Nicholas Courchesne',
-    role: 'Advisor & Partner',
-    focus: 'Strategic Relationships',
-    bio: 'Master of Strategic Partnerships who leads relationships as the bridge between Epic Center and external stakeholders. A natural connector with deep networks across industries, Nicholas brings a big heart and strategic vision to every partnership.',
-    caseStudy: 'Walking Case Study',
-  },
-  {
-    name: 'Jason Sparks',
-    role: 'General Manager',
-    focus: 'Operations & Hospitality',
-    bio: 'Experienced hospitality executive bringing expertise in luxury resort operations and guest experience excellence. Jason combines analytical rigor with operational mastery to ensure seamless day-to-day operations and exceptional guest experiences.',
-    caseStudy: 'Walking Case Study',
-  },
+const LEADERSHIP_TEAM = [
   {
     name: 'Dan Lawless',
-    role: 'Advisor & Partner',
-    focus: 'Tech Strategist & AI Solution Architect',
-    bio: 'Seasoned full-stack developer with over 20 years of experience building and scaling the technical foundations that transform businesses. Dan architects both internal and external technologies, bringing visionary tech leadership to Epic Center.',
+    role: 'Technical Lead & Solution Architect',
+    focus: 'Technology Strategy',
+    bio: 'Seasoned full-stack developer with over 20 years of experience building and scaling technical foundations. Dan architects both internal and external technologies, bringing visionary tech leadership to Epic Center.',
     caseStudy: 'Pending Case Study',
   },
   {
     name: 'Dr. Mariana Hoyo',
     role: 'Chief Medical Officer',
-    focus: 'Director of Integration',
-    bio: 'General Physician graduated from Universidad Anáhuac México Norte in Mexico City. Master\'s degree in Healthcare Institution Management and Administration with specialization in Corporate Wellness. Certified in Medicinal Cannabis nationally and internationally, and ThetaHealer. Her passion is helping and serving people to improve quality of life, providing comprehensive and holistic care for physical, mental, and emotional well-being through both allopathic and alternative therapeutic approaches.',
+    focus: 'Medical & Integration',
+    bio: 'General Physician from Universidad Anáhuac México Norte with a Master\'s in Healthcare Management. Certified in Medicinal Cannabis and ThetaHealing, she provides holistic care for physical, mental, and emotional well-being.',
     caseStudy: null,
   },
   {
     name: 'Eyob Mebrahtu',
     role: 'Head of Marketing',
     focus: 'Growth & Brand',
-    bio: 'Marketing leader bringing expertise in luxury wellness and transformation brands. Dedicated to cultivating meaningful connections with clients and ensuring exceptional experiences throughout their transformation journey.',
+    bio: 'Marketing leader bringing expertise in luxury wellness and transformation brands. Dedicated to cultivating meaningful client connections and ensuring exceptional experiences throughout their transformation journey.',
     caseStudy: 'Walking Case Study',
   },
   {
     name: 'Julien Leblanc',
     role: 'Medicine Advocate',
-    focus: 'MMA Fighter & Medicine Promoter',
-    bio: 'Professional MMA fighter and passionate advocate for plant medicine as a tool for healing and performance optimization. Julien brings visibility and authentic testimony to the transformative power of these treatments.',
+    focus: 'Outreach & Promotion',
+    bio: 'Professional MMA fighter and passionate advocate for plant medicine as a healing and performance tool. Julien brings visibility and authentic testimony to the transformative power of these treatments.',
     caseStudy: 'Walking Case Study',
   },
 ]
@@ -111,95 +110,100 @@ export default function TeamPage() {
           </p>
         </section>
 
-        {/* Founder */}
-        <section className="mb-16">
-          {LEADERSHIP_TEAM.map((member) => (
-            <Card key={member.name} padding="lg" className="max-w-4xl mx-auto">
-              <div className="grid md:grid-cols-3 gap-8">
-                <div className="md:col-span-1">
-                  <div className="aspect-square bg-gradient-to-br from-primary-100 to-primary-200 rounded-xl flex items-center justify-center mb-4">
-                    <span className="font-heading text-6xl text-primary-400">
-                      {member.name.split(' ').map(n => n[0]).join('')}
-                    </span>
-                  </div>
-                  <div className="flex gap-2 justify-center">
-                    <button className="p-2 rounded-lg bg-neutral-100 hover:bg-neutral-200 transition-colors">
-                      <Linkedin className="w-5 h-5 text-neutral-600" />
-                    </button>
-                    <button className="p-2 rounded-lg bg-neutral-100 hover:bg-neutral-200 transition-colors">
-                      <Mail className="w-5 h-5 text-neutral-600" />
-                    </button>
-                  </div>
-                </div>
-                <div className="md:col-span-2">
-                  <p className="font-accent text-sm uppercase tracking-widest text-secondary-500 mb-1">
-                    {member.role}
-                  </p>
-                  <h3 className="text-3xl font-heading text-neutral-900 mb-4">{member.name}</h3>
-                  <p className="text-neutral-600 mb-6">{member.bio}</p>
-
-                  <div className="flex flex-wrap gap-2 mb-6">
-                    {member.expertise.map((skill) => (
-                      <span
-                        key={skill}
-                        className="px-3 py-1 bg-primary-100 text-primary-700 rounded-full text-sm font-medium"
-                      >
-                        {skill}
-                      </span>
-                    ))}
-                  </div>
-
-                  <div className="pt-4 border-t border-neutral-200">
-                    <p className="font-accent text-xs uppercase tracking-wide text-neutral-500 mb-3">
-                      Background
-                    </p>
-                    <ul className="space-y-2">
-                      {member.background.map((item) => (
-                        <li key={item} className="flex items-center gap-2 text-neutral-700">
-                          <span className="w-1.5 h-1.5 rounded-full bg-secondary-400" />
-                          {item}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </Card>
-          ))}
-        </section>
-
-        {/* Advisors & Partners */}
+        {/* Founders */}
         <section className="mb-16">
           <div className="text-center mb-8">
             <p className="font-accent text-sm uppercase tracking-widest text-secondary-500 mb-2">
-              Strategic Team
+              Leadership
             </p>
-            <h3 className="text-3xl font-heading text-neutral-900">Advisors & Partners</h3>
-            <p className="text-neutral-600 mt-2">Industry experts and transformation advocates driving our mission</p>
+            <h3 className="text-3xl font-heading text-neutral-900">Founders</h3>
+          </div>
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            {FOUNDERS.map((member) => (
+              <Card key={member.name} padding="lg">
+                <div className="text-center mb-6">
+                  <div className="w-24 h-24 mx-auto bg-gradient-to-br from-primary-100 to-primary-200 rounded-xl flex items-center justify-center mb-4">
+                    <span className="font-heading text-4xl text-primary-400">
+                      {member.name.split(' ').map(n => n[0]).join('')}
+                    </span>
+                  </div>
+                  <p className="font-accent text-sm uppercase tracking-widest text-secondary-500 mb-1">
+                    {member.role}
+                  </p>
+                  <h3 className="text-2xl font-heading text-neutral-900">{member.name}</h3>
+                  <div className="flex gap-2 justify-center mt-3">
+                    <button className="p-2 rounded-lg bg-neutral-100 hover:bg-neutral-200 transition-colors">
+                      <Linkedin className="w-4 h-4 text-neutral-600" />
+                    </button>
+                    <button className="p-2 rounded-lg bg-neutral-100 hover:bg-neutral-200 transition-colors">
+                      <Mail className="w-4 h-4 text-neutral-600" />
+                    </button>
+                  </div>
+                </div>
+
+                <p className="text-neutral-600 mb-6 text-center">{member.bio}</p>
+
+                <div className="flex flex-wrap gap-2 mb-6 justify-center">
+                  {member.expertise.map((skill) => (
+                    <span
+                      key={skill}
+                      className="px-3 py-1 bg-primary-100 text-primary-700 rounded-full text-sm font-medium"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+
+                <div className="pt-4 border-t border-neutral-200">
+                  <p className="font-accent text-xs uppercase tracking-wide text-neutral-500 mb-3 text-center">
+                    Background
+                  </p>
+                  <ul className="space-y-2">
+                    {member.background.map((item) => (
+                      <li key={item} className="flex items-center gap-2 text-neutral-700 text-sm">
+                        <span className="w-1.5 h-1.5 rounded-full bg-secondary-400 flex-shrink-0" />
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </Card>
+            ))}
+          </div>
+        </section>
+
+        {/* Leadership Team */}
+        <section className="mb-16">
+          <div className="text-center mb-8">
+            <p className="font-accent text-sm uppercase tracking-widest text-secondary-500 mb-2">
+              Core Team
+            </p>
+            <h3 className="text-3xl font-heading text-neutral-900">Leadership Team</h3>
+            <p className="text-neutral-600 mt-2">Industry experts driving our mission forward</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {ADVISORS_PARTNERS.map((partner) => (
-              <Card key={partner.name} padding="md">
+          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            {LEADERSHIP_TEAM.map((member) => (
+              <Card key={member.name} padding="md">
                 <div className="flex items-start gap-4">
                   <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center flex-shrink-0">
                     <span className="font-heading text-xl text-primary-500">
-                      {partner.name.split(' ').map(n => n[0]).join('')}
+                      {member.name.split(' ').map(n => n[0]).join('')}
                     </span>
                   </div>
                   <div className="flex-1">
-                    <h4 className="font-medium text-neutral-900">{partner.name}</h4>
+                    <h4 className="font-medium text-neutral-900">{member.name}</h4>
                     <p className="font-accent text-xs uppercase tracking-wide text-primary-600 mb-1">
-                      {partner.role}
+                      {member.role}
                     </p>
-                    <p className="text-sm text-secondary-600 font-medium">{partner.focus}</p>
+                    <p className="text-sm text-secondary-600 font-medium">{member.focus}</p>
                   </div>
                 </div>
-                <p className="text-sm text-neutral-600 mt-4">{partner.bio}</p>
-                {partner.caseStudy && (
+                <p className="text-sm text-neutral-600 mt-4">{member.bio}</p>
+                {member.caseStudy && (
                   <div className="mt-3 pt-3 border-t border-neutral-100">
                     <span className="inline-flex items-center px-2 py-1 bg-secondary-100 text-secondary-700 rounded text-xs font-medium">
-                      {partner.caseStudy}
+                      {member.caseStudy}
                     </span>
                   </div>
                 )}

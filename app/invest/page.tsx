@@ -276,7 +276,7 @@ export default function InvestPage() {
               </div>
               <div className="text-center md:text-right">
                 <p className="text-sm text-primary-800 mb-2">Contact</p>
-                <p className="text-xl font-medium mb-1">Dan Lawless</p>
+                <p className="text-xl font-medium mb-1">Nicholas Courchesne</p>
                 <p className="text-primary-800">Founder & CEO</p>
                 <div className="mt-4 space-y-1 text-primary-800">
                   <p className="flex items-center justify-center md:justify-end gap-2">
