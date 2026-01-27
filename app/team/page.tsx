@@ -30,10 +30,10 @@ const ADVISORS_PARTNERS = [
     caseStudy: 'Walking Case Study',
   },
   {
-    name: 'Jason Parks',
-    role: 'Advisor & Partner',
-    focus: 'Business Strategy',
-    bio: 'Strategic business advisor bringing expertise in scaling ventures and operational excellence. Jason combines analytical rigor with entrepreneurial instincts to guide business growth and market positioning.',
+    name: 'Jason Sparks',
+    role: 'General Manager',
+    focus: 'Operations & Hospitality',
+    bio: 'Experienced hospitality executive bringing expertise in luxury resort operations and guest experience excellence. Jason combines analytical rigor with operational mastery to ensure seamless day-to-day operations and exceptional guest experiences.',
     caseStudy: 'Walking Case Study',
   },
   {
@@ -44,17 +44,17 @@ const ADVISORS_PARTNERS = [
     caseStudy: 'Pending Case Study',
   },
   {
-    name: 'Dr. Mariana',
+    name: 'Dr. Mariana Hoyo',
     role: 'Chief Medical Officer',
-    focus: 'Medical Leadership',
-    bio: 'Board-certified physician providing medical oversight and clinical leadership for all treatment protocols. Ensuring the highest standards of patient safety and evidence-based care.',
+    focus: 'Director of Integration',
+    bio: 'General Physician graduated from Universidad Anáhuac México Norte in Mexico City. Master\'s degree in Healthcare Institution Management and Administration with specialization in Corporate Wellness. Certified in Medicinal Cannabis nationally and internationally, and ThetaHealer. Her passion is helping and serving people to improve quality of life, providing comprehensive and holistic care for physical, mental, and emotional well-being through both allopathic and alternative therapeutic approaches.',
     caseStudy: null,
   },
   {
     name: 'Eyob Mebrahtu',
-    role: 'Advisor & Partner',
-    focus: 'Client Relationships',
-    bio: 'Relationship-focused advisor dedicated to cultivating meaningful connections with clients and ensuring exceptional experiences throughout their transformation journey.',
+    role: 'Head of Marketing',
+    focus: 'Growth & Brand',
+    bio: 'Marketing leader bringing expertise in luxury wellness and transformation brands. Dedicated to cultivating meaningful connections with clients and ensuring exceptional experiences throughout their transformation journey.',
     caseStudy: 'Walking Case Study',
   },
   {
@@ -68,28 +68,10 @@ const ADVISORS_PARTNERS = [
 
 const KEY_ROLES_NEEDED = [
   {
-    name: 'Clinical Psychologist',
-    role: 'Director of Integration',
-    expertise: 'Trauma & PTSD',
-    description: 'Licensed psychologist specializing in trauma therapy and psychedelic integration.',
-  },
-  {
-    name: 'General Manager',
-    role: 'VP Operations',
-    expertise: 'Luxury Hospitality',
-    description: 'Experienced hospitality executive with luxury resort operations expertise.',
-  },
-  {
     name: 'Director of Nursing',
     role: 'Clinical Operations',
     expertise: 'Medical Oversight',
     description: 'RN with experience in critical care and patient monitoring protocols.',
-  },
-  {
-    name: 'Head of Marketing',
-    role: 'Growth & Brand',
-    expertise: 'Wellness Marketing',
-    description: 'Marketing leader with experience in luxury wellness and transformation brands.',
   },
   {
     name: 'Integration Coaches',
@@ -107,9 +89,6 @@ const KEY_ROLES_NEEDED = [
 
 const KEY_HIRES = [
   { role: 'Director of Nursing', timeline: 'Q2 2026', priority: 'Critical', status: 'Searching' },
-  { role: 'Clinical Psychologist', timeline: 'Q2 2026', priority: 'Critical', status: 'Searching' },
-  { role: 'General Manager', timeline: 'Q3 2026', priority: 'High', status: 'Pipeline' },
-  { role: 'Head of Marketing', timeline: 'Q3 2026', priority: 'High', status: 'Pipeline' },
   { role: 'Integration Coaches (3)', timeline: 'Q3 2026', priority: 'Medium', status: 'Pipeline' },
   { role: 'Legal Counsel', timeline: 'Q4 2026', priority: 'Medium', status: 'Pipeline' },
 ]
