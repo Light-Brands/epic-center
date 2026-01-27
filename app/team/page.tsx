@@ -222,7 +222,7 @@ export default function TeamPage() {
             <p className="text-neutral-600 mt-2">Positions we&apos;re actively filling to complete our team</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {KEY_ROLES_NEEDED.map((advisor) => (
               <Card key={advisor.name} padding="md" className="text-center">
                 <div className="w-16 h-16 rounded-full bg-neutral-200 flex items-center justify-center mx-auto mb-4">
