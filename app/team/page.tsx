@@ -21,27 +21,84 @@ const LEADERSHIP_TEAM = [
   },
 ]
 
-const ADVISORY_BOARD = [
+const ADVISORS_PARTNERS = [
   {
-    name: 'Medical Director (TBH)',
-    role: 'Chief Medical Officer',
-    expertise: 'Addiction Medicine & Psychiatry',
-    description: 'Board-certified physician with expertise in addiction medicine and psychedelic-assisted therapy.',
+    name: 'Nicholas Courchesne',
+    role: 'Advisor & Partner',
+    focus: 'Strategic Relationships',
+    bio: 'Master of Strategic Partnerships who leads relationships as the bridge between Epic Center and external stakeholders. A natural connector with deep networks across industries, Nicholas brings a big heart and strategic vision to every partnership.',
+    caseStudy: 'Walking Case Study',
   },
   {
-    name: 'Clinical Psychologist (TBH)',
+    name: 'Jason Parks',
+    role: 'Advisor & Partner',
+    focus: 'Business Strategy',
+    bio: 'Strategic business advisor bringing expertise in scaling ventures and operational excellence. Jason combines analytical rigor with entrepreneurial instincts to guide business growth and market positioning.',
+    caseStudy: 'Walking Case Study',
+  },
+  {
+    name: 'Dan Lawless',
+    role: 'Advisor & Partner',
+    focus: 'Tech Strategist & AI Solution Architect',
+    bio: 'Seasoned full-stack developer with over 20 years of experience building and scaling the technical foundations that transform businesses. Dan architects both internal and external technologies, bringing visionary tech leadership to Epic Center.',
+    caseStudy: 'Pending Case Study',
+  },
+  {
+    name: 'Dr. Mariana',
+    role: 'Chief Medical Officer',
+    focus: 'Medical Leadership',
+    bio: 'Board-certified physician providing medical oversight and clinical leadership for all treatment protocols. Ensuring the highest standards of patient safety and evidence-based care.',
+    caseStudy: null,
+  },
+  {
+    name: 'Eyob Mebrahtu',
+    role: 'Advisor & Partner',
+    focus: 'Client Relationships',
+    bio: 'Relationship-focused advisor dedicated to cultivating meaningful connections with clients and ensuring exceptional experiences throughout their transformation journey.',
+    caseStudy: 'Walking Case Study',
+  },
+  {
+    name: 'Julien Leblanc',
+    role: 'Medicine Advocate',
+    focus: 'MMA Fighter & Medicine Promoter',
+    bio: 'Professional MMA fighter and passionate advocate for plant medicine as a tool for healing and performance optimization. Julien brings visibility and authentic testimony to the transformative power of these treatments.',
+    caseStudy: 'Walking Case Study',
+  },
+]
+
+const KEY_ROLES_NEEDED = [
+  {
+    name: 'Clinical Psychologist',
     role: 'Director of Integration',
     expertise: 'Trauma & PTSD',
     description: 'Licensed psychologist specializing in trauma therapy and psychedelic integration.',
   },
   {
-    name: 'Hospitality Executive (TBH)',
+    name: 'General Manager',
     role: 'VP Operations',
     expertise: 'Luxury Hospitality',
-    description: 'Former GM of luxury resort properties in Mexico with expertise in guest experience.',
+    description: 'Experienced hospitality executive with luxury resort operations expertise.',
   },
   {
-    name: 'Legal Counsel (TBH)',
+    name: 'Director of Nursing',
+    role: 'Clinical Operations',
+    expertise: 'Medical Oversight',
+    description: 'RN with experience in critical care and patient monitoring protocols.',
+  },
+  {
+    name: 'Head of Marketing',
+    role: 'Growth & Brand',
+    expertise: 'Wellness Marketing',
+    description: 'Marketing leader with experience in luxury wellness and transformation brands.',
+  },
+  {
+    name: 'Integration Coaches',
+    role: 'Patient Support',
+    expertise: 'Therapeutic Integration',
+    description: 'Trained coaches to guide guests through pre and post-treatment integration.',
+  },
+  {
+    name: 'Legal Counsel',
     role: 'General Counsel',
     expertise: 'Healthcare Regulatory',
     description: 'Attorney specializing in healthcare compliance and international medical regulations.',
@@ -49,12 +106,12 @@ const ADVISORY_BOARD = [
 ]
 
 const KEY_HIRES = [
-  { role: 'Medical Director', timeline: 'Q2 2026', priority: 'Critical', status: 'Searching' },
   { role: 'Director of Nursing', timeline: 'Q2 2026', priority: 'Critical', status: 'Searching' },
   { role: 'Clinical Psychologist', timeline: 'Q2 2026', priority: 'Critical', status: 'Searching' },
   { role: 'General Manager', timeline: 'Q3 2026', priority: 'High', status: 'Pipeline' },
   { role: 'Head of Marketing', timeline: 'Q3 2026', priority: 'High', status: 'Pipeline' },
   { role: 'Integration Coaches (3)', timeline: 'Q3 2026', priority: 'Medium', status: 'Pipeline' },
+  { role: 'Legal Counsel', timeline: 'Q4 2026', priority: 'Medium', status: 'Pipeline' },
 ]
 
 export default function TeamPage() {
@@ -132,18 +189,58 @@ export default function TeamPage() {
           ))}
         </section>
 
-        {/* Advisory Board */}
+        {/* Advisors & Partners */}
         <section className="mb-16">
           <div className="text-center mb-8">
             <p className="font-accent text-sm uppercase tracking-widest text-secondary-500 mb-2">
-              Expertise
+              Strategic Team
             </p>
-            <h3 className="text-3xl font-heading text-neutral-900">Advisory & Key Roles</h3>
-            <p className="text-neutral-600 mt-2">Positions being filled with top-tier talent</p>
+            <h3 className="text-3xl font-heading text-neutral-900">Advisors & Partners</h3>
+            <p className="text-neutral-600 mt-2">Industry experts and transformation advocates driving our mission</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {ADVISORS_PARTNERS.map((partner) => (
+              <Card key={partner.name} padding="md">
+                <div className="flex items-start gap-4">
+                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center flex-shrink-0">
+                    <span className="font-heading text-xl text-primary-500">
+                      {partner.name.split(' ').map(n => n[0]).join('')}
+                    </span>
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-medium text-neutral-900">{partner.name}</h4>
+                    <p className="font-accent text-xs uppercase tracking-wide text-primary-600 mb-1">
+                      {partner.role}
+                    </p>
+                    <p className="text-sm text-secondary-600 font-medium">{partner.focus}</p>
+                  </div>
+                </div>
+                <p className="text-sm text-neutral-600 mt-4">{partner.bio}</p>
+                {partner.caseStudy && (
+                  <div className="mt-3 pt-3 border-t border-neutral-100">
+                    <span className="inline-flex items-center px-2 py-1 bg-secondary-100 text-secondary-700 rounded text-xs font-medium">
+                      {partner.caseStudy}
+                    </span>
+                  </div>
+                )}
+              </Card>
+            ))}
+          </div>
+        </section>
+
+        {/* Key Roles Needed */}
+        <section className="mb-16">
+          <div className="text-center mb-8">
+            <p className="font-accent text-sm uppercase tracking-widest text-secondary-500 mb-2">
+              Opportunities
+            </p>
+            <h3 className="text-3xl font-heading text-neutral-900">Key Roles Needed</h3>
+            <p className="text-neutral-600 mt-2">Positions we&apos;re actively filling to complete our team</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {ADVISORY_BOARD.map((advisor) => (
+            {KEY_ROLES_NEEDED.map((advisor) => (
               <Card key={advisor.name} padding="md" className="text-center">
                 <div className="w-16 h-16 rounded-full bg-neutral-200 flex items-center justify-center mx-auto mb-4">
                   <Briefcase className="w-8 h-8 text-neutral-400" />
