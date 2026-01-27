@@ -4,8 +4,6 @@ import { useRef, useEffect, useLayoutEffect, useState, useCallback } from 'react
 import Link from 'next/link'
 import Image from 'next/image'
 import { motion, useScroll, useTransform, useInView } from 'framer-motion'
-import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import {
   ArrowRight,
   CheckCircle2,
@@ -149,57 +147,68 @@ export default function VisionPage() {
   const trustOpacity = useTransform(scrollY, [0, 400], [1, 0])
   const trustY = useTransform(scrollY, [0, 400], [0, -30])
 
-  // Register GSAP plugins
-  useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger)
-  }, [])
-
   // GSAP text animation on scroll - refined timing
   useLayoutEffect(() => {
     if (!animatedTextRef.current) return
 
-    const lines = animatedTextRef.current.querySelectorAll('.line')
-    const highlights = animatedTextRef.current.querySelectorAll('.highlight')
+    let cleanup: (() => void) | undefined
 
-    // Set initial state
-    gsap.set(lines, { opacity: 0, y: 50, filter: 'blur(4px)' })
-    gsap.set(highlights, { opacity: 0, scale: 0.95 })
+    const initGsap = async () => {
+      const gsap = (await import('gsap')).default
+      const { ScrollTrigger } = await import('gsap/ScrollTrigger')
+      gsap.registerPlugin(ScrollTrigger)
 
-    const tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: animatedTextRef.current,
-        start: 'top 80%',
-        end: 'bottom 20%',
-        toggleActions: 'play none none reverse',
+      if (!animatedTextRef.current) return
+
+      const lines = animatedTextRef.current.querySelectorAll('.line')
+      const highlights = animatedTextRef.current.querySelectorAll('.highlight')
+
+      // Set initial state
+      gsap.set(lines, { opacity: 0, y: 50, filter: 'blur(4px)' })
+      gsap.set(highlights, { opacity: 0, scale: 0.95 })
+
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: animatedTextRef.current,
+          start: 'top 80%',
+          end: 'bottom 20%',
+          toggleActions: 'play none none reverse',
+        }
+      })
+
+      // Animate lines with elegant easing
+      tl.to(lines[0], {
+        opacity: 1,
+        y: 0,
+        filter: 'blur(0px)',
+        duration: 1.2,
+        ease: 'power3.out',
+      })
+      .to(lines[1], {
+        opacity: 1,
+        y: 0,
+        filter: 'blur(0px)',
+        duration: 1.2,
+        ease: 'power3.out',
+      }, '-=0.8')
+      // Highlight text color pop
+      .to(highlights, {
+        opacity: 1,
+        scale: 1,
+        duration: 0.6,
+        ease: 'back.out(1.5)',
+        stagger: 0.15,
+      }, '-=0.6')
+
+      cleanup = () => {
+        ScrollTrigger.getAll().forEach(trigger => trigger.kill())
       }
-    })
+    }
 
-    // Animate lines with elegant easing
-    tl.to(lines[0], {
-      opacity: 1,
-      y: 0,
-      filter: 'blur(0px)',
-      duration: 1.2,
-      ease: 'power3.out',
-    })
-    .to(lines[1], {
-      opacity: 1,
-      y: 0,
-      filter: 'blur(0px)',
-      duration: 1.2,
-      ease: 'power3.out',
-    }, '-=0.8')
-    // Highlight text color pop
-    .to(highlights, {
-      opacity: 1,
-      scale: 1,
-      duration: 0.6,
-      ease: 'back.out(1.5)',
-      stagger: 0.15,
-    }, '-=0.6')
+    initGsap()
 
     return () => {
-      ScrollTrigger.getAll().forEach(trigger => trigger.kill())
+      cleanup?.()
     }
   }, [])
 
