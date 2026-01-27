@@ -121,7 +121,7 @@ export default function PropertiesPage() {
                 <p className="font-accent text-sm uppercase tracking-widest text-secondary-400 mb-2">
                   Lead Property
                 </p>
-                <h3 className="text-3xl font-heading mb-2">Hotel Alea Tulum</h3>
+                <h3 className="text-3xl font-heading text-secondary-400 mb-2">Hotel Alea Tulum</h3>
                 <p className="text-primary-200 max-w-xl">
                   Our primary acquisition target. An operating 21-room boutique hotel in
                   Tulum's prestigious Soliman Bay, scoring 75/100 on our evaluation matrix.
