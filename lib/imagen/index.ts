@@ -61,13 +61,10 @@ export async function generate(options: GenerateOptions | string): Promise<Image
     const parts = result.response.candidates?.[0]?.content?.parts;
     if (parts) {
       for (const part of parts) {
-        // @ts-expect-error - inlineData exists on image parts
         if (part.inlineData) {
           return {
             success: true,
-            // @ts-expect-error - inlineData structure
             imageBase64: part.inlineData.data,
-            // @ts-expect-error - inlineData structure
             mimeType: part.inlineData.mimeType,
           };
         }
