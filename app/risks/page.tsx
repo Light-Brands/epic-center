@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { ArrowLeft, ArrowRight, ChevronDown, AlertTriangle, Shield, Scale, Building2, Users, Globe, Activity, DollarSign } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
+import { Footer } from '@/components/layout'
 
 interface Risk {
   id: string
@@ -224,8 +225,8 @@ export default function RisksPage() {
   const mediumRisks = RISKS.filter((r) => r.severity === 'Medium')
 
   return (
-    <div className="min-h-screen bg-neutral-50 pt-20">
-      <div className="max-w-container-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div className="min-h-screen bg-canvas pt-20">
+      <div className="w-full sm:w-[70vw] mx-auto py-12">
         {/* Hero Section */}
         <section className="mb-12 text-center">
           <p className="font-accent text-sm uppercase tracking-widest text-secondary-500 mb-4">
@@ -351,6 +352,7 @@ export default function RisksPage() {
           </Link>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

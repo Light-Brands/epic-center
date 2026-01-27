@@ -1,3 +1,5 @@
 export * from './FadeIn'
 export * from './StaggerContainer'
 export * from './CountUp'
+export * from './Sparkline'
+export { default as FlywheelWebGL } from './FlywheelWebGL'

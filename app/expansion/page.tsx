@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { ArrowLeft, ArrowRight, Globe, MapPin, Building2, TrendingUp, Users, CheckCircle2 } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
+import { Footer } from '@/components/layout'
 
 const EXPANSION_LOCATIONS = [
   {
@@ -52,8 +53,8 @@ const EXPANSION_TIMELINE = [
 
 export default function ExpansionPage() {
   return (
-    <div className="min-h-screen bg-neutral-50 pt-20">
-      <div className="max-w-container-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div className="min-h-screen bg-canvas pt-20">
+      <div className="w-full sm:w-[70vw] mx-auto py-12">
         {/* Hero Section */}
         <section className="mb-16 text-center">
           <p className="font-accent text-sm uppercase tracking-widest text-secondary-500 mb-4">
@@ -264,6 +265,7 @@ export default function ExpansionPage() {
           </Link>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

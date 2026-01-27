@@ -1,13 +1,15 @@
 'use client'
 
 import Link from 'next/link'
-import { ArrowLeft, ArrowRight, TrendingUp, Users, Globe, Brain, Heart, Pill, DollarSign, Activity } from 'lucide-react'
+import Image from 'next/image'
+import { ArrowLeft, ArrowRight } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
+import { Footer } from '@/components/layout'
 
 export default function MarketPage() {
   return (
-    <div className="min-h-screen bg-neutral-50 pt-20">
-      <div className="max-w-container-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div className="min-h-screen bg-canvas pt-20">
+      <div className="w-full sm:w-[70vw] mx-auto py-12">
         {/* Hero Section */}
         <section className="mb-16 text-center">
           <p className="font-accent text-sm uppercase tracking-widest text-secondary-500 mb-4">
@@ -27,32 +29,40 @@ export default function MarketPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               {
-                icon: Brain,
+                icon: '/icons/market-depression.png',
                 value: '280M+',
                 label: 'Depression Sufferers',
                 description: 'People globally affected by depression',
               },
               {
-                icon: Heart,
+                icon: '/icons/market-anxiety.png',
                 value: '301M',
                 label: 'Anxiety Disorders',
                 description: 'Living with anxiety worldwide',
               },
               {
-                icon: Pill,
+                icon: '/icons/market-addiction.png',
                 value: '35M',
                 label: 'Substance Use Disorders',
                 description: 'Struggling with addiction',
               },
               {
-                icon: Users,
+                icon: '/icons/market-affected.png',
                 value: '1 in 5',
                 label: 'Adults Affected',
                 description: 'Experience mental illness annually',
               },
             ].map((stat) => (
-              <Card key={stat.label} padding="lg" className="text-center">
-                <stat.icon className="w-10 h-10 text-primary-600 mx-auto mb-4" />
+              <Card key={stat.label} padding="lg" className="text-center group hover:shadow-xl transition-all duration-500">
+                <div className="w-28 h-28 mx-auto mb-4 transition-transform duration-500 group-hover:scale-105">
+                  <Image
+                    src={stat.icon}
+                    alt={stat.label}
+                    width={112}
+                    height={112}
+                    className="object-contain"
+                  />
+                </div>
                 <p className="font-heading text-4xl text-neutral-900 mb-1">{stat.value}</p>
                 <p className="font-accent text-sm text-primary-600 uppercase tracking-wide mb-2">
                   {stat.label}
@@ -130,7 +140,7 @@ export default function MarketPage() {
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             {[
               {
-                icon: Activity,
+                icon: '/icons/market-efficacy.png',
                 title: 'Clinical Efficacy',
                 stats: [
                   '67% remission rate for treatment-resistant depression (psilocybin)',
@@ -139,7 +149,7 @@ export default function MarketPage() {
                 ],
               },
               {
-                icon: Globe,
+                icon: '/icons/market-regulatory.png',
                 title: 'Regulatory Progress',
                 stats: [
                   'FDA Breakthrough Therapy designation for psilocybin',
@@ -148,7 +158,7 @@ export default function MarketPage() {
                 ],
               },
               {
-                icon: TrendingUp,
+                icon: '/icons/market-growth.png',
                 title: 'Market Growth',
                 stats: [
                   '$10.75B projected market by 2027',
@@ -157,8 +167,16 @@ export default function MarketPage() {
                 ],
               },
             ].map((category) => (
-              <Card key={category.title} padding="lg">
-                <category.icon className="w-10 h-10 text-primary-600 mb-4" />
+              <Card key={category.title} padding="lg" className="group hover:shadow-xl transition-all duration-500">
+                <div className="w-28 h-28 mb-4 transition-transform duration-500 group-hover:scale-105">
+                  <Image
+                    src={category.icon}
+                    alt={category.title}
+                    width={112}
+                    height={112}
+                    className="object-contain"
+                  />
+                </div>
                 <h4 className="text-xl font-heading text-neutral-900 mb-4">{category.title}</h4>
                 <ul className="space-y-3">
                   {category.stats.map((stat, index) => (
@@ -332,6 +350,7 @@ export default function MarketPage() {
           </Link>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

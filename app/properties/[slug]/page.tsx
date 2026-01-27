@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowLeft, ArrowRight, MapPin, Bed, Users, Building2 } from 'lucide-react'
 import { Button, Card, Badge, StatusBadge } from '@/components/ui'
+import { Footer } from '@/components/layout'
 import { ScenarioToggle } from '@/components/financial'
 import { RadarChart } from '@/components/charts/RadarChart'
 import { PassFailGates } from '@/components/property/PassFailGates'
@@ -44,8 +45,8 @@ export default async function PropertyPage({ params }: PropertyPageProps) {
   const nextProperty = currentIndex < properties.length - 1 ? properties[currentIndex + 1] : null
 
   return (
-    <div className="min-h-screen bg-neutral-50 pt-20">
-      <div className="max-w-container-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div className="min-h-screen bg-canvas pt-20">
+      <div className="w-full sm:w-[70vw] mx-auto py-12">
         {/* Hero Section */}
         <section className="mb-12">
           <div className="grid lg:grid-cols-2 gap-8 items-start">
@@ -263,6 +264,7 @@ export default async function PropertyPage({ params }: PropertyPageProps) {
           </Link>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

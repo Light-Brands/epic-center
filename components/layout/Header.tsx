@@ -1,46 +1,45 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { Menu, X, ChevronDown, ArrowRight } from 'lucide-react'
-import { Button } from '@/components/ui'
-import { ScenarioIndicator } from '@/components/financial'
+import { motion, AnimatePresence } from 'framer-motion'
+import { Menu, X, ChevronDown, ArrowUpRight } from 'lucide-react'
 
 const NAV_SECTIONS = [
   {
     title: 'Opportunity',
-    items: [
-      { name: 'Vision', href: '/', description: 'The investment thesis' },
-      { name: 'Market', href: '/market', description: '$5.6T opportunity' },
-      { name: 'Model', href: '/model', description: 'How we operate' },
-      { name: 'Expansion', href: '/expansion', description: 'Growth strategy' },
+    links: [
+      { name: 'Vision', href: '/' },
+      { name: 'Market', href: '/market' },
+      { name: 'Model', href: '/model' },
+      { name: 'Expansion', href: '/expansion' },
     ],
   },
   {
     title: 'Assets',
-    items: [
-      { name: 'Properties', href: '/properties', description: 'Evaluated locations' },
-      { name: 'Team', href: '/team', description: 'Leadership & expertise' },
-      { name: 'Moat', href: '/moat', description: 'Competitive advantages' },
+    links: [
+      { name: 'Properties', href: '/properties' },
+      { name: 'Team', href: '/team' },
+      { name: 'Moat', href: '/moat' },
     ],
   },
   {
     title: 'Analysis',
-    items: [
-      { name: 'Financials', href: '/financials', description: '5-year projections' },
-      { name: 'Returns', href: '/returns', description: 'IRR & exit strategy' },
-      { name: 'Risks', href: '/risks', description: 'Risk factors' },
-      { name: 'Timeline', href: '/timeline', description: 'Project milestones' },
+    links: [
+      { name: 'Financials', href: '/financials' },
+      { name: 'Returns', href: '/returns' },
+      { name: 'Risks', href: '/risks' },
+      { name: 'Timeline', href: '/timeline' },
     ],
   },
   {
     title: 'Resources',
-    items: [
-      { name: 'Legal', href: '/legal', description: 'Structure & compliance' },
-      { name: 'Outcomes', href: '/outcomes', description: 'Clinical evidence' },
-      { name: 'Data Room', href: '/data-room', description: 'Due diligence' },
-      { name: 'FAQ', href: '/faq', description: 'Common questions' },
+    links: [
+      { name: 'Legal', href: '/legal' },
+      { name: 'Outcomes', href: '/outcomes' },
+      { name: 'Data Room', href: '/data-room' },
+      { name: 'FAQ', href: '/faq' },
     ],
   },
 ]
@@ -49,165 +48,228 @@ export function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null)
   const pathname = usePathname()
-
-  // Only use transparent header on home page
-  const isHomePage = pathname === '/'
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10)
+      setIsScrolled(window.scrollY > 50)
     }
-    window.addEventListener('scroll', handleScroll)
+    window.addEventListener('scroll', handleScroll, { passive: true })
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  // Close mobile menu on route change
   useEffect(() => {
     setIsMobileMenuOpen(false)
     setActiveDropdown(null)
   }, [pathname])
 
+  useEffect(() => {
+    document.body.style.overflow = isMobileMenuOpen ? 'hidden' : ''
+    return () => { document.body.style.overflow = '' }
+  }, [isMobileMenuOpen])
+
+  const handleMouseEnter = (title: string) => {
+    if (timeoutRef.current) clearTimeout(timeoutRef.current)
+    setActiveDropdown(title)
+  }
+
+  const handleMouseLeave = () => {
+    timeoutRef.current = setTimeout(() => {
+      setActiveDropdown(null)
+    }, 150)
+  }
+
   return (
-    <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled || isMobileMenuOpen || !isHomePage
-          ? 'bg-white/95 backdrop-blur-nav shadow-sm'
-          : 'bg-transparent'
-      }`}
-    >
-      <div className="max-w-container-2xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 md:h-20">
+    <>
+      {/* Floating Navigation - Glass Morphism */}
+      <motion.header
+        initial={{ y: -100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+        className="fixed top-0 left-0 right-0 z-50 pt-4 md:pt-5 flex justify-center"
+      >
+        <nav className={`
+          w-full sm:w-[70vw]
+          flex items-center justify-between
+          px-4 sm:px-6 lg:px-8 py-3.5
+          bg-white/80 backdrop-blur-xl
+          rounded-2xl
+          border border-white/50
+          shadow-lg shadow-neutral-900/5
+          transition-all duration-500
+          ${isScrolled ? 'bg-white/90 shadow-xl shadow-neutral-900/10' : ''}
+        `}>
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
-            <span className={`font-heading text-xl md:text-2xl transition-colors ${
-              isScrolled || isMobileMenuOpen || !isHomePage ? 'text-primary-800' : 'text-white'
-            }`}>
-              Transformational Epicenter
+          <Link href="/" className="flex items-center gap-3 group">
+            <span className="text-[11px] md:text-xs font-accent font-bold uppercase tracking-[0.2em] text-primary-800">
+              Transformational
+            </span>
+            <span className="hidden sm:block w-px h-4 bg-primary-800/20" />
+            <span className="hidden sm:block text-[11px] md:text-xs font-accent font-bold uppercase tracking-[0.2em] text-secondary-600">
+              Epicenter
             </span>
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-1">
+          <div className="hidden lg:flex items-center gap-1">
             {NAV_SECTIONS.map((section) => (
               <div
                 key={section.title}
                 className="relative"
-                onMouseEnter={() => setActiveDropdown(section.title)}
-                onMouseLeave={() => setActiveDropdown(null)}
+                onMouseEnter={() => handleMouseEnter(section.title)}
+                onMouseLeave={handleMouseLeave}
               >
                 <button
-                  className={`flex items-center gap-1 px-3 py-2 text-sm font-medium transition-colors ${
-                    isScrolled || !isHomePage
-                      ? 'text-neutral-600 hover:text-primary-600'
-                      : 'text-white/80 hover:text-white'
-                  }`}
+                  className={`
+                    flex items-center gap-1 px-4 py-2.5
+                    text-[10px] font-accent font-semibold uppercase tracking-[0.12em]
+                    rounded-xl transition-all duration-200
+                    ${activeDropdown === section.title
+                      ? 'text-primary-800 bg-white/60 shadow-sm'
+                      : 'text-primary-700/80 hover:text-primary-800 hover:bg-white/40'
+                    }
+                  `}
                 >
                   {section.title}
-                  <ChevronDown className={`w-4 h-4 transition-transform ${
+                  <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${
                     activeDropdown === section.title ? 'rotate-180' : ''
                   }`} />
                 </button>
 
                 {/* Dropdown */}
-                {activeDropdown === section.title && (
-                  <div className="absolute top-full left-0 pt-2">
-                    <div className="bg-white rounded-xl shadow-card border border-neutral-200 py-2 min-w-[220px]">
-                      {section.items.map((item) => (
-                        <Link
-                          key={item.href}
-                          href={item.href}
-                          className={`block px-4 py-2 hover:bg-neutral-50 transition-colors ${
-                            pathname === item.href ? 'bg-primary-50' : ''
-                          }`}
-                        >
-                          <span className={`block text-sm font-medium ${
-                            pathname === item.href ? 'text-primary-600' : 'text-neutral-900'
-                          }`}>
-                            {item.name}
-                          </span>
-                          <span className="block text-xs text-neutral-500">
-                            {item.description}
-                          </span>
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-                )}
+                <AnimatePresence>
+                  {activeDropdown === section.title && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 8 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: 8 }}
+                      transition={{ duration: 0.15 }}
+                      className="absolute top-full left-0 pt-2"
+                      onMouseEnter={() => handleMouseEnter(section.title)}
+                      onMouseLeave={handleMouseLeave}
+                    >
+                      <div className="bg-white/90 backdrop-blur-xl border border-white/50 rounded-xl shadow-xl shadow-neutral-900/10 py-2 min-w-[180px]">
+                        {section.links.map((link) => {
+                          const isActive = pathname === link.href
+                          return (
+                            <Link
+                              key={link.href}
+                              href={link.href}
+                              className={`
+                                block px-4 py-2.5 text-[10px] font-accent font-semibold uppercase tracking-[0.1em]
+                                transition-colors duration-150 rounded-lg mx-1
+                                ${isActive
+                                  ? 'text-secondary-600 bg-secondary-50'
+                                  : 'text-primary-700/80 hover:text-primary-800 hover:bg-white/60'
+                                }
+                              `}
+                            >
+                              {link.name}
+                            </Link>
+                          )
+                        })}
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
               </div>
             ))}
-          </nav>
 
-          {/* Right Side */}
-          <div className="flex items-center gap-3">
-            <div className="hidden md:block">
-              <ScenarioIndicator variant={isScrolled || !isHomePage ? 'dark' : 'light'} />
-            </div>
-            <Link href="/invest" className="hidden sm:block">
-              <Button variant={isScrolled || !isHomePage ? 'primary' : 'accent'} size="sm">
-                Invest
-                <ArrowRight className="ml-1 w-4 h-4" />
-              </Button>
-            </Link>
+            {/* Divider */}
+            <div className="w-px h-5 bg-primary-800/10 mx-3" />
 
-            {/* Mobile Menu Toggle */}
-            <button
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className={`lg:hidden p-2 rounded-lg transition-colors ${
-                isScrolled || isMobileMenuOpen || !isHomePage
-                  ? 'text-neutral-600 hover:bg-neutral-100'
-                  : 'text-white hover:bg-white/10'
-              }`}
+            {/* CTA */}
+            <Link
+              href="/invest"
+              className="flex items-center gap-1.5 px-5 py-2.5 bg-gradient-to-r from-secondary-400 to-secondary-500 text-white text-[10px] font-accent font-bold uppercase tracking-[0.1em] rounded-xl hover:from-secondary-500 hover:to-secondary-600 shadow-md shadow-secondary-500/25 hover:shadow-secondary-500/40 transition-all duration-200"
             >
-              {isMobileMenuOpen ? (
-                <X className="w-6 h-6" />
-              ) : (
-                <Menu className="w-6 h-6" />
-              )}
-            </button>
+              Invest
+              <ArrowUpRight className="w-3 h-3" strokeWidth={2.5} />
+            </Link>
           </div>
-        </div>
-      </div>
+
+          {/* Mobile Menu Toggle */}
+          <button
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            className="lg:hidden w-9 h-9 flex items-center justify-center rounded-xl text-primary-700/80 hover:bg-white/60 transition-colors"
+            aria-label="Menu"
+          >
+            {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+          </button>
+        </nav>
+      </motion.header>
 
       {/* Mobile Menu */}
-      {isMobileMenuOpen && (
-        <div className="lg:hidden bg-white border-t border-neutral-200">
-          <div className="max-w-container-2xl mx-auto px-4 py-4">
-            <div className="grid gap-4">
-              {NAV_SECTIONS.map((section) => (
-                <div key={section.title}>
-                  <p className="font-accent text-xs uppercase tracking-wide text-neutral-500 mb-2">
-                    {section.title}
-                  </p>
-                  <div className="grid gap-1">
-                    {section.items.map((item) => (
-                      <Link
-                        key={item.href}
-                        href={item.href}
-                        className={`block px-3 py-2 rounded-lg transition-colors ${
-                          pathname === item.href
-                            ? 'bg-primary-50 text-primary-600'
-                            : 'text-neutral-700 hover:bg-neutral-50'
-                        }`}
-                      >
-                        {item.name}
-                      </Link>
-                    ))}
-                  </div>
+      <AnimatePresence>
+        {isMobileMenuOpen && (
+          <>
+            {/* Backdrop */}
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.2 }}
+              className="fixed inset-0 z-40 bg-neutral-900/40 backdrop-blur-sm lg:hidden"
+              onClick={() => setIsMobileMenuOpen(false)}
+            />
+
+            {/* Menu */}
+            <motion.div
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.2 }}
+              className="fixed top-20 left-4 right-4 z-50 lg:hidden"
+            >
+              <div className="bg-white/90 backdrop-blur-xl rounded-2xl shadow-2xl border border-white/50 overflow-hidden">
+                {/* Nav Sections */}
+                <div className="p-4 space-y-4">
+                  {NAV_SECTIONS.map((section) => (
+                    <div key={section.title}>
+                      <p className="px-2 mb-2 text-[9px] font-accent font-bold uppercase tracking-[0.2em] text-primary-700/50">
+                        {section.title}
+                      </p>
+                      <div className="grid grid-cols-2 gap-1">
+                        {section.links.map((link) => {
+                          const isActive = pathname === link.href
+                          return (
+                            <Link
+                              key={link.href}
+                              href={link.href}
+                              className={`
+                                px-3 py-2.5 rounded-xl text-[10px] font-accent font-semibold uppercase tracking-[0.1em]
+                                transition-colors duration-150
+                                ${isActive
+                                  ? 'bg-secondary-500 text-white shadow-sm'
+                                  : 'text-primary-700/80 hover:bg-white/60 hover:text-primary-800'
+                                }
+                              `}
+                            >
+                              {link.name}
+                            </Link>
+                          )
+                        })}
+                      </div>
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
-            <div className="mt-6 pt-4 border-t border-neutral-200">
-              <Link href="/invest" className="block">
-                <Button variant="primary" size="lg" className="w-full">
-                  View Investment
-                  <ArrowRight className="ml-2 w-5 h-5" />
-                </Button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      )}
-    </header>
+
+                {/* CTA */}
+                <div className="p-4 bg-white/40 border-t border-white/30">
+                  <Link
+                    href="/invest"
+                    className="flex items-center justify-center gap-2 w-full px-6 py-3.5 bg-gradient-to-r from-secondary-400 to-secondary-500 text-white text-[11px] font-accent font-bold uppercase tracking-[0.15em] rounded-xl hover:from-secondary-500 hover:to-secondary-600 shadow-md shadow-secondary-500/25 transition-all duration-200"
+                  >
+                    View Investment
+                    <ArrowUpRight className="w-4 h-4" strokeWidth={2.5} />
+                  </Link>
+                </div>
+              </div>
+            </motion.div>
+          </>
+        )}
+      </AnimatePresence>
+    </>
   )
 }

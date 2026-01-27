@@ -1,8 +1,10 @@
 'use client'
 
 import Link from 'next/link'
-import { ArrowLeft, ArrowRight, Heart, Brain, Leaf, Activity, Users, Sparkles, Clock, Shield } from 'lucide-react'
+import Image from 'next/image'
+import { ArrowLeft, ArrowRight } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
+import { Footer } from '@/components/layout'
 
 const TREATMENT_PROGRAMS = [
   {
@@ -10,7 +12,7 @@ const TREATMENT_PROGRAMS = [
     name: 'Ibogaine Protocol',
     duration: '10-14 days',
     price: '$35,000-$55,000',
-    icon: Leaf,
+    icon: '/icons/program-ibogaine.png',
     description: 'Medically-supervised ibogaine treatment for addiction interruption and deep psychological reset.',
     outcomes: ['60-80% addiction interruption rate', 'Reduces withdrawal symptoms by 90%', 'Single treatment effectiveness'],
     color: 'bg-primary-600',
@@ -20,7 +22,7 @@ const TREATMENT_PROGRAMS = [
     name: 'Psilocybin Journey',
     duration: '7-10 days',
     price: '$25,000-$40,000',
-    icon: Brain,
+    icon: '/icons/program-psilocybin.png',
     description: 'Guided psilocybin experiences for depression, anxiety, and existential distress.',
     outcomes: ['67% remission rate for treatment-resistant depression', 'Sustained effects at 6-month follow-up', 'Enhanced neuroplasticity'],
     color: 'bg-primary-500',
@@ -30,7 +32,7 @@ const TREATMENT_PROGRAMS = [
     name: '5-MeO-DMT Integration',
     duration: '5-7 days',
     price: '$20,000-$30,000',
-    icon: Sparkles,
+    icon: '/icons/program-5meo.png',
     description: 'Profound ego dissolution experiences with comprehensive integration support.',
     outcomes: ['Rapid mystical experiences', 'Deep trauma processing', 'Spiritual awakening'],
     color: 'bg-secondary-400',
@@ -40,7 +42,7 @@ const TREATMENT_PROGRAMS = [
     name: 'Bio-Optimization',
     duration: 'Ongoing',
     price: '$5,000-$15,000',
-    icon: Activity,
+    icon: '/icons/program-bio.png',
     description: 'Cutting-edge protocols for physical optimization enhancing treatment outcomes.',
     outcomes: ['NAD+ therapy', 'Hyperbaric oxygen', 'IV nutrient therapy'],
     color: 'bg-primary-400',
@@ -57,8 +59,8 @@ const REVENUE_STREAMS = [
 
 export default function ModelPage() {
   return (
-    <div className="min-h-screen bg-neutral-50 pt-20">
-      <div className="max-w-container-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div className="min-h-screen bg-canvas pt-20">
+      <div className="w-full sm:w-[70vw] mx-auto py-12">
         {/* Hero Section */}
         <section className="mb-16 text-center">
           <p className="font-accent text-sm uppercase tracking-widest text-secondary-500 mb-4">
@@ -83,31 +85,37 @@ export default function ModelPage() {
                 {
                   phase: '1',
                   title: 'Assessment',
-                  icon: Shield,
+                  icon: '/icons/phase-assessment.png',
                   items: ['Medical screening', 'Psychological evaluation', 'Treatment planning', 'Goal setting'],
                 },
                 {
                   phase: '2',
                   title: 'Preparation',
-                  icon: Heart,
+                  icon: '/icons/phase-preparation.png',
                   items: ['Dietary protocols', 'Intention setting', 'Bio-optimization', 'Emotional readiness'],
                 },
                 {
                   phase: '3',
                   title: 'Treatment',
-                  icon: Brain,
+                  icon: '/icons/phase-treatment.png',
                   items: ['24/7 medical supervision', 'Guided ceremonies', 'Multiple modalities', 'Crisis support'],
                 },
                 {
                   phase: '4',
                   title: 'Integration',
-                  icon: Users,
+                  icon: '/icons/phase-integration.png',
                   items: ['Processing sessions', 'Behavioral coaching', 'Aftercare planning', 'Community support'],
                 },
               ].map((phase) => (
-                <div key={phase.phase} className="text-center">
-                  <div className="w-16 h-16 rounded-full bg-secondary-400 flex items-center justify-center mx-auto mb-4">
-                    <phase.icon className="w-8 h-8 text-primary-900" />
+                <div key={phase.phase} className="text-center group">
+                  <div className="w-40 h-40 mx-auto mb-4 rounded-2xl overflow-hidden bg-white/10 p-3 transition-all duration-500 group-hover:bg-white/20 group-hover:scale-105">
+                    <Image
+                      src={phase.icon}
+                      alt={phase.title}
+                      width={160}
+                      height={160}
+                      className="object-contain rounded-xl"
+                    />
                   </div>
                   <div className="font-accent text-xs uppercase tracking-widest text-secondary-400 mb-2">
                     Phase {phase.phase}
@@ -137,16 +145,22 @@ export default function ModelPage() {
 
           <div className="grid md:grid-cols-2 gap-6">
             {TREATMENT_PROGRAMS.map((program) => (
-              <Card key={program.id} padding="lg" hoverable>
-                <div className="flex items-start gap-4 mb-4">
-                  <div className={`w-12 h-12 rounded-lg ${program.color} flex items-center justify-center flex-shrink-0`}>
-                    <program.icon className="w-6 h-6 text-white" />
+              <Card key={program.id} padding="lg" hoverable className="group">
+                <div className="flex items-start gap-6 mb-4">
+                  <div className="w-36 h-36 flex-shrink-0 transition-transform duration-500 group-hover:scale-110">
+                    <Image
+                      src={program.icon}
+                      alt={program.name}
+                      width={144}
+                      height={144}
+                      className="object-contain"
+                    />
                   </div>
-                  <div className="flex-1">
-                    <h4 className="text-xl font-heading text-neutral-900">{program.name}</h4>
-                    <div className="flex gap-4 text-sm text-neutral-500 mt-1">
-                      <span className="flex items-center gap-1">
-                        <Clock className="w-4 h-4" />
+                  <div className="flex-1 pt-2">
+                    <h4 className="text-2xl font-heading text-neutral-900">{program.name}</h4>
+                    <div className="flex gap-4 text-sm text-neutral-500 mt-2">
+                      <span className="flex items-center gap-2">
+                        <Image src="/icons/util-clock.png" alt="Duration" width={20} height={20} className="object-contain" />
                         {program.duration}
                       </span>
                       <span className="font-medium text-primary-600">{program.price}</span>
@@ -230,43 +244,56 @@ export default function ModelPage() {
 
         {/* Differentiators */}
         <section className="mb-16">
-          <h3 className="text-2xl font-heading text-neutral-900 mb-6">What Sets Us Apart</h3>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="text-center mb-10">
+            <p className="font-accent text-sm uppercase tracking-widest text-secondary-500 mb-2">
+              Our Differentiators
+            </p>
+            <h3 className="text-3xl font-heading text-neutral-900">What Sets Us Apart</h3>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8">
             {[
               {
                 title: 'Medical-Grade Protocols',
                 description: 'Full cardiac monitoring, physician oversight, and emergency protocols. Not a retreat center—a medical facility.',
-                icon: Shield,
+                icon: '/icons/diff-medical.png',
               },
               {
                 title: 'Integrated Approach',
                 description: 'Combining plant medicine with bio-optimization, therapy, and integration creates compounded healing effects.',
-                icon: Activity,
+                icon: '/icons/diff-integrated.png',
               },
               {
                 title: 'Luxury Experience',
                 description: 'World-class accommodations and hospitality ensure comfort during the most vulnerable moments of treatment.',
-                icon: Sparkles,
+                icon: '/icons/diff-luxury.png',
               },
               {
                 title: 'Comprehensive Integration',
                 description: '12-month aftercare program with coaching, community support, and continued bio-optimization.',
-                icon: Users,
+                icon: '/icons/diff-aftercare.png',
               },
               {
                 title: 'Evidence-Based',
                 description: 'Protocols developed from the latest clinical research with outcome tracking and continuous improvement.',
-                icon: Brain,
+                icon: '/icons/diff-evidence.png',
               },
               {
                 title: 'Location Advantage',
                 description: 'Tulum provides legal treatment access, proximity to US patients, and a healing environment.',
-                icon: Leaf,
+                icon: '/icons/diff-location.png',
               },
             ].map((diff) => (
-              <Card key={diff.title} padding="md">
-                <diff.icon className="w-8 h-8 text-primary-600 mb-3" />
-                <h4 className="font-medium text-neutral-900 mb-2">{diff.title}</h4>
+              <Card key={diff.title} padding="lg" className="group hover:shadow-xl transition-all duration-500 text-center">
+                <div className="w-40 h-40 mx-auto mb-4 transition-transform duration-500 group-hover:scale-110">
+                  <Image
+                    src={diff.icon}
+                    alt={diff.title}
+                    width={160}
+                    height={160}
+                    className="object-contain"
+                  />
+                </div>
+                <h4 className="text-lg font-heading text-neutral-900 mb-2">{diff.title}</h4>
                 <p className="text-sm text-neutral-600">{diff.description}</p>
               </Card>
             ))}
@@ -329,6 +356,7 @@ export default function ModelPage() {
           </Link>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

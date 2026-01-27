@@ -46,3 +46,31 @@ export function CountUp({
     </motion.span>
   )
 }
+
+// Animated number that responds to value changes (for scenario switching)
+interface AnimatedValueProps {
+  value: number
+  format?: (value: number) => string
+  duration?: number
+  className?: string
+}
+
+export function AnimatedValue({
+  value,
+  format = (v) => v.toLocaleString(),
+  duration = 0.6,
+  className,
+}: AnimatedValueProps) {
+  const spring = useSpring(value, {
+    duration: duration * 1000,
+    bounce: 0,
+  })
+
+  const display = useTransform(spring, (current) => format(current))
+
+  useEffect(() => {
+    spring.set(value)
+  }, [spring, value])
+
+  return <motion.span className={className}>{display}</motion.span>
+}

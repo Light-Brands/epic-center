@@ -4,7 +4,7 @@ import { forwardRef, type HTMLAttributes } from 'react'
 import { cn } from '@/lib/utils'
 
 export interface CardProps extends HTMLAttributes<HTMLDivElement> {
-  variant?: 'default' | 'elevated' | 'outlined' | 'custom'
+  variant?: 'default' | 'elevated' | 'outlined' | 'glass' | 'custom'
   padding?: 'none' | 'sm' | 'md' | 'lg'
   hoverable?: boolean
 }
@@ -19,12 +19,14 @@ const Card = forwardRef<HTMLDivElement, CardProps>(
       <div
         ref={ref}
         className={cn(
-          'rounded-lg',
+          'rounded-xl',
+          'transition-all duration-300 ease-out',
           // Variants
           {
-            'bg-neutral-100 shadow-card': effectiveVariant === 'default',
-            'bg-white shadow-card-hover': effectiveVariant === 'elevated',
-            'bg-transparent border border-neutral-300': effectiveVariant === 'outlined',
+            'bg-white shadow-card border border-neutral-100': effectiveVariant === 'default',
+            'bg-white shadow-lg border border-neutral-100': effectiveVariant === 'elevated',
+            'bg-transparent border border-neutral-200': effectiveVariant === 'outlined',
+            'bg-white/80 backdrop-blur-xl border border-neutral-200/50 shadow-lg': effectiveVariant === 'glass',
             'shadow-card': effectiveVariant === 'custom', // Just shadow, no background
           },
           // Padding
@@ -35,7 +37,7 @@ const Card = forwardRef<HTMLDivElement, CardProps>(
             'p-8': padding === 'lg',
           },
           // Hover
-          hoverable && 'transition-shadow duration-200 hover:shadow-card-hover',
+          hoverable && 'hover:shadow-xl hover:-translate-y-1 hover:border-neutral-200',
           className
         )}
         {...props}

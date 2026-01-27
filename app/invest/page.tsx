@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { ArrowLeft, ArrowRight, Check, Mail, Phone, Calendar, Download, Shield, TrendingUp, Building2, Users } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
+import { Footer } from '@/components/layout'
 import { MetricCard, ScenarioToggle, ScenarioIndicator } from '@/components/financial'
 import { UseOfFundsChart } from '@/components/charts'
 import { useScenario } from '@/lib/context/ScenarioContext'
@@ -27,8 +28,8 @@ export default function InvestPage() {
   const moic = getScenarioValue(returns.moic, scenario)
 
   return (
-    <div className="min-h-screen bg-neutral-50 pt-20">
-      <div className="max-w-container-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div className="min-h-screen bg-canvas pt-20">
+      <div className="w-full sm:w-[70vw] mx-auto py-12">
         {/* Hero Section - The Ask */}
         <section className="mb-16">
           <div className="text-center max-w-3xl mx-auto mb-12">
@@ -311,6 +312,7 @@ export default function InvestPage() {
           </Link>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

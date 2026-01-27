@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { ArrowLeft, ArrowRight, TrendingUp, DollarSign, Calendar, Target, Building2, Users, Briefcase } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
+import { Footer } from '@/components/layout'
 import { MetricCard, ScenarioToggle, ScenarioIndicator } from '@/components/financial'
 import { useScenario } from '@/lib/context/ScenarioContext'
 import {
@@ -31,8 +32,8 @@ export default function ReturnsPage() {
   const totalReturns = exitValue + returns.yearlyReturns.reduce((sum, y) => sum + y.annualNetIncome, 0)
 
   return (
-    <div className="min-h-screen bg-neutral-50 pt-20">
-      <div className="max-w-container-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div className="min-h-screen bg-canvas pt-20">
+      <div className="w-full sm:w-[70vw] mx-auto py-12">
         {/* Hero Section */}
         <section className="mb-12">
           <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-8">
@@ -334,6 +335,7 @@ export default function ReturnsPage() {
           </Link>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
