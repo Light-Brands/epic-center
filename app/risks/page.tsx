@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { ArrowLeft, ArrowRight, ChevronDown, AlertTriangle, Shield, Scale, Building2, Users, Globe, Activity, DollarSign } from 'lucide-react'
+import { motion, AnimatePresence } from 'framer-motion'
 import { Button, Card } from '@/components/ui'
 import { Footer } from '@/components/layout'
 
@@ -149,7 +150,25 @@ const RISKS: Risk[] = [
   },
 ]
 
-function RiskCard({ risk }: { risk: Risk }) {
+// Animation variants
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: { staggerChildren: 0.08, delayChildren: 0.1 },
+  },
+}
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.5, ease: [0.25, 0.1, 0.25, 1] },
+  },
+}
+
+function RiskCard({ risk, index }: { risk: Risk; index: number }) {
   const [isExpanded, setIsExpanded] = useState(false)
 
   const severityColor = {
@@ -159,64 +178,98 @@ function RiskCard({ risk }: { risk: Risk }) {
   }
 
   return (
-    <Card padding="none" className="overflow-hidden">
-      <button
-        onClick={() => setIsExpanded(!isExpanded)}
-        className="w-full px-6 py-4 flex items-center justify-between hover:bg-neutral-50 transition-colors"
-      >
-        <div className="flex items-center gap-4">
-          <div className="w-10 h-10 rounded-lg bg-primary-100 flex items-center justify-center">
-            <risk.icon className="w-5 h-5 text-primary-600" />
+    <motion.div
+      variants={itemVariants}
+      layout
+    >
+      <Card padding="none" className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
+        <button
+          onClick={() => setIsExpanded(!isExpanded)}
+          className="w-full px-6 py-4 flex items-center justify-between hover:bg-neutral-50 transition-colors"
+        >
+          <div className="flex items-center gap-4">
+            <motion.div
+              initial={{ scale: 0, rotate: -180 }}
+              animate={{ scale: 1, rotate: 0 }}
+              transition={{ delay: 0.3 + index * 0.05, type: 'spring', stiffness: 200 }}
+              className="w-10 h-10 rounded-lg bg-primary-100 flex items-center justify-center"
+            >
+              <risk.icon className="w-5 h-5 text-primary-600" />
+            </motion.div>
+            <div className="text-left">
+              <p className="font-accent text-xs uppercase tracking-wide text-neutral-500 mb-1">
+                {risk.category}
+              </p>
+              <h4 className="font-medium text-neutral-900">{risk.title}</h4>
+            </div>
           </div>
-          <div className="text-left">
-            <p className="font-accent text-xs uppercase tracking-wide text-neutral-500 mb-1">
-              {risk.category}
-            </p>
-            <h4 className="font-medium text-neutral-900">{risk.title}</h4>
+          <div className="flex items-center gap-4">
+            <div className="hidden sm:flex gap-2">
+              <span className={`px-2 py-1 rounded text-xs font-medium ${severityColor[risk.severity]}`}>
+                Severity: {risk.severity}
+              </span>
+              <span className={`px-2 py-1 rounded text-xs font-medium ${severityColor[risk.likelihood]}`}>
+                Likelihood: {risk.likelihood}
+              </span>
+            </div>
+            <motion.div
+              animate={{ rotate: isExpanded ? 180 : 0 }}
+              transition={{ duration: 0.3 }}
+            >
+              <ChevronDown className="w-5 h-5 text-neutral-400" />
+            </motion.div>
           </div>
-        </div>
-        <div className="flex items-center gap-4">
-          <div className="hidden sm:flex gap-2">
-            <span className={`px-2 py-1 rounded text-xs font-medium ${severityColor[risk.severity]}`}>
-              Severity: {risk.severity}
-            </span>
-            <span className={`px-2 py-1 rounded text-xs font-medium ${severityColor[risk.likelihood]}`}>
-              Likelihood: {risk.likelihood}
-            </span>
-          </div>
-          <ChevronDown className={`w-5 h-5 text-neutral-400 transition-transform ${isExpanded ? 'rotate-180' : ''}`} />
-        </div>
-      </button>
+        </button>
 
-      {isExpanded && (
-        <div className="px-6 pb-6 border-t border-neutral-100">
-          <div className="sm:hidden flex gap-2 mt-4 mb-4">
-            <span className={`px-2 py-1 rounded text-xs font-medium ${severityColor[risk.severity]}`}>
-              Severity: {risk.severity}
-            </span>
-            <span className={`px-2 py-1 rounded text-xs font-medium ${severityColor[risk.likelihood]}`}>
-              Likelihood: {risk.likelihood}
-            </span>
-          </div>
+        <AnimatePresence>
+          {isExpanded && (
+            <motion.div
+              initial={{ height: 0, opacity: 0 }}
+              animate={{ height: 'auto', opacity: 1 }}
+              exit={{ height: 0, opacity: 0 }}
+              transition={{ duration: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
+              className="overflow-hidden"
+            >
+              <div className="px-6 pb-6 border-t border-neutral-100">
+                <div className="sm:hidden flex gap-2 mt-4 mb-4">
+                  <span className={`px-2 py-1 rounded text-xs font-medium ${severityColor[risk.severity]}`}>
+                    Severity: {risk.severity}
+                  </span>
+                  <span className={`px-2 py-1 rounded text-xs font-medium ${severityColor[risk.likelihood]}`}>
+                    Likelihood: {risk.likelihood}
+                  </span>
+                </div>
 
-          <p className="text-neutral-600 mt-4 mb-6">{risk.description}</p>
+                <p className="text-neutral-600 mt-4 mb-6">{risk.description}</p>
 
-          <div>
-            <p className="font-accent text-xs uppercase tracking-wide text-neutral-500 mb-3">
-              Mitigation Strategies
-            </p>
-            <ul className="space-y-2">
-              {risk.mitigations.map((mitigation, index) => (
-                <li key={index} className="flex items-start gap-2 text-neutral-700">
-                  <Shield className="w-4 h-4 text-success-500 mt-0.5 flex-shrink-0" />
-                  <span>{mitigation}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      )}
-    </Card>
+                <div>
+                  <p className="font-accent text-xs uppercase tracking-wide text-neutral-500 mb-3">
+                    Mitigation Strategies
+                  </p>
+                  <motion.ul
+                    variants={containerVariants}
+                    initial="hidden"
+                    animate="visible"
+                    className="space-y-2"
+                  >
+                    {risk.mitigations.map((mitigation, idx) => (
+                      <motion.li
+                        key={idx}
+                        variants={itemVariants}
+                        className="flex items-start gap-2 text-neutral-700"
+                      >
+                        <Shield className="w-4 h-4 text-success-500 mt-0.5 flex-shrink-0" />
+                        <span>{mitigation}</span>
+                      </motion.li>
+                    ))}
+                  </motion.ul>
+                </div>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </Card>
+    </motion.div>
   )
 }
 
@@ -228,7 +281,12 @@ export default function RisksPage() {
     <div className="min-h-screen bg-canvas pt-20">
       <div className="w-full sm:w-[70vw] mx-auto py-12">
         {/* Hero Section */}
-        <section className="mb-12 text-center">
+        <motion.section
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="mb-12 text-center"
+        >
           <p className="font-accent text-sm uppercase tracking-widest text-secondary-500 mb-4">
             Transparency
           </p>
@@ -239,72 +297,108 @@ export default function RisksPage() {
             Every investment carries risk. We believe in full transparency about the
             challenges we face and our strategies to address them.
           </p>
-        </section>
+        </motion.section>
 
         {/* Risk Summary */}
-        <section className="mb-12">
+        <motion.section
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.2, duration: 0.6 }}
+          className="mb-12"
+        >
           <Card padding="lg" className="bg-primary-800 text-white">
-            <div className="grid md:grid-cols-4 gap-6 text-center">
-              <div>
-                <div className="w-12 h-12 rounded-full bg-error-500/20 flex items-center justify-center mx-auto mb-3">
-                  <AlertTriangle className="w-6 h-6 text-error-400" />
-                </div>
-                <p className="font-heading text-3xl mb-1">{highRisks.length}</p>
-                <p className="text-sm text-primary-200">High Severity Risks</p>
-              </div>
-              <div>
-                <div className="w-12 h-12 rounded-full bg-warning-500/20 flex items-center justify-center mx-auto mb-3">
-                  <AlertTriangle className="w-6 h-6 text-warning-400" />
-                </div>
-                <p className="font-heading text-3xl mb-1">{mediumRisks.length}</p>
-                <p className="text-sm text-primary-200">Medium Severity Risks</p>
-              </div>
-              <div>
-                <div className="w-12 h-12 rounded-full bg-success-500/20 flex items-center justify-center mx-auto mb-3">
-                  <Shield className="w-6 h-6 text-success-400" />
-                </div>
-                <p className="font-heading text-3xl mb-1">{RISKS.reduce((acc, r) => acc + r.mitigations.length, 0)}</p>
-                <p className="text-sm text-primary-200">Mitigation Strategies</p>
-              </div>
-              <div>
-                <div className="w-12 h-12 rounded-full bg-secondary-400/20 flex items-center justify-center mx-auto mb-3">
-                  <Activity className="w-6 h-6 text-secondary-400" />
-                </div>
-                <p className="font-heading text-3xl mb-1">Active</p>
-                <p className="text-sm text-primary-200">Risk Monitoring</p>
-              </div>
-            </div>
+            <motion.div
+              variants={containerVariants}
+              initial="hidden"
+              animate="visible"
+              className="grid md:grid-cols-4 gap-6 text-center"
+            >
+              {[
+                { icon: AlertTriangle, value: highRisks.length, label: 'High Severity Risks', color: 'bg-error-500/20', iconColor: 'text-error-400' },
+                { icon: AlertTriangle, value: mediumRisks.length, label: 'Medium Severity Risks', color: 'bg-warning-500/20', iconColor: 'text-warning-400' },
+                { icon: Shield, value: RISKS.reduce((acc, r) => acc + r.mitigations.length, 0), label: 'Mitigation Strategies', color: 'bg-success-500/20', iconColor: 'text-success-400' },
+                { icon: Activity, value: 'Active', label: 'Risk Monitoring', color: 'bg-secondary-400/20', iconColor: 'text-secondary-400' },
+              ].map((stat, index) => (
+                <motion.div key={stat.label} variants={itemVariants}>
+                  <motion.div
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1 }}
+                    transition={{ delay: 0.4 + index * 0.1, type: 'spring', stiffness: 200 }}
+                    className={`w-12 h-12 rounded-full ${stat.color} flex items-center justify-center mx-auto mb-3`}
+                  >
+                    <stat.icon className={`w-6 h-6 ${stat.iconColor}`} />
+                  </motion.div>
+                  <p className="font-heading text-3xl mb-1">{stat.value}</p>
+                  <p className="text-sm text-primary-200">{stat.label}</p>
+                </motion.div>
+              ))}
+            </motion.div>
           </Card>
-        </section>
+        </motion.section>
 
         {/* High Severity Risks */}
         <section className="mb-12">
-          <div className="flex items-center gap-3 mb-6">
-            <div className="w-3 h-3 rounded-full bg-error-500" />
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.5 }}
+            className="flex items-center gap-3 mb-6"
+          >
+            <motion.div
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              transition={{ delay: 0.6, type: 'spring', stiffness: 300 }}
+              className="w-3 h-3 rounded-full bg-error-500"
+            />
             <h3 className="text-2xl font-heading text-neutral-900">High Severity Risks</h3>
-          </div>
-          <div className="space-y-4">
-            {highRisks.map((risk) => (
-              <RiskCard key={risk.id} risk={risk} />
+          </motion.div>
+          <motion.div
+            variants={containerVariants}
+            initial="hidden"
+            animate="visible"
+            className="space-y-4"
+          >
+            {highRisks.map((risk, index) => (
+              <RiskCard key={risk.id} risk={risk} index={index} />
             ))}
-          </div>
+          </motion.div>
         </section>
 
         {/* Medium Severity Risks */}
         <section className="mb-12">
-          <div className="flex items-center gap-3 mb-6">
-            <div className="w-3 h-3 rounded-full bg-warning-500" />
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.7 }}
+            className="flex items-center gap-3 mb-6"
+          >
+            <motion.div
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              transition={{ delay: 0.8, type: 'spring', stiffness: 300 }}
+              className="w-3 h-3 rounded-full bg-warning-500"
+            />
             <h3 className="text-2xl font-heading text-neutral-900">Medium Severity Risks</h3>
-          </div>
-          <div className="space-y-4">
-            {mediumRisks.map((risk) => (
-              <RiskCard key={risk.id} risk={risk} />
+          </motion.div>
+          <motion.div
+            variants={containerVariants}
+            initial="hidden"
+            animate="visible"
+            className="space-y-4"
+          >
+            {mediumRisks.map((risk, index) => (
+              <RiskCard key={risk.id} risk={risk} index={index + highRisks.length} />
             ))}
-          </div>
+          </motion.div>
         </section>
 
         {/* Risk Philosophy */}
-        <section className="mb-16">
+        <motion.section
+          initial={{ opacity: 0, scale: 0.98 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 0.9, duration: 0.6 }}
+          className="mb-16"
+        >
           <Card padding="lg" className="bg-gradient-to-br from-secondary-400 to-secondary-500 text-primary-900">
             <div className="max-w-3xl mx-auto text-center">
               <h3 className="text-3xl font-heading mb-6">Our Approach to Risk</h3>
@@ -313,33 +407,39 @@ export default function RisksPage() {
                 analyzed, and addressed with specific mitigation strategies. We continuously
                 monitor and adapt our approach as conditions evolve.
               </p>
-              <div className="grid md:grid-cols-3 gap-6 text-left">
+              <motion.div
+                variants={containerVariants}
+                initial="hidden"
+                animate="visible"
+                className="grid md:grid-cols-3 gap-6 text-left"
+              >
                 {[
-                  {
-                    title: 'Identify',
-                    description: 'Comprehensive risk assessment across all operational areas',
-                  },
-                  {
-                    title: 'Mitigate',
-                    description: 'Proactive strategies to reduce likelihood and impact',
-                  },
-                  {
-                    title: 'Monitor',
-                    description: 'Ongoing tracking and adjustment of risk management',
-                  },
-                ].map((step) => (
-                  <div key={step.title} className="bg-white/20 rounded-lg p-4">
+                  { title: 'Identify', description: 'Comprehensive risk assessment across all operational areas' },
+                  { title: 'Mitigate', description: 'Proactive strategies to reduce likelihood and impact' },
+                  { title: 'Monitor', description: 'Ongoing tracking and adjustment of risk management' },
+                ].map((step, index) => (
+                  <motion.div
+                    key={step.title}
+                    variants={itemVariants}
+                    whileHover={{ scale: 1.02, y: -2 }}
+                    className="bg-white/20 rounded-lg p-4 hover:bg-white/30 transition-colors cursor-default"
+                  >
                     <h4 className="font-heading text-xl mb-2">{step.title}</h4>
                     <p className="text-sm text-primary-800">{step.description}</p>
-                  </div>
+                  </motion.div>
                 ))}
-              </div>
+              </motion.div>
             </div>
           </Card>
-        </section>
+        </motion.section>
 
         {/* Navigation */}
-        <div className="flex justify-between items-center pt-8 border-t border-neutral-200">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.1 }}
+          className="flex justify-between items-center pt-8 border-t border-neutral-200"
+        >
           <Link href="/returns" className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors">
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
             <span className="font-accent text-sm uppercase tracking-wide">Returns</span>
@@ -350,7 +450,7 @@ export default function RisksPage() {
               <ArrowRight className="ml-2 w-4 h-4" />
             </Button>
           </Link>
-        </div>
+        </motion.div>
       </div>
       <Footer />
     </div>
