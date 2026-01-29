@@ -25,25 +25,25 @@ Hotel Alea Tulum ($6.4M, SHORTLIST), Hacienda Caracol ($4.9M, HOLD), Mini Hotel 
 
 ## Summary Comparison Matrix
 
-| # | Property | Location | Price | Rooms | $/Room | Natural Setting | Medical Access | Brand Fit |
-|---|----------|----------|-------|-------|--------|----------------|----------------|-----------|
-| 1 | Tankah Bay 21-Room | Tankah Bay, Tulum | $8.5M | 27 | $315K | Beach/Bay | Poor (70+ min) | Excellent |
-| 2 | Cenote Ka'ax | Akumal (PDC-Tulum) | $4.0M | 7* | $571K | Jungle/Cenote | Moderate (~45 min?) | Excellent |
-| 3 | 9-Key Solar Hotel | S. Tulum Beach | $6.7M | 9 | $744K | Beach/Biosphere | Very Poor (80+ min) | Excellent |
-| 4 | Jungle Keva | La Veleta, Tulum | $1.4M | 6 | $233K | Jungle | Poor (70 min) | Very Good |
-| 5 | Hotel #107 | Centro Tulum | $3.5M | 20 | $175K | Limited | Poor (70 min) | Moderate |
-| 6 | Hotel #92 | Tulum | $1.5M | TBD | TBD | TBD | Poor (70 min) | TBD |
-| 7 | 22-Room Hotel | Downtown Tulum | TBD | 22 | TBD | Limited | Poor (70 min) | Moderate |
-| 8 | 25-Room Aldea Zama | Aldea Zama, Tulum | TBD | 25 | TBD | Moderate | Poor (70 min) | Good |
-| 9 | Rancho Escondido | Xpu-Ha | TBD | TBD | TBD | Jungle/Eco | Moderate (~40 min?) | Very Good |
-| 10 | Bacalar Retreat | Lake Bacalar | $2.0M+ | TBD | TBD | Lagoon | Very Poor (3+ hrs) | Good |
-| 11 | Hotel Kinbe | Centro PDC | $3.5M | 30 | $117K | None (urban) | Good (~10 min) | Poor |
-| 12 | 18-Room #118 | Centro PDC | $3.5M | 18 | $194K | None (urban) | Good (~10 min) | Poor |
-| 13 | Two-Hotel Bundle | Centro PDC | $7.0M | 51 | $137K | None (urban) | Good (~10 min) | Poor |
-| 14 | Hotel #4 | Centro PDC | $2.0M | 22 | $91K | None (urban) | Good (~10 min) | Poor |
-| 15 | Hotel #51 | Centro PDC | $4.0M | 20 | $200K | None (urban) | Good (~10 min) | Poor |
-| 16 | 95-Key Hotel | Central Tulum | $16.5M | 95 | $174K | Moderate | Poor (70 min) | Moderate |
-| 17 | 10-Unit La Veleta | La Veleta, Tulum | $599K | 10 | $60K | Limited | Poor (70 min) | Poor |
+| # | Property | Location | Price | Rooms | $/Room | Natural Setting | Medical Access | Brand Fit | Link |
+|---|----------|----------|-------|-------|--------|----------------|----------------|-----------|------|
+| 1 | Tankah Bay 21-Room | Tankah Bay, Tulum | $8.5M | 27 | $315K | Beach/Bay | Poor (70+ min) | Excellent | [Christie's](https://www.christiesrealestatemexico.com/listings/for-sale/tulum/hotel/tankah-bay-21-room-beachfront-hotel/) |
+| 2 | Cenote Ka'ax | Akumal (PDC-Tulum) | $4.0M | 7* | $571K | Jungle/Cenote | Moderate (~45 min?) | Excellent | [Christie's](https://www.christiesrealestatemexico.com/listings/for-sale/akumal/hotel/cenote-kaax-jungle-retreat-hotel/) |
+| 3 | 9-Key Solar Hotel | S. Tulum Beach | $6.7M | 9 | $744K | Beach/Biosphere | Very Poor (80+ min) | Excellent | [7th Heaven](https://www.7thheavenproperties.com/real-estate/mexico/tulum-beachfront-hotel-for-sale-9/) |
+| 4 | Jungle Keva | La Veleta, Tulum | $1.4M | 6 | $233K | Jungle | Poor (70 min) | Very Good | [The Agency](https://theagencyrerivieramaya.com/properties-tulum-jungle-keva.html) |
+| 5 | Hotel #107 | Centro Tulum | $3.5M | 20 | $175K | Limited | Poor (70 min) | Moderate | [MexHotels](https://www.mexicohotelsforsale.com/properties/tulum/hotel-for-sale-107/) |
+| 6 | Hotel #92 | Tulum | $1.5M | TBD | TBD | TBD | Poor (70 min) | TBD | [RMREG](https://www.rivieramayarealestategroup.com/properties/tulum-real-estate/hotel-for-sale-92/) |
+| 7 | 22-Room Hotel | Downtown Tulum | TBD | 22 | TBD | Limited | Poor (70 min) | Moderate | [Coastal](https://coastalhomesrivieramaya.com/real-estate/tulum-hotel-for-sale-22-rooms-downtown/) |
+| 8 | 25-Room Aldea Zama | Aldea Zama, Tulum | TBD | 25 | TBD | Moderate | Poor (70 min) | Good | [Christie's](https://www.christiesrealestatemexico.com/listings/category/hotel/) |
+| 9 | Rancho Escondido | Xpu-Ha | TBD | TBD | TBD | Jungle/Eco | Moderate (~40 min?) | Very Good | [Point2](https://www.point2homes.com/MX/Home-For-Sale/Quintana-Roo/Puerto-Aventuras/Rancho-Escondido-Off-Grid-Luxury-True-Jungle-Paradise/115548363.html) |
+| 10 | Bacalar Retreat | Lake Bacalar | $2.0M+ | TBD | TBD | Lagoon | Very Poor (3+ hrs) | Good | [RMREG](https://www.rivieramayarealestategroup.com/listings/hotels-for-sale/) |
+| 11 | Hotel Kinbe | Centro PDC | $3.5M | 30 | $117K | None (urban) | Good (~10 min) | Poor | [Christie's](https://www.christiesrealestatemexico.com/listings/for-sale/playa-del-carmen/hotel/kinbe-hotel/) |
+| 12 | 18-Room #118 | Centro PDC | $3.5M | 18 | $194K | None (urban) | Good (~10 min) | Poor | [RMREG](https://www.rivieramayarealestategroup.com/properties/playa-del-carmen-real-estate/hotel-for-sale-118/) |
+| 13 | Two-Hotel Bundle | Centro PDC | $7.0M | 51 | $137K | None (urban) | Good (~10 min) | Poor | [MexHotels](https://www.mexicohotelsforsale.com/properties/playa-del-carmen/2-boutique-hotels-in-playa-del-carmen/) |
+| 14 | Hotel #4 | Centro PDC | $2.0M | 22 | $91K | None (urban) | Good (~10 min) | Poor | [RMREG](https://www.rivieramayarealestategroup.com/properties/playa-del-carmen-real-estate/hotel-for-sale-4/) |
+| 15 | Hotel #51 | Centro PDC | $4.0M | 20 | $200K | None (urban) | Good (~10 min) | Poor | [MexHotels](https://www.mexicohotelsforsale.com/properties/playa-del-carmen/hotel-for-sale-51/) |
+| 16 | 95-Key Hotel | Central Tulum | $16.5M | 95 | $174K | Moderate | Poor (70 min) | Moderate | [RMREG](https://www.rivieramayarealestategroup.com/properties/tulum-real-estate/hotel-for-sale-200/) |
+| 17 | 10-Unit La Veleta | La Veleta, Tulum | $599K | 10 | $60K | Limited | Poor (70 min) | Poor | [Coastal](https://coastalhomesrivieramaya.com/real-estate/10-unit-boutique-hotel-for-sale-in-tulum-la-veleta/) |
 
 *Cenote Ka'ax has 7 cabins on 8 hectares with significant expansion potential
 
