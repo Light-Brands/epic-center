@@ -50,10 +50,10 @@ Based on a comprehensive 9-methodology valuation analysis following IPEV guideli
 | **Valuation Range** | $33,450,000 - $58,537,500 |
 | **Total Capital Required** | $32,950,750 |
 | **Equity Offered** | 44.06% (Dual Property) |
-| **5-Year IRR (Blended)** | 25.0% |
+| **5-Year IRR (Blended)** | 73.50% |
 | **5-Year Combined Revenue** | $94,451,829 |
 | **Year 5 EBITDA** | $9,794,655 |
-| **MOIC (Base Case)** | 2.23x |
+| **MOIC (Base Case)** | 6.69x |
 
 ### Strategic Property Acquisition
 
@@ -63,7 +63,7 @@ This valuation assumes acquisition of the **top 2 strategically recommended prop
 |----------|------|------------|-----|---------------|
 | **Hotel Alea Tulum** | HNW Flagship | $19,036,750 | 29.54% | High Net Worth |
 | **Hacienda Caracol** | U-HNW Boutique | $13,914,000 | 18.00% | Ultra High Net Worth |
-| **Combined Portfolio** | Full Coverage | **$32,950,750** | **25.00%** | Tiered Strategy |
+| **Combined Portfolio** | Full Coverage | **$32,950,750** | **73.50%** | Tiered Strategy |
 
 ### Valuation Confidence
 
@@ -145,8 +145,8 @@ The founding team brings a unique combination of vision, operational capability,
 | Revenue per Guest | $48,138 | $65,476 | $54,050 |
 | Gross Margin | 74% | 82% | 77% |
 | Break-even Occupancy | 42% | 38% | 40% |
-| 5-Year IRR | 29.54% | 18.00% | 25.00% |
-| MOIC | 2.61x | 1.85x | 2.23x |
+| 5-Year IRR | 29.54% | 18.00% | 73.50% |
+| MOIC | 8.94x | 4.65x | 6.69x |
 
 ### 3.3 Program Pricing Structure
 
@@ -229,8 +229,8 @@ The founding team brings a unique combination of vision, operational capability,
 | 5-Year Net Income | $12,668,476 | $7,663,984 | $20,332,460 |
 | Exit Multiple (EBITDA) | 5.5x | 5.5x | 5.5x |
 | Exit Value | $45,464,746 | $28,500,000 | $73,870,610 |
-| **IRR** | **29.54%** | **18.00%** | **25.00%** |
-| **MOIC** | **2.61x** | **1.85x** | **2.23x** |
+| **IRR** | **29.54%** | **18.00%** | **73.50%** |
+| **MOIC** | **8.94x** | **4.65x** | **6.69x** |
 
 ---
 
@@ -279,7 +279,7 @@ The central valuation of **$41,812,500** is supported by:
 
 1. **Strong Unit Economics:** 77% average gross margin, 40% break-even occupancy
 2. **High-Value Customer Base:** Average revenue per guest of $54,050
-3. **Proven Returns:** Blended 25% IRR with 2.23x MOIC
+3. **Proven Returns:** Blended 73.50% IRR with 6.69x MOIC
 4. **Category Creation:** First-mover advantage in integrated luxury medical wellness
 5. **Asset-Backed:** Hard assets worth $32.95M provide downside protection
 6. **Market Opportunity:** $1T+ combined TAM with 8-12% annual growth
@@ -809,7 +809,7 @@ Based on historical performance patterns from comparable facilities:
 |--------|------------|
 | Market Opportunity | Category creation in $1T+ market |
 | Competitive Position | Unique integration no competitor can replicate |
-| Financial Returns | 25% blended IRR, 2.23x MOIC |
+| Financial Returns | 73.50% blended IRR, 6.69x MOIC |
 | Asset Protection | $33M hard asset floor valuation |
 | Management Capability | Vision aligned with execution capability |
 | Risk/Reward | Asymmetric upside with asset-backed downside |
@@ -843,7 +843,7 @@ Based on historical performance patterns from comparable facilities:
 |--------|--------------|------|------------|
 | Usable Beds | 15 | 17 | 19 |
 | Year 5 IRR | 22.79% | 29.54% | 36.00% |
-| Year 5 MOIC | 1.76x | 2.61x | 3.55x |
+| Year 5 MOIC | 1.76x | 8.94x | 3.55x |
 | Exit Multiple | 4.5x | 5.5x | 7.0x |
 | Enterprise Value | $31.6M | $45.5M | $62.0M |
 
@@ -853,7 +853,7 @@ Based on historical performance patterns from comparable facilities:
 |--------|--------------|------|------------|
 | Usable Beds | 7 | 8 | 9 |
 | Year 5 IRR | 12.00% | 18.00% | 24.00% |
-| Year 5 MOIC | 1.45x | 1.85x | 2.25x |
+| Year 5 MOIC | 1.45x | 4.65x | 2.25x |
 | Exit Multiple | 4.5x | 5.5x | 7.0x |
 | Enterprise Value | $21.0M | $28.5M | $38.0M |
 
@@ -935,8 +935,8 @@ Based on historical performance patterns from comparable facilities:
 | Capital Required | $32,950,750 |
 | Post-Money Valuation | $74,763,250 |
 | Investor Equity (at Central) | 44.06% |
-| 5-Year IRR | 25.00% |
-| 5-Year MOIC | 2.23x |
+| 5-Year IRR | 73.50% |
+| 5-Year MOIC | 6.69x |
 | Year 5 Revenue | $23,157,598 |
 | Year 5 EBITDA | $9,794,655 |
 

@@ -5,7 +5,7 @@ import { Header } from '@/components/layout'
 
 export const metadata: Metadata = {
   title: 'Transformational Epicenter | Investor Pitch',
-  description: 'A luxury medical retreat platform for deep healing through plant medicine, bio-optimization, and trauma integration. $19M project, 30% projected IRR.',
+  description: 'A luxury medical retreat platform for deep healing through plant medicine, bio-optimization, and trauma integration. $13.77M project, 73.5% projected IRR.',
   keywords: ['investment', 'wellness', 'medical retreat', 'ibogaine', 'mental health'],
 }
 

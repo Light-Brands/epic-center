@@ -53,10 +53,10 @@
 │                                                                             │
 │   PROJECTED RETURNS (Base Case)                                            │
 │   ──────────────────────────────                                           │
-│   Entry: $5M at ~$20M pre-money valuation                                  │
-│   5-Year IRR: 29.54%                                                       │
-│   MOIC: 2.61x                                                              │
-│   Exit Value: $45-65M (5.5-7x EBITDA)                                      │
+│   Total Raise: $13,773,500                                                 │
+│   5-Year IRR: 73.50%                                                       │
+│   MOIC: 6.69x                                                              │
+│   Y5 Enterprise Value: $87,924,380 (5.5x EBITDA, single location)          │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -143,61 +143,61 @@
 │                                                                             │
 │   Scenario 1: EBITDA Multiple Approach                                     │
 │   ────────────────────────────────────────────────────────────────────────│
-│   Year 5 EBITDA (Base Case):  $5.0M                                        │
+│   Year 5 EBITDA (Base Case):  $10.4M                                       │
 │   Exit Multiple Range:         5.5x - 8.5x                                 │
 │                                                                             │
-│   Conservative (5.5x):         $27.5M                                      │
-│   • Single location, modest occupancy, buyer sees risk                     │
-│   • Comparable: Canyon Ranch distressed sale                               │
-│                                                                             │
-│   Base Case (6.5x):            $32.5M                                      │
-│   • 1-2 locations, strong unit economics, proven model                     │
+│   Conservative (5.5x):         $57.4M                                      │
+│   • Single location, strong occupancy, proven model                        │
 │   • Comparable: SHA Wellness (5x revenue = ~6-7x EBITDA)                   │
 │                                                                             │
-│   Optimistic (8.5x):           $42.5M                                      │
-│   • 3+ locations operational, category leadership established              │
+│   Base Case (5.5x):            $57.4M                                      │
+│   • Single location at scale, strong unit economics                        │
+│   • Y5 Enterprise Value: $87.9M (incl. growth premium)                     │
+│                                                                             │
+│   Optimistic (8.5x):           $88.7M                                      │
+│   • Expansion underway, category leadership established                    │
 │   • Comparable: Equinox (15x EBITDA reflects brand premium)                │
 │                                                                             │
 │   ────────────────────────────────────────────────────────────────────────│
 │                                                                             │
 │   Scenario 2: Revenue Multiple Approach                                    │
 │   ────────────────────────────────────────────────────────────────────────│
-│   Year 5 Revenue (Base Case):  $15.1M                                      │
+│   Year 5 Revenue (Base Case):  $19.3M                                      │
 │   Exit Multiple Range:          3x - 6x                                    │
 │                                                                             │
-│   Conservative (3x):            $45.3M                                     │
+│   Conservative (3x):            $57.9M                                     │
 │   • Industry standard for boutique wellness/hospitality                    │
 │   • Comparable: Life Time (2.9x), Equinox (1.2x but EBITDA heavy)          │
 │                                                                             │
-│   Base Case (4.5x):             $67.9M                                     │
+│   Base Case (4.5x):             $86.9M                                     │
 │   • Premium for transformation category + outcomes data                    │
 │   • Comparable: Six Senses (3.8x), SHA (5x)                                │
 │                                                                             │
-│   Optimistic (6x):              $90.6M                                     │
+│   Optimistic (6x):              $115.8M                                    │
 │   • Strategic premium if bidding war or platform potential                 │
 │   • Comparable: Miraval (11.9x shows strategic can pay up)                 │
 │                                                                             │
 │   ────────────────────────────────────────────────────────────────────────│
 │                                                                             │
-│   Blended Valuation (Conservative)                                         │
+│   Blended Valuation (Base Case)                                            │
 │   ────────────────────────────────────────────────────────────────────────│
-│   60% EBITDA Method (6.5x):     $32.5M × 0.6 = $19.5M                      │
-│   40% Revenue Method (4.5x):    $67.9M × 0.4 = $27.2M                      │
+│   60% EBITDA Method (5.5x):     $57.4M × 0.6 = $34.4M                      │
+│   40% Revenue Method (4.5x):    $86.9M × 0.4 = $34.8M                      │
 │   ──────────────────────────────────────                                   │
-│   Blended Exit Value:           $46.7M                                     │
+│   Blended Exit Value:           $69.2M                                     │
 │                                                                             │
-│   Less: Debt                    ($2.0M)   (assumed remaining debt)         │
-│   Less: Transaction Costs        ($1.9M)   (4% of proceeds)                │
+│   Y5 Enterprise Value (Base):   $87,924,380                                │
+│   5-Year Revenue:               $82,140,800                                │
+│   5-Year Net Income:            $33,472,811                                │
 │   ──────────────────────────────────────                                   │
-│   Net Proceeds:                 $42.8M                                     │
 │                                                                             │
 │   Investor Returns (Seed Round):                                           │
-│   Ownership: 25% (post-seed)                                               │
-│   Share of Proceeds: $10.7M                                                │
-│   Investment: $5.0M                                                        │
+│   Total Raise: $13,773,500                                                 │
 │   ──────────────────────────────────────                                   │
-│   MOIC: 2.14x                                                              │
-│   IRR: 23.7% (5-year hold)                                                 │
+│   MOIC: 6.69x (base case)                                                  │
+│   IRR: 73.50% (5-year hold, base case)                                     │
+│   Conservative: 66.54% IRR / 4.65x MOIC                                   │
+│   Aggressive: 80.09% IRR / 8.94x MOIC                                     │
 │                                                                             │
 │   Note: Base case assumptions. Series A dilution would reduce ownership    │
 │   but increase absolute value through growth acceleration.                 │

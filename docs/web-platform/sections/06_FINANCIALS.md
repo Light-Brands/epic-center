@@ -5,10 +5,10 @@
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                                                                             │
-│              $30K              70%               $5.1M             29%+     │
+│              $26.6K            60→80%            $13.1M            73.50%   │
 │         ───────────       ───────────       ───────────       ───────────  │
-│          Avg Revenue       Target            Y2 Revenue        Base Case   │
-│          Per Guest         Occupancy         (10 rooms)        IRR         │
+│          Wtd Avg Rev       Occupancy          Y1 Revenue        Base Case  │
+│          Per Guest         (Y1→Y3-5)         (30 rooms)         IRR        │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -17,22 +17,22 @@
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                                                                             │
-│   REVENUE TRAJECTORY                                                        │
+│   REVENUE TRAJECTORY (Riviera Maya Jungle Estate)                           │
 │                                                                             │
-│   $15M ┤                                              ▲ $15.1M (Alea)      │
+│   $20M ┤                                              ▲ $19.3M (Y5)       │
 │        │                                           ╱                        │
-│   $12M ┤                                        ╱                          │
+│   $18M ┤                                        ╱                          │
 │        │                                     ╱                              │
-│   $10M ┤                                  ╱                                │
+│   $16M ┤                                  ╱                                │
 │        │                               ╱                                    │
-│    $8M ┤                            ╱                                      │
+│   $14M ┤                            ╱                                      │
 │        │                         ╱                                          │
-│    $6M ┤                      ╱                         ▲ $5.9M (Hacienda) │
-│        │                   ╱                         ╱                      │
-│    $4M ┤                ╱                         ╱                        │
-│        │             ╱                         ╱                            │
-│    $2M ┤          ╱                         ╱                              │
-│        │       ╱                         ╱                                  │
+│   $12M ┤                      ╱                                            │
+│        │                   ╱                                                │
+│   $10M ┤                ╱                                                  │
+│        │             ╱                                                      │
+│    $8M ┤          ╱                                                        │
+│        │       ╱  ▲ $13.1M (Y1)                                            │
 │    $0M ┼───────────────────────────────────────────────────────────────    │
 │            Y1       Y2       Y3       Y4       Y5                          │
 │                                                                             │
@@ -49,13 +49,13 @@
 │                                                                             │
 │   ┌─────────────────────────────────────────────────────────────────────┐  │
 │   │                                                                     │  │
-│   │   OPTION A: Hotel Alea Only              OPTION B: Dual Strategy   │  │
+│   │   OPTION A: Jungle Estate Only            OPTION B: Dual Strategy   │  │
 │   │   ──────────────────────                 ─────────────────────     │  │
 │   │                                                                     │  │
-│   │   Total Investment: $19.0M               Total: $32.9M             │  │
-│   │   Rooms: 21                              Rooms: 31                  │  │
-│   │   Y5 Revenue: $15.1M                     Y5 Revenue: $21.0M        │  │
-│   │   5-Year IRR: 28.51%                     Blended IRR: ~29%         │  │
+│   │   Total Investment: $13.8M               Total: $32.9M             │  │
+│   │   Rooms: 30                              Rooms: 40+                 │  │
+│   │   5-Yr Revenue: $82.1M                   Y5 Revenue: $21.0M        │  │
+│   │   5-Year IRR: 73.50%                     Blended IRR: ~65%+        │  │
 │   │                                                                     │  │
 │   │   ✅ Lower capital requirement           ✅ Tier diversification    │  │
 │   │   ✅ Faster to profitability             ✅ HNW + UHNW markets     │  │
@@ -74,15 +74,16 @@
 │                                                                             │
 │   ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐      │
 │   │  REVENUE    │  │    CAC      │  │    LTV      │  │  PAYBACK    │      │
-│   │  $30,000    │  │   $2,500    │  │  $45,000+   │  │  12 months  │      │
+│   │  $26,600    │  │   $2,500    │  │  $45,000+   │  │  12 months  │      │
 │   │  ─────────  │  │  ─────────  │  │  ─────────  │  │  ─────────  │      │
-│   │  Avg 15-day │  │  Via        │  │  Return     │  │  First      │      │
-│   │  program    │  │  referrals  │  │  visits +   │  │  customer   │      │
+│   │  Wtd avg    │  │  Via        │  │  Return     │  │  First      │      │
+│   │  per guest  │  │  referrals  │  │  visits +   │  │  customer   │      │
 │   │             │  │             │  │  referrals  │  │  profitable │      │
 │   └─────────────┘  └─────────────┘  └─────────────┘  └─────────────┘      │
 │                                                                             │
 │   Break-even Occupancy: 42%                                                │
-│   Target Occupancy Y2+: 70-85%                                             │
+│   Target Occupancy: 60% Y1 → 75% Y2 → 80% Y3-5 (base)                    │
+│   Guests: 494 Y1, 617 Y2, 659 Y3-5                                        │
 │   Target Referral Rate: 40%+ (ambassador program)                          │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
@@ -91,9 +92,9 @@
 #### Scenario Analysis (Interactive Toggle)
 | Scenario | Occupancy | Revenue Y2 | 5-Year IRR | NPV |
 |----------|-----------|------------|------------|-----|
-| **Conservative** | 55% | $4.0M | 22.15% | $11.2M |
-| **Base Case** | 70% | $5.1M | 28.51% | $15.8M |
-| **Aggressive** | 85% | $6.2M | 38.42% | $21.4M |
+| **Conservative** | 55→70% | $13.1M Y1 | 66.54% | $11.2M |
+| **Base Case** | 60→80% | $13.1M Y1 | 73.50% | $15.8M |
+| **Aggressive** | 65→85% | $13.1M Y1 | 80.09% | $21.4M |
 
 #### Detailed Revenue Breakdown (Year 2 Base Case)
 ```
@@ -210,18 +211,15 @@
 │                                                                             │
 │   SEED ROUND (Current Raise)                                               │
 │   ──────────────────────────────────────────────────────────────────────   │
-│   Amount:              $5,000,000                                          │
-│   Pre-money Valuation: $15,000,000                                         │
-│   Post-money:          $20,000,000                                         │
-│   Dilution:            25%                                                 │
+│   Amount:              $13,773,500                                         │
 │   Instrument:          Preferred Equity (Series Seed)                      │
 │                                                                             │
 │   Use of Funds:                                                            │
-│   • Property acquisition & renovation:      $2,500,000  (50%)              │
-│   • Medical equipment & licensing:          $750,000    (15%)              │
-│   • Platform development (MVP):             $1,000,000  (20%)              │
-│   • Team (12-18 month runway):              $500,000    (10%)              │
-│   • Working capital & operations:           $250,000    (5%)               │
+│   • Property acquisition & renovation:      $5,509,400  (40%)              │
+│   • Platform development (MVP):             $4,132,050  (30%)              │
+│   • Team (12-18 month runway):              $2,066,025  (15%)              │
+│   • Marketing & growth:                     $1,377,350  (10%)              │
+│   • Legal & compliance:                       $688,675  (5%)               │
 │                                                                             │
 │   ──────────────────────────────────────────────────────────────────────   │
 │                                                                             │
@@ -268,8 +266,8 @@
 │   REVENUE DRIVERS                                                          │
 │   • Average daily rate: $2,000/guest (all-inclusive)                       │
 │   • Average stay: 15 days (weighted average across programs)               │
-│   • Average revenue per guest: $30,000                                     │
-│   • Target occupancy ramp: Y1: 35% → Y2: 70% → Y3+: 70-85%                │
+│   • Average revenue per guest: $26,600 (weighted average)                   │
+│   • Target occupancy ramp: Y1: 60% → Y2: 75% → Y3-5: 80% (base)           │
 │   • Referral rate: Y1: 20% → Y2: 30% → Y3+: 40%+                          │
 │   • Return visit rate: 30% within 24 months                                │
 │   • Price escalation: 3% annually (below inflation, market positioning)    │
@@ -288,10 +286,13 @@
 │   • Working capital: 15 days of operating expenses                         │
 │                                                                             │
 │   RETURN METRICS (5-Year Hold)                                             │
-│   • IRR: 28.51% (base case)                                                │
-│   • MOIC: 2.61x                                                            │
-│   • Exit multiple assumption: 6.5x EBITDA (conservative for category)     │
-│   • Payback period: 3.2 years                                              │
+│   • IRR: 73.50% (base case)                                                │
+│   • MOIC: 6.69x                                                            │
+│   • Exit multiple assumption: 5.5x EBITDA (single location)               │
+│   • 5-Year Revenue: $82,140,800                                            │
+│   • 5-Year Net Income: $33,472,811                                         │
+│   • Y5 EBITDA: $10,433,610                                                 │
+│   • Y5 Enterprise Value (Base): $87,924,380                                │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```

@@ -29,12 +29,13 @@ export const RANGES = {
 } as const
 
 // Scenario multipliers for adjusting base values
+// Aligned with valuation report: Base IRR 73.50%, MOIC 6.69x
 export const SCENARIO_MULTIPLIERS = {
   conservative: {
-    revenue: 0.76,
-    occupancy: 0.85,
-    irr: 0.77, // 23% vs 30%
-    moic: 0.83, // 2.5x vs 3.0x
+    revenue: 0.75, // ~$62M vs $82M 5-year total
+    occupancy: 0.875, // 70% vs 80% steady-state
+    irr: 0.905, // 66.54% vs 73.50%
+    moic: 0.695, // 4.65x vs 6.69x
   },
   base: {
     revenue: 1.0,
@@ -43,9 +44,9 @@ export const SCENARIO_MULTIPLIERS = {
     moic: 1.0,
   },
   aggressive: {
-    revenue: 1.25,
-    occupancy: 1.15,
-    irr: 1.2, // 36% vs 30%
-    moic: 1.17, // 3.5x vs 3.0x
+    revenue: 1.08, // ~$89M vs $82M 5-year total
+    occupancy: 1.063, // 85% vs 80% steady-state
+    irr: 1.090, // 80.09% vs 73.50%
+    moic: 1.336, // 8.94x vs 6.69x
   },
 } as const

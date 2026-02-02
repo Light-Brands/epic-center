@@ -747,10 +747,10 @@ export default function VisionPage() {
             variants={staggerContainer}
           >
             {[
-              { icon: '/icons/project-cost.png', label: 'Project Cost', value: '$19M', description: 'All-in capital requirement' },
-              { icon: '/icons/year-5-revenue.png', label: 'Year 5 Revenue', value: '$15.3M', description: 'Projected annual revenue' },
-              { icon: '/icons/project-irr.png', label: 'Project IRR', value: '30%', description: '5-year internal rate of return' },
-              { icon: '/icons/moic.png', label: '5-Year MOIC', value: '3.0x', description: 'Multiple on invested capital' },
+              { icon: '/icons/project-cost.png', label: 'Total Raise', value: '$13.8M', description: 'All-equity seed round' },
+              { icon: '/icons/year-5-revenue.png', label: 'Y5 Enterprise Value', value: '$87.9M', description: 'Base case exit valuation' },
+              { icon: '/icons/project-irr.png', label: 'Project IRR', value: '73.5%', description: 'Base case with Year 5 exit' },
+              { icon: '/icons/moic.png', label: '5-Year MOIC', value: '6.69x', description: 'Multiple on invested capital' },
             ].map((metric, index) => (
               <motion.div
                 key={metric.label}
@@ -825,7 +825,7 @@ export default function VisionPage() {
               { title: 'Market', href: '/market', description: '$5.6T addressable market', accent: 'accent' },
               { title: 'The Property', href: '/properties/riviera-maya-jungle-estate', description: '30-room jungle compound', accent: 'primary' },
               { title: 'Financials', href: '/financials', description: '5-year projections', accent: 'secondary' },
-              { title: 'Returns', href: '/returns', description: '35% IRR, 4.1x MOIC', accent: 'accent' },
+              { title: 'Returns', href: '/returns', description: '73.5% IRR, 6.69x MOIC', accent: 'accent' },
             ].map((section, index) => (
               <motion.div
                 key={section.href}

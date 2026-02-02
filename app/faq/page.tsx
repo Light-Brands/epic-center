@@ -22,12 +22,12 @@ const FAQS: FAQ[] = [
   {
     category: 'Investment',
     question: 'What is the expected return on investment?',
-    answer: 'We project a 35% IRR and 4.1x MOIC over a 5-7 year investment horizon in our base case scenario. Conservative projections show 25% IRR / 3.0x MOIC, while aggressive projections show 45% IRR / 5.0x MOIC.',
+    answer: 'We project a 73.5% IRR and 6.69x MOIC over a 5-year investment horizon in our base case scenario, producing $87.9M in enterprise value at Year 5 exit. Conservative projections show 66.5% IRR / 4.65x MOIC, while aggressive projections show 80.1% IRR / 8.94x MOIC.',
   },
   {
     category: 'Investment',
     question: 'What is the investment structure?',
-    answer: 'This is a 100% equity investment totaling $10.4M. Investors receive common equity in Transformational Epicenter Holdings, LLC (Delaware). There is no debt component, providing downside protection and alignment.',
+    answer: 'This is a 100% equity investment totaling $13.77M. Investors receive common equity in Transformational Epicenter Holdings, LLC (Delaware). There is no debt component, providing downside protection and alignment.',
   },
   {
     category: 'Investment',
@@ -59,7 +59,7 @@ const FAQS: FAQ[] = [
   {
     category: 'Operations',
     question: 'What is the treatment capacity?',
-    answer: 'Riviera Maya Jungle Estate has 16 rooms currently operational, expanding to 30 by end of 2026. At 75% occupancy with an average 7-day stay, we can treat approximately 1,157 guests annually at full capacity.',
+    answer: 'Riviera Maya Jungle Estate has 16 rooms currently operational, expanding to 30 by end of 2026. At 80% occupancy with a weighted average 13-day stay, we can serve approximately 659 guests annually at stabilized capacity.',
   },
   {
     category: 'Operations',

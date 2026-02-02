@@ -122,11 +122,11 @@ const PHASES = [
 ]
 
 const ANNUAL_PROJECTIONS = [
-  { year: 'Year 1', revenue: '$13.1M', guests: '932', occupancy: '60%', ebitda: '$5.8M' },
-  { year: 'Year 2', revenue: '$16.7M', guests: '1,189', occupancy: '76%', ebitda: '$9.4M' },
-  { year: 'Year 3', revenue: '$16.2M', guests: '1,157', occupancy: '75%', ebitda: '$9.0M' },
-  { year: 'Year 4', revenue: '$16.2M', guests: '1,157', occupancy: '75%', ebitda: '$9.0M' },
-  { year: 'Year 5', revenue: '$16.2M', guests: '1,157', occupancy: '75%', ebitda: '$9.0M' },
+  { year: 'Year 1', revenue: '$13.1M', guests: '494', occupancy: '60%', ebitda: '$7.8M' },
+  { year: 'Year 2', revenue: '$16.4M', guests: '617', occupancy: '75%', ebitda: '$10.3M' },
+  { year: 'Year 3', revenue: '$17.5M', guests: '659', occupancy: '80%', ebitda: '$11.0M' },
+  { year: 'Year 4', revenue: '$17.5M', guests: '659', occupancy: '80%', ebitda: '$10.7M' },
+  { year: 'Year 5', revenue: '$17.5M', guests: '659', occupancy: '80%', ebitda: '$10.4M' },
 ]
 
 // Animation variants
@@ -427,10 +427,10 @@ export default function TimelinePage() {
                 className="grid grid-cols-2 gap-4"
               >
                 {[
-                  { value: '35%', label: 'Target IRR' },
-                  { value: '4.1x', label: 'Target MOIC' },
-                  { value: '5-7 yrs', label: 'Hold Period' },
-                  { value: '8-10x', label: 'Exit Multiple' },
+                  { value: '73.5%', label: 'Target IRR' },
+                  { value: '6.69x', label: 'Target MOIC' },
+                  { value: '5 yrs', label: 'Hold Period' },
+                  { value: '$87.9M', label: 'Y5 Enterprise Value' },
                 ].map((stat, index) => (
                   <motion.div
                     key={stat.label}

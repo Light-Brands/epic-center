@@ -46,9 +46,9 @@ export default function PropertiesPage() {
               <div className="flex items-center justify-center gap-2 text-primary-600 mb-2">
                 <Users className="w-5 h-5" />
               </div>
-              <p className="font-heading text-3xl text-neutral-900">1,157</p>
+              <p className="font-heading text-3xl text-neutral-900">659</p>
               <p className="text-sm text-neutral-500">Guests/Year</p>
-              <p className="text-xs text-neutral-400 mt-1">At 75% occupancy</p>
+              <p className="text-xs text-neutral-400 mt-1">At 80% occupancy (stabilized)</p>
             </Card>
             <Card className="text-center">
               <div className="flex items-center justify-center gap-2 text-primary-600 mb-2">
@@ -124,10 +124,11 @@ export default function PropertiesPage() {
               <h4 className="font-heading text-lg text-neutral-900 mb-4">Capital Allocation</h4>
               <div className="space-y-3">
                 {[
-                  { label: 'Real Estate Acquisition', value: '$5,800,000', pct: '55.9%' },
-                  { label: 'Construction & Build-out', value: '$1,950,000', pct: '18.8%' },
-                  { label: 'General Contractor', value: '$1,500,000', pct: '14.5%' },
-                  { label: 'Working Capital', value: '$1,126,000', pct: '10.8%' },
+                  { label: 'Property Acquisition', value: '$6,150,000', pct: '44.7%' },
+                  { label: 'Renovation & Conversion', value: '$4,050,000', pct: '29.4%' },
+                  { label: 'Medical Equipment', value: '$750,000', pct: '5.4%' },
+                  { label: 'FF&E', value: '$600,000', pct: '4.4%' },
+                  { label: 'Working Capital & Reserves', value: '$2,223,500', pct: '16.1%' },
                 ].map((item) => (
                   <div key={item.label} className="flex justify-between items-center py-2 border-b border-neutral-100 last:border-0">
                     <span className="text-neutral-700">{item.label}</span>
@@ -140,7 +141,7 @@ export default function PropertiesPage() {
                 <div className="pt-3 border-t-2 border-primary-800">
                   <div className="flex justify-between items-center">
                     <span className="font-medium text-neutral-900">Total Investment</span>
-                    <span className="font-heading text-2xl text-primary-800">$10,376,000</span>
+                    <span className="font-heading text-2xl text-primary-800">$13,773,500</span>
                   </div>
                 </div>
               </div>
@@ -149,12 +150,12 @@ export default function PropertiesPage() {
               <h4 className="font-heading text-lg text-neutral-900 mb-4">Projected Returns</h4>
               <div className="space-y-3">
                 {[
-                  { label: 'Year 1 Net Income', value: '$5.8M' },
-                  { label: 'Year 2 Net Income', value: '$9.4M' },
-                  { label: 'Year 3-5 Net Income', value: '$9.0M/yr' },
-                  { label: '5-Year Total Net', value: '$42.1M' },
-                  { label: 'Gross ROI', value: '35%' },
-                  { label: 'MOIC (Base)', value: '4.1x' },
+                  { label: 'Year 1 Net Income', value: '$5.1M' },
+                  { label: 'Year 2 Net Income', value: '$6.9M' },
+                  { label: 'Year 3-5 Net Income', value: '$7.2M avg/yr' },
+                  { label: '5-Year Net Income', value: '$33.5M' },
+                  { label: 'Y5 Enterprise Value', value: '$87.9M' },
+                  { label: 'MOIC (Base)', value: '6.69x' },
                 ].map((item) => (
                   <div key={item.label} className="flex justify-between items-center py-2 border-b border-neutral-100 last:border-0">
                     <span className="text-neutral-700">{item.label}</span>

@@ -242,7 +242,7 @@ This document catalogs all content needed for the 16-page investment platform. C
 ### All Sections
 | Element | Content | Source |
 |---------|---------|--------|
-| Key metrics | $30K/guest, 70% occupancy, 29% IRR | 📊 |
+| Key metrics | $26.6K/guest, 60-80% occupancy, 73.50% IRR | 📊 |
 | 5-year projections | Revenue by year, 3 scenarios | 📊 properties-financial-data.json |
 | Unit economics | CAC, LTV, contribution margin | 📊 |
 | Break-even | 42% occupancy | 📊 |
@@ -375,7 +375,7 @@ This document catalogs all content needed for the 16-page investment platform. C
 ### Sections
 | Element | Content | Source |
 |---------|---------|--------|
-| The Ask | $5,000,000 | 📄 |
+| The Ask | $13,773,500 | 📄 |
 | Use of Funds | 5 categories with % and $ | 📄 EXEC_SUMMARY |
 | Investment Thesis | 6 reasons | 📄 |
 | Deal terms | Summary TBD | ✏️ |

@@ -3,7 +3,7 @@
 import { useState, useCallback, useEffect } from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { ArrowLeft, ArrowRight, FileText, Download, Lock, Folder, Eye, Calendar, Mail, Delete } from 'lucide-react'
+import { ArrowLeft, ArrowRight, FileText, Eye as EyeIcon, Lock, Folder, Mail, Delete } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
 import { Footer } from '@/components/layout'
 
@@ -12,56 +12,71 @@ const DOCUMENT_CATEGORIES = [
     name: 'Investment Documents',
     icon: FileText,
     documents: [
-      { name: 'Executive Summary', type: 'PDF', access: 'public', size: '2.4 MB' },
-      { name: 'Pitch Deck', type: 'PDF', access: 'public', size: '8.1 MB' },
-      { name: 'Private Placement Memorandum', type: 'PDF', access: 'restricted', size: '15.2 MB' },
-      { name: 'Subscription Agreement', type: 'PDF', access: 'restricted', size: '1.8 MB' },
-      { name: 'Operating Agreement', type: 'PDF', access: 'restricted', size: '4.2 MB' },
+      { name: 'Executive Summary', slug: 'investment/executive-summary', doc: '01' },
+      { name: 'Pitch Deck', slug: 'investment/pitch-deck', doc: '02' },
+      { name: 'Private Placement Memorandum', slug: 'investment/private-placement-memorandum', doc: '03' },
+      { name: 'Subscription Agreement', slug: 'investment/subscription-agreement', doc: '04' },
+      { name: 'Operating Agreement', slug: 'investment/operating-agreement', doc: '05' },
     ],
   },
   {
     name: 'Financial Model',
     icon: Folder,
     documents: [
-      { name: 'Financial Projections (5-Year)', type: 'Excel', access: 'restricted', size: '3.2 MB' },
-      { name: 'Unit Economics Model', type: 'Excel', access: 'public', size: '1.1 MB' },
-      { name: 'Sensitivity Analysis', type: 'Excel', access: 'restricted', size: '2.4 MB' },
-      { name: 'Cap Table', type: 'Excel', access: 'restricted', size: '0.8 MB' },
+      { name: 'Financial Projections (5-Year)', slug: 'financial/financial-projections-5-year', doc: '06' },
+      { name: 'Unit Economics Model', slug: 'financial/unit-economics-model', doc: '07' },
+      { name: 'Sensitivity Analysis', slug: 'financial/sensitivity-analysis', doc: '08' },
+      { name: 'Cap Table', slug: 'financial/cap-table', doc: '09' },
+      { name: 'Valuation Report (IPEV 9-Method)', slug: 'financial/valuation-report', doc: '22' },
     ],
   },
   {
     name: 'Property Documents',
     icon: Folder,
     documents: [
-      { name: 'Property Evaluation Matrix', type: 'PDF', access: 'public', size: '4.5 MB' },
-      { name: 'Riviera Maya Jungle Estate - Full Assessment', type: 'PDF', access: 'restricted', size: '12.3 MB' },
-      { name: 'Renovation Budget & Timeline', type: 'Excel', access: 'restricted', size: '2.1 MB' },
-      { name: 'Comparable Market Analysis', type: 'PDF', access: 'restricted', size: '6.7 MB' },
+      { name: 'Property Evaluation Matrix', slug: 'property/property-evaluation-matrix', doc: '10' },
+      { name: 'Riviera Maya Jungle Estate - Full Assessment', slug: 'property/riviera-maya-jungle-estate-assessment', doc: '11' },
+      { name: 'Renovation Budget & Timeline', slug: 'property/renovation-budget-timeline', doc: '12' },
+      { name: 'Comparable Market Analysis', slug: 'property/comparable-market-analysis', doc: '13' },
     ],
   },
   {
     name: 'Legal & Compliance',
     icon: Lock,
     documents: [
-      { name: 'Corporate Structure Overview', type: 'PDF', access: 'public', size: '1.2 MB' },
-      { name: 'Mexican Healthcare Regulations', type: 'PDF', access: 'public', size: '3.4 MB' },
-      { name: 'Fideicomiso Structure', type: 'PDF', access: 'restricted', size: '2.8 MB' },
-      { name: 'Risk Disclosure Document', type: 'PDF', access: 'restricted', size: '1.9 MB' },
+      { name: 'Corporate Structure Overview', slug: 'legal/corporate-structure-overview', doc: '14' },
+      { name: 'Mexican Healthcare Regulations', slug: 'legal/mexican-healthcare-regulations', doc: '15' },
+      { name: 'Fideicomiso Structure', slug: 'legal/fideicomiso-structure', doc: '16' },
+      { name: 'Risk Disclosure Document', slug: 'legal/risk-disclosure-document', doc: '17' },
     ],
   },
   {
     name: 'Research & Evidence',
     icon: FileText,
     documents: [
-      { name: 'Ibogaine Research Summary', type: 'PDF', access: 'public', size: '5.6 MB' },
-      { name: 'Market Research Report', type: 'PDF', access: 'public', size: '8.9 MB' },
-      { name: 'Competitive Landscape Analysis', type: 'PDF', access: 'restricted', size: '4.3 MB' },
-      { name: 'Clinical Outcome Studies', type: 'PDF', access: 'public', size: '7.2 MB' },
+      { name: 'Ibogaine Research Summary', slug: 'research/ibogaine-research-summary', doc: '18' },
+      { name: 'Market Research Report', slug: 'research/market-research-report', doc: '19' },
+      { name: 'Competitive Landscape Analysis', slug: 'research/competitive-landscape-analysis', doc: '20' },
+      { name: 'Clinical Outcome Studies', slug: 'research/clinical-outcome-studies', doc: '21' },
     ],
   },
 ]
 
 const VAULT_CODE = '8888'
+const VAULT_STORAGE_KEY = 'te_dr_access'
+const VAULT_TTL_MS = 60 * 60 * 1000 // 1 hour
+
+function isVaultCached(): boolean {
+  if (typeof window === 'undefined') return false
+  const stored = localStorage.getItem(VAULT_STORAGE_KEY)
+  if (!stored) return false
+  const ts = parseInt(stored, 10)
+  return Date.now() - ts < VAULT_TTL_MS
+}
+
+function cacheVaultAccess(): void {
+  localStorage.setItem(VAULT_STORAGE_KEY, Date.now().toString())
+}
 
 function VaultDoor({ onUnlock }: { onUnlock: () => void }) {
   const [code, setCode] = useState('')
@@ -113,10 +128,8 @@ function VaultDoor({ onUnlock }: { onUnlock: () => void }) {
 
   return (
     <div className="fixed inset-0 z-50 overflow-hidden select-none">
-      {/* Dark background */}
       <div className="absolute inset-0 bg-neutral-950" />
 
-      {/* Golden glow when opening */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={isOpening ? { opacity: 1 } : { opacity: 0 }}
@@ -131,7 +144,6 @@ function VaultDoor({ onUnlock }: { onUnlock: () => void }) {
         className="absolute top-0 left-0 w-1/2 h-full"
       >
         <div className="relative w-full h-full bg-gradient-to-r from-neutral-800 via-neutral-700 to-neutral-600 border-r border-neutral-500/50">
-          {/* Brushed metal texture */}
           <div
             className="absolute inset-0 opacity-[0.04]"
             style={{
@@ -139,13 +151,11 @@ function VaultDoor({ onUnlock }: { onUnlock: () => void }) {
                 'repeating-linear-gradient(90deg,transparent,transparent 2px,rgba(255,255,255,0.5) 2px,rgba(255,255,255,0.5) 3px)',
             }}
           />
-          {/* Decorative bolts */}
           {[20, 50, 80].map(top => (
             <div key={top} className="absolute right-3" style={{ top: `${top}%` }}>
               <div className="w-4 h-4 rounded-full bg-gradient-to-br from-neutral-500 to-neutral-700 shadow-inner border border-neutral-500/50" />
             </div>
           ))}
-          {/* Corner rivets */}
           {['top-4 left-4', 'top-4 right-8', 'bottom-4 left-4', 'bottom-4 right-8'].map(pos => (
             <div key={pos} className={`absolute ${pos}`}>
               <div className="w-2.5 h-2.5 rounded-full bg-gradient-to-br from-neutral-500 to-neutral-700 shadow-inner" />
@@ -181,7 +191,6 @@ function VaultDoor({ onUnlock }: { onUnlock: () => void }) {
         </div>
       </motion.div>
 
-      {/* Center seam glow when opening */}
       <motion.div
         initial={{ opacity: 0, scaleX: 0 }}
         animate={isOpening ? { opacity: 1, scaleX: 1 } : { opacity: 0, scaleX: 0 }}
@@ -189,14 +198,13 @@ function VaultDoor({ onUnlock }: { onUnlock: () => void }) {
         className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-full bg-gradient-to-r from-transparent via-amber-300/20 to-transparent"
       />
 
-      {/* Keypad overlay — fades on opening */}
+      {/* Keypad overlay */}
       <motion.div
         animate={isOpening ? { opacity: 0, scale: 0.92 } : { opacity: 1, scale: 1 }}
         transition={{ duration: 0.4 }}
         className="absolute inset-0 flex items-center justify-center"
       >
         <div className="text-center px-4">
-          {/* Label */}
           <p className="font-accent text-[10px] sm:text-xs uppercase tracking-[0.3em] text-neutral-500 mb-1">
             Investor Data Room
           </p>
@@ -220,10 +228,8 @@ function VaultDoor({ onUnlock }: { onUnlock: () => void }) {
             }
             className="relative w-28 h-28 sm:w-32 sm:h-32 mx-auto mb-6 sm:mb-8"
           >
-            {/* Outer ring */}
             <div className="absolute inset-0 rounded-full border-[3px] border-neutral-500 shadow-[0_0_20px_rgba(0,0,0,0.5)]" />
             <div className="absolute inset-[3px] rounded-full border border-neutral-600/60" />
-            {/* Spokes */}
             <div className="absolute inset-0 flex items-center justify-center">
               {[0, 45, 90, 135].map(deg => (
                 <div
@@ -233,9 +239,7 @@ function VaultDoor({ onUnlock }: { onUnlock: () => void }) {
                 />
               ))}
             </div>
-            {/* Center hub */}
             <div className="absolute inset-0 m-auto w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-gradient-to-br from-neutral-600 to-neutral-700 border-2 border-neutral-500 shadow-[inset_0_2px_4px_rgba(0,0,0,0.4)]" />
-            {/* Outer success glow */}
             <motion.div
               animate={isUnlocking ? { opacity: [0, 0.6, 0.3] } : { opacity: 0 }}
               transition={{ duration: 1 }}
@@ -330,17 +334,20 @@ function VaultDoor({ onUnlock }: { onUnlock: () => void }) {
 export default function DataRoomPage() {
   const [isLocked, setIsLocked] = useState(true)
 
+  useEffect(() => {
+    if (isVaultCached()) setIsLocked(false)
+  }, [])
+
+  const handleUnlock = useCallback(() => {
+    cacheVaultAccess()
+    setIsLocked(false)
+  }, [])
+
   if (isLocked) {
-    return <VaultDoor onUnlock={() => setIsLocked(false)} />
+    return <VaultDoor onUnlock={handleUnlock} />
   }
 
-  const publicDocs = DOCUMENT_CATEGORIES.flatMap(cat =>
-    cat.documents.filter(doc => doc.access === 'public')
-  ).length
-
-  const restrictedDocs = DOCUMENT_CATEGORIES.flatMap(cat =>
-    cat.documents.filter(doc => doc.access === 'restricted')
-  ).length
+  const totalDocs = DOCUMENT_CATEGORIES.reduce((sum, cat) => sum + cat.documents.length, 0)
 
   return (
     <motion.div
@@ -368,22 +375,22 @@ export default function DataRoomPage() {
         <section className="mb-12">
           <div className="grid md:grid-cols-3 gap-6">
             <Card padding="lg" className="text-center">
-              <Eye className="w-10 h-10 text-success-500 mx-auto mb-3" />
-              <p className="font-heading text-3xl text-neutral-900 mb-1">{publicDocs}</p>
-              <p className="text-neutral-600">Public Documents</p>
-              <p className="text-sm text-neutral-500 mt-2">Available now</p>
+              <FileText className="w-10 h-10 text-primary-600 mx-auto mb-3" />
+              <p className="font-heading text-3xl text-neutral-900 mb-1">{totalDocs}</p>
+              <p className="text-neutral-600">Documents Available</p>
+              <p className="text-sm text-neutral-500 mt-2">Full data room access</p>
+            </Card>
+            <Card padding="lg" className="text-center">
+              <Folder className="w-10 h-10 text-secondary-500 mx-auto mb-3" />
+              <p className="font-heading text-3xl text-neutral-900 mb-1">5</p>
+              <p className="text-neutral-600">Document Categories</p>
+              <p className="text-sm text-neutral-500 mt-2">Investment, financial, property, legal, research</p>
             </Card>
             <Card padding="lg" className="text-center">
               <Lock className="w-10 h-10 text-primary-600 mx-auto mb-3" />
-              <p className="font-heading text-3xl text-neutral-900 mb-1">{restrictedDocs}</p>
-              <p className="text-neutral-600">Restricted Documents</p>
-              <p className="text-sm text-neutral-500 mt-2">Requires NDA</p>
-            </Card>
-            <Card padding="lg" className="text-center">
-              <Calendar className="w-10 h-10 text-secondary-500 mx-auto mb-3" />
-              <p className="font-heading text-3xl text-neutral-900 mb-1">24-48 hrs</p>
-              <p className="text-neutral-600">Access Turnaround</p>
-              <p className="text-sm text-neutral-500 mt-2">After NDA execution</p>
+              <p className="font-heading text-3xl text-neutral-900 mb-1">NDA</p>
+              <p className="text-neutral-600">Protected Access</p>
+              <p className="text-sm text-neutral-500 mt-2">Confidential materials</p>
             </Card>
           </div>
         </section>
@@ -401,29 +408,21 @@ export default function DataRoomPage() {
                   {category.documents.map((doc) => (
                     <div key={doc.name} className="flex items-center justify-between py-4">
                       <div className="flex items-center gap-4">
-                        <div className={`w-10 h-10 rounded-lg flex items-center justify-center ${
-                          doc.access === 'public' ? 'bg-success-100' : 'bg-neutral-100'
-                        }`}>
-                          <FileText className={`w-5 h-5 ${
-                            doc.access === 'public' ? 'text-success-600' : 'text-neutral-400'
-                          }`} />
+                        <div className="w-10 h-10 rounded-lg flex items-center justify-center bg-primary-50">
+                          <FileText className="w-5 h-5 text-primary-600" />
                         </div>
                         <div>
                           <p className="font-medium text-neutral-900">{doc.name}</p>
-                          <p className="text-sm text-neutral-500">{doc.type} &bull; {doc.size}</p>
+                          <p className="text-xs text-neutral-400 font-accent">Document {doc.doc}</p>
                         </div>
                       </div>
-                      {doc.access === 'public' ? (
-                        <Button variant="secondary" size="sm">
-                          <Download className="w-4 h-4 mr-2" />
-                          Download
-                        </Button>
-                      ) : (
-                        <span className="flex items-center gap-2 text-sm text-neutral-500">
-                          <Lock className="w-4 h-4" />
-                          Requires Access
-                        </span>
-                      )}
+                      <Link
+                        href={`/data-room/view/${doc.slug}`}
+                        className="inline-flex items-center gap-2 font-accent font-semibold uppercase text-xs tracking-wider px-5 py-2.5 rounded-lg bg-transparent text-primary-800 border-2 border-primary-800 hover:bg-primary-800 hover:text-white transition-all duration-300"
+                      >
+                        <EyeIcon className="w-4 h-4" />
+                        View
+                      </Link>
                     </div>
                   ))}
                 </div>
@@ -432,23 +431,22 @@ export default function DataRoomPage() {
           </div>
         </section>
 
-        {/* Request Access */}
+        {/* Confidentiality Notice */}
         <section className="mb-16">
           <Card padding="lg" className="bg-primary-800 text-white">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
-                <h3 className="text-2xl font-heading mb-4">Request Full Access</h3>
+                <h3 className="text-2xl font-heading mb-4">Confidential Materials</h3>
                 <p className="text-primary-200 mb-6">
-                  To access restricted documents including the Private Placement Memorandum,
-                  financial models, and detailed property assessments, please complete our
-                  brief qualification process.
+                  All documents in this data room are confidential and protected under NDA.
+                  By accessing these materials you acknowledge the following obligations.
                 </p>
                 <div className="space-y-3">
                   {[
-                    'Submit accredited investor verification',
-                    'Execute mutual NDA',
-                    'Schedule introductory call',
-                    'Receive full data room access',
+                    'Materials are for qualified investors and partners only',
+                    'Do not distribute without written consent',
+                    'Share with legal and financial advisors under NDA only',
+                    'Forward-looking statements are subject to risk factors',
                   ].map((step, index) => (
                     <div key={step} className="flex items-center gap-3">
                       <div className="w-6 h-6 rounded-full bg-secondary-400 text-primary-900 text-sm font-medium flex items-center justify-center">
@@ -463,10 +461,10 @@ export default function DataRoomPage() {
                 <div className="bg-primary-700/50 rounded-xl p-8">
                   <Mail className="w-12 h-12 text-secondary-400 mx-auto mb-4" />
                   <p className="text-primary-200 mb-4">
-                    Contact our investor relations team to begin the process
+                    Questions about the data room or investment opportunity?
                   </p>
                   <Button variant="accent" size="lg">
-                    Request Access
+                    Contact Investor Relations
                   </Button>
                   <p className="text-sm text-primary-300 mt-4">
                     invest@transformational-epicenter.com

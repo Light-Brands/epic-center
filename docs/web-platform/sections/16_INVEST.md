@@ -7,22 +7,22 @@
 │                                                                             │
 │                              THE ASK                                        │
 │                                                                             │
-│                             $5,000,000                                      │
+│                            $13,773,500                                      │
 │                            Seed / Series A                                  │
 │                                                                             │
 │   ────────────────────────────────────────────────────────────────         │
 │                                                                             │
 │   USE OF FUNDS                                                             │
 │                                                                             │
-│   ██████████████████████████████████████████  40%  $2.0M  Facility &       │
+│   ██████████████████████████████████████████  40%  $5.5M  Facility &       │
 │                                                           Operations       │
-│   ████████████████████████████                 30%  $1.5M  Platform        │
+│   ████████████████████████████                 30%  $4.1M  Platform        │
 │                                                           Development     │
-│   ████████████████                             15%  $750K  Team            │
+│   ████████████████                             15%  $2.1M  Team            │
 │                                                           Expansion       │
-│   █████████                                    10%  $500K  Marketing       │
+│   █████████                                    10%  $1.4M  Marketing       │
 │                                                           & Growth        │
-│   █████                                         5%  $250K  Legal &         │
+│   █████                                         5%  $689K  Legal &         │
 │                                                           Compliance      │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
@@ -90,28 +90,19 @@
 │                                                                             │
 │   OFFERING TERMS                                                           │
 │   ──────────────────────────────────────────────────────────────────────   │
-│   Amount:                $5,000,000                                        │
+│   Amount:                $13,773,500                                       │
 │   Security:              Series Seed Preferred Stock                       │
 │                          (or SAFE notes if pre-revenue)                    │
-│   Pre-Money Valuation:   $15,000,000                                       │
-│   Post-Money Valuation:  $20,000,000                                       │
 │   Price per Share:       $X.XX (to be determined)                          │
-│   Fully Diluted Ownership: 25% to new investors                            │
 │                                                                             │
 │   ──────────────────────────────────────────────────────────────────────   │
 │                                                                             │
 │   LIQUIDATION PREFERENCE                                                   │
 │   ──────────────────────────────────────────────────────────────────────   │
 │   1x non-participating preferred                                           │
-│   • In an exit, investors get their $5M back first                         │
+│   • In an exit, investors get their $13.8M back first                      │
 │   • Then convert to common and participate pro-rata                        │
 │   • Standard investor-friendly terms                                       │
-│                                                                             │
-│   Example: $50M exit                                                       │
-│   • Investors: $5M (preference) + 25% × $45M = $16.25M (32.5% of proceeds)│
-│   • Founders: 60% × $45M = $27M                                            │
-│   • ESOP: 10% × $45M = $4.5M                                               │
-│   • Future investors: 5% × $45M = $2.25M                                   │
 │                                                                             │
 │   ──────────────────────────────────────────────────────────────────────   │
 │                                                                             │
@@ -284,7 +275,7 @@
 │   • 8 qualified investors, $2.5M total pipeline                            │
 │   • Mix: Wellness founders, medical professionals, UHNW individuals        │
 │                                                                             │
-│   Total Soft Circled: $6M+ (oversubscribed by $1M intentionally)           │
+│   Total Soft Circled: $15M+ (oversubscribed intentionally)                 │
 │   Status: Term sheet with lead expected Q1 2026                            │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
@@ -456,7 +447,7 @@
 │   WEEK 9: Closing                                                          │
 │   ──────────────────────────────────────────────────────────────────────   │
 │   ✓ All documents signed (DocuSign)                                        │
-│   ✓ Wire transfer executed ($5M → company bank account)                    │
+│   ✓ Wire transfer executed ($13.8M → company bank account)                 │
 │   ✓ Stock certificates issued to investors                                 │
 │   ✓ Cap table updated (Carta or equivalent)                                │
 │   ✓ Board resolutions filed                                                │
@@ -750,7 +741,7 @@ Each property gets a dedicated page with comprehensive details:
 │   │   ├── FAQAccordion.tsx           # Expandable Q&A
 │   │   └── QuestionCategories.tsx     # Category filters
 │   └── invest/
-│       ├── TheAsk.tsx                 # $5M breakdown
+│       ├── TheAsk.tsx                 # $13.8M breakdown
 │       ├── InvestmentThesis.tsx       # 6 reasons
 │       └── CTASection.tsx             # Contact/access buttons
 │
