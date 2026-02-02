@@ -1,8 +1,8 @@
-# Documentation
-docs/
+# Documentation (keep docs/data-room/ — read at build time by SSG pages)
+docs/*
+!docs/data-room/
 design/
-*.md
-!src/web/**
+/*.md
 
 # Other applications (not part of web deployment)
 src/mobile/
