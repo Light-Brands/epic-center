@@ -4,7 +4,7 @@ import { forwardRef, type HTMLAttributes } from 'react'
 import { cn } from '@/lib/utils'
 
 export interface BadgeProps extends HTMLAttributes<HTMLSpanElement> {
-  variant?: 'default' | 'shortlist' | 'hold' | 'pass' | 'info'
+  variant?: 'default' | 'shortlist' | 'hold' | 'pass' | 'lead' | 'info'
   size?: 'sm' | 'md'
 }
 
@@ -21,6 +21,7 @@ const Badge = forwardRef<HTMLSpanElement, BadgeProps>(
             'bg-success-50 text-success-700': variant === 'shortlist',
             'bg-warning-50 text-warning-700': variant === 'hold',
             'bg-error-50 text-error-700': variant === 'pass',
+            'bg-primary-50 text-primary-700': variant === 'lead',
             'bg-info-50 text-info-700': variant === 'info',
           },
           // Sizes
@@ -41,11 +42,12 @@ const Badge = forwardRef<HTMLSpanElement, BadgeProps>(
 Badge.displayName = 'Badge'
 
 // Convenience component for property status badges
-export function StatusBadge({ status }: { status: 'SHORTLIST' | 'HOLD' | 'PASS' }) {
+export function StatusBadge({ status }: { status: 'SHORTLIST' | 'HOLD' | 'PASS' | 'LEAD' }) {
   const variantMap = {
     SHORTLIST: 'shortlist',
     HOLD: 'hold',
     PASS: 'pass',
+    LEAD: 'lead',
   } as const
 
   return <Badge variant={variantMap[status]}>{status}</Badge>

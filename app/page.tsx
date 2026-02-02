@@ -823,9 +823,9 @@ export default function VisionPage() {
           >
             {[
               { title: 'Market', href: '/market', description: '$5.6T addressable market', accent: 'accent' },
-              { title: 'Properties', href: '/properties', description: '4 evaluated properties', accent: 'primary' },
+              { title: 'The Property', href: '/properties/riviera-maya-jungle-estate', description: '30-room jungle compound', accent: 'primary' },
               { title: 'Financials', href: '/financials', description: '5-year projections', accent: 'secondary' },
-              { title: 'Returns', href: '/returns', description: '30% IRR, 3.0x MOIC', accent: 'accent' },
+              { title: 'Returns', href: '/returns', description: '35% IRR, 4.1x MOIC', accent: 'accent' },
             ].map((section, index) => (
               <motion.div
                 key={section.href}
@@ -893,9 +893,9 @@ export default function VisionPage() {
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
               </button>
             </Link>
-            <Link href="/properties">
+            <Link href="/properties/riviera-maya-jungle-estate">
               <button className="inline-flex items-center gap-2 px-10 py-5 rounded-xl font-accent text-sm font-semibold uppercase tracking-wider text-white border-2 border-white/20 hover:bg-white/10 hover:border-white/40 transition-all duration-300 backdrop-blur-sm">
-                Explore Properties
+                Explore the Property
               </button>
             </Link>
           </div>

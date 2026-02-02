@@ -40,7 +40,7 @@ export default function InvestPage() {
               {formatCurrency(returns.totalCapitalRequired)}
             </h2>
             <p className="text-xl text-neutral-600 mb-8">
-              Equity investment to acquire, renovate, and launch Hotel Alea Tulum as a
+              Equity investment to develop and launch Riviera Maya Jungle Estate as a
               world-class medical retreat facility.
             </p>
             <ScenarioToggle showDescriptions />

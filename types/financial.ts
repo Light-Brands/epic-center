@@ -10,7 +10,7 @@ export interface Property {
   currentUse: string
   score: number
   targetMarket: string
-  status: 'SHORTLIST' | 'HOLD' | 'PASS'
+  status: 'SHORTLIST' | 'HOLD' | 'PASS' | 'LEAD'
   capacity: PropertyCapacity
   acquisition: PropertyAcquisition
   imageUrl?: string

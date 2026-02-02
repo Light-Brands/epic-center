@@ -73,7 +73,7 @@ export default function FinancialsPage() {
               5-Year Financial Model
             </h2>
             <p className="text-lg text-neutral-600">
-              Comprehensive projections for Hotel Alea Tulum
+              Comprehensive projections for Riviera Maya Jungle Estate
             </p>
           </div>
           <ScenarioToggle showDescriptions />

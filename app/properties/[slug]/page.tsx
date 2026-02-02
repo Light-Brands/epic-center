@@ -39,10 +39,6 @@ export default async function PropertyPage({ params }: PropertyPageProps) {
 
   const scores = PROPERTY_SCORES[property.id] || []
   const gates = PROPERTY_GATES[property.id] || []
-  const properties = getProperties()
-  const currentIndex = properties.findIndex((p) => p.id === property.id)
-  const prevProperty = currentIndex > 0 ? properties[currentIndex - 1] : null
-  const nextProperty = currentIndex < properties.length - 1 ? properties[currentIndex + 1] : null
 
   return (
     <div className="min-h-screen bg-canvas pt-20">
@@ -215,46 +211,11 @@ export default async function PropertyPage({ params }: PropertyPageProps) {
           </Card>
         </section>
 
-        {/* Property Navigation */}
-        <section className="mb-12">
-          <div className="flex justify-between items-center">
-            {prevProperty ? (
-              <Link
-                href={`/properties/${prevProperty.id}`}
-                className="group flex items-center gap-3 text-neutral-600 hover:text-primary-800 transition-colors"
-              >
-                <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
-                <div>
-                  <p className="text-xs font-accent uppercase tracking-wide text-neutral-400">Previous</p>
-                  <p className="font-medium">{prevProperty.name}</p>
-                </div>
-              </Link>
-            ) : (
-              <div />
-            )}
-
-            {nextProperty ? (
-              <Link
-                href={`/properties/${nextProperty.id}`}
-                className="group flex items-center gap-3 text-neutral-600 hover:text-primary-800 transition-colors text-right"
-              >
-                <div>
-                  <p className="text-xs font-accent uppercase tracking-wide text-neutral-400">Next</p>
-                  <p className="font-medium">{nextProperty.name}</p>
-                </div>
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </Link>
-            ) : (
-              <div />
-            )}
-          </div>
-        </section>
-
         {/* Page Navigation */}
         <div className="flex justify-between items-center pt-8 border-t border-neutral-200">
           <Link href="/properties" className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors">
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-            <span className="font-accent text-sm uppercase tracking-wide">All Properties</span>
+            <span className="font-accent text-sm uppercase tracking-wide">Property Overview</span>
           </Link>
           <Link href="/financials">
             <Button variant="primary">

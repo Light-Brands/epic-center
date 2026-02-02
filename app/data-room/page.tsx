@@ -32,7 +32,7 @@ const DOCUMENT_CATEGORIES = [
     icon: Folder,
     documents: [
       { name: 'Property Evaluation Matrix', type: 'PDF', access: 'public', size: '4.5 MB' },
-      { name: 'Hotel Alea Tulum - Full Assessment', type: 'PDF', access: 'restricted', size: '12.3 MB' },
+      { name: 'Riviera Maya Jungle Estate - Full Assessment', type: 'PDF', access: 'restricted', size: '12.3 MB' },
       { name: 'Renovation Budget & Timeline', type: 'Excel', access: 'restricted', size: '2.1 MB' },
       { name: 'Comparable Market Analysis', type: 'PDF', access: 'restricted', size: '6.7 MB' },
     ],

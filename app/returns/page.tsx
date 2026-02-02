@@ -45,7 +45,7 @@ export default function ReturnsPage() {
   const moic = getScenarioValue(returns.moic, scenario)
 
   // Calculate exit value based on EBITDA multiple
-  const year5EBITDA = 6014560
+  const year5EBITDA = 8959000
   const exitMultiple = 8
   const exitValue = year5EBITDA * exitMultiple
 
@@ -342,13 +342,13 @@ export default function ReturnsPage() {
             {[
               {
                 title: 'Revenue Growth',
-                description: 'Year-over-year revenue growth through increased occupancy, premium pricing, and expanded service offerings.',
-                impact: '+101% Y1-Y5 growth',
+                description: 'Revenue growth driven by phased capacity expansion from 16 to 30 rooms and increasing occupancy.',
+                impact: '+24% Y1-Y5 growth',
               },
               {
                 title: 'Margin Expansion',
-                description: 'EBITDA margin improvement from 18% in Year 1 to 39% in Year 5 through operational leverage.',
-                impact: '+21pp margin expansion',
+                description: 'EBITDA margin improvement from 45% in Year 1 to 55% at full capacity through operational leverage.',
+                impact: '+11pp margin expansion',
               },
               {
                 title: 'Brand Premium',

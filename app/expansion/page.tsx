@@ -257,9 +257,9 @@ export default function ExpansionPage() {
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
             <span className="font-accent text-sm uppercase tracking-wide">Business Model</span>
           </Link>
-          <Link href="/properties">
+          <Link href="/properties/riviera-maya-jungle-estate">
             <Button variant="primary">
-              View Properties
+              View the Property
               <ArrowRight className="ml-2 w-4 h-4" />
             </Button>
           </Link>

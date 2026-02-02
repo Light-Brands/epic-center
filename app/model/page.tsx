@@ -225,12 +225,12 @@ export default function ModelPage() {
               <h4 className="text-xl font-heading text-neutral-900 mb-6">Unit Economics Summary</h4>
               <div className="space-y-4">
                 {[
-                  { label: 'Avg Revenue per Guest', value: '$48,138' },
-                  { label: 'Direct Cost per Guest', value: '$12,600' },
-                  { label: 'Gross Profit per Guest', value: '$35,538' },
-                  { label: 'Gross Margin', value: '74%' },
-                  { label: 'Customer Acquisition Cost', value: '$2,613' },
-                  { label: 'LTV:CAC Ratio', value: '13.6x' },
+                  { label: 'Avg Revenue per Guest', value: '$14,000' },
+                  { label: 'Direct Cost per Guest', value: '$4,443' },
+                  { label: 'Gross Profit per Guest', value: '$9,557' },
+                  { label: 'Gross Margin', value: '68%' },
+                  { label: 'Customer Acquisition Cost', value: '$173' },
+                  { label: 'LTV:CAC Ratio', value: '80.9x' },
                 ].map((metric) => (
                   <div key={metric.label} className="flex justify-between items-center py-3 border-b border-neutral-200 last:border-0">
                     <span className="text-neutral-700">{metric.label}</span>
@@ -326,10 +326,10 @@ export default function ModelPage() {
               </div>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { value: '21', label: 'Rooms', sublabel: 'Hotel Alea Tulum' },
-                  { value: '158', label: 'Guests/Year', sublabel: 'At 75% occupancy' },
-                  { value: '$15.3M', label: 'Year 5 Revenue', sublabel: 'Base scenario' },
-                  { value: '39%', label: 'EBITDA Margin', sublabel: 'At maturity' },
+                  { value: '30', label: 'Rooms', sublabel: 'Riviera Maya (full build)' },
+                  { value: '1,157', label: 'Guests/Year', sublabel: 'At 75% occupancy' },
+                  { value: '$16.2M', label: 'Year 5 Revenue', sublabel: 'Base scenario' },
+                  { value: '55%', label: 'EBITDA Margin', sublabel: 'At maturity' },
                 ].map((stat) => (
                   <div key={stat.label} className="bg-white/20 rounded-lg p-4 text-center">
                     <p className="font-heading text-3xl">{stat.value}</p>

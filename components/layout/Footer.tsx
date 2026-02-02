@@ -18,7 +18,7 @@ const FOOTER_LINKS = [
   {
     title: 'Investment',
     links: [
-      { name: 'Properties', href: '/properties' },
+      { name: 'The Property', href: '/properties/riviera-maya-jungle-estate' },
       { name: 'Financials', href: '/financials' },
       { name: 'Returns', href: '/returns' },
       { name: 'Invest', href: '/invest' },

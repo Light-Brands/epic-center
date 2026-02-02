@@ -20,7 +20,7 @@ const MILESTONES: Milestone[] = [
     id: 'seed-round',
     date: 'Q1 2026',
     title: 'Seed Round Close',
-    description: 'Close $19M equity raise from aligned investors',
+    description: 'Close $10.4M equity raise',
     status: 'in-progress',
     category: 'fundraising',
   },
@@ -28,12 +28,20 @@ const MILESTONES: Milestone[] = [
     id: 'property-acquisition',
     date: 'Q2 2026',
     title: 'Property Acquisition',
-    description: 'Acquire Hotel Alea Tulum or alternative property',
+    description: 'Acquire Riviera Maya Jungle Estate compound',
     status: 'upcoming',
     category: 'acquisition',
   },
   {
-    id: 'team-hiring',
+    id: 'medical-conversion',
+    date: 'Q2 2026',
+    title: 'Medical Conversion',
+    description: 'Convert existing 16 rooms for treatment operations',
+    status: 'upcoming',
+    category: 'construction',
+  },
+  {
+    id: 'core-team-hiring',
     date: 'Q2 2026',
     title: 'Core Team Hiring',
     description: 'Medical Director, Head Nurse, Clinical Psychologist',
@@ -41,50 +49,42 @@ const MILESTONES: Milestone[] = [
     category: 'operations',
   },
   {
-    id: 'renovation-start',
-    date: 'Q3 2026',
-    title: 'Renovation Begins',
-    description: 'Medical facility buildout and room renovations',
-    status: 'upcoming',
-    category: 'construction',
-  },
-  {
-    id: 'protocol-development',
-    date: 'Q3 2026',
-    title: 'Protocol Development',
-    description: 'Finalize medical protocols and operational procedures',
-    status: 'upcoming',
-    category: 'operations',
-  },
-  {
-    id: 'licensing',
-    date: 'Q4 2026',
-    title: 'Licensing & Permits',
-    description: 'Complete all Mexican regulatory requirements',
-    status: 'upcoming',
-    category: 'operations',
-  },
-  {
-    id: 'staff-training',
-    date: 'Q4 2026',
-    title: 'Staff Training',
-    description: 'Comprehensive training program for all staff',
-    status: 'upcoming',
-    category: 'operations',
-  },
-  {
-    id: 'soft-launch',
-    date: 'Q1 2027',
-    title: 'Soft Launch',
-    description: 'Begin accepting patients at limited capacity',
+    id: 'first-patients',
+    date: 'Q2 2026',
+    title: 'First Patients (16 Rooms)',
+    description: 'Begin accepting patients at 16-room capacity',
     status: 'upcoming',
     category: 'launch',
   },
   {
-    id: 'full-operations',
-    date: 'Q2 2027',
-    title: 'Full Operations',
-    description: 'Ramp to target occupancy levels',
+    id: 'expansion-construction',
+    date: 'Q3 2026',
+    title: 'Expansion Construction',
+    description: 'Build-out of 14 additional rooms begins',
+    status: 'upcoming',
+    category: 'construction',
+  },
+  {
+    id: 'licensing-protocols',
+    date: 'Q3 2026',
+    title: 'Licensing & Protocols',
+    description: 'Complete regulatory requirements, refine protocols',
+    status: 'upcoming',
+    category: 'operations',
+  },
+  {
+    id: 'rooms-online',
+    date: 'Q3–Q4 2026',
+    title: 'Rooms Come Online',
+    description: 'Additional rooms completed and opened incrementally',
+    status: 'upcoming',
+    category: 'construction',
+  },
+  {
+    id: 'full-capacity',
+    date: 'Q4 2026',
+    title: 'Full 30-Room Capacity',
+    description: 'All 30 rooms operational, full team in place',
     status: 'upcoming',
     category: 'launch',
   },
@@ -92,41 +92,41 @@ const MILESTONES: Milestone[] = [
 
 const PHASES = [
   {
-    name: 'Phase 1: Foundation',
-    period: 'Q1-Q2 2026',
+    name: 'Phase 1: Acquire & Convert',
+    period: 'Q1–Q2 2026',
     icon: Briefcase,
     color: 'bg-primary-600',
-    items: ['Close equity raise', 'Acquire property', 'Hire core team'],
+    items: ['Close equity raise', 'Acquire property', 'Convert 16 existing rooms'],
   },
   {
-    name: 'Phase 2: Build',
-    period: 'Q3-Q4 2026',
-    icon: Building2,
-    color: 'bg-primary-500',
-    items: ['Renovations & buildout', 'Protocol development', 'Licensing & permits'],
-  },
-  {
-    name: 'Phase 3: Prepare',
-    period: 'Q4 2026',
-    icon: Users,
-    color: 'bg-secondary-400',
-    items: ['Staff hiring', 'Training programs', 'Systems setup'],
-  },
-  {
-    name: 'Phase 4: Launch',
-    period: 'Q1-Q2 2027',
+    name: 'Phase 2: Launch (16 Rooms)',
+    period: 'Q2 2026',
     icon: Heart,
+    color: 'bg-primary-500',
+    items: ['First patients', 'Hire core team', 'Begin operations'],
+  },
+  {
+    name: 'Phase 3: Expand',
+    period: 'Q3–Q4 2026',
+    icon: Building2,
+    color: 'bg-secondary-400',
+    items: ['Build 14 additional rooms', 'Rooms online as completed', 'Scale team'],
+  },
+  {
+    name: 'Phase 4: Full Capacity',
+    period: 'Q4 2026+',
+    icon: Users,
     color: 'bg-success-500',
-    items: ['Soft launch', 'Ramp operations', 'Marketing activation'],
+    items: ['All 30 rooms operational', 'Optimize operations', 'Full marketing'],
   },
 ]
 
 const ANNUAL_PROJECTIONS = [
-  { year: 'Year 1', revenue: '$7.6M', guests: '79', occupancy: '37%', ebitda: '$1.4M' },
-  { year: 'Year 2', revenue: '$10.3M', guests: '107', occupancy: '50%', ebitda: '$2.5M' },
-  { year: 'Year 3', revenue: '$12.4M', guests: '129', occupancy: '60%', ebitda: '$3.6M' },
-  { year: 'Year 4', revenue: '$13.9M', guests: '144', occupancy: '67%', ebitda: '$4.8M' },
-  { year: 'Year 5', revenue: '$15.3M', guests: '158', occupancy: '75%', ebitda: '$6.0M' },
+  { year: 'Year 1', revenue: '$13.1M', guests: '932', occupancy: '60%', ebitda: '$5.8M' },
+  { year: 'Year 2', revenue: '$16.7M', guests: '1,189', occupancy: '76%', ebitda: '$9.4M' },
+  { year: 'Year 3', revenue: '$16.2M', guests: '1,157', occupancy: '75%', ebitda: '$9.0M' },
+  { year: 'Year 4', revenue: '$16.2M', guests: '1,157', occupancy: '75%', ebitda: '$9.0M' },
+  { year: 'Year 5', revenue: '$16.2M', guests: '1,157', occupancy: '75%', ebitda: '$9.0M' },
 ]
 
 // Animation variants
@@ -358,10 +358,10 @@ export default function TimelinePage() {
               className="grid md:grid-cols-4 gap-6"
             >
               {[
-                { date: 'Q2 2026', event: 'Fundraise Close', icon: Briefcase },
+                { date: 'Q1 2026', event: 'Fundraise Close', icon: Briefcase },
                 { date: 'Q2 2026', event: 'Property Acquired', icon: Building2 },
-                { date: 'Q4 2026', event: 'Renovation Complete', icon: Building2 },
-                { date: 'Q1 2027', event: 'First Patient', icon: Heart },
+                { date: 'Q2 2026', event: 'First Patient (16 rooms)', icon: Heart },
+                { date: 'Q4 2026', event: 'Full 30-Room Capacity', icon: Users },
               ].map((milestone, index) => (
                 <motion.div key={milestone.event} variants={itemVariants} className="text-center">
                   <motion.div
@@ -427,8 +427,8 @@ export default function TimelinePage() {
                 className="grid grid-cols-2 gap-4"
               >
                 {[
-                  { value: '30%', label: 'Target IRR' },
-                  { value: '3.0x', label: 'Target MOIC' },
+                  { value: '35%', label: 'Target IRR' },
+                  { value: '4.1x', label: 'Target MOIC' },
                   { value: '5-7 yrs', label: 'Hold Period' },
                   { value: '8-10x', label: 'Exit Multiple' },
                 ].map((stat, index) => (
