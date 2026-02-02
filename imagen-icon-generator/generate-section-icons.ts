@@ -52,7 +52,8 @@ async function main() {
   const configPath = process.argv[2] ?? "icons-config.ts";
   const config = await loadConfig(configPath);
 
-  const { icons, iconStyle, outputDir } = config;
+  const { icons, iconStyle } = config;
+  const outputDir = config.outputDir ?? DEFAULT_OUTPUT_DIR;
   await fs.mkdir(outputDir, { recursive: true });
   console.log(`Generating ${icons.length} section icons → ${outputDir}\n`);
 

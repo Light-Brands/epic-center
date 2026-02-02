@@ -100,9 +100,8 @@ export async function generate(options: GenerateOptions | string): Promise<Image
 
     const result = await model.generateContent({
       contents: [{ role: "user", parts }],
-      // @ts-expect-error - responseModalities not in types yet
       generationConfig: { responseModalities: ["Text", "Image"] },
-    });
+    } as Parameters<typeof model.generateContent>[0]);
 
     const candidate = result.response.candidates?.[0];
 

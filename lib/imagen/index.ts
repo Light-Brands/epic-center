@@ -23,6 +23,7 @@ export interface GenerateOptions {
   prompt: string;
   aspectRatio?: "1:1" | "16:9" | "9:16" | "4:3" | "3:4";
   raw?: boolean; // Skip style system, use prompt as-is
+  referenceImage?: string; // Path to reference image (optional; used by scripts)
 }
 
 export interface ImageResult {
