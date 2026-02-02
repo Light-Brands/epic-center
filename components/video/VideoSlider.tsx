@@ -101,52 +101,35 @@ export function VideoSlider() {
   }
 
   return (
-    <section ref={sectionRef} className="py-16 md:py-32 bg-canvas-muted relative overflow-hidden">
-      {/* Subtle warm glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] rounded-full bg-secondary-500/5 blur-[120px] pointer-events-none" />
-
-      <div className="w-full sm:w-[70vw] mx-auto relative">
-        {/* Header */}
-        <motion.div
-          className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-6 sm:mb-10"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-        >
-          <div>
-            <div className="flex items-center gap-3 mb-3">
-              <div className="h-px w-10 bg-gradient-to-r from-secondary-400 to-secondary-600" />
-              <p className="font-accent text-xs uppercase tracking-[0.25em] text-secondary-600">The Property</p>
-            </div>
-            <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl text-neutral-900">
-              Riviera Maya Jungle Estate
-            </h2>
-          </div>
-
-          <div className="flex items-center gap-2">
-            <button
-              onClick={() => go('prev')}
-              disabled={activeIndex === 0}
-              className="w-10 h-10 rounded-full bg-white border border-neutral-200 shadow-sm
-                         flex items-center justify-center text-neutral-600 hover:text-primary-800
-                         hover:border-neutral-300 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
-              aria-label="Previous"
-            >
-              <ChevronLeft className="w-5 h-5" />
-            </button>
-            <button
-              onClick={() => go('next')}
-              disabled={activeIndex === VIDEOS.length - 1}
-              className="w-10 h-10 rounded-full bg-white border border-neutral-200 shadow-sm
-                         flex items-center justify-center text-neutral-600 hover:text-primary-800
-                         hover:border-neutral-300 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
-              aria-label="Next"
-            >
-              <ChevronRight className="w-5 h-5" />
-            </button>
-          </div>
-        </motion.div>
+    <div ref={sectionRef}>
+      {/* Nav arrows */}
+      <div className="w-full sm:w-[70vw] mx-auto px-5 sm:px-0 flex items-center justify-between mb-4 sm:mb-6">
+        <p className="font-accent text-xs uppercase tracking-[0.2em] text-neutral-400">
+          Video Reels
+          <span className="ml-2 text-neutral-300 font-mono tabular-nums">{activeIndex + 1}/{VIDEOS.length}</span>
+        </p>
+        <div className="flex items-center gap-2">
+          <button
+            onClick={() => go('prev')}
+            disabled={activeIndex === 0}
+            className="w-10 h-10 rounded-full bg-white border border-neutral-200 shadow-sm
+                       flex items-center justify-center text-neutral-600 hover:text-primary-800
+                       hover:border-neutral-300 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+            aria-label="Previous"
+          >
+            <ChevronLeft className="w-5 h-5" />
+          </button>
+          <button
+            onClick={() => go('next')}
+            disabled={activeIndex === VIDEOS.length - 1}
+            className="w-10 h-10 rounded-full bg-white border border-neutral-200 shadow-sm
+                       flex items-center justify-center text-neutral-600 hover:text-primary-800
+                       hover:border-neutral-300 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+            aria-label="Next"
+          >
+            <ChevronRight className="w-5 h-5" />
+          </button>
+        </div>
       </div>
 
       {/* Carousel viewport — fixed height so switching cards never shifts layout */}
@@ -228,6 +211,6 @@ export function VideoSlider() {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   )
 }

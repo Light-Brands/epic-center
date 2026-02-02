@@ -10,7 +10,7 @@ import {
 } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
 import { Footer } from '@/components/layout'
-import { VideoSlider } from '@/components/video/VideoSlider'
+import { PropertyGallery } from '@/components/gallery/PropertyGallery'
 
 // Animated counter hook for stats
 function useAnimatedCounter(end: number, duration: number = 2000, shouldStart: boolean = false) {
@@ -603,9 +603,9 @@ export default function VisionPage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          PROPERTY VIDEO SLIDER — Horizontal reel showcase
+          THE PROPERTY — Video reels + photo gallery unified section
           ═══════════════════════════════════════════════════════════════════════════ */}
-      <VideoSlider />
+      <PropertyGallery />
 
       {/* ═══════════════════════════════════════════════════════════════════════════
           WHY NOW SECTION — Three pillars with elegant cards
