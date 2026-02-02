@@ -269,14 +269,14 @@ const components: Components = {
   ),
   table: ({ children }) => (
     <div className="my-6 overflow-x-auto rounded-xl border border-neutral-200 shadow-sm">
-      <table className="w-full text-sm border-collapse">{children}</table>
+      <table className="min-w-full text-sm border-collapse">{children}</table>
     </div>
   ),
   thead: ({ children }) => (
     <thead className="bg-primary-800 text-white">{children}</thead>
   ),
   th: ({ children }) => (
-    <th className="px-4 py-3 text-left font-accent text-[10px] uppercase tracking-[0.1em] font-semibold whitespace-nowrap text-white">
+    <th className="px-3 sm:px-4 py-3 text-left font-accent text-[10px] uppercase tracking-[0.1em] font-semibold whitespace-nowrap text-white">
       {children}
     </th>
   ),
@@ -286,11 +286,15 @@ const components: Components = {
   tr: ({ children }) => (
     <tr className="border-b border-neutral-100 last:border-0 hover:bg-primary-50/30 transition-colors">{children}</tr>
   ),
-  td: ({ children }) => (
-    <td className="px-4 py-3 text-neutral-700 first:font-medium first:text-neutral-900 tabular-nums">
-      {children}
-    </td>
-  ),
+  td: ({ children }) => {
+    const text = extractText(children)
+    const isNumeric = /^[\s$%()\-\d,.×x*+/=]+$/.test(text.trim()) || text.trim() === '' || text.trim() === '--'
+    return (
+      <td className={`px-3 sm:px-4 py-3 text-neutral-700 first:font-medium first:text-neutral-900 tabular-nums ${isNumeric ? 'whitespace-nowrap' : ''}`}>
+        {children}
+      </td>
+    )
+  },
   code: ({ children, className }) => {
     const isBlock = className?.includes('language-')
     if (isBlock) {

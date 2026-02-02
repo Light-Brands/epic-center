@@ -11,6 +11,7 @@ import { useScenario } from '@/lib/context/ScenarioContext'
 import {
   getInvestmentReturns,
   getDashboardMetrics,
+  getPLStatements,
   formatCurrency,
   formatCurrencyFull,
   formatPercent,
@@ -40,14 +41,21 @@ export default function ReturnsPage() {
   const { scenario } = useScenario()
   const returns = getInvestmentReturns()
   const metrics = getDashboardMetrics()
+  const plStatements = getPLStatements()
 
   const irr = getScenarioValue(returns.irr, scenario)
   const moic = getScenarioValue(returns.moic, scenario)
 
-  // Calculate exit value based on EBITDA multiple
-  const year5EBITDA = 8959000
-  const exitMultiple = 8
-  const exitValue = year5EBITDA * exitMultiple
+  // Year 5 enterprise values from valuation report Section 5
+  const year5BaseEBITDA = plStatements[4].ebitda // $10,433,610
+  const exitValues = {
+    conservative: 61992616,  // 4.5x EBITDA + retained cash
+    base: 87924380,          // 5.5x EBITDA + retained cash
+    aggressive: 117584039,   // 7.0x EBITDA + retained cash
+  }
+  const exitValue = exitValues[scenario]
+  const exitMultiples = { conservative: '4.5x', base: '5.5x', aggressive: '7.0x' }
+  const currentExitMultiple = exitMultiples[scenario]
 
   return (
     <div className="min-h-screen bg-canvas pt-20">
@@ -102,7 +110,7 @@ export default function ReturnsPage() {
             <MetricCard
               label="Est. Exit Value"
               value={formatCurrency(exitValue)}
-              subtitle="8x EBITDA multiple"
+              subtitle={`${currentExitMultiple} EBITDA + retained cash`}
               trend="up"
               trendValue="Year 5"
               delay={0.4}
@@ -296,10 +304,10 @@ export default function ReturnsPage() {
                       aggressive: formatMultiple(returns.moic.aggressive),
                     },
                     {
-                      label: 'Est. Exit Value (8x)',
-                      conservative: formatCurrency(year5EBITDA * 0.75 * exitMultiple),
-                      base: formatCurrency(exitValue),
-                      aggressive: formatCurrency(year5EBITDA * 1.25 * exitMultiple),
+                      label: 'Est. Enterprise Value (Y5)',
+                      conservative: formatCurrency(exitValues.conservative),
+                      base: formatCurrency(exitValues.base),
+                      aggressive: formatCurrency(exitValues.aggressive),
                     },
                   ].map((row, index) => (
                     <motion.tr

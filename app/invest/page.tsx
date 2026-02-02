@@ -73,15 +73,15 @@ export default function InvestPage() {
         </section>
 
         {/* Use of Funds */}
-        <section className="mb-16">
-          <div className="grid lg:grid-cols-2 gap-8">
-            <Card padding="lg">
-              <h3 className="text-2xl font-heading text-neutral-900 mb-6">Use of Funds</h3>
-              <UseOfFundsChart height={350} />
+        <section className="mb-16 mt-4">
+          <h3 className="text-2xl font-heading text-neutral-900 mb-6">Use of Funds</h3>
+          <div className="grid lg:grid-cols-2 gap-8 items-stretch">
+            <Card padding="lg" className="flex flex-col">
+              <UseOfFundsChart fillHeight showLegend />
             </Card>
 
             <Card padding="lg">
-              <h3 className="text-2xl font-heading text-neutral-900 mb-6">Capital Allocation</h3>
+              <h3 className="text-2xl font-heading text-neutral-900 mb-4">Capital Allocation</h3>
               <div className="space-y-4">
                 {useOfFunds.map((item, index) => (
                   <div key={item.category}>
