@@ -1,7 +1,9 @@
 'use client'
 
+import { useState, useCallback, useEffect } from 'react'
 import Link from 'next/link'
-import { ArrowLeft, ArrowRight, FileText, Download, Lock, Folder, Eye, Calendar, Mail } from 'lucide-react'
+import { motion } from 'framer-motion'
+import { ArrowLeft, ArrowRight, FileText, Download, Lock, Folder, Eye, Calendar, Mail, Delete } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
 import { Footer } from '@/components/layout'
 
@@ -59,7 +61,279 @@ const DOCUMENT_CATEGORIES = [
   },
 ]
 
+const VAULT_CODE = '8888'
+
+function VaultDoor({ onUnlock }: { onUnlock: () => void }) {
+  const [code, setCode] = useState('')
+  const [phase, setPhase] = useState<'locked' | 'error' | 'unlocking' | 'opening'>('locked')
+
+  const handleDigit = useCallback((digit: string) => {
+    if (phase !== 'locked' || code.length >= 4) return
+    const next = code + digit
+
+    setCode(next)
+
+    if (next.length === 4) {
+      if (next === VAULT_CODE) {
+        setPhase('unlocking')
+        setTimeout(() => setPhase('opening'), 1200)
+        setTimeout(onUnlock, 2200)
+      } else {
+        setPhase('error')
+        setTimeout(() => {
+          setPhase('locked')
+          setCode('')
+        }, 600)
+      }
+    }
+  }, [code, phase, onUnlock])
+
+  const handleDelete = useCallback(() => {
+    if (phase !== 'locked') return
+    setCode(prev => prev.slice(0, -1))
+  }, [phase])
+
+  const handleClear = useCallback(() => {
+    if (phase !== 'locked') return
+    setCode('')
+  }, [phase])
+
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if (e.key >= '0' && e.key <= '9') handleDigit(e.key)
+      else if (e.key === 'Backspace') handleDelete()
+      else if (e.key === 'Escape') handleClear()
+    }
+    window.addEventListener('keydown', handler)
+    return () => window.removeEventListener('keydown', handler)
+  }, [handleDigit, handleDelete, handleClear])
+
+  const isUnlocking = phase === 'unlocking' || phase === 'opening'
+  const isOpening = phase === 'opening'
+
+  return (
+    <div className="fixed inset-0 z-50 overflow-hidden select-none">
+      {/* Dark background */}
+      <div className="absolute inset-0 bg-neutral-950" />
+
+      {/* Golden glow when opening */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={isOpening ? { opacity: 1 } : { opacity: 0 }}
+        transition={{ duration: 0.8 }}
+        className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(180,140,50,0.2),transparent_70%)]"
+      />
+
+      {/* Left vault door */}
+      <motion.div
+        animate={isOpening ? { x: '-105%' } : {}}
+        transition={{ duration: 1, ease: [0.7, 0, 0.15, 1] }}
+        className="absolute top-0 left-0 w-1/2 h-full"
+      >
+        <div className="relative w-full h-full bg-gradient-to-r from-neutral-800 via-neutral-700 to-neutral-600 border-r border-neutral-500/50">
+          {/* Brushed metal texture */}
+          <div
+            className="absolute inset-0 opacity-[0.04]"
+            style={{
+              backgroundImage:
+                'repeating-linear-gradient(90deg,transparent,transparent 2px,rgba(255,255,255,0.5) 2px,rgba(255,255,255,0.5) 3px)',
+            }}
+          />
+          {/* Decorative bolts */}
+          {[20, 50, 80].map(top => (
+            <div key={top} className="absolute right-3" style={{ top: `${top}%` }}>
+              <div className="w-4 h-4 rounded-full bg-gradient-to-br from-neutral-500 to-neutral-700 shadow-inner border border-neutral-500/50" />
+            </div>
+          ))}
+          {/* Corner rivets */}
+          {['top-4 left-4', 'top-4 right-8', 'bottom-4 left-4', 'bottom-4 right-8'].map(pos => (
+            <div key={pos} className={`absolute ${pos}`}>
+              <div className="w-2.5 h-2.5 rounded-full bg-gradient-to-br from-neutral-500 to-neutral-700 shadow-inner" />
+            </div>
+          ))}
+        </div>
+      </motion.div>
+
+      {/* Right vault door */}
+      <motion.div
+        animate={isOpening ? { x: '105%' } : {}}
+        transition={{ duration: 1, ease: [0.7, 0, 0.15, 1] }}
+        className="absolute top-0 right-0 w-1/2 h-full"
+      >
+        <div className="relative w-full h-full bg-gradient-to-l from-neutral-800 via-neutral-700 to-neutral-600 border-l border-neutral-500/50">
+          <div
+            className="absolute inset-0 opacity-[0.04]"
+            style={{
+              backgroundImage:
+                'repeating-linear-gradient(90deg,transparent,transparent 2px,rgba(255,255,255,0.5) 2px,rgba(255,255,255,0.5) 3px)',
+            }}
+          />
+          {[20, 50, 80].map(top => (
+            <div key={top} className="absolute left-3" style={{ top: `${top}%` }}>
+              <div className="w-4 h-4 rounded-full bg-gradient-to-br from-neutral-500 to-neutral-700 shadow-inner border border-neutral-500/50" />
+            </div>
+          ))}
+          {['top-4 right-4', 'top-4 left-8', 'bottom-4 right-4', 'bottom-4 left-8'].map(pos => (
+            <div key={pos} className={`absolute ${pos}`}>
+              <div className="w-2.5 h-2.5 rounded-full bg-gradient-to-br from-neutral-500 to-neutral-700 shadow-inner" />
+            </div>
+          ))}
+        </div>
+      </motion.div>
+
+      {/* Center seam glow when opening */}
+      <motion.div
+        initial={{ opacity: 0, scaleX: 0 }}
+        animate={isOpening ? { opacity: 1, scaleX: 1 } : { opacity: 0, scaleX: 0 }}
+        transition={{ duration: 0.4 }}
+        className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-full bg-gradient-to-r from-transparent via-amber-300/20 to-transparent"
+      />
+
+      {/* Keypad overlay — fades on opening */}
+      <motion.div
+        animate={isOpening ? { opacity: 0, scale: 0.92 } : { opacity: 1, scale: 1 }}
+        transition={{ duration: 0.4 }}
+        className="absolute inset-0 flex items-center justify-center"
+      >
+        <div className="text-center px-4">
+          {/* Label */}
+          <p className="font-accent text-[10px] sm:text-xs uppercase tracking-[0.3em] text-neutral-500 mb-1">
+            Investor Data Room
+          </p>
+          <h2 className="font-heading text-xl sm:text-2xl text-neutral-300 mb-6 sm:mb-8">
+            Enter Access Code
+          </h2>
+
+          {/* Vault wheel */}
+          <motion.div
+            animate={
+              isUnlocking
+                ? { rotate: 720 }
+                : phase === 'error'
+                  ? { rotate: [0, -15, 15, -10, 10, 0] }
+                  : {}
+            }
+            transition={
+              isUnlocking
+                ? { duration: 1.2, ease: [0.4, 0, 0.2, 1] }
+                : { duration: 0.5 }
+            }
+            className="relative w-28 h-28 sm:w-32 sm:h-32 mx-auto mb-6 sm:mb-8"
+          >
+            {/* Outer ring */}
+            <div className="absolute inset-0 rounded-full border-[3px] border-neutral-500 shadow-[0_0_20px_rgba(0,0,0,0.5)]" />
+            <div className="absolute inset-[3px] rounded-full border border-neutral-600/60" />
+            {/* Spokes */}
+            <div className="absolute inset-0 flex items-center justify-center">
+              {[0, 45, 90, 135].map(deg => (
+                <div
+                  key={deg}
+                  className="absolute w-full h-[2px] bg-neutral-500/80"
+                  style={{ transform: `rotate(${deg}deg)` }}
+                />
+              ))}
+            </div>
+            {/* Center hub */}
+            <div className="absolute inset-0 m-auto w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-gradient-to-br from-neutral-600 to-neutral-700 border-2 border-neutral-500 shadow-[inset_0_2px_4px_rgba(0,0,0,0.4)]" />
+            {/* Outer success glow */}
+            <motion.div
+              animate={isUnlocking ? { opacity: [0, 0.6, 0.3] } : { opacity: 0 }}
+              transition={{ duration: 1 }}
+              className="absolute -inset-2 rounded-full border-2 border-amber-400/50 shadow-[0_0_24px_rgba(180,140,50,0.3)]"
+            />
+          </motion.div>
+
+          {/* Code display */}
+          <motion.div
+            animate={phase === 'error' ? { x: [-8, 8, -6, 6, -3, 3, 0] } : { x: 0 }}
+            transition={{ duration: 0.4 }}
+            className="flex justify-center gap-3 mb-6 sm:mb-8"
+          >
+            {[0, 1, 2, 3].map(i => {
+              const filled = i < code.length
+              return (
+                <div
+                  key={i}
+                  className={`w-11 h-11 sm:w-12 sm:h-12 rounded-lg border-2 flex items-center justify-center transition-colors duration-200 ${
+                    phase === 'error'
+                      ? 'border-red-500/80 bg-red-500/10'
+                      : isUnlocking && filled
+                        ? 'border-amber-400/80 bg-amber-400/10'
+                        : filled
+                          ? 'border-neutral-400 bg-neutral-800'
+                          : 'border-neutral-700 bg-neutral-900/60'
+                  }`}
+                >
+                  {filled && (
+                    <motion.div
+                      initial={{ scale: 0 }}
+                      animate={{ scale: 1 }}
+                      transition={{ type: 'spring', stiffness: 500, damping: 25 }}
+                      className={`w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full ${
+                        phase === 'error'
+                          ? 'bg-red-500'
+                          : isUnlocking
+                            ? 'bg-amber-400 shadow-[0_0_8px_rgba(180,140,50,0.6)]'
+                            : 'bg-neutral-300'
+                      }`}
+                    />
+                  )}
+                </div>
+              )
+            })}
+          </motion.div>
+
+          {/* Keypad */}
+          <div className="grid grid-cols-3 gap-2 max-w-[210px] mx-auto">
+            {['1', '2', '3', '4', '5', '6', '7', '8', '9'].map(digit => (
+              <motion.button
+                key={digit}
+                whileTap={{ scale: 0.93 }}
+                onClick={() => handleDigit(digit)}
+                className="h-14 rounded-lg bg-gradient-to-b from-neutral-700 to-neutral-800 border border-neutral-600/80 text-neutral-200 font-heading text-xl hover:from-neutral-600 hover:to-neutral-700 active:from-neutral-800 active:to-neutral-900 transition-colors shadow-md"
+              >
+                {digit}
+              </motion.button>
+            ))}
+            <motion.button
+              whileTap={{ scale: 0.93 }}
+              onClick={handleClear}
+              className="h-14 rounded-lg bg-gradient-to-b from-neutral-800 to-neutral-900 border border-neutral-700 text-neutral-500 text-[10px] font-accent uppercase tracking-wider hover:text-neutral-300 transition-colors"
+            >
+              Clear
+            </motion.button>
+            <motion.button
+              whileTap={{ scale: 0.93 }}
+              onClick={() => handleDigit('0')}
+              className="h-14 rounded-lg bg-gradient-to-b from-neutral-700 to-neutral-800 border border-neutral-600/80 text-neutral-200 font-heading text-xl hover:from-neutral-600 hover:to-neutral-700 transition-colors shadow-md"
+            >
+              0
+            </motion.button>
+            <motion.button
+              whileTap={{ scale: 0.93 }}
+              onClick={handleDelete}
+              className="h-14 rounded-lg bg-gradient-to-b from-neutral-800 to-neutral-900 border border-neutral-700 text-neutral-500 hover:text-neutral-300 transition-colors flex items-center justify-center"
+            >
+              <Delete className="w-5 h-5" />
+            </motion.button>
+          </div>
+
+          <p className="mt-5 text-[10px] sm:text-xs text-neutral-600 tracking-wide">
+            Use keypad or keyboard
+          </p>
+        </div>
+      </motion.div>
+    </div>
+  )
+}
+
 export default function DataRoomPage() {
+  const [isLocked, setIsLocked] = useState(true)
+
+  if (isLocked) {
+    return <VaultDoor onUnlock={() => setIsLocked(false)} />
+  }
+
   const publicDocs = DOCUMENT_CATEGORIES.flatMap(cat =>
     cat.documents.filter(doc => doc.access === 'public')
   ).length
@@ -69,7 +343,12 @@ export default function DataRoomPage() {
   ).length
 
   return (
-    <div className="min-h-screen bg-canvas pt-20">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.8 }}
+      className="min-h-screen bg-canvas pt-20"
+    >
       <div className="w-full sm:w-[70vw] mx-auto py-12">
         {/* Hero Section */}
         <section className="mb-12 text-center">
@@ -131,7 +410,7 @@ export default function DataRoomPage() {
                         </div>
                         <div>
                           <p className="font-medium text-neutral-900">{doc.name}</p>
-                          <p className="text-sm text-neutral-500">{doc.type} • {doc.size}</p>
+                          <p className="text-sm text-neutral-500">{doc.type} &bull; {doc.size}</p>
                         </div>
                       </div>
                       {doc.access === 'public' ? (
@@ -247,6 +526,6 @@ export default function DataRoomPage() {
         </div>
       </div>
       <Footer />
-    </div>
+    </motion.div>
   )
 }
