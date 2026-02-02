@@ -3,7 +3,7 @@
 import { useState, useCallback, useEffect } from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { ArrowLeft, ArrowRight, FileText, Eye as EyeIcon, Lock, Folder, Mail, Delete } from 'lucide-react'
+import { ArrowLeft, ArrowRight, FileText, Eye as EyeIcon, Lock, Folder, Mail, Delete, Check } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
 import { Footer } from '@/components/layout'
 
@@ -62,6 +62,11 @@ const DOCUMENT_CATEGORIES = [
   },
 ]
 
+/** URL-safe id for category anchor (e.g. "Investment Documents" → "investment-documents") */
+function categoryId(name: string): string {
+  return name.toLowerCase().replace(/\s*&\s*/g, '-').replace(/\s+/g, '-')
+}
+
 const VAULT_CODE = '8888'
 const VAULT_STORAGE_KEY = 'te_dr_access'
 const VAULT_TTL_MS = 60 * 60 * 1000 // 1 hour
@@ -78,7 +83,7 @@ function cacheVaultAccess(): void {
   localStorage.setItem(VAULT_STORAGE_KEY, Date.now().toString())
 }
 
-function VaultDoor({ onUnlock }: { onUnlock: () => void }) {
+function DataRoomLogin({ onUnlock }: { onUnlock: () => void }) {
   const [code, setCode] = useState('')
   const [phase, setPhase] = useState<'locked' | 'error' | 'unlocking' | 'opening'>('locked')
 
@@ -91,8 +96,8 @@ function VaultDoor({ onUnlock }: { onUnlock: () => void }) {
     if (next.length === 4) {
       if (next === VAULT_CODE) {
         setPhase('unlocking')
-        setTimeout(() => setPhase('opening'), 1200)
-        setTimeout(onUnlock, 2200)
+        setTimeout(() => setPhase('opening'), 800)
+        setTimeout(onUnlock, 1400)
       } else {
         setPhase('error')
         setTimeout(() => {
@@ -124,162 +129,71 @@ function VaultDoor({ onUnlock }: { onUnlock: () => void }) {
   }, [handleDigit, handleDelete, handleClear])
 
   const isUnlocking = phase === 'unlocking' || phase === 'opening'
-  const isOpening = phase === 'opening'
 
   return (
-    <div className="fixed inset-0 z-50 overflow-hidden select-none">
-      <div className="absolute inset-0 bg-neutral-950" />
-
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={isOpening ? { opacity: 1 } : { opacity: 0 }}
-        transition={{ duration: 0.8 }}
-        className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(180,140,50,0.2),transparent_70%)]"
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-canvas p-4">
+      {/* Subtle warm glow matching site hero sections */}
+      <div
+        className="pointer-events-none absolute inset-0 bg-gradient-warm-glow"
+        aria-hidden
       />
 
-      {/* Left vault door */}
       <motion.div
-        animate={isOpening ? { x: '-105%' } : {}}
-        transition={{ duration: 1, ease: [0.7, 0, 0.15, 1] }}
-        className="absolute top-0 left-0 w-1/2 h-full"
+        initial={{ opacity: 0, y: 12 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
+        className="relative w-full max-w-sm"
       >
-        <div className="relative w-full h-full bg-gradient-to-r from-neutral-800 via-neutral-700 to-neutral-600 border-r border-neutral-500/50">
-          <div
-            className="absolute inset-0 opacity-[0.04]"
-            style={{
-              backgroundImage:
-                'repeating-linear-gradient(90deg,transparent,transparent 2px,rgba(255,255,255,0.5) 2px,rgba(255,255,255,0.5) 3px)',
-            }}
-          />
-          {[20, 50, 80].map(top => (
-            <div key={top} className="absolute right-3" style={{ top: `${top}%` }}>
-              <div className="w-4 h-4 rounded-full bg-gradient-to-br from-neutral-500 to-neutral-700 shadow-inner border border-neutral-500/50" />
-            </div>
-          ))}
-          {['top-4 left-4', 'top-4 right-8', 'bottom-4 left-4', 'bottom-4 right-8'].map(pos => (
-            <div key={pos} className={`absolute ${pos}`}>
-              <div className="w-2.5 h-2.5 rounded-full bg-gradient-to-br from-neutral-500 to-neutral-700 shadow-inner" />
-            </div>
-          ))}
-        </div>
-      </motion.div>
-
-      {/* Right vault door */}
-      <motion.div
-        animate={isOpening ? { x: '105%' } : {}}
-        transition={{ duration: 1, ease: [0.7, 0, 0.15, 1] }}
-        className="absolute top-0 right-0 w-1/2 h-full"
-      >
-        <div className="relative w-full h-full bg-gradient-to-l from-neutral-800 via-neutral-700 to-neutral-600 border-l border-neutral-500/50">
-          <div
-            className="absolute inset-0 opacity-[0.04]"
-            style={{
-              backgroundImage:
-                'repeating-linear-gradient(90deg,transparent,transparent 2px,rgba(255,255,255,0.5) 2px,rgba(255,255,255,0.5) 3px)',
-            }}
-          />
-          {[20, 50, 80].map(top => (
-            <div key={top} className="absolute left-3" style={{ top: `${top}%` }}>
-              <div className="w-4 h-4 rounded-full bg-gradient-to-br from-neutral-500 to-neutral-700 shadow-inner border border-neutral-500/50" />
-            </div>
-          ))}
-          {['top-4 right-4', 'top-4 left-8', 'bottom-4 right-4', 'bottom-4 left-8'].map(pos => (
-            <div key={pos} className={`absolute ${pos}`}>
-              <div className="w-2.5 h-2.5 rounded-full bg-gradient-to-br from-neutral-500 to-neutral-700 shadow-inner" />
-            </div>
-          ))}
-        </div>
-      </motion.div>
-
-      <motion.div
-        initial={{ opacity: 0, scaleX: 0 }}
-        animate={isOpening ? { opacity: 1, scaleX: 1 } : { opacity: 0, scaleX: 0 }}
-        transition={{ duration: 0.4 }}
-        className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-full bg-gradient-to-r from-transparent via-amber-300/20 to-transparent"
-      />
-
-      {/* Keypad overlay */}
-      <motion.div
-        animate={isOpening ? { opacity: 0, scale: 0.92 } : { opacity: 1, scale: 1 }}
-        transition={{ duration: 0.4 }}
-        className="absolute inset-0 flex items-center justify-center"
-      >
-        <div className="text-center px-4">
-          <p className="font-accent text-[10px] sm:text-xs uppercase tracking-[0.3em] text-neutral-500 mb-1">
+        <Card padding="lg" className="bg-white shadow-xl border border-neutral-200">
+          {/* Section label - matches data room / invest hero */}
+          <p className="font-accent text-sm uppercase tracking-widest text-secondary-500 mb-2 text-center">
             Investor Data Room
           </p>
-          <h2 className="font-heading text-xl sm:text-2xl text-neutral-300 mb-6 sm:mb-8">
+          <h2 className="font-heading text-2xl sm:text-3xl text-neutral-900 mb-2 text-center">
             Enter Access Code
           </h2>
+          <p className="text-sm text-neutral-600 text-center mb-8">
+            Enter your 4-digit PIN to access confidential materials.
+          </p>
 
-          {/* Vault wheel */}
+          {/* Pin slots - design system borders and focus */}
           <motion.div
-            animate={
-              isUnlocking
-                ? { rotate: 720 }
-                : phase === 'error'
-                  ? { rotate: [0, -15, 15, -10, 10, 0] }
-                  : {}
-            }
-            transition={
-              isUnlocking
-                ? { duration: 1.2, ease: [0.4, 0, 0.2, 1] }
-                : { duration: 0.5 }
-            }
-            className="relative w-28 h-28 sm:w-32 sm:h-32 mx-auto mb-6 sm:mb-8"
-          >
-            <div className="absolute inset-0 rounded-full border-[3px] border-neutral-500 shadow-[0_0_20px_rgba(0,0,0,0.5)]" />
-            <div className="absolute inset-[3px] rounded-full border border-neutral-600/60" />
-            <div className="absolute inset-0 flex items-center justify-center">
-              {[0, 45, 90, 135].map(deg => (
-                <div
-                  key={deg}
-                  className="absolute w-full h-[2px] bg-neutral-500/80"
-                  style={{ transform: `rotate(${deg}deg)` }}
-                />
-              ))}
-            </div>
-            <div className="absolute inset-0 m-auto w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-gradient-to-br from-neutral-600 to-neutral-700 border-2 border-neutral-500 shadow-[inset_0_2px_4px_rgba(0,0,0,0.4)]" />
-            <motion.div
-              animate={isUnlocking ? { opacity: [0, 0.6, 0.3] } : { opacity: 0 }}
-              transition={{ duration: 1 }}
-              className="absolute -inset-2 rounded-full border-2 border-amber-400/50 shadow-[0_0_24px_rgba(180,140,50,0.3)]"
-            />
-          </motion.div>
-
-          {/* Code display */}
-          <motion.div
-            animate={phase === 'error' ? { x: [-8, 8, -6, 6, -3, 3, 0] } : { x: 0 }}
-            transition={{ duration: 0.4 }}
-            className="flex justify-center gap-3 mb-6 sm:mb-8"
+            animate={phase === 'error' ? { x: [-6, 6, -4, 4, -2, 2, 0] } : { x: 0 }}
+            transition={{ duration: 0.35 }}
+            className="flex justify-center gap-3 mb-8"
           >
             {[0, 1, 2, 3].map(i => {
               const filled = i < code.length
               return (
                 <div
                   key={i}
-                  className={`w-11 h-11 sm:w-12 sm:h-12 rounded-lg border-2 flex items-center justify-center transition-colors duration-200 ${
-                    phase === 'error'
-                      ? 'border-red-500/80 bg-red-500/10'
+                  className={`
+                    w-12 h-14 sm:w-14 sm:h-16 rounded-lg border-2 flex items-center justify-center
+                    transition-colors duration-200
+                    ${phase === 'error'
+                      ? 'border-error-500 bg-error-50'
                       : isUnlocking && filled
-                        ? 'border-amber-400/80 bg-amber-400/10'
+                        ? 'border-primary-600 bg-primary-50'
                         : filled
-                          ? 'border-neutral-400 bg-neutral-800'
-                          : 'border-neutral-700 bg-neutral-900/60'
-                  }`}
+                          ? 'border-primary-600 bg-primary-50'
+                          : 'border-neutral-300 bg-neutral-50'
+                    }
+                  `}
                 >
                   {filled && (
                     <motion.div
                       initial={{ scale: 0 }}
                       animate={{ scale: 1 }}
-                      transition={{ type: 'spring', stiffness: 500, damping: 25 }}
-                      className={`w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full ${
-                        phase === 'error'
-                          ? 'bg-red-500'
+                      transition={{ type: 'spring', stiffness: 400, damping: 22 }}
+                      className={`
+                        w-3 h-3 sm:w-3.5 sm:h-3.5 rounded-full
+                        ${phase === 'error'
+                          ? 'bg-error-500'
                           : isUnlocking
-                            ? 'bg-amber-400 shadow-[0_0_8px_rgba(180,140,50,0.6)]'
-                            : 'bg-neutral-300'
-                      }`}
+                            ? 'bg-primary-600'
+                            : 'bg-primary-800'
+                        }
+                      `}
                     />
                   )}
                 </div>
@@ -287,45 +201,68 @@ function VaultDoor({ onUnlock }: { onUnlock: () => void }) {
             })}
           </motion.div>
 
-          {/* Keypad */}
-          <div className="grid grid-cols-3 gap-2 max-w-[210px] mx-auto">
+          {/* Keypad - secondary/outline style to match site buttons */}
+          <div className="grid grid-cols-3 gap-2 max-w-[220px] mx-auto">
             {['1', '2', '3', '4', '5', '6', '7', '8', '9'].map(digit => (
               <motion.button
                 key={digit}
-                whileTap={{ scale: 0.93 }}
+                type="button"
+                whileTap={{ scale: 0.97 }}
                 onClick={() => handleDigit(digit)}
-                className="h-14 rounded-lg bg-gradient-to-b from-neutral-700 to-neutral-800 border border-neutral-600/80 text-neutral-200 font-heading text-xl hover:from-neutral-600 hover:to-neutral-700 active:from-neutral-800 active:to-neutral-900 transition-colors shadow-md"
+                className="h-12 sm:h-14 rounded-lg border-2 border-neutral-200 bg-neutral-50 text-neutral-900 font-body text-lg font-medium hover:border-primary-400 hover:bg-primary-50 hover:text-primary-800 transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2"
               >
                 {digit}
               </motion.button>
             ))}
             <motion.button
-              whileTap={{ scale: 0.93 }}
+              type="button"
+              whileTap={{ scale: 0.97 }}
               onClick={handleClear}
-              className="h-14 rounded-lg bg-gradient-to-b from-neutral-800 to-neutral-900 border border-neutral-700 text-neutral-500 text-[10px] font-accent uppercase tracking-wider hover:text-neutral-300 transition-colors"
+              className="h-12 sm:h-14 rounded-lg border-2 border-neutral-200 bg-neutral-100 text-neutral-600 text-xs font-accent uppercase tracking-wider hover:border-neutral-400 hover:text-neutral-800 transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2"
             >
               Clear
             </motion.button>
             <motion.button
-              whileTap={{ scale: 0.93 }}
+              type="button"
+              whileTap={{ scale: 0.97 }}
               onClick={() => handleDigit('0')}
-              className="h-14 rounded-lg bg-gradient-to-b from-neutral-700 to-neutral-800 border border-neutral-600/80 text-neutral-200 font-heading text-xl hover:from-neutral-600 hover:to-neutral-700 transition-colors shadow-md"
+              className="h-12 sm:h-14 rounded-lg border-2 border-neutral-200 bg-neutral-50 text-neutral-900 font-body text-lg font-medium hover:border-primary-400 hover:bg-primary-50 hover:text-primary-800 transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2"
             >
               0
             </motion.button>
             <motion.button
-              whileTap={{ scale: 0.93 }}
+              type="button"
+              whileTap={{ scale: 0.97 }}
               onClick={handleDelete}
-              className="h-14 rounded-lg bg-gradient-to-b from-neutral-800 to-neutral-900 border border-neutral-700 text-neutral-500 hover:text-neutral-300 transition-colors flex items-center justify-center"
+              className="h-12 sm:h-14 rounded-lg border-2 border-neutral-200 bg-neutral-100 text-neutral-600 hover:border-neutral-400 hover:text-neutral-800 transition-colors duration-200 flex items-center justify-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2"
             >
               <Delete className="w-5 h-5" />
             </motion.button>
           </div>
 
-          <p className="mt-5 text-[10px] sm:text-xs text-neutral-600 tracking-wide">
-            Use keypad or keyboard
+          <p className="mt-6 text-xs text-neutral-500 text-center">
+            Use keypad above or your keyboard (0–9, Backspace, Escape)
           </p>
-        </div>
+        </Card>
+
+        {/* Success state: brief checkmark before transition */}
+        {isUnlocking && (
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
+            className="absolute inset-0 flex items-center justify-center rounded-xl bg-white/95 backdrop-blur-sm"
+          >
+            <motion.div
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              transition={{ type: 'spring', stiffness: 300, damping: 22, delay: 0.05 }}
+              className="w-14 h-14 rounded-full border-2 border-primary-600 bg-primary-50 flex items-center justify-center"
+            >
+              <Check className="w-7 h-7 text-primary-600" strokeWidth={2.5} />
+            </motion.div>
+          </motion.div>
+        )}
       </motion.div>
     </div>
   )
@@ -344,7 +281,7 @@ export default function DataRoomPage() {
   }, [])
 
   if (isLocked) {
-    return <VaultDoor onUnlock={handleUnlock} />
+    return <DataRoomLogin onUnlock={handleUnlock} />
   }
 
   const totalDocs = DOCUMENT_CATEGORIES.reduce((sum, cat) => sum + cat.documents.length, 0)
@@ -353,72 +290,99 @@ export default function DataRoomPage() {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 0.8 }}
+      transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
       className="min-h-screen bg-canvas pt-20"
     >
-      <div className="w-full sm:w-[70vw] mx-auto py-12">
+      {/* Subtle warm glow matching rest of site */}
+      <div className="pointer-events-none fixed inset-0 bg-gradient-warm-glow" aria-hidden />
+
+      <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 py-12 relative">
         {/* Hero Section */}
-        <section className="mb-12 text-center">
+        <section className="mb-16 text-center">
           <p className="font-accent text-sm uppercase tracking-widest text-secondary-500 mb-4">
             Due Diligence
           </p>
-          <h2 className="text-4xl md:text-5xl font-heading text-neutral-900 mb-6">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-heading text-neutral-900 mb-6">
             Investor Data Room
           </h2>
-          <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
+          <p className="text-xl text-neutral-600 max-w-3xl mx-auto leading-relaxed">
             Access all investment materials, financial models, property documentation,
             and research supporting this opportunity.
           </p>
         </section>
 
         {/* Access Stats */}
-        <section className="mb-12">
-          <div className="grid md:grid-cols-3 gap-6">
-            <Card padding="lg" className="text-center">
+        <section className="mb-16">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <Card padding="lg" className="text-center hover:shadow-card-hover hover:-translate-y-0.5 transition-all duration-300">
               <FileText className="w-10 h-10 text-primary-600 mx-auto mb-3" />
-              <p className="font-heading text-3xl text-neutral-900 mb-1">{totalDocs}</p>
-              <p className="text-neutral-600">Documents Available</p>
+              <p className="font-heading text-3xl md:text-4xl text-neutral-900 mb-1">{totalDocs}</p>
+              <p className="font-medium text-neutral-800">Documents Available</p>
               <p className="text-sm text-neutral-500 mt-2">Full data room access</p>
             </Card>
-            <Card padding="lg" className="text-center">
+            <Card padding="lg" className="text-center hover:shadow-card-hover hover:-translate-y-0.5 transition-all duration-300 border-l-4 border-l-secondary-400">
               <Folder className="w-10 h-10 text-secondary-500 mx-auto mb-3" />
-              <p className="font-heading text-3xl text-neutral-900 mb-1">5</p>
-              <p className="text-neutral-600">Document Categories</p>
+              <p className="font-heading text-3xl md:text-4xl text-neutral-900 mb-1">5</p>
+              <p className="font-medium text-neutral-800">Document Categories</p>
               <p className="text-sm text-neutral-500 mt-2">Investment, financial, property, legal, research</p>
             </Card>
-            <Card padding="lg" className="text-center">
+            <Card padding="lg" className="text-center hover:shadow-card-hover hover:-translate-y-0.5 transition-all duration-300">
               <Lock className="w-10 h-10 text-primary-600 mx-auto mb-3" />
-              <p className="font-heading text-3xl text-neutral-900 mb-1">NDA</p>
-              <p className="text-neutral-600">Protected Access</p>
+              <p className="font-heading text-3xl md:text-4xl text-neutral-900 mb-1">NDA</p>
+              <p className="font-medium text-neutral-800">Protected Access</p>
               <p className="text-sm text-neutral-500 mt-2">Confidential materials</p>
             </Card>
           </div>
         </section>
 
         {/* Document Categories */}
-        <section className="mb-12">
+        <section className="mb-16" aria-labelledby="doc-categories-heading">
+          <h3 id="doc-categories-heading" className="text-2xl font-heading text-neutral-900 mb-4">Document Categories</h3>
+          <nav aria-label="Jump to category" className="mb-8 flex flex-wrap gap-2">
+            {DOCUMENT_CATEGORIES.map((category) => {
+              const id = categoryId(category.name)
+              return (
+                <a
+                  key={id}
+                  href={`#${id}`}
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border-2 border-neutral-200 bg-neutral-50 text-neutral-800 font-accent text-sm font-medium uppercase tracking-wide hover:border-primary-400 hover:bg-primary-50 hover:text-primary-800 transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2"
+                >
+                  <category.icon className="w-4 h-4 shrink-0 text-primary-600" />
+                  {category.name}
+                </a>
+              )
+            })}
+          </nav>
           <div className="space-y-8">
             {DOCUMENT_CATEGORIES.map((category) => (
-              <Card key={category.name} padding="lg">
+              <Card
+                key={category.name}
+                id={categoryId(category.name)}
+                padding="lg"
+                hoverable
+                className="transition-all duration-300 scroll-mt-28"
+              >
                 <div className="flex items-center gap-3 mb-6">
-                  <category.icon className="w-6 h-6 text-primary-600" />
-                  <h3 className="text-xl font-heading text-neutral-900">{category.name}</h3>
+                  <div className="w-10 h-10 rounded-lg flex items-center justify-center bg-primary-50">
+                    <category.icon className="w-5 h-5 text-primary-600" />
+                  </div>
+                  <h4 className="text-xl font-heading text-neutral-900">{category.name}</h4>
                 </div>
-                <div className="divide-y divide-neutral-100">
+                <div className="divide-y divide-neutral-200">
                   {category.documents.map((doc) => (
-                    <div key={doc.name} className="flex items-center justify-between py-4">
-                      <div className="flex items-center gap-4">
-                        <div className="w-10 h-10 rounded-lg flex items-center justify-center bg-primary-50">
+                    <div key={doc.name} className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 py-4">
+                      <div className="flex items-start gap-4 min-w-0">
+                        <div className="w-10 h-10 shrink-0 rounded-lg flex items-center justify-center bg-primary-50">
                           <FileText className="w-5 h-5 text-primary-600" />
                         </div>
-                        <div>
+                        <div className="min-w-0">
                           <p className="font-medium text-neutral-900">{doc.name}</p>
-                          <p className="text-xs text-neutral-400 font-accent">Document {doc.doc}</p>
+                          <p className="text-xs text-neutral-500 font-accent uppercase tracking-wide mt-0.5">Document {doc.doc}</p>
                         </div>
                       </div>
                       <Link
                         href={`/data-room/view/${doc.slug}`}
-                        className="inline-flex items-center gap-2 font-accent font-semibold uppercase text-xs tracking-wider px-5 py-2.5 rounded-lg bg-transparent text-primary-800 border-2 border-primary-800 hover:bg-primary-800 hover:text-white transition-all duration-300"
+                        className="shrink-0 inline-flex items-center justify-center gap-2 font-accent font-semibold uppercase text-xs tracking-wider px-5 py-2.5 rounded-lg bg-transparent text-primary-800 border-2 border-primary-800 hover:bg-primary-800 hover:text-white transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2"
                       >
                         <EyeIcon className="w-4 h-4" />
                         View
@@ -433,33 +397,33 @@ export default function DataRoomPage() {
 
         {/* Confidentiality Notice */}
         <section className="mb-16">
-          <Card padding="lg" className="bg-primary-800 text-white">
-            <div className="grid md:grid-cols-2 gap-8 items-center">
+          <Card padding="lg" className="bg-primary-800 text-white shadow-xl border-0">
+            <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
               <div>
-                <h3 className="text-2xl font-heading mb-4">Confidential Materials</h3>
-                <p className="text-primary-200 mb-6">
+                <h3 className="text-2xl font-heading mb-4 text-white">Confidential Materials</h3>
+                <p className="text-primary-200 mb-6 leading-relaxed">
                   All documents in this data room are confidential and protected under NDA.
                   By accessing these materials you acknowledge the following obligations.
                 </p>
-                <div className="space-y-3">
+                <ul className="space-y-3" role="list">
                   {[
                     'Materials are for qualified investors and partners only',
                     'Do not distribute without written consent',
                     'Share with legal and financial advisors under NDA only',
                     'Forward-looking statements are subject to risk factors',
                   ].map((step, index) => (
-                    <div key={step} className="flex items-center gap-3">
-                      <div className="w-6 h-6 rounded-full bg-secondary-400 text-primary-900 text-sm font-medium flex items-center justify-center">
+                    <li key={step} className="flex items-center gap-3">
+                      <span className="w-6 h-6 rounded-full bg-secondary-400 text-primary-900 text-sm font-medium flex items-center justify-center shrink-0" aria-hidden>
                         {index + 1}
-                      </div>
+                      </span>
                       <span className="text-primary-100">{step}</span>
-                    </div>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </div>
-              <div className="text-center">
-                <div className="bg-primary-700/50 rounded-xl p-8">
-                  <Mail className="w-12 h-12 text-secondary-400 mx-auto mb-4" />
+              <div className="text-center md:text-left">
+                <div className="bg-primary-700/50 rounded-xl p-8 border border-primary-600/30">
+                  <Mail className="w-12 h-12 text-secondary-400 mx-auto md:mx-0 mb-4" />
                   <p className="text-primary-200 mb-4">
                     Questions about the data room or investment opportunity?
                   </p>
@@ -477,7 +441,7 @@ export default function DataRoomPage() {
 
         {/* Data Room FAQ */}
         <section className="mb-16">
-          <Card padding="lg" className="bg-gradient-to-br from-secondary-400 to-secondary-500 text-primary-900">
+          <Card padding="lg" className="bg-gradient-to-br from-secondary-400 to-secondary-500 text-primary-900 shadow-xl border-0">
             <div className="max-w-3xl mx-auto">
               <h3 className="text-2xl font-heading text-center mb-8">Data Room FAQ</h3>
               <div className="space-y-4">
@@ -499,9 +463,9 @@ export default function DataRoomPage() {
                     a: 'Yes, Excel models are provided for detailed analysis and scenario modeling.',
                   },
                 ].map((item) => (
-                  <div key={item.q} className="bg-white/20 rounded-lg p-4">
-                    <p className="font-medium mb-2">{item.q}</p>
-                    <p className="text-sm text-primary-800">{item.a}</p>
+                  <div key={item.q} className="bg-white/20 rounded-xl p-5 border border-white/10">
+                    <p className="font-medium text-primary-900 mb-2">{item.q}</p>
+                    <p className="text-sm text-primary-800 leading-relaxed">{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -510,10 +474,10 @@ export default function DataRoomPage() {
         </section>
 
         {/* Navigation */}
-        <div className="flex justify-between items-center pt-8 border-t border-neutral-200">
-          <Link href="/outcomes" className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors">
+        <div className="flex flex-col sm:flex-row justify-between items-center gap-4 pt-8 border-t border-neutral-200">
+          <Link href="/outcomes" className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors font-accent text-sm uppercase tracking-wide">
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-            <span className="font-accent text-sm uppercase tracking-wide">Outcomes</span>
+            Outcomes
           </Link>
           <Link href="/faq">
             <Button variant="primary">

@@ -58,19 +58,22 @@ export default async function DocumentViewerPage({
   }
 
   return (
-    <div className="min-h-screen bg-canvas print:bg-white">
-      {/* Sticky header bar - hidden on print */}
-      <div className="sticky top-0 z-40 bg-canvas/80 backdrop-blur-xl border-b border-neutral-200/60 print:hidden">
-        <div className="w-full sm:w-[70vw] mx-auto flex items-center justify-between py-3 px-4 sm:px-0">
+    <div className="min-h-screen bg-canvas print:bg-white relative pt-20 print:pt-0">
+      {/* Warm glow matching rest of site */}
+      <div className="pointer-events-none fixed inset-0 bg-gradient-warm-glow print:hidden" aria-hidden />
+
+      {/* Sticky bar below main nav - hidden on print */}
+      <div className="sticky top-20 z-30 bg-canvas/90 backdrop-blur-xl border-b border-neutral-200 shadow-nav print:hidden">
+        <div className="w-full sm:w-[70vw] mx-auto flex items-center justify-between py-3 px-4 sm:px-6">
           <Link
             href="/data-room"
-            className="group inline-flex items-center gap-2 text-neutral-500 hover:text-primary-800 transition-colors"
+            className="group inline-flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors font-accent text-sm uppercase tracking-wide"
           >
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-            <span className="font-accent text-xs uppercase tracking-wider">Data Room</span>
+            Data Room
           </Link>
           <div className="flex items-center gap-4">
-            <span className="hidden sm:block font-accent text-[10px] uppercase tracking-widest text-neutral-400">
+            <span className="hidden sm:block font-accent text-xs uppercase tracking-widest text-neutral-500">
               {doc.category}
             </span>
             <PrintButton />
@@ -78,26 +81,30 @@ export default async function DocumentViewerPage({
         </div>
       </div>
 
-      {/* Document content */}
-      <article className="w-full sm:w-[70vw] mx-auto px-4 sm:px-0 py-12 sm:py-16 print:py-0 print:w-full">
+      {/* Document content in card-like container */}
+      <article className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 pt-8 sm:pt-10 pb-12 sm:pb-16 print:py-0 print:w-full print:px-0 relative">
         <div className="max-w-4xl mx-auto print:max-w-none">
-          <MarkdownViewer content={content} />
+          <div className="bg-white rounded-xl shadow-card border border-neutral-100 overflow-hidden print:shadow-none print:border-0 print:rounded-none">
+            <div className="px-6 sm:px-10 lg:px-12 py-8 sm:py-10 lg:py-12 print:px-0 print:py-0">
+              <MarkdownViewer content={content} />
+            </div>
+          </div>
         </div>
       </article>
 
       {/* Bottom navigation - hidden on print */}
-      <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-0 pb-12 print:hidden">
+      <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 pb-12 print:hidden relative">
         <div className="max-w-4xl mx-auto flex justify-between items-center pt-8 border-t border-neutral-200">
           <Link
             href="/data-room"
-            className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors"
+            className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors font-accent text-sm uppercase tracking-wide"
           >
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-            <span className="font-accent text-sm uppercase tracking-wide">Back to Data Room</span>
+            Back to Data Room
           </Link>
         </div>
       </div>
-      <div className="print:hidden">
+      <div className="print:hidden relative">
         <Footer />
       </div>
     </div>
