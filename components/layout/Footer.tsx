@@ -66,9 +66,9 @@ export function Footer() {
 
       {/* Main Footer */}
       <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 py-20 relative">
-        <div className="grid lg:grid-cols-6 gap-12 lg:gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-8">
           {/* Brand Column */}
-          <div className="lg:col-span-2">
+          <div className="col-span-2 lg:col-span-2">
             <Link href="/" className="inline-block mb-6 group">
               <span className="font-display text-2xl text-white">
                 Transformational Epicenter
@@ -122,15 +122,15 @@ export function Footer() {
 
         {/* CTA Section */}
         <div className="mt-16 pt-12 border-t border-primary-800/50">
-          <div className="flex flex-col md:flex-row md:items-center justify-between gap-8">
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 sm:gap-8">
             <div>
-              <h3 className="font-heading text-2xl md:text-3xl mb-3 text-white">Ready to Transform Healthcare?</h3>
+              <h3 className="font-heading text-xl sm:text-2xl md:text-3xl mb-3 text-white">Ready to Transform Healthcare?</h3>
               <p className="text-primary-200/70 max-w-lg">
                 Join a select group of investors pioneering the future of mental health treatment.
               </p>
             </div>
             <Link href="/invest">
-              <button className="group inline-flex items-center gap-2 px-8 py-4 rounded-xl font-accent text-sm font-semibold uppercase tracking-wider text-primary-950 bg-gradient-to-r from-secondary-400 to-secondary-500 hover:from-secondary-500 hover:to-secondary-600 shadow-lg shadow-secondary-500/20 hover:shadow-secondary-500/30 transition-all duration-300">
+              <button className="group inline-flex items-center justify-center gap-2 w-full sm:w-auto px-8 py-4 rounded-xl font-accent text-sm font-semibold uppercase tracking-wider text-primary-950 bg-gradient-to-r from-secondary-400 to-secondary-500 hover:from-secondary-500 hover:to-secondary-600 shadow-lg shadow-secondary-500/20 hover:shadow-secondary-500/30 transition-all duration-300">
                 View Investment
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
               </button>
@@ -146,7 +146,7 @@ export function Footer() {
             <p className="text-sm text-primary-300/60">
               &copy; {new Date().getFullYear()} Transformational Epicenter. Confidential Investment Materials.
             </p>
-            <div className="flex items-center gap-6 text-sm text-primary-300/60">
+            <div className="flex flex-wrap items-center justify-center md:justify-end gap-3 sm:gap-6 text-xs sm:text-sm text-primary-300/60">
               <Link href="/legal" className="hover:text-secondary-400 transition-colors duration-300">
                 Legal
               </Link>

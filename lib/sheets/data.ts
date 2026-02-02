@@ -35,7 +35,7 @@ export const PROPERTIES: Property[] = [
       closingCosts: 350000,
       totalAcquisitionCost: 6150000,
     },
-    imageUrl: '/images/properties/riviera-maya-jungle-estate.jpg',
+    imageUrl: '/images/properties/hotel-alea-tulum.jpg',
   },
 ]
 

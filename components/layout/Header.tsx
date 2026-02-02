@@ -102,12 +102,12 @@ export function Header() {
           ${isScrolled ? 'bg-white/90 shadow-xl shadow-neutral-900/10' : ''}
         `}>
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <span className="text-[11px] md:text-xs font-accent font-bold uppercase tracking-[0.2em] text-primary-800">
+          <Link href="/" className="flex items-center gap-2 sm:gap-3 group">
+            <span className="text-[10px] sm:text-[11px] md:text-xs font-accent font-bold uppercase tracking-[0.15em] sm:tracking-[0.2em] text-primary-800">
               Transformational
             </span>
-            <span className="hidden sm:block w-px h-4 bg-primary-800/20" />
-            <span className="hidden sm:block text-[11px] md:text-xs font-accent font-bold uppercase tracking-[0.2em] text-secondary-600">
+            <span className="w-px h-3 sm:h-4 bg-primary-800/20" />
+            <span className="text-[10px] sm:text-[11px] md:text-xs font-accent font-bold uppercase tracking-[0.15em] sm:tracking-[0.2em] text-secondary-600">
               Epicenter
             </span>
           </Link>

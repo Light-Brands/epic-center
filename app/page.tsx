@@ -82,7 +82,7 @@ function AnimatedStat({ stat, label, description, index }: {
       }}
       className="group relative"
     >
-      <div className="relative h-full p-6 md:p-8 rounded-2xl bg-white/90 backdrop-blur-sm border border-neutral-200/60 shadow-card hover:shadow-xl hover:border-accent-300/50 hover:-translate-y-1 transition-all duration-500">
+      <div className="relative h-full p-4 sm:p-6 md:p-8 rounded-2xl bg-white/90 backdrop-blur-sm border border-neutral-200/60 shadow-card hover:shadow-xl hover:border-accent-300/50 hover:-translate-y-1 transition-all duration-500">
         {/* Subtle top accent on hover */}
         <div className="absolute top-0 left-0 right-0 h-1 rounded-t-2xl bg-gradient-to-r from-accent-400 to-accent-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
@@ -90,7 +90,7 @@ function AnimatedStat({ stat, label, description, index }: {
         <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-accent-500/5 to-secondary-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
         {/* The big number */}
-        <p className="relative font-mono text-4xl sm:text-5xl md:text-6xl font-bold text-neutral-900 tracking-tighter mb-2 transition-transform duration-300 group-hover:scale-[1.02]">
+        <p className="relative font-mono text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-neutral-900 tracking-tighter mb-1 sm:mb-2 transition-transform duration-300 group-hover:scale-[1.02]">
           {isInView ? `${formattedValue}${suffix}` : '0'}
         </p>
 
@@ -220,7 +220,7 @@ export default function VisionPage() {
           ═══════════════════════════════════════════════════════════════════════════ */}
       <motion.div
         ref={trustIndicatorsRef}
-        className="fixed top-24 left-0 right-0 z-40 flex justify-center pointer-events-none"
+        className="fixed top-24 left-0 right-0 z-40 hidden sm:flex justify-center pointer-events-none"
         style={{ opacity: trustOpacity, y: trustY }}
       >
         <div className="w-full sm:w-[70vw] flex justify-end pointer-events-auto">
@@ -285,7 +285,7 @@ export default function VisionPage() {
 
         {/* Content */}
         <motion.div
-          className="relative z-10 w-full sm:w-[70vw] text-left pb-24"
+          className="relative z-10 w-full sm:w-[70vw] text-left pb-16 sm:pb-24 px-5 sm:px-0"
         >
           {/* Eyebrow label */}
             <motion.div
@@ -304,7 +304,7 @@ export default function VisionPage() {
 
           {/* Main headline */}
           <motion.h1
-            className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] font-light mb-8 leading-[0.92] text-primary-800"
+            className="font-display text-4xl sm:text-6xl md:text-7xl lg:text-[5.5rem] font-light mb-6 sm:mb-8 leading-[0.92] text-primary-800"
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
@@ -325,7 +325,7 @@ export default function VisionPage() {
 
           {/* Subheadline */}
           <motion.p
-            className="font-body text-lg md:text-xl text-primary-800/90 mb-14 max-w-2xl leading-[1.7] tracking-wide"
+            className="font-body text-base sm:text-lg md:text-xl text-primary-800/90 mb-8 sm:mb-14 max-w-2xl leading-[1.7] tracking-wide"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
@@ -336,19 +336,19 @@ export default function VisionPage() {
 
           {/* CTA buttons */}
           <motion.div
-            className="flex flex-wrap justify-start gap-5"
+            className="flex flex-col sm:flex-row flex-wrap justify-start gap-3 sm:gap-5"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
           >
             <Link href="/invest">
-              <button className="group relative inline-flex items-center gap-2.5 px-8 py-4 rounded-full font-accent text-[11px] font-semibold uppercase tracking-[0.15em] text-primary-950 bg-gradient-to-r from-secondary-400 to-secondary-500 hover:from-secondary-500 hover:to-secondary-600 shadow-lg shadow-secondary-500/25 hover:shadow-secondary-500/40 transition-all duration-500">
+              <button className="group relative inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-full font-accent text-[11px] font-semibold uppercase tracking-[0.15em] text-primary-950 bg-gradient-to-r from-secondary-400 to-secondary-500 hover:from-secondary-500 hover:to-secondary-600 shadow-lg shadow-secondary-500/25 hover:shadow-secondary-500/40 transition-all duration-500 w-full sm:w-auto">
                 <span>View Investment</span>
                 <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform duration-300" />
               </button>
             </Link>
             <Link href="/financials">
-              <button className="group inline-flex items-center gap-2.5 px-8 py-4 rounded-full font-accent text-[11px] font-semibold uppercase tracking-[0.15em] text-primary-800 border border-primary-800/30 hover:bg-primary-800/10 hover:border-primary-800/50 backdrop-blur-sm transition-all duration-500">
+              <button className="group inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-full font-accent text-[11px] font-semibold uppercase tracking-[0.15em] text-primary-800 border border-primary-800/30 hover:bg-primary-800/10 hover:border-primary-800/50 backdrop-blur-sm transition-all duration-500 w-full sm:w-auto">
                 <span>Explore Financials</span>
               </button>
             </Link>
@@ -387,15 +387,15 @@ export default function VisionPage() {
       {/* ═══════════════════════════════════════════════════════════════════════════
           GSAP ANIMATED TEXT SECTION — Unique scroll-triggered text reveal
           ═══════════════════════════════════════════════════════════════════════════ */}
-      <section className="relative py-32 md:py-40 bg-white overflow-hidden">
+      <section className="relative py-20 sm:py-32 md:py-40 bg-white overflow-hidden">
         {/* Subtle decorative elements */}
         <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-64 h-64 rounded-full bg-accent-500/5 blur-3xl" />
         <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-64 h-64 rounded-full bg-secondary-500/5 blur-3xl" />
 
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-5 sm:px-0 relative">
           <div
             ref={animatedTextRef}
-            className="text-center space-y-6"
+            className="text-center space-y-4 sm:space-y-6"
           >
             <p className="line font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-primary-800 leading-[1.25] tracking-tight">
               Healing isn't about <span className="highlight text-accent-600 inline-block">managing</span> symptoms.
@@ -410,7 +410,7 @@ export default function VisionPage() {
       {/* ═══════════════════════════════════════════════════════════════════════════
           THE CRISIS SECTION — Dramatic stats with video backdrop
           ═══════════════════════════════════════════════════════════════════════════ */}
-      <section className="relative py-24 md:py-32 overflow-hidden outline-none">
+      <section className="relative py-16 sm:py-24 md:py-32 overflow-hidden outline-none">
         {/* Video background with white overlay */}
         <div className="absolute inset-0">
           <video
@@ -429,10 +429,10 @@ export default function VisionPage() {
           <div className="absolute top-0 left-0 right-0 h-64 bg-gradient-to-b from-white via-white/40 to-transparent" />
         </div>
 
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-5 sm:px-0 relative">
           {/* Section header */}
           <motion.div
-            className="text-center mb-16 md:mb-20"
+            className="text-center mb-10 sm:mb-16 md:mb-20"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
@@ -467,7 +467,7 @@ export default function VisionPage() {
 
           {/* Stats grid - the dramatic centerpiece with animated counters */}
           <motion.div
-            className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6"
+            className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
@@ -527,7 +527,7 @@ export default function VisionPage() {
       {/* ═══════════════════════════════════════════════════════════════════════════
           THE SOLUTION SECTION — Dark botanical background
           ═══════════════════════════════════════════════════════════════════════════ */}
-      <section className="py-24 md:py-32 bg-primary-900 text-white relative overflow-hidden">
+      <section className="py-16 sm:py-24 md:py-32 bg-primary-900 text-white relative overflow-hidden">
         {/* Decorative elements */}
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/30 to-transparent" />
         <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/30 to-transparent" />
@@ -536,9 +536,9 @@ export default function VisionPage() {
         <div className="absolute top-1/2 -left-48 w-96 h-96 rounded-full bg-accent-500/10 blur-[150px]" />
         <div className="absolute bottom-0 right-0 w-80 h-80 rounded-full bg-secondary-500/8 blur-[120px]" />
 
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-5 sm:px-0 relative">
           <motion.div
-            className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center"
+            className="grid lg:grid-cols-2 gap-10 sm:gap-16 lg:gap-24 items-center"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
@@ -610,15 +610,15 @@ export default function VisionPage() {
       {/* ═══════════════════════════════════════════════════════════════════════════
           WHY NOW SECTION — Three pillars with elegant cards
           ═══════════════════════════════════════════════════════════════════════════ */}
-      <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
+      <section className="py-16 sm:py-24 md:py-32 bg-canvas relative overflow-hidden">
         {/* Subtle pattern overlay */}
         <div className="absolute inset-0 opacity-[0.015]" style={{
           backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%231F483A' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
         }} />
 
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-5 sm:px-0 relative">
           <motion.div
-            className="text-center mb-20"
+            className="text-center mb-12 sm:mb-20"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
@@ -643,7 +643,7 @@ export default function VisionPage() {
           </motion.div>
 
           <motion.div
-            className="grid md:grid-cols-3 gap-8"
+            className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
@@ -690,7 +690,7 @@ export default function VisionPage() {
                   }`} />
 
                   {/* Icon with hover scale */}
-                  <div className="w-28 h-28 mb-6 transition-transform duration-500 group-hover:scale-105 relative">
+                  <div className="w-20 h-20 sm:w-28 sm:h-28 mb-4 sm:mb-6 transition-transform duration-500 group-hover:scale-105 relative">
                     <Image
                       src={item.icon}
                       alt={item.title}
@@ -719,13 +719,13 @@ export default function VisionPage() {
       {/* ═══════════════════════════════════════════════════════════════════════════
           INVESTMENT OPPORTUNITY — Metric cards with glass effect
           ═══════════════════════════════════════════════════════════════════════════ */}
-      <section className="py-24 md:py-32 bg-canvas-muted relative overflow-hidden">
+      <section className="py-16 sm:py-24 md:py-32 bg-canvas-muted relative overflow-hidden">
         {/* Warm glow overlay */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-64 bg-gradient-radial from-secondary-500/8 to-transparent rounded-full blur-3xl" />
 
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-5 sm:px-0 relative">
           <motion.div
-            className="text-center mb-16"
+            className="text-center mb-10 sm:mb-16"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
@@ -746,7 +746,7 @@ export default function VisionPage() {
           </motion.div>
 
           <motion.div
-            className="grid md:grid-cols-2 lg:grid-cols-4 gap-6"
+            className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
@@ -763,13 +763,13 @@ export default function VisionPage() {
                 variants={scaleInVariants}
                 whileHover={{ y: -6, transition: { duration: 0.3, ease: [0.16, 1, 0.3, 1] } }}
               >
-                <div className="group h-full bg-white rounded-2xl p-8 shadow-card hover:shadow-xl transition-all duration-500 ease-out-expo border border-neutral-100 hover:border-secondary-200 text-center relative overflow-hidden">
+                <div className="group h-full bg-white rounded-2xl p-5 sm:p-6 md:p-8 shadow-card hover:shadow-xl transition-all duration-500 ease-out-expo border border-neutral-100 hover:border-secondary-200 text-center relative overflow-hidden">
                   {/* Top shimmer line on hover */}
                   <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-secondary-400 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
                   <div className="relative">
                     {/* Icon with scale */}
-                    <div className="w-40 h-40 mx-auto mb-6 transition-transform duration-500 group-hover:scale-110">
+                    <div className="w-20 h-20 sm:w-28 sm:h-28 md:w-40 md:h-40 mx-auto mb-3 sm:mb-4 md:mb-6 transition-transform duration-500 group-hover:scale-110">
                       <Image
                         src={metric.icon}
                         alt={metric.label}
@@ -780,17 +780,17 @@ export default function VisionPage() {
                     </div>
 
                     {/* Value with color transition */}
-                    <p className="font-mono text-4xl lg:text-5xl font-semibold text-primary-800 mb-2 tracking-tight transition-all duration-300 group-hover:text-primary-700 group-hover:scale-105">
+                    <p className="font-mono text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-primary-800 mb-1 sm:mb-2 tracking-tight transition-all duration-300 group-hover:text-primary-700 group-hover:scale-105">
                       {metric.value}
                     </p>
 
                     {/* Label */}
-                    <p className="font-accent text-xs text-neutral-500 uppercase tracking-[0.15em] mb-3">
+                    <p className="font-accent text-[10px] sm:text-xs text-neutral-500 uppercase tracking-[0.15em] mb-1 sm:mb-3">
                       {metric.label}
                     </p>
 
                     {/* Description */}
-                    <p className="text-sm text-neutral-500">{metric.description}</p>
+                    <p className="text-xs sm:text-sm text-neutral-500 hidden sm:block">{metric.description}</p>
 
                     {/* Bottom accent line */}
                     <div className="h-1 w-0 group-hover:w-20 mx-auto mt-6 bg-gradient-to-r from-accent-500 to-secondary-500 rounded-full transition-all duration-500 ease-out-expo" />
@@ -805,10 +805,10 @@ export default function VisionPage() {
       {/* ═══════════════════════════════════════════════════════════════════════════
           QUICK NAVIGATION — Explore the pitch
           ═══════════════════════════════════════════════════════════════════════════ */}
-      <section className="py-24 md:py-32 bg-canvas">
-        <div className="w-full sm:w-[70vw] mx-auto">
+      <section className="py-16 sm:py-24 md:py-32 bg-canvas">
+        <div className="w-full sm:w-[70vw] mx-auto px-5 sm:px-0">
           <motion.div
-            className="text-center mb-16"
+            className="text-center mb-10 sm:mb-16"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
@@ -821,7 +821,7 @@ export default function VisionPage() {
           </motion.div>
 
           <motion.div
-            className="grid md:grid-cols-2 lg:grid-cols-4 gap-6"
+            className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
@@ -840,7 +840,7 @@ export default function VisionPage() {
               >
                 <Link
                   href={section.href}
-                  className="group block h-full bg-canvas-subtle hover:bg-white rounded-2xl p-8 border border-transparent hover:border-neutral-200 hover:shadow-lg transition-all duration-500 ease-out-expo relative overflow-hidden"
+                  className="group block h-full bg-canvas-subtle hover:bg-white rounded-2xl p-5 sm:p-6 md:p-8 border border-transparent hover:border-neutral-200 hover:shadow-lg transition-all duration-500 ease-out-expo relative overflow-hidden"
                 >
                   {/* Hover glow */}
                   <div className={`absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ${
@@ -871,36 +871,36 @@ export default function VisionPage() {
       {/* ═══════════════════════════════════════════════════════════════════════════
           CTA SECTION — Final call to action
           ═══════════════════════════════════════════════════════════════════════════ */}
-      <section className="py-24 md:py-32 bg-primary-900 text-white relative overflow-hidden">
+      <section className="py-16 sm:py-24 md:py-32 bg-primary-900 text-white relative overflow-hidden">
         {/* Decorative elements */}
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/40 to-transparent" />
         <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full bg-secondary-500/10 blur-[150px]" />
         <div className="absolute bottom-0 right-0 w-80 h-80 rounded-full bg-accent-500/10 blur-[120px]" />
 
         <motion.div
-          className="w-full sm:w-[70vw] mx-auto text-center relative"
+          className="w-full sm:w-[70vw] mx-auto px-5 sm:px-0 text-center relative"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeUpVariants}
         >
-          <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl mb-8 leading-tight">
+          <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 sm:mb-8 leading-tight">
             Ready to Transform Healthcare?
           </h2>
-          <p className="text-xl text-primary-200 mb-12 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-xl text-primary-200 mb-8 sm:mb-12 max-w-2xl mx-auto leading-relaxed">
             Join us in building the future of mental health treatment. This is your
             opportunity to be part of a paradigm shift in healing.
           </p>
 
-          <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/invest">
-              <button className="group inline-flex items-center gap-2 px-10 py-5 rounded-xl font-accent text-sm font-semibold uppercase tracking-wider text-primary-950 bg-gradient-to-r from-secondary-400 to-secondary-500 hover:from-secondary-500 hover:to-secondary-600 shadow-xl shadow-secondary-500/25 hover:shadow-secondary-500/40 transition-all duration-300">
+          <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4">
+            <Link href="/invest" className="w-full sm:w-auto">
+              <button className="group inline-flex items-center justify-center gap-2 w-full sm:w-auto px-8 sm:px-10 py-4 sm:py-5 rounded-xl font-accent text-sm font-semibold uppercase tracking-wider text-primary-950 bg-gradient-to-r from-secondary-400 to-secondary-500 hover:from-secondary-500 hover:to-secondary-600 shadow-xl shadow-secondary-500/25 hover:shadow-secondary-500/40 transition-all duration-300">
                 View Investment Details
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
               </button>
             </Link>
-            <Link href="/properties/riviera-maya-jungle-estate">
-              <button className="inline-flex items-center gap-2 px-10 py-5 rounded-xl font-accent text-sm font-semibold uppercase tracking-wider text-white border-2 border-white/20 hover:bg-white/10 hover:border-white/40 transition-all duration-300 backdrop-blur-sm">
+            <Link href="/properties/riviera-maya-jungle-estate" className="w-full sm:w-auto">
+              <button className="inline-flex items-center justify-center gap-2 w-full sm:w-auto px-8 sm:px-10 py-4 sm:py-5 rounded-xl font-accent text-sm font-semibold uppercase tracking-wider text-white border-2 border-white/20 hover:bg-white/10 hover:border-white/40 transition-all duration-300 backdrop-blur-sm">
                 Explore the Property
               </button>
             </Link>

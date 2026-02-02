@@ -9,11 +9,6 @@ const VIDEOS = Array.from({ length: 10 }, (_, i) => ({
   src: `/videos/video${i + 1}.mp4`,
 }))
 
-const CARD_W = 220          // inactive card width
-const FOCUSED_W = 340       // active card width
-const GAP = 20              // gap between cards
-const FOCUSED_H = Math.round(FOCUSED_W * (16 / 9))  // fixed height based on focused card
-
 export function VideoSlider() {
   const sectionRef = useRef<HTMLDivElement>(null)
   const trackRef = useRef<HTMLDivElement>(null)
@@ -22,21 +17,34 @@ export function VideoSlider() {
 
   const [activeIndex, setActiveIndex] = useState(0)
   const [containerWidth, setContainerWidth] = useState(0)
+  const [dims, setDims] = useState({ cardW: 220, focusedW: 340, gap: 20 })
 
   // Drag state
   const dragState = useRef({ startX: 0, isDragging: false, startTime: 0 })
 
-  // Measure container
+  // Measure container + responsive card sizes
   useEffect(() => {
     const measure = () => {
       if (trackRef.current?.parentElement) {
         setContainerWidth(trackRef.current.parentElement.clientWidth)
+      }
+      const w = window.innerWidth
+      if (w < 480) {
+        setDims({ cardW: 80, focusedW: 200, gap: 10 })
+      } else if (w < 640) {
+        setDims({ cardW: 120, focusedW: 250, gap: 12 })
+      } else if (w < 1024) {
+        setDims({ cardW: 180, focusedW: 310, gap: 16 })
+      } else {
+        setDims({ cardW: 220, focusedW: 340, gap: 20 })
       }
     }
     measure()
     window.addEventListener('resize', measure)
     return () => window.removeEventListener('resize', measure)
   }, [])
+
+  const focusedH = Math.round(dims.focusedW * (16 / 9))
 
   // Compute the translateX so the active card is centered
   const getTranslateX = useCallback(() => {
@@ -45,13 +53,13 @@ export function VideoSlider() {
     // Sum widths of all cards before the active one
     let offset = 0
     for (let i = 0; i < activeIndex; i++) {
-      offset += CARD_W + GAP
+      offset += dims.cardW + dims.gap
     }
     // Center the active card: shift by half container minus half active card width
-    offset -= (containerWidth / 2) - (FOCUSED_W / 2)
+    offset -= (containerWidth / 2) - (dims.focusedW / 2)
 
     return -offset
-  }, [activeIndex, containerWidth])
+  }, [activeIndex, containerWidth, dims])
 
   // Autoplay only the focused video
   useEffect(() => {
@@ -93,14 +101,14 @@ export function VideoSlider() {
   }
 
   return (
-    <section ref={sectionRef} className="py-24 md:py-32 bg-canvas-muted relative overflow-hidden">
+    <section ref={sectionRef} className="py-16 md:py-32 bg-canvas-muted relative overflow-hidden">
       {/* Subtle warm glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] rounded-full bg-secondary-500/5 blur-[120px] pointer-events-none" />
 
       <div className="w-full sm:w-[70vw] mx-auto relative">
         {/* Header */}
         <motion.div
-          className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10 px-4 sm:px-0"
+          className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-6 sm:mb-10"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -111,7 +119,7 @@ export function VideoSlider() {
               <div className="h-px w-10 bg-gradient-to-r from-secondary-400 to-secondary-600" />
               <p className="font-accent text-xs uppercase tracking-[0.25em] text-secondary-600">The Property</p>
             </div>
-            <h2 className="font-heading text-3xl md:text-4xl text-neutral-900">
+            <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl text-neutral-900">
               Riviera Maya Jungle Estate
             </h2>
           </div>
@@ -144,7 +152,7 @@ export function VideoSlider() {
       {/* Carousel viewport — fixed height so switching cards never shifts layout */}
       <div
         className="relative overflow-hidden cursor-grab active:cursor-grabbing select-none"
-        style={{ height: FOCUSED_H, touchAction: 'pan-y' }}
+        style={{ height: focusedH, touchAction: 'pan-y' }}
         onPointerDown={onPointerDown}
         onPointerUp={onPointerUp}
         onPointerLeave={(e) => { if (dragState.current.isDragging) onPointerUp(e) }}
@@ -154,7 +162,7 @@ export function VideoSlider() {
           ref={trackRef}
           className="absolute inset-y-0 flex items-center transition-transform duration-500 ease-[cubic-bezier(0.25,1,0.5,1)]"
           style={{
-            gap: `${GAP}px`,
+            gap: `${dims.gap}px`,
             transform: `translateX(${getTranslateX()}px)`,
           }}
         >
@@ -164,7 +172,7 @@ export function VideoSlider() {
               <div
                 key={video.id}
                 className="flex-shrink-0 transition-all duration-500 ease-[cubic-bezier(0.25,1,0.5,1)]"
-                style={{ width: isFocused ? FOCUSED_W : CARD_W }}
+                style={{ width: isFocused ? dims.focusedW : dims.cardW }}
                 onClick={() => setActiveIndex(index)}
               >
                 <div
@@ -204,7 +212,7 @@ export function VideoSlider() {
       </div>
 
       {/* Progress dots */}
-      <div className="w-full sm:w-[70vw] mx-auto mt-6 px-4 sm:px-0">
+      <div className="w-full sm:w-[70vw] mx-auto mt-6">
         <div className="flex items-center justify-center gap-1.5">
           {VIDEOS.map((_, i) => (
             <button

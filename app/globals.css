@@ -116,6 +116,24 @@
     background-color: rgba(212, 114, 77, 0.2);
     color: #2A2722;
   }
+
+  /* ═══════════════════════════════════════════════════════════════════════════
+     UNIVERSAL CONTAINER PADDING — Mobile breathing room
+     Any element using sm:w-[70vw] gets horizontal padding on mobile.
+     Tailwind utilities (px-*) on individual elements override this
+     because @layer base has lower priority than @layer utilities.
+     ═══════════════════════════════════════════════════════════════════════════ */
+  [class*="sm:w-[70vw]"] {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  @media (min-width: 640px) {
+    [class*="sm:w-[70vw]"] {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════════
@@ -212,8 +230,9 @@
   }
 
   /* Site-wide consistent container - 70% width on non-mobile */
+  /* Mobile padding is provided universally by the base-layer rule on sm:w-[70vw] */
   .container-site {
-    @apply w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8;
+    @apply w-full sm:w-[70vw] mx-auto;
   }
 
   /* Paper texture overlay */
