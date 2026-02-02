@@ -507,6 +507,9 @@ section {
   background-clip: content-box;
 }
 
+.scrollbar-none { scrollbar-width: none; -ms-overflow-style: none; }
+.scrollbar-none::-webkit-scrollbar { display: none; }
+
 /* ═══════════════════════════════════════════════════════════════════════════════
    PRINT STYLES — Clean document output
    ═══════════════════════════════════════════════════════════════════════════════ */

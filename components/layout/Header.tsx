@@ -20,6 +20,7 @@ const NAV_SECTIONS = [
     title: 'Assets',
     links: [
       { name: 'The Property', href: '/properties/riviera-maya-jungle-estate' },
+      { name: 'Gallery', href: '/gallery' },
       { name: 'Team', href: '/team' },
       { name: 'Moat', href: '/moat' },
     ],

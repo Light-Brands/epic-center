@@ -10,6 +10,7 @@ import {
 } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
 import { Footer } from '@/components/layout'
+import { VideoSlider } from '@/components/video/VideoSlider'
 
 // Animated counter hook for stats
 function useAnimatedCounter(end: number, duration: number = 2000, shouldStart: boolean = false) {
@@ -600,6 +601,11 @@ export default function VisionPage() {
           </motion.div>
         </div>
       </section>
+
+      {/* ═══════════════════════════════════════════════════════════════════════════
+          PROPERTY VIDEO SLIDER — Horizontal reel showcase
+          ═══════════════════════════════════════════════════════════════════════════ */}
+      <VideoSlider />
 
       {/* ═══════════════════════════════════════════════════════════════════════════
           WHY NOW SECTION — Three pillars with elegant cards
