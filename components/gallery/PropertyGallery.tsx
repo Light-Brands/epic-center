@@ -139,7 +139,7 @@ function Lightbox({
       />
 
       {/* Top bar */}
-      <div className="absolute top-0 left-0 right-0 z-10 flex items-center justify-between px-4 sm:px-8 py-4 bg-gradient-to-b from-black/50 to-transparent">
+      <div className="absolute top-0 left-0 right-0 z-30 flex items-center justify-between px-4 sm:px-8 py-4 bg-gradient-to-b from-black/50 to-transparent">
         <span className="font-accent text-xs sm:text-sm text-white/70 tracking-wider tabular-nums">
           {index + 1} <span className="text-white/40 mx-1">/</span> {TOTAL_IMAGES}
         </span>
