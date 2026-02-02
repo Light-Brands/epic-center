@@ -28,8 +28,8 @@ export default function InvestPage() {
   const moic = getScenarioValue(returns.moic, scenario)
 
   return (
-    <div className="min-h-screen bg-canvas pt-20">
-      <div className="w-full sm:w-[70vw] mx-auto py-12">
+    <div className="min-h-screen bg-canvas pt-28">
+      <div className="w-full sm:w-[70vw] mx-auto py-12 px-4 sm:px-0">
         {/* Hero Section - The Ask */}
         <section className="mb-16">
           <div className="text-center max-w-3xl mx-auto mb-12">

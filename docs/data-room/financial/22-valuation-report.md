@@ -208,15 +208,17 @@ The weighted valuation of **$15.65M exceeds the total capital requirement of $13
 
 ### Equity Calculation
 
-```
-Post-Money Valuation (Mid):     $15,651,000
-Capital Needed:                  $13,773,500
-Pre-Money Valuation:             $1,877,500
+| Metric | Value |
+|--------|-------|
+| Post-Money Valuation (Mid) | **$15,651,000** |
+| Capital Needed | $13,773,500 |
+| Pre-Money Valuation | $1,877,500 |
 
-Investor Equity % (Mid):        $13,773,500 / $15,651,000 = 88.0%
-Investor Equity % (Low Bound):  $13,773,500 / $20,905,000 = 65.9%
-Investor Equity % (High Bound): $13,773,500 / $11,610,000 = 100%+ (overcapitalized)
-```
+| Investor Equity | Calculation | Result |
+|----------------|-------------|--------|
+| **Mid Valuation** | $13,773,500 / $15,651,000 | **88.0%** |
+| **Low Bound** | $13,773,500 / $20,905,000 | **65.9%** |
+| **High Bound** | $13,773,500 / $11,610,000 | **100%+** (overcapitalized) |
 
 ### Recommended Deal Structure
 
@@ -386,10 +388,9 @@ The Scorecard Method (Payne/Kauffman) assesses the value of early-stage ventures
 | **Funding Required** | 10% | 0.80 | $13.77M is substantial for seed stage, though mitigated by real asset backing ($5.8M property provides downside floor). Clear, detailed use of funds. | 0.080 |
 | **TOTAL** | **100%** | | | **1.335** |
 
-**Scorecard Valuation:**
-```
-$8,000,000 x 1.335 = $10,680,000
-```
+| | Scorecard Valuation |
+|---|---|
+| **Result** | **$8,000,000 × 1.335 = $10,680,000** |
 
 ---
 
@@ -455,40 +456,46 @@ The VC Method provides a valuation that ensures investors can achieve a predeter
 
 **A) Revenue-Based VC Valuation (Weight: 7%)**
 
-```
-Year 5 Revenue:      $17,529,400
-Revenue Multiple:    3.0x (hospitality/healthcare blend)
-Exit Value:          $52,588,200
+| Input | Value |
+|-------|-------|
+| Year 5 Revenue | $17,529,400 |
+| Revenue Multiple | 3.0x (hospitality/healthcare blend) |
+| **Exit Value** | **$52,588,200** |
 
-Post-Money = $52,588,200 / 4.484 = $11,727,000
-Pre-Money = $11,727,000 - $13,773,500 = -$2,046,500
-```
+| Calculation | Result |
+|-------------|--------|
+| Post-Money | $52,588,200 / 4.484 = **$11,727,000** |
+| Pre-Money | $11,727,000 - $13,773,500 = **-$2,046,500** |
 
 **Revenue VC Valuation: $11,727,000**
 
 **B) EBITDA-Based VC Valuation (Weight: 5%)**
 
-```
-Year 5 EBITDA:       $10,433,610
-EBITDA Multiple:     5.5x (behavioral health benchmark for >$10M revenue)
-Exit Value:          $57,384,855
+| Input | Value |
+|-------|-------|
+| Year 5 EBITDA | $10,433,610 |
+| EBITDA Multiple | 5.5x (behavioral health benchmark for >$10M revenue) |
+| **Exit Value** | **$57,384,855** |
 
-Post-Money = $57,384,855 / 4.484 = $12,797,000
-Pre-Money = $12,797,000 - $13,773,500 = -$976,500
-```
+| Calculation | Result |
+|-------------|--------|
+| Post-Money | $57,384,855 / 4.484 = **$12,797,000** |
+| Pre-Money | $12,797,000 - $13,773,500 = **-$976,500** |
 
 **EBITDA VC Valuation: $12,797,000**
 
 **C) Net Income-Based VC Valuation (Weight: 3%)**
 
-```
-Year 5 Net Income:   $6,962,527
-P/E Multiple:        8.0x
-Exit Value:          $55,700,216
+| Input | Value |
+|-------|-------|
+| Year 5 Net Income | $6,962,527 |
+| P/E Multiple | 8.0x |
+| **Exit Value** | **$55,700,216** |
 
-Post-Money = $55,700,216 / 4.484 = $12,422,000
-Pre-Money = $12,422,000 - $13,773,500 = -$1,351,500
-```
+| Calculation | Result |
+|-------------|--------|
+| Post-Money | $55,700,216 / 4.484 = **$12,422,000** |
+| Pre-Money | $12,422,000 - $13,773,500 = **-$1,351,500** |
 
 **Net Income VC Valuation: $12,422,000**
 
@@ -506,10 +513,10 @@ This method applies different multiples to revenue streams based on their predic
 | New Guest Revenue (65%) | $11,394,110 | 3.0x | Acquisition-dependent, less predictable. Still strong given 2.79% break-even. | $34,182,330 |
 | **TOTAL** | **$17,529,400** | | | **$70,994,070** |
 
-```
-Combined Exit Value:  $70,994,070
-Post-Money = $70,994,070 / 4.484 = $15,833,000
-```
+| Calculation | Result |
+|-------------|--------|
+| Combined Exit Value | **$70,994,070** |
+| Post-Money | $70,994,070 / 4.484 = **$15,833,000** |
 
 **Tiered Revenue VC Valuation: $15,833,000**
 
@@ -547,14 +554,13 @@ The DCF method calculates valuation as the present value of all future free cash
 | **PV of Cash Flows** | | | **$14,617,286** |
 
 **Terminal Value:**
-```
-Terminal Value = FCF_Y5 x (1 + g) / (r - g)
-              = $6,754,670 x (1.03) / (0.35 - 0.03)
-              = $6,957,310 / 0.32
-              = $21,741,594
 
-PV of Terminal = $21,741,594 / 4.484 = $4,849,531
-```
+| Step | Calculation | Result |
+|------|------------|--------|
+| Formula | FCF(Y5) × (1 + g) / (r - g) | |
+| Terminal Value | $6,754,670 × 1.03 / (0.35 - 0.03) | |
+| | $6,957,310 / 0.32 | **$21,741,594** |
+| **PV of Terminal** | $21,741,594 / 4.484 | **$4,849,531** |
 
 **DCF Growth Valuation = $14,617,286 + $4,849,531 = $19,466,817**
 
@@ -567,13 +573,16 @@ PV of Terminal = $21,741,594 / 4.484 = $4,849,531
 This method uses an EBITDA exit multiple instead of a perpetuity growth rate for terminal value, providing a market-aligned exit valuation.
 
 **Terminal Value via EBITDA Multiple:**
-```
-Year 5 EBITDA:       $10,433,610
-EBITDA Multiple:     5.5x (behavioral health sector benchmark)
-EBITDA Terminal:     $57,384,855
 
-PV of Terminal = $57,384,855 / 4.484 = $12,798,367
-```
+| Input | Value |
+|-------|-------|
+| Year 5 EBITDA | $10,433,610 |
+| EBITDA Multiple | 5.5x (behavioral health sector benchmark) |
+| **EBITDA Terminal** | **$57,384,855** |
+
+| Calculation | Result |
+|-------------|--------|
+| PV of Terminal | $57,384,855 / 4.484 = **$12,798,367** |
 
 **DCF Multiples Valuation = $14,617,286 + $12,798,367 = $27,415,653**
 
