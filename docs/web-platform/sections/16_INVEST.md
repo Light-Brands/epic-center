@@ -7,7 +7,7 @@
 │                                                                             │
 │                              THE ASK                                        │
 │                                                                             │
-│                            $13,773,500                                      │
+│                            $14,953,500                                      │
 │                            Seed / Series A                                  │
 │                                                                             │
 │   ────────────────────────────────────────────────────────────────         │
@@ -90,7 +90,7 @@
 │                                                                             │
 │   OFFERING TERMS                                                           │
 │   ──────────────────────────────────────────────────────────────────────   │
-│   Amount:                $13,773,500                                       │
+│   Amount:                $14,953,500                                       │
 │   Security:              Series Seed Preferred Stock                       │
 │                          (or SAFE notes if pre-revenue)                    │
 │   Price per Share:       $X.XX (to be determined)                          │
@@ -100,7 +100,7 @@
 │   LIQUIDATION PREFERENCE                                                   │
 │   ──────────────────────────────────────────────────────────────────────   │
 │   1x non-participating preferred                                           │
-│   • In an exit, investors get their $13.8M back first                      │
+│   • In an exit, investors get their $14.95M back first                      │
 │   • Then convert to common and participate pro-rata                        │
 │   • Standard investor-friendly terms                                       │
 │                                                                             │
@@ -447,7 +447,7 @@
 │   WEEK 9: Closing                                                          │
 │   ──────────────────────────────────────────────────────────────────────   │
 │   ✓ All documents signed (DocuSign)                                        │
-│   ✓ Wire transfer executed ($13.8M → company bank account)                 │
+│   ✓ Wire transfer executed ($14.95M → company bank account)                 │
 │   ✓ Stock certificates issued to investors                                 │
 │   ✓ Cap table updated (Carta or equivalent)                                │
 │   ✓ Board resolutions filed                                                │
@@ -741,7 +741,7 @@ Each property gets a dedicated page with comprehensive details:
 │   │   ├── FAQAccordion.tsx           # Expandable Q&A
 │   │   └── QuestionCategories.tsx     # Category filters
 │   └── invest/
-│       ├── TheAsk.tsx                 # $13.8M breakdown
+│       ├── TheAsk.tsx                 # $14.95M breakdown
 │       ├── InvestmentThesis.tsx       # 6 reasons
 │       └── CTASection.tsx             # Contact/access buttons
 │

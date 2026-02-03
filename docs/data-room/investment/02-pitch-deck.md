@@ -149,52 +149,53 @@ Longer programs deepen every dimension -- extended plant medicine sequences, add
 
 ## Slide 8: Financial Projections
 
-### $82.1M in five-year cumulative revenue from a single 30-room property.
+### $120.7M in five-year cumulative revenue from a phased 15→60 casita campus.
 
-| Year | Occupancy | Revenue | EBITDA | Net Income |
-|------|-----------|---------|--------|------------|
-| Year 1 | 60% | $13,140,400 | $7,838,674 | $5,146,072 |
-| Year 2 | 75% | $16,412,200 | $10,306,263 | $6,873,384 |
-| Year 3 | 80% | $17,529,400 | $10,968,943 | $7,337,260 |
-| Year 4 | 80% | $17,529,400 | $10,706,525 | $7,153,568 |
-| Year 5 | 80% | $17,529,400 | $10,433,610 | $6,962,527 |
-| **5-Year Total** | | **$82,140,800** | **$50,254,016** | **$33,472,811** |
+| Year | Casitas | Occupancy | Revenue | EBITDA | Net Income |
+|------|---------|-----------|---------|--------|------------|
+| Year 1 | 15→30 | 60% | $10,300,000 | $4,301,800 | $2,537,260 |
+| Year 2 | 30→40 | 75% | $19,600,000 | $10,902,089 | $7,052,462 |
+| Year 3 | 40→48 | 80% | $26,300,000 | $15,439,741 | $10,144,819 |
+| Year 4 | 48→54 | 80% | $30,500,000 | $18,105,249 | $11,947,674 |
+| Year 5 | 54→60 | 80% | $34,000,000 | $20,299,217 | $13,420,452 |
+| **5-Year Total** | | | **$120,700,000** | **$69,048,096** | **$45,102,667** |
 
-**Key Metrics:** 83% Gross Margin | 60-63% EBITDA Margin | Break-even at 2.79% occupancy (23 guests/year) | LTV:CAC 13.0x
+**Key Metrics:** 83% Gross Margin | 42-60% EBITDA Margin (expanding with scale) | Break-even at ~3% occupancy (~25 guests/year) | LTV:CAC 13.0x
 
 **Operating Returns:**
 
 | Metric | Value |
 |--------|-------|
-| Operating IRR | 38.25% |
-| 5-Year Free Cash Flow | $33,753,525 |
-| Payback Period | ~2.2 years |
+| 5-Year Free Cash Flow | $40,723,382 |
+| Payback Period | ~2.7 years |
 
 **Return Profile (with Exit):**
 
-| Scenario | Enterprise Value (Y5) | MOIC | IRR |
-|----------|----------------------|------|-----|
-| Conservative | $61,992,616 | 4.65x | 66.54% |
-| **Base Case** | **$87,924,380** | **6.69x** | **73.50%** |
-| Aggressive | $117,584,039 | 8.94x | 80.09% |
+| Scenario | MOIC | IRR |
+|----------|------|-----|
+| Conservative | 5.5x | 66% |
+| **Base Case** | **7.8x** | **78%** |
+| Aggressive | 10.0x | 87% |
 
-Cash-flow positive from Year 1. Investment payback in approximately 2.2 years from free cash flow.
+**Year 5 Enterprise Value (Base): $81,200,000**
+
+Cash-flow positive from Year 1. Revenue grows 3.3x as capacity expands from 15 to 60 casitas. Expansion beyond Year 1 funded entirely from operating cash flow -- no additional equity raise required.
 
 ---
 
 ## Slide 8a: Valuation
 
-### Post-Money Valuation: $15,651,000
+### Post-Money Valuation: $21,042,000
 
 **IPEV-Compliant 9-Method Weighted Average**
 
 | Metric | Value |
 |--------|-------|
-| **Post-Money Valuation** | **$15,651,000** |
-| **Valuation Range** | $11,610,000 - $20,905,000 |
-| **Pre-Money Valuation** | $1,878,000 |
+| **Post-Money Valuation** | **$21,042,000** |
+| **Valuation Range** | $13,545,000 - $31,806,000 |
+| **Pre-Money Valuation** | $6,089,000 |
 
-Nine independent valuation methods -- including Scorecard, Checklist, Cost Approach, Venture Capital (3 variants), Tiered Revenue VC, and DCF (2 variants) -- all produce positive valuations. The weighted average exceeds the $13.77M capital requirement, confirming the project creates immediate intrinsic value above its cost basis.
+Nine independent valuation methods -- including Scorecard, Checklist, Cost Approach, Venture Capital (3 variants), Tiered Revenue VC, and DCF (2 variants) -- all produce positive valuations. The weighted average exceeds the $14.95M capital requirement, confirming the project creates immediate intrinsic value above its cost basis.
 
 Full methodology detailed in the IPEV-Compliant Valuation Report (Document 22).
 
@@ -202,7 +203,7 @@ Full methodology detailed in the IPEV-Compliant Valuation Report (Document 22).
 
 ## Slide 8b: Exit Strategy
 
-### Multiple pathways to liquidity with 6.69x base-case MOIC.
+### Multiple pathways to liquidity with 7.8x base-case MOIC.
 
 | Pathway | Timeline | Multiple | Probability |
 |---------|----------|----------|------------|
@@ -210,15 +211,15 @@ Full methodology detailed in the IPEV-Compliant Valuation Report (Document 22).
 | **Private Equity Acquisition** | Year 4-6 | 5.5-8x EBITDA | Secondary |
 | **Platform Expansion + Premium Exit** | Year 5-8 | 8-16x EBITDA | Highest Value |
 
-**Enterprise Value Projections at Year 5:**
+**Year 5 Enterprise Value (Base Case): $81,200,000**
 
-| Scenario | Enterprise Value |
-|----------|-----------------|
-| Conservative | $61,992,616 |
-| **Base Case** | **$87,924,380** |
-| Aggressive | $117,584,039 |
+| Scenario | MOIC | IRR |
+|----------|------|-----|
+| Conservative | 5.5x | 66% |
+| **Base Case** | **7.8x** | **78%** |
+| Aggressive | 10.0x | 87% |
 
-A single location commands 5.5-6.0x EBITDA at exit. Multi-location platform expansion could push multiples to 8-16x -- a critical value creation lever not captured in the base case.
+A single location commands 4.0-6.0x EBITDA at exit. Multi-location platform expansion could push multiples to 8-16x -- a critical value creation lever not captured in the base case.
 
 ---
 
@@ -230,7 +231,7 @@ A single location commands 5.5-6.0x EBITDA at exit. Multi-location platform expa
 |--------------|--------|
 | **Property Type** | Jungle estate compound |
 | **Total Area** | 45,000 m2 |
-| **Room Count** | 30 rooms (phased 16 to 30) |
+| **Casita Count** | 60 casitas (phased 15 → 60 over 5 years) |
 | **Evaluation Score** | 88/100 |
 | **Acquisition Cost** | $6,150,000 |
 | **Renovation Budget** | $4,050,000 |
@@ -242,27 +243,27 @@ A single location commands 5.5-6.0x EBITDA at exit. Multi-location platform expa
 - Direct access via Cancun International Airport (CUN) and Tulum Airport (TQO)
 - Mexico's favorable regulatory environment permits ibogaine administration
 - Established medical tourism infrastructure in the Riviera Maya corridor
-- Phased 16-to-30-room build-out de-risks capital and validates demand before full expansion
+- Phased 15-to-60-casita build-out de-risks capital and validates demand before full expansion; Years 2-5 expansion funded from operating cash flow
 
 ---
 
 ## Slide 10: Investment Structure
 
-### $13,773,500 total capital required.
+### $14,953,500 total capital required.
 
 | Category | Amount | % |
 |----------|--------|---|
-| Property Acquisition | $6,150,000 | 44.7% |
-| Renovation & Build-Out | $4,050,000 | 29.4% |
-| Medical Equipment & Technology | $1,200,000 | 8.7% |
-| Pre-Opening Operations | $800,000 | 5.8% |
-| Regulatory & Legal | $500,000 | 3.6% |
-| Technology Platform | $450,000 | 3.3% |
-| Working Capital Reserve | $373,500 | 2.7% |
-| Marketing & Brand Launch | $250,000 | 1.8% |
-| **Total** | **$13,773,500** | **100%** |
+| Property Acquisition | $6,150,000 | 41.1% |
+| Renovation & Conversion | $4,050,000 | 27.1% |
+| Technology Platform | $1,230,000 | 8.2% |
+| Working Capital | $1,126,000 | 7.5% |
+| Contingency | $847,500 | 5.7% |
+| Medical Equipment | $750,000 | 5.0% |
+| FF&E | $600,000 | 4.0% |
+| Pre-Opening | $200,000 | 1.3% |
+| **Total** | **$14,953,500** | **100%** |
 
-**74.1% of capital goes to hard assets** (property + renovation), creating tangible collateral.
+**68.2% of capital goes to hard assets** (property + renovation), creating tangible collateral. Technology platform ($1.23M) creates proprietary AI and data infrastructure.
 
 ---
 
@@ -343,18 +344,18 @@ Published clinical outcomes justify premium pricing and build institutional trus
 
 ## Slide 15: Timeline
 
-### Phased 16-to-30-room build-out across 2026.
+### Phased 15-to-60-casita build-out across 2026-2031.
 
 | Phase | Timeline | Milestone |
 |-------|----------|-----------|
 | **Q1 2026** | Months 1-3 | Entity formation, property acquisition, design finalization |
-| **Q2 2026** | Months 4-6 | Phase 1 renovation (16 rooms), equipment procurement, COFEPRIS pre-consultation |
+| **Q2 2026** | Months 4-6 | Phase 1 renovation (15 casitas), equipment procurement, COFEPRIS pre-consultation |
 | **Q3 2026** | Months 7-9 | Phase 1 completion, staff hiring and training, regulatory approvals |
-| **Q4 2026** | Months 10-12 | Soft launch with 16 rooms, first guest cohorts, operational refinement |
-| **2027 H1** | Months 13-18 | Phase 2 expansion to 30 rooms, full marketing deployment |
-| **2027 H2** | Months 19-24 | Steady-state 30-room operations, outcome data publication |
+| **Q4 2026** | Months 10-12 | Soft launch with 15 casitas, first guest cohorts, operational refinement |
+| **Year 1** | Months 1-12 | Expand to 30 casitas (funded from seed round), reach 60% occupancy |
+| **Years 2-5** | Months 13-60 | Phased expansion from 30 to 60 casitas, funded from operating cash flow |
 
-**Key principle:** Revenue generation begins with 16 rooms while Phase 2 construction proceeds. The business does not wait for full build-out to begin operating.
+**Key principle:** Revenue generation begins with 15 casitas while expansion proceeds. Expansion beyond Year 1 requires no additional equity raise -- funded entirely from operating cash flow at ~$225K/casita.
 
 ---
 
@@ -384,22 +385,23 @@ Published clinical outcomes justify premium pricing and build institutional trus
 
 ## Slide 17: The Ask
 
-### $13,773,500 to build the category-defining facility.
+### $14,953,500 to build the category-defining facility.
 
 **What this capital buys:**
 
-- 30-room ultra-luxury medical wellness property in Tulum
+- 60-casita ultra-luxury medical wellness campus in Tulum (15 at launch → 60 over 5 years)
 - Hospital-grade medical infrastructure and bio-optimization technology suite
+- $1.23M AI-powered clinical platform and technology infrastructure
 - Full regulatory compliance and licensing
 - Pre-opening operations through cash-flow positive status
-- Technology platform for AI personalization and outcome tracking
 
 **What this capital returns (base case):**
 
-- 73.50% IRR (with exit) | 38.25% operating IRR
-- 6.69x MOIC over five years (with exit)
-- $82.1M in cumulative revenue from a single property
-- $15.65M post-money valuation (IPEV 9-method weighted average)
+- 78% IRR (with exit)
+- 7.8x MOIC over five years
+- $120.7M in cumulative revenue from a single campus
+- $81.2M Year 5 enterprise value
+- $21.04M post-money valuation (IPEV 9-method weighted average)
 - Proof of concept for multi-property expansion
 
 **Investment structure and terms are detailed in the accompanying Private Placement Memorandum.**

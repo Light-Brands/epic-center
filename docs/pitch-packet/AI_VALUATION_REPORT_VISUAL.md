@@ -25,8 +25,8 @@ flowchart TB
     subgraph METRICS["KEY INVESTMENT METRICS"]
         direction LR
         M1["💰 Capital Required<br/><b>$32.95M</b>"]
-        M2["📊 5-Year IRR<br/><b>73.50%</b>"]
-        M3["🔄 MOIC<br/><b>6.69x</b>"]
+        M2["📊 5-Year IRR<br/><b>78%</b>"]
+        M3["🔄 MOIC<br/><b>7.8x</b>"]
         M4["📈 Y5 Revenue<br/><b>$23.2M</b>"]
     end
 
@@ -93,7 +93,7 @@ flowchart TB
 
         OPPORTUNITY["🎯 <b>THE OPPORTUNITY</b><br/>$1T+ TAM | Category Creation<br/>No direct competitors | First-mover advantage"]
 
-        RETURNS["📈 <b>THE RETURNS</b><br/>73.50% IRR | 6.69x MOIC<br/>$33M asset-backed floor valuation"]
+        RETURNS["📈 <b>THE RETURNS</b><br/>78% IRR | 7.8x MOIC<br/>$33M asset-backed floor valuation"]
 
         PROBLEM --> SOLUTION --> OPPORTUNITY --> RETURNS
     end
@@ -112,10 +112,10 @@ flowchart TB
 | **Valuation Range** | $33,450,000 - $58,537,500 |
 | **Total Capital Required** | $32,950,750 |
 | **Equity Offered** | 44.06% (Dual Property) |
-| **5-Year IRR (Blended)** | 73.50% |
+| **5-Year IRR (Blended)** | 78% |
 | **5-Year Combined Revenue** | $94,451,829 |
 | **Year 5 EBITDA** | $9,794,655 |
-| **MOIC (Base Case)** | 6.69x |
+| **MOIC (Base Case)** | 7.8x |
 
 ### Strategic Property Acquisition
 
@@ -125,7 +125,7 @@ This valuation assumes acquisition of the **top 2 strategically recommended prop
 |----------|------|------------|-----|---------------|
 | **Hotel Alea Tulum** | HNW Flagship | $19,036,750 | 29.54% | High Net Worth |
 | **Hacienda Caracol** | U-HNW Boutique | $13,914,000 | 18.00% | Ultra High Net Worth |
-| **Combined Portfolio** | Full Coverage | **$32,950,750** | **73.50%** | Tiered Strategy |
+| **Combined Portfolio** | Full Coverage | **$32,950,750** | **78%** | Tiered Strategy |
 
 ### Valuation Confidence
 
@@ -304,7 +304,7 @@ flowchart TB
         ALEA --> SYNERGY
         CARACOL --> SYNERGY
 
-        SYNERGY["🔗 <b>COMBINED SYNERGIES</b><br/>31 Rooms | 25 Treatment Beds | 456 Guests<br/><b>$32.95M Total | 73.50% Blended IRR</b>"]
+        SYNERGY["🔗 <b>COMBINED SYNERGIES</b><br/>31 Rooms | 25 Treatment Beds | 456 Guests<br/><b>$32.95M Total | 78% Blended IRR</b>"]
     end
 
     style ALEA fill:#ebf8ff,stroke:#2c5282,stroke-width:2px
@@ -321,8 +321,8 @@ flowchart TB
 | Revenue per Guest | $48,138 | $65,476 | $54,050 |
 | Gross Margin | 74% | 82% | 77% |
 | Break-even Occupancy | 42% | 38% | 40% |
-| 5-Year IRR | 29.54% | 18.00% | 73.50% |
-| MOIC | 8.94x | 4.65x | 6.69x |
+| 5-Year IRR | 29.54% | 18.00% | 78% |
+| MOIC | 8.94x | 4.65x | 7.8x |
 
 ### 3.3 Program Pricing Structure
 
@@ -483,8 +483,8 @@ flowchart LR
 | 5-Year Net Income | $12,668,476 | $7,663,984 | $20,332,460 |
 | Exit Multiple (EBITDA) | 5.5x | 5.5x | 5.5x |
 | Exit Value | $45,464,746 | $28,500,000 | $73,870,610 |
-| **IRR** | **29.54%** | **18.00%** | **73.50%** |
-| **MOIC** | **8.94x** | **4.65x** | **6.69x** |
+| **IRR** | **29.54%** | **18.00%** | **78%** |
+| **MOIC** | **8.94x** | **4.65x** | **7.8x** |
 
 ```mermaid
 %%{init: {'theme': 'base'}}%%
@@ -512,8 +512,8 @@ flowchart TB
         OPS --> EXIT
 
         subgraph INVESTOR["INVESTOR RETURNS"]
-            IRR["📈 IRR: 73.50%"]
-            MOIC["🔄 MOIC: 6.69x"]
+            IRR["📈 IRR: 78%"]
+            MOIC["🔄 MOIC: 7.8x"]
         end
 
         EXIT --> INVESTOR
@@ -635,7 +635,7 @@ The central valuation of **$41,812,500** is supported by:
 
 1. **Strong Unit Economics:** 77% average gross margin, 40% break-even occupancy
 2. **High-Value Customer Base:** Average revenue per guest of $54,050
-3. **Proven Returns:** Blended 73.50% IRR with 6.69x MOIC
+3. **Proven Returns:** Blended 78% IRR with 7.8x MOIC
 4. **Category Creation:** First-mover advantage in integrated luxury medical wellness
 5. **Asset-Backed:** Hard assets worth $32.95M provide downside protection
 6. **Market Opportunity:** $1T+ combined TAM with 8-12% annual growth
@@ -966,7 +966,7 @@ Based on historical performance patterns from comparable facilities:
 | | 4.5x Multiple | 5.5x Multiple | 7.0x Multiple |
 |---|---------------|---------------|---------------|
 | **Year 4 Exit** | 18% | 24% | 32% |
-| **Year 5 Exit** | 20% | 73.50% | 32% |
+| **Year 5 Exit** | 20% | 78% | 32% |
 | **Year 7 Exit** | 22% | 27% | 34% |
 
 ```mermaid
@@ -985,11 +985,11 @@ flowchart TB
         subgraph MATRIX["TIMELINE × MULTIPLE MATRIX"]
             direction TB
             Y4["<b>Year 4 Exit</b><br/>18% | 24% | 32%"]
-            Y5["<b>Year 5 Exit</b><br/>20% | <b>73.50%</b> | 32%"]
+            Y5["<b>Year 5 Exit</b><br/>20% | <b>78%</b> | 32%"]
             Y7["<b>Year 7 Exit</b><br/>22% | 27% | 34%"]
         end
 
-        BASE["⭐ BASE CASE<br/>Year 5 × 5.5x = <b>73.50% IRR</b>"]
+        BASE["⭐ BASE CASE<br/>Year 5 × 5.5x = <b>78% IRR</b>"]
 
         EXITS --> MATRIX
         MATRIX --> BASE
@@ -1656,7 +1656,7 @@ flowchart TB
 |--------|------------|
 | Market Opportunity | Category creation in $1T+ market |
 | Competitive Position | Unique integration no competitor can replicate |
-| Financial Returns | 73.50% blended IRR, 6.69x MOIC |
+| Financial Returns | 78% blended IRR, 7.8x MOIC |
 | Asset Protection | $33M hard asset floor valuation |
 | Management Capability | Vision aligned with execution capability |
 | Risk/Reward | Asymmetric upside with asset-backed downside |
@@ -1671,7 +1671,7 @@ flowchart TB
             direction LR
             F1["🌍 <b>Market</b><br/>$1T+ TAM<br/>Category Creation"]
             F2["🏰 <b>Position</b><br/>Unique Integration<br/>No Competitors"]
-            F3["📈 <b>Returns</b><br/>73.50% IRR<br/>6.69x MOIC"]
+            F3["📈 <b>Returns</b><br/>78% IRR<br/>7.8x MOIC"]
         end
 
         subgraph PROTECTION["DOWNSIDE PROTECTION"]
@@ -1890,8 +1890,8 @@ flowchart TB
 
         subgraph RETURNS["📈 INVESTOR RETURNS"]
             direction LR
-            IRR["<b>IRR</b><br/>73.50%"]
-            MOIC["<b>MOIC</b><br/>6.69x"]
+            IRR["<b>IRR</b><br/>78%"]
+            MOIC["<b>MOIC</b><br/>7.8x"]
         end
 
         subgraph OPERATIONS["🏨 5-YEAR OPERATIONS"]
@@ -1930,8 +1930,8 @@ flowchart TB
 | Capital Required | $32,950,750 |
 | Post-Money Valuation | $74,763,250 |
 | Investor Equity (at Central) | 44.06% |
-| 5-Year IRR | 73.50% |
-| 5-Year MOIC | 6.69x |
+| 5-Year IRR | 78% |
+| 5-Year MOIC | 7.8x |
 | Year 5 Revenue | $23,157,598 |
 | Year 5 EBITDA | $9,794,655 |
 

@@ -36,11 +36,11 @@ The sensitivity analysis framework tests the Transformational Epicenter financia
 
 ### Key Findings
 
-- **The project generates positive returns across all scenarios except the extreme downside case** (5% probability), which models a severe demand shock combined with operational disruptions
-- **The expected value (probability-weighted) IRR exceeds 16%** and NPV exceeds $48.7M, confirming strong risk-adjusted returns
-- **Occupancy is the primary value driver** -- a 10-percentage-point change in occupancy at Year 3 stabilization moves EBITDA by approximately $2.5M and NPV by approximately $7M
-- **Pricing has high leverage** -- a 10% change in average daily rate moves Year 3 EBITDA by approximately $1.3M and NPV by approximately $4.0M
-- **The breakeven occupancy of approximately 17%** provides an exceptionally wide margin of safety against demand shortfalls
+- **The project generates strong positive returns across all modeled scenarios**, with base case IRR of 78% and MOIC of 7.8x, driven by the phased casita model (15 to 60 casitas over five years)
+- **The probability-weighted expected IRR exceeds 73%** with expected MOIC of 7.4x, confirming exceptional risk-adjusted returns
+- **Occupancy is the primary value driver** -- a 10-percentage-point change in Year 3 occupancy (44 effective rooms) moves EBITDA by approximately $2.7M
+- **Pricing has high leverage** -- a 10% change in average daily rate moves Year 3 EBITDA by approximately $1.8M
+- **The breakeven occupancy of approximately 3%** (~25 guests/year) provides an exceptionally wide margin of safety against demand shortfalls
 
 ---
 
@@ -48,23 +48,23 @@ The sensitivity analysis framework tests the Transformational Epicenter financia
 
 Four scenarios are modeled with assigned probabilities reflecting management's assessment of likelihood based on market conditions, competitive dynamics, and operational readiness.
 
-| Scenario | Probability | Y5 Revenue | Y5 EBITDA | 5-Yr NPV | IRR |
-|----------|-------------|------------|-----------|----------|-----|
-| Conservative | 25% | $15,321,600 | $7,303,527 | $38,304,000 | 10% |
-| **Base Case** | **50%** | **$17,529,400** | **$10,433,610** | **$52,588,200** | **16%** |
-| Aggressive | 20% | $18,620,000 | $12,520,332 | $65,170,000 | 22% |
-| Downside | 5% | $8,764,700 | $3,130,083 | -$4,132,050 | -5% |
-| **Expected Value (Weighted)** | **100%** | **$16,757,335** | **$9,703,257** | **$48,697,498** | -- |
+| Scenario | Probability | 5-Year Revenue | Y5 Revenue | IRR | MOIC |
+|----------|-------------|----------------|------------|-----|------|
+| Conservative | 25% | $96,560,000 | $27,200,000 | 66% | 5.5x |
+| **Base Case** | **50%** | **$120,700,000** | **$34,000,000** | **78%** | **7.8x** |
+| Aggressive | 20% | $132,770,000 | $37,400,000 | 87% | 10.0x |
+| Downside | 5% | $60,000,000 | $17,000,000 | ~20% | ~2.5x |
+| **Expected Value (Weighted)** | **100%** | **$114,044,000** | **$32,130,000** | **~74%** | **7.4x** |
 
 ### Scenario Definitions
 
-**Conservative (25% probability)** -- Models slower-than-expected occupancy ramp, modest pricing pressure, and higher operating costs. Assumes Year 1 occupancy of 45%, stabilizing at 65% by Year 3. This scenario reflects a challenging early market environment where brand awareness builds slowly and competition from lower-priced facilities creates pricing tension. Even in this case, the project generates a 10% IRR and $38.3M NPV.
+**Conservative (25% probability)** -- Models slower-than-expected occupancy ramp, modest pricing pressure, and higher operating costs. Assumes Year 1 occupancy of ~48% (310 guests, $8,240,000 revenue), stabilizing at ~64% by Year 5 ($27,200,000 revenue). The same casita phasing (15 to 60) is maintained but demand builds more slowly. This scenario reflects a challenging early market environment where brand awareness builds slowly and competition creates pricing tension. Even in this case, the project generates a 66% IRR and 5.5x MOIC with $96,560,000 in 5-year cumulative revenue.
 
-**Base Case (50% probability)** -- The central projection with 60% Year 1 occupancy ramping to 80% by Year 3. Pricing holds at $2,000/day with no escalation. This scenario reflects management's best estimate of achievable performance given the property's positioning, the target demographic's willingness to pay, and planned marketing investment.
+**Base Case (50% probability)** -- The central projection using the phased casita model (15 to 60 casitas over five years) with 60% Year 1 occupancy ramping to 80% by Year 3. Revenue grows from $10,300,000 in Year 1 to $34,000,000 in Year 5 ($120,700,000 cumulative). Pricing holds at $2,000/day ($26,600 average per guest) with no escalation. EBITDA expands from $4,301,800 (42% margin) to $20,299,217 (60% margin) as operating leverage builds. This scenario reflects management's best estimate of achievable performance, projecting a 78% IRR, 7.8x MOIC, and Y5 enterprise value of $81,200,000.
 
-**Aggressive (20% probability)** -- Models faster market penetration with higher occupancy and potential pricing upside. Assumes Year 1 occupancy of 70%, stabilizing at 85% by Year 3. This case reflects a scenario where the Riviera Maya Jungle Estate rapidly establishes itself as the definitive luxury plant medicine destination, benefiting from strong word-of-mouth referrals and media attention. Projects a 22% IRR and $65.2M NPV.
+**Aggressive (20% probability)** -- Models faster market penetration with higher occupancy and potential pricing upside. Assumes Year 1 occupancy of ~66% (426 guests, $11,330,000 revenue), stabilizing at ~88% by Year 5 ($37,400,000 revenue). This case reflects a scenario where the Riviera Maya Jungle Estate rapidly establishes itself as the definitive luxury plant medicine destination, benefiting from strong word-of-mouth referrals and media attention. Projects an 87% IRR, 10.0x MOIC, and $132,770,000 in cumulative 5-year revenue.
 
-**Downside (5% probability)** -- A stress scenario modeling severe demand disruption, potentially caused by a combination of adverse regulatory changes, a safety incident affecting industry reputation, or a significant macroeconomic downturn reducing luxury discretionary spending. Assumes Year 5 revenue of $8.8M (approximately 50% of base case) with compressed margins. This is the only scenario that produces a negative NPV, and it is assigned a 5% probability reflecting its tail-risk nature.
+**Downside (5% probability)** -- A stress scenario modeling severe demand disruption, potentially caused by a combination of adverse regulatory changes, a safety incident affecting industry reputation, or a significant macroeconomic downturn reducing luxury discretionary spending. Assumes Year 5 revenue of approximately $17,000,000 (~50% of base case) with compressed margins. Even this extreme scenario produces positive returns (~20% IRR, ~2.5x MOIC) due to real asset backing, high gross margins, and the phased capital deployment model. It is assigned a 5% probability reflecting its tail-risk nature.
 
 ### Expected Value Calculation
 
@@ -72,59 +72,59 @@ The probability-weighted expected value across all four scenarios produces:
 
 | Expected Value Metric | Amount |
 |----------------------|--------|
-| Expected Y5 Revenue | $16,757,335 |
-| Expected Y5 EBITDA | $9,703,257 |
-| Expected 5-Year NPV | $48,697,498 |
+| Expected Y5 Revenue | $32,130,000 |
+| Expected 5-Year Revenue | $114,044,000 |
+| Expected MOIC | 7.4x |
 
-The expected NPV of $48.7M is 93% of the base case NPV, confirming that the probability-weighted outcome is only modestly below the central projection. This reflects the asymmetric payoff structure: upside scenarios (Aggressive) add more value than downside scenarios subtract, weighted by their respective probabilities.
+The expected MOIC of 7.4x is 95% of the base case MOIC (7.8x), confirming that the probability-weighted outcome is only modestly below the central projection. This reflects the asymmetric payoff structure: upside scenarios (Aggressive) add more value than downside scenarios subtract, weighted by their respective probabilities. Base case NPV at 10% discount rate is $18,200,000 (at 12%: $16,100,000; at 15%: $13,400,000).
 
 ---
 
 ## 3. Occupancy Sensitivity (Year 3)
 
-Occupancy rate is the single most impactful variable in the financial model. The table below shows Year 3 financial performance at five occupancy levels, holding all other assumptions constant. Year 3 is used as the reference year because it represents the first year of stabilized operations in the base case.
+Occupancy rate is the single most impactful variable in the financial model. The table below shows Year 3 financial performance at five occupancy levels, holding capacity constant at 44 effective rooms and all other assumptions constant. Year 3 is used as the reference year because it represents the first year of stabilized occupancy (80%) in the base case.
 
 | Occupancy | Guests | Revenue | EBITDA | Net Income | EBITDA Margin |
 |-----------|--------|---------|--------|------------|---------------|
-| 50% | 412 | $13,151,040 | $12,313,732 | $8,619,612 | 93.63% |
-| 60% | 494 | $15,768,480 | $14,864,834 | $10,405,384 | 94.27% |
-| 72% (Base) | 593 | $18,928,560 | $17,944,823 | $12,561,376 | 94.80% |
-| 80% | 659 | $21,035,280 | $19,998,149 | $13,998,704 | 95.07% |
-| 90% | 741 | $23,652,720 | $22,549,251 | $15,784,476 | 95.33% |
+| 50% | 618 | $16,439,000 | $7,078,000 | $4,325,000 | 43% |
+| 60% | 741 | $19,711,000 | $9,781,000 | $6,216,000 | 50% |
+| 70% | 865 | $23,009,000 | $12,505,000 | $8,123,000 | 54% |
+| 80% (Base) | 988 | $26,300,000 | $15,227,000 | $10,029,000 | 58% |
+| 90% | 1,112 | $29,579,000 | $17,932,000 | $11,922,000 | 61% |
 
 ### Occupancy Sensitivity Analysis
 
-**Revenue Impact** -- Each 10-percentage-point increase in occupancy adds approximately $2.6M in annual revenue (at Year 3 pricing). This relationship is nearly linear because revenue is a direct function of guest volume, which scales proportionally with occupancy.
+**Revenue Impact** -- Each 10-percentage-point increase in occupancy adds approximately $3.3M in annual revenue (at Year 3 pricing with 44 effective rooms). This relationship is nearly linear because revenue is a direct function of guest volume, which scales proportionally with occupancy.
 
-**EBITDA Impact** -- EBITDA scales more favorably than revenue because fixed costs are absorbed across a larger guest base. Moving from 50% to 90% occupancy increases EBITDA by $10.2M (83%) while revenue increases by $10.5M (80%), demonstrating the operating leverage in the model.
+**EBITDA Impact** -- EBITDA scales more favorably than revenue because fixed costs are absorbed across a larger guest base. Moving from 50% to 90% occupancy increases EBITDA by $10.9M while revenue increases by $13.1M, demonstrating the significant operating leverage in the model.
 
-**Margin Expansion** -- EBITDA margins improve consistently with occupancy, reflecting the fixed cost dilution effect. Even at 50% occupancy, the EBITDA margin exceeds 93%, confirming the project's structural profitability across a wide range of demand scenarios.
+**Margin Expansion** -- EBITDA margins improve consistently with occupancy, from 43% at 50% occupancy to 61% at 90% occupancy, reflecting the fixed cost dilution effect. Even at 50% occupancy, the project generates over $7M in EBITDA, confirming structural profitability across a wide range of demand scenarios.
 
-**Breakeven Reference** -- The facility-level breakeven is approximately 17% occupancy (138 guests/year). All occupancy levels in this sensitivity table are substantially above breakeven, confirming that the project is profitable across the full range of plausible operating scenarios.
+**Breakeven Reference** -- The facility-level breakeven is approximately 3% occupancy (~25 guests/year) under the minimum viable operating cost structure. All occupancy levels in this sensitivity table are substantially above breakeven, confirming that the project is profitable across the full range of plausible operating scenarios.
 
 ---
 
 ## 4. Pricing Sensitivity
 
-Pricing sensitivity measures the impact of changes in the average daily rate on Year 3 financial performance. The analysis holds occupancy constant at the base case level and varies price by +/-10% and +/-15%.
+Pricing sensitivity measures the impact of changes in the average daily rate on Year 3 financial performance. The analysis holds occupancy constant at the base case level (80%, 988 guests, 44 effective rooms) and varies price by +/-10% and +/-15%.
 
-| Price Change | Avg Price | Y3 Revenue Impact | Y3 EBITDA Impact | NPV Impact |
-|--------------|-----------|-------------------|------------------|------------|
-| -15% | $22,610 | -$2,839,284 | -$1,987,499 | -$5,962,496 |
-| -10% | $23,940 | -$1,892,856 | -$1,324,999 | -$3,974,998 |
-| **Base** | **$26,600** | **$17,529,400** | **$10,968,943** | **$52,588,200** |
-| +10% | $29,260 | +$1,892,856 | +$1,324,999 | +$3,974,998 |
-| +15% | $30,590 | +$2,839,284 | +$1,987,499 | +$5,962,496 |
+| Price Change | ADR | Avg Price/Guest | Y3 Revenue | Y3 Revenue Delta | Y3 EBITDA Delta |
+|--------------|-----|-----------------|------------|-----------------|-----------------|
+| -15% | $1,700 | $22,610 | $22,339,000 | -$3,961,000 | -$2,759,000 |
+| -10% | $1,800 | $23,940 | $23,653,000 | -$2,647,000 | -$1,840,000 |
+| **Base** | **$2,000** | **$26,600** | **$26,300,000** | **--** | **--** |
+| +10% | $2,200 | $29,260 | $28,909,000 | +$2,609,000 | +$1,840,000 |
+| +15% | $2,300 | $30,590 | $30,223,000 | +$3,923,000 | +$2,759,000 |
 
 ### Pricing Sensitivity Analysis
 
-**Revenue Pass-Through** -- Price changes flow through to revenue on a near 1:1 basis because guest volume is held constant. A 10% price increase adds $1.89M in Year 3 revenue; a 10% decrease removes the same amount.
+**Revenue Pass-Through** -- Price changes flow through to revenue on a near 1:1 basis because guest volume is held constant. A 10% price increase adds approximately $2.6M in Year 3 revenue; a 10% decrease removes the same amount.
 
 **EBITDA Leverage** -- The EBITDA impact of pricing changes is approximately 70% of the revenue impact. The difference reflects the fact that some direct costs (medical evacuation reserve, which is calculated as a percentage of revenue) scale with price, while others (food, supplies) are fixed per guest regardless of pricing.
 
-**NPV Multiplier** -- The NPV impact is approximately 3x the Year 3 EBITDA impact, reflecting the compounding effect of sustained pricing changes over the five-year projection period. A 10% price increase adds approximately $4.0M to NPV; a 15% increase adds approximately $6.0M.
+**Compounding Effect** -- Sustained pricing changes compound over the five-year projection period. With 5-year cumulative revenue of $120,700,000 in the base case, a permanent 10% price increase would add approximately $12M in cumulative revenue and approximately $8.4M in cumulative EBITDA.
 
-**Downside Protection** -- Even with a 15% price reduction (to $22,610/day, equivalent to approximately $1,700/day), the project remains profitable with positive NPV. This confirms that the financial model is not dependent on aggressive pricing assumptions.
+**Downside Protection** -- Even with a 15% price reduction (to $1,700/day), Year 3 revenue remains above $22M and EBITDA above $12M. This confirms that the financial model is not dependent on aggressive pricing assumptions.
 
 ### Price Elasticity Considerations
 
@@ -147,8 +147,8 @@ The following risk matrix identifies the primary threats to financial performanc
 |-------------|-------------|--------|------------|-------------|
 | **Regulatory change** (ibogaine restriction in Mexico) | Low (10%) | Severe | Multi-modality offerings; psilocybin, ketamine as alternatives; geographic diversification | Revenue could decline 30-40% if ibogaine restricted; other modalities partially offset |
 | **Safety incident** (serious adverse event) | Low (5%) | Severe | Hospital-grade protocols; full medical screening; 24/7 monitoring; insurance coverage; crisis plan | Temporary occupancy decline of 20-30% for 6-12 months; reputational recovery plan |
-| **Slower demand ramp** (brand awareness) | Medium (30%) | Moderate | Phased marketing investment; referral programs; strategic partnerships; PR strategy | Captured in Conservative scenario; 45% Y1 occupancy vs. 60% base |
-| **Cost overruns** (renovation/construction) | Medium (25%) | Moderate | 6% contingency reserve; phased renovation; fixed-price contracts where possible | $847,500 contingency covers ~21% overrun on renovation budget |
+| **Slower demand ramp** (brand awareness) | Medium (30%) | Moderate | Phased marketing investment; referral programs; strategic partnerships; PR strategy | Captured in Conservative scenario; ~48% Y1 occupancy vs. 60% base |
+| **Cost overruns** (renovation/construction) | Medium (25%) | Moderate | 5.7% contingency reserve; phased renovation; fixed-price contracts where possible | $847,500 contingency covers ~21% overrun on renovation budget |
 | **Currency risk** (MXN/USD) | Medium (35%) | Low-Moderate | Majority of costs in MXN; revenue in USD; natural hedge; forward contracts if needed | Favorable USD/MXN movement could reduce costs 5-10%; adverse movement increases costs |
 | **Key person risk** (founder/CMO departure) | Low (10%) | Moderate | Vesting schedules; employment contracts; operational documentation; deep bench | Temporary operational disruption; 3-6 month recruitment cycle |
 | **Competition** (new entrants) | Medium (30%) | Low-Moderate | First-mover advantage; brand establishment; talent lock-up; proprietary protocols | Pricing pressure of 5-10% over 3-5 years; captured in Conservative scenario |
@@ -164,7 +164,7 @@ The following risk matrix identifies the primary threats to financial performanc
 | Financial | Low ($0-$400K) | Conservative budgeting; currency hedging; contingency |
 | **Total Expected Risk Cost** | **$500K-$2.7M/year** | **Covered by operating margin buffer** |
 
-The total expected annual risk cost of $500K-$2.7M is well within the operating margin buffer. At Year 3 base case EBITDA of $10.97M, even the upper bound of expected risk costs ($2.7M) would reduce EBITDA margin from 63% to 47% -- still highly profitable.
+The total expected annual risk cost of $500K-$2.7M is well within the operating margin buffer. At Year 3 base case EBITDA of approximately $15.2M, even the upper bound of expected risk costs ($2.7M) would reduce EBITDA margin from 58% to 48% -- still highly profitable.
 
 ---
 
@@ -176,17 +176,17 @@ The Transformational Epicenter investment thesis incorporates multiple layers of
 
 **1. Real Asset Backing**
 
-The Riviera Maya Jungle Estate provides tangible collateral with an assessed acquisition value of $5,800,000. In a liquidation scenario, the improved property (post-renovation) would have an estimated fair market value of $8-$10M, providing significant capital recovery even in a complete operational failure.
+The Riviera Maya Jungle Estate provides tangible collateral with a property acquisition cost of $6,150,000. In a liquidation scenario, the improved property (post-renovation) would have an estimated fair market value of $8-$10M, providing significant capital recovery even in a complete operational failure.
 
-| Downside Scenario | Estimated Recovery | % of Capital |
-|--------------------|-------------------|--------------|
-| Orderly sale (operating business) | $12-$15M | 87-109% |
-| Asset sale (property + equipment) | $8-$10M | 58-73% |
-| Fire sale (property only) | $5-$6M | 36-44% |
+| Downside Scenario | Estimated Recovery | % of Capital ($14.95M) |
+|--------------------|-------------------|------------------------|
+| Orderly sale (operating business) | $12-$15M | 80-100% |
+| Asset sale (property + equipment) | $8-$10M | 54-67% |
+| Fire sale (property only) | $5-$6M | 33-40% |
 
 **2. Low Breakeven Occupancy**
 
-The 17% breakeven occupancy means the facility must serve only approximately 138 guests per year (fewer than 3 per week) to cover all operating costs. This provides an enormous buffer against demand shortfalls and ensures the facility remains cash-flow positive through all but the most severe demand disruptions.
+The ~3% breakeven occupancy means the facility must serve only approximately 25 guests per year (fewer than 1 per week) under its minimum viable cost structure to cover baseline operating costs. This provides an enormous buffer against demand shortfalls and ensures the facility remains cash-flow positive through all but the most severe demand disruptions.
 
 **3. High Gross Margins**
 
@@ -198,7 +198,7 @@ Revenue is diversified across four program lengths (7/14/21/28 days), multiple t
 
 **5. Contingency Reserves**
 
-The $847,500 contingency reserve (6% of total project cost) provides a dedicated buffer for construction overruns, and the medical evacuation reserve ($809/guest) accumulates a growing safety fund for emergency medical costs.
+The $847,500 contingency reserve (5.7% of total project cost of $14,953,500) provides a dedicated buffer for construction overruns, and the medical evacuation reserve ($809/guest) accumulates a growing safety fund for emergency medical costs.
 
 ### Stress Test Results
 
@@ -222,9 +222,9 @@ While a full Monte Carlo simulation is not presented in this document, the scena
 
 **Positively Skewed Returns** -- The distribution of potential outcomes is positively skewed: the upside scenarios (Aggressive, potential add-on revenue, pricing power) add more value than the downside scenarios subtract. This asymmetry favors the investor.
 
-**Concentrated Probability Mass** -- 75% of the probability weight (Base Case + Conservative) produces positive returns with IRR ranging from 10% to 16%. Only 5% of the probability weight produces negative NPV.
+**Concentrated Probability Mass** -- 75% of the probability weight (Base Case + Conservative) produces strong positive returns with IRR ranging from 66% to 78% and MOIC from 5.5x to 7.8x. All scenarios produce positive returns.
 
-**Fat Tail Protection** -- Even the extreme downside (5% probability) produces an IRR of only -5%, not a total loss. Real asset backing ensures significant capital recovery in all scenarios.
+**Fat Tail Protection** -- Even the extreme downside (5% probability) produces a positive IRR of approximately 20% and MOIC of approximately 2.5x, not a loss. Real asset backing and the phased capital deployment model ensure significant capital recovery in all scenarios.
 
 ### Key Variable Distributions
 

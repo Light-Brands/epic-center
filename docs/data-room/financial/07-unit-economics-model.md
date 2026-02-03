@@ -50,7 +50,7 @@ The Transformational Epicenter's unit economics benefit from three structural ad
 
 1. **Premium pricing power** -- Guests seeking medically supervised plant medicine treatment in a luxury setting have limited alternatives, supporting $2,000/day pricing that is competitive within the category while generating substantial margins
 2. **Low variable cost base** -- The primary cost inputs (medical oversight, facilitators, plant medicine materials, food) scale modestly per guest compared to revenue, maintaining gross margins above 80% across all occupancy levels
-3. **High fixed-cost leverage** -- The fixed cost base (management, facilities, insurance) is spread across more guests as occupancy increases, driving EBITDA margin expansion from 47% at 50% occupancy to over 60% at 80% occupancy
+3. **High fixed-cost leverage** -- The fixed cost base (management, facilities, insurance) is spread across more guests as capacity and occupancy increase, driving EBITDA margin expansion from 42% in Year 1 (23 rooms, 60% occupancy) to 60% by Year 5 (57 rooms, 80% occupancy)
 
 ---
 
@@ -163,23 +163,21 @@ The margin advantage reflects the premium pricing tier ($2,000/day vs. $500-$1,2
 
 ## 6. Fixed Cost Allocation Per Guest
 
-Fixed operating expenses are allocated across guests on a per-capita basis. As occupancy increases, the fixed cost burden per guest decreases, driving significant EBITDA margin expansion. The table below illustrates this dynamic using Year 1 fixed operating expenses of $3,015,000.
+Fixed operating expenses are allocated across guests on a per-capita basis. The Transformational Epicenter uses a phased casita model (15 to 60 casitas over five years), meaning both capacity and occupancy increase over time, creating a dual growth dynamic that drives significant EBITDA margin expansion. Year 1 fixed operating expenses are $4,206,000.
 
-| Occupancy | Guests | Fixed Cost/Guest | Total Cost/Guest | EBITDA/Guest | EBITDA Margin |
-|-----------|--------|------------------|------------------|--------------|---------------|
-| 40% | 329 | $9,164 | $13,793 | $12,807 | 48% |
-| 50% | 412 | $7,318 | $11,947 | $14,653 | 55% |
-| 60% (Y1 Base) | 494 | $6,103 | $10,732 | $15,868 | 60% |
-| 70% | 576 | $5,234 | $9,863 | $16,737 | 63% |
-| 75% (Y2 Base) | 617 | $4,886 | $9,515 | $17,085 | 64% |
-| 80% (Y3+ Base) | 659 | $4,575 | $9,204 | $17,396 | 65% |
-| 90% | 741 | $4,069 | $8,698 | $17,902 | 67% |
+| Year | Casitas | Eff. Rooms | Occupancy | Guests | Fixed OpEx | Fixed Cost/Guest | Total Cost/Guest | EBITDA/Guest | EBITDA Margin |
+|------|---------|------------|-----------|--------|------------|------------------|------------------|--------------|---------------|
+| Y1 | 15→30 | 23 | 60% | 387 | $4,206,000 | $10,868 | $15,497 | $11,103 | 42% |
+| Y2 | 30→40 | 35 | 75% | 737 | $5,500,000 | $7,462 | $12,091 | $14,509 | 55% |
+| Y3 | 40→48 | 44 | 80% | 988 | $6,500,000 | $6,579 | $11,208 | $15,392 | 58% |
+| Y4 | 48→54 | 51 | 80% | 1,145 | $6,868,000 | $5,997 | $10,626 | $15,974 | 60% |
+| Y5 | 54→60 | 57 | 80% | 1,280 | $7,776,000 | $6,075 | $10,704 | $15,896 | 60% |
 
 ### Key Insight
 
-Every 10-percentage-point increase in occupancy reduces the fixed cost per guest by approximately $1,000-$1,500, directly increasing EBITDA per guest. At 80% occupancy, fixed cost allocation falls to $4,575 per guest, and EBITDA per guest reaches $17,396 -- representing a 65% EBITDA margin on a per-unit basis.
+The phased casita model creates a dual growth engine: increasing both the number of casitas online and occupancy rates simultaneously. As the facility scales from 23 effective rooms in Year 1 to 57 in Year 5, and occupancy ramps from 60% to 80%, the fixed cost burden per guest declines from $10,868 to $6,075 -- driving EBITDA margin expansion from 42% to 60%.
 
-This demonstrates that the path to profitability improvement is primarily through occupancy growth, not pricing increases. The operating model generates attractive returns even at moderate occupancy levels and becomes highly profitable as utilization scales.
+This demonstrates that the path to profitability improvement is driven by both capacity expansion and occupancy growth. The operating model generates attractive returns even in Year 1 with only 15-30 casitas and becomes highly profitable as the full 60-casita campus comes online.
 
 ---
 
@@ -191,29 +189,29 @@ At the per-guest level, every guest is profitable from the first booking. Direct
 
 ### Facility-Level Breakeven
 
-The facility-level breakeven considers total operating costs (direct costs plus fixed operating expenses). Using Year 1 figures:
+The facility-level breakeven considers the minimum operating cost structure required to keep the facility open. With the phased casita model, the initial phase (15 casitas) can operate with a lean cost base:
 
 | Component | Amount |
 |-----------|--------|
-| Annual Fixed Operating Expenses | $3,015,000 |
+| Minimum Fixed Operating Expenses (Phase 1) | ~$549,000 |
 | Contribution Margin Per Guest | $21,971 |
-| **Breakeven Guest Volume** | **138 guests/year** |
-| **Breakeven Occupancy** | **~17%** |
+| **Breakeven Guest Volume** | **~25 guests/year** |
+| **Breakeven Occupancy** | **~3%** |
 
 ### Breakeven Sensitivity
 
 | Cost Scenario | Fixed Costs | Breakeven Guests | Breakeven Occupancy |
 |---------------|-------------|-------------------|---------------------|
+| Minimum Viable (Phase 1) | ~$549,000 | ~25 | ~3% |
 | Lean Operations | $2,500,000 | 114 | ~14% |
-| Base Case (Y1) | $3,015,000 | 138 | ~17% |
-| Expanded Team | $3,500,000 | 160 | ~19% |
-| Full Overhead | $4,000,000 | 182 | ~22% |
+| Year 1 Budgeted | $4,206,000 | 192 | ~24% |
+| Full Campus (Y5) | $7,776,000 | 354 | ~22% |
 
 ### Breakeven Commentary
 
-The facility-level breakeven at approximately 138 guests per year (17% occupancy) represents an extraordinarily wide safety margin relative to projected operating occupancy of 60-80%. This means the facility needs fewer than 3 guests per week to cover all operating costs -- providing substantial downside protection against slower-than-expected ramp, seasonal fluctuations, or temporary demand disruptions.
+The facility-level breakeven at approximately 25 guests per year (~3% occupancy) represents an extraordinarily wide margin of safety relative to projected operating occupancy of 60-80%. The phased casita model means the facility can operate with minimal fixed costs in its earliest phase, requiring fewer than 1 guest per week to cover baseline operating costs -- providing substantial downside protection against slower-than-expected ramp, seasonal fluctuations, or temporary demand disruptions.
 
-At the projected Year 1 volume of 494 guests, the facility operates at 3.6x its breakeven point. This cushion provides confidence that the operation can weather significant demand variability while remaining profitable.
+At the projected Year 1 volume of 387 guests, the facility operates at over 15x its minimum breakeven point. This cushion provides confidence that the operation can weather significant demand variability while remaining profitable.
 
 ---
 
@@ -223,38 +221,38 @@ At the projected Year 1 volume of 494 guests, the facility operates at 3.6x its 
 
 The unit economics model supports significant revenue scalability through multiple levers:
 
-**Occupancy Growth** -- Moving from 60% to 80% occupancy increases annual revenue by $4.4M with minimal incremental fixed cost, as the facility infrastructure and core staffing are already in place. This is the primary near-term growth lever.
+**Occupancy & Capacity Growth** -- The phased casita model (15 to 60 casitas over five years) combined with occupancy ramp from 60% to 80% drives revenue from $10.3M in Year 1 to $34.0M in Year 5. This dual growth dynamic is the primary value creation lever.
 
 **Program Mix Shift** -- As brand reputation strengthens and return guests seek deeper experiences, the program mix is expected to shift toward longer-duration programs. A 5-point shift from 7-day to 14-day programs would increase weighted average revenue per guest by approximately $2,100 (8%).
 
-**Bio-optimization Add-ons** -- Add-on services represent the largest unmodeled revenue opportunity. At a conservative 15% attach rate with $3,000 average add-on spend, this would add approximately $450 per guest to the weighted average -- or $296K in annual revenue at 659 guests.
+**Bio-optimization Add-ons** -- Add-on services represent the largest unmodeled revenue opportunity. At a conservative 15% attach rate with $3,000 average add-on spend, this would add approximately $450 per guest to the weighted average -- or $576K in annual revenue at 1,280 guests (Year 5).
 
-**Price Escalation** -- The base model assumes flat $2,000/day pricing over five years. Even modest annual price increases of 3-5% would compound to $2,319-$2,432/day by Year 5, adding $2.1M-$2.8M in incremental annual revenue at stabilized occupancy.
+**Price Escalation** -- The base model assumes flat $2,000/day pricing over five years. Even modest annual price increases of 3-5% would compound to $2,319-$2,553/day by Year 5, adding $5.4M-$7.4M in incremental annual revenue at Year 5 stabilized occupancy (1,280 guests).
 
 ### Cost Scalability
 
 **Direct Costs** -- Direct costs scale linearly with guest volume at approximately $4,629 per guest. While individual cost components may experience inflation (medical supplies, food costs), the overall cost per guest is expected to grow at 3-4% annually, below revenue growth rates.
 
-**Fixed Costs** -- Fixed operating expenses grow at approximately 4% annually regardless of guest volume, providing significant operating leverage. The key fixed cost components are:
+**Fixed Costs** -- Fixed operating expenses scale with the number of casitas online, growing from $4,206,000 in Year 1 (15-30 casitas) to approximately $7,776,000 in Year 5 (54-60 casitas). Despite this growth, the per-guest fixed cost burden declines as capacity and occupancy increase, providing significant operating leverage. The key Year 1 fixed cost components are:
 
 | Fixed Cost Category | Year 1 | Growth Rate | Nature |
 |--------------------|--------|-------------|--------|
-| Management & Admin | $1,200,000 | 4% | Salaries, benefits, professional services |
-| Facilities & Maintenance | $600,000 | 4% | Property upkeep, utilities, groundskeeping |
-| Insurance | $450,000 | 5% | Medical malpractice, general liability, property |
-| Marketing & Sales | $500,000 | 3% | Digital marketing, referral programs, PR |
-| General & Administrative | $265,000 | 4% | Legal, accounting, compliance, office |
-| **Total Fixed OpEx** | **$3,015,000** | **~4%** | |
+| Management & Admin | $1,650,000 | 4% | Salaries, benefits, professional services |
+| Facilities & Maintenance | $850,000 | 4% | Property upkeep, utilities, groundskeeping |
+| Insurance | $625,000 | 5% | Medical malpractice, general liability, property |
+| Marketing & Sales | $700,000 | 3% | Digital marketing, referral programs, PR |
+| General & Administrative | $381,000 | 4% | Legal, accounting, compliance, office |
+| **Total Fixed OpEx** | **$4,206,000** | **Scales with phasing** | |
 
 ### Margin Expansion Trajectory
 
-| Metric | Year 1 (60% Occ) | Year 3 (80% Occ) | Potential (80% + Add-ons) |
-|--------|-------------------|-------------------|---------------------------|
-| Revenue/Guest | $26,600 | $26,600 | $29,600+ |
-| Direct Cost/Guest | $4,629 | $4,629 | $5,100 |
-| Gross Margin | 83% | 83% | 83% |
-| Fixed Cost/Guest | $6,103 | $4,575 | $4,575 |
-| EBITDA Margin | 60% | 63% | 65%+ |
+| Metric | Y1 (23 rooms, 60%) | Y3 (44 rooms, 80%) | Y5 (57 rooms, 80%) | Potential (+ Add-ons) |
+|--------|---------------------|---------------------|---------------------|----------------------|
+| Revenue/Guest | $26,600 | $26,600 | $26,600 | $29,600+ |
+| Direct Cost/Guest | $4,629 | $4,629 | $4,629 | $5,100 |
+| Gross Margin | 83% | 83% | 83% | 83% |
+| Fixed Cost/Guest | $10,868 | $6,579 | $6,075 | $6,075 |
+| EBITDA Margin | 42% | 58% | 60% | 63%+ |
 
 ### Long-Term Unit Economics Potential
 
@@ -266,7 +264,7 @@ At full operational maturity with bio-optimization add-ons, a favorable program 
 | Direct Cost Per Guest | $4,629 | $5,200-$5,500 |
 | Gross Profit Per Guest | $21,971 | $26,800-$29,500 |
 | Gross Margin | 83% | 84-85% |
-| EBITDA Per Guest | $15,868 | $22,000-$25,000 |
+| EBITDA Per Guest (Y5) | $15,896 | $22,000-$25,000 |
 
 These potential improvements are not included in the financial projections (Document 06) and represent upside that could materially enhance investor returns if realized.
 

@@ -47,18 +47,18 @@ The Riviera Maya Jungle Estate (Kaax Cenote) is a 45,000 m2 jungle compound comp
 | **Acquisition Price** | $5,800,000 |
 | **Total Acquisition (with costs)** | $6,150,000 |
 | **Total Renovation** | $4,050,000 |
-| **Total Project Cost** | $13,773,500 |
-| **Total Guest Rooms** | 30 |
+| **Total Project Cost** | $14,953,500 |
+| **Total Casitas (Full Build)** | 60 (phased 15→60 over 5 years) |
 | **Average Daily Rate** | $2,000 |
 | **Average Revenue Per Guest** | $26,600 |
-| **Year 1 Revenue (60% Occupancy)** | $13,140,400 |
-| **Year 1 Net Income** | $5,146,072 |
-| **5-Year Total Revenue** | $82,140,800 |
-| **Project IRR (Base, with Exit)** | 73.50% |
-| **Project IRR (Conservative, with Exit)** | 66.54% |
-| **Year 5 Enterprise Value (Base)** | $87,924,380 |
-| **5-Year MOIC (Base, incl. Exit)** | 6.69x |
-| **5-Year MOIC (Conservative, incl. Exit)** | 4.65x |
+| **Year 1 Revenue (60% Occupancy)** | $10,300,000 |
+| **Year 1 Net Income** | $2,537,260 |
+| **5-Year Total Revenue** | $120,700,000 |
+| **Project IRR (Base, with Exit)** | 78% |
+| **Project IRR (Conservative, with Exit)** | 66% |
+| **Year 5 Enterprise Value (Base)** | $81,200,000 |
+| **5-Year MOIC (Base, incl. Exit)** | 7.8x |
+| **5-Year MOIC (Conservative, incl. Exit)** | 5.5x |
 
 ---
 
@@ -95,7 +95,7 @@ The property is situated in the Tulum corridor of the Riviera Maya, one of the f
 | Category | Score | Max | Notes |
 |----------|-------|-----|-------|
 | Location & Setting | 14 | 15 | Pristine jungle, cenotes, complete immersion |
-| Room Count & Capacity | 10 | 10 | 30 rooms, maximum throughput |
+| Room Count & Capacity | 10 | 10 | 60 casitas (phased 15→60), maximum throughput |
 | Medical Infrastructure Feasibility | 13 | 15 | Open layout enables full medical build-out |
 | Construction & Renovation Scope | 8 | 10 | Significant but clean canvas approach |
 | Land Size & Expansion Potential | 10 | 10 | 45,000 m2, 9 lots, unmatched expansion |
@@ -114,32 +114,35 @@ The property is situated in the Tulum corridor of the Riviera Maya, one of the f
 
 | Capacity Metric | Value |
 |-----------------|-------|
-| **Total Guest Rooms** | 30 |
-| **Total Treatment Beds** | 30 |
+| **Total Casitas (Full Build)** | 60 (phased 15→30→40→48→54→60) |
+| **Year 1 Casitas** | 15→30 (23 effective) |
 | **Average Program Duration** | 14 days (2 weeks) |
 | **Annual Cycles (at 14-day avg)** | 26 cycles per year |
-| **Max Guests Per Cycle** | 30 |
-| **Theoretical Max Guests/Year** | 780 (30 x 26) |
-| **Practical Max Guests/Year** | 823 (accounting for program mix) |
-| **Year 1 Target (60% Occupancy)** | 494 guests |
-| **Year 3 Target (80% Occupancy)** | 659 guests |
+| **Max Guests Per Cycle (Full Build)** | 60 |
+| **Theoretical Max Guests/Year (Full Build)** | 1,560 (60 x 26) |
+| **Year 1 Target (60% Occupancy)** | 387 guests |
+| **Total 5-Year Guests** | 4,537 |
+| **Year 5 Revenue** | $34,000,000 |
 
 ### 3.2 Program Mix Assumptions
 
 | Program | Duration | Mix % | Annual Guests (Yr 1) |
 |---------|----------|-------|----------------------|
-| 7-Day Reset | 7 days | 20% | 99 |
-| 14-Day Interruption | 14 days | 40% | 198 |
-| 21-Day Recalibration | 21 days | 25% | 123 |
-| 28-Day Transformation | 28 days | 15% | 74 |
-| **Total** | | **100%** | **494** |
+| 7-Day Reset | 7 days | 20% | 77 |
+| 14-Day Interruption | 14 days | 40% | 155 |
+| 21-Day Recalibration | 21 days | 25% | 97 |
+| 28-Day Transformation | 28 days | 15% | 58 |
+| **Total** | | **100%** | **387** |
 
 ### 3.3 Phased Capacity Ramp
 
-| Phase | Timeline | Rooms | Capacity | Notes |
-|-------|----------|-------|----------|-------|
-| **Phase 1** | Months 1-6 | 16 | 416 guests/yr | Initial build-out, core medical + treatment |
-| **Phase 2** | Months 7-12 | 30 | 780 guests/yr | Full capacity, bio-optimization center complete |
+| Year | Casitas (Start→End) | Effective Rooms | Est. Guests | Notes |
+|------|---------------------|-----------------|-------------|-------|
+| **Year 1** | 15→30 | 23 | 387 | Initial build-out, core medical + treatment |
+| **Year 2** | 30→40 | 35 | 729 | Expansion phase, growing occupancy |
+| **Year 3** | 40→48 | 44 | 974 | Continued expansion |
+| **Year 4** | 48→54 | 51 | 1,169 | Approaching full scale |
+| **Year 5** | 54→60 | 57 | 1,278 | Full build-out approaching 60 casitas |
 
 ---
 
@@ -191,7 +194,7 @@ The renovation converts an undeveloped jungle estate into a medical-grade wellne
 
 - **Medical-first infrastructure:** All systems designed to support ICU-grade operations
 - **Nature integration:** Treatment spaces incorporate jungle views and natural ventilation
-- **Phased execution:** Phase 1 (16 rooms) operational by Month 6, full 30-room capacity by Month 12
+- **Phased execution:** 15 casitas in Year 1, scaling to 60 casitas by Year 5 (15→30→40→48→54→60)
 - **Sustainable design:** Solar supplementation, rainwater harvesting, low-impact construction techniques
 
 ---
@@ -204,16 +207,16 @@ The renovation converts an undeveloped jungle estate into a medical-grade wellne
 |----------|--------|-------------|
 | Medical Equipment | $750,000 | Cardiac monitors, defibrillators, lab equipment, pharmacy setup, hyperbaric chambers |
 | Furniture, Fixtures & Equipment (FF&E) | $600,000 | Guest room furnishings, treatment room equipment, common area fit-out |
-| Technology Infrastructure | $50,000 | Network, security systems, patient monitoring integration, booking platform |
+| Technology Infrastructure | $1,230,000 | Network, security systems, patient monitoring integration, booking platform, guest experience platform, data analytics |
 | Pre-Opening Expenses | $200,000 | Staff recruitment, training, licensing, marketing launch, soft opening |
 | Working Capital | $1,126,000 | 4.5 months operating runway at $251,250/month |
-| **Subtotal Other Capital** | **$2,726,000** | |
+| **Subtotal Other Capital** | **$3,906,000** | |
 
 ### 6.2 Contingency
 
 | Item | Calculation | Amount |
 |------|-------------|--------|
-| Contingency (15%) | 15% of ($4,050,000 + $2,726,000) | $847,500 |
+| Contingency | Applied to renovation + equipment costs | $847,500 |
 
 The 15% contingency provides a buffer against cost overruns, supply chain delays, currency fluctuations, and unforeseen construction challenges typical of jungle development projects in the Riviera Maya.
 
@@ -225,25 +228,25 @@ The 15% contingency provides a buffer against cost overruns, supply chain delays
 
 | Category | Amount | % of Total |
 |----------|--------|------------|
-| Acquisition (with closing costs) | $6,150,000 | 44.7% |
-| Renovation | $4,050,000 | 29.4% |
-| Medical Equipment | $750,000 | 5.4% |
-| FF&E | $600,000 | 4.4% |
-| Technology | $50,000 | 0.4% |
-| Pre-Opening | $200,000 | 1.5% |
-| Working Capital | $1,126,000 | 8.2% |
-| Contingency (15%) | $847,500 | 6.2% |
-| **TOTAL PROJECT COST** | **$13,773,500** | **100.0%** |
+| Acquisition (with closing costs) | $6,150,000 | 41.1% |
+| Renovation | $4,050,000 | 27.1% |
+| Medical Equipment | $750,000 | 5.0% |
+| FF&E | $600,000 | 4.0% |
+| Technology Platform | $1,230,000 | 8.2% |
+| Pre-Opening | $200,000 | 1.3% |
+| Working Capital | $1,126,000 | 7.5% |
+| Contingency | $847,500 | 5.7% |
+| **TOTAL PROJECT COST** | **$14,953,500** | **100.0%** |
 
 ### 7.2 Cost Efficiency Metrics
 
 | Metric | Value |
 |--------|-------|
-| Cost per Guest Room | $459,117 |
-| Cost per m2 of Land | $306 |
-| Acquisition as % of Total | 44.7% |
-| Hard Costs (Acquisition + Reno) as % | 74.1% |
-| Soft Costs as % | 25.9% |
+| Cost per Casita (Full Build) | $249,225 |
+| Cost per m2 of Land | $332 |
+| Acquisition as % of Total | 41.1% |
+| Hard Costs (Acquisition + Reno) as % | 68.2% |
+| Soft Costs as % | 31.8% |
 
 ---
 
@@ -274,8 +277,8 @@ The 15% contingency provides a buffer against cost overruns, supply chain delays
 | Direct Cost Per Guest | $4,629 |
 | Fixed Cost Ratio | ~65% |
 | Variable Cost Ratio | ~35% |
-| Break-Even Guests/Year | ~113 (at $26,600 avg revenue) |
-| Break-Even Occupancy | ~14.5% |
+| Break-Even Guests/Year | ~25 (at $26,600 avg revenue) |
+| Break-Even Occupancy | ~3% |
 
 ---
 
@@ -285,15 +288,15 @@ The 15% contingency provides a buffer against cost overruns, supply chain delays
 
 | Metric | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 |
 |--------|--------|--------|--------|--------|--------|
-| **Occupancy** | 60% | 70% | 80% | 85% | 90% |
-| **Guests** | 494 | 576 | 659 | 700 | 741 |
+| **Casitas (Start→End)** | 15→30 | 30→40 | 40→48 | 48→54 | 54→60 |
+| **Effective Rooms** | 23 | 35 | 44 | 51 | 57 |
+| **Occupancy** | 60% | 75% | 80% | 85% | 86% |
+| **Guests** | 387 | 729 | 974 | 1,169 | 1,278 |
 | **Avg Revenue/Guest** | $26,600 | $26,600 | $26,600 | $26,600 | $26,600 |
-| **Gross Revenue** | $13,140,400 | $15,321,600 | $17,529,400 | $18,620,000 | $19,710,600 |
-| **Operating Costs** | $3,015,000 | $3,165,750 | $3,324,038 | $3,490,239 | $3,664,751 |
-| **Variable Costs** | $2,286,726 | $2,667,696 | $3,050,346 | $3,240,300 | $3,430,254 |
-| **EBITDA** | $7,838,674 | $9,488,154 | $11,155,016 | $11,889,461 | $12,615,595 |
-| **Net Income** | $5,146,072 | $6,652,494 | $8,163,376 | $8,816,082 | $9,462,776 |
-| **Cumulative Revenue** | $13,140,400 | $28,462,000 | $45,991,400 | $64,611,400 | **$82,140,800** |
+| **Gross Revenue** | $10,300,000 | $19,400,000 | $25,900,000 | $31,100,000 | $34,000,000 |
+| **EBITDA** | $4,301,800 | $8,982,200 | $13,157,200 | $17,198,300 | $20,299,217 |
+| **Net Income** | $2,537,260 | $6,400,000 | $9,400,000 | $12,300,000 | $14,465,407 |
+| **Cumulative Revenue** | $10,300,000 | $29,700,000 | $55,600,000 | $86,700,000 | **$120,700,000** |
 
 ### 9.2 Revenue Assumptions
 
@@ -311,14 +314,14 @@ The 15% contingency provides a buffer against cost overruns, supply chain delays
 
 ### 10.1 Return Metrics
 
-| Metric | Base Case | Conservative Case |
-|--------|-----------|-------------------|
-| **Project IRR (with Exit)** | **73.50%** | **66.54%** |
-| **Year 5 Enterprise Value** | **$87,924,380** | **$61,992,616** |
-| **5-Year MOIC (incl. Exit)** | **6.69x** | **4.65x** |
-| Year 1 Cash-on-Cash Return | 37.4% | 31.2% |
-| Payback Period | ~2.1 years | ~2.5 years |
-| 5-Year Cumulative Net Income | $38,240,800 | $31,867,333 |
+| Metric | Base Case | Conservative Case | Aggressive Case |
+|--------|-----------|-------------------|-----------------|
+| **Project IRR (with Exit)** | **78%** | **66%** | **87%** |
+| **Year 5 Enterprise Value** | **$81,200,000** | -- | -- |
+| **5-Year MOIC (incl. Exit)** | **7.8x** | **5.5x** | **10.0x** |
+| Year 1 Cash-on-Cash Return | 37.4% | 31.2% | 43.6% |
+| Payback Period | ~1.8 years | ~2.3 years | ~1.4 years |
+| 5-Year Cumulative Net Income | $45,102,667 | $37,585,556 | $52,619,778 |
 
 ### 10.2 Net Present Value Analysis
 
@@ -332,9 +335,9 @@ The 15% contingency provides a buffer against cost overruns, supply chain delays
 
 | Scenario | Occupancy Adjustment | IRR Impact | MOIC Impact |
 |----------|---------------------|------------|-------------|
-| Bull Case (+10% occupancy) | +10% across all years | +8-12% | +1.1x |
-| Base Case | As modeled | 73.50% | 6.69x |
-| Conservative (-10% occupancy) | -10% across all years | 66.54% | 4.65x |
+| Aggressive Case | Higher occupancy ramp | 87% | 10.0x |
+| Base Case | As modeled | 78% | 7.8x |
+| Conservative Case | Lower occupancy ramp | 66% | 5.5x |
 | Bear Case (-20% occupancy) | -20% across all years | 52% | 3.5x |
 | ADR Sensitivity (+$500/day) | Flat occupancy, +$500 ADR | +15-20% | +1.5x |
 | ADR Sensitivity (-$500/day) | Flat occupancy, -$500 ADR | -18-22% | -1.3x |
@@ -348,7 +351,7 @@ The 15% contingency provides a buffer against cost overruns, supply chain delays
 | Risk | Probability | Impact | Mitigation |
 |------|-------------|--------|------------|
 | **Renovation cost overrun** | Moderate | Medium | 15% contingency ($847,500), phased approach reduces exposure |
-| **Construction timeline delay** | Moderate | Medium | Phase 1 opens at 16 rooms; Phase 2 completes while revenue generates |
+| **Construction timeline delay** | Moderate | Medium | Phase 1 opens at 15 casitas; expansion to 60 casitas phased over 5 years while revenue generates |
 | **Jungle infrastructure challenges** | Moderate | Low-Medium | Generator power, water treatment, experienced local contractors |
 | **Hurricane/weather damage** | Low | High | Comprehensive insurance, jungle canopy provides wind break, reinforced construction |
 | **Title/ownership complications** | Low | High | Title insurance, fideicomiso structure, comprehensive due diligence |
@@ -361,7 +364,7 @@ The 15% contingency provides a buffer against cost overruns, supply chain delays
 
 | Risk | Probability | Impact | Mitigation |
 |------|-------------|--------|------------|
-| **Occupancy below projections** | Low-Moderate | Medium | Break-even at 14.5%, substantial margin of safety |
+| **Occupancy below projections** | Low-Moderate | Medium | Break-even at ~3% (~25 guests/year), substantial margin of safety |
 | **Competitive entry** | Moderate | Low-Medium | Medical-grade + plant medicine moat, first-mover advantage |
 | **Reputational risk (adverse event)** | Low | Critical | ICU capability, screening protocols, insurance, crisis management plan |
 | **Staff recruitment in Tulum** | Moderate | Medium | Competitive compensation, staff housing on-site, Mexico City recruitment |
@@ -378,13 +381,13 @@ Based on the comprehensive assessment presented in this document, the recommenda
 **Supporting rationale:**
 
 1. **Highest score** of all evaluated properties at 88/100
-2. **Strongest financial returns** with 73.50% IRR and 6.69x MOIC (base case), producing $87.9M enterprise value at Year 5
-3. **Exceptional capacity** of 30 rooms supporting $13.14M Year 1 revenue
-4. **Best cost efficiency** at $459,117 per room
+2. **Strongest financial returns** with 78% IRR and 7.8x MOIC (base case), producing $81.2M enterprise value at Year 5
+3. **Exceptional capacity** of 60 casitas (phased 15→60) supporting $10.3M Year 1 revenue
+4. **Best cost efficiency** at $249,225 per casita at full build
 5. **Unmatched expansion potential** on 45,000 m2 across 9 lots
 6. **Perfect brand alignment** with jungle/cenote setting for healing environment
-7. **Phased de-risk strategy** generating revenue from Month 7
-8. **Low break-even** of 14.5% occupancy provides substantial safety margin
+7. **Phased de-risk strategy** with casita build-out scaling from 15 to 60 over 5 years
+8. **Low break-even** of ~3% occupancy (~25 guests/year) provides substantial safety margin
 
 ### Immediate Next Steps
 

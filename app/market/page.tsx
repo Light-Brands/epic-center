@@ -230,11 +230,11 @@ export default function MarketPage() {
               </h3>
               <div className="space-y-6">
                 {[
-                  { label: 'Average Treatment Program', value: '$35,000-$75,000', note: '10-21 day programs' },
-                  { label: 'Revenue per Guest', value: '$48,138', note: 'Blended average' },
-                  { label: 'Gross Margin per Guest', value: '$35,538', note: '74% gross margin' },
+                  { label: 'Average Treatment Program', value: '$14,000-$56,000', note: '7-28 day programs' },
+                  { label: 'Revenue per Guest', value: '$26,600', note: 'Weighted average (13-day stay)' },
+                  { label: 'Gross Margin per Guest', value: '$21,971', note: '83% gross margin' },
                   { label: 'Customer Acquisition Cost', value: '$2,613', note: 'Blended CAC' },
-                  { label: 'LTV:CAC Ratio', value: '13.6x', note: 'Strong unit economics' },
+                  { label: 'LTV:CAC Ratio', value: '13.0x', note: 'Strong unit economics' },
                 ].map((metric) => (
                   <div key={metric.label} className="flex justify-between items-center pb-4 border-b border-neutral-200 last:border-0">
                     <div>

@@ -5,10 +5,10 @@
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                                                                             │
-│              $26.6K            60→80%            $13.1M            73.50%   │
+│              $26.6K            60→80%            $13.1M            78%   │
 │         ───────────       ───────────       ───────────       ───────────  │
 │          Wtd Avg Rev       Occupancy          Y1 Revenue        Base Case  │
-│          Per Guest         (Y1→Y3-5)         (30 rooms)         IRR        │
+│          Per Guest         (Y1→Y3-5)         (60 casitas, phased 15→60)         IRR        │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -52,10 +52,10 @@
 │   │   OPTION A: Jungle Estate Only            OPTION B: Dual Strategy   │  │
 │   │   ──────────────────────                 ─────────────────────     │  │
 │   │                                                                     │  │
-│   │   Total Investment: $13.8M               Total: $32.9M             │  │
-│   │   Rooms: 30                              Rooms: 40+                 │  │
-│   │   5-Yr Revenue: $82.1M                   Y5 Revenue: $21.0M        │  │
-│   │   5-Year IRR: 73.50%                     Blended IRR: ~65%+        │  │
+│   │   Total Investment: $14.95M               Total: $32.9M             │  │
+│   │   Casitas: 60 (phased 15→60)                              Rooms: 40+                 │  │
+│   │   5-Yr Revenue: $81.2M                   Y5 Revenue: $21.0M        │  │
+│   │   5-Year IRR: 78%                     Blended IRR: ~65%+        │  │
 │   │                                                                     │  │
 │   │   ✅ Lower capital requirement           ✅ Tier diversification    │  │
 │   │   ✅ Faster to profitability             ✅ HNW + UHNW markets     │  │
@@ -93,7 +93,7 @@
 | Scenario | Occupancy | Revenue Y2 | 5-Year IRR | NPV |
 |----------|-----------|------------|------------|-----|
 | **Conservative** | 55→70% | $13.1M Y1 | 66.54% | $11.2M |
-| **Base Case** | 60→80% | $13.1M Y1 | 73.50% | $15.8M |
+| **Base Case** | 60→80% | $13.1M Y1 | 78% | $15.8M |
 | **Aggressive** | 65→85% | $13.1M Y1 | 80.09% | $21.4M |
 
 #### Detailed Revenue Breakdown (Year 2 Base Case)
@@ -211,7 +211,7 @@
 │                                                                             │
 │   SEED ROUND (Current Raise)                                               │
 │   ──────────────────────────────────────────────────────────────────────   │
-│   Amount:              $13,773,500                                         │
+│   Amount:              $14,953,500                                         │
 │   Instrument:          Preferred Equity (Series Seed)                      │
 │                                                                             │
 │   Use of Funds:                                                            │
@@ -286,10 +286,10 @@
 │   • Working capital: 15 days of operating expenses                         │
 │                                                                             │
 │   RETURN METRICS (5-Year Hold)                                             │
-│   • IRR: 73.50% (base case)                                                │
-│   • MOIC: 6.69x                                                            │
+│   • IRR: 78% (base case)                                                │
+│   • MOIC: 7.8x                                                            │
 │   • Exit multiple assumption: 5.5x EBITDA (single location)               │
-│   • 5-Year Revenue: $82,140,800                                            │
+│   • 5-Year Revenue: $81,200,000                                            │
 │   • 5-Year Net Income: $33,472,811                                         │
 │   • Y5 EBITDA: $10,433,610                                                 │
 │   • Y5 Enterprise Value (Base): $87,924,380                                │

@@ -60,15 +60,17 @@ The total capital requirement for the Transformational Epicenter project has bee
 
 | Component | Amount | % of Total |
 |-----------|--------|------------|
-| Acquisition | $6,150,000 | 45% |
-| Renovation | $4,050,000 | 29% |
-| Medical Equipment | $750,000 | 5% |
-| FF&E | $600,000 | 4% |
-| Technology | $50,000 | 0% |
-| Pre-opening | $200,000 | 1% |
-| Working Capital | $1,126,000 | 8% |
-| Contingency | $847,500 | 6% |
-| **Total Capital Required** | **$13,773,500** | **100%** |
+| Property Acquisition | $6,150,000 | 41.1% |
+| Renovation | $4,050,000 | 27.1% |
+| Technology Platform | $1,230,000 | 8.2% |
+| Working Capital | $1,126,000 | 7.5% |
+| Contingency | $847,500 | 5.7% |
+| Medical Equipment | $750,000 | 5.0% |
+| FF&E | $600,000 | 4.0% |
+| Pre-Opening | $200,000 | 1.3% |
+| **Total Capital Required** | **$14,953,500** | **100%** |
+
+*Technology Platform includes $1,000,000 AI platform and $230,000 physical infrastructure.*
 
 ### Capital Structure Considerations
 
