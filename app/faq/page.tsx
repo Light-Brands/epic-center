@@ -107,7 +107,7 @@ const FAQS: FAQ[] = [
   {
     category: 'Team',
     question: 'Who is the management team?',
-    answer: 'Nicholas Courchesne (Founder/CEO) and Jason Sparks (Co-Founder/COO) lead the venture, supported by Dan Lawless as Technical Lead, Dr. Mariana Hoyo as Chief Medical Officer, and a growing team of dedicated professionals.',
+    answer: 'Nicholas Courchesne (Founder/CEO) and Jason Sparks (Co-Founder/COO) lead the venture, supported by Dan Lawless as Technical Lead, Dr. Mariana Hoyo as Chief Medical Advisor, and a growing team of dedicated professionals.',
   },
   {
     category: 'Team',

@@ -367,7 +367,7 @@ Published clinical outcomes justify premium pricing and build institutional trus
 |------|------|------------|
 | **Nicholas Courchesne** | Founder & CEO | Strategic vision, wellness/hospitality networks, plant medicine transformation journey |
 | **Jason Sparks** | Co-Founder & COO | Luxury resort operations, guest experience optimization |
-| **Dr. Mariana Hoyo** | Chief Medical Officer | General Physician (Universidad Anahuac), Master's Healthcare Management, Medicinal Cannabis certification |
+| **Dr. Mariana Hoyo** | Chief Medical Advisor | General Physician (Universidad Anahuac), Master's Healthcare Management, Medicinal Cannabis certification |
 | **Dan Lawless** | Technical Lead | 20+ years full-stack development, technology strategy |
 | **Eyob Mebrahtu** | Head of Marketing | Luxury wellness and transformation brand specialist |
 | **Julien Leblanc** | Medicine Advocate | Professional MMA fighter, plant medicine advocate |

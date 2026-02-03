@@ -94,7 +94,7 @@ A central feature of the financial model is the phased casita build-out, which a
 |------|------|------------|
 | **Nicholas Courchesne** | Founder & CEO | Strategic vision, deep wellness/hospitality networks, personal plant medicine transformation journey, master relationship builder |
 | **Jason Sparks** | Co-Founder & COO | Luxury resort operations expertise, guest experience optimization, operational excellence |
-| **Dr. Mariana Hoyo** | Chief Medical Officer | General Physician (Universidad Anahuac), Master's in Healthcare Management, Medicinal Cannabis certification, ThetaHealing certification |
+| **Dr. Mariana Hoyo** | Chief Medical Advisor | General Physician (Universidad Anahuac), Master's in Healthcare Management, Medicinal Cannabis certification, ThetaHealing certification |
 | **Dan Lawless** | Technical Lead & Solution Architect | 20+ years full-stack development, technology strategy |
 | **Eyob Mebrahtu** | Head of Marketing | Luxury wellness and transformation brand specialist |
 | **Julien Leblanc** | Medicine Advocate | Professional MMA fighter, plant medicine advocate, built-in audience reach |

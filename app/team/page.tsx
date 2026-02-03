@@ -44,7 +44,7 @@ const LEADERSHIP_TEAM = [
   },
   {
     name: 'Dr. Mariana Hoyo',
-    role: 'Chief Medical Officer',
+    role: 'Chief Medical Advisor',
     focus: 'Medical & Integration',
     bio: 'General Physician from Universidad Anáhuac México Norte with a Master\'s in Healthcare Management. Certified in Medicinal Cannabis and ThetaHealing, she provides holistic care for physical, mental, and emotional well-being.',
     caseStudy: null,
