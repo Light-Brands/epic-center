@@ -9,13 +9,13 @@ export default function GalleryPage() {
     <div className="relative w-full h-[100dvh] bg-black">
       {/* Prev / Next overlay */}
       <Link
-        href="/technology/data"
+        href="/virtual-tour"
         className="absolute top-5 left-5 z-30 flex items-center gap-2
                    text-white/60 hover:text-white transition-colors
                    font-accent text-xs uppercase tracking-widest"
       >
         <ArrowLeft className="w-4 h-4" />
-        Data & Intelligence
+        Property Tour
       </Link>
 
       <Link

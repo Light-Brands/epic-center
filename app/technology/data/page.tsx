@@ -851,9 +851,9 @@ export default function DataIntelligencePage() {
               <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
               <span className="font-accent text-sm uppercase tracking-wide">The Platform</span>
             </Link>
-            <Link href="/gallery">
+            <Link href="/virtual-tour">
               <Button variant="primary">
-                Gallery
+                Property Tour
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
             </Link>
