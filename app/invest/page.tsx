@@ -240,10 +240,12 @@ export default function InvestPage() {
                 <step.icon className="w-8 h-8 text-primary-600 mb-4" />
                 <h4 className="text-lg font-medium text-neutral-900 mb-2">{step.title}</h4>
                 <p className="text-neutral-600 mb-6">{step.description}</p>
-                <Button variant="secondary" size="sm">
-                  {step.cta}
-                  <ArrowRight className="ml-2 w-4 h-4" />
-                </Button>
+                <a href="mailto:nicholas@lightbrands.ai">
+                  <Button variant="secondary" size="sm">
+                    {step.cta}
+                    <ArrowRight className="ml-2 w-4 h-4" />
+                  </Button>
+                </a>
               </Card>
             ))}
           </div>
@@ -260,18 +262,22 @@ export default function InvestPage() {
                   Limited allocation available.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <Button variant="primary" size="lg">
-                    <Calendar className="mr-2 w-5 h-5" />
-                    Schedule Call
-                  </Button>
-                  <Button
-                    variant="secondary"
-                    size="lg"
-                    className="border-primary-800 text-primary-800 hover:bg-primary-800 hover:text-white"
-                  >
-                    <Mail className="mr-2 w-5 h-5" />
-                    Contact Us
-                  </Button>
+                  <a href="mailto:nicholas@lightbrands.ai">
+                    <Button variant="primary" size="lg">
+                      <Calendar className="mr-2 w-5 h-5" />
+                      Schedule Call
+                    </Button>
+                  </a>
+                  <a href="mailto:nicholas@lightbrands.ai">
+                    <Button
+                      variant="secondary"
+                      size="lg"
+                      className="border-primary-800 text-primary-800 hover:bg-primary-800 hover:text-white"
+                    >
+                      <Mail className="mr-2 w-5 h-5" />
+                      Contact Us
+                    </Button>
+                  </a>
                 </div>
               </div>
               <div className="text-center md:text-right">
@@ -281,7 +287,7 @@ export default function InvestPage() {
                 <div className="mt-4 space-y-1 text-primary-800">
                   <p className="flex items-center justify-center md:justify-end gap-2">
                     <Mail className="w-4 h-4" />
-                    invest@transformational-epicenter.com
+                    nicholas@lightbrands.ai
                   </p>
                 </div>
               </div>

@@ -28,7 +28,7 @@ export const PROPERTY_GATES: Record<string, PropertyGate[]> = {
   'rancho-paraiso-oasis': [
     { name: 'Legal Clear Title', status: 'pass', notes: 'All 9 lots verified through legal counsel' },
     { name: 'Zoning Compliance', status: 'pass', notes: 'Commercial hospitality permitted' },
-    { name: 'Medical Infrastructure', status: 'conditional', notes: 'Medical + Biohacking build-out required ($750K budgeted)' },
+    { name: 'Medical Infrastructure', status: 'conditional', notes: 'Medical + Biohacking build-out required ($1M budgeted)' },
     { name: 'Emergency Access', status: 'pass', notes: 'Road access to Tulum hospitals' },
     { name: 'Privacy Requirements', status: 'pass', notes: '45,000 m² jungle compound - exceptional privacy' },
     { name: 'Environmental Compliance', status: 'pass', notes: 'SEMARNAT permits in order' },

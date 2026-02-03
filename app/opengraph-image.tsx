@@ -84,7 +84,7 @@ export default async function Image() {
           }}
         >
           {[
-            { label: 'Total Raise', value: '$14.95M' },
+            { label: 'Total Raise', value: '$16.8M' },
             { label: 'Project IRR', value: '78%' },
             { label: '5-Year MOIC', value: '7.8x' },
             { label: 'Y5 Enterprise Value', value: '$81.2M' },

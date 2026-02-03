@@ -81,7 +81,7 @@ export default function PropertiesPage() {
                 <p className="text-primary-200 max-w-xl">
                   A phased development opportunity: 15 casitas operational at launch, expanding
                   to 60 over 5 years. Expansion funded from operating cash flow. Total seed investment
-                  of {formatCurrency(15573500)} for acquisition, build-out, and technology.
+                  of {formatCurrency(16823500)} for acquisition, build-out, and technology.
                 </p>
               </div>
               <Link href={`/properties/${property.id}`}>
@@ -129,13 +129,13 @@ export default function PropertiesPage() {
               <h4 className="font-heading text-lg text-neutral-900 mb-4">Capital Allocation</h4>
               <div className="space-y-3">
                 {[
-                  { label: 'Property Acquisition', value: '$10,900,000', pct: '70.0%' },
-                  { label: 'Working Capital', value: '$1,126,000', pct: '7.2%' },
-                  { label: 'Renovation & Conversion', value: '$1,000,000', pct: '6.4%' },
-                  { label: 'Contingency', value: '$847,500', pct: '5.4%' },
-                  { label: 'Technology', value: '$750,000', pct: '4.8%' },
-                  { label: 'Medical + Biohacking', value: '$750,000', pct: '4.8%' },
-                  { label: 'Pre-Opening', value: '$200,000', pct: '1.3%' },
+                  { label: 'Property Acquisition', value: '$11,900,000', pct: '70.7%' },
+                  { label: 'Working Capital', value: '$1,126,000', pct: '6.7%' },
+                  { label: 'Renovation & Conversion', value: '$1,000,000', pct: '5.9%' },
+                  { label: 'Contingency', value: '$847,500', pct: '5.0%' },
+                  { label: 'Technology', value: '$750,000', pct: '4.5%' },
+                  { label: 'Medical + Biohacking', value: '$1,000,000', pct: '5.9%' },
+                  { label: 'Pre-Opening', value: '$200,000', pct: '1.2%' },
                 ].map((item) => (
                   <div key={item.label} className="flex justify-between items-center py-2 border-b border-neutral-100 last:border-0">
                     <span className="text-neutral-700">{item.label}</span>
@@ -148,7 +148,7 @@ export default function PropertiesPage() {
                 <div className="pt-3 border-t-2 border-primary-800">
                   <div className="flex justify-between items-center">
                     <span className="font-medium text-neutral-900">Total Investment</span>
-                    <span className="font-heading text-2xl text-primary-800">$15,573,500</span>
+                    <span className="font-heading text-2xl text-primary-800">$16,823,500</span>
                   </div>
                 </div>
               </div>
@@ -211,6 +211,26 @@ export default function PropertiesPage() {
               </Card>
             ))}
           </div>
+        </section>
+
+        {/* Location Map */}
+        <section className="mb-16">
+          <h3 className="text-2xl font-heading text-neutral-900 mb-2">Location</h3>
+          <p className="text-neutral-600 mb-6">
+            Calle Perico Lts 79-80, Av Las Palmas, Akumal, Tulum, Q.R. 77776, Mexico
+          </p>
+          <Card padding="none" className="overflow-hidden">
+            <iframe
+              src="https://www.google.com/maps/d/embed?mid=1zWdhsKxu79V9pHnFDfXNA3M_48-rPUw&ll=20.46140448887278,-87.2875594&z=18"
+              width="100%"
+              height="500"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Rancho Paraiso Oasis - Master Overview Map"
+            />
+          </Card>
         </section>
 
         {/* Navigation */}

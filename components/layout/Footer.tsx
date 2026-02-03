@@ -92,20 +92,28 @@ export function Footer() {
             </p>
             <div className="space-y-4">
               <a
-                href="mailto:invest@transformational-epicenter.com"
+                href="mailto:nicholas@lightbrands.ai"
                 className="group flex items-center gap-3 text-primary-200/80 hover:text-secondary-400 transition-colors duration-300"
               >
                 <div className="w-10 h-10 rounded-xl bg-primary-800/50 flex items-center justify-center group-hover:bg-secondary-500/20 transition-colors duration-300">
                   <Mail className="w-4 h-4" />
                 </div>
-                <span className="text-sm">invest@transformational-epicenter.com</span>
+                <span className="text-sm">nicholas@lightbrands.ai</span>
               </a>
-              <div className="flex items-center gap-3 text-primary-200/80">
-                <div className="w-10 h-10 rounded-xl bg-primary-800/50 flex items-center justify-center">
+              <a
+                href="https://www.google.com/maps/d/u/0/edit?mid=1zWdhsKxu79V9pHnFDfXNA3M_48-rPUw&ll=20.46140448887278%2C-87.2875594&z=18"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-start gap-3 text-primary-200/80 hover:text-secondary-400 transition-colors duration-300"
+              >
+                <div className="w-10 h-10 rounded-xl bg-primary-800/50 flex items-center justify-center group-hover:bg-secondary-500/20 transition-colors duration-300 shrink-0">
                   <MapPin className="w-4 h-4" />
                 </div>
-                <span className="text-sm">Tulum, Quintana Roo, Mexico</span>
-              </div>
+                <span className="text-sm leading-relaxed">
+                  Calle Perico Lts 79-80, Av Las Palmas<br />
+                  Akumal, Tulum, Q.R. 77776, Mexico
+                </span>
+              </a>
             </div>
           </div>
 

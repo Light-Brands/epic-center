@@ -71,9 +71,9 @@ export const PROPERTIES: Property[] = [
     },
     acquisition: {
       askingPrice: 11900000,
-      negotiatedPrice: 10900000,
+      negotiatedPrice: 11900000,
       closingCosts: 0,
-      totalAcquisitionCost: 10900000,
+      totalAcquisitionCost: 11900000,
     },
     imageUrl: '/images/properties/hotel-alea-tulum.jpg',
   },
@@ -89,9 +89,9 @@ export const DASHBOARD_METRICS: DashboardMetrics = {
   recommendation: 'PROCEED',
   averageDailyRate: 2000,
   keyMetrics: {
-    acquisitionPrice: 10900000,
-    totalProjectCost: 15573500,
-    costPerRoom: 259558, // $15,573,500 / 60 rooms at full build
+    acquisitionPrice: 11900000,
+    totalProjectCost: 16823500,
+    costPerRoom: 280392, // $16,823,500 / 60 rooms at full build
     revenue: {
       year1: { conservative: 8240000, base: 10300000, aggressive: 11330000 },
       year3: { conservative: 21040000, base: 26300000, aggressive: 28930000 },
@@ -359,52 +359,52 @@ export const UNIT_ECONOMICS: UnitEconomics = {
 }
 
 // Investment returns - updated for casita phasing model
-// Total investment: $15,573,500 | Y5 EV (base): $81.2M | MOIC: 7.5x
+// Total investment: $16,823,500 | Y5 EV (base): $81.2M | MOIC: 7.5x
 // 5-year cumulative net income: ~$45.1M
 export const INVESTMENT_RETURNS: InvestmentReturns = {
-  totalCapitalRequired: 15573500,
-  equityInvestment: 15573500,
+  totalCapitalRequired: 16823500,
+  equityInvestment: 16823500,
   debtFinancing: 0,
   yearlyReturns: [
     {
       year: 1,
-      totalInvestment: 15573500,
+      totalInvestment: 16823500,
       annualNetIncome: 2537260,
       cumulativeNetIncome: 2537260,
-      roiCumulative: 0.163,
-      roiAnnualized: 0.163,
+      roiCumulative: 0.151,
+      roiAnnualized: 0.151,
     },
     {
       year: 2,
-      totalInvestment: 15573500,
+      totalInvestment: 16823500,
       annualNetIncome: 7052462,
       cumulativeNetIncome: 9589722,
-      roiCumulative: 0.616,
-      roiAnnualized: 0.308,
+      roiCumulative: 0.570,
+      roiAnnualized: 0.285,
     },
     {
       year: 3,
-      totalInvestment: 15573500,
+      totalInvestment: 16823500,
       annualNetIncome: 10144819,
       cumulativeNetIncome: 19734541,
-      roiCumulative: 1.267,
-      roiAnnualized: 0.422,
+      roiCumulative: 1.173,
+      roiAnnualized: 0.391,
     },
     {
       year: 4,
-      totalInvestment: 15573500,
+      totalInvestment: 16823500,
       annualNetIncome: 11947674,
       cumulativeNetIncome: 31682215,
-      roiCumulative: 2.034,
-      roiAnnualized: 0.509,
+      roiCumulative: 1.883,
+      roiAnnualized: 0.471,
     },
     {
       year: 5,
-      totalInvestment: 15573500,
+      totalInvestment: 16823500,
       annualNetIncome: 13420452,
       cumulativeNetIncome: 45102667,
-      roiCumulative: 2.896,
-      roiAnnualized: 0.579,
+      roiCumulative: 2.681,
+      roiAnnualized: 0.536,
     },
   ],
   npv: {
@@ -417,13 +417,13 @@ export const INVESTMENT_RETURNS: InvestmentReturns = {
 }
 
 // Use of funds from valuation report Section 6
-// Total: $15,573,500
+// Total: $16,823,500
 export const USE_OF_FUNDS: UseOfFunds[] = [
-  { category: 'Property Acquisition', amount: 10900000, percentage: 70.0, description: '$11.9M asking, negotiated to $10.9M (all-in)' },
-  { category: 'Working Capital', amount: 1126000, percentage: 7.2, description: 'Operating runway' },
-  { category: 'Renovation & Conversion', amount: 1000000, percentage: 6.4, description: 'Renovations to make property operational' },
-  { category: 'Contingency', amount: 847500, percentage: 5.4, description: 'Risk buffer' },
-  { category: 'Technology', amount: 750000, percentage: 4.8, description: 'Tech development' },
-  { category: 'Medical + Biohacking', amount: 750000, percentage: 4.8, description: 'ICU/monitoring, diagnostic, IV systems, biohacking equipment' },
-  { category: 'Pre-Opening', amount: 200000, percentage: 1.3, description: 'Licensing, training, soft launch' },
+  { category: 'Property Acquisition', amount: 11900000, percentage: 70.7, description: '$11.9M acquisition price (all-in)' },
+  { category: 'Working Capital', amount: 1126000, percentage: 6.7, description: 'Operating runway' },
+  { category: 'Renovation & Conversion', amount: 1000000, percentage: 5.9, description: 'Renovations to make property operational' },
+  { category: 'Contingency', amount: 847500, percentage: 5.0, description: 'Risk buffer' },
+  { category: 'Technology', amount: 750000, percentage: 4.5, description: 'Tech development' },
+  { category: 'Medical + Biohacking', amount: 1000000, percentage: 5.9, description: 'ICU/monitoring, diagnostic, IV systems, biohacking equipment' },
+  { category: 'Pre-Opening', amount: 200000, percentage: 1.2, description: 'Licensing, training, soft launch' },
 ]

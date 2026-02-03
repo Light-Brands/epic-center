@@ -213,6 +213,28 @@ export default async function PropertyPage({ params }: PropertyPageProps) {
 
       </div>
 
+      {/* Location Map */}
+      <div className="w-full sm:w-[70vw] mx-auto pb-4">
+        <section className="mb-12">
+          <h3 className="text-2xl font-heading text-neutral-900 mb-2">Location</h3>
+          <p className="text-neutral-600 mb-6">
+            Calle Perico Lts 79-80, Av Las Palmas, Akumal, Tulum, Q.R. 77776, Mexico
+          </p>
+          <Card padding="none" className="overflow-hidden">
+            <iframe
+              src="https://www.google.com/maps/d/embed?mid=1zWdhsKxu79V9pHnFDfXNA3M_48-rPUw&ll=20.46140448887278,-87.2875594&z=18"
+              width="100%"
+              height="500"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Rancho Paraiso Oasis - Master Overview Map"
+            />
+          </Card>
+        </section>
+      </div>
+
       <div className="w-full sm:w-[70vw] mx-auto py-12">
         {/* Page Navigation */}
         <div className="flex justify-between items-center pt-8 border-t border-neutral-200">
