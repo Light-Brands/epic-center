@@ -1,6 +1,6 @@
 # TRANSFORMATIONAL EPICENTER
 
-## Riviera Maya Jungle Estate
+## Rancho Paraiso Oasis
 
 ### Sensitivity Analysis
 
@@ -62,7 +62,7 @@ Four scenarios are modeled with assigned probabilities reflecting management's a
 
 **Base Case (50% probability)** -- The central projection using the phased casita model (15 to 60 casitas over five years) with 60% Year 1 occupancy ramping to 80% by Year 3. Revenue grows from $10,300,000 in Year 1 to $34,000,000 in Year 5 ($120,700,000 cumulative). Pricing holds at $2,000/day ($26,600 average per guest) with no escalation. EBITDA expands from $4,301,800 (42% margin) to $20,299,217 (60% margin) as operating leverage builds. This scenario reflects management's best estimate of achievable performance, projecting a 78% IRR, 7.8x MOIC, and Y5 enterprise value of $81,200,000.
 
-**Aggressive (20% probability)** -- Models faster market penetration with higher occupancy and potential pricing upside. Assumes Year 1 occupancy of ~66% (426 guests, $11,330,000 revenue), stabilizing at ~88% by Year 5 ($37,400,000 revenue). This case reflects a scenario where the Riviera Maya Jungle Estate rapidly establishes itself as the definitive luxury plant medicine destination, benefiting from strong word-of-mouth referrals and media attention. Projects an 87% IRR, 10.0x MOIC, and $132,770,000 in cumulative 5-year revenue.
+**Aggressive (20% probability)** -- Models faster market penetration with higher occupancy and potential pricing upside. Assumes Year 1 occupancy of ~66% (426 guests, $11,330,000 revenue), stabilizing at ~88% by Year 5 ($37,400,000 revenue). This case reflects a scenario where the Rancho Paraiso Oasis rapidly establishes itself as the definitive luxury plant medicine destination, benefiting from strong word-of-mouth referrals and media attention. Projects an 87% IRR, 10.0x MOIC, and $132,770,000 in cumulative 5-year revenue.
 
 **Downside (5% probability)** -- A stress scenario modeling severe demand disruption, potentially caused by a combination of adverse regulatory changes, a safety incident affecting industry reputation, or a significant macroeconomic downturn reducing luxury discretionary spending. Assumes Year 5 revenue of approximately $17,000,000 (~50% of base case) with compressed margins. Even this extreme scenario produces positive returns (~20% IRR, ~2.5x MOIC) due to real asset backing, high gross margins, and the phased capital deployment model. It is assigned a 5% probability reflecting its tail-risk nature.
 
@@ -176,7 +176,7 @@ The Transformational Epicenter investment thesis incorporates multiple layers of
 
 **1. Real Asset Backing**
 
-The Riviera Maya Jungle Estate provides tangible collateral with a property acquisition cost of $6,150,000. In a liquidation scenario, the improved property (post-renovation) would have an estimated fair market value of $8-$10M, providing significant capital recovery even in a complete operational failure.
+The Rancho Paraiso Oasis provides tangible collateral with a property acquisition cost of $6,150,000. In a liquidation scenario, the improved property (post-renovation) would have an estimated fair market value of $8-$10M, providing significant capital recovery even in a complete operational failure.
 
 | Downside Scenario | Estimated Recovery | % of Capital ($14.95M) |
 |--------------------|-------------------|------------------------|

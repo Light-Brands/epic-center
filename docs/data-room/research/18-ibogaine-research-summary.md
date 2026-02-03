@@ -379,7 +379,7 @@ Mexico offers the optimal regulatory environment for ibogaine-assisted therapy:
 4. **HNW willingness to pay:** Ultra-high-net-worth individuals are increasingly seeking evidence-based alternatives to conventional psychiatry
 5. **Regulatory tailwinds:** Texas $50M allocation, FDA breakthrough designations for adjacent psychedelics, growing legislative momentum
 
-### 8.3 TE Financial Projections (Single Property -- Riviera Maya Jungle Estate)
+### 8.3 TE Financial Projections (Single Property -- Rancho Paraiso Oasis)
 
 | Metric | Value |
 |--------|-------|
@@ -431,5 +431,5 @@ Mexico offers the optimal regulatory environment for ibogaine-assisted therapy:
 ---
 
 **TRANSFORMATIONAL EPICENTER**
-Riviera Maya Jungle Estate | Tulum, Quintana Roo, Mexico
+Rancho Paraiso Oasis | Tulum, Quintana Roo, Mexico
 Document 18 of 21 | Data Room -- Research

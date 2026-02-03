@@ -28,7 +28,7 @@ const MILESTONES: Milestone[] = [
     id: 'property-acquisition',
     date: 'Q2 2026',
     title: 'Property Acquisition',
-    description: 'Acquire Riviera Maya Jungle Estate compound (9 lots, 45,000 m²)',
+    description: 'Acquire Rancho Paraiso Oasis compound (9 lots, 45,000 m²)',
     status: 'upcoming',
     category: 'acquisition',
   },

@@ -30,7 +30,7 @@
 **Confidential Investor Presentation**
 February 2026
 
-Riviera Maya Jungle Estate | Tulum, Quintana Roo, Mexico
+Rancho Paraiso Oasis | Tulum, Quintana Roo, Mexico
 
 invest@transformational-epicenter.com
 
@@ -225,7 +225,7 @@ A single location commands 4.0-6.0x EBITDA at exit. Multi-location platform expa
 
 ## Slide 9: The Property
 
-### Riviera Maya Jungle Estate -- Tulum, Quintana Roo, Mexico
+### Rancho Paraiso Oasis -- Tulum, Quintana Roo, Mexico
 
 | Specification | Detail |
 |--------------|--------|
@@ -411,7 +411,7 @@ Published clinical outcomes justify premium pricing and build institutional trus
 **Transformational Epicenter Holdings, LLC**
 invest@transformational-epicenter.com
 
-Riviera Maya Jungle Estate | Tulum, Quintana Roo, Mexico
+Rancho Paraiso Oasis | Tulum, Quintana Roo, Mexico
 
 ---
 
@@ -420,5 +420,5 @@ Riviera Maya Jungle Estate | Tulum, Quintana Roo, Mexico
 ---
 
 **TRANSFORMATIONAL EPICENTER**
-Riviera Maya Jungle Estate | Tulum, Quintana Roo, Mexico
+Rancho Paraiso Oasis | Tulum, Quintana Roo, Mexico
 Document 02 of 21 | Data Room -- Investment

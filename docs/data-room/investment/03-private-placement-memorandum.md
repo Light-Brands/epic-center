@@ -115,7 +115,7 @@ The Company intends to use the net proceeds of this offering approximately as fo
 
 | Category | Amount | % of Total | Description |
 |----------|--------|-----------|-------------|
-| **Property Acquisition** | $6,150,000 | 41.1% | Purchase of Riviera Maya Jungle Estate, Tulum, Q.R. |
+| **Property Acquisition** | $6,150,000 | 41.1% | Purchase of Rancho Paraiso Oasis, Tulum, Q.R. |
 | **Renovation & Build-Out** | $4,050,000 | 27.1% | Phased renovation of 60 casitas (15→60 over 5 years), medical suites, treatment rooms, bio-optimization labs, communal spaces |
 | **Technology Platform** | $1,230,000 | 8.2% | $1M AI personalization engine, digital ecosystem, electronic health records, guest portal, outcome tracking; $230K physical infrastructure |
 | **Working Capital Reserve** | $1,126,000 | 7.5% | Operating cash reserve to fund operations through cash-flow positive status |
@@ -464,5 +464,5 @@ By accepting this document, the recipient agrees to maintain its confidentiality
 ---
 
 **TRANSFORMATIONAL EPICENTER**
-Riviera Maya Jungle Estate | Tulum, Quintana Roo, Mexico
+Rancho Paraiso Oasis | Tulum, Quintana Roo, Mexico
 Document 03 of 21 | Data Room -- Investment

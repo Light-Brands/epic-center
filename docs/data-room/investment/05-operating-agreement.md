@@ -95,7 +95,7 @@ The registered agent and registered office of the Company in the State of Delawa
 
 The purpose of the Company is to:
 
-- Acquire, hold, manage, and operate medical wellness treatment facilities, including but not limited to the Riviera Maya Jungle Estate in Tulum, Quintana Roo, Mexico
+- Acquire, hold, manage, and operate medical wellness treatment facilities, including but not limited to the Rancho Paraiso Oasis in Tulum, Quintana Roo, Mexico
 - Hold 100% ownership interests in TE Operations Mexico, S.A. de C.V. and TE Real Estate Mexico, S.A. de C.V.
 - Provide medical-grade wellness services, including clinical medicine, plant medicine-assisted therapy, bio-optimization, and luxury hospitality, through its Mexican subsidiary entities
 - Engage in any and all activities that are lawful and necessary, incidental, or related to the foregoing purposes
@@ -618,5 +618,5 @@ By accepting this document, the recipient agrees to maintain its confidentiality
 ---
 
 **TRANSFORMATIONAL EPICENTER**
-Riviera Maya Jungle Estate | Tulum, Quintana Roo, Mexico
+Rancho Paraiso Oasis | Tulum, Quintana Roo, Mexico
 Document 05 of 21 | Data Room -- Investment

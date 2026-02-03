@@ -9,7 +9,7 @@
 **Document Date:** January 2026
 **Classification:** RESTRICTED - CONFIDENTIAL
 **Prepared For:** Prospective Investors & Strategic Partners
-**Property:** Riviera Maya Jungle Estate (Kaax Cenote)
+**Property:** Rancho Paraiso Oasis (Kaax Cenote)
 **Market Position:** Premium Tier -- Medical + Plant Medicine Integration
 
 ---

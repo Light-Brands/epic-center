@@ -49,7 +49,7 @@ The clinical evidence supporting psychedelic-assisted and integrative medicine h
 
 These are not marginal improvements. They represent a paradigm shift in the treatment of conditions that have historically resisted conventional intervention. Transformational Epicenter's protocol design integrates the most effective elements from these studies within a medically rigorous, luxury-appointed environment.
 
-**TE Financial Context (Riviera Maya Jungle Estate -- 60 Casitas, Phased 15→60):**
+**TE Financial Context (Rancho Paraiso Oasis -- 60 Casitas, Phased 15→60):**
 
 | Metric | Value |
 |--------|-------|
@@ -479,5 +479,5 @@ TE sets the following internal outcome targets based on published evidence, adju
 ---
 
 **TRANSFORMATIONAL EPICENTER**
-Riviera Maya Jungle Estate | Tulum, Quintana Roo, Mexico
+Rancho Paraiso Oasis | Tulum, Quintana Roo, Mexico
 Document 21 of 21 | Data Room -- Research

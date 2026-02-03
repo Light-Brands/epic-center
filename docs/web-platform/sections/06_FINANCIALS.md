@@ -17,7 +17,7 @@
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                                                                             │
-│   REVENUE TRAJECTORY (Riviera Maya Jungle Estate)                           │
+│   REVENUE TRAJECTORY (Rancho Paraiso Oasis)                           │
 │                                                                             │
 │   $20M ┤                                              ▲ $19.3M (Y5)       │
 │        │                                           ╱                        │

@@ -46,7 +46,7 @@ This gap is not incidental. It exists because the operational, regulatory, and c
 
 Transformational Epicenter is purpose-built to occupy this uncontested position, leveraging Mexico's favorable regulatory environment, the Riviera Maya's world-class tourism infrastructure, and a founding team with expertise spanning all four pillars.
 
-**TE Financial Summary (Riviera Maya Jungle Estate -- 60 Casitas, Phased 15→60):**
+**TE Financial Summary (Rancho Paraiso Oasis -- 60 Casitas, Phased 15→60):**
 
 | Metric | Value |
 |--------|-------|
@@ -541,5 +541,5 @@ The most significant long-term competitive threat is potential US legalization o
 ---
 
 **TRANSFORMATIONAL EPICENTER**
-Riviera Maya Jungle Estate | Tulum, Quintana Roo, Mexico
+Rancho Paraiso Oasis | Tulum, Quintana Roo, Mexico
 Document 20 of 21 | Data Room -- Research

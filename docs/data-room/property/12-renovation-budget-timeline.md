@@ -1,5 +1,5 @@
 # Renovation Budget & Timeline
-## Transformational Epicenter - Riviera Maya Jungle Estate
+## Transformational Epicenter - Rancho Paraiso Oasis
 
 ### Data Room Document 12 | Property Section
 
@@ -9,7 +9,7 @@
 **Document Date:** January 2026
 **Classification:** RESTRICTED - CONFIDENTIAL
 **Prepared For:** Prospective Investors & Strategic Partners
-**Property:** Riviera Maya Jungle Estate (Kaax Cenote)
+**Property:** Rancho Paraiso Oasis (Kaax Cenote)
 **Renovation Budget:** $4,050,000
 
 ---
@@ -32,7 +32,7 @@
 
 ## 1. EXECUTIVE SUMMARY
 
-The Riviera Maya Jungle Estate requires a **$4,050,000 renovation** to convert the undeveloped jungle compound into a fully operational medical wellness facility capable of serving up to 60 guests at full build-out across 7-to-28-day treatment programs, with casitas phased from 15 to 60 over 5 years. The renovation scope encompasses medical infrastructure, treatment spaces, guest amenities, staff facilities, and critical life-safety systems.
+The Rancho Paraiso Oasis requires a **$4,050,000 renovation** to convert the undeveloped jungle compound into a fully operational medical wellness facility capable of serving up to 60 guests at full build-out across 7-to-28-day treatment programs, with casitas phased from 15 to 60 over 5 years. The renovation scope encompasses medical infrastructure, treatment spaces, guest amenities, staff facilities, and critical life-safety systems.
 
 ### Budget at a Glance
 

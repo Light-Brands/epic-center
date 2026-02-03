@@ -14,7 +14,7 @@ export interface PropertyGate {
 }
 
 export const PROPERTY_SCORES: Record<string, PropertyScoreData[]> = {
-  'riviera-maya-jungle-estate': [
+  'rancho-paraiso-oasis': [
     { category: 'Location', score: 90, fullMark: 100 },
     { category: 'Infrastructure', score: 85, fullMark: 100 },
     { category: 'Medical Ready', score: 80, fullMark: 100 },
@@ -25,7 +25,7 @@ export const PROPERTY_SCORES: Record<string, PropertyScoreData[]> = {
 }
 
 export const PROPERTY_GATES: Record<string, PropertyGate[]> = {
-  'riviera-maya-jungle-estate': [
+  'rancho-paraiso-oasis': [
     { name: 'Legal Clear Title', status: 'pass', notes: 'All 9 lots verified through legal counsel' },
     { name: 'Zoning Compliance', status: 'pass', notes: 'Commercial hospitality permitted' },
     { name: 'Medical Infrastructure', status: 'conditional', notes: 'Medical suite build-out required ($750K budgeted)' },
@@ -46,7 +46,7 @@ export const PROPERTY_FINANCIALS: Record<string, {
   paybackYears: number
   guestsPerYear: { conservative: number; base: number; aggressive: number }
 }> = {
-  'riviera-maya-jungle-estate': {
+  'rancho-paraiso-oasis': {
     revenuePotential: { conservative: 14600000, base: 17520000, aggressive: 18620000 },
     renovationCost: 3450000,
     operatingCostPerYear: 3015000,
