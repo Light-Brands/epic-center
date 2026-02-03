@@ -5,7 +5,7 @@
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                                                                             │
-│              $26.6K            60→80%            $13.1M            78%   │
+│              $26.6K            60→80%            $10.3M            78%   │
 │         ───────────       ───────────       ───────────       ───────────  │
 │          Wtd Avg Rev       Occupancy          Y1 Revenue        Base Case  │
 │          Per Guest         (Y1→Y3-5)         (60 casitas, phased 15→60)         IRR        │
@@ -19,20 +19,20 @@
 │                                                                             │
 │   REVENUE TRAJECTORY (Rancho Paraiso Oasis)                           │
 │                                                                             │
-│   $20M ┤                                              ▲ $19.3M (Y5)       │
+│   $35M ┤                                              ▲ $34.0M (Y5)       │
 │        │                                           ╱                        │
-│   $18M ┤                                        ╱                          │
-│        │                                     ╱                              │
-│   $16M ┤                                  ╱                                │
-│        │                               ╱                                    │
-│   $14M ┤                            ╱                                      │
-│        │                         ╱                                          │
-│   $12M ┤                      ╱                                            │
-│        │                   ╱                                                │
-│   $10M ┤                ╱                                                  │
+│   $30M ┤                                        ╱                          │
+│        │                                     ╱  ▲ $30.5M (Y4)              │
+│   $25M ┤                                  ╱                                │
+│        │                         ▲ $26.3M (Y3)                              │
+│   $20M ┤                      ╱                                            │
+│        │          ▲ $19.6M (Y2)                                             │
+│   $15M ┤                ╱                                                  │
 │        │             ╱                                                      │
-│    $8M ┤          ╱                                                        │
-│        │       ╱  ▲ $13.1M (Y1)                                            │
+│   $10M ┤          ╱  ▲ $10.3M (Y1)                                        │
+│        │       ╱                                                            │
+│    $5M ┤    ╱                                                              │
+│        │ ╱                                                                  │
 │    $0M ┼───────────────────────────────────────────────────────────────    │
 │            Y1       Y2       Y3       Y4       Y5                          │
 │                                                                             │
@@ -54,7 +54,7 @@
 │   │                                                                     │  │
 │   │   Total Investment: $14.95M               Total: $32.9M             │  │
 │   │   Casitas: 60 (phased 15→60)                              Rooms: 40+                 │  │
-│   │   5-Yr Revenue: $81.2M                   Y5 Revenue: $21.0M        │  │
+│   │   5-Yr Revenue: $120.7M                  Y5 Revenue: $21.0M        │  │
 │   │   5-Year IRR: 78%                     Blended IRR: ~65%+        │  │
 │   │                                                                     │  │
 │   │   ✅ Lower capital requirement           ✅ Tier diversification    │  │
@@ -73,28 +73,28 @@
 │   UNIT ECONOMICS (Per Guest)                                                │
 │                                                                             │
 │   ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐      │
-│   │  REVENUE    │  │    CAC      │  │    LTV      │  │  PAYBACK    │      │
-│   │  $26,600    │  │   $2,500    │  │  $45,000+   │  │  12 months  │      │
+│   │  REVENUE    │  │    CAC      │  │    LTV      │  │  LTV:CAC    │      │
+│   │  $26,600    │  │   $2,613    │  │  $33,929    │  │  13.0x      │      │
 │   │  ─────────  │  │  ─────────  │  │  ─────────  │  │  ─────────  │      │
-│   │  Wtd avg    │  │  Via        │  │  Return     │  │  First      │      │
-│   │  per guest  │  │  referrals  │  │  visits +   │  │  customer   │      │
-│   │             │  │             │  │  referrals  │  │  profitable │      │
+│   │  Wtd avg    │  │  Blended    │  │  Return     │  │  Exceptional│      │
+│   │  per guest  │  │  acq. cost  │  │  visits +   │  │  unit       │      │
+│   │             │  │             │  │  referrals  │  │  economics  │      │
 │   └─────────────┘  └─────────────┘  └─────────────┘  └─────────────┘      │
 │                                                                             │
-│   Break-even Occupancy: 42%                                                │
+│   Break-even Occupancy: ~3% (25 guests/year)                               │
 │   Target Occupancy: 60% Y1 → 75% Y2 → 80% Y3-5 (base)                    │
-│   Guests: 494 Y1, 617 Y2, 659 Y3-5                                        │
+│   Guests: 387 Y1, 737 Y2, 988 Y3, 1,145 Y4, 1,280 Y5                     │
 │   Target Referral Rate: 40%+ (ambassador program)                          │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
 #### Scenario Analysis (Interactive Toggle)
-| Scenario | Occupancy | Revenue Y2 | 5-Year IRR | NPV |
-|----------|-----------|------------|------------|-----|
-| **Conservative** | 55→70% | $13.1M Y1 | 66.54% | $11.2M |
-| **Base Case** | 60→80% | $13.1M Y1 | 78% | $15.8M |
-| **Aggressive** | 65→85% | $13.1M Y1 | 80.09% | $21.4M |
+| Scenario | Occupancy | Y1 Revenue | 5-Year IRR | 5-Year MOIC |
+|----------|-----------|------------|------------|-------------|
+| **Conservative** | 50→70% | $8.24M | 66% | 5.5x |
+| **Base Case** | 60→80% | $10.3M | 78% | 7.8x |
+| **Aggressive** | 70→85% | $11.33M | 87% | 10.0x |
 
 #### Detailed Revenue Breakdown (Year 2 Base Case)
 ```
@@ -179,26 +179,27 @@
 │                                                                             │
 │                Y0        Y1        Y2        Y3        Y4        Y5         │
 │   ──────────────────────────────────────────────────────────────────────   │
-│   Revenue      —        1.8       5.1       8.2      12.1      15.1        │
-│   OpEx         —       (2.1)     (3.8)     (5.7)     (8.2)    (10.1)       │
-│   EBITDA       —       (0.3)      1.3       2.5       3.9       5.0        │
+│   Revenue      —       10.3      19.6      26.3      30.5      34.0        │
+│   COGS (17%)   —       (1.8)     (3.3)     (4.5)     (5.2)     (5.8)       │
+│   Gross Profit —        8.5      16.3      21.8      25.3      28.2        │
+│   OpEx         —       (4.2)     (5.4)     (6.4)     (7.2)     (7.9)       │
+│   EBITDA       —        4.3      10.9      15.4      18.1      20.3        │
 │                                                                             │
-│   CapEx       (6.4)    (1.2)     (0.5)     (1.8)     (0.6)     (0.8)       │
-│   D&A          —       (0.18)    (0.18)    (0.22)    (0.24)    (0.26)      │
-│   Interest     —       (0.05)    (0.12)    (0.10)    (0.08)    (0.05)      │
+│   D&A          —       (0.68)    (0.83)    (0.95)    (1.04)    (1.13)      │
+│   Tax (30%)    —       (1.09)    (3.02)    (4.35)    (5.12)    (5.75)      │
 │   ──────────────────────────────────────────────────────────────────────   │
-│   Net Income  (6.4)    (1.7)      0.5       0.4       3.0       3.9        │
+│   Net Income   —        2.5       7.1      10.1      11.9      13.4        │
 │                                                                             │
-│   + D&A        —        0.18      0.18      0.22      0.24      0.26       │
-│   - CapEx      6.4      1.2       0.5       1.8       0.6       0.8        │
-│   Δ WC         —       (0.1)     (0.2)     (0.3)     (0.2)     (0.1)       │
+│   + D&A        —        0.68      0.83      0.95      1.04      1.13       │
+│   - Exp CapEx  —         0       (2.25)    (1.80)    (1.35)    (1.35)      │
+│   - Maint CapEx —        0       (0.40)    (0.50)    (0.60)    (0.70)      │
 │   ──────────────────────────────────────────────────────────────────────   │
-│   FCF         (6.4)    (1.6)      0.5       0.3       3.0       4.1        │
+│   FCF          —        3.2       5.2       8.8      11.0      12.5        │
 │                                                                             │
-│   Cumulative  (6.4)    (8.0)     (7.5)     (7.2)     (4.2)     (0.1)       │
-│   Cash                                                                      │
+│   Cumulative   —        3.2       8.4      17.2      28.2      40.7        │
+│   FCF                                                                       │
 │                                                                             │
-│   Status:   INVEST   RAMP-UP  BREAKEVEN   GROWTH    SCALE   PROFITABLE    │
+│   Status:   INVEST   CASH+VE    GROWTH    GROWTH     SCALE   AT SCALE     │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -215,11 +216,14 @@
 │   Instrument:          Preferred Equity (Series Seed)                      │
 │                                                                             │
 │   Use of Funds:                                                            │
-│   • Property acquisition & renovation:      $5,509,400  (40%)              │
-│   • Platform development (MVP):             $4,132,050  (30%)              │
-│   • Team (12-18 month runway):              $2,066,025  (15%)              │
-│   • Marketing & growth:                     $1,377,350  (10%)              │
-│   • Legal & compliance:                       $688,675  (5%)               │
+│   • Property Acquisition:                   $6,150,000  (41.1%)            │
+│   • Renovation & Conversion:                $4,050,000  (27.1%)            │
+│   • Technology Platform:                    $1,230,000  (8.2%)             │
+│   • Working Capital:                        $1,126,000  (7.5%)             │
+│   • Contingency:                              $847,500  (5.7%)             │
+│   • Medical Equipment:                        $750,000  (5.0%)             │
+│   • FF&E:                                     $600,000  (4.0%)             │
+│   • Pre-Opening:                              $200,000  (1.3%)             │
 │                                                                             │
 │   ──────────────────────────────────────────────────────────────────────   │
 │                                                                             │
@@ -265,34 +269,34 @@
 │                                                                             │
 │   REVENUE DRIVERS                                                          │
 │   • Average daily rate: $2,000/guest (all-inclusive)                       │
-│   • Average stay: 15 days (weighted average across programs)               │
+│   • Average stay: 13 days (weighted average across programs)               │
 │   • Average revenue per guest: $26,600 (weighted average)                   │
 │   • Target occupancy ramp: Y1: 60% → Y2: 75% → Y3-5: 80% (base)           │
 │   • Referral rate: Y1: 20% → Y2: 30% → Y3+: 40%+                          │
-│   • Return visit rate: 30% within 24 months                                │
-│   • Price escalation: 3% annually (below inflation, market positioning)    │
+│   • Return visit rate: 18% within 24 months                                │
+│   • Price escalation: 0% (conservative; no increases modeled in base)      │
 │                                                                             │
 │   COST ASSUMPTIONS                                                         │
-│   • Labor: 36% of revenue (decreases to 32% at scale)                      │
-│   • COGS (F&B, supplies): 15% of revenue                                   │
-│   • Gross margin target: 60%+ (luxury wellness standard)                   │
-│   • EBITDA margin: Y1: -17% → Y2: 25% → Y5: 33%                           │
-│   • Customer acquisition cost: $2,500/guest (50% via referrals by Y3)      │
+│   • Direct costs (COGS): 17% of revenue ($4,629/guest)                     │
+│   • Gross margin: 83% (sustained across all 5 years)                       │
+│   • EBITDA margin: Y1: 42% → Y2: 56% → Y5: 60%                            │
+│   • Customer acquisition cost: $2,613/guest (blended)                      │
+│   • OpEx escalation: ~4% annually (standard inflation + capacity scaling)  │
 │                                                                             │
 │   CAPITAL REQUIREMENTS                                                     │
-│   • Initial CapEx (property + buildout): $6.4M                             │
-│   • Annual maintenance CapEx: 3% of revenue                                │
-│   • Technology development: $150k/year recurring                           │
-│   • Working capital: 15 days of operating expenses                         │
+│   • Total project cost: $14,953,500 (all-equity seed round)                │
+│   • Expansion CapEx (Y2-5): ~$6.75M from operating cash flow               │
+│   • Technology platform: $1.23M ($1M AI + $230K infrastructure)            │
+│   • Annual technology OpEx: $228K (Year 1), escalating ~4%/year            │
 │                                                                             │
 │   RETURN METRICS (5-Year Hold)                                             │
 │   • IRR: 78% (base case)                                                │
 │   • MOIC: 7.8x                                                            │
-│   • Exit multiple assumption: 5.5x EBITDA (single location)               │
-│   • 5-Year Revenue: $81,200,000                                            │
-│   • 5-Year Net Income: $33,472,811                                         │
-│   • Y5 EBITDA: $10,433,610                                                 │
-│   • Y5 Enterprise Value (Base): $87,924,380                                │
+│   • Exit multiple assumption: 4.0x EBITDA (single location)               │
+│   • 5-Year Revenue: $120,700,000                                           │
+│   • 5-Year Net Income: $45,102,667                                         │
+│   • Y5 EBITDA: $20,299,217                                                 │
+│   • Y5 Enterprise Value (Base): $81,200,000                                │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```

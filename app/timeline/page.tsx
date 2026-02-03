@@ -20,7 +20,7 @@ const MILESTONES: Milestone[] = [
     id: 'seed-round',
     date: 'Q1 2026',
     title: 'Seed Round Close',
-    description: 'Close $15.0M equity raise for initial 30-casita campus',
+    description: 'Close $14.95M equity raise for initial 30-casita campus',
     status: 'in-progress',
     category: 'fundraising',
   },
