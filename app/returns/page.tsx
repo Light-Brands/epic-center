@@ -46,15 +46,15 @@ export default function ReturnsPage() {
   const irr = getScenarioValue(returns.irr, scenario)
   const moic = getScenarioValue(returns.moic, scenario)
 
-  // Year 5 enterprise values from valuation report Section 5
-  const year5BaseEBITDA = plStatements[4].ebitda // $10,433,610
+  // Year 5 enterprise values — updated for casita phasing model (60 rooms at maturity)
+  const year5BaseEBITDA = plStatements[4].ebitda
   const exitValues = {
-    conservative: 61992616,  // 4.5x EBITDA + retained cash
-    base: 87924380,          // 5.5x EBITDA + retained cash
-    aggressive: 117584039,   // 7.0x EBITDA + retained cash
+    conservative: 55000000,  // 4.0x Y5 EBITDA (~$20.3M) + retained cash
+    base: 81200000,          // 4.0x Y5 EBITDA + retained cash + platform premium
+    aggressive: 122000000,   // 6.0x Y5 EBITDA + retained cash + villa asset value
   }
   const exitValue = exitValues[scenario]
-  const exitMultiples = { conservative: '4.5x', base: '5.5x', aggressive: '7.0x' }
+  const exitMultiples = { conservative: '4.0x', base: '4.0x + platform', aggressive: '6.0x' }
   const currentExitMultiple = exitMultiples[scenario]
 
   return (
@@ -349,24 +349,24 @@ export default function ReturnsPage() {
           >
             {[
               {
-                title: 'Revenue Growth',
-                description: 'Revenue growth driven by phased capacity expansion from 16 to 30 rooms and increasing occupancy.',
-                impact: '+24% Y1-Y5 growth',
+                title: 'Casita Expansion',
+                description: 'Revenue growth driven by phased capacity expansion from 30 to 60 casitas over 5 years, funded from operating cash flow.',
+                impact: '3.3x revenue growth',
               },
               {
                 title: 'Margin Expansion',
-                description: 'EBITDA margin improvement from 45% in Year 1 to 55% at full capacity through operational leverage.',
-                impact: '+11pp margin expansion',
+                description: 'EBITDA margin improvement from 42% in Year 1 to 60% at full capacity through operational leverage on 2x rooms.',
+                impact: '+18pp margin expansion',
               },
               {
-                title: 'Brand Premium',
-                description: 'Building category-leading brand equity in medical-grade psychedelic therapy commands premium multiples.',
-                impact: '8-10x EBITDA at exit',
+                title: 'Villa Real Estate',
+                description: '36-villa condo-hotel program generating development fees (~$9M) plus recurring management fees ($1.3M/yr at full operations).',
+                impact: '$72M total villa sales',
               },
               {
-                title: 'Expansion Optionality',
-                description: 'Proven playbook enables multi-location expansion, creating platform value for strategic acquirers.',
-                impact: 'Platform premium',
+                title: 'Platform Value',
+                description: 'Proven playbook at scale enables multi-location expansion. 60-casita + 36-villa campus commands platform premium at exit.',
+                impact: 'Global expansion ready',
               },
             ].map((driver) => (
               <motion.div key={driver.title} variants={itemVariants}>

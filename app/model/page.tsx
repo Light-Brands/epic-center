@@ -326,10 +326,10 @@ export default function ModelPage() {
               </div>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { value: '30', label: 'Rooms', sublabel: 'Riviera Maya (full build)' },
-                  { value: '1,157', label: 'Guests/Year', sublabel: 'At 75% occupancy' },
-                  { value: '$16.2M', label: 'Year 5 Revenue', sublabel: 'Base scenario' },
-                  { value: '55%', label: 'EBITDA Margin', sublabel: 'At maturity' },
+                  { value: '60', label: 'Casitas', sublabel: 'Full campus (Year 5)' },
+                  { value: '1,280', label: 'Guests/Year', sublabel: 'At 80% occupancy' },
+                  { value: '$34.0M', label: 'Year 5 Revenue', sublabel: 'Base scenario' },
+                  { value: '60%', label: 'EBITDA Margin', sublabel: 'At maturity' },
                 ].map((stat) => (
                   <div key={stat.label} className="bg-white/20 rounded-lg p-4 text-center">
                     <p className="font-heading text-3xl">{stat.value}</p>
@@ -348,9 +348,9 @@ export default function ModelPage() {
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
             <span className="font-accent text-sm uppercase tracking-wide">Market</span>
           </Link>
-          <Link href="/expansion">
+          <Link href="/moat">
             <Button variant="primary">
-              Expansion Strategy
+              Competitive Moat
               <ArrowRight className="ml-2 w-4 h-4" />
             </Button>
           </Link>

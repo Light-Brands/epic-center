@@ -9,10 +9,50 @@ import type {
   RevenueChartData,
 } from '@/types/financial'
 
-// All financial data aligned with IPEV-Compliant Valuation Report (Feb 2026)
-// Source: docs/data-room/financial/22-valuation-report.md
-// Base case = 60% Y1 → 75% Y2 → 80% Y3-5 occupancy, 30 rooms, $2,000/night ADR
-// Conservative = ~40-70% occupancy ramp | Aggressive = ~70-85% occupancy ramp
+// All financial data aligned with updated expansion model (Feb 2026)
+// Casita phasing: 30→60 rooms over 5 years, funded from operating cash flow
+// Base case = 60% Y1 → 75% Y2 → 80% Y3-5 occupancy, ramping capacity, $2,000/night ADR
+// Conservative = ~50-70% occupancy ramp | Aggressive = ~70-85% occupancy ramp
+
+// ─── Casita Phasing Data ───────────────────────────────────────────────
+export const CASITA_PHASING = {
+  years: [
+    { year: 1, startRooms: 15, added: 15, endRooms: 30, effectiveAvgRooms: 23, occupancy: 0.60, guests: 387 },
+    { year: 2, startRooms: 30, added: 10, endRooms: 40, effectiveAvgRooms: 35, occupancy: 0.75, guests: 737 },
+    { year: 3, startRooms: 40, added: 8, endRooms: 48, effectiveAvgRooms: 44, occupancy: 0.80, guests: 988 },
+    { year: 4, startRooms: 48, added: 6, endRooms: 54, effectiveAvgRooms: 51, occupancy: 0.80, guests: 1145 },
+    { year: 5, startRooms: 54, added: 6, endRooms: 60, effectiveAvgRooms: 57, occupancy: 0.80, guests: 1280 },
+  ],
+  totalCapacity: 60,
+  buildCostPerCasita: 225000, // ~$200-250K each
+  totalExpansionCost: 6750000, // ~$6-7.5M total over Years 2-5
+  fundedFrom: 'Operating cash flow (no additional equity raise)',
+}
+
+// ─── Villa Model Data ──────────────────────────────────────────────────
+export const VILLA_MODEL = {
+  totalVillas: 36,
+  avgPrice: 2000000,
+  priceRange: { min: 1000000, max: 3000000 },
+  totalSalesRevenue: 72000000,
+  managementFeeRate: 0.25, // 25% of rental revenue
+  developmentFeeRate: 0.125, // 10-15% of sales
+  fullOpsManagementFeeIncome: 1300000, // ~$1.3M/year at full operations
+  tiers: [
+    { name: 'Studio Villa', priceRange: '$1M - $1.5M', beds: 1, sqft: '1,200-1,500', count: 12 },
+    { name: 'Garden Villa', priceRange: '$1.5M - $2.5M', beds: 2, sqft: '1,800-2,400', count: 16 },
+    { name: 'Estate Villa', priceRange: '$2.5M - $3M', beds: 3, sqft: '2,800-3,500', count: 8 },
+  ],
+  phasing: [
+    { year: 1, villasSold: 6, builtOperational: 4, salesRevenue: 12000000 },
+    { year: 2, villasSold: 10, builtOperational: 12, salesRevenue: 20000000 },
+    { year: 3, villasSold: 12, builtOperational: 24, salesRevenue: 24000000 },
+    { year: 4, villasSold: 8, builtOperational: 36, salesRevenue: 16000000 },
+    { year: 5, villasSold: 0, builtOperational: 36, salesRevenue: 0 },
+  ],
+  buyerFundedConstruction: true,
+  revenueSplit: { owner: 75, management: 25 },
+}
 
 export const PROPERTIES: Property[] = [
   {
@@ -25,9 +65,9 @@ export const PROPERTIES: Property[] = [
     targetMarket: 'HNW Individuals',
     status: 'LEAD',
     capacity: {
-      totalRooms: 30,
-      treatmentBeds: { conservative: 30, base: 30, aggressive: 30 },
-      maxGuestsPerYear: 840, // 30 rooms × 365 days / 13-day avg stay
+      totalRooms: 60,
+      treatmentBeds: { conservative: 60, base: 60, aggressive: 60 },
+      maxGuestsPerYear: 1280, // 57 effective rooms × 365 days / 13-day avg stay × 80% occ
     },
     acquisition: {
       askingPrice: 5800000,
@@ -39,252 +79,257 @@ export const PROPERTIES: Property[] = [
   },
 ]
 
-// Dashboard metrics — key investor-facing numbers (aligned with valuation report)
+// Dashboard metrics — key investor-facing numbers (updated for casita phasing model)
 export const DASHBOARD_METRICS: DashboardMetrics = {
   propertyName: 'Riviera Maya Jungle Estate',
   location: 'Tulum, Q.R.',
-  totalRooms: 30,
-  treatmentBeds: 30,
+  totalRooms: 60,
+  treatmentBeds: 60,
   propertyScore: 88,
   recommendation: 'PROCEED',
   averageDailyRate: 2000,
   keyMetrics: {
     acquisitionPrice: 5800000,
-    totalProjectCost: 13773500, // Valuation report: all-equity seed round
-    costPerRoom: 459117, // $13,773,500 / 30 rooms
+    totalProjectCost: 14953500,
+    costPerRoom: 249225, // $14,953,500 / 60 rooms at full build
     revenue: {
-      // Base from valuation report P&L; Conservative/Aggressive derived from scenario analysis
-      year1: { conservative: 8751400, base: 13140400, aggressive: 15321600 },
-      year3: { conservative: 12688200, base: 17529400, aggressive: 18620000 },
-      year5: { conservative: 15321600, base: 17529400, aggressive: 18620000 },
-      fiveYearTotal: { conservative: 61925000, base: 82140800, aggressive: 88711000 },
+      year1: { conservative: 8240000, base: 10300000, aggressive: 11330000 },
+      year3: { conservative: 21040000, base: 26300000, aggressive: 28930000 },
+      year5: { conservative: 27200000, base: 34000000, aggressive: 37400000 },
+      fiveYearTotal: { conservative: 96560000, base: 120700000, aggressive: 132770000 },
     },
-    projectIRR: { conservative: 0.6654, base: 0.7350, aggressive: 0.8009 },
-    fiveYearMOIC: { conservative: 4.65, base: 6.69, aggressive: 8.94 },
+    projectIRR: { conservative: 0.66, base: 0.78, aggressive: 0.87 },
+    fiveYearMOIC: { conservative: 5.5, base: 7.8, aggressive: 10.0 },
   },
 }
 
-// Revenue projections — base case from valuation report Section 11
-// Conservative: ~40% Y1 → 70% Y5 | Aggressive: ~70% Y1 → 85% Y3-5
+// Revenue projections — updated for casita phasing (30→60 rooms)
 // Revenue per guest: $26,600 weighted average (7/14/21/28-day program mix)
+// Y1: 23 eff. rooms × 60% occ = ~387 guests → ~$10.3M
+// Y2: 35 eff. rooms × 75% occ = ~737 guests → ~$19.6M
+// Y3: 44 eff. rooms × 80% occ = ~988 guests → ~$26.3M
+// Y4: 51 eff. rooms × 80% occ = ~1,145 guests → ~$30.5M
+// Y5: 57 eff. rooms × 80% occ = ~1,280 guests → ~$34.0M
 export const REVENUE_PROJECTIONS: RevenueProjection[] = [
   {
     year: 1,
-    programRevenue: { conservative: 8751400, base: 13140400, aggressive: 15321600 },
+    programRevenue: { conservative: 8240000, base: 10300000, aggressive: 11330000 },
     bioOptimizationPremium: { conservative: 0, base: 0, aggressive: 0 },
     wellnessProducts: { conservative: 0, base: 0, aggressive: 0 },
     postCareSubscriptions: { conservative: 0, base: 0, aggressive: 0 },
     conciergeServices: { conservative: 0, base: 0, aggressive: 0 },
-    totalRevenue: { conservative: 8751400, base: 13140400, aggressive: 15321600 },
+    totalRevenue: { conservative: 8240000, base: 10300000, aggressive: 11330000 },
   },
   {
     year: 2,
-    programRevenue: { conservative: 10932600, base: 16412200, aggressive: 17529400 },
+    programRevenue: { conservative: 15680000, base: 19600000, aggressive: 21560000 },
     bioOptimizationPremium: { conservative: 0, base: 0, aggressive: 0 },
     wellnessProducts: { conservative: 0, base: 0, aggressive: 0 },
     postCareSubscriptions: { conservative: 0, base: 0, aggressive: 0 },
     conciergeServices: { conservative: 0, base: 0, aggressive: 0 },
-    totalRevenue: { conservative: 10932600, base: 16412200, aggressive: 17529400 },
+    totalRevenue: { conservative: 15680000, base: 19600000, aggressive: 21560000 },
   },
   {
     year: 3,
-    programRevenue: { conservative: 12688200, base: 17529400, aggressive: 18620000 },
+    programRevenue: { conservative: 21040000, base: 26300000, aggressive: 28930000 },
     bioOptimizationPremium: { conservative: 0, base: 0, aggressive: 0 },
     wellnessProducts: { conservative: 0, base: 0, aggressive: 0 },
     postCareSubscriptions: { conservative: 0, base: 0, aggressive: 0 },
     conciergeServices: { conservative: 0, base: 0, aggressive: 0 },
-    totalRevenue: { conservative: 12688200, base: 17529400, aggressive: 18620000 },
+    totalRevenue: { conservative: 21040000, base: 26300000, aggressive: 28930000 },
   },
   {
     year: 4,
-    programRevenue: { conservative: 14231000, base: 17529400, aggressive: 18620000 },
+    programRevenue: { conservative: 24400000, base: 30500000, aggressive: 33550000 },
     bioOptimizationPremium: { conservative: 0, base: 0, aggressive: 0 },
     wellnessProducts: { conservative: 0, base: 0, aggressive: 0 },
     postCareSubscriptions: { conservative: 0, base: 0, aggressive: 0 },
     conciergeServices: { conservative: 0, base: 0, aggressive: 0 },
-    totalRevenue: { conservative: 14231000, base: 17529400, aggressive: 18620000 },
+    totalRevenue: { conservative: 24400000, base: 30500000, aggressive: 33550000 },
   },
   {
     year: 5,
-    programRevenue: { conservative: 15321600, base: 17529400, aggressive: 18620000 },
+    programRevenue: { conservative: 27200000, base: 34000000, aggressive: 37400000 },
     bioOptimizationPremium: { conservative: 0, base: 0, aggressive: 0 },
     wellnessProducts: { conservative: 0, base: 0, aggressive: 0 },
     postCareSubscriptions: { conservative: 0, base: 0, aggressive: 0 },
     conciergeServices: { conservative: 0, base: 0, aggressive: 0 },
-    totalRevenue: { conservative: 15321600, base: 17529400, aggressive: 18620000 },
+    totalRevenue: { conservative: 27200000, base: 34000000, aggressive: 37400000 },
   },
 ]
 
 export const REVENUE_CHART_DATA: RevenueChartData[] = [
-  { year: 'Year 1', conservative: 8751400, base: 13140400, aggressive: 15321600 },
-  { year: 'Year 2', conservative: 10932600, base: 16412200, aggressive: 17529400 },
-  { year: 'Year 3', conservative: 12688200, base: 17529400, aggressive: 18620000 },
-  { year: 'Year 4', conservative: 14231000, base: 17529400, aggressive: 18620000 },
-  { year: 'Year 5', conservative: 15321600, base: 17529400, aggressive: 18620000 },
+  { year: 'Year 1', conservative: 8240000, base: 10300000, aggressive: 11330000 },
+  { year: 'Year 2', conservative: 15680000, base: 19600000, aggressive: 21560000 },
+  { year: 'Year 3', conservative: 21040000, base: 26300000, aggressive: 28930000 },
+  { year: 'Year 4', conservative: 24400000, base: 30500000, aggressive: 33550000 },
+  { year: 'Year 5', conservative: 27200000, base: 34000000, aggressive: 37400000 },
 ]
 
-// P&L from valuation report Section 11 — base case
-// Includes D&A ($487,143/yr), 30% tax rate, cost escalation (~4%/yr)
+// P&L from updated model — base case with casita phasing
+// Costs scale with capacity but with operational leverage (~1.6x costs for 2x rooms)
+// Includes D&A ($677,143/yr base, increasing with casita capex)
+// 30% tax rate, cost escalation (~4%/yr)
 export const PL_STATEMENTS: PLStatement[] = [
   {
     year: 1,
     revenue: {
-      programRevenue: 13140400,
+      programRevenue: 10300000,
       bioOptimizationPremium: 0,
       wellnessProducts: 0,
       postCareSubscriptions: 0,
       conciergeServices: 0,
-      total: 13140400,
+      total: 10300000,
     },
-    cogs: 2286726,
-    grossProfit: 10853674,
+    cogs: 1792200, // 17.4% - lower volume, higher per-unit
+    grossProfit: 8507800,
     grossMarginPercent: 0.83,
     operatingExpenses: {
-      facilityCosts: 300000,
+      facilityCosts: 576000,
       personnel: 2064996,
       professionalServices: 174996,
-      technology: 75000,
-      marketing: 200004,
-      gAndA: 200004,
-      total: 3015000,
+      technology: 228000,
+      marketing: 660004,
+      gAndA: 502004,
+      total: 4206000,
     },
-    totalOpex: 3015000,
-    ebitda: 7838674,
-    ebitdaMarginPercent: 0.60,
-    depreciation: 487143,
-    ebit: 7351531,
+    totalOpex: 4206000,
+    ebitda: 4301800,
+    ebitdaMarginPercent: 0.42,
+    depreciation: 677143,
+    ebit: 3624657,
     interestExpense: 0,
-    ebt: 7351531,
-    taxes: 2205459,
-    netIncome: 5146072,
+    ebt: 3624657,
+    taxes: 1087397,
+    netIncome: 2537260,
   },
   {
     year: 2,
     revenue: {
-      programRevenue: 16412200,
+      programRevenue: 19600000,
       bioOptimizationPremium: 0,
       wellnessProducts: 0,
       postCareSubscriptions: 0,
       conciergeServices: 0,
-      total: 16412200,
+      total: 19600000,
     },
-    cogs: 2970337,
-    grossProfit: 13441863,
-    grossMarginPercent: 0.82,
+    cogs: 3332000, // 17% COGS ratio
+    grossProfit: 16268000,
+    grossMarginPercent: 0.83,
     operatingExpenses: {
-      facilityCosts: 312000,
-      personnel: 2147596,
-      professionalServices: 181996,
-      technology: 78000,
-      marketing: 208004,
-      gAndA: 208004,
-      total: 3135600,
+      facilityCosts: 718848, // scaled for ~35 rooms + 4% escalation
+      personnel: 2790515,
+      professionalServices: 209395,
+      technology: 260832,
+      marketing: 789825,
+      gAndA: 596496,
+      total: 5365911,
     },
-    totalOpex: 3135600,
-    ebitda: 10306263,
-    ebitdaMarginPercent: 0.63,
-    depreciation: 487143,
-    ebit: 9819120,
+    totalOpex: 5365911,
+    ebitda: 10902089,
+    ebitdaMarginPercent: 0.56,
+    depreciation: 827143, // base + casita capex depreciation
+    ebit: 10074946,
     interestExpense: 0,
-    ebt: 9819120,
-    taxes: 2945736,
-    netIncome: 6873384,
+    ebt: 10074946,
+    taxes: 3022484,
+    netIncome: 7052462,
   },
   {
     year: 3,
     revenue: {
-      programRevenue: 17529400,
+      programRevenue: 26300000,
       bioOptimizationPremium: 0,
       wellnessProducts: 0,
       postCareSubscriptions: 0,
       conciergeServices: 0,
-      total: 17529400,
+      total: 26300000,
     },
-    cogs: 3299433,
-    grossProfit: 14229967,
-    grossMarginPercent: 0.81,
+    cogs: 4468900, // 17% COGS ratio
+    grossProfit: 21831100,
+    grossMarginPercent: 0.83,
     operatingExpenses: {
-      facilityCosts: 324480,
-      personnel: 2233500,
-      professionalServices: 189276,
-      technology: 81120,
-      marketing: 216324,
-      gAndA: 216324,
-      total: 3261024,
+      facilityCosts: 873389, // scaled for ~44 rooms + escalation
+      personnel: 3388200,
+      professionalServices: 240172,
+      technology: 293669,
+      marketing: 914534,
+      gAndA: 681395,
+      total: 6391359,
     },
-    totalOpex: 3261024,
-    ebitda: 10968943,
-    ebitdaMarginPercent: 0.63,
-    depreciation: 487143,
-    ebit: 10481800,
+    totalOpex: 6391359,
+    ebitda: 15439741,
+    ebitdaMarginPercent: 0.59,
+    depreciation: 947143, // base + cumulative casita capex
+    ebit: 14492598,
     interestExpense: 0,
-    ebt: 10481800,
-    taxes: 3144540,
-    netIncome: 7337260,
+    ebt: 14492598,
+    taxes: 4347779,
+    netIncome: 10144819,
   },
   {
     year: 4,
     revenue: {
-      programRevenue: 17529400,
+      programRevenue: 30500000,
       bioOptimizationPremium: 0,
       wellnessProducts: 0,
       postCareSubscriptions: 0,
       conciergeServices: 0,
-      total: 17529400,
+      total: 30500000,
     },
-    cogs: 3431410,
-    grossProfit: 14097990,
-    grossMarginPercent: 0.80,
+    cogs: 5185000, // 17% COGS ratio
+    grossProfit: 25315000,
+    grossMarginPercent: 0.83,
     operatingExpenses: {
-      facilityCosts: 337459,
-      personnel: 2322840,
-      professionalServices: 196847,
-      technology: 84365,
-      marketing: 224977,
-      gAndA: 224977,
-      total: 3391465,
+      facilityCosts: 1005327, // scaled for ~51 rooms + escalation
+      personnel: 3836388,
+      professionalServices: 266099,
+      technology: 322730,
+      marketing: 1023116,
+      gAndA: 756091,
+      total: 7209751,
     },
-    totalOpex: 3391465,
-    ebitda: 10706525,
-    ebitdaMarginPercent: 0.61,
-    depreciation: 487143,
-    ebit: 10219382,
+    totalOpex: 7209751,
+    ebitda: 18105249,
+    ebitdaMarginPercent: 0.59,
+    depreciation: 1037143,
+    ebit: 17068106,
     interestExpense: 0,
-    ebt: 10219382,
-    taxes: 3065815,
-    netIncome: 7153568,
+    ebt: 17068106,
+    taxes: 5120432,
+    netIncome: 11947674,
   },
   {
     year: 5,
     revenue: {
-      programRevenue: 17529400,
+      programRevenue: 34000000,
       bioOptimizationPremium: 0,
       wellnessProducts: 0,
       postCareSubscriptions: 0,
       conciergeServices: 0,
-      total: 17529400,
+      total: 34000000,
     },
-    cogs: 3568666,
-    grossProfit: 13960734,
-    grossMarginPercent: 0.80,
+    cogs: 5780000, // 17% COGS ratio
+    grossProfit: 28220000,
+    grossMarginPercent: 0.83,
     operatingExpenses: {
-      facilityCosts: 350958,
-      personnel: 2415753,
-      professionalServices: 204721,
-      technology: 87739,
-      marketing: 233976,
-      gAndA: 233976,
-      total: 3527124,
+      facilityCosts: 1115542, // scaled for ~57 rooms + escalation
+      personnel: 4221683,
+      professionalServices: 289543,
+      technology: 349239,
+      marketing: 1120041,
+      gAndA: 824735,
+      total: 7920783,
     },
-    totalOpex: 3527124,
-    ebitda: 10433610,
+    totalOpex: 7920783,
+    ebitda: 20299217,
     ebitdaMarginPercent: 0.60,
-    depreciation: 487143,
-    ebit: 9946467,
+    depreciation: 1127143,
+    ebit: 19172074,
     interestExpense: 0,
-    ebt: 9946467,
-    taxes: 2983940,
-    netIncome: 6962527,
+    ebt: 19172074,
+    taxes: 5751622,
+    netIncome: 13420452,
   },
 ]
 
@@ -313,72 +358,73 @@ export const UNIT_ECONOMICS: UnitEconomics = {
   ltvCacRatio: 13.0,
 }
 
-// Investment returns from valuation report — includes enterprise value at exit
-// Total investment: $13,773,500 | Y5 EV (base): $87,924,380 | MOIC: 6.69x
+// Investment returns — updated for casita phasing model
+// Total investment: $14,953,500 | Y5 EV (base): $81.2M | MOIC: 7.8x
+// 5-year cumulative net income: ~$45.1M
 export const INVESTMENT_RETURNS: InvestmentReturns = {
-  totalCapitalRequired: 13773500,
-  equityInvestment: 13773500,
+  totalCapitalRequired: 14953500,
+  equityInvestment: 14953500,
   debtFinancing: 0,
   yearlyReturns: [
     {
       year: 1,
-      totalInvestment: 13773500,
-      annualNetIncome: 5146072,
-      cumulativeNetIncome: 5146072,
-      roiCumulative: 0.374,
-      roiAnnualized: 0.374,
+      totalInvestment: 14953500,
+      annualNetIncome: 2537260,
+      cumulativeNetIncome: 2537260,
+      roiCumulative: 0.170,
+      roiAnnualized: 0.170,
     },
     {
       year: 2,
-      totalInvestment: 13773500,
-      annualNetIncome: 6873384,
-      cumulativeNetIncome: 12019456,
-      roiCumulative: 0.873,
-      roiAnnualized: 0.436,
+      totalInvestment: 14953500,
+      annualNetIncome: 7052462,
+      cumulativeNetIncome: 9589722,
+      roiCumulative: 0.641,
+      roiAnnualized: 0.321,
     },
     {
       year: 3,
-      totalInvestment: 13773500,
-      annualNetIncome: 7337260,
-      cumulativeNetIncome: 19356716,
-      roiCumulative: 1.405,
-      roiAnnualized: 0.468,
+      totalInvestment: 14953500,
+      annualNetIncome: 10144819,
+      cumulativeNetIncome: 19734541,
+      roiCumulative: 1.320,
+      roiAnnualized: 0.440,
     },
     {
       year: 4,
-      totalInvestment: 13773500,
-      annualNetIncome: 7153568,
-      cumulativeNetIncome: 26510284,
-      roiCumulative: 1.924,
-      roiAnnualized: 0.481,
+      totalInvestment: 14953500,
+      annualNetIncome: 11947674,
+      cumulativeNetIncome: 31682215,
+      roiCumulative: 2.119,
+      roiAnnualized: 0.530,
     },
     {
       year: 5,
-      totalInvestment: 13773500,
-      annualNetIncome: 6962527,
-      cumulativeNetIncome: 33472811,
-      roiCumulative: 2.431,
-      roiAnnualized: 0.486,
+      totalInvestment: 14953500,
+      annualNetIncome: 13420452,
+      cumulativeNetIncome: 45102667,
+      roiCumulative: 3.016,
+      roiAnnualized: 0.603,
     },
   ],
   npv: {
-    rate10: 11638848,
-    rate12: 10357300,
-    rate15: 8617799,
+    rate10: 18200000,
+    rate12: 16100000,
+    rate15: 13400000,
   },
-  irr: { conservative: 0.6654, base: 0.7350, aggressive: 0.8009 },
-  moic: { conservative: 4.65, base: 6.69, aggressive: 8.94 },
+  irr: { conservative: 0.66, base: 0.78, aggressive: 0.87 },
+  moic: { conservative: 5.5, base: 7.8, aggressive: 10.0 },
 }
 
 // Use of funds from valuation report Section 6
-// Total: $13,773,500
+// Total: $14,953,500
 export const USE_OF_FUNDS: UseOfFunds[] = [
-  { category: 'Property Acquisition', amount: 6150000, percentage: 44.7, description: '$5.8M purchase + $350K closing/legal/diligence' },
-  { category: 'Renovation & Conversion', amount: 4050000, percentage: 29.4, description: 'Medical suites, treatment rooms, kitchen, bio-optimization center' },
-  { category: 'Medical Equipment', amount: 750000, percentage: 5.4, description: 'ICU/monitoring, diagnostic, IV systems, pharmacy' },
-  { category: 'FF&E', amount: 600000, percentage: 4.4, description: 'Furniture, fixtures, equipment' },
-  { category: 'Working Capital', amount: 1126000, percentage: 8.2, description: 'Operating runway' },
-  { category: 'Contingency', amount: 847500, percentage: 6.2, description: 'Risk buffer (15%)' },
-  { category: 'Pre-Opening', amount: 200000, percentage: 1.5, description: 'Licensing, training, soft launch' },
-  { category: 'Technology', amount: 50000, percentage: 0.4, description: 'Systems, EMR, booking' },
+  { category: 'Property Acquisition', amount: 6150000, percentage: 41.1, description: '$5.8M purchase + $350K closing/legal/diligence' },
+  { category: 'Renovation & Conversion', amount: 4050000, percentage: 27.1, description: 'Medical suites, treatment rooms, kitchen, bio-optimization center' },
+  { category: 'Technology', amount: 1230000, percentage: 8.2, description: '$1M AI platform + $230K physical infrastructure' },
+  { category: 'Working Capital', amount: 1126000, percentage: 7.5, description: 'Operating runway' },
+  { category: 'Contingency', amount: 847500, percentage: 5.7, description: 'Risk buffer (15%)' },
+  { category: 'Medical Equipment', amount: 750000, percentage: 5.0, description: 'ICU/monitoring, diagnostic, IV systems, pharmacy' },
+  { category: 'FF&E', amount: 600000, percentage: 4.0, description: 'Furniture, fixtures, equipment' },
+  { category: 'Pre-Opening', amount: 200000, percentage: 1.3, description: 'Licensing, training, soft launch' },
 ]

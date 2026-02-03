@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { ArrowLeft, ArrowRight, ChevronDown, HelpCircle, Building2, DollarSign, Scale, Heart, Users, Calendar } from 'lucide-react'
+import { ArrowLeft, ArrowRight, ChevronDown, HelpCircle, Building2, DollarSign, Scale, Heart, Users, Calendar, Home } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
 import { Footer } from '@/components/layout'
 
@@ -22,12 +22,12 @@ const FAQS: FAQ[] = [
   {
     category: 'Investment',
     question: 'What is the expected return on investment?',
-    answer: 'We project a 73.5% IRR and 6.69x MOIC over a 5-year investment horizon in our base case scenario, producing $87.9M in enterprise value at Year 5 exit. Conservative projections show 66.5% IRR / 4.65x MOIC, while aggressive projections show 80.1% IRR / 8.94x MOIC.',
+    answer: 'We project a 78% IRR and 7.8x MOIC over a 5-year investment horizon in our base case scenario, producing $81.2M in enterprise value at Year 5 exit. Conservative projections show 66% IRR / 5.5x MOIC, while aggressive projections show 87% IRR / 10.0x MOIC. Returns are driven by casita expansion from 30 to 60 rooms plus villa management fees.',
   },
   {
     category: 'Investment',
     question: 'What is the investment structure?',
-    answer: 'This is a 100% equity investment totaling $13.77M. Investors receive common equity in Transformational Epicenter Holdings, LLC (Delaware). There is no debt component, providing downside protection and alignment.',
+    answer: 'This is a 100% equity investment totaling $14.95M for the initial 30-casita campus. Expansion to 60 casitas is funded from operating cash flow — no additional equity raise required. Investors receive common equity in Transformational Epicenter Holdings, LLC (Delaware).',
   },
   {
     category: 'Investment',
@@ -37,7 +37,7 @@ const FAQS: FAQ[] = [
   {
     category: 'Investment',
     question: 'What is the exit strategy?',
-    answer: 'Primary exit is strategic sale to a hospitality group, healthcare system, or wellness conglomerate in Years 5-7 at 8-10x EBITDA. Secondary options include private equity acquisition or management buyout.',
+    answer: 'Primary exit is strategic sale to a hospitality group, healthcare system, or wellness conglomerate in Years 5-7 at 8-10x EBITDA. The full 60-casita campus plus 36-villa program commands platform premiums. Secondary options include private equity acquisition or management buyout.',
   },
   // Legal & Regulatory
   {
@@ -59,7 +59,7 @@ const FAQS: FAQ[] = [
   {
     category: 'Operations',
     question: 'What is the treatment capacity?',
-    answer: 'Riviera Maya Jungle Estate has 16 rooms currently operational, expanding to 30 by end of 2026. At 80% occupancy with a weighted average 13-day stay, we can serve approximately 659 guests annually at stabilized capacity.',
+    answer: 'The campus starts with 15 casitas at launch, expanding to 30 by end of Year 1 and ultimately to 60 casitas by Year 5. At 80% occupancy with a weighted average 13-day stay, we can serve approximately 1,280 guests annually at full capacity. Expansion is funded from operating cash flow.',
   },
   {
     category: 'Operations',
@@ -76,11 +76,27 @@ const FAQS: FAQ[] = [
     question: 'How do you ensure patient safety?',
     answer: 'Comprehensive medical screening, continuous cardiac monitoring during treatment, 24/7 physician and nursing supervision, emergency protocols and equipment, and strict exclusion criteria for high-risk patients.',
   },
+  // Villas
+  {
+    category: 'Villas',
+    question: 'What is the villa program?',
+    answer: 'A 36-villa condo-hotel collection on the campus grounds. Villas are sold to individual buyers ($1M-$3M each), who fund construction through deposits. The company earns development fees (10-15% of sales) and ongoing management fees (25% of rental revenue). Total villa sales of ~$72M with recurring management fee income of ~$1.3M/year at full operations.',
+  },
+  {
+    category: 'Villas',
+    question: 'How does the condo-hotel model work?',
+    answer: 'Villa owners purchase their unit and place it in a rental pool when not personally using it. Rental revenue is split 75/25 — 75% to the villa owner, 25% management fee to Transformational Epicenter. This creates a recurring revenue stream with no capital requirement from the company.',
+  },
+  {
+    category: 'Villas',
+    question: 'What villa types are available?',
+    answer: 'Three tiers: Studio Villas ($1M-$1.5M, 1-bed, 1,200-1,500 sq ft, 12 units), Garden Villas ($1.5M-$2.5M, 2-bed, 1,800-2,400 sq ft, 16 units), and Estate Villas ($2.5M-$3M, 3-bed, 2,800-3,500 sq ft, 8 units).',
+  },
   // Timeline
   {
     category: 'Timeline',
     question: 'When will the facility open?',
-    answer: 'First patients begin in Q2 2026 using the existing 16-room facility. The remaining 14 rooms come online incrementally through Q4 2026 as construction completes, reaching full 30-room capacity by year end.',
+    answer: 'First patients begin in Q2 2026 with 15 casitas. An additional 15 casitas come online through Q4 2026, reaching 30-casita capacity by year end. Continued expansion adds 30 more casitas over Years 2-5, reaching full 60-casita capacity by 2030.',
   },
   {
     category: 'Timeline',
@@ -104,6 +120,7 @@ const CATEGORIES = [
   { name: 'Investment', icon: DollarSign },
   { name: 'Legal', icon: Scale },
   { name: 'Operations', icon: Heart },
+  { name: 'Villas', icon: Home },
   { name: 'Timeline', icon: Calendar },
   { name: 'Team', icon: Users },
 ]

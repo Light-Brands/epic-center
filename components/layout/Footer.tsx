@@ -16,9 +16,21 @@ const FOOTER_LINKS = [
     ],
   },
   {
+    title: 'The Story',
+    links: [
+      { name: 'The Origin', href: '/story/origin' },
+      { name: 'The Solution', href: '/story/solution' },
+      { name: 'The Experience', href: '/story/experience' },
+      { name: 'The Programs', href: '/story/programs' },
+      { name: 'The Science', href: '/story/science' },
+      { name: 'The Sanctuary', href: '/story/sanctuary' },
+    ],
+  },
+  {
     title: 'Investment',
     links: [
       { name: 'The Property', href: '/properties/riviera-maya-jungle-estate' },
+      { name: 'Villas', href: '/villas' },
       { name: 'Financials', href: '/financials' },
       { name: 'Returns', href: '/returns' },
       { name: 'Invest', href: '/invest' },

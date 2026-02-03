@@ -14,6 +14,7 @@ export const SHEETS = {
   SENSITIVITY: 'Sensitivity',
   INVESTMENT_RETURNS: 'Investment Returns',
   PROPERTY_DATA: 'Property Data',
+  VILLA_MODEL: 'Villa Model',
 } as const
 
 // Data ranges for each sheet
@@ -29,13 +30,13 @@ export const RANGES = {
 } as const
 
 // Scenario multipliers for adjusting base values
-// Aligned with valuation report: Base IRR 73.50%, MOIC 6.69x
+// Aligned with updated model: Base IRR 78%, MOIC 7.8x (casita phasing 30→60 rooms)
 export const SCENARIO_MULTIPLIERS = {
   conservative: {
-    revenue: 0.75, // ~$62M vs $82M 5-year total
+    revenue: 0.80, // ~$96M vs $120.7M 5-year total
     occupancy: 0.875, // 70% vs 80% steady-state
-    irr: 0.905, // 66.54% vs 73.50%
-    moic: 0.695, // 4.65x vs 6.69x
+    irr: 0.846, // 66% vs 78%
+    moic: 0.705, // 5.5x vs 7.8x
   },
   base: {
     revenue: 1.0,
@@ -44,9 +45,9 @@ export const SCENARIO_MULTIPLIERS = {
     moic: 1.0,
   },
   aggressive: {
-    revenue: 1.08, // ~$89M vs $82M 5-year total
+    revenue: 1.10, // ~$133M vs $120.7M 5-year total
     occupancy: 1.063, // 85% vs 80% steady-state
-    irr: 1.090, // 80.09% vs 73.50%
-    moic: 1.336, // 8.94x vs 6.69x
+    irr: 1.115, // 87% vs 78%
+    moic: 1.282, // 10.0x vs 7.8x
   },
 } as const

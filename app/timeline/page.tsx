@@ -20,7 +20,7 @@ const MILESTONES: Milestone[] = [
     id: 'seed-round',
     date: 'Q1 2026',
     title: 'Seed Round Close',
-    description: 'Close $10.4M equity raise',
+    description: 'Close $15.0M equity raise for initial 30-casita campus',
     status: 'in-progress',
     category: 'fundraising',
   },
@@ -28,7 +28,7 @@ const MILESTONES: Milestone[] = [
     id: 'property-acquisition',
     date: 'Q2 2026',
     title: 'Property Acquisition',
-    description: 'Acquire Riviera Maya Jungle Estate compound',
+    description: 'Acquire Riviera Maya Jungle Estate compound (9 lots, 45,000 m²)',
     status: 'upcoming',
     category: 'acquisition',
   },
@@ -36,7 +36,7 @@ const MILESTONES: Milestone[] = [
     id: 'medical-conversion',
     date: 'Q2 2026',
     title: 'Medical Conversion',
-    description: 'Convert existing 16 rooms for treatment operations',
+    description: 'Convert first 15 casitas for treatment operations',
     status: 'upcoming',
     category: 'construction',
   },
@@ -51,16 +51,16 @@ const MILESTONES: Milestone[] = [
   {
     id: 'first-patients',
     date: 'Q2 2026',
-    title: 'First Patients (16 Rooms)',
-    description: 'Begin accepting patients at 16-room capacity',
+    title: 'First Patients (15 Casitas)',
+    description: 'Begin accepting patients at 15-casita capacity',
     status: 'upcoming',
     category: 'launch',
   },
   {
-    id: 'expansion-construction',
-    date: 'Q3 2026',
-    title: 'Expansion Construction',
-    description: 'Build-out of 14 additional rooms begins',
+    id: 'phase1-expansion',
+    date: 'Q3–Q4 2026',
+    title: 'Phase 1 Expansion (+15 Casitas)',
+    description: 'Build-out to 30 casitas by end of Year 1',
     status: 'upcoming',
     category: 'construction',
   },
@@ -73,18 +73,34 @@ const MILESTONES: Milestone[] = [
     category: 'operations',
   },
   {
-    id: 'rooms-online',
-    date: 'Q3–Q4 2026',
-    title: 'Rooms Come Online',
-    description: 'Additional rooms completed and opened incrementally',
+    id: 'year1-capacity',
+    date: 'Q4 2026',
+    title: '30-Casita Capacity',
+    description: 'Year 1 target reached — 30 casitas operational',
+    status: 'upcoming',
+    category: 'launch',
+  },
+  {
+    id: 'year2-expansion',
+    date: '2027',
+    title: 'Year 2: Expand to 40 Casitas',
+    description: 'Add 10 casitas funded from operating cash flow. Villa sales begin.',
     status: 'upcoming',
     category: 'construction',
   },
   {
-    id: 'full-capacity',
-    date: 'Q4 2026',
-    title: 'Full 30-Room Capacity',
-    description: 'All 30 rooms operational, full team in place',
+    id: 'year3-expansion',
+    date: '2028',
+    title: 'Year 3: Expand to 48 Casitas',
+    description: 'Add 8 casitas. 24 villas operational. Revenue ~$26.3M.',
+    status: 'upcoming',
+    category: 'construction',
+  },
+  {
+    id: 'year5-full',
+    date: '2030',
+    title: 'Year 5: Full 60-Casita Campus',
+    description: 'All 60 casitas operational. 36 villas complete. Revenue ~$34M.',
     status: 'upcoming',
     category: 'launch',
   },
@@ -92,41 +108,41 @@ const MILESTONES: Milestone[] = [
 
 const PHASES = [
   {
-    name: 'Phase 1: Acquire & Convert',
+    name: 'Phase 1: Acquire & Launch',
     period: 'Q1–Q2 2026',
     icon: Briefcase,
     color: 'bg-primary-600',
-    items: ['Close equity raise', 'Acquire property', 'Convert 16 existing rooms'],
+    items: ['Close equity raise', 'Acquire property', 'Convert first 15 casitas', 'First patients'],
   },
   {
-    name: 'Phase 2: Launch (16 Rooms)',
-    period: 'Q2 2026',
-    icon: Heart,
-    color: 'bg-primary-500',
-    items: ['First patients', 'Hire core team', 'Begin operations'],
-  },
-  {
-    name: 'Phase 3: Expand',
+    name: 'Phase 2: Year 1 Build-Out',
     period: 'Q3–Q4 2026',
     icon: Building2,
-    color: 'bg-secondary-400',
-    items: ['Build 14 additional rooms', 'Rooms online as completed', 'Scale team'],
+    color: 'bg-primary-500',
+    items: ['Build +15 casitas to reach 30', 'Scale clinical team', 'Begin villa pre-sales'],
   },
   {
-    name: 'Phase 4: Full Capacity',
-    period: 'Q4 2026+',
+    name: 'Phase 3: Campus Growth',
+    period: '2027–2028',
+    icon: Heart,
+    color: 'bg-secondary-400',
+    items: ['Expand to 40 → 48 casitas', 'Villa construction underway', 'Revenue reaches ~$26M'],
+  },
+  {
+    name: 'Phase 4: Full Campus',
+    period: '2029–2030',
     icon: Users,
     color: 'bg-success-500',
-    items: ['All 30 rooms operational', 'Optimize operations', 'Full marketing'],
+    items: ['60 casitas operational', '36 villas complete', 'Revenue ~$34M Year 5'],
   },
 ]
 
 const ANNUAL_PROJECTIONS = [
-  { year: 'Year 1', revenue: '$13.1M', guests: '494', occupancy: '60%', ebitda: '$7.8M' },
-  { year: 'Year 2', revenue: '$16.4M', guests: '617', occupancy: '75%', ebitda: '$10.3M' },
-  { year: 'Year 3', revenue: '$17.5M', guests: '659', occupancy: '80%', ebitda: '$11.0M' },
-  { year: 'Year 4', revenue: '$17.5M', guests: '659', occupancy: '80%', ebitda: '$10.7M' },
-  { year: 'Year 5', revenue: '$17.5M', guests: '659', occupancy: '80%', ebitda: '$10.4M' },
+  { year: 'Year 1', revenue: '$10.3M', rooms: '30', guests: '387', occupancy: '60%', ebitda: '$4.3M' },
+  { year: 'Year 2', revenue: '$19.6M', rooms: '40', guests: '737', occupancy: '75%', ebitda: '$10.9M' },
+  { year: 'Year 3', revenue: '$26.3M', rooms: '48', guests: '988', occupancy: '80%', ebitda: '$15.4M' },
+  { year: 'Year 4', revenue: '$30.5M', rooms: '54', guests: '1,145', occupancy: '80%', ebitda: '$18.1M' },
+  { year: 'Year 5', revenue: '$34.0M', rooms: '60', guests: '1,280', occupancy: '80%', ebitda: '$20.3M' },
 ]
 
 // Animation variants
@@ -313,6 +329,7 @@ export default function TimelinePage() {
                   <tr className="border-b-2 border-neutral-200">
                     <th className="text-left py-4 pr-4 font-accent text-xs uppercase tracking-wide text-neutral-500">Year</th>
                     <th className="text-right py-4 px-4 font-accent text-xs uppercase tracking-wide text-neutral-500">Revenue</th>
+                    <th className="text-right py-4 px-4 font-accent text-xs uppercase tracking-wide text-neutral-500">Casitas</th>
                     <th className="text-right py-4 px-4 font-accent text-xs uppercase tracking-wide text-neutral-500">Guests</th>
                     <th className="text-right py-4 px-4 font-accent text-xs uppercase tracking-wide text-neutral-500">Occupancy</th>
                     <th className="text-right py-4 pl-4 font-accent text-xs uppercase tracking-wide text-neutral-500">EBITDA</th>
@@ -331,6 +348,7 @@ export default function TimelinePage() {
                     >
                       <td className="py-4 pr-4 font-medium text-neutral-900">{year.year}</td>
                       <td className="py-4 px-4 text-right font-heading text-lg text-neutral-900">{year.revenue}</td>
+                      <td className="py-4 px-4 text-right text-neutral-600">{year.rooms}</td>
                       <td className="py-4 px-4 text-right text-neutral-600">{year.guests}</td>
                       <td className="py-4 px-4 text-right text-neutral-600">{year.occupancy}</td>
                       <td className="py-4 pl-4 text-right font-medium text-primary-600">{year.ebitda}</td>
@@ -360,8 +378,8 @@ export default function TimelinePage() {
               {[
                 { date: 'Q1 2026', event: 'Fundraise Close', icon: Briefcase },
                 { date: 'Q2 2026', event: 'Property Acquired', icon: Building2 },
-                { date: 'Q2 2026', event: 'First Patient (16 rooms)', icon: Heart },
-                { date: 'Q4 2026', event: 'Full 30-Room Capacity', icon: Users },
+                { date: 'Q2 2026', event: 'First Patient (15 casitas)', icon: Heart },
+                { date: 'Q4 2026', event: '30 Casitas Operational', icon: Users },
               ].map((milestone, index) => (
                 <motion.div key={milestone.event} variants={itemVariants} className="text-center">
                   <motion.div
@@ -427,10 +445,10 @@ export default function TimelinePage() {
                 className="grid grid-cols-2 gap-4"
               >
                 {[
-                  { value: '73.5%', label: 'Target IRR' },
-                  { value: '6.69x', label: 'Target MOIC' },
+                  { value: '78%', label: 'Target IRR' },
+                  { value: '7.8x', label: 'Target MOIC' },
                   { value: '5 yrs', label: 'Hold Period' },
-                  { value: '$87.9M', label: 'Y5 Enterprise Value' },
+                  { value: '$81.2M', label: 'Y5 Enterprise Value' },
                 ].map((stat, index) => (
                   <motion.div
                     key={stat.label}

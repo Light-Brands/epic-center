@@ -357,13 +357,13 @@ export default function TeamPage() {
 
         {/* Navigation */}
         <div className="flex justify-between items-center pt-8 border-t border-neutral-200">
-          <Link href="/properties/riviera-maya-jungle-estate" className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors">
+          <Link href="/gallery" className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors">
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-            <span className="font-accent text-sm uppercase tracking-wide">The Property</span>
+            <span className="font-accent text-sm uppercase tracking-wide">Gallery</span>
           </Link>
-          <Link href="/moat">
+          <Link href="/financials">
             <Button variant="primary">
-              Competitive Moat
+              View Financials
               <ArrowRight className="ml-2 w-4 h-4" />
             </Button>
           </Link>

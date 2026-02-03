@@ -717,17 +717,17 @@ export default function MoatPage() {
       <section className="py-16 bg-canvas">
         <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-6 pt-8 border-t border-neutral-200">
-            <Link 
-              href="/team" 
+            <Link
+              href="/model"
               className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors"
             >
               <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-              <span className="font-accent text-sm uppercase tracking-wide">Team</span>
+              <span className="font-accent text-sm uppercase tracking-wide">Model</span>
             </Link>
-            
-            <Link href="/financials">
+
+            <Link href="/expansion">
               <Button variant="primary" size="lg">
-                View Financials
+                Expansion Strategy
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
             </Link>

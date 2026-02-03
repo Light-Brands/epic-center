@@ -13,16 +13,29 @@ const NAV_SECTIONS = [
       { name: 'Vision', href: '/' },
       { name: 'Market', href: '/market' },
       { name: 'Model', href: '/model' },
+      { name: 'Moat', href: '/moat' },
       { name: 'Expansion', href: '/expansion' },
+    ],
+  },
+  {
+    title: 'The Story',
+    links: [
+      { name: 'The Origin', href: '/story/origin' },
+      { name: 'The Solution', href: '/story/solution' },
+      { name: 'The Experience', href: '/story/experience' },
+      { name: 'The Programs', href: '/story/programs' },
+      { name: 'The Science', href: '/story/science' },
+      { name: 'The Sanctuary', href: '/story/sanctuary' },
     ],
   },
   {
     title: 'Assets',
     links: [
       { name: 'The Property', href: '/properties/riviera-maya-jungle-estate' },
+      { name: 'The Platform', href: '/technology' },
+      { name: 'Data & Intelligence', href: '/technology/data' },
       { name: 'Gallery', href: '/gallery' },
       { name: 'Team', href: '/team' },
-      { name: 'Moat', href: '/moat' },
     ],
   },
   {

@@ -47,7 +47,7 @@ There's a massive gap in the wellness market that nobody is filling.
 
 ## The Market: Over $1 Trillion and Growing
 
-Our research identified four market segments that Transformational Epicenter serves simultaneously:
+Our research identified four market pillars that Transformational Epicenter serves simultaneously:
 
 | Market Segment | Size | Annual Growth |
 |----------------|------|---------------|
@@ -61,9 +61,9 @@ Our research identified four market segments that Transformational Epicenter ser
 
 **The key insight**: We don't need a large market share. Capturing even a small slice of ultra-high-net-worth individuals seeking transformation creates a substantial business.
 
-### The Four Market Segments in Detail
+### The Four Market Pillars in Detail
 
-#### Market Segment 1: Medical & Longevity Clinics
+#### Market Pillar 1: Medical & Longevity Clinics
 
 | Offering | Description |
 |----------|-------------|
@@ -75,7 +75,7 @@ Our research identified four market segments that Transformational Epicenter ser
 
 **Gap**: Clinical credibility and diagnostic depth, but lack spiritual and identity dimensions.
 
-#### Market Segment 2: Biohacking & Performance Centers
+#### Market Pillar 2: Biohacking & Performance Centers
 
 | Offering | Description |
 |----------|-------------|
@@ -87,7 +87,7 @@ Our research identified four market segments that Transformational Epicenter ser
 
 **Gap**: Cutting-edge technology and bio-optimization, but transactional with no continuity of care.
 
-#### Market Segment 3: Plant Medicine & Trauma Resolution Centers
+#### Market Pillar 3: Plant Medicine & Trauma Resolution Centers
 
 | Offering | Description |
 |----------|-------------|
@@ -99,7 +99,7 @@ Our research identified four market segments that Transformational Epicenter ser
 
 **Gap**: Powerful addiction interruption, but often lack medical rigor and no integration support.
 
-#### Market Segment 4: Luxury Wellness & Transformational Retreats
+#### Market Pillar 4: Luxury Wellness & Transformational Retreats
 
 | Offering | Description |
 |----------|-------------|
@@ -114,7 +114,7 @@ Our research identified four market segments that Transformational Epicenter ser
 
 ### The Strategic Opportunity
 
-**No single player has unified these four market segments into a coherent, continuous healing journey.**
+**No single player has unified these four market pillars into a coherent, continuous healing journey.**
 
 This is not an oversight—it is a structural limitation. Building such an offering requires:
 - Medical expertise willing to work alongside plant medicine
