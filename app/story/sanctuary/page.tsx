@@ -1,29 +1,12 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import {
   ArrowLeft,
   ArrowRight,
-  TreePine,
-  Volume2,
-  Sun,
-  Palette,
-  Home,
-  Bath,
-  Thermometer,
-  Flower2,
-  CheckCircle2,
-  Shield,
-  Users,
-  Award,
-  Lock,
   Globe,
-  MapPin,
-  Plane,
-  Building2,
-  Stethoscope,
-  Briefcase,
 } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
 import { Footer } from '@/components/layout'
@@ -57,22 +40,22 @@ const scaleInVariants = {
 
 const DESIGN_PRINCIPLES = [
   {
-    icon: TreePine,
+    icon: '/icons/story-biophilic.png',
     name: 'Biophilic Design',
     description: 'Nature integration throughout\u2014natural light, living plants, water features, and direct connection to the outdoors.',
   },
   {
-    icon: Volume2,
+    icon: '/icons/story-acoustic.png',
     name: 'Acoustic Sanctuary',
     description: 'Sound-conscious design with natural sound barriers, quality insulation, and spaces for both connection and solitude.',
   },
   {
-    icon: Sun,
+    icon: '/icons/story-light.png',
     name: 'Light as Medicine',
     description: 'Circadian-aligned lighting throughout, with abundant natural light and warm, therapeutic color temperatures.',
   },
   {
-    icon: Palette,
+    icon: '/icons/story-materials.png',
     name: 'Conscious Materials',
     description: 'Non-toxic, sustainable, beautiful materials\u2014natural wood, stone, organic textiles, and artisan craftsmanship.',
   },
@@ -88,22 +71,22 @@ const ROOM_AMENITIES = [
 ]
 
 const HEALING_SPACES = [
-  { icon: Stethoscope, name: 'Medical Center', description: 'Fully equipped medical facility with monitoring stations, emergency equipment, and private consultation rooms.' },
-  { icon: Flower2, name: 'Ceremony Space', description: 'Sacred container designed for deep work\u2014private rooms with 24/7 support access and peaceful ambiance.' },
-  { icon: Thermometer, name: 'Bio-Optimization Center', description: 'State-of-the-art facility with sauna, cold plunge, red light therapy, hyperbaric chamber, and IV therapy.' },
-  { icon: Home, name: 'Dining Pavilion', description: 'Open-air dining space with views of nature, designed for nourishing meals and community connection.' },
-  { icon: Bath, name: 'Movement Studio', description: 'Dedicated space for yoga, breathwork, somatic practices, and gentle movement throughout your stay.' },
-  { icon: TreePine, name: 'Gardens & Trails', description: 'Landscaped grounds with walking paths, meditation spots, and direct connection to nature.' },
-  { icon: Sun, name: 'Pool & Water Features', description: 'Therapeutic pool for gentle movement and relaxation, surrounded by natural landscaping.' },
-  { icon: Users, name: 'Integration Rooms', description: 'Private and group spaces designed for processing, reflection, and one-on-one sessions.' },
+  { icon: '/icons/diff-medical.png', name: 'Medical Center', description: 'Fully equipped medical facility with monitoring stations, emergency equipment, and private consultation rooms.' },
+  { icon: '/icons/story-ceremony.png', name: 'Ceremony Space', description: 'Sacred container designed for deep work\u2014private rooms with 24/7 support access and peaceful ambiance.' },
+  { icon: '/icons/program-bio.png', name: 'Bio-Optimization Center', description: 'State-of-the-art facility with sauna, cold plunge, red light therapy, hyperbaric chamber, and IV therapy.' },
+  { icon: '/icons/story-dining.png', name: 'Dining Pavilion', description: 'Open-air dining space with views of nature, designed for nourishing meals and community connection.' },
+  { icon: '/icons/story-movement.png', name: 'Movement Studio', description: 'Dedicated space for yoga, breathwork, somatic practices, and gentle movement throughout your stay.' },
+  { icon: '/icons/story-gardens.png', name: 'Gardens & Trails', description: 'Landscaped grounds with walking paths, meditation spots, and direct connection to nature.' },
+  { icon: '/icons/story-pool.png', name: 'Pool & Water Features', description: 'Therapeutic pool for gentle movement and relaxation, surrounded by natural landscaping.' },
+  { icon: '/icons/model-users.png', name: 'Integration Rooms', description: 'Private and group spaces designed for processing, reflection, and one-on-one sessions.' },
 ]
 
 const WHY_MEXICO = [
-  { icon: Shield, title: 'Legal Clarity', description: 'Ibogaine is legal/unregulated (unlike the U.S.)' },
-  { icon: Plane, title: 'Accessibility', description: 'Short flights from major U.S. cities' },
-  { icon: Building2, title: 'Infrastructure', description: 'World-class resort infrastructure already exists' },
-  { icon: Stethoscope, title: 'Hospital Access', description: 'Quality emergency facilities within 15 minutes' },
-  { icon: Briefcase, title: 'Talent Pool', description: 'Experienced hospitality and medical professionals available' },
+  { icon: '/icons/model-shield.png', title: 'Legal Clarity', description: 'Ibogaine is legal/unregulated (unlike the U.S.)' },
+  { icon: '/icons/diff-location.png', title: 'Accessibility', description: 'Short flights from major U.S. cities' },
+  { icon: '/icons/story-accommodation.png', title: 'Infrastructure', description: 'World-class resort infrastructure already exists' },
+  { icon: '/icons/diff-medical.png', title: 'Hospital Access', description: 'Quality emergency facilities within 15 minutes' },
+  { icon: '/icons/model-users.png', title: 'Talent Pool', description: 'Experienced hospitality and medical professionals available' },
 ]
 
 const DEFENSE_LAYERS = [
@@ -140,18 +123,21 @@ export default function SanctuaryPage() {
       {/* ═══════════════════════════════════════════
           HERO — "Where Healing Takes Root"
           ═══════════════════════════════════════════ */}
-      <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden bg-primary-900">
+      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-primary-900">
+        {/* Atmospheric layers */}
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/40 to-transparent" />
-        <div className="absolute -top-40 right-1/4 w-[500px] h-[500px] rounded-full bg-secondary-500/8 blur-[150px]" />
-        <div className="absolute bottom-0 left-1/4 w-[400px] h-[400px] rounded-full bg-accent-500/6 blur-[120px]" />
+        <div className="absolute -top-40 right-1/4 w-[600px] h-[600px] rounded-full bg-secondary-500/8 blur-[180px]" />
+        <div className="absolute top-1/3 left-[10%] w-[300px] h-[300px] rounded-full bg-primary-700/40 blur-[120px]" />
+        <div className="absolute bottom-0 left-1/4 w-[500px] h-[500px] rounded-full bg-accent-500/6 blur-[150px]" />
+        <div className="absolute top-1/2 right-[5%] w-[200px] h-[200px] rounded-full bg-secondary-400/5 blur-[80px]" />
         <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/30 to-transparent" />
 
-        <div className="w-full sm:w-[70vw] mx-auto py-32 relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 py-32 relative text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            className="mb-8"
+            className="mb-10"
           >
             <span className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full border border-secondary-500/30 bg-secondary-500/10 backdrop-blur-sm">
               <span className="w-2 h-2 rounded-full bg-secondary-400 animate-pulse" />
@@ -162,7 +148,7 @@ export default function SanctuaryPage() {
           </motion.div>
 
           <motion.h1
-            className="font-display text-5xl sm:text-6xl md:text-7xl font-light mb-8 leading-[0.95] text-white max-w-4xl"
+            className="font-display text-6xl sm:text-7xl md:text-8xl font-light mb-10 leading-[0.9] text-white max-w-4xl mx-auto"
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
@@ -171,7 +157,7 @@ export default function SanctuaryPage() {
             <span className="relative inline-block">
               <span className="text-secondary-400">Takes Root</span>
               <motion.span
-                className="absolute -bottom-2 left-0 right-0 h-[3px] rounded-full overflow-hidden"
+                className="absolute -bottom-3 left-0 right-0 h-[3px] rounded-full overflow-hidden"
                 initial={{ scaleX: 0 }}
                 animate={{ scaleX: 1 }}
                 transition={{ duration: 1, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
@@ -181,11 +167,23 @@ export default function SanctuaryPage() {
             </span>
           </motion.h1>
 
+          {/* Decorative divider */}
+          <motion.div
+            className="flex items-center justify-center gap-4 mb-10"
+            initial={{ opacity: 0, scaleX: 0 }}
+            animate={{ opacity: 1, scaleX: 1 }}
+            transition={{ duration: 1, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
+          >
+            <div className="h-px w-16 bg-gradient-to-r from-transparent to-secondary-500/50" />
+            <div className="w-1.5 h-1.5 rounded-full bg-secondary-400/60" />
+            <div className="h-px w-16 bg-gradient-to-l from-transparent to-secondary-500/50" />
+          </motion.div>
+
           <motion.p
-            className="font-body text-lg md:text-xl text-primary-200/90 mb-14 max-w-2xl leading-[1.7] tracking-wide"
+            className="font-body text-xl md:text-2xl text-primary-200/90 mb-16 max-w-2xl mx-auto leading-[1.6] tracking-wide"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+            transition={{ duration: 0.8, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
           >
             The Transformational Epicenter is not merely a building&mdash;it is a therapeutic
             environment. Every design choice serves the nervous system&apos;s need for safety,
@@ -193,19 +191,36 @@ export default function SanctuaryPage() {
           </motion.p>
 
           <motion.div
-            className="flex flex-wrap gap-4"
+            className="flex flex-wrap justify-center gap-4"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
+            transition={{ duration: 0.8, delay: 0.35, ease: [0.16, 1, 0.3, 1] }}
           >
             <div className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
-              <MapPin className="w-5 h-5 text-secondary-400" />
               <span className="font-accent text-sm text-white">Mexico, Quintana Roo</span>
             </div>
             <div className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
-              <Home className="w-5 h-5 text-secondary-400" />
               <span className="font-accent text-sm text-white">10 Private Guest Rooms</span>
             </div>
+          </motion.div>
+
+          {/* Scroll indicator */}
+          <motion.div
+            className="absolute bottom-10 left-1/2 -translate-x-1/2"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          >
+            <motion.div
+              className="flex flex-col items-center gap-2"
+              animate={{ y: [0, 6, 0] }}
+              transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
+            >
+              <span className="font-accent text-[10px] uppercase tracking-[0.3em] text-primary-300/40">
+                Scroll
+              </span>
+              <div className="w-px h-8 bg-gradient-to-b from-primary-300/40 to-transparent" />
+            </motion.div>
           </motion.div>
         </div>
       </section>
@@ -214,7 +229,7 @@ export default function SanctuaryPage() {
           DESIGN PHILOSOPHY
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="text-center mb-16"
             initial="hidden"
@@ -253,8 +268,14 @@ export default function SanctuaryPage() {
               >
                 <div className="group h-full bg-white rounded-2xl p-6 shadow-card hover:shadow-xl transition-all duration-500 border border-neutral-100 hover:border-neutral-200 relative overflow-hidden">
                   <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-secondary-400 to-secondary-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                  <div className="w-12 h-12 rounded-xl bg-primary-100 flex items-center justify-center mb-4 group-hover:bg-primary-200 transition-colors duration-300">
-                    <principle.icon className="w-6 h-6 text-primary-600" />
+                  <div className="w-28 h-28 mb-4">
+                    <Image
+                      src={principle.icon}
+                      alt={principle.name}
+                      width={112}
+                      height={112}
+                      className="object-contain w-full h-full rounded-2xl"
+                    />
                   </div>
                   <h3 className="font-heading text-lg text-neutral-900 mb-2">{principle.name}</h3>
                   <p className="text-sm text-neutral-600 leading-relaxed">{principle.description}</p>
@@ -269,7 +290,7 @@ export default function SanctuaryPage() {
           GUEST ROOMS
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-white relative overflow-hidden">
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="grid lg:grid-cols-2 gap-16 items-center"
             initial="hidden"
@@ -316,7 +337,7 @@ export default function SanctuaryPage() {
           HEALING SPACES
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="text-center mb-16"
             initial="hidden"
@@ -350,8 +371,14 @@ export default function SanctuaryPage() {
                 whileHover={{ y: -8, transition: { duration: 0.3, ease: [0.16, 1, 0.3, 1] } }}
               >
                 <div className="group h-full bg-white rounded-2xl p-6 shadow-card hover:shadow-xl transition-all duration-500 border border-neutral-100 hover:border-neutral-200">
-                  <div className="w-10 h-10 rounded-xl bg-primary-100 flex items-center justify-center mb-3 group-hover:bg-primary-200 transition-colors duration-300">
-                    <space.icon className="w-5 h-5 text-primary-600" />
+                  <div className="w-24 h-24 mb-4">
+                    <Image
+                      src={space.icon}
+                      alt={space.name}
+                      width={96}
+                      height={96}
+                      className="object-contain w-full h-full rounded-2xl"
+                    />
                   </div>
                   <h3 className="font-heading text-base text-neutral-900 mb-2">{space.name}</h3>
                   <p className="text-sm text-neutral-600 leading-relaxed">{space.description}</p>
@@ -370,7 +397,7 @@ export default function SanctuaryPage() {
         <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/30 to-transparent" />
         <div className="absolute top-1/2 -left-48 w-96 h-96 rounded-full bg-accent-500/10 blur-[150px]" />
 
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="grid lg:grid-cols-2 gap-16 items-center"
             initial="hidden"
@@ -393,11 +420,17 @@ export default function SanctuaryPage() {
                 is our top choice for the first Transformational Epicenter.
               </p>
 
-              <div className="space-y-4">
+              <div className="space-y-5">
                 {WHY_MEXICO.map((reason) => (
-                  <div key={reason.title} className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-secondary-500/20 border border-secondary-500/30 flex items-center justify-center">
-                      <reason.icon className="w-5 h-5 text-secondary-400" />
+                  <div key={reason.title} className="flex items-center gap-4">
+                    <div className="flex-shrink-0 w-16 h-16">
+                      <Image
+                        src={reason.icon}
+                        alt={reason.title}
+                        width={64}
+                        height={64}
+                        className="object-contain w-full h-full rounded-xl"
+                      />
                     </div>
                     <div>
                       <h4 className="font-medium mb-0.5">{reason.title}</h4>
@@ -441,7 +474,7 @@ export default function SanctuaryPage() {
           FIVE LAYERS OF DEFENSE
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="text-center mb-16"
             initial="hidden"
@@ -495,7 +528,7 @@ export default function SanctuaryPage() {
         <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full bg-secondary-500/10 blur-[150px]" />
 
         <motion.div
-          className="w-full sm:w-[70vw] mx-auto text-center relative"
+          className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 text-center relative"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
@@ -512,37 +545,37 @@ export default function SanctuaryPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/expansion">
-              <button className="group inline-flex items-center gap-2 px-10 py-5 rounded-xl font-accent text-sm font-semibold uppercase tracking-wider text-primary-950 bg-gradient-to-r from-secondary-400 to-secondary-500 hover:from-secondary-500 hover:to-secondary-600 shadow-xl shadow-secondary-500/25 hover:shadow-secondary-500/40 transition-all duration-300">
+              <Button variant="accent" size="lg" className="group">
                 Expansion Strategy
-                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
-              </button>
+                <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
+              </Button>
             </Link>
             <Link href="/invest">
-              <button className="inline-flex items-center gap-2 px-10 py-5 rounded-xl font-accent text-sm font-semibold uppercase tracking-wider text-white border-2 border-white/20 hover:bg-white/10 hover:border-white/40 transition-all duration-300 backdrop-blur-sm">
+              <Button variant="ghost" size="lg" className="text-white border-2 border-white/20 hover:bg-white/10 hover:border-white/40 backdrop-blur-sm">
                 View Investment
-              </button>
+              </Button>
             </Link>
           </div>
         </motion.div>
       </section>
 
       {/* Prev/Next Navigation */}
-      <div className="bg-canvas">
-        <div className="w-full sm:w-[70vw] mx-auto py-8">
-          <div className="flex justify-between items-center pt-8 border-t border-neutral-200">
+      <section className="py-16 bg-canvas">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-6 pt-8 border-t border-neutral-200">
             <Link href="/story/science" className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors">
               <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
               <span className="font-accent text-sm uppercase tracking-wide">The Science</span>
             </Link>
             <Link href="/expansion">
-              <Button variant="primary">
+              <Button variant="primary" size="lg">
                 Expansion
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
             </Link>
           </div>
         </div>
-      </div>
+      </section>
 
       <Footer />
     </div>

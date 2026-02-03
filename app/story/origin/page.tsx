@@ -1,21 +1,10 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
-import {
-  ArrowLeft,
-  ArrowRight,
-  ArrowLeftRight,
-  Stethoscope,
-  Zap,
-  Leaf,
-  Gem,
-  Shield,
-  Sparkles,
-  Star,
-  Layers,
-} from 'lucide-react'
-import { Button } from '@/components/ui'
+import { ArrowLeft, ArrowRight, ArrowLeftRight } from 'lucide-react'
+import { Button, Card } from '@/components/ui'
 import { Footer } from '@/components/layout'
 
 const fadeUpVariants = {
@@ -47,40 +36,28 @@ const scaleInVariants = {
 
 const PILLARS = [
   {
-    icon: Stethoscope,
+    icon: '/icons/diff-medical.png',
     name: 'Medical & Longevity Clinics',
     problem: 'Great doctors, but clinical and cold',
     gap: 'Clinical credibility and diagnostic depth, but lack spiritual and identity dimensions.',
-    color: 'from-blue-500 to-blue-600',
-    iconBg: 'bg-blue-100',
-    iconColor: 'text-blue-600',
   },
   {
-    icon: Zap,
+    icon: '/icons/story-biohacking.png',
     name: 'Biohacking & Performance',
     problem: 'Trendy tech, but no real medical oversight',
     gap: 'Cutting-edge technology and bio-optimization, but transactional with no continuity of care.',
-    color: 'from-amber-500 to-amber-600',
-    iconBg: 'bg-amber-100',
-    iconColor: 'text-amber-600',
   },
   {
-    icon: Leaf,
+    icon: '/icons/model-leaf.png',
     name: 'Plant Medicine & Psychedelics',
     problem: 'Powerful, but often unsafe or unprofessional',
     gap: 'Powerful addiction interruption, but often lack medical rigor and no integration support.',
-    color: 'from-emerald-500 to-emerald-600',
-    iconBg: 'bg-emerald-100',
-    iconColor: 'text-emerald-600',
   },
   {
-    icon: Gem,
+    icon: '/icons/story-gem.png',
     name: 'Luxury Wellness & Retreats',
     problem: 'Beautiful, but surface-level wellness',
     gap: 'Hospitality excellence and beautiful settings, but surface-level with no lasting transformation.',
-    color: 'from-purple-500 to-purple-600',
-    iconBg: 'bg-purple-100',
-    iconColor: 'text-purple-600',
   },
 ]
 
@@ -144,22 +121,22 @@ const BELIEFS = [
 
 const VALUES = [
   {
-    icon: Shield,
+    icon: '/icons/model-shield.png',
     name: 'Safety',
     description: 'Medical rigor and sacred containment as the foundation of everything we do.',
   },
   {
-    icon: Sparkles,
+    icon: '/icons/model-sparkles.png',
     name: 'Transformation',
     description: 'Deep, lasting change at the root\u2014not just symptom management or temporary relief.',
   },
   {
-    icon: Star,
+    icon: '/icons/story-excellence.png',
     name: 'Excellence',
     description: 'Care expressed through exceptional quality in every detail and interaction.',
   },
   {
-    icon: Layers,
+    icon: '/icons/story-layers.png',
     name: 'Integration',
     description: 'Supporting the full arc, not just the peak experience\u2014lasting change takes time.',
   },
@@ -171,18 +148,21 @@ export default function OriginPage() {
       {/* ═══════════════════════════════════════════
           HERO — "Why We Exist"
           ═══════════════════════════════════════════ */}
-      <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden bg-primary-900">
+      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-primary-900">
+        {/* Atmospheric layers */}
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/40 to-transparent" />
-        <div className="absolute -top-40 right-1/4 w-[500px] h-[500px] rounded-full bg-secondary-500/8 blur-[150px]" />
-        <div className="absolute bottom-0 left-1/4 w-[400px] h-[400px] rounded-full bg-accent-500/6 blur-[120px]" />
+        <div className="absolute -top-40 right-1/4 w-[600px] h-[600px] rounded-full bg-secondary-500/8 blur-[180px]" />
+        <div className="absolute top-1/3 left-[10%] w-[300px] h-[300px] rounded-full bg-primary-700/40 blur-[120px]" />
+        <div className="absolute bottom-0 left-1/4 w-[500px] h-[500px] rounded-full bg-accent-500/6 blur-[150px]" />
+        <div className="absolute top-1/2 right-[5%] w-[200px] h-[200px] rounded-full bg-secondary-400/5 blur-[80px]" />
         <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/30 to-transparent" />
 
-        <div className="w-full sm:w-[70vw] mx-auto py-32 relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 py-32 relative text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            className="mb-8"
+            className="mb-10"
           >
             <span className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full border border-secondary-500/30 bg-secondary-500/10 backdrop-blur-sm">
               <span className="w-2 h-2 rounded-full bg-secondary-400 animate-pulse" />
@@ -193,7 +173,7 @@ export default function OriginPage() {
           </motion.div>
 
           <motion.h1
-            className="font-display text-5xl sm:text-6xl md:text-7xl font-light mb-8 leading-[0.95] text-white max-w-4xl"
+            className="font-display text-6xl sm:text-7xl md:text-8xl font-light mb-10 leading-[0.9] text-white max-w-4xl mx-auto"
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
@@ -202,7 +182,7 @@ export default function OriginPage() {
             <span className="relative inline-block">
               <span className="text-secondary-400">Exist</span>
               <motion.span
-                className="absolute -bottom-2 left-0 right-0 h-[3px] rounded-full overflow-hidden"
+                className="absolute -bottom-3 left-0 right-0 h-[3px] rounded-full overflow-hidden"
                 initial={{ scaleX: 0 }}
                 animate={{ scaleX: 1 }}
                 transition={{ duration: 1, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
@@ -212,15 +192,46 @@ export default function OriginPage() {
             </span>
           </motion.h1>
 
+          {/* Decorative divider */}
+          <motion.div
+            className="flex items-center justify-center gap-4 mb-10"
+            initial={{ opacity: 0, scaleX: 0 }}
+            animate={{ opacity: 1, scaleX: 1 }}
+            transition={{ duration: 1, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
+          >
+            <div className="h-px w-16 bg-gradient-to-r from-transparent to-secondary-500/50" />
+            <div className="w-1.5 h-1.5 rounded-full bg-secondary-400/60" />
+            <div className="h-px w-16 bg-gradient-to-l from-transparent to-secondary-500/50" />
+          </motion.div>
+
           <motion.p
-            className="font-body text-lg md:text-xl text-primary-200/90 mb-14 max-w-2xl leading-[1.7] tracking-wide"
+            className="font-body text-xl md:text-2xl text-primary-200/90 mb-16 max-w-2xl mx-auto leading-[1.6] tracking-wide"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+            transition={{ duration: 0.8, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
           >
             Modern humans are suffering from a crisis of disconnection&mdash;from their bodies,
             their nervous systems, their emotions, their purpose, and their essential nature.
           </motion.p>
+
+          {/* Scroll indicator */}
+          <motion.div
+            className="absolute bottom-10 left-1/2 -translate-x-1/2"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          >
+            <motion.div
+              className="flex flex-col items-center gap-2"
+              animate={{ y: [0, 6, 0] }}
+              transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
+            >
+              <span className="font-accent text-[10px] uppercase tracking-[0.3em] text-primary-300/40">
+                Scroll
+              </span>
+              <div className="w-px h-8 bg-gradient-to-b from-primary-300/40 to-transparent" />
+            </motion.div>
+          </motion.div>
         </div>
       </section>
 
@@ -228,7 +239,7 @@ export default function OriginPage() {
           THE GAP — Four Market Pillars
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="text-center mb-20"
             initial="hidden"
@@ -265,20 +276,24 @@ export default function OriginPage() {
                 variants={scaleInVariants}
                 whileHover={{ y: -8, transition: { duration: 0.3, ease: [0.16, 1, 0.3, 1] } }}
               >
-                <div className="group h-full bg-white rounded-2xl p-8 shadow-card hover:shadow-xl transition-all duration-500 border border-neutral-100 hover:border-neutral-200 relative overflow-hidden">
-                  <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${pillar.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
-
-                  <div className="flex items-start gap-4 mb-4">
-                    <div className={`w-12 h-12 rounded-xl ${pillar.iconBg} flex items-center justify-center flex-shrink-0`}>
-                      <pillar.icon className={`w-6 h-6 ${pillar.iconColor}`} />
+                <Card padding="lg" className="group h-full hover:shadow-xl transition-all duration-500 relative overflow-hidden">
+                  <div className="flex items-start gap-5 mb-4">
+                    <div className="w-28 h-28 flex-shrink-0 transition-transform duration-500 group-hover:scale-105">
+                      <Image
+                        src={pillar.icon}
+                        alt={pillar.name}
+                        width={112}
+                        height={112}
+                        className="object-contain w-full h-full rounded-2xl"
+                      />
                     </div>
                     <div>
                       <h3 className="font-heading text-lg text-neutral-900 mb-1">{pillar.name}</h3>
                       <p className="font-medium text-neutral-800">{pillar.problem}</p>
                     </div>
                   </div>
-                  <p className="text-neutral-600 leading-relaxed pl-16">{pillar.gap}</p>
-                </div>
+                  <p className="text-neutral-600 leading-relaxed pl-[132px]">{pillar.gap}</p>
+                </Card>
               </motion.div>
             ))}
           </motion.div>
@@ -292,7 +307,7 @@ export default function OriginPage() {
         <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-64 h-64 rounded-full bg-accent-500/5 blur-3xl" />
         <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-64 h-64 rounded-full bg-secondary-500/5 blur-3xl" />
 
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="text-center mb-16"
             initial="hidden"
@@ -336,7 +351,7 @@ export default function OriginPage() {
           THE TRANSFORMATION — "From → To"
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="text-center mb-16"
             initial="hidden"
@@ -396,7 +411,7 @@ export default function OriginPage() {
         <div className="absolute top-1/2 -left-48 w-96 h-96 rounded-full bg-accent-500/10 blur-[150px]" />
         <div className="absolute bottom-0 right-0 w-80 h-80 rounded-full bg-secondary-500/8 blur-[120px]" />
 
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           {/* Seven Beliefs */}
           <motion.div
             className="text-center mb-16"
@@ -416,7 +431,7 @@ export default function OriginPage() {
           </motion.div>
 
           <motion.div
-            className="space-y-8 mb-24"
+            className="max-w-2xl mx-auto space-y-16 mb-24"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.1 }}
@@ -426,15 +441,13 @@ export default function OriginPage() {
               <motion.div
                 key={belief.title}
                 variants={fadeUpVariants}
-                className="flex gap-6 md:gap-8"
+                className="text-center"
               >
-                <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-secondary-500/20 border border-secondary-500/30 flex items-center justify-center">
-                  <span className="font-heading text-lg text-secondary-400">{index + 1}</span>
-                </div>
-                <div>
-                  <h3 className="font-heading text-xl md:text-2xl mb-3">{belief.title}</h3>
-                  <p className="text-primary-200/90 leading-relaxed max-w-3xl">{belief.description}</p>
-                </div>
+                <span className="font-accent text-xs uppercase tracking-[0.3em] text-secondary-500/60 mb-4 block">
+                  {String(index + 1).padStart(2, '0')}
+                </span>
+                <h3 className="font-heading text-xl md:text-2xl mb-4">{belief.title}</h3>
+                <p className="text-primary-200/70 leading-relaxed">{belief.description}</p>
               </motion.div>
             ))}
           </motion.div>
@@ -461,9 +474,15 @@ export default function OriginPage() {
                   variants={scaleInVariants}
                   whileHover={{ y: -8, transition: { duration: 0.3, ease: [0.16, 1, 0.3, 1] } }}
                 >
-                  <div className="h-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 hover:bg-white/15 transition-all duration-500">
-                    <div className="w-12 h-12 rounded-xl bg-secondary-500/20 border border-secondary-500/30 flex items-center justify-center mb-4">
-                      <value.icon className="w-6 h-6 text-secondary-400" />
+                  <div className="h-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 hover:bg-white/15 transition-all duration-500 text-center">
+                    <div className="w-32 h-32 mx-auto mb-4 transition-transform duration-500 group-hover:scale-105">
+                      <Image
+                        src={value.icon}
+                        alt={value.name}
+                        width={128}
+                        height={128}
+                        className="object-contain w-full h-full rounded-2xl"
+                      />
                     </div>
                     <h4 className="font-heading text-lg mb-2">{value.name}</h4>
                     <p className="text-primary-200/80 text-sm leading-relaxed">{value.description}</p>
@@ -476,22 +495,22 @@ export default function OriginPage() {
       </section>
 
       {/* Prev/Next Navigation */}
-      <div className="bg-canvas">
-        <div className="w-full sm:w-[70vw] mx-auto py-8">
-          <div className="flex justify-between items-center pt-8 border-t border-neutral-200">
+      <section className="py-16 bg-canvas">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-6 pt-8 border-t border-neutral-200">
             <Link href="/" className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors">
               <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
               <span className="font-accent text-sm uppercase tracking-wide">Vision</span>
             </Link>
             <Link href="/story/solution">
-              <Button variant="primary">
+              <Button variant="primary" size="lg">
                 The Solution
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
             </Link>
           </div>
         </div>
-      </div>
+      </section>
 
       <Footer />
     </div>

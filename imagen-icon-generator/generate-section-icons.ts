@@ -9,6 +9,7 @@
 
 import fs from "fs/promises";
 import path from "path";
+import { pathToFileURL } from "url";
 import { generate, saveImage } from "./index";
 
 const DEFAULT_ICON_STYLE = `
@@ -36,7 +37,7 @@ interface Config {
 
 async function loadConfig(configPath: string): Promise<Config> {
   const resolved = path.resolve(process.cwd(), configPath);
-  const mod = await import(resolved);
+  const mod = await import(pathToFileURL(resolved).href);
   const icons = mod.icons;
   if (!Array.isArray(icons) || icons.length === 0) {
     throw new Error(`Config must export a non-empty "icons" array. Got: ${resolved}`);

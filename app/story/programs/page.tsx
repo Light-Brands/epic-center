@@ -1,20 +1,12 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import {
   ArrowLeft,
   ArrowRight,
   CheckCircle2,
-  Clock,
-  Calendar,
-  Heart,
-  Sparkles,
-  Home,
-  UtensilsCrossed,
-  Activity,
-  Stethoscope,
-  Users,
 } from 'lucide-react'
 import { Button, Card, Badge } from '@/components/ui'
 import { Footer } from '@/components/layout'
@@ -120,12 +112,12 @@ const PROGRAMS = [
 ]
 
 const INCLUSIONS = [
-  { icon: Home, name: 'Luxury Accommodation', description: 'Private room with conscious design, quality linens, and everything needed for deep rest.' },
-  { icon: UtensilsCrossed, name: 'Organic Cuisine', description: 'All meals prepared by our chef using organic, locally-sourced ingredients tailored to support healing.' },
-  { icon: Heart, name: 'Daily Massage', description: '90-minute therapeutic bodywork each day to support physical integration and nervous system regulation.' },
-  { icon: Activity, name: 'Bio-Optimization', description: 'Full access to sauna, cold plunge, red light therapy, hyperbaric oxygen, and IV therapy.' },
-  { icon: Stethoscope, name: 'Medical Oversight', description: '24/7 medical team presence with continuous monitoring, on-site physician, and nursing staff.' },
-  { icon: Users, name: 'Post-Care Support', description: 'Structured integration program, coaching sessions, and lifetime community access after departure.' },
+  { icon: '/icons/story-accommodation.png', name: 'Luxury Accommodation', description: 'Private room with conscious design, quality linens, and everything needed for deep rest.' },
+  { icon: '/icons/story-cuisine.png', name: 'Organic Cuisine', description: 'All meals prepared by our chef using organic, locally-sourced ingredients tailored to support healing.' },
+  { icon: '/icons/story-massage.png', name: 'Daily Massage', description: '90-minute therapeutic bodywork each day to support physical integration and nervous system regulation.' },
+  { icon: '/icons/program-bio.png', name: 'Bio-Optimization', description: 'Full access to sauna, cold plunge, red light therapy, hyperbaric oxygen, and IV therapy.' },
+  { icon: '/icons/diff-medical.png', name: 'Medical Oversight', description: '24/7 medical team presence with continuous monitoring, on-site physician, and nursing staff.' },
+  { icon: '/icons/model-users.png', name: 'Post-Care Support', description: 'Structured integration program, coaching sessions, and lifetime community access after departure.' },
 ]
 
 const WELLNESS_PROGRAMS = [
@@ -162,18 +154,21 @@ export default function ProgramsPage() {
       {/* ═══════════════════════════════════════════
           HERO — "Journeys Designed for Depth"
           ═══════════════════════════════════════════ */}
-      <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden bg-primary-900">
+      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-primary-900">
+        {/* Atmospheric layers */}
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/40 to-transparent" />
-        <div className="absolute -top-40 right-1/4 w-[500px] h-[500px] rounded-full bg-secondary-500/8 blur-[150px]" />
-        <div className="absolute bottom-0 left-1/4 w-[400px] h-[400px] rounded-full bg-accent-500/6 blur-[120px]" />
+        <div className="absolute -top-40 right-1/4 w-[600px] h-[600px] rounded-full bg-secondary-500/8 blur-[180px]" />
+        <div className="absolute top-1/3 left-[10%] w-[300px] h-[300px] rounded-full bg-primary-700/40 blur-[120px]" />
+        <div className="absolute bottom-0 left-1/4 w-[500px] h-[500px] rounded-full bg-accent-500/6 blur-[150px]" />
+        <div className="absolute top-1/2 right-[5%] w-[200px] h-[200px] rounded-full bg-secondary-400/5 blur-[80px]" />
         <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/30 to-transparent" />
 
-        <div className="w-full sm:w-[70vw] mx-auto py-32 relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 py-32 relative text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            className="mb-8"
+            className="mb-10"
           >
             <span className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full border border-secondary-500/30 bg-secondary-500/10 backdrop-blur-sm">
               <span className="w-2 h-2 rounded-full bg-secondary-400 animate-pulse" />
@@ -184,7 +179,7 @@ export default function ProgramsPage() {
           </motion.div>
 
           <motion.h1
-            className="font-display text-5xl sm:text-6xl md:text-7xl font-light mb-8 leading-[0.95] text-white max-w-4xl"
+            className="font-display text-6xl sm:text-7xl md:text-8xl font-light mb-10 leading-[0.9] text-white max-w-4xl mx-auto"
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
@@ -193,7 +188,7 @@ export default function ProgramsPage() {
             <span className="relative inline-block">
               <span className="text-secondary-400">Depth</span>
               <motion.span
-                className="absolute -bottom-2 left-0 right-0 h-[3px] rounded-full overflow-hidden"
+                className="absolute -bottom-3 left-0 right-0 h-[3px] rounded-full overflow-hidden"
                 initial={{ scaleX: 0 }}
                 animate={{ scaleX: 1 }}
                 transition={{ duration: 1, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
@@ -203,30 +198,59 @@ export default function ProgramsPage() {
             </span>
           </motion.h1>
 
+          {/* Decorative divider */}
+          <motion.div
+            className="flex items-center justify-center gap-4 mb-10"
+            initial={{ opacity: 0, scaleX: 0 }}
+            animate={{ opacity: 1, scaleX: 1 }}
+            transition={{ duration: 1, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
+          >
+            <div className="h-px w-16 bg-gradient-to-r from-transparent to-secondary-500/50" />
+            <div className="w-1.5 h-1.5 rounded-full bg-secondary-400/60" />
+            <div className="h-px w-16 bg-gradient-to-l from-transparent to-secondary-500/50" />
+          </motion.div>
+
           <motion.p
-            className="font-body text-lg md:text-xl text-primary-200/90 mb-14 max-w-2xl leading-[1.7] tracking-wide"
+            className="font-body text-xl md:text-2xl text-primary-200/90 mb-16 max-w-2xl mx-auto leading-[1.6] tracking-wide"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+            transition={{ duration: 0.8, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
           >
             Different depths of work require different amounts of time. We honor that truth
             in how we&apos;ve structured each journey. Base rate: $2,000 per day, all-inclusive.
           </motion.p>
 
           <motion.div
-            className="flex flex-wrap gap-4"
+            className="flex flex-wrap justify-center gap-4"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
+            transition={{ duration: 0.8, delay: 0.35, ease: [0.16, 1, 0.3, 1] }}
           >
             <div className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
-              <Calendar className="w-5 h-5 text-secondary-400" />
               <span className="font-accent text-sm text-white">7 to 28+ Day Programs</span>
             </div>
             <div className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
-              <Sparkles className="w-5 h-5 text-secondary-400" />
               <span className="font-accent text-sm text-white">$2,000/Day All-Inclusive</span>
             </div>
+          </motion.div>
+
+          {/* Scroll indicator */}
+          <motion.div
+            className="absolute bottom-10 left-1/2 -translate-x-1/2"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          >
+            <motion.div
+              className="flex flex-col items-center gap-2"
+              animate={{ y: [0, 6, 0] }}
+              transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
+            >
+              <span className="font-accent text-[10px] uppercase tracking-[0.3em] text-primary-300/40">
+                Scroll
+              </span>
+              <div className="w-px h-8 bg-gradient-to-b from-primary-300/40 to-transparent" />
+            </motion.div>
           </motion.div>
         </div>
       </section>
@@ -235,7 +259,7 @@ export default function ProgramsPage() {
           FOUR PROGRAMS
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="text-center mb-20"
             initial="hidden"
@@ -255,69 +279,74 @@ export default function ProgramsPage() {
             </h2>
           </motion.div>
 
-          <div className="space-y-12">
-            {PROGRAMS.map((program, index) => (
+          <motion.div
+            className="grid md:grid-cols-2 gap-8"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.1 }}
+            variants={staggerContainer}
+          >
+            {PROGRAMS.map((program) => (
               <motion.div
                 key={program.name}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, amount: 0.2 }}
-                variants={fadeUpVariants}
+                variants={scaleInVariants}
+                whileHover={{ y: -6, transition: { duration: 0.3, ease: [0.16, 1, 0.3, 1] } }}
               >
-                <div className="bg-white rounded-2xl shadow-card border border-neutral-100 overflow-hidden">
-                  {/* Program Header */}
-                  <div className="p-8 pb-0">
-                    <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-6">
+                <div className="group h-full rounded-2xl shadow-card hover:shadow-xl transition-all duration-500 overflow-hidden">
+                  {/* Header band */}
+                  <div className="bg-primary-900 px-6 py-5 relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-32 h-32 rounded-full bg-secondary-500/10 blur-[60px]" />
+                    <div className="relative flex items-end justify-between">
                       <div>
-                        <div className="flex items-center gap-3 mb-2">
-                          <Badge variant="info">{program.duration}</Badge>
-                          <span className="font-heading text-2xl text-secondary-600">{program.price}</span>
-                        </div>
-                        <h3 className="font-heading text-2xl text-neutral-900">{program.name}</h3>
-                        <p className="text-neutral-500">{program.subtitle}</p>
+                        <p className="font-accent text-[10px] uppercase tracking-[0.3em] text-secondary-400/70 mb-1">
+                          {program.duration}
+                        </p>
+                        <h3 className="font-heading text-xl text-white">{program.name}</h3>
                       </div>
-                      <div className="flex gap-6 text-sm">
-                        <div>
-                          <p className="text-neutral-400 font-accent text-xs uppercase tracking-wider">Ceremonies</p>
-                          <p className="font-heading text-lg text-neutral-900">{program.ceremonies}</p>
-                        </div>
-                        <div>
-                          <p className="text-neutral-400 font-accent text-xs uppercase tracking-wider">Integration</p>
-                          <p className="font-heading text-lg text-neutral-900">{program.integrationSessions} sessions</p>
-                        </div>
-                        <div>
-                          <p className="text-neutral-400 font-accent text-xs uppercase tracking-wider">Post-Care</p>
-                          <p className="font-heading text-lg text-neutral-900">{program.postCare}</p>
-                        </div>
-                      </div>
+                      <p className="font-display text-2xl font-light text-secondary-400">{program.price}</p>
                     </div>
                   </div>
 
-                  {/* Schedule */}
-                  <div className="px-8 pb-6">
-                    <p className="font-accent text-xs uppercase tracking-[0.2em] text-neutral-400 mb-4">
-                      Day-by-Day Structure
-                    </p>
-                    <div className="space-y-2">
-                      {program.schedule.map((day) => (
-                        <div key={day.days} className="flex items-start gap-4 py-2">
-                          <span className="font-accent text-sm font-medium text-primary-800 w-24 flex-shrink-0">
-                            {day.days}
+                  {/* Body */}
+                  <div className="bg-white p-6">
+                    <p className="text-sm text-neutral-500 mb-5">{program.subtitle}</p>
+
+                    {/* Stats row */}
+                    <div className="flex items-center gap-4 mb-5">
+                      {[
+                        { value: program.ceremonies, label: 'Ceremonies' },
+                        { value: `${program.integrationSessions} sessions`, label: 'Integration' },
+                        { value: program.postCare, label: 'Post-Care' },
+                      ].map((stat) => (
+                        <div key={stat.label} className="flex items-center gap-2">
+                          <div className="w-1 h-1 rounded-full bg-secondary-400" />
+                          <span className="text-xs text-neutral-600">
+                            <span className="font-medium text-neutral-800">{stat.value}</span>{' '}
+                            {stat.label}
                           </span>
-                          <span className="text-neutral-600">{day.focus}</span>
                         </div>
                       ))}
                     </div>
-                  </div>
 
-                  {/* Best For */}
-                  <div className="px-8 py-4 bg-canvas border-t border-neutral-100">
-                    <div className="flex flex-wrap items-center gap-2">
-                      <span className="text-sm text-neutral-500 mr-2">Best for:</span>
+                    {/* Schedule timeline */}
+                    <div className="relative pl-4 border-l border-neutral-200 space-y-3 mb-5">
+                      {program.schedule.map((day) => (
+                        <div key={day.days} className="relative">
+                          <div className="absolute -left-[calc(1rem+3.5px)] top-1.5 w-[7px] h-[7px] rounded-full bg-white border-2 border-secondary-400" />
+                          <p className="text-sm leading-snug">
+                            <span className="font-medium text-neutral-800">{day.days}:</span>{' '}
+                            <span className="text-neutral-500">{day.focus}</span>
+                          </p>
+                        </div>
+                      ))}
+                    </div>
+
+                    {/* Tags */}
+                    <div className="flex flex-wrap gap-1.5">
                       {program.bestFor.map((item) => (
                         <span
                           key={item}
-                          className="px-3 py-1 rounded-full bg-white border border-neutral-200 text-xs text-neutral-600"
+                          className="px-2.5 py-1 rounded-full bg-primary-50 text-[11px] text-primary-700"
                         >
                           {item}
                         </span>
@@ -327,29 +356,33 @@ export default function ProgramsPage() {
                 </div>
               </motion.div>
             ))}
+          </motion.div>
 
-            {/* Custom Extended */}
-            <motion.div
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.3 }}
-              variants={fadeUpVariants}
-            >
-              <Card padding="lg" className="bg-gradient-to-r from-primary-800 to-primary-900 text-white">
-                <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-                  <div>
-                    <Badge variant="info">30+ days</Badge>
-                    <h3 className="font-heading text-2xl mt-2">Custom Extended Programs</h3>
-                    <p className="text-primary-200/80 mt-1">Starting at $60,000+</p>
-                  </div>
-                  <p className="text-primary-200/80 max-w-md">
-                    For guests requiring extended time, we design fully bespoke journeys.
-                    Duration, modalities, and scheduling tailored to individual needs.
+          {/* Custom Extended */}
+          <motion.div
+            className="mt-8"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.3 }}
+            variants={fadeUpVariants}
+          >
+            <div className="bg-primary-900 rounded-2xl p-8 relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 rounded-full bg-secondary-500/10 blur-[100px]" />
+              <div className="relative flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+                <div>
+                  <p className="font-accent text-[10px] uppercase tracking-[0.3em] text-secondary-400/70 mb-1">
+                    30+ days
                   </p>
+                  <h3 className="font-heading text-2xl text-white">Custom Extended Programs</h3>
+                  <p className="font-display text-xl font-light text-secondary-400 mt-1">Starting at $60,000+</p>
                 </div>
-              </Card>
-            </motion.div>
-          </div>
+                <p className="text-primary-200/70 max-w-md leading-relaxed">
+                  For guests requiring extended time, we design fully bespoke journeys.
+                  Duration, modalities, and scheduling tailored to individual needs.
+                </p>
+              </div>
+            </div>
+          </motion.div>
         </div>
       </section>
 
@@ -357,7 +390,7 @@ export default function ProgramsPage() {
           WELLNESS-ONLY PROGRAMS
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-white relative overflow-hidden">
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="grid lg:grid-cols-2 gap-16 items-center"
             initial="hidden"
@@ -403,7 +436,7 @@ export default function ProgramsPage() {
           ALL-INCLUSIVE
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="text-center mb-16"
             initial="hidden"
@@ -437,8 +470,8 @@ export default function ProgramsPage() {
                 whileHover={{ y: -8, transition: { duration: 0.3, ease: [0.16, 1, 0.3, 1] } }}
               >
                 <div className="group h-full bg-white rounded-2xl p-6 shadow-card hover:shadow-xl transition-all duration-500 border border-neutral-100 hover:border-neutral-200">
-                  <div className="w-12 h-12 rounded-xl bg-primary-100 flex items-center justify-center mb-4 group-hover:bg-primary-200 transition-colors duration-300">
-                    <item.icon className="w-6 h-6 text-primary-600" />
+                  <div className="w-28 h-28 mb-4">
+                    <Image src={item.icon} alt={item.name} width={112} height={112} className="object-contain w-full h-full rounded-2xl" />
                   </div>
                   <h3 className="font-heading text-lg text-neutral-900 mb-2">{item.name}</h3>
                   <p className="text-sm text-neutral-600 leading-relaxed">{item.description}</p>
@@ -456,7 +489,7 @@ export default function ProgramsPage() {
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/30 to-transparent" />
         <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/30 to-transparent" />
 
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="text-center mb-16"
             initial="hidden"
@@ -504,22 +537,22 @@ export default function ProgramsPage() {
       </section>
 
       {/* Prev/Next Navigation */}
-      <div className="bg-canvas">
-        <div className="w-full sm:w-[70vw] mx-auto py-8">
-          <div className="flex justify-between items-center pt-8 border-t border-neutral-200">
+      <section className="py-16 bg-canvas">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-6">
             <Link href="/story/experience" className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors">
               <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
               <span className="font-accent text-sm uppercase tracking-wide">The Experience</span>
             </Link>
             <Link href="/story/science">
-              <Button variant="primary">
+              <Button variant="primary" size="lg">
                 The Science
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
             </Link>
           </div>
         </div>
-      </div>
+      </section>
 
       <Footer />
     </div>

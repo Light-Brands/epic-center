@@ -1,24 +1,17 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import {
   ArrowLeft,
   ArrowRight,
-  Stethoscope,
-  Leaf,
-  Zap,
-  Heart,
-  UtensilsCrossed,
-  Wifi,
-  Clock,
-  Shield,
   CheckCircle2,
   Sun,
   Moon,
   Sunrise,
 } from 'lucide-react'
-import { Button } from '@/components/ui'
+import { Button, Card } from '@/components/ui'
 import { Footer } from '@/components/layout'
 
 const fadeUpVariants = {
@@ -52,8 +45,7 @@ const SEGMENTS = [
   {
     number: 1,
     name: 'Medical & Scientific Oversight',
-    icon: Stethoscope,
-    color: 'from-blue-500 to-blue-600',
+    icon: '/icons/diff-medical.png',
     description:
       'Evidence-based protocols. Rigorous safety screening. Continuous monitoring. Measurable outcomes. We honor the body\u2019s complexity with medical precision.',
     features: [
@@ -68,8 +60,7 @@ const SEGMENTS = [
   {
     number: 2,
     name: 'Plant Medicine \u2014 Iboga & Ibogaine',
-    icon: Leaf,
-    color: 'from-emerald-500 to-emerald-600',
+    icon: '/icons/model-leaf.png',
     description:
       'Trauma-informed, ethically held plant medicine experiences with strong medical oversight. We work primarily with Iboga and Ibogaine\u2014medicines with profound capacity for nervous system reset and trauma resolution.',
     features: [
@@ -84,8 +75,7 @@ const SEGMENTS = [
   {
     number: 3,
     name: 'Advanced Bio-Optimization & Longevity',
-    icon: Zap,
-    color: 'from-amber-500 to-amber-600',
+    icon: '/icons/story-biohacking.png',
     description:
       'State-of-the-art modalities that restore the nervous system, accelerate recovery, and support long-term vitality. The body is the vehicle; we ensure it\u2019s optimized for the journey.',
     features: [
@@ -100,8 +90,7 @@ const SEGMENTS = [
   {
     number: 4,
     name: 'Trauma Integration & Nervous System Restoration',
-    icon: Heart,
-    color: 'from-rose-500 to-rose-600',
+    icon: '/icons/story-trauma.png',
     description:
       'The medicine opens doors; integration walks through them. Personalized support through facilitators, somatic therapies, and practices that anchor transformation in the body.',
     features: [
@@ -116,8 +105,7 @@ const SEGMENTS = [
   {
     number: 5,
     name: 'Five-Star Hospitality, Nutrition, Care & Functional Fitness',
-    icon: UtensilsCrossed,
-    color: 'from-purple-500 to-purple-600',
+    icon: '/icons/story-hospitality.png',
     description:
       'A luxury retreat environment where every detail supports healing.',
     features: [
@@ -132,8 +120,7 @@ const SEGMENTS = [
   {
     number: 6,
     name: 'Digital Ecosystem & Community Support',
-    icon: Wifi,
-    color: 'from-cyan-500 to-cyan-600',
+    icon: '/icons/story-digital.png',
     description:
       'Technology that extends care beyond walls. Medical onboarding, preparation content, daily schedules, integration practices, and community connection\u2014all in one cohesive platform powered by the AI Superintelligent System.',
     features: [
@@ -148,8 +135,7 @@ const SEGMENTS = [
   {
     number: 7,
     name: 'Pre-Care \u2014 Preparation',
-    icon: Clock,
-    color: 'from-teal-500 to-teal-600',
+    icon: '/icons/model-clock.png',
     description:
       'The foundation of transformation. 4\u20138 weeks of medical preparation, psychological readiness, nervous system priming, intention setting, and practical logistics. Preparation is not overhead\u2014it determines the depth of what\u2019s possible.',
     features: [
@@ -164,8 +150,7 @@ const SEGMENTS = [
   {
     number: 8,
     name: 'Post-Care \u2014 Integration',
-    icon: Shield,
-    color: 'from-indigo-500 to-indigo-600',
+    icon: '/icons/model-shield.png',
     description:
       'Where transformation becomes embodiment. 3\u201312+ months of processing, understanding, anchoring, and living the changes. Coaching, community, practices, and support to ensure insights become lasting change.',
     features: [
@@ -180,16 +165,46 @@ const SEGMENTS = [
 ]
 
 const DAILY_RHYTHM = [
-  { time: '6:30 AM', activity: 'Optional morning practice \u2014 yoga, breathwork, or meditation', icon: Sunrise, period: 'morning' },
-  { time: '7:30 AM', activity: 'Nourishing breakfast in community', icon: Sun, period: 'morning' },
-  { time: '9:00 AM', activity: 'Morning activity \u2014 integration session, bio-optimization, or workshop', icon: Sun, period: 'morning' },
-  { time: '11:00 AM', activity: 'Free time for nature walks, journaling, or rest', icon: Sun, period: 'morning' },
-  { time: '12:30 PM', activity: 'Organic lunch prepared by our chef', icon: Sun, period: 'afternoon' },
-  { time: '2:00 PM', activity: 'Afternoon activity \u2014 massage, individual session, or bio-optimization', icon: Sun, period: 'afternoon' },
-  { time: '4:00 PM', activity: 'Rest and personal reflection time', icon: Sun, period: 'afternoon' },
-  { time: '5:30 PM', activity: 'Evening movement or breathwork practice', icon: Moon, period: 'evening' },
-  { time: '7:00 PM', activity: 'Dinner and community connection', icon: Moon, period: 'evening' },
-  { time: '8:30 PM', activity: 'Optional evening program or early rest', icon: Moon, period: 'evening' },
+  {
+    period: 'Morning',
+    icon: Sunrise,
+    color: 'from-amber-400 to-orange-400',
+    bgColor: 'bg-amber-50',
+    textColor: 'text-amber-700',
+    accentColor: 'text-amber-500',
+    items: [
+      { time: '6:30 AM', activity: 'Optional morning practice \u2014 yoga, breathwork, or meditation' },
+      { time: '7:30 AM', activity: 'Nourishing breakfast in community' },
+      { time: '9:00 AM', activity: 'Integration session, bio-optimization, or workshop' },
+      { time: '11:00 AM', activity: 'Free time for nature walks, journaling, or rest' },
+    ],
+  },
+  {
+    period: 'Afternoon',
+    icon: Sun,
+    color: 'from-blue-400 to-sky-400',
+    bgColor: 'bg-blue-50',
+    textColor: 'text-blue-700',
+    accentColor: 'text-blue-500',
+    items: [
+      { time: '12:30 PM', activity: 'Organic lunch prepared by our chef' },
+      { time: '2:00 PM', activity: 'Massage, individual session, or bio-optimization' },
+      { time: '4:00 PM', activity: 'Rest and personal reflection time' },
+    ],
+  },
+  {
+    period: 'Evening',
+    icon: Moon,
+    color: 'from-indigo-400 to-violet-400',
+    bgColor: 'bg-indigo-50',
+    textColor: 'text-indigo-700',
+    accentColor: 'text-indigo-500',
+    items: [
+      { time: '5:30 PM', activity: 'Movement or breathwork practice' },
+      { time: '7:00 PM', activity: 'Dinner and community connection' },
+      { time: '8:30 PM', activity: 'Optional evening program or early rest' },
+    ],
+  },
 ]
 
 export default function ExperiencePage() {
@@ -198,18 +213,21 @@ export default function ExperiencePage() {
       {/* ═══════════════════════════════════════════
           HERO — "Eight Segments of Transformation"
           ═══════════════════════════════════════════ */}
-      <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden bg-primary-900">
+      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-primary-900">
+        {/* Atmospheric layers */}
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/40 to-transparent" />
-        <div className="absolute -top-40 right-1/4 w-[500px] h-[500px] rounded-full bg-secondary-500/8 blur-[150px]" />
-        <div className="absolute bottom-0 left-1/4 w-[400px] h-[400px] rounded-full bg-accent-500/6 blur-[120px]" />
+        <div className="absolute -top-40 right-1/4 w-[600px] h-[600px] rounded-full bg-secondary-500/8 blur-[180px]" />
+        <div className="absolute top-1/3 left-[10%] w-[300px] h-[300px] rounded-full bg-primary-700/40 blur-[120px]" />
+        <div className="absolute bottom-0 left-1/4 w-[500px] h-[500px] rounded-full bg-accent-500/6 blur-[150px]" />
+        <div className="absolute top-1/2 right-[5%] w-[200px] h-[200px] rounded-full bg-secondary-400/5 blur-[80px]" />
         <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/30 to-transparent" />
 
-        <div className="w-full sm:w-[70vw] mx-auto py-32 relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 py-32 relative text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            className="mb-8"
+            className="mb-10"
           >
             <span className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full border border-secondary-500/30 bg-secondary-500/10 backdrop-blur-sm">
               <span className="w-2 h-2 rounded-full bg-secondary-400 animate-pulse" />
@@ -220,7 +238,7 @@ export default function ExperiencePage() {
           </motion.div>
 
           <motion.h1
-            className="font-display text-5xl sm:text-6xl md:text-7xl font-light mb-8 leading-[0.95] text-white max-w-4xl"
+            className="font-display text-6xl sm:text-7xl md:text-8xl font-light mb-10 leading-[0.9] text-white max-w-4xl mx-auto"
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
@@ -229,7 +247,7 @@ export default function ExperiencePage() {
             <span className="relative inline-block">
               <span className="text-secondary-400">Transformation</span>
               <motion.span
-                className="absolute -bottom-2 left-0 right-0 h-[3px] rounded-full overflow-hidden"
+                className="absolute -bottom-3 left-0 right-0 h-[3px] rounded-full overflow-hidden"
                 initial={{ scaleX: 0 }}
                 animate={{ scaleX: 1 }}
                 transition={{ duration: 1, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
@@ -239,16 +257,47 @@ export default function ExperiencePage() {
             </span>
           </motion.h1>
 
+          {/* Decorative divider */}
+          <motion.div
+            className="flex items-center justify-center gap-4 mb-10"
+            initial={{ opacity: 0, scaleX: 0 }}
+            animate={{ opacity: 1, scaleX: 1 }}
+            transition={{ duration: 1, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
+          >
+            <div className="h-px w-16 bg-gradient-to-r from-transparent to-secondary-500/50" />
+            <div className="w-1.5 h-1.5 rounded-full bg-secondary-400/60" />
+            <div className="h-px w-16 bg-gradient-to-l from-transparent to-secondary-500/50" />
+          </motion.div>
+
           <motion.p
-            className="font-body text-lg md:text-xl text-primary-200/90 mb-14 max-w-2xl leading-[1.7] tracking-wide"
+            className="font-body text-xl md:text-2xl text-primary-200/90 mb-16 max-w-2xl mx-auto leading-[1.6] tracking-wide"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+            transition={{ duration: 0.8, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
           >
             Each segment amplifies the others. Medical oversight makes plant medicine safe enough
             for cautious high-achievers. Luxury environment supports nervous system healing. Technology
             accelerates recovery. The whole is greater than the sum of parts.
           </motion.p>
+
+          {/* Scroll indicator */}
+          <motion.div
+            className="absolute bottom-10 left-1/2 -translate-x-1/2"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          >
+            <motion.div
+              className="flex flex-col items-center gap-2"
+              animate={{ y: [0, 6, 0] }}
+              transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
+            >
+              <span className="font-accent text-[10px] uppercase tracking-[0.3em] text-primary-300/40">
+                Scroll
+              </span>
+              <div className="w-px h-8 bg-gradient-to-b from-primary-300/40 to-transparent" />
+            </motion.div>
+          </motion.div>
         </div>
       </section>
 
@@ -256,7 +305,7 @@ export default function ExperiencePage() {
           EIGHT SEGMENTS — Alternating Layout
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="space-y-16 md:space-y-24">
             {SEGMENTS.map((segment, index) => {
               const isEven = index % 2 === 0
@@ -270,9 +319,9 @@ export default function ExperiencePage() {
                   className={`grid lg:grid-cols-2 gap-12 lg:gap-16 items-center ${!isEven ? 'lg:[direction:rtl]' : ''}`}
                 >
                   <motion.div variants={fadeUpVariants} className={!isEven ? 'lg:[direction:ltr]' : ''}>
-                    <div className="flex items-center gap-3 mb-4">
-                      <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${segment.color} flex items-center justify-center shadow-md`}>
-                        <segment.icon className="w-6 h-6 text-white" />
+                    <div className="flex items-center gap-4 mb-4">
+                      <div className="w-28 h-28 flex-shrink-0">
+                        <Image src={segment.icon} alt={segment.name} width={112} height={112} className="object-contain w-full h-full rounded-2xl" />
                       </div>
                       <div>
                         <p className="font-accent text-[10px] uppercase tracking-[0.2em] text-neutral-400">
@@ -287,7 +336,7 @@ export default function ExperiencePage() {
                   </motion.div>
 
                   <motion.div variants={scaleInVariants} className={!isEven ? 'lg:[direction:ltr]' : ''}>
-                    <div className="bg-white rounded-2xl p-8 shadow-card border border-neutral-100">
+                    <Card padding="lg">
                       <p className="font-accent text-xs uppercase tracking-[0.2em] text-neutral-400 mb-4">
                         Key Capabilities
                       </p>
@@ -299,7 +348,7 @@ export default function ExperiencePage() {
                           </div>
                         ))}
                       </div>
-                    </div>
+                    </Card>
                   </motion.div>
                 </motion.div>
               )
@@ -315,46 +364,58 @@ export default function ExperiencePage() {
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/30 to-transparent" />
         <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/30 to-transparent" />
         <div className="absolute top-1/2 -left-48 w-96 h-96 rounded-full bg-accent-500/10 blur-[150px]" />
+        <div className="absolute bottom-0 right-0 w-80 h-80 rounded-full bg-secondary-500/8 blur-[120px]" />
 
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="max-w-3xl mx-auto text-center"
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.3 }}
-            variants={fadeUpVariants}
+            viewport={{ once: true, amount: 0.2 }}
+            variants={staggerContainer}
           >
-            <div className="flex items-center justify-center gap-4 mb-6">
-              <div className="h-px w-12 bg-gradient-to-r from-secondary-400 to-secondary-600" />
-              <p className="font-accent text-sm uppercase tracking-[0.2em] text-secondary-400">
-                The Synergy
-              </p>
-              <div className="h-px w-12 bg-gradient-to-l from-secondary-400 to-secondary-600" />
-            </div>
-            <h2 className="font-heading text-4xl md:text-5xl mb-10">
-              Why This Combination Matters
-            </h2>
+            <motion.div variants={fadeUpVariants}>
+              <div className="flex items-center justify-center gap-4 mb-6">
+                <div className="h-px w-12 bg-gradient-to-r from-secondary-400 to-secondary-600" />
+                <p className="font-accent text-sm uppercase tracking-[0.2em] text-secondary-400">
+                  The Synergy
+                </p>
+                <div className="h-px w-12 bg-gradient-to-l from-secondary-400 to-secondary-600" />
+              </div>
+              <h2 className="font-heading text-4xl md:text-5xl mb-16">
+                Why This Combination Matters
+              </h2>
+            </motion.div>
 
-            <div className="space-y-6 text-left">
+            <div className="space-y-10">
               {[
-                'Medical oversight makes plant medicine safe enough for cautious high-achievers.',
-                'Luxury environment supports nervous system healing.',
-                'Technology accelerates recovery.',
-                'Pre-care maximizes depth.',
-                'Post-care ensures lasting change.',
-              ].map((point) => (
-                <div key={point} className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-secondary-500/20 border border-secondary-500/30 flex items-center justify-center">
-                    <CheckCircle2 className="w-5 h-5 text-secondary-400" />
-                  </div>
-                  <p className="text-lg text-primary-200/90 pt-2">{point}</p>
-                </div>
+                { emphasis: 'Medical oversight', rest: 'makes plant medicine safe enough for cautious high-achievers.' },
+                { emphasis: 'Luxury environment', rest: 'supports nervous system healing.' },
+                { emphasis: 'Technology', rest: 'accelerates recovery.' },
+                { emphasis: 'Pre-care', rest: 'maximizes depth.' },
+                { emphasis: 'Post-care', rest: 'ensures lasting change.' },
+              ].map((point, index) => (
+                <motion.div key={point.emphasis} variants={fadeUpVariants} className="text-center">
+                  <p className="font-display text-xl md:text-2xl font-light leading-relaxed text-primary-100/90">
+                    <span className="text-secondary-400">{point.emphasis}</span>{' '}
+                    {point.rest}
+                  </p>
+                  {index < 4 && (
+                    <div className="flex justify-center mt-10">
+                      <div className="w-px h-6 bg-gradient-to-b from-secondary-500/40 to-transparent" />
+                    </div>
+                  )}
+                </motion.div>
               ))}
             </div>
 
-            <p className="mt-10 text-xl text-secondary-400 font-heading">
-              The whole is greater than the sum of parts.
-            </p>
+            <motion.div variants={fadeUpVariants}>
+              <div className="mt-16 pt-12 border-t border-primary-700/50">
+                <p className="font-display text-2xl md:text-3xl font-light text-secondary-400 leading-snug">
+                  The whole is greater than the sum of parts.
+                </p>
+              </div>
+            </motion.div>
           </motion.div>
         </div>
       </section>
@@ -363,7 +424,7 @@ export default function ExperiencePage() {
           DAILY RHYTHM
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="text-center mb-16"
             initial="hidden"
@@ -388,35 +449,39 @@ export default function ExperiencePage() {
           </motion.div>
 
           <motion.div
-            className="max-w-2xl mx-auto"
+            className="grid md:grid-cols-3 gap-8"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.1 }}
             variants={staggerContainer}
           >
-            {DAILY_RHYTHM.map((item, index) => (
+            {DAILY_RHYTHM.map((group) => (
               <motion.div
-                key={item.time}
-                variants={fadeUpVariants}
-                className={`flex items-start gap-6 py-5 ${
-                  index < DAILY_RHYTHM.length - 1 ? 'border-b border-neutral-100' : ''
-                }`}
+                key={group.period}
+                variants={scaleInVariants}
+                whileHover={{ y: -8, transition: { duration: 0.3, ease: [0.16, 1, 0.3, 1] } }}
               >
-                <div className="flex-shrink-0 w-20 text-right">
-                  <span className="font-accent text-sm font-medium text-primary-800">{item.time}</span>
-                </div>
-                <div className="flex-shrink-0">
-                  <div className={`w-8 h-8 rounded-full flex items-center justify-center ${
-                    item.period === 'morning'
-                      ? 'bg-amber-100 text-amber-600'
-                      : item.period === 'afternoon'
-                      ? 'bg-blue-100 text-blue-600'
-                      : 'bg-indigo-100 text-indigo-600'
-                  }`}>
-                    <item.icon className="w-4 h-4" />
+                <div className="group h-full bg-white rounded-2xl shadow-card border border-neutral-100 hover:shadow-xl transition-all duration-500 relative overflow-hidden">
+                  <div className={`h-1 bg-gradient-to-r ${group.color}`} />
+                  <div className="p-6">
+                    <div className="flex items-center gap-3 mb-6">
+                      <div className={`w-10 h-10 rounded-full ${group.bgColor} flex items-center justify-center`}>
+                        <group.icon className={`w-5 h-5 ${group.accentColor}`} />
+                      </div>
+                      <h3 className={`font-heading text-lg ${group.textColor}`}>{group.period}</h3>
+                    </div>
+                    <div className="space-y-4">
+                      {group.items.map((item) => (
+                        <div key={item.time} className="flex items-start gap-3">
+                          <span className="flex-shrink-0 font-accent text-xs font-medium text-neutral-400 pt-0.5 w-16">
+                            {item.time}
+                          </span>
+                          <p className="text-sm text-neutral-600 leading-relaxed">{item.activity}</p>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 </div>
-                <p className="text-neutral-600 pt-1">{item.activity}</p>
               </motion.div>
             ))}
           </motion.div>
@@ -424,22 +489,22 @@ export default function ExperiencePage() {
       </section>
 
       {/* Prev/Next Navigation */}
-      <div className="bg-canvas">
-        <div className="w-full sm:w-[70vw] mx-auto py-8">
-          <div className="flex justify-between items-center pt-8 border-t border-neutral-200">
+      <section className="py-16 bg-canvas">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-6 pt-8 border-t border-neutral-200">
             <Link href="/story/solution" className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors">
               <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
               <span className="font-accent text-sm uppercase tracking-wide">The Solution</span>
             </Link>
             <Link href="/story/programs">
-              <Button variant="primary">
+              <Button variant="primary" size="lg">
                 The Programs
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
             </Link>
           </div>
         </div>
-      </div>
+      </section>
 
       <Footer />
     </div>

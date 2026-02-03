@@ -1,20 +1,11 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import {
   ArrowLeft,
   ArrowRight,
-  Stethoscope,
-  Zap,
-  Leaf,
-  Gem,
-  Users,
-  Brain,
-  Heart,
-  Sparkles,
-  Globe,
-  Target,
   XCircle,
   CheckCircle2,
   Rocket,
@@ -51,7 +42,7 @@ const scaleInVariants = {
 
 const MARKET_PILLARS = [
   {
-    icon: Stethoscope,
+    icon: '/icons/diff-medical.png',
     name: 'Medical & Longevity Clinics',
     market: '$27\u201333B',
     growth: '12\u201315%',
@@ -65,7 +56,7 @@ const MARKET_PILLARS = [
     gap: 'Clinical credibility, but lack spiritual and identity dimensions.',
   },
   {
-    icon: Zap,
+    icon: '/icons/story-biohacking.png',
     name: 'Biohacking & Performance',
     market: '$24\u201333B',
     growth: '18\u201322%',
@@ -79,7 +70,7 @@ const MARKET_PILLARS = [
     gap: 'Cutting-edge technology, but transactional with no continuity of care.',
   },
   {
-    icon: Leaf,
+    icon: '/icons/model-leaf.png',
     name: 'Plant Medicine & Psychedelics',
     market: '$3\u20135B',
     growth: '15\u201320%',
@@ -93,7 +84,7 @@ const MARKET_PILLARS = [
     gap: 'Powerful addiction interruption, but often lack medical rigor.',
   },
   {
-    icon: Gem,
+    icon: '/icons/story-gem.png',
     name: 'Luxury Wellness & Retreats',
     market: '$850B\u2013$1.1T',
     growth: '7\u201310%',
@@ -142,7 +133,7 @@ const GUEST_PROFILES = [
 
 const JOURNEY_PHASES = [
   {
-    icon: Brain,
+    icon: '/icons/model-brain.png',
     phase: 'Awakening',
     subtitle: 'Pre-Retreat',
     duration: '4\u20138 weeks',
@@ -156,7 +147,7 @@ const JOURNEY_PHASES = [
     ],
   },
   {
-    icon: Heart,
+    icon: '/icons/model-heart.png',
     phase: 'Immersion',
     subtitle: 'Retreat',
     duration: '7\u201328 days',
@@ -170,7 +161,7 @@ const JOURNEY_PHASES = [
     ],
   },
   {
-    icon: Sparkles,
+    icon: '/icons/model-sparkles.png',
     phase: 'Integration',
     subtitle: 'Post-Retreat',
     duration: '3\u201312 months',
@@ -184,7 +175,7 @@ const JOURNEY_PHASES = [
     ],
   },
   {
-    icon: Users,
+    icon: '/icons/model-users.png',
     phase: 'Embodiment',
     subtitle: 'Ongoing',
     duration: 'Lifetime',
@@ -228,18 +219,21 @@ export default function SolutionPage() {
       {/* ═══════════════════════════════════════════
           HERO — "The Bridge"
           ═══════════════════════════════════════════ */}
-      <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden bg-primary-900">
+      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-primary-900">
+        {/* Atmospheric layers */}
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/40 to-transparent" />
-        <div className="absolute -top-40 right-1/4 w-[500px] h-[500px] rounded-full bg-secondary-500/8 blur-[150px]" />
-        <div className="absolute bottom-0 left-1/4 w-[400px] h-[400px] rounded-full bg-accent-500/6 blur-[120px]" />
+        <div className="absolute -top-40 right-1/4 w-[600px] h-[600px] rounded-full bg-secondary-500/8 blur-[180px]" />
+        <div className="absolute top-1/3 left-[10%] w-[300px] h-[300px] rounded-full bg-primary-700/40 blur-[120px]" />
+        <div className="absolute bottom-0 left-1/4 w-[500px] h-[500px] rounded-full bg-accent-500/6 blur-[150px]" />
+        <div className="absolute top-1/2 right-[5%] w-[200px] h-[200px] rounded-full bg-secondary-400/5 blur-[80px]" />
         <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/30 to-transparent" />
 
-        <div className="w-full sm:w-[70vw] mx-auto py-32 relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 py-32 relative text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            className="mb-8"
+            className="mb-10"
           >
             <span className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full border border-secondary-500/30 bg-secondary-500/10 backdrop-blur-sm">
               <span className="w-2 h-2 rounded-full bg-secondary-400 animate-pulse" />
@@ -250,7 +244,7 @@ export default function SolutionPage() {
           </motion.div>
 
           <motion.h1
-            className="font-display text-5xl sm:text-6xl md:text-7xl font-light mb-8 leading-[0.95] text-white max-w-4xl"
+            className="font-display text-6xl sm:text-7xl md:text-8xl font-light mb-10 leading-[0.9] text-white max-w-4xl mx-auto"
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
@@ -259,7 +253,7 @@ export default function SolutionPage() {
             <span className="relative inline-block">
               <span className="text-secondary-400">Bridge</span>
               <motion.span
-                className="absolute -bottom-2 left-0 right-0 h-[3px] rounded-full overflow-hidden"
+                className="absolute -bottom-3 left-0 right-0 h-[3px] rounded-full overflow-hidden"
                 initial={{ scaleX: 0 }}
                 animate={{ scaleX: 1 }}
                 transition={{ duration: 1, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
@@ -269,11 +263,23 @@ export default function SolutionPage() {
             </span>
           </motion.h1>
 
+          {/* Decorative divider */}
+          <motion.div
+            className="flex items-center justify-center gap-4 mb-10"
+            initial={{ opacity: 0, scaleX: 0 }}
+            animate={{ opacity: 1, scaleX: 1 }}
+            transition={{ duration: 1, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
+          >
+            <div className="h-px w-16 bg-gradient-to-r from-transparent to-secondary-500/50" />
+            <div className="w-1.5 h-1.5 rounded-full bg-secondary-400/60" />
+            <div className="h-px w-16 bg-gradient-to-l from-transparent to-secondary-500/50" />
+          </motion.div>
+
           <motion.p
-            className="font-body text-lg md:text-xl text-primary-200/90 mb-14 max-w-2xl leading-[1.7] tracking-wide"
+            className="font-body text-xl md:text-2xl text-primary-200/90 mb-16 max-w-2xl mx-auto leading-[1.6] tracking-wide"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+            transition={{ duration: 0.8, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
           >
             Transformational Epicenter is purpose-built to bridge all four market pillars.
             We&apos;re not adding wellness to a hotel or medicine to a spa. We&apos;re building
@@ -281,19 +287,36 @@ export default function SolutionPage() {
           </motion.p>
 
           <motion.div
-            className="flex flex-wrap gap-4"
+            className="flex flex-wrap justify-center gap-4"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
+            transition={{ duration: 0.8, delay: 0.35, ease: [0.16, 1, 0.3, 1] }}
           >
             <div className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
-              <Globe className="w-5 h-5 text-secondary-400" />
               <span className="font-accent text-sm text-white">$1T+ Combined Market</span>
             </div>
             <div className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
-              <Target className="w-5 h-5 text-secondary-400" />
               <span className="font-accent text-sm text-white">4 Pillars Unified</span>
             </div>
+          </motion.div>
+
+          {/* Scroll indicator */}
+          <motion.div
+            className="absolute bottom-10 left-1/2 -translate-x-1/2"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          >
+            <motion.div
+              className="flex flex-col items-center gap-2"
+              animate={{ y: [0, 6, 0] }}
+              transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
+            >
+              <span className="font-accent text-[10px] uppercase tracking-[0.3em] text-primary-300/40">
+                Scroll
+              </span>
+              <div className="w-px h-8 bg-gradient-to-b from-primary-300/40 to-transparent" />
+            </motion.div>
           </motion.div>
         </div>
       </section>
@@ -302,7 +325,7 @@ export default function SolutionPage() {
           FOUR MARKET PILLARS
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="text-center mb-20"
             initial="hidden"
@@ -339,13 +362,19 @@ export default function SolutionPage() {
                 variants={scaleInVariants}
                 whileHover={{ y: -8, transition: { duration: 0.3, ease: [0.16, 1, 0.3, 1] } }}
               >
-                <div className="group h-full bg-white rounded-2xl p-8 shadow-card hover:shadow-xl transition-all duration-500 border border-neutral-100 hover:border-neutral-200 relative overflow-hidden">
+                <Card padding="lg" className="group h-full hover:shadow-xl transition-all duration-500 relative overflow-hidden">
                   <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${pillar.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
 
                   <div className="flex items-center justify-between mb-6">
-                    <div className="flex items-center gap-3">
-                      <div className={`w-10 h-10 rounded-xl bg-gradient-to-br ${pillar.color} flex items-center justify-center`}>
-                        <pillar.icon className="w-5 h-5 text-white" />
+                    <div className="flex items-center gap-4">
+                      <div className="w-28 h-28 flex-shrink-0 transition-transform duration-500 group-hover:scale-105">
+                        <Image
+                          src={pillar.icon}
+                          alt={pillar.name}
+                          width={112}
+                          height={112}
+                          className="object-contain w-full h-full rounded-2xl"
+                        />
                       </div>
                       <h3 className="font-heading text-lg text-neutral-900">{pillar.name}</h3>
                     </div>
@@ -367,7 +396,7 @@ export default function SolutionPage() {
                   <div className="pt-4 border-t border-neutral-100">
                     <p className="text-sm text-neutral-500 italic">{pillar.gap}</p>
                   </div>
-                </div>
+                </Card>
               </motion.div>
             ))}
           </motion.div>
@@ -378,7 +407,7 @@ export default function SolutionPage() {
           WHY COMPETITORS CAN'T COPY
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-white relative overflow-hidden">
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="text-center mb-16"
             initial="hidden"
@@ -445,7 +474,7 @@ export default function SolutionPage() {
           WHO WE SERVE
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="grid lg:grid-cols-2 gap-16 items-center"
             initial="hidden"
@@ -480,7 +509,7 @@ export default function SolutionPage() {
                     key={profile}
                     className="flex items-start gap-3 p-4 rounded-xl bg-white border border-neutral-100 hover:border-secondary-200 hover:shadow-sm transition-all duration-300"
                   >
-                    <Users className="w-4 h-4 text-secondary-500 flex-shrink-0 mt-1" />
+                    <CheckCircle2 className="w-4 h-4 text-secondary-500 flex-shrink-0 mt-1" />
                     <span className="text-neutral-700">{profile}</span>
                   </div>
                 ))}
@@ -498,7 +527,7 @@ export default function SolutionPage() {
         <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/30 to-transparent" />
         <div className="absolute top-1/2 -left-48 w-96 h-96 rounded-full bg-accent-500/10 blur-[150px]" />
 
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="text-center mb-20"
             initial="hidden"
@@ -540,9 +569,15 @@ export default function SolutionPage() {
                   <div className="group h-full bg-primary-800/50 rounded-2xl p-6 border border-primary-700/50 hover:border-primary-600/50 transition-all duration-500 backdrop-blur-sm relative overflow-hidden">
                     <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${phase.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
 
-                    <div className="flex items-center gap-3 mb-4">
-                      <div className={`w-10 h-10 rounded-xl bg-gradient-to-br ${phase.color} flex items-center justify-center`}>
-                        <phase.icon className="w-5 h-5 text-white" />
+                    <div className="flex items-center gap-4 mb-4">
+                      <div className="w-24 h-24 flex-shrink-0 transition-transform duration-500 group-hover:scale-105">
+                        <Image
+                          src={phase.icon}
+                          alt={phase.phase}
+                          width={96}
+                          height={96}
+                          className="object-contain w-full h-full rounded-2xl"
+                        />
                       </div>
                       <div>
                         <p className="font-accent text-[10px] uppercase tracking-[0.2em] text-primary-400">
@@ -577,7 +612,7 @@ export default function SolutionPage() {
           AI INTELLIGENCE LAYER
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="grid lg:grid-cols-2 gap-16 items-center"
             initial="hidden"
@@ -610,7 +645,13 @@ export default function SolutionPage() {
                 ].map((item) => (
                   <div key={item.title} className="flex items-start gap-4">
                     <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-secondary-100 flex items-center justify-center">
-                      <Sparkles className="w-5 h-5 text-secondary-600" />
+                      <Image
+                        src="/icons/model-sparkles.png"
+                        alt="Sparkles"
+                        width={64}
+                        height={64}
+                        className="w-5 h-5 object-contain"
+                      />
                     </div>
                     <div>
                       <h4 className="font-medium text-neutral-900 mb-1">{item.title}</h4>
@@ -654,7 +695,7 @@ export default function SolutionPage() {
           LONG-TERM VISION
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-white relative overflow-hidden">
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="text-center mb-16"
             initial="hidden"
@@ -687,7 +728,7 @@ export default function SolutionPage() {
                 variants={scaleInVariants}
                 whileHover={{ y: -8, transition: { duration: 0.3, ease: [0.16, 1, 0.3, 1] } }}
               >
-                <div className="group h-full bg-canvas rounded-2xl p-6 shadow-card hover:shadow-xl transition-all duration-500 border border-neutral-100 hover:border-neutral-200 relative overflow-hidden">
+                <Card padding="lg" className="group h-full hover:shadow-xl transition-all duration-500 relative overflow-hidden">
                   <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-secondary-400 to-secondary-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                   <div className="flex items-center gap-3 mb-4">
                     <div className="w-10 h-10 rounded-xl bg-primary-100 flex items-center justify-center">
@@ -702,7 +743,7 @@ export default function SolutionPage() {
                   </div>
                   <h3 className="font-heading text-lg text-neutral-900 mb-3">{phase.title}</h3>
                   <p className="text-sm text-neutral-600 leading-relaxed">{phase.description}</p>
-                </div>
+                </Card>
               </motion.div>
             ))}
           </motion.div>
@@ -710,22 +751,22 @@ export default function SolutionPage() {
       </section>
 
       {/* Prev/Next Navigation */}
-      <div className="bg-canvas">
-        <div className="w-full sm:w-[70vw] mx-auto py-8">
-          <div className="flex justify-between items-center pt-8 border-t border-neutral-200">
+      <section className="py-16 bg-canvas">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-6 pt-8 border-t border-neutral-200">
             <Link href="/story/origin" className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors">
               <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
               <span className="font-accent text-sm uppercase tracking-wide">The Origin</span>
             </Link>
             <Link href="/story/experience">
-              <Button variant="primary">
+              <Button variant="primary" size="lg">
                 The Experience
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
             </Link>
           </div>
         </div>
-      </div>
+      </section>
 
       <Footer />
     </div>

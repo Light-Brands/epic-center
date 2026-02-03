@@ -1,23 +1,16 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import {
   ArrowLeft,
   ArrowRight,
-  Heart,
-  Brain,
-  FlaskConical,
-  Pill,
-  Shield,
-  Activity,
   CheckCircle2,
   AlertTriangle,
   XCircle,
   HelpCircle,
-  Users,
   ClipboardCheck,
-  Stethoscope,
   BarChart3,
 } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
@@ -52,7 +45,7 @@ const scaleInVariants = {
 
 const SCREENING_PROTOCOLS = [
   {
-    icon: Heart,
+    icon: '/icons/story-ecg.png',
     title: 'Cardiovascular Screening',
     subtitle: 'Critical for ibogaine safety',
     items: [
@@ -65,7 +58,7 @@ const SCREENING_PROTOCOLS = [
     ],
   },
   {
-    icon: Brain,
+    icon: '/icons/model-brain.png',
     title: 'Psychiatric Assessment',
     subtitle: 'Mental health evaluation',
     items: [
@@ -78,7 +71,7 @@ const SCREENING_PROTOCOLS = [
     ],
   },
   {
-    icon: FlaskConical,
+    icon: '/icons/story-lab.png',
     title: 'Laboratory Testing',
     subtitle: 'Required within 30 days',
     items: [
@@ -91,7 +84,7 @@ const SCREENING_PROTOCOLS = [
     ],
   },
   {
-    icon: Pill,
+    icon: '/icons/story-substance.png',
     title: 'Substance Assessment',
     subtitle: 'Critical for safety timing',
     items: [
@@ -188,7 +181,7 @@ export default function SciencePage() {
         <div className="absolute bottom-0 left-1/4 w-[400px] h-[400px] rounded-full bg-accent-500/6 blur-[120px]" />
         <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/30 to-transparent" />
 
-        <div className="w-full sm:w-[70vw] mx-auto py-32 relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 py-32 relative">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -240,15 +233,12 @@ export default function SciencePage() {
             transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
           >
             <div className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
-              <Stethoscope className="w-5 h-5 text-secondary-400" />
               <span className="font-accent text-sm text-white">24/7 Medical Staff</span>
             </div>
             <div className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
-              <Activity className="w-5 h-5 text-secondary-400" />
               <span className="font-accent text-sm text-white">12-Lead Continuous ECG</span>
             </div>
             <div className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
-              <Users className="w-5 h-5 text-secondary-400" />
               <span className="font-accent text-sm text-white">1:1 Nursing Ratio</span>
             </div>
           </motion.div>
@@ -259,7 +249,7 @@ export default function SciencePage() {
           MEDICAL TEAM
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="text-center mb-16"
             initial="hidden"
@@ -291,15 +281,15 @@ export default function SciencePage() {
             variants={staggerContainer}
           >
             {[
-              { icon: Stethoscope, label: 'On-Site Physician', detail: '24/7 during ceremonies' },
-              { icon: Users, label: '1:1 Nursing', detail: 'Dedicated nursing care' },
-              { icon: Activity, label: 'Continuous ECG', detail: '12-lead cardiac monitoring' },
-              { icon: Shield, label: 'Emergency Ready', detail: '<5 min response time' },
+              { icon: '/icons/diff-medical.png', label: 'On-Site Physician', detail: '24/7 during ceremonies' },
+              { icon: '/icons/story-nursing.png', label: '1:1 Nursing', detail: 'Dedicated nursing care' },
+              { icon: '/icons/story-ecg.png', label: 'Continuous ECG', detail: '12-lead cardiac monitoring' },
+              { icon: '/icons/model-shield.png', label: 'Emergency Ready', detail: '<5 min response time' },
             ].map((item) => (
               <motion.div key={item.label} variants={scaleInVariants}>
                 <div className="text-center p-6 bg-white rounded-2xl shadow-card border border-neutral-100">
-                  <div className="w-14 h-14 rounded-xl bg-primary-100 flex items-center justify-center mx-auto mb-4">
-                    <item.icon className="w-7 h-7 text-primary-600" />
+                  <div className="w-28 h-28 flex items-center justify-center mx-auto mb-4">
+                    <Image src={item.icon} alt={item.label} width={112} height={112} className="object-contain w-full h-full rounded-2xl" />
                   </div>
                   <h3 className="font-heading text-base text-neutral-900 mb-1">{item.label}</h3>
                   <p className="text-sm text-neutral-500">{item.detail}</p>
@@ -314,7 +304,7 @@ export default function SciencePage() {
           SCREENING PROTOCOLS
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-white relative overflow-hidden">
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="text-center mb-16"
             initial="hidden"
@@ -350,9 +340,9 @@ export default function SciencePage() {
                 <div className="group h-full bg-canvas rounded-2xl p-8 shadow-card hover:shadow-xl transition-all duration-500 border border-neutral-100 hover:border-neutral-200 relative overflow-hidden">
                   <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary-500 to-primary-700 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
-                  <div className="flex items-center gap-3 mb-2">
-                    <div className="w-10 h-10 rounded-xl bg-primary-100 flex items-center justify-center">
-                      <protocol.icon className="w-5 h-5 text-primary-600" />
+                  <div className="flex items-center gap-4 mb-2">
+                    <div className="w-24 h-24 flex items-center justify-center flex-shrink-0">
+                      <Image src={protocol.icon} alt={protocol.title} width={96} height={96} className="object-contain w-full h-full rounded-2xl" />
                     </div>
                     <div>
                       <h3 className="font-heading text-lg text-neutral-900">{protocol.title}</h3>
@@ -383,7 +373,7 @@ export default function SciencePage() {
         <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/30 to-transparent" />
         <div className="absolute top-1/2 -right-48 w-96 h-96 rounded-full bg-secondary-500/10 blur-[150px]" />
 
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="text-center mb-16"
             initial="hidden"
@@ -442,7 +432,7 @@ export default function SciencePage() {
           UNDERSTANDING IBOGAINE
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="grid lg:grid-cols-2 gap-16 items-center"
             initial="hidden"
@@ -496,7 +486,7 @@ export default function SciencePage() {
           OUTCOMES MEASUREMENT
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-white relative overflow-hidden">
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="text-center mb-16"
             initial="hidden"
@@ -563,7 +553,7 @@ export default function SciencePage() {
           RISK MITIGATION
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="text-center mb-16"
             initial="hidden"
@@ -619,7 +609,7 @@ export default function SciencePage() {
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/30 to-transparent" />
         <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/30 to-transparent" />
 
-        <div className="w-full sm:w-[70vw] mx-auto relative">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
             className="text-center mb-16"
             initial="hidden"
@@ -684,22 +674,22 @@ export default function SciencePage() {
       </section>
 
       {/* Prev/Next Navigation */}
-      <div className="bg-canvas">
-        <div className="w-full sm:w-[70vw] mx-auto py-8">
-          <div className="flex justify-between items-center pt-8 border-t border-neutral-200">
+      <section className="py-16 bg-canvas">
+        <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-6 pt-8 border-t border-neutral-200">
             <Link href="/story/programs" className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors">
               <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
               <span className="font-accent text-sm uppercase tracking-wide">The Programs</span>
             </Link>
             <Link href="/story/sanctuary">
-              <Button variant="primary">
+              <Button variant="primary" size="lg">
                 The Sanctuary
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
             </Link>
           </div>
         </div>
-      </div>
+      </section>
 
       <Footer />
     </div>

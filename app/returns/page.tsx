@@ -394,7 +394,7 @@ export default function ReturnsPage() {
           <Card padding="lg" className="bg-gradient-to-r from-primary-800 to-primary-900 text-white">
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-3xl font-display font-semibold mb-4">Investment Summary</h3>
+                <h3 className="text-3xl font-display font-semibold mb-4 text-white">Investment Summary</h3>
                 <p className="text-primary-200 mb-6">
                   A compelling risk-adjusted opportunity in a rapidly growing market with
                   multiple paths to attractive returns.
