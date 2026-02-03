@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import { ArrowLeft, ArrowRight, ArrowLeftRight } from 'lucide-react'
+import { ArrowRight, ArrowLeftRight } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
 import { Footer } from '@/components/layout'
 
@@ -497,11 +497,7 @@ export default function OriginPage() {
       {/* Prev/Next Navigation */}
       <section className="py-16 bg-canvas">
         <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col sm:flex-row justify-between items-center gap-6 pt-8 border-t border-neutral-200">
-            <Link href="/" className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors">
-              <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-              <span className="font-accent text-sm uppercase tracking-wide">Vision</span>
-            </Link>
+          <div className="flex justify-end items-center pt-8 border-t border-neutral-200">
             <Link href="/story/solution">
               <Button variant="primary" size="lg">
                 The Solution
