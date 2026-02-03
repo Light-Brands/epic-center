@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords: ['investment', 'wellness', 'medical retreat', 'ibogaine', 'mental health'],
   metadataBase: new URL('https://www.transformational-epicenter.com'),
   openGraph: {
-    title: 'Transformational Epicenter — Luxury Medical Retreat Investment',
+    title: 'Transformational Epicenter - Luxury Medical Retreat Investment',
     description: 'Luxury medical retreat at the convergence of psychedelic therapy and wellness tourism. $14.95M raise, 78% projected IRR, 7.8x MOIC.',
     siteName: 'Transformational Epicenter',
     locale: 'en_US',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Transformational Epicenter — Luxury Medical Retreat Investment',
+    title: 'Transformational Epicenter - Luxury Medical Retreat Investment',
     description: 'Luxury medical retreat at the convergence of psychedelic therapy and wellness tourism. $14.95M raise, 78% projected IRR, 7.8x MOIC.',
   },
 }

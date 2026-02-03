@@ -69,7 +69,7 @@ const COMPETITIVE_ADVANTAGES = [
     title: 'Combined Modalities',
     subtitle: 'Synergistic Healing',
     icon: Sparkles,
-    description: 'We combine multiple evidence-based modalities—ibogaine, psilocybin, 5-MeO-DMT, and bio-optimization—to create compounded healing effects.',
+    description: 'We combine multiple evidence-based modalities, including ibogaine, psilocybin, 5-MeO-DMT, and bio-optimization, to create compounded healing effects.',
     details: [
       'Multiple treatment modalities under one roof',
       'Sequenced protocols for optimal outcomes',
@@ -104,7 +104,7 @@ const COMPETITIVE_ADVANTAGES = [
 const BARRIERS_TO_ENTRY = [
   {
     barrier: 'Medical Expertise',
-    description: 'Requires physicians experienced in ibogaine administration—a rare specialty.',
+    description: 'Requires physicians experienced in ibogaine administration, a rare specialty.',
     strength: 'High',
     icon: Shield,
   },
@@ -174,7 +174,7 @@ export default function MoatPage() {
   return (
     <div className="min-h-screen bg-canvas">
       {/* ═══════════════════════════════════════════════════════════════════════════
-          HERO SECTION — Animated intro with parallax
+          HERO SECTION - Animated intro with parallax
           ═══════════════════════════════════════════════════════════════════════════ */}
       <motion.section
         ref={heroRef}
@@ -291,7 +291,7 @@ export default function MoatPage() {
       </motion.section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          COMPETITIVE ADVANTAGES — Scroll-triggered reveals with elegant cards
+          COMPETITIVE ADVANTAGES - Scroll-triggered reveals with elegant cards
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-white relative overflow-hidden">
         {/* Subtle pattern overlay */}
@@ -440,7 +440,7 @@ export default function MoatPage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          BARRIERS TO ENTRY — Visual strength indicators
+          BARRIERS TO ENTRY - Visual strength indicators
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
         {/* Warm glow overlay */}
@@ -538,7 +538,7 @@ export default function MoatPage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          COMPETITIVE FLYWHEEL — Simple static section
+          COMPETITIVE FLYWHEEL - Simple static section
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-primary-900 text-white relative overflow-hidden">
         {/* Subtle background decoration */}
@@ -643,7 +643,7 @@ export default function MoatPage() {
             <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-white/10 border border-secondary-400/30">
               <RotateCw className="w-5 h-5 text-secondary-400" />
               <p className="text-white/90 font-medium">
-                Profits reinvest into protocols, integration, and capacity — the cycle continues
+                Profits reinvest into protocols, integration, and capacity, and the cycle continues
               </p>
             </div>
           </motion.div>
@@ -651,7 +651,7 @@ export default function MoatPage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          COMPETITIVE POSITION SUMMARY — Final compelling statement
+          COMPETITIVE POSITION SUMMARY - Final compelling statement
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-gradient-to-br from-secondary-400 to-secondary-500 text-primary-900 relative overflow-hidden">
         {/* Decorative elements */}
@@ -712,7 +712,7 @@ export default function MoatPage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          NAVIGATION — Clean footer navigation
+          NAVIGATION - Clean footer navigation
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="py-16 bg-canvas">
         <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8">

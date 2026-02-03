@@ -8,7 +8,7 @@
 
 ## The 10-Minute Overview
 
-**One Sentence**: Transformational Epicenter is building the world's first luxury medical wellness destination that combines hospital-grade care, five-star hospitality, cutting-edge health technology, and transformational medicine—a combination no competitor offers today.
+**One Sentence**: Transformational Epicenter is building the world's first luxury medical wellness destination that combines hospital-grade care, five-star hospitality, cutting-edge health technology, and transformational medicine, a combination no competitor offers today.
 
 This guide summarizes everything you need to know about our digital pitch packet strategy. For details, see the [Executive Summary](../strategy/EXECUTIVE_SUMMARY.md) and full documents in this folder.
 

@@ -46,7 +46,7 @@ export default function ReturnsPage() {
   const irr = getScenarioValue(returns.irr, scenario)
   const moic = getScenarioValue(returns.moic, scenario)
 
-  // Year 5 enterprise values — updated for casita phasing model (60 rooms at maturity)
+  // Year 5 enterprise values - updated for casita phasing model (60 rooms at maturity)
   const year5BaseEBITDA = plStatements[4].ebitda
   const exitValues = {
     conservative: 55000000,  // 4.0x Y5 EBITDA (~$20.3M) + retained cash

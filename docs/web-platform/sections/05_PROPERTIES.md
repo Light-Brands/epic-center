@@ -20,7 +20,7 @@
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-#### Portfolio Summary (Visual Grid) — Data from Google Sheets Model
+#### Portfolio Summary (Visual Grid) - Data from Google Sheets Model
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                                                                             │

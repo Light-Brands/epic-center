@@ -1,4 +1,4 @@
-# Available Properties for Sale — Quintana Roo, Mexico
+# Available Properties for Sale - Quintana Roo, Mexico
 
 **Compiled:** January 29, 2026
 **Region:** Tulum, Playa del Carmen, Akumal, Riviera Maya
@@ -11,10 +11,10 @@
 Based on our evaluation framework, we're looking for:
 
 - **8+ bedrooms/rooms** (10–21+ ideal for Tier 1/Tier 2 capacity)
-- **Natural healing environment** — jungle, beach, cenote, nature (NOT urban)
-- **Privacy & seclusion** — controlled access, away from tourist crowds
+- **Natural healing environment** - jungle, beach, cenote, nature (NOT urban)
+- **Privacy & seclusion** - controlled access, away from tourist crowds
 - **Hospitality/commercial zoning** (or convertible)
-- **Medical infrastructure proximity** — JCI hospital ≤30 min is ideal (Tulum's gap = 70+ min to Galenia Cancún)
+- **Medical infrastructure proximity** - JCI hospital ≤30 min is ideal (Tulum's gap = 70+ min to Galenia Cancún)
 - **Structurally sound**, ambulance-accessible, reliable utilities
 - **Budget range:** $1M–$9M acquisition (total project cost $10–$20M after conversion)
 
@@ -49,7 +49,7 @@ Hotel Alea Tulum ($6.4M, SHORTLIST), Hacienda Caracol ($4.9M, HOLD), Mini Hotel 
 
 ---
 
-## Tier 1 — Strong Candidates (Best Brand & Criteria Fit)
+## Tier 1 - Strong Candidates (Best Brand & Criteria Fit)
 
 ### 1. Tankah Bay 21-Room Beachfront Hotel
 
@@ -104,11 +104,11 @@ Hotel Alea Tulum ($6.4M, SHORTLIST), Hacienda Caracol ($4.9M, HOLD), Mini Hotel 
 - 8 hectares provides massive expansion potential
 - Titled estate with operational amenities
 - Sustainable/eco design aligns with brand philosophy
-- Location between PDC and Tulum — potentially better medical access than deep Tulum
+- Location between PDC and Tulum, potentially better medical access than deep Tulum
 - Strong brand story (cenote as centerpiece of healing experience)
 
 **Considerations:**
-- Only 7 cabins currently — needs expansion to reach Tier 1/2 capacity
+- Only 7 cabins currently, needs expansion to reach Tier 1/2 capacity
 - 8 hectares of jungle = more complex maintenance
 - Verify zoning permits for medical/hospitality use
 - Distance to nearest JCI hospital needs verification (likely 40–50 min to Playa hospitals)
@@ -120,7 +120,7 @@ Hotel Alea Tulum ($6.4M, SHORTLIST), Hacienda Caracol ($4.9M, HOLD), Mini Hotel 
 
 ---
 
-### 3. 9-Key Solar-Powered Beachfront Hotel — South Tulum Beach
+### 3. 9-Key Solar-Powered Beachfront Hotel - South Tulum Beach
 
 | Detail | Value |
 |--------|-------|
@@ -142,7 +142,7 @@ Hotel Alea Tulum ($6.4M, SHORTLIST), Hacienda Caracol ($4.9M, HOLD), Mini Hotel 
 - UNESCO proximity adds prestige
 
 **Considerations:**
-- Only 9 suites — below Tier 2 minimum of 10 (needs expansion)
+- Only 9 suites, below Tier 2 minimum of 10 (needs expansion)
 - $6.7M for 9 rooms = $744K/room (premium per-room cost)
 - 0.70 acres limits expansion potential
 - Furthest from medical infrastructure (south of Tulum = 80+ min to JCI)
@@ -153,7 +153,7 @@ Hotel Alea Tulum ($6.4M, SHORTLIST), Hacienda Caracol ($4.9M, HOLD), Mini Hotel 
 
 ---
 
-### 4. Jungle Keva Boutique Hotel — Tulum
+### 4. Jungle Keva Boutique Hotel - Tulum
 
 | Detail | Value |
 |--------|-------|
@@ -172,7 +172,7 @@ Hotel Alea Tulum ($6.4M, SHORTLIST), Hacienda Caracol ($4.9M, HOLD), Mini Hotel 
 - Infinity pool and nature-focused amenities
 
 **Considerations:**
-- Only 6 units — well below capacity targets
+- Only 6 units, well below capacity targets
 - Would need significant expansion or serve as premium add-on facility
 - La Veleta neighborhood is developing rapidly (potential future noise/density)
 - Medical infrastructure gap same as Tulum (~70 min)
@@ -183,9 +183,9 @@ Hotel Alea Tulum ($6.4M, SHORTLIST), Hacienda Caracol ($4.9M, HOLD), Mini Hotel 
 
 ---
 
-## Tier 2 — Worth Investigating (Good Potential, Some Trade-offs)
+## Tier 2 - Worth Investigating (Good Potential, Some Trade-offs)
 
-### 5. Hotel #107 — 20-Room Boutique Hotel, Centro Tulum
+### 5. Hotel #107 - 20-Room Boutique Hotel, Centro Tulum
 
 | Detail | Value |
 |--------|-------|
@@ -204,7 +204,7 @@ Hotel Alea Tulum ($6.4M, SHORTLIST), Hacienda Caracol ($4.9M, HOLD), Mini Hotel 
 - Close to Tulum archaeological zone (cultural programming potential)
 
 **Considerations:**
-- Centro Tulum location — less private/secluded than beachfront or jungle
+- Centro Tulum location, less private/secluded than beachfront or jungle
 - 3 km from beach may reduce premium positioning
 - Brand alignment needs assessment (modern urban-adjacent vs. nature retreat)
 - Same Tulum medical gap (~70 min to JCI)
@@ -214,7 +214,7 @@ Hotel Alea Tulum ($6.4M, SHORTLIST), Hacienda Caracol ($4.9M, HOLD), Mini Hotel 
 
 ---
 
-### 6. Hotel #92 — Tulum
+### 6. Hotel #92 - Tulum
 
 | Detail | Value |
 |--------|-------|
@@ -229,7 +229,7 @@ Hotel Alea Tulum ($6.4M, SHORTLIST), Hacienda Caracol ($4.9M, HOLD), Mini Hotel 
 - Tulum location with tourism demand
 
 **Considerations:**
-- Limited details available — requires direct inquiry for room count, condition, zoning
+- Limited details available; requires direct inquiry for room count, condition, zoning
 - At $1.5M, likely smaller property that may need significant renovation
 
 **Links:**
@@ -261,7 +261,7 @@ Hotel Alea Tulum ($6.4M, SHORTLIST), Hacienda Caracol ($4.9M, HOLD), Mini Hotel 
 
 ---
 
-### 8. 25-Room Adults-Only Hotel — Aldea Zama, Tulum
+### 8. 25-Room Adults-Only Hotel - Aldea Zama, Tulum
 
 | Detail | Value |
 |--------|-------|
@@ -273,23 +273,23 @@ Hotel Alea Tulum ($6.4M, SHORTLIST), Hacienda Caracol ($4.9M, HOLD), Mini Hotel 
 **Description:** Adults-only boutique hotel in Aldea Zama offering a 4-star hospitality experience with full resort amenities. Condo-hotel ownership model.
 
 **Why it fits:**
-- 25 rooms — strong Tier 1 capacity
+- 25 rooms, strong Tier 1 capacity
 - Adults-only format aligns with wellness retreat (no children)
 - Aldea Zama is Tulum's most upscale planned community
 - 4-star operations already in place
 
 **Considerations:**
 - Condo-hotel model may complicate full acquisition (individual unit owners)
-- Aldea Zama is a developed community — less "jungle retreat" feel
+- Aldea Zama is a developed community, less "jungle retreat" feel
 - Zoning/legal complexity of converting condo-hotel to single-operator retreat
 - Medical infrastructure gap persists
 
 **Links:**
-- [Christie's International Real Estate Mexico — Hotel Listings](https://www.christiesrealestatemexico.com/listings/category/hotel/)
+- [Christie's International Real Estate Mexico - Hotel Listings](https://www.christiesrealestatemexico.com/listings/category/hotel/)
 
 ---
 
-### 9. Rancho Escondido — Off-Grid Eco Ranch, Xpu-Ha
+### 9. Rancho Escondido - Off-Grid Eco Ranch, Xpu-Ha
 
 | Detail | Value |
 |--------|-------|
@@ -308,7 +308,7 @@ Hotel Alea Tulum ($6.4M, SHORTLIST), Hacienda Caracol ($4.9M, HOLD), Mini Hotel 
 **Considerations:**
 - Likely needs ground-up development for hospitality use
 - Off-grid infrastructure may need significant utility upgrades for medical requirements
-- Room count/capacity unknown — requires site visit
+- Room count/capacity unknown; requires site visit
 - Zoning for commercial hospitality use needs verification
 
 **Links:**
@@ -317,7 +317,7 @@ Hotel Alea Tulum ($6.4M, SHORTLIST), Hacienda Caracol ($4.9M, HOLD), Mini Hotel 
 
 ---
 
-### 10. Lagoonfront Wellness Retreat — Lake Bacalar
+### 10. Lagoonfront Wellness Retreat - Lake Bacalar
 
 | Detail | Value |
 |--------|-------|
@@ -325,7 +325,7 @@ Hotel Alea Tulum ($6.4M, SHORTLIST), Hacienda Caracol ($4.9M, HOLD), Mini Hotel 
 | **Location** | Lake Bacalar, Q.R. (Lagoon of Seven Colors) |
 | **Current Use** | Fully operational hotel & wellness retreat |
 
-**Description:** Fully operational lagoonfront hotel and wellness retreat directly on the shores of Lake Bacalar — known as the "Lagoon of Seven Colors" — one of Mexico's most visually stunning freshwater lakes.
+**Description:** Fully operational lagoonfront hotel and wellness retreat directly on the shores of Lake Bacalar, known as the "Lagoon of Seven Colors," one of Mexico's most visually stunning freshwater lakes.
 
 **Why it fits:**
 - Already operating as a wellness retreat (systems, branding, staff in place)
@@ -335,24 +335,24 @@ Hotel Alea Tulum ($6.4M, SHORTLIST), Hacienda Caracol ($4.9M, HOLD), Mini Hotel 
 - Unique water-based healing environment
 
 **Considerations:**
-- Bacalar is ~3 hours south of Cancún — significantly further from medical infrastructure
+- Bacalar is ~3 hours south of Cancún, significantly further from medical infrastructure
 - Smaller tourist market than Tulum/PDC corridor
 - Less international airport access (no nearby international airport)
 - May work better as Phase 2 expansion than flagship
 - Room count and specific details need inquiry
 
 **Links:**
-- [Riviera Maya Real Estate Group — Hotels for Sale](https://www.rivieramayarealestategroup.com/listings/hotels-for-sale/)
+- [Riviera Maya Real Estate Group - Hotels for Sale](https://www.rivieramayarealestategroup.com/listings/hotels-for-sale/)
 
 ---
 
-## Tier 3 — Playa del Carmen Properties (Better Medical Access, Urban Trade-off)
+## Tier 3 - Playa del Carmen Properties (Better Medical Access, Urban Trade-off)
 
 These Playa del Carmen properties are worth noting because PDC has **significantly better hospital access** than Tulum (Hospiten, Hospital Amerimed, and others within city limits). However, they are more urban, which may conflict with the natural healing environment brand positioning.
 
 **Strategic note:** A Playa del Carmen property could serve as a **medical hub / intake facility** paired with a Tulum/jungle flagship, solving the medical infrastructure gap.
 
-### 11. Hotel Kinbe — 30 Rooms, Playa del Carmen
+### 11. Hotel Kinbe - 30 Rooms, Playa del Carmen
 
 | Detail | Value |
 |--------|-------|
@@ -365,13 +365,13 @@ These Playa del Carmen properties are worth noting because PDC has **significant
 **Description:** Four-level boutique hotel with 30 Caribbean-styled rooms near 5th Avenue. Pool with cascading waterfall, rooftop solarium, personalized concierge services, exclusive ZENZI Beach Club access.
 
 **Why it fits:**
-- 30 rooms — strong capacity
+- 30 rooms, strong capacity
 - Established hotel with operations
 - Near hospitals (Hospiten PDC ~10 min, Amerimed ~15 min)
 - Attractive price per room (~$117K/room)
 
 **Considerations:**
-- Urban 5th Avenue location — not suitable as primary healing retreat
+- Urban 5th Avenue location, not suitable as primary healing retreat
 - Better positioned as medical intake / processing center
 - Brand misalignment for primary facility (similar to Mini Hotel Cancún rejection)
 
@@ -381,7 +381,7 @@ These Playa del Carmen properties are worth noting because PDC has **significant
 
 ---
 
-### 12. 18-Room Boutique Hotel #118 — Playa del Carmen
+### 12. 18-Room Boutique Hotel #118 - Playa del Carmen
 
 | Detail | Value |
 |--------|-------|
@@ -409,11 +409,11 @@ These Playa del Carmen properties are worth noting because PDC has **significant
 
 ---
 
-### 13. Two-Hotel Bundle — 51 Rooms Total, Playa del Carmen
+### 13. Two-Hotel Bundle - 51 Rooms Total, Playa del Carmen
 
 | Detail | Value |
 |--------|-------|
-| **Price** | $7,000,000 USD (combined) — $10M if purchased separately |
+| **Price** | $7,000,000 USD (combined), $10M if purchased separately |
 | **Location** | Centro, Playa del Carmen (two separate properties) |
 | **Rooms** | 51 total (20-room luxury hotel + 31-room turn-key hotel) |
 | **Current Use** | Both operational |
@@ -429,7 +429,7 @@ These Playa del Carmen properties are worth noting because PDC has **significant
 - Near PDC hospitals
 
 **Considerations:**
-- $7M for urban hotels — capital better spent on nature-based flagship?
+- $7M for urban hotels, capital better spent on nature-based flagship?
 - Urban location unsuitable for primary healing retreat
 - Could work as dual-purpose: one for medical intake, one for operations/admin
 
@@ -438,7 +438,7 @@ These Playa del Carmen properties are worth noting because PDC has **significant
 
 ---
 
-### 14. Hotel #4 — 22 Studios, Playa del Carmen
+### 14. Hotel #4 - 22 Studios, Playa del Carmen
 
 | Detail | Value |
 |--------|-------|
@@ -464,7 +464,7 @@ These Playa del Carmen properties are worth noting because PDC has **significant
 
 ---
 
-### 15. Hotel #51 — 20 Rooms, Playa del Carmen
+### 15. Hotel #51 - 20 Rooms, Playa del Carmen
 
 | Detail | Value |
 |--------|-------|
@@ -480,9 +480,9 @@ These Playa del Carmen properties are worth noting because PDC has **significant
 
 ---
 
-## Tier 4 — Scale Plays (Too Large or Out of Budget, but Notable)
+## Tier 4 - Scale Plays (Too Large or Out of Budget, but Notable)
 
-### 16. 95-Key Hotel — Central Tulum
+### 16. 95-Key Hotel - Central Tulum
 
 | Detail | Value |
 |--------|-------|
@@ -500,7 +500,7 @@ These Playa del Carmen properties are worth noting because PDC has **significant
 
 ---
 
-### 17. 10-Unit Boutique Hotel — La Veleta, Tulum
+### 17. 10-Unit Boutique Hotel - La Veleta, Tulum
 
 | Detail | Value |
 |--------|-------|
@@ -516,7 +516,7 @@ These Playa del Carmen properties are worth noting because PDC has **significant
 
 **Links:**
 - [Coastal Homes Riviera Maya](https://coastalhomesrivieramaya.com/real-estate/10-unit-boutique-hotel-for-sale-in-tulum-la-veleta/)
-- **Contact:** Deanna Strong — +52 1 984 120 5034 / +1 818 415 0692 / deanna@coastalhomesrivieramaya.com
+- **Contact:** Deanna Strong - +52 1 984 120 5034 / +1 818 415 0692 / deanna@coastalhomesrivieramaya.com
 
 ---
 
@@ -524,11 +524,11 @@ These Playa del Carmen properties are worth noting because PDC has **significant
 
 ### Best Overall Candidates (in priority order)
 
-1. **Cenote Ka'ax ($4.0M)** — The cenote + jungle + 8 hectares combination is exceptional for a healing retreat brand. Existing ceremony/wellness infrastructure (temazcal, chapel, spa) is unique. Mid-corridor location may improve medical access. Expansion potential is massive. Needs room count buildout.
+1. **Cenote Ka'ax ($4.0M)** - The cenote + jungle + 8 hectares combination is exceptional for a healing retreat brand. Existing ceremony/wellness infrastructure (temazcal, chapel, spa) is unique. Mid-corridor location may improve medical access. Expansion potential is massive. Needs room count buildout.
 
-2. **Tankah Bay 21-Room ($8.5M)** — Closest analog to Hotel Alea with 21 rooms, beachfront, and operational status. Dual-parcel expansion to 42+ rooms is compelling. Premium price but includes villa asset. Secluded bay setting.
+2. **Tankah Bay 21-Room ($8.5M)** - Closest analog to Hotel Alea with 21 rooms, beachfront, and operational status. Dual-parcel expansion to 42+ rooms is compelling. Premium price but includes villa asset. Secluded bay setting.
 
-3. **Jungle Keva ($1.4M)** — Best value acquisition with award-winning design DNA. Too small alone but could anchor a multi-property strategy or serve as the design/brand template for a larger adjacent build.
+3. **Jungle Keva ($1.4M)** - Best value acquisition with award-winning design DNA. Too small alone but could anchor a multi-property strategy or serve as the design/brand template for a larger adjacent build.
 
 ### Dual-Property Strategy Option
 

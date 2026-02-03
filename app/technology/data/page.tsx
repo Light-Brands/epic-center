@@ -112,7 +112,7 @@ const DATA_LAYERS = [
     title: 'Outcomes & Longitudinal',
     color: 'from-primary-600 to-primary-700',
     description:
-      'The most valuable layer — long-term follow-up data that reveals what actually works, for whom, and why.',
+      'The most valuable layer: long-term follow-up data that reveals what actually works, for whom, and why.',
     dataPoints: [
       '30/60/90/180/365-day outcome assessments',
       'Relapse events & early warning indicators',
@@ -130,21 +130,21 @@ const AI_APPLICATIONS = [
     icon: Fingerprint,
     title: 'Predictive Treatment Matching',
     description:
-      'Which protocol variant will work best for this specific person? The AI correlates intake profiles with outcome data from hundreds of prior guests to recommend the highest-probability treatment path — before the first session begins.',
+      'Which protocol variant will work best for this specific person? The AI correlates intake profiles with outcome data from hundreds of prior guests to recommend the highest-probability treatment path, before the first session begins.',
     impact: 'Expected to improve first-treatment response rates by 20-30%',
   },
   {
     icon: Search,
     title: 'Early Risk Detection',
     description:
-      'Subtle biometric and behavioral shifts often precede a crisis by 48-72 hours. Pattern recognition across the data corpus identifies at-risk guests before they self-identify — enabling proactive clinical intervention instead of reactive crisis management.',
+      'Subtle biometric and behavioral shifts often precede a crisis by 48-72 hours. Pattern recognition across the data corpus identifies at-risk guests before they self-identify, enabling proactive clinical intervention instead of reactive crisis management.',
     impact: 'Continuous monitoring across 6+ signal streams',
   },
   {
     icon: GitBranch,
     title: 'Adaptive Protocol Optimization',
     description:
-      'Treatment protocols aren\'t static documents — they\'re living systems. As outcome data accumulates, the AI identifies which protocol variations produce the strongest results for specific patient profiles, and surfaces refinement recommendations to the clinical team.',
+      'Treatment protocols aren\'t static documents. They\'re living systems. As outcome data accumulates, the AI identifies which protocol variations produce the strongest results for specific patient profiles, and surfaces refinement recommendations to the clinical team.',
     impact: 'Protocols refined continuously against real outcomes',
   },
   {
@@ -180,7 +180,7 @@ const FLYWHEEL_STEPS = [
   {
     step: '02',
     title: 'Learn',
-    description: 'AI models identify patterns invisible to human analysis — correlating thousands of variables across hundreds of guests to surface non-obvious insights.',
+    description: 'AI models identify patterns invisible to human analysis, correlating thousands of variables across hundreds of guests to surface non-obvious insights.',
     icon: Brain,
   },
   {
@@ -291,7 +291,7 @@ export default function DataIntelligencePage() {
   return (
     <div className="min-h-screen bg-canvas">
       {/* ═══════════════════════════════════════════════════════════════════════════
-          HERO — "Every Interaction Becomes Intelligence"
+          HERO - "Every Interaction Becomes Intelligence"
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden bg-primary-900">
         {/* Decorative */}
@@ -395,7 +395,7 @@ export default function DataIntelligencePage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          PHILOSOPHY — GSAP Text Reveal
+          PHILOSOPHY - GSAP Text Reveal
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="relative py-32 md:py-40 bg-white overflow-hidden">
         <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-64 h-64 rounded-full bg-accent-500/5 blur-3xl" />
@@ -409,14 +409,14 @@ export default function DataIntelligencePage() {
             </p>
             <p className="line font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-primary-800 leading-[1.25] tracking-tight">
               We measure it by{' '}
-              <span className="highlight text-secondary-600 inline-block">what actually changed</span> — and prove it.
+              <span className="highlight text-secondary-600 inline-block">what actually changed</span>, and prove it.
             </p>
           </div>
         </div>
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          DATA LAYERS — "What We Collect"
+          DATA LAYERS - "What We Collect"
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
         <div className="absolute inset-0 opacity-[0.015]" style={{
@@ -589,7 +589,7 @@ export default function DataIntelligencePage() {
           >
             <p className="inline-flex items-center gap-3 text-primary-300 text-sm md:text-base">
               <span className="h-px w-12 bg-gradient-to-r from-transparent to-primary-500" />
-              Guest 500 receives meaningfully better care than Guest 1 — automatically
+              Guest 500 receives meaningfully better care than Guest 1, automatically
               <span className="h-px w-12 bg-gradient-to-l from-transparent to-primary-500" />
             </p>
           </motion.div>
@@ -597,7 +597,7 @@ export default function DataIntelligencePage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          AI APPLICATIONS — "What the Data Enables"
+          AI APPLICATIONS - "What the Data Enables"
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-white relative overflow-hidden">
         <div className="w-full sm:w-[70vw] mx-auto relative">
@@ -701,7 +701,7 @@ export default function DataIntelligencePage() {
                   <div className="space-y-4">
                     {[
                       'HIPAA-compliant infrastructure with end-to-end encryption',
-                      'Granular consent — guests control what data is used and how',
+                      'Granular consent: guests control what data is used and how',
                       'Anonymization pipeline for research contributions',
                       'Regular third-party security audits',
                       'Data retention policies aligned with medical best practices',
@@ -742,7 +742,7 @@ export default function DataIntelligencePage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          THE MOAT — "Data as Competitive Advantage"
+          THE MOAT - "Data as Competitive Advantage"
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-white relative overflow-hidden">
         <div className="w-full sm:w-[70vw] mx-auto relative">
@@ -765,12 +765,12 @@ export default function DataIntelligencePage() {
                     Competitors can replicate a facility. They can hire similar staff. They can
                     even adopt similar protocols. What they cannot replicate is years of structured
                     outcome data and the AI models trained on it. With every guest, the data
-                    advantage compounds — creating a defensible, widening moat.
+                    advantage compounds, creating a defensible, widening moat.
                   </p>
                   <div className="space-y-3">
                     {[
                       'Proprietary outcome dataset grows with every guest',
-                      'AI models improve continuously — no reset possible',
+                      'AI models improve continuously, with no reset possible',
                       'Evidence base supports regulatory and partnership leverage',
                       'Data-driven protocols become the industry standard',
                     ].map((point) => (

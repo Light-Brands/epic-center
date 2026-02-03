@@ -2,7 +2,7 @@
 
 > *"Bringing the lost travellers back home to the garden of their hearts and soul"*
 
-> **One sentence**: Transformational Epicenter is building the world's first luxury medical wellness destination that combines hospital-grade care, five-star hospitality, cutting-edge health technology, and transformational medicine—a combination no competitor offers today.
+> **One sentence**: Transformational Epicenter is building the world's first luxury medical wellness destination that combines hospital-grade care, five-star hospitality, cutting-edge health technology, and transformational medicine, a combination no competitor offers today.
 
 ---
 
@@ -10,11 +10,11 @@
 
 Transformational Epicenter is a medical-based wellness and bio-optimization clinic with a luxury retreat experience, designed to address healing at the root level: physical, neurological, emotional, and spiritual.
 
-**The core intention is not detox or short-term relief, but true transformation**—nervous system repair, trauma resolution, and human remembrance.
+**The core intention is not detox or short-term relief, but true transformation**: nervous system repair, trauma resolution, and human remembrance.
 
 ### The Core Truth
 
-Modern humans are suffering from a crisis of disconnection—from their bodies, their nervous systems, their emotions, their purpose, and their essential nature.
+Modern humans are suffering from a crisis of disconnection: from their bodies, their nervous systems, their emotions, their purpose, and their essential nature.
 
 Traditional healthcare treats symptoms. Luxury wellness offers temporary escape. Spiritual retreats can bypass the body. Plant medicine ceremonies without integration leave experiences unanchored.
 
@@ -39,7 +39,7 @@ There's a massive gap in the wellness market that nobody is filling.
 - **Biohacking centers** (trendy tech, but no real medical oversight)
 - **Plant medicine retreats** (powerful, but often unsafe or unprofessional)
 
-**No one offers all four together.** Why? Because it's hard. Medical clinics won't touch plant medicine—too risky for their reputation. Luxury resorts don't have the clinical expertise. Plant medicine centers can't afford the infrastructure or talent.
+**No one offers all four together.** Why? Because it's hard. Medical clinics won't touch plant medicine, as it is too risky for their reputation. Luxury resorts don't have the clinical expertise. Plant medicine centers can't afford the infrastructure or talent.
 
 **Transformational Epicenter is purpose-built to fill this gap.** We're not adding wellness to a hotel or medicine to a spa. We're building something entirely new from the ground up.
 
@@ -116,7 +116,7 @@ Our research identified four market pillars that Transformational Epicenter serv
 
 **No single player has unified these four market pillars into a coherent, continuous healing journey.**
 
-This is not an oversight—it is a structural limitation. Building such an offering requires:
+This is not an oversight. It is a structural limitation. Building such an offering requires:
 - Medical expertise willing to work alongside plant medicine
 - Hospitality talent committed to therapeutic outcomes
 - Technology infrastructure for personalized continuity
@@ -133,7 +133,7 @@ Our ideal guest is a **successful person who senses something is missing**.
 
 They've achieved wealth and status, but:
 - They're exhausted from constant performance
-- They've tried therapy, meditation retreats, health programs—nothing stuck
+- They've tried therapy, meditation retreats, health programs, but nothing stuck
 - They carry stress, trauma, or burnout that affects everything
 - They want real change, not another temporary fix
 - They're willing to invest $50,000-$150,000+ for genuine transformation
@@ -165,22 +165,22 @@ Our guests are high-functioning individuals who have achieved external success b
 Surface-level interventions create surface-level change. True transformation requires addressing the root: unprocessed trauma, dysregulated nervous systems, fragmented identity, and spiritual disconnection. We go to the root.
 
 ### 2. The Body Keeps the Score
-Transformation is not merely cognitive. It is somatic. Neurological. Cellular. Our protocols honor the body as the primary vessel of healing—supporting it with medical precision and nurturing it with exceptional care.
+Transformation is not merely cognitive. It is somatic. Neurological. Cellular. Our protocols honor the body as the primary vessel of healing, supporting it with medical precision and nurturing it with exceptional care.
 
 ### 3. Safety Creates Surrender
-The nervous system cannot heal in a state of vigilance. We create environments of profound safety—medical, physical, emotional, and spiritual—so guests can fully surrender to their process.
+The nervous system cannot heal in a state of vigilance. We create environments of profound safety (medical, physical, emotional, and spiritual) so guests can fully surrender to their process.
 
 ### 4. Medicine is a Catalyst, Not a Destination
-Plant medicine can open doors that years of therapy cannot. But the medicine alone is not the transformation. The real work is the integration—anchoring insights into daily life, identity, and purpose.
+Plant medicine can open doors that years of therapy cannot. But the medicine alone is not the transformation. The real work is the integration: anchoring insights into daily life, identity, and purpose.
 
 ### 5. Luxury is Love Made Material
-We reject the false dichotomy between spiritual depth and material comfort. Luxury at Transformational Epicenter is not indulgence—it is the physical expression of care. Every thread count, every meal, every design choice says: "You are worth this attention."
+We reject the false dichotomy between spiritual depth and material comfort. Luxury at Transformational Epicenter is not indulgence. It is the physical expression of care. Every thread count, every meal, every design choice says: "You are worth this attention."
 
 ### 6. Transformation Requires a Continuum
 A retreat is not an event. It is a phase in a longer arc. We support guests before they arrive (preparation), during their stay (experience), and long after they leave (integration). The full arc creates lasting change.
 
 ### 7. Community Sustains Change
-Individual transformation flourishes within supportive community. We build containers for ongoing connection—both digital and physical—so no one walks the integration path alone.
+Individual transformation flourishes within supportive community. We build containers for ongoing connection, both digital and physical, so no one walks the integration path alone.
 
 ---
 
@@ -213,7 +213,7 @@ Evidence-based protocols. Rigorous safety screening. Continuous monitoring. Meas
 - Outcome tracking so guests can see measurable improvement
 
 ### Segment 2: Plant Medicine (Iboga & Ibogaine)
-Trauma-informed, ethically held plant medicine experiences with strong medical oversight. We work primarily with Iboga and Ibogaine—medicines with profound capacity for nervous system reset and trauma resolution.
+Trauma-informed, ethically held plant medicine experiences with strong medical oversight. We work primarily with Iboga and Ibogaine, medicines with profound capacity for nervous system reset and trauma resolution.
 
 - Full cardiac screening and monitoring (critical for safety)
 - Physicians present during experiences
@@ -246,10 +246,10 @@ A luxury retreat environment where every detail supports healing.
 - Every detail says "you matter"
 
 ### Segment 6: Digital Ecosystem and Community Support
-Technology that extends care beyond walls. Medical onboarding, preparation content, daily schedules, integration practices, and community connection—all in one cohesive platform powered by the AI Superintelligent System.
+Technology that extends care beyond walls. Medical onboarding, preparation content, daily schedules, integration practices, and community connection, all in one cohesive platform powered by the AI Superintelligent System.
 
 ### Segment 7: Pre-Care (Preparation)
-The foundation of transformation. 4-8 weeks of medical preparation, psychological readiness, nervous system priming, intention setting, and practical logistics. Preparation is not overhead—it determines the depth of what's possible.
+The foundation of transformation. 4-8 weeks of medical preparation, psychological readiness, nervous system priming, intention setting, and practical logistics. Preparation is not overhead. It determines the depth of what's possible.
 
 ### Segment 8: Post-Care (Integration)
 Where transformation becomes embodiment. 3-12+ months of processing, understanding, anchoring, and living the changes. Coaching, community, practices, and support to ensure insights become lasting change.
@@ -383,12 +383,12 @@ We've studied every major player. Here's why they won't follow us into this spac
 
 | Competitor Type | Why They Won't Integrate All Four Pillars |
 |-----------------|-------------------------------------------|
-| **Medical Clinics** (Clinique La Prairie, SHA Wellness) | Won't touch plant medicine—too much brand and regulatory risk |
+| **Medical Clinics** (Clinique La Prairie, SHA Wellness) | Won't touch plant medicine, citing too much brand and regulatory risk |
 | **Luxury Resorts** (Aman, Six Senses) | Don't have medical expertise or clinical infrastructure |
 | **Plant Medicine Centers** (Beond, Rythmia) | Can't attract luxury talent or afford medical infrastructure |
-| **Biohacking Centers** (Upgrade Labs, Restore) | Wrong business model—transactional, not transformational |
+| **Biohacking Centers** (Upgrade Labs, Restore) | Wrong business model, transactional not transformational |
 
-**Our advantage**: We're building this from scratch with all four pillars integrated from day one—operationalized through eight segments. You can't bolt this together after the fact.
+**Our advantage**: We're building this from scratch with all four pillars integrated from day one, operationalized through eight segments. You can't bolt this together after the fact.
 
 ---
 

@@ -547,15 +547,15 @@ Each property gets a dedicated page with comprehensive details:
 
 **C. Pass/Fail Gates (Visual Checklist)**
 ```
-✅ JCI Hospital Access     — 70 min to Galenia (Cancún)
-✅ Commercial Zoning       — Verified operational
-✅ Utilities Available     — Full infrastructure
-⚠️ Airport Access          — 2 hours from CUN
-✅ Privacy & Security      — Gated, private beach
-✅ Natural Environment     — Direct ocean access
-⚠️ Existing Structures     — Full renovation required
-✅ Legal Status            — Clear title
-⚠️ Price Alignment         — Above comparable market
+✅ JCI Hospital Access     - 70 min to Galenia (Cancún)
+✅ Commercial Zoning       - Verified operational
+✅ Utilities Available     - Full infrastructure
+⚠️ Airport Access          - 2 hours from CUN
+✅ Privacy & Security      - Gated, private beach
+✅ Natural Environment     - Direct ocean access
+⚠️ Existing Structures     - Full renovation required
+✅ Legal Status            - Clear title
+⚠️ Price Alignment         - Above comparable market
 ```
 
 **D. Scoring Breakdown (Radar Chart + Table)**
@@ -1165,10 +1165,10 @@ This file should be re-synced whenever the spreadsheet is updated.
 | | Cost Per Room | $928K | $906,512 |
 | | IRR (Base) | 28.51% | 29.54% |
 | | Y5 Revenue | $15.1M | $15,303,003 |
-| | 5-Year Revenue | — | $62,109,066 |
-| | Y5 EBITDA | — | $6,014,560 |
-| | EBITDA Margin Y5 | — | 39% |
-| | Gross Margin | — | 72% avg |
+| | 5-Year Revenue | - | $62,109,066 |
+| | Y5 EBITDA | - | $6,014,560 |
+| | EBITDA Margin Y5 | - | 39% |
+| | Gross Margin | - | 72% avg |
 | **Hacienda Caracol** | Daily Rate | $2,000 | $3,157 (1.36x UHNW) |
 | | Avg Revenue/Guest | ~$30K | $53,669 |
 | | Target Market | HNW | U-HNW Individuals |
@@ -1257,4 +1257,4 @@ This technical plan specifies a **16-section investor platform** designed to lea
 - *v2.1: Synced with Google Sheets financial model*
 - *v3.0: Expanded to 16 sections for complete investor coverage (Risk, Exit, Timeline, Legal, Outcomes, Data Room, FAQ)*
 
-*Vision: The definitive pitch experience for Transformational Epicenter — zero unanswered questions*
+*Vision: The definitive pitch experience for Transformational Epicenter. Zero unanswered questions*

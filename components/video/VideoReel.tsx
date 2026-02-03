@@ -200,7 +200,7 @@ export function VideoReel() {
         )}
       </AnimatePresence>
 
-      {/* Top bar — counter + title */}
+      {/* Top bar - counter + title */}
       <AnimatePresence>
         {showControls && (
           <motion.div
@@ -312,7 +312,7 @@ export function VideoReel() {
         )}
       </AnimatePresence>
 
-      {/* Bottom bar — scroll hint + keyboard hint */}
+      {/* Bottom bar - scroll hint + keyboard hint */}
       <AnimatePresence>
         {showControls && (
           <motion.div

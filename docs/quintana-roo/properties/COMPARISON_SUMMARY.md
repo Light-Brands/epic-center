@@ -20,7 +20,7 @@ Four properties in Quintana Roo were evaluated against the established verificat
 
 ### Key Financial Insight
 
-**Hotel Alea Tulum is the clear leader** with 29.54% IRR and $62.1M 5-year revenue. Hacienda Caracol offers solid 18% IRR with premium U-HNW positioning ($3,157/day vs $2,321/day) and 82% gross margins—ideal as a second property for tiered market coverage. Mini Hotel Cancún and Casa Sueño de Mar show negative or near-zero returns due to brand misalignment and zoning constraints.
+**Hotel Alea Tulum is the clear leader** with 29.54% IRR and $62.1M 5-year revenue. Hacienda Caracol offers solid 18% IRR with premium U-HNW positioning ($3,157/day vs $2,321/day) and 82% gross margins, ideal as a second property for tiered market coverage. Mini Hotel Cancún and Casa Sueño de Mar show negative or near-zero returns due to brand misalignment and zoning constraints.
 
 ---
 

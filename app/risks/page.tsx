@@ -403,7 +403,7 @@ export default function RisksPage() {
             <div className="max-w-3xl mx-auto text-center">
               <h3 className="text-3xl font-heading mb-6">Our Approach to Risk</h3>
               <p className="text-lg text-primary-800 mb-8">
-                We don't avoid risk—we manage it. Every significant risk has been identified,
+                We don't avoid risk. We manage it. Every significant risk has been identified,
                 analyzed, and addressed with specific mitigation strategies. We continuously
                 monitor and adapt our approach as conditions evolve.
               </p>

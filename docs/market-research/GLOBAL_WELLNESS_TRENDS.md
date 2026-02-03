@@ -214,7 +214,7 @@ The global wellness economy has reached **$5.6 trillion** (2024) and continues t
 
 **Implications for TE:**
 - Our pre-care/post-care structure is major differentiator
-- Integration support is not optional—it's expected
+- Integration support is not optional; it's expected
 - Community building creates long-term value
 - Consider subscription/membership models
 
@@ -346,7 +346,7 @@ Mental wellness and psychedelic therapy are converging into a unified field. Thi
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-**Our Position:** Upper right quadrant—highest medical rigor AND highest luxury. No competitor occupies this space.
+**Our Position:** Upper right quadrant, with highest medical rigor AND highest luxury. No competitor occupies this space.
 
 ---
 
@@ -354,7 +354,7 @@ Mental wellness and psychedelic therapy are converging into a unified field. Thi
 
 ### The Longevity Economy
 
-The wealthy are investing heavily in extending healthspan. This is no longer fringe—it's a mainstream concern for the affluent.
+The wealthy are investing heavily in extending healthspan. This is no longer fringe. It's a mainstream concern for the affluent.
 
 ### Key Longevity Modalities
 

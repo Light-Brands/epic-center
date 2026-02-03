@@ -119,7 +119,7 @@ pitch-packet/DIGITAL_PITCH_PACKET.md → Full pitch strategy
 
 | Program | Duration | Ceremonies | Integration Sessions |
 |---------|----------|------------|----------------------|
-| [Program Overview](./programs/PROGRAM_OVERVIEW.md) | — | Master framework | — |
+| [Program Overview](./programs/PROGRAM_OVERVIEW.md) | - | Master framework | - |
 | [7-Day Reset](./programs/7_DAY_RESET.md) | 7 days | 1 | 4 |
 | [14-Day Interruption](./programs/14_DAY_INTERRUPTION.md) | 14 days | 1-2 | 8 |
 | [21-Day Recalibration](./programs/21_DAY_RECALIBRATION.md) | 21 days | 1-2 | 12 |
@@ -148,7 +148,7 @@ pitch-packet/DIGITAL_PITCH_PACKET.md → Full pitch strategy
 
 | # | Document | Coverage |
 |---|----------|----------|
-| — | [README.md](./market-research/README.md) | Market overview and document index |
+| - | [README.md](./market-research/README.md) | Market overview and document index |
 | 01 | [Competitive Landscape](./market-research/01_COMPETITIVE_LANDSCAPE.md) | SHA, Clinique La Prairie, Lanserhof benchmarks |
 | 02 | [Medical Longevity Clinics](./market-research/02_MEDICAL_LONGEVITY_CLINICS.md) | European leaders, US market, emerging tech |
 | 03 | [Biohacking & Performance](./market-research/03_BIOHACKING_PERFORMANCE.md) | Modalities, technologies, pricing |
@@ -174,7 +174,7 @@ pitch-packet/DIGITAL_PITCH_PACKET.md → Full pitch strategy
 
 | # | Document | Coverage |
 |---|----------|----------|
-| — | [README.md](./expansion-research/README.md) | Navigation guide and quick reference |
+| - | [README.md](./expansion-research/README.md) | Navigation guide and quick reference |
 | 01 | [Executive Summary](./expansion-research/01_EXECUTIVE_SUMMARY.md) | High-level strategy and key findings |
 | 02 | [Selection Methodology](./expansion-research/02_SELECTION_METHODOLOGY.md) | 100-point scoring framework |
 | 03 | [Top 30 Locations](./expansion-research/03_TOP_30_LOCATIONS.md) | Prioritized global ranking |

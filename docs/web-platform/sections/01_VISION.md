@@ -34,7 +34,7 @@
 > From their bodies. Their nervous systems. Their purpose. Their essential nature.
 >
 > The most successful people on earth are the most broken.
-> They have everything — except peace.
+> They have everything, except peace.
 
 #### The Failed Solutions (Interactive Cards)
 ```

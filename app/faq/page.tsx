@@ -27,7 +27,7 @@ const FAQS: FAQ[] = [
   {
     category: 'Investment',
     question: 'What is the investment structure?',
-    answer: 'This is a 100% equity investment totaling $14.95M for the initial 30-casita campus. Expansion to 60 casitas is funded from operating cash flow — no additional equity raise required. Investors receive common equity in Transformational Epicenter Holdings, LLC (Delaware).',
+    answer: 'This is a 100% equity investment totaling $14.95M for the initial 30-casita campus. Expansion to 60 casitas is funded from operating cash flow, with no additional equity raise required. Investors receive common equity in Transformational Epicenter Holdings, LLC (Delaware).',
   },
   {
     category: 'Investment',
@@ -69,7 +69,7 @@ const FAQS: FAQ[] = [
   {
     category: 'Operations',
     question: 'What makes your approach different?',
-    answer: 'We combine medical-grade protocols (24/7 physician oversight, cardiac monitoring) with luxury hospitality, comprehensive integration support, and bio-optimization—creating an integrated healing experience unavailable elsewhere.',
+    answer: 'We combine medical-grade protocols (24/7 physician oversight, cardiac monitoring) with luxury hospitality, comprehensive integration support, and bio-optimization, creating an integrated healing experience unavailable elsewhere.',
   },
   {
     category: 'Operations',
@@ -85,7 +85,7 @@ const FAQS: FAQ[] = [
   {
     category: 'Villas',
     question: 'How does the condo-hotel model work?',
-    answer: 'Villa owners purchase their unit and place it in a rental pool when not personally using it. Rental revenue is split 75/25 — 75% to the villa owner, 25% management fee to Transformational Epicenter. This creates a recurring revenue stream with no capital requirement from the company.',
+    answer: 'Villa owners purchase their unit and place it in a rental pool when not personally using it. Rental revenue is split 75/25: 75% to the villa owner, 25% management fee to Transformational Epicenter. This creates a recurring revenue stream with no capital requirement from the company.',
   },
   {
     category: 'Villas',

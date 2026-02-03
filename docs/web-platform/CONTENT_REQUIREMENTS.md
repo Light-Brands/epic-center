@@ -1,5 +1,5 @@
 # Transformational Epicenter
-## Investment Platform — Content Requirements v1.0
+## Investment Platform - Content Requirements v1.0
 
 ---
 
@@ -126,10 +126,10 @@ This document catalogs all content needed for the 16-page investment platform. C
 ### Section 2.5: Competitors Can't Copy
 | Element | Content | Source |
 |---------|---------|--------|
-| Competitor 1 | Clinique La Prairie, SHA: "Won't touch plant medicine—regulatory & brand risk" | 📄 |
+| Competitor 1 | Clinique La Prairie, SHA: "Won't touch plant medicine, regulatory & brand risk" | 📄 |
 | Competitor 2 | Aman, Six Senses: "Lack medical expertise and clinical infrastructure" | 📄 |
 | Competitor 3 | Beond, Rythmia: "Can't attract luxury talent or afford medical rigor" | 📄 |
-| Competitor 4 | Upgrade Labs: "Wrong model—transactional, not transformational" | 📄 |
+| Competitor 4 | Upgrade Labs: "Wrong model, transactional, not transformational" | 📄 |
 | Punchline | "The punchline: We're not competing. We're creating the category." | 📄 |
 
 ---
@@ -415,10 +415,10 @@ This document catalogs all content needed for the 16-page investment platform. C
 ## DATA FILES NEEDED
 
 ### properties-financial-data.json
-✅ EXISTS — Full financial data for all 4 properties
+✅ EXISTS - Full financial data for all 4 properties
 
 ### locations.json
-📊 NEEDED — All 30 global locations with:
+📊 NEEDED - All 30 global locations with:
 ```typescript
 {
   id: string;
@@ -439,7 +439,7 @@ This document catalogs all content needed for the 16-page investment platform. C
 ```
 
 ### competitors.json
-📊 NEEDED — Competitor comparison data:
+📊 NEEDED - Competitor comparison data:
 ```typescript
 {
   name: string;
@@ -453,7 +453,7 @@ This document catalogs all content needed for the 16-page investment platform. C
 ```
 
 ### team.json
-📊 NEEDED — Team member data
+📊 NEEDED - Team member data
 
 ---
 

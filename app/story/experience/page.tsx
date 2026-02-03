@@ -59,10 +59,10 @@ const SEGMENTS = [
   },
   {
     number: 2,
-    name: 'Plant Medicine \u2014 Iboga & Ibogaine',
+    name: 'Plant Medicine - Iboga & Ibogaine',
     icon: '/icons/model-leaf.png',
     description:
-      'Trauma-informed, ethically held plant medicine experiences with strong medical oversight. We work primarily with Iboga and Ibogaine\u2014medicines with profound capacity for nervous system reset and trauma resolution.',
+      'Trauma-informed, ethically held plant medicine experiences with strong medical oversight. We work primarily with Iboga and Ibogaine, medicines with profound capacity for nervous system reset and trauma resolution.',
     features: [
       'Full cardiac screening and monitoring (critical for safety)',
       'Physicians present during experiences',
@@ -70,7 +70,7 @@ const SEGMENTS = [
       'Sacred context with ethical framework',
     ],
     detail:
-      'Sustainable cultivation with no wild-harvesting and support for indigenous communities. The ceremony is 10% of the transformation\u2014the other 90% happens in the days, weeks, and months after.',
+      'Sustainable cultivation with no wild-harvesting and support for indigenous communities. The ceremony is 10% of the transformation, the other 90% happens in the days, weeks, and months after.',
   },
   {
     number: 3,
@@ -100,7 +100,7 @@ const SEGMENTS = [
       'Daily integration structure and group circles',
     ],
     detail:
-      'Dedicated 1:1 facilitator presence throughout your journey, trained in trauma-informed and somatic approaches. Body-based modalities that process what the mind cannot articulate\u2014movement, touch, breath.',
+      'Dedicated 1:1 facilitator presence throughout your journey, trained in trauma-informed and somatic approaches. Body-based modalities that process what the mind cannot articulate: movement, touch, breath.',
   },
   {
     number: 5,
@@ -122,7 +122,7 @@ const SEGMENTS = [
     name: 'Digital Ecosystem & Community Support',
     icon: '/icons/story-digital.png',
     description:
-      'Technology that extends care beyond walls. Medical onboarding, preparation content, daily schedules, integration practices, and community connection\u2014all in one cohesive platform powered by the AI Superintelligent System.',
+      'Technology that extends care beyond walls. Medical onboarding, preparation content, daily schedules, integration practices, and community connection, all in one cohesive platform powered by the AI Superintelligent System.',
     features: [
       'Secure HIPAA-compliant medical onboarding',
       'Stage-appropriate preparation content',
@@ -134,10 +134,10 @@ const SEGMENTS = [
   },
   {
     number: 7,
-    name: 'Pre-Care \u2014 Preparation',
+    name: 'Pre-Care - Preparation',
     icon: '/icons/model-clock.png',
     description:
-      'The foundation of transformation. 4\u20138 weeks of medical preparation, psychological readiness, nervous system priming, intention setting, and practical logistics. Preparation is not overhead\u2014it determines the depth of what\u2019s possible.',
+      'The foundation of transformation. 4\u20138 weeks of medical preparation, psychological readiness, nervous system priming, intention setting, and practical logistics. Preparation is not overhead, it determines the depth of what\u2019s possible.',
     features: [
       'Medical clearance and safety screening',
       'Intention setting and psychological preparation',
@@ -149,7 +149,7 @@ const SEGMENTS = [
   },
   {
     number: 8,
-    name: 'Post-Care \u2014 Integration',
+    name: 'Post-Care - Integration',
     icon: '/icons/model-shield.png',
     description:
       'Where transformation becomes embodiment. 3\u201312+ months of processing, understanding, anchoring, and living the changes. Coaching, community, practices, and support to ensure insights become lasting change.',
@@ -173,7 +173,7 @@ const DAILY_RHYTHM = [
     textColor: 'text-amber-700',
     accentColor: 'text-amber-500',
     items: [
-      { time: '6:30 AM', activity: 'Optional morning practice \u2014 yoga, breathwork, or meditation' },
+      { time: '6:30 AM', activity: 'Optional morning practice: yoga, breathwork, or meditation' },
       { time: '7:30 AM', activity: 'Nourishing breakfast in community' },
       { time: '9:00 AM', activity: 'Integration session, bio-optimization, or workshop' },
       { time: '11:00 AM', activity: 'Free time for nature walks, journaling, or rest' },
@@ -211,7 +211,7 @@ export default function ExperiencePage() {
   return (
     <div className="min-h-screen bg-canvas">
       {/* ═══════════════════════════════════════════
-          HERO — "Eight Segments of Transformation"
+          HERO - "Eight Segments of Transformation"
           ═══════════════════════════════════════════ */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-primary-900">
         {/* Atmospheric layers */}
@@ -302,7 +302,7 @@ export default function ExperiencePage() {
       </section>
 
       {/* ═══════════════════════════════════════════
-          EIGHT SEGMENTS — Alternating Layout
+          EIGHT SEGMENTS - Alternating Layout
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
         <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">

@@ -5,7 +5,7 @@
  */
 
 /* ═══════════════════════════════════════════════════════════════════════════════
-   FONTS — Distinctive typography stack
+   FONTS - Distinctive typography stack
    ═══════════════════════════════════════════════════════════════════════════════ */
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
@@ -14,7 +14,7 @@
 @tailwind utilities;
 
 /* ═══════════════════════════════════════════════════════════════════════════════
-   CSS CUSTOM PROPERTIES — Design tokens
+   CSS CUSTOM PROPERTIES - Design tokens
    ═══════════════════════════════════════════════════════════════════════════════ */
 :root {
   /* Gradient definitions */
@@ -118,7 +118,7 @@
   }
 
   /* ═══════════════════════════════════════════════════════════════════════════
-     UNIVERSAL CONTAINER PADDING — Mobile breathing room
+     UNIVERSAL CONTAINER PADDING - Mobile breathing room
      Any element using sm:w-[70vw] gets horizontal padding on mobile.
      Tailwind utilities (px-*) on individual elements override this
      because @layer base has lower priority than @layer utilities.
@@ -503,7 +503,7 @@ section {
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════════
-   CUSTOM SCROLLBAR — Refined, minimal
+   CUSTOM SCROLLBAR - Refined, minimal
    ═══════════════════════════════════════════════════════════════════════════════ */
 ::-webkit-scrollbar {
   width: 10px;
@@ -530,7 +530,7 @@ section {
 .scrollbar-none::-webkit-scrollbar { display: none; }
 
 /* ═══════════════════════════════════════════════════════════════════════════════
-   PRINT STYLES — Clean document output
+   PRINT STYLES - Clean document output
    ═══════════════════════════════════════════════════════════════════════════════ */
 @media print {
   body {

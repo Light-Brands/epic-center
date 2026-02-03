@@ -14,7 +14,7 @@
 
 ## Executive Summary
 
-**One Sentence**: Transformational Epicenter is building the world's first luxury medical wellness destination that combines hospital-grade care, five-star hospitality, cutting-edge health technology, and transformational medicine—a combination no competitor offers today.
+**One Sentence**: Transformational Epicenter is building the world's first luxury medical wellness destination that combines hospital-grade care, five-star hospitality, cutting-edge health technology, and transformational medicine, a combination no competitor offers today.
 
 **Raising**: $5,000,000
 **Vehicle**: Seed/Series A (or SAFE Notes)
@@ -78,13 +78,13 @@ This document outlines our strategy for creating a **100% digital pitch ecosyste
 THE CRISIS OF DISCONNECTION
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Modern humans are suffering from a crisis of disconnection—from
+Modern humans are suffering from a crisis of disconnection: from
 their bodies, their nervous systems, their emotions, their purpose,
 and their essential nature.
 
 THE GAP (animated reveal):
-• Traditional healthcare treats symptoms—not root causes
-• Luxury wellness offers temporary escape—not transformation
+• Traditional healthcare treats symptoms, not root causes
+• Luxury wellness offers temporary escape, not transformation
 • Spiritual retreats can bypass the body
 • Plant medicine ceremonies without integration leave experiences unanchored
 
@@ -112,7 +112,7 @@ retreat experience, designed to address healing at the root level:
 physical, neurological, emotional, and spiritual.
 
 THE CORE INTENTION: Not detox or short-term relief, but true
-transformation—nervous system repair, trauma resolution, and
+transformation: nervous system repair, trauma resolution, and
 human remembrance.
 
 [Interactive diagram showing the 8 segments connecting]
@@ -174,7 +174,7 @@ WHY NO ONE ELSE HAS BUILT THIS:
 └────────────────────────────────────────────────────────────────┘
 
 No single player has unified all four market segments into a
-coherent, continuous healing journey. This is not an oversight—
+coherent, continuous healing journey. This is not an oversight,
 it is a structural limitation we are purpose-built to bridge.
 
 The Window: First-mover advantage in building infrastructure
@@ -331,7 +331,7 @@ WHY COMPETITORS CAN'T COPY THIS:
 ┌──────────────────────┬─────────────────────────────────────────┐
 │ Competitor Type      │ Why They Won't Integrate All 4 Pillars │
 ├──────────────────────┼─────────────────────────────────────────┤
-│ Medical Clinics      │ Won't touch plant medicine—too much    │
+│ Medical Clinics      │ Won't touch plant medicine: too much    │
 │ (Clinique La Prairie,│ brand and regulatory risk              │
 │  SHA Wellness)       │                                         │
 ├──────────────────────┼─────────────────────────────────────────┤
@@ -342,7 +342,7 @@ WHY COMPETITORS CAN'T COPY THIS:
 │ Centers (Beond,      │ medical infrastructure                  │
 │ Rythmia)             │                                         │
 ├──────────────────────┼─────────────────────────────────────────┤
-│ Biohacking Centers   │ Wrong business model—transactional,    │
+│ Biohacking Centers   │ Wrong business model: transactional,    │
 │ (Upgrade Labs,       │ not transformational                    │
 │ Restore)             │                                         │
 └──────────────────────┴─────────────────────────────────────────┘
@@ -984,7 +984,7 @@ We're offering:
 
 ## Conclusion
 
-This digital pitch packet strategy represents a fundamentally different approach to fundraising—one that demonstrates our capabilities through the pitch itself. By building an immersive, interactive, data-driven investor experience, we:
+This digital pitch packet strategy represents a fundamentally different approach to fundraising, one that demonstrates our capabilities through the pitch itself. By building an immersive, interactive, data-driven investor experience, we:
 
 1. **Stand out** from the sea of PDF decks
 2. **Demonstrate** our technical capabilities

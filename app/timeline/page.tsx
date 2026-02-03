@@ -76,7 +76,7 @@ const MILESTONES: Milestone[] = [
     id: 'year1-capacity',
     date: 'Q4 2026',
     title: '30-Casita Capacity',
-    description: 'Year 1 target reached — 30 casitas operational',
+    description: 'Year 1 target reached - 30 casitas operational',
     status: 'upcoming',
     category: 'launch',
   },

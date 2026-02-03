@@ -42,7 +42,7 @@ const DESIGN_PRINCIPLES = [
   {
     icon: '/icons/story-biophilic.png',
     name: 'Biophilic Design',
-    description: 'Nature integration throughout\u2014natural light, living plants, water features, and direct connection to the outdoors.',
+    description: 'Nature integration throughout: natural light, living plants, water features, and direct connection to the outdoors.',
   },
   {
     icon: '/icons/story-acoustic.png',
@@ -57,7 +57,7 @@ const DESIGN_PRINCIPLES = [
   {
     icon: '/icons/story-materials.png',
     name: 'Conscious Materials',
-    description: 'Non-toxic, sustainable, beautiful materials\u2014natural wood, stone, organic textiles, and artisan craftsmanship.',
+    description: 'Non-toxic, sustainable, beautiful materials: natural wood, stone, organic textiles, and artisan craftsmanship.',
   },
 ]
 
@@ -72,7 +72,7 @@ const ROOM_AMENITIES = [
 
 const HEALING_SPACES = [
   { icon: '/icons/diff-medical.png', name: 'Medical Center', description: 'Fully equipped medical facility with monitoring stations, emergency equipment, and private consultation rooms.' },
-  { icon: '/icons/story-ceremony.png', name: 'Ceremony Space', description: 'Sacred container designed for deep work\u2014private rooms with 24/7 support access and peaceful ambiance.' },
+  { icon: '/icons/story-ceremony.png', name: 'Ceremony Space', description: 'Sacred container designed for deep work, private rooms with 24/7 support access and peaceful ambiance.' },
   { icon: '/icons/program-bio.png', name: 'Bio-Optimization Center', description: 'State-of-the-art facility with sauna, cold plunge, red light therapy, hyperbaric chamber, and IV therapy.' },
   { icon: '/icons/story-dining.png', name: 'Dining Pavilion', description: 'Open-air dining space with views of nature, designed for nourishing meals and community connection.' },
   { icon: '/icons/story-movement.png', name: 'Movement Studio', description: 'Dedicated space for yoga, breathwork, somatic practices, and gentle movement throughout your stay.' },
@@ -121,7 +121,7 @@ export default function SanctuaryPage() {
   return (
     <div className="min-h-screen bg-canvas">
       {/* ═══════════════════════════════════════════
-          HERO — "Where Healing Takes Root"
+          HERO - "Where Healing Takes Root"
           ═══════════════════════════════════════════ */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-primary-900">
         {/* Atmospheric layers */}
@@ -185,7 +185,7 @@ export default function SanctuaryPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
           >
-            The Transformational Epicenter is not merely a building&mdash;it is a therapeutic
+            The Transformational Epicenter is not merely a building, it is a therapeutic
             environment. Every design choice serves the nervous system&apos;s need for safety,
             beauty, and coherence.
           </motion.p>

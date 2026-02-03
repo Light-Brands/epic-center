@@ -75,7 +75,7 @@ flowchart TB
 
 ### Company Profile
 
-**Transformational Epicenter** is building the world's first luxury medical wellness destination that combines hospital-grade care, five-star hospitality, cutting-edge bio-optimization technology, and transformational medicine (including ibogaine protocols)—a combination no competitor currently offers.
+**Transformational Epicenter** is building the world's first luxury medical wellness destination that combines hospital-grade care, five-star hospitality, cutting-edge bio-optimization technology, and transformational medicine (including ibogaine protocols), a combination no competitor currently offers.
 
 ### Investment Thesis
 
@@ -1120,7 +1120,7 @@ flowchart TB
 
 **Cost Approach Valuation:** **$32,950,750**
 
-**Note:** This represents the floor valuation—the minimum asset value if operations do not proceed as planned. The properties alone have significant residual value in the Tulum luxury real estate market.
+**Note:** This represents the floor valuation, the minimum asset value if operations do not proceed as planned. The properties alone have significant residual value in the Tulum luxury real estate market.
 
 ---
 

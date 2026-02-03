@@ -103,7 +103,7 @@ const COMPETITORS = [
   {
     type: 'Medical Clinics',
     examples: 'Clinique La Prairie, SHA Wellness',
-    reason: "Won\u2019t touch plant medicine\u2014too much brand and regulatory risk",
+    reason: "Won\u2019t touch plant medicine, too much brand and regulatory risk",
   },
   {
     type: 'Luxury Resorts',
@@ -118,7 +118,7 @@ const COMPETITORS = [
   {
     type: 'Biohacking Centers',
     examples: 'Upgrade Labs, Restore',
-    reason: 'Wrong business model\u2014transactional, not transformational',
+    reason: 'Wrong business model: transactional, not transformational',
   },
 ]
 
@@ -217,7 +217,7 @@ export default function SolutionPage() {
   return (
     <div className="min-h-screen bg-canvas">
       {/* ═══════════════════════════════════════════
-          HERO — "The Bridge"
+          HERO - "The Bridge"
           ═══════════════════════════════════════════ */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-primary-900">
         {/* Atmospheric layers */}
@@ -462,7 +462,7 @@ export default function SolutionPage() {
             <Card padding="lg" className="bg-gradient-to-r from-primary-800 to-primary-900 text-white inline-block">
               <p className="text-lg leading-relaxed max-w-2xl">
                 <strong className="text-secondary-400">Our advantage:</strong> We&apos;re building this from scratch
-                with all four pillars integrated from day one&mdash;operationalized through eight segments.
+                with all four pillars integrated from day one, operationalized through eight segments.
                 You can&apos;t bolt this together after the fact.
               </p>
             </Card>
@@ -494,7 +494,7 @@ export default function SolutionPage() {
               </h2>
               <p className="text-lg text-neutral-600 mb-6 leading-relaxed">
                 Our ideal guest is a <strong>successful person who senses something is missing</strong>.
-                They&apos;ve achieved wealth and status, but they&apos;re ready for real change&mdash;not
+                They&apos;ve achieved wealth and status, but they&apos;re ready for real change, not
                 another temporary fix.
               </p>
               <p className="text-neutral-600 leading-relaxed">
@@ -639,7 +639,7 @@ export default function SolutionPage() {
               <div className="space-y-6">
                 {[
                   { title: 'Data Ingestion', desc: 'Epigenetic testing, DNA data, blood biomarkers, brain mapping, medical intake, behavioral data' },
-                  { title: 'Personalized Protocol Engine', desc: 'Pre-care, on-site treatment, bio-optimization, and integration\u2014all tailored to individual biology' },
+                  { title: 'Personalized Protocol Engine', desc: 'Pre-care, on-site treatment, bio-optimization, and integration, all tailored to individual biology' },
                   { title: 'Adaptive Intelligence', desc: 'Continuously refines recommendations based on new results, engagement patterns, and outcomes' },
                   { title: 'Digital Ecosystem', desc: 'Smart status routing, content personalization, community moderation, outcome tracking' },
                 ].map((item) => (
