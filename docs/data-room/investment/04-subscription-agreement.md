@@ -78,7 +78,7 @@ The following terms shall have the meanings set forth below when used in this Ag
 
 **"Subscription Amount"** means the total dollar amount being subscribed by the Subscriber, as specified in the signature page of this Agreement.
 
-**"Total Raise"** means $13,773,500, representing the total capital sought by the Company in this offering.
+**"Total Raise"** means $14,953,500, representing the total capital sought by the Company in this offering.
 
 *[Note: Additional defined terms will be added by securities counsel as required.]*
 

@@ -42,7 +42,7 @@ Transformational Epicenter is positioned at the **premium tier** of the global w
 | **7-Day Program** | $14,000 | $2,100-$48,000 | Mid-premium |
 | **14-Day Program** | $28,000 | $5,000-$95,000 | Mid-premium |
 | **Revenue Per Guest** | $26,600 | $2,100-$134,000 | Premium |
-| **Year 1 Target Revenue** | $13,140,400 | N/A | Top-tier facility scale |
+| **Year 1 Target Revenue** | $10,300,000 | N/A | Top-tier facility scale |
 
 ### Key Finding
 
@@ -80,7 +80,7 @@ The critical differentiator is **scope of integration**: TE's daily rate include
 | **Mid-Market** | $200-$500/night | Chiva-Som, Kamalaya, Soltara | Affluent professionals |
 | **Budget** | $100-$200/night | Basic retreat centers, hostels | General market |
 
-TE's $2,000/night rate targets the **premium tier**, which represents the largest volume of HNW individuals seeking transformational wellness. This tier is large enough to support the 494 guests/year needed for Year 1 targets, while the pricing commands respect and signals quality.
+TE's $2,000/night rate targets the **premium tier**, which represents the largest volume of HNW individuals seeking transformational wellness. This tier is large enough to support the 387 guests/year needed for Year 1 targets, while the pricing commands respect and signals quality.
 
 ---
 
@@ -265,12 +265,12 @@ TE occupies the **upper-right quadrant** -- premium pricing with the deepest int
 
 | Market Tier | Estimated Global Market Size | TE Capture Target | Guests Needed |
 |-------------|------------------------------|-------------------|---------------|
-| UHNW ($30M+ net worth) | ~265,000 individuals | 0.02% | 53 |
-| HNW ($5-30M net worth) | ~2,700,000 individuals | 0.015% | 405 |
-| Affluent ($1-5M net worth) | ~25,000,000 individuals | 0.0014% | 36 |
-| **Total Year 1 Target** | | | **494** |
+| UHNW ($30M+ net worth) | ~265,000 individuals | 0.016% | 42 |
+| HNW ($5-30M net worth) | ~2,700,000 individuals | 0.012% | 316 |
+| Affluent ($1-5M net worth) | ~25,000,000 individuals | 0.0012% | 29 |
+| **Total Year 1 Target** | | | **387** |
 
-TE needs only 494 guests in Year 1 from a global pool of millions of HNW individuals -- a penetration rate of 0.015%. This is achievable through targeted referral networks, strategic partnerships, and digital marketing to wellness-seeking HNW demographics.
+TE needs only 387 guests in Year 1 from a global pool of millions of HNW individuals -- a penetration rate of 0.012%. This is achievable through targeted referral networks, strategic partnerships, and digital marketing to wellness-seeking HNW demographics.
 
 ---
 
@@ -287,11 +287,11 @@ TE needs only 494 guests in Year 1 from a global pool of millions of HNW individ
 | Canyon Ranch (Tucson) | $40-60M (est.) | 220 rooms | $182-273K | Volume model, lower ADR |
 | Chiva-Som | $20-30M (est.) | 58 rooms | $345-517K | Thailand pricing, strong occupancy |
 | Paracelsus Recovery | $15-25M (est.) | 1 client | $15-25M | Ultra-premium, single client model |
-| **Transformational Epicenter (Year 1)** | **$13,140,400** | **30 rooms** | **$438,013** | **60% occupancy, first year** |
+| **Transformational Epicenter (Year 1)** | **$10,300,000** | **23 effective rooms (15→30 casitas)** | **$447,826** | **60% occupancy, first year** |
 
 ### 7.2 Revenue Per Room Comparison
 
-TE's projected Year 1 revenue of **$438,013 per room** at 60% occupancy positions it competitively against established facilities:
+TE's projected Year 1 revenue of **$447,826 per effective room** at 60% occupancy positions it competitively against established facilities:
 
 | Benchmark | Revenue/Room | TE vs. Benchmark |
 |-----------|-------------|------------------|
@@ -303,15 +303,15 @@ TE's projected Year 1 revenue of **$438,013 per room** at 60% occupancy position
 
 ### 7.3 Revenue Growth Trajectory
 
-| Year | Occupancy | Revenue | Revenue/Room | Cumulative |
-|------|-----------|---------|-------------|------------|
-| Year 1 | 60% | $13,140,400 | $438,013 | $13,140,400 |
-| Year 2 | 70% | $15,321,600 | $510,720 | $28,462,000 |
-| Year 3 | 80% | $17,529,400 | $584,313 | $45,991,400 |
-| Year 4 | 85% | $18,620,000 | $620,667 | $64,611,400 |
-| Year 5 | 90% | $19,710,600 | $657,020 | **$82,140,800** |
+| Year | Casitas (Eff. Rooms) | Revenue | Revenue/Eff. Room | Cumulative |
+|------|---------------------|---------|-------------------|------------|
+| Year 1 | 15→30 (23) | $10,300,000 | $447,826 | $10,300,000 |
+| Year 2 | 30→40 (35) | $19,400,000 | $554,286 | $29,700,000 |
+| Year 3 | 40→48 (44) | $25,900,000 | $588,636 | $55,600,000 |
+| Year 4 | 48→54 (51) | $31,100,000 | $609,804 | $86,700,000 |
+| Year 5 | 54→60 (57) | $34,000,000 | $596,491 | **$120,700,000** |
 
-By Year 5, TE's revenue per room of **$657,020** would place it among the highest-performing wellness facilities globally on a per-room basis, reflecting the premium pricing power of the integrated medical + plant medicine model.
+By Year 5, TE's revenue per effective room of **$596,491** would place it among the highest-performing wellness facilities globally on a per-room basis, reflecting the premium pricing power of the integrated medical + plant medicine model.
 
 ### 7.4 Key Revenue Assumptions
 

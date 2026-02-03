@@ -53,9 +53,9 @@
 │                                                                             │
 │   PROJECTED RETURNS (Base Case)                                            │
 │   ──────────────────────────────                                           │
-│   Total Raise: $13,773,500                                                 │
-│   5-Year IRR: 73.50%                                                       │
-│   MOIC: 6.69x                                                              │
+│   Total Raise: $14,953,500                                                 │
+│   5-Year IRR: 78%                                                       │
+│   MOIC: 7.8x                                                              │
 │   Y5 Enterprise Value: $87,924,380 (5.5x EBITDA, single location)          │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
@@ -187,15 +187,15 @@
 │   Blended Exit Value:           $69.2M                                     │
 │                                                                             │
 │   Y5 Enterprise Value (Base):   $87,924,380                                │
-│   5-Year Revenue:               $82,140,800                                │
+│   5-Year Revenue:               $81,200,000                                │
 │   5-Year Net Income:            $33,472,811                                │
 │   ──────────────────────────────────────                                   │
 │                                                                             │
 │   Investor Returns (Seed Round):                                           │
-│   Total Raise: $13,773,500                                                 │
+│   Total Raise: $14,953,500                                                 │
 │   ──────────────────────────────────────                                   │
-│   MOIC: 6.69x (base case)                                                  │
-│   IRR: 73.50% (5-year hold, base case)                                     │
+│   MOIC: 7.8x (base case)                                                  │
+│   IRR: 78% (5-year hold, base case)                                     │
 │   Conservative: 66.54% IRR / 4.65x MOIC                                   │
 │   Aggressive: 80.09% IRR / 8.94x MOIC                                     │
 │                                                                             │

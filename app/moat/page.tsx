@@ -110,7 +110,7 @@ const BARRIERS_TO_ENTRY = [
   },
   {
     barrier: 'Capital Requirements',
-    description: '$13.77M to acquire, renovate, and operate a medical-grade facility.',
+    description: '$14.95M to acquire, renovate, and operate a medical-grade facility.',
     strength: 'High',
     icon: Zap,
   },

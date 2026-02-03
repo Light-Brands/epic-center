@@ -50,18 +50,18 @@ Transformational Epicenter targets the intersection of four high-growth market s
 
 **The core thesis:** Wealthy individuals are increasingly willing to pay premium prices for outcomes-based health interventions delivered in luxury settings. The supply side -- facilities that combine clinical-grade medicine with five-star hospitality -- remains dramatically under-built relative to demand. TE enters this gap as a first mover in full-stack health transformation.
 
-**TE Financial Summary (Riviera Maya Jungle Estate -- 30 Rooms):**
+**TE Financial Summary (Riviera Maya Jungle Estate -- 60 Casitas, Phased 15→60):**
 
 | Metric | Value |
 |--------|-------|
-| **Total Project Cost** | $13,773,500 |
+| **Total Project Cost** | $14,953,500 |
 | **Acquisition** | $6,150,000 |
 | **Renovation** | $4,050,000 |
-| **Year 1 Revenue (Base)** | $13,140,400 |
-| **5-Year Total Revenue** | $82,140,800 |
-| **Project IRR (Base / Conservative)** | 73.50% / 66.54% |
-| **Year 5 Enterprise Value (Base)** | $87,924,380 |
-| **5-Year MOIC (Base / Conservative)** | 6.69x / 4.65x |
+| **Year 1 Revenue (Base)** | $10,300,000 |
+| **5-Year Total Revenue** | $120,700,000 |
+| **Project IRR (Base / Conservative)** | 78% / 66% |
+| **Year 5 Enterprise Value (Base)** | $81,200,000 |
+| **5-Year MOIC (Base / Conservative)** | 7.8x / 5.5x |
 
 ---
 
@@ -290,22 +290,22 @@ The SAM narrows to the segments TE can realistically serve given its positioning
 | Willingness to travel | Open to international medical/wellness travel |
 | **Estimated SAM** | **~$50B** (HNW medical wellness tourism) |
 
-### 6.3 Serviceable Obtainable Market (SOM): ~$17.5M
+### 6.3 Serviceable Obtainable Market (SOM): ~$34M
 
 The SOM represents TE's realistic revenue capture at the single-property level:
 
 | SOM Parameter | Value |
 |---------------|-------|
 | **Property** | Riviera Maya Jungle Estate, Tulum |
-| **Room count** | 30 rooms |
+| **Casita count** | 60 casitas (phased 15→60) |
 | **Average program price** | $14,000-$56,000 |
-| **Year 1 Revenue (Base)** | $13,140,400 |
-| **Year 5 Revenue Target (Base)** | ~$17,500,000 |
-| **5-Year Cumulative Revenue** | $82,140,800 |
-| **SOM as % of SAM** | ~0.035% |
+| **Year 1 Revenue (Base)** | $10,300,000 |
+| **Year 5 Revenue Target (Base)** | $34,000,000 |
+| **5-Year Cumulative Revenue** | $120,700,000 |
+| **SOM as % of SAM** | ~0.068% |
 
-> **Key insight:** TE's Year 5 revenue target of approximately $17.5M represents just
-> 0.035% of the $50B SAM. Even modest market share capture in a trillion-dollar
+> **Key insight:** TE's Year 5 revenue target of approximately $34M represents just
+> 0.068% of the $50B SAM. Even modest market share capture in a trillion-dollar
 > ecosystem generates exceptional returns at the single-property level. This
 > conservatism in market penetration assumptions strengthens the financial model's
 > credibility.
@@ -317,9 +317,9 @@ TAM: $1T+ (Global wellness + medical tourism + longevity + psychedelic therapy)
  |
  +-- SAM: ~$50B (HNW individuals seeking transformational medical wellness travel)
       |
-      +-- SOM: ~$17.5M (Year 5 single-property revenue at 30 rooms)
+      +-- SOM: ~$34M (Year 5 single-property revenue at 60 casitas)
            |
-           +-- Year 1 Entry: $13,140,400
+           +-- Year 1 Entry: $10,300,000
 ```
 
 ---

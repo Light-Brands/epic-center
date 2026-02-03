@@ -121,7 +121,7 @@ export function formatCurrencyFull(value: number): string {
 
 export function formatPercent(value: number): string {
   const pct = value * 100
-  // Show decimals for values like 73.50%, round for clean values
+  // Show decimals for values like 78%, round for clean values
   return pct % 1 === 0 ? `${pct.toFixed(0)}%` : `${pct.toFixed(1)}%`
 }
 

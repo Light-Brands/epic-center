@@ -49,18 +49,18 @@ The clinical evidence supporting psychedelic-assisted and integrative medicine h
 
 These are not marginal improvements. They represent a paradigm shift in the treatment of conditions that have historically resisted conventional intervention. Transformational Epicenter's protocol design integrates the most effective elements from these studies within a medically rigorous, luxury-appointed environment.
 
-**TE Financial Context (Riviera Maya Jungle Estate -- 30 Rooms):**
+**TE Financial Context (Riviera Maya Jungle Estate -- 60 Casitas, Phased 15→60):**
 
 | Metric | Value |
 |--------|-------|
-| **Total Project Cost** | $13,773,500 |
+| **Total Project Cost** | $14,953,500 |
 | **Acquisition** | $6,150,000 |
 | **Renovation** | $4,050,000 |
 | **Year 1 Revenue (Base)** | $13,140,400 |
-| **5-Year Total Revenue** | $82,140,800 |
-| **Project IRR (Base / Conservative)** | 73.50% / 66.54% |
+| **5-Year Total Revenue** | $81,200,000 |
+| **Project IRR (Base / Conservative)** | 78% / 66.54% |
 | **Year 5 Enterprise Value (Base)** | $87,924,380 |
-| **5-Year MOIC (Base / Conservative)** | 6.69x / 4.65x |
+| **5-Year MOIC (Base / Conservative)** | 7.8x / 4.65x |
 
 > **Investment thesis connection:** Clinical outcomes are not merely therapeutic -- they
 > are the economic engine of TE's business model. Superior outcomes drive referrals,

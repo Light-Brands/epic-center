@@ -32,7 +32,7 @@
 
 ## 1. EXECUTIVE SUMMARY
 
-The Riviera Maya Jungle Estate requires a **$4,050,000 renovation** to convert the undeveloped jungle compound into a fully operational medical wellness facility capable of serving 30 guests simultaneously across 7-to-28-day treatment programs. The renovation scope encompasses medical infrastructure, treatment spaces, guest amenities, staff facilities, and critical life-safety systems.
+The Riviera Maya Jungle Estate requires a **$4,050,000 renovation** to convert the undeveloped jungle compound into a fully operational medical wellness facility capable of serving up to 60 guests at full build-out across 7-to-28-day treatment programs, with casitas phased from 15 to 60 over 5 years. The renovation scope encompasses medical infrastructure, treatment spaces, guest amenities, staff facilities, and critical life-safety systems.
 
 ### Budget at a Glance
 
@@ -42,9 +42,9 @@ The Riviera Maya Jungle Estate requires a **$4,050,000 renovation** to convert t
 | **Contingency (15%)** | $847,500 |
 | **Total with Contingency** | $4,897,500 |
 | **Number of Line Items** | 10 categories |
-| **Phase 1 Duration** | Months 1-6 (16 rooms operational) |
-| **Phase 2 Duration** | Months 7-12 (expand to 30 rooms) |
-| **Total Construction Timeline** | 12 months |
+| **Year 1 Casitas** | 15→30 (23 effective rooms) |
+| **Full Build Casitas** | 60 (phased 15→30→40→48→54→60 over 5 years) |
+| **Phase 1 Construction** | Core medical + first 15 casitas |
 
 ### Design Philosophy
 
@@ -123,54 +123,54 @@ A comprehensive diagnostic and treatment facility offering modalities that compl
 
 ### 3.1 Phase 1: Core Operations (Months 1-6)
 
-**Objective:** Open with 16 operational guest rooms and core medical/treatment capability.
+**Objective:** Open with 15 operational casitas and core medical/treatment capability.
 
 | Component | Status at Phase 1 End | Investment |
 |-----------|----------------------|------------|
 | Medical Suite | Fully operational | $750,000 |
 | Treatment/Ceremony Rooms | 3 rooms operational | $500,000 |
 | Commercial Kitchen | Fully operational | $500,000 |
-| Guest Bathrooms | 16 of 21 upgraded | $457,000 |
+| Guest Bathrooms | 15 casita bathrooms upgraded | $457,000 |
 | Staff Quarters | Operational for Phase 1 staff | $200,000 |
 | Generator/Backup Power | Fully operational | $200,000 |
 | Helipad | Operational | $0 |
-| **Phase 1 Total** | **16 rooms open** | **$2,607,000** |
+| **Phase 1 Total** | **15 casitas open** | **$2,607,000** |
 
 **Phase 1 Milestones:**
 - Month 1-2: Site preparation, utility connections, generator installation
 - Month 2-4: Medical suite construction, kitchen renovation, staff quarters
 - Month 3-5: Treatment room build-out, first bathroom upgrades
 - Month 5-6: Equipment installation, systems testing, staff training
-- Month 6: Soft opening with 16 rooms
+- Month 6: Soft opening with 15 casitas
 
-### 3.2 Phase 2: Full Capacity (Months 7-12)
+### 3.2 Phase 2: Expansion to 30 Casitas (Months 7-12)
 
-**Objective:** Expand to 30 rooms with complete bio-optimization center and remaining amenities.
+**Objective:** Expand to 30 casitas with complete bio-optimization center and remaining amenities.
 
 | Component | Status at Phase 2 End | Investment |
 |-----------|----------------------|------------|
 | Bio-optimization Center | Fully operational | $750,000 |
-| Remaining Bathrooms | All 21 upgraded | $143,000 |
+| Additional Casita Bathrooms | 30 casitas total upgraded | $143,000 |
 | Group/Integration Spaces | Fully operational | $250,000 |
 | Outdoor Treatment Areas | Fully operational | $250,000 |
 | Staff Quarters | Expanded for full team | $50,000 |
-| **Phase 2 Total** | **30 rooms open** | **$1,443,000** |
+| **Phase 2 Total** | **30 casitas open** | **$1,443,000** |
 
 **Phase 2 Milestones:**
 - Month 7-9: Bio-optimization center construction begins (longest lead time)
-- Month 7-8: Remaining bathroom upgrades
+- Month 7-8: Additional casita bathroom upgrades
 - Month 8-10: Group spaces and outdoor treatment areas
 - Month 10-12: Bio-optimization equipment installation and calibration
-- Month 12: Full 30-room capacity operational
+- Month 12: 30-casita capacity operational (further expansion to 60 casitas phased over Years 2-5)
 
 ### 3.3 Phasing Rationale
 
 | Benefit | Description |
 |---------|-------------|
-| **Revenue from Month 7** | Phase 1 opens with 16 rooms generating revenue while Phase 2 completes |
+| **Revenue from Month 7** | Phase 1 opens with 15 casitas generating revenue while Phase 2 completes |
 | **Reduced capital risk** | 64% of renovation ($2.6M) deployed before any revenue; remaining 36% funded partially by operations |
-| **Market validation** | 6 months of operations inform Phase 2 design decisions |
-| **Staff ramp** | Allows team to build competency at 16-room scale before expanding to 30 |
+| **Market validation** | 6 months of operations inform Phase 2 and subsequent expansion decisions |
+| **Staff ramp** | Allows team to build competency at 15-casita scale before expanding to 30 and beyond |
 | **Construction isolation** | Phase 2 work occurs in separate zones from operating guest areas |
 
 ---
@@ -196,7 +196,7 @@ Equipment Install                   [=========]
 Staff Training                           [====]
                                               ^
                                          SOFT OPEN
-                                         16 ROOMS
+                                         15 CASITAS
 PHASE 2 - FULL CAPACITY
 Bio-opt Center                                 [======================]
 Bathrooms (5)                                  [=========]
@@ -207,7 +207,7 @@ Equipment Install                                             [=========]
 Final Commissioning                                                [====]
                                                                        ^
                                                                   FULL OPEN
-                                                                  30 ROOMS
+                                                                  30 CASITAS
 ```
 
 ### 4.2 Critical Path Items
@@ -241,11 +241,11 @@ These costs are separate from the $4,050,000 renovation budget and cover movable
 | Category | Amount | Key Items |
 |----------|--------|-----------|
 | **Medical Equipment** | $750,000 | Cardiac monitors (x8), defibrillators (x3), hyperbaric chambers (x2), cryotherapy unit, IV pumps, EEG/neurofeedback, point-of-care lab, crash carts (x2), ventilator, patient transport stretchers |
-| **FF&E (Furniture, Fixtures & Equipment)** | $600,000 | Guest room furnishings (30 rooms), treatment room beds and equipment, common area furniture, dining area, reception, outdoor furniture, linens, kitchenware |
-| **Technology Infrastructure** | $50,000 | Wi-Fi network, security cameras, access control, patient monitoring integration, booking/PMS system, satellite internet backup |
+| **FF&E (Furniture, Fixtures & Equipment)** | $600,000 | Guest room furnishings (60 casitas at full build), treatment room beds and equipment, common area furniture, dining area, reception, outdoor furniture, linens, kitchenware |
+| **Technology Infrastructure** | $1,230,000 | Wi-Fi network, security cameras, access control, patient monitoring integration, booking/PMS system, satellite internet backup, guest experience platform, data analytics |
 | **Pre-Opening Expenses** | $200,000 | Staff recruitment and relocation, training programs (4-6 weeks), licensing and permits, marketing launch, soft opening costs, initial inventory |
 | **Working Capital** | $1,126,000 | 4.5 months of operating expenses at $251,250/month to cover ramp-up period before reaching cash-flow positive operations |
-| **TOTAL EQUIPMENT & CAPITAL** | **$2,726,000** | |
+| **TOTAL EQUIPMENT & CAPITAL** | **$3,906,000** | |
 
 ### 5.2 Medical Equipment Detail
 
@@ -267,7 +267,7 @@ These costs are separate from the $4,050,000 renovation budget and cover movable
 
 | Area | Amount | Per Unit | Notes |
 |------|--------|----------|-------|
-| Guest Rooms (30) | $300,000 | $10,000/room | Bed, storage, seating, lighting, linens, decor |
+| Casitas (60 at full build) | $300,000 | $5,000/casita | Bed, storage, seating, lighting, linens, decor |
 | Treatment Rooms (3) | $90,000 | $30,000/room | Specialized beds, monitoring hookups, ambient systems |
 | Common Areas | $75,000 | -- | Reception, lounge, library, meditation hall |
 | Dining Area | $45,000 | -- | Tables, chairs, serving stations, dishware |
@@ -285,7 +285,7 @@ These costs are separate from the $4,050,000 renovation budget and cover movable
 | Item | Base Amount | Contingency % | Contingency Amount |
 |------|------------|---------------|-------------------|
 | Renovation | $4,050,000 | 15% | $607,500 |
-| Equipment & Capital | $2,726,000 | ~9% | $240,000 |
+| Equipment & Capital | $3,906,000 | ~6% | $240,000 |
 | **Total Contingency** | | | **$847,500** |
 
 The 15% contingency rate reflects the risk profile of jungle development in the Riviera Maya, where projects commonly encounter:

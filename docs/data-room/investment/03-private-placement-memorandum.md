@@ -62,7 +62,7 @@
 | **Issuer** | Transformational Epicenter Holdings, LLC |
 | **Jurisdiction of Formation** | State of Delaware, United States |
 | **Type of Security** | [To be determined -- LLC Membership Interests / Preferred Units / SAFE] |
-| **Total Raise** | $13,773,500 |
+| **Total Raise** | $14,953,500 |
 | **Minimum Investment** | [Pending -- to be set by counsel] |
 | **Investor Qualification** | Accredited Investors only (Rule 501(a), Regulation D) |
 | **Exemption** | Rule 506(b) or 506(c) of Regulation D [Pending counsel determination] |
@@ -115,15 +115,15 @@ The Company intends to use the net proceeds of this offering approximately as fo
 
 | Category | Amount | % of Total | Description |
 |----------|--------|-----------|-------------|
-| **Property Acquisition** | $6,150,000 | 44.7% | Purchase of Riviera Maya Jungle Estate, Tulum, Q.R. |
-| **Renovation & Build-Out** | $4,050,000 | 29.4% | Phased renovation of 30 guest rooms, medical suites, treatment rooms, bio-optimization labs, communal spaces |
-| **Medical Equipment & Technology** | $1,200,000 | 8.7% | Cardiac monitoring systems, hyperbaric chambers, IV therapy infrastructure, neurofeedback equipment, laboratory equipment |
-| **Pre-Opening Operations** | $800,000 | 5.8% | Staff recruitment and training, clinical protocol development, supply chain establishment, operational systems |
-| **Regulatory & Legal** | $500,000 | 3.6% | Entity formation, COFEPRIS licensing, healthcare permits, securities counsel, international tax structuring |
-| **Technology Platform** | $450,000 | 3.3% | Digital ecosystem development, AI personalization engine, electronic health records, guest portal, outcome tracking |
-| **Working Capital Reserve** | $373,500 | 2.7% | Operating cash reserve to fund operations through cash-flow positive status |
-| **Marketing & Brand Launch** | $250,000 | 1.8% | Brand development, website, referral network establishment, launch campaign |
-| **Total** | **$13,773,500** | **100.0%** | |
+| **Property Acquisition** | $6,150,000 | 41.1% | Purchase of Riviera Maya Jungle Estate, Tulum, Q.R. |
+| **Renovation & Build-Out** | $4,050,000 | 27.1% | Phased renovation of 60 casitas (15→60 over 5 years), medical suites, treatment rooms, bio-optimization labs, communal spaces |
+| **Technology Platform** | $1,230,000 | 8.2% | $1M AI personalization engine, digital ecosystem, electronic health records, guest portal, outcome tracking; $230K physical infrastructure |
+| **Working Capital Reserve** | $1,126,000 | 7.5% | Operating cash reserve to fund operations through cash-flow positive status |
+| **Contingency** | $847,500 | 5.7% | Project contingency reserve including regulatory, legal, and unforeseen costs |
+| **Medical Equipment** | $750,000 | 5.0% | Cardiac monitoring systems, hyperbaric chambers, IV therapy infrastructure, neurofeedback equipment, laboratory equipment |
+| **FF&E** | $600,000 | 4.0% | Furniture, fixtures, and equipment for guest casitas, communal spaces, and treatment rooms |
+| **Pre-Opening** | $200,000 | 1.3% | Staff recruitment and training, clinical protocol development, supply chain establishment |
+| **Total** | **$14,953,500** | **100.0%** | |
 
 *[Note: The Company reserves the right to reallocate proceeds among categories based on business needs and changing conditions. Actual expenditures may vary from the estimates above.]*
 
@@ -221,7 +221,7 @@ No single competitor integrates all four market pillars. SHA Wellness Clinic (Sp
 
 **Description:** The Company must renovate a property, obtain regulatory approvals, recruit specialized staff, and launch operations in a foreign jurisdiction. Construction delays, permit difficulties, staffing challenges, or operational failures could delay opening or increase costs.
 
-**Mitigations:** Phased build-out approach (16 rooms initially, expanding to 30) de-risks capital deployment. Conservative timeline includes contingency buffers. Local legal counsel and contractors with Quintana Roo experience are engaged. The operating team includes individuals with prior experience in Mexican hospitality and healthcare operations.
+**Mitigations:** Phased build-out approach (15 casitas at opening, expanding to 60 over 5 years) de-risks capital deployment. Conservative timeline includes contingency buffers. Local legal counsel and contractors with Quintana Roo experience are engaged. The operating team includes individuals with prior experience in Mexican hospitality and healthcare operations.
 
 ### 6.5 Competitive Risk
 
@@ -257,19 +257,22 @@ No single competitor integrates all four market pillars. SHA Wellness Clinic (Sp
 
 ### Summary Financial Projections
 
-| Metric | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 |
-|--------|--------|--------|--------|--------|--------|
-| Occupancy | 60% | 75% | 80% | 80% | 80% |
-| Revenue | $13,140,400 | $16,412,200 | $17,529,400 | $17,529,400 | $17,529,400 |
-| EBITDA | $7,838,674 | $10,306,263 | $10,968,943 | $10,706,525 | $10,433,610 |
-| Net Income | $5,146,072 | $6,873,384 | $7,337,260 | $7,153,568 | $6,962,527 |
+| Metric | Year 1 | Year 5 | 5-Year Total |
+|--------|--------|--------|-------------|
+| Casitas Online | 15→30 | 54→60 | 60 at full build-out |
+| Revenue | $10,300,000 | $34,000,000 | $120,700,000 |
+| EBITDA | $4,301,800 | — | $69,048,096 |
+| Net Income | $2,537,260 | — | $45,102,667 |
 
 | Metric | Value |
 |--------|-------|
-| 5-Year Total Revenue | $82,140,800 |
-| 5-Year Net Income | $33,472,811 |
+| 5-Year Total Revenue | $120,700,000 |
+| 5-Year EBITDA | $69,048,096 |
+| 5-Year Net Income | $45,102,667 |
+| 5-Year Free Cash Flow | $40,723,382 |
 | Gross Margin | 83% |
-| EBITDA Margin | 60-63% |
+| EBITDA Margin | 42-60% (expanding with scale) |
+| Revenue per Guest | $26,600 |
 
 ### Return Metrics
 
@@ -277,27 +280,28 @@ No single competitor integrates all four market pillars. SHA Wellness Clinic (Sp
 
 | Metric | Value |
 |--------|-------|
-| Operating IRR | 38.25% |
-| 5-Year Free Cash Flow | $33,753,525 |
-| Payback Period | ~2.2 years |
-| Break-even Occupancy | 2.79% (23 guests/year) |
+| 5-Year Free Cash Flow | $40,723,382 |
+| Payback Period | ~2.7 years |
+| Break-even Occupancy | ~3% (~25 guests/year) |
 | LTV:CAC | 13.0x |
+| CAC | $2,613 |
+| Post-Money Valuation | $21,042,000 |
 
 **Return Profile (with Exit):**
 
 | Scenario | Enterprise Value (Y5) | MOIC | IRR |
 |----------|----------------------|------|-----|
-| Conservative | $61,992,616 | 4.65x | 66.54% |
-| **Base Case** | **$87,924,380** | **6.69x** | **73.50%** |
-| Aggressive | $117,584,039 | 8.94x | 80.09% |
+| Conservative | — | 5.5x | 66% |
+| **Base Case** | **$81,200,000** | **7.8x** | **78%** |
+| Aggressive | — | 10.0x | 87% |
 
 ### Key Assumptions
 
-- 30-room property with phased build-out (16 rooms at opening)
+- 60-casita property with phased build-out: 15→30→40→48→54→60 casitas over 5 years
 - Average Daily Rate of $2,000/night across all programs
 - Average revenue per guest of $26,600
 - Average direct cost per guest of $4,629
-- Occupancy ramp: 60% Y1, 75% Y2, 80% Y3-5
+- Gross margin of 83%; EBITDA margins expanding from ~42% (Year 1) to ~60% (Year 5)
 - No price increases modeled over the five-year period
 
 *[Note: Detailed financial model and assumptions available in Data Room -- Financial section.]*

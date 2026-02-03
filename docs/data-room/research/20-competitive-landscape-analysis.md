@@ -46,18 +46,18 @@ This gap is not incidental. It exists because the operational, regulatory, and c
 
 Transformational Epicenter is purpose-built to occupy this uncontested position, leveraging Mexico's favorable regulatory environment, the Riviera Maya's world-class tourism infrastructure, and a founding team with expertise spanning all four pillars.
 
-**TE Financial Summary (Riviera Maya Jungle Estate -- 30 Rooms):**
+**TE Financial Summary (Riviera Maya Jungle Estate -- 60 Casitas, Phased 15→60):**
 
 | Metric | Value |
 |--------|-------|
-| **Total Project Cost** | $13,773,500 |
+| **Total Project Cost** | $14,953,500 |
 | **Acquisition** | $6,150,000 |
 | **Renovation** | $4,050,000 |
-| **Year 1 Revenue (Base)** | $13,140,400 |
-| **5-Year Total Revenue** | $82,140,800 |
-| **Project IRR (Base / Conservative)** | 73.50% / 66.54% |
-| **Year 5 Enterprise Value (Base)** | $87,924,380 |
-| **5-Year MOIC (Base / Conservative)** | 6.69x / 4.65x |
+| **Year 1 Revenue (Base)** | $10,300,000 |
+| **5-Year Total Revenue** | $120,700,000 |
+| **Project IRR (Base / Conservative)** | 78% / 66% |
+| **Year 5 Enterprise Value (Base)** | $81,200,000 |
+| **5-Year MOIC (Base / Conservative)** | 7.8x / 5.5x |
 
 ---
 
@@ -323,7 +323,7 @@ Transformational Epicenter's competitive analysis is structured around the Four 
 | Luxury level | High | Ultra-high |
 | Program duration | 10 days | 7-28 days |
 | Aftercare | Limited | 12 months |
-| Room count | ~15-20 | 30 |
+| Room count | ~15-20 | 60 casitas (phased 15→60) |
 | Outcome data | Not published | Systematic collection & publication |
 
 ---
@@ -379,7 +379,7 @@ Transformational Epicenter's competitive analysis is structured around the Four 
 | Luxury level | Moderate-High | Ultra-high |
 | Treatment scope | Lifestyle wellness | Transformational medicine |
 | Outcome commitment | General well-being | Measured clinical outcomes |
-| Scale | Large (multi-property) | Boutique (30 rooms) |
+| Scale | Large (multi-property) | Boutique (60 casitas) |
 
 ---
 
@@ -423,7 +423,7 @@ Transformational Epicenter's competitive moat consists of four reinforcing struc
 | Regulatory expertise | Operating legally with plant medicine requires jurisdiction selection, legal compliance, and medical licensing across multiple regulatory frameworks simultaneously |
 | Clinical team assembly | Recruiting physicians willing to work in plant medicine alongside conventional medicine is a narrow talent pool |
 | Operational complexity | Managing hospital-grade protocols, luxury hospitality, bio-optimization technology, and plant medicine ceremonies within a single facility requires unprecedented operational orchestration |
-| Capital requirements | Building a facility that meets all four pillar standards requires $13.7M+ in property acquisition and renovation -- a significant barrier for plant medicine operators accustomed to smaller operations |
+| Capital requirements | Building a facility that meets all four pillar standards requires $15M+ in property acquisition and renovation -- a significant barrier for plant medicine operators accustomed to smaller operations |
 
 **Moat 2: Continuity of Care**
 
