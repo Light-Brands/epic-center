@@ -81,9 +81,9 @@ export default function VirtualTourPage() {
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
             <span className="font-accent text-sm uppercase tracking-wide">Data & Intelligence</span>
           </Link>
-          <Link href="/gallery">
+          <Link href="/team">
             <Button variant="primary">
-              Gallery
+              Team
               <ArrowRight className="ml-2 w-4 h-4" />
             </Button>
           </Link>
