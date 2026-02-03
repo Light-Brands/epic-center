@@ -62,8 +62,27 @@ export function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
+  const [expandedMobileSections, setExpandedMobileSections] = useState<Set<string>>(new Set(['The Story']))
   const timeoutRef = useRef<NodeJS.Timeout | null>(null)
   const pathname = usePathname()
+
+  // Reorder sections for mobile: "The Story" first
+  const mobileNavSections = [
+    NAV_SECTIONS.find(s => s.title === 'The Story')!,
+    ...NAV_SECTIONS.filter(s => s.title !== 'The Story'),
+  ]
+
+  const toggleMobileSection = (title: string) => {
+    setExpandedMobileSections(prev => {
+      const next = new Set(prev)
+      if (next.has(title)) {
+        next.delete(title)
+      } else {
+        next.add(title)
+      }
+      return next
+    })
+  }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -236,44 +255,65 @@ export function Header() {
               transition={{ duration: 0.2 }}
               className="fixed top-20 left-4 right-4 z-50 lg:hidden"
             >
-              <div className="bg-white/90 backdrop-blur-xl rounded-2xl shadow-2xl border border-white/50 overflow-hidden">
-                {/* Nav Sections */}
-                <div className="p-4 space-y-4">
-                  {NAV_SECTIONS.map((section) => (
-                    <div key={section.title}>
-                      <p className="px-2 mb-2 text-[9px] font-accent font-bold uppercase tracking-[0.2em] text-primary-700/50">
-                        {section.title}
-                      </p>
-                      <div className="grid grid-cols-2 gap-1">
-                        {section.links.map((link) => {
-                          const isActive = pathname === link.href
-                          return (
-                            <Link
-                              key={link.href}
-                              href={link.href}
-                              className={`
-                                px-3 py-2.5 rounded-xl text-[10px] font-accent font-semibold uppercase tracking-[0.1em]
-                                transition-colors duration-150
-                                ${isActive
-                                  ? 'bg-secondary-500 text-white shadow-sm'
-                                  : 'text-primary-700/80 hover:bg-white/60 hover:text-primary-800'
-                                }
-                              `}
+              <div className="bg-white/90 backdrop-blur-xl rounded-2xl shadow-2xl border border-white/50 overflow-hidden max-h-[calc(100vh-6rem)] overflow-y-auto">
+                {/* Nav Sections - Collapsible Accordion */}
+                <div className="px-3 py-3 space-y-0.5">
+                  {mobileNavSections.map((section) => {
+                    const isExpanded = expandedMobileSections.has(section.title)
+                    return (
+                      <div key={section.title}>
+                        <button
+                          onClick={() => toggleMobileSection(section.title)}
+                          className="w-full flex items-center justify-between px-2 py-2 rounded-lg hover:bg-white/50 transition-colors duration-150"
+                        >
+                          <span className="text-[9px] font-accent font-bold uppercase tracking-[0.2em] text-primary-700/50">
+                            {section.title}
+                          </span>
+                          <ChevronDown className={`w-3 h-3 text-primary-700/40 transition-transform duration-200 ${isExpanded ? 'rotate-180' : ''}`} />
+                        </button>
+                        <AnimatePresence initial={false}>
+                          {isExpanded && (
+                            <motion.div
+                              initial={{ height: 0, opacity: 0 }}
+                              animate={{ height: 'auto', opacity: 1 }}
+                              exit={{ height: 0, opacity: 0 }}
+                              transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1] }}
+                              className="overflow-hidden"
                             >
-                              {link.name}
-                            </Link>
-                          )
-                        })}
+                              <div className="grid grid-cols-2 gap-0.5 pb-1">
+                                {section.links.map((link) => {
+                                  const isActive = pathname === link.href
+                                  return (
+                                    <Link
+                                      key={link.href}
+                                      href={link.href}
+                                      className={`
+                                        px-3 py-2 rounded-lg text-[10px] font-accent font-semibold uppercase tracking-[0.1em]
+                                        transition-colors duration-150
+                                        ${isActive
+                                          ? 'bg-secondary-500 text-white shadow-sm'
+                                          : 'text-primary-700/80 hover:bg-white/60 hover:text-primary-800'
+                                        }
+                                      `}
+                                    >
+                                      {link.name}
+                                    </Link>
+                                  )
+                                })}
+                              </div>
+                            </motion.div>
+                          )}
+                        </AnimatePresence>
                       </div>
-                    </div>
-                  ))}
+                    )
+                  })}
                 </div>
 
                 {/* CTA */}
-                <div className="p-4 bg-white/40 border-t border-white/30">
+                <div className="px-3 pb-3 pt-2 bg-white/40 border-t border-white/30">
                   <Link
                     href="/invest"
-                    className="flex items-center justify-center gap-2 w-full px-6 py-3.5 bg-gradient-to-r from-secondary-400 to-secondary-500 text-white text-[11px] font-accent font-bold uppercase tracking-[0.15em] rounded-xl hover:from-secondary-500 hover:to-secondary-600 shadow-md shadow-secondary-500/25 transition-all duration-200"
+                    className="flex items-center justify-center gap-2 w-full px-6 py-3 bg-gradient-to-r from-secondary-400 to-secondary-500 text-white text-[11px] font-accent font-bold uppercase tracking-[0.15em] rounded-xl hover:from-secondary-500 hover:to-secondary-600 shadow-md shadow-secondary-500/25 transition-all duration-200"
                   >
                     View Investment
                     <ArrowUpRight className="w-4 h-4" strokeWidth={2.5} />
