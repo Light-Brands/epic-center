@@ -45,7 +45,7 @@ export default function VirtualTourPage() {
           </h2>
 
           <p className="text-lg text-neutral-500 max-w-2xl leading-relaxed">
-            Take an immersive tour of Rancho Paraiso Oasis — a 30-room luxury jungle compound
+            Take an immersive tour of Rancho Paraiso Oasis — a 15-room luxury jungle compound
             in Akumal, Riviera Maya. Browse the full video walkthrough, property reels, and
             115-photo gallery.
           </p>
