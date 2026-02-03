@@ -331,7 +331,7 @@ export default function VisionPage() {
             transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           >
             A luxury medical retreat pioneering evidence-based healing through
-            plant medicine, bio-optimization, and trauma integration.
+            bio-optimization, plant medicine and trauma integration.
           </motion.p>
 
           {/* CTA buttons */}
