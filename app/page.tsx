@@ -753,7 +753,7 @@ export default function VisionPage() {
             variants={staggerContainer}
           >
             {[
-              { icon: '/icons/project-cost.png', label: 'Total Raise', value: '$15.0M', description: 'All-equity seed round' },
+              { icon: '/icons/project-cost.png', label: 'Total Raise', value: '$14.95M', description: 'All-equity seed round' },
               { icon: '/icons/year-5-revenue.png', label: 'Y5 Enterprise Value', value: '$81.2M', description: 'Base case exit valuation' },
               { icon: '/icons/project-irr.png', label: 'Project IRR', value: '78%', description: 'Base case with Year 5 exit' },
               { icon: '/icons/moic.png', label: '5-Year MOIC', value: '7.8x', description: 'Multiple on invested capital' },
