@@ -422,8 +422,8 @@ export const USE_OF_FUNDS: UseOfFunds[] = [
   { category: 'Property Acquisition', amount: 11900000, percentage: 70.7, description: '$11.9M acquisition price (all-in)' },
   { category: 'Working Capital', amount: 1126000, percentage: 6.7, description: 'Operating runway' },
   { category: 'Renovation & Conversion', amount: 1000000, percentage: 5.9, description: 'Renovations to make property operational' },
+  { category: 'Medical + Biohacking', amount: 1000000, percentage: 5.9, description: 'ICU/monitoring, diagnostic, IV systems, biohacking equipment' },
   { category: 'Contingency', amount: 847500, percentage: 5.0, description: 'Risk buffer' },
   { category: 'Technology', amount: 750000, percentage: 4.5, description: 'Tech development' },
-  { category: 'Medical + Biohacking', amount: 1000000, percentage: 5.9, description: 'ICU/monitoring, diagnostic, IV systems, biohacking equipment' },
   { category: 'Pre-Opening', amount: 200000, percentage: 1.2, description: 'Licensing, training, soft launch' },
 ]

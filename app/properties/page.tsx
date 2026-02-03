@@ -132,9 +132,9 @@ export default function PropertiesPage() {
                   { label: 'Property Acquisition', value: '$11,900,000', pct: '70.7%' },
                   { label: 'Working Capital', value: '$1,126,000', pct: '6.7%' },
                   { label: 'Renovation & Conversion', value: '$1,000,000', pct: '5.9%' },
+                  { label: 'Medical + Biohacking', value: '$1,000,000', pct: '5.9%' },
                   { label: 'Contingency', value: '$847,500', pct: '5.0%' },
                   { label: 'Technology', value: '$750,000', pct: '4.5%' },
-                  { label: 'Medical + Biohacking', value: '$1,000,000', pct: '5.9%' },
                   { label: 'Pre-Opening', value: '$200,000', pct: '1.2%' },
                 ].map((item) => (
                   <div key={item.label} className="flex justify-between items-center py-2 border-b border-neutral-100 last:border-0">
