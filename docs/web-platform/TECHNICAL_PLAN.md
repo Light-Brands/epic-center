@@ -1,5 +1,5 @@
 # Transformational Epicenter
-## Global Investment Platform — Technical Plan v2.0
+## Global Investment Platform - Technical Plan v2.0
 
 **"Bringing the lost travelers home to gardens of their hearts and souls"**
 
@@ -7,7 +7,7 @@
 
 ## The Vision for This Platform
 
-This is not a property comparison tool. This is the **definitive digital pitch experience** for a $1 trillion market opportunity — a platform that tells the complete story of Transformational Epicenter, from vision to execution, from Mexico to 30 locations worldwide.
+This is not a property comparison tool. This is the **definitive digital pitch experience** for a $1 trillion market opportunity, a platform that tells the complete story of Transformational Epicenter, from vision to execution, from Mexico to 30 locations worldwide.
 
 **When an investor or partner opens this platform, they should feel:**
 - The magnitude of the opportunity
@@ -26,7 +26,7 @@ This is not a property comparison tool. This is the **definitive digital pitch e
 │                    THE TRANSFORMATIONAL EPICENTER                           │
 │                         INVESTMENT PLATFORM                                 │
 │                                                                             │
-│                   16 SECTIONS — ZERO UNANSWERED QUESTIONS                   │
+│                   16 SECTIONS - ZERO UNANSWERED QUESTIONS                   │
 │                                                                             │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
@@ -97,7 +97,7 @@ This is not a property comparison tool. This is the **definitive digital pitch e
 > From their bodies. Their nervous systems. Their purpose. Their essential nature.
 >
 > The most successful people on earth are the most broken.
-> They have everything — except peace.
+> They have everything, except peace.
 
 #### The Failed Solutions (Interactive Cards)
 ```
@@ -205,7 +205,7 @@ This is not a property comparison tool. This is the **definitive digital pitch e
 │   • Ages 40-55, UHNW/HNW ($10M+ net worth)                                 │
 │   • Exhausted from constant performance                                     │
 │   • Carrying trauma, stress, burnout affecting everything                   │
-│   • Tried therapy, meditation, retreats — nothing stuck                    │
+│   • Tried therapy, meditation, retreats, nothing stuck                    │
 │   • Willing to invest $50,000-$150,000+ for real transformation            │
 │                                                                             │
 │                    THEY DON'T NEED ANOTHER RETREAT.                        │
@@ -217,10 +217,10 @@ This is not a property comparison tool. This is the **definitive digital pitch e
 #### Why Competitors Can't Copy This (Animated Reveal)
 | Competitor Type | Why They Won't Integrate |
 |-----------------|--------------------------|
-| **Medical Clinics** (Clinique La Prairie, SHA) | Won't touch plant medicine — regulatory & brand risk |
+| **Medical Clinics** (Clinique La Prairie, SHA) | Won't touch plant medicine, regulatory & brand risk |
 | **Luxury Resorts** (Aman, Six Senses) | Lack medical expertise and clinical infrastructure |
 | **Plant Medicine Centers** (Beond, Rythmia) | Can't attract luxury talent or afford medical rigor |
-| **Biohacking Centers** (Upgrade Labs) | Wrong model — transactional, not transformational |
+| **Biohacking Centers** (Upgrade Labs) | Wrong model, transactional, not transformational |
 
 **The punchline:** We're not competing. We're creating the category.
 
@@ -353,7 +353,7 @@ What's Included:
 ---
 
 ### Section 4: GLOBAL EXPANSION (`/expansion`)
-**Purpose:** Show this isn't one property — it's 30 locations worldwide. Make them see the scale.
+**Purpose:** Show this isn't one property, it's 30 locations worldwide. Make them see the scale.
 
 #### Hero: The Global Vision
 ```
@@ -482,7 +482,7 @@ What's Included:
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-#### Portfolio Summary (Visual Grid) — Data from Google Sheets Model
+#### Portfolio Summary (Visual Grid) - Data from Google Sheets Model
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                                                                             │
@@ -670,7 +670,7 @@ Each property gets a comprehensive cut sheet (see Section 10 for full spec):
 │   Recalibration (21d)  35       21d        $2,000   $1,470,000    29%     │
 │   Transformation (28d) 15       28d        $2,000     $840,000    16%     │
 │   ────────────────────────────────────────────────────────────────────     │
-│   TOTAL              180 guests              —      $5,320,000   104%*    │
+│   TOTAL              180 guests              -      $5,320,000   104%*    │
 │                                                                             │
 │   *Exceeds 100% due to add-ons, extensions, and follow-up programs         │
 │                                                                             │
@@ -740,19 +740,19 @@ Each property gets a comprehensive cut sheet (see Section 10 for full spec):
 │                                                                             │
 │                Y0        Y1        Y2        Y3        Y4        Y5         │
 │   ──────────────────────────────────────────────────────────────────────   │
-│   Revenue      —        1.8       5.1       8.2      12.1      15.1        │
-│   OpEx         —       (2.1)     (3.8)     (5.7)     (8.2)    (10.1)       │
-│   EBITDA       —       (0.3)      1.3       2.5       3.9       5.0        │
+│   Revenue      -        1.8       5.1       8.2      12.1      15.1        │
+│   OpEx         -       (2.1)     (3.8)     (5.7)     (8.2)    (10.1)       │
+│   EBITDA       -       (0.3)      1.3       2.5       3.9       5.0        │
 │                                                                             │
 │   CapEx       (6.4)    (1.2)     (0.5)     (1.8)     (0.6)     (0.8)       │
-│   D&A          —       (0.18)    (0.18)    (0.22)    (0.24)    (0.26)      │
-│   Interest     —       (0.05)    (0.12)    (0.10)    (0.08)    (0.05)      │
+│   D&A          -       (0.18)    (0.18)    (0.22)    (0.24)    (0.26)      │
+│   Interest     -       (0.05)    (0.12)    (0.10)    (0.08)    (0.05)      │
 │   ──────────────────────────────────────────────────────────────────────   │
 │   Net Income  (6.4)    (1.7)      0.5       0.4       3.0       3.9        │
 │                                                                             │
-│   + D&A        —        0.18      0.18      0.22      0.24      0.26       │
+│   + D&A        -        0.18      0.18      0.22      0.24      0.26       │
 │   - CapEx      6.4      1.2       0.5       1.8       0.6       0.8        │
-│   Δ WC         —       (0.1)     (0.2)     (0.3)     (0.2)     (0.1)       │
+│   Δ WC         -       (0.1)     (0.2)     (0.3)     (0.2)     (0.1)       │
 │   ──────────────────────────────────────────────────────────────────────   │
 │   FCF         (6.4)    (1.6)      0.5       0.3       3.0       4.1        │
 │                                                                             │
@@ -809,7 +809,7 @@ Each property gets a comprehensive cut sheet (see Section 10 for full spec):
 │   Founders                7,500,000    60.0%           52.5%               │
 │   Employee Pool (ESOP)    1,250,000    10.0%            8.75%              │
 │   Seed Investors          3,125,000    25.0%           21.875%             │
-│   Series A (Future)       1,875,000     —              16.875%             │
+│   Series A (Future)       1,875,000     -              16.875%             │
 │   ──────────────────────────────────────────────────────────────────────   │
 │   TOTAL                  12,500,000   100.0%          100.0%               │
 │                                                                             │
@@ -1293,7 +1293,7 @@ Each property gets a comprehensive cut sheet (see Section 10 for full spec):
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                                                                             │
-│   RISK #1: SAFETY INCIDENT — DETAILED MITIGATION PLAN                      │
+│   RISK #1: SAFETY INCIDENT - DETAILED MITIGATION PLAN                      │
 │                                                                             │
 │   Pre-Event Prevention (Layers of Screening):                              │
 │   ──────────────────────────────────────────────────────────────────────   │
@@ -1352,7 +1352,7 @@ Each property gets a comprehensive cut sheet (see Section 10 for full spec):
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                                                                             │
-│   RISK #2: REGULATORY CHANGE — ADVANCED MITIGATION                         │
+│   RISK #2: REGULATORY CHANGE - ADVANCED MITIGATION                         │
 │                                                                             │
 │   Multi-Jurisdiction Resilience Strategy:                                  │
 │   ──────────────────────────────────────────────────────────────────────   │
@@ -1878,7 +1878,7 @@ Each property gets a comprehensive cut sheet (see Section 10 for full spec):
 ---
 
 ### Section 10: EXIT STRATEGY (`/returns`)
-**Purpose:** Show investors exactly how they get their money back—and then some.
+**Purpose:** Show investors exactly how they get their money back, and then some.
 
 #### Return Pathways (Interactive Timeline)
 ```
@@ -3525,7 +3525,7 @@ Each property gets a comprehensive cut sheet (see Section 10 for full spec):
 │   ─────────────────────────────────────────────────────────────────────    │
 │   See Risk & Mitigation section. We've identified 5 key risks and have     │
 │   documented mitigation strategies for each. We're not naive about         │
-│   challenges—we've planned for them.                                       │
+│   challenges, we've planned for them.                                       │
 │                                                                             │
 │   ► "What do you need from investors beyond capital?"                      │
 │   ─────────────────────────────────────────────────────────────────────    │
@@ -4096,15 +4096,15 @@ Each property gets a dedicated page with comprehensive details:
 
 **C. Pass/Fail Gates (Visual Checklist)**
 ```
-✅ JCI Hospital Access     — 70 min to Galenia (Cancún)
-✅ Commercial Zoning       — Verified operational
-✅ Utilities Available     — Full infrastructure
-⚠️ Airport Access          — 2 hours from CUN
-✅ Privacy & Security      — Gated, private beach
-✅ Natural Environment     — Direct ocean access
-⚠️ Existing Structures     — Full renovation required
-✅ Legal Status            — Clear title
-⚠️ Price Alignment         — Above comparable market
+✅ JCI Hospital Access     - 70 min to Galenia (Cancún)
+✅ Commercial Zoning       - Verified operational
+✅ Utilities Available     - Full infrastructure
+⚠️ Airport Access          - 2 hours from CUN
+✅ Privacy & Security      - Gated, private beach
+✅ Natural Environment     - Direct ocean access
+⚠️ Existing Structures     - Full renovation required
+✅ Legal Status            - Clear title
+⚠️ Price Alignment         - Above comparable market
 ```
 
 **D. Scoring Breakdown (Radar Chart + Table)**
@@ -4714,10 +4714,10 @@ This file should be re-synced whenever the spreadsheet is updated.
 | | Cost Per Room | $928K | $906,512 |
 | | IRR (Base) | 28.51% | 29.54% |
 | | Y5 Revenue | $15.1M | $15,303,003 |
-| | 5-Year Revenue | — | $62,109,066 |
-| | Y5 EBITDA | — | $6,014,560 |
-| | EBITDA Margin Y5 | — | 39% |
-| | Gross Margin | — | 72% avg |
+| | 5-Year Revenue | - | $62,109,066 |
+| | Y5 EBITDA | - | $6,014,560 |
+| | EBITDA Margin Y5 | - | 39% |
+| | Gross Margin | - | 72% avg |
 | **Hacienda Caracol** | Daily Rate | $2,000 | $3,157 (1.36x UHNW) |
 | | Avg Revenue/Guest | ~$30K | $53,669 |
 | | Target Market | HNW | U-HNW Individuals |
@@ -4806,4 +4806,4 @@ This technical plan specifies a **16-section investor platform** designed to lea
 - *v2.1: Synced with Google Sheets financial model*
 - *v3.0: Expanded to 16 sections for complete investor coverage (Risk, Exit, Timeline, Legal, Outcomes, Data Room, FAQ)*
 
-*Vision: The definitive pitch experience for Transformational Epicenter — zero unanswered questions*
+*Vision: The definitive pitch experience for Transformational Epicenter - zero unanswered questions*

@@ -1,5 +1,5 @@
 # Transformational Epicenter
-## Global Investment Platform -Technical Plan v2.0
+## Global Investment Platform - Technical Plan v2.0
 
 **"Bringing the lost travelers home to gardens of their hearts and souls"**
 
@@ -26,7 +26,7 @@ This is not a property comparison tool. This is the **definitive digital pitch e
 │                    THE TRANSFORMATIONAL EPICENTER                           │
 │                         INVESTMENT PLATFORM                                 │
 │                                                                             │
-│                   16 SECTIONS -ZERO UNANSWERED QUESTIONS                   │
+│                   16 SECTIONS - ZERO UNANSWERED QUESTIONS                   │
 │                                                                             │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │

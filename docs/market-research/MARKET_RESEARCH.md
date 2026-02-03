@@ -8,7 +8,7 @@
 
 ---
 
-## TL;DR — Executive Summary
+## TL;DR - Executive Summary
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -38,7 +38,7 @@
 │                     • Outcome-anchored pricing (transformation, not days)   │
 │                                                                              │
 │  TARGET CLIENTS:    HNW executives, addiction sufferers, trauma survivors,  │
-│                     longevity seekers, meaning seekers — willing to pay     │
+│                     longevity seekers, meaning seekers, willing to pay     │
 │                     $15,000 – $100,000+ for lasting transformation.         │
 │                                                                              │
 │  THE VERDICT:       The market is ready. Demand is acute. Competition is    │
@@ -122,7 +122,7 @@ flowchart TD
 
 ## 2. Reference Clinics for Initial Benchmarking
 
-The AI system should begin by deeply analyzing the following reference archetypes—not to copy them, but to identify ceilings, gaps, and blind spots.
+The AI system should begin by deeply analyzing the following reference archetypes, not to copy them, but to identify ceilings, gaps, and blind spots.
 
 ### Initial Benchmark Clinics
 
@@ -190,10 +190,10 @@ The AI system should perform a global scan across the following categories:
 ### AI Analysis Requirements
 
 The AI should identify:
-- **What is offered** — Current service landscape
-- **What is missing** — Gaps in the market
-- **Where outcomes fall short** — Limitations of existing approaches
-- **Where experiences fragment** — Lack of integration and continuity
+- **What is offered:** Current service landscape
+- **What is missing:** Gaps in the market
+- **Where outcomes fall short:** Limitations of existing approaches
+- **Where experiences fragment:** Lack of integration and continuity
 
 ```mermaid
 mindmap
@@ -231,7 +231,7 @@ The AI system should stress-test our concept against the global benchmark across
 
 ### Integration
 
-**Most Clinics:** Specialize in ONE vertical — Medical OR Spiritual OR Performance
+**Most Clinics:** Specialize in ONE vertical: Medical OR Spiritual OR Performance
 
 **Transformational Epicenter:** Integrates ALL dimensions into ONE continuum
 
@@ -260,19 +260,19 @@ flowchart LR
 
 ### Continuity
 
-**Most Clinics:** Treat an EVENT — Arrival → Treatment → Departure → *Nothing*
+**Most Clinics:** Treat an EVENT: Arrival → Treatment → Departure → *Nothing*
 
 **Transformational Epicenter:** Delivers a JOURNEY with continuous support
 
 ```mermaid
 flowchart TB
-    subgraph COMPETITORS["❌ MOST CLINICS — The Event Model"]
+    subgraph COMPETITORS["❌ MOST CLINICS - The Event Model"]
         direction LR
         A1[Arrival] --> T1[Treatment] --> D1[Departure] --> N1[Nothing]
         style N1 fill:#fecaca,stroke:#f87171,color:#7f1d1d
     end
 
-    subgraph EPICENTER["✓ TRANSFORMATIONAL EPICENTER — The Journey Model"]
+    subgraph EPICENTER["✓ TRANSFORMATIONAL EPICENTER - The Journey Model"]
         direction LR
         P[Pre-Care] --> T[Immersive<br/>Treatment] --> PC[Post-Care] --> IE[Identity<br/>Embodiment]
 
@@ -289,7 +289,7 @@ flowchart TB
 
 ### Personalization
 
-**Most Clinics:** Customize protocols MANUALLY — Static assessments → Fixed protocols
+**Most Clinics:** Customize protocols MANUALLY: Static assessments → Fixed protocols
 
 **Transformational Epicenter:** Deploys AI SUPERINTELLIGENT SYSTEM for dynamic personalization
 
@@ -371,9 +371,9 @@ flowchart LR
 ### AI Evaluation Criteria
 
 The AI should evaluate:
-- **Willingness to pay** — What clients actually spend for transformation
-- **Outcome justification** — What outcomes justify premium pricing
-- **Value multipliers** — Where scarcity, privacy, and depth increase perceived value
+- **Willingness to pay:** What clients actually spend for transformation
+- **Outcome justification:** What outcomes justify premium pricing
+- **Value multipliers:** Where scarcity, privacy, and depth increase perceived value
 
 ---
 
@@ -457,13 +457,13 @@ The AI system should evaluate optimal geographic zones for clinic establishment.
 | Region | Key Considerations |
 |--------|-------------------|
 | **Mexico (Multiple Regions)** | Legal ibogaine, medical tourism infrastructure, accessibility |
-| **Central America** | Costa Rica, Guatemala, Panama — varying legal frameworks |
-| **Select European Jurisdictions** | Portugal, Netherlands — progressive drug policies |
-| **Offshore Jurisdictions** | Caribbean options — regulatory flexibility |
+| **Central America** | Costa Rica, Guatemala, Panama, varying legal frameworks |
+| **Select European Jurisdictions** | Portugal, Netherlands, progressive drug policies |
+| **Offshore Jurisdictions** | Caribbean options, regulatory flexibility |
 
 ---
 
-## 8. AI Superintelligent System — Research Execution Role
+## 8. AI Superintelligent System - Research Execution Role
 
 The AI Superintelligent System will execute the following research functions:
 
@@ -622,7 +622,7 @@ flowchart LR
 
 ## 10. Strategic Conclusion: Market Position & Opportunity
 
-### The Current Landscape — A Fragmented Industry
+### The Current Landscape - A Fragmented Industry
 
 The global wellness, longevity, and transformational healing market is characterized by **fragmentation and specialization**. Existing players have carved out niches:
 
@@ -636,14 +636,14 @@ The global wellness, longevity, and transformational healing market is character
 
 **No single player has unified these verticals into a coherent, continuous healing journey.**
 
-This is not an oversight—it is a structural limitation. Building such an offering requires:
+This is not an oversight, it is a structural limitation. Building such an offering requires:
 - Significant capital investment
 - Multi-disciplinary expertise
 - Sophisticated technology infrastructure
 - Regulatory navigation capability
 - A fundamentally different operational philosophy
 
-### The White Space — An Unoccupied Summit
+### The White Space - An Unoccupied Summit
 
 ```mermaid
 quadrantChart
@@ -662,45 +662,45 @@ quadrantChart
     Ibogaine Centers: [0.40, 0.25]
 ```
 
-**The Summit Position:** Transformational Epicenter occupies the uncontested upper-right quadrant—maximum medical rigor combined with maximum integration across all healing dimensions.
+**The Summit Position:** Transformational Epicenter occupies the uncontested upper-right quadrant, maximum medical rigor combined with maximum integration across all healing dimensions.
 
-### The Opportunity — Category Creation, Not Competition
+### The Opportunity - Category Creation, Not Competition
 
-Transformational Epicenter is not entering an existing category to compete—it is **creating a new category** at the intersection of:
+Transformational Epicenter is not entering an existing category to compete, it is **creating a new category** at the intersection of:
 
-1. **Medical Excellence** — Hospital-grade safety, physician oversight, advanced diagnostics
-2. **Plant Medicine Mastery** — Medically supervised Ibogaine with proper screening and monitoring
-3. **Bio-Optimization Technology** — State-of-the-art modalities for recovery and performance
-4. **Luxury Hospitality** — Privacy, comfort, and care that enables complete surrender
-5. **Psychological Depth** — Trauma-informed, nervous system-focused integration
-6. **Spiritual Dimension** — Identity restoration, meaning-making, purpose clarity
-7. **Technological Intelligence** — AI-driven personalization extending beyond the stay
+1. **Medical Excellence:** Hospital-grade safety, physician oversight, advanced diagnostics
+2. **Plant Medicine Mastery:** Medically supervised Ibogaine with proper screening and monitoring
+3. **Bio-Optimization Technology:** State-of-the-art modalities for recovery and performance
+4. **Luxury Hospitality:** Privacy, comfort, and care that enables complete surrender
+5. **Psychological Depth:** Trauma-informed, nervous system-focused integration
+6. **Spiritual Dimension:** Identity restoration, meaning-making, purpose clarity
+7. **Technological Intelligence:** AI-driven personalization extending beyond the stay
 
-### Competitive Moats — Defensible Advantages
+### Competitive Moats - Defensible Advantages
 
 | Moat | Description | Difficulty to Replicate |
 |------|-------------|------------------------|
-| **Integration Architecture** | Single unified journey across all healing dimensions | Very High — requires complete operational redesign |
-| **Continuity Model** | Pre-care → Treatment → Post-care → Long-term integration | High — requires technology and team alignment |
-| **AI Superintelligent System** | Dynamic, learning, personalized protocol engine | Very High — significant R&D and data investment |
-| **Medical-Plant Medicine Bridge** | Proper medical oversight for powerful substances | High — requires rare expertise combination |
-| **Outcome Orientation** | Priced on transformation delivered, not services rendered | Medium — requires confidence and track record |
+| **Integration Architecture** | Single unified journey across all healing dimensions | Very High, requires complete operational redesign |
+| **Continuity Model** | Pre-care → Treatment → Post-care → Long-term integration | High, requires technology and team alignment |
+| **AI Superintelligent System** | Dynamic, learning, personalized protocol engine | Very High, significant R&D and data investment |
+| **Medical-Plant Medicine Bridge** | Proper medical oversight for powerful substances | High, requires rare expertise combination |
+| **Outcome Orientation** | Priced on transformation delivered, not services rendered | Medium, requires confidence and track record |
 
 ```mermaid
 flowchart TB
-    subgraph MOATS["🏰 COMPETITIVE MOATS — Layers of Defense"]
+    subgraph MOATS["🏰 COMPETITIVE MOATS - Layers of Defense"]
         direction TB
 
-        subgraph L1["OUTER LAYER — Medium Difficulty"]
+        subgraph L1["OUTER LAYER - Medium Difficulty"]
             M5[Outcome<br/>Orientation]
         end
 
-        subgraph L2["MIDDLE LAYER — High Difficulty"]
+        subgraph L2["MIDDLE LAYER - High Difficulty"]
             M4[Medical-Plant<br/>Medicine Bridge]
             M2[Continuity<br/>Model]
         end
 
-        subgraph L3["INNER LAYER — Very High Difficulty"]
+        subgraph L3["INNER LAYER - Very High Difficulty"]
             M3[AI Superintelligent<br/>System]
             M1[Integration<br/>Architecture]
         end
@@ -734,7 +734,7 @@ flowchart TB
 | **Mental Health Demand** | Post-pandemic surge, waitlists measured in months |
 | **Executive Burnout** | Unprecedented demand for reset and optimization among leaders |
 
-### Client Profile — Who We Serve
+### Client Profile - Who We Serve
 
 **Primary Segments:**
 
@@ -753,7 +753,7 @@ flowchart TB
 - Seek depth over superficiality
 - Ready for a journey, not just an event
 
-### Pricing Power — Outcome-Anchored Value
+### Pricing Power - Outcome-Anchored Value
 
 The market research reveals a critical insight:
 
@@ -779,19 +779,19 @@ When a 28-day program delivers:
 
 ```mermaid
 flowchart TB
-    subgraph POSITION["🏔️ TRANSFORMATIONAL EPICENTER — STRATEGIC POSITION"]
+    subgraph POSITION["🏔️ TRANSFORMATIONAL EPICENTER - STRATEGIC POSITION"]
         direction TB
 
         subgraph WHATWEARE["✅ WHAT WE ARE"]
-            WA[The world's first fully integrated<br/>medical, bio-optimization, plant medicine,<br/>and identity transformation clinic<br/>— powered by AI —<br/>delivering continuous care from<br/>first contact through lifelong integration]
+            WA[The world's first fully integrated<br/>medical, bio-optimization, plant medicine,<br/>and identity transformation clinic<br/>, powered by AI,<br/>delivering continuous care from<br/>first contact through lifelong integration]
         end
 
         subgraph WHATWERENOT["❌ WHAT WE ARE NOT"]
-            N1[Not a medical retreat<br/>— we go beyond physical]
-            N2[Not a wellness spa<br/>— we create lasting change]
-            N3[Not just ibogaine<br/>— we integrate into complete journey]
-            N4[Not a biohacking center<br/>— we address whole person]
-            N5[Not a spiritual retreat<br/>— we ground in medical science]
+            N1[Not a medical retreat<br/>, we go beyond physical]
+            N2[Not a wellness spa<br/>, we create lasting change]
+            N3[Not just ibogaine<br/>, we integrate into complete journey]
+            N4[Not a biohacking center<br/>, we address whole person]
+            N5[Not a spiritual retreat<br/>, we ground in medical science]
         end
 
         subgraph OURPOSITION["⭐ OUR POSITION"]
@@ -826,14 +826,14 @@ flowchart TB
 
 **The market is ready. The demand is acute. The competition is fragmented. The technology is available. The opportunity is now.**
 
-Transformational Epicenter is positioned to become not just the best clinic in its category—but to define the category itself. By integrating what others separate, continuing what others interrupt, and personalizing what others generalize, we occupy a summit position that is:
+Transformational Epicenter is positioned to become not just the best clinic in its category, but to define the category itself. By integrating what others separate, continuing what others interrupt, and personalizing what others generalize, we occupy a summit position that is:
 
-- **Defensible** — Requires capabilities most cannot assemble
-- **Valuable** — Addresses pain points clients will pay premium prices to resolve
-- **Scalable** — AI and protocol standardization enable replication
-- **Timely** — Cultural, regulatory, and technological conditions align
+- **Defensible:** Requires capabilities most cannot assemble
+- **Valuable:** Addresses pain points clients will pay premium prices to resolve
+- **Scalable:** AI and protocol standardization enable replication
+- **Timely:** Cultural, regulatory, and technological conditions align
 
-This market research phase will transform strategic intuition into validated intelligence, ensuring every decision—from protocol design to pricing architecture to geographic positioning—is grounded in evidence and optimized for category dominance.
+This market research phase will transform strategic intuition into validated intelligence, ensuring every decision, from protocol design to pricing architecture to geographic positioning, is grounded in evidence and optimized for category dominance.
 
 **We are not building a better clinic. We are building the destination.**
 
@@ -847,7 +847,7 @@ This market research phase will transform strategic intuition into validated int
 
 ### 11.1 Leading Ibogaine Treatment Centers
 
-#### A. Beond (Cancun, Mexico) — Luxury Ibogaine Leader
+#### A. Beond (Cancun, Mexico) - Luxury Ibogaine Leader
 
 | Attribute | Details |
 |-----------|---------|
@@ -858,7 +858,7 @@ This market research phase will transform strategic intuition into validated int
 | **Staff Ratio** | 4:1 staff-to-client |
 | **Track Record** | 3,000+ patients treated |
 
-**Treatment Protocol — "Insight Oriented Ibogaine" 5-Phase Model:**
+**Treatment Protocol - "Insight Oriented Ibogaine" 5-Phase Model:**
 1. Remote preparation phase with therapeutic coach
 2. Onsite pre-treatment medical assessment (Days 1-2)
 3. Ibogaine treatment under physician supervision (Day 3-4)
@@ -888,7 +888,7 @@ This market research phase will transform strategic intuition into validated int
 
 ---
 
-#### B. Experience Ibogaine (Tijuana, Mexico) — Established Mid-Tier Provider
+#### B. Experience Ibogaine (Tijuana, Mexico) - Established Mid-Tier Provider
 
 | Attribute | Details |
 |-----------|---------|
@@ -913,7 +913,7 @@ This market research phase will transform strategic intuition into validated int
 
 ---
 
-#### C. Tabula Rasa Retreat (Alentejo, Portugal) — Premier European Destination
+#### C. Tabula Rasa Retreat (Alentejo, Portugal) - Premier European Destination
 
 | Attribute | Details |
 |-----------|---------|
@@ -941,7 +941,7 @@ This market research phase will transform strategic intuition into validated int
 - 1:1 sessions with counsellors post-treatment
 - Integration support extending beyond treatment
 
-**2025 Review:** "I went to Tabula Rasa Retreat without much hope in myself. I had tried over the years to quit alcohol and benzodiazepines. It was only with the guidance of the wonderful, professional team, and the miraculous way that ibogaine..." — February 2025
+**2025 Review:** "I went to Tabula Rasa Retreat without much hope in myself. I had tried over the years to quit alcohol and benzodiazepines. It was only with the guidance of the wonderful, professional team, and the miraculous way that ibogaine...", February 2025
 
 **Contact:** Portugal: +351 965 751 649 | UK: +44 7961355530 | USA: +1 (619) 356-5944
 
@@ -982,7 +982,7 @@ This market research phase will transform strategic intuition into validated int
 | **Program Duration** | Minimum 3 weeks recommended; some clients stay 8+ weeks |
 | **Pricing** | Custom quotes based on condition and treatment needs |
 
-**Unique Approach — Slow-Dose Ibogaine Therapy:**
+**Unique Approach - Slow-Dose Ibogaine Therapy:**
 Three levels and intensities using:
 1. Iboga root bark powder
 2. Total-spectrum alkaloid extract
@@ -1000,7 +1000,7 @@ Three levels and intensities using:
 
 ---
 
-#### F. Sanctuary Tulum (Tulum, Mexico) — Ultra-Luxury Option
+#### F. Sanctuary Tulum (Tulum, Mexico) - Ultra-Luxury Option
 
 | Attribute | Details |
 |-----------|---------|
@@ -1012,7 +1012,7 @@ Three levels and intensities using:
 
 **Founder:** Johnny Tabaie, holistic healer
 
-**Treatment Approach — Four Phases:**
+**Treatment Approach - Four Phases:**
 1. **Reset:** Safe, supervised ibogaine or ayahuasca treatment
 2. **Repair:** Cellular and neurological recovery
 3. **Rewire:** Emotional and behavioral integration through personalized coaching
@@ -1028,12 +1028,12 @@ Three levels and intensities using:
 
 ---
 
-#### G. MycoMeditations (Jamaica) — Psilocybin Focus
+#### G. MycoMeditations (Jamaica) - Psilocybin Focus
 
 | Attribute | Details |
 |-----------|---------|
 | **Location** | Multiple locations: Blue Marlin, Rainbow Tree, Bluefields Bay (Jamaica) |
-| **Established** | 2014 — "Gold standard in magic mushroom retreats" |
+| **Established** | 2014, "Gold standard in magic mushroom retreats" |
 | **Positioning** | World's longest-running psilocybin-assisted therapy center |
 
 **Pricing (2025-2026):**
@@ -1043,7 +1043,7 @@ Three levels and intensities using:
 | Rainbow Tree | $6,500 | $9,600 |
 | Bluefields Bay (Luxury) | $11,600 | $13,600 |
 
-**Program Structure — 8 Days, 3 Sessions:**
+**Program Structure - 8 Days, 3 Sessions:**
 - Three psilocybin sessions (higher doses than other retreats)
 - ~20 hours of group preparation and integration
 - Typical retreat: 10 guests with 7 facilitators
@@ -1082,7 +1082,7 @@ Three levels and intensities using:
 
 ---
 
-#### B. Mindbloom — At-Home Ketamine Leader
+#### B. Mindbloom - At-Home Ketamine Leader
 
 | Attribute | Details |
 |-----------|---------|
@@ -1110,7 +1110,7 @@ Three levels and intensities using:
 
 ---
 
-#### C. Nushama (New York City) — Premium In-Clinic Experience
+#### C. Nushama (New York City) - Premium In-Clinic Experience
 
 | Attribute | Details |
 |-----------|---------|
@@ -1181,8 +1181,8 @@ Three levels and intensities using:
 | **First Licensed Session** | June 6, 2025 (Denver) |
 
 **Healing Center Types:**
-1. **Healing Centers** — Dedicated psilocybin-assisted therapy facilities
-2. **Micro-Healing Centers** — Add-on for existing mental health practitioners
+1. **Healing Centers:** Dedicated psilocybin-assisted therapy facilities
+2. **Micro-Healing Centers:** Add-on for existing mental health practitioners
 
 **Facilitator Requirements:**
 - Age 21+
@@ -1249,7 +1249,7 @@ Three levels and intensities using:
 - On-site clinic
 - Medi-vac helicopter available
 
-**Aftercare:** RLife app — 13-week integration program
+**Aftercare:** RLife app, 13-week integration program
 
 ---
 
@@ -1295,7 +1295,7 @@ Three levels and intensities using:
 |---------|--------------|---------------|
 | 5-Night (3 ceremonies) | From $3,675 | From $3,650 |
 | 7-Night (4 ceremonies) | From $3,975 | From $3,950 |
-| 12-Night (7 ceremonies) | From $6,000 | — |
+| 12-Night (7 ceremonies) | From $6,000 | - |
 
 **Advisory Board:** Dr. Dennis McKenna (ethnopharmacologist), Dr. Gabor Maté (psychiatrist/author)
 
@@ -1338,7 +1338,7 @@ Three levels and intensities using:
 - Shuttle from Cusco
 - Lifetime 10% discount on return visits
 
-**Integration:** "8P Method of Integration" — full final day dedicated to integration practices.
+**Integration:** "8P Method of Integration", full final day dedicated to integration practices.
 
 **Medical Screening:** Comprehensive review of all applications; may require medical clearance for contraindications (SSRIs, MAOIs, heart conditions, etc.).
 
@@ -1346,7 +1346,7 @@ Three levels and intensities using:
 
 ### 11.4 MDMA & FDA Regulatory Status
 
-#### MDMA-Assisted Therapy — Current Status
+#### MDMA-Assisted Therapy - Current Status
 
 | Milestone | Status |
 |-----------|--------|
@@ -1366,7 +1366,7 @@ Three levels and intensities using:
 
 **Company Status:** Lykos Therapeutics rebranded to Resilient Pharmaceuticals; raised $50M Series B in 2025; continuing FDA negotiations.
 
-**2026 Outlook:** "Far from the end of the road, 2026 could, finally, be the year for psychedelic approvals—plural." — Psychedelic Alpha, December 2025
+**2026 Outlook:** "Far from the end of the road, 2026 could, finally, be the year for psychedelic approvals, plural.", Psychedelic Alpha, December 2025
 
 ---
 
@@ -1376,11 +1376,11 @@ Three levels and intensities using:
 
 | Year | Market Size (Estimates) | CAGR |
 |------|------------------------|------|
-| 2025 | $2.94B - $4.78B | — |
-| 2026 | $3.41B - $5.48B | — |
+| 2025 | $2.94B - $4.78B | - |
+| 2026 | $3.41B - $5.48B | - |
 | 2030 | $7.75B - $9.60B | 13-14% |
 | 2034 | ~$11.03B | 15.82% |
-| 2035 | $12.34B - $18.63B | — |
+| 2035 | $12.34B - $18.63B | - |
 
 **Market Composition (2025):**
 - Ketamine: 45% market share (FDA-approved uses)
@@ -1425,9 +1425,9 @@ Three levels and intensities using:
 
 #### Big Pharma Entry
 
-**AbbVie + Gilgamesh Pharmaceuticals:** $1.2 billion acquisition of bretisilocin (psychedelic compound) — first traditional pharma purchase of an investigational psychedelic drug.
+**AbbVie + Gilgamesh Pharmaceuticals:** $1.2 billion acquisition of bretisilocin (psychedelic compound), first traditional pharma purchase of an investigational psychedelic drug.
 
-**Industry Sentiment:** "There's a huge amount of interest coming in suddenly from pharma... a huge uptick in the last six months of larger pharma companies engaging with the space." — Josh Hardman, Psychedelic Alpha
+**Industry Sentiment:** "There's a huge amount of interest coming in suddenly from pharma... a huge uptick in the last six months of larger pharma companies engaging with the space.", Josh Hardman, Psychedelic Alpha
 
 ---
 
@@ -1435,7 +1435,7 @@ Three levels and intensities using:
 
 #### Psilocybin for Treatment-Resistant Depression
 
-**COMP005 Phase 3 Trial (2025) — First Phase 3 Classic Psychedelic Results:**
+**COMP005 Phase 3 Trial (2025) - First Phase 3 Classic Psychedelic Results:**
 - 258 participants with TRD across 32 U.S. sites
 - Single 25mg COMP360 dose vs. placebo
 - **Primary Endpoint:** Highly statistically significant reduction in symptom severity (P<0.001)
@@ -1627,7 +1627,7 @@ Three levels and intensities using:
 
 ### 11.11 Regulatory Developments by Jurisdiction
 
-#### United States — Federal Level
+#### United States - Federal Level
 
 | Substance | DEA Schedule | FDA Status |
 |-----------|--------------|------------|
@@ -1640,7 +1640,7 @@ Three levels and intensities using:
 
 **DEA Consideration:** Exploring potential rescheduling of psilocybin (as of late 2025).
 
-#### United States — State Level
+#### United States - State Level
 
 | State | Substances | Status |
 |-------|------------|--------|
@@ -1675,23 +1675,23 @@ Three levels and intensities using:
 │                                                                              │
 │  ULTRA-LUXURY ($100K+)                                                      │
 │  ─────────────────────                                                      │
-│  • Sanctuary Tulum — Plant medicine + 7-star hospitality                    │
+│  • Sanctuary Tulum - Plant medicine + 7-star hospitality                    │
 │                                                                              │
 │  PREMIUM ($12K-$20K)                                                        │
 │  ──────────────────                                                         │
-│  • Beond — Luxury + medical rigor + outcomes focus                          │
-│  • Clear Sky/Transcend — Established track record                           │
+│  • Beond - Luxury + medical rigor + outcomes focus                          │
+│  • Clear Sky/Transcend - Established track record                           │
 │                                                                              │
 │  MID-TIER ($5K-$12K)                                                        │
 │  ─────────────────                                                          │
-│  • Experience Ibogaine — Intimate, personalized                             │
-│  • Tabula Rasa (Europe) — Medical excellence + holistic                     │
-│  • Pangea Biomedics — Extended slow-dose protocols                          │
+│  • Experience Ibogaine - Intimate, personalized                             │
+│  • Tabula Rasa (Europe) - Medical excellence + holistic                     │
+│  • Pangea Biomedics - Extended slow-dose protocols                          │
 │                                                                              │
 │  VALUE ($5K-$8K)                                                            │
 │  ──────────────                                                             │
-│  • New Path Ibogaine — Transparent pricing                                  │
-│  • Casa Santa Isabel — 30+ years experience                                 │
+│  • New Path Ibogaine - Transparent pricing                                  │
+│  • Casa Santa Isabel - 30+ years experience                                 │
 │                                                                              │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -1705,18 +1705,18 @@ Three levels and intensities using:
 │                                                                              │
 │  PREMIUM IN-CLINIC                                                          │
 │  ─────────────────                                                          │
-│  • Nushama (NYC) — Psychedelic wellness center + IV infusions               │
-│  • Field Trip/Stella — Multi-location, integration-focused                  │
+│  • Nushama (NYC) - Psychedelic wellness center + IV infusions               │
+│  • Field Trip/Stella - Multi-location, integration-focused                  │
 │                                                                              │
 │  AT-HOME PLATFORMS                                                          │
 │  ─────────────────                                                          │
-│  • Mindbloom — Market leader, sublingual + injectable                       │
-│  • Joyous — Low-dose daily ketamine                                         │
-│  • Nue Life — Virtual support model                                         │
+│  • Mindbloom - Market leader, sublingual + injectable                       │
+│  • Joyous - Low-dose daily ketamine                                         │
+│  • Nue Life - Virtual support model                                         │
 │                                                                              │
 │  MEDICAL/INSURANCE-COVERED                                                  │
 │  ─────────────────────────                                                  │
-│  • Spravato clinics — FDA-approved, insurance coverage                      │
+│  • Spravato clinics - FDA-approved, insurance coverage                      │
 │                                                                              │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -1730,17 +1730,17 @@ Three levels and intensities using:
 │                                                                              │
 │  LUXURY MEDICAL ($5K-$8K/week)                                              │
 │  ─────────────────────────────                                              │
-│  • Rhythmia — Only medically licensed; resort setting                       │
-│  • Soltara — Advisory board (McKenna, Maté); luxury amenities               │
+│  • Rhythmia - Only medically licensed; resort setting                       │
+│  • Soltara - Advisory board (McKenna, Mate); luxury amenities               │
 │                                                                              │
 │  TRADITIONAL IMMERSIVE ($2K-$4K/week)                                       │
 │  ────────────────────────────────────                                       │
-│  • Temple of the Way of Light — Deep Shipibo tradition                      │
-│  • Arkana — Multiple locations; multiple medicines                          │
+│  • Temple of the Way of Light - Deep Shipibo tradition                      │
+│  • Arkana - Multiple locations; multiple medicines                          │
 │                                                                              │
 │  ULTRA-PREMIUM ($100K+)                                                     │
 │  ─────────────────────                                                      │
-│  • Sanctuary Tulum — Multi-medicine; luxury hospitality                     │
+│  • Sanctuary Tulum - Multi-medicine; luxury hospitality                     │
 │                                                                              │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -2768,7 +2768,7 @@ Leading float therapy franchise operating since 2009.
 | Neurofeedback system | $10,000 - $30,000 | Medium |
 | Compression therapy | $2,000 - $5,000 | Medium |
 | BioCharger | $17,000 - $25,000 | Low-Medium |
-| **TOTAL ESTIMATED RANGE** | **$212,000 - $510,000** | — |
+| **TOTAL ESTIMATED RANGE** | **$212,000 - $510,000** | - |
 
 #### Competitive Differentiation Strategy
 

@@ -1,7 +1,7 @@
 # Transformational Epicenter
-## Investment Platform — Complete Page Specifications v1.0
+## Investment Platform -Complete Page Specifications v1.0
 
-**"Where do I sign?"** — The goal of every page.
+**"Where do I sign?"** -The goal of every page.
 
 ---
 
@@ -25,7 +25,7 @@ This document contains the complete design and development specification for all
   - Headlines: Playfair Display (elegant, editorial)
   - Body: Inter (clean, readable)
   - Accents: Space Grotesk (modern, technical)
-- **Imagery**: Cinematic photography — ocean, jungle, healing moments, luxury details
+- **Imagery**: Cinematic photography -ocean, jungle, healing moments, luxury details
 - **Mood**: Sophisticated, warm, trustworthy, transformational
 
 ### Interaction Philosophy
@@ -386,12 +386,12 @@ OG Image: Hero video thumbnail with logo
 - Button pulses gently
 
 ### Components Required
-- `VideoHero.tsx` — Full-screen video with overlay text
-- `ParallaxSection.tsx` — Parallax image with text overlay
-- `FailedSolutionCard.tsx` — Animated problem cards
-- `SolutionReveal.tsx` — Four pillars animation
-- `BeliefCard.tsx` — Manifesto item with number
-- `CTABridge.tsx` — Transition section to next page
+- `VideoHero.tsx` -Full-screen video with overlay text
+- `ParallaxSection.tsx` -Parallax image with text overlay
+- `FailedSolutionCard.tsx` -Animated problem cards
+- `SolutionReveal.tsx` -Four pillars animation
+- `BeliefCard.tsx` -Manifesto item with number
+- `CTABridge.tsx` -Transition section to next page
 
 ### Data Requirements
 - Hero video (MP4, 15-20MB optimized)
@@ -416,7 +416,7 @@ Prove the opportunity is massive ($5.6T). Show the gap no competitor fills. Make
 ### SEO & Meta
 ```
 Title: $5.6 Trillion Market Opportunity | Transformational Epicenter
-Description: Four converging markets create the perfect opportunity. Medical wellness, luxury hospitality, biohacking, and plant medicine—we unify them all.
+Description: Four converging markets create the perfect opportunity. Medical wellness, luxury hospitality, biohacking, and plant medicine, we unify them all.
 ```
 
 ### Page Structure
@@ -593,7 +593,7 @@ Description: Four converging markets create the perfect opportunity. Medical wel
 │  │   COMPETITOR TYPE              WHY THEY WON'T INTEGRATE               │ │
 │  │   ───────────────              ────────────────────────               │ │
 │  │                                                                       │ │
-│  │   Medical Clinics              Won't touch plant medicine—            │ │
+│  │   Medical Clinics              Won't touch plant medicine,            │ │
 │  │   (Clinique La Prairie,        regulatory & brand risk too high       │ │
 │  │    SHA Wellness)                                                      │ │
 │  │                                                                       │ │
@@ -609,7 +609,7 @@ Description: Four converging markets create the perfect opportunity. Medical wel
 │  │                                                                       │ │
 │  │   ─────────────────────────────────────────────────────────────────   │ │
 │  │                                                                       │ │
-│  │   Biohacking Centers           Wrong model—transactional,             │ │
+│  │   Biohacking Centers           Wrong model, transactional,             │ │
 │  │   (Upgrade Labs)               not transformational                   │ │
 │  │                                                                       │ │
 │  └───────────────────────────────────────────────────────────────────────┘ │
@@ -631,12 +631,12 @@ Description: Four converging markets create the perfect opportunity. Medical wel
 - Punchline scales up slightly on reveal
 
 ### Components Required
-- `MarketSizeHero.tsx` — Animated $5.6T counter
-- `FourMarketsVenn.tsx` — Interactive market visualization
-- `MarketSegmentPanel.tsx` — Slide-out detail panel
-- `GapCallout.tsx` — Dramatic gap section
-- `CustomerProfile.tsx` — Guest persona card
-- `CompetitorTable.tsx` — Why they can't copy grid
+- `MarketSizeHero.tsx` -Animated $5.6T counter
+- `FourMarketsVenn.tsx` -Interactive market visualization
+- `MarketSegmentPanel.tsx` -Slide-out detail panel
+- `GapCallout.tsx` -Dramatic gap section
+- `CustomerProfile.tsx` -Guest persona card
+- `CompetitorTable.tsx` -Why they can't copy grid
 
 ### Data Requirements
 ```typescript
@@ -841,11 +841,11 @@ Show exactly how the business works. The 8 segments. The guest journey. The prog
 - Included list reveals with checkmarks
 
 ### Components Required
-- `EightSegmentsWheel.tsx` — Interactive segment diagram
-- `SegmentDetailPanel.tsx` — Expandable segment info
-- `GuestJourneyTimeline.tsx` — Animated 4-phase timeline
-- `ProgramCard.tsx` — Pricing card with hover effects
-- `IncludedList.tsx` — Animated checklist
+- `EightSegmentsWheel.tsx` -Interactive segment diagram
+- `SegmentDetailPanel.tsx` -Expandable segment info
+- `GuestJourneyTimeline.tsx` -Animated 4-phase timeline
+- `ProgramCard.tsx` -Pricing card with hover effects
+- `IncludedList.tsx` -Animated checklist
 
 ---
 
@@ -853,7 +853,7 @@ Show exactly how the business works. The 8 segments. The guest journey. The prog
 ## Route: `/expansion`
 
 ### Purpose
-Show this isn't one property—it's 30 locations worldwide. Create excitement about the scale. Make investors see the global vision.
+Show this isn't one property, it's 30 locations worldwide. Create excitement about the scale. Make investors see the global vision.
 
 ### Page Structure
 
@@ -1000,12 +1000,12 @@ Show this isn't one property—it's 30 locations worldwide. Create excitement ab
 ```
 
 ### Components Required
-- `Globe3D.tsx` — React-Globe.gl implementation
-- `LocationMarker.tsx` — Clickable map marker
-- `LocationPopup.tsx` — Marker detail popup
-- `ExpansionTimeline.tsx` — Roadmap visualization
-- `LocationTierCard.tsx` — Location summary card
-- `RegulatoryLegend.tsx` — Legal status display
+- `Globe3D.tsx` -React-Globe.gl implementation
+- `LocationMarker.tsx` -Clickable map marker
+- `LocationPopup.tsx` -Marker detail popup
+- `ExpansionTimeline.tsx` -Roadmap visualization
+- `LocationTierCard.tsx` -Location summary card
+- `RegulatoryLegend.tsx` -Legal status display
 
 ---
 
@@ -1143,10 +1143,10 @@ Deep dive into the Mexico properties we're evaluating. Show the rigorous analysi
 - Sticky header on scroll
 
 ### Components Required
-- `PropertyCard.tsx` — Summary card with metrics
-- `PropertyGrid.tsx` — 2x2 responsive grid
-- `ComparisonMatrix.tsx` — Sortable data table
-- `PropertyDetail.tsx` — Full cut sheet page
+- `PropertyCard.tsx` -Summary card with metrics
+- `PropertyGrid.tsx` -2x2 responsive grid
+- `ComparisonMatrix.tsx` -Sortable data table
+- `PropertyDetail.tsx` -Full cut sheet page
 
 ---
 
@@ -1196,15 +1196,15 @@ Comprehensive single-property view with all details an investor needs. Export-re
 │                                                                             │
 │  ┌───────────────────────────────────────────────────────────────────────┐ │
 │  │                                                                       │ │
-│  │  ✅ JCI Hospital Access        — 70 min to Galenia (Cancún)           │ │
-│  │  ✅ Commercial Zoning          — Verified operational                 │ │
-│  │  ✅ Utilities Available        — Full infrastructure                  │ │
-│  │  ⚠️ Airport Access             — 2 hours from CUN (TQO closer)        │ │
-│  │  ✅ Privacy & Security         — Gated, private beach                 │ │
-│  │  ✅ Natural Environment        — Direct ocean access                  │ │
-│  │  ⚠️ Existing Structures        — Full renovation required             │ │
-│  │  ✅ Legal Status               — Clear title                          │ │
-│  │  ⚠️ Price Alignment            — Above comparable market              │ │
+│  │  ✅ JCI Hospital Access        -70 min to Galenia (Cancún)           │ │
+│  │  ✅ Commercial Zoning          -Verified operational                 │ │
+│  │  ✅ Utilities Available        -Full infrastructure                  │ │
+│  │  ⚠️ Airport Access             -2 hours from CUN (TQO closer)        │ │
+│  │  ✅ Privacy & Security         -Gated, private beach                 │ │
+│  │  ✅ Natural Environment        -Direct ocean access                  │ │
+│  │  ⚠️ Existing Structures        -Full renovation required             │ │
+│  │  ✅ Legal Status               -Clear title                          │ │
+│  │  ⚠️ Price Alignment            -Above comparable market              │ │
 │  │                                                                       │ │
 │  │  ─────────────────────────────────────────────────────────────────   │ │
 │  │                                                                       │ │
@@ -1358,7 +1358,7 @@ Comprehensive single-property view with all details an investor needs. Export-re
 │                                                                             │
 │  ╔═══════════════════════════════════════════════════════════════════════╗ │
 │  ║                                                                       ║ │
-│  ║   ✅ SHORTLIST — Top Candidate                                        ║ │
+│  ║   ✅ SHORTLIST -Top Candidate                                        ║ │
 │  ║                                                                       ║ │
 │  ║   Hotel Alea Tulum is our recommended first Transformational          ║ │
 │  ║   Epicenter location. The property offers the best combination        ║ │
@@ -1383,15 +1383,15 @@ Comprehensive single-property view with all details an investor needs. Export-re
 ```
 
 ### Components Required
-- `PropertyHero.tsx` — Hero with gallery
-- `PassFailGates.tsx` — Checklist visualization
-- `ScoringRadar.tsx` — Radar chart (Recharts)
-- `FinancialSummary.tsx` — Cost breakdown
-- `RevenueChart.tsx` — Projection chart
-- `ScenarioToggle.tsx` — Scenario selector
-- `StrengthsConcerns.tsx` — Two-column comparison
-- `VerdictSection.tsx` — Final recommendation
-- `PDFExport.tsx` — Generate downloadable PDF
+- `PropertyHero.tsx` -Hero with gallery
+- `PassFailGates.tsx` -Checklist visualization
+- `ScoringRadar.tsx` -Radar chart (Recharts)
+- `FinancialSummary.tsx` -Cost breakdown
+- `RevenueChart.tsx` -Projection chart
+- `ScenarioToggle.tsx` -Scenario selector
+- `StrengthsConcerns.tsx` -Two-column comparison
+- `VerdictSection.tsx` -Final recommendation
+- `PDFExport.tsx` -Generate downloadable PDF
 
 ---
 
@@ -1404,11 +1404,11 @@ Due to document length, the remaining pages follow similar detailed patterns:
 ## PAGE 6: FINANCIALS (`/financials`)
 
 ### Key Sections
-1. **Metrics Hero** — $30K/guest, 70% occupancy, 29%+ IRR
-2. **Revenue Trajectory Chart** — 5-year projection with scenario toggle
-3. **Investment Strategy Comparison** — Single vs dual property
-4. **Unit Economics Breakdown** — Per-guest analysis
-5. **Scenario Analysis Table** — Conservative/Base/Aggressive
+1. **Metrics Hero** -$30K/guest, 70% occupancy, 29%+ IRR
+2. **Revenue Trajectory Chart** -5-year projection with scenario toggle
+3. **Investment Strategy Comparison** -Single vs dual property
+4. **Unit Economics Breakdown** -Per-guest analysis
+5. **Scenario Analysis Table** -Conservative/Base/Aggressive
 
 ### Key Components
 - `MetricsHero.tsx`
@@ -1422,11 +1422,11 @@ Due to document length, the remaining pages follow similar detailed patterns:
 ## PAGE 7: TEAM (`/team`)
 
 ### Key Sections
-1. **Founding Team Hero** — Photos, bios, backgrounds
-2. **Key Hires** — Positions being filled
-3. **Advisory Board** — Planned advisors
-4. **Culture & Values** — Team philosophy
-5. **Join Us CTA** — For potential team members
+1. **Founding Team Hero** -Photos, bios, backgrounds
+2. **Key Hires** -Positions being filled
+3. **Advisory Board** -Planned advisors
+4. **Culture & Values** -Team philosophy
+5. **Join Us CTA** -For potential team members
 
 ### Key Components
 - `TeamHero.tsx`
@@ -1440,11 +1440,11 @@ Due to document length, the remaining pages follow similar detailed patterns:
 ## PAGE 8: RISKS (`/risks`)
 
 ### Key Sections
-1. **Risk Matrix Hero** — "We've thought through everything"
-2. **Five Risk Cards** — Interactive expandable cards
-3. **Mitigation Strategies** — Detailed responses
-4. **Insurance Coverage** — Summary of protections
-5. **Crisis Protocol** — How we respond
+1. **Risk Matrix Hero** -"We've thought through everything"
+2. **Five Risk Cards** -Interactive expandable cards
+3. **Mitigation Strategies** -Detailed responses
+4. **Insurance Coverage** -Summary of protections
+5. **Crisis Protocol** -How we respond
 
 ### Key Components
 - `RiskMatrixHero.tsx`
@@ -1457,11 +1457,11 @@ Due to document length, the remaining pages follow similar detailed patterns:
 ## PAGE 9: MOAT (`/moat`)
 
 ### Key Sections
-1. **Five Moats Visualization** — Layered defense diagram
-2. **Moat Details** — Expandable explanations
-3. **Competitor Comparison Matrix** — 4-pillar grid
-4. **Category Creation** — Why we're not competing
-5. **Defensibility Timeline** — How moats compound
+1. **Five Moats Visualization** -Layered defense diagram
+2. **Moat Details** -Expandable explanations
+3. **Competitor Comparison Matrix** -4-pillar grid
+4. **Category Creation** -Why we're not competing
+5. **Defensibility Timeline** -How moats compound
 
 ### Key Components
 - `MoatVisualization.tsx`
@@ -1474,12 +1474,12 @@ Due to document length, the remaining pages follow similar detailed patterns:
 ## PAGE 10: EXIT (`/returns`)
 
 ### Key Sections
-1. **Return Pathways Hero** — 3 paths to liquidity
-2. **Strategic Acquisition** — Most likely path
-3. **IPO/SPAC Path** — Ambitious scenario
-4. **Dividend Recapitalization** — Ongoing returns
-5. **Comparable Exits** — Industry examples
-6. **Projected Returns Calculator** — Interactive
+1. **Return Pathways Hero** -3 paths to liquidity
+2. **Strategic Acquisition** -Most likely path
+3. **IPO/SPAC Path** -Ambitious scenario
+4. **Dividend Recapitalization** -Ongoing returns
+5. **Comparable Exits** -Industry examples
+6. **Projected Returns Calculator** -Interactive
 
 ### Key Components
 - `ReturnPathways.tsx`
@@ -1492,11 +1492,11 @@ Due to document length, the remaining pages follow similar detailed patterns:
 ## PAGE 11: TIMELINE (`/timeline`)
 
 ### Key Sections
-1. **24-Month Roadmap** — Interactive Gantt chart
-2. **Quarterly Milestones** — Key deliverables
-3. **Success Metrics Dashboard** — KPIs
-4. **Dependencies** — What must happen when
-5. **Year 2-5 Vision** — Longer term roadmap
+1. **24-Month Roadmap** -Interactive Gantt chart
+2. **Quarterly Milestones** -Key deliverables
+3. **Success Metrics Dashboard** -KPIs
+4. **Dependencies** -What must happen when
+5. **Year 2-5 Vision** -Longer term roadmap
 
 ### Key Components
 - `GanttRoadmap.tsx`
@@ -1509,12 +1509,12 @@ Due to document length, the remaining pages follow similar detailed patterns:
 ## PAGE 12: LEGAL (`/legal`)
 
 ### Key Sections
-1. **Corporate Structure** — Org chart visualization
-2. **Investment Vehicle** — SAFE/Equity details
-3. **Regulatory Framework** — Why Mexico is legal
-4. **Compliance Checklist** — All requirements
-5. **Insurance Coverage** — Full list
-6. **Legal Counsel** — Team members
+1. **Corporate Structure** -Org chart visualization
+2. **Investment Vehicle** -SAFE/Equity details
+3. **Regulatory Framework** -Why Mexico is legal
+4. **Compliance Checklist** -All requirements
+5. **Insurance Coverage** -Full list
+6. **Legal Counsel** -Team members
 
 ### Key Components
 - `CorporateStructure.tsx`
@@ -1528,12 +1528,12 @@ Due to document length, the remaining pages follow similar detailed patterns:
 ## PAGE 13: OUTCOMES (`/outcomes`)
 
 ### Key Sections
-1. **Measurement Philosophy** — "We prove it works"
-2. **Clinical Scales** — PCL-5, PHQ-9, GAD-7 explainers
-3. **Biometric Tracking** — HRV, sleep, blood panels
-4. **Measurement Timeline** — 8 checkpoints
-5. **Outcome Targets** — What success looks like
-6. **Research Partnerships** — Academic connections
+1. **Measurement Philosophy** -"We prove it works"
+2. **Clinical Scales** -PCL-5, PHQ-9, GAD-7 explainers
+3. **Biometric Tracking** -HRV, sleep, blood panels
+4. **Measurement Timeline** -8 checkpoints
+5. **Outcome Targets** -What success looks like
+6. **Research Partnerships** -Academic connections
 
 ### Key Components
 - `ClinicalScales.tsx`
@@ -1546,11 +1546,11 @@ Due to document length, the remaining pages follow similar detailed patterns:
 ## PAGE 14: DATA ROOM (`/data-room`)
 
 ### Key Sections
-1. **Data Room Overview** — What's available
-2. **Folder Navigation** — 8 categories
-3. **Document List** — With descriptions
-4. **Access Request Form** — Password protection
-5. **Download Tracking** — Analytics
+1. **Data Room Overview** -What's available
+2. **Folder Navigation** -8 categories
+3. **Document List** -With descriptions
+4. **Access Request Form** -Password protection
+5. **Download Tracking** -Analytics
 
 ### Key Components
 - `DataRoomNav.tsx`
@@ -1563,11 +1563,11 @@ Due to document length, the remaining pages follow similar detailed patterns:
 ## PAGE 15: FAQ (`/faq`)
 
 ### Key Sections
-1. **Search Bar** — Find answers quickly
-2. **Category Filters** — Legal, Financial, Operational, etc.
-3. **FAQ Accordion** — 15+ questions
-4. **Still Have Questions** — Contact CTA
-5. **Quick Links** — To relevant sections
+1. **Search Bar** -Find answers quickly
+2. **Category Filters** -Legal, Financial, Operational, etc.
+3. **FAQ Accordion** -15+ questions
+4. **Still Have Questions** -Contact CTA
+5. **Quick Links** -To relevant sections
 
 ### Key Components
 - `FAQSearch.tsx`
@@ -1580,12 +1580,12 @@ Due to document length, the remaining pages follow similar detailed patterns:
 ## PAGE 16: INVEST (`/invest`)
 
 ### Key Sections
-1. **The Ask Hero** — $5,000,000
-2. **Use of Funds Visualization** — Allocation chart
-3. **Investment Thesis** — 6 reasons
-4. **Deal Terms** — Summary
-5. **Next Steps CTA** — Request access, schedule call
-6. **Contact Information** — Multiple channels
+1. **The Ask Hero** -$5,000,000
+2. **Use of Funds Visualization** -Allocation chart
+3. **Investment Thesis** -6 reasons
+4. **Deal Terms** -Summary
+5. **Next Steps CTA** -Request access, schedule call
+6. **Contact Information** -Multiple channels
 
 ### Key Components
 - `TheAskHero.tsx`
