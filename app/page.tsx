@@ -603,9 +603,46 @@ export default function VisionPage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          THE PROPERTY - Video reels + photo gallery unified section
+          PROPERTY WALKTHROUGH - YouTube video tour
           ═══════════════════════════════════════════════════════════════════════════ */}
-      <PropertyGallery />
+      <section className="pt-16 sm:pt-24 md:pt-32 pb-0 bg-canvas-muted relative overflow-hidden">
+        <motion.div
+          className="w-full sm:w-[70vw] mx-auto px-5 sm:px-0"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+          variants={fadeUpVariants}
+        >
+          <div className="flex items-center justify-center gap-4 mb-6">
+            <div className="h-px w-12 bg-gradient-to-r from-transparent to-secondary-500" />
+            <p className="font-accent text-sm uppercase tracking-[0.3em] text-secondary-600">
+              Property Walkthrough
+            </p>
+            <div className="h-px w-12 bg-gradient-to-l from-transparent to-secondary-500" />
+          </div>
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-neutral-900 mb-4 text-center">
+            Tour the Property
+          </h2>
+          <p className="text-base sm:text-lg text-neutral-500 max-w-2xl mx-auto leading-relaxed text-center mb-10 sm:mb-14">
+            Walk through Rancho Paraiso Oasis, a 15-room luxury jungle compound
+            in Akumal, Riviera Maya.
+          </p>
+          <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl shadow-neutral-900/15 border border-neutral-200/50">
+            <iframe
+              src="https://www.youtube.com/embed/tzPCRxYmrfY?si=59AA_x0VoVHQRdAN"
+              title="Rancho Paraiso Oasis - Property Walkthrough"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              className="absolute inset-0 w-full h-full"
+            />
+          </div>
+        </motion.div>
+      </section>
+
+      {/* ═══════════════════════════════════════════════════════════════════════════
+          THE PROPERTY - Photo gallery (videos available on Virtual Tour page)
+          ═══════════════════════════════════════════════════════════════════════════ */}
+      <PropertyGallery showVideoReels={false} />
 
       {/* ═══════════════════════════════════════════════════════════════════════════
           WHY NOW SECTION - Three pillars with elegant cards

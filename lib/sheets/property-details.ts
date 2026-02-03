@@ -28,7 +28,7 @@ export const PROPERTY_GATES: Record<string, PropertyGate[]> = {
   'rancho-paraiso-oasis': [
     { name: 'Legal Clear Title', status: 'pass', notes: 'All 9 lots verified through legal counsel' },
     { name: 'Zoning Compliance', status: 'pass', notes: 'Commercial hospitality permitted' },
-    { name: 'Medical Infrastructure', status: 'conditional', notes: 'Medical suite build-out required ($750K budgeted)' },
+    { name: 'Medical Infrastructure', status: 'conditional', notes: 'Medical + Biohacking build-out required ($750K budgeted)' },
     { name: 'Emergency Access', status: 'pass', notes: 'Road access to Tulum hospitals' },
     { name: 'Privacy Requirements', status: 'pass', notes: '45,000 m² jungle compound - exceptional privacy' },
     { name: 'Environmental Compliance', status: 'pass', notes: 'SEMARNAT permits in order' },
@@ -48,7 +48,7 @@ export const PROPERTY_FINANCIALS: Record<string, {
 }> = {
   'rancho-paraiso-oasis': {
     revenuePotential: { conservative: 14600000, base: 17520000, aggressive: 18620000 },
-    renovationCost: 3450000,
+    renovationCost: 1000000,
     operatingCostPerYear: 3015000,
     projectedIRR: { conservative: 0.25, base: 0.35, aggressive: 0.42 },
     paybackYears: 2,

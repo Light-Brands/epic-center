@@ -25,6 +25,11 @@ import {
   CheckCircle2,
   ChevronRight,
   Lock,
+  Waves,
+  Eye,
+  HeartPulse,
+  FlaskConical,
+  Zap,
 } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
 import { Footer } from '@/components/layout'
@@ -195,6 +200,65 @@ const FLYWHEEL_STEPS = [
     description: 'More guests produce more data. More data produces better models. Better models produce better outcomes. Better outcomes attract more guests. The flywheel accelerates.',
     icon: Network,
   },
+]
+
+const SCANNING_MODALITIES = [
+  {
+    icon: Waves,
+    title: 'qEEG',
+    subtitle: '19-Channel Electrical Brain Mapping',
+    color: 'from-accent-500 to-accent-600',
+    dataPoints: [
+      'Alpha/beta/theta/delta/gamma power distribution',
+      'Default Mode Network (DMN) connectivity patterns',
+      'Frontal alpha asymmetry (approach vs. withdrawal)',
+    ],
+  },
+  {
+    icon: Eye,
+    title: 'fNIRS',
+    subtitle: 'Non-Invasive Optical Brain Imaging',
+    color: 'from-primary-500 to-primary-600',
+    dataPoints: [
+      'Prefrontal cortex activation mapping',
+      'Real-time neural response during treatment sessions',
+    ],
+  },
+  {
+    icon: HeartPulse,
+    title: 'Heart-Brain Coherence',
+    subtitle: 'HRV-EEG Coupling Analysis',
+    color: 'from-secondary-400 to-secondary-500',
+    dataPoints: [
+      'Autonomic nervous system rebalancing metrics',
+      'Stress recovery trajectory modeling',
+    ],
+  },
+  {
+    icon: FlaskConical,
+    title: 'Neuroplasticity Biomarkers',
+    subtitle: 'Blood-Based Panels',
+    color: 'from-primary-600 to-primary-700',
+    dataPoints: [
+      'BDNF levels (brain-derived neurotrophic factor)',
+      'Cortisol and inflammatory marker panels',
+      'Molecular proof of brain restructuring',
+    ],
+  },
+]
+
+const NEURAL_CHANGES = [
+  { before: 'DMN hyperconnectivity', after: 'Normalized connectivity', icon: Brain },
+  { before: 'Prefrontal-amygdala disconnect', after: 'Restored connectivity', icon: Network },
+  { before: 'Rigid brain entropy', after: 'Increased flexibility', icon: Zap },
+  { before: 'Right-shifted frontal alpha', after: 'Left-shifted (approach motivation)', icon: Activity },
+]
+
+const DATASET_PROJECTIONS = [
+  { label: 'Year 1', value: '~650', sublabel: 'brain maps' },
+  { label: 'Year 3', value: '~2,000', sublabel: 'scans (publishable evidence)' },
+  { label: 'Replication cost', value: '$0', sublabel: 'for competitors starting now' },
+  { label: 'Head start', value: '5+', sublabel: 'years of structured neural data' },
 ]
 
 function AnimatedCounter({ value, suffix = '' }: { value: string; suffix?: string }) {
@@ -501,6 +565,411 @@ export default function DataIntelligencePage() {
                 </Card>
               </motion.div>
             ))}
+          </motion.div>
+        </div>
+      </section>
+
+      {/* ═══════════════════════════════════════════════════════════════════════════
+          BRAIN MAPPING & NEUROIMAGING
+          ═══════════════════════════════════════════════════════════════════════════ */}
+      <section className="py-24 md:py-32 bg-white relative overflow-hidden">
+        <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-64 h-64 rounded-full bg-accent-500/5 blur-3xl" />
+        <div className="absolute top-1/3 right-1/6 w-48 h-48 rounded-full bg-primary-500/5 blur-3xl" />
+
+        <div className="w-full sm:w-[70vw] mx-auto relative">
+          {/* Section Header */}
+          <motion.div
+            className="text-center mb-20"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.3 }}
+            variants={fadeUpVariants}
+          >
+            <div className="flex items-center justify-center gap-4 mb-6">
+              <div className="h-px w-12 bg-gradient-to-r from-transparent to-secondary-500" />
+              <p className="font-accent text-sm uppercase tracking-[0.2em] text-secondary-600">
+                Neural Evidence
+              </p>
+              <div className="h-px w-12 bg-gradient-to-l from-transparent to-secondary-500" />
+            </div>
+            <h2 className="font-heading text-4xl md:text-5xl text-neutral-900 mb-6">
+              Seeing Transformation in the Brain
+            </h2>
+            <p className="text-lg text-neutral-600 max-w-3xl mx-auto">
+              Beyond self-reported outcomes, we capture objective neural evidence of change.
+              Four scanning modalities produce a brain map that shows transformation
+              at the biological level.
+            </p>
+          </motion.div>
+
+          {/* Investor Stats Row */}
+          <motion.div
+            className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-16"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+            variants={staggerContainer}
+          >
+            {[
+              { value: '4', label: 'Scanning Modalities' },
+              { value: '340+', label: 'Neural Data Points per Guest/Session' },
+              { value: '72hr', label: 'Continuous Capture During Peak Treatment' },
+              { value: '0', label: 'Competitors at Scale' },
+            ].map((stat) => (
+              <motion.div
+                key={stat.label}
+                variants={scaleInVariants}
+                className="text-center p-6 rounded-2xl bg-canvas border border-neutral-100"
+              >
+                <p className="font-heading text-3xl md:text-4xl text-primary-800 mb-2">
+                  <AnimatedCounter value={stat.value} />
+                </p>
+                <p className="text-sm text-neutral-600 font-medium">{stat.label}</p>
+              </motion.div>
+            ))}
+          </motion.div>
+
+          {/* Scanning Modality Cards */}
+          <motion.div
+            className="grid md:grid-cols-2 gap-6 mb-16"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.1 }}
+            variants={staggerContainer}
+          >
+            {SCANNING_MODALITIES.map((modality) => (
+              <motion.div key={modality.title} variants={fadeUpVariants}>
+                <Card padding="lg" className="h-full hover:shadow-xl transition-all duration-500 group overflow-hidden relative">
+                  <div className={`absolute top-0 left-0 bottom-0 w-1 bg-gradient-to-b ${modality.color} opacity-60 group-hover:opacity-100 transition-opacity duration-500`} />
+
+                  <div className="pl-4">
+                    <div className="flex items-center gap-3 mb-2">
+                      <motion.div
+                        className={`w-12 h-12 rounded-xl bg-gradient-to-br ${modality.color} flex items-center justify-center shadow-md`}
+                        whileHover={{ scale: 1.1, rotate: 5 }}
+                        transition={{ type: 'spring', stiffness: 300 }}
+                      >
+                        <modality.icon className="w-6 h-6 text-white" />
+                      </motion.div>
+                      <div>
+                        <h3 className="font-heading text-xl text-neutral-900">{modality.title}</h3>
+                        <p className="text-sm text-neutral-500">{modality.subtitle}</p>
+                      </div>
+                    </div>
+
+                    <div className="mt-4 space-y-2">
+                      {modality.dataPoints.map((point) => (
+                        <div
+                          key={point}
+                          className="flex items-start gap-2 px-3 py-2 rounded-lg bg-canvas hover:bg-canvas-muted transition-colors duration-200"
+                        >
+                          <ChevronRight className="w-4 h-4 text-secondary-400 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm text-neutral-700">{point}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </Card>
+              </motion.div>
+            ))}
+          </motion.div>
+
+          {/* Neural Data Convergence Infographic */}
+          <motion.div
+            className="mb-16"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.15 }}
+            variants={fadeUpVariants}
+          >
+            <div className="text-center mb-10">
+              <p className="font-accent text-sm uppercase tracking-[0.2em] text-secondary-600 mb-3">
+                Data Synthesis
+              </p>
+              <h3 className="font-heading text-2xl md:text-3xl text-neutral-900">
+                From Raw Signals to Unified Brain Map
+              </h3>
+            </div>
+
+            {/* Desktop: Radial convergence diagram */}
+            <div className="hidden md:block">
+              <div className="relative w-full max-w-[600px] mx-auto" style={{ aspectRatio: '1/1' }}>
+                <svg
+                  viewBox="0 0 600 600"
+                  fill="none"
+                  className="w-full h-full"
+                  aria-label="Infographic showing four scanning modalities converging into a unified brain map"
+                >
+                  <defs>
+                    <radialGradient id="ng-hub-glow" cx="50%" cy="50%" r="50%">
+                      <stop offset="0%" stopColor="#D4A63B" stopOpacity="0.2" />
+                      <stop offset="60%" stopColor="#D4A63B" stopOpacity="0.05" />
+                      <stop offset="100%" stopColor="#D4A63B" stopOpacity="0" />
+                    </radialGradient>
+                    <radialGradient id="ng-hub-fill" cx="40%" cy="40%" r="60%">
+                      <stop offset="0%" stopColor="#2a5c4a" />
+                      <stop offset="100%" stopColor="#1F483A" />
+                    </radialGradient>
+                  </defs>
+
+                  {/* Concentric context rings */}
+                  <circle cx="300" cy="300" r="235" stroke="#1F483A" strokeWidth="0.75" opacity="0.06" strokeDasharray="4 8" />
+                  <circle cx="300" cy="300" r="175" stroke="#1F483A" strokeWidth="0.75" opacity="0.08" strokeDasharray="4 8" />
+                  <circle cx="300" cy="300" r="130" stroke="#D4A63B" strokeWidth="0.75" opacity="0.12" />
+
+                  {/* Central glow */}
+                  <circle cx="300" cy="300" r="120" fill="url(#ng-hub-glow)" />
+
+                  {/* Connection paths - subtle curved lines */}
+                  <path d="M300,90 Q330,195 300,300" stroke="#D4724D" strokeWidth="1" opacity="0.15" />
+                  <path d="M510,300 Q405,330 300,300" stroke="#347a5e" strokeWidth="1" opacity="0.15" />
+                  <path d="M300,510 Q270,405 300,300" stroke="#D4A63B" strokeWidth="1" opacity="0.15" />
+                  <path d="M90,300 Q195,270 300,300" stroke="#245845" strokeWidth="1" opacity="0.2" />
+
+                  {/* Secondary connection lines for depth */}
+                  <path d="M300,90 Q270,195 300,300" stroke="#D4724D" strokeWidth="0.5" opacity="0.08" />
+                  <path d="M510,300 Q405,270 300,300" stroke="#347a5e" strokeWidth="0.5" opacity="0.08" />
+                  <path d="M300,510 Q330,405 300,300" stroke="#D4A63B" strokeWidth="0.5" opacity="0.08" />
+                  <path d="M90,300 Q195,330 300,300" stroke="#245845" strokeWidth="0.5" opacity="0.1" />
+
+                  {/* Animated particles - Top path (qEEG / terracotta) */}
+                  {[0, 0.8, 1.6].map((delay, i) => (
+                    <motion.circle
+                      key={`pt-${i}`}
+                      r="4"
+                      fill="#D4724D"
+                      animate={{
+                        cx: [300, 315, 300],
+                        cy: [90, 195, 280],
+                        opacity: [0, 0.8, 0],
+                      }}
+                      transition={{ duration: 2.4, repeat: Infinity, ease: 'easeInOut', delay }}
+                    />
+                  ))}
+                  {/* Right path (fNIRS / green) */}
+                  {[0.2, 1.0, 1.8].map((delay, i) => (
+                    <motion.circle
+                      key={`pr-${i}`}
+                      r="4"
+                      fill="#347a5e"
+                      animate={{
+                        cx: [510, 405, 320],
+                        cy: [300, 315, 300],
+                        opacity: [0, 0.8, 0],
+                      }}
+                      transition={{ duration: 2.4, repeat: Infinity, ease: 'easeInOut', delay }}
+                    />
+                  ))}
+                  {/* Bottom path (Heart-Brain / gold) */}
+                  {[0.4, 1.2, 2.0].map((delay, i) => (
+                    <motion.circle
+                      key={`pb-${i}`}
+                      r="4"
+                      fill="#D4A63B"
+                      animate={{
+                        cx: [300, 285, 300],
+                        cy: [510, 405, 320],
+                        opacity: [0, 0.8, 0],
+                      }}
+                      transition={{ duration: 2.4, repeat: Infinity, ease: 'easeInOut', delay }}
+                    />
+                  ))}
+                  {/* Left path (Biomarkers / deep green) */}
+                  {[0.6, 1.4, 2.2].map((delay, i) => (
+                    <motion.circle
+                      key={`pl-${i}`}
+                      r="4"
+                      fill="#245845"
+                      animate={{
+                        cx: [90, 195, 280],
+                        cy: [300, 285, 300],
+                        opacity: [0, 0.8, 0],
+                      }}
+                      transition={{ duration: 2.4, repeat: Infinity, ease: 'easeInOut', delay }}
+                    />
+                  ))}
+
+                  {/* Pulsing synthesis rings */}
+                  <motion.circle
+                    cx="300" cy="300" fill="none" stroke="#D4A63B" strokeWidth="1.5"
+                    animate={{ r: [60, 78, 60], opacity: [0.5, 0.05, 0.5] }}
+                    transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
+                  />
+                  <motion.circle
+                    cx="300" cy="300" fill="none" stroke="#D4A63B" strokeWidth="0.75"
+                    animate={{ r: [66, 92, 66], opacity: [0.2, 0.02, 0.2] }}
+                    transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut', delay: 0.5 }}
+                  />
+
+                  {/* Center hub */}
+                  <circle cx="300" cy="300" r="56" fill="url(#ng-hub-fill)" />
+                  <circle cx="300" cy="300" r="56" fill="none" stroke="#D4A63B" strokeWidth="1.5" opacity="0.5" />
+
+                  {/* qEEG node (top) */}
+                  <circle cx="300" cy="90" r="78" fill="#D4724D" opacity="0.08" />
+                  <circle cx="300" cy="90" r="54" fill="#D4724D" />
+                  <path d="M278,70 Q289,54 300,70 Q311,86 322,70" stroke="white" strokeWidth="2.5" fill="none" strokeLinecap="round" />
+                  <text x="300" y="100" textAnchor="middle" fill="white" fontSize="13" fontWeight="700" fontFamily="'DM Sans', sans-serif">qEEG</text>
+                  <text x="300" y="114" textAnchor="middle" fill="white" fontSize="8" opacity="0.7" fontFamily="'DM Sans', sans-serif">19-channel mapping</text>
+
+                  {/* fNIRS node (right) */}
+                  <circle cx="510" cy="300" r="78" fill="#347a5e" opacity="0.08" />
+                  <circle cx="510" cy="300" r="54" fill="#347a5e" />
+                  <circle cx="510" cy="282" r="10" fill="white" opacity="0.9" />
+                  <circle cx="510" cy="282" r="17" fill="none" stroke="white" strokeWidth="1.5" opacity="0.5" />
+                  <text x="510" y="310" textAnchor="middle" fill="white" fontSize="13" fontWeight="700" fontFamily="'DM Sans', sans-serif">fNIRS</text>
+                  <text x="510" y="324" textAnchor="middle" fill="white" fontSize="8" opacity="0.7" fontFamily="'DM Sans', sans-serif">Optical imaging</text>
+
+                  {/* Heart-Brain node (bottom) */}
+                  <circle cx="300" cy="510" r="78" fill="#D4A63B" opacity="0.08" />
+                  <circle cx="300" cy="510" r="54" fill="#D4A63B" />
+                  <path d="M280,492 L290,476 L300,508 L310,476 L320,492" stroke="white" strokeWidth="2.5" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+                  <text x="300" y="522" textAnchor="middle" fill="white" fontSize="12" fontWeight="700" fontFamily="'DM Sans', sans-serif">Heart-Brain</text>
+                  <text x="300" y="536" textAnchor="middle" fill="white" fontSize="8" opacity="0.7" fontFamily="'DM Sans', sans-serif">HRV-EEG coupling</text>
+
+                  {/* Biomarkers node (left) */}
+                  <circle cx="90" cy="300" r="78" fill="#245845" opacity="0.08" />
+                  <circle cx="90" cy="300" r="54" fill="#245845" />
+                  <path d="M80,278 L80,298 Q80,312 90,312 Q100,312 100,298 L100,278" stroke="white" strokeWidth="2.5" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+                  <text x="90" y="326" textAnchor="middle" fill="white" fontSize="11" fontWeight="700" fontFamily="'DM Sans', sans-serif">Biomarkers</text>
+                  <text x="90" y="340" textAnchor="middle" fill="white" fontSize="8" opacity="0.7" fontFamily="'DM Sans', sans-serif">Blood panels</text>
+
+                  {/* Center hub icon + label */}
+                  <circle cx="300" cy="286" r="9" fill="none" stroke="#D4A63B" strokeWidth="2" />
+                  <path d="M295,286 Q300,280 305,286" stroke="#D4A63B" strokeWidth="1.5" fill="none" />
+                  <text x="300" y="310" textAnchor="middle" fill="white" fontSize="11" fontFamily="'DM Sans', sans-serif" fontWeight="600" opacity="0.9">UNIFIED</text>
+                  <text x="300" y="323" textAnchor="middle" fill="white" fontSize="8" fontFamily="'DM Sans', sans-serif" fontWeight="500" opacity="0.7">BRAIN MAP</text>
+                </svg>
+
+              </div>
+
+              {/* Output callout */}
+              <div className="text-center mt-10">
+                <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-primary-50 border border-primary-100">
+                  <Sparkles className="w-4 h-4 text-secondary-500" />
+                  <span className="text-sm font-medium text-primary-800">
+                    340+ neural data points synthesized into one actionable brain map
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* Mobile: Vertical convergence flow */}
+            <div className="md:hidden space-y-1">
+              {SCANNING_MODALITIES.map((mod) => (
+                <div key={mod.title}>
+                  <div className="flex items-center gap-3 px-4 py-3 rounded-xl bg-canvas border border-neutral-100">
+                    <div className={`w-10 h-10 rounded-lg bg-gradient-to-br ${mod.color} flex items-center justify-center flex-shrink-0`}>
+                      <mod.icon className="w-5 h-5 text-white" />
+                    </div>
+                    <div>
+                      <p className="font-heading text-sm text-neutral-900">{mod.title}</p>
+                      <p className="text-xs text-neutral-500">{mod.subtitle}</p>
+                    </div>
+                  </div>
+                  <div className="flex justify-center py-1">
+                    <motion.div
+                      animate={{ y: [0, 3, 0] }}
+                      transition={{ duration: 1.5, repeat: Infinity, ease: 'easeInOut' }}
+                    >
+                      <ChevronRight className="w-4 h-4 text-secondary-400 rotate-90" />
+                    </motion.div>
+                  </div>
+                </div>
+              ))}
+              {/* Synthesis card */}
+              <div className="flex items-center justify-center gap-3 px-5 py-4 rounded-xl bg-primary-800 text-white">
+                <Brain className="w-6 h-6 text-secondary-400" />
+                <div>
+                  <p className="font-heading text-sm">Unified Brain Map</p>
+                  <p className="text-xs text-primary-200">340+ data points synthesized</p>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Before & After Neural Changes - Dark Card */}
+          <motion.div
+            className="mb-16"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+            variants={fadeUpVariants}
+          >
+            <Card padding="lg" className="bg-gradient-to-r from-primary-800 to-primary-900 text-white">
+              <div className="text-center mb-10">
+                <p className="font-accent text-sm uppercase tracking-[0.2em] text-secondary-400 mb-3">
+                  Measurable Neural Changes
+                </p>
+                <h3 className="font-heading text-2xl md:text-3xl text-white">
+                  Before & After: What the Brain Maps Show
+                </h3>
+              </div>
+
+              <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                {NEURAL_CHANGES.map((change) => (
+                  <div
+                    key={change.before}
+                    className="bg-primary-700/40 rounded-xl p-5 hover:bg-primary-700/60 transition-colors duration-300"
+                  >
+                    <change.icon className="w-8 h-8 text-secondary-400 mb-4" />
+                    <div className="space-y-3">
+                      <div>
+                        <p className="text-xs font-accent uppercase tracking-wider text-primary-400 mb-1">Before</p>
+                        <p className="text-sm text-primary-200">{change.before}</p>
+                      </div>
+                      <div className="h-px bg-gradient-to-r from-secondary-400/40 to-transparent" />
+                      <div>
+                        <p className="text-xs font-accent uppercase tracking-wider text-secondary-400 mb-1">After</p>
+                        <p className="text-sm text-white font-medium">{change.after}</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </Card>
+          </motion.div>
+
+          {/* Gold Card: Dataset That Cannot Be Replicated */}
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+            variants={fadeUpVariants}
+          >
+            <Card padding="lg" className="bg-gradient-to-br from-secondary-400 to-secondary-500 text-primary-900">
+              <div className="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                  <p className="font-accent text-sm uppercase tracking-widest text-primary-700 mb-2">
+                    Competitive Moat
+                  </p>
+                  <h3 className="text-3xl font-heading mb-4">
+                    A Dataset That Cannot Be Replicated
+                  </h3>
+                  <p className="text-primary-800">
+                    Every brain map we capture expands a proprietary neural dataset
+                    that no competitor can shortcut. Time is the ingredient that cannot
+                    be purchased. By the time a competitor begins scanning, our models
+                    will have years of structured neural data powering better predictions
+                    and better outcomes.
+                  </p>
+                </div>
+                <div className="grid grid-cols-2 gap-4">
+                  {DATASET_PROJECTIONS.map((stat) => (
+                    <motion.div
+                      key={stat.label}
+                      variants={scaleInVariants}
+                      whileHover={{ scale: 1.03, y: -2 }}
+                      className="bg-white/20 rounded-lg p-4 text-center hover:bg-white/30 transition-colors cursor-default"
+                    >
+                      <p className="font-heading text-2xl">{stat.value}</p>
+                      <p className="font-medium text-sm">{stat.label}</p>
+                      <p className="text-xs text-primary-700">{stat.sublabel}</p>
+                    </motion.div>
+                  ))}
+                </div>
+              </div>
+            </Card>
           </motion.div>
         </div>
       </section>

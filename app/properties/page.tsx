@@ -81,7 +81,7 @@ export default function PropertiesPage() {
                 <p className="text-primary-200 max-w-xl">
                   A phased development opportunity: 15 casitas operational at launch, expanding
                   to 60 over 5 years. Expansion funded from operating cash flow. Total seed investment
-                  of {formatCurrency(14953500)} for acquisition, build-out, and technology.
+                  of {formatCurrency(15573500)} for acquisition, build-out, and technology.
                 </p>
               </div>
               <Link href={`/properties/${property.id}`}>
@@ -129,12 +129,13 @@ export default function PropertiesPage() {
               <h4 className="font-heading text-lg text-neutral-900 mb-4">Capital Allocation</h4>
               <div className="space-y-3">
                 {[
-                  { label: 'Property Acquisition', value: '$6,150,000', pct: '41.1%' },
-                  { label: 'Renovation & Conversion', value: '$4,050,000', pct: '27.1%' },
-                  { label: 'Medical Equipment', value: '$750,000', pct: '5.0%' },
-                  { label: 'FF&E', value: '$600,000', pct: '4.0%' },
-                  { label: 'Technology Platform', value: '$1,230,000', pct: '8.2%' },
-                  { label: 'Working Capital & Reserves', value: '$2,223,500', pct: '14.9%' },
+                  { label: 'Property Acquisition', value: '$10,900,000', pct: '70.0%' },
+                  { label: 'Working Capital', value: '$1,126,000', pct: '7.2%' },
+                  { label: 'Renovation & Conversion', value: '$1,000,000', pct: '6.4%' },
+                  { label: 'Contingency', value: '$847,500', pct: '5.4%' },
+                  { label: 'Technology', value: '$750,000', pct: '4.8%' },
+                  { label: 'Medical + Biohacking', value: '$750,000', pct: '4.8%' },
+                  { label: 'Pre-Opening', value: '$200,000', pct: '1.3%' },
                 ].map((item) => (
                   <div key={item.label} className="flex justify-between items-center py-2 border-b border-neutral-100 last:border-0">
                     <span className="text-neutral-700">{item.label}</span>
@@ -147,7 +148,7 @@ export default function PropertiesPage() {
                 <div className="pt-3 border-t-2 border-primary-800">
                   <div className="flex justify-between items-center">
                     <span className="font-medium text-neutral-900">Total Investment</span>
-                    <span className="font-heading text-2xl text-primary-800">$14,953,500</span>
+                    <span className="font-heading text-2xl text-primary-800">$15,573,500</span>
                   </div>
                 </div>
               </div>
@@ -161,7 +162,7 @@ export default function PropertiesPage() {
                   { label: 'Year 3-5 Net Income', value: '$11.8M avg/yr' },
                   { label: '5-Year Net Income', value: '$45.1M' },
                   { label: 'Y5 Enterprise Value', value: '$81.2M' },
-                  { label: 'MOIC (Base)', value: '7.8x' },
+                  { label: 'MOIC (Base)', value: '7.5x' },
                 ].map((item) => (
                   <div key={item.label} className="flex justify-between items-center py-2 border-b border-neutral-100 last:border-0">
                     <span className="text-neutral-700">{item.label}</span>

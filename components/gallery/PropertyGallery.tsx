@@ -203,7 +203,7 @@ function Lightbox({
 // ─────────────────────────────────────────────────────────────
 // Unified Property Showcase (Videos + Gallery)
 // ─────────────────────────────────────────────────────────────
-export function PropertyGallery() {
+export function PropertyGallery({ showVideoReels = true }: { showVideoReels?: boolean } = {}) {
   const [visibleCount, setVisibleCount] = useState(BATCH_SIZE)
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null)
   const sectionRef = useRef<HTMLDivElement>(null)
@@ -269,9 +269,11 @@ export function PropertyGallery() {
         </motion.div>
 
         {/* ── Video Reels ── */}
-        <div className="mb-16 sm:mb-24">
-          <VideoSlider />
-        </div>
+        {showVideoReels && (
+          <div className="mb-16 sm:mb-24">
+            <VideoSlider />
+          </div>
+        )}
 
         {/* ── Photo Gallery ── */}
         <div className="w-full sm:w-[70vw] mx-auto px-5 sm:px-0 relative">

@@ -70,10 +70,10 @@ export const PROPERTIES: Property[] = [
       maxGuestsPerYear: 1280, // 57 effective rooms × 365 days / 13-day avg stay × 80% occ
     },
     acquisition: {
-      askingPrice: 5800000,
-      negotiatedPrice: 5800000,
-      closingCosts: 350000,
-      totalAcquisitionCost: 6150000,
+      askingPrice: 11900000,
+      negotiatedPrice: 10900000,
+      closingCosts: 0,
+      totalAcquisitionCost: 10900000,
     },
     imageUrl: '/images/properties/hotel-alea-tulum.jpg',
   },
@@ -89,9 +89,9 @@ export const DASHBOARD_METRICS: DashboardMetrics = {
   recommendation: 'PROCEED',
   averageDailyRate: 2000,
   keyMetrics: {
-    acquisitionPrice: 5800000,
-    totalProjectCost: 14953500,
-    costPerRoom: 249225, // $14,953,500 / 60 rooms at full build
+    acquisitionPrice: 10900000,
+    totalProjectCost: 15573500,
+    costPerRoom: 259558, // $15,573,500 / 60 rooms at full build
     revenue: {
       year1: { conservative: 8240000, base: 10300000, aggressive: 11330000 },
       year3: { conservative: 21040000, base: 26300000, aggressive: 28930000 },
@@ -99,7 +99,7 @@ export const DASHBOARD_METRICS: DashboardMetrics = {
       fiveYearTotal: { conservative: 96560000, base: 120700000, aggressive: 132770000 },
     },
     projectIRR: { conservative: 0.66, base: 0.78, aggressive: 0.87 },
-    fiveYearMOIC: { conservative: 5.5, base: 7.8, aggressive: 10.0 },
+    fiveYearMOIC: { conservative: 5.3, base: 7.5, aggressive: 9.6 },
   },
 }
 
@@ -359,52 +359,52 @@ export const UNIT_ECONOMICS: UnitEconomics = {
 }
 
 // Investment returns - updated for casita phasing model
-// Total investment: $14,953,500 | Y5 EV (base): $81.2M | MOIC: 7.8x
+// Total investment: $15,573,500 | Y5 EV (base): $81.2M | MOIC: 7.5x
 // 5-year cumulative net income: ~$45.1M
 export const INVESTMENT_RETURNS: InvestmentReturns = {
-  totalCapitalRequired: 14953500,
-  equityInvestment: 14953500,
+  totalCapitalRequired: 15573500,
+  equityInvestment: 15573500,
   debtFinancing: 0,
   yearlyReturns: [
     {
       year: 1,
-      totalInvestment: 14953500,
+      totalInvestment: 15573500,
       annualNetIncome: 2537260,
       cumulativeNetIncome: 2537260,
-      roiCumulative: 0.170,
-      roiAnnualized: 0.170,
+      roiCumulative: 0.163,
+      roiAnnualized: 0.163,
     },
     {
       year: 2,
-      totalInvestment: 14953500,
+      totalInvestment: 15573500,
       annualNetIncome: 7052462,
       cumulativeNetIncome: 9589722,
-      roiCumulative: 0.641,
-      roiAnnualized: 0.321,
+      roiCumulative: 0.616,
+      roiAnnualized: 0.308,
     },
     {
       year: 3,
-      totalInvestment: 14953500,
+      totalInvestment: 15573500,
       annualNetIncome: 10144819,
       cumulativeNetIncome: 19734541,
-      roiCumulative: 1.320,
-      roiAnnualized: 0.440,
+      roiCumulative: 1.267,
+      roiAnnualized: 0.422,
     },
     {
       year: 4,
-      totalInvestment: 14953500,
+      totalInvestment: 15573500,
       annualNetIncome: 11947674,
       cumulativeNetIncome: 31682215,
-      roiCumulative: 2.119,
-      roiAnnualized: 0.530,
+      roiCumulative: 2.034,
+      roiAnnualized: 0.509,
     },
     {
       year: 5,
-      totalInvestment: 14953500,
+      totalInvestment: 15573500,
       annualNetIncome: 13420452,
       cumulativeNetIncome: 45102667,
-      roiCumulative: 3.016,
-      roiAnnualized: 0.603,
+      roiCumulative: 2.896,
+      roiAnnualized: 0.579,
     },
   ],
   npv: {
@@ -413,18 +413,17 @@ export const INVESTMENT_RETURNS: InvestmentReturns = {
     rate15: 13400000,
   },
   irr: { conservative: 0.66, base: 0.78, aggressive: 0.87 },
-  moic: { conservative: 5.5, base: 7.8, aggressive: 10.0 },
+  moic: { conservative: 5.3, base: 7.5, aggressive: 9.6 },
 }
 
 // Use of funds from valuation report Section 6
-// Total: $14,953,500
+// Total: $15,573,500
 export const USE_OF_FUNDS: UseOfFunds[] = [
-  { category: 'Property Acquisition', amount: 6150000, percentage: 41.1, description: '$5.8M purchase + $350K closing/legal/diligence' },
-  { category: 'Renovation & Conversion', amount: 4050000, percentage: 27.1, description: 'Medical suites, treatment rooms, kitchen, bio-optimization center' },
-  { category: 'Technology', amount: 1230000, percentage: 8.2, description: '$1M AI platform + $230K physical infrastructure' },
-  { category: 'Working Capital', amount: 1126000, percentage: 7.5, description: 'Operating runway' },
-  { category: 'Contingency', amount: 847500, percentage: 5.7, description: 'Risk buffer (15%)' },
-  { category: 'Medical Equipment', amount: 750000, percentage: 5.0, description: 'ICU/monitoring, diagnostic, IV systems, pharmacy' },
-  { category: 'FF&E', amount: 600000, percentage: 4.0, description: 'Furniture, fixtures, equipment' },
+  { category: 'Property Acquisition', amount: 10900000, percentage: 70.0, description: '$11.9M asking, negotiated to $10.9M (all-in)' },
+  { category: 'Working Capital', amount: 1126000, percentage: 7.2, description: 'Operating runway' },
+  { category: 'Renovation & Conversion', amount: 1000000, percentage: 6.4, description: 'Renovations to make property operational' },
+  { category: 'Contingency', amount: 847500, percentage: 5.4, description: 'Risk buffer' },
+  { category: 'Technology', amount: 750000, percentage: 4.8, description: 'Tech development' },
+  { category: 'Medical + Biohacking', amount: 750000, percentage: 4.8, description: 'ICU/monitoring, diagnostic, IV systems, biohacking equipment' },
   { category: 'Pre-Opening', amount: 200000, percentage: 1.3, description: 'Licensing, training, soft launch' },
 ]

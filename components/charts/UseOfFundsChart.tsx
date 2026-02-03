@@ -12,7 +12,6 @@ const COLORS = [
   '#b39347', // secondary-500
   '#4d9f9a', // primary-400
   '#80bbb8', // primary-300
-  '#a8a89e', // neutral-400
 ]
 
 interface UseOfFundsChartProps {

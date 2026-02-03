@@ -8,8 +8,9 @@ import { Menu, X, ChevronDown, ArrowUpRight } from 'lucide-react'
 
 const NAV_SECTIONS = [
   {
-    title: 'The Story',
+    title: 'Story',
     links: [
+      { name: 'Vision', href: '/' },
       { name: 'The Origin', href: '/story/origin' },
       { name: 'The Solution', href: '/story/solution' },
       { name: 'The Experience', href: '/story/experience' },
@@ -21,11 +22,11 @@ const NAV_SECTIONS = [
   {
     title: 'Opportunity',
     links: [
-      { name: 'Vision', href: '/' },
       { name: 'Market', href: '/market' },
       { name: 'Model', href: '/model' },
       { name: 'Moat', href: '/moat' },
       { name: 'Expansion', href: '/expansion' },
+      { name: 'Villas', href: '/villas' },
     ],
   },
   {
@@ -45,6 +46,7 @@ const NAV_SECTIONS = [
       { name: 'Returns', href: '/returns' },
       { name: 'Risks', href: '/risks' },
       { name: 'Timeline', href: '/timeline' },
+      { name: 'The Ask', href: '/invest' },
     ],
   },
   {
@@ -62,13 +64,13 @@ export function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
-  const [expandedMobileSections, setExpandedMobileSections] = useState<Set<string>>(new Set(['The Story']))
+  const [expandedMobileSections, setExpandedMobileSections] = useState<Set<string>>(new Set(['Story']))
   const timeoutRef = useRef<NodeJS.Timeout | null>(null)
   const pathname = usePathname()
 
   // Reorder sections for mobile: "The Story" first
   const mobileNavSections = [
-    NAV_SECTIONS.find(s => s.title === 'The Story')!,
+    NAV_SECTIONS.find(s => s.title === 'Story')!,
     ...NAV_SECTIONS.filter(s => s.title !== 'The Story'),
   ]
 

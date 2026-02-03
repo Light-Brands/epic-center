@@ -309,7 +309,7 @@ export default function TechnologyPage() {
           >
             <div className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
               <Database className="w-5 h-5 text-secondary-400" />
-              <span className="font-accent text-sm text-white">$1.23M Platform Investment</span>
+              <span className="font-accent text-sm text-white">$750K Platform Investment</span>
             </div>
             <div className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
               <Server className="w-5 h-5 text-secondary-400" />
@@ -734,9 +734,9 @@ export default function TechnologyPage() {
                 <h3 className="font-heading text-xl mb-6">Key Metrics</h3>
                 <div className="space-y-4">
                   {[
-                    { label: 'Total Technology CapEx', value: '$1,230,000' },
+                    { label: 'Total Technology CapEx', value: '$750,000' },
                     { label: 'Annual Technology OpEx', value: '$228,000' },
-                    { label: 'Percentage of Total Raise', value: '8.2%' },
+                    { label: 'Percentage of Total Raise', value: '4.8%' },
                     { label: 'Engineering Team', value: '2 FTE' },
                     { label: 'Integrated Systems', value: '14' },
                     { label: 'D&A (Technology)', value: '$200,000/yr' },
@@ -758,8 +758,8 @@ export default function TechnologyPage() {
                   <div>
                     <h4 className="font-medium text-neutral-900 mb-2">Financial Model Integrity</h4>
                     <p className="text-sm text-neutral-600 leading-relaxed">
-                      Technology costs are fully integrated into the financial model. The $1.23M CapEx
-                      is reflected in the total raise of $14.95M. Annual OpEx of $228K is included in
+                      Technology costs are fully integrated into the financial model. The $750K CapEx
+                      is reflected in the total raise of $15.57M. Annual OpEx of $228K is included in
                       operating expenses across all P&L projections. D&A of $200K/yr (5-year straight-line)
                       is captured in the depreciation schedule.
                     </p>
@@ -828,7 +828,7 @@ export default function TechnologyPage() {
                 >
                   {[
                     { value: '60%', label: 'Cost Reduction', sublabel: 'Per additional site' },
-                    { value: '$1.23M', label: 'Initial Build', sublabel: 'Flagship investment' },
+                    { value: '$750K', label: 'Initial Build', sublabel: 'Flagship investment' },
                     { value: '~$500K', label: 'Subsequent Sites', sublabel: 'Marginal tech cost' },
                     { value: '14', label: 'Shared Systems', sublabel: 'Cross-location' },
                   ].map((stat) => (
@@ -868,7 +868,7 @@ export default function TechnologyPage() {
             See How the Numbers Work
           </h2>
           <p className="text-xl text-primary-200 mb-12 max-w-2xl mx-auto leading-relaxed">
-            The $1.23M technology investment is fully integrated into our financial projections.
+            The $750K technology investment is fully integrated into our financial projections.
             Explore the complete model.
           </p>
           <div className="flex flex-wrap justify-center gap-4">

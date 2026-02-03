@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { ArrowLeft, ArrowRight } from 'lucide-react'
+import { ArrowLeft, ArrowRight, ExternalLink } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
 import { Footer } from '@/components/layout'
 
@@ -16,12 +16,67 @@ export default function MarketPage() {
             The Opportunity
           </p>
           <h2 className="text-5xl md:text-6xl lg:text-7xl font-heading text-neutral-900 mb-6">
-            $5.6 Trillion
+            ~$5 Trillion
           </h2>
-          <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
-            The global cost of mental health disorders creates an unprecedented market opportunity
-            for effective, transformational treatment solutions.
+          <p className="text-xl text-neutral-600 max-w-3xl mx-auto mb-4">
+            The global economic burden of mental health disorders creates an unprecedented market
+            opportunity for effective, transformational treatment solutions.
           </p>
+          <a
+            href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9526145/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-sm text-primary-600 hover:text-primary-800 transition-colors"
+          >
+            Source: Arias, Saxena &amp; Verguet, The Lancet eClinicalMedicine (2022)
+            <ExternalLink className="w-3.5 h-3.5" />
+          </a>
+        </section>
+
+        {/* Cost Breakdown */}
+        <section className="mb-16">
+          <div className="grid md:grid-cols-3 gap-6 mb-6">
+            {[
+              {
+                value: '$1T',
+                label: 'Depression & Anxiety',
+                description: 'Annual lost productivity from depression and anxiety alone',
+                source: 'WHO, 2024',
+                href: 'https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work',
+              },
+              {
+                value: '$740B+',
+                label: 'Substance Use Disorders',
+                description: 'Annual economic cost in the US alone from alcohol, drugs, and tobacco',
+                source: 'NIDA / Georgetown HPI',
+                href: 'https://hpi.georgetown.edu/abuse/',
+              },
+              {
+                value: '$16T',
+                label: 'Projected by 2030',
+                description: 'Cumulative global economic impact of mental disorders by 2030',
+                source: 'Lancet Commission',
+                href: 'https://www.psychiatrictimes.com/view/mental-illness-will-cost-world-16-usd-trillion-2030',
+              },
+            ].map((item) => (
+              <Card key={item.label} padding="lg" className="text-center">
+                <p className="font-heading text-4xl text-neutral-900 mb-1">{item.value}</p>
+                <p className="font-accent text-sm text-primary-600 uppercase tracking-wide mb-2">
+                  {item.label}
+                </p>
+                <p className="text-sm text-neutral-600 mb-3">{item.description}</p>
+                <a
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-xs text-neutral-400 hover:text-primary-600 transition-colors"
+                >
+                  {item.source}
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+              </Card>
+            ))}
+          </div>
         </section>
 
         {/* Market Size Breakdown */}
@@ -106,7 +161,7 @@ export default function MarketPage() {
               </div>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { value: '$5.6T', label: 'Annual Cost', sublabel: 'Global economic burden' },
+                  { value: '~$5T', label: 'Annual Cost', sublabel: 'Global economic burden' },
                   { value: '15%', label: 'Success Rate', sublabel: 'Traditional addiction treatment' },
                   { value: '6.7%', label: 'Market Growth', sublabel: 'Mental health services CAGR' },
                   { value: '$10.75B', label: 'Psychedelic Market', sublabel: 'Projected by 2027' },
