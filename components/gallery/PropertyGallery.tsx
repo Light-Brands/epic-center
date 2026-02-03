@@ -31,23 +31,6 @@ const sectionFade = {
   },
 }
 
-const gridContainer = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: { staggerChildren: 0.04, delayChildren: 0.1 },
-  },
-}
-
-const gridItem = {
-  hidden: { opacity: 0, y: 20, scale: 0.97 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    scale: 1,
-    transition: { duration: 0.5, ease: [0.16, 1, 0.3, 1] },
-  },
-}
 
 // ─────────────────────────────────────────────────────────────
 // Lightbox Component
@@ -280,7 +263,7 @@ export function PropertyGallery() {
           </h2>
 
           <p className="text-base sm:text-lg text-neutral-500 max-w-2xl mx-auto leading-relaxed">
-            A 30-room luxury jungle compound in Akumal, Riviera Maya — where clinical
+            A 15-room luxury jungle compound in Akumal, Riviera Maya — where clinical
             excellence meets natural paradise.
           </p>
         </motion.div>
@@ -307,18 +290,21 @@ export function PropertyGallery() {
           </motion.div>
 
           {/* Image Grid */}
-          <motion.div
+          <div
             ref={gridRef}
             className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-3 md:gap-4"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.1 }}
-            variants={gridContainer}
           >
             {visible.map((img, idx) => (
               <motion.div
                 key={img.id}
-                variants={gridItem}
+                initial={{ opacity: 0, y: 20, scale: 0.97 }}
+                whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{
+                  duration: 0.5,
+                  ease: [0.16, 1, 0.3, 1],
+                  delay: (idx % BATCH_SIZE) * 0.04,
+                }}
                 layout
               >
                 <button
@@ -348,7 +334,7 @@ export function PropertyGallery() {
                 </button>
               </motion.div>
             ))}
-          </motion.div>
+          </div>
 
           {/* Show More Button */}
           {hasMore && (
