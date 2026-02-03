@@ -3,7 +3,7 @@
 import { useState, useCallback, useEffect } from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { ArrowLeft, ArrowRight, FileText, Eye as EyeIcon, Lock, Folder, Mail, Delete, Check } from 'lucide-react'
+import { ArrowLeft, ArrowRight, FileText, Eye as EyeIcon, Lock, Folder, Mail, Delete, Check, Sheet, ExternalLink } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
 import { Footer } from '@/components/layout'
 
@@ -27,6 +27,7 @@ const DOCUMENT_CATEGORIES = [
       { name: 'Unit Economics Model', slug: 'financial/unit-economics-model', doc: '07' },
       { name: 'Sensitivity Analysis', slug: 'financial/sensitivity-analysis', doc: '08' },
       { name: 'Cap Table', slug: 'financial/cap-table', doc: '09' },
+      { name: 'Financial Model Spreadsheet', slug: 'financial/financial-model-spreadsheet', doc: '23', type: 'sheets' as const, externalUrl: 'https://docs.google.com/spreadsheets/d/1Z0_N_V2gM-0rpW3IP9oRO12nmj51XwcTV_9R9fNsyWo/edit?usp=drivesdk' },
       { name: 'Valuation Report (IPEV 9-Method)', slug: 'financial/valuation-report', doc: '22' },
     ],
   },
@@ -369,26 +370,48 @@ export default function DataRoomPage() {
                   <h4 className="text-xl font-heading text-neutral-900">{category.name}</h4>
                 </div>
                 <div className="divide-y divide-neutral-200">
-                  {category.documents.map((doc) => (
-                    <div key={doc.name} className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 py-4">
-                      <div className="flex items-start gap-4 min-w-0">
-                        <div className="w-10 h-10 shrink-0 rounded-lg flex items-center justify-center bg-primary-50">
-                          <FileText className="w-5 h-5 text-primary-600" />
+                  {category.documents.map((doc) => {
+                    const isSheets = 'type' in doc && doc.type === 'sheets'
+                    return (
+                      <div key={doc.name} className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 py-4">
+                        <div className="flex items-start gap-4 min-w-0">
+                          <div className={`w-10 h-10 shrink-0 rounded-lg flex items-center justify-center ${isSheets ? 'bg-green-50' : 'bg-primary-50'}`}>
+                            {isSheets ? (
+                              <Sheet className="w-5 h-5 text-green-600" />
+                            ) : (
+                              <FileText className="w-5 h-5 text-primary-600" />
+                            )}
+                          </div>
+                          <div className="min-w-0">
+                            <p className="font-medium text-neutral-900">{doc.name}</p>
+                            <p className="text-xs text-neutral-500 font-accent uppercase tracking-wide mt-0.5">
+                              {isSheets ? 'Google Sheets' : `Document ${doc.doc}`}
+                            </p>
+                          </div>
                         </div>
-                        <div className="min-w-0">
-                          <p className="font-medium text-neutral-900">{doc.name}</p>
-                          <p className="text-xs text-neutral-500 font-accent uppercase tracking-wide mt-0.5">Document {doc.doc}</p>
+                        <div className="flex items-center gap-2">
+                          {isSheets && 'externalUrl' in doc && (
+                            <a
+                              href={doc.externalUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="shrink-0 inline-flex items-center justify-center gap-2 font-accent font-semibold uppercase text-xs tracking-wider px-4 py-2.5 rounded-lg bg-transparent text-neutral-600 border-2 border-neutral-300 hover:border-neutral-500 hover:text-neutral-800 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2"
+                            >
+                              <ExternalLink className="w-4 h-4" />
+                              Google Sheets
+                            </a>
+                          )}
+                          <Link
+                            href={`/data-room/view/${doc.slug}`}
+                            className="shrink-0 inline-flex items-center justify-center gap-2 font-accent font-semibold uppercase text-xs tracking-wider px-5 py-2.5 rounded-lg bg-transparent text-primary-800 border-2 border-primary-800 hover:bg-primary-800 hover:text-white transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2"
+                          >
+                            <EyeIcon className="w-4 h-4" />
+                            View
+                          </Link>
                         </div>
                       </div>
-                      <Link
-                        href={`/data-room/view/${doc.slug}`}
-                        className="shrink-0 inline-flex items-center justify-center gap-2 font-accent font-semibold uppercase text-xs tracking-wider px-5 py-2.5 rounded-lg bg-transparent text-primary-800 border-2 border-primary-800 hover:bg-primary-800 hover:text-white transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2"
-                      >
-                        <EyeIcon className="w-4 h-4" />
-                        View
-                      </Link>
-                    </div>
-                  ))}
+                    )
+                  })}
                 </div>
               </Card>
             ))}
