@@ -450,11 +450,13 @@ export default function DataRoomPage() {
                   <p className="text-primary-200 mb-4">
                     Questions about the data room or investment opportunity?
                   </p>
-                  <Button variant="accent" size="lg">
-                    Contact Investor Relations
-                  </Button>
+                  <a href="mailto:nicholas@lightbrands.ai">
+                    <Button variant="accent" size="lg">
+                      Contact Investor Relations
+                    </Button>
+                  </a>
                   <p className="text-sm text-primary-300 mt-4">
-                    invest@transformational-epicenter.com
+                    nicholas@lightbrands.ai
                   </p>
                 </div>
               </div>
