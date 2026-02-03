@@ -274,7 +274,7 @@ flowchart TB
 
 ```mermaid
 flowchart TB
-    subgraph T1["TIER 1: FOUNDATIONAL — Daily Use"]
+    subgraph T1["TIER 1: FOUNDATIONAL - Daily Use"]
         F1["HBOT<br/>1.5-2.0 ATA"]
         F2["Infrared Sauna<br/>Full spectrum"]
         F3["Cryotherapy<br/>Whole body"]
@@ -283,14 +283,14 @@ flowchart TB
         F6["PEMF<br/>Full body mats"]
     end
 
-    subgraph T2["TIER 2: ADVANCED — Prescribed"]
+    subgraph T2["TIER 2: ADVANCED - Prescribed"]
         A1["IV Therapy<br/>NAD+, glutathione"]
         A2["Neurofeedback<br/>EEG-based"]
         A3["Ozone Therapy<br/>Medical-grade"]
         A4["Photobiomodulation<br/>Transcranial"]
     end
 
-    subgraph T3["TIER 3: CUTTING EDGE — Research Phase"]
+    subgraph T3["TIER 3: CUTTING EDGE - Research Phase"]
         C1["Exosome<br/>Therapy"]
         C2["Senolytics<br/>Protocols"]
         C3["Peptide<br/>Optimization"]
@@ -413,7 +413,7 @@ flowchart LR
 
 | Action | Details |
 |--------|---------|
-| **Secure Prime Location** | Quintana Roo, Mexico — 50+ acres, ocean access, private airstrip, ibogaine legal |
+| **Secure Prime Location** | Quintana Roo, Mexico: 50+ acres, ocean access, private airstrip, ibogaine legal |
 | **Assemble Dream Team** | CEO (Aman/Four Seasons), CMO (academic medicine), COO (resort ops), Medical Director (plant medicine + longevity) |
 | **Build Flagship Facility** | 20 private villas, medical center with ICU, biohacking center, ceremonial spaces, Michelin culinary |
 | **Develop Proprietary Protocols** | Document "Transformational Epicenter Method," signature combinations, outcome framework, AI personalization |
@@ -435,7 +435,7 @@ flowchart LR
 
 | Action | Details |
 |--------|---------|
-| **Geographic Expansion** | Portugal (Europe), Thailand/Bali (Asia-Pacific) — culturally adapted, protocol-consistent |
+| **Geographic Expansion** | Portugal (Europe), Thailand/Bali (Asia-Pacific), culturally adapted, protocol-consistent |
 | **Ecosystem Development** | At-home biohacking products, digital therapeutics, practitioner institute, research foundation |
 | **Vertical Integration** | Testing laboratory, supplement formulation, technology investments, financing solutions |
 | **Category Ownership** | Define industry standards, train next generation, own the narrative |
@@ -541,7 +541,7 @@ flowchart TB
 
 | Competitor Type | Likely Response | Why They Can't Win |
 |-----------------|-----------------|-------------------|
-| **Medical Clinics** (SHA, Clinique La Prairie) | Add "wellness" programming | Can't add plant medicine — brand/regulatory risk too high |
+| **Medical Clinics** (SHA, Clinique La Prairie) | Add "wellness" programming | Can't add plant medicine: brand/regulatory risk too high |
 | **Luxury Resorts** (Aman, Six Senses) | Partner with wellness providers | Surface integration can't match purpose-built facility |
 | **Plant Medicine Centers** (Beond, Rythmia) | Upgrade facilities | Lack hospitality DNA and medical infrastructure |
 | **Biohacking Centers** (Upgrade Labs) | Add medical services | Wrong business model, no luxury, no plant medicine |
@@ -655,7 +655,7 @@ flowchart LR
 ```mermaid
 flowchart TB
     subgraph INSIGHT["💡 THE INSIGHT"]
-        I["No competitor integrates all four pillars<br/>Not because they can't — because they WON'T"]
+        I["No competitor integrates all four pillars<br/>Not because they can't, because they WON'T"]
     end
 
     subgraph STRATEGY["🎯 THE STRATEGY"]

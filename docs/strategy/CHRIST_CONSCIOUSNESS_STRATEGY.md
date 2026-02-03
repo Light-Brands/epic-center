@@ -225,11 +225,11 @@ The shadow contains everything you have rejected about yourself: your rage, your
 
 **Shadow Work Protocol:**
 
-1. **Identify triggers** — When you have strong negative reactions, the shadow is speaking
-2. **Own the projection** — What you judge in others exists within you
-3. **Feel the original wound** — Behind every shadow is unprocessed pain
-4. **Reclaim the gift** — Every shadow quality has a light expression (rage → power, neediness → intimacy)
-5. **Integrate through compassion** — Welcome the exiled parts home
+1. **Identify triggers:**When you have strong negative reactions, the shadow is speaking
+2. **Own the projection:**What you judge in others exists within you
+3. **Feel the original wound:**Behind every shadow is unprocessed pain
+4. **Reclaim the gift:**Every shadow quality has a light expression (rage → power, neediness → intimacy)
+5. **Integrate through compassion:**Welcome the exiled parts home
 
 *Warning: Shadow work should be supported by skilled practitioners. Going alone into deep trauma can be retraumatizing.*
 
@@ -285,13 +285,13 @@ The greatest challenge is not touching the infinite—it is staying there. Most 
 
 Abiding is not about effort—it is about position. Adopt this inner stance:
 
-1. **Consent continuously** — Say yes to life as it is
-2. **Return always** — When lost, gently return to presence (no self-criticism)
-3. **Trust completely** — Surrender the need to control outcomes
-4. **Love unconditionally** — Extend love especially when it is difficult
-5. **Serve naturally** — Allow gifts to flow outward without agenda
-6. **Remain humble** — The one who knows does not boast
-7. **Stay curious** — Awakening has no ceiling
+1. **Consent continuously:**Say yes to life as it is
+2. **Return always:**When lost, gently return to presence (no self-criticism)
+3. **Trust completely:**Surrender the need to control outcomes
+4. **Love unconditionally:**Extend love especially when it is difficult
+5. **Serve naturally:**Allow gifts to flow outward without agenda
+6. **Remain humble:**The one who knows does not boast
+7. **Stay curious:**Awakening has no ceiling
 
 ---
 
@@ -458,11 +458,11 @@ When you stabilize in Christ consciousness:
 
 With awakening comes responsibility:
 
-1. **You must embody what you have seen** — Knowing truth and not living it creates suffering
-2. **You must serve others** — Awakening that does not flow outward stagnates
-3. **You must remain humble** — Spiritual pride is a fall from grace
-4. **You must continue growing** — Awakening has no end point
-5. **You must honor the path** — Respecting what has given you so much
+1. **You must embody what you have seen:**Knowing truth and not living it creates suffering
+2. **You must serve others:**Awakening that does not flow outward stagnates
+3. **You must remain humble:**Spiritual pride is a fall from grace
+4. **You must continue growing:**Awakening has no end point
+5. **You must honor the path:**Respecting what has given you so much
 
 ---
 
@@ -472,41 +472,41 @@ With awakening comes responsibility:
 
 You will lose the state. Repeatedly. This is normal. When it happens:
 
-1. **Don't criticize yourself** — Self-attack reinforces separation
-2. **Notice what preceded the loss** — Learn your triggers
-3. **Return to basics** — Breath, body, present moment
-4. **Reach out** — Contact spiritual friend or teacher
-5. **Recommit** — Renew your intention without drama
+1. **Don't criticize yourself:**Self-attack reinforces separation
+2. **Notice what preceded the loss:**Learn your triggers
+3. **Return to basics:**Breath, body, present moment
+4. **Reach out:**Contact spiritual friend or teacher
+5. **Recommit:**Renew your intention without drama
 
 ### When Practice Feels Dry
 
 All seekers experience the "dark night"—periods when practice feels meaningless and connection disappears:
 
-1. **Continue anyway** — Practice is not about feeling good
-2. **Simplify** — Return to most basic practice
-3. **Be patient** — This is a purification, not a failure
-4. **Seek support** — You are not meant to walk alone
-5. **Trust** — The dawn follows the night
+1. **Continue anyway:**Practice is not about feeling good
+2. **Simplify:**Return to most basic practice
+3. **Be patient:**This is a purification, not a failure
+4. **Seek support:**You are not meant to walk alone
+5. **Trust:**The dawn follows the night
 
 ### When Life Overwhelms
 
 External circumstances can challenge even stable awakening:
 
-1. **Increase practice** — This is when you need it most
-2. **Reduce demands** — Permission to do less
-3. **Seek support** — Human connection matters
-4. **Remember impermanence** — This too shall pass
-5. **Find the teaching** — What is life asking you to learn?
+1. **Increase practice:**This is when you need it most
+2. **Reduce demands:**Permission to do less
+3. **Seek support:**Human connection matters
+4. **Remember impermanence:**This too shall pass
+5. **Find the teaching:**What is life asking you to learn?
 
 ### When the Ego Returns
 
 The ego does not die—it becomes transparent. When it reasserts:
 
-1. **Notice without judgment** — "Ah, there's the ego"
-2. **Don't fight it** — Resistance strengthens it
-3. **Shift to witness** — Observe the ego's performance
-4. **Choose again** — Return to love
-5. **Laugh if possible** — The ego is absurd
+1. **Notice without judgment:**"Ah, there's the ego"
+2. **Don't fight it:**Resistance strengthens it
+3. **Shift to witness:**Observe the ego's performance
+4. **Choose again:**Return to love
+5. **Laugh if possible:**The ego is absurd
 
 ---
 
