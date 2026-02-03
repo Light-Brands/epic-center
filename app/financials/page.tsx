@@ -387,9 +387,9 @@ export default function FinancialsPage() {
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
             <span className="font-accent text-sm uppercase tracking-wide">Team</span>
           </Link>
-          <Link href="/returns">
+          <Link href="/risks">
             <Button variant="primary">
-              View Returns
+              Risk Factors
               <ArrowRight className="ml-2 w-4 h-4" />
             </Button>
           </Link>
