@@ -77,13 +77,13 @@ export default function VirtualTourPage() {
       <div className="w-full sm:w-[70vw] mx-auto py-12">
         {/* Page Navigation */}
         <div className="flex justify-between items-center pt-8 border-t border-neutral-200">
-          <Link href="/properties/riviera-maya-jungle-estate" className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors">
+          <Link href="/technology/data" className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors">
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-            <span className="font-accent text-sm uppercase tracking-wide">The Property</span>
+            <span className="font-accent text-sm uppercase tracking-wide">Data & Intelligence</span>
           </Link>
-          <Link href="/technology">
+          <Link href="/gallery">
             <Button variant="primary">
-              The Platform
+              Gallery
               <ArrowRight className="ml-2 w-4 h-4" />
             </Button>
           </Link>
