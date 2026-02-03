@@ -1,15 +1,15 @@
 # Transformational Epicenter
-## Investment Platform — Design System v1.0
+## Investment Platform - Design System v1.0
 
 ---
 
 ## Brand Essence
 
 **Transformational Epicenter** represents the intersection of:
-- **Medical Excellence** — Trust, precision, safety
-- **Luxury Hospitality** — Warmth, care, sophistication
-- **Spiritual Depth** — Reverence, meaning, transformation
-- **Natural Healing** — Organic, grounded, alive
+- **Medical Excellence** -Trust, precision, safety
+- **Luxury Hospitality** -Warmth, care, sophistication
+- **Spiritual Depth** -Reverence, meaning, transformation
+- **Natural Healing** -Organic, grounded, alive
 
 The design must feel **premium without pretension**, **clinical without coldness**, **spiritual without woo**.
 
@@ -453,10 +453,10 @@ Grid: rgba(255, 255, 255, 0.1)
 ## Animation Guidelines
 
 ### Principles
-1. **Purposeful** — Every animation communicates something
-2. **Subtle** — Enhance, don't distract
-3. **Responsive** — Respect reduced-motion preferences
-4. **Performant** — GPU-accelerated transforms only
+1. **Purposeful** -Every animation communicates something
+2. **Subtle** -Enhance, don't distract
+3. **Responsive** -Respect reduced-motion preferences
+4. **Performant** -GPU-accelerated transforms only
 
 ### Timing
 

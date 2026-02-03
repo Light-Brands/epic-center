@@ -1,5 +1,5 @@
 # Transformational Epicenter
-## Global Investment Platform — Technical Plan v2.0
+## Global Investment Platform -Technical Plan v2.0
 
 **"Bringing the lost travelers home to gardens of their hearts and souls"**
 
@@ -7,7 +7,7 @@
 
 ## Overview
 
-This is not a property comparison tool. This is the **definitive digital pitch experience** for a $1 trillion market opportunity — a platform that tells the complete story of Transformational Epicenter, from vision to execution, from Mexico to 30 locations worldwide.
+This is not a property comparison tool. This is the **definitive digital pitch experience** for a $1 trillion market opportunity, a platform that tells the complete story of Transformational Epicenter, from vision to execution, from Mexico to 30 locations worldwide.
 
 **When an investor or partner opens this platform, they should feel:**
 - The magnitude of the opportunity
@@ -26,7 +26,7 @@ This is not a property comparison tool. This is the **definitive digital pitch e
 │                    THE TRANSFORMATIONAL EPICENTER                           │
 │                         INVESTMENT PLATFORM                                 │
 │                                                                             │
-│                   16 SECTIONS — ZERO UNANSWERED QUESTIONS                   │
+│                   16 SECTIONS -ZERO UNANSWERED QUESTIONS                   │
 │                                                                             │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │

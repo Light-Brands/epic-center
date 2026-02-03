@@ -90,22 +90,22 @@ const BELIEFS = [
   {
     title: 'The Body Keeps the Score',
     description:
-      'Transformation is not merely cognitive. It is somatic. Neurological. Cellular. Our protocols honor the body as the primary vessel of healing\u2014supporting it with medical precision and nurturing it with exceptional care.',
+      'Transformation is not merely cognitive. It is somatic. Neurological. Cellular. Our protocols honor the body as the primary vessel of healing, supporting it with medical precision and nurturing it with exceptional care.',
   },
   {
     title: 'Safety Creates Surrender',
     description:
-      'The nervous system cannot heal in a state of vigilance. We create environments of profound safety\u2014medical, physical, emotional, and spiritual\u2014so guests can fully surrender to their process.',
+      'The nervous system cannot heal in a state of vigilance. We create environments of profound safety, medical, physical, emotional, and spiritual, so guests can fully surrender to their process.',
   },
   {
     title: 'Medicine is a Catalyst, Not a Destination',
     description:
-      'Plant medicine can open doors that years of therapy cannot. But the medicine alone is not the transformation. The real work is the integration\u2014anchoring insights into daily life, identity, and purpose.',
+      'Plant medicine can open doors that years of therapy cannot. But the medicine alone is not the transformation. The real work is the integration, anchoring insights into daily life, identity, and purpose.',
   },
   {
     title: 'Luxury is Love Made Material',
     description:
-      'We reject the false dichotomy between spiritual depth and material comfort. Luxury at Transformational Epicenter is not indulgence\u2014it is the physical expression of care. Every thread count, every meal, every design choice says: \u201CYou are worth this attention.\u201D',
+      'We reject the false dichotomy between spiritual depth and material comfort. Luxury at Transformational Epicenter is not indulgence, it is the physical expression of care. Every thread count, every meal, every design choice says: \u201CYou are worth this attention.\u201D',
   },
   {
     title: 'Transformation Requires a Continuum',
@@ -115,7 +115,7 @@ const BELIEFS = [
   {
     title: 'Community Sustains Change',
     description:
-      'Individual transformation flourishes within supportive community. We build containers for ongoing connection\u2014both digital and physical\u2014so no one walks the integration path alone.',
+      'Individual transformation flourishes within supportive community. We build containers for ongoing connection, both digital and physical, so no one walks the integration path alone.',
   },
 ]
 
@@ -128,7 +128,7 @@ const VALUES = [
   {
     icon: '/icons/model-sparkles.png',
     name: 'Transformation',
-    description: 'Deep, lasting change at the root\u2014not just symptom management or temporary relief.',
+    description: 'Deep, lasting change at the root, not just symptom management or temporary relief.',
   },
   {
     icon: '/icons/story-excellence.png',
@@ -138,7 +138,7 @@ const VALUES = [
   {
     icon: '/icons/story-layers.png',
     name: 'Integration',
-    description: 'Supporting the full arc, not just the peak experience\u2014lasting change takes time.',
+    description: 'Supporting the full arc, not just the peak experience, lasting change takes time.',
   },
 ]
 
@@ -146,7 +146,7 @@ export default function OriginPage() {
   return (
     <div className="min-h-screen bg-canvas">
       {/* ═══════════════════════════════════════════
-          HERO — "Why We Exist"
+          HERO - "Why We Exist"
           ═══════════════════════════════════════════ */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-primary-900">
         {/* Atmospheric layers */}
@@ -210,7 +210,7 @@ export default function OriginPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
           >
-            Modern humans are suffering from a crisis of disconnection&mdash;from their bodies,
+            Modern humans are suffering from a crisis of disconnection, from their bodies,
             their nervous systems, their emotions, their purpose, and their essential nature.
           </motion.p>
 
@@ -236,7 +236,7 @@ export default function OriginPage() {
       </section>
 
       {/* ═══════════════════════════════════════════
-          THE GAP — Four Market Pillars
+          THE GAP - Four Market Pillars
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
         <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -301,7 +301,7 @@ export default function OriginPage() {
       </section>
 
       {/* ═══════════════════════════════════════════
-          OUR MISSION — "The Bridge"
+          OUR MISSION - "The Bridge"
           ═══════════════════════════════════════════ */}
       <section className="relative py-32 md:py-40 bg-white overflow-hidden">
         <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-64 h-64 rounded-full bg-accent-500/5 blur-3xl" />
@@ -348,7 +348,7 @@ export default function OriginPage() {
       </section>
 
       {/* ═══════════════════════════════════════════
-          THE TRANSFORMATION — "From → To"
+          THE TRANSFORMATION - "From > To"
           ═══════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
         <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-6 lg:px-8 relative">

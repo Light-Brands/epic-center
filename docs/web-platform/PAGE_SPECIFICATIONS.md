@@ -560,7 +560,7 @@ Description: Four converging markets create the perfect opportunity. Medical wel
 │  │  • Ages 40-55, HNW/UHNW ($10M+ net worth)                            │ │
 │  │  • Exhausted from constant performance                                │ │
 │  │  • Carrying trauma, stress, burnout affecting everything              │ │
-│  │  • Tried therapy, meditation, retreats — nothing stuck               │ │
+│  │  • Tried therapy, meditation, retreats, nothing stuck               │ │
 │  │  • Willing to invest $50,000–$150,000+ for genuine transformation    │ │
 │  │                                                                       │ │
 │  │  ─────────────────────────────────────────────────────────────────   │ │
