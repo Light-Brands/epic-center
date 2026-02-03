@@ -88,7 +88,7 @@ export function Footer() {
             </Link>
             <p className="text-primary-200/80 mb-8 max-w-sm leading-relaxed">
               A luxury medical retreat pioneering evidence-based healing through
-              plant medicine, bio-optimization, and trauma integration.
+              bio-optimization, plant medicine and trauma integration.
             </p>
             <div className="space-y-4">
               <a

@@ -70,7 +70,7 @@ export default async function Image() {
               maxWidth: '700px',
             }}
           >
-            Luxury Medical Retreat - Plant Medicine, Bio-Optimization & Trauma Integration
+            Luxury Medical Retreat - Bio-Optimization, Plant Medicine & Trauma Integration
           </div>
         </div>
 

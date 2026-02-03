@@ -5,7 +5,7 @@ import { Header } from '@/components/layout'
 
 export const metadata: Metadata = {
   title: 'Transformational Epicenter | Investor Pitch',
-  description: 'A luxury medical retreat platform for deep healing through plant medicine, bio-optimization, and trauma integration. $16.8M project, 78% projected IRR.',
+  description: 'A luxury medical retreat platform for deep healing through bio-optimization, plant medicine and trauma integration. $16.8M project, 78% projected IRR.',
   keywords: ['investment', 'wellness', 'medical retreat', 'ibogaine', 'mental health'],
   metadataBase: new URL('https://www.transformational-epicenter.com'),
   openGraph: {

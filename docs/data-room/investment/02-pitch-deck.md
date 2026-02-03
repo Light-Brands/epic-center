@@ -61,7 +61,7 @@ We do not compete in existing categories. We create the category.
 
 **Guests seeking comprehensive transformation must cobble together 3-4 providers across multiple countries, with no coordination between them.**
 
-There is no single destination where a high-net-worth individual can receive medically supervised plant medicine, advanced bio-optimization, trauma integration therapy, and ultra-luxury hospitality as one unified program.
+There is no single destination where a high-net-worth individual can receive advanced bio-optimization, medically supervised plant medicine, trauma integration therapy, and ultra-luxury hospitality as one unified program.
 
 Until now.
 
@@ -122,7 +122,7 @@ No other operator can address all four segments simultaneously. Each would need 
 
 All programs include medical screening, physician oversight, plant medicine protocols, bio-optimization, integration therapy, luxury hospitality, and 12-month aftercare.
 
-Longer programs deepen every dimension -- extended plant medicine sequences, additional bio-optimization cycles, more comprehensive trauma integration work.
+Longer programs deepen every dimension -- additional bio-optimization cycles, extended plant medicine sequences, more comprehensive trauma integration work.
 
 ---
 

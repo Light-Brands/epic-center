@@ -143,7 +143,7 @@ Transformational Epicenter operates a medical-grade wellness facility in Tulum, 
 |---------|----------|-------|-------------|
 | Reset | 7 days | $14,000 | Introductory program: medical assessment, initial bio-optimization, single plant medicine session, integration therapy |
 | Interruption | 14 days | $28,000 | Core program: extended medical protocols, ibogaine-assisted therapy, bio-optimization suite, intensive integration |
-| Recalibration | 21 days | $42,000 | Comprehensive program: multiple plant medicine sessions, full bio-optimization cycles, deep trauma integration |
+| Recalibration | 21 days | $42,000 | Comprehensive program: full bio-optimization cycles, multiple plant medicine sessions, deep trauma integration |
 | Transformation | 28 days | $56,000 | Complete program: maximum treatment depth across all modalities, extended integration, transition planning |
 
 ### Revenue Drivers
@@ -161,7 +161,7 @@ Transformational Epicenter operates a medical-grade wellness facility in Tulum, 
 
 ### Eight Integrated Segments
 
-The facility operates through eight business segments: (1) Medical Oversight, (2) Plant Medicine, (3) Bio-Optimization, (4) Trauma Integration, (5) Hospitality, (6) Digital Ecosystem, (7) Pre-Care, and (8) Post-Care. Each segment is detailed in the Executive Summary (Document 01).
+The facility operates through eight business segments: (1) Medical Oversight, (2) Bio-Optimization, (3) Plant Medicine, (4) Trauma Integration, (5) Hospitality, (6) Digital Ecosystem, (7) Pre-Care, and (8) Post-Care. Each segment is detailed in the Executive Summary (Document 01).
 
 ---
 

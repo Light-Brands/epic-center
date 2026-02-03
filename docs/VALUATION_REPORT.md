@@ -66,7 +66,7 @@ This is a rare asymmetric opportunity where:
 
 ### 2.0 Business Description
 
-Transformational Epicenter is a luxury medical retreat pioneering evidence-based healing through plant medicine treatments (ibogaine, psilocybin), bio-optimization protocols, and trauma integration therapy. The project targets high-net-worth (HNW) individuals suffering from treatment-resistant depression, addiction, PTSD, anxiety, and trauma -- conditions that collectively represent $5.6 trillion in annual global mental health costs.
+Transformational Epicenter is a luxury medical retreat pioneering evidence-based healing through bio-optimization protocols, plant medicine treatments (ibogaine, psilocybin) and trauma integration therapy. The project targets high-net-worth (HNW) individuals suffering from treatment-resistant depression, addiction, PTSD, anxiety, and trauma -- conditions that collectively represent $5.6 trillion in annual global mental health costs.
 
 Unlike existing ibogaine clinics that operate at the budget-to-mid tier with limited medical infrastructure, Transformational Epicenter is designed as a **medical-grade, luxury-tier facility** with full ICU capability, 24/7 physician coverage, cardiac monitoring, and emergency evacuation protocols. This positions the project at the premium end of a rapidly expanding market where demand far exceeds supply of credible, safe, luxury-tier options.
 
