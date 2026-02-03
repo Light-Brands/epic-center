@@ -34,7 +34,6 @@ const NAV_SECTIONS = [
       { name: 'The Property', href: '/properties/riviera-maya-jungle-estate' },
       { name: 'The Platform', href: '/technology' },
       { name: 'Data & Intelligence', href: '/technology/data' },
-      { name: 'Gallery', href: '/gallery' },
       { name: 'Team', href: '/team' },
     ],
   },

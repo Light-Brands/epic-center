@@ -16,6 +16,7 @@ import {
   PROPERTY_SCORES,
   PROPERTY_GATES,
 } from '@/lib/sheets'
+import { PropertyGallery } from '@/components/gallery/PropertyGallery'
 
 interface PropertyPageProps {
   params: Promise<{ slug: string }>
@@ -211,6 +212,12 @@ export default async function PropertyPage({ params }: PropertyPageProps) {
           </Card>
         </section>
 
+      </div>
+
+      {/* Property Gallery */}
+      <PropertyGallery />
+
+      <div className="w-full sm:w-[70vw] mx-auto py-12">
         {/* Page Navigation */}
         <div className="flex justify-between items-center pt-8 border-t border-neutral-200">
           <Link href="/properties" className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors">
