@@ -10,7 +10,7 @@
 **Document Type:** Property Evaluation & Selection Matrix
 **Prepared For:** Prospective Investors & Strategic Partners
 **Properties Evaluated:** 4
-**Selected Property:** Riviera Maya Jungle Estate (Kaax Cenote)
+**Selected Property:** Rancho Paraiso Oasis (Kaax Cenote)
 
 ---
 
@@ -30,11 +30,11 @@
 
 Transformational Epicenter conducted a rigorous multi-property evaluation across Quintana Roo, Mexico to identify the optimal site for its flagship luxury medical wellness facility. Four properties were evaluated against a weighted 100-point scoring framework encompassing location quality, medical infrastructure feasibility, revenue potential, and investment risk.
 
-**Result:** The **Riviera Maya Jungle Estate (Kaax Cenote)** was selected as the flagship property with a score of **88/100**, a projected IRR of **78%**, and a total project cost of **$14,953,500**. The property's combination of expansive jungle setting (45,000 m2 across 9 lots), 60-casita capacity (phased 15→60 over 5 years), and alignment with the Transformational Epicenter brand makes it the clear frontrunner for development.
+**Result:** The **Rancho Paraiso Oasis (Kaax Cenote)** was selected as the flagship property with a score of **88/100**, a projected IRR of **78%**, and a total project cost of **$14,953,500**. The property's combination of expansive jungle setting (45,000 m2 across 9 lots), 60-casita capacity (phased 15→60 over 5 years), and alignment with the Transformational Epicenter brand makes it the clear frontrunner for development.
 
 | Metric | Selected Property |
 |--------|-------------------|
-| **Property** | Riviera Maya Jungle Estate (Kaax Cenote) |
+| **Property** | Rancho Paraiso Oasis (Kaax Cenote) |
 | **Location** | Tulum, Q.R., Mexico |
 | **Score** | 88/100 |
 | **Project IRR (with Exit)** | 78% (base), 66% (conservative) |
@@ -80,7 +80,7 @@ Each property was evaluated across 10 weighted categories totaling 100 points. C
 
 ### 3.1 Detailed Scoring by Category
 
-| Criteria (Max Points) | Riviera Maya Jungle Estate (88) | Hotel Alea Tulum (75) | Hacienda Caracol (76) | Mini Hotel Cancun (79) |
+| Criteria (Max Points) | Rancho Paraiso Oasis (88) | Hotel Alea Tulum (75) | Hacienda Caracol (76) | Mini Hotel Cancun (79) |
 |------------------------|----------------------------------|------------------------|------------------------|-------------------------|
 | **Location & Setting (15)** | **14** - Pristine jungle, cenotes, complete immersion | 11 - Beach/jungle, good but commercial corridor | 12 - Beachfront Tulum, excellent but less private | 8 - Urban Cancun, no natural healing environment |
 | **Room Count & Capacity (10)** | **10** - 60 casitas (phased 15→60), 4,537 guests over 5 years | 8 - 21 rooms, adequate scale | 5 - 10 rooms, limited capacity | 8 - 20 rooms, good capacity |
@@ -117,14 +117,14 @@ Each property was evaluated across 10 weighted categories totaling 100 points. C
 
 | Rank | Property | Score | IRR (Base) | Total Investment | Decision |
 |------|----------|-------|------------|------------------|----------|
-| **1** | **Riviera Maya Jungle Estate** | **88/100** | **78%** | **$14,953,500** | **SELECTED** |
+| **1** | **Rancho Paraiso Oasis** | **88/100** | **78%** | **$14,953,500** | **SELECTED** |
 | 2 | Mini Hotel Cancun | 79/100 | -15% | $10,517,000 | PASS |
 | 3 | Hacienda Caracol | 76/100 | 18% | $13,914,000 | Strong #2 |
 | 4 | Hotel Alea Tulum | 75/100 | 29.54% | $19,036,750 | HNW Flagship Alternate |
 
 ### Ranking Analysis
 
-**Rank 1 - Riviera Maya Jungle Estate (SELECTED):** Highest overall score (88/100) driven by exceptional land size, room capacity, expansion potential, and revenue projections. The 78% base-case IRR and 7.8x MOIC represent the strongest risk-adjusted returns of any property evaluated, producing $81.2M in enterprise value at Year 5 exit. The 45,000 m2 compound provides a canvas for phased build-out and long-term platform expansion.
+**Rank 1 - Rancho Paraiso Oasis (SELECTED):** Highest overall score (88/100) driven by exceptional land size, room capacity, expansion potential, and revenue projections. The 78% base-case IRR and 7.8x MOIC represent the strongest risk-adjusted returns of any property evaluated, producing $81.2M in enterprise value at Year 5 exit. The 45,000 m2 compound provides a canvas for phased build-out and long-term platform expansion.
 
 **Rank 2 - Mini Hotel Cancun (PASS):** Despite the second-highest property score (79/100) driven by medical infrastructure and market access, the property fails on financial viability with a negative IRR of -15%. Urban Cancun location fundamentally misaligned with the healing-focused, nature-immersive brand positioning. No amount of renovation overcomes the brand disconnect.
 
@@ -136,7 +136,7 @@ Each property was evaluated across 10 weighted categories totaling 100 points. C
 
 ## 5. KEY DECISION FACTORS
 
-### 5.1 Why Riviera Maya Jungle Estate Was Selected
+### 5.1 Why Rancho Paraiso Oasis Was Selected
 
 | Decision Factor | Assessment |
 |-----------------|------------|
@@ -213,7 +213,7 @@ The $750,000 Medical Suite renovation budget provides:
 
 ### 7.1 Composite Assessment
 
-The Riviera Maya Jungle Estate was selected based on the highest composite score across financial viability, brand alignment, operational capacity, and strategic expansion potential. While other properties scored competitively in individual categories (Mini Hotel Cancun in medical access, Hotel Alea Tulum in proven operations), no other property delivered the combination of:
+The Rancho Paraiso Oasis was selected based on the highest composite score across financial viability, brand alignment, operational capacity, and strategic expansion potential. While other properties scored competitively in individual categories (Mini Hotel Cancun in medical access, Hotel Alea Tulum in proven operations), no other property delivered the combination of:
 
 1. **Scale** -- 60 casitas (phased 15→60) enabling $10.3M Year 1 revenue at 60% occupancy
 2. **Returns** -- 78% IRR and 7.8x MOIC in the base case ($81.2M enterprise value at Year 5)
@@ -223,7 +223,7 @@ The Riviera Maya Jungle Estate was selected based on the highest composite score
 
 ### 7.2 Forward Strategy
 
-The selection of Riviera Maya Jungle Estate as the flagship property does not preclude future portfolio expansion. Hacienda Caracol remains a viable Phase 2 acquisition for UHNW-tier programming, and Hotel Alea Tulum offers an alternate HNW flagship path if market conditions support a second facility.
+The selection of Rancho Paraiso Oasis as the flagship property does not preclude future portfolio expansion. Hacienda Caracol remains a viable Phase 2 acquisition for UHNW-tier programming, and Hotel Alea Tulum offers an alternate HNW flagship path if market conditions support a second facility.
 
 ---
 

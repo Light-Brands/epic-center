@@ -36,7 +36,7 @@ const DOCUMENT_CATEGORIES = [
     icon: Folder,
     documents: [
       { name: 'Property Evaluation Matrix', slug: 'property/property-evaluation-matrix', doc: '10' },
-      { name: 'Riviera Maya Jungle Estate - Full Assessment', slug: 'property/riviera-maya-jungle-estate-assessment', doc: '11' },
+      { name: 'Rancho Paraiso Oasis - Full Assessment', slug: 'property/rancho-paraiso-oasis-assessment', doc: '11' },
       { name: 'Renovation Budget & Timeline', slug: 'property/renovation-budget-timeline', doc: '12' },
       { name: 'Comparable Market Analysis', slug: 'property/comparable-market-analysis', doc: '13' },
     ],

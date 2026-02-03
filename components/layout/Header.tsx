@@ -31,7 +31,7 @@ const NAV_SECTIONS = [
   {
     title: 'Assets',
     links: [
-      { name: 'The Property', href: '/properties/riviera-maya-jungle-estate' },
+      { name: 'The Property', href: '/properties/rancho-paraiso-oasis' },
       { name: 'Virtual Tour', href: '/virtual-tour' },
       { name: 'The Platform', href: '/technology' },
       { name: 'Data & Intelligence', href: '/technology/data' },

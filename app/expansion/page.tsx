@@ -367,7 +367,7 @@ export default function ExpansionPage() {
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
             <span className="font-accent text-sm uppercase tracking-wide">Moat</span>
           </Link>
-          <Link href="/properties/riviera-maya-jungle-estate">
+          <Link href="/properties/rancho-paraiso-oasis">
             <Button variant="primary">
               View the Property
               <ArrowRight className="ml-2 w-4 h-4" />

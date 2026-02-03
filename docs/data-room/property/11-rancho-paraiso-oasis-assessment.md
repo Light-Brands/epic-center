@@ -1,4 +1,4 @@
-# Riviera Maya Jungle Estate - Full Property Assessment
+# Rancho Paraiso Oasis - Full Property Assessment
 ## Transformational Epicenter - Flagship Property Analysis
 
 ### Data Room Document 11 | Property Section
@@ -9,7 +9,7 @@
 **Document Date:** January 2026
 **Classification:** RESTRICTED - CONFIDENTIAL
 **Prepared For:** Prospective Investors & Strategic Partners
-**Property:** Riviera Maya Jungle Estate (Kaax Cenote)
+**Property:** Rancho Paraiso Oasis (Kaax Cenote)
 **Recommendation:** PROCEED
 
 ---
@@ -37,7 +37,7 @@
 
 ## 1. EXECUTIVE SUMMARY
 
-The Riviera Maya Jungle Estate (Kaax Cenote) is a 45,000 m2 jungle compound comprising 9 contiguous lots located in Tulum, Quintana Roo, Mexico. The property has been selected as the flagship site for Transformational Epicenter following a rigorous multi-property evaluation scoring **88/100** -- the highest of all candidates assessed.
+The Rancho Paraiso Oasis (Kaax Cenote) is a 45,000 m2 jungle compound comprising 9 contiguous lots located in Tulum, Quintana Roo, Mexico. The property has been selected as the flagship site for Transformational Epicenter following a rigorous multi-property evaluation scoring **88/100** -- the highest of all candidates assessed.
 
 ### Key Metrics at a Glance
 
@@ -68,7 +68,7 @@ The Riviera Maya Jungle Estate (Kaax Cenote) is a 45,000 m2 jungle compound comp
 
 | Attribute | Detail |
 |-----------|--------|
-| **Property Name** | Riviera Maya Jungle Estate (Kaax Cenote) |
+| **Property Name** | Rancho Paraiso Oasis (Kaax Cenote) |
 | **Location** | Tulum, Quintana Roo, Mexico |
 | **Property Type** | Jungle estate compound |
 | **Configuration** | 9 contiguous lots |
@@ -376,7 +376,7 @@ The 15% contingency provides a buffer against cost overruns, supply chain delays
 
 ### PROCEED WITH ACQUISITION
 
-Based on the comprehensive assessment presented in this document, the recommendation is to **proceed with acquisition and development** of the Riviera Maya Jungle Estate (Kaax Cenote) as the Transformational Epicenter flagship property.
+Based on the comprehensive assessment presented in this document, the recommendation is to **proceed with acquisition and development** of the Rancho Paraiso Oasis (Kaax Cenote) as the Transformational Epicenter flagship property.
 
 **Supporting rationale:**
 

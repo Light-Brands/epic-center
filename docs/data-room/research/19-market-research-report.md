@@ -50,7 +50,7 @@ Transformational Epicenter targets the intersection of four high-growth market s
 
 **The core thesis:** Wealthy individuals are increasingly willing to pay premium prices for outcomes-based health interventions delivered in luxury settings. The supply side -- facilities that combine clinical-grade medicine with five-star hospitality -- remains dramatically under-built relative to demand. TE enters this gap as a first mover in full-stack health transformation.
 
-**TE Financial Summary (Riviera Maya Jungle Estate -- 60 Casitas, Phased 15→60):**
+**TE Financial Summary (Rancho Paraiso Oasis -- 60 Casitas, Phased 15→60):**
 
 | Metric | Value |
 |--------|-------|
@@ -131,7 +131,7 @@ The global medical tourism market represents the most directly relevant segment 
 
 ### 3.1 Tulum / Quintana Roo Strategic Positioning
 
-The Riviera Maya Jungle Estate location in Tulum, Quintana Roo, represents an optimal geographic position for multiple strategic reasons:
+The Rancho Paraiso Oasis location in Tulum, Quintana Roo, represents an optimal geographic position for multiple strategic reasons:
 
 **Access & Connectivity:**
 
@@ -296,7 +296,7 @@ The SOM represents TE's realistic revenue capture at the single-property level:
 
 | SOM Parameter | Value |
 |---------------|-------|
-| **Property** | Riviera Maya Jungle Estate, Tulum |
+| **Property** | Rancho Paraiso Oasis, Tulum |
 | **Casita count** | 60 casitas (phased 15→60) |
 | **Average program price** | $14,000-$56,000 |
 | **Year 1 Revenue (Base)** | $10,300,000 |
@@ -439,5 +439,5 @@ High-net-worth consumer research reveals a dramatic shift toward outcome-based v
 ---
 
 **TRANSFORMATIONAL EPICENTER**
-Riviera Maya Jungle Estate | Tulum, Quintana Roo, Mexico
+Rancho Paraiso Oasis | Tulum, Quintana Roo, Mexico
 Document 19 of 21 | Data Room -- Research

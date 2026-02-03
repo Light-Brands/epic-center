@@ -48,7 +48,7 @@
 
 This document explains the fideicomiso (bank trust) structure that Transformational Epicenter will use to hold real estate in Mexico's restricted coastal zone. The fideicomiso is a well-established and legally required mechanism that enables foreign-owned entities to acquire, hold, and develop real property in areas where the Mexican Constitution prohibits direct foreign ownership.
 
-Understanding the fideicomiso is essential for investors evaluating Transformational Epicenter because the Riviera Maya Jungle Estate -- the company's planned primary facility location in Tulum, Quintana Roo -- is located within the constitutionally restricted zone. This document details the legal basis, structure, costs, rights, and risks associated with this arrangement.
+Understanding the fideicomiso is essential for investors evaluating Transformational Epicenter because the Rancho Paraiso Oasis -- the company's planned primary facility location in Tulum, Quintana Roo -- is located within the constitutionally restricted zone. This document details the legal basis, structure, costs, rights, and risks associated with this arrangement.
 
 ---
 
@@ -92,7 +92,7 @@ Article 27, Section I of the Mexican Constitution establishes the "restricted zo
 
 ### 3.2 Application to Transformational Epicenter
 
-The Riviera Maya Jungle Estate in Tulum, Quintana Roo, is located within the 50-kilometer coastal restricted zone. As a property owned (beneficially) by a foreign entity (TE Real Estate Mexico, S.A. de C.V., which is in turn owned by the Delaware holding company), a fideicomiso is the legally required vehicle for property ownership.
+The Rancho Paraiso Oasis in Tulum, Quintana Roo, is located within the 50-kilometer coastal restricted zone. As a property owned (beneficially) by a foreign entity (TE Real Estate Mexico, S.A. de C.V., which is in turn owned by the Delaware holding company), a fideicomiso is the legally required vehicle for property ownership.
 
 ### 3.3 Restricted Zone Map Reference
 
@@ -148,8 +148,8 @@ All current and contemplated property locations in Quintana Roo's Riviera Maya c
     ┌────────────────────────┐         ┌──────────────────────┐
     │  MEXICAN BANK          │         │  PROPERTY            │
     │  TRUSTEE               │────────►│                      │
-    │  (Fiduciario)          │  Holds  │  Riviera Maya        │
-    │                        │  Legal  │  Jungle Estate       │
+    │  (Fiduciario)          │  Holds  │  Rancho Paraiso      │
+    │                        │  Legal  │  Oasis               │
     │  Holds bare legal      │  Title  │  Tulum, Q.R.         │
     │  title only            │         │                      │
     │                        │         │  Physical real        │
@@ -173,7 +173,7 @@ All current and contemplated property locations in Quintana Roo's Riviera Maya c
     │  Bank Trustee (holds legal title)                        │
     │       │                                                  │
     │       ▼  (Legal title in trust)                          │
-    │  Property (Riviera Maya Jungle Estate)                   │
+    │  Property (Rancho Paraiso Oasis)                   │
     └──────────────────────────────────────────────────────────┘
 ```
 

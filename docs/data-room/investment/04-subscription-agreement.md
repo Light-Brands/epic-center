@@ -479,5 +479,5 @@ By accepting this document, the recipient agrees to maintain its confidentiality
 ---
 
 **TRANSFORMATIONAL EPICENTER**
-Riviera Maya Jungle Estate | Tulum, Quintana Roo, Mexico
+Rancho Paraiso Oasis | Tulum, Quintana Roo, Mexico
 Document 04 of 21 | Data Room -- Investment

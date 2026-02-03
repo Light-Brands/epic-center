@@ -56,8 +56,8 @@ export const VILLA_MODEL = {
 
 export const PROPERTIES: Property[] = [
   {
-    id: 'riviera-maya-jungle-estate',
-    name: 'Riviera Maya Jungle Estate',
+    id: 'rancho-paraiso-oasis',
+    name: 'Rancho Paraiso Oasis',
     location: 'Tulum, Q.R.',
     propertyType: 'Jungle estate compound (9 lots, 45,000 m²)',
     currentUse: 'Development',
@@ -81,7 +81,7 @@ export const PROPERTIES: Property[] = [
 
 // Dashboard metrics — key investor-facing numbers (updated for casita phasing model)
 export const DASHBOARD_METRICS: DashboardMetrics = {
-  propertyName: 'Riviera Maya Jungle Estate',
+  propertyName: 'Rancho Paraiso Oasis',
   location: 'Tulum, Q.R.',
   totalRooms: 60,
   treatmentBeds: 60,

@@ -44,7 +44,7 @@ const DOCUMENT_MAP: Record<string, DocumentEntry> = {
     category: 'Financial Model',
   },
   'property/property-evaluation-matrix': { file: 'property/10-property-evaluation-matrix.md', category: 'Property Documents' },
-  'property/riviera-maya-jungle-estate-assessment': { file: 'property/11-riviera-maya-jungle-estate-assessment.md', category: 'Property Documents' },
+  'property/rancho-paraiso-oasis-assessment': { file: 'property/11-rancho-paraiso-oasis-assessment.md', category: 'Property Documents' },
   'property/renovation-budget-timeline': { file: 'property/12-renovation-budget-timeline.md', category: 'Property Documents' },
   'property/comparable-market-analysis': { file: 'property/13-comparable-market-analysis.md', category: 'Property Documents' },
   'legal/corporate-structure-overview': { file: 'legal/14-corporate-structure-overview.md', category: 'Legal & Compliance' },

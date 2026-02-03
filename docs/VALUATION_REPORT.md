@@ -1,5 +1,5 @@
 # VALUATION REPORT
-## Transformational Epicenter - Riviera Maya Jungle Estate
+## Transformational Epicenter - Rancho Paraiso Oasis
 
 ### Luxury Medical Retreat | Plant Medicine & Bio-Optimization
 
@@ -29,7 +29,7 @@
 
 ## 1. EXECUTIVE SUMMARY
 
-**Transformational Epicenter** is a luxury medical retreat development targeting the convergence of two explosive growth markets: psychedelic-assisted therapy ($11B+ projected by 2034, 15.8% CAGR) and luxury wellness tourism ($364B projected by 2032, 7.4% CAGR). The project centers on the acquisition and medical conversion of the **Riviera Maya Jungle Estate**, a 45,000 m2 jungle compound across 9 lots in Tulum, Quintana Roo, Mexico.
+**Transformational Epicenter** is a luxury medical retreat development targeting the convergence of two explosive growth markets: psychedelic-assisted therapy ($11B+ projected by 2034, 15.8% CAGR) and luxury wellness tourism ($364B projected by 2032, 7.4% CAGR). The project centers on the acquisition and medical conversion of the **Rancho Paraiso Oasis**, a 45,000 m2 jungle compound across 9 lots in Tulum, Quintana Roo, Mexico.
 
 The development follows a **phased expansion model**: 15 casitas operational at launch, expanding to 60 casitas over 5 years. Expansion beyond Year 1 is funded entirely from operating cash flow -- no additional equity raise required. This phased approach de-risks execution while capturing significant revenue growth as capacity scales from $10.3M (Year 1) to $34.0M (Year 5).
 
@@ -70,7 +70,7 @@ Transformational Epicenter is a luxury medical retreat pioneering evidence-based
 
 Unlike existing ibogaine clinics that operate at the budget-to-mid tier with limited medical infrastructure, Transformational Epicenter is designed as a **medical-grade, luxury-tier facility** with full ICU capability, 24/7 physician coverage, cardiac monitoring, and emergency evacuation protocols. This positions the project at the premium end of a rapidly expanding market where demand far exceeds supply of credible, safe, luxury-tier options.
 
-The **Riviera Maya Jungle Estate** -- a 45,000 m2 jungle compound comprising 9 lots in Tulum, Q.R. -- was selected through a rigorous property scoring process (88/100), excelling in natural environment (6/6), privacy & security (12/12), and strategic brand fit (2/2). The campus follows a **phased expansion model**: 15 casitas at launch expanding to 60 casitas over 5 years, enabling service of up to 1,280 guests annually at full capacity with an average revenue per guest of $26,600.
+The **Rancho Paraiso Oasis** -- a 45,000 m2 jungle compound comprising 9 lots in Tulum, Q.R. -- was selected through a rigorous property scoring process (88/100), excelling in natural environment (6/6), privacy & security (12/12), and strategic brand fit (2/2). The campus follows a **phased expansion model**: 15 casitas at launch expanding to 60 casitas over 5 years, enabling service of up to 1,280 guests annually at full capacity with an average revenue per guest of $26,600.
 
 ### 2.1 Casita Expansion Model
 
@@ -103,7 +103,7 @@ A central feature of the financial model is the phased casita build-out, which a
 
 **Short-Term (2026-2027):**
 - Close seed round ($14.95M equity raise) -- Q1 2026
-- Acquire Riviera Maya Jungle Estate and complete medical conversion
+- Acquire Rancho Paraiso Oasis and complete medical conversion
 - Launch with 15 casitas, expand to 30 by end of Year 1
 - Achieve 60% occupancy (~387 guests) in Year 1
 - Generate $10.3M Year 1 revenue, $4.3M EBITDA
@@ -661,7 +661,7 @@ PV of Terminal = $111,645,694 / 4.484 = $24,898,024
 
 ### Investment Summary
 
-Based on a detailed analysis of Transformational Epicenter's market position, growth potential, and financial forecasts, the Riviera Maya Jungle Estate represents an exceptional investment opportunity at the convergence of three high-growth markets. The phased expansion model (15 to 60 casitas over 5 years) creates a powerful growth trajectory while de-risking execution through staged capital deployment funded from operating cash flow.
+Based on a detailed analysis of Transformational Epicenter's market position, growth potential, and financial forecasts, the Rancho Paraiso Oasis represents an exceptional investment opportunity at the convergence of three high-growth markets. The phased expansion model (15 to 60 casitas over 5 years) creates a powerful growth trajectory while de-risking execution through staged capital deployment funded from operating cash flow.
 
 ### Valuation for Fundraising
 
