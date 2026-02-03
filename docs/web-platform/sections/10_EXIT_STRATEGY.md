@@ -1,5 +1,5 @@
 ### Section 10: EXIT STRATEGY (`/returns`)
-**Purpose:** Show investors exactly how they get their money back—and then some.
+**Purpose:** Show investors exactly how they get their money back, and then some.
 
 #### Return Pathways (Interactive Timeline)
 ```

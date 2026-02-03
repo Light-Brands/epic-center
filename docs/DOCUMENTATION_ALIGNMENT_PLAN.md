@@ -1,7 +1,7 @@
 # Documentation Alignment Plan
 
 > **Purpose**: Strategic guide for aligning all documentation with Executive Summary v2.0
-> **Approach**: Surgical, not overhaul—most docs are already strong
+> **Approach**: Surgical, not overhaul. Most docs are already strong
 
 ---
 
@@ -41,7 +41,7 @@
 The Executive Summary establishes these **canonical elements** that should be consistent across all documentation:
 
 ### Core Positioning (One Sentence)
-> "Transformational Epicenter is building the world's first luxury medical wellness destination that combines hospital-grade care, five-star hospitality, cutting-edge health technology, and transformational medicine—a combination no competitor offers today."
+> "Transformational Epicenter is building the world's first luxury medical wellness destination that combines hospital-grade care, five-star hospitality, cutting-edge health technology, and transformational medicine, a combination no competitor offers today."
 
 ### The Four Market Segments (Key Differentiator)
 
@@ -327,13 +327,13 @@ After alignment, update version numbers and "Last Updated" dates to indicate ali
 > "A medical-based wellness and bio-optimization clinic with a luxury retreat experience, designed to address healing at the root level: physical, neurological, emotional, and spiritual."
 
 ### The Core Intention
-> "Not detox or short-term relief, but true transformation—nervous system repair, trauma resolution, and human remembrance."
+> "Not detox or short-term relief, but true transformation: nervous system repair, trauma resolution, and human remembrance."
 
 ### The Market Gap
 > "Wealthy individuals seeking deep transformation have to choose between medical clinics (great doctors, but clinical and cold), luxury resorts (beautiful, but surface-level wellness), biohacking centers (trendy tech, but no medical oversight), and plant medicine retreats (powerful, but often unsafe or unprofessional). No one offers all four together."
 
 ### Why Competitors Can't Follow
-> "We're building this from scratch with all four pillars integrated from day one—operationalized through eight segments. You can't bolt this together after the fact."
+> "We're building this from scratch with all four pillars integrated from day one, operationalized through eight segments. You can't bolt this together after the fact."
 
 ### The Customer
 > "A successful person who senses something is missing."
@@ -457,7 +457,7 @@ Based on initial review, these documents are already strong:
 10. ✅ Wellness-only programs documented consistently across 5 key files
 11. ✅ Market research pricing verified consistent
 
-**Note**: Market research and expansion docs correctly KEEP "four pillars" language—that's the market categories terminology.
+**Note**: Market research and expansion docs correctly KEEP "four pillars" language, as that's the market categories terminology.
 
 ---
 

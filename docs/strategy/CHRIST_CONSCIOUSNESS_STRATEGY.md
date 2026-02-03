@@ -6,7 +6,7 @@
 
 ## Executive Summary
 
-Christ consciousness is not a religious destination but a remembrance—the direct experience of your essential nature as love, presence, and infinite creative potential. This strategy document outlines the pathway from where you are to where you've always been, providing the framework, tools, and understanding necessary to embody this state and, critically, to remain there as your natural way of being.
+Christ consciousness is not a religious destination but a remembrance, the direct experience of your essential nature as love, presence, and infinite creative potential. This strategy document outlines the pathway from where you are to where you've always been, providing the framework, tools, and understanding necessary to embody this state and, critically, to remain there as your natural way of being.
 
 The journey is not about becoming something new. It is about unveiling what has always been true.
 
@@ -16,7 +16,7 @@ The journey is not about becoming something new. It is about unveiling what has 
 
 ### What Is Christ Consciousness?
 
-Christ consciousness represents the highest expression of human awareness—a state of being characterized by:
+Christ consciousness represents the highest expression of human awareness, a state of being characterized by:
 
 | Dimension | Expression |
 |-----------|------------|
@@ -28,7 +28,7 @@ Christ consciousness represents the highest expression of human awareness—a st
 | **Service** | Natural movement toward the upliftment of all beings |
 | **Peace** | Unshakeable inner stillness regardless of external circumstances |
 
-This is not a mystical fantasy. It is your birthright—the consciousness that exists beneath the accumulated layers of trauma, conditioning, and forgetting.
+This is not a mystical fantasy. It is your birthright, the consciousness that exists beneath the accumulated layers of trauma, conditioning, and forgetting.
 
 ### Why It Matters
 
@@ -48,7 +48,7 @@ Competition                     →    Collaboration
 Time-bound anxiety              →    Present-moment living
 ```
 
-The shift from left to right is not philosophical—it is neurological, emotional, and spiritual. It changes how you metabolize experience, relate to others, and move through the world.
+The shift from left to right is not philosophical. It is neurological, emotional, and spiritual. It changes how you metabolize experience, relate to others, and move through the world.
 
 ---
 
@@ -83,7 +83,7 @@ The shift from left to right is not philosophical—it is neurological, emotiona
 
 1. **You are already whole.** The journey is not about adding something but removing the veils that obscure your true nature.
 
-2. **The body is the temple.** Christ consciousness is not merely mental—it must be anchored in a regulated nervous system and a purified vessel.
+2. **The body is the temple.** Christ consciousness is not merely mental. It must be anchored in a regulated nervous system and a purified vessel.
 
 3. **Shadow precedes light.** Lasting awakening requires confronting and integrating the disowned aspects of self. Spiritual bypassing leads to fragile states.
 
@@ -99,13 +99,13 @@ The shift from left to right is not philosophical—it is neurological, emotiona
 
 ## Part III: The Journey Strategy
 
-### Phase 1: Recognition — Preparing the Ground
+### Phase 1: Recognition - Preparing the Ground
 
 Before embodiment can occur, the seeker must recognize that another way of being exists. This phase involves:
 
 #### 1.1 Breaking the Trance
 
-Most humans live in a consensus trance—an unconscious agreement about what is real, possible, and acceptable. Breaking this trance requires:
+Most humans live in a consensus trance, an unconscious agreement about what is real, possible, and acceptable. Breaking this trance requires:
 
 - **Exposure to wisdom traditions** that point beyond conventional reality
 - **Encounters with awakened beings** whose presence transmits possibility
@@ -139,7 +139,7 @@ The answer to these questions creates the magnetism that pulls you forward.
 
 ---
 
-### Phase 2: Embodiment — The Work of Transformation
+### Phase 2: Embodiment - The Work of Transformation
 
 This is where most seekers fail. They taste truth but do not metabolize it. Embodiment requires:
 
@@ -196,7 +196,7 @@ The untrained mind generates suffering. You must:
 
 **Pillar 3: Emotional Alchemy**
 
-Emotions are not enemies—they are messengers. You must:
+Emotions are not enemies. They are messengers. You must:
 
 - Feel fully without being overwhelmed
 - Learn to transmute lower emotions through presence
@@ -221,7 +221,7 @@ The body must be prepared to hold higher frequencies. You must:
 
 **This cannot be skipped.**
 
-The shadow contains everything you have rejected about yourself—your rage, your grief, your shame, your desires. Without integration, these disowned aspects sabotage awakening.
+The shadow contains everything you have rejected about yourself: your rage, your grief, your shame, your desires. Without integration, these disowned aspects sabotage awakening.
 
 **Shadow Work Protocol:**
 

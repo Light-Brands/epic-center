@@ -132,7 +132,7 @@ export function VideoSlider() {
         </div>
       </div>
 
-      {/* Carousel viewport — fixed height so switching cards never shifts layout */}
+      {/* Carousel viewport - fixed height so switching cards never shifts layout */}
       <div
         className="relative overflow-hidden cursor-grab active:cursor-grabbing select-none"
         style={{ height: focusedH, touchAction: 'pan-y' }}

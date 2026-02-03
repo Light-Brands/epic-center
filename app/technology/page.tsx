@@ -61,7 +61,7 @@ const JOURNEY_STAGES = [
     icon: Brain,
     color: 'from-primary-600 to-primary-700',
     narrative:
-      'Before you arrive, the system already knows you. AI-driven health screening builds a complete picture — medical history, psychological profile, treatment goals — so your care team can prepare a protocol tailored to your biology, not a template.',
+      'Before you arrive, the system already knows you. AI-driven health screening builds a complete picture (medical history, psychological profile, treatment goals) so your care team can prepare a protocol tailored to your biology, not a template.',
     capabilities: [
       'AI health screening & risk stratification',
       'Personalized prep protocols',
@@ -74,7 +74,7 @@ const JOURNEY_STAGES = [
     icon: Activity,
     color: 'from-secondary-400 to-secondary-500',
     narrative:
-      'During treatment, technology becomes invisible guardian. Wearable biosensors stream real-time vitals to the medical team. Adaptive protocols adjust in response to your body\'s signals. Staff receive intelligent handoff briefings — so nothing falls through the cracks.',
+      'During treatment, technology becomes invisible guardian. Wearable biosensors stream real-time vitals to the medical team. Adaptive protocols adjust in response to your body\'s signals. Staff receive intelligent handoff briefings, so nothing falls through the cracks.',
     capabilities: [
       'Real-time wearable biometric monitoring',
       'Adaptive treatment protocol engine',
@@ -87,7 +87,7 @@ const JOURNEY_STAGES = [
     icon: Heart,
     color: 'from-accent-500 to-accent-600',
     narrative:
-      'After you leave, the relationship deepens. AI-updated weekly protocols evolve as you do. Guided journaling prompts surface insights at the right moments. And behind the scenes, the system watches for warning signs — so your care team can reach out before a crisis, not after.',
+      'After you leave, the relationship deepens. AI-updated weekly protocols evolve as you do. Guided journaling prompts surface insights at the right moments. And behind the scenes, the system watches for warning signs, so your care team can reach out before a crisis, not after.',
     capabilities: [
       'AI-updated weekly integration protocols',
       'Guided journaling with intelligent prompts',
@@ -100,7 +100,7 @@ const JOURNEY_STAGES = [
     icon: Users,
     color: 'from-primary-500 to-primary-600',
     narrative:
-      'Transformation doesn\'t end — it compounds. AI-moderated spaces connect you with others on similar journeys. Cohort-based groups form naturally. And as outcomes accumulate, you become part of the evidence base that makes the next person\'s healing more precise.',
+      'Transformation doesn\'t end. It compounds. AI-moderated spaces connect you with others on similar journeys. Cohort-based groups form naturally. And as outcomes accumulate, you become part of the evidence base that makes the next person\'s healing more precise.',
     capabilities: [
       'AI-moderated peer support spaces',
       'Cohort-based group matching',
@@ -121,7 +121,7 @@ const INFRASTRUCTURE_CARDS = [
     icon: Lock,
     title: 'Security & Privacy',
     description:
-      'HIPAA-compliant from day one. End-to-end encryption, role-based access controls, and audit logging protect the most sensitive data a person can share — their medical and psychological history.',
+      'HIPAA-compliant from day one. End-to-end encryption, role-based access controls, and audit logging protect the most sensitive data a person can share: their medical and psychological history.',
   },
   {
     icon: Radio,
@@ -242,7 +242,7 @@ export default function TechnologyPage() {
   return (
     <div className="min-h-screen bg-canvas">
       {/* ═══════════════════════════════════════════════════════════════════════════
-          HERO — "The Intelligence Behind Transformation"
+          HERO - "The Intelligence Behind Transformation"
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden bg-primary-900">
         {/* Warm gold gradient accents */}
@@ -295,7 +295,7 @@ export default function TechnologyPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           >
-            Technology doesn't replace the human experience — it deepens it.
+            Technology doesn't replace the human experience. It deepens it.
             Our platform weaves AI, biosensors, and adaptive protocols into a seamless
             system that makes every guest feel profoundly cared for.
           </motion.p>
@@ -320,7 +320,7 @@ export default function TechnologyPage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          PHILOSOPHY — GSAP Scroll-Triggered Text Reveal
+          PHILOSOPHY - GSAP Scroll-Triggered Text Reveal
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="relative py-32 md:py-40 bg-white overflow-hidden">
         <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-64 h-64 rounded-full bg-accent-500/5 blur-3xl" />
@@ -334,14 +334,14 @@ export default function TechnologyPage() {
             </p>
             <p className="line font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-primary-800 leading-[1.25] tracking-tight">
               When technology works, you feel{' '}
-              <span className="highlight text-secondary-600 inline-block">cared for</span> — not managed.
+              <span className="highlight text-secondary-600 inline-block">cared for</span>, not managed.
             </p>
           </div>
         </div>
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          THE JOURNEY — "Technology Woven Into Every Moment"
+          THE JOURNEY - "Technology Woven Into Every Moment"
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
         <div className="absolute inset-0 opacity-[0.015]" style={{
@@ -368,7 +368,7 @@ export default function TechnologyPage() {
             </h2>
             <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
               From the first inquiry to years of sustained growth, intelligent systems
-              ensure nothing falls through the cracks — and every interaction feels personal.
+              ensure nothing falls through the cracks, and every interaction feels personal.
             </p>
           </motion.div>
 
@@ -434,7 +434,7 @@ export default function TechnologyPage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          "A SYSTEM THAT LEARNS YOU" — AI Deep Dive
+          "A SYSTEM THAT LEARNS YOU" - AI Deep Dive
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-primary-900 text-white relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/30 to-transparent" />
@@ -464,9 +464,9 @@ export default function TechnologyPage() {
               </h2>
 
               <p className="text-lg text-primary-200 mb-8 leading-relaxed">
-                The AI Superintelligent System draws from 7+ data sources — medical records,
+                The AI Superintelligent System draws from 7+ data sources (medical records,
                 biometric streams, psychological assessments, behavioral patterns, treatment
-                responses, integration progress, and long-term outcomes — to build a living
+                responses, integration progress, and long-term outcomes) to build a living
                 model of each guest's healing trajectory.
               </p>
               <p className="text-primary-200/80 mb-10 leading-relaxed">
@@ -542,7 +542,7 @@ export default function TechnologyPage() {
                     </p>
                   </div>
                   <p className="text-sm text-primary-200">
-                    Pattern recognition, predictive modeling, protocol optimization — continuously
+                    Pattern recognition, predictive modeling, protocol optimization, continuously
                     refined by physician oversight and outcome data.
                   </p>
                 </div>
@@ -581,7 +581,7 @@ export default function TechnologyPage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          INFRASTRUCTURE — "You Never Have to Think About"
+          INFRASTRUCTURE - "You Never Have to Think About"
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-white relative overflow-hidden">
         <div className="w-full sm:w-[70vw] mx-auto relative">
@@ -603,7 +603,7 @@ export default function TechnologyPage() {
               Infrastructure You Never Have to Think About
             </h2>
             <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-              The best infrastructure is the kind you never notice. It just works —
+              The best infrastructure is the kind you never notice. It just works:
               reliably, securely, and invisibly.
             </p>
           </motion.div>
@@ -644,7 +644,7 @@ export default function TechnologyPage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          PLATFORM INVESTMENT — The Business Case
+          PLATFORM INVESTMENT - The Business Case
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas-muted relative overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-64 bg-gradient-radial from-secondary-500/8 to-transparent rounded-full blur-3xl" />
@@ -679,7 +679,7 @@ export default function TechnologyPage() {
             >
               <Card padding="lg">
                 <h3 className="font-heading text-xl text-neutral-900 mb-6">
-                  Software Platform — $1,000,000
+                  Software Platform - $1,000,000
                 </h3>
                 <div className="space-y-4">
                   {SOFTWARE_BREAKDOWN.map((item, index) => (
@@ -700,7 +700,7 @@ export default function TechnologyPage() {
 
                 <div className="mt-8 pt-6 border-t border-neutral-200">
                   <h3 className="font-heading text-xl text-neutral-900 mb-6">
-                    Physical Infrastructure — $230,000
+                    Physical Infrastructure - $230,000
                   </h3>
                   <div className="space-y-4">
                     {HARDWARE_BREAKDOWN.map((item, index) => (
@@ -772,7 +772,7 @@ export default function TechnologyPage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          SCALABILITY — "Built Once. Deployed Everywhere."
+          SCALABILITY - "Built Once. Deployed Everywhere."
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
         <div className="w-full sm:w-[70vw] mx-auto relative">

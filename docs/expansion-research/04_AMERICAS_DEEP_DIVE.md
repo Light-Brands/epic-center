@@ -271,7 +271,7 @@ The Caribbean offers unique advantages:
 
 **Psilocybin Status: FULLY LEGAL**
 
-This is not a grey area or decriminalization—psilocybin is explicitly LEGAL:
+This is not a grey area or decriminalization. Psilocybin is explicitly LEGAL:
 - Never prohibited under Dangerous Drugs Act
 - Possession, sale, cultivation all legal
 - Government actively promoting psychedelic industry

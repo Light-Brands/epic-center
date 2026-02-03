@@ -79,7 +79,7 @@ export const PROPERTIES: Property[] = [
   },
 ]
 
-// Dashboard metrics — key investor-facing numbers (updated for casita phasing model)
+// Dashboard metrics - key investor-facing numbers (updated for casita phasing model)
 export const DASHBOARD_METRICS: DashboardMetrics = {
   propertyName: 'Riviera Maya Jungle Estate',
   location: 'Tulum, Q.R.',
@@ -103,7 +103,7 @@ export const DASHBOARD_METRICS: DashboardMetrics = {
   },
 }
 
-// Revenue projections — updated for casita phasing (30→60 rooms)
+// Revenue projections - updated for casita phasing (30→60 rooms)
 // Revenue per guest: $26,600 weighted average (7/14/21/28-day program mix)
 // Y1: 23 eff. rooms × 60% occ = ~387 guests → ~$10.3M
 // Y2: 35 eff. rooms × 75% occ = ~737 guests → ~$19.6M
@@ -166,7 +166,7 @@ export const REVENUE_CHART_DATA: RevenueChartData[] = [
   { year: 'Year 5', conservative: 27200000, base: 34000000, aggressive: 37400000 },
 ]
 
-// P&L from updated model — base case with casita phasing
+// P&L from updated model - base case with casita phasing
 // Costs scale with capacity but with operational leverage (~1.6x costs for 2x rooms)
 // Includes D&A ($677,143/yr base, increasing with casita capex)
 // 30% tax rate, cost escalation (~4%/yr)
@@ -358,7 +358,7 @@ export const UNIT_ECONOMICS: UnitEconomics = {
   ltvCacRatio: 13.0,
 }
 
-// Investment returns — updated for casita phasing model
+// Investment returns - updated for casita phasing model
 // Total investment: $14,953,500 | Y5 EV (base): $81.2M | MOIC: 7.8x
 // 5-year cumulative net income: ~$45.1M
 export const INVESTMENT_RETURNS: InvestmentReturns = {

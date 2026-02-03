@@ -173,7 +173,7 @@ export default function SciencePage() {
   return (
     <div className="min-h-screen bg-canvas">
       {/* ═══════════════════════════════════════════
-          HERO — "The Science of Transformation"
+          HERO - "The Science of Transformation"
           ═══════════════════════════════════════════ */}
       <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden bg-primary-900">
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/40 to-transparent" />

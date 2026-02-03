@@ -30,7 +30,7 @@ export const PROPERTY_GATES: Record<string, PropertyGate[]> = {
     { name: 'Zoning Compliance', status: 'pass', notes: 'Commercial hospitality permitted' },
     { name: 'Medical Infrastructure', status: 'conditional', notes: 'Medical suite build-out required ($750K budgeted)' },
     { name: 'Emergency Access', status: 'pass', notes: 'Road access to Tulum hospitals' },
-    { name: 'Privacy Requirements', status: 'pass', notes: '45,000 m² jungle compound — exceptional privacy' },
+    { name: 'Privacy Requirements', status: 'pass', notes: '45,000 m² jungle compound - exceptional privacy' },
     { name: 'Environmental Compliance', status: 'pass', notes: 'SEMARNAT permits in order' },
     { name: 'Structural Integrity', status: 'pass', notes: '16 rooms operational, 14 under construction' },
     { name: 'Water & Utilities', status: 'conditional', notes: 'Backup generator budgeted ($200K)' },

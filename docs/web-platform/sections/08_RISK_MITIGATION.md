@@ -119,7 +119,7 @@
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                                                                             │
-│   RISK #1: SAFETY INCIDENT — DETAILED MITIGATION PLAN                      │
+│   RISK #1: SAFETY INCIDENT - DETAILED MITIGATION PLAN                      │
 │                                                                             │
 │   Pre-Event Prevention (Layers of Screening):                              │
 │   ──────────────────────────────────────────────────────────────────────   │
@@ -178,7 +178,7 @@
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                                                                             │
-│   RISK #2: REGULATORY CHANGE — ADVANCED MITIGATION                         │
+│   RISK #2: REGULATORY CHANGE - ADVANCED MITIGATION                         │
 │                                                                             │
 │   Multi-Jurisdiction Resilience Strategy:                                  │
 │   ──────────────────────────────────────────────────────────────────────   │

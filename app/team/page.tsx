@@ -304,7 +304,7 @@ export default function TeamPage() {
               <h3 className="text-3xl font-heading mb-6">Our Philosophy</h3>
               <p className="text-xl text-primary-200 mb-8">
                 "We believe that healing is possible for everyone. Our role is to create the
-                conditions—medical, psychological, and environmental—where transformation can occur."
+                conditions (medical, psychological, and environmental) where transformation can occur."
               </p>
               <div className="grid md:grid-cols-3 gap-6 text-left">
                 {[

@@ -1,5 +1,5 @@
 ### Section 4: GLOBAL EXPANSION (`/expansion`)
-**Purpose:** Show this isn't one property — it's 30 locations worldwide. Make them see the scale.
+**Purpose:** Show this isn't one property. It's 30 locations worldwide. Make them see the scale.
 
 #### Hero: The Global Vision
 ```

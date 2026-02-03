@@ -6,7 +6,7 @@
 
 > *"Bringing the lost travelers home to gardens of their hearts and souls."*
 
-> **One Sentence**: Transformational Epicenter is building the world's first luxury medical wellness destination that combines hospital-grade care, five-star hospitality, cutting-edge health technology, and transformational medicine—a combination no competitor offers today.
+> **One Sentence**: Transformational Epicenter is building the world's first luxury medical wellness destination that combines hospital-grade care, five-star hospitality, cutting-edge health technology, and transformational medicine, a combination no competitor offers today.
 
 ---
 
@@ -38,7 +38,7 @@ This folder contains the complete strategy and specifications for a **100% digit
 
 | Competitor Type | Why They Won't Integrate All 4 Pillars |
 |-----------------|----------------------------------------|
-| Medical Clinics (Clinique La Prairie, SHA Wellness) | Won't touch plant medicine—regulatory risk |
+| Medical Clinics (Clinique La Prairie, SHA Wellness) | Won't touch plant medicine, regulatory risk |
 | Luxury Resorts (Aman, Six Senses) | Lack medical expertise & infrastructure |
 | Plant Medicine Centers (Beond, Rythmia) | Can't attract luxury talent or afford medical |
 | Biohacking Centers (Upgrade Labs, Restore) | Transactional model, not transformational |

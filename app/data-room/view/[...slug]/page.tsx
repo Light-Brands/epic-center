@@ -133,7 +133,7 @@ export default async function DocumentViewerPage({
                       {(doc as SheetsDoc).title}
                     </h1>
                     <p className="text-sm text-neutral-500 mt-1">
-                      Live financial model — embedded from Google Sheets
+                      Live financial model - embedded from Google Sheets
                     </p>
                   </div>
                   <a

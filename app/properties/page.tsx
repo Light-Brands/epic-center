@@ -98,7 +98,7 @@ export default function PropertiesPage() {
         <section className="mb-16">
           <h3 className="text-2xl font-heading text-neutral-900 mb-6">Casita Expansion Plan</h3>
           <p className="text-neutral-600 mb-6">
-            Expanding from 30 to 60 casitas over 5 years, funded entirely from operating cash flow — no additional equity raise required.
+            Expanding from 30 to 60 casitas over 5 years, funded entirely from operating cash flow, no additional equity raise required.
           </p>
           <div className="grid md:grid-cols-5 gap-4">
             {[

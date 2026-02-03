@@ -216,7 +216,7 @@ export default function VisionPage() {
   return (
     <div className="min-h-screen bg-canvas">
       {/* ═══════════════════════════════════════════════════════════════════════════
-          TRUST INDICATORS — Fade out on scroll for clean transition
+          TRUST INDICATORS - Fade out on scroll for clean transition
           ═══════════════════════════════════════════════════════════════════════════ */}
       <motion.div
         ref={trustIndicatorsRef}
@@ -260,7 +260,7 @@ export default function VisionPage() {
       </motion.div>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          HERO SECTION — Refined light mode with elegant details
+          HERO SECTION - Refined light mode with elegant details
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section ref={heroRef} className="relative min-h-screen flex items-end justify-center overflow-hidden">
         {/* Video background */}
@@ -385,7 +385,7 @@ export default function VisionPage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          GSAP ANIMATED TEXT SECTION — Unique scroll-triggered text reveal
+          GSAP ANIMATED TEXT SECTION - Unique scroll-triggered text reveal
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="relative py-20 sm:py-32 md:py-40 bg-white overflow-hidden">
         {/* Subtle decorative elements */}
@@ -408,7 +408,7 @@ export default function VisionPage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          THE CRISIS SECTION — Dramatic stats with video backdrop
+          THE CRISIS SECTION - Dramatic stats with video backdrop
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="relative py-16 sm:py-24 md:py-32 overflow-hidden outline-none">
         {/* Video background with white overlay */}
@@ -525,7 +525,7 @@ export default function VisionPage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          THE SOLUTION SECTION — Dark botanical background
+          THE SOLUTION SECTION - Dark botanical background
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="py-16 sm:py-24 md:py-32 bg-primary-900 text-white relative overflow-hidden">
         {/* Decorative elements */}
@@ -574,7 +574,7 @@ export default function VisionPage() {
               <p className="text-lg text-primary-200 mb-10 leading-relaxed">
                 Transformational Epicenter combines clinically-supervised plant medicine
                 with cutting-edge bio-optimization and deep integration therapy.
-                We're not treating symptoms—we're facilitating profound, lasting transformation.
+                We're not treating symptoms. We're facilitating profound, lasting transformation.
               </p>
 
               {/* Checkpoints */}
@@ -603,12 +603,12 @@ export default function VisionPage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          THE PROPERTY — Video reels + photo gallery unified section
+          THE PROPERTY - Video reels + photo gallery unified section
           ═══════════════════════════════════════════════════════════════════════════ */}
       <PropertyGallery />
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          WHY NOW SECTION — Three pillars with elegant cards
+          WHY NOW SECTION - Three pillars with elegant cards
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="py-16 sm:py-24 md:py-32 bg-canvas relative overflow-hidden">
         {/* Subtle pattern overlay */}
@@ -717,7 +717,7 @@ export default function VisionPage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          INVESTMENT OPPORTUNITY — Metric cards with glass effect
+          INVESTMENT OPPORTUNITY - Metric cards with glass effect
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="py-16 sm:py-24 md:py-32 bg-canvas-muted relative overflow-hidden">
         {/* Warm glow overlay */}
@@ -803,7 +803,7 @@ export default function VisionPage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          QUICK NAVIGATION — Explore the pitch
+          QUICK NAVIGATION - Explore the pitch
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="py-16 sm:py-24 md:py-32 bg-canvas">
         <div className="w-full sm:w-[70vw] mx-auto px-5 sm:px-0">
@@ -869,7 +869,7 @@ export default function VisionPage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════════════
-          CTA SECTION — Final call to action
+          CTA SECTION - Final call to action
           ═══════════════════════════════════════════════════════════════════════════ */}
       <section className="py-16 sm:py-24 md:py-32 bg-primary-900 text-white relative overflow-hidden">
         {/* Decorative elements */}

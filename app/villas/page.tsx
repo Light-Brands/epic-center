@@ -80,7 +80,7 @@ export default function VillasPage() {
             Villa Collection at Transformational Epicenter
           </motion.h2>
           <motion.p variants={fadeUp} className="text-xl text-neutral-600 max-w-3xl mx-auto">
-            36 luxury villas integrated into the healing campus — a buyer-funded condo-hotel
+            36 luxury villas integrated into the healing campus - a buyer-funded condo-hotel
             program generating development fees and recurring management income.
           </motion.p>
         </motion.section>
@@ -240,7 +240,7 @@ export default function VillasPage() {
                 <div className="space-y-3">
                   {[
                     'Turnkey luxury property in Tulum wellness corridor',
-                    'Professional management — no landlord hassle',
+                    'Professional management - no landlord hassle',
                     'Access to campus amenities and healing programs',
                     'Rental income from growing wellness tourism market',
                     'Potential property appreciation in premium location',
@@ -307,7 +307,7 @@ export default function VillasPage() {
                 <p className="text-primary-800 mb-6">
                   Villa owners become part of the Transformational Epicenter community, with
                   access to the full campus amenities and healing programs. Located in Tulum's
-                  premier wellness corridor — one of the world's fastest-growing luxury
+                  premier wellness corridor, one of the world's fastest-growing luxury
                   real estate markets.
                 </p>
                 <div className="space-y-3">

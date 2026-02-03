@@ -152,7 +152,7 @@ export default function ProgramsPage() {
   return (
     <div className="min-h-screen bg-canvas">
       {/* ═══════════════════════════════════════════
-          HERO — "Journeys Designed for Depth"
+          HERO - "Journeys Designed for Depth"
           ═══════════════════════════════════════════ */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-primary-900">
         {/* Atmospheric layers */}
@@ -410,7 +410,7 @@ export default function ProgramsPage() {
               </h2>
               <p className="text-lg text-neutral-600 mb-6 leading-relaxed">
                 Dedicated wellness and health-focused programs that leverage the same medical,
-                bio-optimization, hospitality, functional fitness, and integration infrastructure&mdash;offering
+                bio-optimization, hospitality, functional fitness, and integration infrastructure, offering
                 true healing, restoration, and transformation without plant medicine participation.
               </p>
             </motion.div>

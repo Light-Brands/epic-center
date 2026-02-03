@@ -2,7 +2,7 @@ import { ImageResponse } from 'next/og'
 
 export const runtime = 'edge'
 
-export const alt = 'Transformational Epicenter — Luxury Medical Retreat Investment'
+export const alt = 'Transformational Epicenter - Luxury Medical Retreat Investment'
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
 
@@ -70,7 +70,7 @@ export default async function Image() {
               maxWidth: '700px',
             }}
           >
-            Luxury Medical Retreat — Plant Medicine, Bio-Optimization & Trauma Integration
+            Luxury Medical Retreat - Plant Medicine, Bio-Optimization & Trauma Integration
           </div>
         </div>
 

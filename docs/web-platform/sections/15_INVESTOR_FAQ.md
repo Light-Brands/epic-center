@@ -60,7 +60,7 @@
 │   ─────────────────────────────────────────────────────────────────────    │
 │   See Risk & Mitigation section. We've identified 5 key risks and have     │
 │   documented mitigation strategies for each. We're not naive about         │
-│   challenges—we've planned for them.                                       │
+│   challenges, and we've planned for them.                                       │
 │                                                                             │
 │   ► "What do you need from investors beyond capital?"                      │
 │   ─────────────────────────────────────────────────────────────────────    │

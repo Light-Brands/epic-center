@@ -254,7 +254,7 @@ export default function ModelPage() {
             {[
               {
                 title: 'Medical-Grade Protocols',
-                description: 'Full cardiac monitoring, physician oversight, and emergency protocols. Not a retreat center—a medical facility.',
+                description: 'Full cardiac monitoring, physician oversight, and emergency protocols. Not a retreat center, but a medical facility.',
                 icon: '/icons/diff-medical.png',
               },
               {

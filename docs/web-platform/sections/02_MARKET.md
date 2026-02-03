@@ -60,7 +60,7 @@
 │   • Ages 40-55, UHNW/HNW ($10M+ net worth)                                 │
 │   • Exhausted from constant performance                                     │
 │   • Carrying trauma, stress, burnout affecting everything                   │
-│   • Tried therapy, meditation, retreats — nothing stuck                    │
+│   • Tried therapy, meditation, retreats, but nothing stuck                    │
 │   • Willing to invest $50,000-$150,000+ for real transformation            │
 │                                                                             │
 │                    THEY DON'T NEED ANOTHER RETREAT.                        │
@@ -72,10 +72,10 @@
 #### Why Competitors Can't Copy This (Animated Reveal)
 | Competitor Type | Why They Won't Integrate |
 |-----------------|--------------------------|
-| **Medical Clinics** (Clinique La Prairie, SHA) | Won't touch plant medicine — regulatory & brand risk |
+| **Medical Clinics** (Clinique La Prairie, SHA) | Won't touch plant medicine (regulatory & brand risk) |
 | **Luxury Resorts** (Aman, Six Senses) | Lack medical expertise and clinical infrastructure |
 | **Plant Medicine Centers** (Beond, Rythmia) | Can't attract luxury talent or afford medical rigor |
-| **Biohacking Centers** (Upgrade Labs) | Wrong model — transactional, not transformational |
+| **Biohacking Centers** (Upgrade Labs) | Wrong model: transactional, not transformational |
 
 **The punchline:** We're not competing. We're creating the category.
 

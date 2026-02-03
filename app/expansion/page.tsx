@@ -67,7 +67,7 @@ export default function ExpansionPage() {
           </h2>
           <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
             Three growth engines: campus expansion (30 → 60 casitas), villa real estate (36 villas),
-            and global platform replication — each building on the last.
+            and global platform replication - each building on the last.
           </p>
         </section>
 
@@ -87,7 +87,7 @@ export default function ExpansionPage() {
                 </p>
                 <div className="space-y-3">
                   {[
-                    'Funded from operating cash flow — no dilution',
+                    'Funded from operating cash flow - no dilution',
                     'Operational leverage: ~1.6x costs for 2x rooms',
                     'Revenue grows from $10.3M → $34.0M over 5 years',
                     'EBITDA margin expands from 42% to 60%',
@@ -173,7 +173,7 @@ export default function ExpansionPage() {
                 </p>
                 <div className="space-y-3">
                   {[
-                    'Buyer-funded construction — low capital requirement',
+                    'Buyer-funded construction - low capital requirement',
                     'Development/facilitation fees: 10-15% of sales (~$9M)',
                     'Management fees: 25% of rental revenue (~$1.3M/yr)',
                     '$1M - $3M per villa, $2M average',

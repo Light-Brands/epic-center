@@ -12,7 +12,7 @@ A dedicated web application for presenting our investment opportunity in an inte
 
 **URL**: `invest.transformationalepicenter.com`
 
-**One-Sentence Pitch**: Transformational Epicenter is building the world's first luxury medical wellness destination that combines hospital-grade care, five-star hospitality, cutting-edge health technology, and transformational medicine—a combination no competitor offers today.
+**One-Sentence Pitch**: Transformational Epicenter is building the world's first luxury medical wellness destination that combines hospital-grade care, five-star hospitality, cutting-edge health technology, and transformational medicine, a combination no competitor offers today.
 
 ---
 
@@ -410,7 +410,7 @@ export async function POST(req: Request) {
 
 "Hi Sarah,
 
-We noticed [Portfolio Company A] in your portfolio—
+We noticed [Portfolio Company A] in your portfolio;
 we see natural synergies in the digital health space.
 
 Given [Healthcare VC]'s thesis around transformative

@@ -16,7 +16,7 @@ const images = Array.from({ length: TOTAL_IMAGES }, (_, i) => ({
   id: i + 1,
   thumb: `/gallery-optimized/thumbs/Rancho-Paraiso-Oasis-Akumal-${i + 1}.webp`,
   full: `/gallery-optimized/full/Rancho-Paraiso-Oasis-Akumal-${i + 1}.webp`,
-  alt: `Rancho Paraiso Oasis — View ${i + 1}`,
+  alt: `Rancho Paraiso Oasis - View ${i + 1}`,
 }))
 
 // ─────────────────────────────────────────────────────────────
@@ -263,7 +263,7 @@ export function PropertyGallery() {
           </h2>
 
           <p className="text-base sm:text-lg text-neutral-500 max-w-2xl mx-auto leading-relaxed">
-            A 15-room luxury jungle compound in Akumal, Riviera Maya — where clinical
+            A 15-room luxury jungle compound in Akumal, Riviera Maya, where clinical
             excellence meets natural paradise.
           </p>
         </motion.div>

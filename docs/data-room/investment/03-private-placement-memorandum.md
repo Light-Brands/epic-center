@@ -261,8 +261,8 @@ No single competitor integrates all four market pillars. SHA Wellness Clinic (Sp
 |--------|--------|--------|-------------|
 | Casitas Online | 15→30 | 54→60 | 60 at full build-out |
 | Revenue | $10,300,000 | $34,000,000 | $120,700,000 |
-| EBITDA | $4,301,800 | — | $69,048,096 |
-| Net Income | $2,537,260 | — | $45,102,667 |
+| EBITDA | $4,301,800 | - | $69,048,096 |
+| Net Income | $2,537,260 | - | $45,102,667 |
 
 | Metric | Value |
 |--------|-------|
@@ -291,9 +291,9 @@ No single competitor integrates all four market pillars. SHA Wellness Clinic (Sp
 
 | Scenario | Enterprise Value (Y5) | MOIC | IRR |
 |----------|----------------------|------|-----|
-| Conservative | — | 5.5x | 66% |
+| Conservative | - | 5.5x | 66% |
 | **Base Case** | **$81,200,000** | **7.8x** | **78%** |
-| Aggressive | — | 10.0x | 87% |
+| Aggressive | - | 10.0x | 87% |
 
 ### Key Assumptions
 
