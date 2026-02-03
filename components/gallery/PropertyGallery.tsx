@@ -305,7 +305,6 @@ export function PropertyGallery() {
                   ease: [0.16, 1, 0.3, 1],
                   delay: (idx % BATCH_SIZE) * 0.04,
                 }}
-                layout
               >
                 <button
                   onClick={() => openLightbox(idx)}
