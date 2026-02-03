@@ -8,16 +8,6 @@ import { Menu, X, ChevronDown, ArrowUpRight } from 'lucide-react'
 
 const NAV_SECTIONS = [
   {
-    title: 'Opportunity',
-    links: [
-      { name: 'Vision', href: '/' },
-      { name: 'Market', href: '/market' },
-      { name: 'Model', href: '/model' },
-      { name: 'Moat', href: '/moat' },
-      { name: 'Expansion', href: '/expansion' },
-    ],
-  },
-  {
     title: 'The Story',
     links: [
       { name: 'The Origin', href: '/story/origin' },
@@ -26,6 +16,16 @@ const NAV_SECTIONS = [
       { name: 'The Programs', href: '/story/programs' },
       { name: 'The Science', href: '/story/science' },
       { name: 'The Sanctuary', href: '/story/sanctuary' },
+    ],
+  },
+  {
+    title: 'Opportunity',
+    links: [
+      { name: 'Vision', href: '/' },
+      { name: 'Market', href: '/market' },
+      { name: 'Model', href: '/model' },
+      { name: 'Moat', href: '/moat' },
+      { name: 'Expansion', href: '/expansion' },
     ],
   },
   {
