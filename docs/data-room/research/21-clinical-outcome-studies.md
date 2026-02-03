@@ -49,18 +49,18 @@ The clinical evidence supporting psychedelic-assisted and integrative medicine h
 
 These are not marginal improvements. They represent a paradigm shift in the treatment of conditions that have historically resisted conventional intervention. Transformational Epicenter's protocol design integrates the most effective elements from these studies within a medically rigorous, luxury-appointed environment.
 
-**TE Financial Context (Riviera Maya Jungle Estate -- 60 Casitas, Phased 15→60):**
+**TE Financial Context (Rancho Paraiso Oasis -- 60 Casitas, Phased 15→60):**
 
 | Metric | Value |
 |--------|-------|
 | **Total Project Cost** | $14,953,500 |
 | **Acquisition** | $6,150,000 |
 | **Renovation** | $4,050,000 |
-| **Year 1 Revenue (Base)** | $13,140,400 |
-| **5-Year Total Revenue** | $81,200,000 |
-| **Project IRR (Base / Conservative)** | 78% / 66.54% |
-| **Year 5 Enterprise Value (Base)** | $87,924,380 |
-| **5-Year MOIC (Base / Conservative)** | 7.8x / 4.65x |
+| **Year 1 Revenue (Base)** | $10,300,000 |
+| **5-Year Total Revenue** | $120,700,000 |
+| **Project IRR (Base / Conservative)** | 78% / 66% |
+| **Year 5 Enterprise Value (Base)** | $81,200,000 |
+| **5-Year MOIC (Base / Conservative)** | 7.8x / 5.5x |
 
 > **Investment thesis connection:** Clinical outcomes are not merely therapeutic -- they
 > are the economic engine of TE's business model. Superior outcomes drive referrals,
@@ -479,5 +479,5 @@ TE sets the following internal outcome targets based on published evidence, adju
 ---
 
 **TRANSFORMATIONAL EPICENTER**
-Riviera Maya Jungle Estate | Tulum, Quintana Roo, Mexico
+Rancho Paraiso Oasis | Tulum, Quintana Roo, Mexico
 Document 21 of 21 | Data Room -- Research

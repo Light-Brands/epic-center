@@ -73,7 +73,7 @@ export default function FinancialsPage() {
               5-Year Financial Model
             </h2>
             <p className="text-lg text-neutral-600">
-              Comprehensive projections for Riviera Maya Jungle Estate
+              Comprehensive projections for Rancho Paraiso Oasis
             </p>
           </div>
           <ScenarioToggle showDescriptions />

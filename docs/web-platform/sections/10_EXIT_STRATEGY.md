@@ -56,7 +56,7 @@
 │   Total Raise: $14,953,500                                                 │
 │   5-Year IRR: 78%                                                       │
 │   MOIC: 7.8x                                                              │
-│   Y5 Enterprise Value: $87,924,380 (5.5x EBITDA, single location)          │
+│   Y5 Enterprise Value: $81,200,000 (4.0x EBITDA, single location)          │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -143,18 +143,18 @@
 │                                                                             │
 │   Scenario 1: EBITDA Multiple Approach                                     │
 │   ────────────────────────────────────────────────────────────────────────│
-│   Year 5 EBITDA (Base Case):  $10.4M                                       │
-│   Exit Multiple Range:         5.5x - 8.5x                                 │
+│   Year 5 EBITDA (Base Case):  $20.3M                                       │
+│   Exit Multiple Range:         4.0x - 6.0x                                  │
 │                                                                             │
-│   Conservative (5.5x):         $57.4M                                      │
-│   • Single location, strong occupancy, proven model                        │
-│   • Comparable: SHA Wellness (5x revenue = ~6-7x EBITDA)                   │
-│                                                                             │
-│   Base Case (5.5x):            $57.4M                                      │
+│   Conservative (4.0x):         $81.2M                                      │
 │   • Single location at scale, strong unit economics                        │
-│   • Y5 Enterprise Value: $87.9M (incl. growth premium)                     │
+│   • Conservative single-location multiple during expansion phase           │
 │                                                                             │
-│   Optimistic (8.5x):           $88.7M                                      │
+│   Base Case (4.0x + platform): $81.2M                                      │
+│   • Base-case enterprise value                                             │
+│   • Y5 Enterprise Value: $81.2M                                            │
+│                                                                             │
+│   Optimistic (6.0x):           $122.0M                                     │
 │   • Expansion underway, category leadership established                    │
 │   • Comparable: Equinox (15x EBITDA reflects brand premium)                │
 │                                                                             │
@@ -162,33 +162,30 @@
 │                                                                             │
 │   Scenario 2: Revenue Multiple Approach                                    │
 │   ────────────────────────────────────────────────────────────────────────│
-│   Year 5 Revenue (Base Case):  $19.3M                                      │
-│   Exit Multiple Range:          3x - 6x                                    │
+│   Year 5 Revenue (Base Case):  $34.0M                                      │
+│   Exit Multiple Range:          2x - 4x                                    │
 │                                                                             │
-│   Conservative (3x):            $57.9M                                     │
+│   Conservative (2x):            $68.0M                                     │
 │   • Industry standard for boutique wellness/hospitality                    │
 │   • Comparable: Life Time (2.9x), Equinox (1.2x but EBITDA heavy)          │
 │                                                                             │
-│   Base Case (4.5x):             $86.9M                                     │
-│   • Premium for transformation category + outcomes data                    │
+│   Base Case (2.4x):             $81.2M                                     │
+│   • Aligns with EBITDA-method base case                                    │
 │   • Comparable: Six Senses (3.8x), SHA (5x)                                │
 │                                                                             │
-│   Optimistic (6x):              $115.8M                                    │
+│   Optimistic (3.6x):            $122.0M                                    │
 │   • Strategic premium if bidding war or platform potential                 │
 │   • Comparable: Miraval (11.9x shows strategic can pay up)                 │
 │                                                                             │
 │   ────────────────────────────────────────────────────────────────────────│
 │                                                                             │
-│   Blended Valuation (Base Case)                                            │
+│   Return Profile Summary                                                   │
 │   ────────────────────────────────────────────────────────────────────────│
-│   60% EBITDA Method (5.5x):     $57.4M × 0.6 = $34.4M                      │
-│   40% Revenue Method (4.5x):    $86.9M × 0.4 = $34.8M                      │
-│   ──────────────────────────────────────                                   │
-│   Blended Exit Value:           $69.2M                                     │
 │                                                                             │
-│   Y5 Enterprise Value (Base):   $87,924,380                                │
-│   5-Year Revenue:               $81,200,000                                │
-│   5-Year Net Income:            $33,472,811                                │
+│   Y5 Enterprise Value (Base):   $81,200,000                                │
+│   5-Year Revenue:               $120,700,000                               │
+│   5-Year Net Income:            $45,102,667                                │
+│   Y5 EBITDA:                    $20,299,217                                │
 │   ──────────────────────────────────────                                   │
 │                                                                             │
 │   Investor Returns (Seed Round):                                           │
@@ -196,8 +193,8 @@
 │   ──────────────────────────────────────                                   │
 │   MOIC: 7.8x (base case)                                                  │
 │   IRR: 78% (5-year hold, base case)                                     │
-│   Conservative: 66.54% IRR / 4.65x MOIC                                   │
-│   Aggressive: 80.09% IRR / 8.94x MOIC                                     │
+│   Conservative: 66% IRR / 5.5x MOIC                                       │
+│   Aggressive: 87% IRR / 10.0x MOIC                                        │
 │                                                                             │
 │   Note: Base case assumptions. Series A dilution would reduce ownership    │
 │   but increase absolute value through growth acceleration.                 │

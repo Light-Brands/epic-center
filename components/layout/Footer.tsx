@@ -29,7 +29,7 @@ const FOOTER_LINKS = [
   {
     title: 'Investment',
     links: [
-      { name: 'The Property', href: '/properties/riviera-maya-jungle-estate' },
+      { name: 'The Property', href: '/properties/rancho-paraiso-oasis' },
       { name: 'Villas', href: '/villas' },
       { name: 'Financials', href: '/financials' },
       { name: 'Returns', href: '/returns' },

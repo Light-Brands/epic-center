@@ -1,6 +1,6 @@
 # TRANSFORMATIONAL EPICENTER
 
-## Riviera Maya Jungle Estate
+## Rancho Paraiso Oasis
 
 ### Unit Economics Model
 

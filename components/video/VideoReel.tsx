@@ -234,7 +234,7 @@ export function VideoReel() {
                 </div>
                 <div>
                   <p className="text-white text-[13px] font-semibold leading-tight">The Property</p>
-                  <p className="text-white/50 text-[11px] leading-tight">Riviera Maya Jungle Estate</p>
+                  <p className="text-white/50 text-[11px] leading-tight">Rancho Paraiso Oasis</p>
                 </div>
               </div>
               <span className="text-white/40 text-xs tabular-nums font-medium tracking-wide">

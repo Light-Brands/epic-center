@@ -1,6 +1,6 @@
 # TRANSFORMATIONAL EPICENTER
 
-## Riviera Maya Jungle Estate
+## Rancho Paraiso Oasis
 
 ### Financial Projections - 5-Year Model
 
@@ -77,7 +77,7 @@ Three scenarios model the range of expected outcomes based on occupancy rates, r
 
 **Conservative Case** -- Assumes ~50-70% occupancy ramp with lower utilization in early years and more modest demand growth. This case models headwinds including slower brand awareness growth, regional competition, and potential macroeconomic softness in the luxury wellness segment. Even in this downside scenario, the project generates attractive returns with a 66% IRR and 5.5x MOIC over five years.
 
-**Aggressive Case** -- Assumes ~70-85% occupancy ramp with faster market penetration and stronger demand. This case reflects a scenario where brand traction exceeds expectations, referral rates are high, and the Riviera Maya Jungle Estate establishes itself rapidly as the category-defining facility. The aggressive case projects an 87% IRR and 10.0x MOIC.
+**Aggressive Case** -- Assumes ~70-85% occupancy ramp with faster market penetration and stronger demand. This case reflects a scenario where brand traction exceeds expectations, referral rates are high, and the Rancho Paraiso Oasis establishes itself rapidly as the category-defining facility. The aggressive case projects an 87% IRR and 10.0x MOIC.
 
 ---
 
@@ -99,7 +99,7 @@ Total project funding of $14,953,500 is allocated across eight categories. The a
 
 ### Funding Allocation Commentary
 
-**Property Acquisition (41.1%)** -- The single largest allocation covers the Riviera Maya Jungle Estate purchase at $5,800,000 plus associated transaction costs. The property's 45,000 m2 compound across 9 lots in Tulum, Q.R. provides the physical foundation for 60 treatment casitas with existing structural improvements that significantly reduce renovation scope compared to greenfield development.
+**Property Acquisition (41.1%)** -- The single largest allocation covers the Rancho Paraiso Oasis purchase at $5,800,000 plus associated transaction costs. The property's 45,000 m2 compound across 9 lots in Tulum, Q.R. provides the physical foundation for 60 treatment casitas with existing structural improvements that significantly reduce renovation scope compared to greenfield development.
 
 **Renovation & Conversion (27.1%)** -- Medical conversion of the existing jungle compound requires hospital-grade electrical systems, plumbing for treatment rooms, ICU-capable infrastructure, and luxury interior finishes consistent with premium positioning. This budget covers the initial 15 casitas plus medical infrastructure. Phase 2 expansion (15 additional casitas in Year 1) is included in the seed round; subsequent expansion is funded from cash flow.
 
@@ -276,7 +276,7 @@ The $230,000 physical technology infrastructure is depreciated as part of buildi
 
 | Assumption | Value | Source / Rationale |
 |------------|-------|--------------------|
-| Property acquisition | $5,800,000 | Negotiated price for Riviera Maya Jungle Estate |
+| Property acquisition | $5,800,000 | Negotiated price for Rancho Paraiso Oasis |
 | Total closing costs | $350,000 | Legal, due diligence, transfer taxes |
 | Renovation budget | $4,050,000 | Contractor estimates for medical conversion |
 | Technology platform | $1,230,000 | $1M AI platform + $230K physical infrastructure |
@@ -302,7 +302,7 @@ This five-year financial model was built bottom-up from unit economics (see Docu
 ### Limitations
 
 - This model does not include revenue from bio-optimization add-on services, which represent potential upside not captured in the base case
-- No second location or expansion revenue is modeled; all projections reflect single-site operations at the Riviera Maya Jungle Estate
+- No second location or expansion revenue is modeled; all projections reflect single-site operations at the Rancho Paraiso Oasis
 - The villa real estate opportunity (36 villas, $72M total sales) is not included in these projections and represents significant additional upside
 - Currency risk (MXN/USD) is not explicitly modeled; operating costs incurred in MXN may benefit from favorable exchange rates
 - Enterprise value and MOIC figures incorporate Year 5 exit valuation; see the Valuation Report (Document 22) for the full 9-method valuation framework and enterprise value bridge

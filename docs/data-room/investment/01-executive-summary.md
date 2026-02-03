@@ -47,7 +47,7 @@
 
 Transformational Epicenter is a medical-grade wellness facility that integrates four disciplines no competitor has unified under one roof: clinical medicine, luxury hospitality, bio-optimization technology, and plant medicine protocols. The result is a category-defining platform for sustained human transformation -- not a spa, not a hospital, not a retreat center, but the convergence of all four operating as a single coordinated system.
 
-The company operates from the Riviera Maya Jungle Estate in Tulum, Quintana Roo, Mexico -- a 45,000 m2 jungle estate compound purpose-renovated to deliver immersive residential treatment programs ranging from 7 to 28 days. The campus follows a phased expansion model: 15 casitas at launch, scaling to 60 casitas over five years funded from operating cash flow.
+The company operates from the Rancho Paraiso Oasis in Tulum, Quintana Roo, Mexico -- a 45,000 m2 jungle estate compound purpose-renovated to deliver immersive residential treatment programs ranging from 7 to 28 days. The campus follows a phased expansion model: 15 casitas at launch, scaling to 60 casitas over five years funded from operating cash flow.
 
 **What we are:**
 
@@ -132,7 +132,7 @@ Guests do not pay $14,000-$56,000 for any single modality. They pay for the inte
 
 ## 4. The Property
 
-### Riviera Maya Jungle Estate
+### Rancho Paraiso Oasis
 
 | Specification | Detail |
 |--------------|--------|
@@ -461,7 +461,7 @@ The investment funds a single-property proof of concept that demonstrates the un
 invest@transformational-epicenter.com
 
 **Location:**
-Riviera Maya Jungle Estate
+Rancho Paraiso Oasis
 Tulum, Quintana Roo, Mexico
 
 ---
@@ -478,5 +478,5 @@ Tulum, Quintana Roo, Mexico
 ---
 
 **TRANSFORMATIONAL EPICENTER**
-Riviera Maya Jungle Estate | Tulum, Quintana Roo, Mexico
+Rancho Paraiso Oasis | Tulum, Quintana Roo, Mexico
 Document 01 of 21 | Data Room -- Investment

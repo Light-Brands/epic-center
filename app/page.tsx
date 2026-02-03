@@ -753,7 +753,7 @@ export default function VisionPage() {
             variants={staggerContainer}
           >
             {[
-              { icon: '/icons/project-cost.png', label: 'Total Raise', value: '$15.0M', description: 'All-equity seed round' },
+              { icon: '/icons/project-cost.png', label: 'Total Raise', value: '$14.95M', description: 'All-equity seed round' },
               { icon: '/icons/year-5-revenue.png', label: 'Y5 Enterprise Value', value: '$81.2M', description: 'Base case exit valuation' },
               { icon: '/icons/project-irr.png', label: 'Project IRR', value: '78%', description: 'Base case with Year 5 exit' },
               { icon: '/icons/moic.png', label: '5-Year MOIC', value: '7.8x', description: 'Multiple on invested capital' },
@@ -829,7 +829,7 @@ export default function VisionPage() {
           >
             {[
               { title: 'Market', href: '/market', description: '$5.6T addressable market', accent: 'accent' },
-              { title: 'The Property', href: '/properties/riviera-maya-jungle-estate', description: '60-casita campus expansion', accent: 'primary' },
+              { title: 'The Property', href: '/properties/rancho-paraiso-oasis', description: '60-casita campus expansion', accent: 'primary' },
               { title: 'Financials', href: '/financials', description: '5-year projections', accent: 'secondary' },
               { title: 'Returns', href: '/returns', description: '78% IRR, 7.8x MOIC', accent: 'accent' },
             ].map((section, index) => (
@@ -899,7 +899,7 @@ export default function VisionPage() {
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
               </button>
             </Link>
-            <Link href="/properties/riviera-maya-jungle-estate" className="w-full sm:w-auto">
+            <Link href="/properties/rancho-paraiso-oasis" className="w-full sm:w-auto">
               <button className="inline-flex items-center justify-center gap-2 w-full sm:w-auto px-8 sm:px-10 py-4 sm:py-5 rounded-xl font-accent text-sm font-semibold uppercase tracking-wider text-white border-2 border-white/20 hover:bg-white/10 hover:border-white/40 transition-all duration-300 backdrop-blur-sm">
                 Explore the Property
               </button>
