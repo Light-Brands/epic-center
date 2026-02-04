@@ -817,17 +817,17 @@ export default function VisionPage() {
                     </div>
 
                     {/* Value with color transition */}
-                    <p className="font-mono text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-primary-800 mb-1 sm:mb-2 tracking-tight transition-all duration-300 group-hover:text-primary-700 group-hover:scale-105">
+                    <p className="font-mono text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold text-primary-800 mb-1 sm:mb-2 tracking-tight transition-all duration-300 group-hover:text-primary-700 group-hover:scale-105 break-words">
                       {metric.value}
                     </p>
 
                     {/* Label */}
-                    <p className="font-accent text-[10px] sm:text-xs text-neutral-500 uppercase tracking-[0.15em] mb-1 sm:mb-3">
+                    <p className="font-accent text-[10px] sm:text-xs text-neutral-500 uppercase tracking-[0.1em] sm:tracking-[0.15em] mb-1 sm:mb-3 leading-snug">
                       {metric.label}
                     </p>
 
                     {/* Description */}
-                    <p className="text-xs sm:text-sm text-neutral-500 hidden sm:block">{metric.description}</p>
+                    <p className="text-[11px] sm:text-sm text-neutral-500 leading-snug">{metric.description}</p>
 
                     {/* Bottom accent line */}
                     <div className="h-1 w-0 group-hover:w-20 mx-auto mt-6 bg-gradient-to-r from-accent-500 to-secondary-500 rounded-full transition-all duration-500 ease-out-expo" />
