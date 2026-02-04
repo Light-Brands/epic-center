@@ -448,7 +448,7 @@ export default function TimelinePage() {
                   { value: '78%', label: 'Target IRR' },
                   { value: '7.5x', label: 'Target MOIC' },
                   { value: '5 yrs', label: 'Hold Period' },
-                  { value: '$81.2M', label: 'Y5 Enterprise Value' },
+                  { value: '$146.7M', label: 'Y5 Enterprise Value' },
                 ].map((stat, index) => (
                   <motion.div
                     key={stat.label}

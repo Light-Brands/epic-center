@@ -12,6 +12,8 @@ import {
   getInvestmentReturns,
   getDashboardMetrics,
   getPLStatements,
+  getEnterpriseValuation,
+  getBusinessUnits,
   formatCurrency,
   formatCurrencyFull,
   formatPercent,
@@ -42,20 +44,14 @@ export default function ReturnsPage() {
   const returns = getInvestmentReturns()
   const metrics = getDashboardMetrics()
   const plStatements = getPLStatements()
+  const enterprise = getEnterpriseValuation()
+  const businessUnits = getBusinessUnits()
 
   const irr = getScenarioValue(returns.irr, scenario)
   const moic = getScenarioValue(returns.moic, scenario)
 
-  // Year 5 enterprise values - updated for casita phasing model (60 rooms at maturity)
-  const year5BaseEBITDA = plStatements[4].ebitda
-  const exitValues = {
-    conservative: 55000000,  // 4.0x Y5 EBITDA (~$20.3M) + retained cash
-    base: 81200000,          // 4.0x Y5 EBITDA + retained cash + platform premium
-    aggressive: 122000000,   // 6.0x Y5 EBITDA + retained cash + villa asset value
-  }
-  const exitValue = exitValues[scenario]
-  const exitMultiples = { conservative: '4.0x', base: '4.0x + platform', aggressive: '6.0x' }
-  const currentExitMultiple = exitMultiples[scenario]
+  // Year 5 enterprise values from enterprise valuation data
+  const exitValue = enterprise.sumOfPartsValue[scenario]
 
   return (
     <div className="min-h-screen bg-canvas pt-20">
@@ -76,7 +72,8 @@ export default function ReturnsPage() {
                 Investor Returns
               </h2>
               <p className="text-lg text-neutral-600 max-w-2xl">
-                A clear path to liquidity with multiple exit options and strong projected returns.
+                A clear path to liquidity with multiple exit options and strong projected returns
+                across all four operating units.
               </p>
             </div>
             <ScenarioToggle showDescriptions />
@@ -108,15 +105,66 @@ export default function ReturnsPage() {
               delay={0.3}
             />
             <MetricCard
-              label="Est. Exit Value"
+              label="Y5 Enterprise Value"
               value={formatCurrency(exitValue)}
-              subtitle={`${currentExitMultiple} EBITDA + retained cash`}
+              subtitle="Sum-of-parts (4 units)"
               trend="up"
               trendValue="Year 5"
               delay={0.4}
             />
           </div>
         </section>
+
+        {/* Enterprise Value Bridge */}
+        <motion.section
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3, duration: 0.6 }}
+          className="mb-16"
+        >
+          <Card padding="lg" className="hover:shadow-lg transition-shadow duration-300">
+            <h3 className="text-2xl font-heading text-neutral-900 mb-6">Enterprise Value Bridge</h3>
+            <p className="text-neutral-600 mb-8">
+              Year 5 enterprise value of {formatCurrency(exitValue)} built from four distinct operating units.
+            </p>
+            <div className="space-y-4">
+              {businessUnits.map((unit) => {
+                const unitValue = unit.standaloneValue[scenario]
+                const percentage = (unitValue / exitValue) * 100
+                return (
+                  <div key={unit.id}>
+                    <div className="flex justify-between items-center mb-2">
+                      <div>
+                        <span className="font-medium text-neutral-900">{unit.name}</span>
+                        <span className="text-sm text-neutral-500 ml-2">
+                          {unit.y5EBITDA[scenario] > 0
+                            ? `${unit.multiple.toFixed(1)}x EBITDA`
+                            : unit.multipleLabel}
+                        </span>
+                      </div>
+                      <div className="text-right">
+                        <span className="font-heading text-lg text-primary-800">{formatCurrency(unitValue)}</span>
+                        <span className="text-sm text-neutral-500 ml-2">({percentage.toFixed(0)}%)</span>
+                      </div>
+                    </div>
+                    <div className="h-3 bg-neutral-200 rounded-full overflow-hidden">
+                      <motion.div
+                        initial={{ width: 0 }}
+                        animate={{ width: `${percentage}%` }}
+                        transition={{ delay: 0.5, duration: 0.8, ease: 'easeOut' }}
+                        className="h-full rounded-full bg-primary-600"
+                      />
+                    </div>
+                  </div>
+                )
+              })}
+              <div className="pt-4 mt-4 border-t-2 border-primary-800 flex justify-between items-center">
+                <span className="font-heading text-lg text-primary-900">Combined Enterprise Value</span>
+                <span className="font-heading text-2xl text-primary-900">{formatCurrency(exitValue)}</span>
+              </div>
+            </div>
+          </Card>
+        </motion.section>
 
         {/* Return Timeline */}
         <motion.section
@@ -197,7 +245,7 @@ export default function ReturnsPage() {
                 icon: Building2,
                 title: 'Strategic Sale',
                 timeline: 'Year 5-7',
-                description: 'Sale to hospitality group, healthcare system, or wellness conglomerate seeking turnkey medical retreat operations.',
+                description: 'Sale to hospitality group, healthcare system, or wellness conglomerate seeking turnkey medical retreat operations with integrated real estate.',
                 multiple: '8-10x EBITDA',
                 likelihood: 'Primary',
               },
@@ -205,7 +253,7 @@ export default function ReturnsPage() {
                 icon: Users,
                 title: 'Private Equity',
                 timeline: 'Year 4-6',
-                description: 'Acquisition by PE firm building a platform in the wellness or alternative healthcare space.',
+                description: 'Acquisition by PE firm building a platform in the wellness or alternative healthcare space. Four-unit structure appeals to platform-oriented buyers.',
                 multiple: '7-9x EBITDA',
                 likelihood: 'Secondary',
               },
@@ -286,7 +334,7 @@ export default function ReturnsPage() {
                 <tbody>
                   {[
                     {
-                      label: '5-Year Total Revenue',
+                      label: '5-Year Healing Center Revenue',
                       conservative: formatCurrency(metrics.keyMetrics.revenue.fiveYearTotal.conservative),
                       base: formatCurrency(metrics.keyMetrics.revenue.fiveYearTotal.base),
                       aggressive: formatCurrency(metrics.keyMetrics.revenue.fiveYearTotal.aggressive),
@@ -304,10 +352,16 @@ export default function ReturnsPage() {
                       aggressive: formatMultiple(returns.moic.aggressive),
                     },
                     {
-                      label: 'Est. Enterprise Value (Y5)',
-                      conservative: formatCurrency(exitValues.conservative),
-                      base: formatCurrency(exitValues.base),
-                      aggressive: formatCurrency(exitValues.aggressive),
+                      label: 'Y5 Enterprise Value (SOTP)',
+                      conservative: formatCurrency(enterprise.sumOfPartsValue.conservative),
+                      base: formatCurrency(enterprise.sumOfPartsValue.base),
+                      aggressive: formatCurrency(enterprise.sumOfPartsValue.aggressive),
+                    },
+                    {
+                      label: '9-Method Post-Money Valuation',
+                      conservative: formatCurrency(enterprise.weightedAvgPostMoney.conservative),
+                      base: formatCurrency(enterprise.weightedAvgPostMoney.base),
+                      aggressive: formatCurrency(enterprise.weightedAvgPostMoney.aggressive),
                     },
                   ].map((row, index) => (
                     <motion.tr
@@ -349,31 +403,31 @@ export default function ReturnsPage() {
           >
             {[
               {
-                title: 'Casita Expansion',
-                description: 'Revenue growth driven by phased capacity expansion from 30 to 60 casitas over 5 years, funded from operating cash flow.',
-                impact: '3.3x revenue growth',
+                title: 'Healing Center Growth',
+                description: 'Revenue growth driven by phased capacity expansion from 30 to 60 casitas over 5 years, plus bio-optimization and aftercare add-ons reaching $35.5M Y5 revenue.',
+                impact: `${formatCurrency(businessUnits[0].standaloneValue[scenario])} value`,
               },
               {
                 title: 'Margin Expansion',
-                description: 'EBITDA margin improvement from 42% in Year 1 to 60% at full capacity through operational leverage on 2x rooms.',
+                description: 'EBITDA margin improvement from 43% in Year 1 to 61% at full capacity through operational leverage on doubled room count.',
                 impact: '+18pp margin expansion',
               },
               {
                 title: 'Villa Real Estate',
-                description: '48-villa condo-hotel program generating development fees (~$12M) plus recurring management fees ($1.7M/yr at full operations).',
-                impact: '$96M total villa sales',
+                description: '48-villa condo-hotel program generating $12M cumulative development fees (Y1-Y4) plus recurring management fees ($1.7M/yr at full operations).',
+                impact: `${formatCurrency(businessUnits[1].standaloneValue[scenario] + businessUnits[2].standaloneValue[scenario])} combined`,
               },
               {
-                title: 'Platform Value',
-                description: 'Proven playbook at scale enables multi-location expansion. 60-casita + 48-villa campus commands platform premium at exit.',
-                impact: 'Global expansion ready',
+                title: 'Technology Platform',
+                description: '14 integrated systems valued at $7.5M (cost-replacement + scalability). Enables 60% cost reduction for new-site deployment.',
+                impact: `${formatCurrency(businessUnits[3].standaloneValue[scenario])} IP value`,
               },
             ].map((driver) => (
               <motion.div key={driver.title} variants={itemVariants}>
                 <Card padding="lg" className="hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                   <div className="flex justify-between items-start mb-3">
                     <h4 className="text-lg font-medium text-neutral-900">{driver.title}</h4>
-                    <span className="text-sm font-accent text-success-600 bg-success-50 px-2 py-1 rounded">
+                    <span className="text-sm font-accent text-success-600 bg-success-50 px-2 py-1 rounded whitespace-nowrap ml-2">
                       {driver.impact}
                     </span>
                   </div>
@@ -397,7 +451,7 @@ export default function ReturnsPage() {
                 <h3 className="text-3xl font-display font-semibold mb-4 text-white">Investment Summary</h3>
                 <p className="text-primary-200 mb-6">
                   A compelling risk-adjusted opportunity in a rapidly growing market with
-                  multiple paths to attractive returns.
+                  multiple paths to attractive returns across four integrated business units.
                 </p>
                 <motion.div
                   variants={containerVariants}
@@ -409,8 +463,9 @@ export default function ReturnsPage() {
                     { label: 'Investment Required', value: formatCurrencyFull(returns.totalCapitalRequired) },
                     { label: 'Target IRR', value: formatPercent(returns.irr.base) },
                     { label: 'Target MOIC', value: formatMultiple(returns.moic.base) },
+                    { label: 'Y5 Enterprise Value', value: formatCurrency(enterprise.sumOfPartsValue.base) },
                     { label: 'Investment Horizon', value: '5-7 Years' },
-                  ].map((item, index) => (
+                  ].map((item) => (
                     <motion.div
                       key={item.label}
                       variants={itemVariants}

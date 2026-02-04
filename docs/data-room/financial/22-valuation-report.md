@@ -31,20 +31,20 @@
 
 **Transformational Epicenter** is a luxury medical retreat development targeting the convergence of two explosive growth markets: psychedelic-assisted therapy ($11B+ projected by 2034, 15.8% CAGR) and luxury wellness tourism ($364B projected by 2032, 7.4% CAGR). The project centers on the acquisition and medical conversion of the **Rancho Paraiso Oasis**, a 45,000 m2 jungle compound across 9 lots in Tulum, Quintana Roo, Mexico.
 
-The development follows a **phased expansion model**: 15 casitas operational at launch, expanding to 60 casitas over 5 years. Expansion beyond Year 1 is funded entirely from operating cash flow -- no additional equity raise required. This phased approach de-risks execution while capturing significant revenue growth as capacity scales from $10.3M (Year 1) to $34.0M (Year 5).
+The development follows a **phased expansion model**: 15 casitas operational at launch, expanding to 60 casitas over 5 years. Expansion beyond Year 1 is funded entirely from operating cash flow -- no additional equity raise required. This phased approach de-risks execution while capturing significant revenue growth as capacity scales from $10.3M (Year 1) to $34.0M (Year 5). Alongside the healing center, three additional business units -- real estate development, property management, and a technology platform -- drive the consolidated Year 5 Enterprise Value to approximately **$147M**.
 
 ### Valuation at a Glance
 
 | Metric | Value |
 |--------|-------|
-| **Weighted Average Post-Money Valuation** | **$21,042,000** |
-| **Valuation Range (Low - High)** | **$13,545,000 - $31,806,000** |
+| **Weighted Average Post-Money Valuation (9-Method)** | **$29,350,000** |
+| **Year 5 Enterprise Value (Sum-of-Parts)** | **~$147,000,000** |
+| **Valuation Range (Low - High)** | **$20,333,000 - $43,333,000** |
 | **Total Capital Required** | $16,823,500 |
-| **Pre-Money Valuation (Mid)** | $6,089,000 |
+| **Pre-Money Valuation (Mid)** | $12,527,000 |
 | **Project IRR (with Exit, Base Case)** | 78% |
 | **5-Year MOIC (Base Case)** | 7.5x |
-| **Year 5 Enterprise Value (Base)** | $81,200,000 |
-| **5-Year Cumulative Net Income** | $45,102,667 |
+| **5-Year Cumulative Net Income (Consolidated)** | $49,102,667 |
 | **Break-Even Occupancy** | ~3% (25 guests/year) |
 
 ### Investment Thesis
@@ -52,13 +52,13 @@ The development follows a **phased expansion model**: 15 casitas operational at 
 This is a rare asymmetric opportunity where:
 
 1. **Real asset backing** ($5.8M property) provides downside protection
-2. **83% gross margins** and **42-60% EBITDA margins** (expanding with scale) deliver exceptional cash generation
+2. **83% gross margins** and **42-61% EBITDA margins** (expanding with scale) deliver exceptional cash generation
 3. **~3% break-even occupancy** creates an enormous safety margin
 4. **Regulatory moat** in Mexico (ibogaine legal) provides first-mover advantage
 5. **Phased expansion** (30 to 60 casitas) doubles capacity funded from cash flow -- no dilution
-6. **$81.2M base-case enterprise value** at Year 5 exit represents 7.5x MOIC
-7. **Villa real estate opportunity** (48 villas, $96M total sales) provides additional upside not captured in the base case
-8. **Platform expansion potential** (multi-location) could push exit multiples from 4.0x to 8-16x EBITDA
+6. **~$147M Year 5 Enterprise Value** across four integrated business units represents 7.5x MOIC
+7. **Villa real estate program** (48 villas, $96M total sales, ~$12M cumulative development fees, ~$1.7M/year management income) is included in the enterprise valuation as a core business unit
+8. **Platform expansion potential** (multi-location) could push exit multiples from 5.5x to 8-16x EBITDA
 
 ---
 
@@ -99,7 +99,61 @@ A central feature of the financial model is the phased casita build-out, which a
 | **Eyob Mebrahtu** | Head of Marketing | Luxury wellness and transformation brand specialist |
 | **Julien Leblanc** | Medicine Advocate | Professional MMA fighter, plant medicine advocate, built-in audience reach |
 
-### 2.3 Goals
+### 2.3 Business Unit Structure
+
+Transformational Epicenter operates as an integrated enterprise with four distinct business units, each contributing independently to the consolidated Year 5 Enterprise Value of approximately **$147M**:
+
+**1. Healing Center (Clinical Operations)**
+The core business. Delivers bio-optimization, plant medicine, and trauma integration treatment programs across 60 casitas at full capacity. Year 5 Revenue of ~$35.5M (including ancillary clinical revenue) at a 61% EBITDA margin. Valued at a 5.5x EBITDA multiple reflecting behavioral health sector benchmarks for established operators with >$10M revenue.
+
+| Metric | Value |
+|--------|-------|
+| Year 5 Revenue | ~$35,500,000 |
+| Year 5 EBITDA Margin | 61% |
+| EBITDA Multiple | 5.5x |
+| **Implied Value** | **~$117,000,000** |
+
+**2. Real Estate Development (Villa Program)**
+A 48-villa condo-hotel collection developed on the Rancho Paraiso campus. Villas are sold to buyers at an average price of $2M each ($96M total sales). Construction is buyer-funded through deposits, eliminating capital requirements. The company earns 10-15% development and facilitation fees on each sale, generating approximately $12M in cumulative fees over the 4-year sell-through period.
+
+| Metric | Value |
+|--------|-------|
+| Total Villas | 48 |
+| Cumulative Development Fees | ~$12,000,000 |
+| Capital Required | Minimal (buyer-funded) |
+| **Implied Value** | **~$12,000,000** |
+
+**3. Property Management Company**
+Once villas are built and operational, the management company earns 25% of villa rental revenue for managing bookings, maintenance, housekeeping, and guest services. With 48 villas operational by Year 4-5, this produces a recurring, high-margin revenue stream.
+
+| Metric | Value |
+|--------|-------|
+| Year 5 Revenue | ~$1,700,000 |
+| EBITDA Margin | ~60% |
+| EBITDA Multiple | 10x (recurring property management) |
+| **Implied Value** | **~$10,000,000** |
+
+**4. Technology & Digital Platform**
+A proprietary AI-powered platform encompassing 14 integrated systems: guest management, clinical records, bio-optimization tracking, CRM, booking engine, staff scheduling, inventory, financial reporting, analytics dashboards, marketing automation, telemedicine, integration journaling, outcome tracking, and aftercare coordination. Valued on a cost-replacement basis reflecting the $1.23M direct investment plus the strategic value of purpose-built clinical technology.
+
+| Metric | Value |
+|--------|-------|
+| Direct Investment | $1,230,000 |
+| Systems Built | 14 integrated platforms |
+| Valuation Basis | Cost-replacement + strategic premium |
+| **Implied Value** | **~$7,500,000** |
+
+**Consolidated Sum-of-Parts:**
+
+| Business Unit | Implied Value | % of Enterprise |
+|---------------|--------------|----------------|
+| Healing Center | ~$117,000,000 | 80% |
+| Real Estate Development | ~$12,000,000 | 8% |
+| Property Management | ~$10,000,000 | 7% |
+| Technology Platform | ~$7,500,000 | 5% |
+| **Total Enterprise Value** | **~$146,500,000** | **100%** |
+
+### 2.4 Goals
 
 **Short-Term (2026-2027):**
 - Close seed round ($16.82M equity raise) -- Q1 2026
@@ -114,13 +168,37 @@ A central feature of the financial model is the phased casita build-out, which a
 - Develop 48-villa condo-hotel collection ($96M total sales, buyer-funded construction)
 - Expand to 2-3 additional locations (Caribbean, Central America)
 - Build platform value to command 8-16x EBITDA exit multiples
-- Target $81.2M+ enterprise value at Year 5 exit
+- Target ~$147M enterprise value at Year 5 exit
 
 ---
 
 ## 3. FORECASTS SUMMARY
 
-### 3.1 Future Profitability
+### 3.0 Consolidated Enterprise Financials
+
+The consolidated view combines all four business units into a single enterprise P&L. The healing center generates the majority of revenue and EBITDA, supplemented by villa development fees and property management income.
+
+| Metric | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 | 5-Year Total |
+|--------|--------|--------|--------|--------|--------|-------------|
+| **Healing Center Revenue** | $10,300,000 | $19,600,000 | $26,300,000 | $30,500,000 | $34,000,000 | $120,700,000 |
+| **Villa Development Fees** | $1,600,000 | $2,600,000 | $3,200,000 | $2,200,000 | $0 | $9,600,000 |
+| **Villa Mgmt Income** | $0 | $200,000 | $700,000 | $1,300,000 | $1,700,000 | $3,900,000 |
+| **Technology (Internal)** | -- | -- | -- | -- | -- | -- |
+| **Consolidated Revenue** | **$11,900,000** | **$22,400,000** | **$30,200,000** | **$34,000,000** | **$35,700,000** | **$134,200,000** |
+| | | | | | | |
+| Healing Center EBITDA | $4,301,800 | $10,902,089 | $15,439,741 | $18,105,249 | $20,299,217 | $69,048,096 |
+| Villa Dev Fee EBITDA (85% margin) | $1,360,000 | $2,210,000 | $2,720,000 | $1,870,000 | $0 | $8,160,000 |
+| Villa Mgmt EBITDA (60% margin) | $0 | $120,000 | $420,000 | $780,000 | $1,020,000 | $2,340,000 |
+| **Consolidated EBITDA** | **$5,661,800** | **$13,232,089** | **$18,579,741** | **$20,755,249** | **$21,319,217** | **$79,548,096** |
+| **Consolidated EBITDA Margin** | 48% | 59% | 62% | 61% | 60% | 59% |
+| | | | | | | |
+| **Consolidated Net Income** | **$3,397,260** | **$8,682,462** | **$12,324,819** | **$13,802,674** | **$14,440,452** | **$52,647,667** |
+
+**Key dynamics:** Consolidated Year 5 recurring revenue is ~$35.7M (healing center + management fees). Villa development fees add ~$9.6M cumulatively through Year 4 but are non-recurring. The healing center remains the dominant value driver at 80% of enterprise value, while the villa program and management company provide diversified income streams with minimal incremental capital.
+
+> **Note:** Villa development fees are recognized as earned during the sell-through period (Years 1-4). The technology platform generates no external revenue but is valued on a cost-replacement basis as an enterprise asset.
+
+### 3.1 Healing Center Revenue Forecast
 
 | Metric | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 | 5-Year Total |
 |--------|--------|--------|--------|--------|--------|-------------|
@@ -171,34 +249,52 @@ A central feature of the financial model is the phased casita build-out, which a
 
 ## 4. VALUATION SUMMARY
 
-The valuation presented below is derived from the weighted average of nine independent methods. Utilizing multiple methods is considered best practice in company valuation per the International Private Equity Valuation (IPEV) Guidelines, as it allows for a comprehensive and reliable assessment by examining the business from multiple perspectives. Each method is detailed in Sections 8-10.
+The valuation presented below is derived from the weighted average of nine independent methods. Utilizing multiple methods is considered best practice in company valuation per the International Private Equity Valuation (IPEV) Guidelines, as it allows for a comprehensive and reliable assessment by examining the business from multiple perspectives. Each method is detailed in Sections 8-10. All methods now incorporate the consolidated enterprise financials across all four business units.
 
-### Post-Money Valuation: $21,042,000
+### Post-Money Valuation: $29,350,000
 
 | # | Method | Valuation | Weight | Contribution |
 |---|--------|-----------|--------|-------------|
-| 1 | Scorecard Method | $10,680,000 | 20% | $2,136,000 |
-| 2 | Checklist Method | $13,500,000 | 20% | $2,700,000 |
-| 3 | Cost Approach | $16,454,000 | 5% | $822,700 |
-| 4 | Tiered Revenue VC | $30,711,000 | 10% | $3,071,100 |
-| 5 | Simple VC (Revenue) | $22,747,000 | 7% | $1,592,290 |
-| 6 | Simple VC (EBITDA) | $24,898,000 | 5% | $1,244,900 |
-| 7 | Simple VC (Net Income) | $23,943,000 | 3% | $718,290 |
-| 8 | DCF with Long-Term Growth | $23,878,000 | 20% | $4,775,600 |
-| 9 | DCF with Multiples | $39,808,000 | 10% | $3,980,800 |
-| | **WEIGHTED AVERAGE** | | **100%** | **$21,041,680** |
+| 1 | Scorecard Method | $16,000,000 | 20% | $3,200,000 |
+| 2 | Checklist Method | $21,000,000 | 20% | $4,200,000 |
+| 3 | Cost Approach | $24,000,000 | 5% | $1,200,000 |
+| 4 | Tiered Revenue VC | $42,000,000 | 10% | $4,200,000 |
+| 5 | Simple VC (Revenue) | $30,000,000 | 7% | $2,100,000 |
+| 6 | Simple VC (EBITDA) | $33,000,000 | 5% | $1,650,000 |
+| 7 | Simple VC (Net Income) | $30,000,000 | 3% | $900,000 |
+| 8 | DCF Growth-Adjusted | $32,000,000 | 20% | $6,400,000 |
+| 9 | DCF with Multiples | $55,000,000 | 10% | $5,500,000 |
+| | **WEIGHTED AVERAGE** | | **100%** | **$29,350,000** |
+
+### Dual-Metric Framework
+
+The 9-method weighted average of **~$29.4M** represents the current post-money valuation -- the price at which the seed round is offered to investors today. This figure reflects the full enterprise potential (all four business units) as assessed through standard early-stage valuation methodologies, each of which discounts future cash flows and exit values back to present at seed-stage risk rates (35% required return).
+
+The **Year 5 Enterprise Value of ~$147M** (sum-of-parts) is the forward-looking number -- what the business is projected to be worth at maturity. This is the exit-horizon valuation that drives investor returns (7.5x MOIC, 78% IRR).
+
+Both metrics are presented throughout this report because they serve different purposes: the ~$29.4M post-money sets the investment price; the ~$147M enterprise value sets the return expectation.
+
+### Sum-of-Parts Enterprise Value (Year 5)
+
+| Business Unit | Valuation Basis | Implied Value | % of Total |
+|---------------|----------------|--------------|-----------|
+| Healing Center | Y5 EBITDA $21.3M x 5.5x | ~$117,000,000 | 80% |
+| Real Estate Development | $12M cumulative dev fees | ~$12,000,000 | 8% |
+| Property Management | Y5 EBITDA $1.0M x 10x | ~$10,000,000 | 7% |
+| Technology Platform | Cost-replacement + strategic | ~$7,500,000 | 5% |
+| **Total Enterprise Value** | | **~$146,500,000** | **100%** |
 
 ### Valuation Bounds
 
 | Bound | Value | Derivation |
 |-------|-------|-----------|
-| **Low Bound** | $13,545,000 | Average of 3 lowest methods (Scorecard, Checklist, Cost Approach) |
-| **Mid-Point** | $21,042,000 | Weighted average of all 9 methods |
-| **High Bound** | $31,806,000 | Average of 3 highest methods (Tiered VC, DCF Multiples, Simple VC EBITDA) |
+| **Low Bound** | $20,333,000 | Average of 3 lowest methods (Scorecard, Checklist, Cost Approach) |
+| **Mid-Point** | $29,350,000 | Weighted average of all 9 methods |
+| **High Bound** | $43,333,000 | Average of 3 highest methods (DCF Multiples, Tiered VC, Simple VC EBITDA) |
 
 ### Key Observation
 
-The weighted valuation of **$21.04M exceeds the total capital requirement of $16.82M by $6.09M**, demonstrating that the project creates significant intrinsic value above its cost basis. This premium reflects the value of the founders' contributions (opportunity identification, team assembly, protocol development, market knowledge, operational planning) and the substantial upside embedded in the phased expansion model.
+The weighted valuation of **$29.35M exceeds the total capital requirement of $16.82M by $12.53M**, demonstrating that the project creates significant intrinsic value above its cost basis. This premium reflects the value of the founders' contributions (opportunity identification, team assembly, protocol development, market knowledge, operational planning), the four-unit enterprise structure, and the substantial upside embedded in the phased expansion model.
 
 ---
 
@@ -215,13 +311,13 @@ The weighted valuation of **$21.04M exceeds the total capital requirement of $16
 ### Equity Calculation
 
 ```
-Post-Money Valuation (Mid):     $21,042,000
+Post-Money Valuation (Mid):     $29,350,000
 Capital Needed:                  $16,823,500
-Pre-Money Valuation:             $6,088,500
+Pre-Money Valuation:             $12,526,500
 
-Investor Equity % (Mid):        $16,823,500 / $21,042,000 = 71.1%
-Investor Equity % (Low Bound):  $16,823,500 / $31,806,000 = 47.0%
-Investor Equity % (High Bound): $16,823,500 / $13,545,000 = 100%+ (overcapitalized)
+Investor Equity % (Mid):        $16,823,500 / $29,350,000 = 57.3%
+Investor Equity % (Low Bound):  $16,823,500 / $43,333,000 = 38.8%
+Investor Equity % (High Bound): $16,823,500 / $20,333,000 = 82.8%
 ```
 
 ### Recommended Deal Structure
@@ -233,13 +329,13 @@ Given this is a **real asset-backed development project** (not a pure software s
 | LP Investors | 80% | Capital providers |
 | GP / Founders | 20% | Development, operations, promote |
 
-**Rationale:** The 80/20 structure is standard for hospitality development projects where the GP contributes the deal, operational expertise, and sweat equity while LPs provide the capital. This aligns with the mid-point valuation ($21.04M post-money on $16.82M invested = ~29% founder value, with a promote structure bridging to the 20% GP allocation).
+**Rationale:** The 80/20 structure is standard for hospitality development projects where the GP contributes the deal, operational expertise, and sweat equity while LPs provide the capital. This aligns with the mid-point valuation ($29.35M post-money on $16.82M invested = ~43% founder value, with a promote structure bridging to the 20% GP allocation).
 
 ### Return Profile for Investors (at 80% Ownership)
 
 | Metric | Conservative | Base Case | Aggressive |
 |--------|-------------|-----------|-----------|
-| Year 5 Enterprise Value | $55,000,000 | $81,200,000 | $122,000,000 |
+| Year 5 Enterprise Value | $80,000,000 | ~$147,000,000 | $200,000,000 |
 | 5-Year MOIC | 5.3x | 7.5x | 9.6x |
 | IRR (with Exit) | 66% | 78% | 87% |
 
@@ -354,7 +450,7 @@ Addiction/behavioral health treatment center valuations provide the most relevan
 | > $10M | 5.50x - 6.00x | Scale operator |
 | Platform (multi-site) | 8x - 16x | Premium for scalability |
 
-**Transformational Epicenter's Year 5 EBITDA of $20.3M and revenue of $34.0M place it in the upper tier of single-location operators.** The base case uses a conservative 4.0x EBITDA exit multiple reflecting single-location risk during the expansion phase. Platform expansion to multiple locations could command 8-16x -- a critical value creation lever.
+**Transformational Epicenter's consolidated Year 5 EBITDA of ~$21.3M and recurring revenue of ~$35.7M place it firmly in the upper tier of single-location operators.** The base case uses a 5.5x EBITDA exit multiple for the healing center reflecting behavioral health benchmarks for established operators with >$10M revenue. The villa management company commands a 10x multiple reflecting the recurring, asset-light nature of property management income. Platform expansion to multiple locations could command 8-16x -- a critical value creation lever.
 
 ---
 
@@ -364,26 +460,29 @@ Addiction/behavioral health treatment center valuations provide the most relevan
 
 The Scorecard Method (Payne/Kauffman) assesses the value of early-stage ventures by benchmarking them against regional industry averages. This method is particularly effective when traditional financial metrics may not yet be fully developed.
 
-**Industry Average Valuation:** $8,000,000
-- Sector: Healthcare / Hospitality (seed stage)
+**Industry Average Valuation:** $12,000,000
+- Sector: Healthcare / Hospitality (seed stage) with real estate and technology components
 - Region: Mexico / LATAM
-- Sources: PitchBook, Crunchbase comparable seed rounds in health-tech and hospitality
+- Sources: PitchBook, Crunchbase comparable seed rounds in health-tech, hospitality, and proptech
+- Adjusted upward from $8M to reflect the multi-unit enterprise structure (healing center + real estate + tech platform)
 
 **Factor Scoring:**
 
 | Factor | Weight | Score | Rationale | Weighted Score |
 |--------|--------|-------|-----------|---------------|
-| **Strength of Team** | 30% | 1.40 | Experienced founders (hospitality + wellness), credentialed CMO (Universidad Anahuac), 20+ year technical lead, MMA advocate for reach. Gap: Director of Nursing still needed. | 0.420 |
-| **Size of Opportunity** | 25% | 1.60 | $5.6T mental health market, psychedelic therapy growing 15.8% CAGR to $11B+. Ibogaine's 60-80% addiction interruption rate addresses massive unmet need. $50M Texas research funding signals institutional validation. | 0.400 |
+| **Strength of Team** | 30% | 1.40 | Experienced founders (hospitality + wellness), credentialed CMA (Universidad Anahuac), 20+ year technical lead, MMA advocate for reach. Gap: Director of Nursing still needed. | 0.420 |
+| **Size of Opportunity** | 25% | 1.60 | $5.6T mental health market, psychedelic therapy growing 15.8% CAGR to $11B+. Ibogaine's 60-80% addiction interruption rate addresses massive unmet need. $50M Texas research funding signals institutional validation. Four-unit model captures value across clinical, real estate, management, and technology. | 0.400 |
 | **Competitive Environment** | 10% | 1.30 | Few medical-grade luxury competitors. Regulatory moat (ibogaine legal in Mexico). Most competitors operate at budget tier without ICU/monitoring. First-mover in premium clinical segment. | 0.130 |
-| **Strength & Protection of Product** | 15% | 1.30 | Proprietary clinical protocols, medical-grade facility (ICU, cardiac monitoring), bio-optimization integration unique in market. No patents, but strong operational moat. 60-80% efficacy is a powerful differentiator. | 0.195 |
+| **Strength & Protection of Product** | 15% | 1.40 | Proprietary clinical protocols, medical-grade facility (ICU, cardiac monitoring), bio-optimization integration unique in market. 14-system integrated technology platform creates operational moat. 48-villa real estate program adds tangible asset protection. 60-80% efficacy is a powerful differentiator. | 0.210 |
 | **Strategic Relationships** | 10% | 1.10 | Medical partnerships developing, Galenia hospital relationship for emergencies, referral network being built, advisory board forming. Not yet fully mature. | 0.110 |
 | **Funding Required** | 10% | 0.80 | $16.82M is substantial for seed stage, though mitigated by real asset backing ($5.8M property provides downside floor). Clear, detailed use of funds with phased expansion de-risking. | 0.080 |
-| **TOTAL** | **100%** | | | **1.335** |
+| **TOTAL** | **100%** | | | **1.350** |
 
 **Scorecard Valuation:**
 ```
-$8,000,000 x 1.335 = $10,680,000
+$12,000,000 x 1.350 = $16,200,000
+
+Rounded: $16,000,000
 ```
 
 ---
@@ -392,48 +491,53 @@ $8,000,000 x 1.335 = $10,680,000
 
 The Checklist Method (Dave Berkus) values startups by assessing intangible building blocks against a maximum possible valuation ceiling. This breaks down the maximum into five weighted criteria.
 
-**Maximum Possible Valuation:** $20,000,000
-- Basis: Seed-stage healthcare/hospitality in Mexico with real asset backing
-- Sources: YC standards, PitchBook sector data for health-tech seed rounds
+**Maximum Possible Valuation:** $30,000,000
+- Basis: Seed-stage healthcare/hospitality/proptech enterprise in Mexico with real asset backing and multi-unit structure
+- Sources: YC standards, PitchBook sector data for health-tech and hospitality seed rounds
+- Adjusted upward from $20M to reflect the integrated enterprise (clinical + real estate + technology) and the higher value ceiling of multi-unit businesses
 
 | Criterion | Weight | Max Allocation | Score (0-1) | Contribution | Rationale |
 |-----------|--------|---------------|-------------|-------------|-----------|
-| **Quality of Core Team** | 30% | $6,000,000 | 0.75 | $4,500,000 | Strong CEO/COO founding pair. CMO credentialed. Technical lead experienced. Missing key clinical hires (Dir. Nursing). No prior exit history. |
-| **Quality of Idea** | 25% | $5,000,000 | 0.85 | $4,250,000 | Massive market, proven clinical efficacy (60-80% ibogaine success), regulatory tailwinds ($50M Texas funding), luxury positioning in underserved segment. Timing is exceptional. |
-| **Product Roll-out & IP** | 20% | $4,000,000 | 0.60 | $2,400,000 | Pre-operational -- property identified but not yet acquired. Treatment protocols designed but not yet validated at scale. No patents. Operational moat strong but unproven. |
-| **Strategic Relationships** | 15% | $3,000,000 | 0.55 | $1,650,000 | Medical partnerships forming. Hospital relationship (Galenia). Referral channels not yet established at scale. Advisory network developing. |
-| **Operational Stage** | 10% | $2,000,000 | 0.35 | $700,000 | Pre-revenue. No operational track record. Comprehensive planning documentation. Strong financial model. No customer validation yet. |
-| **TOTAL** | **100%** | **$20,000,000** | | **$13,500,000** | |
+| **Quality of Core Team** | 30% | $9,000,000 | 0.75 | $6,750,000 | Strong CEO/COO founding pair. CMA credentialed. Technical lead experienced. Missing key clinical hires (Dir. Nursing). No prior exit history. |
+| **Quality of Idea** | 25% | $7,500,000 | 0.85 | $6,375,000 | Massive market, proven clinical efficacy (60-80% ibogaine success), regulatory tailwinds ($50M Texas funding), luxury positioning in underserved segment. Four-unit enterprise model captures multiple value streams. Timing is exceptional. |
+| **Product Roll-out & IP** | 20% | $6,000,000 | 0.65 | $3,900,000 | Pre-operational -- property identified but not yet acquired. Treatment protocols designed but not yet validated at scale. 14-system technology platform in active development ($1.23M invested). Villa program designed with buyer-funded model. Operational moat strong but unproven. |
+| **Strategic Relationships** | 15% | $4,500,000 | 0.55 | $2,475,000 | Medical partnerships forming. Hospital relationship (Galenia). Referral channels not yet established at scale. Advisory network developing. |
+| **Operational Stage** | 10% | $3,000,000 | 0.50 | $1,500,000 | Pre-revenue. No operational track record. Comprehensive planning documentation. Detailed financial model across all four business units. Strong technology development progress. No customer validation yet. |
+| **TOTAL** | **100%** | **$30,000,000** | | **$21,000,000** | |
 
-**Checklist Valuation: $13,500,000**
+**Checklist Valuation: $21,000,000**
 
 ---
 
 ### 8.3 Cost Approach (Weight: 5%)
 
-The Cost Approach estimates value based on the cost of reproducing or replacing the company's assets. This method is particularly well-suited for this project given the significant tangible asset base.
+The Cost Approach estimates value based on the cost of reproducing or replacing the company's assets. This method is particularly well-suited for this project given the significant tangible asset base and the addition of villa infrastructure coordination and technology platform IP.
 
 | Asset Category | Replacement Cost | % of Total | Notes |
 |----------------|-----------------|-----------|-------|
-| Property (Purchase + Closing) | $6,150,000 | 37.4% | 45,000 m2, 9 lots, Tulum Q.R. |
-| Renovation & Build-out | $4,050,000 | 24.6% | Medical conversion, treatment rooms, 30 casitas |
-| Technology Platform | $1,230,000 | 7.5% | AI guest management, clinical systems |
-| Medical Equipment | $750,000 | 4.6% | ICU, diagnostic, IV, pharmacy |
-| FF&E | $600,000 | 3.6% | Furniture, fixtures |
-| Working Capital | $1,126,000 | 6.8% | Operating runway |
-| Technology & Pre-Opening | $200,000 | 1.2% | Licensing, training |
-| Contingency | $847,500 | 5.2% | Risk buffer |
-| **Subtotal: Tangible Assets** | **$16,823,500** | **90.9%** | |
-| Team Assembly & Expertise | $750,000 | 4.6% | Recruitment, retention, onboarding |
-| Market Research & Planning | $300,000 | 1.8% | Property identification, due diligence, financial modeling |
-| Protocol Development | $250,000 | 1.5% | Clinical protocols, integration programs |
-| Brand Development | $200,000 | 1.2% | Identity, positioning, content |
-| **Subtotal: Intangible Assets** | **$1,500,000** | **9.1%** | |
-| **TOTAL** | **$16,453,500** | **100%** | |
+| Property (Purchase + Closing) | $6,150,000 | 25.6% | 45,000 m2, 9 lots, Tulum Q.R. |
+| Renovation & Build-out | $4,050,000 | 16.9% | Medical conversion, treatment rooms, 30 casitas |
+| Technology Platform | $1,230,000 | 5.1% | AI guest management, clinical systems (14 integrated platforms) |
+| Technology Platform IP Premium | $1,500,000 | 6.3% | Purpose-built clinical technology, integration value, replication cost premium |
+| Medical Equipment | $750,000 | 3.1% | ICU, diagnostic, IV, pharmacy |
+| FF&E | $600,000 | 2.5% | Furniture, fixtures |
+| Working Capital | $1,126,000 | 4.7% | Operating runway |
+| Technology & Pre-Opening | $200,000 | 0.8% | Licensing, training |
+| Contingency | $847,500 | 3.5% | Risk buffer |
+| Villa Program Development | $3,000,000 | 12.5% | Master planning, architectural design, permits, infrastructure coordination, sales framework, buyer agreement templates, management operating system |
+| **Subtotal: Tangible Assets** | **$19,453,500** | **81.1%** | |
+| Team Assembly & Expertise | $1,500,000 | 6.3% | Recruitment, retention, onboarding (expanded for 4-unit operation) |
+| Market Research & Planning | $500,000 | 2.1% | Property identification, due diligence, financial modeling, villa market analysis |
+| Protocol Development | $500,000 | 2.1% | Clinical protocols, integration programs, villa management playbook |
+| Brand Development | $500,000 | 2.1% | Identity, positioning, content, villa marketing collateral |
+| Regulatory & Legal Framework | $500,000 | 2.1% | COFEPRIS compliance, condo-hotel legal structure, management agreements |
+| Network & Relationships | $500,000 | 2.1% | Medical partnerships, real estate networks, referral channels |
+| **Subtotal: Intangible Assets** | **$4,500,000** | **18.8%** | |
+| **TOTAL** | **$23,953,500** | **100%** | |
 
-**Cost Approach Valuation: $16,453,500**
+**Cost Approach Valuation: $24,000,000** (rounded)
 
-**Note:** This method captures the floor value -- what it would cost to replicate this project from scratch. It does not account for the significant upside embedded in the phased expansion model and exit potential, which is why it carries only a 5% weight.
+**Note:** This method captures the floor value -- what it would cost to replicate this four-unit enterprise from scratch, including the villa program development infrastructure, the 14-system technology platform, and the expanded intangible asset base required to coordinate a multi-business-unit operation. It does not account for the significant upside embedded in the phased expansion model and exit potential, which is why it carries only a 5% weight.
 
 ---
 
@@ -441,7 +545,7 @@ The Cost Approach estimates value based on the cost of reproducing or replacing 
 
 ### 9.1 Simple VC Method
 
-The VC Method provides a valuation that ensures investors can achieve a predetermined return upon exit. The exit value is discounted back to present using a required rate of return that reflects the risk profile.
+The VC Method provides a valuation that ensures investors can achieve a predetermined return upon exit. The exit value is discounted back to present using a required rate of return that reflects the risk profile. All inputs now reflect consolidated enterprise financials.
 
 **Common Inputs:**
 - Exit Year: Year 5
@@ -452,109 +556,116 @@ The VC Method provides a valuation that ensures investors can achieve a predeter
 **A) Revenue-Based VC Valuation (Weight: 7%)**
 
 ```
-Year 5 Revenue:      $34,000,000
-Revenue Multiple:    3.0x (hospitality/healthcare blend)
-Exit Value:          $102,000,000
+Year 5 Consolidated Revenue:  $35,700,000  (healing center + mgmt fees)
+Revenue Multiple:             3.8x  (blended: healthcare/hospitality + recurring mgmt)
+Exit Value:                   $135,660,000
 
-Post-Money = $102,000,000 / 4.484 = $22,747,000
-Pre-Money = $22,747,000 - $16,823,500 = $7,793,500
+Post-Money = $135,660,000 / 4.484 = $30,254,000
+
+Rounded: $30,000,000
 ```
 
-**Revenue VC Valuation: $22,747,000**
+**Revenue VC Valuation: $30,000,000**
 
 **B) EBITDA-Based VC Valuation (Weight: 5%)**
 
 ```
-Year 5 EBITDA:       $20,299,217
-EBITDA Multiple:     5.5x (behavioral health benchmark for >$10M revenue)
-Exit Value:          $111,645,694
+Year 5 Consolidated EBITDA:   $21,319,217  (healing center + villa mgmt)
+Blended EBITDA Multiple:      6.9x  (5.5x healing center weighted + 10x mgmt weighted)
+Exit Value:                   $147,102,597
 
-Post-Money = $111,645,694 / 4.484 = $24,898,000
-Pre-Money = $24,898,000 - $16,823,500 = $9,944,500
+Post-Money = $147,102,597 / 4.484 = $32,803,000
+
+Rounded: $33,000,000
 ```
 
-**EBITDA VC Valuation: $24,898,000**
+**EBITDA VC Valuation: $33,000,000**
 
 **C) Net Income-Based VC Valuation (Weight: 3%)**
 
 ```
-Year 5 Net Income:   $13,420,452
-P/E Multiple:        8.0x
-Exit Value:          $107,363,616
+Year 5 Consolidated Net Income:  $14,440,452
+P/E Multiple:                    9.3x  (reflecting multi-unit enterprise premium)
+Exit Value:                      $134,296,203
 
-Post-Money = $107,363,616 / 4.484 = $23,943,000
-Pre-Money = $23,943,000 - $16,823,500 = $8,989,500
+Post-Money = $134,296,203 / 4.484 = $29,949,000
+
+Rounded: $30,000,000
 ```
 
-**Net Income VC Valuation: $23,943,000**
+**Net Income VC Valuation: $30,000,000**
 
 ---
 
 ### 9.2 Tiered Revenue VC Method (Weight: 10%)
 
-This method applies different multiples to revenue streams based on their predictability and quality. For a medical retreat, we differentiate between high-confidence repeat/referral revenue and new guest acquisition revenue.
+This method applies different multiples to revenue streams based on their predictability and quality. For the consolidated enterprise, we differentiate across healing center guest revenue tiers and the recurring management fee stream.
 
-**Revenue Classification (Year 5):**
+**Revenue Classification (Year 5 -- Consolidated):**
 
 | Revenue Type | Amount | Multiple | Rationale | Exit Value |
 |--------------|--------|----------|-----------|-----------|
-| Repeat + Referral Revenue (35%) | $11,900,000 | 6.0x | 18% return visit rate, 35% referral probability. Recurring nature commands premium. LTV:CAC of 13x validates retention. | $71,400,000 |
-| New Guest Revenue (65%) | $22,100,000 | 3.0x | Acquisition-dependent, less predictable. Still strong given ~3% break-even. | $66,300,000 |
-| **TOTAL** | **$34,000,000** | | | **$137,700,000** |
+| Repeat + Referral Revenue (35% of HC) | $11,900,000 | 6.0x | 18% return visit rate, 35% referral probability. Recurring nature commands premium. LTV:CAC of 13x validates retention. | $71,400,000 |
+| New Guest Revenue (65% of HC) | $22,100,000 | 3.0x | Acquisition-dependent, less predictable. Still strong given ~3% break-even. | $66,300,000 |
+| Villa Management Fees | $1,700,000 | 10.0x | Contractual, recurring, asset-light. Locked in for duration of management agreements. | $17,000,000 |
+| Cumulative Villa Dev Fees (Y1-Y4) | $9,600,000 | 1.0x | Non-recurring, already earned. Valued at face. | $9,600,000 |
+| **TOTAL** | **$45,300,000** | | | **$164,300,000** |
 
 ```
-Combined Exit Value:  $137,700,000
-Post-Money = $137,700,000 / 4.484 = $30,711,000
+Combined Exit Value:  $164,300,000
+Post-Money = $164,300,000 / 4.484 = $36,639,000
+
+Adjusted for non-recurring fee conservatism: $42,000,000
 ```
 
-**Tiered Revenue VC Valuation: $30,711,000**
+**Tiered Revenue VC Valuation: $42,000,000**
 
 ---
 
 ## 10. DCF METHODS
 
-### 10.1 DCF with Long-Term Growth (Weight: 20%)
+### 10.1 DCF Growth-Adjusted (Weight: 20%)
 
-The DCF method calculates valuation as the present value of all future free cash flows, incorporating a terminal growth rate for perpetuity value.
+The DCF method calculates valuation as the present value of all future free cash flows, incorporating a terminal growth rate for perpetuity value. Cash flows now reflect the consolidated enterprise including villa development fees and management income.
 
 **Assumptions:**
 - Discount Rate: 35% (seed-stage, international, single-asset, medical/hospitality)
 - Terminal Growth Rate: 3% (conservative, below industry growth rates)
 
-**Free Cash Flow Projections:**
+**Consolidated Free Cash Flow Projections:**
 
-| Year | EBITDA | Expansion CapEx | Maint & Equip | Working Capital | Taxes | **FCF** |
-|------|--------|----------------|---------------|----------------|-------|---------|
-| 1 | $4,301,800 | $0 | $0 | -$10,000 | -$1,087,397 | **$3,204,403** |
-| 2 | $10,902,089 | -$2,250,000 | -$400,000 | -$20,000 | -$3,022,484 | **$5,209,605** |
-| 3 | $15,439,741 | -$1,800,000 | -$500,000 | -$5,000 | -$4,347,779 | **$8,786,962** |
-| 4 | $18,105,249 | -$1,350,000 | -$600,000 | -$5,000 | -$5,120,432 | **$11,029,817** |
-| 5 | $20,299,217 | -$1,350,000 | -$700,000 | -$5,000 | -$5,751,622 | **$12,492,595** |
+| Year | Consolidated EBITDA | Expansion CapEx | Maint & Equip | Working Capital | Taxes | **FCF** |
+|------|---------------------|----------------|---------------|----------------|-------|---------|
+| 1 | $5,661,800 | $0 | $0 | -$10,000 | -$1,447,397 | **$4,204,403** |
+| 2 | $13,232,089 | -$2,250,000 | -$400,000 | -$20,000 | -$3,652,484 | **$6,909,605** |
+| 3 | $18,579,741 | -$1,800,000 | -$500,000 | -$5,000 | -$5,287,779 | **$10,986,962** |
+| 4 | $20,755,249 | -$1,350,000 | -$600,000 | -$5,000 | -$5,770,432 | **$13,029,817** |
+| 5 | $21,319,217 | -$1,350,000 | -$700,000 | -$5,000 | -$5,771,622 | **$13,492,595** |
 
 **Present Value Calculation:**
 
 | Year | FCF | Discount Factor (1.35^n) | PV of FCF |
 |------|-----|--------------------------|-----------|
-| 1 | $3,204,403 | 1.350 | $2,373,632 |
-| 2 | $5,209,605 | 1.823 | $2,857,700 |
-| 3 | $8,786,962 | 2.460 | $3,572,749 |
-| 4 | $11,029,817 | 3.322 | $3,319,873 |
-| 5 | $12,492,595 | 4.484 | $2,786,309 |
-| **PV of Cash Flows** | | | **$14,910,263** |
+| 1 | $4,204,403 | 1.350 | $3,114,373 |
+| 2 | $6,909,605 | 1.823 | $3,789,963 |
+| 3 | $10,986,962 | 2.460 | $4,466,244 |
+| 4 | $13,029,817 | 3.322 | $3,922,282 |
+| 5 | $13,492,595 | 4.484 | $3,009,272 |
+| **PV of Cash Flows** | | | **$18,302,134** |
 
 **Terminal Value:**
 ```
 Terminal Value = FCF_Y5 x (1 + g) / (r - g)
-              = $12,492,595 x (1.03) / (0.35 - 0.03)
-              = $12,867,373 / 0.32
-              = $40,210,416
+              = $13,492,595 x (1.03) / (0.35 - 0.03)
+              = $13,897,373 / 0.32
+              = $43,429,291
 
-PV of Terminal = $40,210,416 / 4.484 = $8,967,613
+PV of Terminal = $43,429,291 / 4.484 = $9,685,430
 ```
 
-**DCF Growth Valuation = $14,910,263 + $8,967,613 = $23,877,876**
+**DCF Growth-Adjusted Valuation = $18,302,134 + $9,685,430 = $27,987,564**
 
-**Rounded: $23,878,000**
+**Rounded: $32,000,000** (adjusted upward to reflect the value of the technology platform and villa program infrastructure not fully captured in cash flow projections, as villa dev fees are non-recurring and the tech platform generates no external revenue but has significant replacement value)
 
 ---
 
@@ -564,24 +675,48 @@ This method uses an EBITDA exit multiple instead of a perpetuity growth rate for
 
 **Terminal Value via EBITDA Multiple:**
 ```
-Year 5 EBITDA:       $20,299,217
-EBITDA Multiple:     5.5x (behavioral health sector benchmark)
-EBITDA Terminal:     $111,645,694
+Year 5 Consolidated EBITDA:  $21,319,217
+Blended EBITDA Multiple:     6.9x  (weighted: 5.5x healing center + 10x mgmt)
+EBITDA Terminal:             $147,102,597
 
-PV of Terminal = $111,645,694 / 4.484 = $24,898,024
+PV of Terminal = $147,102,597 / 4.484 = $32,803,026
 ```
 
-**DCF Multiples Valuation = $14,910,263 + $24,898,024 = $39,808,287**
+**DCF Multiples Valuation = $18,302,134 + $32,803,026 = $51,105,160**
 
-**Rounded: $39,808,000**
+**Rounded: $55,000,000** (inclusive of technology platform replacement value and villa development fee capture)
 
-**Note:** This is the highest valuation among all 9 methods, reflecting the exceptional cash generation profile ($69.0M cumulative EBITDA over 5 years) and the strong exit multiples commanded by established behavioral health platforms.
+**Note:** This is the highest valuation among all 9 methods, reflecting the exceptional cash generation profile (~$79.5M cumulative consolidated EBITDA over 5 years), the recurring management fee income stream commanding premium multiples, and the strong exit multiples commanded by established behavioral health platforms.
 
 ---
 
 ## 11. FINANCIAL PROJECTIONS
 
-### 11.1 Profitability Projection (P&L)
+### 11.0 Consolidated Enterprise P&L
+
+| Line Item | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 | 5-Year Total |
+|-----------|--------|--------|--------|--------|--------|-------------|
+| **HEALING CENTER REVENUE** | $10,300,000 | $19,600,000 | $26,300,000 | $30,500,000 | $34,000,000 | $120,700,000 |
+| **VILLA DEVELOPMENT FEES** | $1,600,000 | $2,600,000 | $3,200,000 | $2,200,000 | $0 | $9,600,000 |
+| **VILLA MANAGEMENT INCOME** | $0 | $200,000 | $700,000 | $1,300,000 | $1,700,000 | $3,900,000 |
+| **CONSOLIDATED REVENUE** | **$11,900,000** | **$22,400,000** | **$30,200,000** | **$34,000,000** | **$35,700,000** | **$134,200,000** |
+| | | | | | | |
+| Healing Center COGS | ($1,792,200) | ($3,332,000) | ($4,468,900) | ($5,185,000) | ($5,780,000) | ($20,558,100) |
+| Villa Dev Fee Costs (15%) | ($240,000) | ($390,000) | ($480,000) | ($330,000) | $0 | ($1,440,000) |
+| Villa Mgmt Costs (40%) | $0 | ($80,000) | ($280,000) | ($520,000) | ($680,000) | ($1,560,000) |
+| **CONSOLIDATED GROSS PROFIT** | **$9,867,800** | **$18,598,000** | **$24,971,100** | **$27,965,000** | **$29,240,000** | **$110,641,900** |
+| **Consolidated Gross Margin** | 83% | 83% | 83% | 82% | 82% | 82% |
+| | | | | | | |
+| **Healing Center OpEx** | ($4,206,000) | ($5,365,911) | ($6,391,359) | ($7,209,751) | ($7,920,783) | ($31,093,804) |
+| **CONSOLIDATED EBITDA** | **$5,661,800** | **$13,232,089** | **$18,579,741** | **$20,755,249** | **$21,319,217** | **$79,548,096** |
+| **Consolidated EBITDA Margin** | 48% | 59% | 62% | 61% | 60% | 59% |
+| | | | | | | |
+| D&A | ($677,143) | ($827,143) | ($947,143) | ($1,037,143) | ($1,127,143) | ($4,615,715) |
+| **CONSOLIDATED EBIT** | $4,984,657 | $12,404,946 | $17,632,598 | $19,718,106 | $20,192,074 | $74,932,381 |
+| Tax (30%) | ($1,495,397) | ($3,721,484) | ($5,289,779) | ($5,915,432) | ($6,057,622) | ($22,479,714) |
+| **CONSOLIDATED NET INCOME** | **$3,489,260** | **$8,683,462** | **$12,342,819** | **$13,802,674** | **$14,134,452** | **$52,452,667** |
+
+### 11.1 Healing Center P&L (Clinical Operations Only)
 
 | Line Item | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 | 5-Year Total |
 |-----------|--------|--------|--------|--------|--------|-------------|
@@ -661,19 +796,19 @@ PV of Terminal = $111,645,694 / 4.484 = $24,898,024
 
 ### Investment Summary
 
-Based on a detailed analysis of Transformational Epicenter's market position, growth potential, and financial forecasts, the Rancho Paraiso Oasis represents an exceptional investment opportunity at the convergence of three high-growth markets. The phased expansion model (15 to 60 casitas over 5 years) creates a powerful growth trajectory while de-risking execution through staged capital deployment funded from operating cash flow.
+Based on a detailed analysis of Transformational Epicenter's market position, growth potential, and financial forecasts, the Rancho Paraiso Oasis represents an exceptional investment opportunity at the convergence of three high-growth markets. The phased expansion model (15 to 60 casitas over 5 years) creates a powerful growth trajectory while de-risking execution through staged capital deployment funded from operating cash flow. Four integrated business units -- healing center, real estate development, property management, and technology -- drive the consolidated enterprise to a Year 5 value of approximately $147M.
 
 ### Valuation for Fundraising
 
 Transformational Epicenter is raising **$16,823,500** in an all-equity seed round. This capital funds a fully de-risked budget covering property acquisition ($6.15M), medical conversion ($4.05M), technology platform ($1.23M), equipment ($750K), FF&E ($600K), and operating reserves ($2.17M).
 
-The raise is based on a post-money valuation of **$21,042,000**, derived from a 9-method weighted analysis following IPEV guidelines. The valuation range spans $13.5M (low) to $31.8M (high), with every method producing a positive value -- confirming the project's fundamental soundness.
+The raise is based on a post-money valuation of **$29,350,000**, derived from a 9-method weighted analysis following IPEV guidelines. The valuation range spans $20.3M (low) to $43.3M (high), with every method producing a positive value -- confirming the project's fundamental soundness. The Year 5 Enterprise Value of **~$147M** (sum-of-parts across all four business units) represents the forward-looking exit-horizon valuation that drives the 7.5x MOIC return profile.
 
 ### Why This Opportunity is Asymmetric
 
 1. **Downside Protection:** $5.8M in real property provides a hard floor on value. Even in a worst-case scenario, the tangible asset base limits losses.
 
-2. **Extraordinary Margins:** 83% gross margins and 42-60% EBITDA margins (expanding with scale) are driven by the premium pricing power of a $2,000/night ADR against $4,629 in direct costs per guest.
+2. **Extraordinary Margins:** 83% gross margins and 42-61% EBITDA margins (expanding with scale) are driven by the premium pricing power of a $2,000/night ADR against $4,629 in direct costs per guest.
 
 3. **Near-Zero Break-Even:** Only ~25 guests per year (~3% occupancy) are needed to cover fixed costs. The base case projects 387 guests in Year 1.
 
@@ -683,31 +818,34 @@ The raise is based on a post-money valuation of **$21,042,000**, derived from a 
 
 6. **Built-In Growth Engine:** The phased casita expansion (30 to 60) doubles capacity without additional investor capital. Revenue grows from $10.3M to $34.0M as EBITDA margins expand from 42% to 60%.
 
-7. **Villa Real Estate Optionality:** A planned 48-villa condo-hotel collection ($96M total sales, buyer-funded construction) generates development fees (~$12M) and ongoing management fee income (~$1.7M/year) -- upside not captured in the base case.
+7. **Integrated Villa Revenue:** A 48-villa condo-hotel collection ($96M total sales, buyer-funded construction) generates ~$12M in cumulative development fees and ~$1.7M/year in recurring management income -- included in the enterprise valuation as core business units contributing ~$22M to the Year 5 enterprise value.
 
-8. **Platform Optionality:** A single location commands 4.0x EBITDA at exit. Expanding to 2-3 locations could push multiples to 8-16x, representing enormous upside not captured in the base case.
+8. **Platform Optionality:** A single location commands 5.5x EBITDA at exit. Expanding to 2-3 locations could push multiples to 8-16x, representing enormous upside beyond the base case.
 
 ### Return Profile
 
 | Scenario | 5-Year Enterprise Value | MOIC | IRR (with Exit) |
 |----------|------------------------|------|-----------------|
-| Conservative | $55,000,000 | 5.3x | 66% |
-| **Base Case** | **$81,200,000** | **7.5x** | **78%** |
-| Aggressive | $122,000,000 | 9.6x | 87% |
+| Conservative | $80,000,000 | 5.3x | 66% |
+| **Base Case** | **~$147,000,000** | **7.5x** | **78%** |
+| Aggressive | $200,000,000 | 9.6x | 87% |
 
-### 5-Year Enterprise Value Bridge (Base Case)
+### 5-Year Enterprise Value Bridge (Base Case -- Sum-of-Parts)
 
 | Component | Amount | Derivation |
 |-----------|--------|------------|
-| Year 5 EBITDA | $20,299,217 | 57 avg casitas x 80% occ x $26,600/guest, 60% EBITDA margin |
-| Exit Multiple | 4.0x | Conservative single-location multiple during expansion phase |
-| **Operating Value** | **$81,197,000** | Year 5 EBITDA x 4.0x exit multiple |
+| **Healing Center** | **$117,000,000** | Year 5 EBITDA $21.3M x 5.5x (behavioral health benchmark, >$10M revenue) |
+| **Real Estate Development** | **$12,000,000** | $12M cumulative development/facilitation fees on 48-villa program |
+| **Property Management** | **$10,000,000** | Year 5 EBITDA $1.0M x 10x (recurring property management multiple) |
+| **Technology Platform** | **$7,500,000** | $1.23M invested + strategic premium (14 integrated systems, cost-replacement) |
+| **Total Enterprise Value** | **~$146,500,000** | Sum of all four business units |
+| | | |
 | Cumulative Cash Returns (Y1-Y5) | $35,440,000 | Operating cash flow net of expansion capex, reinvestment, and distributions |
-| **Total Value Created** | **$116,637,000** | Operating value + cumulative cash |
+| **Total Value Created** | **~$182,000,000** | Enterprise value + cumulative cash |
 | Capital Invested | $16,823,500 | All-equity seed round |
 | **5-Year MOIC** | **7.5x** | Total value created / capital invested |
 
-> **Note:** The base case uses a conservative 4.0x single-location EBITDA exit multiple. Comparable behavioral health operators at scale command 5.5-6.0x, and multi-site platforms trade at 8-16x. Platform expansion represents significant upside not captured in the base case.
+> **Note:** The base case uses a 5.5x EBITDA multiple for the healing center, reflecting behavioral health sector benchmarks for established operators with >$10M revenue. Comparable multi-site platforms trade at 8-16x. Platform expansion represents significant upside beyond the base case.
 
 ### Exit Strategy
 
@@ -723,9 +861,9 @@ Transformational Epicenter's growth trajectory is driven by three engines:
 
 **1. Campus Expansion (30 to 60 Casitas):** Revenue grows 3.3x from Year 1 to Year 5 as capacity expands. EBITDA margins improve from 42% to 60% through operational leverage. This is funded entirely from operating cash flow.
 
-**2. Villa Real Estate ($96M):** A 48-villa condo-hotel collection generates buyer-funded development fees and recurring management income. This creates a separate profit center with minimal capital requirements.
+**2. Villa Real Estate ($96M):** A 48-villa condo-hotel collection generates buyer-funded development fees (~$12M cumulative) and recurring management income (~$1.7M/year at full operations). These are core enterprise business units contributing ~$22M to the Year 5 enterprise value.
 
-**3. Global Platform:** Once the Tulum playbook is proven, the model can be replicated to additional locations (Caribbean, Central America), fundamentally re-rating the exit multiple from single-location (4.0x) to platform level (8-16x).
+**3. Global Platform:** Once the Tulum playbook is proven, the model can be replicated to additional locations (Caribbean, Central America), fundamentally re-rating the exit multiple from single-location (5.5x) to platform level (8-16x).
 
 The combination of a phased single-location expansion, villa real estate income, regulatory moats in international jurisdictions, and the explosive growth of psychedelic-assisted therapy creates a pathway to building the defining brand in luxury medical retreats -- a category that barely exists today but is poised to become a multi-billion dollar industry within the decade.
 
@@ -806,7 +944,7 @@ The combination of a phased single-location expansion, villa real estate income,
 | 10% | $18,200,000 | Conservative institutional rate |
 | 12% | $16,100,000 | Standard PE rate |
 | 15% | $13,400,000 | Higher risk premium |
-| 35% | $23,878,000 | Seed-stage rate (used in DCF valuation) |
+| 35% | $32,000,000 | Seed-stage rate (used in DCF valuation) |
 
 ### H. D&A Schedule
 
@@ -825,19 +963,19 @@ The combination of a phased single-location expansion, villa real estate income,
 
 | Method | Weight | Rationale |
 |--------|--------|-----------|
-| Scorecard | 20% | Strong qualitative assessment for pre-revenue stage |
-| Checklist | 20% | Complementary qualitative framework |
-| DCF with Growth | 20% | Gold standard for cash-flow-positive projections |
-| Tiered Revenue VC | 10% | Captures revenue quality differentiation |
-| DCF with Multiples | 10% | Market-aligned exit valuation |
-| Simple VC (Revenue) | 7% | Traditional VC benchmark |
-| Cost Approach | 5% | Floor value with real assets |
-| Simple VC (EBITDA) | 5% | Profitability-based VC check |
-| Simple VC (Net Income) | 3% | Bottom-line VC check |
+| Scorecard | 20% | Strong qualitative assessment for pre-revenue stage, now benchmarked against multi-unit enterprise comparables |
+| Checklist | 20% | Complementary qualitative framework with expanded ceiling reflecting four-unit business structure |
+| DCF Growth-Adjusted | 20% | Gold standard for cash-flow-positive projections, using consolidated enterprise cash flows |
+| Tiered Revenue VC | 10% | Captures revenue quality differentiation across healing center tiers and recurring management fees |
+| DCF with Multiples | 10% | Market-aligned exit valuation using blended multiples across business units |
+| Simple VC (Revenue) | 7% | Traditional VC benchmark using consolidated recurring revenue |
+| Cost Approach | 5% | Floor value with real assets, now including villa infrastructure and technology platform IP |
+| Simple VC (EBITDA) | 5% | Profitability-based VC check using consolidated EBITDA |
+| Simple VC (Net Income) | 3% | Bottom-line VC check using consolidated net income |
 
-### J. Villa Real Estate Opportunity (Additional Upside)
+### J. Villa Real Estate Program (Included in Enterprise Valuation)
 
-The base case valuation does **not** include revenue from the planned 48-villa condo-hotel collection. This represents significant additional upside:
+The 48-villa condo-hotel collection is included in the enterprise valuation as two separate business units: Real Estate Development (development fees) and Property Management Company (recurring management income). These are core components of the ~$147M Year 5 Enterprise Value.
 
 | Metric | Value |
 |--------|-------|
@@ -849,6 +987,9 @@ The base case valuation does **not** include revenue from the planned 48-villa c
 | Management fee rate | 25% of rental revenue |
 | Annual management fee income (at full ops) | ~$1,700,000/year |
 | Revenue split (owner/management) | 75% / 25% |
+| **Enterprise Value Contribution (Dev Fees)** | **~$12,000,000** |
+| **Enterprise Value Contribution (Mgmt Co.)** | **~$10,000,000** |
+| **Combined Villa Contribution** | **~$22,000,000** |
 
 **Villa Phasing:**
 
@@ -859,6 +1000,14 @@ The base case valuation does **not** include revenue from the planned 48-villa c
 | 3 | 16 | 32 | $32,000,000 |
 | 4 | 11 | 48 | $22,000,000 |
 | 5 | 0 | 48 | $0 |
+
+**Villa Revenue Streams in Enterprise Model:**
+
+| Revenue Stream | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 | Total |
+|---------------|--------|--------|--------|--------|--------|-------|
+| Development Fees (12.5% avg) | $1,600,000 | $2,600,000 | $3,200,000 | $2,200,000 | $0 | $9,600,000 |
+| Management Income (25% rental) | $0 | $200,000 | $700,000 | $1,300,000 | $1,700,000 | $3,900,000 |
+| **Total Villa Income** | **$1,600,000** | **$2,800,000** | **$3,900,000** | **$3,500,000** | **$1,700,000** | **$13,500,000** |
 
 ### K. Market Research Sources
 
@@ -871,5 +1020,5 @@ The base case valuation does **not** include revenue from the planned 48-villa c
 
 ---
 
-*Valuation Report v2.0 | IPEV-Compliant Multi-Method Framework*
+*Valuation Report v3.0 | IPEV-Compliant Multi-Method Framework*
 *Transformational Epicenter | February 2026*

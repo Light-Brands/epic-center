@@ -56,7 +56,7 @@ The Rancho Paraiso Oasis (Kaax Cenote) is a 45,000 m2 jungle compound comprising
 | **5-Year Total Revenue** | $120,700,000 |
 | **Project IRR (Base, with Exit)** | 78% |
 | **Project IRR (Conservative, with Exit)** | 66% |
-| **Year 5 Enterprise Value (Base)** | $81,200,000 |
+| **Year 5 Enterprise Value (Base)** | ~$147,000,000 |
 | **5-Year MOIC (Base, incl. Exit)** | 7.5x |
 | **5-Year MOIC (Conservative, incl. Exit)** | 5.3x |
 

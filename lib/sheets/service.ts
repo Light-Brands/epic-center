@@ -9,6 +9,9 @@ import type {
   UseOfFunds,
   RevenueChartData,
   ScenarioValue,
+  BusinessUnit,
+  EnterpriseValuation,
+  VillaProgramFinancials,
 } from '@/types/financial'
 
 import {
@@ -20,6 +23,10 @@ import {
   UNIT_ECONOMICS,
   INVESTMENT_RETURNS,
   USE_OF_FUNDS,
+  BUSINESS_UNITS,
+  ENTERPRISE_VALUATION,
+  VILLA_PROGRAM_FINANCIALS,
+  CONSOLIDATED_PL_STATEMENTS,
 } from './data'
 
 // Helper to get scenario-specific value
@@ -97,6 +104,31 @@ export function getTotalPropertyValue(): number {
 
 export function getPropertiesByStatus(status: Property['status']): Property[] {
   return PROPERTIES.filter((p) => p.status === status)
+}
+
+// Enterprise valuation accessors
+export function getBusinessUnits(): BusinessUnit[] {
+  return BUSINESS_UNITS
+}
+
+export function getBusinessUnitById(id: string): BusinessUnit | undefined {
+  return BUSINESS_UNITS.find((u) => u.id === id)
+}
+
+export function getEnterpriseValuation(): EnterpriseValuation {
+  return ENTERPRISE_VALUATION
+}
+
+export function getSumOfPartsValue(scenario: Scenario): number {
+  return ENTERPRISE_VALUATION.sumOfPartsValue[scenario]
+}
+
+export function getVillaProgramFinancials(): VillaProgramFinancials {
+  return VILLA_PROGRAM_FINANCIALS
+}
+
+export function getConsolidatedPLStatements() {
+  return CONSOLIDATED_PL_STATEMENTS
 }
 
 // Format helpers

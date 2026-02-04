@@ -203,13 +203,13 @@ const VISION_PHASES = [
   },
   {
     year: 'Year 3',
-    title: 'Expansion',
-    description: 'Launch second and third locations (Europe, Asia-Pacific). Aggressive licensing model expansion. Training academy for rapid talent development.',
+    title: 'Full Capacity',
+    description: 'Complete 60-casita campus. Villa collection in full sales. Training academy for clinical talent development. Published outcomes data.',
   },
   {
-    year: 'Year 4\u201310',
-    title: 'Network',
-    description: 'Scale to 30+ Transformational Epicenters globally. Unified platform and community spanning all major markets. World-class research institute.',
+    year: 'Year 4\u20135',
+    title: 'Maturity',
+    description: 'Optimized operations at 80% occupancy. 48-villa program nearing completion. $34M annual revenue. Industry-leading clinical outcomes and research.',
   },
 ]
 

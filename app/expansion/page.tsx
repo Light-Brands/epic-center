@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { ArrowLeft, ArrowRight, Globe, MapPin, Building2, TrendingUp, Users, CheckCircle2, Home } from 'lucide-react'
+import { ArrowLeft, ArrowRight, CheckCircle2, Home } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
 import { Footer } from '@/components/layout'
 
@@ -13,45 +13,6 @@ const CASITA_PHASES = [
   { year: 'Year 5', start: 54, add: '+6', end: 60, occ: '80%', guests: '~1,280', revenue: '$34.0M' },
 ]
 
-const EXPANSION_LOCATIONS = [
-  {
-    region: 'Caribbean',
-    locations: [
-      { name: 'Jamaica', status: 'High Potential', notes: 'Legal psilocybin, growing wellness tourism' },
-      { name: 'St. Kitts', status: 'Evaluating', notes: 'Investor-friendly, citizenship by investment' },
-    ],
-  },
-  {
-    region: 'Central America',
-    locations: [
-      { name: 'Costa Rica', status: 'High Potential', notes: 'Established wellness destination, ayahuasca legal' },
-      { name: 'Guatemala', status: 'Evaluating', notes: 'Lake Atitlan wellness hub emerging' },
-    ],
-  },
-  {
-    region: 'Europe',
-    locations: [
-      { name: 'Portugal', status: 'Long-term', notes: 'Decriminalized, progressive drug policy' },
-      { name: 'Netherlands', status: 'Long-term', notes: 'Legal psilocybin truffles, established market' },
-    ],
-  },
-  {
-    region: 'Asia-Pacific',
-    locations: [
-      { name: 'Australia', status: 'Watching', notes: 'Recently approved MDMA/psilocybin prescribing' },
-      { name: 'Thailand', status: 'Evaluating', notes: 'Liberalizing psychedelic policy' },
-    ],
-  },
-]
-
-const EXPANSION_CRITERIA = [
-  { criterion: 'Legal framework for treatments', weight: 'Critical' },
-  { criterion: 'Accessibility from US', weight: 'High' },
-  { criterion: 'Existing wellness infrastructure', weight: 'High' },
-  { criterion: 'Real estate availability', weight: 'Medium' },
-  { criterion: 'Local talent pool', weight: 'Medium' },
-  { criterion: 'Political/economic stability', weight: 'High' },
-]
 
 export default function ExpansionPage() {
   return (
@@ -66,8 +27,8 @@ export default function ExpansionPage() {
             Layered Growth Strategy
           </h2>
           <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
-            Three growth engines: campus expansion (30 → 60 casitas), villa real estate (48 villas),
-            and global platform replication - each building on the last.
+            Two growth engines: campus expansion (15 → 60 casitas) and villa real estate (48 villas) -
+            scaling capacity and revenue from a single, world-class facility.
           </p>
         </section>
 
@@ -79,7 +40,7 @@ export default function ExpansionPage() {
                 <p className="font-accent text-sm uppercase tracking-widest text-secondary-400 mb-2">
                   Growth Engine 1
                 </p>
-                <h3 className="text-2xl font-heading mb-4">Campus Expansion: 30 → 60 Casitas</h3>
+                <h3 className="text-2xl font-heading mb-4">Campus Expansion: 15 → 60 Casitas</h3>
                 <p className="text-primary-200 mb-6">
                   Double treatment capacity over 5 years, funded entirely from operating cash flow.
                   No additional equity raise required. Each casita costs ~$200-250K to build, with
@@ -209,24 +170,24 @@ export default function ExpansionPage() {
           </Card>
         </section>
 
-        {/* ─── GLOBAL EXPANSION VISION ────────────────────────────── */}
+        {/* ─── FACILITY GROWTH TIMELINE ──────────────────────────── */}
         <section className="mb-16">
           <div className="text-center mb-8">
             <p className="font-accent text-sm uppercase tracking-widest text-secondary-500 mb-2">
-              Growth Engine 3
+              Execution Roadmap
             </p>
-            <h3 className="text-2xl font-heading text-neutral-900">Global Platform Expansion</h3>
+            <h3 className="text-2xl font-heading text-neutral-900">Phased Facility Growth</h3>
             <p className="text-neutral-600 max-w-2xl mx-auto mt-2">
-              Once proven in Tulum with 60 casitas and 48 villas, our model can be replicated
-              across multiple jurisdictions, creating a global network of transformation centers.
+              A disciplined build-out plan that scales capacity in lockstep with demand,
+              funded from operating cash flow after the initial raise.
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             {[
-              { phase: 'Phase 1', period: '2026-2028', focus: 'Tulum flagship', details: 'Prove model, expand to 60 casitas, launch villa program, build brand' },
-              { phase: 'Phase 2', period: '2028-2029', focus: 'Second location', details: 'Expand to Caribbean or Central America leveraging proven playbook' },
-              { phase: 'Phase 3', period: '2029-2031', focus: 'Platform scale', details: 'Multi-location network, potential US entry, 10-12x exit multiple' },
+              { phase: 'Phase 1', period: '2026-2027', focus: 'Launch & Prove', details: 'Open with 15 casitas, ramp to 30. Establish clinical protocols, build brand, achieve 60% occupancy.' },
+              { phase: 'Phase 2', period: '2027-2028', focus: 'Scale Operations', details: 'Expand to 40-48 casitas. Launch villa sales program. Reach 75-80% occupancy and operating profitability.' },
+              { phase: 'Phase 3', period: '2029-2030', focus: 'Full Capacity', details: 'Complete 60-casita campus. 48-villa collection in progress. $34M annual revenue at 80% occupancy.' },
             ].map((phase, index) => (
               <Card key={phase.phase} padding="lg" className={index === 0 ? 'border-2 border-primary-600' : ''}>
                 {index === 0 && (
@@ -244,116 +205,26 @@ export default function ExpansionPage() {
           </div>
         </section>
 
-        {/* Target Regions */}
-        <section className="mb-16">
-          <h3 className="text-2xl font-heading text-neutral-900 mb-6">Target Expansion Regions</h3>
-          <div className="grid md:grid-cols-2 gap-6">
-            {EXPANSION_LOCATIONS.map((region) => (
-              <Card key={region.region} padding="lg">
-                <div className="flex items-center gap-3 mb-4">
-                  <Globe className="w-6 h-6 text-primary-600" />
-                  <h4 className="text-lg font-heading text-neutral-900">{region.region}</h4>
-                </div>
-                <div className="space-y-4">
-                  {region.locations.map((location) => (
-                    <div key={location.name} className="flex items-start gap-3 pl-9">
-                      <MapPin className="w-4 h-4 text-neutral-400 mt-1 flex-shrink-0" />
-                      <div>
-                        <div className="flex items-center gap-2">
-                          <span className="font-medium text-neutral-900">{location.name}</span>
-                          <span className={`text-xs px-2 py-0.5 rounded ${
-                            location.status === 'High Potential' ? 'bg-success-100 text-success-700' :
-                            location.status === 'Evaluating' ? 'bg-warning-100 text-warning-700' :
-                            'bg-neutral-100 text-neutral-600'
-                          }`}>
-                            {location.status}
-                          </span>
-                        </div>
-                        <p className="text-sm text-neutral-500">{location.notes}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </Card>
-            ))}
-          </div>
-        </section>
-
-        {/* Expansion Criteria */}
-        <section className="mb-16">
-          <div className="grid lg:grid-cols-2 gap-8">
-            <div>
-              <h3 className="text-2xl font-heading text-neutral-900 mb-6">Location Selection Criteria</h3>
-              <Card padding="lg">
-                <div className="space-y-4">
-                  {EXPANSION_CRITERIA.map((item) => (
-                    <div key={item.criterion} className="flex items-center justify-between py-2 border-b border-neutral-100 last:border-0">
-                      <span className="text-neutral-700">{item.criterion}</span>
-                      <span className={`text-xs px-2 py-1 rounded font-medium ${
-                        item.weight === 'Critical' ? 'bg-error-100 text-error-700' :
-                        item.weight === 'High' ? 'bg-warning-100 text-warning-700' :
-                        'bg-neutral-100 text-neutral-600'
-                      }`}>
-                        {item.weight}
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              </Card>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-heading text-neutral-900 mb-6">US Market Opportunity</h3>
-              <Card padding="lg" className="bg-neutral-100">
-                <div className="flex items-center gap-3 mb-4">
-                  <Building2 className="w-8 h-8 text-primary-600" />
-                  <div>
-                    <h4 className="font-medium text-neutral-900">Watching US Regulatory Progress</h4>
-                    <p className="text-sm text-neutral-500">Position for domestic expansion</p>
-                  </div>
-                </div>
-                <p className="text-neutral-600 mb-4">
-                  We are closely monitoring US regulatory developments. MDMA and psilocybin are on
-                  track for FDA approval, potentially enabling US-based treatment centers within our
-                  investment horizon.
-                </p>
-                <div className="space-y-2">
-                  {[
-                    'Oregon: Psilocybin services legal (2023)',
-                    'Colorado: Psilocybin decriminalized (2024)',
-                    'FDA: MDMA approval expected 2024-2025',
-                    'FDA: Psilocybin approval expected 2025-2026',
-                  ].map((item) => (
-                    <div key={item} className="flex items-center gap-2 text-sm text-neutral-700">
-                      <TrendingUp className="w-4 h-4 text-success-500" />
-                      {item}
-                    </div>
-                  ))}
-                </div>
-              </Card>
-            </div>
-          </div>
-        </section>
-
-        {/* Platform Value */}
+        {/* Facility at Full Build-Out */}
         <section className="mb-16">
           <Card padding="lg" className="bg-primary-800 text-white">
             <div className="text-center max-w-3xl mx-auto">
-              <h3 className="text-3xl font-heading mb-6">Building Platform Value</h3>
+              <h3 className="text-3xl font-heading mb-6">The Facility at Full Build-Out</h3>
               <p className="text-lg text-primary-200 mb-8">
-                Multi-location platforms command significant premiums at exit. A proven 60-casita
-                campus with 48-villa program establishes the playbook for global replication.
+                A fully built-out 60-casita campus with a 48-villa collection creates a self-reinforcing
+                ecosystem - treatment revenue, villa sales, and management fees compounding together.
               </p>
-              <div className="grid md:grid-cols-3 gap-4">
+              <div className="grid md:grid-cols-4 gap-4">
                 {[
-                  { title: 'Single Campus', multiple: '6-8x EBITDA', type: '60 casitas + villas' },
-                  { title: 'Regional Platform', multiple: '8-10x EBITDA', type: '2-3 locations' },
-                  { title: 'Global Platform', multiple: '10-12x EBITDA', type: '4+ locations' },
+                  { value: '60', label: 'Casitas', sublabel: 'Treatment capacity' },
+                  { value: '48', label: 'Villas', sublabel: '$96M total sales' },
+                  { value: '$34M', label: 'Annual Revenue', sublabel: 'Year 5 base case' },
+                  { value: '60%', label: 'EBITDA Margin', sublabel: 'At maturity' },
                 ].map((item) => (
-                  <div key={item.title} className="bg-primary-700/50 rounded-lg p-4">
-                    <h4 className="font-medium mb-1">{item.title}</h4>
-                    <p className="font-heading text-2xl text-secondary-400 mb-1">{item.multiple}</p>
-                    <p className="text-sm text-primary-300">{item.type}</p>
+                  <div key={item.label} className="bg-primary-700/50 rounded-lg p-4">
+                    <p className="font-heading text-2xl text-secondary-400 mb-1">{item.value}</p>
+                    <p className="font-medium text-sm">{item.label}</p>
+                    <p className="text-xs text-primary-300">{item.sublabel}</p>
                   </div>
                 ))}
               </div>

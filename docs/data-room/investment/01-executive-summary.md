@@ -216,12 +216,13 @@ Even the conservative exit scenario delivers a 66% IRR and 5.3x MOIC over five y
 
 | Metric | Value |
 |--------|-------|
-| **Post-Money Valuation** | **$21,042,000** |
-| **Valuation Range** | $13,545,000 - $31,806,000 |
-| **Pre-Money Valuation** | $6,089,000 |
+| **Post-Money Valuation** | **$29,350,000** |
+| **Valuation Range** | $20,300,000 - $43,300,000 |
+| **Pre-Money Valuation** | $12,527,000 |
+| **Y5 Enterprise Value (SOTP)** | **~$147,000,000** |
 | **Methodology** | IPEV-Compliant 9-Method Weighted Average |
 
-The post-money valuation of $21.04M is derived from nine independent valuation methods following International Private Equity Valuation (IPEV) guidelines. Methods include Scorecard, Checklist, Cost Approach, Tiered Revenue VC, Simple VC (Revenue, EBITDA, Net Income), and two DCF approaches (Long-Term Growth, Multiples). The weighted average exceeds the total capital requirement of $16.82M, demonstrating that the project creates immediate intrinsic value above its cost basis.
+The post-money valuation of $29.35M is derived from nine independent valuation methods following International Private Equity Valuation (IPEV) guidelines, now using consolidated enterprise financials across four business units (healing center, real estate development, property management, and technology platform). The Year 5 enterprise value of ~$147M represents the sum-of-parts forward-looking valuation investors are positioned to capture. The weighted average exceeds the total capital requirement of $16.82M, demonstrating that the project creates immediate intrinsic value above its cost basis.
 
 The full valuation methodology is detailed in the IPEV-Compliant Valuation Report (Document 22).
 

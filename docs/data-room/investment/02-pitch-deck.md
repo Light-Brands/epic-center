@@ -185,17 +185,18 @@ Cash-flow positive from Year 1. Revenue grows 3.3x as capacity expands from 15 t
 
 ## Slide 8a: Valuation
 
-### Post-Money Valuation: $21,042,000
+### Post-Money Valuation: $29,350,000
 
 **IPEV-Compliant 9-Method Weighted Average**
 
 | Metric | Value |
 |--------|-------|
-| **Post-Money Valuation** | **$21,042,000** |
-| **Valuation Range** | $13,545,000 - $31,806,000 |
-| **Pre-Money Valuation** | $6,089,000 |
+| **Post-Money Valuation** | **$29,350,000** |
+| **Valuation Range** | $20,300,000 - $43,300,000 |
+| **Pre-Money Valuation** | $12,527,000 |
+| **Y5 Enterprise Value (SOTP)** | **~$147,000,000** |
 
-Nine independent valuation methods -- including Scorecard, Checklist, Cost Approach, Venture Capital (3 variants), Tiered Revenue VC, and DCF (2 variants) -- all produce positive valuations. The weighted average exceeds the $16.82M capital requirement, confirming the project creates immediate intrinsic value above its cost basis.
+Nine independent valuation methods -- including Scorecard, Checklist, Cost Approach, Venture Capital (3 variants), Tiered Revenue VC, and DCF (2 variants) -- all produce positive valuations using consolidated enterprise financials across four business units. The weighted average exceeds the $16.82M capital requirement, confirming the project creates immediate intrinsic value above its cost basis.
 
 Full methodology detailed in the IPEV-Compliant Valuation Report (Document 22).
 

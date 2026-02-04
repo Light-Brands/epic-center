@@ -22,7 +22,7 @@ const FAQS: FAQ[] = [
   {
     category: 'Investment',
     question: 'What is the expected return on investment?',
-    answer: 'We project a 78% IRR and 7.5x MOIC over a 5-year investment horizon in our base case scenario, producing $81.2M in enterprise value at Year 5 exit. Conservative projections show 66% IRR / 5.3x MOIC, while aggressive projections show 87% IRR / 9.6x MOIC. Returns are driven by casita expansion from 30 to 60 rooms plus villa management fees.',
+    answer: 'We project a 78% IRR and 7.5x MOIC over a 5-year investment horizon in our base case scenario, producing ~$147M in Year 5 enterprise value across four operating units (healing center, real estate development, property management, and technology platform). Conservative projections show 66% IRR / 5.3x MOIC, while aggressive projections show 87% IRR / 9.6x MOIC. Returns are driven by casita expansion from 30 to 60 rooms, bio-optimization add-ons, villa development fees ($12M cumulative), and recurring management income.',
   },
   {
     category: 'Investment',

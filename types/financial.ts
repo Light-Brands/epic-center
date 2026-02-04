@@ -206,6 +206,58 @@ export interface UseOfFundsChartData {
   fill: string
 }
 
+// Business Unit types
+export interface BusinessUnit {
+  id: string
+  name: string
+  description: string
+  y5Revenue: ScenarioValue
+  y5EBITDA: ScenarioValue
+  y5Margin: number
+  multiple: number
+  multipleLabel: string
+  standaloneValue: ScenarioValue
+  yearlyRevenue: ScenarioValue[] // Y1-Y5
+  yearlyEBITDA: ScenarioValue[] // Y1-Y5
+}
+
+export interface EnterpriseValuation {
+  businessUnits: BusinessUnit[]
+  combinedY5Revenue: ScenarioValue
+  combinedY5EBITDA: ScenarioValue
+  combinedY5NetIncome: ScenarioValue
+  combinedY5FCF: ScenarioValue
+  sumOfPartsValue: ScenarioValue
+  valuationMethods: ValuationMethodResult[]
+  weightedAvgPostMoney: ScenarioValue
+}
+
+export interface ValuationMethodResult {
+  id: number
+  name: string
+  value: ScenarioValue
+  weight: number
+  contribution: ScenarioValue
+}
+
+export interface VillaProgramFinancials {
+  yearly: VillaYearData[]
+  cumulativeDevFees: number
+  totalVillaSales: number
+  fullOpsMgmtFeeIncome: number
+}
+
+export interface VillaYearData {
+  year: number
+  villasSold: number
+  builtOperational: number
+  salesRevenue: number
+  developmentFee: number
+  cumulativeDevFees: number
+  mgmtFeeIncome: number
+  rentalRevenue: number
+}
+
 // API response types
 export interface FinancialDataResponse {
   dashboard: DashboardMetrics
