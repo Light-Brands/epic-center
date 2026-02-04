@@ -21,23 +21,8 @@ const FAQS: FAQ[] = [
   },
   {
     category: 'Investment',
-    question: 'What is the expected return on investment?',
-    answer: 'We project a 78% IRR and 7.5x MOIC over a 5-year investment horizon in our base case scenario, producing ~$147M in Year 5 enterprise value across four operating units (healing center, real estate development, property management, and technology platform). Conservative projections show 66% IRR / 5.3x MOIC, while aggressive projections show 87% IRR / 9.6x MOIC. Returns are driven by casita expansion from 30 to 60 rooms, bio-optimization add-ons, villa development fees ($12M cumulative), and recurring management income.',
-  },
-  {
-    category: 'Investment',
     question: 'What is the investment structure?',
     answer: 'This is a 100% equity investment totaling $16.8M for the initial 30-casita campus. Expansion to 60 casitas is funded from operating cash flow, with no additional equity raise required. Investors receive common equity in Transformational Epicenter Holdings, LLC (Delaware).',
-  },
-  {
-    category: 'Investment',
-    question: 'When can I expect distributions?',
-    answer: 'We anticipate beginning annual distributions of available cash flow after maintaining operating reserves, starting in Year 2 of operations (approximately 2028).',
-  },
-  {
-    category: 'Investment',
-    question: 'What is the exit strategy?',
-    answer: 'Primary exit is strategic sale to a hospitality group, healthcare system, or wellness conglomerate in Years 5-7 at 8-10x EBITDA. The full 60-casita campus plus 48-villa program commands platform premiums. Secondary options include private equity acquisition or management buyout.',
   },
   // Legal & Regulatory
   {

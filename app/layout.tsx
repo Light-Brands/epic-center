@@ -5,12 +5,12 @@ import { Header } from '@/components/layout'
 
 export const metadata: Metadata = {
   title: 'Transformational Epicenter | Investor Pitch',
-  description: 'A luxury medical retreat platform for deep healing through bio-optimization, plant medicine and trauma integration. $16.8M project, 78% projected IRR.',
+  description: 'A luxury medical retreat platform for deep healing through bio-optimization, plant medicine and trauma integration. $16.8M equity raise.',
   keywords: ['investment', 'wellness', 'medical retreat', 'ibogaine', 'mental health'],
   metadataBase: new URL('https://www.transformational-epicenter.com'),
   openGraph: {
     title: 'Transformational Epicenter - Luxury Medical Retreat Investment',
-    description: 'Luxury medical retreat at the convergence of psychedelic therapy and wellness tourism. $16.8M raise, 78% projected IRR, 7.5x MOIC.',
+    description: 'Luxury medical retreat at the convergence of psychedelic therapy and wellness tourism. $16.8M equity raise.',
     siteName: 'Transformational Epicenter',
     locale: 'en_US',
     type: 'website',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Transformational Epicenter - Luxury Medical Retreat Investment',
-    description: 'Luxury medical retreat at the convergence of psychedelic therapy and wellness tourism. $16.8M raise, 78% projected IRR, 7.5x MOIC.',
+    description: 'Luxury medical retreat at the convergence of psychedelic therapy and wellness tourism. $16.8M equity raise.',
   },
 }
 

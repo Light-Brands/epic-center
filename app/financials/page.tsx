@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { ArrowLeft, ArrowRight, TrendingUp, DollarSign, BarChart3, PieChart, Receipt, Landmark } from 'lucide-react'
+import { ArrowLeft, ArrowRight, TrendingUp, DollarSign, BarChart3, PieChart, Receipt } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { Card, CardHeader, CardTitle, CardContent, Button } from '@/components/ui'
 import { Footer } from '@/components/layout'
@@ -13,12 +13,10 @@ import {
   getDashboardMetrics,
   getUnitEconomics,
   getUseOfFunds,
-  getPLStatements,
-  getInvestmentReturns,
+  getScenarioPLStatements,
   formatCurrency,
   formatCurrencyFull,
   formatPercent,
-  formatMultiple,
   getScenarioValue,
   getRevenueChartData,
 } from '@/lib/sheets'
@@ -116,14 +114,12 @@ export default function FinancialsPage() {
   const unitEconomics = getUnitEconomics()
   const useOfFunds = getUseOfFunds()
   const chartData = getRevenueChartData()
-  const plStatements = getPLStatements()
-  const investmentReturns = getInvestmentReturns()
+  const plStatements = getScenarioPLStatements(scenario)
 
   // Get scenario-specific values
   const year1Revenue = getScenarioValue(metrics.keyMetrics.revenue.year1, scenario)
   const fiveYearRevenue = getScenarioValue(metrics.keyMetrics.revenue.fiveYearTotal, scenario)
-  const projectIRR = getScenarioValue(metrics.keyMetrics.projectIRR, scenario)
-  const fiveYearMOIC = getScenarioValue(metrics.keyMetrics.fiveYearMOIC, scenario)
+  const year5Revenue = getScenarioValue(metrics.keyMetrics.revenue.year5, scenario)
 
   // Sparkline data for revenue trend
   const revenueSparkline = chartData.map((d) => d[scenario])
@@ -222,20 +218,20 @@ export default function FinancialsPage() {
               delay={0.2}
             />
             <MetricCard
-              label="Project IRR"
-              rawValue={projectIRR * 100}
-              formatFn={(v) => `${v.toFixed(0)}%`}
-              value={formatPercent(projectIRR)}
-              subtitle="5-year internal rate of return"
+              label="Year 5 Revenue"
+              rawValue={year5Revenue}
+              formatFn={formatCurrency}
+              value={formatCurrency(year5Revenue)}
+              subtitle="At full 60-casita capacity"
               accent
               delay={0.3}
             />
             <MetricCard
-              label="5-Year MOIC"
-              rawValue={fiveYearMOIC}
-              formatFn={(v) => `${v.toFixed(1)}x`}
-              value={formatMultiple(fiveYearMOIC)}
-              subtitle="Multiple on invested capital"
+              label="5-Year Revenue"
+              rawValue={fiveYearRevenue}
+              formatFn={formatCurrency}
+              value={formatCurrency(fiveYearRevenue)}
+              subtitle="Cumulative program revenue"
               delay={0.4}
             />
           </div>
@@ -286,7 +282,7 @@ export default function FinancialsPage() {
             </div>
             <div>
               <h3 className="text-2xl font-heading text-neutral-900">Income Statement</h3>
-              <p className="text-neutral-600">5-year projected P&L (base case)</p>
+              <p className="text-neutral-600">5-year projected P&L ({scenario} case)</p>
             </div>
           </div>
 
@@ -444,7 +440,7 @@ export default function FinancialsPage() {
                 <div>
                   <div className="flex items-center justify-between mb-2">
                     <span className="text-sm font-medium text-neutral-700">Gross Margin</span>
-                    <span className="text-sm font-medium text-success-700">83%</span>
+                    <span className="text-sm font-medium text-success-700">{(plGrossMargin[4] * 100).toFixed(0)}%</span>
                   </div>
                   <div className="flex gap-1">
                     {plGrossMargin.map((margin, i) => (
@@ -854,138 +850,6 @@ export default function FinancialsPage() {
             </Card>
           </motion.div>
         </div>
-
-        {/* ═══════════════════════════════════════════════════════════════════
-            INVESTMENT RETURNS
-            ═══════════════════════════════════════════════════════════════════ */}
-        <motion.section
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.65, duration: 0.6 }}
-          className="mb-16"
-        >
-          <div className="flex items-center gap-3 mb-6">
-            <div className="p-2 bg-primary-100 rounded-lg">
-              <Landmark className="w-5 h-5 text-primary-800" />
-            </div>
-            <div>
-              <h3 className="text-2xl font-heading text-neutral-900">Investment Returns</h3>
-              <p className="text-neutral-600">Cumulative returns and ROI progression</p>
-            </div>
-          </div>
-
-          <Card padding="lg" className="hover:shadow-lg transition-shadow duration-300">
-            {/* Returns Table */}
-            <div className="overflow-x-auto">
-              <div className="min-w-[600px]">
-                {/* Header */}
-                <div className="grid grid-cols-6 gap-2 py-3 px-3 border-b-2 border-neutral-300 mb-1">
-                  <div className="font-semibold text-neutral-500 text-sm uppercase tracking-wide">Metric</div>
-                  {investmentReturns.yearlyReturns.map((yr) => (
-                    <div key={yr.year} className="text-right font-semibold text-neutral-500 text-sm uppercase tracking-wide">
-                      Year {yr.year}
-                    </div>
-                  ))}
-                </div>
-
-                {/* Annual Net Income */}
-                <div className="grid grid-cols-6 gap-2 py-2.5 px-3 border-b border-neutral-100">
-                  <div className="text-neutral-600">Annual Net Income</div>
-                  {investmentReturns.yearlyReturns.map((yr) => (
-                    <div key={yr.year} className="text-right tabular-nums text-neutral-700">
-                      {formatCurrency(yr.annualNetIncome)}
-                    </div>
-                  ))}
-                </div>
-
-                {/* Cumulative Net Income */}
-                <div className="grid grid-cols-6 gap-2 py-2.5 px-3 border-b border-neutral-100">
-                  <div className="font-medium text-neutral-700">Cumulative Net Income</div>
-                  {investmentReturns.yearlyReturns.map((yr) => (
-                    <div key={yr.year} className="text-right tabular-nums font-medium text-neutral-900">
-                      {formatCurrency(yr.cumulativeNetIncome)}
-                    </div>
-                  ))}
-                </div>
-
-                {/* Cumulative ROI */}
-                <div className="grid grid-cols-6 gap-2 py-2.5 px-3 border-b border-neutral-100">
-                  <div className="text-neutral-600">Cumulative ROI</div>
-                  {investmentReturns.yearlyReturns.map((yr) => (
-                    <div key={yr.year} className="text-right tabular-nums text-neutral-700">
-                      {(yr.roiCumulative * 100).toFixed(0)}%
-                    </div>
-                  ))}
-                </div>
-
-                {/* Annualized ROI */}
-                <div className="grid grid-cols-6 gap-2 py-2.5 px-3 bg-gradient-to-r from-primary-50 to-primary-100/30 rounded-lg">
-                  <div className="font-medium text-primary-800">Annualized ROI</div>
-                  {investmentReturns.yearlyReturns.map((yr) => (
-                    <div key={yr.year} className="text-right tabular-nums font-medium text-primary-800">
-                      {(yr.roiAnnualized * 100).toFixed(0)}%
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            {/* Cumulative income visual */}
-            <div className="mt-8 pt-6 border-t border-neutral-200">
-              <p className="text-sm text-neutral-500 mb-3">Cumulative Net Income vs. Investment</p>
-              <div className="space-y-3">
-                {investmentReturns.yearlyReturns.map((yr, i) => {
-                  const pct = Math.min((yr.cumulativeNetIncome / investmentReturns.totalCapitalRequired) * 100, 100)
-                  const breakeven = yr.cumulativeNetIncome >= investmentReturns.totalCapitalRequired
-                  return (
-                    <div key={yr.year} className="flex items-center gap-3">
-                      <span className="text-sm text-neutral-500 w-10">Y{yr.year}</span>
-                      <div className="flex-1 h-4 bg-neutral-100 rounded-full overflow-hidden relative">
-                        <motion.div
-                          className={`h-full rounded-full ${breakeven ? 'bg-success-500' : 'bg-primary-500'}`}
-                          initial={{ width: 0 }}
-                          animate={{ width: `${Math.min(pct, 100)}%` }}
-                          transition={{ duration: 1, delay: 0.7 + i * 0.15, ease: 'easeOut' }}
-                        />
-                        {/* Investment line marker */}
-                        <div
-                          className="absolute top-0 bottom-0 w-0.5 bg-neutral-900/40"
-                          style={{ left: '100%', transform: 'translateX(-1px)' }}
-                        />
-                      </div>
-                      <span className={`text-sm font-medium tabular-nums w-16 text-right ${breakeven ? 'text-success-700' : 'text-neutral-700'}`}>
-                        {formatCurrency(yr.cumulativeNetIncome)}
-                      </span>
-                    </div>
-                  )
-                })}
-                <div className="flex items-center gap-3 pt-1">
-                  <span className="text-sm text-neutral-500 w-10" />
-                  <div className="flex-1 flex justify-end">
-                    <span className="text-xs text-neutral-400">Investment: {formatCurrency(investmentReturns.totalCapitalRequired)}</span>
-                  </div>
-                  <span className="w-16" />
-                </div>
-              </div>
-            </div>
-
-            {/* NPV Summary */}
-            <div className="mt-6 pt-6 border-t border-neutral-200">
-              <div className="grid grid-cols-3 gap-6">
-                {[
-                  { label: 'NPV @ 10%', value: investmentReturns.npv.rate10 },
-                  { label: 'NPV @ 12%', value: investmentReturns.npv.rate12 },
-                  { label: 'NPV @ 15%', value: investmentReturns.npv.rate15 },
-                ].map((item) => (
-                  <div key={item.label} className="text-center">
-                    <p className="text-caption text-neutral-500 uppercase mb-1">{item.label}</p>
-                    <p className="font-heading text-xl text-neutral-900">{formatCurrency(item.value)}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </Card>
-        </motion.section>
 
         {/* Customer Acquisition Metrics */}
         <section className="mb-16">

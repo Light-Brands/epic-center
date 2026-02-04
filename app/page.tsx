@@ -792,8 +792,8 @@ export default function VisionPage() {
             {[
               { icon: '/icons/project-cost.png', label: 'Total Raise', value: '$16.8M', description: 'All-equity seed round' },
               { icon: '/icons/year-5-revenue.png', label: 'Y5 Enterprise Value', value: '$146.7M', description: 'Sum-of-parts (4 units)' },
-              { icon: '/icons/project-irr.png', label: 'Project IRR', value: '78%', description: 'Base case with Year 5 exit' },
-              { icon: '/icons/moic.png', label: '5-Year MOIC', value: '7.5x', description: 'Multiple on invested capital' },
+              { icon: '/icons/project-irr.png', label: 'Y5 Revenue', value: '$34M', description: 'Full 60-casita campus' },
+              { icon: '/icons/moic.png', label: 'Total Casitas', value: '60', description: 'Phased expansion plan' },
             ].map((metric, index) => (
               <motion.div
                 key={metric.label}
@@ -868,7 +868,7 @@ export default function VisionPage() {
               { title: 'Market', href: '/market', description: '$5.6T addressable market', accent: 'accent' },
               { title: 'The Property', href: '/properties/rancho-paraiso-oasis', description: '60-casita campus expansion', accent: 'primary' },
               { title: 'Financials', href: '/financials', description: '5-year projections', accent: 'secondary' },
-              { title: 'Returns', href: '/returns', description: '78% IRR, 7.5x MOIC', accent: 'accent' },
+              { title: 'Invest', href: '/invest', description: 'The investment opportunity', accent: 'accent' },
             ].map((section, index) => (
               <motion.div
                 key={section.href}

@@ -4,7 +4,7 @@ import { TrendingUp, DollarSign, Users, Calendar } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { Card } from '@/components/ui'
 import { useScenario } from '@/lib/context/ScenarioContext'
-import { formatCurrency, formatCurrencyFull, formatPercent, PROPERTY_FINANCIALS } from '@/lib/sheets'
+import { formatCurrency, formatCurrencyFull, PROPERTY_FINANCIALS } from '@/lib/sheets'
 import type { Property } from '@/types/financial'
 
 interface PropertyFinancialSummaryProps {
@@ -21,7 +21,6 @@ export function PropertyFinancialSummary({ property, className }: PropertyFinanc
   }
 
   const revenue = financials.revenuePotential[scenario]
-  const irr = financials.projectedIRR[scenario]
   const guests = financials.guestsPerYear[scenario]
   const totalInvestment = property.acquisition.totalAcquisitionCost + financials.renovationCost
   const revenuePerGuest = Math.round(revenue / guests)
@@ -41,8 +40,8 @@ export function PropertyFinancialSummary({ property, className }: PropertyFinanc
           <div className="flex items-center justify-center gap-2 text-success-600 mb-2">
             <TrendingUp className="w-5 h-5" />
           </div>
-          <p className="font-heading text-2xl text-success-700">{formatPercent(irr)}</p>
-          <p className="text-sm text-neutral-500">Projected IRR</p>
+          <p className="font-heading text-2xl text-success-700">{formatCurrency(revenue)}</p>
+          <p className="text-sm text-neutral-500">Annual Revenue</p>
         </Card>
         <Card className="text-center">
           <div className="flex items-center justify-center gap-2 text-secondary-500 mb-2">

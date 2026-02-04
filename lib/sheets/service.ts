@@ -4,6 +4,7 @@ import type {
   DashboardMetrics,
   RevenueProjection,
   PLStatement,
+  RevenueBreakdown,
   UnitEconomics,
   InvestmentReturns,
   UseOfFunds,
@@ -129,6 +130,100 @@ export function getVillaProgramFinancials(): VillaProgramFinancials {
 
 export function getConsolidatedPLStatements() {
   return CONSOLIDATED_PL_STATEMENTS
+}
+
+// Scenario-aware P&L: revenue scales by scenario, COGS scales proportionally (variable),
+// OpEx stays fixed (operating leverage), downstream values recalculated
+export function getScenarioPLStatements(scenario: Scenario): PLStatement[] {
+  if (scenario === 'base') {
+    return PL_STATEMENTS
+  }
+
+  return PL_STATEMENTS.map((basePL, i) => {
+    const revProj = REVENUE_PROJECTIONS[i]
+
+    const revenue: RevenueBreakdown = {
+      programRevenue: revProj.programRevenue[scenario],
+      bioOptimizationPremium: revProj.bioOptimizationPremium[scenario],
+      wellnessProducts: revProj.wellnessProducts[scenario],
+      postCareSubscriptions: revProj.postCareSubscriptions[scenario],
+      conciergeServices: revProj.conciergeServices[scenario],
+      total: revProj.totalRevenue[scenario],
+    }
+
+    // COGS scales proportionally with revenue (variable cost per guest)
+    const revenueRatio = revenue.total / basePL.revenue.total
+    const cogs = Math.round(basePL.cogs * revenueRatio)
+    const grossProfit = revenue.total - cogs
+    const grossMarginPercent = grossProfit / revenue.total
+
+    // OpEx stays fixed (operating leverage)
+    const operatingExpenses = { ...basePL.operatingExpenses }
+    const totalOpex = basePL.totalOpex
+
+    const ebitda = grossProfit - totalOpex
+    const ebitdaMarginPercent = ebitda / revenue.total
+    const depreciation = basePL.depreciation
+    const ebit = ebitda - depreciation
+    const interestExpense = basePL.interestExpense
+    const ebt = ebit - interestExpense
+    const taxes = Math.max(0, Math.round(ebt * 0.3))
+    const netIncome = ebt - taxes
+
+    return {
+      year: basePL.year,
+      revenue,
+      cogs,
+      grossProfit,
+      grossMarginPercent,
+      operatingExpenses,
+      totalOpex,
+      ebitda,
+      ebitdaMarginPercent,
+      depreciation,
+      ebit,
+      interestExpense,
+      ebt,
+      taxes,
+      netIncome,
+    }
+  })
+}
+
+// Scenario-aware investment returns: recalculates net income, cumulative ROI, and NPV
+export function getScenarioInvestmentReturns(scenario: Scenario): InvestmentReturns {
+  if (scenario === 'base') {
+    return INVESTMENT_RETURNS
+  }
+
+  const scenarioPL = getScenarioPLStatements(scenario)
+  const totalCapital = INVESTMENT_RETURNS.totalCapitalRequired
+
+  let cumulative = 0
+  const yearlyReturns = scenarioPL.map((pl, i) => {
+    cumulative += pl.netIncome
+    return {
+      year: pl.year,
+      totalInvestment: totalCapital,
+      annualNetIncome: pl.netIncome,
+      cumulativeNetIncome: cumulative,
+      roiCumulative: cumulative / totalCapital,
+      roiAnnualized: cumulative / totalCapital / (i + 1),
+    }
+  })
+
+  const discountedCF = (rate: number) =>
+    scenarioPL.reduce((npv, pl, i) => npv + pl.netIncome / Math.pow(1 + rate, i + 1), -totalCapital)
+
+  return {
+    ...INVESTMENT_RETURNS,
+    yearlyReturns,
+    npv: {
+      rate10: Math.round(discountedCF(0.10)),
+      rate12: Math.round(discountedCF(0.12)),
+      rate15: Math.round(discountedCF(0.15)),
+    },
+  }
 }
 
 // Format helpers

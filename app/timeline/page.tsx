@@ -445,8 +445,8 @@ export default function TimelinePage() {
                 className="grid grid-cols-2 gap-4"
               >
                 {[
-                  { value: '78%', label: 'Target IRR' },
-                  { value: '7.5x', label: 'Target MOIC' },
+                  { value: '60', label: 'Total Casitas' },
+                  { value: '$34M', label: 'Y5 Revenue' },
                   { value: '5 yrs', label: 'Hold Period' },
                   { value: '$146.7M', label: 'Y5 Enterprise Value' },
                 ].map((stat, index) => (

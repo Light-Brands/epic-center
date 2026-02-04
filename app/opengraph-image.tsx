@@ -85,9 +85,9 @@ export default async function Image() {
         >
           {[
             { label: 'Total Raise', value: '$16.8M' },
-            { label: 'Project IRR', value: '78%' },
-            { label: '5-Year MOIC', value: '7.5x' },
+            { label: 'Y5 Revenue', value: '$34M' },
             { label: 'Y5 Enterprise Value', value: '$146.7M' },
+            { label: 'Total Casitas', value: '60' },
           ].map((metric) => (
             <div key={metric.label} style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
               <div

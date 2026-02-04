@@ -1,31 +1,21 @@
 'use client'
 
 import Link from 'next/link'
-import { ArrowLeft, ArrowRight, Check, Mail, Phone, Calendar, Download, Shield, TrendingUp, Building2, Users } from 'lucide-react'
+import { ArrowLeft, ArrowRight, Check, Mail, Calendar, Download, Shield, TrendingUp, Building2, Users } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
 import { Footer } from '@/components/layout'
-import { MetricCard, ScenarioToggle, ScenarioIndicator } from '@/components/financial'
+import { MetricCard } from '@/components/financial'
 import { UseOfFundsChart } from '@/components/charts'
-import { useScenario } from '@/lib/context/ScenarioContext'
 import {
-  getInvestmentReturns,
   getDashboardMetrics,
   getUseOfFunds,
   formatCurrency,
   formatCurrencyFull,
-  formatPercent,
-  formatMultiple,
-  getScenarioValue,
 } from '@/lib/sheets'
 
 export default function InvestPage() {
-  const { scenario } = useScenario()
-  const returns = getInvestmentReturns()
   const metrics = getDashboardMetrics()
   const useOfFunds = getUseOfFunds()
-
-  const irr = getScenarioValue(returns.irr, scenario)
-  const moic = getScenarioValue(returns.moic, scenario)
 
   return (
     <div className="min-h-screen bg-canvas pt-28">
@@ -37,32 +27,26 @@ export default function InvestPage() {
               The Ask
             </p>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-heading text-neutral-900 mb-6">
-              {formatCurrency(returns.totalCapitalRequired)}
+              {formatCurrency(metrics.keyMetrics.totalProjectCost)}
             </h2>
             <p className="text-xl text-neutral-600 mb-8">
               Equity investment to develop and launch Rancho Paraiso Oasis as a
               world-class medical retreat facility.
             </p>
-            <ScenarioToggle showDescriptions />
           </div>
 
           {/* Key Terms */}
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <MetricCard
               label="Equity Raise"
-              value={formatCurrency(returns.totalCapitalRequired)}
+              value={formatCurrency(metrics.keyMetrics.totalProjectCost)}
               subtitle="100% equity structure"
               accent
             />
             <MetricCard
-              label="Target IRR"
-              value={formatPercent(irr)}
-              subtitle="5-year projected return"
-            />
-            <MetricCard
-              label="Target MOIC"
-              value={formatMultiple(moic)}
-              subtitle="Multiple on invested capital"
+              label="Minimum Investment"
+              value="$500K"
+              subtitle="Accredited investors"
             />
             <MetricCard
               label="Investment Horizon"
@@ -113,7 +97,7 @@ export default function InvestPage() {
                   <div className="flex justify-between items-center">
                     <span className="font-medium text-neutral-900">Total Capital Required</span>
                     <span className="font-heading text-2xl text-primary-800">
-                      {formatCurrencyFull(returns.totalCapitalRequired)}
+                      {formatCurrencyFull(metrics.keyMetrics.totalProjectCost)}
                     </span>
                   </div>
                 </div>

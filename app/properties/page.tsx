@@ -154,7 +154,7 @@ export default function PropertiesPage() {
               </div>
             </Card>
             <Card padding="lg">
-              <h4 className="font-heading text-lg text-neutral-900 mb-4">Projected Returns</h4>
+              <h4 className="font-heading text-lg text-neutral-900 mb-4">Financial Projections</h4>
               <div className="space-y-3">
                 {[
                   { label: 'Year 1 Net Income', value: '$2.8M' },
@@ -162,7 +162,6 @@ export default function PropertiesPage() {
                   { label: 'Year 3-5 Net Income', value: '$12.6M avg/yr' },
                   { label: '5-Year Net Income', value: '$48.1M' },
                   { label: 'Y5 Enterprise Value', value: '$146.7M' },
-                  { label: 'MOIC (Base)', value: '7.5x' },
                 ].map((item) => (
                   <div key={item.label} className="flex justify-between items-center py-2 border-b border-neutral-100 last:border-0">
                     <span className="text-neutral-700">{item.label}</span>

@@ -32,7 +32,6 @@ const FOOTER_LINKS = [
       { name: 'The Property', href: '/properties/rancho-paraiso-oasis' },
       { name: 'Villas', href: '/villas' },
       { name: 'Financials', href: '/financials' },
-      { name: 'Returns', href: '/returns' },
       { name: 'Invest', href: '/invest' },
     ],
   },

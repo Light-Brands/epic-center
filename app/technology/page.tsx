@@ -878,9 +878,9 @@ export default function TechnologyPage() {
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
               </button>
             </Link>
-            <Link href="/returns">
+            <Link href="/invest">
               <button className="inline-flex items-center gap-2 px-10 py-5 rounded-xl font-accent text-sm font-semibold uppercase tracking-wider text-white border-2 border-white/20 hover:bg-white/10 hover:border-white/40 transition-all duration-300 backdrop-blur-sm">
-                Investor Returns
+                View Investment
               </button>
             </Link>
           </div>
