@@ -374,13 +374,13 @@ export default function VillasPage() {
 
         {/* Navigation */}
         <div className="flex justify-between items-center pt-8 border-t border-neutral-200">
-          <Link href="/properties/rancho-paraiso-oasis" className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors">
+          <Link href="/expansion" className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors">
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-            <span className="font-accent text-sm uppercase tracking-wide">The Property</span>
+            <span className="font-accent text-sm uppercase tracking-wide">Growth Strategy</span>
           </Link>
-          <Link href="/expansion">
+          <Link href="/properties/rancho-paraiso-oasis">
             <Button variant="primary">
-              Growth Strategy
+              The Property
               <ArrowRight className="ml-2 w-4 h-4" />
             </Button>
           </Link>
