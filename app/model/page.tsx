@@ -1,9 +1,6 @@
-'use client'
-
-import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { ArrowLeft, ArrowRight, ChevronDown, ChevronUp } from 'lucide-react'
+import { ArrowLeft, ArrowRight } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
 import { Footer } from '@/components/layout'
 import {
@@ -65,14 +62,9 @@ const TECH_SYSTEMS = [
 ]
 
 export default function ModelPage() {
-  const [expandedUnit, setExpandedUnit] = useState<string | null>('healing-center')
   const businessUnits = getBusinessUnits()
   const enterprise = getEnterpriseValuation()
   const villaFinancials = getVillaProgramFinancials()
-
-  const toggleUnit = (id: string) => {
-    setExpandedUnit(expandedUnit === id ? null : id)
-  }
 
   return (
     <div className="min-h-screen bg-canvas pt-20">
@@ -186,27 +178,16 @@ export default function ModelPage() {
           <div className="space-y-4">
             {/* Healing Center */}
             <Card padding="none" className="overflow-hidden">
-              <button
-                onClick={() => toggleUnit('healing-center')}
-                className="w-full flex items-center justify-between p-6 text-left hover:bg-neutral-50 transition-colors"
-              >
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-lg bg-primary-100 flex items-center justify-center">
-                    <span className="text-2xl">🏥</span>
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-heading text-neutral-900">Healing Center</h4>
-                    <p className="text-sm text-neutral-500">Clinical operations — {formatCurrency(businessUnits[0].standaloneValue.base)} standalone value</p>
-                  </div>
+              <div className="flex items-center gap-4 p-6">
+                <div className="w-12 h-12 rounded-lg bg-primary-100 flex items-center justify-center">
+                  <span className="text-2xl">🏥</span>
                 </div>
-                {expandedUnit === 'healing-center' ? (
-                  <ChevronUp className="w-5 h-5 text-neutral-400" />
-                ) : (
-                  <ChevronDown className="w-5 h-5 text-neutral-400" />
-                )}
-              </button>
-              {expandedUnit === 'healing-center' && (
-                <div className="px-6 pb-6 border-t border-neutral-200">
+                <div>
+                  <h4 className="text-xl font-heading text-neutral-900">Healing Center</h4>
+                  <p className="text-sm text-neutral-500">Clinical operations — {formatCurrency(businessUnits[0].standaloneValue.base)} standalone value</p>
+                </div>
+              </div>
+              <div className="px-6 pb-6 border-t border-neutral-200">
                   <div className="grid sm:grid-cols-3 gap-4 py-4 mb-4">
                     <div className="text-center p-3 bg-neutral-50 rounded-lg">
                       <p className="font-heading text-xl text-primary-800">{formatCurrency(businessUnits[0].y5Revenue.base)}</p>
@@ -263,32 +244,20 @@ export default function ModelPage() {
                     ))}
                   </div>
                 </div>
-              )}
             </Card>
 
             {/* Real Estate Development */}
             <Card padding="none" className="overflow-hidden">
-              <button
-                onClick={() => toggleUnit('real-estate')}
-                className="w-full flex items-center justify-between p-6 text-left hover:bg-neutral-50 transition-colors"
-              >
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-lg bg-secondary-100 flex items-center justify-center">
-                    <span className="text-2xl">🏗️</span>
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-heading text-neutral-900">Real Estate Development</h4>
-                    <p className="text-sm text-neutral-500">48-villa condo-hotel — {formatCurrency(businessUnits[1].standaloneValue.base)} standalone value</p>
-                  </div>
+              <div className="flex items-center gap-4 p-6">
+                <div className="w-12 h-12 rounded-lg bg-secondary-100 flex items-center justify-center">
+                  <span className="text-2xl">🏗️</span>
                 </div>
-                {expandedUnit === 'real-estate' ? (
-                  <ChevronUp className="w-5 h-5 text-neutral-400" />
-                ) : (
-                  <ChevronDown className="w-5 h-5 text-neutral-400" />
-                )}
-              </button>
-              {expandedUnit === 'real-estate' && (
-                <div className="px-6 pb-6 border-t border-neutral-200">
+                <div>
+                  <h4 className="text-xl font-heading text-neutral-900">Real Estate Development</h4>
+                  <p className="text-sm text-neutral-500">48-villa condo-hotel — {formatCurrency(businessUnits[1].standaloneValue.base)} standalone value</p>
+                </div>
+              </div>
+              <div className="px-6 pb-6 border-t border-neutral-200">
                   <div className="grid sm:grid-cols-3 gap-4 py-4 mb-4">
                     <div className="text-center p-3 bg-neutral-50 rounded-lg">
                       <p className="font-heading text-xl text-primary-800">$96M</p>
@@ -331,32 +300,20 @@ export default function ModelPage() {
                     All construction is buyer-funded. Development fees are earned on sale with minimal capital at risk.
                   </p>
                 </div>
-              )}
             </Card>
 
             {/* Property Management */}
             <Card padding="none" className="overflow-hidden">
-              <button
-                onClick={() => toggleUnit('property-management')}
-                className="w-full flex items-center justify-between p-6 text-left hover:bg-neutral-50 transition-colors"
-              >
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-lg bg-success-100 flex items-center justify-center">
-                    <span className="text-2xl">🏠</span>
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-heading text-neutral-900">Property Management</h4>
-                    <p className="text-sm text-neutral-500">25% villa rental revenue — {formatCurrency(businessUnits[2].standaloneValue.base)} standalone value</p>
-                  </div>
+              <div className="flex items-center gap-4 p-6">
+                <div className="w-12 h-12 rounded-lg bg-success-100 flex items-center justify-center">
+                  <span className="text-2xl">🏠</span>
                 </div>
-                {expandedUnit === 'property-management' ? (
-                  <ChevronUp className="w-5 h-5 text-neutral-400" />
-                ) : (
-                  <ChevronDown className="w-5 h-5 text-neutral-400" />
-                )}
-              </button>
-              {expandedUnit === 'property-management' && (
-                <div className="px-6 pb-6 border-t border-neutral-200">
+                <div>
+                  <h4 className="text-xl font-heading text-neutral-900">Property Management</h4>
+                  <p className="text-sm text-neutral-500">25% villa rental revenue — {formatCurrency(businessUnits[2].standaloneValue.base)} standalone value</p>
+                </div>
+              </div>
+              <div className="px-6 pb-6 border-t border-neutral-200">
                   <div className="grid sm:grid-cols-3 gap-4 py-4 mb-4">
                     <div className="text-center p-3 bg-neutral-50 rounded-lg">
                       <p className="font-heading text-xl text-primary-800">{formatCurrency(businessUnits[2].y5Revenue.base)}</p>
@@ -397,32 +354,20 @@ export default function ModelPage() {
                     Contractual, recurring revenue stream that grows as villas come online. High-margin (60%) with minimal incremental cost.
                   </p>
                 </div>
-              )}
             </Card>
 
             {/* Technology Platform */}
             <Card padding="none" className="overflow-hidden">
-              <button
-                onClick={() => toggleUnit('technology-platform')}
-                className="w-full flex items-center justify-between p-6 text-left hover:bg-neutral-50 transition-colors"
-              >
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-lg bg-primary-50 flex items-center justify-center">
-                    <span className="text-2xl">💻</span>
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-heading text-neutral-900">Technology & Digital Platform</h4>
-                    <p className="text-sm text-neutral-500">14 integrated systems — {formatCurrency(businessUnits[3].standaloneValue.base)} standalone value</p>
-                  </div>
+              <div className="flex items-center gap-4 p-6">
+                <div className="w-12 h-12 rounded-lg bg-primary-50 flex items-center justify-center">
+                  <span className="text-2xl">💻</span>
                 </div>
-                {expandedUnit === 'technology-platform' ? (
-                  <ChevronUp className="w-5 h-5 text-neutral-400" />
-                ) : (
-                  <ChevronDown className="w-5 h-5 text-neutral-400" />
-                )}
-              </button>
-              {expandedUnit === 'technology-platform' && (
-                <div className="px-6 pb-6 border-t border-neutral-200">
+                <div>
+                  <h4 className="text-xl font-heading text-neutral-900">Technology & Digital Platform</h4>
+                  <p className="text-sm text-neutral-500">14 integrated systems — {formatCurrency(businessUnits[3].standaloneValue.base)} standalone value</p>
+                </div>
+              </div>
+              <div className="px-6 pb-6 border-t border-neutral-200">
                   <div className="grid sm:grid-cols-3 gap-4 py-4 mb-4">
                     <div className="text-center p-3 bg-neutral-50 rounded-lg">
                       <p className="font-heading text-xl text-primary-800">$1.23M</p>
@@ -448,7 +393,6 @@ export default function ModelPage() {
                     Valued using cost-replacement method plus scalability optionality. Proprietary platform enables 60% cost reduction for new-site deployment.
                   </p>
                 </div>
-              )}
             </Card>
           </div>
         </section>
