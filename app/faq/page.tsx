@@ -22,7 +22,7 @@ const FAQS: FAQ[] = [
   {
     category: 'Investment',
     question: 'What is the expected return on investment?',
-    answer: 'We project a 78% IRR and 7.8x MOIC over a 5-year investment horizon in our base case scenario, producing $81.2M in enterprise value at Year 5 exit. Conservative projections show 66% IRR / 5.5x MOIC, while aggressive projections show 87% IRR / 10.0x MOIC. Returns are driven by casita expansion from 30 to 60 rooms plus villa management fees.',
+    answer: 'We project a 78% IRR and 7.5x MOIC over a 5-year investment horizon in our base case scenario, producing $81.2M in enterprise value at Year 5 exit. Conservative projections show 66% IRR / 5.3x MOIC, while aggressive projections show 87% IRR / 9.6x MOIC. Returns are driven by casita expansion from 30 to 60 rooms plus villa management fees.',
   },
   {
     category: 'Investment',
@@ -37,7 +37,7 @@ const FAQS: FAQ[] = [
   {
     category: 'Investment',
     question: 'What is the exit strategy?',
-    answer: 'Primary exit is strategic sale to a hospitality group, healthcare system, or wellness conglomerate in Years 5-7 at 8-10x EBITDA. The full 60-casita campus plus 36-villa program commands platform premiums. Secondary options include private equity acquisition or management buyout.',
+    answer: 'Primary exit is strategic sale to a hospitality group, healthcare system, or wellness conglomerate in Years 5-7 at 8-10x EBITDA. The full 60-casita campus plus 48-villa program commands platform premiums. Secondary options include private equity acquisition or management buyout.',
   },
   // Legal & Regulatory
   {
@@ -80,7 +80,7 @@ const FAQS: FAQ[] = [
   {
     category: 'Villas',
     question: 'What is the villa program?',
-    answer: 'A 36-villa condo-hotel collection on the campus grounds. Villas are sold to individual buyers ($1M-$3M each), who fund construction through deposits. The company earns development fees (10-15% of sales) and ongoing management fees (25% of rental revenue). Total villa sales of ~$72M with recurring management fee income of ~$1.3M/year at full operations.',
+    answer: 'A 48-villa condo-hotel collection on the campus grounds. Villas are sold to individual buyers ($1M-$3M each), who fund construction through deposits. The company earns development fees (10-15% of sales) and ongoing management fees (25% of rental revenue). Total villa sales of ~$96M with recurring management fee income of ~$1.7M/year at full operations.',
   },
   {
     category: 'Villas',
@@ -90,7 +90,7 @@ const FAQS: FAQ[] = [
   {
     category: 'Villas',
     question: 'What villa types are available?',
-    answer: 'Three tiers: Studio Villas ($1M-$1.5M, 1-bed, 1,200-1,500 sq ft, 12 units), Garden Villas ($1.5M-$2.5M, 2-bed, 1,800-2,400 sq ft, 16 units), and Estate Villas ($2.5M-$3M, 3-bed, 2,800-3,500 sq ft, 8 units).',
+    answer: 'Three tiers: Studio Villas ($1M-$1.5M, 1-bed, 1,200-1,500 sq ft, 16 units), Garden Villas ($1.5M-$2.5M, 2-bed, 1,800-2,400 sq ft, 22 units), and Estate Villas ($2.5M-$3M, 3-bed, 2,800-3,500 sq ft, 10 units).',
   },
   // Timeline
   {

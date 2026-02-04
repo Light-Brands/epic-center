@@ -26,7 +26,7 @@ flowchart TB
         direction LR
         M1["💰 Capital Required<br/><b>$32.95M</b>"]
         M2["📊 5-Year IRR<br/><b>78%</b>"]
-        M3["🔄 MOIC<br/><b>7.8x</b>"]
+        M3["🔄 MOIC<br/><b>7.5x</b>"]
         M4["📈 Y5 Revenue<br/><b>$23.2M</b>"]
     end
 
@@ -93,7 +93,7 @@ flowchart TB
 
         OPPORTUNITY["🎯 <b>THE OPPORTUNITY</b><br/>$1T+ TAM | Category Creation<br/>No direct competitors | First-mover advantage"]
 
-        RETURNS["📈 <b>THE RETURNS</b><br/>78% IRR | 7.8x MOIC<br/>$33M asset-backed floor valuation"]
+        RETURNS["📈 <b>THE RETURNS</b><br/>78% IRR | 7.5x MOIC<br/>$33M asset-backed floor valuation"]
 
         PROBLEM --> SOLUTION --> OPPORTUNITY --> RETURNS
     end
@@ -115,7 +115,7 @@ flowchart TB
 | **5-Year IRR (Blended)** | 78% |
 | **5-Year Combined Revenue** | $94,451,829 |
 | **Year 5 EBITDA** | $9,794,655 |
-| **MOIC (Base Case)** | 7.8x |
+| **MOIC (Base Case)** | 7.5x |
 
 ### Strategic Property Acquisition
 
@@ -322,7 +322,7 @@ flowchart TB
 | Gross Margin | 74% | 82% | 77% |
 | Break-even Occupancy | 42% | 38% | 40% |
 | 5-Year IRR | 29.54% | 18.00% | 78% |
-| MOIC | 8.94x | 4.65x | 7.8x |
+| MOIC | 8.94x | 4.65x | 7.5x |
 
 ### 3.3 Program Pricing Structure
 
@@ -484,7 +484,7 @@ flowchart LR
 | Exit Multiple (EBITDA) | 5.5x | 5.5x | 5.5x |
 | Exit Value | $45,464,746 | $28,500,000 | $73,870,610 |
 | **IRR** | **29.54%** | **18.00%** | **78%** |
-| **MOIC** | **8.94x** | **4.65x** | **7.8x** |
+| **MOIC** | **8.94x** | **4.65x** | **7.5x** |
 
 ```mermaid
 %%{init: {'theme': 'base'}}%%
@@ -513,7 +513,7 @@ flowchart TB
 
         subgraph INVESTOR["INVESTOR RETURNS"]
             IRR["📈 IRR: 78%"]
-            MOIC["🔄 MOIC: 7.8x"]
+            MOIC["🔄 MOIC: 7.5x"]
         end
 
         EXIT --> INVESTOR
@@ -635,7 +635,7 @@ The central valuation of **$41,812,500** is supported by:
 
 1. **Strong Unit Economics:** 77% average gross margin, 40% break-even occupancy
 2. **High-Value Customer Base:** Average revenue per guest of $54,050
-3. **Proven Returns:** Blended 78% IRR with 7.8x MOIC
+3. **Proven Returns:** Blended 78% IRR with 7.5x MOIC
 4. **Category Creation:** First-mover advantage in integrated luxury medical wellness
 5. **Asset-Backed:** Hard assets worth $32.95M provide downside protection
 6. **Market Opportunity:** $1T+ combined TAM with 8-12% annual growth
@@ -1656,7 +1656,7 @@ flowchart TB
 |--------|------------|
 | Market Opportunity | Category creation in $1T+ market |
 | Competitive Position | Unique integration no competitor can replicate |
-| Financial Returns | 78% blended IRR, 7.8x MOIC |
+| Financial Returns | 78% blended IRR, 7.5x MOIC |
 | Asset Protection | $33M hard asset floor valuation |
 | Management Capability | Vision aligned with execution capability |
 | Risk/Reward | Asymmetric upside with asset-backed downside |
@@ -1671,7 +1671,7 @@ flowchart TB
             direction LR
             F1["🌍 <b>Market</b><br/>$1T+ TAM<br/>Category Creation"]
             F2["🏰 <b>Position</b><br/>Unique Integration<br/>No Competitors"]
-            F3["📈 <b>Returns</b><br/>78% IRR<br/>7.8x MOIC"]
+            F3["📈 <b>Returns</b><br/>78% IRR<br/>7.5x MOIC"]
         end
 
         subgraph PROTECTION["DOWNSIDE PROTECTION"]
@@ -1891,7 +1891,7 @@ flowchart TB
         subgraph RETURNS["📈 INVESTOR RETURNS"]
             direction LR
             IRR["<b>IRR</b><br/>78%"]
-            MOIC["<b>MOIC</b><br/>7.8x"]
+            MOIC["<b>MOIC</b><br/>7.5x"]
         end
 
         subgraph OPERATIONS["🏨 5-YEAR OPERATIONS"]
@@ -1931,7 +1931,7 @@ flowchart TB
 | Post-Money Valuation | $74,763,250 |
 | Investor Equity (at Central) | 44.06% |
 | 5-Year IRR | 78% |
-| 5-Year MOIC | 7.8x |
+| 5-Year MOIC | 7.5x |
 | Year 5 Revenue | $23,157,598 |
 | Year 5 EBITDA | $9,794,655 |
 

@@ -360,12 +360,12 @@ export default function ReturnsPage() {
               },
               {
                 title: 'Villa Real Estate',
-                description: '36-villa condo-hotel program generating development fees (~$9M) plus recurring management fees ($1.3M/yr at full operations).',
-                impact: '$72M total villa sales',
+                description: '48-villa condo-hotel program generating development fees (~$12M) plus recurring management fees ($1.7M/yr at full operations).',
+                impact: '$96M total villa sales',
               },
               {
                 title: 'Platform Value',
-                description: 'Proven playbook at scale enables multi-location expansion. 60-casita + 36-villa campus commands platform premium at exit.',
+                description: 'Proven playbook at scale enables multi-location expansion. 60-casita + 48-villa campus commands platform premium at exit.',
                 impact: 'Global expansion ready',
               },
             ].map((driver) => (

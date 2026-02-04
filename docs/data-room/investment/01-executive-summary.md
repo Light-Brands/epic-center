@@ -165,7 +165,7 @@ Guests do not pay $14,000-$56,000 for any single modality. They pay for the inte
 
 | Metric | Value |
 |--------|-------|
-| **Total Capital Required** | $14,953,500 |
+| **Total Capital Required** | $16,823,500 |
 | **Acquisition** | $6,150,000 |
 | **Renovation** | $4,050,000 |
 | **Technology Platform** | $1,230,000 |
@@ -193,9 +193,9 @@ Guests do not pay $14,000-$56,000 for any single modality. They pay for the inte
 
 | Scenario | MOIC | IRR |
 |----------|------|-----|
-| **Conservative** | 5.5x | 66% |
-| **Base Case** | **7.8x** | **78%** |
-| **Aggressive** | 10.0x | 87% |
+| **Conservative** | 5.3x | 66% |
+| **Base Case** | **7.5x** | **78%** |
+| **Aggressive** | 9.6x | 87% |
 
 **Year 5 Enterprise Value (Base Case): $81,200,000**
 
@@ -208,7 +208,7 @@ Guests do not pay $14,000-$56,000 for any single modality. They pay for the inte
 | **Gross Margin per Guest** | 83% |
 | **Average Daily Rate (ADR)** | $2,000/night |
 
-Even the conservative exit scenario delivers a 66% IRR and 5.5x MOIC over five years. The financial model is resilient because premium pricing, 83% gross margins, and expanding EBITDA margins (42%→60%) provide substantial buffer against occupancy shortfalls. The break-even at just ~3% occupancy (~25 guests/year) represents an extraordinary safety margin against the base case projection of 387 guests in Year 1.
+Even the conservative exit scenario delivers a 66% IRR and 5.3x MOIC over five years. The financial model is resilient because premium pricing, 83% gross margins, and expanding EBITDA margins (42%→60%) provide substantial buffer against occupancy shortfalls. The break-even at just ~3% occupancy (~25 guests/year) represents an extraordinary safety margin against the base case projection of 387 guests in Year 1.
 
 ---
 
@@ -221,7 +221,7 @@ Even the conservative exit scenario delivers a 66% IRR and 5.5x MOIC over five y
 | **Pre-Money Valuation** | $6,089,000 |
 | **Methodology** | IPEV-Compliant 9-Method Weighted Average |
 
-The post-money valuation of $21.04M is derived from nine independent valuation methods following International Private Equity Valuation (IPEV) guidelines. Methods include Scorecard, Checklist, Cost Approach, Tiered Revenue VC, Simple VC (Revenue, EBITDA, Net Income), and two DCF approaches (Long-Term Growth, Multiples). The weighted average exceeds the total capital requirement of $14.95M, demonstrating that the project creates immediate intrinsic value above its cost basis.
+The post-money valuation of $21.04M is derived from nine independent valuation methods following International Private Equity Valuation (IPEV) guidelines. Methods include Scorecard, Checklist, Cost Approach, Tiered Revenue VC, Simple VC (Revenue, EBITDA, Net Income), and two DCF approaches (Long-Term Growth, Multiples). The weighted average exceeds the total capital requirement of $16.82M, demonstrating that the project creates immediate intrinsic value above its cost basis.
 
 The full valuation methodology is detailed in the IPEV-Compliant Valuation Report (Document 22).
 
@@ -377,7 +377,7 @@ TE measures and publishes clinical outcomes -- addiction interruption rates, dep
 | **Medical Equipment** | $750,000 | 5.0% |
 | **FF&E** | $600,000 | 4.0% |
 | **Pre-Opening** | $200,000 | 1.3% |
-| **Total** | **$14,953,500** | **100.0%** |
+| **Total** | **$16,823,500** | **100.0%** |
 
 The largest allocation (68.2%) goes to the physical asset -- property acquisition and renovation. This creates tangible collateral backing the investment. The $1,230,000 technology platform investment ($1M AI clinical platform + $230K physical infrastructure) creates a proprietary data moat. Medical equipment and technology together represent 13.2% of total capital, establishing the clinical and data infrastructure that drives differentiation. The remaining 18.5% funds working capital, contingency, FF&E, and pre-opening costs to reach cash-flow positive operations.
 
@@ -443,7 +443,7 @@ Dependence on founding team for vision execution and clinical protocol developme
 
 ## 13. The Ask
 
-**Total Capital Required: $14,953,500**
+**Total Capital Required: $16,823,500**
 
 This capital fully funds property acquisition, renovation, medical equipment, technology platform ($1.23M AI + physical infrastructure), pre-opening operations, and working capital through cash-flow positive operations.
 

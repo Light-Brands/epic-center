@@ -52,7 +52,7 @@
 │   │   OPTION A: Jungle Estate Only            OPTION B: Dual Strategy   │  │
 │   │   ──────────────────────                 ─────────────────────     │  │
 │   │                                                                     │  │
-│   │   Total Investment: $14.95M               Total: $32.9M             │  │
+│   │   Total Investment: $16.82M               Total: $32.9M             │  │
 │   │   Casitas: 60 (phased 15→60)                              Rooms: 40+                 │  │
 │   │   5-Yr Revenue: $120.7M                  Y5 Revenue: $21.0M        │  │
 │   │   5-Year IRR: 78%                     Blended IRR: ~65%+        │  │
@@ -92,9 +92,9 @@
 #### Scenario Analysis (Interactive Toggle)
 | Scenario | Occupancy | Y1 Revenue | 5-Year IRR | 5-Year MOIC |
 |----------|-----------|------------|------------|-------------|
-| **Conservative** | 50→70% | $8.24M | 66% | 5.5x |
-| **Base Case** | 60→80% | $10.3M | 78% | 7.8x |
-| **Aggressive** | 70→85% | $11.33M | 87% | 10.0x |
+| **Conservative** | 50→70% | $8.24M | 66% | 5.3x |
+| **Base Case** | 60→80% | $10.3M | 78% | 7.5x |
+| **Aggressive** | 70→85% | $11.33M | 87% | 9.6x |
 
 #### Detailed Revenue Breakdown (Year 2 Base Case)
 ```
@@ -212,7 +212,7 @@
 │                                                                             │
 │   SEED ROUND (Current Raise)                                               │
 │   ──────────────────────────────────────────────────────────────────────   │
-│   Amount:              $14,953,500                                         │
+│   Amount:              $16,823,500                                         │
 │   Instrument:          Preferred Equity (Series Seed)                      │
 │                                                                             │
 │   Use of Funds:                                                            │
@@ -284,14 +284,14 @@
 │   • OpEx escalation: ~4% annually (standard inflation + capacity scaling)  │
 │                                                                             │
 │   CAPITAL REQUIREMENTS                                                     │
-│   • Total project cost: $14,953,500 (all-equity seed round)                │
+│   • Total project cost: $16,823,500 (all-equity seed round)                │
 │   • Expansion CapEx (Y2-5): ~$6.75M from operating cash flow               │
 │   • Technology platform: $1.23M ($1M AI + $230K infrastructure)            │
 │   • Annual technology OpEx: $228K (Year 1), escalating ~4%/year            │
 │                                                                             │
 │   RETURN METRICS (5-Year Hold)                                             │
 │   • IRR: 78% (base case)                                                │
-│   • MOIC: 7.8x                                                            │
+│   • MOIC: 7.5x                                                            │
 │   • Exit multiple assumption: 4.0x EBITDA (single location)               │
 │   • 5-Year Revenue: $120,700,000                                           │
 │   • 5-Year Net Income: $45,102,667                                         │

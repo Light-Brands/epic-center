@@ -12,7 +12,7 @@ const VILLA_TIERS = [
     priceRange: '$1M - $1.5M',
     beds: '1 Bedroom',
     sqft: '1,200 - 1,500 sq ft',
-    count: 12,
+    count: 16,
     features: ['Open-plan living', 'Private terrace', 'Jungle views', 'Plunge pool'],
     color: 'bg-primary-600',
   },
@@ -21,7 +21,7 @@ const VILLA_TIERS = [
     priceRange: '$1.5M - $2.5M',
     beds: '2 Bedrooms',
     sqft: '1,800 - 2,400 sq ft',
-    count: 16,
+    count: 22,
     features: ['Wraparound garden', 'Private pool', 'Chef\'s kitchen', 'Meditation space'],
     color: 'bg-secondary-500',
   },
@@ -30,26 +30,26 @@ const VILLA_TIERS = [
     priceRange: '$2.5M - $3M',
     beds: '3 Bedrooms',
     sqft: '2,800 - 3,500 sq ft',
-    count: 8,
+    count: 10,
     features: ['Multi-level design', 'Infinity pool', 'Entertainment pavilion', 'Rooftop terrace'],
     color: 'bg-primary-800',
   },
 ]
 
 const VILLA_PHASING = [
-  { year: 'Year 1', sold: 6, built: 4, salesRevenue: '$12M' },
-  { year: 'Year 2', sold: 10, built: 12, salesRevenue: '$20M' },
-  { year: 'Year 3', sold: 12, built: 24, salesRevenue: '$24M' },
-  { year: 'Year 4', sold: 8, built: 36, salesRevenue: '$16M' },
-  { year: 'Year 5', sold: 0, built: 36, salesRevenue: '$0' },
+  { year: 'Year 1', sold: 8, built: 6, salesRevenue: '$16M' },
+  { year: 'Year 2', sold: 13, built: 16, salesRevenue: '$26M' },
+  { year: 'Year 3', sold: 16, built: 32, salesRevenue: '$32M' },
+  { year: 'Year 4', sold: 11, built: 48, salesRevenue: '$22M' },
+  { year: 'Year 5', sold: 0, built: 48, salesRevenue: '$0' },
 ]
 
 const REVENUE_PROJECTIONS = [
-  { year: 'Year 1', devFees: '$1.5M', mgmtFees: '$0.1M', totalFees: '$1.6M' },
-  { year: 'Year 2', devFees: '$2.5M', mgmtFees: '$0.3M', totalFees: '$2.8M' },
-  { year: 'Year 3', devFees: '$3.0M', mgmtFees: '$0.7M', totalFees: '$3.7M' },
-  { year: 'Year 4', devFees: '$2.0M', mgmtFees: '$1.0M', totalFees: '$3.0M' },
-  { year: 'Year 5', devFees: '$0', mgmtFees: '$1.3M', totalFees: '$1.3M' },
+  { year: 'Year 1', devFees: '$2.0M', mgmtFees: '$0.1M', totalFees: '$2.1M' },
+  { year: 'Year 2', devFees: '$3.25M', mgmtFees: '$0.4M', totalFees: '$3.65M' },
+  { year: 'Year 3', devFees: '$4.0M', mgmtFees: '$0.9M', totalFees: '$4.9M' },
+  { year: 'Year 4', devFees: '$2.75M', mgmtFees: '$1.4M', totalFees: '$4.15M' },
+  { year: 'Year 5', devFees: '$0', mgmtFees: '$1.7M', totalFees: '$1.7M' },
 ]
 
 const fadeUp = {
@@ -80,7 +80,7 @@ export default function VillasPage() {
             Villa Collection at Transformational Epicenter
           </motion.h2>
           <motion.p variants={fadeUp} className="text-xl text-neutral-600 max-w-3xl mx-auto">
-            36 luxury villas integrated into the healing campus - a buyer-funded condo-hotel
+            48 luxury villas integrated into the healing campus - a buyer-funded condo-hotel
             program generating development fees and recurring management income.
           </motion.p>
         </motion.section>
@@ -95,10 +95,10 @@ export default function VillasPage() {
         >
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
             {[
-              { icon: Home, value: '36', label: 'Luxury Villas', sublabel: '3 tiers available' },
-              { icon: DollarSign, value: '$72M', label: 'Total Villa Sales', sublabel: '$1M - $3M each' },
+              { icon: Home, value: '48', label: 'Luxury Villas', sublabel: '3 tiers available' },
+              { icon: DollarSign, value: '$96M', label: 'Total Villa Sales', sublabel: '$1M - $3M each' },
               { icon: TrendingUp, value: '25%', label: 'Management Fee', sublabel: 'Of rental revenue' },
-              { icon: Calendar, value: '$1.3M/yr', label: 'Recurring Income', sublabel: 'At full operations' },
+              { icon: Calendar, value: '$1.7M/yr', label: 'Recurring Income', sublabel: 'At full operations' },
             ].map((stat, index) => (
               <motion.div key={stat.label} variants={fadeUp}>
                 <Card padding="lg" className="text-center h-full hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
@@ -192,9 +192,9 @@ export default function VillasPage() {
                   ))}
                   <tr className="border-t-2 border-neutral-300">
                     <td className="py-3 pr-4 font-medium text-neutral-900">Total</td>
-                    <td className="py-3 px-4 text-center font-medium text-neutral-900">36</td>
-                    <td className="py-3 px-4 text-center font-heading text-lg text-neutral-900">36</td>
-                    <td className="py-3 pl-4 text-right font-heading text-lg text-primary-800">$72M</td>
+                    <td className="py-3 px-4 text-center font-medium text-neutral-900">48</td>
+                    <td className="py-3 px-4 text-center font-heading text-lg text-neutral-900">48</td>
+                    <td className="py-3 pl-4 text-right font-heading text-lg text-primary-800">$96M</td>
                   </tr>
                 </tbody>
               </table>
@@ -327,7 +327,7 @@ export default function VillasPage() {
               <div className="grid grid-cols-2 gap-4">
                 {[
                   { value: '45,000', label: 'm² Campus', sublabel: '9 lots, jungle setting' },
-                  { value: '36', label: 'Villas', sublabel: 'Studio, Garden, Estate' },
+                  { value: '48', label: 'Villas', sublabel: 'Studio, Garden, Estate' },
                   { value: '60', label: 'Casitas', sublabel: 'Treatment capacity' },
                   { value: 'Tulum', label: 'Q.R., Mexico', sublabel: 'Wellness corridor' },
                 ].map((stat) => (

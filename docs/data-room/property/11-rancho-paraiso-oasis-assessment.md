@@ -47,7 +47,7 @@ The Rancho Paraiso Oasis (Kaax Cenote) is a 45,000 m2 jungle compound comprising
 | **Acquisition Price** | $5,800,000 |
 | **Total Acquisition (with costs)** | $6,150,000 |
 | **Total Renovation** | $4,050,000 |
-| **Total Project Cost** | $14,953,500 |
+| **Total Project Cost** | $16,823,500 |
 | **Total Casitas (Full Build)** | 60 (phased 15→60 over 5 years) |
 | **Average Daily Rate** | $2,000 |
 | **Average Revenue Per Guest** | $26,600 |
@@ -57,8 +57,8 @@ The Rancho Paraiso Oasis (Kaax Cenote) is a 45,000 m2 jungle compound comprising
 | **Project IRR (Base, with Exit)** | 78% |
 | **Project IRR (Conservative, with Exit)** | 66% |
 | **Year 5 Enterprise Value (Base)** | $81,200,000 |
-| **5-Year MOIC (Base, incl. Exit)** | 7.8x |
-| **5-Year MOIC (Conservative, incl. Exit)** | 5.5x |
+| **5-Year MOIC (Base, incl. Exit)** | 7.5x |
+| **5-Year MOIC (Conservative, incl. Exit)** | 5.3x |
 
 ---
 
@@ -236,7 +236,7 @@ The 15% contingency provides a buffer against cost overruns, supply chain delays
 | Pre-Opening | $200,000 | 1.3% |
 | Working Capital | $1,126,000 | 7.5% |
 | Contingency | $847,500 | 5.7% |
-| **TOTAL PROJECT COST** | **$14,953,500** | **100.0%** |
+| **TOTAL PROJECT COST** | **$16,823,500** | **100.0%** |
 
 ### 7.2 Cost Efficiency Metrics
 
@@ -318,7 +318,7 @@ The 15% contingency provides a buffer against cost overruns, supply chain delays
 |--------|-----------|-------------------|-----------------|
 | **Project IRR (with Exit)** | **78%** | **66%** | **87%** |
 | **Year 5 Enterprise Value** | **$81,200,000** | -- | -- |
-| **5-Year MOIC (incl. Exit)** | **7.8x** | **5.5x** | **10.0x** |
+| **5-Year MOIC (incl. Exit)** | **7.5x** | **5.3x** | **9.6x** |
 | Year 1 Cash-on-Cash Return | 37.4% | 31.2% | 43.6% |
 | Payback Period | ~1.8 years | ~2.3 years | ~1.4 years |
 | 5-Year Cumulative Net Income | $45,102,667 | $37,585,556 | $52,619,778 |
@@ -335,9 +335,9 @@ The 15% contingency provides a buffer against cost overruns, supply chain delays
 
 | Scenario | Occupancy Adjustment | IRR Impact | MOIC Impact |
 |----------|---------------------|------------|-------------|
-| Aggressive Case | Higher occupancy ramp | 87% | 10.0x |
-| Base Case | As modeled | 78% | 7.8x |
-| Conservative Case | Lower occupancy ramp | 66% | 5.5x |
+| Aggressive Case | Higher occupancy ramp | 87% | 9.6x |
+| Base Case | As modeled | 78% | 7.5x |
+| Conservative Case | Lower occupancy ramp | 66% | 5.3x |
 | Bear Case (-20% occupancy) | -20% across all years | 52% | 3.5x |
 | ADR Sensitivity (+$500/day) | Flat occupancy, +$500 ADR | +15-20% | +1.5x |
 | ADR Sensitivity (-$500/day) | Flat occupancy, -$500 ADR | -18-22% | -1.3x |
@@ -381,7 +381,7 @@ Based on the comprehensive assessment presented in this document, the recommenda
 **Supporting rationale:**
 
 1. **Highest score** of all evaluated properties at 88/100
-2. **Strongest financial returns** with 78% IRR and 7.8x MOIC (base case), producing $81.2M enterprise value at Year 5
+2. **Strongest financial returns** with 78% IRR and 7.5x MOIC (base case), producing $81.2M enterprise value at Year 5
 3. **Exceptional capacity** of 60 casitas (phased 15→60) supporting $10.3M Year 1 revenue
 4. **Best cost efficiency** at $249,225 per casita at full build
 5. **Unmatched expansion potential** on 45,000 m2 across 9 lots

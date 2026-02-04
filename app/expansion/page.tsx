@@ -66,7 +66,7 @@ export default function ExpansionPage() {
             Layered Growth Strategy
           </h2>
           <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
-            Three growth engines: campus expansion (30 → 60 casitas), villa real estate (36 villas),
+            Three growth engines: campus expansion (30 → 60 casitas), villa real estate (48 villas),
             and global platform replication - each building on the last.
           </p>
         </section>
@@ -165,17 +165,17 @@ export default function ExpansionPage() {
                 <p className="font-accent text-sm uppercase tracking-widest text-primary-700 mb-2">
                   Growth Engine 2
                 </p>
-                <h3 className="text-3xl font-heading mb-4">Villa Collection: 36 Luxury Villas</h3>
+                <h3 className="text-3xl font-heading mb-4">Villa Collection: 48 Luxury Villas</h3>
                 <p className="text-primary-800 mb-6">
-                  A buyer-funded condo-hotel program generating $72M in total villa sales revenue.
+                  A buyer-funded condo-hotel program generating $96M in total villa sales revenue.
                   Deposits fund construction with minimal capital requirement from the company.
                   Ongoing 25% management fees create a recurring revenue stream.
                 </p>
                 <div className="space-y-3">
                   {[
                     'Buyer-funded construction - low capital requirement',
-                    'Development/facilitation fees: 10-15% of sales (~$9M)',
-                    'Management fees: 25% of rental revenue (~$1.3M/yr)',
+                    'Development/facilitation fees: 10-15% of sales (~$12M)',
+                    'Management fees: 25% of rental revenue (~$1.7M/yr)',
                     '$1M - $3M per villa, $2M average',
                   ].map((item) => (
                     <div key={item} className="flex items-center gap-2">
@@ -193,10 +193,10 @@ export default function ExpansionPage() {
               </div>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { value: '36', label: 'Total Villas', sublabel: '3 tiers: Studio, Garden, Estate' },
-                  { value: '$72M', label: 'Total Sales', sublabel: 'Buyer-funded builds' },
-                  { value: '$9M+', label: 'Dev Fees', sublabel: '10-15% of sales' },
-                  { value: '$1.3M', label: 'Mgmt Fees/Yr', sublabel: 'At full operations' },
+                  { value: '48', label: 'Total Villas', sublabel: '3 tiers: Studio, Garden, Estate' },
+                  { value: '$96M', label: 'Total Sales', sublabel: 'Buyer-funded builds' },
+                  { value: '$12M', label: 'Dev Fees', sublabel: '10-15% of sales' },
+                  { value: '$1.7M', label: 'Mgmt Fees/Yr', sublabel: 'At full operations' },
                 ].map((stat) => (
                   <div key={stat.label} className="bg-white/20 rounded-lg p-4 text-center">
                     <p className="font-heading text-2xl">{stat.value}</p>
@@ -217,7 +217,7 @@ export default function ExpansionPage() {
             </p>
             <h3 className="text-2xl font-heading text-neutral-900">Global Platform Expansion</h3>
             <p className="text-neutral-600 max-w-2xl mx-auto mt-2">
-              Once proven in Tulum with 60 casitas and 36 villas, our model can be replicated
+              Once proven in Tulum with 60 casitas and 48 villas, our model can be replicated
               across multiple jurisdictions, creating a global network of transformation centers.
             </p>
           </div>
@@ -342,7 +342,7 @@ export default function ExpansionPage() {
               <h3 className="text-3xl font-heading mb-6">Building Platform Value</h3>
               <p className="text-lg text-primary-200 mb-8">
                 Multi-location platforms command significant premiums at exit. A proven 60-casita
-                campus with 36-villa program establishes the playbook for global replication.
+                campus with 48-villa program establishes the playbook for global replication.
               </p>
               <div className="grid md:grid-cols-3 gap-4">
                 {[

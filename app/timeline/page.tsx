@@ -100,7 +100,7 @@ const MILESTONES: Milestone[] = [
     id: 'year5-full',
     date: '2030',
     title: 'Year 5: Full 60-Casita Campus',
-    description: 'All 60 casitas operational. 36 villas complete. Revenue ~$34M.',
+    description: 'All 60 casitas operational. 48 villas complete. Revenue ~$34M.',
     status: 'upcoming',
     category: 'launch',
   },
@@ -133,7 +133,7 @@ const PHASES = [
     period: '2029–2030',
     icon: Users,
     color: 'bg-success-500',
-    items: ['60 casitas operational', '36 villas complete', 'Revenue ~$34M Year 5'],
+    items: ['60 casitas operational', '48 villas complete', 'Revenue ~$34M Year 5'],
   },
 ]
 
@@ -446,7 +446,7 @@ export default function TimelinePage() {
               >
                 {[
                   { value: '78%', label: 'Target IRR' },
-                  { value: '7.8x', label: 'Target MOIC' },
+                  { value: '7.5x', label: 'Target MOIC' },
                   { value: '5 yrs', label: 'Hold Period' },
                   { value: '$81.2M', label: 'Y5 Enterprise Value' },
                 ].map((stat, index) => (

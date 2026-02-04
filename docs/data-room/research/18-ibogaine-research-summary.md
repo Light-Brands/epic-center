@@ -383,7 +383,7 @@ Mexico offers the optimal regulatory environment for ibogaine-assisted therapy:
 
 | Metric | Value |
 |--------|-------|
-| **Total Project Cost** | $14,953,500 |
+| **Total Project Cost** | $16,823,500 |
 | **Acquisition** | $6,150,000 |
 | **Renovation** | $4,050,000 |
 | **Room Count** | 60 casitas (phased 15→60) |
@@ -392,8 +392,8 @@ Mexico offers the optimal regulatory environment for ibogaine-assisted therapy:
 | **Project IRR (Base, with Exit)** | 78% |
 | **Project IRR (Conservative, with Exit)** | 66% |
 | **Year 5 Enterprise Value (Base)** | $81,200,000 |
-| **5-Year MOIC (Base, incl. Exit)** | 7.8x |
-| **5-Year MOIC (Conservative, incl. Exit)** | 5.5x |
+| **5-Year MOIC (Base, incl. Exit)** | 7.5x |
+| **5-Year MOIC (Conservative, incl. Exit)** | 5.3x |
 
 > **Ibogaine as Revenue Driver:** Ibogaine-assisted protocols represent the highest-value
 > treatment offerings ($14,000-$56,000 per program), contributing approximately 35-45%

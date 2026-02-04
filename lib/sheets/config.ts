@@ -30,13 +30,13 @@ export const RANGES = {
 } as const
 
 // Scenario multipliers for adjusting base values
-// Aligned with updated model: Base IRR 78%, MOIC 7.8x (casita phasing 30→60 rooms)
+// Aligned with updated model: Base IRR 78%, MOIC 7.5x (casita phasing 30→60 rooms)
 export const SCENARIO_MULTIPLIERS = {
   conservative: {
     revenue: 0.80, // ~$96M vs $120.7M 5-year total
     occupancy: 0.875, // 70% vs 80% steady-state
     irr: 0.846, // 66% vs 78%
-    moic: 0.705, // 5.5x vs 7.8x
+    moic: 0.707, // 5.3x vs 7.5x
   },
   base: {
     revenue: 1.0,
@@ -48,6 +48,6 @@ export const SCENARIO_MULTIPLIERS = {
     revenue: 1.10, // ~$133M vs $120.7M 5-year total
     occupancy: 1.063, // 85% vs 80% steady-state
     irr: 1.115, // 87% vs 78%
-    moic: 1.282, // 10.0x vs 7.8x
+    moic: 1.280, // 9.6x vs 7.5x
   },
 } as const

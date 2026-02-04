@@ -62,7 +62,7 @@
 | **Issuer** | Transformational Epicenter Holdings, LLC |
 | **Jurisdiction of Formation** | State of Delaware, United States |
 | **Type of Security** | [To be determined -- LLC Membership Interests / Preferred Units / SAFE] |
-| **Total Raise** | $14,953,500 |
+| **Total Raise** | $16,823,500 |
 | **Minimum Investment** | [Pending -- to be set by counsel] |
 | **Investor Qualification** | Accredited Investors only (Rule 501(a), Regulation D) |
 | **Exemption** | Rule 506(b) or 506(c) of Regulation D [Pending counsel determination] |
@@ -123,7 +123,7 @@ The Company intends to use the net proceeds of this offering approximately as fo
 | **Medical Equipment** | $750,000 | 5.0% | Cardiac monitoring systems, hyperbaric chambers, IV therapy infrastructure, neurofeedback equipment, laboratory equipment |
 | **FF&E** | $600,000 | 4.0% | Furniture, fixtures, and equipment for guest casitas, communal spaces, and treatment rooms |
 | **Pre-Opening** | $200,000 | 1.3% | Staff recruitment and training, clinical protocol development, supply chain establishment |
-| **Total** | **$14,953,500** | **100.0%** | |
+| **Total** | **$16,823,500** | **100.0%** | |
 
 *[Note: The Company reserves the right to reallocate proceeds among categories based on business needs and changing conditions. Actual expenditures may vary from the estimates above.]*
 
@@ -291,9 +291,9 @@ No single competitor integrates all four market pillars. SHA Wellness Clinic (Sp
 
 | Scenario | Enterprise Value (Y5) | MOIC | IRR |
 |----------|----------------------|------|-----|
-| Conservative | - | 5.5x | 66% |
-| **Base Case** | **$81,200,000** | **7.8x** | **78%** |
-| Aggressive | - | 10.0x | 87% |
+| Conservative | - | 5.3x | 66% |
+| **Base Case** | **$81,200,000** | **7.5x** | **78%** |
+| Aggressive | - | 9.6x | 87% |
 
 ### Key Assumptions
 

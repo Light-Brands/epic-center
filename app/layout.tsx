@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://www.transformational-epicenter.com'),
   openGraph: {
     title: 'Transformational Epicenter - Luxury Medical Retreat Investment',
-    description: 'Luxury medical retreat at the convergence of psychedelic therapy and wellness tourism. $16.8M raise, 78% projected IRR, 7.8x MOIC.',
+    description: 'Luxury medical retreat at the convergence of psychedelic therapy and wellness tourism. $16.8M raise, 78% projected IRR, 7.5x MOIC.',
     siteName: 'Transformational Epicenter',
     locale: 'en_US',
     type: 'website',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Transformational Epicenter - Luxury Medical Retreat Investment',
-    description: 'Luxury medical retreat at the convergence of psychedelic therapy and wellness tourism. $16.8M raise, 78% projected IRR, 7.8x MOIC.',
+    description: 'Luxury medical retreat at the convergence of psychedelic therapy and wellness tourism. $16.8M raise, 78% projected IRR, 7.5x MOIC.',
   },
 }
 

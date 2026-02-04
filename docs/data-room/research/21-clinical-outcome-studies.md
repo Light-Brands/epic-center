@@ -53,14 +53,14 @@ These are not marginal improvements. They represent a paradigm shift in the trea
 
 | Metric | Value |
 |--------|-------|
-| **Total Project Cost** | $14,953,500 |
+| **Total Project Cost** | $16,823,500 |
 | **Acquisition** | $6,150,000 |
 | **Renovation** | $4,050,000 |
 | **Year 1 Revenue (Base)** | $10,300,000 |
 | **5-Year Total Revenue** | $120,700,000 |
 | **Project IRR (Base / Conservative)** | 78% / 66% |
 | **Year 5 Enterprise Value (Base)** | $81,200,000 |
-| **5-Year MOIC (Base / Conservative)** | 7.8x / 5.5x |
+| **5-Year MOIC (Base / Conservative)** | 7.5x / 5.3x |
 
 > **Investment thesis connection:** Clinical outcomes are not merely therapeutic -- they
 > are the economic engine of TE's business model. Superior outcomes drive referrals,

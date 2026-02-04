@@ -53,7 +53,7 @@ Based on a comprehensive 9-methodology valuation analysis following IPEV guideli
 | **5-Year IRR (Blended)** | 78% |
 | **5-Year Combined Revenue** | $94,451,829 |
 | **Year 5 EBITDA** | $9,794,655 |
-| **MOIC (Base Case)** | 7.8x |
+| **MOIC (Base Case)** | 7.5x |
 
 ### Strategic Property Acquisition
 
@@ -146,7 +146,7 @@ The founding team brings a unique combination of vision, operational capability,
 | Gross Margin | 74% | 82% | 77% |
 | Break-even Occupancy | 42% | 38% | 40% |
 | 5-Year IRR | 29.54% | 18.00% | 78% |
-| MOIC | 8.94x | 4.65x | 7.8x |
+| MOIC | 8.94x | 4.65x | 7.5x |
 
 ### 3.3 Program Pricing Structure
 
@@ -230,7 +230,7 @@ The founding team brings a unique combination of vision, operational capability,
 | Exit Multiple (EBITDA) | 5.5x | 5.5x | 5.5x |
 | Exit Value | $45,464,746 | $28,500,000 | $73,870,610 |
 | **IRR** | **29.54%** | **18.00%** | **78%** |
-| **MOIC** | **8.94x** | **4.65x** | **7.8x** |
+| **MOIC** | **8.94x** | **4.65x** | **7.5x** |
 
 ---
 
@@ -279,7 +279,7 @@ The central valuation of **$41,812,500** is supported by:
 
 1. **Strong Unit Economics:** 77% average gross margin, 40% break-even occupancy
 2. **High-Value Customer Base:** Average revenue per guest of $54,050
-3. **Proven Returns:** Blended 78% IRR with 7.8x MOIC
+3. **Proven Returns:** Blended 78% IRR with 7.5x MOIC
 4. **Category Creation:** First-mover advantage in integrated luxury medical wellness
 5. **Asset-Backed:** Hard assets worth $32.95M provide downside protection
 6. **Market Opportunity:** $1T+ combined TAM with 8-12% annual growth
@@ -809,7 +809,7 @@ Based on historical performance patterns from comparable facilities:
 |--------|------------|
 | Market Opportunity | Category creation in $1T+ market |
 | Competitive Position | Unique integration no competitor can replicate |
-| Financial Returns | 78% blended IRR, 7.8x MOIC |
+| Financial Returns | 78% blended IRR, 7.5x MOIC |
 | Asset Protection | $33M hard asset floor valuation |
 | Management Capability | Vision aligned with execution capability |
 | Risk/Reward | Asymmetric upside with asset-backed downside |
@@ -936,7 +936,7 @@ Based on historical performance patterns from comparable facilities:
 | Post-Money Valuation | $74,763,250 |
 | Investor Equity (at Central) | 44.06% |
 | 5-Year IRR | 78% |
-| 5-Year MOIC | 7.8x |
+| 5-Year MOIC | 7.5x |
 | Year 5 Revenue | $23,157,598 |
 | Year 5 EBITDA | $9,794,655 |
 

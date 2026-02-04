@@ -68,7 +68,7 @@ The total capital requirement for the Transformational Epicenter project has bee
 | Medical Equipment | $750,000 | 5.0% |
 | FF&E | $600,000 | 4.0% |
 | Pre-Opening | $200,000 | 1.3% |
-| **Total Capital Required** | **$14,953,500** | **100%** |
+| **Total Capital Required** | **$16,823,500** | **100%** |
 
 *Technology Platform includes $1,000,000 AI platform and $230,000 physical infrastructure.*
 

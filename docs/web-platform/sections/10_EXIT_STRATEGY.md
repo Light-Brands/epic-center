@@ -53,9 +53,9 @@
 │                                                                             │
 │   PROJECTED RETURNS (Base Case)                                            │
 │   ──────────────────────────────                                           │
-│   Total Raise: $14,953,500                                                 │
+│   Total Raise: $16,823,500                                                 │
 │   5-Year IRR: 78%                                                       │
-│   MOIC: 7.8x                                                              │
+│   MOIC: 7.5x                                                              │
 │   Y5 Enterprise Value: $81,200,000 (4.0x EBITDA, single location)          │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
@@ -189,12 +189,12 @@
 │   ──────────────────────────────────────                                   │
 │                                                                             │
 │   Investor Returns (Seed Round):                                           │
-│   Total Raise: $14,953,500                                                 │
+│   Total Raise: $16,823,500                                                 │
 │   ──────────────────────────────────────                                   │
-│   MOIC: 7.8x (base case)                                                  │
+│   MOIC: 7.5x (base case)                                                  │
 │   IRR: 78% (5-year hold, base case)                                     │
-│   Conservative: 66% IRR / 5.5x MOIC                                       │
-│   Aggressive: 87% IRR / 10.0x MOIC                                        │
+│   Conservative: 66% IRR / 5.3x MOIC                                       │
+│   Aggressive: 87% IRR / 9.6x MOIC                                        │
 │                                                                             │
 │   Note: Base case assumptions. Series A dilution would reduce ownership    │
 │   but increase absolute value through growth acceleration.                 │

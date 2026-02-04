@@ -31,24 +31,24 @@ export const CASITA_PHASING = {
 
 // ─── Villa Model Data ──────────────────────────────────────────────────
 export const VILLA_MODEL = {
-  totalVillas: 36,
+  totalVillas: 48,
   avgPrice: 2000000,
   priceRange: { min: 1000000, max: 3000000 },
-  totalSalesRevenue: 72000000,
+  totalSalesRevenue: 96000000,
   managementFeeRate: 0.25, // 25% of rental revenue
   developmentFeeRate: 0.125, // 10-15% of sales
-  fullOpsManagementFeeIncome: 1300000, // ~$1.3M/year at full operations
+  fullOpsManagementFeeIncome: 1700000, // ~$1.7M/year at full operations
   tiers: [
-    { name: 'Studio Villa', priceRange: '$1M - $1.5M', beds: 1, sqft: '1,200-1,500', count: 12 },
-    { name: 'Garden Villa', priceRange: '$1.5M - $2.5M', beds: 2, sqft: '1,800-2,400', count: 16 },
-    { name: 'Estate Villa', priceRange: '$2.5M - $3M', beds: 3, sqft: '2,800-3,500', count: 8 },
+    { name: 'Studio Villa', priceRange: '$1M - $1.5M', beds: 1, sqft: '1,200-1,500', count: 16 },
+    { name: 'Garden Villa', priceRange: '$1.5M - $2.5M', beds: 2, sqft: '1,800-2,400', count: 22 },
+    { name: 'Estate Villa', priceRange: '$2.5M - $3M', beds: 3, sqft: '2,800-3,500', count: 10 },
   ],
   phasing: [
-    { year: 1, villasSold: 6, builtOperational: 4, salesRevenue: 12000000 },
-    { year: 2, villasSold: 10, builtOperational: 12, salesRevenue: 20000000 },
-    { year: 3, villasSold: 12, builtOperational: 24, salesRevenue: 24000000 },
-    { year: 4, villasSold: 8, builtOperational: 36, salesRevenue: 16000000 },
-    { year: 5, villasSold: 0, builtOperational: 36, salesRevenue: 0 },
+    { year: 1, villasSold: 8, builtOperational: 6, salesRevenue: 16000000 },
+    { year: 2, villasSold: 13, builtOperational: 16, salesRevenue: 26000000 },
+    { year: 3, villasSold: 16, builtOperational: 32, salesRevenue: 32000000 },
+    { year: 4, villasSold: 11, builtOperational: 48, salesRevenue: 22000000 },
+    { year: 5, villasSold: 0, builtOperational: 48, salesRevenue: 0 },
   ],
   buyerFundedConstruction: true,
   revenueSplit: { owner: 75, management: 25 },

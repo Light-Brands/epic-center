@@ -39,10 +39,10 @@ The development follows a **phased expansion model**: 15 casitas operational at 
 |--------|-------|
 | **Weighted Average Post-Money Valuation** | **$21,042,000** |
 | **Valuation Range (Low - High)** | **$13,545,000 - $31,806,000** |
-| **Total Capital Required** | $14,953,500 |
+| **Total Capital Required** | $16,823,500 |
 | **Pre-Money Valuation (Mid)** | $6,089,000 |
 | **Project IRR (with Exit, Base Case)** | 78% |
-| **5-Year MOIC (Base Case)** | 7.8x |
+| **5-Year MOIC (Base Case)** | 7.5x |
 | **Year 5 Enterprise Value (Base)** | $81,200,000 |
 | **5-Year Cumulative Net Income** | $45,102,667 |
 | **Break-Even Occupancy** | ~3% (25 guests/year) |
@@ -56,8 +56,8 @@ This is a rare asymmetric opportunity where:
 3. **~3% break-even occupancy** creates an enormous safety margin
 4. **Regulatory moat** in Mexico (ibogaine legal) provides first-mover advantage
 5. **Phased expansion** (30 to 60 casitas) doubles capacity funded from cash flow -- no dilution
-6. **$81.2M base-case enterprise value** at Year 5 exit represents 7.8x MOIC
-7. **Villa real estate opportunity** (36 villas, $72M total sales) provides additional upside not captured in the base case
+6. **$81.2M base-case enterprise value** at Year 5 exit represents 7.5x MOIC
+7. **Villa real estate opportunity** (48 villas, $96M total sales) provides additional upside not captured in the base case
 8. **Platform expansion potential** (multi-location) could push exit multiples from 4.0x to 8-16x EBITDA
 
 ---
@@ -102,7 +102,7 @@ A central feature of the financial model is the phased casita build-out, which a
 ### 2.3 Goals
 
 **Short-Term (2026-2027):**
-- Close seed round ($14.95M equity raise) -- Q1 2026
+- Close seed round ($16.82M equity raise) -- Q1 2026
 - Acquire Rancho Paraiso Oasis and complete medical conversion
 - Launch with 15 casitas, expand to 30 by end of Year 1
 - Achieve 60% occupancy (~387 guests) in Year 1
@@ -111,7 +111,7 @@ A central feature of the financial model is the phased casita build-out, which a
 
 **Long-Term (2028-2031):**
 - Complete campus expansion to 60 casitas by Year 5 (funded from cash flow)
-- Develop 36-villa condo-hotel collection ($72M total sales, buyer-funded construction)
+- Develop 48-villa condo-hotel collection ($96M total sales, buyer-funded construction)
 - Expand to 2-3 additional locations (Caribbean, Central America)
 - Build platform value to command 8-16x EBITDA exit multiples
 - Target $81.2M+ enterprise value at Year 5 exit
@@ -145,7 +145,7 @@ A central feature of the financial model is the phased casita build-out, which a
 | **Maintenance & Equipment** | $0 | ($400,000) | ($500,000) | ($600,000) | ($700,000) | ($2,200,000) |
 | **Free Cash Flow** | $3,204,403 | $5,209,605 | $8,786,962 | $11,029,817 | $12,492,595 | **$40,723,382** |
 
-**Payback period:** The initial $14.95M investment is fully recovered from cumulative free cash flow between Year 2 and Year 3 (approximately 2.7 years).
+**Payback period:** The initial $16.82M investment is fully recovered from cumulative free cash flow between Year 2 and Year 3 (approximately 2.7 years).
 
 ### 3.3 Occupancy & Capacity Assumptions
 
@@ -198,7 +198,7 @@ The valuation presented below is derived from the weighted average of nine indep
 
 ### Key Observation
 
-The weighted valuation of **$21.04M exceeds the total capital requirement of $14.95M by $6.09M**, demonstrating that the project creates significant intrinsic value above its cost basis. This premium reflects the value of the founders' contributions (opportunity identification, team assembly, protocol development, market knowledge, operational planning) and the substantial upside embedded in the phased expansion model.
+The weighted valuation of **$21.04M exceeds the total capital requirement of $16.82M by $6.09M**, demonstrating that the project creates significant intrinsic value above its cost basis. This premium reflects the value of the founders' contributions (opportunity identification, team assembly, protocol development, market knowledge, operational planning) and the substantial upside embedded in the phased expansion model.
 
 ---
 
@@ -208,7 +208,7 @@ The weighted valuation of **$21.04M exceeds the total capital requirement of $14
 
 | Component | Amount | Percentage |
 |-----------|--------|-----------|
-| Total Capital Required | $14,953,500 | 100% |
+| Total Capital Required | $16,823,500 | 100% |
 | Structure | All-Equity | -- |
 | Debt Financing | $0 | 0% |
 
@@ -216,12 +216,12 @@ The weighted valuation of **$21.04M exceeds the total capital requirement of $14
 
 ```
 Post-Money Valuation (Mid):     $21,042,000
-Capital Needed:                  $14,953,500
+Capital Needed:                  $16,823,500
 Pre-Money Valuation:             $6,088,500
 
-Investor Equity % (Mid):        $14,953,500 / $21,042,000 = 71.1%
-Investor Equity % (Low Bound):  $14,953,500 / $31,806,000 = 47.0%
-Investor Equity % (High Bound): $14,953,500 / $13,545,000 = 100%+ (overcapitalized)
+Investor Equity % (Mid):        $16,823,500 / $21,042,000 = 71.1%
+Investor Equity % (Low Bound):  $16,823,500 / $31,806,000 = 47.0%
+Investor Equity % (High Bound): $16,823,500 / $13,545,000 = 100%+ (overcapitalized)
 ```
 
 ### Recommended Deal Structure
@@ -233,21 +233,21 @@ Given this is a **real asset-backed development project** (not a pure software s
 | LP Investors | 80% | Capital providers |
 | GP / Founders | 20% | Development, operations, promote |
 
-**Rationale:** The 80/20 structure is standard for hospitality development projects where the GP contributes the deal, operational expertise, and sweat equity while LPs provide the capital. This aligns with the mid-point valuation ($21.04M post-money on $14.95M invested = ~29% founder value, with a promote structure bridging to the 20% GP allocation).
+**Rationale:** The 80/20 structure is standard for hospitality development projects where the GP contributes the deal, operational expertise, and sweat equity while LPs provide the capital. This aligns with the mid-point valuation ($21.04M post-money on $16.82M invested = ~29% founder value, with a promote structure bridging to the 20% GP allocation).
 
 ### Return Profile for Investors (at 80% Ownership)
 
 | Metric | Conservative | Base Case | Aggressive |
 |--------|-------------|-----------|-----------|
 | Year 5 Enterprise Value | $55,000,000 | $81,200,000 | $122,000,000 |
-| 5-Year MOIC | 5.5x | 7.8x | 10.0x |
+| 5-Year MOIC | 5.3x | 7.5x | 9.6x |
 | IRR (with Exit) | 66% | 78% | 87% |
 
 ---
 
 ## 6. USE OF FUNDS
 
-### Total Project Budget: $14,953,500
+### Total Project Budget: $16,823,500
 
 | Category | Amount | % of Total | Notes |
 |----------|--------|-----------|-------|
@@ -378,7 +378,7 @@ The Scorecard Method (Payne/Kauffman) assesses the value of early-stage ventures
 | **Competitive Environment** | 10% | 1.30 | Few medical-grade luxury competitors. Regulatory moat (ibogaine legal in Mexico). Most competitors operate at budget tier without ICU/monitoring. First-mover in premium clinical segment. | 0.130 |
 | **Strength & Protection of Product** | 15% | 1.30 | Proprietary clinical protocols, medical-grade facility (ICU, cardiac monitoring), bio-optimization integration unique in market. No patents, but strong operational moat. 60-80% efficacy is a powerful differentiator. | 0.195 |
 | **Strategic Relationships** | 10% | 1.10 | Medical partnerships developing, Galenia hospital relationship for emergencies, referral network being built, advisory board forming. Not yet fully mature. | 0.110 |
-| **Funding Required** | 10% | 0.80 | $14.95M is substantial for seed stage, though mitigated by real asset backing ($5.8M property provides downside floor). Clear, detailed use of funds with phased expansion de-risking. | 0.080 |
+| **Funding Required** | 10% | 0.80 | $16.82M is substantial for seed stage, though mitigated by real asset backing ($5.8M property provides downside floor). Clear, detailed use of funds with phased expansion de-risking. | 0.080 |
 | **TOTAL** | **100%** | | | **1.335** |
 
 **Scorecard Valuation:**
@@ -423,7 +423,7 @@ The Cost Approach estimates value based on the cost of reproducing or replacing 
 | Working Capital | $1,126,000 | 6.8% | Operating runway |
 | Technology & Pre-Opening | $200,000 | 1.2% | Licensing, training |
 | Contingency | $847,500 | 5.2% | Risk buffer |
-| **Subtotal: Tangible Assets** | **$14,953,500** | **90.9%** | |
+| **Subtotal: Tangible Assets** | **$16,823,500** | **90.9%** | |
 | Team Assembly & Expertise | $750,000 | 4.6% | Recruitment, retention, onboarding |
 | Market Research & Planning | $300,000 | 1.8% | Property identification, due diligence, financial modeling |
 | Protocol Development | $250,000 | 1.5% | Clinical protocols, integration programs |
@@ -447,7 +447,7 @@ The VC Method provides a valuation that ensures investors can achieve a predeter
 - Exit Year: Year 5
 - Required ROI: 35% (seed-stage medical/hospitality, single-asset, international)
 - Discount Factor: (1.35)^5 = 4.484
-- Capital Needed: $14,953,500
+- Capital Needed: $16,823,500
 
 **A) Revenue-Based VC Valuation (Weight: 7%)**
 
@@ -457,7 +457,7 @@ Revenue Multiple:    3.0x (hospitality/healthcare blend)
 Exit Value:          $102,000,000
 
 Post-Money = $102,000,000 / 4.484 = $22,747,000
-Pre-Money = $22,747,000 - $14,953,500 = $7,793,500
+Pre-Money = $22,747,000 - $16,823,500 = $7,793,500
 ```
 
 **Revenue VC Valuation: $22,747,000**
@@ -470,7 +470,7 @@ EBITDA Multiple:     5.5x (behavioral health benchmark for >$10M revenue)
 Exit Value:          $111,645,694
 
 Post-Money = $111,645,694 / 4.484 = $24,898,000
-Pre-Money = $24,898,000 - $14,953,500 = $9,944,500
+Pre-Money = $24,898,000 - $16,823,500 = $9,944,500
 ```
 
 **EBITDA VC Valuation: $24,898,000**
@@ -483,7 +483,7 @@ P/E Multiple:        8.0x
 Exit Value:          $107,363,616
 
 Post-Money = $107,363,616 / 4.484 = $23,943,000
-Pre-Money = $23,943,000 - $14,953,500 = $8,989,500
+Pre-Money = $23,943,000 - $16,823,500 = $8,989,500
 ```
 
 **Net Income VC Valuation: $23,943,000**
@@ -616,9 +616,9 @@ PV of Terminal = $111,645,694 / 4.484 = $24,898,024
 | Maintenance CapEx | $0 | ($250,000) | ($300,000) | ($350,000) | ($400,000) | ($1,300,000) |
 | Equipment Replacement | $0 | ($150,000) | ($200,000) | ($250,000) | ($300,000) | ($900,000) |
 | **Cash from Investing** | **($13,827,500)** | **($2,650,000)** | **($2,300,000)** | **($1,950,000)** | **($2,050,000)** | **($22,777,500)** |
-| Equity Investment | $14,953,500 | $0 | $0 | $0 | $0 | $14,953,500 |
+| Equity Investment | $16,823,500 | $0 | $0 | $0 | $0 | $16,823,500 |
 | Dividends | $0 | $0 | ($1,000,000) | ($2,000,000) | ($3,000,000) | ($6,000,000) |
-| **Cash from Financing** | **$14,953,500** | **$0** | **($1,000,000)** | **($2,000,000)** | **($3,000,000)** | **$8,953,500** |
+| **Cash from Financing** | **$16,823,500** | **$0** | **($1,000,000)** | **($2,000,000)** | **($3,000,000)** | **$8,953,500** |
 | **NET CASH FLOW** | **$4,330,403** | **$5,209,605** | **$7,786,962** | **$9,029,817** | **$9,492,595** | **$35,849,382** |
 | Ending Cash Balance | $4,330,403 | $9,540,008 | $17,326,970 | $26,356,787 | $35,849,382 | -- |
 
@@ -665,7 +665,7 @@ Based on a detailed analysis of Transformational Epicenter's market position, gr
 
 ### Valuation for Fundraising
 
-Transformational Epicenter is raising **$14,953,500** in an all-equity seed round. This capital funds a fully de-risked budget covering property acquisition ($6.15M), medical conversion ($4.05M), technology platform ($1.23M), equipment ($750K), FF&E ($600K), and operating reserves ($2.17M).
+Transformational Epicenter is raising **$16,823,500** in an all-equity seed round. This capital funds a fully de-risked budget covering property acquisition ($6.15M), medical conversion ($4.05M), technology platform ($1.23M), equipment ($750K), FF&E ($600K), and operating reserves ($2.17M).
 
 The raise is based on a post-money valuation of **$21,042,000**, derived from a 9-method weighted analysis following IPEV guidelines. The valuation range spans $13.5M (low) to $31.8M (high), with every method producing a positive value -- confirming the project's fundamental soundness.
 
@@ -679,11 +679,11 @@ The raise is based on a post-money valuation of **$21,042,000**, derived from a 
 
 4. **Exceptional LTV:CAC:** At 13.0x, the unit economics demonstrate powerful economic efficiency. Each $2,613 spent acquiring a customer generates $33,929 in lifetime value.
 
-5. **Cash Flow Velocity:** The $14.95M investment is recovered in approximately 2.7 years from free cash flow -- exceptionally fast for a real estate development project.
+5. **Cash Flow Velocity:** The $16.82M investment is recovered in approximately 2.7 years from free cash flow -- exceptionally fast for a real estate development project.
 
 6. **Built-In Growth Engine:** The phased casita expansion (30 to 60) doubles capacity without additional investor capital. Revenue grows from $10.3M to $34.0M as EBITDA margins expand from 42% to 60%.
 
-7. **Villa Real Estate Optionality:** A planned 36-villa condo-hotel collection ($72M total sales, buyer-funded construction) generates development fees (~$9M) and ongoing management fee income (~$1.3M/year) -- upside not captured in the base case.
+7. **Villa Real Estate Optionality:** A planned 48-villa condo-hotel collection ($96M total sales, buyer-funded construction) generates development fees (~$12M) and ongoing management fee income (~$1.7M/year) -- upside not captured in the base case.
 
 8. **Platform Optionality:** A single location commands 4.0x EBITDA at exit. Expanding to 2-3 locations could push multiples to 8-16x, representing enormous upside not captured in the base case.
 
@@ -691,9 +691,9 @@ The raise is based on a post-money valuation of **$21,042,000**, derived from a 
 
 | Scenario | 5-Year Enterprise Value | MOIC | IRR (with Exit) |
 |----------|------------------------|------|-----------------|
-| Conservative | $55,000,000 | 5.5x | 66% |
-| **Base Case** | **$81,200,000** | **7.8x** | **78%** |
-| Aggressive | $122,000,000 | 10.0x | 87% |
+| Conservative | $55,000,000 | 5.3x | 66% |
+| **Base Case** | **$81,200,000** | **7.5x** | **78%** |
+| Aggressive | $122,000,000 | 9.6x | 87% |
 
 ### 5-Year Enterprise Value Bridge (Base Case)
 
@@ -704,8 +704,8 @@ The raise is based on a post-money valuation of **$21,042,000**, derived from a 
 | **Operating Value** | **$81,197,000** | Year 5 EBITDA x 4.0x exit multiple |
 | Cumulative Cash Returns (Y1-Y5) | $35,440,000 | Operating cash flow net of expansion capex, reinvestment, and distributions |
 | **Total Value Created** | **$116,637,000** | Operating value + cumulative cash |
-| Capital Invested | $14,953,500 | All-equity seed round |
-| **5-Year MOIC** | **7.8x** | Total value created / capital invested |
+| Capital Invested | $16,823,500 | All-equity seed round |
+| **5-Year MOIC** | **7.5x** | Total value created / capital invested |
 
 > **Note:** The base case uses a conservative 4.0x single-location EBITDA exit multiple. Comparable behavioral health operators at scale command 5.5-6.0x, and multi-site platforms trade at 8-16x. Platform expansion represents significant upside not captured in the base case.
 
@@ -723,7 +723,7 @@ Transformational Epicenter's growth trajectory is driven by three engines:
 
 **1. Campus Expansion (30 to 60 Casitas):** Revenue grows 3.3x from Year 1 to Year 5 as capacity expands. EBITDA margins improve from 42% to 60% through operational leverage. This is funded entirely from operating cash flow.
 
-**2. Villa Real Estate ($72M):** A 36-villa condo-hotel collection generates buyer-funded development fees and recurring management income. This creates a separate profit center with minimal capital requirements.
+**2. Villa Real Estate ($96M):** A 48-villa condo-hotel collection generates buyer-funded development fees and recurring management income. This creates a separate profit center with minimal capital requirements.
 
 **3. Global Platform:** Once the Tulum playbook is proven, the model can be replicated to additional locations (Caribbean, Central America), fundamentally re-rating the exit multiple from single-location (4.0x) to platform level (8-16x).
 
@@ -761,9 +761,9 @@ The combination of a phased single-location expansion, villa real estate income,
 
 | Scenario | Probability | Y5 Revenue | Y5 EBITDA | MOIC |
 |----------|------------|-----------|----------|------|
-| Conservative | 25% | $27,200,000 | $14,960,000 | 5.5x |
-| **Base Case** | **50%** | **$34,000,000** | **$20,299,217** | **7.8x** |
-| Aggressive | 20% | $37,400,000 | $23,562,000 | 10.0x |
+| Conservative | 25% | $27,200,000 | $14,960,000 | 5.3x |
+| **Base Case** | **50%** | **$34,000,000** | **$20,299,217** | **7.5x** |
+| Aggressive | 20% | $37,400,000 | $23,562,000 | 9.6x |
 | Downside | 5% | $17,000,000 | $6,800,000 | 2.0x |
 | **Expected Value** | -- | **$32,130,000** | **$18,398,805** | **7.0x** |
 
@@ -773,7 +773,7 @@ The combination of a phased single-location expansion, villa real estate income,
 |-------------|-----------|---------|--------------|-------------|
 | -15% | $22,610 | $28,940,800 | ($5,059,200) | -1.3x |
 | -10% | $23,940 | $30,643,200 | ($3,356,800) | -0.9x |
-| **Base** | **$26,600** | **$34,000,000** | **$20,299,217** | **7.8x** |
+| **Base** | **$26,600** | **$34,000,000** | **$20,299,217** | **7.5x** |
 | +10% | $29,260 | $37,452,800 | +$3,452,800 | +0.9x |
 | +15% | $30,590 | $39,155,200 | +$5,155,200 | +1.3x |
 
@@ -837,28 +837,28 @@ The combination of a phased single-location expansion, villa real estate income,
 
 ### J. Villa Real Estate Opportunity (Additional Upside)
 
-The base case valuation does **not** include revenue from the planned 36-villa condo-hotel collection. This represents significant additional upside:
+The base case valuation does **not** include revenue from the planned 48-villa condo-hotel collection. This represents significant additional upside:
 
 | Metric | Value |
 |--------|-------|
-| Total villas planned | 36 |
+| Total villas planned | 48 |
 | Average price per villa | $2,000,000 |
-| Total sales revenue | $72,000,000 |
+| Total sales revenue | $96,000,000 |
 | Construction funding | Buyer-funded (deposits fund builds) |
-| Development/facilitation fee | 10-15% of sales (~$9M total) |
+| Development/facilitation fee | 10-15% of sales (~$12M total) |
 | Management fee rate | 25% of rental revenue |
-| Annual management fee income (at full ops) | ~$1,300,000/year |
+| Annual management fee income (at full ops) | ~$1,700,000/year |
 | Revenue split (owner/management) | 75% / 25% |
 
 **Villa Phasing:**
 
 | Year | Villas Sold | Built & Operational | Sales Revenue |
 |------|------------|-------------------|--------------|
-| 1 | 6 | 4 | $12,000,000 |
-| 2 | 10 | 12 | $20,000,000 |
-| 3 | 12 | 24 | $24,000,000 |
-| 4 | 8 | 36 | $16,000,000 |
-| 5 | 0 | 36 | $0 |
+| 1 | 8 | 6 | $16,000,000 |
+| 2 | 13 | 16 | $26,000,000 |
+| 3 | 16 | 32 | $32,000,000 |
+| 4 | 11 | 48 | $22,000,000 |
+| 5 | 0 | 48 | $0 |
 
 ### K. Market Research Sources
 

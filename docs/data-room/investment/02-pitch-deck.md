@@ -173,9 +173,9 @@ Longer programs deepen every dimension -- additional bio-optimization cycles, ex
 
 | Scenario | MOIC | IRR |
 |----------|------|-----|
-| Conservative | 5.5x | 66% |
-| **Base Case** | **7.8x** | **78%** |
-| Aggressive | 10.0x | 87% |
+| Conservative | 5.3x | 66% |
+| **Base Case** | **7.5x** | **78%** |
+| Aggressive | 9.6x | 87% |
 
 **Year 5 Enterprise Value (Base): $81,200,000**
 
@@ -195,7 +195,7 @@ Cash-flow positive from Year 1. Revenue grows 3.3x as capacity expands from 15 t
 | **Valuation Range** | $13,545,000 - $31,806,000 |
 | **Pre-Money Valuation** | $6,089,000 |
 
-Nine independent valuation methods -- including Scorecard, Checklist, Cost Approach, Venture Capital (3 variants), Tiered Revenue VC, and DCF (2 variants) -- all produce positive valuations. The weighted average exceeds the $14.95M capital requirement, confirming the project creates immediate intrinsic value above its cost basis.
+Nine independent valuation methods -- including Scorecard, Checklist, Cost Approach, Venture Capital (3 variants), Tiered Revenue VC, and DCF (2 variants) -- all produce positive valuations. The weighted average exceeds the $16.82M capital requirement, confirming the project creates immediate intrinsic value above its cost basis.
 
 Full methodology detailed in the IPEV-Compliant Valuation Report (Document 22).
 
@@ -203,7 +203,7 @@ Full methodology detailed in the IPEV-Compliant Valuation Report (Document 22).
 
 ## Slide 8b: Exit Strategy
 
-### Multiple pathways to liquidity with 7.8x base-case MOIC.
+### Multiple pathways to liquidity with 7.5x base-case MOIC.
 
 | Pathway | Timeline | Multiple | Probability |
 |---------|----------|----------|------------|
@@ -215,9 +215,9 @@ Full methodology detailed in the IPEV-Compliant Valuation Report (Document 22).
 
 | Scenario | MOIC | IRR |
 |----------|------|-----|
-| Conservative | 5.5x | 66% |
-| **Base Case** | **7.8x** | **78%** |
-| Aggressive | 10.0x | 87% |
+| Conservative | 5.3x | 66% |
+| **Base Case** | **7.5x** | **78%** |
+| Aggressive | 9.6x | 87% |
 
 A single location commands 4.0-6.0x EBITDA at exit. Multi-location platform expansion could push multiples to 8-16x -- a critical value creation lever not captured in the base case.
 
@@ -249,7 +249,7 @@ A single location commands 4.0-6.0x EBITDA at exit. Multi-location platform expa
 
 ## Slide 10: Investment Structure
 
-### $14,953,500 total capital required.
+### $16,823,500 total capital required.
 
 | Category | Amount | % |
 |----------|--------|---|
@@ -261,7 +261,7 @@ A single location commands 4.0-6.0x EBITDA at exit. Multi-location platform expa
 | Medical Equipment | $750,000 | 5.0% |
 | FF&E | $600,000 | 4.0% |
 | Pre-Opening | $200,000 | 1.3% |
-| **Total** | **$14,953,500** | **100%** |
+| **Total** | **$16,823,500** | **100%** |
 
 **68.2% of capital goes to hard assets** (property + renovation), creating tangible collateral. Technology platform ($1.23M) creates proprietary AI and data infrastructure.
 
@@ -385,7 +385,7 @@ Published clinical outcomes justify premium pricing and build institutional trus
 
 ## Slide 17: The Ask
 
-### $14,953,500 to build the category-defining facility.
+### $16,823,500 to build the category-defining facility.
 
 **What this capital buys:**
 
@@ -398,7 +398,7 @@ Published clinical outcomes justify premium pricing and build institutional trus
 **What this capital returns (base case):**
 
 - 78% IRR (with exit)
-- 7.8x MOIC over five years
+- 7.5x MOIC over five years
 - $120.7M in cumulative revenue from a single campus
 - $81.2M Year 5 enterprise value
 - $21.04M post-money valuation (IPEV 9-method weighted average)
