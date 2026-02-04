@@ -74,15 +74,9 @@ export function Header() {
   ]
 
   const toggleMobileSection = (title: string) => {
-    setExpandedMobileSections(prev => {
-      const next = new Set(prev)
-      if (next.has(title)) {
-        next.delete(title)
-      } else {
-        next.add(title)
-      }
-      return next
-    })
+    setExpandedMobileSections(prev =>
+      prev.has(title) ? new Set() : new Set([title])
+    )
   }
 
   useEffect(() => {
