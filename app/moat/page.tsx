@@ -472,7 +472,7 @@ export default function MoatPage() {
           </motion.div>
 
           <motion.div
-            className="grid md:grid-cols-2 lg:grid-cols-5 gap-6"
+            className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
@@ -488,42 +488,42 @@ export default function MoatPage() {
                   variants={scaleInVariants}
                   whileHover={{ y: -8, transition: { duration: 0.3, ease: [0.16, 1, 0.3, 1] } }}
                 >
-                  <Card padding="lg" className="h-full text-center group hover:shadow-xl transition-all duration-500 relative overflow-hidden">
+                  <Card padding="md" className="h-full text-center group hover:shadow-xl transition-all duration-500 relative overflow-hidden">
                     {/* Strength indicator bar */}
                     <div className={`absolute top-0 left-0 right-0 h-1 ${
-                      isHigh 
-                        ? 'bg-gradient-to-r from-success-500 to-success-600' 
+                      isHigh
+                        ? 'bg-gradient-to-r from-success-500 to-success-600'
                         : 'bg-gradient-to-r from-warning-500 to-warning-600'
                     }`} />
 
                     {/* Icon with glow */}
                     <motion.div
-                      className="relative mb-6"
+                      className="relative mb-4"
                       whileHover={{ scale: 1.1 }}
                       transition={{ type: "spring", stiffness: 400 }}
                     >
-                      <div className={`w-16 h-16 mx-auto rounded-2xl flex items-center justify-center ${
-                        isHigh 
-                          ? 'bg-success-100 group-hover:bg-success-200' 
+                      <div className={`w-12 h-12 mx-auto rounded-2xl flex items-center justify-center ${
+                        isHigh
+                          ? 'bg-success-100 group-hover:bg-success-200'
                           : 'bg-warning-100 group-hover:bg-warning-200'
                       } transition-colors duration-300`}>
-                        <BarrierIcon className={`w-8 h-8 ${
+                        <BarrierIcon className={`w-6 h-6 ${
                           isHigh ? 'text-success-600' : 'text-warning-600'
                         }`} />
                       </div>
                     </motion.div>
 
-                    <h4 className="font-heading text-lg text-neutral-900 mb-3 group-hover:text-primary-800 transition-colors">
+                    <h4 className="font-heading text-base xl:text-lg text-neutral-900 mb-2 group-hover:text-primary-800 transition-colors">
                       {barrier.barrier}
                     </h4>
-                    
-                    <p className="text-sm text-neutral-600 mb-4 leading-relaxed">
+
+                    <p className="text-xs xl:text-sm text-neutral-600 mb-3 leading-relaxed">
                       {barrier.description}
                     </p>
-                    
-                    <span className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold ${
-                      isHigh 
-                        ? 'bg-success-100 text-success-700 border border-success-200' 
+
+                    <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold ${
+                      isHigh
+                        ? 'bg-success-100 text-success-700 border border-success-200'
                         : 'bg-warning-100 text-warning-700 border border-warning-200'
                     }`}>
                       <Lock className="w-3 h-3" />
