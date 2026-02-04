@@ -9,7 +9,7 @@
 **Valuation Firm:** Internal Analysis (AI-Generated)
 **Methodology:** International Private Equity Valuation (IPEV) Guidelines
 **Subject Company:** Transformational Epicenter Holdings, LLC
-**Valuation Purpose:** Pre-Seed/Seed Investment Round
+**Valuation Purpose:** Enterprise Valuation Assessment
 
 ---
 
@@ -20,7 +20,7 @@
 3. [Data Summary](#3-data-summary)
 4. [Financial Projections Summary](#4-financial-projections-summary)
 5. [Valuation Synthesis](#5-valuation-synthesis)
-6. [Funding Round Details](#6-funding-round-details)
+6. [Capital Requirements](#6-capital-requirements)
 7. [Use of Funds Allocation](#7-use-of-funds-allocation)
 8. [Predictive Analysis](#8-predictive-analysis)
 9. [Qualitative Assessments](#9-qualitative-assessments)
@@ -38,18 +38,17 @@
 
 **Transformational Epicenter** is building the world's first luxury medical wellness destination that combines hospital-grade care, five-star hospitality, cutting-edge bio-optimization technology, and transformational medicine (including ibogaine protocols), a combination no competitor currently offers.
 
-### Investment Thesis
+### Value Thesis
 
-Based on a comprehensive 9-methodology valuation analysis following IPEV guidelines, **Transformational Epicenter** presents a compelling investment opportunity in the rapidly growing medical wellness and longevity sector.
+Based on a comprehensive 9-methodology valuation analysis following IPEV guidelines, **Transformational Epicenter** is positioned in the rapidly growing medical wellness and longevity sector.
 
-### Key Investment Highlights
+### Key Valuation Highlights
 
 | Metric | Value |
 |--------|-------|
 | **Pre-Money Valuation** | **$41,812,500** |
 | **Valuation Range** | $33,450,000 - $58,537,500 |
 | **Total Capital Required** | $32,950,750 |
-| **Equity Offered** | 44.06% (Dual Property) |
 | **5-Year IRR (Blended)** | 78% |
 | **5-Year Combined Revenue** | $94,451,829 |
 | **Year 5 EBITDA** | $9,794,655 |
@@ -287,9 +286,9 @@ The central valuation of **$41,812,500** is supported by:
 
 ---
 
-## 6. Funding Round Details
+## 6. Capital Requirements
 
-### 6.1 Capital Requirements
+### 6.1 Capital Budget
 
 **Total Capital Required: $32,950,750**
 
@@ -305,58 +304,6 @@ The central valuation of **$41,812,500** is supported by:
 | Working Capital | $1,700,000 | $1,000,000 | $2,700,000 |
 | Contingency (15%) | $1,377,750 | $1,005,000 | $2,382,750 |
 | **Total** | **$19,036,750** | **$13,914,000** | **$32,950,750** |
-
-### 6.2 Equity Dilution Analysis
-
-**At Central Valuation ($41,812,500):**
-
-| Metric | Value |
-|--------|-------|
-| Pre-Money Valuation | $41,812,500 |
-| Capital Required | $32,950,750 |
-| Post-Money Valuation | $74,763,250 |
-| **Investor Equity** | **44.06%** |
-| Founder Equity Retained | 55.94% |
-
-**Sensitivity Analysis:**
-
-| Valuation Scenario | Pre-Money | Post-Money | Investor % | Founder % |
-|--------------------|-----------|------------|------------|-----------|
-| Low ($33.45M) | $33,450,000 | $66,400,750 | 49.62% | 50.38% |
-| **Central ($41.81M)** | **$41,812,500** | **$74,763,250** | **44.06%** | **55.94%** |
-| High ($58.54M) | $58,537,500 | $91,488,250 | 36.02% | 63.98% |
-
-### 6.3 Investor Return Projections
-
-**5-Year Exit Scenario (5.5x EBITDA Multiple):**
-
-| Metric | Value |
-|--------|-------|
-| Year 5 EBITDA | $9,794,655 |
-| Exit Multiple | 5.5x |
-| Enterprise Value at Exit | $53,870,603 |
-| Less: Debt (assumed) | $0 |
-| Equity Value at Exit | $53,870,603 |
-| Investor Share (44.06%) | $23,735,379 |
-| Investor Capital | $32,950,750 |
-| **Investor Multiple** | **0.72x** |
-
-**Note:** The above shows equity-only return. Including operating cash flows distributed:
-
-| Return Component | Value |
-|------------------|-------|
-| 5-Year Net Income (Investor Share) | $8,958,459 |
-| Exit Proceeds (Investor Share) | $23,735,379 |
-| **Total Returns** | **$32,693,838** |
-| Capital Invested | $32,950,750 |
-| **Total MOIC** | **0.99x** |
-
-**Alternative Structure: Preferred Return + Exit**
-
-For attractive investor returns, we recommend structuring with:
-- 8% cumulative preferred return
-- 1.5x liquidation preference
-- Participation in upside above preference
 
 ---
 
@@ -733,7 +680,7 @@ Based on historical performance patterns from comparable facilities:
 | **Operating CF** | $1,200,382 | $3,794,327 | $5,214,007 | $5,831,190 | $6,170,089 |
 | CapEx | ($32,950,750) | ($500,000) | ($400,000) | ($350,000) | ($300,000) |
 | **Investing CF** | ($32,950,750) | ($500,000) | ($400,000) | ($350,000) | ($300,000) |
-| Equity Raised | $32,950,750 | $0 | $0 | $0 | $0 |
+| Capital Raised | $32,950,750 | $0 | $0 | $0 | $0 |
 | Debt Proceeds | $0 | $0 | $0 | $0 | $0 |
 | **Financing CF** | $32,950,750 | $0 | $0 | $0 | $0 |
 | **Net Cash Flow** | $1,200,382 | $3,294,327 | $4,814,007 | $5,481,190 | $5,870,089 |
@@ -796,14 +743,12 @@ Based on historical performance patterns from comparable facilities:
 |------|-------------|--------|------------|
 | Hospital Gap (Tulum) | Medium | High | $700K-1.5M medical infrastructure investment |
 | Regulatory Change | Low | Critical | Multi-jurisdiction strategy, protocol flexibility |
-| Key Personnel | Medium | High | Competitive compensation, equity vesting |
+| Key Personnel | Medium | High | Competitive compensation, retention incentives |
 | Competition | Low-Medium | Medium | First-mover advantage, talent lock-up |
 | Economic Downturn | Low | Medium | U-HNW clientele less affected |
 | Safety Incident | Low | Critical | Hospital-grade protocols, full insurance |
 
-### 13.4 Investment Recommendation
-
-**RECOMMENDATION: STRONG BUY**
+### 13.4 Valuation Assessment
 
 | Factor | Assessment |
 |--------|------------|
@@ -812,24 +757,7 @@ Based on historical performance patterns from comparable facilities:
 | Financial Returns | 78% blended IRR, 7.5x MOIC |
 | Asset Protection | $33M hard asset floor valuation |
 | Management Capability | Vision aligned with execution capability |
-| Risk/Reward | Asymmetric upside with asset-backed downside |
-
-### 13.5 Recommended Investment Structure
-
-**Optimal Capital Structure for $32.95M Raise:**
-
-| Tranche | Amount | Terms |
-|---------|--------|-------|
-| Series Seed Equity | $20.0M | Preferred, 8% cumulative, 1x liquidation preference |
-| Mezzanine Debt | $8.0M | 12% interest, 5-year term, property secured |
-| Strategic Investment | $5.0M | Revenue-share from specific programs |
-| **Total** | **$33.0M** | Blended cost of capital: ~15% |
-
-**This structure provides:**
-- Downside protection for equity investors
-- Current return through mezzanine interest
-- Alignment of strategic partners
-- Reduced dilution for founders
+| Risk/Reward Profile | Asymmetric upside with asset-backed downside |
 
 ---
 
@@ -917,12 +845,12 @@ Based on historical performance patterns from comparable facilities:
 | Date | January 25, 2026 |
 | Prepared By | AI Valuation Generator |
 | Reviewed By | Pending |
-| Classification | Confidential - Investor Materials |
+| Classification | Confidential |
 | Next Review | Upon material change or 90 days |
 
 ---
 
-*This valuation report is prepared following International Private Equity Valuation (IPEV) Guidelines and represents a good-faith estimate based on available information as of the valuation date. Actual results may vary materially from projections. This document does not constitute investment advice.*
+*This valuation report is prepared following International Private Equity Valuation (IPEV) Guidelines and represents a good-faith estimate based on available information as of the valuation date. Actual results may vary materially from projections.*
 
 ---
 
@@ -933,8 +861,6 @@ Based on historical performance patterns from comparable facilities:
 | **Pre-Money Valuation** | **$41,812,500** |
 | Valuation Range | $33.45M - $58.54M |
 | Capital Required | $32,950,750 |
-| Post-Money Valuation | $74,763,250 |
-| Investor Equity (at Central) | 44.06% |
 | 5-Year IRR | 78% |
 | 5-Year MOIC | 7.5x |
 | Year 5 Revenue | $23,157,598 |

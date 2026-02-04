@@ -9,7 +9,7 @@
 **Valuation Firm:** Internal Analysis (AI-Generated)
 **Methodology:** International Private Equity Valuation (IPEV) Guidelines
 **Subject Company:** Transformational Epicenter Holdings, LLC
-**Valuation Purpose:** Pre-Seed/Seed Investment Round
+**Valuation Purpose:** Enterprise Valuation Assessment
 
 ---
 
@@ -22,7 +22,7 @@ flowchart TB
         style V fill:#1a365d,stroke:#2c5282,stroke-width:3px,color:#fff
     end
 
-    subgraph METRICS["KEY INVESTMENT METRICS"]
+    subgraph METRICS["KEY VALUATION METRICS"]
         direction LR
         M1["💰 Capital Required<br/><b>$32.95M</b>"]
         M2["📊 5-Year IRR<br/><b>78%</b>"]
@@ -59,7 +59,7 @@ flowchart TB
 3. [Data Summary](#3-data-summary)
 4. [Financial Projections Summary](#4-financial-projections-summary)
 5. [Valuation Synthesis](#5-valuation-synthesis)
-6. [Funding Round Details](#6-funding-round-details)
+6. [Capital Requirements](#6-capital-requirements)
 7. [Use of Funds Allocation](#7-use-of-funds-allocation)
 8. [Predictive Analysis](#8-predictive-analysis)
 9. [Qualitative Assessments](#9-qualitative-assessments)
@@ -77,14 +77,14 @@ flowchart TB
 
 **Transformational Epicenter** is building the world's first luxury medical wellness destination that combines hospital-grade care, five-star hospitality, cutting-edge bio-optimization technology, and transformational medicine (including ibogaine protocols), a combination no competitor currently offers.
 
-### Investment Thesis
+### Value Thesis
 
-Based on a comprehensive 9-methodology valuation analysis following IPEV guidelines, **Transformational Epicenter** presents a compelling investment opportunity in the rapidly growing medical wellness and longevity sector.
+Based on a comprehensive 9-methodology valuation analysis following IPEV guidelines, **Transformational Epicenter** is positioned in the rapidly growing medical wellness and longevity sector.
 
 ```mermaid
 %%{init: {'theme': 'base'}}%%
 flowchart TB
-    subgraph THESIS["💡 INVESTMENT THESIS"]
+    subgraph THESIS["💡 VALUE THESIS"]
         direction TB
 
         PROBLEM["😔 <b>THE PROBLEM</b><br/>Fragmented wellness market lacks<br/>integrated medical-luxury-transformational offering"]
@@ -104,14 +104,13 @@ flowchart TB
     style RETURNS fill:#1a365d,stroke:#2c5282,stroke-width:2px,color:#fff
 ```
 
-### Key Investment Highlights
+### Key Valuation Highlights
 
 | Metric | Value |
 |--------|-------|
 | **Pre-Money Valuation** | **$41,812,500** |
 | **Valuation Range** | $33,450,000 - $58,537,500 |
 | **Total Capital Required** | $32,950,750 |
-| **Equity Offered** | 44.06% (Dual Property) |
 | **5-Year IRR (Blended)** | 78% |
 | **5-Year Combined Revenue** | $94,451,829 |
 | **Year 5 EBITDA** | $9,794,655 |
@@ -121,7 +120,7 @@ flowchart TB
 
 This valuation assumes acquisition of the **top 2 strategically recommended properties**:
 
-| Property | Role | Investment | IRR | Target Market |
+| Property | Role | Project Cost | IRR | Target Market |
 |----------|------|------------|-----|---------------|
 | **Hotel Alea Tulum** | HNW Flagship | $19,036,750 | 29.54% | High Net Worth |
 | **Hacienda Caracol** | U-HNW Boutique | $13,914,000 | 18.00% | Ultra High Net Worth |
@@ -288,7 +287,7 @@ flowchart TB
             A2["🛏️ 21 Rooms / 17 Treatment Beds"]
             A3["👥 310 Guests/Year Capacity"]
             A4["🎯 Target: HNW"]
-            A5["💰 $19.04M Investment"]
+            A5["💰 $19.04M Project Cost"]
             A6["📈 IRR: 29.54%"]
         end
 
@@ -297,7 +296,7 @@ flowchart TB
             C2["🛏️ 10 Rooms / 8 Treatment Beds"]
             C3["👥 146 Guests/Year Capacity"]
             C4["🎯 Target: U-HNW"]
-            C5["💰 $13.91M Investment"]
+            C5["💰 $13.91M Project Cost"]
             C6["📈 IRR: 18.00%"]
         end
 
@@ -473,11 +472,11 @@ flowchart LR
 | Year 5 | $3,578,625 | $2,286,067 | $5,864,692 | 25.3% |
 | **5-Year Total** | **$12,668,476** | **$7,663,984** | **$20,332,460** | 21.5% |
 
-### 4.4 Investment Return Summary
+### 4.4 Return Analysis
 
 | Metric | Hotel Alea | Hacienda Caracol | Combined |
 |--------|------------|------------------|----------|
-| Total Investment | $19,036,750 | $13,914,000 | $32,950,750 |
+| Total Capital Required | $19,036,750 | $13,914,000 | $32,950,750 |
 | 5-Year Revenue | $62,109,066 | $32,342,763 | $94,451,829 |
 | 5-Year EBITDA | $22,609,014 | $13,534,263 | $36,143,278 |
 | 5-Year Net Income | $12,668,476 | $7,663,984 | $20,332,460 |
@@ -489,10 +488,10 @@ flowchart LR
 ```mermaid
 %%{init: {'theme': 'base'}}%%
 flowchart TB
-    subgraph RETURNS["💎 INVESTMENT TO EXIT VALUE CREATION"]
+    subgraph RETURNS["💎 CAPITAL TO VALUE CREATION"]
         direction TB
 
-        INV["💰 <b>TOTAL INVESTMENT</b><br/>$32.95M"]
+        INV["💰 <b>TOTAL CAPITAL</b><br/>$32.95M"]
 
         subgraph OPS["5-YEAR OPERATIONS"]
             direction LR
@@ -511,12 +510,12 @@ flowchart TB
 
         OPS --> EXIT
 
-        subgraph INVESTOR["INVESTOR RETURNS"]
+        subgraph PERF["PERFORMANCE METRICS"]
             IRR["📈 IRR: 78%"]
             MOIC["🔄 MOIC: 7.5x"]
         end
 
-        EXIT --> INVESTOR
+        EXIT --> PERF
     end
 
     style INV fill:#2c5282,stroke:#1a365d,stroke-width:2px,color:#fff
@@ -643,9 +642,9 @@ The central valuation of **$41,812,500** is supported by:
 
 ---
 
-## 6. Funding Round Details
+## 6. Capital Requirements
 
-### 6.1 Capital Requirements
+### 6.1 Capital Budget
 
 **Total Capital Required: $32,950,750**
 
@@ -674,98 +673,6 @@ pie showData title Use of Funds Allocation ($32.95M)
     "Pre-Opening (2.9%)" : 965000
     "Technology (2.0%)" : 670000
 ```
-
-### 6.2 Equity Dilution Analysis
-
-**At Central Valuation ($41,812,500):**
-
-| Metric | Value |
-|--------|-------|
-| Pre-Money Valuation | $41,812,500 |
-| Capital Required | $32,950,750 |
-| Post-Money Valuation | $74,763,250 |
-| **Investor Equity** | **44.06%** |
-| Founder Equity Retained | 55.94% |
-
-**Sensitivity Analysis:**
-
-| Valuation Scenario | Pre-Money | Post-Money | Investor % | Founder % |
-|--------------------|-----------|------------|------------|-----------|
-| Low ($33.45M) | $33,450,000 | $66,400,750 | 49.62% | 50.38% |
-| **Central ($41.81M)** | **$41,812,500** | **$74,763,250** | **44.06%** | **55.94%** |
-| High ($58.54M) | $58,537,500 | $91,488,250 | 36.02% | 63.98% |
-
-```mermaid
-%%{init: {'theme': 'base'}}%%
-flowchart TB
-    subgraph DILUTION["📊 EQUITY DILUTION BY VALUATION SCENARIO"]
-        direction TB
-
-        subgraph LOW["🔻 LOW SCENARIO ($33.45M)"]
-            direction LR
-            LI["Investor<br/>49.62%"]
-            LF["Founder<br/>50.38%"]
-        end
-
-        subgraph CENTRAL["⭐ CENTRAL SCENARIO ($41.81M)"]
-            direction LR
-            CI["Investor<br/><b>44.06%</b>"]
-            CF["Founder<br/><b>55.94%</b>"]
-        end
-
-        subgraph HIGH["🔺 HIGH SCENARIO ($58.54M)"]
-            direction LR
-            HI["Investor<br/>36.02%"]
-            HF["Founder<br/>63.98%"]
-        end
-    end
-
-    style LI fill:#fed7d7,stroke:#c53030
-    style LF fill:#fed7d7,stroke:#c53030
-    style CI fill:#c6f6d5,stroke:#276749,stroke-width:2px
-    style CF fill:#c6f6d5,stroke:#276749,stroke-width:2px
-    style HI fill:#bee3f8,stroke:#2b6cb0
-    style HF fill:#bee3f8,stroke:#2b6cb0
-```
-
-```mermaid
-%%{init: {'theme': 'base'}}%%
-pie showData title Post-Money Ownership (Central Valuation)
-    "Founder Equity (55.94%)" : 55.94
-    "Investor Equity (44.06%)" : 44.06
-```
-
-### 6.3 Investor Return Projections
-
-**5-Year Exit Scenario (5.5x EBITDA Multiple):**
-
-| Metric | Value |
-|--------|-------|
-| Year 5 EBITDA | $9,794,655 |
-| Exit Multiple | 5.5x |
-| Enterprise Value at Exit | $53,870,603 |
-| Less: Debt (assumed) | $0 |
-| Equity Value at Exit | $53,870,603 |
-| Investor Share (44.06%) | $23,735,379 |
-| Investor Capital | $32,950,750 |
-| **Investor Multiple** | **0.72x** |
-
-**Note:** The above shows equity-only return. Including operating cash flows distributed:
-
-| Return Component | Value |
-|------------------|-------|
-| 5-Year Net Income (Investor Share) | $8,958,459 |
-| Exit Proceeds (Investor Share) | $23,735,379 |
-| **Total Returns** | **$32,693,838** |
-| Capital Invested | $32,950,750 |
-| **Total MOIC** | **0.99x** |
-
-**Alternative Structure: Preferred Return + Exit**
-
-For attractive investor returns, we recommend structuring with:
-- 8% cumulative preferred return
-- 1.5x liquidation preference
-- Participation in upside above preference
 
 ---
 
@@ -1017,7 +924,7 @@ flowchart TB
 | **Product/Technology** | 15% | 1.3x | 0.195 |
 | **Competitive Environment** | 10% | 1.6x | 0.16 |
 | **Marketing/Sales Channels** | 10% | 1.2x | 0.12 |
-| **Need for Additional Investment** | 5% | 0.9x | 0.045 |
+| **Capital Requirements** | 5% | 0.9x | 0.045 |
 | **Other Factors** | 5% | 1.2x | 0.06 |
 | **Total Score** | 100% | - | **1.55x** |
 
@@ -1070,7 +977,7 @@ flowchart TB
 - **Product (1.3x):** Unique integration, but execution still required
 - **Competition (1.6x):** No direct competitor offers complete integration
 - **Marketing (1.2x):** Word-of-mouth strategy, referral-based, proven in sector
-- **Investment Need (0.9x):** Significant capital requirement creates some risk
+- **Capital Requirements (0.9x):** Significant capital requirement creates some risk
 - **Other (1.2x):** Location (Mexico) offers legal clarity for plant medicine
 
 ### 9.2 Checklist Method
@@ -1317,7 +1224,7 @@ flowchart TB
 
         subgraph CASHFLOWS["FREE CASH FLOW PROJECTIONS"]
             direction LR
-            Y1["Year 1<br/>-$31.0M<br/><i>Investment</i>"]
+            Y1["Year 1<br/>-$31.0M<br/><i>Capital Outlay</i>"]
             Y2["Year 2<br/>+$5.5M"]
             Y3["Year 3<br/>+$7.9M"]
             Y4["Year 4<br/>+$8.9M"]
@@ -1432,7 +1339,7 @@ flowchart TB
 | **Operating CF** | $1,200,382 | $3,794,327 | $5,214,007 | $5,831,190 | $6,170,089 |
 | CapEx | ($32,950,750) | ($500,000) | ($400,000) | ($350,000) | ($300,000) |
 | **Investing CF** | ($32,950,750) | ($500,000) | ($400,000) | ($350,000) | ($300,000) |
-| Equity Raised | $32,950,750 | $0 | $0 | $0 | $0 |
+| Capital Raised | $32,950,750 | $0 | $0 | $0 | $0 |
 | Debt Proceeds | $0 | $0 | $0 | $0 | $0 |
 | **Financing CF** | $32,950,750 | $0 | $0 | $0 | $0 |
 | **Net Cash Flow** | $1,200,382 | $3,294,327 | $4,814,007 | $5,481,190 | $5,870,089 |
@@ -1606,7 +1513,7 @@ flowchart LR
 |------|-------------|--------|------------|
 | Hospital Gap (Tulum) | Medium | High | $700K-1.5M medical infrastructure investment |
 | Regulatory Change | Low | Critical | Multi-jurisdiction strategy, protocol flexibility |
-| Key Personnel | Medium | High | Competitive compensation, equity vesting |
+| Key Personnel | Medium | High | Competitive compensation, retention incentives |
 | Competition | Low-Medium | Medium | First-mover advantage, talent lock-up |
 | Economic Downturn | Low | Medium | U-HNW clientele less affected |
 | Safety Incident | Low | Critical | Hospital-grade protocols, full insurance |
@@ -1624,7 +1531,7 @@ flowchart TB
 
         subgraph HIGH["🟠 HIGH IMPACT"]
             R3["Hospital Gap<br/>Medium Probability<br/><i>$700K-1.5M investment</i>"]
-            R4["Key Personnel<br/>Medium Probability<br/><i>Equity vesting</i>"]
+            R4["Key Personnel<br/>Medium Probability<br/><i>Retention incentives</i>"]
         end
 
         subgraph MEDIUM["🟡 MEDIUM IMPACT"]
@@ -1648,9 +1555,7 @@ flowchart TB
     style MITIGATION fill:#c6f6d5,stroke:#276749,stroke-width:2px
 ```
 
-### 13.4 Investment Recommendation
-
-**RECOMMENDATION: STRONG BUY**
+### 13.4 Valuation Assessment
 
 | Factor | Assessment |
 |--------|------------|
@@ -1659,15 +1564,15 @@ flowchart TB
 | Financial Returns | 78% blended IRR, 7.5x MOIC |
 | Asset Protection | $33M hard asset floor valuation |
 | Management Capability | Vision aligned with execution capability |
-| Risk/Reward | Asymmetric upside with asset-backed downside |
+| Risk/Reward Profile | Asymmetric upside with asset-backed downside |
 
 ```mermaid
 %%{init: {'theme': 'base'}}%%
 flowchart TB
-    subgraph RECOMMENDATION["💎 INVESTMENT RECOMMENDATION: STRONG BUY"]
+    subgraph ASSESSMENT["💎 VALUATION ASSESSMENT"]
         direction TB
 
-        subgraph FACTORS["KEY INVESTMENT FACTORS"]
+        subgraph FACTORS["KEY VALUATION FACTORS"]
             direction LR
             F1["🌍 <b>Market</b><br/>$1T+ TAM<br/>Category Creation"]
             F2["🏰 <b>Position</b><br/>Unique Integration<br/>No Competitors"]
@@ -1681,7 +1586,7 @@ flowchart TB
             P3["⚖️ <b>Risk/Reward</b><br/>Asymmetric Upside"]
         end
 
-        VERDICT["⭐⭐⭐⭐⭐<br/><b>STRONG BUY</b><br/>Compelling Risk-Adjusted Returns"]
+        VERDICT["⭐⭐⭐⭐⭐<br/><b>STRONG FUNDAMENTALS</b><br/>Compelling Risk-Adjusted Profile"]
 
         FACTORS --> VERDICT
         PROTECTION --> VERDICT
@@ -1695,55 +1600,6 @@ flowchart TB
     style P3 fill:#ebf8ff,stroke:#2c5282
     style VERDICT fill:#276749,stroke:#1a365d,stroke-width:3px,color:#fff
 ```
-
-### 13.5 Recommended Investment Structure
-
-**Optimal Capital Structure for $32.95M Raise:**
-
-| Tranche | Amount | Terms |
-|---------|--------|-------|
-| Series Seed Equity | $20.0M | Preferred, 8% cumulative, 1x liquidation preference |
-| Mezzanine Debt | $8.0M | 12% interest, 5-year term, property secured |
-| Strategic Investment | $5.0M | Revenue-share from specific programs |
-| **Total** | **$33.0M** | Blended cost of capital: ~15% |
-
-```mermaid
-%%{init: {'theme': 'base'}}%%
-flowchart TB
-    subgraph CAPITAL["💰 RECOMMENDED CAPITAL STACK ($33M)"]
-        direction TB
-
-        subgraph STACK["CAPITAL STRUCTURE"]
-            direction TB
-            EQUITY["📊 <b>SERIES SEED EQUITY</b><br/>$20.0M (61%)<br/>Preferred, 8% cumulative<br/>1x liquidation preference"]
-            MEZZ["🏦 <b>MEZZANINE DEBT</b><br/>$8.0M (24%)<br/>12% interest, 5-year term<br/>Property secured"]
-            STRATEGIC["🤝 <b>STRATEGIC INVESTMENT</b><br/>$5.0M (15%)<br/>Revenue-share model<br/>Program-specific"]
-        end
-
-        TOTAL["💎 <b>TOTAL RAISE: $33.0M</b><br/>Blended Cost: ~15%"]
-
-        EQUITY --> MEZZ --> STRATEGIC --> TOTAL
-    end
-
-    style EQUITY fill:#2c5282,stroke:#1a365d,stroke-width:2px,color:#fff
-    style MEZZ fill:#38a169,stroke:#276749,stroke-width:2px,color:#fff
-    style STRATEGIC fill:#805ad5,stroke:#553c9a,stroke-width:2px,color:#fff
-    style TOTAL fill:#1a365d,stroke:#2c5282,stroke-width:3px,color:#fff
-```
-
-```mermaid
-%%{init: {'theme': 'base'}}%%
-pie showData title Capital Stack Composition
-    "Series Seed Equity (61%)" : 20
-    "Mezzanine Debt (24%)" : 8
-    "Strategic Investment (15%)" : 5
-```
-
-**This structure provides:**
-- Downside protection for equity investors
-- Current return through mezzanine interest
-- Alignment of strategic partners
-- Reduced dilution for founders
 
 ---
 
@@ -1860,35 +1716,29 @@ flowchart TB
 | Date | January 25, 2026 |
 | Prepared By | AI Valuation Generator |
 | Reviewed By | Pending |
-| Classification | Confidential - Investor Materials |
+| Classification | Confidential |
 | Next Review | Upon material change or 90 days |
 
 ---
 
-*This valuation report is prepared following International Private Equity Valuation (IPEV) Guidelines and represents a good-faith estimate based on available information as of the valuation date. Actual results may vary materially from projections. This document does not constitute investment advice.*
+*This valuation report is prepared following International Private Equity Valuation (IPEV) Guidelines and represents a good-faith estimate based on available information as of the valuation date. Actual results may vary materially from projections.*
 
 ---
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#1a365d', 'primaryTextColor': '#fff'}}}%%
 flowchart TB
-    subgraph FINAL["🌟 TRANSFORMATIONAL EPICENTER - INVESTMENT SUMMARY"]
+    subgraph FINAL["🌟 TRANSFORMATIONAL EPICENTER - VALUATION SUMMARY"]
         direction TB
 
         subgraph VALUE["💎 VALUATION"]
             direction LR
             PRE["<b>PRE-MONEY</b><br/>$41.81M"]
-            POST["<b>POST-MONEY</b><br/>$74.76M"]
             RANGE["<b>RANGE</b><br/>$33.45M - $58.54M"]
+            CAP["<b>CAPITAL REQUIRED</b><br/>$32.95M"]
         end
 
-        subgraph DEAL["📋 DEAL TERMS"]
-            direction LR
-            CAP["<b>CAPITAL</b><br/>$32.95M"]
-            EQ["<b>EQUITY</b><br/>44.06%"]
-        end
-
-        subgraph RETURNS["📈 INVESTOR RETURNS"]
+        subgraph PERF["📈 PERFORMANCE METRICS"]
             direction LR
             IRR["<b>IRR</b><br/>78%"]
             MOIC["<b>MOIC</b><br/>7.5x"]
@@ -1901,7 +1751,7 @@ flowchart TB
             MARGIN["<b>MARGIN</b><br/>42.3%"]
         end
 
-        VALUE --> DEAL --> RETURNS --> OPERATIONS
+        VALUE --> PERF --> OPERATIONS
 
         CTA["🚀 <b>CATEGORY-DEFINING OPPORTUNITY</b><br/>First-Mover in $1T+ Market<br/>Luxury Medical Wellness + Plant Medicine Integration"]
 
@@ -1909,10 +1759,8 @@ flowchart TB
     end
 
     style PRE fill:#2c5282,stroke:#1a365d,color:#fff
-    style POST fill:#2c5282,stroke:#1a365d,color:#fff
     style RANGE fill:#4a5568,stroke:#2d3748,color:#fff
     style CAP fill:#38a169,stroke:#276749,color:#fff
-    style EQ fill:#38a169,stroke:#276749,color:#fff
     style IRR fill:#d69e2e,stroke:#b7791f,color:#fff
     style MOIC fill:#d69e2e,stroke:#b7791f,color:#fff
     style REV fill:#805ad5,stroke:#553c9a,color:#fff
@@ -1928,8 +1776,6 @@ flowchart TB
 | **Pre-Money Valuation** | **$41,812,500** |
 | Valuation Range | $33.45M - $58.54M |
 | Capital Required | $32,950,750 |
-| Post-Money Valuation | $74,763,250 |
-| Investor Equity (at Central) | 44.06% |
 | 5-Year IRR | 78% |
 | 5-Year MOIC | 7.5x |
 | Year 5 Revenue | $23,157,598 |
