@@ -141,8 +141,8 @@ Guests do not pay $14,000-$56,000 for any single modality. They pay for the inte
 | **Total Area** | 45,000 m2 |
 | **Casita Count** | 60 casitas (phased: 15 at launch → 60 over 5 years) |
 | **Evaluation Score** | 88/100 |
-| **Acquisition Cost** | $6,150,000 |
-| **Renovation Budget** | $4,050,000 |
+| **Acquisition Cost** | $11,900,000 |
+| **Renovation Budget** | $1,000,000 |
 
 **Why This Property:**
 
@@ -166,16 +166,16 @@ Guests do not pay $14,000-$56,000 for any single modality. They pay for the inte
 | Metric | Value |
 |--------|-------|
 | **Total Capital Required** | $16,823,500 |
-| **Acquisition** | $6,150,000 |
-| **Renovation** | $4,050,000 |
-| **Technology Platform** | $1,230,000 |
-| **Year 1 Revenue** | $10,300,000 |
-| **Year 1 Net Income** | $2,537,260 |
-| **Year 5 Revenue** | $34,000,000 |
-| **5-Year Total Revenue** | $120,700,000 |
-| **5-Year Net Income** | $45,102,667 |
-| **5-Year EBITDA** | $69,048,096 |
-| **EBITDA Margins** | 42-60% (expanding with scale) |
+| **Acquisition** | $11,900,000 |
+| **Renovation** | $1,000,000 |
+| **Technology** | $750,000 |
+| **Year 1 Revenue** | $10,748,000 |
+| **Year 1 Net Income** | $2,796,400 |
+| **Year 5 Revenue** | $35,461,000 |
+| **5-Year Total Revenue** | $125,880,000 |
+| **5-Year Net Income** | $48,109,937 |
+| **5-Year EBITDA** | $73,344,196 |
+| **EBITDA Margins** | 43-61% (expanding with scale) |
 | **Gross Margin** | 83% |
 | **5-Year Free Cash Flow** | $40,723,382 |
 | **Break-Even** | ~25 guests/year (~3% occupancy) |
@@ -197,7 +197,7 @@ Guests do not pay $14,000-$56,000 for any single modality. They pay for the inte
 | **Base Case** | **7.5x** | **78%** |
 | **Aggressive** | 9.6x | 87% |
 
-**Year 5 Enterprise Value (Base Case): $81,200,000**
+**Year 5 Enterprise Value (Base Case): ~$147,000,000**
 
 ### Key Unit Economics
 
@@ -208,7 +208,7 @@ Guests do not pay $14,000-$56,000 for any single modality. They pay for the inte
 | **Gross Margin per Guest** | 83% |
 | **Average Daily Rate (ADR)** | $2,000/night |
 
-Even the conservative exit scenario delivers a 66% IRR and 5.3x MOIC over five years. The financial model is resilient because premium pricing, 83% gross margins, and expanding EBITDA margins (42%→60%) provide substantial buffer against occupancy shortfalls. The break-even at just ~3% occupancy (~25 guests/year) represents an extraordinary safety margin against the base case projection of 387 guests in Year 1.
+Even the conservative exit scenario delivers a 66% IRR and 5.3x MOIC over five years. The financial model is resilient because premium pricing, 83% gross margins, and expanding EBITDA margins (43%→61%) provide substantial buffer against occupancy shortfalls. The break-even at just ~3% occupancy (~25 guests/year) represents an extraordinary safety margin against the base case projection of 387 guests in Year 1.
 
 ---
 
@@ -236,7 +236,7 @@ The full valuation methodology is detailed in the IPEV-Compliant Valuation Repor
 | **Private Equity Acquisition** | Year 4-6 | 5.5-8x EBITDA | Secondary |
 | **Platform Expansion + Premium Exit** | Year 5-8 | 8-16x EBITDA | Highest Value |
 
-Year 5 Enterprise Value of $81.2M in the base case, driven by expanding EBITDA margins and the phased casita growth model. A single location commands 4.0-6.0x EBITDA at exit. Expanding to a multi-location platform could push multiples to 8-16x, representing significant upside beyond the base case.
+Year 5 Enterprise Value of ~$147M in the base case, driven by expanding EBITDA margins and the phased casita growth model. A single location commands 4.0-6.0x EBITDA at exit. Expanding to a multi-location platform could push multiples to 8-16x, representing significant upside beyond the base case.
 
 ---
 
@@ -370,17 +370,16 @@ TE measures and publishes clinical outcomes -- addiction interruption rates, dep
 
 | Category | Amount | % of Total |
 |----------|--------|-----------|
-| **Property Acquisition** | $6,150,000 | 41.1% |
-| **Renovation & Conversion** | $4,050,000 | 27.1% |
-| **Technology Platform** | $1,230,000 | 8.2% |
-| **Working Capital** | $1,126,000 | 7.5% |
-| **Contingency** | $847,500 | 5.7% |
-| **Medical Equipment** | $750,000 | 5.0% |
-| **FF&E** | $600,000 | 4.0% |
-| **Pre-Opening** | $200,000 | 1.3% |
+| **Property Acquisition** | $11,900,000 | 70.7% |
+| **Working Capital** | $1,126,000 | 6.7% |
+| **Renovation & Conversion** | $1,000,000 | 5.9% |
+| **Medical + Biohacking** | $1,000,000 | 5.9% |
+| **Contingency** | $847,500 | 5.0% |
+| **Technology** | $750,000 | 4.5% |
+| **Pre-Opening** | $200,000 | 1.2% |
 | **Total** | **$16,823,500** | **100.0%** |
 
-The largest allocation (68.2%) goes to the physical asset -- property acquisition and renovation. This creates tangible collateral backing the investment. The $1,230,000 technology platform investment ($1M AI clinical platform + $230K physical infrastructure) creates a proprietary data moat. Medical equipment and technology together represent 13.2% of total capital, establishing the clinical and data infrastructure that drives differentiation. The remaining 18.5% funds working capital, contingency, FF&E, and pre-opening costs to reach cash-flow positive operations.
+The largest allocation (76.6%) goes to the physical asset -- property acquisition, renovation, and medical equipment. This creates tangible collateral backing the investment. The $750,000 technology investment creates a proprietary data moat. The remaining 17.9% funds working capital, contingency, and pre-opening costs to reach cash-flow positive operations.
 
 ---
 
@@ -388,17 +387,17 @@ The largest allocation (68.2%) goes to the physical asset -- property acquisitio
 
 | Year | Casitas | Occupancy | Revenue | EBITDA | Net Income | Cumulative Revenue |
 |------|---------|-----------|---------|--------|------------|-------------------|
-| Year 1 | 15→30 | 60% | $10,300,000 | $4,301,800 | $2,537,260 | $10,300,000 |
-| Year 2 | 30→40 | 75% | $19,600,000 | $10,902,089 | $7,052,462 | $29,900,000 |
-| Year 3 | 40→48 | 80% | $26,300,000 | $15,439,741 | $10,144,819 | $56,200,000 |
-| Year 4 | 48→54 | 80% | $30,500,000 | $18,105,249 | $11,947,674 | $86,700,000 |
-| Year 5 | 54→60 | 80% | $34,000,000 | $20,299,217 | $13,420,452 | $120,700,000 |
+| Year 1 | 15→30 | 60% | $10,748,000 | $4,672,000 | $2,796,400 | $10,748,000 |
+| Year 2 | 30→40 | 75% | $20,440,000 | $11,599,089 | $7,540,362 | $31,188,000 |
+| Year 3 | 40→48 | 80% | $27,426,000 | $16,372,641 | $10,797,849 | $58,614,000 |
+| Year 4 | 48→54 | 80% | $31,805,000 | $19,188,249 | $12,705,774 | $90,419,000 |
+| Year 5 | 54→60 | 80% | $35,461,000 | $21,512,217 | $14,269,552 | $125,880,000 |
 
 **Key observations:**
 
-- Revenue grows 3.3x from $10.3M to $34.0M driven by the dual engine of capacity expansion (15→60 casitas) and occupancy ramp (60%→80%)
-- The business generates positive net income from Year 1 due to 83% gross margins, with EBITDA margins expanding from 42% to 60%
-- Five-year cumulative revenue of $120.7M from a single campus demonstrates the power of phased expansion funded from operating cash flow
+- Revenue grows 3.3x from $10.7M to $35.5M driven by the dual engine of capacity expansion (15→60 casitas) and occupancy ramp (60%→80%)
+- The business generates positive net income from Year 1 due to 83% gross margins, with EBITDA margins expanding from 43% to 61%
+- Five-year cumulative revenue of $125.9M from a single campus demonstrates the power of phased expansion funded from operating cash flow
 - Conservative revenue estimates assume no price increases over the five-year period; actual ADR growth would further improve returns
 - Expansion beyond Year 1 (30→60 casitas) requires no additional equity raise -- funded entirely from operating cash flow
 
@@ -446,7 +445,7 @@ Dependence on founding team for vision execution and clinical protocol developme
 
 **Total Capital Required: $16,823,500**
 
-This capital fully funds property acquisition, renovation, medical equipment, technology platform ($1.23M AI + physical infrastructure), pre-opening operations, and working capital through cash-flow positive operations.
+This capital fully funds property acquisition ($11.9M), renovation, medical + biohacking equipment, technology, pre-opening operations, and working capital through cash-flow positive operations.
 
 The investment funds a single-property proof of concept that demonstrates the unit economics, clinical outcomes, and market demand for the integrated model. Successful execution of Property 1 establishes the template for multi-property expansion across jurisdictions identified in the TE Global Expansion Strategy.
 

@@ -39,10 +39,10 @@ The Transformational Epicenter five-year financial model projects strong revenue
 | Metric | Value |
 |--------|-------|
 | **Total Project Cost** | **$16,823,500** |
-| **Year 1 Revenue** | **$10,300,000** |
-| **Year 5 Revenue** | **$34,000,000** |
-| **5-Year Total Revenue** | **$120,700,000** |
-| **Year 5 Enterprise Value (Base)** | **$81,200,000** |
+| **Year 1 Revenue** | **$10,748,000** |
+| **Year 5 Revenue** | **$35,461,000** |
+| **5-Year Total Revenue** | **$125,880,000** |
+| **Year 5 Enterprise Value (Base)** | **~$147,000,000** |
 | **Project IRR (Base Case, with Exit)** | **78%** |
 | **5-Year MOIC (incl. Exit)** | **7.5x** |
 
@@ -50,8 +50,8 @@ The Transformational Epicenter five-year financial model projects strong revenue
 
 - **High-margin revenue model** with 83% gross margins sustained across all five years, driven by premium pricing of $2,000/day and efficient direct cost structure
 - **Phased expansion model** from 15 casitas at launch to 60 casitas by Year 5 -- expansion beyond Year 1 is funded entirely from operating cash flow, requiring no additional equity raise
-- **Revenue grows 3.3x** from $10.3M (Year 1) to $34.0M (Year 5) as both capacity and occupancy increase
-- **EBITDA margins expand** from 42% in Year 1 to 60% at maturity, demonstrating powerful operational leverage as fixed costs are spread across a growing revenue base
+- **Revenue grows 3.3x** from $10.7M (Year 1) to $35.5M (Year 5) as both capacity and occupancy increase
+- **EBITDA margins expand** from 43% in Year 1 to 61% at maturity, demonstrating powerful operational leverage as fixed costs are spread across a growing revenue base
 - **Defensible economics** supported by a break-even occupancy of ~3% (25 guests/year), providing an enormous safety margin
 
 ---
@@ -63,17 +63,17 @@ Three scenarios model the range of expected outcomes based on occupancy rates, r
 | Metric | Base Case | Conservative | Aggressive |
 |--------|-----------|--------------|------------|
 | **Total Project Cost** | $16,823,500 | $16,823,500 | $16,823,500 |
-| **Year 1 Revenue** | $10,300,000 | $8,240,000 | $11,330,000 |
-| **Year 3 Revenue** | $26,300,000 | $21,040,000 | $28,930,000 |
-| **Year 5 Revenue** | $34,000,000 | $27,200,000 | $37,400,000 |
-| **5-Year Total Revenue** | $120,700,000 | $96,560,000 | $132,770,000 |
-| **Year 5 Enterprise Value** | $81,200,000 | -- | -- |
+| **Year 1 Revenue** | $10,748,000 | $8,553,000 | $11,867,000 |
+| **Year 3 Revenue** | $27,426,000 | $21,839,000 | $30,281,000 |
+| **Year 5 Revenue** | $35,461,000 | $28,237,000 | $39,153,000 |
+| **5-Year Total Revenue** | $125,880,000 | $100,232,000 | $138,986,000 |
+| **Year 5 Enterprise Value** | ~$147,000,000 | -- | -- |
 | **Project IRR (with Exit)** | 78% | 66% | 87% |
 | **5-Year MOIC (incl. Exit)** | 7.5x | 5.3x | 9.6x |
 
 ### Scenario Definitions
 
-**Base Case** -- Assumes 60% occupancy in Year 1, ramping to 75% in Year 2, and stabilizing at 80% from Year 3 onward. Pricing holds at $2,000/day with the current program mix. Capacity expands from 15 to 60 casitas over five years. This scenario reflects management's best estimate of achievable performance given the property's location, competitive positioning, and planned marketing investment.
+**Base Case** -- Assumes 60% occupancy in Year 1, ramping to 75% in Year 2, and stabilizing at 80% from Year 3 onward. Pricing holds at $2,000/day with the current program mix. Revenue includes program fees plus ancillary revenue from bio-optimization premium services and post-care subscriptions. Capacity expands from 15 to 60 casitas over five years. This scenario reflects management's best estimate of achievable performance given the property's location, competitive positioning, and planned marketing investment.
 
 **Conservative Case** -- Assumes ~50-70% occupancy ramp with lower utilization in early years and more modest demand growth. This case models headwinds including slower brand awareness growth, regional competition, and potential macroeconomic softness in the luxury wellness segment. Even in this downside scenario, the project generates attractive returns with a 66% IRR and 5.3x MOIC over five years.
 
@@ -83,29 +83,30 @@ Three scenarios model the range of expected outcomes based on occupancy rates, r
 
 ## 3. Funding Allocation
 
-Total project funding of $16,823,500 is allocated across eight categories. The allocation includes a $1,230,000 technology platform investment comprising a $1M AI personalization and clinical operations platform plus $230K in physical technology infrastructure.
+Total project funding of $16,823,500 is allocated across seven categories, with the property acquisition representing the majority of the capital requirement.
 
 | Category | Amount | % of Total | Notes |
 |----------|--------|------------|-------|
-| Property Acquisition | $6,150,000 | 41.1% | $5.8M purchase + $350K closing costs, legal, due diligence |
-| Renovation & Conversion | $4,050,000 | 27.1% | Medical suites, treatment rooms, kitchen, bio-optimization center |
-| Technology Platform | $1,230,000 | 8.2% | $1M AI platform + $230K physical infrastructure |
-| Working Capital | $1,126,000 | 7.5% | Operating runway, initial inventory, deposits |
-| Contingency | $847,500 | 5.7% | Risk buffer (~6% of hard costs) |
-| Medical Equipment | $750,000 | 5.0% | ICU/monitoring, diagnostic, IV systems, pharmacy |
-| FF&E | $600,000 | 4.0% | Furniture, fixtures, guest room outfitting |
-| Pre-Opening | $200,000 | 1.3% | Licensing, staff training, soft launch |
+| Property Acquisition | $11,900,000 | 70.7% | $11.9M all-in acquisition price |
+| Working Capital | $1,126,000 | 6.7% | Operating runway, initial inventory, deposits |
+| Renovation & Conversion | $1,000,000 | 5.9% | Renovations to make property operational |
+| Medical + Biohacking | $1,000,000 | 5.9% | ICU/monitoring, diagnostic, IV systems, biohacking equipment |
+| Contingency | $847,500 | 5.0% | Risk buffer |
+| Technology | $750,000 | 4.5% | Tech development |
+| Pre-Opening | $200,000 | 1.2% | Licensing, staff training, soft launch |
 | **TOTAL** | **$16,823,500** | **100%** | |
 
 ### Funding Allocation Commentary
 
-**Property Acquisition (41.1%)** -- The single largest allocation covers the Rancho Paraiso Oasis purchase at $5,800,000 plus associated transaction costs. The property's 45,000 m2 compound across 9 lots in Tulum, Q.R. provides the physical foundation for 60 treatment casitas with existing structural improvements that significantly reduce renovation scope compared to greenfield development.
+**Property Acquisition (70.7%)** -- The single largest allocation covers the Rancho Paraiso Oasis acquisition at $11,900,000 all-in. The property's 45,000 m2 compound across 9 lots in Tulum, Q.R. provides the physical foundation for 60 treatment casitas with existing structural improvements that significantly reduce renovation scope compared to greenfield development.
 
-**Renovation & Conversion (27.1%)** -- Medical conversion of the existing jungle compound requires hospital-grade electrical systems, plumbing for treatment rooms, ICU-capable infrastructure, and luxury interior finishes consistent with premium positioning. This budget covers the initial 15 casitas plus medical infrastructure. Phase 2 expansion (15 additional casitas in Year 1) is included in the seed round; subsequent expansion is funded from cash flow.
+**Working Capital (6.7%)** -- Operating runway covering initial inventory, deposits, and working capital needs through revenue ramp.
 
-**Technology Platform (8.2%)** -- The $1,230,000 technology investment encompasses two components: a $1,000,000 AI-powered clinical platform for treatment personalization, pharmacogenomic analysis, outcome tracking, and guest experience management; and $230,000 in physical technology infrastructure including HIPAA-compliant systems, network architecture, monitoring equipment, and telehealth capabilities. This investment creates a proprietary data moat that compounds with each guest treated.
+**Renovation & Conversion (5.9%)** -- Targeted renovations to prepare the existing compound for medical operations. The property's existing infrastructure reduces the scope of conversion work required, with the $1,000,000 budget covering essential medical and hospitality upgrades. Phase 2 expansion (15 additional casitas in Year 1) is included in the seed round; subsequent expansion is funded from cash flow.
 
-**Contingency (5.7%)** -- A 5.7% contingency reserve provides buffer for construction cost overruns, supply chain delays, and regulatory compliance costs. This is conservative relative to standard real estate development contingencies of 10-15%, reflecting the reduced risk of renovation versus new construction.
+**Medical + Biohacking (5.9%)** -- The $1,000,000 medical equipment investment covers ICU/monitoring systems, diagnostic equipment, IV therapy systems, pharmacy setup, and biohacking equipment for the bio-optimization center.
+
+**Contingency (5.0%)** -- A 5.0% contingency reserve provides buffer for construction cost overruns, supply chain delays, and regulatory compliance costs.
 
 ---
 
@@ -139,32 +140,32 @@ The property follows a phased casita expansion from 15 at launch to 60 by Year 5
 
 | Line Item | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 | 5-Year Total |
 |-----------|--------|--------|--------|--------|--------|--------------|
-| **Total Revenue** | $10,300,000 | $19,600,000 | $26,300,000 | $30,500,000 | $34,000,000 | **$120,700,000** |
-| Direct Costs (COGS) | ($1,792,200) | ($3,332,000) | ($4,468,900) | ($5,185,000) | ($5,780,000) | ($20,558,100) |
-| **Gross Profit** | **$8,507,800** | **$16,268,000** | **$21,831,100** | **$25,315,000** | **$28,220,000** | **$100,141,900** |
+| **Total Revenue** | $10,748,000 | $20,440,000 | $27,426,000 | $31,805,000 | $35,461,000 | **$125,880,000** |
+| Direct Costs (COGS) | ($1,870,000) | ($3,475,000) | ($4,662,000) | ($5,407,000) | ($6,028,000) | ($21,442,000) |
+| **Gross Profit** | **$8,878,000** | **$16,965,000** | **$22,764,000** | **$26,398,000** | **$29,433,000** | **$104,438,000** |
 | **Gross Margin** | **83%** | **83%** | **83%** | **83%** | **83%** | **83%** |
 | | | | | | | |
 | Total Operating Expenses | ($4,206,000) | ($5,365,911) | ($6,391,359) | ($7,209,751) | ($7,920,783) | ($31,093,804) |
 | | | | | | | |
-| **EBITDA** | **$4,301,800** | **$10,902,089** | **$15,439,741** | **$18,105,249** | **$20,299,217** | **$69,048,096** |
-| **EBITDA Margin** | **42%** | **56%** | **59%** | **59%** | **60%** | **57%** |
+| **EBITDA** | **$4,672,000** | **$11,599,089** | **$16,372,641** | **$19,188,249** | **$21,512,217** | **$73,344,196** |
+| **EBITDA Margin** | **43%** | **57%** | **60%** | **60%** | **61%** | **58%** |
 | | | | | | | |
 | Depreciation & Amortization | ($677,143) | ($827,143) | ($947,143) | ($1,037,143) | ($1,127,143) | ($4,615,715) |
-| **EBT** | **$3,624,657** | **$10,074,946** | **$14,492,598** | **$17,068,106** | **$19,172,074** | **$64,432,381** |
-| Taxes (30%) | ($1,087,397) | ($3,022,484) | ($4,347,779) | ($5,120,432) | ($5,751,622) | ($19,329,714) |
+| **EBT** | **$3,994,857** | **$10,771,946** | **$15,425,498** | **$18,151,106** | **$20,385,074** | **$68,728,481** |
+| Taxes (30%) | ($1,198,457) | ($3,231,584) | ($4,627,649) | ($5,445,332) | ($6,115,522) | ($20,618,544) |
 | | | | | | | |
-| **Net Income** | **$2,537,260** | **$7,052,462** | **$10,144,819** | **$11,947,674** | **$13,420,452** | **$45,102,667** |
-| **Net Margin** | **25%** | **36%** | **39%** | **39%** | **39%** | **37%** |
+| **Net Income** | **$2,796,400** | **$7,540,362** | **$10,797,849** | **$12,705,774** | **$14,269,552** | **$48,109,937** |
+| **Net Margin** | **26%** | **37%** | **39%** | **40%** | **40%** | **38%** |
 
 ### P&L Commentary
 
-**Revenue Growth** -- Total revenue grows 3.3x from $10.3M in Year 1 to $34.0M by Year 5, driven by the dual engine of capacity expansion (15→60 casitas) and occupancy ramp (60%→80%). Pricing remains flat at $2,000/day across all years in the base case; no inflation or price increases are assumed, providing conservative upside optionality.
+**Revenue Growth** -- Total revenue grows 3.3x from $10.7M in Year 1 to $35.5M by Year 5, driven by the dual engine of capacity expansion (15→60 casitas) and occupancy ramp (60%→80%). Revenue includes program fees, bio-optimization premium services (~30% upsell rate), and post-care subscriptions (~36% uptake). Pricing remains flat at $2,000/day across all years in the base case; no inflation or price increases are assumed, providing conservative upside optionality.
 
 **Stable Gross Margins** -- Gross margins hold at 83% across all five years. Direct costs scale proportionally with guest volume at approximately $4,629 per guest, covering medical staff, facilitators, food & hospitality, bio-optimization supplies, plant medicine materials, and guest amenities.
 
-**Operating Leverage** -- EBITDA margins expand dramatically from 42% in Year 1 to 60% by Year 5. The cost structure scales at approximately 1.6x for a 2x increase in capacity -- fixed costs (facilities, management, technology infrastructure) are spread across a much larger revenue base as the campus expands.
+**Operating Leverage** -- EBITDA margins expand from 43% in Year 1 to 61% by Year 5. The cost structure scales at approximately 1.6x for a 2x increase in capacity -- fixed costs (facilities, management, technology infrastructure) are spread across a much larger revenue base as the campus expands.
 
-**Net Income** -- Five-year cumulative net income of $45.1M represents a 37% average net margin, demonstrating the capital efficiency of the operating model at scale.
+**Net Income** -- Five-year cumulative net income of $48.1M represents a 38% average net margin, demonstrating the capital efficiency of the operating model at scale.
 
 ---
 
@@ -203,9 +204,9 @@ The project NPV is calculated under three discount rate assumptions reflecting d
 
 | Discount Rate | NPV | Interpretation |
 |---------------|-----|----------------|
-| **10%** | **$18,200,000** | Institutional investor benchmark |
-| **12%** | **$16,100,000** | Private equity benchmark |
-| **15%** | **$13,400,000** | Venture/high-risk benchmark |
+| **10%** | **$19,500,000** | Institutional investor benchmark |
+| **12%** | **$17,200,000** | Private equity benchmark |
+| **15%** | **$14,300,000** | Venture/high-risk benchmark |
 
 All NPV scenarios are strongly positive, confirming the project creates significant value above the required cost of capital across the full range of investor return expectations.
 
@@ -214,13 +215,13 @@ All NPV scenarios are strongly positive, confirming the project creates signific
 | Metric | Value |
 |--------|-------|
 | **Total Project Cost** | $16,823,500 |
-| **5-Year Total Revenue** | $120,700,000 |
-| **5-Year Net Income** | $45,102,667 |
+| **5-Year Total Revenue** | $125,880,000 |
+| **5-Year Net Income** | $48,109,937 |
 | **5-Year Free Cash Flow** | $40,723,382 |
-| **Year 5 Enterprise Value (Base)** | $81,200,000 |
+| **Year 5 Enterprise Value (Base)** | ~$147,000,000 |
 | **Project IRR (Base, with Exit)** | 78% |
 | **5-Year MOIC (incl. Exit)** | 7.5x |
-| **NPV @ 12%** | $16,100,000 |
+| **NPV @ 12%** | $17,200,000 |
 
 ---
 
@@ -253,10 +254,10 @@ All NPV scenarios are strongly positive, confirming the project creates signific
 
 | Asset | Cost Basis | Annual D&A | Useful Life |
 |-------|-----------|-----------|-------------|
-| Building Improvements | $4,050,000 | $270,000 | 15 years |
-| Medical Equipment | $750,000 | $107,143 | 7 years |
-| FF&E | $600,000 | $60,000 | 10 years |
-| AI Platform (Technology) | $1,000,000 | $200,000 | 5 years |
+| Renovation & Conversion | $1,000,000 | $66,667 | 15 years |
+| Medical + Biohacking Equipment | $1,000,000 | $142,857 | 7 years |
+| Technology Platform | $750,000 | $150,000 | 5 years |
+| Property Improvements (allocated) | $2,376,190 | $277,619 | varies |
 | Pre-opening Amortization | $200,000 | $40,000 | 5 years |
 | **Total (Year 1 Base)** | | **$677,143** | -- |
 
@@ -270,16 +271,16 @@ Year 1 base D&A of $677,143 increases in subsequent years as casita expansion Ca
 | Year 4 | $677,143 | $360,000 | $1,037,143 |
 | Year 5 | $677,143 | $450,000 | $1,127,143 |
 
-The $230,000 physical technology infrastructure is depreciated as part of building improvements. Expansion D&A reflects cumulative casita build-out capital ($2.25M Year 2, $1.8M Year 3, $1.35M Years 4-5) depreciated over 15 years from date placed in service.
+Expansion D&A reflects cumulative casita build-out capital ($2.25M Year 2, $1.8M Year 3, $1.35M Years 4-5) depreciated over 15 years from date placed in service.
 
 ### Capital Assumptions
 
 | Assumption | Value | Source / Rationale |
 |------------|-------|--------------------|
-| Property acquisition | $5,800,000 | Negotiated price for Rancho Paraiso Oasis |
-| Total closing costs | $350,000 | Legal, due diligence, transfer taxes |
-| Renovation budget | $4,050,000 | Contractor estimates for medical conversion |
-| Technology platform | $1,230,000 | $1M AI platform + $230K physical infrastructure |
+| Property acquisition | $11,900,000 | All-in acquisition price for Rancho Paraiso Oasis |
+| Renovation budget | $1,000,000 | Renovations to make property operational |
+| Medical + biohacking | $1,000,000 | ICU/monitoring, diagnostic, IV systems, biohacking equipment |
+| Technology | $750,000 | Tech development |
 | Expansion cost per casita | ~$225,000 | Years 2-5 expansion funded from cash flow |
 | Total expansion CapEx | ~$6,750,000 | 30 additional casitas over Years 2-5 |
 | Maintenance CapEx | $400K-$700K/yr | Industry standard 2-4% of property value |
@@ -301,9 +302,9 @@ This five-year financial model was built bottom-up from unit economics (see Docu
 
 ### Limitations
 
-- This model does not include revenue from bio-optimization add-on services, which represent potential upside not captured in the base case
+- Revenue includes bio-optimization premium services (~30% upsell rate) and post-care subscriptions (~36% uptake) as ancillary revenue streams alongside core program fees
 - No second location or expansion revenue is modeled; all projections reflect single-site operations at the Rancho Paraiso Oasis
-- The villa real estate opportunity (48 villas, $96M total sales) is not included in these projections and represents significant additional upside
+- The villa real estate opportunity (48 villas, $96M total sales) is not included in these healing center projections and represents significant additional upside
 - Currency risk (MXN/USD) is not explicitly modeled; operating costs incurred in MXN may benefit from favorable exchange rates
 - Enterprise value and MOIC figures incorporate Year 5 exit valuation; see the Valuation Report (Document 22) for the full 9-method valuation framework and enterprise value bridge
 - No price escalation is modeled in the base case, providing conservative upside from inflation-based pricing adjustments

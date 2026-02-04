@@ -5,7 +5,7 @@
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                                                                             │
-│              $26.6K            60→80%            $10.3M            78%   │
+│              $26.6K            60→80%            $10.7M            78%   │
 │         ───────────       ───────────       ───────────       ───────────  │
 │          Wtd Avg Rev       Occupancy          Y1 Revenue        Base Case  │
 │          Per Guest         (Y1→Y3-5)         (60 casitas, phased 15→60)         IRR        │
@@ -19,17 +19,17 @@
 │                                                                             │
 │   REVENUE TRAJECTORY (Rancho Paraiso Oasis)                           │
 │                                                                             │
-│   $35M ┤                                              ▲ $34.0M (Y5)       │
+│   $35M ┤                                              ▲ $35.5M (Y5)       │
 │        │                                           ╱                        │
 │   $30M ┤                                        ╱                          │
-│        │                                     ╱  ▲ $30.5M (Y4)              │
+│        │                                     ╱  ▲ $31.8M (Y4)              │
 │   $25M ┤                                  ╱                                │
-│        │                         ▲ $26.3M (Y3)                              │
+│        │                         ▲ $27.4M (Y3)                              │
 │   $20M ┤                      ╱                                            │
-│        │          ▲ $19.6M (Y2)                                             │
+│        │          ▲ $20.4M (Y2)                                             │
 │   $15M ┤                ╱                                                  │
 │        │             ╱                                                      │
-│   $10M ┤          ╱  ▲ $10.3M (Y1)                                        │
+│   $10M ┤          ╱  ▲ $10.7M (Y1)                                        │
 │        │       ╱                                                            │
 │    $5M ┤    ╱                                                              │
 │        │ ╱                                                                  │
@@ -54,7 +54,7 @@
 │   │                                                                     │  │
 │   │   Total Investment: $16.82M               Total: $32.9M             │  │
 │   │   Casitas: 60 (phased 15→60)                              Rooms: 40+                 │  │
-│   │   5-Yr Revenue: $120.7M                  Y5 Revenue: $21.0M        │  │
+│   │   5-Yr Revenue: $125.9M                  Y5 Revenue: $21.0M        │  │
 │   │   5-Year IRR: 78%                     Blended IRR: ~65%+        │  │
 │   │                                                                     │  │
 │   │   ✅ Lower capital requirement           ✅ Tier diversification    │  │
@@ -93,7 +93,7 @@
 | Scenario | Occupancy | Y1 Revenue | 5-Year IRR | 5-Year MOIC |
 |----------|-----------|------------|------------|-------------|
 | **Conservative** | 50→70% | $8.24M | 66% | 5.3x |
-| **Base Case** | 60→80% | $10.3M | 78% | 7.5x |
+| **Base Case** | 60→80% | $10.7M | 78% | 7.5x |
 | **Aggressive** | 70→85% | $11.33M | 87% | 9.6x |
 
 #### Detailed Revenue Breakdown (Year 2 Base Case)
@@ -179,24 +179,24 @@
 │                                                                             │
 │                Y0        Y1        Y2        Y3        Y4        Y5         │
 │   ──────────────────────────────────────────────────────────────────────   │
-│   Revenue      -       10.3      19.6      26.3      30.5      34.0        │
-│   COGS (17%)   -       (1.8)     (3.3)     (4.5)     (5.2)     (5.8)       │
-│   Gross Profit -        8.5      16.3      21.8      25.3      28.2        │
+│   Revenue      -       10.7      20.4      27.4      31.8      35.5        │
+│   COGS (17%)   -       (1.9)     (3.5)     (4.7)     (5.4)     (6.0)       │
+│   Gross Profit -        8.9      17.0      22.8      26.4      29.4        │
 │   OpEx         -       (4.2)     (5.4)     (6.4)     (7.2)     (7.9)       │
-│   EBITDA       -        4.3      10.9      15.4      18.1      20.3        │
+│   EBITDA       -        4.7      11.6      16.4      19.2      21.5        │
 │                                                                             │
 │   D&A          -       (0.68)    (0.83)    (0.95)    (1.04)    (1.13)      │
-│   Tax (30%)    -       (1.09)    (3.02)    (4.35)    (5.12)    (5.75)      │
+│   Tax (30%)    -       (1.20)    (3.23)    (4.63)    (5.45)    (6.12)      │
 │   ──────────────────────────────────────────────────────────────────────   │
-│   Net Income   -        2.5       7.1      10.1      11.9      13.4        │
+│   Net Income   -        2.8       7.5      10.8      12.7      14.3        │
 │                                                                             │
 │   + D&A        -        0.68      0.83      0.95      1.04      1.13       │
 │   - Exp CapEx  -         0       (2.25)    (1.80)    (1.35)    (1.35)      │
 │   - Maint CapEx -        0       (0.40)    (0.50)    (0.60)    (0.70)      │
 │   ──────────────────────────────────────────────────────────────────────   │
-│   FCF          -        3.2       5.2       8.8      11.0      12.5        │
+│   FCF          -        3.5       5.7       9.4      11.8      13.4        │
 │                                                                             │
-│   Cumulative   -        3.2       8.4      17.2      28.2      40.7        │
+│   Cumulative   -        3.5       9.2      18.6      30.4      43.8        │
 │   FCF                                                                       │
 │                                                                             │
 │   Status:   INVEST   CASH+VE    GROWTH    GROWTH     SCALE   AT SCALE     │
@@ -216,14 +216,13 @@
 │   Instrument:          Preferred Equity (Series Seed)                      │
 │                                                                             │
 │   Use of Funds:                                                            │
-│   • Property Acquisition:                   $6,150,000  (41.1%)            │
-│   • Renovation & Conversion:                $4,050,000  (27.1%)            │
-│   • Technology Platform:                    $1,230,000  (8.2%)             │
-│   • Working Capital:                        $1,126,000  (7.5%)             │
-│   • Contingency:                              $847,500  (5.7%)             │
-│   • Medical Equipment:                        $750,000  (5.0%)             │
-│   • FF&E:                                     $600,000  (4.0%)             │
-│   • Pre-Opening:                              $200,000  (1.3%)             │
+│   • Property Acquisition:                  $11,900,000  (70.7%)            │
+│   • Working Capital:                        $1,126,000  (6.7%)             │
+│   • Renovation & Conversion:                $1,000,000  (5.9%)             │
+│   • Medical + Biohacking:                   $1,000,000  (5.9%)             │
+│   • Contingency:                              $847,500  (5.0%)             │
+│   • Technology:                                $750,000  (4.5%)             │
+│   • Pre-Opening:                              $200,000  (1.2%)             │
 │                                                                             │
 │   ──────────────────────────────────────────────────────────────────────   │
 │                                                                             │
@@ -279,24 +278,24 @@
 │   COST ASSUMPTIONS                                                         │
 │   • Direct costs (COGS): 17% of revenue ($4,629/guest)                     │
 │   • Gross margin: 83% (sustained across all 5 years)                       │
-│   • EBITDA margin: Y1: 42% → Y2: 56% → Y5: 60%                            │
+│   • EBITDA margin: Y1: 43% → Y2: 57% → Y5: 61%                            │
 │   • Customer acquisition cost: $2,613/guest (blended)                      │
 │   • OpEx escalation: ~4% annually (standard inflation + capacity scaling)  │
 │                                                                             │
 │   CAPITAL REQUIREMENTS                                                     │
 │   • Total project cost: $16,823,500 (all-equity seed round)                │
 │   • Expansion CapEx (Y2-5): ~$6.75M from operating cash flow               │
-│   • Technology platform: $1.23M ($1M AI + $230K infrastructure)            │
+│   • Technology platform: $750K (AI + clinical + infrastructure)            │
 │   • Annual technology OpEx: $228K (Year 1), escalating ~4%/year            │
 │                                                                             │
 │   RETURN METRICS (5-Year Hold)                                             │
 │   • IRR: 78% (base case)                                                │
 │   • MOIC: 7.5x                                                            │
 │   • Exit multiple assumption: 4.0x EBITDA (single location)               │
-│   • 5-Year Revenue: $120,700,000                                           │
-│   • 5-Year Net Income: $45,102,667                                         │
-│   • Y5 EBITDA: $20,299,217                                                 │
-│   • Y5 Enterprise Value (Base): $81,200,000                                │
+│   • 5-Year Revenue: $125,880,000                                           │
+│   • 5-Year Net Income: $48,109,937                                         │
+│   • Y5 EBITDA: $21,512,217                                                 │
+│   • Y5 Enterprise Value (Base): ~$147,000,000                              │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```

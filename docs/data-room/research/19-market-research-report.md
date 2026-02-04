@@ -55,12 +55,12 @@ Transformational Epicenter targets the intersection of four high-growth market s
 | Metric | Value |
 |--------|-------|
 | **Total Project Cost** | $16,823,500 |
-| **Acquisition** | $6,150,000 |
-| **Renovation** | $4,050,000 |
-| **Year 1 Revenue (Base)** | $10,300,000 |
-| **5-Year Total Revenue** | $120,700,000 |
+| **Acquisition** | $11,900,000 |
+| **Renovation** | $1,000,000 |
+| **Year 1 Revenue (Base)** | $10,748,000 |
+| **5-Year Total Revenue** | $125,880,000 |
 | **Project IRR (Base / Conservative)** | 78% / 66% |
-| **Year 5 Enterprise Value (Base)** | $81,200,000 |
+| **Year 5 Enterprise Value (Base)** | ~$147,000,000 |
 | **5-Year MOIC (Base / Conservative)** | 7.5x / 5.3x |
 
 ---
@@ -299,9 +299,9 @@ The SOM represents TE's realistic revenue capture at the single-property level:
 | **Property** | Rancho Paraiso Oasis, Tulum |
 | **Casita count** | 60 casitas (phased 15→60) |
 | **Average program price** | $14,000-$56,000 |
-| **Year 1 Revenue (Base)** | $10,300,000 |
+| **Year 1 Revenue (Base)** | $10,748,000 |
 | **Year 5 Revenue Target (Base)** | $34,000,000 |
-| **5-Year Cumulative Revenue** | $120,700,000 |
+| **5-Year Cumulative Revenue** | $125,880,000 |
 | **SOM as % of SAM** | ~0.068% |
 
 > **Key insight:** TE's Year 5 revenue target of approximately $34M represents just
@@ -319,7 +319,7 @@ TAM: $1T+ (Global wellness + medical tourism + longevity + psychedelic therapy)
       |
       +-- SOM: ~$34M (Year 5 single-property revenue at 60 casitas)
            |
-           +-- Year 1 Entry: $10,300,000
+           +-- Year 1 Entry: $10,748,000
 ```
 
 ---

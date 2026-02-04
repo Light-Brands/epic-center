@@ -56,7 +56,7 @@
 │   Total Raise: $16,823,500                                                 │
 │   5-Year IRR: 78%                                                       │
 │   MOIC: 7.5x                                                              │
-│   Y5 Enterprise Value: $81,200,000 (4.0x EBITDA, single location)          │
+│   Y5 Enterprise Value: ~$147,000,000 (SOTP across 4 business units)        │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -143,16 +143,16 @@
 │                                                                             │
 │   Scenario 1: EBITDA Multiple Approach                                     │
 │   ────────────────────────────────────────────────────────────────────────│
-│   Year 5 EBITDA (Base Case):  $20.3M                                       │
+│   Year 5 EBITDA (Base Case):  $21.5M                                       │
 │   Exit Multiple Range:         4.0x - 6.0x                                  │
 │                                                                             │
-│   Conservative (4.0x):         $81.2M                                      │
+│   Conservative (4.0x):         ~$86M                                       │
 │   • Single location at scale, strong unit economics                        │
 │   • Conservative single-location multiple during expansion phase           │
 │                                                                             │
-│   Base Case (4.0x + platform): $81.2M                                      │
-│   • Base-case enterprise value                                             │
-│   • Y5 Enterprise Value: $81.2M                                            │
+│   Base Case (SOTP):            ~$147M                                      │
+│   • Sum-of-parts enterprise value across 4 business units                  │
+│   • Y5 Enterprise Value: ~$147M                                            │
 │                                                                             │
 │   Optimistic (6.0x):           $122.0M                                     │
 │   • Expansion underway, category leadership established                    │
@@ -162,14 +162,14 @@
 │                                                                             │
 │   Scenario 2: Revenue Multiple Approach                                    │
 │   ────────────────────────────────────────────────────────────────────────│
-│   Year 5 Revenue (Base Case):  $34.0M                                      │
+│   Year 5 Revenue (Base Case):  $35.5M                                      │
 │   Exit Multiple Range:          2x - 4x                                    │
 │                                                                             │
 │   Conservative (2x):            $68.0M                                     │
 │   • Industry standard for boutique wellness/hospitality                    │
 │   • Comparable: Life Time (2.9x), Equinox (1.2x but EBITDA heavy)          │
 │                                                                             │
-│   Base Case (2.4x):             $81.2M                                     │
+│   Base Case (SOTP):             ~$147M                                     │
 │   • Aligns with EBITDA-method base case                                    │
 │   • Comparable: Six Senses (3.8x), SHA (5x)                                │
 │                                                                             │
@@ -182,10 +182,10 @@
 │   Return Profile Summary                                                   │
 │   ────────────────────────────────────────────────────────────────────────│
 │                                                                             │
-│   Y5 Enterprise Value (Base):   $81,200,000                                │
-│   5-Year Revenue:               $120,700,000                               │
-│   5-Year Net Income:            $45,102,667                                │
-│   Y5 EBITDA:                    $20,299,217                                │
+│   Y5 Enterprise Value (Base):   ~$147,000,000                              │
+│   5-Year Revenue:               $125,880,000                               │
+│   5-Year Net Income:            $48,109,937                                │
+│   Y5 EBITDA:                    $21,512,217                                │
 │   ──────────────────────────────────────                                   │
 │                                                                             │
 │   Investor Returns (Seed Round):                                           │

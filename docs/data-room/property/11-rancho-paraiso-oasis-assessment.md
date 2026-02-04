@@ -44,16 +44,15 @@ The Rancho Paraiso Oasis (Kaax Cenote) is a 45,000 m2 jungle compound comprising
 | Metric | Value |
 |--------|-------|
 | **Property Score** | 88/100 |
-| **Acquisition Price** | $5,800,000 |
-| **Total Acquisition (with costs)** | $6,150,000 |
-| **Total Renovation** | $4,050,000 |
+| **Acquisition Price** | $11,900,000 |
+| **Total Renovation** | $1,000,000 |
 | **Total Project Cost** | $16,823,500 |
 | **Total Casitas (Full Build)** | 60 (phased 15→60 over 5 years) |
 | **Average Daily Rate** | $2,000 |
 | **Average Revenue Per Guest** | $26,600 |
-| **Year 1 Revenue (60% Occupancy)** | $10,300,000 |
-| **Year 1 Net Income** | $2,537,260 |
-| **5-Year Total Revenue** | $120,700,000 |
+| **Year 1 Revenue (60% Occupancy)** | $10,748,000 |
+| **Year 1 Net Income** | $2,796,400 |
+| **5-Year Total Revenue** | $125,880,000 |
 | **Project IRR (Base, with Exit)** | 78% |
 | **Project IRR (Conservative, with Exit)** | 66% |
 | **Year 5 Enterprise Value (Base)** | ~$147,000,000 |
@@ -122,7 +121,7 @@ The property is situated in the Tulum corridor of the Riviera Maya, one of the f
 | **Theoretical Max Guests/Year (Full Build)** | 1,560 (60 x 26) |
 | **Year 1 Target (60% Occupancy)** | 387 guests |
 | **Total 5-Year Guests** | 4,537 |
-| **Year 5 Revenue** | $34,000,000 |
+| **Year 5 Revenue** | $35,461,000 |
 
 ### 3.2 Program Mix Assumptions
 
@@ -152,14 +151,10 @@ The property is situated in the Tulum corridor of the Riviera Maya, one of the f
 
 | Line Item | Amount | % of Acquisition |
 |-----------|--------|------------------|
-| Purchase Price | $5,800,000 | 94.3% |
-| Closing Costs (3%) | $174,000 | 2.8% |
-| Title Insurance (1%) | $58,000 | 0.9% |
-| Due Diligence | $50,000 | 0.8% |
-| Legal Fees | $35,000 | 0.6% |
-| Fideicomiso Setup | $8,000 | 0.1% |
-| Currency Hedge | $25,000 | 0.4% |
-| **TOTAL ACQUISITION** | **$6,150,000** | **100.0%** |
+| Purchase Price | $11,900,000 | 100.0% |
+| **TOTAL ACQUISITION** | **$11,900,000** | **100.0%** |
+
+*Note: Closing costs, legal fees, due diligence, and fideicomiso setup are included in the $11.9M all-in acquisition price.*
 
 ### 4.2 Acquisition Notes
 
@@ -174,19 +169,16 @@ The property is situated in the Tulum corridor of the Riviera Maya, one of the f
 
 ### 5.1 Renovation Line Items
 
-| # | Category | Amount | % of Renovation | Notes |
-|---|----------|--------|-----------------|-------|
-| 1 | Medical Suite Build-out | $750,000 | 18.5% | Full ICU/monitoring capability, cardiac equipment, emergency pharmacy |
-| 2 | Treatment/Ceremony Rooms | $500,000 | 12.3% | 3 dedicated ceremony spaces, soundproofing, climate control |
-| 3 | Commercial Kitchen Upgrade | $500,000 | 12.3% | Medical diet capabilities, nutritional prep, cold storage |
-| 4 | Guest Bathroom Upgrades | $600,000 | 14.8% | 21 bathrooms upgraded to wellness standard, rain showers, soaking tubs |
-| 5 | Staff Quarters Expansion | $250,000 | 6.2% | On-site housing for medical and hospitality staff |
-| 6 | Group/Integration Spaces | $250,000 | 6.2% | Large group therapy rooms, integration circles, meeting areas |
-| 7 | Bio-optimization Center | $750,000 | 18.5% | Full diagnostic/treatment suite, hyperbaric, cryotherapy, IV lounge |
-| 8 | Outdoor Treatment Areas | $250,000 | 6.2% | Jungle treatment platforms, cenote access, meditation gardens |
-| 9 | Generator/Backup Power | $200,000 | 4.9% | Medical-grade power with automatic transfer switch, 72-hour fuel |
-| 10 | Helipad Construction | $0 | 0.0% | Emergency evacuation landing area (site prep included in land clearing) |
-| | **TOTAL RENOVATION** | **$4,050,000** | **100.0%** | |
+The $1,000,000 renovation budget covers essential modifications to prepare the existing compound for medical operations. The property's existing infrastructure reduces the scope of conversion work required compared to greenfield development.
+
+| # | Category | Estimated Amount | Notes |
+|---|----------|-----------------|-------|
+| 1 | Medical infrastructure upgrades | $400,000 | ICU-grade electrical, plumbing, HVAC for treatment rooms |
+| 2 | Treatment/ceremony room conversion | $250,000 | Dedicated ceremony spaces, soundproofing, climate control |
+| 3 | Kitchen and hospitality upgrades | $150,000 | Medical diet capabilities, nutritional prep |
+| 4 | Generator/backup power | $100,000 | Medical-grade power with automatic transfer switch |
+| 5 | General facility improvements | $100,000 | Group spaces, outdoor treatment areas, landscaping |
+| | **TOTAL RENOVATION** | **$1,000,000** | |
 
 ### 5.2 Renovation Strategy
 
@@ -205,12 +197,11 @@ The renovation converts an undeveloped jungle estate into a medical-grade wellne
 
 | Category | Amount | Description |
 |----------|--------|-------------|
-| Medical Equipment | $750,000 | Cardiac monitors, defibrillators, lab equipment, pharmacy setup, hyperbaric chambers |
-| Furniture, Fixtures & Equipment (FF&E) | $600,000 | Guest room furnishings, treatment room equipment, common area fit-out |
-| Technology Infrastructure | $1,230,000 | Network, security systems, patient monitoring integration, booking platform, guest experience platform, data analytics |
+| Medical + Biohacking Equipment | $1,000,000 | ICU/monitoring, diagnostic, IV systems, biohacking equipment, pharmacy |
+| Technology | $750,000 | Tech development |
 | Pre-Opening Expenses | $200,000 | Staff recruitment, training, licensing, marketing launch, soft opening |
-| Working Capital | $1,126,000 | 4.5 months operating runway at $251,250/month |
-| **Subtotal Other Capital** | **$3,906,000** | |
+| Working Capital | $1,126,000 | Operating runway |
+| **Subtotal Other Capital** | **$3,076,000** | |
 
 ### 6.2 Contingency
 
@@ -228,11 +219,11 @@ The 15% contingency provides a buffer against cost overruns, supply chain delays
 
 | Category | Amount | % of Total |
 |----------|--------|------------|
-| Acquisition (with closing costs) | $6,150,000 | 41.1% |
-| Renovation | $4,050,000 | 27.1% |
+| Acquisition | $11,900,000 | 70.7% |
+| Renovation | $1,000,000 | 5.9% |
 | Medical Equipment | $750,000 | 5.0% |
 | FF&E | $600,000 | 4.0% |
-| Technology Platform | $1,230,000 | 8.2% |
+| Technology | $750,000 | 4.5% |
 | Pre-Opening | $200,000 | 1.3% |
 | Working Capital | $1,126,000 | 7.5% |
 | Contingency | $847,500 | 5.7% |
@@ -293,10 +284,10 @@ The 15% contingency provides a buffer against cost overruns, supply chain delays
 | **Occupancy** | 60% | 75% | 80% | 85% | 86% |
 | **Guests** | 387 | 729 | 974 | 1,169 | 1,278 |
 | **Avg Revenue/Guest** | $26,600 | $26,600 | $26,600 | $26,600 | $26,600 |
-| **Gross Revenue** | $10,300,000 | $19,400,000 | $25,900,000 | $31,100,000 | $34,000,000 |
-| **EBITDA** | $4,301,800 | $8,982,200 | $13,157,200 | $17,198,300 | $20,299,217 |
-| **Net Income** | $2,537,260 | $6,400,000 | $9,400,000 | $12,300,000 | $14,465,407 |
-| **Cumulative Revenue** | $10,300,000 | $29,700,000 | $55,600,000 | $86,700,000 | **$120,700,000** |
+| **Gross Revenue** | $10,748,000 | $20,440,000 | $27,426,000 | $31,805,000 | $35,461,000 |
+| **EBITDA** | $4,672,000 | $11,599,089 | $16,372,641 | $19,188,249 | $21,512,217 |
+| **Net Income** | $2,796,400 | $7,540,362 | $10,797,849 | $12,705,774 | $14,269,552 |
+| **Cumulative Revenue** | $10,748,000 | $31,188,000 | $58,614,000 | $90,419,000 | **$125,880,000** |
 
 ### 9.2 Revenue Assumptions
 
@@ -317,11 +308,11 @@ The 15% contingency provides a buffer against cost overruns, supply chain delays
 | Metric | Base Case | Conservative Case | Aggressive Case |
 |--------|-----------|-------------------|-----------------|
 | **Project IRR (with Exit)** | **78%** | **66%** | **87%** |
-| **Year 5 Enterprise Value** | **$81,200,000** | -- | -- |
+| **Year 5 Enterprise Value** | **~$147,000,000** | -- | -- |
 | **5-Year MOIC (incl. Exit)** | **7.5x** | **5.3x** | **9.6x** |
 | Year 1 Cash-on-Cash Return | 37.4% | 31.2% | 43.6% |
-| Payback Period | ~1.8 years | ~2.3 years | ~1.4 years |
-| 5-Year Cumulative Net Income | $45,102,667 | $37,585,556 | $52,619,778 |
+| Payback Period | ~2.7 years | ~3.2 years | ~2.2 years |
+| 5-Year Cumulative Net Income | $48,109,937 | $37,585,556 | $52,619,778 |
 
 ### 10.2 Net Present Value Analysis
 
@@ -381,8 +372,8 @@ Based on the comprehensive assessment presented in this document, the recommenda
 **Supporting rationale:**
 
 1. **Highest score** of all evaluated properties at 88/100
-2. **Strongest financial returns** with 78% IRR and 7.5x MOIC (base case), producing $81.2M enterprise value at Year 5
-3. **Exceptional capacity** of 60 casitas (phased 15→60) supporting $10.3M Year 1 revenue
+2. **Strongest financial returns** with 78% IRR and 7.5x MOIC (base case), producing ~$147M enterprise value at Year 5
+3. **Exceptional capacity** of 60 casitas (phased 15→60) supporting $10.7M Year 1 revenue
 4. **Best cost efficiency** at $249,225 per casita at full build
 5. **Unmatched expansion potential** on 45,000 m2 across 9 lots
 6. **Perfect brand alignment** with jungle/cenote setting for healing environment

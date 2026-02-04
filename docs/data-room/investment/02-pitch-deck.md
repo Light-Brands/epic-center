@@ -149,18 +149,18 @@ Longer programs deepen every dimension -- additional bio-optimization cycles, ex
 
 ## Slide 8: Financial Projections
 
-### $120.7M in five-year cumulative revenue from a phased 15→60 casita campus.
+### $125.9M in five-year cumulative revenue from a phased 15→60 casita campus.
 
 | Year | Casitas | Occupancy | Revenue | EBITDA | Net Income |
 |------|---------|-----------|---------|--------|------------|
-| Year 1 | 15→30 | 60% | $10,300,000 | $4,301,800 | $2,537,260 |
-| Year 2 | 30→40 | 75% | $19,600,000 | $10,902,089 | $7,052,462 |
-| Year 3 | 40→48 | 80% | $26,300,000 | $15,439,741 | $10,144,819 |
-| Year 4 | 48→54 | 80% | $30,500,000 | $18,105,249 | $11,947,674 |
-| Year 5 | 54→60 | 80% | $34,000,000 | $20,299,217 | $13,420,452 |
-| **5-Year Total** | | | **$120,700,000** | **$69,048,096** | **$45,102,667** |
+| Year 1 | 15→30 | 60% | $10,748,000 | $4,672,000 | $2,796,400 |
+| Year 2 | 30→40 | 75% | $20,440,000 | $11,599,089 | $7,540,362 |
+| Year 3 | 40→48 | 80% | $27,426,000 | $16,372,641 | $10,797,849 |
+| Year 4 | 48→54 | 80% | $31,805,000 | $19,188,249 | $12,705,774 |
+| Year 5 | 54→60 | 80% | $35,461,000 | $21,512,217 | $14,269,552 |
+| **5-Year Total** | | | **$125,880,000** | **$73,344,196** | **$48,109,937** |
 
-**Key Metrics:** 83% Gross Margin | 42-60% EBITDA Margin (expanding with scale) | Break-even at ~3% occupancy (~25 guests/year) | LTV:CAC 13.0x
+**Key Metrics:** 83% Gross Margin | 43-61% EBITDA Margin (expanding with scale) | Break-even at ~3% occupancy (~25 guests/year) | LTV:CAC 13.0x
 
 **Operating Returns:**
 
@@ -177,7 +177,7 @@ Longer programs deepen every dimension -- additional bio-optimization cycles, ex
 | **Base Case** | **7.5x** | **78%** |
 | Aggressive | 9.6x | 87% |
 
-**Year 5 Enterprise Value (Base): $81,200,000**
+**Year 5 Enterprise Value (Base): ~$147,000,000**
 
 Cash-flow positive from Year 1. Revenue grows 3.3x as capacity expands from 15 to 60 casitas. Expansion beyond Year 1 funded entirely from operating cash flow -- no additional equity raise required.
 
@@ -212,7 +212,7 @@ Full methodology detailed in the IPEV-Compliant Valuation Report (Document 22).
 | **Private Equity Acquisition** | Year 4-6 | 5.5-8x EBITDA | Secondary |
 | **Platform Expansion + Premium Exit** | Year 5-8 | 8-16x EBITDA | Highest Value |
 
-**Year 5 Enterprise Value (Base Case): $81,200,000**
+**Year 5 Enterprise Value (Base Case): ~$147,000,000**
 
 | Scenario | MOIC | IRR |
 |----------|------|-----|
@@ -234,8 +234,8 @@ A single location commands 4.0-6.0x EBITDA at exit. Multi-location platform expa
 | **Total Area** | 45,000 m2 |
 | **Casita Count** | 60 casitas (phased 15 → 60 over 5 years) |
 | **Evaluation Score** | 88/100 |
-| **Acquisition Cost** | $6,150,000 |
-| **Renovation Budget** | $4,050,000 |
+| **Acquisition Cost** | $11,900,000 |
+| **Renovation Budget** | $1,000,000 |
 
 **Strategic advantages of this location:**
 
@@ -254,17 +254,16 @@ A single location commands 4.0-6.0x EBITDA at exit. Multi-location platform expa
 
 | Category | Amount | % |
 |----------|--------|---|
-| Property Acquisition | $6,150,000 | 41.1% |
-| Renovation & Conversion | $4,050,000 | 27.1% |
-| Technology Platform | $1,230,000 | 8.2% |
-| Working Capital | $1,126,000 | 7.5% |
-| Contingency | $847,500 | 5.7% |
-| Medical Equipment | $750,000 | 5.0% |
-| FF&E | $600,000 | 4.0% |
-| Pre-Opening | $200,000 | 1.3% |
+| Property Acquisition | $11,900,000 | 70.7% |
+| Working Capital | $1,126,000 | 6.7% |
+| Renovation & Conversion | $1,000,000 | 5.9% |
+| Medical + Biohacking | $1,000,000 | 5.9% |
+| Contingency | $847,500 | 5.0% |
+| Technology | $750,000 | 4.5% |
+| Pre-Opening | $200,000 | 1.2% |
 | **Total** | **$16,823,500** | **100%** |
 
-**68.2% of capital goes to hard assets** (property + renovation), creating tangible collateral. Technology platform ($1.23M) creates proprietary AI and data infrastructure.
+**76.6% of capital goes to hard assets** (property + renovation + medical equipment), creating tangible collateral. Technology ($750K) creates proprietary AI and data infrastructure.
 
 ---
 
@@ -392,7 +391,7 @@ Published clinical outcomes justify premium pricing and build institutional trus
 
 - 60-casita ultra-luxury medical wellness campus in Tulum (15 at launch → 60 over 5 years)
 - Hospital-grade medical infrastructure and bio-optimization technology suite
-- $1.23M AI-powered clinical platform and technology infrastructure
+- $750K technology development for AI-powered clinical platform and infrastructure
 - Full regulatory compliance and licensing
 - Pre-opening operations through cash-flow positive status
 
@@ -400,8 +399,8 @@ Published clinical outcomes justify premium pricing and build institutional trus
 
 - 78% IRR (with exit)
 - 7.5x MOIC over five years
-- $120.7M in cumulative revenue from a single campus
-- $81.2M Year 5 enterprise value
+- $125.9M in cumulative revenue from a single campus
+- ~$147M Year 5 enterprise value
 - $21.04M post-money valuation (IPEV 9-method weighted average)
 - Proof of concept for multi-property expansion
 

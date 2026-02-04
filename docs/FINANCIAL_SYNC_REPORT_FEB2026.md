@@ -199,11 +199,11 @@ The Google Sheet was significantly out of date — it still referenced a static 
 | Total Project Cost | $16,823,500 | Y | Y | Y |
 | Acquisition Price | $11,900,000 | Y | Y | Y |
 | Total Rooms (Full Build) | 60 | Y | Y | Y |
-| Y1 Revenue | $10.3M | Y | Y | Y |
-| Y5 Revenue | $34.0M | Y | Y | Y |
-| 5-Year Revenue | $120.7M | Y | Y | Y |
-| Y5 EBITDA | $20.3M | Y | Y | Y |
-| Y5 Net Income | $13.4M | Y | Y | Y |
+| Y1 Revenue | $10.7M | Y | Y | Y |
+| Y5 Revenue | $35.5M | Y | Y | Y |
+| 5-Year Revenue | $125.9M | Y | Y | Y |
+| Y5 EBITDA | $21.5M | Y | Y | Y |
+| Y5 Net Income | $14.3M | Y | Y | Y |
 | Cost Per Room | $280,392 | Y | Y | Y |
 | Recommendation | PROCEED | Y | Y | Y |
 
@@ -229,20 +229,20 @@ The single source of truth for all financial data is `lib/sheets/data.ts`. All o
 
 | Metric | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 |
 |--------|--------|--------|--------|--------|--------|
-| Revenue | $10.3M | $19.6M | $26.3M | $30.5M | $34.0M |
-| COGS | $1.8M | $3.3M | $4.5M | $5.2M | $5.8M |
-| Gross Profit | $8.5M | $16.3M | $21.8M | $25.3M | $28.2M |
+| Revenue | $10.7M | $20.4M | $27.4M | $31.8M | $35.5M |
+| COGS | $1.9M | $3.5M | $4.7M | $5.4M | $6.0M |
+| Gross Profit | $8.9M | $17.0M | $22.8M | $26.4M | $29.4M |
 | OpEx | $4.2M | $5.4M | $6.4M | $7.2M | $7.9M |
-| EBITDA | $4.3M | $10.9M | $15.4M | $18.1M | $20.3M |
-| Net Income | $2.5M | $7.1M | $10.1M | $11.9M | $13.4M |
-| EBITDA Margin | 42% | 56% | 59% | 59% | 60% |
+| EBITDA | $4.7M | $11.6M | $16.4M | $19.2M | $21.5M |
+| Net Income | $2.8M | $7.5M | $10.8M | $12.7M | $14.3M |
+| EBITDA Margin | 43% | 57% | 60% | 60% | 61% |
 
 ### Casita Phasing (30 → 60 Rooms)
 
 | Year | Start | Added | End | Occupancy | Guests | Revenue |
 |------|-------|-------|-----|-----------|--------|---------|
-| 1 | 15 | +15 | 30 | 60% | 387 | $10.3M |
-| 2 | 30 | +10 | 40 | 75% | 737 | $19.6M |
-| 3 | 40 | +8 | 48 | 80% | 988 | $26.3M |
-| 4 | 48 | +6 | 54 | 80% | 1,145 | $30.5M |
-| 5 | 54 | +6 | 60 | 80% | 1,280 | $34.0M |
+| 1 | 15 | +15 | 30 | 60% | 387 | $10.7M |
+| 2 | 30 | +10 | 40 | 75% | 737 | $20.4M |
+| 3 | 40 | +8 | 48 | 80% | 988 | $27.4M |
+| 4 | 48 | +6 | 54 | 80% | 1,145 | $31.8M |
+| 5 | 54 | +6 | 60 | 80% | 1,280 | $35.5M |

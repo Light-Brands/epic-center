@@ -10,7 +10,7 @@
 **Classification:** RESTRICTED - CONFIDENTIAL
 **Prepared For:** Prospective Investors & Strategic Partners
 **Property:** Rancho Paraiso Oasis (Kaax Cenote)
-**Renovation Budget:** $4,050,000
+**Renovation Budget:** $1,000,000
 
 ---
 
@@ -32,13 +32,13 @@
 
 ## 1. EXECUTIVE SUMMARY
 
-The Rancho Paraiso Oasis requires a **$4,050,000 renovation** to convert the undeveloped jungle compound into a fully operational medical wellness facility capable of serving up to 60 guests at full build-out across 7-to-28-day treatment programs, with casitas phased from 15 to 60 over 5 years. The renovation scope encompasses medical infrastructure, treatment spaces, guest amenities, staff facilities, and critical life-safety systems.
+The Rancho Paraiso Oasis requires a **$1,000,000 renovation** to convert the undeveloped jungle compound into a fully operational medical wellness facility capable of serving up to 60 guests at full build-out across 7-to-28-day treatment programs, with casitas phased from 15 to 60 over 5 years. The renovation scope encompasses medical infrastructure, treatment spaces, guest amenities, staff facilities, and critical life-safety systems.
 
 ### Budget at a Glance
 
 | Metric | Value |
 |--------|-------|
-| **Total Renovation Budget** | $4,050,000 |
+| **Total Renovation Budget** | $1,000,000 |
 | **Contingency (15%)** | $847,500 |
 | **Total with Contingency** | $4,897,500 |
 | **Number of Line Items** | 10 categories |
@@ -72,7 +72,7 @@ The renovation transforms a vacant jungle estate into a medical-grade wellness f
 | 8 | Outdoor Treatment Areas | $250,000 | 2-3 months | Jungle treatment platforms, cenote access pathways, meditation gardens, yoga pavilion, grounding areas |
 | 9 | Generator/Backup Power | $200,000 | 2 months | Medical-grade diesel generator with automatic transfer switch (ATS), 72-hour fuel capacity, UPS for critical medical equipment |
 | 10 | Helipad Construction | $0 | 3-4 months | CRITICAL: Emergency evacuation landing area. Site clearing and grading included in general land preparation. Lighting and wind indicators budgeted within medical suite. Marked $0 as dedicated line item -- costs absorbed within site prep |
-| | **TOTAL RENOVATION** | **$4,050,000** | | |
+| | **TOTAL RENOVATION** | **$1,000,000** | | |
 
 ### 2.2 Budget Allocation by Priority
 
@@ -82,7 +82,7 @@ The renovation transforms a vacant jungle estate into a medical-grade wellness f
 | **Core Operations** | Treatment Rooms, Kitchen, Bio-optimization | $1,750,000 | 43.2% |
 | **Guest Experience** | Bathrooms, Outdoor Areas, Integration Spaces | $1,100,000 | 27.2% |
 | **Staff & Support** | Staff Quarters | $250,000 | 6.2% |
-| **TOTAL** | | **$4,050,000** | **100.0%** |
+| **TOTAL** | | **$1,000,000** | **100.0%** |
 
 ### 2.3 Line Item Details
 
@@ -236,13 +236,13 @@ Final Commissioning                                                [====]
 
 ### 5.1 Equipment Beyond Renovation
 
-These costs are separate from the $4,050,000 renovation budget and cover movable equipment, furnishings, and operational setup.
+These costs are separate from the $1,000,000 renovation budget and cover movable equipment, furnishings, and operational setup.
 
 | Category | Amount | Key Items |
 |----------|--------|-----------|
 | **Medical Equipment** | $750,000 | Cardiac monitors (x8), defibrillators (x3), hyperbaric chambers (x2), cryotherapy unit, IV pumps, EEG/neurofeedback, point-of-care lab, crash carts (x2), ventilator, patient transport stretchers |
 | **FF&E (Furniture, Fixtures & Equipment)** | $600,000 | Guest room furnishings (60 casitas at full build), treatment room beds and equipment, common area furniture, dining area, reception, outdoor furniture, linens, kitchenware |
-| **Technology Infrastructure** | $1,230,000 | Wi-Fi network, security cameras, access control, patient monitoring integration, booking/PMS system, satellite internet backup, guest experience platform, data analytics |
+| **Technology** | $750,000 | Wi-Fi network, security cameras, access control, patient monitoring integration, booking/PMS system, satellite internet backup, guest experience platform, data analytics |
 | **Pre-Opening Expenses** | $200,000 | Staff recruitment and relocation, training programs (4-6 weeks), licensing and permits, marketing launch, soft opening costs, initial inventory |
 | **Working Capital** | $1,126,000 | 4.5 months of operating expenses at $251,250/month to cover ramp-up period before reaching cash-flow positive operations |
 | **TOTAL EQUIPMENT & CAPITAL** | **$3,906,000** | |
@@ -284,7 +284,7 @@ These costs are separate from the $4,050,000 renovation budget and cover movable
 
 | Item | Base Amount | Contingency % | Contingency Amount |
 |------|------------|---------------|-------------------|
-| Renovation | $4,050,000 | 15% | $607,500 |
+| Renovation | $1,000,000 | 15% | $150,000 |
 | Equipment & Capital | $3,906,000 | ~6% | $240,000 |
 | **Total Contingency** | | | **$847,500** |
 

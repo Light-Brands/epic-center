@@ -51,7 +51,7 @@ Four scenarios are modeled with assigned probabilities reflecting management's a
 | Scenario | Probability | 5-Year Revenue | Y5 Revenue | IRR | MOIC |
 |----------|-------------|----------------|------------|-----|------|
 | Conservative | 25% | $96,560,000 | $27,200,000 | 66% | 5.3x |
-| **Base Case** | **50%** | **$120,700,000** | **$34,000,000** | **78%** | **7.5x** |
+| **Base Case** | **50%** | **$125,880,000** | **$35,461,000** | **78%** | **7.5x** |
 | Aggressive | 20% | $132,770,000 | $37,400,000 | 87% | 9.6x |
 | Downside | 5% | $60,000,000 | $17,000,000 | ~20% | ~2.5x |
 | **Expected Value (Weighted)** | **100%** | **$114,044,000** | **$32,130,000** | **~74%** | **7.4x** |
@@ -60,7 +60,7 @@ Four scenarios are modeled with assigned probabilities reflecting management's a
 
 **Conservative (25% probability)** -- Models slower-than-expected occupancy ramp, modest pricing pressure, and higher operating costs. Assumes Year 1 occupancy of ~48% (310 guests, $8,240,000 revenue), stabilizing at ~64% by Year 5 ($27,200,000 revenue). The same casita phasing (15 to 60) is maintained but demand builds more slowly. This scenario reflects a challenging early market environment where brand awareness builds slowly and competition creates pricing tension. Even in this case, the project generates a 66% IRR and 5.3x MOIC with $96,560,000 in 5-year cumulative revenue.
 
-**Base Case (50% probability)** -- The central projection using the phased casita model (15 to 60 casitas over five years) with 60% Year 1 occupancy ramping to 80% by Year 3. Revenue grows from $10,300,000 in Year 1 to $34,000,000 in Year 5 ($120,700,000 cumulative). Pricing holds at $2,000/day ($26,600 average per guest) with no escalation. EBITDA expands from $4,301,800 (42% margin) to $20,299,217 (60% margin) as operating leverage builds. This scenario reflects management's best estimate of achievable performance, projecting a 78% IRR, 7.5x MOIC, and Y5 enterprise value of $81,200,000.
+**Base Case (50% probability)** -- The central projection using the phased casita model (15 to 60 casitas over five years) with 60% Year 1 occupancy ramping to 80% by Year 3. Revenue grows from $10,748,000 in Year 1 to $35,461,000 in Year 5 ($125,880,000 cumulative). Pricing holds at $2,000/day ($26,600 average per guest) with no escalation. EBITDA expands from $4,672,000 (43% margin) to $21,512,217 (61% margin) as operating leverage builds. This scenario reflects management's best estimate of achievable performance, projecting a 78% IRR, 7.5x MOIC, and Y5 enterprise value of ~$147,000,000.
 
 **Aggressive (20% probability)** -- Models faster market penetration with higher occupancy and potential pricing upside. Assumes Year 1 occupancy of ~66% (426 guests, $11,330,000 revenue), stabilizing at ~88% by Year 5 ($37,400,000 revenue). This case reflects a scenario where the Rancho Paraiso Oasis rapidly establishes itself as the definitive luxury plant medicine destination, benefiting from strong word-of-mouth referrals and media attention. Projects an 87% IRR, 9.6x MOIC, and $132,770,000 in cumulative 5-year revenue.
 
@@ -122,7 +122,7 @@ Pricing sensitivity measures the impact of changes in the average daily rate on 
 
 **EBITDA Leverage** -- The EBITDA impact of pricing changes is approximately 70% of the revenue impact. The difference reflects the fact that some direct costs (medical evacuation reserve, which is calculated as a percentage of revenue) scale with price, while others (food, supplies) are fixed per guest regardless of pricing.
 
-**Compounding Effect** -- Sustained pricing changes compound over the five-year projection period. With 5-year cumulative revenue of $120,700,000 in the base case, a permanent 10% price increase would add approximately $12M in cumulative revenue and approximately $8.4M in cumulative EBITDA.
+**Compounding Effect** -- Sustained pricing changes compound over the five-year projection period. With 5-year cumulative revenue of $125,880,000 in the base case, a permanent 10% price increase would add approximately $12M in cumulative revenue and approximately $8.4M in cumulative EBITDA.
 
 **Downside Protection** -- Even with a 15% price reduction (to $1,700/day), Year 3 revenue remains above $22M and EBITDA above $12M. This confirms that the financial model is not dependent on aggressive pricing assumptions.
 
@@ -176,13 +176,13 @@ The Transformational Epicenter investment thesis incorporates multiple layers of
 
 **1. Real Asset Backing**
 
-The Rancho Paraiso Oasis provides tangible collateral with a property acquisition cost of $6,150,000. In a liquidation scenario, the improved property (post-renovation) would have an estimated fair market value of $8-$10M, providing significant capital recovery even in a complete operational failure.
+The Rancho Paraiso Oasis provides tangible collateral with a property acquisition cost of $11,900,000. In a liquidation scenario, the improved property (post-renovation) would have an estimated fair market value of $12-$15M, providing significant capital recovery even in a complete operational failure.
 
 | Downside Scenario | Estimated Recovery | % of Capital ($16.82M) |
 |--------------------|-------------------|------------------------|
-| Orderly sale (operating business) | $12-$15M | 80-100% |
-| Asset sale (property + equipment) | $8-$10M | 54-67% |
-| Fire sale (property only) | $5-$6M | 33-40% |
+| Orderly sale (operating business) | $14-$17M | 83-100% |
+| Asset sale (property + equipment) | $12-$14M | 71-83% |
+| Fire sale (property only) | $9-$11M | 54-65% |
 
 **2. Low Breakeven Occupancy**
 

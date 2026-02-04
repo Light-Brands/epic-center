@@ -115,14 +115,13 @@ The Company intends to use the net proceeds of this offering approximately as fo
 
 | Category | Amount | % of Total | Description |
 |----------|--------|-----------|-------------|
-| **Property Acquisition** | $6,150,000 | 41.1% | Purchase of Rancho Paraiso Oasis, Tulum, Q.R. |
-| **Renovation & Build-Out** | $4,050,000 | 27.1% | Phased renovation of 60 casitas (15→60 over 5 years), medical suites, treatment rooms, bio-optimization labs, communal spaces |
-| **Technology Platform** | $1,230,000 | 8.2% | $1M AI personalization engine, digital ecosystem, electronic health records, guest portal, outcome tracking; $230K physical infrastructure |
-| **Working Capital Reserve** | $1,126,000 | 7.5% | Operating cash reserve to fund operations through cash-flow positive status |
-| **Contingency** | $847,500 | 5.7% | Project contingency reserve including regulatory, legal, and unforeseen costs |
-| **Medical Equipment** | $750,000 | 5.0% | Cardiac monitoring systems, hyperbaric chambers, IV therapy infrastructure, neurofeedback equipment, laboratory equipment |
-| **FF&E** | $600,000 | 4.0% | Furniture, fixtures, and equipment for guest casitas, communal spaces, and treatment rooms |
-| **Pre-Opening** | $200,000 | 1.3% | Staff recruitment and training, clinical protocol development, supply chain establishment |
+| **Property Acquisition** | $11,900,000 | 70.7% | Purchase of Rancho Paraiso Oasis, Tulum, Q.R. ($11.9M all-in) |
+| **Working Capital Reserve** | $1,126,000 | 6.7% | Operating cash reserve to fund operations through cash-flow positive status |
+| **Renovation & Conversion** | $1,000,000 | 5.9% | Renovations to make property operational |
+| **Medical + Biohacking** | $1,000,000 | 5.9% | ICU/monitoring, diagnostic, IV therapy, biohacking equipment, pharmacy |
+| **Contingency** | $847,500 | 5.0% | Project contingency reserve including regulatory, legal, and unforeseen costs |
+| **Technology** | $750,000 | 4.5% | Tech development |
+| **Pre-Opening** | $200,000 | 1.2% | Staff recruitment and training, clinical protocol development, supply chain establishment |
 | **Total** | **$16,823,500** | **100.0%** | |
 
 *[Note: The Company reserves the right to reallocate proceeds among categories based on business needs and changing conditions. Actual expenditures may vary from the estimates above.]*
@@ -260,18 +259,18 @@ No single competitor integrates all four market pillars. SHA Wellness Clinic (Sp
 | Metric | Year 1 | Year 5 | 5-Year Total |
 |--------|--------|--------|-------------|
 | Casitas Online | 15→30 | 54→60 | 60 at full build-out |
-| Revenue | $10,300,000 | $34,000,000 | $120,700,000 |
-| EBITDA | $4,301,800 | - | $69,048,096 |
-| Net Income | $2,537,260 | - | $45,102,667 |
+| Revenue | $10,748,000 | $35,461,000 | $125,880,000 |
+| EBITDA | $4,672,000 | - | $73,344,196 |
+| Net Income | $2,796,400 | - | $48,109,937 |
 
 | Metric | Value |
 |--------|-------|
-| 5-Year Total Revenue | $120,700,000 |
-| 5-Year EBITDA | $69,048,096 |
-| 5-Year Net Income | $45,102,667 |
+| 5-Year Total Revenue | $125,880,000 |
+| 5-Year EBITDA | $73,344,196 |
+| 5-Year Net Income | $48,109,937 |
 | 5-Year Free Cash Flow | $40,723,382 |
 | Gross Margin | 83% |
-| EBITDA Margin | 42-60% (expanding with scale) |
+| EBITDA Margin | 43-61% (expanding with scale) |
 | Revenue per Guest | $26,600 |
 
 ### Return Metrics
@@ -301,7 +300,7 @@ No single competitor integrates all four market pillars. SHA Wellness Clinic (Sp
 - Average Daily Rate of $2,000/night across all programs
 - Average revenue per guest of $26,600
 - Average direct cost per guest of $4,629
-- Gross margin of 83%; EBITDA margins expanding from ~42% (Year 1) to ~60% (Year 5)
+- Gross margin of 83%; EBITDA margins expanding from ~43% (Year 1) to ~61% (Year 5)
 - No price increases modeled over the five-year period
 
 *[Note: Detailed financial model and assumptions available in Data Room -- Financial section.]*

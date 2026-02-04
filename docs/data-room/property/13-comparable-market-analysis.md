@@ -42,7 +42,7 @@ Transformational Epicenter is positioned at the **premium tier** of the global w
 | **7-Day Program** | $14,000 | $2,100-$48,000 | Mid-premium |
 | **14-Day Program** | $28,000 | $5,000-$95,000 | Mid-premium |
 | **Revenue Per Guest** | $26,600 | $2,100-$134,000 | Premium |
-| **Year 1 Target Revenue** | $10,300,000 | N/A | Top-tier facility scale |
+| **Year 1 Target Revenue** | $10,748,000 | N/A | Top-tier facility scale |
 
 ### Key Finding
 
@@ -287,7 +287,7 @@ TE needs only 387 guests in Year 1 from a global pool of millions of HNW individ
 | Canyon Ranch (Tucson) | $40-60M (est.) | 220 rooms | $182-273K | Volume model, lower ADR |
 | Chiva-Som | $20-30M (est.) | 58 rooms | $345-517K | Thailand pricing, strong occupancy |
 | Paracelsus Recovery | $15-25M (est.) | 1 client | $15-25M | Ultra-premium, single client model |
-| **Transformational Epicenter (Year 1)** | **$10,300,000** | **23 effective rooms (15→30 casitas)** | **$447,826** | **60% occupancy, first year** |
+| **Transformational Epicenter (Year 1)** | **$10,748,000** | **23 effective rooms (15→30 casitas)** | **$467,304** | **60% occupancy, first year** |
 
 ### 7.2 Revenue Per Room Comparison
 
@@ -305,13 +305,13 @@ TE's projected Year 1 revenue of **$447,826 per effective room** at 60% occupanc
 
 | Year | Casitas (Eff. Rooms) | Revenue | Revenue/Eff. Room | Cumulative |
 |------|---------------------|---------|-------------------|------------|
-| Year 1 | 15→30 (23) | $10,300,000 | $447,826 | $10,300,000 |
-| Year 2 | 30→40 (35) | $19,400,000 | $554,286 | $29,700,000 |
-| Year 3 | 40→48 (44) | $25,900,000 | $588,636 | $55,600,000 |
-| Year 4 | 48→54 (51) | $31,100,000 | $609,804 | $86,700,000 |
-| Year 5 | 54→60 (57) | $34,000,000 | $596,491 | **$120,700,000** |
+| Year 1 | 15→30 (23) | $10,748,000 | $467,304 | $10,748,000 |
+| Year 2 | 30→40 (35) | $20,440,000 | $584,000 | $31,188,000 |
+| Year 3 | 40→48 (44) | $27,426,000 | $623,318 | $58,614,000 |
+| Year 4 | 48→54 (51) | $31,805,000 | $623,627 | $90,419,000 |
+| Year 5 | 54→60 (57) | $35,461,000 | $622,123 | **$125,880,000** |
 
-By Year 5, TE's revenue per effective room of **$596,491** would place it among the highest-performing wellness facilities globally on a per-room basis, reflecting the premium pricing power of the integrated medical + plant medicine model.
+By Year 5, TE's revenue per effective room of **$622,123** would place it among the highest-performing wellness facilities globally on a per-room basis, reflecting the premium pricing power of the integrated medical + plant medicine model.
 
 ### 7.4 Key Revenue Assumptions
 
