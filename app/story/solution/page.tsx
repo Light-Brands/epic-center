@@ -569,8 +569,8 @@ export default function SolutionPage() {
                   <div className="group h-full bg-primary-800/50 rounded-2xl p-6 border border-primary-700/50 hover:border-primary-600/50 transition-all duration-500 backdrop-blur-sm relative overflow-hidden">
                     <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${phase.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
 
-                    <div className="flex items-center gap-4 mb-4">
-                      <div className="w-24 h-24 flex-shrink-0 transition-transform duration-500 group-hover:scale-105">
+                    <div className="flex items-start gap-4 mb-4">
+                      <div className="w-16 h-16 lg:w-14 lg:h-14 xl:w-20 xl:h-20 flex-shrink-0 transition-transform duration-500 group-hover:scale-105">
                         <Image
                           src={phase.icon}
                           alt={phase.phase}
@@ -579,17 +579,16 @@ export default function SolutionPage() {
                           className="object-contain w-full h-full rounded-2xl"
                         />
                       </div>
-                      <div>
+                      <div className="min-w-0">
                         <p className="font-accent text-[10px] uppercase tracking-[0.2em] text-primary-400">
                           Phase {index + 1}
                         </p>
-                        <h3 className="font-heading text-base">{phase.phase}</h3>
+                        <h3 className="font-heading text-base leading-tight">{phase.phase}</h3>
+                        <div className="flex items-center gap-2 mt-1">
+                          <span className="text-xs text-primary-300">{phase.subtitle}</span>
+                          <span className="text-xs text-secondary-400 font-medium">{phase.duration}</span>
+                        </div>
                       </div>
-                    </div>
-
-                    <div className="flex items-center gap-2 mb-4">
-                      <span className="text-xs text-primary-300">{phase.subtitle}</span>
-                      <span className="text-xs text-secondary-400 font-medium">{phase.duration}</span>
                     </div>
 
                     <div className="space-y-2">
