@@ -68,7 +68,7 @@ export default function ModelPage() {
 
   return (
     <div className="min-h-screen bg-canvas pt-20">
-      <div className="w-full sm:w-[70vw] mx-auto py-12">
+      <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-0 py-12">
         {/* Hero Section */}
         <section className="mb-16 text-center">
           <p className="font-accent text-sm uppercase tracking-widest text-secondary-500 mb-4">
@@ -86,23 +86,23 @@ export default function ModelPage() {
 
         {/* Enterprise Value Summary */}
         <section className="mb-16">
-          <Card variant="custom" padding="lg" className="bg-primary-800 text-white rounded-xl">
-            <div className="text-center mb-10">
-              <p className="font-accent text-sm uppercase tracking-widest text-secondary-400 mb-2">
+          <Card variant="custom" padding="sm" className="bg-primary-800 text-white rounded-xl sm:p-8">
+            <div className="text-center mb-6 sm:mb-10">
+              <p className="font-accent text-xs sm:text-sm uppercase tracking-widest text-secondary-400 mb-2">
                 Year 5 Enterprise Value
               </p>
-              <p className="font-heading text-5xl md:text-6xl text-white mb-2">
+              <p className="font-heading text-3xl sm:text-5xl md:text-6xl text-white mb-2">
                 {formatCurrency(enterprise.sumOfPartsValue.base)}
               </p>
-              <p className="text-primary-300 text-lg">Sum-of-Parts Valuation (Base Case)</p>
+              <p className="text-primary-300 text-sm sm:text-lg">Sum-of-Parts Valuation (Base Case)</p>
             </div>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-4">
               {businessUnits.map((unit) => (
-                <div key={unit.id} className="bg-white/10 rounded-lg p-4 text-center hover:bg-white/15 transition-colors">
-                  <p className="font-heading text-2xl text-white">{formatCurrency(unit.standaloneValue.base)}</p>
-                  <p className="text-sm text-primary-200 mt-1">{unit.name}</p>
+                <div key={unit.id} className="bg-white/10 rounded-lg p-3 sm:p-4 text-center hover:bg-white/15 transition-colors">
+                  <p className="font-heading text-base sm:text-2xl text-white">{formatCurrency(unit.standaloneValue.base)}</p>
+                  <p className="text-xs sm:text-sm text-primary-200 mt-1">{unit.name}</p>
                   {unit.y5Revenue.base > 0 && (
-                    <p className="text-xs text-primary-400 mt-1">{formatCurrency(unit.y5Revenue.base)} Y5 Rev</p>
+                    <p className="text-[10px] sm:text-xs text-primary-400 mt-1">{formatCurrency(unit.y5Revenue.base)} Y5 Rev</p>
                   )}
                 </div>
               ))}
@@ -112,9 +112,9 @@ export default function ModelPage() {
 
         {/* The Transformational Model Phases */}
         <section className="mb-16">
-          <Card variant="custom" padding="lg" className="bg-primary-800 text-white rounded-xl">
-            <h3 className="text-2xl font-heading text-center text-white mb-12">The Transformational Epicenter Model</h3>
-            <div className="grid md:grid-cols-4 gap-6">
+          <Card variant="custom" padding="sm" className="bg-primary-800 text-white rounded-xl sm:p-8">
+            <h3 className="text-xl sm:text-2xl font-heading text-center text-white mb-6 sm:mb-12">The Transformational Epicenter Model</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
               {[
                 {
                   phase: '1',
@@ -142,20 +142,20 @@ export default function ModelPage() {
                 },
               ].map((phase) => (
                 <div key={phase.phase} className="text-center group">
-                  <div className="w-40 h-40 mx-auto mb-4 rounded-2xl overflow-hidden bg-white/10 p-3 transition-all duration-500 group-hover:bg-white/20 group-hover:scale-105">
+                  <div className="w-24 h-24 sm:w-40 sm:h-40 mx-auto mb-3 sm:mb-4 rounded-2xl overflow-hidden bg-white/10 p-2 sm:p-3 transition-all duration-500 group-hover:bg-white/20 group-hover:scale-105">
                     <Image
                       src={phase.icon}
                       alt={phase.title}
                       width={160}
                       height={160}
-                      className="object-contain rounded-xl"
+                      className="object-contain rounded-xl w-full h-full"
                     />
                   </div>
-                  <div className="font-accent text-xs uppercase tracking-widest text-secondary-400 mb-2">
+                  <div className="font-accent text-[10px] sm:text-xs uppercase tracking-widest text-secondary-400 mb-1 sm:mb-2">
                     Phase {phase.phase}
                   </div>
-                  <h4 className="text-xl font-heading text-white mb-4">{phase.title}</h4>
-                  <ul className="space-y-2 text-sm text-primary-200">
+                  <h4 className="text-base sm:text-xl font-heading text-white mb-2 sm:mb-4">{phase.title}</h4>
+                  <ul className="space-y-1 sm:space-y-2 text-xs sm:text-sm text-primary-200">
                     {phase.items.map((item) => (
                       <li key={item}>{item}</li>
                     ))}
@@ -177,64 +177,64 @@ export default function ModelPage() {
 
           <div className="space-y-4">
             {/* Healing Center */}
-            <Card padding="none" className="overflow-hidden">
-              <div className="flex items-center gap-4 p-6">
-                <div className="w-12 h-12 rounded-lg bg-primary-100 flex items-center justify-center">
+            <Card padding="none" className="overflow-visible">
+              <div className="flex items-center gap-4 p-4 sm:p-6">
+                <div className="w-12 h-12 rounded-lg bg-primary-100 flex items-center justify-center flex-shrink-0">
                   <span className="text-2xl">🏥</span>
                 </div>
-                <div>
-                  <h4 className="text-xl font-heading text-neutral-900">Healing Center</h4>
-                  <p className="text-sm text-neutral-500">Clinical operations — {formatCurrency(businessUnits[0].standaloneValue.base)} standalone value</p>
+                <div className="min-w-0">
+                  <h4 className="text-lg sm:text-xl font-heading text-neutral-900">Healing Center</h4>
+                  <p className="text-xs sm:text-sm text-neutral-500">Clinical operations — {formatCurrency(businessUnits[0].standaloneValue.base)} standalone value</p>
                 </div>
               </div>
-              <div className="px-6 pb-6 border-t border-neutral-200">
-                  <div className="grid sm:grid-cols-3 gap-4 py-4 mb-4">
-                    <div className="text-center p-3 bg-neutral-50 rounded-lg">
-                      <p className="font-heading text-xl text-primary-800">{formatCurrency(businessUnits[0].y5Revenue.base)}</p>
-                      <p className="text-xs text-neutral-500">Y5 Revenue</p>
+              <div className="px-4 sm:px-6 pb-4 sm:pb-6 border-t border-neutral-200">
+                  <div className="grid grid-cols-3 gap-2 sm:gap-4 py-4 mb-4">
+                    <div className="text-center p-2 sm:p-3 bg-neutral-50 rounded-lg">
+                      <p className="font-heading text-sm sm:text-xl text-primary-800">{formatCurrency(businessUnits[0].y5Revenue.base)}</p>
+                      <p className="text-[10px] sm:text-xs text-neutral-500">Y5 Revenue</p>
                     </div>
-                    <div className="text-center p-3 bg-neutral-50 rounded-lg">
-                      <p className="font-heading text-xl text-primary-800">{formatCurrency(businessUnits[0].y5EBITDA.base)}</p>
-                      <p className="text-xs text-neutral-500">Y5 EBITDA (61% margin)</p>
+                    <div className="text-center p-2 sm:p-3 bg-neutral-50 rounded-lg">
+                      <p className="font-heading text-sm sm:text-xl text-primary-800">{formatCurrency(businessUnits[0].y5EBITDA.base)}</p>
+                      <p className="text-[10px] sm:text-xs text-neutral-500">Y5 EBITDA (61%)</p>
                     </div>
-                    <div className="text-center p-3 bg-neutral-50 rounded-lg">
-                      <p className="font-heading text-xl text-primary-800">5.5x</p>
-                      <p className="text-xs text-neutral-500">EBITDA Multiple</p>
+                    <div className="text-center p-2 sm:p-3 bg-neutral-50 rounded-lg">
+                      <p className="font-heading text-sm sm:text-xl text-primary-800">5.5x</p>
+                      <p className="text-[10px] sm:text-xs text-neutral-500">EBITDA Multiple</p>
                     </div>
                   </div>
-                  <div className="grid md:grid-cols-2 gap-6">
+                  <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
                     {TREATMENT_PROGRAMS.map((program) => (
-                      <Card key={program.id} padding="lg" hoverable className="group">
-                        <div className="flex items-start gap-6 mb-4">
-                          <div className="w-36 h-36 flex-shrink-0 transition-transform duration-500 group-hover:scale-110">
+                      <Card key={program.id} padding="sm" hoverable className="group sm:p-6">
+                        <div className="flex items-start gap-4 mb-4">
+                          <div className="w-20 h-20 sm:w-36 sm:h-36 flex-shrink-0 transition-transform duration-500 group-hover:scale-110">
                             <Image
                               src={program.icon}
                               alt={program.name}
                               width={144}
                               height={144}
-                              className="object-contain"
+                              className="object-contain w-full h-full"
                             />
                           </div>
-                          <div className="flex-1 pt-2">
-                            <h4 className="text-2xl font-heading text-neutral-900">{program.name}</h4>
-                            <div className="flex gap-4 text-sm text-neutral-500 mt-2">
-                              <span className="flex items-center gap-2">
-                                <Image src="/icons/util-clock.png" alt="Duration" width={20} height={20} className="object-contain" />
+                          <div className="flex-1 min-w-0 pt-1 sm:pt-2">
+                            <h4 className="text-lg sm:text-2xl font-heading text-neutral-900">{program.name}</h4>
+                            <div className="flex flex-wrap gap-2 sm:gap-4 text-xs sm:text-sm text-neutral-500 mt-1 sm:mt-2">
+                              <span className="flex items-center gap-1 sm:gap-2">
+                                <Image src="/icons/util-clock.png" alt="Duration" width={16} height={16} className="object-contain sm:w-5 sm:h-5" />
                                 {program.duration}
                               </span>
                               <span className="font-medium text-primary-600">{program.price}</span>
                             </div>
                           </div>
                         </div>
-                        <p className="text-neutral-600 mb-4">{program.description}</p>
-                        <div className="pt-4 border-t border-neutral-200">
+                        <p className="text-sm sm:text-base text-neutral-600 mb-4">{program.description}</p>
+                        <div className="pt-3 sm:pt-4 border-t border-neutral-200">
                           <p className="text-xs font-accent uppercase tracking-wide text-neutral-500 mb-2">
                             Key Outcomes
                           </p>
                           <ul className="space-y-1">
                             {program.outcomes.map((outcome) => (
-                              <li key={outcome} className="flex items-center gap-2 text-sm text-neutral-700">
-                                <span className="w-1.5 h-1.5 rounded-full bg-success-500" />
+                              <li key={outcome} className="flex items-start gap-2 text-xs sm:text-sm text-neutral-700">
+                                <span className="w-1.5 h-1.5 rounded-full bg-success-500 mt-1.5 flex-shrink-0" />
                                 {outcome}
                               </li>
                             ))}
@@ -247,40 +247,40 @@ export default function ModelPage() {
             </Card>
 
             {/* Real Estate Development */}
-            <Card padding="none" className="overflow-hidden">
-              <div className="flex items-center gap-4 p-6">
-                <div className="w-12 h-12 rounded-lg bg-secondary-100 flex items-center justify-center">
+            <Card padding="none" className="overflow-visible">
+              <div className="flex items-center gap-4 p-4 sm:p-6">
+                <div className="w-12 h-12 rounded-lg bg-secondary-100 flex items-center justify-center flex-shrink-0">
                   <span className="text-2xl">🏗️</span>
                 </div>
-                <div>
-                  <h4 className="text-xl font-heading text-neutral-900">Real Estate Development</h4>
-                  <p className="text-sm text-neutral-500">48-villa condo-hotel — {formatCurrency(businessUnits[1].standaloneValue.base)} standalone value</p>
+                <div className="min-w-0">
+                  <h4 className="text-lg sm:text-xl font-heading text-neutral-900">Real Estate Development</h4>
+                  <p className="text-xs sm:text-sm text-neutral-500">48-villa condo-hotel — {formatCurrency(businessUnits[1].standaloneValue.base)} standalone value</p>
                 </div>
               </div>
-              <div className="px-6 pb-6 border-t border-neutral-200">
-                  <div className="grid sm:grid-cols-3 gap-4 py-4 mb-4">
-                    <div className="text-center p-3 bg-neutral-50 rounded-lg">
-                      <p className="font-heading text-xl text-primary-800">$96M</p>
-                      <p className="text-xs text-neutral-500">Total Villa Sales</p>
+              <div className="px-4 sm:px-6 pb-4 sm:pb-6 border-t border-neutral-200">
+                  <div className="grid grid-cols-3 gap-2 sm:gap-4 py-4 mb-4">
+                    <div className="text-center p-2 sm:p-3 bg-neutral-50 rounded-lg">
+                      <p className="font-heading text-sm sm:text-xl text-primary-800">$96M</p>
+                      <p className="text-[10px] sm:text-xs text-neutral-500">Total Villa Sales</p>
                     </div>
-                    <div className="text-center p-3 bg-neutral-50 rounded-lg">
-                      <p className="font-heading text-xl text-primary-800">{formatCurrency(villaFinancials.cumulativeDevFees)}</p>
-                      <p className="text-xs text-neutral-500">Cumulative Dev Fees</p>
+                    <div className="text-center p-2 sm:p-3 bg-neutral-50 rounded-lg">
+                      <p className="font-heading text-sm sm:text-xl text-primary-800">{formatCurrency(villaFinancials.cumulativeDevFees)}</p>
+                      <p className="text-[10px] sm:text-xs text-neutral-500">Cumulative Dev Fees</p>
                     </div>
-                    <div className="text-center p-3 bg-neutral-50 rounded-lg">
-                      <p className="font-heading text-xl text-primary-800">48</p>
-                      <p className="text-xs text-neutral-500">Villas (Buyer-Funded)</p>
+                    <div className="text-center p-2 sm:p-3 bg-neutral-50 rounded-lg">
+                      <p className="font-heading text-sm sm:text-xl text-primary-800">48</p>
+                      <p className="text-[10px] sm:text-xs text-neutral-500">Villas (Buyer-Funded)</p>
                     </div>
                   </div>
-                  <div className="overflow-x-auto">
-                    <table className="w-full text-sm">
+                  <div className="overflow-x-auto -mx-4 sm:mx-0 px-4 sm:px-0">
+                    <table className="w-full text-xs sm:text-sm min-w-[480px]">
                       <thead>
                         <tr className="border-b-2 border-neutral-200">
-                          <th className="text-left py-3 font-accent text-xs uppercase tracking-wide text-neutral-500">Year</th>
-                          <th className="text-right py-3 font-accent text-xs uppercase tracking-wide text-neutral-500">Villas Sold</th>
-                          <th className="text-right py-3 font-accent text-xs uppercase tracking-wide text-neutral-500">Sales Revenue</th>
-                          <th className="text-right py-3 font-accent text-xs uppercase tracking-wide text-neutral-500">Dev Fee (12.5%)</th>
-                          <th className="text-right py-3 font-accent text-xs uppercase tracking-wide text-neutral-500">Cumulative Fees</th>
+                          <th className="text-left py-3 font-accent text-[10px] sm:text-xs uppercase tracking-wide text-neutral-500">Year</th>
+                          <th className="text-right py-3 font-accent text-[10px] sm:text-xs uppercase tracking-wide text-neutral-500">Villas Sold</th>
+                          <th className="text-right py-3 font-accent text-[10px] sm:text-xs uppercase tracking-wide text-neutral-500">Sales Revenue</th>
+                          <th className="text-right py-3 font-accent text-[10px] sm:text-xs uppercase tracking-wide text-neutral-500">Dev Fee (12.5%)</th>
+                          <th className="text-right py-3 font-accent text-[10px] sm:text-xs uppercase tracking-wide text-neutral-500">Cumulative Fees</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -296,46 +296,46 @@ export default function ModelPage() {
                       </tbody>
                     </table>
                   </div>
-                  <p className="text-sm text-neutral-500 mt-4">
+                  <p className="text-xs sm:text-sm text-neutral-500 mt-4">
                     All construction is buyer-funded. Development fees are earned on sale with minimal capital at risk.
                   </p>
                 </div>
             </Card>
 
             {/* Property Management */}
-            <Card padding="none" className="overflow-hidden">
-              <div className="flex items-center gap-4 p-6">
-                <div className="w-12 h-12 rounded-lg bg-success-100 flex items-center justify-center">
+            <Card padding="none" className="overflow-visible">
+              <div className="flex items-center gap-4 p-4 sm:p-6">
+                <div className="w-12 h-12 rounded-lg bg-success-100 flex items-center justify-center flex-shrink-0">
                   <span className="text-2xl">🏠</span>
                 </div>
-                <div>
-                  <h4 className="text-xl font-heading text-neutral-900">Property Management</h4>
-                  <p className="text-sm text-neutral-500">25% villa rental revenue — {formatCurrency(businessUnits[2].standaloneValue.base)} standalone value</p>
+                <div className="min-w-0">
+                  <h4 className="text-lg sm:text-xl font-heading text-neutral-900">Property Management</h4>
+                  <p className="text-xs sm:text-sm text-neutral-500">25% villa rental revenue — {formatCurrency(businessUnits[2].standaloneValue.base)} standalone value</p>
                 </div>
               </div>
-              <div className="px-6 pb-6 border-t border-neutral-200">
-                  <div className="grid sm:grid-cols-3 gap-4 py-4 mb-4">
-                    <div className="text-center p-3 bg-neutral-50 rounded-lg">
-                      <p className="font-heading text-xl text-primary-800">{formatCurrency(businessUnits[2].y5Revenue.base)}</p>
-                      <p className="text-xs text-neutral-500">Y5 Revenue (Recurring)</p>
+              <div className="px-4 sm:px-6 pb-4 sm:pb-6 border-t border-neutral-200">
+                  <div className="grid grid-cols-3 gap-2 sm:gap-4 py-4 mb-4">
+                    <div className="text-center p-2 sm:p-3 bg-neutral-50 rounded-lg">
+                      <p className="font-heading text-sm sm:text-xl text-primary-800">{formatCurrency(businessUnits[2].y5Revenue.base)}</p>
+                      <p className="text-[10px] sm:text-xs text-neutral-500">Y5 Revenue (Recurring)</p>
                     </div>
-                    <div className="text-center p-3 bg-neutral-50 rounded-lg">
-                      <p className="font-heading text-xl text-primary-800">{formatCurrency(businessUnits[2].y5EBITDA.base)}</p>
-                      <p className="text-xs text-neutral-500">Y5 EBITDA (60% margin)</p>
+                    <div className="text-center p-2 sm:p-3 bg-neutral-50 rounded-lg">
+                      <p className="font-heading text-sm sm:text-xl text-primary-800">{formatCurrency(businessUnits[2].y5EBITDA.base)}</p>
+                      <p className="text-[10px] sm:text-xs text-neutral-500">Y5 EBITDA (60%)</p>
                     </div>
-                    <div className="text-center p-3 bg-neutral-50 rounded-lg">
-                      <p className="font-heading text-xl text-primary-800">10.0x</p>
-                      <p className="text-xs text-neutral-500">EBITDA Multiple</p>
+                    <div className="text-center p-2 sm:p-3 bg-neutral-50 rounded-lg">
+                      <p className="font-heading text-sm sm:text-xl text-primary-800">10.0x</p>
+                      <p className="text-[10px] sm:text-xs text-neutral-500">EBITDA Multiple</p>
                     </div>
                   </div>
-                  <div className="overflow-x-auto">
-                    <table className="w-full text-sm">
+                  <div className="overflow-x-auto -mx-4 sm:mx-0 px-4 sm:px-0">
+                    <table className="w-full text-xs sm:text-sm min-w-[400px]">
                       <thead>
                         <tr className="border-b-2 border-neutral-200">
-                          <th className="text-left py-3 font-accent text-xs uppercase tracking-wide text-neutral-500">Year</th>
-                          <th className="text-right py-3 font-accent text-xs uppercase tracking-wide text-neutral-500">Villas Operational</th>
-                          <th className="text-right py-3 font-accent text-xs uppercase tracking-wide text-neutral-500">Rental Revenue</th>
-                          <th className="text-right py-3 font-accent text-xs uppercase tracking-wide text-neutral-500">Mgmt Fee (25%)</th>
+                          <th className="text-left py-3 font-accent text-[10px] sm:text-xs uppercase tracking-wide text-neutral-500">Year</th>
+                          <th className="text-right py-3 font-accent text-[10px] sm:text-xs uppercase tracking-wide text-neutral-500">Villas Operational</th>
+                          <th className="text-right py-3 font-accent text-[10px] sm:text-xs uppercase tracking-wide text-neutral-500">Rental Revenue</th>
+                          <th className="text-right py-3 font-accent text-[10px] sm:text-xs uppercase tracking-wide text-neutral-500">Mgmt Fee (25%)</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -350,41 +350,41 @@ export default function ModelPage() {
                       </tbody>
                     </table>
                   </div>
-                  <p className="text-sm text-neutral-500 mt-4">
+                  <p className="text-xs sm:text-sm text-neutral-500 mt-4">
                     Contractual, recurring revenue stream that grows as villas come online. High-margin (60%) with minimal incremental cost.
                   </p>
                 </div>
             </Card>
 
             {/* Technology Platform */}
-            <Card padding="none" className="overflow-hidden">
-              <div className="flex items-center gap-4 p-6">
-                <div className="w-12 h-12 rounded-lg bg-primary-50 flex items-center justify-center">
+            <Card padding="none" className="overflow-visible">
+              <div className="flex items-center gap-4 p-4 sm:p-6">
+                <div className="w-12 h-12 rounded-lg bg-primary-50 flex items-center justify-center flex-shrink-0">
                   <span className="text-2xl">💻</span>
                 </div>
-                <div>
-                  <h4 className="text-xl font-heading text-neutral-900">Technology & Digital Platform</h4>
-                  <p className="text-sm text-neutral-500">14 integrated systems — {formatCurrency(businessUnits[3].standaloneValue.base)} standalone value</p>
+                <div className="min-w-0">
+                  <h4 className="text-lg sm:text-xl font-heading text-neutral-900">Technology & Digital Platform</h4>
+                  <p className="text-xs sm:text-sm text-neutral-500">14 integrated systems — {formatCurrency(businessUnits[3].standaloneValue.base)} standalone value</p>
                 </div>
               </div>
-              <div className="px-6 pb-6 border-t border-neutral-200">
-                  <div className="grid sm:grid-cols-3 gap-4 py-4 mb-4">
-                    <div className="text-center p-3 bg-neutral-50 rounded-lg">
-                      <p className="font-heading text-xl text-primary-800">$1.23M</p>
-                      <p className="text-xs text-neutral-500">Total Investment</p>
+              <div className="px-4 sm:px-6 pb-4 sm:pb-6 border-t border-neutral-200">
+                  <div className="grid grid-cols-3 gap-2 sm:gap-4 py-4 mb-4">
+                    <div className="text-center p-2 sm:p-3 bg-neutral-50 rounded-lg">
+                      <p className="font-heading text-sm sm:text-xl text-primary-800">$1.23M</p>
+                      <p className="text-[10px] sm:text-xs text-neutral-500">Total Investment</p>
                     </div>
-                    <div className="text-center p-3 bg-neutral-50 rounded-lg">
-                      <p className="font-heading text-xl text-primary-800">14</p>
-                      <p className="text-xs text-neutral-500">Integrated Systems</p>
+                    <div className="text-center p-2 sm:p-3 bg-neutral-50 rounded-lg">
+                      <p className="font-heading text-sm sm:text-xl text-primary-800">14</p>
+                      <p className="text-[10px] sm:text-xs text-neutral-500">Integrated Systems</p>
                     </div>
-                    <div className="text-center p-3 bg-neutral-50 rounded-lg">
-                      <p className="font-heading text-xl text-primary-800">60%</p>
-                      <p className="text-xs text-neutral-500">Cost Reduction (New Site)</p>
+                    <div className="text-center p-2 sm:p-3 bg-neutral-50 rounded-lg">
+                      <p className="font-heading text-sm sm:text-xl text-primary-800">60%</p>
+                      <p className="text-[10px] sm:text-xs text-neutral-500">Cost Reduction</p>
                     </div>
                   </div>
-                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 sm:gap-3">
                     {TECH_SYSTEMS.map((system) => (
-                      <div key={system} className="bg-neutral-50 rounded-lg px-3 py-2 text-sm text-neutral-700 text-center">
+                      <div key={system} className="bg-neutral-50 rounded-lg px-2 sm:px-3 py-2 text-xs sm:text-sm text-neutral-700 text-center">
                         {system}
                       </div>
                     ))}
@@ -405,47 +405,47 @@ export default function ModelPage() {
             </p>
             <h3 className="text-3xl font-heading text-neutral-900">Sum-of-Parts Analysis</h3>
           </div>
-          <Card padding="lg">
-            <div className="overflow-x-auto">
-              <table className="w-full">
+          <Card padding="sm" className="sm:p-8">
+            <div className="overflow-x-auto -mx-4 sm:mx-0 px-4 sm:px-0">
+              <table className="w-full text-xs sm:text-sm min-w-[600px]">
                 <thead>
                   <tr className="border-b-2 border-neutral-200">
-                    <th className="text-left py-4 pr-4 font-accent text-xs uppercase tracking-wide text-neutral-500">Business Unit</th>
-                    <th className="text-right py-4 px-4 font-accent text-xs uppercase tracking-wide text-neutral-500">Y5 Revenue</th>
-                    <th className="text-right py-4 px-4 font-accent text-xs uppercase tracking-wide text-neutral-500">Y5 EBITDA</th>
-                    <th className="text-right py-4 px-4 font-accent text-xs uppercase tracking-wide text-neutral-500">Multiple</th>
-                    <th className="text-right py-4 px-4 font-accent text-xs uppercase tracking-wide text-neutral-500">Methodology</th>
-                    <th className="text-right py-4 pl-4 font-accent text-xs uppercase tracking-wide text-neutral-500">Standalone Value</th>
+                    <th className="text-left py-3 sm:py-4 pr-3 sm:pr-4 font-accent text-[10px] sm:text-xs uppercase tracking-wide text-neutral-500">Business Unit</th>
+                    <th className="text-right py-3 sm:py-4 px-2 sm:px-4 font-accent text-[10px] sm:text-xs uppercase tracking-wide text-neutral-500">Y5 Revenue</th>
+                    <th className="text-right py-3 sm:py-4 px-2 sm:px-4 font-accent text-[10px] sm:text-xs uppercase tracking-wide text-neutral-500">Y5 EBITDA</th>
+                    <th className="text-right py-3 sm:py-4 px-2 sm:px-4 font-accent text-[10px] sm:text-xs uppercase tracking-wide text-neutral-500">Multiple</th>
+                    <th className="text-right py-3 sm:py-4 px-2 sm:px-4 font-accent text-[10px] sm:text-xs uppercase tracking-wide text-neutral-500">Methodology</th>
+                    <th className="text-right py-3 sm:py-4 pl-2 sm:pl-4 font-accent text-[10px] sm:text-xs uppercase tracking-wide text-neutral-500">Standalone Value</th>
                   </tr>
                 </thead>
                 <tbody>
                   {businessUnits.map((unit) => (
                     <tr key={unit.id} className="border-b border-neutral-100 hover:bg-neutral-50 transition-colors">
-                      <td className="py-4 pr-4 font-medium text-neutral-900">{unit.name}</td>
-                      <td className="py-4 px-4 text-right text-neutral-700">
+                      <td className="py-3 sm:py-4 pr-3 sm:pr-4 font-medium text-neutral-900">{unit.name}</td>
+                      <td className="py-3 sm:py-4 px-2 sm:px-4 text-right text-neutral-700">
                         {unit.y5Revenue.base > 0 ? formatCurrency(unit.y5Revenue.base) : '—'}
                       </td>
-                      <td className="py-4 px-4 text-right text-neutral-700">
+                      <td className="py-3 sm:py-4 px-2 sm:px-4 text-right text-neutral-700">
                         {unit.y5EBITDA.base > 0 ? formatCurrency(unit.y5EBITDA.base) : '—'}
                       </td>
-                      <td className="py-4 px-4 text-right text-neutral-700">{unit.multiple.toFixed(1)}x</td>
-                      <td className="py-4 px-4 text-right text-sm text-neutral-500">{unit.multipleLabel}</td>
-                      <td className="py-4 pl-4 text-right font-heading text-lg text-primary-800">
+                      <td className="py-3 sm:py-4 px-2 sm:px-4 text-right text-neutral-700">{unit.multiple.toFixed(1)}x</td>
+                      <td className="py-3 sm:py-4 px-2 sm:px-4 text-right text-neutral-500">{unit.multipleLabel}</td>
+                      <td className="py-3 sm:py-4 pl-2 sm:pl-4 text-right font-heading text-sm sm:text-lg text-primary-800">
                         {formatCurrency(unit.standaloneValue.base)}
                       </td>
                     </tr>
                   ))}
                   <tr className="border-t-2 border-primary-800 bg-primary-50">
-                    <td className="py-4 pr-4 font-heading text-lg text-primary-900">Combined Enterprise</td>
-                    <td className="py-4 px-4 text-right font-medium text-primary-800">
+                    <td className="py-3 sm:py-4 pr-3 sm:pr-4 font-heading text-sm sm:text-lg text-primary-900">Combined Enterprise</td>
+                    <td className="py-3 sm:py-4 px-2 sm:px-4 text-right font-medium text-primary-800">
                       {formatCurrency(enterprise.combinedY5Revenue.base)}
                     </td>
-                    <td className="py-4 px-4 text-right font-medium text-primary-800">
+                    <td className="py-3 sm:py-4 px-2 sm:px-4 text-right font-medium text-primary-800">
                       {formatCurrency(enterprise.combinedY5EBITDA.base)}
                     </td>
-                    <td className="py-4 px-4" />
-                    <td className="py-4 px-4 text-right text-sm text-primary-600">Sum-of-Parts</td>
-                    <td className="py-4 pl-4 text-right font-heading text-2xl text-primary-900">
+                    <td className="py-3 sm:py-4 px-2 sm:px-4" />
+                    <td className="py-3 sm:py-4 px-2 sm:px-4 text-right text-primary-600">Sum-of-Parts</td>
+                    <td className="py-3 sm:py-4 pl-2 sm:pl-4 text-right font-heading text-base sm:text-2xl text-primary-900">
                       {formatCurrency(enterprise.sumOfPartsValue.base)}
                     </td>
                   </tr>
@@ -457,13 +457,13 @@ export default function ModelPage() {
 
         {/* Revenue Composition */}
         <section className="mb-16">
-          <div className="grid lg:grid-cols-2 gap-8">
+          <div className="grid lg:grid-cols-2 gap-6 sm:gap-8">
             <div>
               <p className="font-accent text-sm uppercase tracking-widest text-secondary-500 mb-2">
                 Revenue Mix
               </p>
-              <h3 className="text-3xl font-heading text-neutral-900 mb-6">Revenue Composition</h3>
-              <p className="text-neutral-600 mb-8">
+              <h3 className="text-2xl sm:text-3xl font-heading text-neutral-900 mb-4 sm:mb-6">Revenue Composition</h3>
+              <p className="text-sm sm:text-base text-neutral-600 mb-6 sm:mb-8">
                 Treatment programs remain the core revenue driver, with bio-optimization add-ons,
                 villa development fees, and management income providing diversification.
               </p>
@@ -477,10 +477,10 @@ export default function ModelPage() {
                 ].map((stream, index) => (
                   <div key={stream.name}>
                     <div className="flex justify-between items-center mb-2">
-                      <span className="font-medium text-neutral-900">{stream.name}</span>
-                      <span className="font-heading text-lg text-primary-600">{stream.percentage}%</span>
+                      <span className="text-sm sm:text-base font-medium text-neutral-900">{stream.name}</span>
+                      <span className="font-heading text-base sm:text-lg text-primary-600">{stream.percentage}%</span>
                     </div>
-                    <div className="h-3 bg-neutral-200 rounded-full overflow-hidden">
+                    <div className="h-2 sm:h-3 bg-neutral-200 rounded-full overflow-hidden">
                       <div
                         className="h-full rounded-full transition-all duration-500"
                         style={{
@@ -489,15 +489,15 @@ export default function ModelPage() {
                         }}
                       />
                     </div>
-                    <p className="text-sm text-neutral-500 mt-1">{stream.description}</p>
+                    <p className="text-xs sm:text-sm text-neutral-500 mt-1">{stream.description}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <Card padding="lg" className="bg-neutral-100">
-              <h4 className="text-xl font-heading text-neutral-900 mb-6">Unit Economics Summary</h4>
-              <div className="space-y-4">
+            <Card padding="sm" className="bg-neutral-100 sm:p-8">
+              <h4 className="text-lg sm:text-xl font-heading text-neutral-900 mb-4 sm:mb-6">Unit Economics Summary</h4>
+              <div className="space-y-3 sm:space-y-4">
                 {[
                   { label: 'Avg Revenue per Guest', value: '$26,600' },
                   { label: 'Direct Cost per Guest', value: '$4,629' },
@@ -506,9 +506,9 @@ export default function ModelPage() {
                   { label: 'Customer Acquisition Cost', value: '$2,613' },
                   { label: 'LTV:CAC Ratio', value: '13.0x' },
                 ].map((metric) => (
-                  <div key={metric.label} className="flex justify-between items-center py-3 border-b border-neutral-200 last:border-0">
-                    <span className="text-neutral-700">{metric.label}</span>
-                    <span className="font-heading text-xl text-primary-800">{metric.value}</span>
+                  <div key={metric.label} className="flex justify-between items-center py-2 sm:py-3 border-b border-neutral-200 last:border-0">
+                    <span className="text-sm sm:text-base text-neutral-700">{metric.label}</span>
+                    <span className="font-heading text-base sm:text-xl text-primary-800">{metric.value}</span>
                   </div>
                 ))}
               </div>
@@ -524,7 +524,7 @@ export default function ModelPage() {
             </p>
             <h3 className="text-3xl font-heading text-neutral-900">What Sets Us Apart</h3>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-8">
             {[
               {
                 title: 'Medical-Grade Protocols',
@@ -557,18 +557,18 @@ export default function ModelPage() {
                 icon: '/icons/diff-location.png',
               },
             ].map((diff) => (
-              <Card key={diff.title} padding="lg" className="group hover:shadow-xl transition-all duration-500 text-center">
-                <div className="w-40 h-40 mx-auto mb-4 transition-transform duration-500 group-hover:scale-110">
+              <Card key={diff.title} padding="sm" className="group hover:shadow-xl transition-all duration-500 text-center sm:p-8">
+                <div className="w-24 h-24 sm:w-40 sm:h-40 mx-auto mb-3 sm:mb-4 transition-transform duration-500 group-hover:scale-110">
                   <Image
                     src={diff.icon}
                     alt={diff.title}
                     width={160}
                     height={160}
-                    className="object-contain"
+                    className="object-contain w-full h-full"
                   />
                 </div>
-                <h4 className="text-lg font-heading text-neutral-900 mb-2">{diff.title}</h4>
-                <p className="text-sm text-neutral-600">{diff.description}</p>
+                <h4 className="text-sm sm:text-lg font-heading text-neutral-900 mb-1 sm:mb-2">{diff.title}</h4>
+                <p className="text-xs sm:text-sm text-neutral-600 hidden sm:block">{diff.description}</p>
               </Card>
             ))}
           </div>
@@ -576,39 +576,39 @@ export default function ModelPage() {
 
         {/* Designed for Scale */}
         <section className="mb-16">
-          <Card padding="lg" className="bg-gradient-to-br from-secondary-400 to-secondary-500 text-primary-900">
-            <div className="grid md:grid-cols-2 gap-8 items-center">
+          <Card padding="sm" className="bg-gradient-to-br from-secondary-400 to-secondary-500 text-primary-900 sm:p-8">
+            <div className="grid md:grid-cols-2 gap-6 sm:gap-8 items-center">
               <div>
-                <h3 className="text-3xl font-heading mb-4">Designed for Scale</h3>
-                <p className="text-primary-800 mb-6">
+                <h3 className="text-2xl sm:text-3xl font-heading mb-3 sm:mb-4">Designed for Scale</h3>
+                <p className="text-sm sm:text-base text-primary-800 mb-4 sm:mb-6">
                   Our integrated campus model — 60 casitas plus 48 villas — is designed for
                   operational maturity and compounding returns as the facility reaches full capacity.
                 </p>
-                <div className="space-y-3">
+                <div className="space-y-2 sm:space-y-3">
                   {[
                     'Standardized clinical protocols and training programs',
                     'Technology-enabled operations across 14 integrated systems',
                     'Brand equity driving referrals and premium pricing',
                     'Phased capacity expansion funded from operating cash flow',
                   ].map((point) => (
-                    <div key={point} className="flex items-center gap-2">
-                      <div className="w-2 h-2 rounded-full bg-primary-800" />
-                      <span>{point}</span>
+                    <div key={point} className="flex items-start gap-2">
+                      <div className="w-2 h-2 rounded-full bg-primary-800 mt-1.5 flex-shrink-0" />
+                      <span className="text-sm sm:text-base">{point}</span>
                     </div>
                   ))}
                 </div>
               </div>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-2 gap-2 sm:gap-4">
                 {[
                   { value: '60', label: 'Casitas', sublabel: 'Full campus (Year 5)' },
                   { value: '1,280', label: 'Guests/Year', sublabel: 'At 80% occupancy' },
                   { value: formatCurrency(enterprise.combinedY5Revenue.base), label: 'Y5 Revenue', sublabel: 'All business units' },
                   { value: '61%', label: 'EBITDA Margin', sublabel: 'Healing center at maturity' },
                 ].map((stat) => (
-                  <div key={stat.label} className="bg-white/20 rounded-lg p-4 text-center">
-                    <p className="font-heading text-3xl">{stat.value}</p>
-                    <p className="font-medium text-sm">{stat.label}</p>
-                    <p className="text-xs text-primary-700">{stat.sublabel}</p>
+                  <div key={stat.label} className="bg-white/20 rounded-lg p-3 sm:p-4 text-center">
+                    <p className="font-heading text-xl sm:text-3xl">{stat.value}</p>
+                    <p className="font-medium text-xs sm:text-sm">{stat.label}</p>
+                    <p className="text-[10px] sm:text-xs text-primary-700">{stat.sublabel}</p>
                   </div>
                 ))}
               </div>
