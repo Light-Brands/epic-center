@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { ArrowLeft, ArrowRight, CheckCircle2, Circle, Clock, Building2, Users, Briefcase, Heart, TrendingUp } from 'lucide-react'
+import { ArrowLeft, ArrowRight, CheckCircle2, Circle, Clock, Building2, Users, Briefcase, Heart } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { Button, Card } from '@/components/ui'
 import { Footer } from '@/components/layout'
@@ -395,73 +395,6 @@ export default function TimelinePage() {
                 </motion.div>
               ))}
             </motion.div>
-          </Card>
-        </motion.section>
-
-        {/* Exit Timeline */}
-        <motion.section
-          initial={{ opacity: 0, scale: 0.98 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 1.3, duration: 0.6 }}
-          className="mb-16"
-        >
-          <Card padding="lg" className="bg-gradient-to-br from-secondary-400 to-secondary-500 text-primary-900">
-            <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div>
-                <p className="font-accent text-sm uppercase tracking-widest text-primary-700 mb-2">
-                  Looking Ahead
-                </p>
-                <h3 className="text-3xl font-heading mb-4">Exit Horizon</h3>
-                <p className="text-primary-800 mb-6">
-                  With a 5-7 year investment horizon, we target a strategic exit once
-                  the business has demonstrated consistent profitability and growth.
-                </p>
-                <motion.div
-                  variants={containerVariants}
-                  initial="hidden"
-                  animate="visible"
-                  className="space-y-3"
-                >
-                  {[
-                    'Year 3-4: Platform value established',
-                    'Year 4-5: Begin strategic discussions',
-                    'Year 5-7: Target exit window',
-                  ].map((item, index) => (
-                    <motion.div
-                      key={item}
-                      variants={itemVariants}
-                      className="flex items-center gap-2 hover:translate-x-1 transition-transform"
-                    >
-                      <TrendingUp className="w-5 h-5 text-primary-700" />
-                      <span>{item}</span>
-                    </motion.div>
-                  ))}
-                </motion.div>
-              </div>
-              <motion.div
-                variants={containerVariants}
-                initial="hidden"
-                animate="visible"
-                className="grid grid-cols-2 gap-4"
-              >
-                {[
-                  { value: '60', label: 'Total Casitas' },
-                  { value: '$34M', label: 'Y5 Revenue' },
-                  { value: '5 yrs', label: 'Hold Period' },
-                  { value: '$146.7M', label: 'Y5 Enterprise Value' },
-                ].map((stat, index) => (
-                  <motion.div
-                    key={stat.label}
-                    variants={itemVariants}
-                    whileHover={{ scale: 1.03, y: -2 }}
-                    className="bg-white/20 rounded-lg p-4 text-center hover:bg-white/30 transition-colors cursor-default"
-                  >
-                    <p className="font-heading text-3xl">{stat.value}</p>
-                    <p className="text-sm text-primary-800">{stat.label}</p>
-                  </motion.div>
-                ))}
-              </motion.div>
-            </div>
           </Card>
         </motion.section>
 
