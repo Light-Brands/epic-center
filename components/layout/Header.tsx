@@ -67,10 +67,10 @@ export function Header() {
   const timeoutRef = useRef<NodeJS.Timeout | null>(null)
   const pathname = usePathname()
 
-  // Reorder sections for mobile: "The Story" first
+  // Reorder sections for mobile: "Story" first
   const mobileNavSections = [
     NAV_SECTIONS.find(s => s.title === 'Story')!,
-    ...NAV_SECTIONS.filter(s => s.title !== 'The Story'),
+    ...NAV_SECTIONS.filter(s => s.title !== 'Story'),
   ]
 
   const toggleMobileSection = (title: string) => {
