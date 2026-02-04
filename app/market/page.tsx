@@ -128,6 +128,213 @@ export default function MarketPage() {
           </div>
         </section>
 
+        {/* Global Wellness Economy */}
+        <section className="mb-16">
+          <div className="text-center mb-12">
+            <p className="font-accent text-sm uppercase tracking-widest text-secondary-500 mb-4">
+              The Broader Landscape
+            </p>
+            <h3 className="text-3xl md:text-4xl font-heading text-neutral-900 mb-4">
+              The Global Wellness Economy
+            </h3>
+            <p className="text-lg text-neutral-600 max-w-3xl mx-auto mb-8">
+              Beyond mental health treatment, The Experiential sits at the convergence of multiple
+              high-growth wellness sectors representing a combined $6.9 trillion global economy.
+            </p>
+            <p className="font-heading text-5xl md:text-6xl text-primary-800 mb-2">$6.9T</p>
+            <p className="text-sm text-neutral-500">Total Global Wellness Economy, 2024</p>
+            <p className="text-xs text-neutral-400 mt-2">
+              CAGR: Past = 2019–2024 · Future = 2024–2029 · Source: Global Wellness Institute
+            </p>
+          </div>
+
+          {/* Explosive Growth Sectors */}
+          <div className="mb-10">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="h-px flex-1 bg-gradient-to-r from-transparent to-secondary-300" />
+              <h4 className="font-accent text-xs uppercase tracking-widest text-secondary-600 whitespace-nowrap">
+                Explosive Growth Sectors
+              </h4>
+              <div className="h-px flex-1 bg-gradient-to-l from-transparent to-secondary-300" />
+            </div>
+            <div className="grid md:grid-cols-2 gap-6">
+              {[
+                { name: 'Wellness Real Estate', size: '$548.4B', pastCagr: '19.5%', futureCagr: '15.2%', accelerating: false, teRelevant: false },
+                { name: 'Mental Wellness', size: '$268.3B', pastCagr: '12.4%', futureCagr: '10.1%', accelerating: false, teRelevant: true },
+              ].map((sector) => (
+                <Card key={sector.name} padding="lg" className={`text-center relative overflow-hidden ${sector.teRelevant ? 'ring-2 ring-primary-300' : ''}`}>
+                  {sector.teRelevant && (
+                    <span className="absolute top-3 right-3 font-accent text-[10px] uppercase tracking-widest bg-primary-100 text-primary-700 px-2 py-0.5 rounded-full">
+                      TE Sector
+                    </span>
+                  )}
+                  <p className="font-heading text-4xl md:text-5xl text-neutral-900 mb-2">{sector.size}</p>
+                  <p className="font-accent text-sm text-primary-600 uppercase tracking-wide mb-4">{sector.name}</p>
+                  <div className="flex justify-center gap-8">
+                    <div>
+                      <p className="font-accent text-[10px] uppercase tracking-widest text-neutral-400 mb-1">Past</p>
+                      <p className="font-heading text-xl text-neutral-700">{sector.pastCagr}</p>
+                    </div>
+                    <div className="w-px bg-neutral-200" />
+                    <div>
+                      <p className="font-accent text-[10px] uppercase tracking-widest text-neutral-400 mb-1">Future</p>
+                      <p className="font-heading text-xl text-neutral-700">{sector.futureCagr}</p>
+                    </div>
+                  </div>
+                </Card>
+              ))}
+            </div>
+          </div>
+
+          {/* Mature & Steady Growth Sectors */}
+          <div className="mb-10">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="h-px flex-1 bg-gradient-to-r from-transparent to-primary-200" />
+              <h4 className="font-accent text-xs uppercase tracking-widest text-primary-600 whitespace-nowrap">
+                Mature &amp; Steady Growth Sectors
+              </h4>
+              <div className="h-px flex-1 bg-gradient-to-l from-transparent to-primary-200" />
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              {[
+                { name: 'Physical Activity', size: '$1,143.9B', pastCagr: '4.6%', futureCagr: '5.1%', accelerating: true, teRelevant: false },
+                { name: 'Personal Care & Beauty', size: '$1,350.0B', pastCagr: '4.8%', futureCagr: '4.8%', accelerating: false, teRelevant: false },
+                { name: 'Healthy Eating, Nutrition & Weight Loss', size: '$1,148.0B', pastCagr: '4.7%', futureCagr: '7.1%', accelerating: true, teRelevant: false },
+                { name: 'Traditional & Complementary Medicine', size: '$605.6B', pastCagr: '4.6%', futureCagr: '10.8%', accelerating: true, teRelevant: true },
+              ].map((sector) => (
+                <Card key={sector.name} padding="md" className={`text-center relative overflow-hidden ${sector.teRelevant ? 'ring-2 ring-primary-300' : ''}`}>
+                  {sector.teRelevant && (
+                    <span className="absolute top-3 right-3 font-accent text-[10px] uppercase tracking-widest bg-primary-100 text-primary-700 px-2 py-0.5 rounded-full">
+                      TE Sector
+                    </span>
+                  )}
+                  <p className="font-heading text-2xl md:text-3xl text-neutral-900 mb-1">{sector.size}</p>
+                  <p className="font-accent text-xs text-primary-600 uppercase tracking-wide mb-3 leading-tight min-h-[2rem] flex items-center justify-center">{sector.name}</p>
+                  <div className="flex justify-between text-center px-2">
+                    <div>
+                      <p className="font-accent text-[10px] uppercase tracking-widest text-neutral-400 mb-0.5">Past</p>
+                      <p className="font-medium text-neutral-700">{sector.pastCagr}</p>
+                    </div>
+                    <div className="flex items-center">
+                      <ArrowRight className="w-3 h-3 text-neutral-300" />
+                    </div>
+                    <div>
+                      <p className="font-accent text-[10px] uppercase tracking-widest text-neutral-400 mb-0.5">Future</p>
+                      <p className={`font-medium ${sector.accelerating ? 'text-primary-600' : 'text-neutral-700'}`}>{sector.futureCagr}</p>
+                    </div>
+                  </div>
+                </Card>
+              ))}
+            </div>
+          </div>
+
+          {/* Tourism-Based Sectors */}
+          <div className="mb-10">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="h-px flex-1 bg-gradient-to-r from-transparent to-accent-200" />
+              <h4 className="font-accent text-xs uppercase tracking-widest text-accent-600 whitespace-nowrap">
+                Tourism-Based Sectors
+              </h4>
+              <div className="h-px flex-1 bg-gradient-to-l from-transparent to-accent-200" />
+            </div>
+            <div className="grid md:grid-cols-3 gap-6">
+              {[
+                { name: 'Wellness Tourism', size: '$893.9B', pastCagr: '6.4%', futureCagr: '9.1%', accelerating: true, teRelevant: true },
+                { name: 'Spas', size: '$157.4B', pastCagr: '6.2%', futureCagr: '7.7%', accelerating: true, teRelevant: true },
+                { name: 'Thermal / Mineral Springs', size: '$71.7B', pastCagr: '1.7%', futureCagr: '10.0%', accelerating: true, teRelevant: false },
+              ].map((sector) => (
+                <Card key={sector.name} padding="md" className={`text-center relative overflow-hidden ${sector.teRelevant ? 'ring-2 ring-primary-300' : ''}`}>
+                  {sector.teRelevant && (
+                    <span className="absolute top-3 right-3 font-accent text-[10px] uppercase tracking-widest bg-primary-100 text-primary-700 px-2 py-0.5 rounded-full">
+                      TE Sector
+                    </span>
+                  )}
+                  <p className="font-heading text-2xl md:text-3xl text-neutral-900 mb-1">{sector.size}</p>
+                  <p className="font-accent text-xs text-primary-600 uppercase tracking-wide mb-3">{sector.name}</p>
+                  <div className="flex justify-between text-center px-2">
+                    <div>
+                      <p className="font-accent text-[10px] uppercase tracking-widest text-neutral-400 mb-0.5">Past</p>
+                      <p className="font-medium text-neutral-700">{sector.pastCagr}</p>
+                    </div>
+                    <div className="flex items-center">
+                      <ArrowRight className="w-3 h-3 text-neutral-300" />
+                    </div>
+                    <div>
+                      <p className="font-accent text-[10px] uppercase tracking-widest text-neutral-400 mb-0.5">Future</p>
+                      <p className={`font-medium ${sector.accelerating ? 'text-primary-600' : 'text-neutral-700'}`}>{sector.futureCagr}</p>
+                    </div>
+                  </div>
+                </Card>
+              ))}
+            </div>
+          </div>
+
+          {/* Public/Private Policy-Based Sectors */}
+          <div className="mb-10">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="h-px flex-1 bg-gradient-to-r from-transparent to-neutral-200" />
+              <h4 className="font-accent text-xs uppercase tracking-widest text-neutral-500 whitespace-nowrap">
+                Public / Private Policy-Based Sectors
+              </h4>
+              <div className="h-px flex-1 bg-gradient-to-l from-transparent to-neutral-200" />
+            </div>
+            <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+              {[
+                { name: 'Public Health, Prevention & Personal Medicine', size: '$675.9B', pastCagr: '8.6%', futureCagr: '4.7%', accelerating: false },
+                { name: 'Workplace Wellness', size: '$53.3B', pastCagr: '0.7%', futureCagr: '2.2%', accelerating: true },
+              ].map((sector) => (
+                <Card key={sector.name} padding="md" className="text-center">
+                  <p className="font-heading text-2xl md:text-3xl text-neutral-900 mb-1">{sector.size}</p>
+                  <p className="font-accent text-xs text-primary-600 uppercase tracking-wide mb-3 leading-tight">{sector.name}</p>
+                  <div className="flex justify-between text-center px-2">
+                    <div>
+                      <p className="font-accent text-[10px] uppercase tracking-widest text-neutral-400 mb-0.5">Past</p>
+                      <p className="font-medium text-neutral-700">{sector.pastCagr}</p>
+                    </div>
+                    <div className="flex items-center">
+                      <ArrowRight className="w-3 h-3 text-neutral-300" />
+                    </div>
+                    <div>
+                      <p className="font-accent text-[10px] uppercase tracking-widest text-neutral-400 mb-0.5">Future</p>
+                      <p className={`font-medium ${sector.accelerating ? 'text-primary-600' : 'text-neutral-700'}`}>{sector.futureCagr}</p>
+                    </div>
+                  </div>
+                </Card>
+              ))}
+            </div>
+          </div>
+
+          {/* TE Addressable Market Summary */}
+          <Card padding="lg" className="bg-primary-800 text-white">
+            <div className="text-center max-w-3xl mx-auto">
+              <p className="font-accent text-sm uppercase tracking-widest text-secondary-400 mb-4">
+                Our Addressable Sectors
+              </p>
+              <h4 className="text-2xl md:text-3xl font-heading mb-6">
+                The Experiential operates at the intersection of four high-growth wellness sectors
+              </h4>
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+                {[
+                  { name: 'Mental Wellness', size: '$268.3B', cagr: '10.1%' },
+                  { name: 'Wellness Tourism', size: '$893.9B', cagr: '9.1%' },
+                  { name: 'Traditional & Complementary Medicine', size: '$605.6B', cagr: '10.8%' },
+                  { name: 'Spas', size: '$157.4B', cagr: '7.7%' },
+                ].map((sector) => (
+                  <div key={sector.name} className="bg-primary-700/50 rounded-xl p-4">
+                    <p className="font-heading text-2xl text-secondary-400 mb-1">{sector.size}</p>
+                    <p className="text-sm text-white font-medium mb-1">{sector.name}</p>
+                    <p className="text-xs text-primary-300">{sector.cagr} CAGR</p>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-6 pt-6 border-t border-primary-700">
+                <p className="font-heading text-4xl text-secondary-400">$1.93T</p>
+                <p className="text-sm text-primary-200 mt-1">Combined addressable market across TE&rsquo;s four core wellness sectors</p>
+              </div>
+            </div>
+          </Card>
+        </section>
+
         {/* The Crisis */}
         <section className="mb-16">
           <Card padding="lg" className="bg-primary-800 text-white">
