@@ -68,7 +68,7 @@ graph TB
 | **Y1 / Y3 / Y5** | $80,000 / $150,000 / $300,000 |
 | **Tax treatment** | Taxable as ordinary income. Ministers are self-employed for FICA — can opt out entirely via Form 4361 (saves 15.3%). |
 | **Key constraint** | Must be board-approved with comparable data. Scales with church budget. |
-| **Light Brands effect** | Church now receives **dual royalty streams** — content license from UAE entity (TE spiritual content) + spiritual tech license from CI IBC (Light Brands tools/platforms). Both are UBIT-exempt under IRC 512(b)(2). This expands the church's revenue base, supporting higher board-approved compensation as the ministry grows. |
+| **Light Brands effect** | Church now receives **dual royalty streams** — content license from TE Holdings (Cayman) (TE spiritual content) + spiritual tech license from CI IBC (Light Brands tools/platforms). Both are UBIT-exempt under IRC 512(b)(2). This expands the church's revenue base, supporting higher board-approved compensation as the ministry grows. |
 
 ### Channel 3: Housing Allowance (IRC 107)
 
