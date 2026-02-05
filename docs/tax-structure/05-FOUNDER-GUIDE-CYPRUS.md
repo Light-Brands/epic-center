@@ -18,20 +18,25 @@ The **overseas employment exemption** — salary from a non-resident employer fo
 
 ```mermaid
 graph TB
-    BRAIN["Light Brands Studio FZ-LLC<br/>(Dubai)<br/>Employs Cyprus founder<br/>Pays salary<br/>0% corporate tax"]
+    HOLDINGS["TE Wellness Holdings<br/>(Cayman)<br/>Owns TE IP + revenue<br/>Investable vehicle<br/>0% unconditional"]
+
+    BUILDER["Light Brands Studio FZ-LLC<br/>(Dubai)<br/>Employs Cyprus founder<br/>Pays salary<br/>0% corporate tax"]
 
     VOICE["Light Brands Consulting Ltd<br/>(Cook Islands IBC)<br/>External consulting + SaaS<br/>Owned by PIF"]
 
-    SHIELD["Panama PIF<br/>Owns Brain + Voice<br/>Distributions at<br/>~7.65% to founder<br/>(5% SDC + 2.65% GESY)"]
+    SHIELD["Panama PIF<br/>Owns ~70% Holdings<br/>+ 100% Builder + Voice<br/>Distributions at<br/>~7.65% to founder<br/>(5% SDC + 2.65% GESY)"]
 
     CYPRUS["CYPRUS FOUNDER<br/>(Deemed Domiciled)<br/>Salary: 0% (90-day rule)<br/>Dividends: ~7.65%<br/>Cap gains: 0%"]
 
-    SHIELD -->|"100% shareholder"| BRAIN
+    SHIELD -->|"~70% shareholder"| HOLDINGS
+    SHIELD -->|"100% shareholder"| BUILDER
     SHIELD -->|"100% shareholder"| VOICE
-    BRAIN -->|"Salary<br/>(work outside Cyprus<br/>>90 days = TAX FREE)"| CYPRUS
-    SHIELD -.->|"Distributions<br/>(TE + LB profits,<br/>5% SDC + 2.65% GESY)"| CYPRUS
+    HOLDINGS -->|"Dev services<br/>contract"| BUILDER
+    BUILDER -->|"Salary<br/>(work outside Cyprus<br/>>90 days = TAX FREE)"| CYPRUS
+    SHIELD -.->|"Distributions<br/>(Holdings + Studio + LB profits,<br/>5% SDC + 2.65% GESY)"| CYPRUS
 
-    style BRAIN fill:#0f3460,stroke:#e94560,color:#fff
+    style HOLDINGS fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style BUILDER fill:#0f3460,stroke:#e94560,color:#fff
     style VOICE fill:#0d7377,stroke:#14ffec,color:#fff
     style SHIELD fill:#1a1a2e,stroke:#e94560,color:#fff
     style CYPRUS fill:#c9770a,stroke:#fff,color:#fff
@@ -88,7 +93,7 @@ The non-dom regime requires meeting ALL three tests. A 25+ year resident fails a
 | PIF distributions | $400,000 | 5% SDC ($20,000) + 2.65% GESY ($2,650 — capped) | **$22,650** |
 | **Total on $900,000** | | | **$22,650 (2.5%)** |
 
-**Either split produces an excellent result.** The salary-heavy split saves ~$15K/year but requires maximizing the salary channel.
+**Either split produces an excellent result.** The salary-heavy split saves ~$15K/year but requires maximizing the salary channel. PIF distributions are sourced from three entities: TE Holdings (Cayman, majority of TE EBITDA), Studio (Dubai, service margin), and LB Consulting (Cook Islands, LB profits) — all at 0% corporate tax before distribution.
 
 ---
 

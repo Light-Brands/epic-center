@@ -147,12 +147,14 @@ Light Brands Consulting Ltd (CI IBC) — "The Voice"
     Collects client payment
     Subcontracts delivery to:
 
-Light Brands Studio FZ-LLC (Dubai) — "The Brain"
+Light Brands Studio FZ-LLC (Dubai) — "The Builder"
     Provides all development, implementation, support
     Uses Dubai team (engineers, AI/ML, PM)
     Bills CI IBC at cost + arm's length margin
     Delivers work product with IP assigned to CI IBC
 ```
+
+**Shared service center model:** Studio also provides development services to TE Wellness Holdings (Cayman) under a separate Development Services Agreement. This shared service center model — Studio building for both TE Holdings and CI IBC — strengthens Studio's DEMPE substance (the team genuinely develops for multiple clients) and its QFZP position (pure B2B service company earning fees from corporate entities). The dual-client model also provides natural arm's length pricing comparables between the two development contracts.
 
 ### Key Contractual Terms
 

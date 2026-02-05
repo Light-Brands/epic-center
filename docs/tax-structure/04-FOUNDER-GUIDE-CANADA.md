@@ -19,6 +19,8 @@
 graph TB
     PIF["Panama PIF<br/>Canadian founder = Protector<br/>(identity private)<br/>Canadian founder = Beneficiary"]
 
+    HOLDINGS["TE Wellness Holdings<br/>(Cayman)<br/>Owns TE IP + revenue<br/>Investable vehicle"]
+
     UAE["Light Brands Studio FZ-LLC<br/>(Dubai)<br/>Employs Canadian founder<br/>as executive/co-founder"]
 
     CI["Light Brands Consulting Ltd<br/>(Cook Islands IBC)<br/>External consulting + SaaS<br/>Owned by PIF"]
@@ -27,14 +29,17 @@ graph TB
 
     CA["CANADIAN FOUNDER<br/>(UAE resident, post-departure)<br/>Golden Visa + Emirates ID<br/>0% personal tax on everything"]
 
+    PIF -->|"~70% shareholder"| HOLDINGS
     PIF -->|"100% shareholder"| UAE
     PIF -->|"100% shareholder"| CI
+    HOLDINGS -->|"Dev services<br/>contract"| UAE
     UAE -->|"Salary<br/>(0% — UAE has no<br/>personal income tax)"| CA
-    PIF -.->|"Distributions<br/>(TE + LB profits,<br/>0% after departure)"| CA
+    PIF -.->|"Distributions<br/>(Holdings + Studio + LB profits,<br/>0% after departure)"| CA
     CHURCH -->|"Minister stipend<br/>(0% — non-US person)"| CA
     CA -->|"Protector role"| PIF
 
     style PIF fill:#1a1a2e,stroke:#e94560,color:#fff
+    style HOLDINGS fill:#8b5e3c,stroke:#ffd700,color:#fff
     style UAE fill:#0f3460,stroke:#e94560,color:#fff
     style CI fill:#0d7377,stroke:#14ffec,color:#fff
     style CHURCH fill:#533483,stroke:#ffd700,color:#fff
@@ -151,26 +156,27 @@ When a Canadian resident departs, the CRA treats all assets as **deemed disposed
 |---|---|---|---|
 | **UAE salary** | Light Brands Studio FZ-LLC | $200K / $300K / $400K | **$0** — UAE has no personal income tax |
 | **Church stipend** | Church of the Living Light | $30K / $40K / $50K | **$0** — non-US person, non-resident of any taxing jurisdiction |
-| **PIF distributions (TE profits)** | Panama PIF (from UAE entity) | Variable / $150K / $700K+ | **$0** — Panama 0% WHT on distributions to non-residents; UAE 0% on receipt |
+| **PIF distributions (TE Holdings profits)** | Panama PIF (from TE Holdings, Cayman) | Variable / $150K / $700K+ | **$0** — Cayman 0% WHT; Panama 0%; UAE 0% on receipt |
+| **PIF distributions (Studio margins)** | Panama PIF (from Studio, Dubai) | Variable / $25K / $75K+ | **$0** — UAE 0% WHT; Panama 0%; UAE 0% on receipt |
 | **PIF distributions (LB profits)** | Panama PIF (from CI IBC) | Variable / $50K / $300K+ | **$0** — CI 0% WHT; Panama 0%; UAE 0% on receipt |
 | **Capital gains** | Any source | Variable | **$0** — no jurisdiction is taxing |
 | **Total tax** | | | **$0** |
 
-**Light Brands effect:** The CI IBC generates additional profit that flows to the PIF at 0% and can be distributed to the Canadian founder at 0% (post-departure from Canada, residing in UAE). LB revenue is purely additive to the founder's income with zero tax increment.
+**Three profit sources:** TE Holdings (Cayman) retains the majority of TE EBITDA at 0%. Studio retains its service margin at 0% (QFZP). CI IBC retains LB profits at 0%. All three flow to the PIF and can be distributed to the Canadian founder at 0% (post-departure from Canada, residing in UAE). Each additional revenue source is purely additive with zero tax increment.
 
 ---
 
 ## 9. Year 1-5 Projection
 
-| Year | UAE Salary | Church Stipend | PIF Distributions (TE) | PIF Distributions (LB) | Total Income | Tax Paid | Rate |
-|---|---|---|---|---|---|---|---|
-| 1 | $200,000 | $30,000 | — | — | $230,000 | $0 | **0%** |
-| 2 | $250,000 | $35,000 | $75,000 | $25,000 | $385,000 | $0 | **0%** |
-| 3 | $300,000 | $40,000 | $200,000 | $100,000 | $640,000 | $0 | **0%** |
-| 4 | $350,000 | $45,000 | $350,000 | $150,000 | $895,000 | $0 | **0%** |
-| 5 | $400,000 | $50,000 | $700,000 | $300,000 | $1,450,000 | $0 | **0%** |
+| Year | UAE Salary | Church Stipend | PIF Dist. (TE Holdings) | PIF Dist. (Studio) | PIF Dist. (LB) | Total Income | Tax Paid | Rate |
+|---|---|---|---|---|---|---|---|---|
+| 1 | $200,000 | $30,000 | — | — | — | $230,000 | $0 | **0%** |
+| 2 | $250,000 | $35,000 | $75,000 | $10,000 | $25,000 | $395,000 | $0 | **0%** |
+| 3 | $300,000 | $40,000 | $175,000 | $25,000 | $100,000 | $640,000 | $0 | **0%** |
+| 4 | $350,000 | $45,000 | $300,000 | $50,000 | $150,000 | $895,000 | $0 | **0%** |
+| 5 | $400,000 | $50,000 | $625,000 | $75,000 | $300,000 | $1,450,000 | $0 | **0%** |
 
-PIF distributions scale as both the UAE entity and CI IBC generate retained earnings. Since both entities pay 0% corporate tax, nearly all EBITDA is available for retention or distribution. Light Brands distributions grow as LB's external consulting and SaaS revenue matures.
+PIF distributions scale as all three entities generate retained earnings. TE Holdings retains the majority of TE EBITDA at 0% (Cayman). Studio retains its cost-plus service margin at 0% (QFZP). CI IBC retains LB profits at 0%. Since all entities pay 0% corporate tax, nearly all profit is available for retention or distribution. Light Brands distributions grow as LB's external consulting and SaaS revenue matures.
 
 ---
 
@@ -184,7 +190,7 @@ The Canadian founder serves as **Protector** of the Panama PIF. This is a govern
 | **What it is NOT** | Ownership. The PIF has no owner. The Protector does not own PIF assets. |
 | **Identity** | Private — the Protector's name does not appear in any public registry |
 | **Powers** | Veto Council decisions, remove and appoint Council members, approve distributions |
-| **Oversight scope** | Both the UAE entity and the CI IBC (both owned 100% by the PIF) |
+| **Oversight scope** | TE Holdings (~70% PIF-owned), Studio (100% PIF-owned), and CI IBC (100% PIF-owned) |
 | **Tax implication** | Being Protector does not trigger CFC or tax on PIF income in any jurisdiction (especially after departing Canada) |
 | **Why Canadian founder** | The US founder cannot be Protector (creates CFC risk). The Canadian founder, as a UAE resident with no home-country tax, is the ideal Protector. |
 

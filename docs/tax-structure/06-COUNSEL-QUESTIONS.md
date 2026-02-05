@@ -15,30 +15,81 @@ Bring the relevant section to each counsel meeting. Questions are organized by j
 
 ---
 
+## 0. Cayman Counsel
+
+**Engagement:** Week 1-2. In parallel with UAE counsel. Validates TE Holdings structure and investor mechanics.
+
+### Q48: Exempted Company vs. Ordinary Resident Company
+**Priority:** IMPORTANT
+**Context:** TE Wellness Holdings will be formed as a Cayman entity to serve as the investable vehicle for the TE healing center business. It will own all TE IP, collect all TE revenue ($10.7M Y1 → $35.5M Y5), and control the Mexico OpCo.
+**Question:** Confirm that an Exempted Company (vs. ORC) is the correct entity type. Does the revenue collection and IP ownership model raise any concerns under the Exempted Company rules? Are there any restrictions on Exempted Companies receiving revenue from non-Cayman customers?
+
+### Q49: SHA Structure for Seed Round
+**Priority:** IMPORTANT
+**Context:** The investor will hold ~30% of TE Holdings (Series Seed Preferred). Standard SHA provisions needed: liquidation preference (1x non-participating), anti-dilution (broad-based weighted average), pro-rata, information rights, drag-along/tag-along, board observer.
+**Question:** What is the standard SHA template for a Cayman Exempted Company with a PIF as majority (~70%) and a VC fund as minority (~30%)? Any Cayman-specific provisions required? Any issues with a foundation (not a natural person or fund) as the majority shareholder?
+
+### Q50: PIF as Majority Shareholder — Director Duties
+**Priority:** IMPORTANT
+**Context:** The PIF holds ~70% of Holdings. The Canadian founder is both PIF Protector and Holdings Managing Director. The investor will want assurances against related-party abuse.
+**Question:** What are the director duty obligations when the majority shareholder is a PIF controlled (as Protector) by one of the directors? How should conflicts of interest be managed in the Articles? Should the independent director chair the audit committee?
+
+### Q51: IP Assignment from Studio to Holdings
+**Priority:** IMPORTANT
+**Context:** Studio (Dubai) will create TE IP under contract and assign it to Holdings on delivery. The Development Services Agreement needs IP assignment language that is enforceable under both UAE and Cayman law.
+**Question:** What IP assignment language is required to ensure clean title transfer from a UAE FZ-LLC to a Cayman Exempted Company? Does the assignment need to be registered anywhere? Any stamp duty or transfer tax in either jurisdiction?
+
+### Q52: Dividend Policy and Distributions
+**Priority:** IMPORTANT
+**Context:** Holdings will retain significant cash ($4-21M EBITDA per year). Distributions to PIF (~70%) and investor (~30%) need to follow a defensible dividend policy.
+**Question:** What are the Cayman legal requirements for dividend declarations? Solvency test? Board resolution requirements? Can Holdings distribute to PIF without triggering adverse tax consequences in any jurisdiction?
+
+### Q53: Exit Structuring
+**Priority:** FORWARD
+**Context:** Exit will likely be a share sale of TE Holdings (or merger). PIF receives ~70% of proceeds at 0% (Panama, no CGT). Investor receives ~30% at their fund-level rates.
+**Question:** What are the mechanics for a share sale or merger of a Cayman Exempted Company? Any Cayman stamp duty or transfer tax on share transfers? How do drag-along/tag-along work under Cayman law?
+
+### Q54: Economic Substance Act Exemption
+**Priority:** IMPORTANT
+**Context:** Holdings will hold TE IP and collect revenue. The Economic Substance Act (International Tax Co-operation) 2018 requires certain entities to maintain substance. Exempted Companies have carve-outs.
+**Question:** Confirm that TE Holdings qualifies for an exemption or reduced requirements under the Economic Substance Act. What annual filings are required? Is the Economic Substance Notification sufficient, or is a full report needed?
+
+### Q55: Tax Undertaking Certificate
+**Priority:** IMPORTANT
+**Context:** Cayman offers a 20-year Tax Undertaking Certificate guaranteeing 0% tax.
+**Question:** What is the process and timeline for obtaining the Tax Undertaking Certificate? Can it be obtained at formation? What happens upon expiry — is renewal standard?
+
+---
+
 ## 1. UAE Tax Counsel
 
 **Engagement:** First meeting. This is the gating engagement — do not spend money on entity formation until Q1 is resolved.
 
-### Q1: QFZP Viability for Natural Persons Revenue
+### Q1: QFZP Viability for B2B Service Fees
 **Priority:** CRITICAL
-**Context:** UAE QFZP rules exclude "transactions with natural persons" from qualifying income. TE's guests are natural persons. If revenue doesn't qualify for 0%, the entire UAE structure shifts to 9% CT.
-**Question:** Does revenue from individual guests paying for access to a copyrighted AI software platform qualify as income from Qualifying Intellectual Property under QFZP rules?
-**What depends on the answer:** If yes, proceed with UAE structure. If no, evaluate 9% rate (still favorable) or pivot to Singapore Pioneer Certificate.
+**Context:** Studio now operates as a pure B2B service company — it earns cost-plus service fees from TE Holdings (Cayman Exempted Company) and from CI IBC (Cook Islands IBC). Studio no longer collects guest revenue directly. The natural persons exclusion should not apply since all Studio clients are corporate entities.
+**Question:** Does cost-plus service fee income from a Cayman Exempted Company and a Cook Islands IBC qualify as income from qualifying activities under QFZP rules? Is the B2B service model (no natural person transactions) clearly within QFZP qualifying income?
+**What depends on the answer:** If yes, Studio QFZP position is strong. If no, evaluate 9% rate on service fees only (~$1-5M impact vs. prior model's $10-35M exposure).
+
+### Q1b: QFZP Classification of Development Services
+**Priority:** IMPORTANT
+**Context:** Studio provides development services (software, AI, content creation) to TE Holdings under a Development Services Agreement. The fee is cost-plus 8-12%.
+**Question:** Is development services income classified as "services" or "IP licensing" for QFZP purposes? Does it matter whether IP is created and assigned (work-for-hire) vs. licensed? What is the optimal QFZP classification for Studio's income?
 
 ### Q2: B2B Alternative Structure
-**Priority:** CRITICAL (if Q1 is negative)
-**Context:** If direct B2C revenue doesn't qualify, a B2B intermediary (corporate booking entity) might.
-**Question:** If Q1 is negative, is there a structural alternative (e.g., B2B booking entity, platform access agreement) that would qualify the revenue?
+**Priority:** FORWARD (previously CRITICAL — now less urgent since Studio is already B2B)
+**Context:** Studio is now purely B2B. This question is only relevant if Q1 is negative.
+**Question:** If B2B service fees from a Cayman entity do not qualify under QFZP, what structural alternatives exist?
 
 ### Q3: Panama PIF as Sole Shareholder
 **Priority:** IMPORTANT
 **Context:** The PIF will be the 100% shareholder of the DIC FZ-LLC. Some free zones have restrictions on foreign foundation ownership.
 **Question:** Can a Panama PIF serve as sole shareholder of a DIC FZ-LLC without triggering adverse QFZP or substance implications?
 
-### Q4: Content License from US Church
+### Q4: Content License — Now from Cayman to Church
 **Priority:** IMPORTANT
-**Context:** The church pays the UAE entity an arm's-length license fee for content. This fee flows from a US entity to a UAE entity.
-**Question:** Is a content license fee from a US 508(c)(1)(A) church to the UAE entity treated as qualifying income under QFZP?
+**Context:** The content license now flows FROM TE Holdings (Cayman) TO the church. Studio is not a party to the content license. However, Studio may receive indirect benefit if Holdings pays Studio more under the Development Services Agreement as content revenue grows.
+**Question:** Does the revised structure (Cayman→Church content license, not UAE→Church) affect Studio's QFZP position in any way? Confirm that Studio's service fee income from Holdings is independent of how Holdings uses the IP.
 
 ### Q5: Minimum Substance Threshold
 **Priority:** IMPORTANT
@@ -49,6 +100,11 @@ Bring the relevant section to each counsel meeting. Questions are organized by j
 **Priority:** IMPORTANT
 **Context:** The UAE entity will provide development services to the CI IBC under a subcontracting arrangement. The CI IBC pays cost-plus to the UAE entity. Both entities are at 0%, so there is no tax arbitrage — but the arrangement must still be arm's length for TP purposes.
 **Question:** What is the FTA's view on intercompany subcontracting arrangements where a UAE FZ entity provides services to a Cook Islands IBC (both at 0%)? Does the UAE FTA require TP documentation for related-party transactions where both parties are at 0%? What margin range is defensible?
+
+### Q47b: Holdings→Studio Service Fee QFZP Classification
+**Priority:** IMPORTANT
+**Context:** TE Holdings (Cayman) pays Studio a cost-plus service fee for development services. This is Studio's primary TE-related revenue. Studio needs this income to qualify under QFZP.
+**Question:** How is a cost-plus service fee from a Cayman Exempted Company to a UAE FZ-LLC classified under QFZP? Is it "qualifying income" under the services category? Does the related-party nature of the transaction (both ultimately PIF-owned) affect QFZP qualification?
 
 ---
 
@@ -76,10 +132,10 @@ Bring the relevant section to each counsel meeting. Questions are organized by j
 **Context:** The arm's-length content license between the UAE entity and the church is critical for IP ownership (DEMPE) and church independence.
 **Question:** What required language should the content license agreement contain to preserve both the church's exempt status and the UAE entity's IP ownership?
 
-### Q45: Dual Royalty Streams to Church (UAE Content + CI IBC Spiritual Tech)
+### Q45: Dual Royalty Streams to Church (Cayman Content + CI IBC Spiritual Tech)
 **Priority:** IMPORTANT
-**Context:** The church will now receive two royalty streams: (1) content license from UAE entity (TE spiritual content), and (2) spiritual technology license from CI IBC (Light Brands tools/platforms). Both should be UBIT-exempt under IRC 512(b)(2) as royalty income.
-**Question:** Does receiving royalties from two separate foreign entities (one in UAE, one in Cook Islands) raise any additional UBIT, unrelated business income, or church status concerns? Any special documentation needed for the dual-stream structure?
+**Context:** The church will receive two royalty streams: (1) content license from TE Holdings (Cayman — TE spiritual content), and (2) spiritual technology license from CI IBC (Light Brands tools/platforms). Both should be UBIT-exempt under IRC 512(b)(2) as royalty income.
+**Question:** Does receiving royalties from two separate foreign entities (one in Cayman, one in Cook Islands) raise any additional UBIT, unrelated business income, or church status concerns? Is a royalty from a Cayman Exempted Company treated identically to one from a UAE entity for UBIT purposes? Any special documentation needed for the dual-stream structure?
 
 ---
 
@@ -180,10 +236,10 @@ Bring the relevant section to each counsel meeting. Questions are organized by j
 
 **Engagement:** Months 3-5. Before Mexico OpCo formation.
 
-### Q23: REFIPRE Classification
+### Q23: REFIPRE Classification with Cayman Parent
 **Priority:** IMPORTANT
-**Context:** The Platform-as-Principal model means revenue flows INTO the UAE entity from guests, and service fees flow DOWN to Mexico. There are no upward payments from Mexico to zero-tax jurisdictions. But SAT may still scrutinize the structure.
-**Question:** Confirm that the Platform-as-Principal model (UAE entity collects revenue, pays service fee to Mexico OpCo) does NOT trigger REFIPRE. Does SAT classify this based on the direction of payment or the overall structure?
+**Context:** TE Holdings (Cayman, 0%) owns Mexico OpCo as a subsidiary. Revenue flows INTO Holdings from guests via Stripe. Holdings pays a service fee DOWN to Mexico OpCo (cost + 8-12%). Holdings also pays Studio (Dubai) for development services. There are no upward payments from Mexico to zero-tax jurisdictions. But SAT may scrutinize the Cayman parent-subsidiary relationship.
+**Question:** Confirm that the parent-subsidiary model (Cayman Holdings owns Mexico OpCo, pays service fee to Mexico) does NOT trigger REFIPRE. Does SAT treat Cayman differently from UAE as a parent jurisdiction? Is the Cayman 0% rate a concern even in a downward payment structure?
 
 ### Q24: Transfer Pricing on Service Fee
 **Priority:** IMPORTANT
@@ -293,10 +349,10 @@ These do not need immediate answers but should be tracked for future counsel eng
 **Context:** If TE tokenizes the villa program or creates a booking/loyalty token, the issuing entity and jurisdiction matter.
 **Question:** Which entity issues tokens and from which jurisdiction? MiCA (EU/Cyprus), VARA (Dubai), or another framework?
 
-### Q35: Exit Structure
+### Q35: Exit Structure via TE Holdings Share Sale
 **Priority:** FORWARD
-**Context:** If the company is acquired (strategic exit), proceeds flow through the PIF → UAE → acquirer chain.
-**Question:** How does a sale proceed through this structure to maximize after-tax proceeds? What are the tax implications for each founder?
+**Context:** Exit will be a share sale (or merger) of TE Holdings (Cayman Exempted Company). PIF receives ~70% of proceeds at 0% (Cayman no CGT, Panama no CGT). Investor receives ~30% at their fund-level rates. Studio and LB Consulting are NOT part of the exit — they remain 100% PIF-owned.
+**Question:** How does a share sale of TE Holdings proceed? Cayman stamp duty or transfer tax? How do drag-along/tag-along work? What are the tax implications for each founder (PIF beneficiaries in UAE, US, Cyprus)? Can the PIF distribute exit proceeds tax-free to the Canadian founder (UAE resident)?
 
 ### Q36: Expansion Template
 **Priority:** FORWARD
@@ -310,14 +366,16 @@ These do not need immediate answers but should be tracked for future counsel eng
 | Priority | Counsel | Key Questions |
 |---|---|---|
 | **Week 1** | Canadian emigration tax | Q16 (departure timing), Q17 (NR73 strategy) |
-| **Week 1-2** | UAE tax | Q1 (QFZP viability) — gating question, Q47 (UAE↔CI IBC pricing) |
+| **Week 1-2** | Cayman corporate | Q48 (Exempted Co. structure), Q49 (SHA for seed), Q51 (IP assignment), Q54 (ESA exemption), Q55 (Tax Undertaking) |
+| **Week 1-2** | UAE tax | Q1 (QFZP for B2B service fees), Q1b (dev services classification), Q47 (UAE↔CI IBC pricing), Q47b (Holdings→Studio QFZP) |
 | **Week 1-2** | US international tax | Q10 (CFC elimination), Q44 (CI IBC look-through) |
-| **Week 1-2** | US religious nonprofit | Q6 (508(c)(1)(A) eligibility), Q45 (dual royalty streams) |
+| **Week 1-2** | US religious nonprofit | Q6 (508(c)(1)(A) eligibility), Q45 (dual royalty streams — Cayman source) |
 | **Week 1-2** | Cook Islands | Q37 (registered agent), Q38 (directors), Q41 (banking) |
 | **Week 1-2** | Cyprus tax | Q27 (90-day exemption) |
+| **Weeks 2-4** | Cayman corporate | Q50 (PIF as majority / director duties), Q52 (dividends) |
 | **Weeks 2-4** | Panama | Q20 (PIF structuring), Q22 (banking), Q46 (multi-entity PIF) |
 | **Weeks 2-4** | Cook Islands | Q39 (TP methodology), Q40 (church royalty rate), Q42 (CRS/AEOI) |
-| **Months 3-5** | Mexican tax | Q23 (REFIPRE), Q24 (transfer pricing) |
+| **Months 3-5** | Mexican tax | Q23 (REFIPRE with Cayman parent), Q24 (transfer pricing) |
 | **Ongoing** | All | Forward-looking questions as they become relevant |
 
 ---
