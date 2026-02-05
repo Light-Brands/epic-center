@@ -17,6 +17,44 @@
 
 ---
 
+## TL;DR
+
+**The idea:** Make the TE platform the center of everything — every clinical protocol, every housekeeping task, every meal plan, every staff schedule, every guest interaction, every payment. The Mexican facility (and every future location) becomes a cost-plus service provider that employs the hands. The Netherlands tech entity owns the brain.
+
+**The structure:**
+- **Panama PIF** → owns everything personally, 0% tax
+- **UK HoldCo** → dividend pass-through only (~$50K/yr to maintain), 0% WHT out to Panama
+- **TE Global Technology B.V. (Netherlands)** → single entity that owns all IP, platform, clinical AI, brand, and guest relationships. Innovation Box: **9% tax** on qualifying IP income, 25.8% on the rest. Blended **13-16%** depending on how much IP you patent/register
+- **Local OpCos** (Mexico, Costa Rica, Jamaica, etc.) → employ staff, operate facility, earn cost + 8-12% margin. Taxed locally on minimal profit
+
+**Why Netherlands, not UK?**
+- NL Innovation Box qualifies **copyrighted software** (no patents needed for companies under EUR 37.5M). UK Patent Box requires patents.
+- NL headline rate (25.8%) is REFIPRE-safe for Mexico — same as UK's 25%
+- NL is in the EU → **0% withholding tax** on royalties to/from EU locations (Portugal, Spain, Greece, Italy). Post-Brexit UK pays 5-10%.
+- One entity instead of two = simpler, cheaper (~$400K/yr less substance cost)
+
+**The hard wall:** Mexico's 2021 outsourcing reform bans the platform from employing Mexican workers. All on-site staff must be employed by the Mexican OpCo. But the platform providing operational intelligence via SaaS (scheduling, task dispatch, payroll calculation, quality control) is legal — it's Cloudbeds, not a staffing agency.
+
+**The numbers (Year 5, single Tulum location):**
+- Total HC revenue: $35.5M
+- Platform extracts ~30-38% through stacked intercompany charges
+- NL tech entity revenue: ~$18.4M → tax at 13-16% blended = **$2.4-$2.9M**
+- Mexico OpCo taxable profit: ~$1.8M → tax at 30% = **$0.5M**
+- **Total tax: ~$3.1M (effective ~15%)** vs. ~$6.2M if all in Mexico (30%)
+- **Annual savings: ~$2.7M** after substance costs
+
+**At 10 global locations:** ~$23M/year in tax savings vs. keeping everything local.
+
+**Critical next steps:**
+1. Resolve REFIPRE question with Mexican tax counsel (headline rate vs. effective rate)
+2. Incorporate TE Global Technology B.V. in Netherlands
+3. Apply for WBSO R&D certificate immediately
+4. Hire CTO + core engineering team in Amsterdam
+5. Patent the pharmacogenomic dosing engine, brain mapping analysis, and scheduling algorithms
+6. Commission Big 4 transfer pricing study
+
+---
+
 ## Table of Contents
 
 1. [The Vision: What Does "Techify Everything" Mean?](#1-the-vision)
