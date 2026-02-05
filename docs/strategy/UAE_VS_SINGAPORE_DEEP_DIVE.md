@@ -369,33 +369,36 @@ If EDB doesn't renew the Pioneer Certificate or TE fails to meet commitments:
 
 | Country | UAE Treaty | SG Treaty | UAE Royalty WHT | SG Royalty WHT | UAE Dividend WHT | SG Dividend WHT |
 |---|---|---|---|---|---|---|
-| **Mexico** | Yes (2015) | Yes (2010) | 10% | 10% | 5%/10% | 5%/15% |
-| **Costa Rica** | Yes (2021) | No ★ | ~10% (est.) | N/A (25% domestic) | 5%/15% | N/A (15% domestic) |
-| **Jamaica** | No ★★ | No ★★ | N/A (33% domestic) | N/A (33% domestic) | N/A | N/A |
-| **Portugal** | Yes (2012) | Yes | 5% | 10% | 5% | 10% |
-| **Thailand** | Yes | Yes | 10-15% | 10% | 10% | 10% |
+| **Mexico** | Yes (2015) | Yes (2010/MLI 2023) | 10% | 10% | **0%** ★ | Treaty-limited |
+| **Costa Rica** | Yes (2021) | No ★★ | ~10% (est.) | N/A (25% domestic) | 5%/15% | N/A (15% domestic) |
+| **Jamaica** | Yes (2022) ★★★ | No | Treaty rates (est. 5-10%) | N/A (25% domestic) | Treaty rates (est. 5-15%) | N/A (15% domestic) |
+| **Portugal** | Yes (2012) | Yes (1999) | 5% | 10% | 5% | 10% |
+| **Thailand** | Yes (2001) | Yes (MLI 2022) | 10% | 5-10% | 5-10% | 10% |
 | **Spain** | Yes | Yes | 5% | 5% | 5%/15% | 5%/10% |
 | **Greece** | Yes | Yes | 5% | 5-7% | 5% | 5% |
-| **Colombia** | No ★★ | Yes | N/A (20% domestic) | 10% | N/A | 5%/10% |
+| **Colombia** | No | Yes | N/A (20% domestic) | 10% | N/A | 5%/10% |
 | **Vietnam** | Yes | Yes | 10% | 10% | 10% | 5%/12.5% |
 | **Japan** | Yes | Yes | 10% | 10% | 5%/10% | 5%/15% |
 
-★ Singapore has no treaty with Costa Rica — but in the platform-as-principal model, payments flow DOWN from tech entity to OpCo (not up), so the source country's WHT on royalties doesn't apply. The treaty matters primarily for PE protection.
+★ The Mexico-UAE treaty eliminates WHT on dividends — 0%. This is unusually favorable. Also includes a most-favored-nation clause on royalties (could drop below 10% if Mexico grants lower in a future treaty). Note: Mexico's CFC rules were explicitly preserved in the treaty.
 
-★★ Countries with no treaty to either jurisdiction. Jamaica has very few DTAs globally.
+★★ Singapore has no treaty with Costa Rica — but in the platform-as-principal model, payments flow DOWN from tech entity to OpCo (not up), so the source country's WHT on royalties doesn't apply. The treaty matters primarily for PE protection.
+
+★★★ UAE-Jamaica treaty signed October 2022 and ratified. Specific rates not yet published in full; estimated based on UAE's typical treaty patterns.
 
 ### 6.2 Treaty Coverage Score
 
 | Metric | UAE | Singapore |
 |---|---|---|
-| Total DTAs | 100+ | 98 (full) + 8 (limited) |
-| TE target countries covered | 7 of 10 | 8 of 10 |
-| Missing TE targets | Jamaica, Colombia | Jamaica, Costa Rica |
-| Latin America coverage | Stronger (Mexico, Costa Rica, Spain) | Moderate (Mexico, Colombia, Spain) |
+| Total DTAs | 140+ | 98 (full) + 8 (limited) |
+| TE target countries covered | **8 of 10** | 7 of 10 |
+| Missing TE targets | Colombia | Jamaica, Costa Rica, Colombia (partial) |
+| Latin America coverage | **Strongest** (Mexico, Costa Rica, Spain) | Moderate (Mexico, Spain) |
+| Caribbean coverage | **Jamaica treaty** | No Caribbean coverage |
 | Asia-Pacific coverage | Strong | Excellent |
 | Europe coverage | Strong | Strong |
 
-**UAE has a slight edge for Latin America** (Costa Rica treaty). **Singapore has a slight edge for Asia and Colombia.** Neither covers Jamaica. For the platform-as-principal model, the treaty gaps matter less because the critical flow is tech entity → OpCo (payments down), not OpCo → tech entity (payments up).
+**UAE has a clear edge for Latin America and the Caribbean** (Costa Rica treaty, Jamaica treaty, 0% dividend WHT with Mexico). **Singapore has an edge for Asia-Pacific** (deeper Thailand royalty reductions, gateway positioning). For the platform-as-principal model, the treaty gaps matter less because the critical flow is tech entity → OpCo (payments down), not OpCo → tech entity (payments up).
 
 ### 6.3 Why Treaties Matter Less in Platform-as-Principal
 
@@ -516,6 +519,17 @@ EDB's Pioneer Certificate requires more specific commitments, typically negotiat
 | **International legitimacy** | Medium-High (improving rapidly) | Excellent | **SG wins** |
 | **Substance challenge risk** | Medium (vague "adequate" standard) | Low-Medium (negotiated commitments) | **SG wins** |
 | **Worst-case tax rate** | 9% for 5 years | 17% (but can pivot to 5% IDI) | **UAE** (lower worst-case) |
+| **CFC trigger risk** (from shareholder countries) | HIGH (0% rate triggers CFC rules globally) | LOW (17% headline satisfies most safe harbors) | **SG wins** |
+
+### 8.4 CFC Risk: A Hidden Differentiator
+
+**Controlled Foreign Corporation (CFC) rules** in many countries allow the shareholder's home country to tax profits of a foreign entity if that entity is taxed below a certain threshold.
+
+- **UAE at 0%:** Triggers CFC rules in virtually every country that has them — US (Subpart F / GILTI), UK, Germany, France, Japan, Mexico. If TE ever has a shareholder or key person tax-resident in one of these countries, the 0% rate could be attributed to them personally.
+- **Singapore at 17%:** The headline rate satisfies CFC safe harbors in most countries. Even with Pioneer at 0%, Singapore does not have its own CFC rules and is perceived as a substantive jurisdiction — making challenges less likely.
+- **Mexico specifically:** Mexico's CFC rules were explicitly preserved in the UAE-Mexico treaty. If the founder or any shareholder is tax-resident in Mexico, the UAE entity's income could be attributed to them. The PIF provides a layer of protection, but Mexican authorities may look through it.
+
+**For TE's structure (PIF ownership, no shareholders in high-CFC jurisdictions):** The CFC risk is manageable for both routes. But if TE takes on investors who are US or EU tax-resident, the UAE structure creates more CFC exposure for those investors than Singapore does.
 
 ---
 
