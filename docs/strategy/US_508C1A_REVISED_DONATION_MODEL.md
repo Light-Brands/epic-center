@@ -2,7 +2,7 @@
 
 > **Document Status:** Definitive structure — requires counsel validation before implementation
 > **Supersedes:** Prior 508(c)(1)(A) docs (revenue-routing model, personal LLC model)
-> **Related:** [UAE_IMPLEMENTATION_BLUEPRINT.md](./UAE_IMPLEMENTATION_BLUEPRINT.md), [CHRIST_CONSCIOUSNESS_STRATEGY.md](./CHRIST_CONSCIOUSNESS_STRATEGY.md), [CYPRUS_FOUNDER_INTEGRATION.md](./CYPRUS_FOUNDER_INTEGRATION.md)
+> **Related:** [UAE_IMPLEMENTATION_BLUEPRINT.md](./UAE_IMPLEMENTATION_BLUEPRINT.md), [CHRIST_CONSCIOUSNESS_STRATEGY.md](./CHRIST_CONSCIOUSNESS_STRATEGY.md), [CYPRUS_FOUNDER_INTEGRATION.md](./CYPRUS_FOUNDER_INTEGRATION.md) (domiciled), [CYPRUS_NONDOM_REFERENCE.md](./CYPRUS_NONDOM_REFERENCE.md) (non-dom)
 > **Last Updated:** February 2026
 
 ---

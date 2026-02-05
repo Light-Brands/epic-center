@@ -1,440 +1,490 @@
-# Cyprus Founder Integration: The Non-Dom Advantage
+# Cyprus Founder Integration: The Domiciled Resident Strategy
 
 > **Document Status:** Strategy document — requires Cyprus tax counsel validation
+> **Applies to:** Lifelong Cyprus resident (25+ years) — deemed domiciled, non-dom regime does NOT apply
+> **Non-dom reference:** For founders who are NOT lifelong residents, see [CYPRUS_NONDOM_REFERENCE.md](./CYPRUS_NONDOM_REFERENCE.md)
 > **Related:** [Master Plan: The Complete TE Global Structure](./US_508C1A_REVISED_DONATION_MODEL.md), [UAE Implementation Blueprint](./UAE_IMPLEMENTATION_BLUEPRINT.md)
 > **Last Updated:** February 2026
 
 ---
 
-## 1. TL;DR — Cyprus Founders Have It Easy
+## 1. TL;DR — The Problem and the Solution
 
-Cyprus founders don't need the church. They don't need complex wealth extraction channels. They don't need to navigate worldwide taxation. Cyprus's **non-domiciled (non-dom) regime** is one of the most generous in the world for passive income, and combined with the UAE structure, it produces a near-zero effective tax rate with minimal complexity.
+A Cyprus founder who has lived in Cyprus their entire life (25+ years) is **deemed domiciled**. This means the favorable non-dom regime (0% SDC on dividends) does **not** apply. Dividends hit **17% SDC + 2.65% GESY = ~19.65%**. That changes everything.
+
+**The strategy flips: maximize salary, minimize dividends.**
+
+The **overseas employment exemption** — salary from a non-resident employer for work done outside Cyprus for more than 90 days — is **fully exempt from Cyprus income tax** regardless of domicile status. This is the lifelong resident's primary tool.
 
 ```mermaid
 graph LR
-    BRAIN["THE BRAIN<br/>───────────────<br/>TE Global Technology<br/>FZ-LLC (Dubai)<br/>───────────────<br/>Employs Cyprus founders<br/>Pays salary for Dubai work<br/>0% corporate tax"]
+    BRAIN["THE BRAIN<br/>───────────────<br/>TE Global Technology<br/>FZ-LLC (Dubai)<br/>───────────────<br/>Employs Cyprus founder<br/>Pays LARGE salary<br/>0% corporate tax"]
 
-    SHIELD["THE SHIELD<br/>───────────────<br/>Panama PIF<br/>───────────────<br/>Cyprus founders CAN<br/>be beneficiaries<br/>Distributions = dividends<br/>0% tax"]
+    SHIELD["THE SHIELD<br/>───────────────<br/>Panama PIF<br/>───────────────<br/>Owns the Brain<br/>Minimize distributions<br/>to Cyprus founder<br/>(17% SDC on dividends)"]
 
-    CYPRUS["THE CYPRIOT SOUL<br/>───────────────<br/>Cyprus Founders<br/>(Non-Dom Status)<br/>───────────────<br/>Salary: 0% (90-day rule)<br/>Dividends: 0% SDC + 2.65% GESY<br/>Cap gains: 0%<br/>───────────────<br/>Effective rate: ~0.2%"]
+    CYPRUS["THE CYPRIOT SOUL<br/>───────────────<br/>Cyprus Founder<br/>(Deemed Domiciled)<br/>───────────────<br/>Salary: 0% (90-day rule)<br/>Dividends: 19.65% SDC+GESY<br/>Cap gains: 0%<br/>───────────────<br/>Strategy: ALL salary,<br/>minimal dividends"]
 
     SHIELD -->|"100% shareholder"| BRAIN
-    BRAIN -->|"Salary<br/>(work in Dubai >90 days)"| CYPRUS
-    SHIELD -->|"Distributions<br/>(dividends)"| CYPRUS
+    BRAIN -->|"LARGE salary<br/>(work outside Cyprus<br/>>90 days = TAX FREE)"| CYPRUS
+    SHIELD -.->|"Minimal distributions<br/>(17% SDC + 2.65% GESY)"| CYPRUS
 
     style BRAIN fill:#0f3460,stroke:#e94560,color:#fff
     style SHIELD fill:#1a1a2e,stroke:#e94560,color:#fff
-    style CYPRUS fill:#0a8754,stroke:#fff,color:#fff
+    style CYPRUS fill:#c9770a,stroke:#fff,color:#fff
 ```
 
-| Income Type | Tax Treatment | Effective Rate |
+| Income Type | Tax for Lifelong Resident | Strategy |
 |---|---|---|
-| Employment salary (work done outside Cyprus >90 days) | **Fully exempt** from Cyprus income tax | **0%** |
-| PIF distributions (dividends) | 0% SDC (non-dom) + 2.65% GESY (capped EUR 4,770/yr) | **~0.2% on large amounts** |
-| Capital gains on share disposal | **Fully exempt** | **0%** |
-| **Overall effective rate** | | **~0.2%** |
+| Salary (work outside Cyprus >90 days) | **0% — fully exempt** | **MAXIMIZE this** |
+| Salary (work inside Cyprus) | Progressive rates up to 35% | Minimize this |
+| Dividends / PIF distributions | **17% SDC + 2.65% GESY = ~19.65%** | **MINIMIZE this** |
+| Capital gains on securities | **0%** | No change needed |
 
 ---
 
-## 2. Why Cyprus Is Different from the US
+## 2. Why Lifelong Residency Changes Everything
 
-The US founder needs the church structure because the US taxes citizens on **worldwide income regardless of where they live**. Even living in Dubai, a US citizen owes tax on every dollar earned anywhere on Earth.
+### The Non-Dom Regime Does NOT Apply
 
-Cyprus does the opposite:
+| Requirement | Status for 25+ Year Resident |
+|---|---|
+| Not resident for 17 of last 20 years? | **FAILS** — resident for 20+ of last 20 years |
+| Domicile of origin not Cyprus? | **FAILS** — born and raised in Cyprus |
+| Acquired domicile of choice elsewhere? | **FAILS** — never permanently relocated |
+| **Non-dom eligible?** | **NO** |
 
-| Factor | United States | Cyprus |
+**Consequence:** Full SDC applies — **17% on dividends, 17% on interest**
+
+### The 50% Employment Exemption Does NOT Apply
+
+| Requirement | Status |
+|---|---|
+| Not a Cyprus tax resident for 15 consecutive years before employment? | **FAILS** — has been resident continuously |
+| **Article 8(23A) eligible?** | **NO** |
+
+### What STILL Works
+
+| Tool | Status | Why |
 |---|---|---|
-| Tax basis | **Citizenship** (worldwide, forever) | **Residency** (stop being resident = stop paying tax) |
-| Dividends | Taxed at 0-23.8% (plus 3.8% NIIT) | **0% income tax + 0% SDC (non-dom) + 2.65% GESY** |
-| Capital gains on shares | 0-23.8% (plus 3.8% NIIT) | **0%** |
-| Foreign employment income | Taxed (FEIE covers $130K) | **0% if work done abroad >90 days** |
-| CFC/GILTI rules for individuals | Yes — complex, punitive | **No CFC for individuals** (only companies) |
-| Exit tax | Yes (expatriation tax > $866K) | **No exit tax** |
-| Church needed? | **Yes** — to create tax-free channels | **No** — tax code already provides them |
-
-**Bottom line:** A Cyprus founder plugged into the TE structure gets nearly everything tax-free by default. No church. No housing allowance. No retirement stacking. Just straightforward non-dom benefits.
+| **Overseas employment exemption (90-day rule)** | **AVAILABLE** | Based on where work is performed, not domicile status |
+| **Capital gains exemption on securities** | **AVAILABLE** | Applies to all residents regardless of domicile |
+| **Cyprus-UAE treaty (0% WHT)** | **AVAILABLE** | Treaty applies regardless of domicile |
+| **No CFC rules for individuals** | **AVAILABLE** | Cyprus CFC only applies to companies |
+| **No exit tax** | **AVAILABLE** | Cyprus has no departure tax |
 
 ---
 
-## 3. The Cyprus Non-Dom Regime — How It Works
+## 3. The Core Strategy: Salary-First
 
-### What Is Non-Dom?
-
-"Non-domiciled" means you're a **tax resident** of Cyprus but your **domicile** (permanent home of origin or choice) is elsewhere. If you weren't born in Cyprus and haven't lived there for 17 of the last 20 years, you qualify automatically.
-
-### What You Get
-
-| Benefit | Detail | Duration |
-|---|---|---|
-| **0% SDC on dividends** | Special Defence Contribution (normally 17%) is fully exempt for non-doms | 17 years (rolling 20-year window) |
-| **0% SDC on interest** | Interest income SDC (normally 17%) fully exempt | 17 years |
-| **0% capital gains on securities** | Disposal of shares, bonds, debentures — fully exempt regardless of domicile | Permanent |
-| **GESY (healthcare) on passive income** | 2.65% on dividends/interest, **capped at EUR 180,000** (max EUR 4,770/yr) | Ongoing |
-| **No exit tax** | Leave Cyprus whenever you want, no deemed disposition | Permanent |
-
-### The 17-Year Clock
-
-Non-dom status lasts until you've been a Cyprus tax resident for 17 out of the last 20 years. But this is a **rolling window** — if you break residency for a year or two, the clock pauses. Unlike the US, you're not locked in. You can leave, come back, and the benefits continue.
-
----
-
-## 4. Three Paths for Cyprus Founders
-
-### Path A: The Hybrid (Recommended)
-
-**Live primarily between Dubai and Cyprus. Tax resident in Cyprus via the 60-day rule. Work from Dubai most of the year.**
+For a domiciled Cyprus resident, the optimal structure is clear: **take as much as possible as salary for work done outside Cyprus, and as little as possible as dividends.**
 
 ```mermaid
 graph TB
-    subgraph "Time Split"
-        CY["Cyprus<br/>60-70 days/year<br/>Permanent home<br/>EU lifestyle"]
-        DXB["Dubai<br/>100-120 days/year<br/>Working at TE Global<br/>0% income"]
-        TRAVEL["Travel / Mexico / Elsewhere<br/>175-205 days/year"]
+    subgraph "The Flip: Non-Dom vs Domiciled"
+        direction LR
+        NONDOM["NON-DOM Strategy<br/>───────────────<br/>Maximize DIVIDENDS<br/>(0% SDC)<br/>Minimize salary"]
+        DOM["DOMICILED Strategy<br/>───────────────<br/>Maximize SALARY<br/>(0% overseas exemption)<br/>Minimize dividends<br/>(17% SDC)"]
+    end
+
+    subgraph "How the 90-Day Rule Works"
+        RULE["Overseas Employment Exemption<br/>───────────────<br/>Employment income is 100% EXEMPT if:<br/>1. Employer is non-resident (UAE entity ✓)<br/>2. Services performed outside Cyprus<br/>   for more than 90 days in the tax year"]
+
+        EXEMPT["Work done OUTSIDE Cyprus<br/>(Dubai, Mexico, travel)<br/>= 0% tax"]
+        TAXED["Work done INSIDE Cyprus<br/>= Progressive rates up to 35%"]
+    end
+
+    DOM --> RULE
+    RULE --> EXEMPT
+    RULE --> TAXED
+
+    style NONDOM fill:#2d4059,stroke:#ea5455,color:#fff
+    style DOM fill:#0a8754,stroke:#fff,color:#fff
+    style RULE fill:#0f3460,stroke:#e94560,color:#fff
+    style EXEMPT fill:#0a8754,stroke:#fff,color:#fff
+    style TAXED fill:#c9770a,stroke:#fff,color:#fff
+```
+
+### The 90-Day Exemption — The Key Tool
+
+This exemption is the single most important provision for the domiciled Cyprus founder:
+
+| Criterion | Requirement | How to Meet It |
+|---|---|---|
+| Employer | Must be a **non-resident employer** (or a foreign PE of a Cyprus employer) | TE Global Technology FZ-LLC (Dubai) = non-resident employer ✓ |
+| Days outside Cyprus | Must perform services **outside Cyprus for more than 90 days** in the calendar year | Work from Dubai office, attend Tulum facility, travel for business |
+| Type of income | **Employment income** (salary, bonus, benefits) | Formal employment contract with the UAE entity |
+
+**What counts as a "day outside Cyprus":**
+- Day of departure = day outside Cyprus
+- Day of arrival = day in Cyprus
+- If in Dubai Mon-Fri = 4 days outside (depart Mon, arrive Fri)
+
+**90 days = roughly 3 months.** A founder who spends January-March in Dubai (or split across Dubai + Mexico + business travel throughout the year) meets this threshold while still living in Cyprus ~9 months of the year.
+
+---
+
+## 4. Three Paths for the Domiciled Cyprus Founder
+
+### Path A: Salary-First with Overseas Work (Recommended)
+
+**Stay in Cyprus. Work from Dubai/Mexico/abroad for 90+ days. Take a large salary. Minimize dividends.**
+
+```mermaid
+graph TB
+    subgraph "Annual Schedule (Example)"
+        JAN["Jan-Mar: Dubai<br/>~90 days<br/>Working at TE Global HQ"]
+        APR["Apr-May: Cyprus<br/>~60 days<br/>Remote work + personal"]
+        JUN["Jun-Jul: Tulum / Travel<br/>~45 days<br/>Facility oversight + biz dev"]
+        AUG["Aug-Dec: Cyprus<br/>~170 days<br/>Remote work + personal"]
     end
 
     subgraph "Tax Result"
-        SALARY["UAE Salary<br/>Work done outside Cyprus >90 days<br/>= 100% EXEMPT from Cyprus tax"]
-        DIV["PIF Distributions<br/>Non-dom = 0% SDC<br/>2.65% GESY (capped EUR 4,770)"]
-        CG["Capital Gains<br/>Securities = 0%<br/>Always"]
+        TOTAL_OUT["Total days outside Cyprus: ~135<br/>(Dubai 90 + Tulum/Travel 45)<br/>──────────────<br/>MORE than 90 days ✓<br/>= ALL salary EXEMPT"]
     end
 
-    CY --> SALARY
-    DXB --> SALARY
-    TRAVEL --> SALARY
-    CY --> DIV
-    CY --> CG
+    JAN --> TOTAL_OUT
+    JUN --> TOTAL_OUT
 
-    style CY fill:#533483,stroke:#ffd700,color:#fff
-    style DXB fill:#0f3460,stroke:#e94560,color:#fff
-    style TRAVEL fill:#2d4059,stroke:#ea5455,color:#fff
-    style SALARY fill:#0a8754,stroke:#fff,color:#fff
-    style DIV fill:#0a8754,stroke:#fff,color:#fff
-    style CG fill:#0a8754,stroke:#fff,color:#fff
+    style JAN fill:#0f3460,stroke:#e94560,color:#fff
+    style APR fill:#533483,stroke:#ffd700,color:#fff
+    style JUN fill:#16213e,stroke:#0f3460,color:#fff
+    style AUG fill:#533483,stroke:#ffd700,color:#fff
+    style TOTAL_OUT fill:#0a8754,stroke:#fff,color:#fff
 ```
 
-**60-Day Rule Requirements (ALL must be met):**
-
-| Requirement | How to Meet It |
-|---|---|
-| Spend at least 60 days in Cyprus | Maintain a home, spend ~2 months/year |
-| NOT be tax resident in any other country | Don't apply for UAE tax residency certificate; don't spend 183+ days in any single other country |
-| Not spend more than 183 days in any other single country | Split time between Dubai, Mexico, travel |
-| Have business/employment in a Cyprus entity | Hold a directorship in a Cyprus company, OR maintain employment with a Cyprus-linked entity |
-| Maintain a permanent residence in Cyprus | Own or rent a home in Cyprus |
-
-**Tax Math for Path A:**
+**Tax Math (Year 5):**
 
 | Income | Amount | Tax Treatment | Tax |
 |---|---|---|---|
-| UAE salary (work done outside Cyprus >90 days) | $200,000-400,000 | **100% exempt** — non-resident employer, services outside Cyprus >90 days | **$0** |
-| PIF distributions (dividends) | $200,000-1,000,000 | 0% SDC (non-dom) + 0% income tax + 2.65% GESY capped at EUR 4,770 | **~$5,200** (EUR 4,770) |
-| Capital gains on any share disposal | Variable | **0%** | **$0** |
-| **Total on $400K-1.4M income** | | | **~$5,200/yr** |
+| UAE salary (work outside Cyprus >90 days) | **$800,000** | 100% exempt — overseas employment exemption | **$0** |
+| PIF distributions (dividends) — kept minimal | $100,000 | 17% SDC ($17,000) + 2.65% GESY ($2,650) | **~$19,650** |
+| Capital gains | Variable | 0% on securities | **$0** |
+| **Total on $900,000** | | | **~$19,650** |
+| **Effective rate** | | | **~2.2%** |
 
-**Effective rate: 0.4% on $1.4M → 1.3% on $400K → always capped at EUR 4,770/yr GESY.**
+**Why this works:**
+- The UAE entity is genuinely non-resident (Dubai-based, Dubai-licensed)
+- The founder genuinely works from Dubai 90+ days per year (office in DIC, team is there)
+- Employment contract is with the UAE entity, not a Cyprus company
+- Salary is not artificially inflated — it's reasonable compensation for an executive/co-founder
+- Cyprus home and lifestyle are fully maintained the other ~230 days
 
-**Why this path is best:**
-- Maintain EU residency and lifestyle (Cyprus = EU member)
-- Access to EU healthcare system
-- Near-zero tax
-- No need to fully relocate to Dubai
-- Can still spend significant time at the Tulum facility and in Dubai for work
-- Keep an apartment in Limassol or Paphos as home base
+**The key insight: there is no limit on the salary amount.** Unlike the US FEIE ($130K cap), the Cyprus overseas employment exemption exempts 100% of employment income regardless of amount. A $800K salary from the UAE entity is just as exempt as a $100K salary, as long as the >90 day threshold is met.
 
-### Path B: Full Dubai Move (Like the Canadian Founder)
+### Path B: Move to Dubai, Reset the Clock, Return as Non-Dom
 
-**Drop Cyprus residency entirely. Move to Dubai. Get a Golden Visa.**
+**Leave Cyprus for 4 years. Return as non-dom with 0% SDC on dividends.**
+
+Cyprus has **no exit tax**. The founder can leave, establish UAE residency, and return later with a clean slate.
+
+**The math:**
+- 25 years resident = 20 of last 20 years ✗ (deemed domiciled)
+- After 1 year away: 19 of 20 ✗
+- After 2 years: 18 of 20 ✗
+- After 3 years: 17 of 20 ✗ (still deemed domiciled — need <17)
+- **After 4 years: 16 of 20 ✓** — eligible for non-dom status
+
+**But** the founder also has a Cyprus **domicile of origin** (born there). To qualify as non-dom, they must acquire a **domicile of choice** in another country — meaning they must genuinely establish a new permanent home (e.g., in Dubai) and demonstrate intention to remain there indefinitely. Simply being away for 4 years and then returning may not be sufficient.
+
+| Year | Where | Tax | Income Strategy |
+|---|---|---|---|
+| Years 1-4 (Dubai) | UAE resident | **0% on everything** | Take salary + full PIF distributions — all at 0% |
+| Year 5+ (Return to Cyprus) | Cyprus non-dom | **0% SDC on dividends** + salary exemption | Switch to dividend-heavy model |
+
+**Trade-offs:**
+- Must genuinely relocate to Dubai for ~4 years
+- Must establish a domicile of choice (buy/rent home in Dubai, sever some Cyprus ties)
+- Risk that Cyprus tax authorities challenge the domicile of choice claim upon return
+- During the 4 Dubai years: 0% on everything (the golden period)
+- On return: non-dom regime unlocked for up to 17 years
+
+**Recommendation:** This path is powerful but requires genuine relocation. If the founder is willing to live in Dubai for the company's first 4 years (which aligns with the startup phase when presence in Dubai for substance is most important), they return to Cyprus with the full non-dom toolkit. **This is the strongest long-term play.**
+
+### Path C: Full Dubai Move (Permanent)
+
+**Like the Canadian founder — move to Dubai permanently.**
 
 | Income | Tax |
 |---|---|
-| UAE salary | **$0** (no personal income tax in UAE) |
-| PIF distributions | **$0** (no personal income tax in UAE) |
+| UAE salary | **$0** |
+| PIF distributions | **$0** |
 | Capital gains | **$0** |
 | **Everything** | **$0** |
 
 **Trade-offs:**
-- Lose EU residency (can still visit as tourist for 90/180 days)
-- Must establish genuine UAE residency (Golden Visa + Emirates ID)
-- 0% vs 0.2% — marginal improvement over Path A
-- Lose the Cyprus lifestyle and EU access
+- Must genuinely relocate
+- Lose daily Cyprus lifestyle (can still visit freely)
+- Golden Visa required (~$2,000-5,000)
+- 0% vs 2.2% (Path A) — small marginal benefit unless taking large dividends
 
-**Recommendation:** Only choose Path B if the founder genuinely wants to live in Dubai full-time. The tax difference between Path A and Path B is EUR 4,770/year — not worth restructuring your life around.
+### Path D: Stay in Cyprus Full-Time (No Travel Optimization)
 
-### Path C: Full Cyprus Residency (183+ Days)
+**If the founder does not want to travel 90+ days per year.**
 
-**Stay in Cyprus full-time. Use the 50% employment exemption.**
+Without the overseas employment exemption, all salary for work done in Cyprus is taxed at progressive rates:
 
-If a Cyprus founder prefers to live in Cyprus and not travel extensively:
+**2026 Cyprus Income Tax Rates:**
 
-| Income | Tax Treatment | Effective Rate |
-|---|---|---|
-| Employment salary (Article 8(23A) — 50% exemption) | Only 50% of salary is taxable; progressive rates up to 35% on the taxable half | **~17.5% maximum** on total salary |
-| PIF distributions (dividends) | 0% SDC (non-dom) + 2.65% GESY capped | **~0.2%** |
-| Capital gains on securities | 0% | **0%** |
-
-**Article 8(23A) Details:**
-- Requires first employment in Cyprus after 15+ consecutive years of non-residency
-- Salary must exceed EUR 55,000/year
-- Exemption lasts **17 years**
-- Can change employers and keep the exemption
-
-**Tax Math for Path C (EUR 200K salary + EUR 500K dividends):**
-
-| Income | Amount | Calculation | Tax |
-|---|---|---|---|
-| Salary (50% exempt) | EUR 200,000 | 50% = EUR 100,000 taxable. Tax: ~EUR 24,050 | **~EUR 24,050** |
-| Dividends | EUR 500,000 | 0% SDC + 2.65% GESY (capped EUR 4,770) | **EUR 4,770** |
-| **Total** | EUR 700,000 | | **~EUR 28,820** |
-| **Effective rate** | | | **~4.1%** |
-
-**Recommendation:** Path C is still excellent but Path A is strictly better if the founder is willing to spend 90+ days working from Dubai.
-
----
-
-## 5. The PIF Question: Can Cyprus Founders Be Beneficiaries?
-
-**Yes — and this is a major advantage over the US founder.**
-
-The US founder cannot be a PIF beneficiary because the IRS would look through the PIF and attribute CFC/GILTI income. Cyprus has no equivalent rule for individuals:
-
-| Issue | US Founder | Cyprus Founder |
-|---|---|---|
-| Can be PIF beneficiary? | **No** (triggers CFC/GILTI) | **Yes** |
-| PIF distributions taxable? | N/A (not a beneficiary) | As dividends: **0% SDC (non-dom) + 2.65% GESY (capped)** |
-| CFC rules for individuals? | **Yes** — punitive | **No** — Cyprus CFC only applies to companies |
-| Look-through rules? | IRS looks through trusts/foundations | No equivalent for individuals |
-
-**How distributions work:**
-
-```mermaid
-graph LR
-    UAE["TE Global Technology<br/>FZ-LLC (Dubai)<br/>Generates profits"]
-    PIF["Panama PIF<br/>Receives dividends<br/>from UAE entity"]
-    CY["Cyprus Founder<br/>(Non-Dom)<br/>PIF Beneficiary"]
-
-    UAE -->|"Dividends<br/>(0% WHT)"| PIF
-    PIF -->|"Distributions<br/>(treated as dividends)"| CY
-
-    subgraph "Cyprus Tax on Distribution"
-        SDC["SDC: 0%<br/>(non-dom exempt)"]
-        IT["Income Tax: 0%<br/>(dividends exempt)"]
-        GESY["GESY: 2.65%<br/>(capped EUR 4,770/yr)"]
-    end
-
-    CY --> SDC
-    CY --> IT
-    CY --> GESY
-
-    style UAE fill:#0f3460,stroke:#e94560,color:#fff
-    style PIF fill:#1a1a2e,stroke:#e94560,color:#fff
-    style CY fill:#0a8754,stroke:#fff,color:#fff
-    style SDC fill:#0a8754,stroke:#fff,color:#fff
-    style IT fill:#0a8754,stroke:#fff,color:#fff
-    style GESY fill:#c9770a,stroke:#fff,color:#fff
-```
-
-### The Panama-EU Blacklist Consideration
-
-Panama is on the EU list of non-cooperative tax jurisdictions. For Cyprus:
-
-| Concern | Reality |
+| Bracket | Rate |
 |---|---|
-| Does the blacklist add withholding tax for individuals? | **No** — Cyprus blacklist WHT rules apply to payments FROM Cyprus companies TO Panama entities, not to individual beneficiaries receiving FROM Panama |
-| DAC6 reporting? | **Possibly** — cross-border arrangements involving blacklisted jurisdictions may trigger mandatory disclosure requirements. This is a **reporting** obligation, not a tax |
-| Reputational risk? | **Low-moderate** — banks and compliance officers may ask additional questions |
-| Alternative to PIF? | If counsel advises, could use a Liechtenstein foundation or Netherlands BV as the holding layer instead of Panama. But PIF remains functional for individuals. |
+| EUR 0 - 22,000 | 0% |
+| EUR 22,001 - 32,000 | 20% |
+| EUR 32,001 - 42,000 | 25% |
+| EUR 42,001 - 72,000 | 30% |
+| EUR 72,001+ | 35% |
 
-**Recommendation:** Keep the Panama PIF for now. If Cyprus counsel flags concerns, consider restructuring the holding layer to a non-blacklisted jurisdiction (Liechtenstein, Luxembourg, Netherlands). The cost is minimal and the PIF structure translates directly.
+**Tax Math (Year 5, Path D — worst case):**
+
+| Income | Amount | Tax |
+|---|---|---|
+| UAE salary (work in Cyprus, no exemption) | EUR 300,000 (~$330K) | ~EUR 89,350 (~$98K) at blended ~29.8% |
+| PIF distributions (dividends) | EUR 300,000 (~$330K) | ~EUR 59,000 SDC (17%) + ~EUR 4,770 GESY (capped) = ~$70K |
+| Capital gains | Variable | $0 |
+| **Total on ~$660K** | | **~$168,000** |
+| **Effective rate** | | **~25.5%** |
+
+**This is still better than a US founder without the church structure (~30%+), but dramatically worse than Paths A or B.**
 
 ---
 
-## 6. Side-by-Side: All Founders Compared
+## 5. Path Comparison at a Glance
 
-### Structure Each Founder Uses
+| | Path A: Salary-First | Path B: Dubai Reset | Path C: Full Dubai | Path D: Stay Put |
+|---|---|---|---|---|
+| **Where they live** | Cyprus (~230 days) + Dubai (~90 days) + travel | Dubai (4 yrs) → Cyprus | Dubai (permanent) | Cyprus (full-time) |
+| **Travel required** | 90+ days outside Cyprus/yr | 4 years abroad then return | Permanent relocation | None |
+| **Salary tax** | **0%** (90-day rule) | **0%** (Dubai) → **0%** (90-day rule on return) | **0%** (Dubai) | **Up to 35%** (progressive) |
+| **Dividend tax** | **~19.65%** (SDC + GESY) | **0%** (Dubai) → **2.65%** (non-dom GESY) | **0%** | **~19.65%** (SDC + GESY) |
+| **Capital gains** | **0%** | **0%** | **0%** | **0%** |
+| **Y5 effective rate** | **~2.2%** | **0% (Dubai) → ~0.4% (Cyprus)** | **0%** | **~25.5%** |
+| **Lifestyle change** | Moderate — 3 months in Dubai | Major — 4 years in Dubai | Major — permanent | None |
+| **Complexity** | Low | Medium | Low | Low |
+| **Recommended?** | **Yes (immediate)** | **Yes (long-term play)** | Only if desired | **Last resort** |
+
+---
+
+## 6. The PIF Question: Can a Domiciled Resident Be a Beneficiary?
+
+**Yes — but dividends hurt more.**
+
+| | Non-Dom Beneficiary | Domiciled Beneficiary |
+|---|---|---|
+| SDC on PIF distributions | 0% | **17%** |
+| GESY on PIF distributions | 2.65% (capped EUR 4,770) | 2.65% (capped EUR 4,770) |
+| Income tax on dividends | 0% | 0% (dividends always exempt from income tax in Cyprus) |
+| **Total** | **~2.65%** (capped) | **~19.65%** (17% uncapped + 2.65% capped) |
+
+**This is why the strategy flips to salary-first.** A domiciled founder should take the minimum possible in dividends and the maximum possible in salary (which is exempt under the 90-day rule).
+
+### Optimal Income Split
+
+| Income Channel | Domiciled Strategy | Why |
+|---|---|---|
+| **UAE salary** | **MAXIMIZE** — take as much as reasonable | 0% if working outside Cyprus >90 days |
+| **PIF distributions** | **MINIMIZE** — only take what's needed beyond salary | 19.65% tax on every dollar |
+| **Capital gains** | Take freely | Always 0% on securities |
+| **Retained earnings in UAE entity** | **Retain as much as possible** | 0% QFZP — no cost to keep it in the entity |
+
+**Practical approach:** Pay the Cyprus founder a large salary ($500K-$1M+) from the UAE entity. Leave profits in the UAE entity or the PIF. Only distribute dividends when capital is actually needed for personal expenditure beyond salary. Since the UAE entity pays 0% corporate tax, there's no cost to retaining earnings — and the money is accessible whenever needed through future salary increases.
+
+---
+
+## 7. Comparison: All Founders at Year 5
 
 ```mermaid
 graph TB
-    subgraph "Canadian Founder (0% Total)"
-        CA_PATH["Dubai Golden Visa<br/>PIF Beneficiary<br/>UAE salary: 0%<br/>PIF distributions: 0%<br/>No Canadian tax (departed)"]
+    subgraph "Canadian Founder"
+        CA["Dubai Resident<br/>PIF Beneficiary<br/>───────────────<br/>Salary: $400K → $0 tax<br/>Dividends: $1M → $0 tax<br/>───────────────<br/>TOTAL TAX: $0<br/>RATE: 0%"]
     end
 
-    subgraph "Cyprus Founder (0.2% Total)"
-        CY_PATH["Cyprus Non-Dom + 60-Day Rule<br/>PIF Beneficiary<br/>UAE salary: 0% (90-day rule)<br/>PIF distributions: 0% SDC + GESY<br/>Cap gains: 0%"]
+    subgraph "Cyprus Founder (Path A)"
+        CY["Cyprus Resident (Domiciled)<br/>PIF Beneficiary<br/>───────────────<br/>Salary: $800K → $0 tax<br/>(90-day exemption)<br/>Dividends: $100K → $19,650 tax<br/>(17% SDC + 2.65% GESY)<br/>───────────────<br/>TOTAL TAX: $19,650<br/>RATE: 2.2%"]
     end
 
-    subgraph "US Founder (3.7% Total)"
-        US_PATH["Dubai Golden Visa<br/>NOT PIF Beneficiary<br/>UAE salary: FEIE $130K + taxed<br/>Church: minister comp<br/>Housing allowance: tax-free<br/>Retirement: tax-deferred"]
+    subgraph "US Founder"
+        US["Dubai Resident<br/>NOT PIF Beneficiary<br/>───────────────<br/>Salary: $300K → $37,400 tax<br/>Church comp: $600K → $0-72K tax<br/>Housing + retirement: $847K → $0<br/>───────────────<br/>TOTAL TAX: $85,400<br/>RATE: 3.7%"]
     end
 
-    PIF["Panama PIF"] --> CA_PATH
-    PIF --> CY_PATH
-    UAE["TE Global Technology<br/>FZ-LLC (Dubai)"] --> CA_PATH
-    UAE --> CY_PATH
-    UAE --> US_PATH
-    CHURCH["Church of the<br/>Living Light"] --> US_PATH
-
-    style CA_PATH fill:#0a8754,stroke:#fff,color:#fff
-    style CY_PATH fill:#0a8754,stroke:#fff,color:#fff
-    style US_PATH fill:#c9770a,stroke:#fff,color:#fff
-    style PIF fill:#1a1a2e,stroke:#e94560,color:#fff
-    style UAE fill:#0f3460,stroke:#e94560,color:#fff
-    style CHURCH fill:#533483,stroke:#ffd700,color:#fff
+    style CA fill:#0a8754,stroke:#fff,color:#fff
+    style CY fill:#0a8754,stroke:#fff,color:#fff
+    style US fill:#c9770a,stroke:#fff,color:#fff
 ```
 
-### Year 5 Comparison ($1.5M Total Personal Value Each)
+| | Canadian | Cyprus (Path A) | Cyprus (Path B, post-return) | US |
+|---|---|---|---|---|
+| **Year 5 total income** | $1,400,000 | $900,000 | $1,400,000 | $2,294,000 |
+| **Year 5 tax** | **$0** | **$19,650** | **~$5,200** | **$85,400** |
+| **Effective rate** | **0%** | **2.2%** | **~0.4%** | **3.7%** |
+| **Structure complexity** | Simple | Simple | Medium (4-yr relocation) | Complex (church + multi-channel) |
+| **Needs the church?** | No | No | No | Yes |
+| **Can be PIF beneficiary?** | Yes | Yes (but 19.65% SDC) | Yes (0% SDC after reset) | No |
 
-| | Canadian Founder | Cyprus Founder | US Founder |
-|---|---|---|---|
-| **Residence** | Dubai | Cyprus (60-day) + Dubai | Dubai |
-| **UAE salary** | $300K → **$0 tax** | $300K → **$0 tax** (90-day rule) | $300K → $37,400 tax (FEIE + marginal) |
-| **PIF distributions** | $500K → **$0 tax** | $500K → **$5,200 tax** (GESY cap) | N/A (not a beneficiary) |
-| **Church compensation** | $30K stipend → **$0 tax** | N/A (not needed) | $300K salary + $300K housing + $547K retirement → $48,000 tax |
-| **Church-owned assets** | N/A | N/A | $200K lifestyle → **$0 tax** |
-| **Capital gains** | **$0 tax** | **$0 tax** | Subject to US rates |
-| **Total tax on ~$1.5M** | **$0** | **~$5,200** | **~$85,400** |
-| **Effective rate** | **0%** | **~0.3%** | **~3.7%** (incl. deferred) |
-| **Complexity** | Low | Low | High (church + multiple channels) |
+**Note on income difference:** The Cyprus founder (Path A) takes $900K instead of $1.4M because they minimize dividends (which would be taxed at 19.65%). The remaining $500K stays in the UAE entity at 0% and is accessible via future salary or when/if they move to a 0% jurisdiction.
 
 ---
 
-## 7. Implementation for Cyprus Founders
+## 8. The Hybrid Play: Path A Now, Path B Later
 
-### What They Need to Do
+The strongest strategy combines both paths:
 
-**If Already Cyprus Resident (Non-Dom):**
+```mermaid
+graph LR
+    subgraph "Years 1-4: Startup Phase"
+        Y1["Path A + B Hybrid<br/>───────────────<br/>Live in Dubai most of time<br/>(building substance anyway)<br/>Keep Cyprus home<br/>Break tax residency<br/>───────────────<br/>Salary: 0% (UAE resident)<br/>Dividends: 0% (UAE resident)<br/>Building toward non-dom reset"]
+    end
+
+    subgraph "Year 5+: Return Phase"
+        Y5["Return to Cyprus as Non-Dom<br/>───────────────<br/>Non-dom status unlocked<br/>(< 17 of last 20 years)<br/>Domicile of choice: Dubai<br/>───────────────<br/>Salary: 0% (90-day rule)<br/>Dividends: 0% SDC + 2.65% GESY<br/>FULL non-dom benefits"]
+    end
+
+    Y1 -->|"After 4 years<br/>of non-residency"| Y5
+
+    style Y1 fill:#0f3460,stroke:#e94560,color:#fff
+    style Y5 fill:#0a8754,stroke:#fff,color:#fff
+```
+
+**Why this is ideal:**
+
+1. **Years 1-4 are the startup phase** — the founder should be in Dubai anyway (building team, establishing substance, working with the CTO and engineers)
+2. **During those years they pay 0% on everything** as a UAE resident
+3. **After 4 years, they've broken the 17-of-20 threshold** (only 16 of last 20 years as Cyprus resident)
+4. **They've established a genuine domicile of choice in Dubai** (lived there, rented/bought a home, built a life)
+5. **They return to Cyprus with non-dom status** — 0% SDC on dividends for 17 years
+6. **The return is genuine** — they're coming back to Cyprus with real ties elsewhere
+
+**Year-by-year tax:**
+
+| Year | Residence | Salary Tax | Dividend Tax | Effective Rate |
+|---|---|---|---|---|
+| Year 1 | Dubai | 0% | 0% | **0%** |
+| Year 2 | Dubai | 0% | 0% | **0%** |
+| Year 3 | Dubai | 0% | 0% | **0%** |
+| Year 4 | Dubai | 0% | 0% | **0%** |
+| Year 5+ | Cyprus (non-dom) | 0% (90-day rule) | 2.65% GESY (capped) | **~0.4%** |
+
+**This aligns perfectly with the business:** The startup phase needs everyone in Dubai for substance. The Cyprus founder being there isn't a lifestyle sacrifice — it's an operational requirement.
+
+---
+
+## 9. Implementation
+
+### If Starting with Path A (Salary-First, Stay in Cyprus)
 
 | Step | Detail | Timeline |
 |---|---|---|
-| 1. Confirm non-dom status | Verify they haven't been Cyprus tax resident for 17 of last 20 years | 1 week (with Cyprus tax advisor) |
-| 2. Verify 60-day rule eligibility | Confirm no tax residency in another country; maintain Cyprus home | 1 week |
-| 3. Employment with UAE entity | Execute employment agreement with TE Global Technology FZ-LLC | 1 week |
-| 4. PIF beneficiary status | Panama counsel adds Cyprus founder(s) as PIF beneficiaries in private regulations | 2-3 weeks |
-| 5. Plan the year | Ensure 60+ days in Cyprus, 90+ working days outside Cyprus, <183 days in any single other country | Ongoing |
-| 6. Cyprus tax filing | Annual personal income tax return declaring salary (exempt) and dividends (GESY only) | Annually |
+| 1. Employment contract with UAE entity | Formal employment as executive/co-founder of TE Global Technology FZ-LLC | 1 week |
+| 2. Plan annual travel schedule | Ensure 90+ days outside Cyprus (Dubai office time, Tulum visits, business travel) | Ongoing |
+| 3. Set up travel documentation | Keep detailed records of days outside Cyprus, work performed, timesheets | From day 1 |
+| 4. Salary structure | Set salary at maximum reasonable level; minimize any PIF distributions | With counsel |
+| 5. PIF beneficiary (optional) | Can be added as beneficiary for future use; simply don't take distributions | 2-3 weeks |
+| 6. Annual Cyprus tax filing | Declare salary (exempt under 90-day rule) and any dividends (SDC + GESY) | Annually |
 
-**If Becoming Cyprus Resident (New):**
+### If Starting with Path A→B Hybrid (Dubai First, Cyprus Later)
 
 | Step | Detail | Timeline |
 |---|---|---|
-| 1. Establish Cyprus residency | Rent or buy a home in Cyprus | 2-4 weeks |
-| 2. Apply for Cyprus tax residency | Register with Cyprus Tax Department | 2-4 weeks |
-| 3. Confirm non-dom status | File declaration of non-domicile status | 1-2 weeks |
-| 4. Cyprus company directorship (for 60-day rule) | Appoint as director of a Cyprus holding company or advisory entity | 1-2 weeks |
-| 5. Employment with UAE entity | Execute employment agreement | 1 week |
-| 6. PIF beneficiary status | Add to PIF private regulations | 2-3 weeks |
+| 1. Establish UAE residency | Golden Visa (entrepreneur pathway) + Emirates ID | 2-4 weeks |
+| 2. Notify Cyprus Tax Department | Declare non-residency for the tax year | Before year-end |
+| 3. Reduce Cyprus ties (not sever completely) | Can keep the home, but don't maintain tax residency. Spend <183 days in Cyprus. | Ongoing |
+| 4. Employment with UAE entity | Work from Dubai full-time during startup phase | From day 1 |
+| 5. Take full salary + distributions | Everything at 0% as UAE resident | During Dubai years |
+| 6. After 4 years: return to Cyprus | Re-establish tax residency via 60-day or 183-day rule; file non-dom declaration | Year 4-5 |
+| 7. Confirm domicile of choice | Documentation showing genuine intent to make Dubai permanent home during the 4 years (lease, bills, social ties) | On return |
 
-**Total setup time: 4-8 weeks**
+---
 
-### What They DON'T Need
+## 10. Critical Tax Rates Reference (2026)
 
-| Not Needed | Why |
+### Cyprus Income Tax (Progressive — on Salary Earned IN Cyprus)
+
+| Bracket (EUR) | Rate |
 |---|---|
-| Church / 508(c)(1)(A) | That's a US-specific structure for US worldwide taxation. Cyprus doesn't tax dividends or foreign employment income. |
-| Housing allowance | Cyprus doesn't have an equivalent need — housing costs aren't a tax benefit vehicle because income is already untaxed |
-| Complex retirement stacking | No need — dividends are already at 0% SDC + 2.65% GESY capped |
-| UAE Golden Visa | Optional — only needed if spending significant time in Dubai. Can enter UAE on visa-free entry for short stays |
-| Renunciation of citizenship | Cyprus doesn't tax based on citizenship. Residency-based taxation = just move if you want to stop. |
+| 0 - 22,000 | 0% |
+| 22,001 - 32,000 | 20% |
+| 32,001 - 42,000 | 25% |
+| 42,001 - 72,000 | 30% |
+| 72,001+ | 35% |
 
----
+### Special Defence Contribution (SDC — Domiciled Residents)
 
-## 8. CFC Considerations
-
-Cyprus CFC rules only apply to **companies**, not individuals. But if a Cyprus founder holds shares through a Cyprus company (rather than personally or through the PIF), CFC rules could apply to that company.
-
-### Does the UAE Entity Trigger CFC?
-
-| Test | Result |
+| Income Type | SDC Rate |
 |---|---|
-| Is the UAE entity controlled by a Cyprus company? | Only if structured that way — in the current model, **PIF owns the UAE entity, not a Cyprus company** |
-| Is the UAE entity low-taxed? | Yes — 0% QFZP < 6.25% threshold (50% of Cyprus 12.5%) |
-| Is there substance? | **Yes** — Dubai team of 5-6 people, real office, real IP development. Substance exemption applies. |
+| Dividends (from any source) | **17%** |
+| Interest (from any source) | **17%** |
+| Rental income | 3% on 75% of gross = **2.25% effective** |
 
-**For the recommended structure (PIF → UAE entity):** CFC rules don't apply because no Cyprus company is in the ownership chain. The PIF (Panama) owns the UAE entity. Cyprus founders receive distributions as PIF beneficiaries — these are taxed as dividend income at the individual level (0% SDC + 2.65% GESY).
+### GESY (Healthcare — All Residents)
 
-**If for any reason a Cyprus holding company is inserted:** CFC rules would theoretically apply, but the **substantive activity exemption** would protect the UAE entity because it has genuine economic substance (employees, office, IP development, management decisions in Dubai).
+| Income Type | GESY Rate | Cap |
+|---|---|---|
+| Employment income | 2.65% (employee) + 2.90% (employer) | EUR 180,000 |
+| Dividends / interest | 2.65% | EUR 180,000 |
+| Self-employment | 4.00% | EUR 180,000 |
+| **Maximum annual GESY** | | **EUR 4,770** |
+
+### What's Always 0% (Regardless of Domicile)
+
+| Income Type | Tax |
+|---|---|
+| Capital gains on disposal of shares/securities | **0%** |
+| Income tax on dividends | **0%** (dividends only subject to SDC + GESY, never income tax) |
+
+### Cyprus-UAE Treaty Rates
+
+| Payment Type | WHT Cyprus → UAE | WHT UAE → Cyprus |
+|---|---|---|
+| Dividends | 0% | 0% |
+| Interest | 0% | 0% |
+| Royalties | 0% | 0% |
 
 ---
 
-## 9. Year-by-Year Projections (Cyprus Founder — Path A)
-
-Assuming the Cyprus founder receives both salary from the UAE entity and distributions from the PIF, scaling with the business:
-
-### Year 1
-
-| Income | Amount | Tax |
-|---|---|---|
-| UAE salary (CTO/executive role) | $200,000 | $0 (90-day exemption) |
-| PIF distribution | $100,000 | $0 SDC + ~$2,900 GESY |
-| **Total** | **$300,000** | **~$2,900** |
-| **Effective rate** | | **~1.0%** |
-
-### Year 3
-
-| Income | Amount | Tax |
-|---|---|---|
-| UAE salary | $300,000 | $0 (90-day exemption) |
-| PIF distribution | $400,000 | $0 SDC + ~$5,200 GESY (capped) |
-| **Total** | **$700,000** | **~$5,200** |
-| **Effective rate** | | **~0.7%** |
-
-### Year 5
-
-| Income | Amount | Tax |
-|---|---|---|
-| UAE salary | $400,000 | $0 (90-day exemption) |
-| PIF distribution | $1,000,000 | $0 SDC + ~$5,200 GESY (capped) |
-| Capital gains (if any equity events) | Variable | $0 |
-| **Total** | **$1,400,000** | **~$5,200** |
-| **Effective rate** | | **~0.4%** |
-
-**The GESY cap is the magic:** No matter how much dividend income flows through, the healthcare contribution maxes out at EUR 4,770/year (~$5,200). Whether you earn $500K or $5M in dividends, the tax is the same $5,200.
-
----
-
-## 10. Risk Matrix
+## 11. Risk Matrix
 
 | Risk | Probability | Impact | Mitigation |
 |---|---|---|---|
-| **60-day rule challenged** | Low | High — lose salary exemption, face progressive rates on employment income | Keep meticulous travel records. Maintain Cyprus home. Don't accidentally become tax resident elsewhere. |
-| **90-day overseas exemption challenged** | Low | High — salary becomes taxable in Cyprus | Document days worked outside Cyprus. Keep timesheets. Employment contract clearly with UAE (non-resident) entity. |
-| **Non-dom status challenged** | Very Low | Critical — 17% SDC on dividends | File non-dom declaration. Maintain domicile of choice documentation. Don't establish "permanent home" in Cyprus sense of domicile (different from tax residency). |
-| **Panama PIF / EU blacklist** | Low-Medium | Medium — DAC6 reporting, bank compliance questions | Transparent reporting. If counsel advises, restructure to Liechtenstein or Luxembourg foundation. |
-| **Cyprus CFC (if company in chain)** | Low | Medium — CFC income attributed to Cyprus company | Keep Cyprus company OUT of the ownership chain. PIF → UAE entity directly. |
-| **UAE QFZP loss** | Medium | Medium — 9% UAE CT instead of 0% | Same mitigation as for all founders. 9% still favorable. |
-| **Cyprus tax reform** | Low | Medium — non-dom benefits could change | Monitor EU/OECD developments. 17-year window provides long runway. Cyprus has strong incentive to maintain regime (attracts foreign capital). |
+| **90-day exemption challenged** | Low-Medium | High — salary becomes taxable at up to 35% | Meticulous travel records. Boarding passes, hotel receipts, work calendars, timesheets. Employment contract clearly with UAE entity. Keep a work diary showing Dubai office attendance. |
+| **Salary deemed unreasonable** | Low | Medium — portion could be recharacterized as dividend | Set salary with reference to comparable executive compensation. Document role, responsibilities, and time commitment. Get counsel sign-off. |
+| **Cyprus tax reform — SDC changes** | Medium | Positive — SDC on dividends may drop from 17% to 5% (proposed reform) | Monitor reforms. If SDC drops, the dividend penalty shrinks and income strategy can shift. |
+| **Non-dom reset challenged (Path B)** | Medium | High — return to domiciled status, SDC applies | Establish genuine domicile of choice in Dubai during the 4 years. Don't treat it as a temporary relocation — buy/lease property, join community, build life. |
+| **Panama PIF / EU blacklist** | Low-Medium | Medium — DAC6 reporting, bank questions | Same as for all founders. Transparent reporting. Consider Liechtenstein foundation if counsel advises. |
+| **UAE QFZP loss** | Medium | Medium — 9% UAE CT | Same mitigation as all founders. Doesn't affect personal tax strategy. |
 
 ---
 
-## 11. Open Questions for Cyprus Tax Counsel
+## 12. Open Questions for Cyprus Tax Counsel
 
-1. **60-day rule + Dubai work split**: Confirm that spending 90+ working days in Dubai for a UAE employer qualifies for the overseas employment exemption while maintaining 60-day tax residency
-2. **PIF distributions classification**: Confirm that distributions from a Panama PIF to a Cyprus non-dom individual are treated as dividend income (0% SDC + 2.65% GESY) and not "other income" (which could be taxed at progressive rates)
-3. **Panama blacklist impact on individuals**: Confirm no additional withholding or penalty for Cyprus individuals receiving income from Panama entities
-4. **Non-dom + 60-day interaction**: Confirm both statuses can be held simultaneously (they should, but worth confirming)
-5. **DAC6 reporting**: Determine if the PIF → UAE → Cyprus individual structure triggers mandatory disclosure and if so, what the compliance cost is
-6. **Business nexus for 60-day rule**: Confirm that holding a directorship in a Cyprus advisory company (or being employed by the UAE entity) satisfies the "business/employment in Cyprus" requirement
-7. **Future-proofing**: Any pending EU directives that could affect the non-dom regime or the 60-day rule?
+1. **90-day exemption for co-founder salary**: Confirm that a co-founder taking a large salary ($500K-$1M) from the UAE entity qualifies for the overseas employment exemption, given the employer is genuinely non-resident and services are performed outside Cyprus for 90+ days
+2. **Salary vs. dividend recharacterization risk**: At what salary level might Cyprus tax authorities argue the salary is disguised dividend? What documentation is needed to support large executive compensation?
+3. **Non-dom reset via Dubai relocation**: Confirm that 4 years of UAE residency (breaking the 17-of-20 threshold) combined with establishing a Dubai domicile of choice allows the founder to return as non-dom
+4. **SDC reform timeline**: When are the proposed SDC changes (17% → 5% on dividends) expected to take effect? Would this change the income strategy?
+5. **GESY on exempt salary**: Is the overseas employment exemption also exempt from GESY contributions, or is GESY still owed on the salary amount?
+6. **PIF distribution classification**: Confirm distributions from Panama PIF are treated as dividends (not "other income") for SDC purposes
+7. **Panama blacklist practical impact**: Any specific compliance obligations or risks for a Cyprus individual receiving from a Panama entity?
+8. **60-day rule + domiciled status**: Can a domiciled resident use the 60-day rule (relevant for Path A if they want to spend fewer days in Cyprus but maintain tax residency)?
 
 ---
 
-## 12. The Bottom Line
+## 13. The Bottom Line
 
-| Metric | Canadian Founder | Cyprus Founder | US Founder |
+| Scenario | Year 5 Income | Year 5 Tax | Effective Rate |
 |---|---|---|---|
-| **Structure needed** | PIF + UAE entity | PIF + UAE entity | PIF + UAE entity + Church |
-| **Complexity** | Simple | Simple | Complex |
-| **Setup cost** | ~$5K | ~$5K + Cyprus home | ~$20K+ (includes church formation) |
-| **Annual compliance cost** | Minimal | ~$3K (Cyprus tax filing) | ~$10-15K (US returns + church compliance) |
-| **Year 5 personal income** | ~$1.5M | ~$1.4M | ~$2.3M (incl. deferred + assets) |
-| **Year 5 tax** | **$0** | **~$5,200** | **~$85,400** |
-| **Effective rate** | **0%** | **~0.4%** | **~3.7%** |
-| **Can be PIF beneficiary?** | Yes | **Yes** | No |
-| **Needs the church?** | For stipend only | **No** | Yes (critical) |
+| **Path A: Salary-first** (stay in Cyprus, 90+ days abroad) | $900,000 | ~$19,650 | **~2.2%** |
+| **Path A→B Hybrid:** Dubai yrs 1-4, Cyprus non-dom yr 5+ | $1,400,000 | ~$5,200 | **~0.4%** |
+| **Path C: Full Dubai** (permanent) | $1,400,000 | $0 | **0%** |
+| **Path D: Stay put** (no travel optimization) | $660,000 | ~$168,000 | **~25.5%** |
+| For comparison: **US Founder** (with church structure) | $2,294,000 | $85,400 | **3.7%** |
 
-**Cyprus founders get 99.6% of the Canadian founder's tax benefit with the added advantage of EU residency, EU healthcare, and EU travel freedom.** They don't need any of the US-specific structures. They just need non-dom status, the 60-day rule, and a seat on the PIF.
+**The recommended play for a lifelong Cyprus resident:**
 
-The only cost: EUR 4,770/year in healthcare contributions. That's the entire tax bill on $1.4M+ of income.
+1. **Immediately:** Path A — take a large salary from the UAE entity, work from Dubai 90+ days/year, minimize dividends. Effective rate: ~2.2%.
+
+2. **Ideally:** Path A→B Hybrid — spend the startup years (1-4) primarily in Dubai building the business and team. This is operationally necessary anyway. After 4 years, return to Cyprus with non-dom status unlocked. Effective rate drops to ~0.4% for 17 years.
+
+3. **If SDC reform passes** (17% → 5% on dividends): The dividend penalty shrinks dramatically, and the income split becomes less critical. Watch this closely.
+
+**A domiciled Cyprus founder pays more than the Canadian or non-dom founder, but the 90-day overseas employment exemption still makes the effective rate remarkably low — especially if they're willing to spend startup years in Dubai.**
 
 ---
 
-*This document describes legal tax optimization combining Cyprus non-domiciled status with UAE free zone benefits. All mechanisms cited (Cyprus Non-Dom Regime, 60-Day Rule, Article 8(23A), SDC exemption, overseas employment exemption) are explicit provisions of Cyprus and UAE tax law. Implementation requires validation by qualified Cyprus tax counsel. Cyprus tax reforms effective January 1, 2026 have been incorporated.*
+*This document describes legal tax optimization for a Cyprus-domiciled resident within the TE Global structure. All mechanisms cited (overseas employment exemption, SDC rates, GESY contributions, 2026 tax brackets, non-dom regime requirements) are provisions of Cyprus tax law as of February 2026. The proposed SDC reforms have been noted but are not yet enacted. Implementation requires validation by qualified Cyprus tax counsel.*
