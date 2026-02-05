@@ -18,9 +18,9 @@ The **overseas employment exemption** — salary from a non-resident employer fo
 
 ```mermaid
 graph TB
-    BRAIN["TE Global Technology FZ-LLC<br/>(Dubai)<br/>Employs Cyprus founder<br/>Pays salary<br/>0% corporate tax"]
+    BRAIN["Light Brands Studio FZ-LLC<br/>(Dubai)<br/>Employs Cyprus founder<br/>Pays salary<br/>0% corporate tax"]
 
-    VOICE["Light Brands AI Ltd<br/>(Cook Islands IBC)<br/>External consulting + SaaS<br/>Owned by PIF"]
+    VOICE["Light Brands Consulting Ltd<br/>(Cook Islands IBC)<br/>External consulting + SaaS<br/>Owned by PIF"]
 
     SHIELD["Panama PIF<br/>Owns Brain + Voice<br/>Distributions at<br/>~7.65% to founder<br/>(5% SDC + 2.65% GESY)"]
 
@@ -145,7 +145,7 @@ Crypto is slightly MORE expensive than dividends. Creating tokens to replace div
 
 | Step | Detail | Timeline |
 |---|---|---|
-| 1. Employment contract with UAE entity | Formal employment as executive/co-founder of TE Global Technology FZ-LLC | 1 week |
+| 1. Employment contract with UAE entity | Formal employment as executive/co-founder of Light Brands Studio FZ-LLC | 1 week |
 | 2. Plan annual travel schedule | 90+ days outside Cyprus: Dubai office time + Tulum visits + business travel | Ongoing |
 | 3. Set up travel documentation | Boarding passes, hotel receipts, work calendars, timesheets. Keep a work diary. | From day 1 |
 | 4. Set salary level | Strong salary ($500K-$800K) from UAE entity. Get counsel sign-off on reasonableness. | With counsel |
@@ -173,7 +173,7 @@ Crypto is slightly MORE expensive than dividends. Creating tokens to replace div
 | # | Action | Timeline | Priority |
 |---|---|---|---|
 | 1 | Engage Cyprus tax counsel — confirm 90-day exemption for co-founder salary | Week 1-2 | **Critical** |
-| 2 | Execute employment contract with TE Global Technology FZ-LLC | With entity formation | High |
+| 2 | Execute employment contract with Light Brands Studio FZ-LLC | With entity formation | High |
 | 3 | Plan Year 1 travel schedule (90+ days outside Cyprus) | Month 1 | High |
 | 4 | Set up travel documentation system | Day 1 | High |
 | 5 | Confirm PIF distribution classification (dividends vs. other income) | With counsel | High |
@@ -182,4 +182,4 @@ Crypto is slightly MORE expensive than dividends. Creating tokens to replace div
 
 ---
 
-*This document describes legal tax optimization for a Cyprus-domiciled resident within the TE Global structure. All mechanisms cited (overseas employment exemption, SDC rates, GESY contributions, Article 20E, concealed dividends) are provisions of Cyprus tax law as enacted in the December 2025 reform, effective January 1, 2026. Implementation requires validation by qualified Cyprus tax counsel.*
+*This document describes legal tax optimization for a Cyprus-domiciled resident within the Light Brands Global structure. All mechanisms cited (overseas employment exemption, SDC rates, GESY contributions, Article 20E, concealed dividends) are provisions of Cyprus tax law as enacted in the December 2025 reform, effective January 1, 2026. Implementation requires validation by qualified Cyprus tax counsel.*

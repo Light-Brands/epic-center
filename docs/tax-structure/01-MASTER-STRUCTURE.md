@@ -1,4 +1,4 @@
-# Master Structure: The Complete TE Global Architecture
+# Master Structure: The Complete Light Brands Global Architecture
 
 > **Status:** Definitive structure — requires counsel validation before implementation
 > **Last Updated:** February 2026
@@ -7,7 +7,7 @@
 
 ## 1. Summary
 
-Transformational Epicenter operates through five entities across four jurisdictions, owned by a single Panama Private Interest Foundation. **TE Global Technology FZ-LLC** (Dubai) creates all IP and collects healing center revenue at 0% corporate tax. **Light Brands AI Ltd** (Cook Islands IBC) faces external consulting and SaaS clients, collects Light Brands revenue at 0%, and subcontracts all development to the UAE entity. A US church distributes the spiritual mission at 0% federal tax and receives dual royalty streams from both operating entities. A Mexican operating company delivers the guest experience at 30% on margin only. The US founder has no ownership stake in any foreign entity, eliminating all CFC/GILTI exposure. The Canadian founder departs Canada before the seed round and pays 0% personal tax. The entity-level effective tax rate is ~1.2%.
+Transformational Epicenter operates through five entities across four jurisdictions, owned by a single Panama Private Interest Foundation. **Light Brands Studio FZ-LLC** (Dubai) creates all IP and collects healing center revenue at 0% corporate tax. **Light Brands Consulting Ltd** (Cook Islands IBC) faces external consulting and SaaS clients, collects Light Brands revenue at 0%, and subcontracts all development to the UAE entity. A US church distributes the spiritual mission at 0% federal tax and receives dual royalty streams from both operating entities. A Mexican operating company delivers the guest experience at 30% on margin only. The US founder has no ownership stake in any foreign entity, eliminating all CFC/GILTI exposure. The Canadian founder departs Canada before the seed round and pays 0% personal tax. The entity-level effective tax rate is ~1.2%.
 
 ---
 
@@ -15,9 +15,9 @@ Transformational Epicenter operates through five entities across four jurisdicti
 
 ```mermaid
 graph LR
-    BRAIN["THE BRAIN<br/>TE Global Technology<br/>FZ-LLC (Dubai)<br/>Creates all IP<br/>Builds for TE + LB<br/>0% tax"]
+    BRAIN["THE BRAIN<br/>Light Brands Studio<br/>FZ-LLC (Dubai)<br/>Creates all IP<br/>Builds for TE + LB<br/>0% tax"]
 
-    VOICE["THE VOICE<br/>Light Brands AI Ltd<br/>(Cook Islands IBC)<br/>External consulting + SaaS<br/>Signs client contracts<br/>0% tax"]
+    VOICE["THE VOICE<br/>Light Brands Consulting Ltd<br/>(Cook Islands IBC)<br/>External consulting + SaaS<br/>Signs client contracts<br/>0% tax"]
 
     SHIELD["THE SHIELD<br/>Panama PIF<br/>Owns Brain + Voice<br/>Protects assets<br/>Beneficiaries private<br/>0% tax"]
 
@@ -52,8 +52,8 @@ graph LR
 
 | Entity | Jurisdiction | Legal Form | Role | Tax Rate | Ownership | Setup Cost |
 |---|---|---|---|---|---|---|
-| **TE Global Technology FZ-LLC** | Dubai Internet City, UAE | Free Zone LLC | Creates all IP (TE + LB), collects TE revenue, employs Dubai team + founders, builds what LB sells | 0% (QFZP) | 100% owned by Panama PIF | ~$11-16K |
-| **Light Brands AI Ltd** | Cook Islands | International Business Company | External consulting, SaaS, product sales. Signs client contracts. Owns LB-specific IP. Subcontracts dev to UAE. | 0% (international income) | 100% owned by Panama PIF | ~$4-7K |
+| **Light Brands Studio FZ-LLC** | Dubai Internet City, UAE | Free Zone LLC | Creates all IP (TE + LB), collects TE revenue, employs Dubai team + founders, builds what LB sells | 0% (QFZP) | 100% owned by Panama PIF | ~$11-16K |
+| **Light Brands Consulting Ltd** | Cook Islands | International Business Company | External consulting, SaaS, product sales. Signs client contracts. Owns LB-specific IP. Subcontracts dev to UAE. | 0% (international income) | 100% owned by Panama PIF | ~$4-7K |
 | **Panama PIF** | Panama | Private Interest Foundation (Law 25/1995) | Owns both UAE entity and CI IBC, asset protection, beneficiary privacy | 0% (foreign income) | No owner — independent legal person | ~$2K setup + $1K/yr |
 | **Church of the Living Light** | US (state TBD) | 508(c)(1)(A) nonprofit religious corporation | Distributes teachings, employs founders as ministers, receives dual royalty streams (UAE content + CI IBC spiritual tech), runs worship and charitable programs | 0% (tax-exempt) | No owner — nonprofit governance by Spiritual Council | ~$2-5K |
 | **TE Ops Mexico S. de R.L. de C.V.** | Tulum, Quintana Roo | S. de R.L. de C.V. | Operates healing facility, employs local staff, delivers guest experience | 30% on margin only | Owned by UAE entity (via PIF) | ~$3-6K |
@@ -72,7 +72,7 @@ graph LR
 
     subgraph "Platform (0%)"
         S["Stripe UAE"]
-        UAE["TE Global Technology<br/>FZ-LLC (Dubai)<br/>0% QFZP"]
+        UAE["Light Brands Studio<br/>FZ-LLC (Dubai)<br/>0% QFZP"]
     end
 
     subgraph "Operations (30%)"
@@ -102,7 +102,7 @@ graph LR
     style F fill:#0a8754,stroke:#fff,color:#fff
 ```
 
-**Revenue path:** Guest pays via TE app (Stripe UAE) → TE Global Technology FZ-LLC → retains ~43% (EBITDA margin at 0% tax) + pays service fee to Mexico OpCo (cost + 8-12% margin, taxed at 30% on the margin) + pays content license fee to Church (arm's length, 0% on both sides).
+**Revenue path:** Guest pays via TE app (Stripe UAE) → Light Brands Studio FZ-LLC → retains ~43% (EBITDA margin at 0% tax) + pays service fee to Mexico OpCo (cost + 8-12% margin, taxed at 30% on the margin) + pays content license fee to Church (arm's length, 0% on both sides).
 
 ### Flow 2: Light Brands External Client Revenue (NEW)
 
@@ -113,11 +113,11 @@ graph LR
     end
 
     subgraph "Sales (0%)"
-        CI["Light Brands AI Ltd<br/>(Cook Islands IBC)<br/>0%"]
+        CI["Light Brands Consulting Ltd<br/>(Cook Islands IBC)<br/>0%"]
     end
 
     subgraph "Development (0%)"
-        UAE2["TE Global Technology<br/>FZ-LLC (Dubai)<br/>0% QFZP"]
+        UAE2["Light Brands Studio<br/>FZ-LLC (Dubai)<br/>0% QFZP"]
     end
 
     subgraph "Mission (0%)"
@@ -150,8 +150,8 @@ If TE needs Light Brands technology: Mexico OpCo → service fee to UAE entity (
 
 | Entity | Y1 Revenue/Funding | Tax Rate | Y1 Tax | Y5 Tax |
 |---|---|---|---|---|
-| TE Global Technology FZ-LLC | $10.7M (programs) + LB subcontract fees | 0% (QFZP) | $0 | $0 |
-| Light Brands AI Ltd (CI IBC) | LB consulting + SaaS revenue | 0% (international income) | $0 | $0 |
+| Light Brands Studio FZ-LLC | $10.7M (programs) + LB subcontract fees | 0% (QFZP) | $0 | $0 |
+| Light Brands Consulting Ltd (CI IBC) | LB consulting + SaaS revenue | 0% (international income) | $0 | $0 |
 | Church of the Living Light | Dual royalties + donations | 0% (exempt) | $0 | $0 |
 | TE Ops Mexico | Cost + 8-12% margin | 30% on margin | ~$126K | ~$420K |
 | Panama PIF | N/A (holding) | 0% | $0 | $0 |
@@ -281,7 +281,7 @@ These are the walls that cannot be moved. The structure is designed around them.
 |---|---|---|
 | Panama PIF formation | Canadian founder as Protector; US founder NOT as beneficiary | 2-4 weeks |
 | UAE FZ-LLC registration (DIC) | PIF as 100% shareholder; trade license, bank account, Stripe | 4-8 weeks |
-| Cook Islands IBC formation | Light Brands AI Ltd; PIF as sole shareholder; nominee director; Singapore bank account | 2-5 weeks |
+| Cook Islands IBC formation | Light Brands Consulting Ltd; PIF as sole shareholder; nominee director; Singapore bank account | 2-5 weeks |
 | Church incorporation | Nonprofit religious corporation; EIN; appoint Spiritual Council | 2-3 weeks |
 | Founder ordination | Both founders ordained as ministers through church's program | 1-2 weeks |
 | Board approves compensation | Spiritual Council reviews comparables, approves salaries, designates housing allowances | 1 meeting |

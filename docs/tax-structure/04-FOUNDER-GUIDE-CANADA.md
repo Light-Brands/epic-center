@@ -19,9 +19,9 @@
 graph TB
     PIF["Panama PIF<br/>Canadian founder = Protector<br/>(identity private)<br/>Canadian founder = Beneficiary"]
 
-    UAE["TE Global Technology FZ-LLC<br/>(Dubai)<br/>Employs Canadian founder<br/>as executive/co-founder"]
+    UAE["Light Brands Studio FZ-LLC<br/>(Dubai)<br/>Employs Canadian founder<br/>as executive/co-founder"]
 
-    CI["Light Brands AI Ltd<br/>(Cook Islands IBC)<br/>External consulting + SaaS<br/>Owned by PIF"]
+    CI["Light Brands Consulting Ltd<br/>(Cook Islands IBC)<br/>External consulting + SaaS<br/>Owned by PIF"]
 
     CHURCH["Church of the Living Light<br/>Minister stipend<br/>(non-US person = 0% tax)"]
 
@@ -149,7 +149,7 @@ When a Canadian resident departs, the CRA treats all assets as **deemed disposed
 
 | Channel | Source | Amount (Y1 / Y3 / Y5) | Tax |
 |---|---|---|---|
-| **UAE salary** | TE Global Technology FZ-LLC | $200K / $300K / $400K | **$0** — UAE has no personal income tax |
+| **UAE salary** | Light Brands Studio FZ-LLC | $200K / $300K / $400K | **$0** — UAE has no personal income tax |
 | **Church stipend** | Church of the Living Light | $30K / $40K / $50K | **$0** — non-US person, non-resident of any taxing jurisdiction |
 | **PIF distributions (TE profits)** | Panama PIF (from UAE entity) | Variable / $150K / $700K+ | **$0** — Panama 0% WHT on distributions to non-residents; UAE 0% on receipt |
 | **PIF distributions (LB profits)** | Panama PIF (from CI IBC) | Variable / $50K / $300K+ | **$0** — CI 0% WHT; Panama 0%; UAE 0% on receipt |
@@ -236,4 +236,4 @@ The Canadian founder serves as **Protector** of the Panama PIF. This is a govern
 
 ---
 
-*This document describes legal tax optimization for a Canadian citizen departing Canada to establish UAE residency within the TE Global structure. All mechanisms cited (Canadian departure tax, NR73 filing, CRA residency tests, Panama PIF law, UAE 0% personal tax) are provisions of Canadian, Panamanian, and UAE law. Implementation requires validation by qualified Canadian emigration tax counsel and Panama foundation counsel.*
+*This document describes legal tax optimization for a Canadian citizen departing Canada to establish UAE residency within the Light Brands Global structure. All mechanisms cited (Canadian departure tax, NR73 filing, CRA residency tests, Panama PIF law, UAE 0% personal tax) are provisions of Canadian, Panamanian, and UAE law. Implementation requires validation by qualified Canadian emigration tax counsel and Panama foundation counsel.*

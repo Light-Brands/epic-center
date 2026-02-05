@@ -208,7 +208,7 @@ Bring the relevant section to each counsel meeting. Questions are organized by j
 
 ### Q37: CI IBC Formation — Optimal Registered Agent
 **Priority:** IMPORTANT
-**Context:** Light Brands AI Ltd will be incorporated as a Cook Islands IBC. The registered agent handles formation, annual filings, and serves as the registered office.
+**Context:** Light Brands Consulting Ltd will be incorporated as a Cook Islands IBC. The registered agent handles formation, annual filings, and serves as the registered office.
 **Question:** Which Cook Islands registered agents / trustee companies have the best track record for IBCs owned by Panama PIFs? Any agents to avoid (compliance issues, slow service)?
 
 ### Q38: Director Structure — Nominee vs. Founder
@@ -322,4 +322,4 @@ These do not need immediate answers but should be tracked for future counsel eng
 
 ---
 
-*This document consolidates questions for legal counsel across all jurisdictions relevant to the TE Global structure. Questions are organized by counsel engagement and prioritized by urgency. This document does not constitute legal advice — it is a preparation tool for counsel meetings.*
+*This document consolidates questions for legal counsel across all jurisdictions relevant to the Light Brands Global structure. Questions are organized by counsel engagement and prioritized by urgency. This document does not constitute legal advice — it is a preparation tool for counsel meetings.*

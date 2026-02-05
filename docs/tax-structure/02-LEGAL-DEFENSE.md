@@ -7,7 +7,7 @@
 
 ## 1. Thesis
 
-The TE Global Structure is not built on loopholes, grey areas, or untested theories. Every component is an explicit provision of the US Internal Revenue Code, UAE Federal Tax Law, Cook Islands International Companies Act, Panamanian Foundation Law, or Mexican Corporate Tax Law — each tested in court, upheld on appeal, and defended by constitutional protections that have stood for over a century.
+The Light Brands Global Structure is not built on loopholes, grey areas, or untested theories. Every component is an explicit provision of the US Internal Revenue Code, UAE Federal Tax Law, Cook Islands International Companies Act, Panamanian Foundation Law, or Mexican Corporate Tax Law — each tested in court, upheld on appeal, and defended by constitutional protections that have stood for over a century.
 
 An adversary (IRS, state authority, or litigant) would need to breach all five defensive walls simultaneously to cause meaningful damage. No case in US tax history has achieved this against a properly operated multi-jurisdictional religious organization.
 
@@ -66,9 +66,9 @@ Congress mandated that churches are **automatically exempt** from applying to th
 
 ### Wall 3: Jurisdictional Protection (Multi-Sovereign)
 
-**UAE Free Zone:** TE Global Technology FZ-LLC operates under UAE Federal Decree-Law No. 47 of 2022 at 0% QFZP. The IRS has no authority over UAE sovereign tax policy. The entity has no US nexus — no US employees, no US office, no US agents. Having US *customers* does not create a US trade or business (*Piedras Negras Broadcasting*, 1941). This is identical to how Apple, Google, and thousands of platforms hold IP and collect global revenue through favorable foreign jurisdictions.
+**UAE Free Zone:** Light Brands Studio FZ-LLC operates under UAE Federal Decree-Law No. 47 of 2022 at 0% QFZP. The IRS has no authority over UAE sovereign tax policy. The entity has no US nexus — no US employees, no US office, no US agents. Having US *customers* does not create a US trade or business (*Piedras Negras Broadcasting*, 1941). This is identical to how Apple, Google, and thousands of platforms hold IP and collect global revenue through favorable foreign jurisdictions.
 
-**Cook Islands IBC:** Light Brands AI Ltd operates under the Cook Islands International Companies Act 1981-82 at 0% on all international income. This is not a loophole — it is the express statutory regime for IBCs. The Cook Islands is not on any EU blacklist or FATF greylist. It participates in CRS/AEOI (full transparency). The CI IBC has no employees and no physical presence in any country — it is a pure contracting and IP-holding entity. It subcontracts all development to the UAE entity (real substance) and licenses spiritual technology to the Church (arm's length royalty). The Cook Islands is globally recognized as the #1 asset protection jurisdiction: foreign court judgments are not recognized or enforceable, fraudulent transfer claims face a 2-year statute of limitations with a beyond-reasonable-doubt burden of proof.
+**Cook Islands IBC:** Light Brands Consulting Ltd operates under the Cook Islands International Companies Act 1981-82 at 0% on all international income. This is not a loophole — it is the express statutory regime for IBCs. The Cook Islands is not on any EU blacklist or FATF greylist. It participates in CRS/AEOI (full transparency). The CI IBC has no employees and no physical presence in any country — it is a pure contracting and IP-holding entity. It subcontracts all development to the UAE entity (real substance) and licenses spiritual technology to the Church (arm's length royalty). The Cook Islands is globally recognized as the #1 asset protection jurisdiction: foreign court judgments are not recognized or enforceable, fraudulent transfer claims face a 2-year statute of limitations with a beyond-reasonable-doubt burden of proof.
 
 **Panama PIF:** Beneficiary names are recorded in private regulations — never filed with any government. The US founder is NOT a beneficiary, eliminating CFC/GILTI/Subpart F/Form 5471 entirely. The PIF owns both the UAE entity and the CI IBC, providing a single ownership chain with maximum asset protection.
 
@@ -111,7 +111,7 @@ TE satisfies all three. Christ consciousness doctrine predates tax planning, add
 
 ### REFIPRE Compliance for CI IBC (Mexico)
 
-**Risk:** The Cook Islands IBC is clearly a preferential tax regime (0% < 22.5%). Any direct payment from TE Ops Mexico to Light Brands AI Ltd would trigger REFIPRE's 40% WHT + non-deductibility.
+**Risk:** The Cook Islands IBC is clearly a preferential tax regime (0% < 22.5%). Any direct payment from TE Ops Mexico to Light Brands Consulting Ltd would trigger REFIPRE's 40% WHT + non-deductibility.
 
 **Why TE is safe:** Mexico OpCo NEVER pays the CI IBC directly. If the TE ecosystem needs Light Brands services, the routing is: Mexico OpCo → service fee to UAE entity (existing arrangement, inbound payment to Mexico) → UAE entity subcontracts to CI IBC (both at 0%, no REFIPRE nexus). Mexico only transacts with the UAE entity. The CI IBC is invisible to the Mexican tax authority in terms of direct payments.
 

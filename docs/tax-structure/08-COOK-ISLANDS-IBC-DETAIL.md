@@ -1,4 +1,4 @@
-# Cook Islands IBC: Light Brands AI Ltd — Operating Detail
+# Cook Islands IBC: Light Brands Consulting Ltd — Operating Detail
 
 > **Status:** Entity specification — requires Cook Islands counsel + UAE counsel validation
 > **Last Updated:** February 2026
@@ -7,7 +7,7 @@
 
 ## 1. Summary
 
-Light Brands AI Ltd is a Cook Islands International Business Company (IBC) that serves as the client-facing entity for all external consulting, SaaS, and product sales outside the TE healing center ecosystem. It signs contracts with external clients, collects revenue, owns LB-specific IP, and subcontracts all development to the UAE entity. It has zero employees, zero office space, and zero physical presence — by design. This "thin" entity structure preserves its unconditional 0% tax rate on international income while the UAE entity provides all operational substance.
+Light Brands Consulting Ltd is a Cook Islands International Business Company (IBC) that serves as the client-facing entity for all external consulting, SaaS, and product sales outside the TE healing center ecosystem. It signs contracts with external clients, collects revenue, owns LB-specific IP, and subcontracts all development to the UAE entity. It has zero employees, zero office space, and zero physical presence — by design. This "thin" entity structure preserves its unconditional 0% tax rate on international income while the UAE entity provides all operational substance.
 
 ---
 
@@ -104,7 +104,7 @@ Light Brands AI Ltd is a Cook Islands International Business Company (IBC) that 
 | Having 3+ CI-resident directors | Company becomes domestically taxable |
 | Employees physically located in CI | Creates CI substance — potential domestic tax |
 
-None of these apply to Light Brands AI Ltd.
+None of these apply to Light Brands Consulting Ltd.
 
 ---
 
@@ -142,12 +142,12 @@ None of these apply to Light Brands AI Ltd.
 ### Structure
 
 ```
-Light Brands AI Ltd (CI IBC) — "The Voice"
+Light Brands Consulting Ltd (CI IBC) — "The Voice"
     Signs client contract (consulting, SaaS, products)
     Collects client payment
     Subcontracts delivery to:
 
-TE Global Technology FZ-LLC (Dubai) — "The Brain"
+Light Brands Studio FZ-LLC (Dubai) — "The Brain"
     Provides all development, implementation, support
     Uses Dubai team (engineers, AI/ML, PM)
     Bills CI IBC at cost + arm's length margin
@@ -293,7 +293,7 @@ At even modest Light Brands revenue ($500K/year), the annual cost of maintaining
 | **1. Counsel** | Engage Cook Islands registered agent / formation specialist | Week 1 | None |
 | **1. Counsel** | Confirm CI IBC → UAE subcontract structure with UAE counsel | Week 1-2 | UAE counsel engaged |
 | **1. Counsel** | Confirm CI IBC → Church royalty structure with US nonprofit attorney | Week 1-2 | US counsel engaged |
-| **2. Formation** | Incorporate Light Brands AI Ltd as CI IBC | Weeks 2-3 | Agent engaged |
+| **2. Formation** | Incorporate Light Brands Consulting Ltd as CI IBC | Weeks 2-3 | Agent engaged |
 | **2. Formation** | Appoint directors, issue shares to PIF | With incorporation | PIF formed |
 | **2. Formation** | Open Singapore bank account | Weeks 3-5 | Incorporation complete |
 | **3. Contracts** | Execute Development Subcontract with UAE entity | Weeks 4-6 | Both entities formed |
@@ -314,4 +314,4 @@ At even modest Light Brands revenue ($500K/year), the annual cost of maintaining
 
 ---
 
-*This document describes the operating specifications for a Cook Islands International Business Company within the TE Global / Light Brands unified structure. The Cook Islands IBC regime is an explicit provision of the Cook Islands International Companies Act 1981-82. All tax treatments described are based on current Cook Islands law and international tax frameworks. Implementation requires validation by a qualified Cook Islands registered agent and coordination with UAE, US, and Panama counsel.*
+*This document describes the operating specifications for a Cook Islands International Business Company within the Light Brands Global unified structure. The Cook Islands IBC regime is an explicit provision of the Cook Islands International Companies Act 1981-82. All tax treatments described are based on current Cook Islands law and international tax frameworks. Implementation requires validation by a qualified Cook Islands registered agent and coordination with UAE, US, and Panama counsel.*

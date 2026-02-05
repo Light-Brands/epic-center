@@ -17,9 +17,9 @@ The US founder is NOT an owner of the UAE entity. This eliminates CFC, GILTI, Su
 
 ```mermaid
 graph TB
-    UAE["TE Global Technology FZ-LLC<br/>(Dubai)<br/>Employs US founder<br/>as executive"]
+    UAE["Light Brands Studio FZ-LLC<br/>(Dubai)<br/>Employs US founder<br/>as executive"]
 
-    CI["Light Brands AI Ltd<br/>(Cook Islands IBC)<br/>Subcontracts dev to UAE<br/>Licenses spiritual tech to Church"]
+    CI["Light Brands Consulting Ltd<br/>(Cook Islands IBC)<br/>Subcontracts dev to UAE<br/>Licenses spiritual tech to Church"]
 
     CHURCH["Church of the Living Light<br/>508(c)(1)(A)<br/>Employs US founder<br/>as ordained minister<br/>Receives dual royalties"]
 
@@ -51,7 +51,7 @@ graph TB
 
 | Detail | Value |
 |---|---|
-| **What** | Salary for executive/director role at TE Global Technology FZ-LLC |
+| **What** | Salary for executive/director role at Light Brands Studio FZ-LLC |
 | **Y1 / Y3 / Y5** | $200,000 / $250,000 / $300,000 |
 | **Tax treatment** | First $130K excluded via FEIE (Form 2555). Remainder at marginal rate (22-35%). Must meet 330-day physical presence test or bona fide residence test (Dubai). |
 | **Key constraint** | Must live in Dubai and meet FEIE qualifying days. Cannot spend >35 days in the US. |

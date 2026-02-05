@@ -7,7 +7,7 @@
 
 ## 1. Summary
 
-Five entities across four jurisdictions, owned by a single Panama Private Interest Foundation. **TE Global Technology FZ-LLC** (Dubai) creates all IP, operates the healing center platform, and serves as the development shop for both TE and Light Brands. **Light Brands AI Ltd** (Cook Islands IBC) is the client-facing consulting and SaaS entity — it signs external contracts, collects revenue, and owns LB-specific IP. **Church of the Living Light** distributes the spiritual mission, employs all founders as ministers, and receives royalty streams from both entities. **TE Ops Mexico** delivers the guest experience on the ground. The combined entity-level effective tax rate is ~1.2%.
+Five entities across four jurisdictions, owned by a single Panama Private Interest Foundation. **Light Brands Studio FZ-LLC** (Dubai) creates all IP, operates the healing center platform, and serves as the development shop for both TE and Light Brands. **Light Brands Consulting Ltd** (Cook Islands IBC) is the client-facing consulting and SaaS entity — it signs external contracts, collects revenue, and owns LB-specific IP. **Church of the Living Light** distributes the spiritual mission, employs all founders as ministers, and receives royalty streams from both entities. **TE Ops Mexico** delivers the guest experience on the ground. The combined entity-level effective tax rate is ~1.2%.
 
 ---
 
@@ -15,9 +15,9 @@ Five entities across four jurisdictions, owned by a single Panama Private Intere
 
 ```mermaid
 graph LR
-    BRAIN["THE BRAIN<br/>TE Global Technology<br/>FZ-LLC (Dubai)<br/>Creates all IP<br/>Builds for TE + LB<br/>0% tax (QFZP)"]
+    BRAIN["THE BRAIN<br/>Light Brands Studio<br/>FZ-LLC (Dubai)<br/>Creates all IP<br/>Builds for TE + LB<br/>0% tax (QFZP)"]
 
-    VOICE["THE VOICE<br/>Light Brands AI Ltd<br/>(Cook Islands IBC)<br/>External consulting + SaaS<br/>Signs client contracts<br/>0% tax"]
+    VOICE["THE VOICE<br/>Light Brands Consulting Ltd<br/>(Cook Islands IBC)<br/>External consulting + SaaS<br/>Signs client contracts<br/>0% tax"]
 
     SHIELD["THE SHIELD<br/>Panama PIF<br/>Owns Brain + Voice<br/>Protects assets<br/>Beneficiaries private<br/>0% tax"]
 
@@ -52,8 +52,8 @@ graph LR
 
 | Entity | Jurisdiction | Legal Form | Role | Tax Rate | Ownership | Annual Cost |
 |---|---|---|---|---|---|---|
-| **TE Global Technology FZ-LLC** | Dubai Internet City, UAE | Free Zone LLC | Creates all IP (TE + LB), collects TE revenue, employs Dubai team + founders, builds what LB sells | 0% (QFZP) | 100% owned by Panama PIF | ~$50-80K (office + compliance) |
-| **Light Brands AI Ltd** | Cook Islands | International Business Company | External consulting, SaaS, product sales. Signs client contracts. Owns LB-specific IP. | 0% (international income) | 100% owned by Panama PIF | ~$3-5K (registered agent + annual fee) |
+| **Light Brands Studio FZ-LLC** | Dubai Internet City, UAE | Free Zone LLC | Creates all IP (TE + LB), collects TE revenue, employs Dubai team + founders, builds what LB sells | 0% (QFZP) | 100% owned by Panama PIF | ~$50-80K (office + compliance) |
+| **Light Brands Consulting Ltd** | Cook Islands | International Business Company | External consulting, SaaS, product sales. Signs client contracts. Owns LB-specific IP. | 0% (international income) | 100% owned by Panama PIF | ~$3-5K (registered agent + annual fee) |
 | **Panama PIF** | Panama | Private Interest Foundation (Law 25/1995) | Owns both operating entities. Asset protection. Beneficiary privacy. | 0% (foreign income) | No owner — independent legal person | ~$1-2K (tax + agent) |
 | **Church of the Living Light** | US (state TBD) | 508(c)(1)(A) nonprofit religious corporation | Distributes teachings, employs founders as ministers, receives dual royalty streams, runs worship and charitable programs | 0% (tax-exempt) | No owner — nonprofit governance by Spiritual Council | ~$5-15K (operations) |
 | **TE Ops Mexico S. de R.L. de C.V.** | Tulum, Quintana Roo | S. de R.L. de C.V. | Operates healing facility, employs local staff, delivers guest experience | 30% on margin only | Owned by UAE entity (via PIF) | ~$10-20K (compliance) |
@@ -72,7 +72,7 @@ graph LR
 
     subgraph "Platform (0%)"
         S["Stripe UAE"]
-        UAE["TE Global Technology<br/>FZ-LLC (Dubai)<br/>0% QFZP"]
+        UAE["Light Brands Studio<br/>FZ-LLC (Dubai)<br/>0% QFZP"]
     end
 
     subgraph "Operations (30%)"
@@ -113,11 +113,11 @@ graph LR
     end
 
     subgraph "Sales (0%)"
-        CI["Light Brands AI Ltd<br/>(Cook Islands IBC)<br/>0% international income"]
+        CI["Light Brands Consulting Ltd<br/>(Cook Islands IBC)<br/>0% international income"]
     end
 
     subgraph "Development (0%)"
-        UAE2["TE Global Technology<br/>FZ-LLC (Dubai)<br/>0% QFZP"]
+        UAE2["Light Brands Studio<br/>FZ-LLC (Dubai)<br/>0% QFZP"]
     end
 
     subgraph "Mission (0%)"
@@ -147,8 +147,8 @@ graph LR
 ```mermaid
 graph LR
     subgraph "Royalty Sources"
-        UAE3["TE Global Technology<br/>FZ-LLC (Dubai)"]
-        CI2["Light Brands AI Ltd<br/>(Cook Islands IBC)"]
+        UAE3["Light Brands Studio<br/>FZ-LLC (Dubai)"]
+        CI2["Light Brands Consulting Ltd<br/>(Cook Islands IBC)"]
     end
 
     subgraph "Church"
@@ -183,11 +183,11 @@ graph LR
     end
 
     subgraph "Intermediary (0%)"
-        UAE4["TE Global Technology<br/>FZ-LLC (Dubai)"]
+        UAE4["Light Brands Studio<br/>FZ-LLC (Dubai)"]
     end
 
     subgraph "Provider (0%)"
-        CI3["Light Brands AI Ltd<br/>(Cook Islands IBC)"]
+        CI3["Light Brands Consulting Ltd<br/>(Cook Islands IBC)"]
     end
 
     MEX2 -->|"Service fee<br/>(existing arrangement)"| UAE4
@@ -239,8 +239,8 @@ graph LR
 
 | Entity | Revenue / Activity | Tax Rate | Tax Paid |
 |---|---|---|---|
-| TE Global Technology FZ-LLC | $35.5M (TE programs) + LB subcontract fees | 0% (QFZP) | $0 |
-| Light Brands AI Ltd | LB consulting + SaaS revenue | 0% (CI international income) | $0 |
+| Light Brands Studio FZ-LLC | $35.5M (TE programs) + LB subcontract fees | 0% (QFZP) | $0 |
+| Light Brands Consulting Ltd | LB consulting + SaaS revenue | 0% (CI international income) | $0 |
 | Church of the Living Light | Royalties + donations | 0% (exempt) | $0 |
 | TE Ops Mexico | Cost + 8-12% margin | 30% on margin | ~$420K |
 | Panama PIF | Holding (no operating income) | 0% | $0 |
@@ -304,7 +304,7 @@ Mexico's REFIPRE (Regimen Fiscal Preferente) provisions under Article 176-178 of
 - **40% WHT** on payments from Mexican entities to related parties in jurisdictions with effective tax rates below 22.5%
 - **Non-deductibility** of those payments for the Mexican entity
 
-The Cook Islands (0% on international income) is clearly a preferential regime. Any direct payment from TE Ops Mexico to Light Brands AI Ltd would trigger both penalties.
+The Cook Islands (0% on international income) is clearly a preferential regime. Any direct payment from TE Ops Mexico to Light Brands Consulting Ltd would trigger both penalties.
 
 **The routing solution:**
 
