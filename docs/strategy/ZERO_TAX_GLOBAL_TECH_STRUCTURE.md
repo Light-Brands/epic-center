@@ -577,6 +577,217 @@ Assumptions: 10 locations, average $30M revenue each, tech entity extracts 40% a
 | **Effective rate** | **~1.2%** | **~1.2%** | **~3.2%** | **~5.9-7.5%** | **~15%** |
 | **Annual savings vs. all-local** | **~$41.4M** | **~$41.4M** | **~$35.4M** | **~$22.4-27.4M** | — |
 
+### 9.4 Global Scale Scenario Matrix: 5 / 10 / 20 / 50 Locations
+
+The following models assume each location reaches **steady-state maturity** (comparable to Tulum Year 5). In reality, locations ramp over 3-5 years — the early years will show lower revenue and savings. These projections represent the annual run-rate once all locations are operating at scale.
+
+**Core Assumptions:**
+
+| Assumption | Value | Basis |
+|---|---|---|
+| Average revenue per mature location | $30M | Tulum Y5 = $35.5M; smaller locations = $20-25M; blended average |
+| Tech entity extraction rate | 43% | Matches EBITDA margin — tech entity retains what would have been operating profit |
+| OpCo service delivery fee | 57% of revenue | Cost base + 10% margin |
+| OpCo margin on costs | 10% | Arm's length for limited-risk service provider |
+| Average OpCo cost base per location | $15.5M | Staff, facility, COGS, overhead at maturity |
+| Average OpCo profit per location | $1.55M | 10% on $15.5M costs |
+| Average local corporate tax rate | 25% | Blend: Mexico 30%, Jamaica 25%, Portugal 21%, Thailand 20%, etc. |
+| Post-care subscribers per location | ~1,500 at maturity | Cumulative over 3-5 years |
+| Post-care revenue per location | $3M/year | ~$2,000 avg annual subscription × 1,500 subs |
+| Villa program | 50% of locations | Not all sites will have villa development |
+| Villa commission per location (build phase) | $2.5M/year avg | 12% commission on $20M avg annual sales during build-out |
+| Substance cost (tech entity) | Scales sublinearly | One engineering team serves all locations |
+
+#### 9.4.1 Annual Revenue by Scale
+
+| Metric | 5 Locations | 10 Locations | 20 Locations | 50 Locations |
+|---|---|---|---|---|
+| Healing center revenue | $150M | $300M | $600M | $1,500M |
+| Post-care subscriptions | $15M | $30M | $60M | $150M |
+| Villa commissions (50% of sites) | $6.25M | $12.5M | $25M | $62.5M |
+| **Total gross revenue** | **$171.25M** | **$342.5M** | **$685M** | **$1,712.5M** |
+
+#### 9.4.2 The Full Scenario Matrix — Annual Tax by Model
+
+**UAE Free Zone (0% on tech income):**
+
+| Metric | 5 Locations | 10 Locations | 20 Locations | 50 Locations |
+|---|---|---|---|---|
+| Tech entity income | $85.75M | $171.5M | $343M | $857.5M |
+| Tech entity tax (0%) | **$0** | **$0** | **$0** | **$0 ★** |
+| OpCo profits (all locations) | $7.75M | $15.5M | $31M | $77.5M |
+| OpCo tax (avg 25%) | $1.94M | $3.88M | $7.75M | $19.38M |
+| **Total global tax** | **$1.94M** | **$3.88M** | **$7.75M** | **$19.38M ★** |
+| **Effective rate (on total revenue)** | **1.1%** | **1.1%** | **1.1%** | **1.1% ★** |
+| Substance cost | $2.5M | $3.5M | $5.0M | $8.0M |
+| **Total cost (tax + substance)** | **$4.44M** | **$7.38M** | **$12.75M** | **$27.38M** |
+
+★ *At 50 locations ($1.7B revenue), Pillar Two likely applies — see adjusted numbers in Section 9.4.4.*
+
+**Singapore Pioneer Certificate (0% for 5-10 years):**
+
+| Metric | 5 Locations | 10 Locations | 20 Locations | 50 Locations |
+|---|---|---|---|---|
+| Tech entity income | $85.75M | $171.5M | $343M | $857.5M |
+| Tech entity tax (0%) | **$0** | **$0** | **$0** | **$0 ★** |
+| OpCo tax (avg 25%) | $1.94M | $3.88M | $7.75M | $19.38M |
+| **Total global tax** | **$1.94M** | **$3.88M** | **$7.75M** | **$19.38M ★** |
+| **Effective rate** | **1.1%** | **1.1%** | **1.1%** | **1.1% ★** |
+| Substance cost | $3.0M | $4.5M | $6.5M | $10.0M |
+| **Total cost (tax + substance)** | **$4.94M** | **$8.38M** | **$14.25M** | **$29.38M** |
+
+**Singapore IDI (5% on qualifying IP):**
+
+| Metric | 5 Locations | 10 Locations | 20 Locations | 50 Locations |
+|---|---|---|---|---|
+| Tech entity income | $85.75M | $171.5M | $343M | $857.5M |
+| Tech entity tax (5%) | $4.29M | $8.58M | $17.15M | $42.88M |
+| OpCo tax (avg 25%) | $1.94M | $3.88M | $7.75M | $19.38M |
+| **Total global tax** | **$6.22M** | **$12.45M** | **$24.90M** | **$62.25M** |
+| **Effective rate** | **3.6%** | **3.6%** | **3.6%** | **3.6%** |
+| Substance cost | $3.0M | $4.5M | $6.5M | $10.0M |
+| **Total cost (tax + substance)** | **$9.22M** | **$16.95M** | **$31.40M** | **$72.25M** |
+
+**Netherlands Innovation Box (blended 15%):**
+
+| Metric | 5 Locations | 10 Locations | 20 Locations | 50 Locations |
+|---|---|---|---|---|
+| Tech entity income | $85.75M | $171.5M | $343M | $857.5M |
+| Tech entity tax (15% blended) | $12.86M | $25.73M | $51.45M | $128.63M |
+| OpCo tax (avg 25%) | $1.94M | $3.88M | $7.75M | $19.38M |
+| **Total global tax** | **$14.80M** | **$29.60M** | **$59.20M** | **$148.00M** |
+| **Effective rate** | **8.6%** | **8.6%** | **8.6%** | **8.6%** |
+| Substance cost | $1.2M | $1.5M | $2.0M | $3.5M |
+| **Total cost (tax + substance)** | **$16.00M** | **$31.10M** | **$61.20M** | **$151.50M** |
+
+**All-Local Model (no tech entity — everything taxed locally):**
+
+| Metric | 5 Locations | 10 Locations | 20 Locations | 50 Locations |
+|---|---|---|---|---|
+| Total revenue | $171.25M | $342.5M | $685M | $1,712.5M |
+| Total operating profit (est. 55% margin) | $94.19M | $188.38M | $376.75M | $941.88M |
+| Tax (avg 25% on profit) | $23.55M | $47.09M | $94.19M | $235.47M |
+| **Total global tax** | **$23.55M** | **$47.09M** | **$94.19M** | **$235.47M** |
+| **Effective rate (on revenue)** | **13.8%** | **13.8%** | **13.8%** | **13.8%** |
+| Substance cost | $0 | $0 | $0 | $0 |
+| **Total cost** | **$23.55M** | **$47.09M** | **$94.19M** | **$235.47M** |
+
+#### 9.4.3 Annual Savings Comparison (vs. All-Local Model)
+
+| Model | 5 Locations | 10 Locations | 20 Locations | 50 Locations |
+|---|---|---|---|---|
+| **UAE Free Zone (0%)** | **$19.11M** | **$39.71M** | **$81.44M** | **$208.09M ★** |
+| **SG Pioneer (0%)** | **$18.61M** | **$38.71M** | **$79.94M** | **$206.09M ★** |
+| **SG IDI (5%)** | **$14.33M** | **$30.14M** | **$62.79M** | **$163.22M** |
+| **NL Innovation Box (15%)** | **$7.55M** | **$15.99M** | **$32.99M** | **$83.97M** |
+
+★ *Before Pillar Two adjustment — see below.*
+
+```
+ANNUAL TAX SAVINGS vs. ALL-LOCAL MODEL ($ Millions)
+
+$250M ┤
+      │                                                        ■ $208M
+$200M ┤                                                        ■ UAE/SG 0%
+      │                                                        │
+      │                                                  ▲ $163M
+$150M ┤                                                  ▲ SG IDI 5%
+      │
+      │
+$100M ┤                              ■ $81M             ● $84M
+      │                              │                   ● NL 15%
+      │                        ▲ $63M│
+ $50M ┤            ■ $40M      ●$33M │
+      │      ▲ $30M│                 │
+      │■ $19M●$16M │                 │
+      │▲ $14M      │                 │
+   $0 ┼──────┬──────┬────────────────┬──────────────────────────
+          5 loc   10 loc         20 loc                  50 loc
+```
+
+#### 9.4.4 Pillar Two Impact at 50 Locations
+
+At 50 locations generating ~$1.7B in revenue, TE would exceed the OECD Pillar Two threshold of EUR 750M (~$800M). The Global Anti-Base Erosion (GloBE) rules impose a **15% minimum effective tax rate** per jurisdiction.
+
+**Impact on UAE (0%) at 50 locations:**
+
+| Metric | Without Pillar Two | With Pillar Two |
+|---|---|---|
+| Tech entity income | $857.5M | $857.5M |
+| Tech entity tax rate | 0% | **15%** (top-up applied) |
+| Tech entity tax | $0 | **$128.63M** |
+| OpCo tax | $19.38M | $19.38M |
+| **Total tax** | **$19.38M** | **$148.00M** |
+| **Effective rate** | 1.1% | **8.6%** |
+| Substance SBIE offset | — | -$1.65M (5% of payroll + assets) |
+| **Net tax after SBIE** | — | **~$146.35M** |
+| **Savings vs. all-local** | $216.09M | **$89.12M** |
+
+Even with Pillar Two at 50 locations, the structure saves **~$89M/year** vs. all-local — because the 15% floor is still substantially below the 25-30% local rates.
+
+**Impact on Singapore (0%) at 50 locations:**
+
+Identical to UAE — Pillar Two brings the effective rate to 15% regardless of the base jurisdiction.
+
+**Key insight:** Pillar Two equalizes UAE and Singapore at the 50-location scale. The 0% advantage matters most during the **growth phase (1-30 locations)** before hitting the EUR 750M threshold. By the time Pillar Two applies, TE will have retained **hundreds of millions in tax savings** from the 0% years.
+
+#### 9.4.5 Cumulative Tax Savings Over a 10-Year Growth Trajectory
+
+Assume TE grows from 1 location to 20 locations over 10 years:
+
+| Year | Locations | Revenue | UAE (0%) Total Tax | All-Local Tax | **Annual Savings** | **Cumulative Savings** |
+|------|----------|---------|-------------------|--------------|-------------------|----------------------|
+| 1 | 1 | $10.7M | $0.17M | $1.20M | $1.03M | $1.03M |
+| 2 | 2 | $41.0M | $0.62M | $4.50M | $3.88M | $4.91M |
+| 3 | 3 | $82.0M | $1.16M | $9.00M | $7.84M | $12.75M |
+| 4 | 5 | $125.0M | $1.62M | $13.75M | $12.13M | $24.88M |
+| 5 | 7 | $185.0M | $2.33M | $20.35M | $18.02M | $42.90M |
+| 6 | 9 | $250.0M | $3.10M | $27.50M | $24.40M | $67.30M |
+| 7 | 12 | $330.0M | $4.03M | $36.30M | $32.27M | $99.57M |
+| 8 | 15 | $420.0M | $5.04M | $46.20M | $41.16M | $140.73M |
+| 9 | 18 | $510.0M | $6.05M | $56.10M | $50.05M | $190.78M |
+| 10 | 20 | $600.0M | $7.75M | $66.00M | $58.25M | **$249.03M** |
+
+**Cumulative 10-year tax savings: ~$249 million** (UAE 0% vs. all-local model)
+
+Even against the Netherlands model (not just all-local):
+
+| Year | Cumulative Savings vs. NL (15%) |
+|------|-------------------------------|
+| Year 3 | ~$6.4M |
+| Year 5 | ~$21.4M |
+| Year 7 | ~$49.8M |
+| Year 10 | **~$124.5M** |
+
+#### 9.4.6 What the Savings Buy
+
+To put the cumulative savings in perspective:
+
+| Savings Milestone | What It Funds |
+|---|---|
+| $5M (Year 2) | 1 additional TE location fully built |
+| $25M (Year 4-5) | 2-3 additional locations + full R&D expansion |
+| $50M (Year 6) | Entire Asian expansion (3-4 locations) |
+| $100M (Year 7-8) | Full European expansion + villa development across portfolio |
+| $249M (Year 10) | Equal to building ~15 new TE locations from scratch |
+
+The tax savings fund the expansion that generates more tax savings — a **compounding cycle** where every dollar saved accelerates growth, which generates more revenue, which generates more savings.
+
+#### 9.4.7 Summary: The Blended Effective Tax Rate at Every Scale
+
+| Scale | UAE (0%) | SG Pioneer (0%) | SG IDI (5%) | NL (15%) | All-Local |
+|---|---|---|---|---|---|
+| **1 location** | **1.6%** | **1.6%** | **5.1%** | **15.2%** | **30%** |
+| **5 locations** | **1.1%** | **1.1%** | **3.6%** | **8.6%** | **13.8%** |
+| **10 locations** | **1.1%** | **1.1%** | **3.6%** | **8.6%** | **13.8%** |
+| **20 locations** | **1.1%** | **1.1%** | **3.6%** | **8.6%** | **13.8%** |
+| **50 locations** | **1.1% ★** | **1.1% ★** | **3.6%** | **8.6%** | **13.8%** |
+| **50 locations (Pillar Two)** | **8.6%** | **8.6%** | **4.8%** | **8.6%** | **13.8%** |
+
+★ *Before Pillar Two — applies when group revenue exceeds EUR 750M.*
+
+**The zero-tax structure delivers the lowest effective tax rate at every scale.** Even when Pillar Two applies at 50 locations, the structure matches the Netherlands model (8.6%) and remains substantially below all-local (13.8%). During the critical growth phase (1-30 locations), the 0% rate provides maximum cash retention for reinvestment.
+
 ---
 
 ## 10. PE Risk: The Main Threat {#10-pe-risk}
