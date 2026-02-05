@@ -11,53 +11,155 @@ Transformational Epicenter operates through six entities across five jurisdictio
 
 ---
 
-## 2. Architecture
+## 2. The Six Entities
+
+Six entities. Five jurisdictions. One architecture. Meet them one at a time.
+
+### THE PRODUCT — TE Wellness Holdings (Cayman)
 
 ```mermaid
-graph LR
-    PRODUCT["THE PRODUCT<br/>TE Wellness Holdings<br/>(Cayman Exempted Co.)<br/>Owns TE IP + revenue<br/>Investable vehicle<br/>0% tax (unconditional)"]
+graph TB
+    PRODUCT["🏛 THE PRODUCT<br/>TE Wellness Holdings<br/>(Cayman Exempted Co.)<br/>0% tax — unconditional"]
 
-    BUILDER["THE BUILDER<br/>Light Brands Studio<br/>FZ-LLC (Dubai)<br/>Shared service center<br/>Builds for Holdings + LB<br/>0% tax (QFZP)"]
-
-    VOICE["THE VOICE<br/>Light Brands Consulting Ltd<br/>(Cook Islands IBC)<br/>External consulting + SaaS<br/>Signs client contracts<br/>0% tax"]
-
-    SHIELD["THE SHIELD<br/>Panama PIF<br/>Owns ~70% Holdings<br/>+ 100% Builder + Voice<br/>Beneficiaries private<br/>0% tax"]
-
-    HEART["THE HEART<br/>Church of the<br/>Living Light<br/>Distributes teachings<br/>Dual royalty streams<br/>Employs founders<br/>0% tax"]
-
-    HANDS["THE HANDS<br/>TE Ops Mexico<br/>S. de R.L. de C.V.<br/>Operates facilities<br/>Delivers the experience<br/>30% on margin only"]
-
-    SOUL["THE SOUL<br/>The Founders<br/>Serve all entities<br/>~0-3.7% effective tax"]
-
-    INVESTOR["INVESTOR<br/>~30% equity in<br/>TE Holdings only"]
-
-    SHIELD -->|"~70%<br/>shareholder"| PRODUCT
-    INVESTOR -->|"~30%<br/>shareholder"| PRODUCT
-    SHIELD -->|"100%<br/>shareholder"| BUILDER
-    SHIELD -->|"100%<br/>shareholder"| VOICE
-    PRODUCT -->|"Dev services<br/>contract<br/>(cost + 8-12%)"| BUILDER
-    PRODUCT -->|"Licenses<br/>content"| HEART
-    PRODUCT -->|"Service<br/>fees"| HANDS
-    VOICE -->|"Licenses<br/>spiritual tech"| HEART
-    VOICE -->|"Subcontracts<br/>dev work"| BUILDER
-    HEART -->|"Minister comp<br/>+ housing<br/>+ retirement"| SOUL
-    BUILDER -->|"Salary"| SOUL
+    PRODUCT --- owns["Owns all TE IP"]
+    PRODUCT --- collects["Collects $10.7M → $35.5M revenue"]
+    PRODUCT --- controls["Controls Mexico OpCo (100%)"]
+    PRODUCT --- licenses["Licenses content to Church"]
+    PRODUCT --- contracts["Contracts dev to Studio"]
+    PRODUCT --- investable["~30% investor equity"]
 
     style PRODUCT fill:#8b5e3c,stroke:#ffd700,color:#fff
-    style BUILDER fill:#0f3460,stroke:#e94560,color:#fff
-    style VOICE fill:#0d7377,stroke:#14ffec,color:#fff
-    style SHIELD fill:#1a1a2e,stroke:#e94560,color:#fff
-    style HEART fill:#533483,stroke:#ffd700,color:#fff
-    style HANDS fill:#16213e,stroke:#0f3460,color:#fff
-    style SOUL fill:#0a8754,stroke:#fff,color:#fff
-    style INVESTOR fill:#c9770a,stroke:#fff,color:#fff
 ```
 
-**The Product** (TE Holdings) owns all TE IP, collects all healing center revenue, and controls the Mexico OpCo — at 0%. **The Builder** (Studio) is a pure service company — it builds for both TE Holdings and Light Brands under cost-plus contracts, employing the Dubai team — at 0%. **The Voice** (CI IBC) faces external clients, signs consulting and SaaS contracts, collects Light Brands revenue, and subcontracts all development to the Builder — at 0%. **The Shield** (PIF) owns ~70% of the Product, 100% of the Builder, and 100% of the Voice, protecting assets. **The Heart** (Church) receives royalties from the Product (content) and the Voice (spiritual tech), distributes teachings, and employs the founders with tax-advantaged compensation. **The Hands** (Mexico OpCo) deliver the guest experience, owned by the Product. **The Soul** — the founders — serve across all entities. **The Investor** holds ~30% equity in the Product only.
+The investable vehicle. Every dollar of TE healing center revenue flows here first. It owns the IP, holds the Stripe merchant account, controls the Mexican operations, and licenses spiritual content to the Church. Cayman Exempted Company with 20-year tax undertaking — 0% is unconditional, no substance requirements. This is where the investor buys ~30% equity using VC-standard mechanics (SHA, liquidation preference, board seat).
+
+### THE BUILDER — Light Brands Studio FZ-LLC (Dubai)
+
+```mermaid
+graph TB
+    BUILDER["🔨 THE BUILDER<br/>Light Brands Studio FZ-LLC<br/>(Dubai Internet City)<br/>0% tax — QFZP"]
+
+    BUILDER --- builds_te["Builds TE platform for Holdings"]
+    BUILDER --- builds_lb["Builds LB products for CI IBC"]
+    BUILDER --- employs["Employs 5-6 Dubai team"]
+    BUILDER --- salary["Pays founder salaries"]
+    BUILDER --- creates["Creates all IP (owns none)"]
+
+    style BUILDER fill:#0f3460,stroke:#e94560,color:#fff
+```
+
+The shared service center. Every line of code, every AI model, every design is built here. Studio employs the Dubai tech team (CTO, engineers, AI/ML, PM, finance) and both founders. It creates IP under work-for-hire contracts but owns none of the product-specific IP — TE IP goes to Holdings, LB IP goes to CI IBC. Pure B2B service company earning cost-plus margins at 0% under QFZP.
+
+### THE VOICE — Light Brands Consulting Ltd (Cook Islands IBC)
+
+```mermaid
+graph TB
+    VOICE["📣 THE VOICE<br/>Light Brands Consulting Ltd<br/>(Cook Islands IBC)<br/>0% tax — international income"]
+
+    VOICE --- signs["Signs external client contracts"]
+    VOICE --- collects_lb["Collects all LB revenue"]
+    VOICE --- owns_lb["Owns LB-specific IP"]
+    VOICE --- subs["Subcontracts ALL dev to Studio"]
+    VOICE --- licenses_st["Licenses spiritual tech to Church"]
+
+    style VOICE fill:#0d7377,stroke:#14ffec,color:#fff
+```
+
+The client-facing consulting and SaaS entity. CI IBC signs the contracts, collects the revenue, owns LB-specific IP, and licenses spiritual technology to the Church. It has **zero employees** — intentionally thin to avoid creating permanent establishment anywhere. All development is subcontracted to Studio at arm's length. 0% on international income with asset protection under Cook Islands law.
+
+### THE SHIELD — Panama PIF
+
+```mermaid
+graph TB
+    SHIELD["🛡 THE SHIELD<br/>Panama Private Interest Foundation<br/>(Law 25/1995)<br/>0% tax — foreign income"]
+
+    SHIELD --- holds_te["Owns ~70% of Holdings"]
+    SHIELD --- holds_studio["Owns 100% of Studio"]
+    SHIELD --- holds_ci["Owns 100% of CI IBC"]
+    SHIELD --- privacy["Beneficiary identities private"]
+    SHIELD --- protection["Asset protection"]
+
+    style SHIELD fill:#1a1a2e,stroke:#e94560,color:#fff
+```
+
+The ownership layer. The PIF is an independent legal person — it has no "owner." It holds ~70% of Holdings, 100% of Studio, and 100% of CI IBC, keeping beneficiary identities private. The Canadian founder serves as Protector. The US founder is **not** a beneficiary (eliminating CFC/GILTI). A Foundation Council of 3+ members (at least 1 independent) governs. Private regulations name beneficiaries. 0% on foreign-source income.
+
+### THE HEART — Church of the Living Light
+
+```mermaid
+graph TB
+    HEART["💜 THE HEART<br/>Church of the Living Light<br/>508(c)(1)(A) Nonprofit<br/>0% tax — exempt"]
+
+    HEART --- receives_content["Receives content license from Holdings"]
+    HEART --- receives_tech["Receives spiritual tech license from CI IBC"]
+    HEART --- distributes["Distributes teachings to public"]
+    HEART --- employs_ministers["Employs founders as ministers"]
+    HEART --- housing["Provides tax-free housing (IRC 107)"]
+    HEART --- retirement["Offers tax-deferred retirement"]
+
+    style HEART fill:#533483,stroke:#ffd700,color:#fff
+```
+
+The spiritual mission. The Church receives dual royalty streams — content from Holdings and spiritual tech from CI IBC — both UBIT-exempt under IRC 512(b)(2). It distributes teachings, runs worship services (weekly online, monthly in-person), and employs both founders as ordained ministers. Compensation channels include salary, tax-free housing allowance (IRC 107), and tax-deferred retirement (403(b)(9), 457(b), 457(f)). Governed by an independent Spiritual Council (3-5 members, 1+ unrelated to founders).
+
+### THE HANDS — TE Ops Mexico S. de R.L. de C.V.
+
+```mermaid
+graph TB
+    HANDS["🤲 THE HANDS<br/>TE Ops Mexico<br/>S. de R.L. de C.V.<br/>30% tax — on margin only"]
+
+    HANDS --- operates["Operates healing facility in Tulum"]
+    HANDS --- employs_local["Employs local staff"]
+    HANDS --- delivers["Delivers guest experience"]
+    HANDS --- receives_fee["Receives cost + 8-12% from Holdings"]
+
+    style HANDS fill:#16213e,stroke:#0f3460,color:#fff
+```
+
+The boots on the ground. Mexico OpCo operates the physical facility, employs local staff (facilitators, kitchen, medical, maintenance), and delivers the guest experience. Owned 100% by TE Holdings. It receives only a cost-plus service fee — the vast majority of profit stays in Holdings at 0%. Mexico's 30% corporate tax applies only to the 8-12% margin, keeping total Mexico tax to ~$126K (Y1) → ~$420K (Y5).
 
 ---
 
-## 3. Entity Table
+## 3. Who Owns What
+
+Ownership only — no money flows, no services. Just the lines of control.
+
+```mermaid
+graph TB
+    PIF["Panama PIF<br/>(independent legal person)"]
+    INVESTOR["Investor"]
+    HOLDINGS["TE Wellness Holdings<br/>(Cayman)"]
+    STUDIO["Light Brands Studio<br/>(Dubai)"]
+    CI["Light Brands Consulting<br/>(Cook Islands)"]
+    MEXICO["TE Ops Mexico<br/>(Tulum)"]
+    CHURCH["Church of the Living Light<br/>(US nonprofit)"]
+
+    PIF -->|"~70%"| HOLDINGS
+    INVESTOR -->|"~30%"| HOLDINGS
+    PIF -->|"100%"| STUDIO
+    PIF -->|"100%"| CI
+    HOLDINGS -->|"100%"| MEXICO
+
+    CHURCH -.-|"No owner<br/>(Spiritual Council governs)"| CHURCH
+
+    style PIF fill:#1a1a2e,stroke:#e94560,color:#fff
+    style INVESTOR fill:#c9770a,stroke:#fff,color:#fff
+    style HOLDINGS fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style STUDIO fill:#0f3460,stroke:#e94560,color:#fff
+    style CI fill:#0d7377,stroke:#14ffec,color:#fff
+    style MEXICO fill:#16213e,stroke:#0f3460,color:#fff
+    style CHURCH fill:#533483,stroke:#ffd700,color:#fff
+```
+
+Key points:
+- **One PIF owns everything** (except investor's share and the Church)
+- **Investor equity isolated** to TE Holdings only — no exposure to Studio, LB, or Church
+- **Church has no owner** — nonprofit governed by independent Spiritual Council
+- **Mexico OpCo owned by Holdings** (not by Studio) — Holdings controls all TE operations
+
+---
+
+## 4. Entity Table
 
 | Entity | Jurisdiction | Legal Form | Role | Tax Rate | Ownership | Setup Cost |
 |---|---|---|---|---|---|---|
@@ -70,43 +172,41 @@ graph LR
 
 ---
 
-## 4. Money Flows
-
-### Flow 1: TE Healing Center Revenue
+## 5. How Money Flows — TE Revenue
 
 ```mermaid
 graph LR
-    subgraph "Revenue"
+    subgraph "Revenue Source"
         G["Any Guest<br/>(any nationality)"]
     end
 
-    subgraph "Holdings (0%)"
+    subgraph "Holdings — 0%"
         S["Stripe"]
-        CAYMAN["TE Wellness Holdings<br/>(Cayman)<br/>0% unconditional"]
+        CAYMAN["TE Wellness Holdings<br/>(Cayman)<br/>Retains ~43% EBITDA"]
     end
 
-    subgraph "Development (0%)"
-        UAE["Light Brands Studio<br/>FZ-LLC (Dubai)<br/>0% QFZP"]
+    subgraph "Development — 0%"
+        UAE["Light Brands Studio<br/>(Dubai)<br/>0% QFZP"]
     end
 
-    subgraph "Operations (30%)"
-        MEX["TE Ops Mexico<br/>30% on margin"]
+    subgraph "Operations — 30% on margin"
+        MEX["TE Ops Mexico<br/>~$126K→$420K tax"]
     end
 
-    subgraph "Mission (0%)"
-        CHURCH["Church of the<br/>Living Light<br/>0% exempt"]
+    subgraph "Mission — 0%"
+        CHURCH["Church of the<br/>Living Light"]
     end
 
     subgraph "Founders"
         F["Founders"]
     end
 
-    G -->|"Program fee<br/>via TE app"| S
-    S -->|"Payout"| CAYMAN
-    CAYMAN -->|"Dev services fee<br/>(cost + 8-12%)"| UAE
+    G -->|"Program fee<br/>$10.7M Y1 → $35.5M Y5"| S
+    S -->|"Payout<br/>(full amount)"| CAYMAN
+    CAYMAN -->|"Dev services<br/>(cost + 8-12%)"| UAE
     CAYMAN -->|"Service fee<br/>(cost + 8-12%)"| MEX
-    CAYMAN -->|"Content license<br/>(arm's length)"| CHURCH
-    UAE -->|"Salary"| F
+    CAYMAN -->|"Content license<br/>(arm's length royalty)"| CHURCH
+    UAE -->|"Salary<br/>(FEIE shelters $130K)"| F
     CHURCH -->|"Minister comp +<br/>housing + retirement"| F
 
     style G fill:#2d4059,stroke:#ea5455,color:#fff
@@ -120,7 +220,9 @@ graph LR
 
 **Revenue path:** Guest pays via TE app (Stripe) → TE Wellness Holdings (Cayman) → retains ~43% EBITDA at 0% tax + pays dev services fee to Studio (cost + 8-12% margin, 0% QFZP) + pays service fee to Mexico OpCo (cost + 8-12% margin, taxed at 30% on the margin) + pays content license fee to Church (arm's length, 0% on both sides).
 
-### Flow 2: Light Brands External Client Revenue (unchanged)
+---
+
+## 6. How Money Flows — Light Brands Revenue
 
 ```mermaid
 graph LR
@@ -128,39 +230,216 @@ graph LR
         CLIENT["External Client<br/>(consulting / SaaS)"]
     end
 
-    subgraph "Sales (0%)"
-        CI["Light Brands Consulting Ltd<br/>(Cook Islands IBC)<br/>0%"]
+    subgraph "Sales — 0%"
+        CI["Light Brands Consulting Ltd<br/>(Cook Islands IBC)"]
     end
 
-    subgraph "Development (0%)"
-        UAE2["Light Brands Studio<br/>FZ-LLC (Dubai)<br/>0% QFZP"]
+    subgraph "Development — 0%"
+        UAE2["Light Brands Studio<br/>(Dubai)"]
     end
 
-    subgraph "Mission (0%)"
-        CHURCH2["Church of the<br/>Living Light<br/>0% exempt"]
+    subgraph "Mission — 0%"
+        CHURCH2["Church of the<br/>Living Light"]
+    end
+
+    subgraph "Holding — 0%"
+        PIF["Panama PIF"]
     end
 
     CLIENT -->|"Consulting fee /<br/>SaaS subscription"| CI
-    CI -->|"Subcontracts dev<br/>(arm's length)"| UAE2
+    CI -->|"Subcontracts dev<br/>(arm's length fee)"| UAE2
     CI -->|"Spiritual tech<br/>license (royalty)"| CHURCH2
+    CI -->|"Distributes<br/>profits"| PIF
 
     style CLIENT fill:#2d4059,stroke:#ea5455,color:#fff
     style CI fill:#0d7377,stroke:#14ffec,color:#fff
     style UAE2 fill:#0f3460,stroke:#e94560,color:#fff
     style CHURCH2 fill:#533483,stroke:#ffd700,color:#fff
+    style PIF fill:#1a1a2e,stroke:#e94560,color:#fff
 ```
 
 **Revenue path:** External client pays CI IBC (0%) → CI IBC subcontracts dev to Studio (0%) → CI IBC licenses spiritual tech to Church (0% UBIT-exempt royalty) → CI IBC distributes profits to PIF (0% WHT) → PIF to beneficiaries at personal rates.
 
-### Flow 3: REFIPRE Routing (Light Brands → TE Ecosystem)
+---
 
-If TE needs Light Brands technology: Mexico OpCo → service fee to TE Holdings (parent-subsidiary arrangement) → Holdings pays Studio (existing dev services contract) → Studio subcontracts to CI IBC (arm's length). Mexico NEVER pays CI IBC directly — this avoids REFIPRE's 40% WHT on payments to preferential tax regimes.
+## 7. How Money Flows — REFIPRE Safe Route
 
-**Founder compensation path:** Studio pays salary (FEIE shelters first $130K for US founder; 0% for all others). Church pays minister salary + housing allowance (tax-free under IRC 107) + retirement (tax-deferred under IRC 403(b)(9), 457(b), 457(f)). Church receives dual royalty streams — content from TE Holdings + spiritual tech from CI IBC — funding expanded compensation capacity.
+Mexico's REFIPRE rules impose **40% WHT** on payments to preferential tax regimes (<22.5% effective). The Cook Islands qualifies. This diagram shows the safe routing path — and the forbidden shortcut.
+
+```mermaid
+graph LR
+    MEX["TE Ops Mexico<br/>(30% on margin)"]
+    HOLDINGS["TE Holdings<br/>(Cayman — 0%)"]
+    STUDIO["Studio<br/>(Dubai — 0%)"]
+    CI["CI IBC<br/>(Cook Islands — 0%)"]
+
+    MEX -->|"Service fee<br/>(parent-subsidiary)"| HOLDINGS
+    HOLDINGS -->|"Dev services<br/>(existing contract)"| STUDIO
+    STUDIO -->|"Subcontract<br/>(arm's length)"| CI
+
+    MEX -.-x|"FORBIDDEN<br/>40% WHT + non-deductible"| CI
+
+    style MEX fill:#16213e,stroke:#0f3460,color:#fff
+    style HOLDINGS fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style STUDIO fill:#0f3460,stroke:#e94560,color:#fff
+    style CI fill:#0d7377,stroke:#14ffec,color:#fff
+
+    linkStyle 3 stroke:#ff0000,stroke-width:3px
+```
+
+**Why this works:** Mexico → Holdings is a standard parent-subsidiary payment (not REFIPRE-triggering). Holdings → Studio is the existing dev services contract. Studio → CI IBC is the existing development subcontract. All three intermediate entities are at 0%, so the routing costs **$0 in additional tax**. The only thing that matters is Mexico never pays CI IBC directly.
 
 ---
 
-## 5. Tax Summary
+## 8. How IP Is Created and Owned
+
+```mermaid
+graph TB
+    STUDIO_IP["Light Brands Studio<br/>(Dubai)<br/>Creates ALL IP"]
+
+    TE_IP["TE Wellness Holdings<br/>(Cayman)<br/>Owns TE IP"]
+    LB_IP["CI IBC<br/>(Cook Islands)<br/>Owns LB IP"]
+    CHURCH_IP["Church of the Living Light<br/>(US)<br/>Licenses only — never owns"]
+
+    STUDIO_IP -->|"Work-for-hire<br/>(Dev Services Agreement)<br/>IP assigned on delivery"| TE_IP
+    STUDIO_IP -->|"Work-for-hire<br/>(Dev Subcontract)<br/>IP assigned on delivery"| LB_IP
+
+    TE_IP -->|"Content license<br/>(arm's length royalty)"| CHURCH_IP
+    LB_IP -->|"Spiritual tech license<br/>(arm's length royalty)"| CHURCH_IP
+
+    CHURCH_IP -->|"Distributes to public<br/>(mission)"| PUBLIC["Public"]
+
+    style STUDIO_IP fill:#0f3460,stroke:#e94560,color:#fff
+    style TE_IP fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style LB_IP fill:#0d7377,stroke:#14ffec,color:#fff
+    style CHURCH_IP fill:#533483,stroke:#ffd700,color:#fff
+    style PUBLIC fill:#2d4059,stroke:#ea5455,color:#fff
+```
+
+**Key rules:**
+- **Studio creates everything, owns nothing** (product-specific). It retains only internal dev methodologies and tools.
+- **TE IP** (platform, AI agents, courses, brand) → assigned to Holdings under the Dev Services Agreement
+- **LB IP** (consulting frameworks, SaaS, spiritual tech) → assigned to CI IBC under the Dev Subcontract
+- **Church licenses and distributes** — it never creates or owns IP
+- All licenses priced at arm's length with transfer pricing documentation
+
+---
+
+## 9. How Founders Get Paid
+
+```mermaid
+graph TB
+    STUDIO_PAY["Light Brands Studio<br/>(Dubai)"]
+    CHURCH_PAY["Church of the Living Light<br/>(US)"]
+    PIF_PAY["Panama PIF"]
+
+    US["US Founder<br/>~3.7% effective"]
+    CA["Canadian Founder<br/>0% effective"]
+    CY["Cyprus Founder<br/>~0.85% effective"]
+
+    STUDIO_PAY -->|"Salary<br/>(FEIE shelters $130K)"| US
+    STUDIO_PAY -->|"Salary<br/>(0% — Dubai resident)"| CA
+    STUDIO_PAY -->|"Salary<br/>(0% — 90-day overseas exemption)"| CY
+
+    CHURCH_PAY -->|"Minister salary"| US
+    CHURCH_PAY -->|"Housing allowance<br/>(tax-free, IRC 107)"| US
+    CHURCH_PAY -->|"Retirement<br/>(403b/457b/457f, deferred)"| US
+    CHURCH_PAY -->|"Church-owned assets<br/>(ministry use)"| US
+    CHURCH_PAY -->|"Minister salary"| CA
+    CHURCH_PAY -->|"Minister salary"| CY
+
+    PIF_PAY -->|"Distributions<br/>(0% — no Canadian tax)"| CA
+    PIF_PAY -->|"Distributions<br/>(~7.65% — SDC + health)"| CY
+
+    style STUDIO_PAY fill:#0f3460,stroke:#e94560,color:#fff
+    style CHURCH_PAY fill:#533483,stroke:#ffd700,color:#fff
+    style PIF_PAY fill:#1a1a2e,stroke:#e94560,color:#fff
+    style US fill:#0a8754,stroke:#fff,color:#fff
+    style CA fill:#0a8754,stroke:#fff,color:#fff
+    style CY fill:#0a8754,stroke:#fff,color:#fff
+```
+
+**Three pay channels, three founders:**
+
+| Channel | US Founder | Canadian Founder | Cyprus Founder |
+|---|---|---|---|
+| **Studio salary** | FEIE shelters first $130K | 0% (Dubai resident, no Canadian tax post-departure) | 0% (90-day overseas employment exemption) |
+| **Church minister salary** | Taxable (SE opt-out available) | Taxable at personal rate | Taxable at personal rate |
+| **Church housing allowance** | Tax-free under IRC 107 | N/A | N/A |
+| **Church retirement** | Tax-deferred (403b/457b/457f) | N/A | N/A |
+| **Church-owned assets** | Ministry use (documented) | N/A | N/A |
+| **PIF distributions** | NOT a beneficiary (no CFC/GILTI) | 0% | ~7.65% (5% SDC + GHS) |
+
+**Critical:** The US founder is **not** a PIF beneficiary or owner. This eliminates CFC, GILTI, Subpart F, and Form 5471 entirely.
+
+---
+
+## 10. Tax Waterfall
+
+Where tax is paid at every level — from revenue to founders.
+
+```mermaid
+graph TB
+    REV["$35.5M Revenue (Y5)"]
+
+    subgraph "Entity Level"
+        HOLD["TE Holdings (Cayman)<br/>0%"]
+        STUD["Studio (Dubai)<br/>0% QFZP"]
+        CIBC["CI IBC (Cook Islands)<br/>0%"]
+        CHUR["Church (US)<br/>0% exempt"]
+        MEXO["Mexico OpCo<br/>30% on margin → ~$420K"]
+    end
+
+    subgraph "Holding Level"
+        PIFF["Panama PIF<br/>0%"]
+    end
+
+    subgraph "Founder Level"
+        FCA["Canadian founder<br/>0%"]
+        FCY["Cyprus founder<br/>~0.85% → ~$7.7K"]
+        FUS["US founder<br/>~3.7% → ~$85K"]
+    end
+
+    REV --> HOLD
+    HOLD --> STUD
+    HOLD --> MEXO
+    HOLD --> CHUR
+    CIBC --> STUD
+    CIBC --> CHUR
+
+    HOLD --> PIFF
+    STUD --> FUS
+    STUD --> FCA
+    STUD --> FCY
+    CHUR --> FUS
+    PIFF --> FCA
+    PIFF --> FCY
+
+    style REV fill:#2d4059,stroke:#ea5455,color:#fff
+    style HOLD fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style STUD fill:#0f3460,stroke:#e94560,color:#fff
+    style CIBC fill:#0d7377,stroke:#14ffec,color:#fff
+    style CHUR fill:#533483,stroke:#ffd700,color:#fff
+    style MEXO fill:#16213e,stroke:#0f3460,color:#fff
+    style PIFF fill:#1a1a2e,stroke:#e94560,color:#fff
+    style FCA fill:#0a8754,stroke:#fff,color:#fff
+    style FCY fill:#0a8754,stroke:#fff,color:#fff
+    style FUS fill:#0a8754,stroke:#fff,color:#fff
+```
+
+**Year 5 tax summary:**
+
+| Level | Tax Paid | Rate |
+|---|---|---|
+| Entity level (all entities) | ~$420,000 | ~1.2% of $35.5M |
+| US founder personal | ~$85,400 | ~3.7% of ~$2.3M |
+| Canadian founder personal | $0 | 0% |
+| Cyprus founder personal | ~$7,650 | ~0.85% of ~$900K |
+| **Combined** | **~$505,000** | **~1.4% of group revenue** |
+
+---
+
+## 11. Tax Summary Tables
 
 ### Entity-Level
 
@@ -198,7 +477,63 @@ If TE needs Light Brands technology: Mexico OpCo → service fee to TE Holdings 
 
 ---
 
-## 6. Substance Requirements
+## 12. The Full Picture
+
+All entities, all flows, all connections — simplified from the spotlights above into one view.
+
+```mermaid
+graph LR
+    subgraph ownership["Ownership"]
+        SHIELD["THE SHIELD<br/>Panama PIF<br/>0%"]
+        INVESTOR["INVESTOR<br/>~30% of Holdings"]
+    end
+
+    subgraph revenue["Revenue Engines"]
+        PRODUCT["THE PRODUCT<br/>TE Holdings (Cayman)<br/>0%"]
+        VOICE["THE VOICE<br/>CI IBC (Cook Islands)<br/>0%"]
+    end
+
+    subgraph operations["Operations"]
+        BUILDER["THE BUILDER<br/>Studio (Dubai)<br/>0% QFZP"]
+        HANDS["THE HANDS<br/>Mexico OpCo<br/>30% margin"]
+    end
+
+    subgraph mission["Mission"]
+        HEART["THE HEART<br/>Church<br/>0% exempt"]
+    end
+
+    subgraph founders["Founders"]
+        SOUL["THE SOUL<br/>Founders<br/>~0-3.7%"]
+    end
+
+    SHIELD -->|"~70%"| PRODUCT
+    INVESTOR -->|"~30%"| PRODUCT
+    SHIELD -->|"100%"| BUILDER
+    SHIELD -->|"100%"| VOICE
+    PRODUCT -->|"100%"| HANDS
+
+    PRODUCT -->|"Dev services<br/>(cost + 8-12%)"| BUILDER
+    PRODUCT -->|"Service fee"| HANDS
+    PRODUCT -->|"Content license"| HEART
+    VOICE -->|"Subcontracts dev"| BUILDER
+    VOICE -->|"Spiritual tech license"| HEART
+
+    BUILDER -->|"Salary"| SOUL
+    HEART -->|"Minister comp +<br/>housing + retirement"| SOUL
+
+    style PRODUCT fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style BUILDER fill:#0f3460,stroke:#e94560,color:#fff
+    style VOICE fill:#0d7377,stroke:#14ffec,color:#fff
+    style SHIELD fill:#1a1a2e,stroke:#e94560,color:#fff
+    style HEART fill:#533483,stroke:#ffd700,color:#fff
+    style HANDS fill:#16213e,stroke:#0f3460,color:#fff
+    style SOUL fill:#0a8754,stroke:#fff,color:#fff
+    style INVESTOR fill:#c9770a,stroke:#fff,color:#fff
+```
+
+---
+
+## 13. Substance Requirements
 
 Each entity must be genuinely operational. A shell entity will not survive scrutiny.
 
@@ -213,7 +548,7 @@ Each entity must be genuinely operational. A shell entity will not survive scrut
 
 ---
 
-## 7. Year 1-5 Projections
+## 14. Year 1-5 Projections
 
 ### TE Healing Center (from data.ts)
 
@@ -242,7 +577,7 @@ Each entity must be genuinely operational. A shell entity will not survive scrut
 
 ---
 
-## 8. Key Constraints
+## 15. Key Constraints
 
 These are the walls that cannot be moved. The structure is designed around them.
 
@@ -259,7 +594,7 @@ These are the walls that cannot be moved. The structure is designed around them.
 
 ---
 
-## 9. Rules That Cannot Be Broken
+## 16. Rules That Cannot Be Broken
 
 | Rule | Why |
 |---|---|
@@ -282,7 +617,38 @@ These are the walls that cannot be moved. The structure is designed around them.
 
 ---
 
-## 10. Setup Roadmap
+## 17. Setup Roadmap
+
+```mermaid
+gantt
+    title Formation Roadmap
+    dateFormat YYYY-MM
+    section Phase 1 — Counsel
+    Engage UAE tax counsel           :2026-03, 2M
+    Engage Cayman corporate counsel  :2026-03, 2M
+    Engage US religious nonprofit attorney :2026-03, 2M
+    Engage US international tax attorney   :2026-03, 2M
+    Engage Canadian emigration counsel     :2026-03, 1M
+    Engage Cook Islands registered agent   :2026-03, 1M
+    Formalize church doctrine              :2026-03, 2M
+    section Phase 2 — Formation
+    Panama PIF formation             :2026-04, 1M
+    TE Holdings (Cayman)             :2026-04, 1M
+    Studio FZ-LLC (Dubai)            :2026-04, 2M
+    CI IBC (Cook Islands)            :2026-04, 1M
+    Church incorporation (US)        :2026-05, 1M
+    Golden Visas x2                  :2026-05, 1M
+    section Phase 3 — Agreements
+    Execute intercompany agreements  :2026-06, 1M
+    Transfer pricing studies         :2026-06, 1M
+    Set up Stripe for Holdings       :2026-06, 1M
+    section Phase 4 — Operations
+    Hire Dubai team (5-6 people)     :2026-05, 3M
+    Launch church worship            :2026-05, 2M
+    Set up retirement plans          :2026-06, 1M
+    section Phase 5 — Investment
+    Close seed round                 :2026-07, 1M
+```
 
 ### Phase 1: Counsel & Doctrine (Months 1-2)
 
@@ -360,7 +726,7 @@ These are the walls that cannot be moved. The structure is designed around them.
 
 ---
 
-## Cross-References
+## 18. Cross-References
 
 - **Ecosystem architecture (6-entity view):** [07-ECOSYSTEM-ARCHITECTURE.md](./07-ECOSYSTEM-ARCHITECTURE.md)
 - **Cayman TE Holdings detail:** [09-CAYMAN-TE-HOLDINGS-DETAIL.md](./09-CAYMAN-TE-HOLDINGS-DETAIL.md)
