@@ -45,6 +45,11 @@ Bring the relevant section to each counsel meeting. Questions are organized by j
 **Context:** The UAE entity will earn $10-35M/year. Substance must be proportional.
 **Question:** What is the minimum substance threshold for a technology company earning $10-35M/year in DIC? Is 5-6 employees sufficient, or does the FTA expect more?
 
+### Q47: Intercompany Pricing for UAE ↔ CI IBC Subcontracting
+**Priority:** IMPORTANT
+**Context:** The UAE entity will provide development services to the CI IBC under a subcontracting arrangement. The CI IBC pays cost-plus to the UAE entity. Both entities are at 0%, so there is no tax arbitrage — but the arrangement must still be arm's length for TP purposes.
+**Question:** What is the FTA's view on intercompany subcontracting arrangements where a UAE FZ entity provides services to a Cook Islands IBC (both at 0%)? Does the UAE FTA require TP documentation for related-party transactions where both parties are at 0%? What margin range is defensible?
+
 ---
 
 ## 2. US Religious Nonprofit Attorney
@@ -70,6 +75,11 @@ Bring the relevant section to each counsel meeting. Questions are organized by j
 **Priority:** IMPORTANT
 **Context:** The arm's-length content license between the UAE entity and the church is critical for IP ownership (DEMPE) and church independence.
 **Question:** What required language should the content license agreement contain to preserve both the church's exempt status and the UAE entity's IP ownership?
+
+### Q45: Dual Royalty Streams to Church (UAE Content + CI IBC Spiritual Tech)
+**Priority:** IMPORTANT
+**Context:** The church will now receive two royalty streams: (1) content license from UAE entity (TE spiritual content), and (2) spiritual technology license from CI IBC (Light Brands tools/platforms). Both should be UBIT-exempt under IRC 512(b)(2) as royalty income.
+**Question:** Does receiving royalties from two separate foreign entities (one in UAE, one in Cook Islands) raise any additional UBIT, unrelated business income, or church status concerns? Any special documentation needed for the dual-stream structure?
 
 ---
 
@@ -106,6 +116,11 @@ Bring the relevant section to each counsel meeting. Questions are organized by j
 **Priority:** FORWARD
 **Context:** If the no-ownership structure is ever reconsidered and the US founder takes an equity stake, Section 962 election would cap GILTI at corporate rates (~10.5%).
 **Question:** Model the effective tax rate under employee-only ($130K+ salary) vs. CFC ownership with Section 962 election, given projected TE income of $4-21M EBITDA over Years 1-5.
+
+### Q44: PIF Look-Through Risk for CI IBC (US Founder)
+**Priority:** IMPORTANT
+**Context:** The PIF now owns two foreign entities (UAE FZ-LLC + Cook Islands IBC). The US founder is excluded as PIF beneficiary, which eliminates CFC/GILTI for the UAE entity.
+**Question:** Confirm that the same no-ownership CFC elimination analysis applies to the CI IBC. Are there any differences in how the IRS might treat a Cook Islands entity vs. a UAE entity when analyzing constructive ownership through a Panama PIF?
 
 ---
 
@@ -151,8 +166,13 @@ Bring the relevant section to each counsel meeting. Questions are organized by j
 
 ### Q22: Banking and KYC
 **Priority:** IMPORTANT
-**Context:** The PIF needs a bank account (Panama or Singapore) and must provide KYC documents for the UAE entity's bank.
-**Question:** What apostilled documents will be needed for UAE bank KYC? Which banks are experienced with PIF-owned holding structures?
+**Context:** The PIF needs a bank account (Panama or Singapore) and must provide KYC documents for the UAE entity's bank and the CI IBC's bank.
+**Question:** What apostilled documents will be needed for UAE and Singapore bank KYC? Which banks are experienced with PIF-owned holding structures?
+
+### Q46: PIF Owning Two Operating Entities (UAE + CI IBC)
+**Priority:** IMPORTANT
+**Context:** The same PIF will own 100% of both the UAE FZ-LLC and the Cook Islands IBC. This simplifies governance but means one PIF holds two operating entities in different jurisdictions.
+**Question:** Are there any structural or governance considerations for a single PIF owning entities in both UAE and Cook Islands? Does the Foundation Charter need specific provisions for multi-entity ownership? Any conflict-of-interest issues when the two entities transact with each other (subcontracting)?
 
 ---
 
@@ -182,9 +202,50 @@ Bring the relevant section to each counsel meeting. Questions are organized by j
 
 ---
 
-## 7. Cyprus Tax Counsel
+## 7. Cook Islands Counsel
 
-**Engagement:** Months 1-2. Validates the Cyprus founder's personal strategy.
+**Engagement:** Weeks 1-2. In parallel with UAE counsel. Validates CI IBC structure and banking path.
+
+### Q37: CI IBC Formation — Optimal Registered Agent
+**Priority:** IMPORTANT
+**Context:** Light Brands AI Ltd will be incorporated as a Cook Islands IBC. The registered agent handles formation, annual filings, and serves as the registered office.
+**Question:** Which Cook Islands registered agents / trustee companies have the best track record for IBCs owned by Panama PIFs? Any agents to avoid (compliance issues, slow service)?
+
+### Q38: Director Structure — Nominee vs. Founder
+**Priority:** IMPORTANT
+**Context:** The CI IBC needs at least 1 director. Fewer than 3 CI-resident directors to avoid domestic tax. Options: nominee director only, or nominee + Canadian founder.
+**Question:** What is the optimal director structure? Should we use a corporate nominee director (for signing routine documents) plus the Canadian founder as strategic director? Or nominee only with board resolutions?
+
+### Q39: IBC → UAE Subcontracting — Arm's Length Pricing
+**Priority:** IMPORTANT
+**Context:** The CI IBC will subcontract all development to the UAE entity (cost-plus pricing). The CI IBC owns the LB IP; the UAE entity builds under contract.
+**Question:** What is the defensible arm's length pricing methodology for the CI IBC → UAE development subcontract? Cost-plus at what margin range? What comparables should the TP study reference?
+
+### Q40: IBC → Church Royalty Rate
+**Priority:** IMPORTANT
+**Context:** The CI IBC will license "spiritual technology" (consciousness tools, platforms) to the Church of the Living Light. The royalty must be arm's length and qualify as UBIT-exempt royalty income for the church under IRC 512(b)(2).
+**Question:** What is a defensible royalty rate for spiritual technology / software licensing to a nonprofit? What TP methodology applies? Any risk the IRS recharacterizes this as something other than a royalty?
+
+### Q41: Banking — Singapore Bank Acceptance
+**Priority:** IMPORTANT
+**Context:** CI IBC owned by a Panama PIF. Need a Singapore bank account for primary operations (multi-currency, Stripe integration, international wires).
+**Question:** Which Singapore banks accept Cook Islands IBCs owned by Panama PIFs? What documentation is required for KYC? Is in-person account opening required?
+
+### Q42: CRS/AEOI Reporting Obligations
+**Priority:** IMPORTANT
+**Context:** Cook Islands participates in CRS/AEOI. The CI IBC will have bank accounts in Singapore and potentially UAE. Founders reside in UAE, US, and Cyprus.
+**Question:** What are the specific CRS/AEOI reporting obligations for the CI IBC? What information is automatically exchanged with founder-resident jurisdictions? Any action items to ensure compliance?
+
+### Q43: Asset Protection — Structuring for Maximum Benefit
+**Priority:** FORWARD
+**Context:** Cook Islands is the #1 asset protection jurisdiction. The PIF → CI IBC chain provides two layers of protection.
+**Question:** Are there any additional structuring steps (e.g., CI trust layer, specific Articles of Association provisions) that would maximize asset protection for LB's IP and revenue?
+
+---
+
+## 8. Cyprus Tax Counsel
+
+**Engagement:** Months 1-2. Validates the Cyprus founder's personal strategy. (Question numbers unchanged from original for cross-reference stability.)
 
 ### Q27: 90-Day Exemption for Large Salary
 **Priority:** CRITICAL
@@ -218,7 +279,7 @@ Bring the relevant section to each counsel meeting. Questions are organized by j
 
 ---
 
-## 8. Forward-Looking Questions
+## 9. Forward-Looking Questions
 
 These do not need immediate answers but should be tracked for future counsel engagements.
 
@@ -249,11 +310,13 @@ These do not need immediate answers but should be tracked for future counsel eng
 | Priority | Counsel | Key Questions |
 |---|---|---|
 | **Week 1** | Canadian emigration tax | Q16 (departure timing), Q17 (NR73 strategy) |
-| **Week 1-2** | UAE tax | Q1 (QFZP viability) — gating question |
-| **Week 1-2** | US international tax | Q10 (CFC elimination) |
-| **Week 1-2** | US religious nonprofit | Q6 (508(c)(1)(A) eligibility) |
+| **Week 1-2** | UAE tax | Q1 (QFZP viability) — gating question, Q47 (UAE↔CI IBC pricing) |
+| **Week 1-2** | US international tax | Q10 (CFC elimination), Q44 (CI IBC look-through) |
+| **Week 1-2** | US religious nonprofit | Q6 (508(c)(1)(A) eligibility), Q45 (dual royalty streams) |
+| **Week 1-2** | Cook Islands | Q37 (registered agent), Q38 (directors), Q41 (banking) |
 | **Week 1-2** | Cyprus tax | Q27 (90-day exemption) |
-| **Weeks 2-4** | Panama | Q20 (PIF structuring), Q22 (banking) |
+| **Weeks 2-4** | Panama | Q20 (PIF structuring), Q22 (banking), Q46 (multi-entity PIF) |
+| **Weeks 2-4** | Cook Islands | Q39 (TP methodology), Q40 (church royalty rate), Q42 (CRS/AEOI) |
 | **Months 3-5** | Mexican tax | Q23 (REFIPRE), Q24 (transfer pricing) |
 | **Ongoing** | All | Forward-looking questions as they become relevant |
 

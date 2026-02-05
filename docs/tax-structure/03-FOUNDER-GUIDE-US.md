@@ -19,13 +19,17 @@ The US founder is NOT an owner of the UAE entity. This eliminates CFC, GILTI, Su
 graph TB
     UAE["TE Global Technology FZ-LLC<br/>(Dubai)<br/>Employs US founder<br/>as executive"]
 
-    CHURCH["Church of the Living Light<br/>508(c)(1)(A)<br/>Employs US founder<br/>as ordained minister"]
+    CI["Light Brands AI Ltd<br/>(Cook Islands IBC)<br/>Subcontracts dev to UAE<br/>Licenses spiritual tech to Church"]
 
-    PIF["Panama PIF<br/>US founder is NOT<br/>a beneficiary or owner"]
+    CHURCH["Church of the Living Light<br/>508(c)(1)(A)<br/>Employs US founder<br/>as ordained minister<br/>Receives dual royalties"]
+
+    PIF["Panama PIF<br/>Owns UAE + CI IBC<br/>US founder is NOT<br/>a beneficiary or owner"]
 
     US["US FOUNDER<br/>(Dubai resident, US citizen)<br/>Golden Visa + Emirates ID"]
 
     UAE -->|"Salary<br/>($130K FEIE + remainder taxed)"| US
+    CI -->|"Spiritual tech<br/>license (royalty)"| CHURCH
+    UAE -->|"Content<br/>license (royalty)"| CHURCH
     CHURCH -->|"Minister salary<br/>(taxable)"| US
     CHURCH -->|"Housing allowance<br/>(TAX FREE, no cap)"| US
     CHURCH -->|"Retirement plans<br/>(TAX DEFERRED)"| US
@@ -33,6 +37,7 @@ graph TB
     PIF -->|"US founder has<br/>ZERO relationship"| PIF
 
     style UAE fill:#0f3460,stroke:#e94560,color:#fff
+    style CI fill:#0d7377,stroke:#14ffec,color:#fff
     style CHURCH fill:#533483,stroke:#ffd700,color:#fff
     style PIF fill:#1a1a2e,stroke:#e94560,color:#fff
     style US fill:#c9770a,stroke:#fff,color:#fff
@@ -59,6 +64,7 @@ graph TB
 | **Y1 / Y3 / Y5** | $80,000 / $150,000 / $300,000 |
 | **Tax treatment** | Taxable as ordinary income. Ministers are self-employed for FICA — can opt out entirely via Form 4361 (saves 15.3%). |
 | **Key constraint** | Must be board-approved with comparable data. Scales with church budget. |
+| **Light Brands effect** | Church now receives **dual royalty streams** — content license from UAE entity (TE spiritual content) + spiritual tech license from CI IBC (Light Brands tools/platforms). Both are UBIT-exempt under IRC 512(b)(2). This expands the church's revenue base, supporting higher board-approved compensation as the ministry grows. |
 
 ### Channel 3: Housing Allowance (IRC 107)
 
@@ -103,9 +109,9 @@ graph TB
 | **Tax treatment** | Personal charitable deduction (up to 60% of AGI for cash to a church). Saves $11,000-$24,000 in personal tax. |
 | **Key constraint** | Genuine charitable donation. Funded church mission, not disguised salary return. |
 
-### Channel 7: Retained in UAE Entity (Not Personal Income)
+### Channel 7: Retained in UAE Entity + CI IBC (Not Personal Income)
 
-The vast majority of revenue ($10.7M Y1 → $35.5M Y5) stays in the UAE entity at 0% corporate tax. The US founder does not own or benefit from this entity — it is held by the PIF. This money compounds tax-free and funds business growth, expansion, and the Dubai team.
+The vast majority of TE revenue ($10.7M Y1 → $35.5M Y5) stays in the UAE entity at 0% corporate tax. All Light Brands revenue stays in the CI IBC at 0%. Both entities are held by the PIF. The US founder does not own or benefit from either entity — this money compounds tax-free and funds business growth, expansion, the Dubai team, and Light Brands operations. As LB scales, this retained capital pool grows with zero additional tax impact.
 
 ---
 
@@ -155,18 +161,18 @@ The vast majority of revenue ($10.7M Y1 → $35.5M Y5) stays in the UAE entity a
 
 ## 5. CFC/GILTI Position
 
-The US founder has **zero** Controlled Foreign Corporation exposure because the US founder has **zero** ownership of the UAE entity.
+The US founder has **zero** Controlled Foreign Corporation exposure because the US founder has **zero** ownership of either the UAE entity or the CI IBC.
 
-| CFC Requirement | Status |
-|---|---|
-| US person owns >10% of foreign corporation? | **No** — 0% ownership |
-| US person is beneficiary of PIF that owns the CFC? | **No** — formally excluded |
-| US person has signatory authority over PIF accounts? | **No** |
-| US person can direct PIF distributions? | **No** |
-| **CFC/GILTI/Subpart F applies?** | **No** |
-| **Form 5471 required?** | **No** |
+| CFC Requirement | UAE Entity | CI IBC |
+|---|---|---|
+| US person owns >10% of foreign corporation? | **No** — 0% ownership | **No** — 0% ownership |
+| US person is beneficiary of PIF that owns the CFC? | **No** — formally excluded | **No** — formally excluded |
+| US person has signatory authority over PIF accounts? | **No** | **No** |
+| US person can direct PIF distributions? | **No** | **No** |
+| **CFC/GILTI/Subpart F applies?** | **No** | **No** |
+| **Form 5471 required?** | **No** | **No** |
 
-The PIF is an independent legal person under Panamanian Law 25 of 1995. It has no "owner." The Canadian founder serves as Protector. The US founder is an employee of the UAE entity — no different from a US citizen working for Toyota, Nestle, or Samsung.
+The PIF is an independent legal person under Panamanian Law 25 of 1995. It has no "owner." The Canadian founder serves as Protector. The US founder is an employee of the UAE entity — no different from a US citizen working for Toyota, Nestle, or Samsung. The addition of the CI IBC does not change this analysis: the US founder has zero ownership, zero beneficiary status, and zero control rights over either foreign entity.
 
 ---
 
@@ -228,6 +234,8 @@ The PIF is an independent legal person under Panamanian Law 25 of 1995. It has n
 | **Housing allowance exceeds FRV** | Low | Medium | Get annual FRV appraisal. Designate conservatively. |
 | **Excess benefit transaction** | Low | High | Independent board. Comparable data. Documented decisions. |
 | **GILTI/Subpart F inclusion** | Very Low (if no-ownership) | Critical | No-ownership structure must be watertight. No PIF beneficiary status. |
+| **IRS argues constructive ownership of CI IBC via PIF** | Very Low | Critical | Same analysis as UAE entity. US founder has zero PIF relationship. CI IBC owned 100% by PIF. No attribution path exists. |
+| **CI IBC royalty to Church challenged** | Low | Medium | Arm's length pricing via TP study. Comparable software licensing rates. Church uses tech for genuine ministry purposes. Even if challenged, church exemption is independent of royalty source. |
 
 ---
 

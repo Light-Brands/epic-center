@@ -20,15 +20,19 @@ The **overseas employment exemption** — salary from a non-resident employer fo
 graph TB
     BRAIN["TE Global Technology FZ-LLC<br/>(Dubai)<br/>Employs Cyprus founder<br/>Pays salary<br/>0% corporate tax"]
 
-    SHIELD["Panama PIF<br/>Owns the Brain<br/>Distributions at<br/>~7.65% to founder<br/>(5% SDC + 2.65% GESY)"]
+    VOICE["Light Brands AI Ltd<br/>(Cook Islands IBC)<br/>External consulting + SaaS<br/>Owned by PIF"]
+
+    SHIELD["Panama PIF<br/>Owns Brain + Voice<br/>Distributions at<br/>~7.65% to founder<br/>(5% SDC + 2.65% GESY)"]
 
     CYPRUS["CYPRUS FOUNDER<br/>(Deemed Domiciled)<br/>Salary: 0% (90-day rule)<br/>Dividends: ~7.65%<br/>Cap gains: 0%"]
 
     SHIELD -->|"100% shareholder"| BRAIN
+    SHIELD -->|"100% shareholder"| VOICE
     BRAIN -->|"Salary<br/>(work outside Cyprus<br/>>90 days = TAX FREE)"| CYPRUS
-    SHIELD -.->|"Distributions<br/>(5% SDC + 2.65% GESY)"| CYPRUS
+    SHIELD -.->|"Distributions<br/>(TE + LB profits,<br/>5% SDC + 2.65% GESY)"| CYPRUS
 
     style BRAIN fill:#0f3460,stroke:#e94560,color:#fff
+    style VOICE fill:#0d7377,stroke:#14ffec,color:#fff
     style SHIELD fill:#1a1a2e,stroke:#e94560,color:#fff
     style CYPRUS fill:#c9770a,stroke:#fff,color:#fff
 ```
