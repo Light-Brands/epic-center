@@ -1,6 +1,7 @@
-# Documentation (keep docs/data-room/ — read at build time by SSG pages)
+# Documentation (keep docs needed at build time by SSG pages)
 docs/*
 !docs/data-room/
+!docs/tax-structure/
 design/
 /*.md
 
