@@ -562,3 +562,87 @@ section {
     background: #f5f5f5;
   }
 }
+
+/* ═══════════════════════════════════════════════════════════════════════════════
+   MERMAID DIAGRAM STYLES
+   ═══════════════════════════════════════════════════════════════════════════════ */
+.mermaid-wrapper svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Default node styling - light background with dark text */
+.mermaid-wrapper .node rect,
+.mermaid-wrapper .node circle,
+.mermaid-wrapper .node ellipse,
+.mermaid-wrapper .node polygon {
+  fill: #f1f5f9 !important;
+  stroke: #1e3a5f !important;
+  stroke-width: 1.5px !important;
+}
+
+/* All text in nodes should be dark navy by default */
+.mermaid-wrapper .node text,
+.mermaid-wrapper .nodeLabel,
+.mermaid-wrapper .label text,
+.mermaid-wrapper text {
+  fill: #1e3a5f !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+}
+
+/* Styled nodes override - these have inline styles from mermaid */
+/* Navy nodes */
+.mermaid-wrapper g[style*="fill:#1e3a5f"] text,
+.mermaid-wrapper g[style*="fill:#0f3460"] text,
+.mermaid-wrapper g[style*="fill:#16213e"] text,
+.mermaid-wrapper g[style*="fill:#1a1a2e"] text,
+.mermaid-wrapper g[style*="fill: rgb(30, 58, 95)"] text,
+.mermaid-wrapper g[style*="fill: rgb(15, 52, 96)"] text,
+.mermaid-wrapper g[style*="fill: rgb(22, 33, 62)"] text,
+.mermaid-wrapper g[style*="fill: rgb(26, 26, 46)"] text {
+  fill: #ffffff !important;
+}
+
+/* Brown/gold nodes */
+.mermaid-wrapper g[style*="fill:#8b5e3c"] text,
+.mermaid-wrapper g[style*="fill:#c9770a"] text,
+.mermaid-wrapper g[style*="fill: rgb(139, 94, 60)"] text,
+.mermaid-wrapper g[style*="fill: rgb(201, 119, 10)"] text {
+  fill: #ffffff !important;
+}
+
+/* Teal nodes */
+.mermaid-wrapper g[style*="fill:#0d7377"] text,
+.mermaid-wrapper g[style*="fill: rgb(13, 115, 119)"] text {
+  fill: #ffffff !important;
+}
+
+/* Purple nodes */
+.mermaid-wrapper g[style*="fill:#533483"] text,
+.mermaid-wrapper g[style*="fill: rgb(83, 52, 131)"] text {
+  fill: #ffffff !important;
+}
+
+/* Edge labels */
+.mermaid-wrapper .edgeLabel {
+  background-color: white !important;
+}
+
+.mermaid-wrapper .edgeLabel text,
+.mermaid-wrapper .edgeLabel .label text {
+  fill: #374151 !important;
+  font-size: 11px !important;
+}
+
+/* Edge paths/lines */
+.mermaid-wrapper .edgePath path,
+.mermaid-wrapper path.path {
+  stroke: #64748b !important;
+  stroke-width: 1.5px !important;
+}
+
+/* Arrowheads */
+.mermaid-wrapper marker path {
+  fill: #64748b !important;
+}
