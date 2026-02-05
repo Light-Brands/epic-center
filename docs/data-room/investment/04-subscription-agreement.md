@@ -289,20 +289,22 @@ The Subscriber shall have the right to participate in future financing rounds on
 
 ### 6.4 Tag-Along Rights
 
-If a majority holder proposes to sell their interests in the Company, the Subscriber shall have the right to participate in such sale on the same terms and conditions, pro rata to the Subscriber's ownership percentage. This provision ensures minority investors can exit alongside majority holders.
+If a majority holder proposes to sell their interests in the Company, the Subscriber shall have the right to participate in such sale on the same terms and conditions, pro rata to the Subscriber's ownership percentage. This provision ensures minority investors can participate alongside majority holders on the same terms.
 
 ### 6.5 Anti-Dilution Protection
 
 The Subscriber shall be entitled to weighted average anti-dilution adjustment in the event of a subsequent financing at a valuation lower than the Subscriber's entry valuation. The specific mechanics of the anti-dilution adjustment are defined in the Operating Agreement.
 
-### 6.6 Exit Rights
+### 6.6 Liquidity Provisions
 
 The Subscriber shall be entitled to:
 
-- Participation in any liquidity event (sale, IPO, merger) on at least a pro-rata basis
+- Participation in any change-of-control event (sale, merger) on at least a pro-rata basis
 - Liquidation preference ensuring return of invested capital before common distributions
-- Drag-along and tag-along provisions to facilitate clean exit transactions
+- Drag-along and tag-along provisions to facilitate clean transactions
 - Right of first refusal on secondary transfers of membership interests by other Members
+
+*Note: These are standard investor protections — not indications of a planned sale. The founders intend to own and operate TE for the long term.*
 
 ---
 

@@ -363,7 +363,7 @@ Before any Member may Transfer its Interest to a third party (a "Proposed Transf
 
 *[To be completed -- will address:]*
 
-If Members holding [X]% or more of the outstanding Interests (the "Dragging Members") approve a sale of the Company to a bona fide third-party purchaser, the Dragging Members shall have the right to require all other Members to participate in the sale on the same terms and conditions. This provision facilitates clean exit transactions and prevents minority hold-up.
+If Members holding [X]% or more of the outstanding Interests (the "Dragging Members") approve a sale of the Company to a bona fide third-party purchaser, the Dragging Members shall have the right to require all other Members to participate in the sale on the same terms and conditions. This provision facilitates clean transactions and prevents minority hold-up.
 
 - Notice requirements and timeline
 - Price and terms protections for dragged Members

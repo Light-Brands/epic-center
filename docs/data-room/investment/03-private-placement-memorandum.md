@@ -79,7 +79,7 @@
 - Pro-rata participation rights in future rounds
 - Tag-along rights on majority transfers
 - Anti-dilution protection (weighted average)
-- Liquidation preference and exit rights
+- Liquidation preference and minority liquidity provisions
 
 *[Note: All terms are preliminary. Final terms will be set by the Company in consultation with securities counsel and may differ materially from those outlined above.]*
 
@@ -286,7 +286,7 @@ No single competitor integrates all four market pillars. SHA Wellness Clinic (Sp
 | CAC | $2,613 |
 | Post-Money Valuation | $29,350,000 |
 
-**Return Profile (with Exit):**
+**Return Profile:**
 
 | Scenario | Enterprise Value (Y5) | MOIC | IRR |
 |----------|----------------------|------|-----|

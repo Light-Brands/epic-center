@@ -389,11 +389,11 @@ Mexico offers the optimal regulatory environment for ibogaine-assisted therapy:
 | **Room Count** | 60 casitas (phased 15→60) |
 | **Year 1 Revenue (Base)** | $10,748,000 |
 | **5-Year Total Revenue** | $125,880,000 |
-| **Project IRR (Base, with Exit)** | 78% |
-| **Project IRR (Conservative, with Exit)** | 66% |
+| **Project IRR (Base)** | 78% |
+| **Project IRR (Conservative)** | 66% |
 | **Year 5 Enterprise Value (Base)** | ~$147,000,000 |
-| **5-Year MOIC (Base, incl. Exit)** | 7.5x |
-| **5-Year MOIC (Conservative, incl. Exit)** | 5.3x |
+| **5-Year MOIC (Base)** | 7.5x |
+| **5-Year MOIC (Conservative)** | 5.3x |
 
 > **Ibogaine as Revenue Driver:** Ibogaine-assisted protocols represent the highest-value
 > treatment offerings ($14,000-$56,000 per program), contributing approximately 35-45%

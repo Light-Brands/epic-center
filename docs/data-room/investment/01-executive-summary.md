@@ -30,7 +30,7 @@
 4. [The Property](#4-the-property)
 5. [Financial Highlights](#5-financial-highlights)
 5a. [Valuation](#5a-valuation)
-5b. [Exit Strategy](#5b-exit-strategy)
+5b. [Long-Term Vision & Wealth Creation](#5b-long-term-vision--wealth-creation)
 6. [Market Segments](#6-market-segments)
 7. [Business Model](#7-business-model)
 8. [Eight Integrated Segments](#8-eight-integrated-segments)
@@ -189,7 +189,7 @@ Guests do not pay $14,000-$56,000 for any single modality. They pay for the inte
 | **CAC (Blended)** | $2,613 |
 | **LTV:CAC Ratio** | 13.0x |
 
-### Return Profile (with Exit)
+### Return Profile
 
 | Scenario | MOIC | IRR |
 |----------|------|-----|
@@ -197,7 +197,7 @@ Guests do not pay $14,000-$56,000 for any single modality. They pay for the inte
 | **Base Case** | **7.5x** | **78%** |
 | **Aggressive** | 9.6x | 87% |
 
-**Year 5 Enterprise Value (Base Case): ~$147,000,000**
+**Year 5 Enterprise Value (Sum-of-Parts): ~$147,000,000**
 
 ### Key Unit Economics
 
@@ -208,7 +208,7 @@ Guests do not pay $14,000-$56,000 for any single modality. They pay for the inte
 | **Gross Margin per Guest** | 83% |
 | **Average Daily Rate (ADR)** | $2,000/night |
 
-Even the conservative exit scenario delivers a 66% IRR and 5.3x MOIC over five years. The financial model is resilient because premium pricing, 83% gross margins, and expanding EBITDA margins (43%→61%) provide substantial buffer against occupancy shortfalls. The break-even at just ~3% occupancy (~25 guests/year) represents an extraordinary safety margin against the base case projection of 387 guests in Year 1.
+Even the conservative scenario delivers a 66% IRR and 5.3x MOIC over five years. The financial model is resilient because premium pricing, 83% gross margins, and expanding EBITDA margins (43%→61%) provide substantial buffer against occupancy shortfalls. The break-even at just ~3% occupancy (~25 guests/year) represents an extraordinary safety margin against the base case projection of 387 guests in Year 1.
 
 ---
 
@@ -228,15 +228,24 @@ The full valuation methodology is detailed in the IPEV-Compliant Valuation Repor
 
 ---
 
-## 5b. Exit Strategy
+## 5b. Long-Term Vision & Wealth Creation
 
-| Pathway | Timeline | Multiple | Probability |
-|---------|----------|----------|------------|
-| **Strategic Sale** (wellness/healthcare operator) | Year 5-7 | 6-10x EBITDA | Primary |
-| **Private Equity Acquisition** | Year 4-6 | 5.5-8x EBITDA | Secondary |
-| **Platform Expansion + Premium Exit** | Year 5-8 | 8-16x EBITDA | Highest Value |
+Transformational Epicenter is structured as a **legacy investment** — a long-term wealth creation vehicle designed to compound value through operational excellence, not a planned exit to strategic buyers.
 
-Year 5 Enterprise Value of ~$147M in the base case, driven by expanding EBITDA margins and the phased casita growth model. A single location commands 4.0-6.0x EBITDA at exit. Expanding to a multi-location platform could push multiples to 8-16x, representing significant upside beyond the base case.
+**Value Creation Drivers:**
+
+| Component | 5-Year Value | Mechanism |
+|-----------|-------------|-----------|
+| **Cumulative Free Cash Flow** | $40,723,382 | High-margin operations (43%→61% EBITDA margins), cash-flow positive from Year 1 |
+| **Enterprise Value (Sum-of-Parts)** | ~$147,000,000 | Four business units: Healing center + Real estate dev + Property mgmt + Technology |
+
+**How Investors Participate in Value:**
+
+1. **Operating Cash Flow** — The business generates $40.7M in free cash flow over five years, supporting distributions at the Board's discretion
+2. **Embedded Value Appreciation** — Ownership stake in a high-margin ($21.5M EBITDA), growing enterprise valued at ~$147M at Year 5
+3. **Minority Liquidity Options** — Investors may sell stakes in secondary transactions (subject to ROFR). Founders may pursue partial recapitalizations to provide liquidity windows while maintaining operational and vision control
+
+**Investment Philosophy:** The founders are building TE to own and operate for the long term — not to sell in 5-7 years. Multi-location platform expansion represents additional upside beyond the base case, with established behavioral health platforms commanding 8-16x EBITDA valuations. No planned sale, IPO, or PE acquisition.
 
 ---
 

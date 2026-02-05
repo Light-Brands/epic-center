@@ -169,7 +169,7 @@ Longer programs deepen every dimension -- additional bio-optimization cycles, ex
 | 5-Year Free Cash Flow | $40,723,382 |
 | Payback Period | ~2.7 years |
 
-**Return Profile (with Exit):**
+**Return Profile:**
 
 | Scenario | MOIC | IRR |
 |----------|------|-----|
@@ -177,7 +177,7 @@ Longer programs deepen every dimension -- additional bio-optimization cycles, ex
 | **Base Case** | **7.5x** | **78%** |
 | Aggressive | 9.6x | 87% |
 
-**Year 5 Enterprise Value (Base): ~$147,000,000**
+**Year 5 Enterprise Value (Base, Sum-of-Parts): ~$147,000,000**
 
 Cash-flow positive from Year 1. Revenue grows 3.3x as capacity expands from 15 to 60 casitas. Expansion beyond Year 1 funded entirely from operating cash flow -- no additional equity raise required.
 
@@ -202,17 +202,19 @@ Full methodology detailed in the IPEV-Compliant Valuation Report (Document 22).
 
 ---
 
-## Slide 8b: Exit Strategy
+## Slide 8b: Long-Term Vision & Wealth Creation
 
-### Multiple pathways to liquidity with 7.5x base-case MOIC.
+### Built to own, not to flip. Generational wealth through compounding value.
 
-| Pathway | Timeline | Multiple | Probability |
-|---------|----------|----------|------------|
-| **Strategic Sale** (wellness/healthcare operator) | Year 5-7 | 6-10x EBITDA | Primary |
-| **Private Equity Acquisition** | Year 4-6 | 5.5-8x EBITDA | Secondary |
-| **Platform Expansion + Premium Exit** | Year 5-8 | 8-16x EBITDA | Highest Value |
+This is a **legacy asset** — the founders are building a category-defining business to own and operate for decades, not to sell in 5-7 years.
 
-**Year 5 Enterprise Value (Base Case): ~$147,000,000**
+| Value Driver | 5-Year Impact |
+|-------------|---------------|
+| **Free Cash Flow** | $40.7M cumulative — cash-generative from Year 1, supporting distributions at Board discretion |
+| **Enterprise Value** | ~$147M (sum-of-parts) — embedded wealth in ownership stake, not a target sale price |
+| **EBITDA Growth** | 43% → 61% margins — operational excellence compounds value over time |
+
+**Return Profile:**
 
 | Scenario | MOIC | IRR |
 |----------|------|-----|
@@ -220,7 +222,9 @@ Full methodology detailed in the IPEV-Compliant Valuation Report (Document 22).
 | **Base Case** | **7.5x** | **78%** |
 | Aggressive | 9.6x | 87% |
 
-A single location commands 4.0-6.0x EBITDA at exit. Multi-location platform expansion could push multiples to 8-16x -- a critical value creation lever not captured in the base case.
+**Minority Liquidity Options:** Investors may sell stakes in secondary transactions (subject to ROFR). Founders may pursue partial recapitalizations to provide liquidity windows while maintaining operational and vision control.
+
+**No planned sale, IPO, or PE acquisition.** Multi-location platform expansion represents additional upside, with established behavioral health platforms commanding 8-16x EBITDA valuations.
 
 ---
 
@@ -397,7 +401,7 @@ Published clinical outcomes justify premium pricing and build institutional trus
 
 **What this capital returns (base case):**
 
-- 78% IRR (with exit)
+- 78% IRR
 - 7.5x MOIC over five years
 - $125.9M in cumulative revenue from a single campus
 - ~$147M Year 5 enterprise value

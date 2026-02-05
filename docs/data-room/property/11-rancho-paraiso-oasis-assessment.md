@@ -53,11 +53,11 @@ The Rancho Paraiso Oasis (Kaax Cenote) is a 45,000 m2 jungle compound comprising
 | **Year 1 Revenue (60% Occupancy)** | $10,748,000 |
 | **Year 1 Net Income** | $2,796,400 |
 | **5-Year Total Revenue** | $125,880,000 |
-| **Project IRR (Base, with Exit)** | 78% |
-| **Project IRR (Conservative, with Exit)** | 66% |
+| **Project IRR (Base)** | 78% |
+| **Project IRR (Conservative)** | 66% |
 | **Year 5 Enterprise Value (Base)** | ~$147,000,000 |
-| **5-Year MOIC (Base, incl. Exit)** | 7.5x |
-| **5-Year MOIC (Conservative, incl. Exit)** | 5.3x |
+| **5-Year MOIC (Base)** | 7.5x |
+| **5-Year MOIC (Conservative)** | 5.3x |
 
 ---
 
@@ -307,9 +307,9 @@ The 15% contingency provides a buffer against cost overruns, supply chain delays
 
 | Metric | Base Case | Conservative Case | Aggressive Case |
 |--------|-----------|-------------------|-----------------|
-| **Project IRR (with Exit)** | **78%** | **66%** | **87%** |
+| **Project IRR** | **78%** | **66%** | **87%** |
 | **Year 5 Enterprise Value** | **~$147,000,000** | -- | -- |
-| **5-Year MOIC (incl. Exit)** | **7.5x** | **5.3x** | **9.6x** |
+| **5-Year MOIC** | **7.5x** | **5.3x** | **9.6x** |
 | Year 1 Cash-on-Cash Return | 37.4% | 31.2% | 43.6% |
 | Payback Period | ~2.7 years | ~3.2 years | ~2.2 years |
 | 5-Year Cumulative Net Income | $48,109,937 | $37,585,556 | $52,619,778 |

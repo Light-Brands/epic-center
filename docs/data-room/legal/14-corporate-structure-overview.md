@@ -55,7 +55,7 @@ This structure follows established best practices for U.S.-based companies opera
 - Primary investment vehicle for all equity investors
 - Holds 100% ownership of both Mexican subsidiary entities
 - Maintains the capitalization table and investor rights
-- Governs board representation, voting rights, and exit mechanics
+- Governs board representation, voting rights, and liquidity provisions
 - Provides pass-through tax treatment for U.S. investors (or may elect corporate taxation)
 - Serves as the contracting party for all U.S.-side agreements
 
@@ -260,7 +260,7 @@ All investors in Transformational Epicenter Holdings, LLC are entitled to the fo
 ### 5.4 Tag-Along Rights
 
 - If a majority holder proposes to sell their interest, minority investors may participate in the sale on the same terms and conditions
-- Ensures minority investors can exit alongside majority holders
+- Ensures minority investors can participate alongside majority holders on the same terms
 - Protects against unfavorable change-of-control scenarios
 
 ### 5.5 Anti-Dilution Protection
@@ -269,12 +269,14 @@ All investors in Transformational Epicenter Holdings, LLC are entitled to the fo
 - Protects investor economics if subsequent financing occurs at a lower valuation
 - Standard venture protection mechanism
 
-### 5.6 Exit Rights
+### 5.6 Liquidity Provisions
 
-- Participation in any liquidity event (sale, IPO, merger) on at least a pro-rata basis
+- Participation in any change-of-control event (sale, merger) on at least a pro-rata basis
 - Liquidation preference ensuring return of invested capital before common distributions
-- Drag-along and tag-along provisions to facilitate clean exit transactions
+- Drag-along and tag-along provisions to facilitate clean transactions
 - Right of first refusal on secondary transfers of membership interests
+
+*Note: These are standard investor protections — not indications of a planned sale. The founders intend to own and operate TE for the long term.*
 
 ---
 

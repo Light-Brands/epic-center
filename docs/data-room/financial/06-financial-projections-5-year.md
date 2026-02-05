@@ -43,8 +43,8 @@ The Transformational Epicenter five-year financial model projects strong revenue
 | **Year 5 Revenue** | **$35,461,000** |
 | **5-Year Total Revenue** | **$125,880,000** |
 | **Year 5 Enterprise Value (Base)** | **~$147,000,000** |
-| **Project IRR (Base Case, with Exit)** | **78%** |
-| **5-Year MOIC (incl. Exit)** | **7.5x** |
+| **Project IRR (Base Case)** | **78%** |
+| **5-Year MOIC** | **7.5x** |
 
 ### Investment Highlights
 
@@ -68,14 +68,14 @@ Three scenarios model the range of expected outcomes based on occupancy rates, r
 | **Year 5 Revenue** | $35,461,000 | $28,237,000 | $39,153,000 |
 | **5-Year Total Revenue** | $125,880,000 | $100,232,000 | $138,986,000 |
 | **Year 5 Enterprise Value** | ~$147,000,000 | -- | -- |
-| **Project IRR (with Exit)** | 78% | 66% | 87% |
-| **5-Year MOIC (incl. Exit)** | 7.5x | 5.3x | 9.6x |
+| **Project IRR** | 78% | 66% | 87% |
+| **5-Year MOIC** | 7.5x | 5.3x | 9.6x |
 
 ### Scenario Definitions
 
 **Base Case** -- Assumes 60% occupancy in Year 1, ramping to 75% in Year 2, and stabilizing at 80% from Year 3 onward. Pricing holds at $2,000/day with the current program mix. Revenue includes program fees plus ancillary revenue from bio-optimization premium services and post-care subscriptions. Capacity expands from 15 to 60 casitas over five years. This scenario reflects management's best estimate of achievable performance given the property's location, competitive positioning, and planned marketing investment.
 
-**Conservative Case** -- Assumes ~50-70% occupancy ramp with lower utilization in early years and more modest demand growth. This case models headwinds including slower brand awareness growth, regional competition, and potential macroeconomic softness in the luxury wellness segment. Even in this downside scenario, the project generates attractive returns with a 66% IRR and 5.3x MOIC over five years.
+**Conservative Case** -- Assumes ~50-70% occupancy ramp with lower utilization in early years and more modest demand growth. This case models headwinds including slower brand awareness growth, regional competition, and potential macroeconomic softness in the luxury wellness segment. Even in this downside scenario, the project generates attractive returns with a 66% IRR and 5.3x MOIC.
 
 **Aggressive Case** -- Assumes ~70-85% occupancy ramp with faster market penetration and stronger demand. This case reflects a scenario where brand traction exceeds expectations, referral rates are high, and the Rancho Paraiso Oasis establishes itself rapidly as the category-defining facility. The aggressive case projects an 87% IRR and 9.6x MOIC.
 
@@ -219,8 +219,8 @@ All NPV scenarios are strongly positive, confirming the project creates signific
 | **5-Year Net Income** | $48,109,937 |
 | **5-Year Free Cash Flow** | $40,723,382 |
 | **Year 5 Enterprise Value (Base)** | ~$147,000,000 |
-| **Project IRR (Base, with Exit)** | 78% |
-| **5-Year MOIC (incl. Exit)** | 7.5x |
+| **Project IRR (Base)** | 78% |
+| **5-Year MOIC** | 7.5x |
 | **NPV @ 12%** | $17,200,000 |
 
 ---
@@ -306,7 +306,7 @@ This five-year financial model was built bottom-up from unit economics (see Docu
 - No second location or expansion revenue is modeled; all projections reflect single-site operations at the Rancho Paraiso Oasis
 - The villa real estate opportunity (48 villas, $96M total sales) is not included in these healing center projections and represents significant additional upside
 - Currency risk (MXN/USD) is not explicitly modeled; operating costs incurred in MXN may benefit from favorable exchange rates
-- Enterprise value and MOIC figures incorporate Year 5 exit valuation; see the Valuation Report (Document 22) for the full 9-method valuation framework and enterprise value bridge
+- Enterprise value and MOIC figures are based on Year 5 sum-of-parts enterprise valuation; see the Valuation Report (Document 22) for the full 9-method valuation framework and enterprise value bridge
 - No price escalation is modeled in the base case, providing conservative upside from inflation-based pricing adjustments
 
 ### Cross-References
