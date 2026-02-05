@@ -7,9 +7,34 @@
 
 ---
 
-## 1. The Structure in One Sentence
+## 1. The Structure
 
-The UAE entity is the **brain** — it creates everything, owns all IP, and collects all commercial revenue at 0%. The church is the **heart** — it receives the teachings, distributes them to the world, grows the congregation, and employs the founders with tax-advantaged compensation. They never cross streams.
+```mermaid
+graph LR
+    BRAIN["THE BRAIN<br/>───────────────<br/>TE Global Technology<br/>FZ-LLC (Dubai)<br/>───────────────<br/>Creates all IP<br/>Collects all revenue<br/>0% tax"]
+
+    SHIELD["THE SHIELD<br/>───────────────<br/>Panama PIF<br/>───────────────<br/>Owns the Brain<br/>Protects assets<br/>Beneficiaries private<br/>0% tax"]
+
+    HEART["THE HEART<br/>───────────────<br/>Church of the<br/>Living Light<br/>───────────────<br/>Distributes teachings<br/>Grows congregation<br/>Employs founders<br/>0% tax"]
+
+    HANDS["THE HANDS<br/>───────────────<br/>TE Ops Mexico<br/>S. de R.L. de C.V.<br/>───────────────<br/>Operates facilities<br/>Delivers the experience<br/>30% on margin only"]
+
+    SOUL["THE SOUL<br/>───────────────<br/>The Founders<br/>───────────────<br/>Serve both entities<br/>UAE salary + FEIE<br/>Minister comp + housing<br/>~3.7% effective tax"]
+
+    SHIELD -->|"100%<br/>shareholder"| BRAIN
+    BRAIN -->|"Licenses<br/>content"| HEART
+    BRAIN -->|"Service<br/>fees"| HANDS
+    HEART -->|"Minister comp<br/>+ housing<br/>+ retirement"| SOUL
+    BRAIN -->|"Salary"| SOUL
+
+    style BRAIN fill:#0f3460,stroke:#e94560,color:#fff
+    style SHIELD fill:#1a1a2e,stroke:#e94560,color:#fff
+    style HEART fill:#533483,stroke:#ffd700,color:#fff
+    style HANDS fill:#16213e,stroke:#0f3460,color:#fff
+    style SOUL fill:#0a8754,stroke:#fff,color:#fff
+```
+
+The **Brain** creates everything, owns all IP, and collects all commercial revenue at 0%. The **Shield** owns and protects the Brain. The **Heart** receives the teachings, distributes them to the world, and employs the founders with tax-advantaged compensation. The **Hands** deliver the guest experience on the ground. The **Soul** — the founders — serve both the Brain and the Heart, drawing compensation through channels that result in a ~3.7% effective personal tax rate.
 
 ---
 
