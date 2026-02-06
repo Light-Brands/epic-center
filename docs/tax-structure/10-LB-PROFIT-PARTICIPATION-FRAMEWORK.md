@@ -457,6 +457,7 @@ graph TB
 - **Cyprus founder playbook (Andreas):** [05-FOUNDER-GUIDE-CYPRUS.md](./05-FOUNDER-GUIDE-CYPRUS.md)
 - **Cook Islands IBC detail:** [08-COOK-ISLANDS-IBC-DETAIL.md](./08-COOK-ISLANDS-IBC-DETAIL.md)
 - **Questions for counsel:** [06-COUNSEL-QUESTIONS.md](./06-COUNSEL-QUESTIONS.md)
+- **Church governance & bylaws:** [11-CHURCH-GOVERNANCE-STRUCTURE.md](./11-CHURCH-GOVERNANCE-STRUCTURE.md)
 
 ---
 
