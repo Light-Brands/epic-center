@@ -2,9 +2,24 @@
 
 import { useState, useCallback, useEffect, type ReactNode } from 'react'
 import { motion } from 'framer-motion'
-import { Delete, Check } from 'lucide-react'
+import { Delete, Check, ShieldAlert, Clock } from 'lucide-react'
 import { Card } from '@/components/ui'
 import { useVault } from '@/lib/context/VaultContext'
+
+const MAX_ATTEMPTS = 3
+
+function formatTimeRemaining(ms: number): string {
+  if (ms <= 0) return '0:00'
+  const totalSeconds = Math.ceil(ms / 1000)
+  const days = Math.floor(totalSeconds / 86400)
+  const hours = Math.floor((totalSeconds % 86400) / 3600)
+  const minutes = Math.floor((totalSeconds % 3600) / 60)
+  const seconds = totalSeconds % 60
+
+  if (days > 0) return `${days}d ${hours}h ${minutes}m`
+  if (hours > 0) return `${hours}h ${minutes}m ${seconds}s`
+  return `${minutes}:${seconds.toString().padStart(2, '0')}`
+}
 
 function VaultLogin({ onUnlock, title, subtitle }: {
   onUnlock: () => void
@@ -13,12 +28,26 @@ function VaultLogin({ onUnlock, title, subtitle }: {
 }) {
   const [code, setCode] = useState('')
   const [phase, setPhase] = useState<'locked' | 'error' | 'unlocking' | 'opening'>('locked')
-  const { vaultCode } = useVault()
+  const { vaultCode, lockoutEndTime, lockoutLevel, failedAttempts, recordFailedAttempt } = useVault()
+  const [now, setNow] = useState(Date.now())
+
+  // Tick every second while a lockout is active for the countdown
+  useEffect(() => {
+    if (!lockoutEndTime || lockoutEndTime <= Date.now()) return
+    const interval = setInterval(() => {
+      const t = Date.now()
+      setNow(t)
+      if (t >= lockoutEndTime) clearInterval(interval)
+    }, 1000)
+    return () => clearInterval(interval)
+  }, [lockoutEndTime])
+
+  const isCurrentlyLocked = !!(lockoutEndTime && lockoutEndTime > now)
+  const remaining = lockoutEndTime ? Math.max(0, lockoutEndTime - now) : 0
 
   const handleDigit = useCallback((digit: string) => {
-    if (phase !== 'locked' || code.length >= 4) return
+    if (phase !== 'locked' || code.length >= 4 || isCurrentlyLocked) return
     const next = code + digit
-
     setCode(next)
 
     if (next.length === 4) {
@@ -27,24 +56,26 @@ function VaultLogin({ onUnlock, title, subtitle }: {
         setTimeout(() => setPhase('opening'), 800)
         setTimeout(onUnlock, 1400)
       } else {
+        recordFailedAttempt()
         setPhase('error')
         setTimeout(() => {
           setPhase('locked')
           setCode('')
+          setNow(Date.now())
         }, 600)
       }
     }
-  }, [code, phase, onUnlock, vaultCode])
+  }, [code, phase, onUnlock, vaultCode, isCurrentlyLocked, recordFailedAttempt])
 
   const handleDelete = useCallback(() => {
-    if (phase !== 'locked') return
+    if (phase !== 'locked' || isCurrentlyLocked) return
     setCode(prev => prev.slice(0, -1))
-  }, [phase])
+  }, [phase, isCurrentlyLocked])
 
   const handleClear = useCallback(() => {
-    if (phase !== 'locked') return
+    if (phase !== 'locked' || isCurrentlyLocked) return
     setCode('')
-  }, [phase])
+  }, [phase, isCurrentlyLocked])
 
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
@@ -56,7 +87,62 @@ function VaultLogin({ onUnlock, title, subtitle }: {
     return () => window.removeEventListener('keydown', handler)
   }, [handleDigit, handleDelete, handleClear])
 
+  // ── Lockout screen ──
+  if (isCurrentlyLocked) {
+    return (
+      <div className="fixed inset-0 z-50 flex items-center justify-center bg-canvas p-4">
+        <div className="pointer-events-none absolute inset-0 bg-gradient-warm-glow" aria-hidden />
+
+        <motion.div
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
+          className="relative w-full max-w-sm"
+        >
+          <Card padding="lg" className="bg-white shadow-xl border border-neutral-200 text-center">
+            <div className="flex justify-center mb-4">
+              <div className="w-14 h-14 rounded-full bg-error-50 border-2 border-error-200 flex items-center justify-center">
+                <ShieldAlert className="w-7 h-7 text-error-500" />
+              </div>
+            </div>
+            <p className="font-accent text-sm uppercase tracking-widest text-error-500 mb-2">
+              {title}
+            </p>
+            <h2 className="font-heading text-2xl sm:text-3xl text-neutral-900 mb-3">
+              Access Locked
+            </h2>
+            <p className="text-sm text-neutral-600 mb-6">
+              {lockoutLevel >= 2
+                ? 'Too many failed attempts. Access has been temporarily suspended.'
+                : 'Too many incorrect attempts. Please wait before trying again.'}
+            </p>
+            <div className="flex items-center justify-center gap-2 py-3 px-4 rounded-lg bg-neutral-50 border border-neutral-200">
+              <Clock className="w-4 h-4 text-neutral-500" />
+              <span className="font-mono text-lg font-medium text-neutral-800">
+                {formatTimeRemaining(remaining)}
+              </span>
+            </div>
+            {lockoutLevel >= 2 && (
+              <p className="mt-4 text-xs text-neutral-400">
+                Contact an administrator if you need immediate access.
+              </p>
+            )}
+          </Card>
+        </motion.div>
+      </div>
+    )
+  }
+
+  // ── PIN entry screen ──
   const isUnlocking = phase === 'unlocking' || phase === 'opening'
+
+  let warningMessage: string | null = null
+  if (lockoutLevel === 0 && failedAttempts > 0) {
+    const left = MAX_ATTEMPTS - failedAttempts
+    warningMessage = `${left} attempt${left === 1 ? '' : 's'} remaining`
+  } else if (lockoutLevel >= 1) {
+    warningMessage = 'Incorrect entry will result in an extended lockout'
+  }
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-canvas p-4">
@@ -164,9 +250,15 @@ function VaultLogin({ onUnlock, title, subtitle }: {
             </motion.button>
           </div>
 
-          <p className="mt-6 text-xs text-neutral-500 text-center">
-            Use keypad above or your keyboard (0-9, Backspace, Escape)
-          </p>
+          {warningMessage ? (
+            <p className="mt-6 text-xs text-error-500 text-center font-medium">
+              {warningMessage}
+            </p>
+          ) : (
+            <p className="mt-6 text-xs text-neutral-500 text-center">
+              Use keypad above or your keyboard (0-9, Backspace, Escape)
+            </p>
+          )}
         </Card>
 
         {isUnlocking && (
