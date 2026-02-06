@@ -8,7 +8,7 @@
 
 ## 1. Summary
 
-This document defines the phantom equity / profit participation structure for the four founders of Light Brands Studio (LBS) and Light Brands Consulting (LBC). The PIF retains 100% legal ownership of both entities. The founders receive 100% of the economic benefit through contractual Profit Participation Agreements (PPAs) that mirror equity in every way that matters — distributions, exit proceeds, governance, anti-dilution, transfer rights — without triggering CFC/GILTI for the US founders.
+This document defines the phantom equity / profit participation structure for the four founders of Light Brands Studio (LBS) and Light Brands Consulting (LBC). The PIF retains ultimate ownership of both entities through Panamanian Holdings S.A. (which holds 100% legal ownership). The founders receive 100% of the economic benefit through contractual Profit Participation Agreements (PPAs) that mirror equity in every way that matters — distributions, exit proceeds, governance, anti-dilution, transfer rights — without triggering CFC/GILTI for the US founders.
 
 ---
 
@@ -17,7 +17,7 @@ This document defines the phantom equity / profit participation structure for th
 ```mermaid
 graph TB
     subgraph "Legal Ownership"
-        PIF["Panama PIF<br/>100% legal owner of LBS + LBC"]
+        PIF["Panama PIF<br/>↓ 100% → Panamanian Holdings S.A.<br/>↓ 100% legal owner of LBS + LBC"]
     end
 
     subgraph "Economic Ownership (via Profit Participation Agreements)"
@@ -68,7 +68,7 @@ graph TB
 
 ## 4. What the Profit Participation Agreement Covers
 
-Each founder's PPA is a standalone agreement with the PIF (as legal owner) and the relevant entity. It must define:
+Each founder's PPA is a standalone agreement with the PIF and/or Panamanian Holdings S.A. (as legal owner of the entities) and the relevant entity. It must define:
 
 ### 4.1 Economic Rights (Mirror Equity)
 
@@ -201,12 +201,13 @@ graph LR
 
 | # | Agreement | Parties | Purpose | Counsel |
 |---|---|---|---|---|
-| 1 | **LBS Profit Participation Agreement** | PIF + LBS + each founder (4 separate PPAs or 1 master) | Defines each founder's economic rights in LBS: profit share %, distribution waterfall, exit participation, accumulation account | UAE commercial lawyer + US international tax attorney |
-| 2 | **LBC Profit Participation Agreement** | PIF + LBC + each founder (4 separate PPAs or 1 master) | Same as above for LBC | Cook Islands counsel + US international tax attorney |
+| 1 | **LBS Profit Participation Agreement** | PIF + S.A. + LBS + each founder (4 separate PPAs or 1 master) | Defines each founder's economic rights in LBS: profit share %, distribution waterfall, exit participation, accumulation account | UAE commercial lawyer + US international tax attorney |
+| 2 | **LBC Profit Participation Agreement** | PIF + S.A. + LBC + each founder (4 separate PPAs or 1 master) | Same as above for LBC | Cook Islands counsel + US international tax attorney |
 | 3 | **LBS Governance Agreement** | PIF + all PPA holders | Board composition, voting rights, veto rights, information rights, consent rights for LBS | UAE commercial lawyer |
 | 4 | **LBC Advisory Board Agreement** | PIF + all PPA holders | Equivalent governance for LBC (CI IBC uses nominee director — governance via advisory board) | Cook Islands counsel |
 | 5 | **Vesting Schedule** (can be embedded in PPAs or standalone) | PIF + each founder | 4-year vesting, 1-year cliff, acceleration triggers, good/bad leaver provisions | UAE + US counsel |
-| 6 | **PIF Private Regulations (Amendment)** | PIF Foundation Council | Amend PIF private regulations to acknowledge PPA obligations and ensure PIF distributes per PPAs | Panama counsel |
+| 6 | **PIF Private Regulations (Amendment)** | PIF Foundation Council | Amend PIF private regulations to acknowledge PPA obligations and ensure PIF distributes per PPAs, and S.A. corporate resolutions acknowledging PPA obligations | Panama counsel |
+| 6b | **S.A. Incorporation Documents** | Panama counsel | Panamanian Holdings S.A. formation as PIF subsidiary. Articles of incorporation, board appointment, registered agent engagement. | Panama counsel |
 
 ### Tier 2: Protective Agreements (Must Have Before Material Revenue)
 
@@ -284,7 +285,7 @@ graph TB
 3. Entity-level tax: $0 (both entities at 0%)
 4. Retain agreed reserve amount
 5. Remaining = distributable profits → paid to PPA holders pro-rata quarterly
-6. PIF receives $0 economic benefit (PIF holds legal title only — all economics flow to PPA holders)
+6. S.A. and PIF receive $0 economic benefit (S.A. holds legal title; PIF owns S.A. — all economics flow to PPA holders)
 
 ---
 
@@ -315,6 +316,7 @@ graph TB
 | 8 | Should PPAs be governed by UAE law (LBS), Cook Islands law (LBC), or a neutral jurisdiction (e.g., English law)? | All counsel | Medium |
 | 9 | If a PPA holder becomes a tax resident of a new country, does the PPA need to be restructured? | International tax advisor | Medium |
 | 10 | Insurance: should the entities carry key-person insurance on the four founders? | Insurance broker | Medium |
+| 11 | Should PPAs be with the PIF (ultimate owner) or the S.A. (direct legal owner of LBS and LBC)? If with S.A., does the PIF still need to be a party? | Panama counsel + UAE/CI counsel | High |
 
 ---
 
@@ -372,7 +374,8 @@ graph TB
 | Canadian departure confirmation (Nicholas) | $3,000-5,000 |
 | 409A compliance review (Daniel + Jason) | $5,000-10,000 |
 | Valuation methodology setup | $5,000-10,000 |
-| **Total estimated legal cost** | **$48,000-97,000** |
+| Panama counsel (S.A. formation + PPA alignment) | $2,000-5,000 |
+| **Total estimated legal cost** | **$50,000-102,000** |
 
 ---
 

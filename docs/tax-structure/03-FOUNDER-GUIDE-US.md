@@ -25,7 +25,9 @@ graph TB
 
     CHURCH["Church of the Living Light<br/>508(c)(1)(A)<br/>Employs US founder<br/>as ordained minister<br/>Receives dual royalties"]
 
-    PIF["Panama PIF<br/>Owns ~70% Holdings<br/>+ 100% Studio + CI IBC<br/>US founder is NOT<br/>a beneficiary or owner"]
+    PIF["Panama PIF<br/>Owns 100% of<br/>Panamanian Holdings S.A.<br/>US founder is NOT<br/>a beneficiary or owner"]
+
+    SA["Panamanian Holdings S.A.<br/>Owns ~70% Holdings<br/>+ 100% Studio + CI IBC"]
 
     US["US FOUNDER<br/>(Dubai resident, US citizen)<br/>Golden Visa + Emirates ID"]
 
@@ -37,9 +39,11 @@ graph TB
     CHURCH -->|"Housing allowance<br/>(TAX FREE, no cap)"| US
     CHURCH -->|"Retirement plans<br/>(TAX DEFERRED)"| US
     CHURCH -->|"Church-owned assets<br/>(no personal outlay)"| US
+    PIF -->|"100%"| SA
     PIF -->|"US founder has<br/>ZERO relationship"| PIF
 
     style HOLDINGS fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style SA fill:#2c1810,stroke:#e94560,color:#fff
     style UAE fill:#0f3460,stroke:#e94560,color:#fff
     style CI fill:#0d7377,stroke:#14ffec,color:#fff
     style CHURCH fill:#533483,stroke:#ffd700,color:#fff
@@ -115,7 +119,7 @@ graph TB
 
 ### Channel 7: Retained in TE Holdings + Studio + CI IBC (Not Personal Income)
 
-The vast majority of TE revenue ($10.7M Y1 → $35.5M Y5) stays in TE Holdings (Cayman) at 0% corporate tax. Studio retains a small cost-plus service margin at 0% (QFZP). All Light Brands revenue stays in the CI IBC at 0%. All three entities are held by the PIF (~70% of Holdings, 100% of Studio and CI IBC). The US founder does not own or benefit from any entity — this money compounds tax-free and funds business growth, expansion, the Dubai team, and Light Brands operations. As LB scales, this retained capital pool grows with zero additional tax impact.
+The vast majority of TE revenue ($10.7M Y1 → $35.5M Y5) stays in TE Holdings (Cayman) at 0% corporate tax. Studio retains a small cost-plus service margin at 0% (QFZP). All Light Brands revenue stays in the CI IBC at 0%. All three operating entities are held by the Panamanian Holdings S.A. (~70% of Holdings, 100% of Studio and CI IBC), which is 100% owned by the PIF. The US founder does not own or benefit from any entity — this money compounds tax-free and funds business growth, expansion, the Dubai team, and Light Brands operations. As LB scales, this retained capital pool grows with zero additional tax impact.
 
 ---
 
@@ -176,7 +180,7 @@ The US founder has **zero** Controlled Foreign Corporation exposure because the 
 | **CFC/GILTI/Subpart F applies?** | **No** | **No** | **No** |
 | **Form 5471 required?** | **No** | **No** | **No** |
 
-The PIF is an independent legal person under Panamanian Law 25 of 1995. It has no "owner." The Canadian founder serves as Protector. The US founder is an employee of Studio — no different from a US citizen working for Toyota, Nestle, or Samsung. The same no-ownership analysis applies identically to all three PIF-owned entities: the US founder has zero ownership, zero beneficiary status, and zero control rights over any foreign entity.
+The PIF is an independent legal person under Panamanian Law 25 of 1995. It has no "owner." The PIF holds 100% of Panamanian Holdings S.A., which in turn holds ~70% of TE Holdings, 100% of Studio, and 100% of CI IBC. Adding the S.A. as an intermediary does not create any new ownership attribution. The Canadian founder serves as Protector. The US founder is an employee of Studio — no different from a US citizen working for Toyota, Nestle, or Samsung. The same no-ownership analysis applies identically to the S.A. and all three S.A.-owned operating entities: the US founder has zero ownership, zero beneficiary status, and zero control rights over any foreign entity.
 
 ---
 
@@ -232,14 +236,14 @@ The PIF is an independent legal person under Panamanian Law 25 of 1995. It has n
 
 | Risk | Probability | Impact | Mitigation |
 |---|---|---|---|
-| **IRS argues constructive ownership of TE Holdings via PIF** | Very Low | Critical | Same analysis as Studio. US founder has zero PIF relationship. Holdings owned ~70% by PIF + ~30% by investor. No attribution path exists. Investor as independent shareholder further validates arm's length structure. |
+| **IRS argues constructive ownership of TE Holdings via PIF** | Very Low | Critical | Same analysis as Studio. US founder has zero PIF relationship. Holdings owned ~70% by PIF (via S.A.) + ~30% by investor. No attribution path exists. Investor as independent shareholder further validates arm's length structure. Additional S.A. corporate layer between PIF and Holdings further separates the US founder. |
 | **IRS argues constructive ownership of Studio via PIF** | Low | High | Formal exclusion from PIF. No signatory authority. No control rights. Canadian founder is sole Protector. |
 | **IRS challenges church status** | Low | High | Only impacts church channels. UAE salary + FEIE still works. 14/14 IRS criteria met. |
 | **FEIE disqualification (too many US days)** | Low | High | Track days rigorously. Stay under 35 US days. Bona fide residence test as fallback. |
 | **Housing allowance exceeds FRV** | Low | Medium | Get annual FRV appraisal. Designate conservatively. |
 | **Excess benefit transaction** | Low | High | Independent board. Comparable data. Documented decisions. |
 | **GILTI/Subpart F inclusion** | Very Low (if no-ownership) | Critical | No-ownership structure must be watertight. No PIF beneficiary status. |
-| **IRS argues constructive ownership of CI IBC via PIF** | Very Low | Critical | Same analysis as UAE entity. US founder has zero PIF relationship. CI IBC owned 100% by PIF. No attribution path exists. |
+| **IRS argues constructive ownership of CI IBC via PIF** | Very Low | Critical | Same analysis as UAE entity. US founder has zero PIF relationship. CI IBC owned 100% by PIF (via S.A.). No attribution path exists. Additional S.A. corporate layer between PIF and CI IBC further separates the US founder. |
 | **CI IBC royalty to Church challenged** | Low | Medium | Arm's length pricing via TP study. Comparable software licensing rates. Church uses tech for genuine ministry purposes. Even if challenged, church exemption is independent of royalty source. |
 
 ---

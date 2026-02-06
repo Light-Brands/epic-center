@@ -7,7 +7,7 @@
 
 ## 1. Summary
 
-TE Wellness Holdings is a Cayman Islands Exempted Company that serves as the single investable vehicle for the TE healing center business. It owns all TE intellectual property, collects all TE revenue ($10.7M Y1 → $35.5M Y5), controls the Mexico OpCo, and licenses content to the Church of the Living Light. The Panama PIF holds ~70% of equity; an investor holds ~30%. Light Brands Studio FZ-LLC (Dubai) provides all development services to Holdings under a cost-plus contract — Studio builds, Holdings owns.
+TE Wellness Holdings is a Cayman Islands Exempted Company that serves as the single investable vehicle for the TE healing center business. It owns all TE intellectual property, collects all TE revenue ($10.7M Y1 → $35.5M Y5), controls the Mexico OpCo, and licenses content to the Church of the Living Light. Panamanian Holdings S.A. (a Panama corporation 100% owned by the PIF) holds ~70% of equity; an investor holds ~30%. Light Brands Studio FZ-LLC (Dubai) provides all development services to Holdings under a cost-plus contract — Studio builds, Holdings owns.
 
 Post-money valuation: $29,350,000 at seed. 0% corporate tax (Cayman sovereign exemption, unconditional, 20-year certificate). Zero substance requirements. VC-standard governance.
 
@@ -47,7 +47,7 @@ Post-money valuation: $29,350,000 at seed. 0% corporate tax (Cayman sovereign ex
 | **Entity type** | Exempted Company Limited by Shares |
 | **Registered office** | Required — at a licensed registered office provider in Cayman |
 | **Directors** | Minimum 1. No Cayman residency requirement. No nationality requirement. |
-| **Shareholders** | PIF (~70%) + Investor (~30%). Option pool: 10-15% reserved. |
+| **Shareholders** | Panamanian Holdings S.A. (~70%) + Investor (~30%). Option pool: 10-15% reserved. |
 | **Secretary** | Optional but recommended for governance |
 | **Share capital** | Authorized: USD $50,000 (standard). Issued per SHA terms. |
 | **Public registry** | Company name and registered office only. Directors, shareholders, and beneficial owners are NOT public. |
@@ -66,7 +66,7 @@ Post-money valuation: $29,350,000 at seed. 0% corporate tax (Cayman sovereign ex
 
 | Class | Holder | Percentage | Rights |
 |---|---|---|---|
-| Common (Founder) | Panama PIF | ~70% | Full voting, dividends, liquidation |
+| Common (Founder) | Panamanian Holdings S.A. | ~70% | Full voting, dividends, liquidation |
 | Series Seed Preferred | Investor | ~30% | Liquidation preference (1x non-participating), anti-dilution (broad-based weighted average), pro-rata rights, information rights |
 | Option pool | Reserved | 10-15% | ESOP for key hires (vesting schedule per SHA) |
 
@@ -96,7 +96,7 @@ Exempted Companies may obtain a **Tax Undertaking Certificate** from the Cayman 
 
 | Payment | WHT |
 |---|---|
-| Dividends paid by Holdings to PIF | **0%** |
+| Dividends paid by Holdings to S.A. | **0%** |
 | Dividends paid by Holdings to Investor | **0%** |
 | Service fees paid by Holdings to Studio | **0%** |
 | Service fees paid by Holdings to Mexico OpCo | **0%** |
@@ -116,16 +116,16 @@ Exempted Companies may obtain a **Tax Undertaking Certificate** from the Cayman 
 4. **Standard SHA provisions** — Cayman law supports all standard shareholder agreement terms (liquidation preferences, anti-dilution, drag-along/tag-along, board composition, information rights, preemptive rights).
 5. **Exit-friendly** — share sale, merger, or asset sale all straightforward under Cayman law. No tax on exit proceeds at entity level.
 
-### PIF as Majority Shareholder
+### S.A. as Majority Shareholder
 
-The Panama PIF holding ~70% of TE Holdings may prompt investor questions. Key responses:
+Panamanian Holdings S.A. (a Panama corporation 100% owned by the PIF) holding ~70% of TE Holdings may prompt investor questions. Key responses:
 
 | Question | Answer |
 |---|---|
-| "Who controls the PIF?" | The Foundation Council (3 members, at least 1 independent). The Canadian founder is Protector (supervisory, not control). |
-| "Can the PIF dump shares?" | SHA includes lock-up, drag-along/tag-along, and transfer restrictions. PIF is bound by SHA like any shareholder. |
-| "Why not founders directly?" | PIF provides asset protection, tax efficiency (0% on distributions to UAE-resident founder), and separation of personal from corporate liability. Standard for international founders. |
-| "Does the US founder have hidden control?" | US founder is NOT a PIF beneficiary, NOT a Foundation Council member, has NO signatory authority over PIF accounts. This is documented and legally binding. |
+| "Who controls the S.A. and PIF?" | The S.A. has a board of 3+ directors (Canadian founder + independents). The PIF's Foundation Council (3 members, at least 1 independent) oversees the S.A. The Canadian founder is PIF Protector. |
+| "Can the S.A./PIF dump shares?" | SHA includes lock-up, drag-along/tag-along, and transfer restrictions. S.A. is bound by SHA like any shareholder. |
+| "Why not founders directly?" | S.A. + PIF provides double-layer asset protection, tax efficiency (0% on distributions to UAE-resident founder), and separation of personal from corporate liability. Standard for international founders. |
+| "Does the US founder have hidden control?" | US founder is NOT a PIF beneficiary, NOT a Foundation Council member, NOT an S.A. director, has NO signatory authority over S.A. or PIF accounts. This is documented and legally binding. |
 
 ---
 
@@ -222,7 +222,8 @@ Banks will require:
 - Certificate of Good Standing
 - Memorandum and Articles of Association
 - Register of Directors and Members (certified)
-- UBO declaration (PIF → founders chain + investor)
+- UBO declaration (S.A. → PIF → founders chain + investor)
+- S.A. documentation (Certificate of Incorporation, board resolution, Articles)
 - PIF documentation (Panama)
 - Investor KYC (fund documentation)
 - Business plan / financial projections
@@ -302,7 +303,7 @@ The Cayman structure pays for itself within the first day of operations.
 |---|---|---|
 | Incorporate TE Wellness Holdings | File Memorandum & Articles with Cayman Registrar | Counsel engaged |
 | Appoint initial directors | Canadian founder + independent | Incorporation |
-| Issue shares to PIF | ~70% common shares | PIF formed |
+| Issue shares to Panamanian Holdings S.A. | ~70% common shares | S.A. formed, PIF formed |
 | Obtain Tax Undertaking Certificate | 20-year exemption | Incorporation |
 | Open bank account | Cayman or Singapore | Incorporation + KYC docs |
 
@@ -346,7 +347,7 @@ The Cayman structure pays for itself within the first day of operations.
 
 | Advantage | Detail |
 |---|---|
-| **Dilution isolated to TE only** | Investor gets ~30% of Holdings. Founders retain 100% of Studio and 100% of LB Consulting via PIF. |
+| **Dilution isolated to TE only** | Investor gets ~30% of Holdings. Founders retain 100% of Studio and 100% of LB Consulting via S.A. and PIF. |
 | **Studio stays 100% theirs** | Studio is a pure service company earning cost-plus fees. No investor claim on Studio revenue, IP, or profits. |
 | **LB Consulting stays 100% theirs** | All Light Brands revenue, IP, and client relationships remain in CI IBC — fully PIF-owned, zero investor involvement. |
 | **Flexible exits** | Can sell Holdings (investor + PIF exit together), sell Studio separately, sell LB separately, or hold any combination. |
@@ -383,7 +384,7 @@ The Cayman structure pays for itself within the first day of operations.
 
 ## Cross-References
 
-- **Ecosystem architecture (6-entity view):** [07-ECOSYSTEM-ARCHITECTURE.md](./07-ECOSYSTEM-ARCHITECTURE.md)
+- **Ecosystem architecture (7-entity view):** [07-ECOSYSTEM-ARCHITECTURE.md](./07-ECOSYSTEM-ARCHITECTURE.md)
 - **Master structure:** [01-MASTER-STRUCTURE.md](./01-MASTER-STRUCTURE.md)
 - **Cook Islands IBC detail:** [08-COOK-ISLANDS-IBC-DETAIL.md](./08-COOK-ISLANDS-IBC-DETAIL.md)
 - **Legal defense:** [02-LEGAL-DEFENSE.md](./02-LEGAL-DEFENSE.md)

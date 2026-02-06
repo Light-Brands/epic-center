@@ -227,8 +227,39 @@ Bring the relevant section to each counsel meeting. Questions are organized by j
 
 ### Q46: PIF Owning Two Operating Entities (UAE + CI IBC)
 **Priority:** IMPORTANT
-**Context:** The same PIF will own 100% of both the UAE FZ-LLC and the Cook Islands IBC. This simplifies governance but means one PIF holds two operating entities in different jurisdictions.
-**Question:** Are there any structural or governance considerations for a single PIF owning entities in both UAE and Cook Islands? Does the Foundation Charter need specific provisions for multi-entity ownership? Any conflict-of-interest issues when the two entities transact with each other (subcontracting)?
+**Context:** The PIF will own 100% of Panamanian Holdings S.A., which will in turn own 100% of both the UAE FZ-LLC and the Cook Islands IBC (plus ~70% of TE Holdings, Cayman). This simplifies governance but means one PIF holds a S.A. that controls multiple operating entities in different jurisdictions.
+**Question:** Are there any structural or governance considerations for a PIF owning a S.A. that holds entities in UAE, Cook Islands, and Cayman? Does the Foundation Charter need specific provisions for the PIF→S.A.→multi-entity ownership chain? Any conflict-of-interest issues when the operating entities transact with each other (subcontracting)?
+
+---
+
+## 5b. Panama S.A. Counsel
+
+**Engagement:** In parallel with PIF formation (Weeks 2-4). Validates S.A. as PIF subsidiary and intermediate holding company.
+
+### Q56: S.A. Formation as PIF Subsidiary — Optimal Structure
+**Priority:** IMPORTANT
+**Context:** The PIF will own 100% of a Panamanian S.A. (Sociedad Anonima) that serves as an intermediate holding company between the PIF and all operating entities (TE Holdings, Studio, CI IBC). The S.A. adds a corporate layer for double-layer asset protection and structural separation.
+**Question:** What is the optimal structure for forming the S.A. as a PIF subsidiary? Should the PIF subscribe for shares at formation, or should shares be issued to the PIF after incorporation? Any restrictions on a PIF being sole shareholder of a Panama S.A.?
+
+### Q57: S.A. → Operating Entities — Jurisdiction-Specific Issues
+**Priority:** IMPORTANT
+**Context:** The S.A. will hold ~70% of a Cayman Exempted Company, 100% of a Dubai FZ-LLC, and 100% of a Cook Islands IBC. Each jurisdiction may have specific requirements for corporate shareholders.
+**Question:** Are there any jurisdiction-specific issues (Cayman, UAE, Cook Islands) with a Panama S.A. as the shareholder instead of the PIF directly? Does any jurisdiction require additional documentation, approvals, or KYC steps for a corporate shareholder vs. a foundation?
+
+### Q58: S.A. Director Structure and Governance
+**Priority:** IMPORTANT
+**Context:** The S.A. needs a board of directors (minimum 3 under Panama Commercial Code). The Canadian founder will serve as one director. At least one independent director is required.
+**Question:** What is the optimal board composition? Can nominee directors be used? What governance documents are required (bylaws, board minutes, shareholder resolutions)? How should the S.A.'s governance relate to the PIF Foundation Council?
+
+### Q59: Transfer Pricing Implications of S.A. Intermediary
+**Priority:** FORWARD
+**Context:** The S.A. is a pure holding company — it holds equity but does not provide services or charge fees. All intercompany service agreements remain between the operating entities (Holdings↔Studio, CI↔Studio, Holdings↔Mexico). The S.A. may receive dividends from operating entities and pay dividends to the PIF.
+**Question:** Does inserting the S.A. as an intermediate holding company create any new transfer pricing obligations? Are there any deemed income or management fee issues? Should the S.A. charge a management fee to operating entities, or is pure equity holding sufficient?
+
+### Q60: Banking and KYC for PIF-Owned S.A.
+**Priority:** IMPORTANT
+**Context:** The S.A. needs a bank account for receiving dividends from operating entities and paying annual maintenance costs. The PIF is the sole shareholder.
+**Question:** What banks in Panama (or elsewhere) are experienced with PIF-owned S.A. structures? What KYC documentation is required? Is a separate S.A. bank account necessary, or can dividends flow through the PIF's account?
 
 ---
 
@@ -374,6 +405,7 @@ These do not need immediate answers but should be tracked for future counsel eng
 | **Week 1-2** | Cyprus tax | Q27 (90-day exemption) |
 | **Weeks 2-4** | Cayman corporate | Q50 (PIF as majority / director duties), Q52 (dividends) |
 | **Weeks 2-4** | Panama | Q20 (PIF structuring), Q22 (banking), Q46 (multi-entity PIF) |
+| **Weeks 2-4** | Panama S.A. counsel | Q56 (S.A. formation), Q57 (jurisdiction issues), Q58 (directors), Q60 (banking) |
 | **Weeks 2-4** | Cook Islands | Q39 (TP methodology), Q40 (church royalty rate), Q42 (CRS/AEOI) |
 | **Months 3-5** | Mexican tax | Q23 (REFIPRE with Cayman parent), Q24 (transfer pricing) |
 | **Ongoing** | All | Forward-looking questions as they become relevant |

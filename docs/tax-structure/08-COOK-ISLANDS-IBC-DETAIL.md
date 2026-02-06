@@ -42,7 +42,7 @@ Light Brands Consulting Ltd is a Cook Islands International Business Company (IB
 | **Registered agent** | Required — must be a licensed CI trustee company |
 | **Registered office** | At the registered agent's address in Rarotonga |
 | **Directors** | Minimum 1 director. Can be corporate or individual. No CI residency requirement. **Critical: fewer than 3 CI-resident directors** to avoid local tax obligations. |
-| **Shareholders** | Minimum 1. Panama PIF is sole shareholder. |
+| **Shareholders** | Minimum 1. Panamanian Holdings S.A. (100% PIF-owned Panama corporation) is sole shareholder. |
 | **Secretary** | Optional (recommended for governance) |
 | **Share capital** | Flexible — standard is USD $10,000 authorized, $1 issued |
 | **Public registry** | Company name, registered agent, date of incorporation. Directors and shareholders are NOT public. |
@@ -88,7 +88,7 @@ Light Brands Consulting Ltd is a Cook Islands International Business Company (IB
 
 | Payment Type | WHT Rate |
 |---|---|
-| Dividends paid by CI IBC to Panama PIF | **0%** |
+| Dividends paid by CI IBC to Panamanian Holdings S.A. | **0%** |
 | Royalties paid by CI IBC to any entity | **0%** |
 | Service fees paid by CI IBC to UAE entity | **0%** |
 | Interest paid by CI IBC | **0%** |
@@ -206,8 +206,9 @@ Banks will require:
 - Certificate of Good Standing
 - Memorandum and Articles of Association
 - Register of Directors and Shareholders (certified by registered agent)
-- UBO declaration (identifying PIF → founders chain)
+- UBO declaration (identifying S.A. → PIF → founders chain)
 - PIF documentation (Certificate of Registration, Foundation Charter)
+- S.A. documentation (Certificate of Incorporation, board resolution, Articles of Incorporation)
 - Founder passports + proof of address
 - Business plan / description of activities
 - Source of funds letter
@@ -237,7 +238,7 @@ The Cook Islands is consistently ranked as the **#1 asset protection jurisdictio
 ### Why This Matters for TE
 
 - **Litigation shield:** If a disgruntled client, competitor, or government entity sues, LB's revenue and IP are in a jurisdiction where foreign judgments have no force
-- **Founder protection:** The PIF → CI IBC chain creates two layers of asset protection (Panama PIF privacy + Cook Islands enforcement immunity)
+- **Founder protection:** The PIF → S.A. → CI IBC chain creates three layers of asset protection (Panama PIF privacy + S.A. corporate veil + Cook Islands enforcement immunity)
 - **Separation from TE operations:** Even if the TE healing center faces liability (medical malpractice, guest injury), LB assets in the CI IBC are structurally isolated
 
 ---
@@ -296,7 +297,7 @@ At even modest Light Brands revenue ($500K/year), the annual cost of maintaining
 | **1. Counsel** | Confirm CI IBC → UAE subcontract structure with UAE counsel | Week 1-2 | UAE counsel engaged |
 | **1. Counsel** | Confirm CI IBC → Church royalty structure with US nonprofit attorney | Week 1-2 | US counsel engaged |
 | **2. Formation** | Incorporate Light Brands Consulting Ltd as CI IBC | Weeks 2-3 | Agent engaged |
-| **2. Formation** | Appoint directors, issue shares to PIF | With incorporation | PIF formed |
+| **2. Formation** | Appoint directors, issue shares to Panamanian Holdings S.A. | With incorporation | S.A. formed, PIF formed |
 | **2. Formation** | Open Singapore bank account | Weeks 3-5 | Incorporation complete |
 | **3. Contracts** | Execute Development Subcontract with UAE entity | Weeks 4-6 | Both entities formed |
 | **3. Contracts** | Execute Spiritual Tech License with Church | Weeks 4-6 | Church formed |

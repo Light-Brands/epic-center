@@ -21,9 +21,9 @@ graph TB
 
     W2["WALL 2: STATUTORY<br/>IRC 508(c)(1)(A)<br/>Automatic tax exemption<br/>No Form 990 required<br/>Church Audit Procedures Act"]
 
-    W3["WALL 3: JURISDICTIONAL<br/>Cayman 0% on TE revenue (unconditional)<br/>UAE sovereign tax law (0% QFZP on service fees)<br/>Cook Islands IBC (0% international)<br/>Panama PIF privacy (constitutional)<br/>Mexico OpCo: only local margin taxed"]
+    W3["WALL 3: JURISDICTIONAL<br/>Cayman 0% on TE revenue (unconditional)<br/>UAE sovereign tax law (0% QFZP on service fees)<br/>Cook Islands IBC (0% international)<br/>Panama PIF privacy (constitutional)<br/>Panama S.A. 0% territorial (holding layer)<br/>Mexico OpCo: only local margin taxed"]
 
-    W4["WALL 4: STRUCTURAL<br/>No entity controls another<br/>No circular cash flows<br/>Six entities, five jurisdictions<br/>Each with independent purpose<br/>Investor validates Holdings<br/>US founder is NOT an owner"]
+    W4["WALL 4: STRUCTURAL<br/>No entity controls another<br/>No circular cash flows<br/>Seven entities, five jurisdictions<br/>Each with independent purpose<br/>Double-layer protection (PIF → S.A.)<br/>Investor validates Holdings<br/>US founder is NOT an owner"]
 
     W5["WALL 5: OPERATIONAL<br/>Doctrine predates tax planning<br/>Regular congregation assembles<br/>Independent board governs<br/>Charitable activity serves the public"]
 
@@ -72,7 +72,7 @@ Congress mandated that churches are **automatically exempt** from applying to th
 
 **Cook Islands IBC:** Light Brands Consulting Ltd operates under the Cook Islands International Companies Act 1981-82 at 0% on all international income. This is not a loophole — it is the express statutory regime for IBCs. The Cook Islands is not on any EU blacklist or FATF greylist. It participates in CRS/AEOI (full transparency). The CI IBC has no employees and no physical presence in any country — it is a pure contracting and IP-holding entity. It subcontracts all development to Studio (real substance) and licenses spiritual technology to the Church (arm's length royalty). The Cook Islands is globally recognized as the #1 asset protection jurisdiction: foreign court judgments are not recognized or enforceable, fraudulent transfer claims face a 2-year statute of limitations with a beyond-reasonable-doubt burden of proof.
 
-**Panama PIF:** Beneficiary names are recorded in private regulations — never filed with any government. The US founder is NOT a beneficiary, eliminating CFC/GILTI/Subpart F/Form 5471 entirely. The PIF owns ~70% of TE Holdings, 100% of Studio, and 100% of CI IBC, providing a single ownership chain with maximum asset protection.
+**Panama PIF:** Beneficiary names are recorded in private regulations — never filed with any government. The US founder is NOT a beneficiary, eliminating CFC/GILTI/Subpart F/Form 5471 entirely. The PIF owns 100% of Panamanian Holdings S.A. (a Panama corporation), which in turn owns ~70% of TE Holdings, 100% of Studio, and 100% of CI IBC — creating a double layer of asset protection between the foundation and the operating entities. The S.A. pays 0% on foreign-source income (Panama territorial taxation), adding zero additional tax.
 
 **Mexico OpCo:** Owned by TE Holdings (Cayman). Receives cost + 8-12% margin via arm's-length service delivery agreement with Holdings. No UAE personnel in Mexico eliminates permanent establishment risk. Transfer pricing study supports the arrangement.
 
@@ -85,13 +85,13 @@ The IRS's primary attack on multi-entity structures is "substance over form" —
 3. Arm's-length transactions between entities
 4. No single person controlling all entities
 
-TE satisfies all four with all six entities. TE Holdings exists to own TE IP, collect TE revenue, and serve as the investable vehicle — it has an independent board and third-party investor shareholders. Studio exists as the shared service center that employs the development team. The CI IBC exists to serve external consulting and SaaS clients under the Light Brands brand — a genuinely separate business line from the TE healing center. The church exists to pursue a religious mission. The Mexico OpCo exists to deliver services. The PIF exists for asset protection. None is pretextual.
+TE satisfies all four with all seven entities. TE Holdings exists to own TE IP, collect TE revenue, and serve as the investable vehicle — it has an independent board and third-party investor shareholders. Studio exists as the shared service center that employs the development team. The CI IBC exists to serve external consulting and SaaS clients under the Light Brands brand — a genuinely separate business line from the TE healing center. The church exists to pursue a religious mission. The Mexico OpCo exists to deliver services. The PIF exists for asset protection. The Panamanian Holdings S.A. exists as the intermediate holding company — it provides a corporate layer between the PIF and operating entities, simplifying corporate governance and adding a second layer of asset protection. None is pretextual.
 
 **TE Holdings is not a shell.** It collects $10-35M in revenue, holds IP worth millions, controls an operating subsidiary (Mexico OpCo), has an independent board, and has third-party investor shareholders who performed due diligence before investing. A sophisticated, arms-length investor choosing to invest in Holdings is powerful evidence of genuine business purpose. This defeats any "sham entity" argument before it begins.
 
 **Why the CI IBC is not redundant to Studio:** Light Brands serves different clients (external businesses, not TE Holdings), offers different services (consulting, SaaS, AI tools, not development services), and carries different risk (consulting liability vs. wellness operations). The CI IBC also provides risk isolation — if QFZP eligibility is challenged for Studio, LB revenue in the CI IBC is unaffected (and vice versa). Finally, the Cook Islands provides asset protection that the UAE does not — foreign judgments against the CI IBC's assets are unenforceable.
 
-**The no-ownership structure** is the most elegant feature. The US founder is an employee of Studio, not an owner of any foreign entity. With 0% US ownership: no CFC (IRC 957), no GILTI (IRC 951A), no Subpart F (IRC 952), no Form 5471. The IRS cannot attribute ownership that does not exist. This analysis applies identically to all three PIF-owned entities (Holdings, Studio, CI IBC).
+**The no-ownership structure** is the most elegant feature. The US founder is an employee of Studio, not an owner of any foreign entity. With 0% US ownership: no CFC (IRC 957), no GILTI (IRC 951A), no Subpart F (IRC 952), no Form 5471. The IRS cannot attribute ownership that does not exist. The Panama PIF (owned by no one — it is an independent legal person) holds 100% of Panamanian Holdings S.A., which holds ~70% of TE Holdings, 100% of Studio, and 100% of CI IBC. This analysis applies identically to the S.A. and all three S.A.-owned operating entities (Holdings, Studio, CI IBC).
 
 ### Wall 5: Operational Defense (Genuine Religious Activity)
 
@@ -123,7 +123,7 @@ TE satisfies all three. Christ consciousness doctrine predates tax planning, add
 
 **Risk:** If the US founder owned the UAE entity or TE Holdings, CFC rules would force inclusion of all untaxed foreign income on the US personal return.
 
-**Why TE is safe:** The US founder has zero ownership. The Panama PIF (owned by no one — it is an independent legal person) holds ~70% of TE Holdings, 100% of Studio, and 100% of CI IBC. The investor holds ~30% of TE Holdings directly. The Canadian founder is the PIF Protector. The US founder is not a beneficiary, has no signatory authority, cannot direct distributions, and has no contractual right to PIF assets. The same no-ownership analysis applies identically to all three PIF-owned entities — the US founder has zero relationship with any foreign operating entity.
+**Why TE is safe:** The US founder has zero ownership. The Panama PIF holds 100% of Panamanian Holdings S.A. (a Panama corporation), which holds ~70% of TE Holdings, 100% of Studio, and 100% of CI IBC. Adding the S.A. intermediary does not create any new ownership attribution — the US founder has zero ownership of the S.A. just as they have zero ownership of the PIF. The investor holds ~30% of TE Holdings directly. The Canadian founder is the PIF Protector. The US founder is not a beneficiary, has no signatory authority, cannot direct distributions, and has no contractual right to PIF assets. The same no-ownership analysis applies identically to the S.A. and all three S.A.-owned operating entities — the US founder has zero relationship with any foreign entity.
 
 ### Transfer Pricing
 
@@ -206,6 +206,7 @@ If these organizations maintain exemption under far more aggressive models, a ge
 | **CI IBC reclassified as having PE** | Very Low | High | Zero employees, zero office, zero physical presence. All development subcontracted to UAE entity. No activity in any country that could create PE. |
 | **CI IBC banking difficulties** | Low-Medium | Medium | Use Singapore bank (established CI IBC banking relationships). Full CRS/AEOI compliance. Clean FATF/EU standing. |
 | **Cook Islands changes IBC regime** | Very Low | Medium | CI economy depends on financial services sector. IBC regime stable since 1981. Even if changed, grandfather clauses typical. |
+| **S.A. challenged as unnecessary layer** | Very Low | Low | S.A. provides genuine structural benefits: double-layer asset protection, corporate governance separation (PIF handles beneficiary management; S.A. handles operating entity oversight), banking simplification, and investor optics. Panama S.A. is a standard commercial vehicle. |
 | **CI IBC → Church royalty challenged as non-arm's-length** | Low | Medium | Annual TP study. Comparable software/tech licensing rates (5-15%). Church uses the licensed tech for genuine ministry purposes. |
 | **TE Holdings challenged as sham entity** | Very Low | High | Genuine $10-35M revenue. Third-party investor at arms-length valuation. Independent board. Active operating subsidiary. VC-standard Cayman structure. |
 | **Studio transfer pricing challenged (Holdings↔Studio)** | Low | Medium | Cost-plus 8-12% margin. Annual TP benchmarking study. IT outsourcing comparables. Both at 0% (no tax arbitrage motive). |
@@ -218,7 +219,7 @@ If these organizations maintain exemption under far more aggressive models, a ge
 
 Each wall independently provides significant protection. Together they create compounding defensibility:
 
-1. **Cost of attack exceeds recovery.** The IRS would need Cayman counsel, UAE tax counsel, Panamanian foundation specialists, Mexican tax experts, First Amendment litigation counsel, and church tax specialists — simultaneously.
+1. **Cost of attack exceeds recovery.** The IRS would need Cayman counsel, UAE tax counsel, Panamanian foundation specialists, Panamanian corporate counsel, Mexican tax experts, First Amendment litigation counsel, and church tax specialists — simultaneously.
 
 2. **Success against one wall does not compromise others.** If the church loses exemption, the UAE entity is unaffected. If the UAE entity faces audit, the church is unaffected.
 
