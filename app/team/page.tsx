@@ -361,9 +361,9 @@ export default function TeamPage() {
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
             <span className="font-accent text-sm uppercase tracking-wide">Property Tour</span>
           </Link>
-          <Link href="/financials">
+          <Link href="/risks">
             <Button variant="primary">
-              View Financials
+              Risks
               <ArrowRight className="ml-2 w-4 h-4" />
             </Button>
           </Link>

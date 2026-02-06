@@ -409,9 +409,9 @@ export default function TimelinePage() {
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
             <span className="font-accent text-sm uppercase tracking-wide">Risks</span>
           </Link>
-          <Link href="/legal">
+          <Link href="/overview">
             <Button variant="primary">
-              Legal
+              Summary
               <ArrowRight className="ml-2 w-4 h-4" />
             </Button>
           </Link>

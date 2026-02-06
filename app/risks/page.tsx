@@ -440,9 +440,9 @@ export default function RisksPage() {
           transition={{ delay: 1.1 }}
           className="flex justify-between items-center pt-8 border-t border-neutral-200"
         >
-          <Link href="/financials" className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors">
+          <Link href="/team" className="group flex items-center gap-2 text-neutral-600 hover:text-primary-800 transition-colors">
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-            <span className="font-accent text-sm uppercase tracking-wide">Financials</span>
+            <span className="font-accent text-sm uppercase tracking-wide">Team</span>
           </Link>
           <Link href="/timeline">
             <Button variant="primary">
