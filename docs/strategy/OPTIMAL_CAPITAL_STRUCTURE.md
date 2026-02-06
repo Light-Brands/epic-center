@@ -125,45 +125,218 @@ The real estate vehicle holds **only** the physical property. The operating comp
 
 ## 3. Architecture Foundation
 
-All three strategies are built on the existing seven-entity global architecture spanning five jurisdictions.
+All three strategies are built on the existing seven-entity global architecture spanning five jurisdictions, extended with a dedicated real estate vehicle and expanded Mexico-level entities to accommodate the full scope of property acquisition, development, and management operations.
 
-### The Seven-Entity Ecosystem
+### 3.1 Consolidated Organigram
+
+The following diagram presents the complete corporate structure from the ultimate asset protection layer (Panama PIF) at the top, down through holding, IP, service, and operational entities to the Mexico ground level. Investor entry points vary by strategy (see Sections 5–7).
+
+```
+Panama PIF (ultimate asset protection — independent legal person — 0% tax)
+  │
+  └── 100% ──→ Panamanian Holdings S.A. (intermediate holdco — 0% territorial)
+                  │
+                  ├── ~70% ──→ TE Wellness Holdings (Cayman Exempted Co. — 0%)
+                  │               Owns all TE IP · Collects all TE revenue · Investable vehicle
+                  │               │
+                  │               └── 100% ──→ TE Ops Mexico, S. de R.L. de C.V. (30% on margin)
+                  │                              Medical & wellness operations · COFEPRIS licensed
+                  │
+                  ├── 100% ──→ TE Real Estate Holdings (Cayman or Delaware — per strategy)
+                  │               Dedicated RE vehicle · Investor capital entry point for RE
+                  │               │
+                  │               ├── 100% ──→ TE RE Acquisition & Dev Mexico, S.A. de C.V.
+                  │               │              Property holding via fideicomiso · Development
+                  │               │              └── Fideicomiso (50-year renewable bank trust)
+                  │               │
+                  │               └── 100% ──→ TE RE Management Mexico, S.A. de C.V.
+                  │                              Property management · Villa program · Hospitality
+                  │
+                  ├── 100% ──→ Light Brands Studio FZ-LLC (Dubai — 0% QFZP)
+                  │              Shared service center · Builds for TE + LB · Employs team
+                  │
+                  └── 100% ──→ Light Brands Consulting Ltd (Cook Islands IBC — 0%)
+                                 External consulting + SaaS · Owns LB IP · Zero employees
+
+Church of the Living Light (US 508(c)(1)(A) — independent nonprofit — 0% exempt)
+  No owner · Dual royalty streams from TE Holdings + CI IBC · Employs founders as ministers
+
+INVESTOR ENTRY POINTS (vary by strategy — see Sections 5–7):
+  RE Investors   ──→ TE Real Estate Holdings (preferred equity / secured debt / LP units)
+  OpCo Investors ──→ TE Wellness Holdings (~30% equity / convertible notes)
+```
+
+> **Source:** `docs/tax-structure/07-ECOSYSTEM-ARCHITECTURE.md`; `docs/strategy/CORPORATE_STRUCTURE_OPTIMIZATION_STRATEGY.md`
+
+### 3.2 Top-Down Entity Architecture
+
+#### Tier 1: Ultimate Asset Protection — Panama PIF
+
+The Panama Private Interest Foundation (Law 25/1995) is the apex of the structure. It is an independent legal person with no owner — it exists to protect assets for its beneficiaries while maintaining privacy. The PIF holds 100% of Panamanian Holdings S.A. and cannot be pierced by creditors of any downstream entity. It pays 0% tax on all foreign-source income.
+
+**Purpose in the capital structure:** Regardless of which investment strategy is selected, the founders' ultimate beneficial interest in the enterprise is protected behind two Panamanian legal persons (PIF → S.A.) before reaching any operating entity.
+
+#### Tier 2: Intermediate Holding — Panamanian Holdings S.A.
+
+The Panamanian corporation serves as the intermediate holding company, owned 100% by the PIF. It holds equity in all operating vehicles: ~70% of TE Wellness Holdings, 100% of TE Real Estate Holdings, 100% of Light Brands Studio, and 100% of Light Brands Consulting. Panama's territorial tax system means foreign-source income (dividends from Cayman, Dubai, Cook Islands) passes through at 0%.
+
+**Purpose in the capital structure:** Provides a double-layer of asset protection (creditors must pierce both the S.A. and the PIF), simplifies governance of multiple entities, and enables flexible restructuring without touching the PIF.
+
+#### Tier 3: Investable & Service Vehicles
+
+**TE Wellness Holdings (Cayman Exempted Company) — THE PRODUCT**
+The investable vehicle. Owns all TE intellectual property, collects all TE revenue via Stripe, controls TE Ops Mexico, and licenses content to the Church. Investors purchase equity (or convertible instruments) in this entity only. 0% tax with a 20-year exemption certificate.
+
+**TE Real Estate Holdings (Cayman or Delaware — varies by strategy) — THE VAULT**
+The dedicated real estate vehicle introduced by each strategy. Holds 100% ownership of the Mexican RE subsidiaries (Acquisition & Development + Management). The legal form and jurisdiction vary: LLC in Strategies 1–2, LP fund in Strategy 3. In all cases it sits under Panamanian Holdings S.A. for founder control and asset protection.
+
+**Light Brands Studio FZ-LLC (Dubai) — THE BUILDER**
+Shared service center employing the technology team and founders. Builds platforms and systems for both TE Holdings and Light Brands under cost-plus contracts (8–12% margin). 0% tax under the Qualifying Free Zone Person regime.
+
+**Light Brands Consulting Ltd (Cook Islands IBC) — THE VOICE**
+Client-facing consulting and SaaS entity. Signs external contracts, collects Light Brands revenue, owns LB-specific IP. Zero employees to avoid creating permanent establishment. 0% tax on international income.
+
+#### Tier 4: Mexico Operations (3 Entities — See Section 3.4)
+
+**TE Ops Mexico, S. de R.L. de C.V. — THE HANDS**
+Operates the medical and wellness facility. Holds COFEPRIS healthcare licenses. Employs all clinical, medical, and guest-facing clinical staff. Delivers the healing center experience. 30% corporate tax on margin only (margin held to 8–12% via transfer pricing). Owned by TE Wellness Holdings (Cayman).
+
+**TE RE Acquisition & Development Mexico, S.A. de C.V.**
+Holds beneficial interest in the Tulum property through a fideicomiso (50-year renewable bank trust) as required by Article 27, Section I of the Mexican Constitution for restricted-zone coastal property. Manages property acquisition, renovation, medical conversion, casita expansion, and villa program construction. 30% corporate tax on margin. Owned by TE Real Estate Holdings.
+
+**TE RE Management Mexico, S.A. de C.V.**
+Manages the physical property, operates the villa condo-hotel program (48 villas, $96M total sales, buyer-funded construction), provides facility maintenance, and delivers non-medical hospitality services (F&B, concierge, transportation, activities). Employs hospitality staff (non-clinical). 30% corporate tax on margin. Owned by TE Real Estate Holdings.
+
+#### Independent Entity: Church of the Living Light
+
+US 508(c)(1)(A) religious nonprofit corporation. No owner — governed by an independent Spiritual Council. Receives dual royalty streams from TE Holdings (content license) and CI IBC (spiritual tech license), both UBIT-exempt under IRC 512(b)(2). Employs founders as ministers with housing allowance (IRC 107), retirement benefits (403b/457b), and board-approved compensation.
+
+> **Source:** `docs/tax-structure/07-ECOSYSTEM-ARCHITECTURE.md` — Sections 2–4; `docs/strategy/CORPORATE_STRUCTURE_OPTIMIZATION_STRATEGY.md` — Section 3
+
+### 3.3 The Seven-Entity Ecosystem (Extended)
 
 | Entity | Jurisdiction | Role | Tax Rate |
 |--------|-------------|------|----------|
 | **Panama PIF** | Panama | Ultimate asset protection; owns 100% of Panamanian Holdings S.A. | 0% |
-| **Panamanian Holdings S.A.** | Panama | Intermediate holdco; holds ~70% of TE Holdings + 100% of Studio + 100% of CI IBC | 0% (territorial) |
+| **Panamanian Holdings S.A.** | Panama | Intermediate holdco; holds ~70% of TE Holdings + 100% of RE Holdings + 100% of Studio + 100% of CI IBC | 0% (territorial) |
 | **TE Wellness Holdings** | Cayman Islands | Owns all TE IP; collects all TE revenue; controls Mexico OpCo; investable vehicle | 0% (unconditional) |
+| **TE Real Estate Holdings** | Cayman or Delaware | Dedicated RE vehicle; holds 100% of Mexican RE subsidiaries; investor capital entry for RE | Per strategy |
 | **Light Brands Studio FZ-LLC** | Dubai, UAE | Shared service center; builds for TE Holdings and Light Brands; employs team | 0% (QFZP) |
 | **Light Brands Consulting Ltd** | Cook Islands | External consulting and SaaS; owns LB-specific IP; zero employees | 0% |
-| **TE Ops Mexico S. de R.L. de C.V.** | Tulum, Mexico | Operates healing facility; employs local staff; delivers guest experience | 30% on margin |
+| **TE Ops Mexico S. de R.L. de C.V.** | Tulum, Mexico | Medical & wellness operations; COFEPRIS licensed; clinical staff | 30% on margin |
+| **TE RE Acquisition & Dev Mexico, S.A. de C.V.** | Quintana Roo, Mexico | Property holding via fideicomiso; acquisition & development | 30% on margin |
+| **TE RE Management Mexico, S.A. de C.V.** | Quintana Roo, Mexico | Property management; villa program; non-medical hospitality | 30% on margin |
 | **Church of the Living Light** | United States | Spiritual mission; dual royalty streams; employs founders as ministers | 0% (exempt) |
 
 > **Source:** `docs/tax-structure/07-ECOSYSTEM-ARCHITECTURE.md`; `docs/strategy/CORPORATE_STRUCTURE_OPTIMIZATION_STRATEGY.md`
 
-### Ownership Chain
+### 3.4 Mexico-Level Entity Expansion Analysis
+
+The existing ecosystem architecture includes a single Mexican entity (TE Ops Mexico). The real estate vehicle introduces at least one additional Mexican subsidiary (TE RE Mexico, S.A. de C.V.) to hold the property via fideicomiso. The critical structural question is whether a **third** Mexican entity — a dedicated RE Management company — should be created to separate property management and hospitality from both medical operations and RE holding/development.
+
+#### A. TE RE Acquisition & Development Mexico, S.A. de C.V.
+
+This entity is **required in all three strategies.** It serves as the Mexican subsidiary of TE Real Estate Holdings, holding the property through the fideicomiso bank trust.
+
+**Functions:**
+- Beneficial owner of real property through fideicomiso (Article 27, Section I)
+- Manages property acquisition, due diligence, and closing
+- Oversees renovation, medical conversion, and casita expansion construction
+- Manages predial (property tax), maintenance reserves, insurance, and property-level obligations
+- Enters into intercompany lease or use agreement with TE Ops Mexico
+- Manages villa construction program (buyer-funded, construction oversight)
+
+**Legal form:** S.A. de C.V. — required for fideicomiso eligibility and standard for Mexican real estate holding companies. Minimum two shareholders: TE Real Estate Holdings (majority) + nominee.
+
+#### B. TE RE Management Mexico, S.A. de C.V.
+
+This entity is **recommended** based on the six-factor analysis below. The key question: should property management, villa program operations, and non-medical hospitality services reside **inside the existing TE Ops Mexico** or in a **separate dedicated entity**?
+
+**Functions (as a separate entity):**
+- Operates the villa condo-hotel program (48 villas, $96M total sales, buyer-funded construction)
+- Provides property management services (maintenance, landscaping, utilities, security)
+- Manages non-medical hospitality operations (F&B, concierge, transportation, activities)
+- Employs hospitality staff (non-clinical: housekeeping, F&B, maintenance, front desk)
+- Provides facility management services to TE Ops Mexico under intercompany agreement
+- Manages HOA governance and villa owner relations
+
+**Legal form:** S.A. de C.V. — standard for Mexican property management and hospitality companies. No healthcare licensing required.
+
+### 3.5 Evaluation: 2 vs. 3 Mexican Entities
+
+| Factor | 2 Entities: OpCo + PropCo | 3 Entities: OpCo + PropCo + ManagementCo |
+|--------|---------------------------|------------------------------------------|
+| **Tax Efficiency** | Simpler flows. All management activity taxed inside OpCo at 30% on total margin. Fewer intercompany transactions. One TP study covers OpCo↔PropCo. | Management fees from PropCo to ManagementCo are deductible, optimizing PropCo's taxable base. ManagementCo taxed at 30% on its own margin. Net Mexican tax impact is neutral to slightly favorable — margin can be allocated more precisely across entities. Requires additional TP documentation (~$10–15K/year incremental). |
+| **Risk Isolation** | Medical malpractice risk and property management liability co-mingle inside OpCo. A slip-and-fall claim from villa operations could attach to the same entity holding COFEPRIS licenses. Insurance program must cover both risk categories under one entity. | **Superior.** Medical liability (highest-risk category) isolated to OpCo. Property management and hospitality liability isolated to ManagementCo. Real estate assets protected in PropCo. A malpractice claim cannot reach property management revenue or real estate title. A hospitality claim cannot encumber medical operations. Separate insurance programs optimize coverage and cost. |
+| **Transfer Pricing** | One primary relationship: OpCo pays rent/fees to PropCo. Simple, lower compliance cost (~$15–20K/year for TP study). | Three-way TP: OpCo↔PropCo, PropCo↔ManagementCo, OpCo↔ManagementCo. Additional TP documentation required (~$25–35K/year total). More precision in margin allocation across functions but higher advisory cost. All intercompany pricing uses CUT methodology at arm's length. |
+| **Regulatory Exposure** | COFEPRIS healthcare license, NOM compliance, AND non-medical hospitality permits all sit in OpCo. Regulatory action against medical operations could disrupt hospitality. Tourism regulation changes create compliance burden on a healthcare-licensed entity. | **Superior.** COFEPRIS and healthcare regulation isolated to OpCo only. Hospitality permits, tourism regulation, and villa program compliance isolated to ManagementCo. Each entity holds only licenses relevant to its function. A healthcare regulatory issue does not affect property management. |
+| **Scalability** | Adding new properties means expanding OpCo's scope to include management of multiple locations alongside medical operations. Villa program for each new location runs through the same medical entity. Becomes unwieldy at 3+ locations. | **Superior.** ManagementCo can manage multiple properties across locations without mixing functions with medical operations. Villa program scales as a separate business line. New locations add new OpCos for medical operations but share the same ManagementCo infrastructure. |
+| **Exit Flexibility** | Selling the property means selling PropCo. Management capability stays embedded in OpCo. Acquirer must negotiate a service agreement for management. Fewer exit permutations. | **Superior.** PropCo (property + fideicomiso) can be sold independently. ManagementCo can be sold separately to a hospitality management company or retained to manage properties for third parties. An acquirer can purchase PropCo + ManagementCo as a package, or PropCo alone. Maximum exit optionality. |
+
+### 3.6 Recommendation: 3 Mexican Entities
+
+**Recommended structure: Three Mexican entities from formation.**
+
+| Entity | Function | Owned By |
+|--------|----------|----------|
+| **TE Ops Mexico, S. de R.L. de C.V.** | Medical & wellness operations; COFEPRIS licensed; clinical staff | TE Wellness Holdings (Cayman) |
+| **TE RE Acquisition & Dev Mexico, S.A. de C.V.** | Property holding via fideicomiso; acquisition, renovation, construction | TE Real Estate Holdings |
+| **TE RE Management Mexico, S.A. de C.V.** | Property management; villa program; non-medical hospitality | TE Real Estate Holdings |
+
+**Rationale:**
+
+1. **Risk isolation is the decisive factor.** Medical malpractice is the single highest-risk exposure in the business. Isolating medical operations in a dedicated entity — with no non-medical revenue streams, no property management liability, and no hospitality claims — maximizes protection across all three business functions. The incremental cost (~$10–15K/year in entity maintenance + ~$10–15K/year in additional TP documentation) is negligible relative to the liability protection gained.
+
+2. **The villa program warrants its own entity from day one.** The 48-villa condo-hotel program generates $96M in total sales over the project lifecycle and represents a substantively different business (real estate sales, property management, HOA governance) from medical operations. Running villa sales through a COFEPRIS-licensed medical entity creates unnecessary regulatory complexity and liability crossover.
+
+3. **Scalability requires separation.** The expansion plan contemplates multiple locations. A dedicated management company can serve all future properties without duplicating the medical entity's scope. New locations add new medical OpCos (each with local COFEPRIS licensing) but share the same ManagementCo infrastructure.
+
+4. **Exit optionality is maximized.** Three separate Mexican entities create the maximum number of exit permutations: sell the property alone, sell property + management, sell the medical business, or sell the entire package. Each combination addresses a different acquirer profile (real estate fund, hospitality management company, healthcare operator, or integrated buyer).
+
+**Incremental cost of the 3-entity structure vs. 2 entities:**
+
+| Cost Category | Annual Incremental |
+|---------------|-------------------|
+| Entity maintenance (ManagementCo) | ~$8–12K |
+| Additional TP documentation | ~$10–15K |
+| Additional audit/accounting | ~$5–10K |
+| **Total incremental** | **~$23–37K/year** |
+
+This represents <0.1% of projected Year 1 revenue — a negligible cost for the structural benefits obtained.
+
+> **Source:** `docs/strategy/CORPORATE_STRUCTURE_OPTIMIZATION_STRATEGY.md` — Section 3 (TE Management Services, Phase 2 entity); `docs/data-room/legal/14-corporate-structure-overview.md` — Section 6 (liability protection rationale)
+
+### 3.7 Intercompany Relationships: Mexico Entities
 
 ```
-Panama PIF (independent legal person)
-  └── 100% → Panamanian Holdings S.A. (intermediate holdco)
-                ├── ~70% → TE Wellness Holdings (Cayman) — investable vehicle
-                │             └── 100% → TE Ops Mexico (operations)
-                ├── 100% → Light Brands Studio (Dubai) — service center
-                └── 100% → Light Brands Consulting (Cook Islands) — external revenue
-
-Church of the Living Light — independent nonprofit, no owner
+TE Wellness Holdings (Cayman)        TE Real Estate Holdings (Cayman/DE)
+         │                                       │
+     100% owns                            100% owns both
+         │                              ┌────────┴────────┐
+         ▼                              ▼                  ▼
+  TE Ops Mexico              TE RE Acq & Dev MX     TE RE Mgmt MX
+  (medical ops)              (property/fideicomiso)  (property mgmt)
+         │                              │                  │
+         │    Lease / use agreement     │                  │
+         │◄─────────────────────────────┤                  │
+         │                              │                  │
+         │    Facility mgmt services    │    Mgmt services │
+         │◄─────────────────────────────┼──────────────────┤
+         │                              │                  │
+         │                              │  Mgmt agreement  │
+         │                              │◄─────────────────┤
 ```
 
-### The New Entity: TE Real Estate Holdings
+**Key intercompany flows:**
+- **TE RE Acq & Dev → TE Ops Mexico:** Lease or use agreement for medical facility space (arm's length rent)
+- **TE RE Management → TE Ops Mexico:** Facility management services (maintenance, utilities, non-clinical hospitality)
+- **TE RE Management → TE RE Acq & Dev:** Property management agreement (day-to-day property operations)
+- **TE Wellness Holdings → TE Ops Mexico:** Service delivery agreement (cost + 8–12% margin)
+- **TE Wellness Holdings → TE Real Estate Holdings:** Intercompany fee flow for debt service / preferred return (per strategy)
 
-Each strategy introduces a **dedicated real estate entity** to hold the Tulum property. The legal form and jurisdiction of this entity vary by strategy. In all cases:
+All intercompany pricing subject to annual transfer pricing benchmarking studies using CUT methodology.
 
-- The property is held via a Mexican S.A. de C.V. subsidiary with a **fideicomiso** (bank trust) for restricted-zone compliance per Article 27, Section I of the Mexican Constitution
-- Real estate assets are isolated from operating company liabilities
-- IP and brand value remain in TE Wellness Holdings (Cayman), outside the RE vehicle entirely
-- The fideicomiso is a 50-year renewable bank trust granting full rights to use, develop, lease, sell, and mortgage the property
-
-> **Source:** `docs/data-room/legal/16-fideicomiso-structure.md`; `docs/data-room/legal/14-corporate-structure-overview.md`
+> **Source:** `docs/tax-structure/07-ECOSYSTEM-ARCHITECTURE.md` — Section 6 (Intercompany Agreement Matrix)
 
 ---
 
@@ -272,7 +445,7 @@ Operating company investors receive minority preferred equity in TE Wellness Hol
 **TE Real Estate Holdings, LLC** (Delaware or Cayman)
 - 100% common equity held by founders (via Panamanian Holdings S.A.)
 - Preferred equity issued to RE investors — no voting rights, no common ownership
-- Property held via Mexican S.A. de C.V. subsidiary + fideicomiso
+- Property held via Mexican S.A. de C.V. subsidiaries (Acquisition & Development + Management) + fideicomiso
 
 **TE Wellness Holdings** (Cayman, existing)
 - Founders (via Panamanian Holdings S.A.): ≥75%
@@ -283,10 +456,11 @@ Operating company investors receive minority preferred equity in TE Wellness Hol
 Panama PIF
   └── 100% → Panamanian Holdings S.A.
                 ├── ~75% → TE Wellness Holdings (Cayman)
-                │             └── 100% → TE Ops Mexico
+                │             └── 100% → TE Ops Mexico (medical operations)
                 ├── 100% → TE Real Estate Holdings, LLC
-                │             └── 100% → TE RE Mexico, S.A. de C.V.
-                │                           └── Fideicomiso (bank trust)
+                │             ├── 100% → TE RE Acq & Dev Mexico, S.A. de C.V.
+                │             │              └── Fideicomiso (bank trust)
+                │             └── 100% → TE RE Management Mexico, S.A. de C.V.
                 ├── 100% → Light Brands Studio (Dubai)
                 └── 100% → Light Brands Consulting (Cook Islands)
 
@@ -517,10 +691,11 @@ The 2.0x cap ($5.5M) is reached during Year 5. The obligation self-extinguishes.
 Panama PIF
   └── 100% → Panamanian Holdings S.A.
                 ├── ~70% → TE Wellness Holdings (Cayman)
-                │             └── 100% → TE Ops Mexico
+                │             └── 100% → TE Ops Mexico (medical operations)
                 ├── 100% → TE Real Estate Holdings, LLC
-                │             └── 100% → TE RE Mexico, S.A. de C.V.
-                │                           └── Fideicomiso (bank trust)
+                │             ├── 100% → TE RE Acq & Dev Mexico, S.A. de C.V.
+                │             │              └── Fideicomiso (bank trust)
+                │             └── 100% → TE RE Management Mexico, S.A. de C.V.
                 ├── 100% → Light Brands Studio (Dubai)
                 └── 100% → Light Brands Consulting (Cook Islands)
 
@@ -736,7 +911,7 @@ Same protections as Strategy 1 — 83% gross margins, ~3% break-even, 1x liquida
 - Limited Partners: RE investors
 - GP contribution: 1–2% (can be funded from management fee offsets)
 - LP contribution: 98–99%
-- Property held via Mexican S.A. de C.V. subsidiary + fideicomiso
+- Property held via Mexican S.A. de C.V. subsidiaries (Acquisition & Development + Management) + fideicomiso
 
 **TE Wellness Holdings** (Cayman, existing)
 - Pre-conversion: 100% founder ownership (via Panamanian Holdings S.A.)
@@ -748,10 +923,11 @@ Panama PIF
   └── 100% → Panamanian Holdings S.A.
                 ├── 100% → TE RE GP LLC (General Partner of Fund)
                 │             └── GP of → TE Real Estate Fund, LP
-                │                           └── TE RE Mexico, S.A. de C.V.
-                │                                   └── Fideicomiso
+                │                           ├── TE RE Acq & Dev Mexico, S.A. de C.V.
+                │                           │       └── Fideicomiso (bank trust)
+                │                           └── TE RE Management Mexico, S.A. de C.V.
                 ├── ≥70% → TE Wellness Holdings (Cayman)
-                │             └── 100% → TE Ops Mexico
+                │             └── 100% → TE Ops Mexico (medical operations)
                 ├── 100% → Light Brands Studio (Dubai)
                 └── 100% → Light Brands Consulting (Cook Islands)
 
@@ -1224,20 +1400,21 @@ If investors are concerned about the pre-money valuation, the following structur
 | Fund RE acquisition | Wire property acquisition funds through RE entity → Mexican S.A. de C.V. → fideicomiso |
 | Fund OpCo working capital | Wire operating capital to TE Wellness Holdings → TE Ops Mexico |
 | Execute all intercompany agreements | Transfer pricing documentation; arm's-length service agreements |
-| Form all new entities | TE Real Estate Holdings (or Fund, LP) + TE RE Mexico, S.A. de C.V. + Fideicomiso |
+| Form all new entities | TE Real Estate Holdings (or Fund, LP) + TE RE Acq & Dev Mexico, S.A. de C.V. + TE RE Management Mexico, S.A. de C.V. + Fideicomiso |
 
 ### Entity Formation Sequence
 
 ```
 1. TE Real Estate Holdings, LLC (or TE Real Estate Fund, LP) — new
 2. TE RE GP LLC (Strategy 3 only) — new
-3. TE RE Mexico, S.A. de C.V. — new (subsidiary of RE vehicle)
-4. Fideicomiso (bank trust) — established with Mexican bank for property acquisition
-5. Update TE Wellness Holdings SHA — to reflect new investor terms
-6. Execute intercompany agreements between RE and OpCo entities
+3. TE RE Acquisition & Development Mexico, S.A. de C.V. — new (subsidiary of RE vehicle)
+4. TE RE Management Mexico, S.A. de C.V. — new (subsidiary of RE vehicle)
+5. Fideicomiso (bank trust) — established with Mexican bank for property acquisition
+6. Update TE Wellness Holdings SHA — to reflect new investor terms
+7. Execute intercompany agreements (RE↔OpCo lease, ManagementCo↔PropCo, ManagementCo↔OpCo)
 ```
 
-All new entities integrate into the existing seven-entity architecture without disrupting the Panama PIF → Panamanian Holdings S.A. → TE Wellness Holdings ownership chain.
+All new entities integrate into the existing seven-entity architecture without disrupting the Panama PIF → Panamanian Holdings S.A. → TE Wellness Holdings ownership chain. The three Mexican entities (OpCo + PropCo + ManagementCo) operate under distinct ownership — OpCo under TE Wellness Holdings, PropCo and ManagementCo under TE Real Estate Holdings — maintaining clean liability separation between medical operations and real estate functions (see Section 3.6).
 
 ---
 
