@@ -29,7 +29,7 @@ const DOCUMENT_CATEGORIES = [
         name: 'Master Structure',
         slug: 'master-structure',
         doc: '01',
-        description: 'Complete 6-entity architecture across 5 jurisdictions'
+        description: 'Complete 7-entity architecture across 5 jurisdictions'
       },
       {
         name: 'Ecosystem Architecture',
@@ -152,7 +152,7 @@ export default function CounselPage() {
           </h2>
           <p className="text-xl text-neutral-600 max-w-3xl mx-auto leading-relaxed">
             Complete multi-jurisdictional structure for legal counsel review.
-            Six entities across five jurisdictions with comprehensive defensibility analysis.
+            Seven entities across five jurisdictions with comprehensive defensibility analysis.
           </p>
         </section>
 
@@ -161,7 +161,7 @@ export default function CounselPage() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             <Card padding="md" className="text-center hover:shadow-card-hover hover:-translate-y-0.5 transition-all duration-300">
               <Building2 className="w-8 h-8 text-primary-600 mx-auto mb-2" />
-              <p className="font-heading text-2xl text-neutral-900 mb-1">6</p>
+              <p className="font-heading text-2xl text-neutral-900 mb-1">7</p>
               <p className="text-sm font-medium text-neutral-700">Entities</p>
             </Card>
             <Card padding="md" className="text-center hover:shadow-card-hover hover:-translate-y-0.5 transition-all duration-300">
@@ -191,7 +191,8 @@ export default function CounselPage() {
                 { name: 'TE Wellness Holdings', jurisdiction: 'Cayman Islands', role: 'TE IP + Revenue + Investor Vehicle', rate: '0%' },
                 { name: 'Light Brands Studio FZ-LLC', jurisdiction: 'Dubai, UAE', role: 'Shared Service Center (Builds All)', rate: '0% QFZP' },
                 { name: 'Light Brands Consulting Ltd', jurisdiction: 'Cook Islands', role: 'External Consulting + SaaS', rate: '0%' },
-                { name: 'Panama PIF', jurisdiction: 'Panama', role: 'Holding + Asset Protection', rate: '0%' },
+                { name: 'Panamanian Holdings S.A.', jurisdiction: 'Panama', role: 'Intermediate Holdco (THE FORTRESS)', rate: '0%' },
+                { name: 'Panama PIF', jurisdiction: 'Panama', role: 'Ultimate Asset Protection', rate: '0%' },
                 { name: 'Church of the Living Light', jurisdiction: 'US', role: 'Mission + Minister Comp', rate: '0% Exempt' },
                 { name: 'TE Ops Mexico', jurisdiction: 'Tulum, Mexico', role: 'Facility Operations', rate: '30% on margin' },
               ].map((entity) => (
