@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, ChevronDown, ArrowUpRight, Lock } from 'lucide-react'
+import { useVault } from '@/lib/context/VaultContext'
 
 interface NavLink {
   name: string
@@ -78,6 +79,7 @@ export function Header() {
   const [expandedMobileSections, setExpandedMobileSections] = useState<Set<string>>(new Set(['Story']))
   const timeoutRef = useRef<NodeJS.Timeout | null>(null)
   const pathname = usePathname()
+  const { isUnlocked } = useVault()
 
   // Reorder sections for mobile: "Story" first
   const mobileNavSections = [
@@ -192,6 +194,7 @@ export function Header() {
                       <div className="bg-white/90 backdrop-blur-xl border border-white/50 rounded-xl shadow-xl shadow-neutral-900/10 py-2 min-w-[180px]">
                         {section.links.map((link) => {
                           const isActive = pathname === link.href
+                          const showLocked = link.locked && !isUnlocked
                           return (
                             <Link
                               key={link.href}
@@ -201,14 +204,14 @@ export function Header() {
                                 transition-colors duration-150 rounded-lg mx-1
                                 ${isActive
                                   ? 'text-secondary-600 bg-secondary-50'
-                                  : link.locked
+                                  : showLocked
                                     ? 'text-primary-700/40'
                                     : 'text-primary-700/80 hover:text-primary-800 hover:bg-white/60'
                                 }
                               `}
                             >
                               {link.name}
-                              {link.locked && <Lock className="w-3 h-3 text-primary-700/30" />}
+                              {showLocked && <Lock className="w-3 h-3 text-primary-700/30" />}
                             </Link>
                           )
                         })}
@@ -293,6 +296,7 @@ export function Header() {
                               <div className="grid grid-cols-2 gap-0.5 pb-1">
                                 {section.links.map((link) => {
                                   const isActive = pathname === link.href
+                                  const showLocked = link.locked && !isUnlocked
                                   return (
                                     <Link
                                       key={link.href}
@@ -302,14 +306,14 @@ export function Header() {
                                         transition-colors duration-150
                                         ${isActive
                                           ? 'bg-secondary-500 text-white shadow-sm'
-                                          : link.locked
+                                          : showLocked
                                             ? 'text-primary-700/40'
                                             : 'text-primary-700/80 hover:bg-white/60 hover:text-primary-800'
                                         }
                                       `}
                                     >
                                       {link.name}
-                                      {link.locked && <Lock className="w-3 h-3 text-primary-700/30" />}
+                                      {showLocked && <Lock className="w-3 h-3 text-primary-700/30" />}
                                     </Link>
                                   )
                                 })}

@@ -125,25 +125,12 @@ function categoryId(name: string): string {
   return name.toLowerCase().replace(/\s*&\s*/g, '-').replace(/\s+/g, '-')
 }
 
-const VAULT_CODE = '8888'
-const VAULT_STORAGE_KEY = 'te_counsel_access'
-const VAULT_TTL_MS = 60 * 60 * 1000 // 1 hour
-
-function isVaultCached(): boolean {
-  if (typeof window === 'undefined') return false
-  const stored = localStorage.getItem(VAULT_STORAGE_KEY)
-  if (!stored) return false
-  const ts = parseInt(stored, 10)
-  return Date.now() - ts < VAULT_TTL_MS
-}
-
-function cacheVaultAccess(): void {
-  localStorage.setItem(VAULT_STORAGE_KEY, Date.now().toString())
-}
+import { useVault } from '@/lib/context/VaultContext'
 
 function CounselLogin({ onUnlock }: { onUnlock: () => void }) {
   const [code, setCode] = useState('')
   const [phase, setPhase] = useState<'locked' | 'error' | 'unlocking' | 'opening'>('locked')
+  const { vaultCode } = useVault()
 
   const handleDigit = useCallback((digit: string) => {
     if (phase !== 'locked' || code.length >= 4) return
@@ -152,7 +139,7 @@ function CounselLogin({ onUnlock }: { onUnlock: () => void }) {
     setCode(next)
 
     if (next.length === 4) {
-      if (next === VAULT_CODE) {
+      if (next === vaultCode) {
         setPhase('unlocking')
         setTimeout(() => setPhase('opening'), 800)
         setTimeout(onUnlock, 1400)
@@ -164,7 +151,7 @@ function CounselLogin({ onUnlock }: { onUnlock: () => void }) {
         }, 600)
       }
     }
-  }, [code, phase, onUnlock])
+  }, [code, phase, onUnlock, vaultCode])
 
   const handleDelete = useCallback(() => {
     if (phase !== 'locked') return
@@ -327,19 +314,10 @@ function CounselLogin({ onUnlock }: { onUnlock: () => void }) {
 }
 
 export default function CounselPage() {
-  const [isLocked, setIsLocked] = useState(true)
+  const { isUnlocked, unlock } = useVault()
 
-  useEffect(() => {
-    if (isVaultCached()) setIsLocked(false)
-  }, [])
-
-  const handleUnlock = useCallback(() => {
-    cacheVaultAccess()
-    setIsLocked(false)
-  }, [])
-
-  if (isLocked) {
-    return <CounselLogin onUnlock={handleUnlock} />
+  if (!isUnlocked) {
+    return <CounselLogin onUnlock={unlock} />
   }
 
   const totalDocs = DOCUMENT_CATEGORIES.reduce((sum, cat) => sum + cat.documents.length, 0)

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { ScenarioProvider } from '@/lib/context/ScenarioContext'
+import { VaultProvider } from '@/lib/context/VaultContext'
 import { Header } from '@/components/layout'
 
 export const metadata: Metadata = {
@@ -31,10 +32,12 @@ export default function RootLayout({
     <html lang="en">
       <body className="min-h-screen flex flex-col">
         <ScenarioProvider>
-          <Header />
-          <main className="flex-1">
-            {children}
-          </main>
+          <VaultProvider>
+            <Header />
+            <main className="flex-1">
+              {children}
+            </main>
+          </VaultProvider>
         </ScenarioProvider>
       </body>
     </html>
