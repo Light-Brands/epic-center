@@ -4,9 +4,20 @@ import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Menu, X, ChevronDown, ArrowUpRight } from 'lucide-react'
+import { Menu, X, ChevronDown, ArrowUpRight, Lock } from 'lucide-react'
 
-const NAV_SECTIONS = [
+interface NavLink {
+  name: string
+  href: string
+  locked?: boolean
+}
+
+interface NavSection {
+  title: string
+  links: NavLink[]
+}
+
+const NAV_SECTIONS: NavSection[] = [
   {
     title: 'Story',
     links: [
@@ -53,6 +64,7 @@ const NAV_SECTIONS = [
     title: 'Resources',
     links: [
       { name: 'Legal', href: '/legal' },
+      { name: 'Counsel', href: '/counsel', locked: true },
       { name: 'Outcomes', href: '/outcomes' },
       { name: 'Data Room', href: '/data-room' },
       { name: 'FAQ', href: '/faq' },
@@ -186,15 +198,18 @@ export function Header() {
                               key={link.href}
                               href={link.href}
                               className={`
-                                block px-4 py-2.5 text-[10px] font-accent font-semibold uppercase tracking-[0.1em]
+                                flex items-center justify-between px-4 py-2.5 text-[10px] font-accent font-semibold uppercase tracking-[0.1em]
                                 transition-colors duration-150 rounded-lg mx-1
                                 ${isActive
                                   ? 'text-secondary-600 bg-secondary-50'
-                                  : 'text-primary-700/80 hover:text-primary-800 hover:bg-white/60'
+                                  : link.locked
+                                    ? 'text-primary-700/40'
+                                    : 'text-primary-700/80 hover:text-primary-800 hover:bg-white/60'
                                 }
                               `}
                             >
                               {link.name}
+                              {link.locked && <Lock className="w-3 h-3 text-primary-700/30" />}
                             </Link>
                           )
                         })}
@@ -284,15 +299,18 @@ export function Header() {
                                       key={link.href}
                                       href={link.href}
                                       className={`
-                                        px-3 py-2 rounded-lg text-[10px] font-accent font-semibold uppercase tracking-[0.1em]
+                                        flex items-center justify-between px-3 py-2 rounded-lg text-[10px] font-accent font-semibold uppercase tracking-[0.1em]
                                         transition-colors duration-150
                                         ${isActive
                                           ? 'bg-secondary-500 text-white shadow-sm'
-                                          : 'text-primary-700/80 hover:bg-white/60 hover:text-primary-800'
+                                          : link.locked
+                                            ? 'text-primary-700/40'
+                                            : 'text-primary-700/80 hover:bg-white/60 hover:text-primary-800'
                                         }
                                       `}
                                     >
                                       {link.name}
+                                      {link.locked && <Lock className="w-3 h-3 text-primary-700/30" />}
                                     </Link>
                                   )
                                 })}
