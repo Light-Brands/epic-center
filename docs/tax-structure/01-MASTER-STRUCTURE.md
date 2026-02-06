@@ -238,7 +238,7 @@ graph LR
     style F fill:#0a8754,stroke:#fff,color:#fff
 ```
 
-**Revenue path:** Guest pays via TE app (Stripe) → TE Wellness Holdings (Cayman) → retains ~43% EBITDA at 0% tax + pays dev services fee to Studio (cost + 8-12% margin, 0% QFZP) + pays service fee to Mexico OpCo (cost + 8-12% margin, taxed at 30% on the margin) + pays content license fee to Church (arm's length, 0% on both sides).
+**Revenue path:** Guest pays via TE app (Stripe) → TE Wellness Holdings (Cayman, owned ~70% by Panamanian Holdings S.A.) → retains ~43% EBITDA at 0% tax + pays dev services fee to Studio (cost + 8-12% margin, 0% QFZP) + pays service fee to Mexico OpCo (cost + 8-12% margin, taxed at 30% on the margin) + pays content license fee to Church (arm's length, 0% on both sides). Retained earnings in Holdings flow upstream: Holdings → S.A. (0% territorial) → PIF (0%).
 
 ---
 

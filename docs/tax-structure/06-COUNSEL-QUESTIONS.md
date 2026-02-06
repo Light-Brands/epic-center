@@ -81,10 +81,10 @@ Bring the relevant section to each counsel meeting. Questions are organized by j
 **Context:** Studio is now purely B2B. This question is only relevant if Q1 is negative.
 **Question:** If B2B service fees from a Cayman entity do not qualify under QFZP, what structural alternatives exist?
 
-### Q3: Panama PIF as Sole Shareholder
+### Q3: Panama S.A. as Sole Shareholder of UAE FZ-LLC
 **Priority:** IMPORTANT
-**Context:** The PIF will be the 100% shareholder of the DIC FZ-LLC. Some free zones have restrictions on foreign foundation ownership.
-**Question:** Can a Panama PIF serve as sole shareholder of a DIC FZ-LLC without triggering adverse QFZP or substance implications?
+**Context:** Panamanian Holdings S.A. (100% owned by the PIF) will be the shareholder of the DIC FZ-LLC. Some free zones have restrictions on foreign corporate or foundation ownership.
+**Question:** Can a Panamanian S.A. (owned by a Panama PIF) serve as sole shareholder of a DIC FZ-LLC without triggering adverse QFZP or substance implications? Are there any additional KYC or approval steps required for a corporate shareholder vs. a foundation?
 
 ### Q4: Content License — Now from Cayman to Church
 **Priority:** IMPORTANT
@@ -405,7 +405,7 @@ These do not need immediate answers but should be tracked for future counsel eng
 | **Week 1-2** | Cyprus tax | Q27 (90-day exemption) |
 | **Weeks 2-4** | Cayman corporate | Q50 (PIF as majority / director duties), Q52 (dividends) |
 | **Weeks 2-4** | Panama | Q20 (PIF structuring), Q22 (banking), Q46 (multi-entity PIF) |
-| **Weeks 2-4** | Panama S.A. counsel | Q56 (S.A. formation), Q57 (jurisdiction issues), Q58 (directors), Q60 (banking) |
+| **Weeks 2-4** | Panama S.A. counsel | Q56 (S.A. formation), Q57 (jurisdiction issues), Q58 (directors), Q59 (transfer pricing), Q60 (banking) |
 | **Weeks 2-4** | Cook Islands | Q39 (TP methodology), Q40 (church royalty rate), Q42 (CRS/AEOI) |
 | **Months 3-5** | Mexican tax | Q23 (REFIPRE with Cayman parent), Q24 (transfer pricing) |
 | **Ongoing** | All | Forward-looking questions as they become relevant |

@@ -236,14 +236,14 @@ The PIF is an independent legal person under Panamanian Law 25 of 1995. It has n
 
 | Risk | Probability | Impact | Mitigation |
 |---|---|---|---|
-| **IRS argues constructive ownership of TE Holdings via PIF** | Very Low | Critical | Same analysis as Studio. US founder has zero PIF relationship. Holdings owned ~70% by PIF (via S.A.) + ~30% by investor. No attribution path exists. Investor as independent shareholder further validates arm's length structure. Additional S.A. corporate layer between PIF and Holdings further separates the US founder. |
-| **IRS argues constructive ownership of Studio via PIF** | Low | High | Formal exclusion from PIF. No signatory authority. No control rights. Canadian founder is sole Protector. |
+| **IRS argues constructive ownership of TE Holdings via PIF** | Very Low | Critical | US founder has zero PIF relationship and zero S.A. relationship. TE Holdings is ~70% owned by Panamanian Holdings S.A. (a Panama corporation) + ~30% by investor. The S.A. is 100% owned by the PIF (an independent legal person with no "owner"). No attribution path exists — two separate Panamanian legal persons (S.A. + PIF) stand between the US founder and TE Holdings. Investor as independent shareholder further validates arm's length structure. |
+| **IRS argues constructive ownership of Studio via PIF** | Low | High | Formal exclusion from PIF. No signatory authority. No control rights. Canadian founder is sole Protector. Studio is 100% owned by Panamanian Holdings S.A., which is 100% owned by the PIF — two corporate layers separate the US founder from any ownership claim. |
 | **IRS challenges church status** | Low | High | Only impacts church channels. UAE salary + FEIE still works. 14/14 IRS criteria met. |
 | **FEIE disqualification (too many US days)** | Low | High | Track days rigorously. Stay under 35 US days. Bona fide residence test as fallback. |
 | **Housing allowance exceeds FRV** | Low | Medium | Get annual FRV appraisal. Designate conservatively. |
 | **Excess benefit transaction** | Low | High | Independent board. Comparable data. Documented decisions. |
 | **GILTI/Subpart F inclusion** | Very Low (if no-ownership) | Critical | No-ownership structure must be watertight. No PIF beneficiary status. |
-| **IRS argues constructive ownership of CI IBC via PIF** | Very Low | Critical | Same analysis as UAE entity. US founder has zero PIF relationship. CI IBC owned 100% by PIF (via S.A.). No attribution path exists. Additional S.A. corporate layer between PIF and CI IBC further separates the US founder. |
+| **IRS argues constructive ownership of CI IBC via PIF** | Very Low | Critical | US founder has zero PIF relationship and zero S.A. relationship. CI IBC is 100% owned by Panamanian Holdings S.A. (a Panama corporation), which is 100% owned by the PIF. No attribution path exists — two separate Panamanian legal persons (S.A. + PIF) stand between the US founder and the CI IBC. |
 | **CI IBC royalty to Church challenged** | Low | Medium | Arm's length pricing via TP study. Comparable software licensing rates. Church uses tech for genuine ministry purposes. Even if challenged, church exemption is independent of royalty source. |
 
 ---

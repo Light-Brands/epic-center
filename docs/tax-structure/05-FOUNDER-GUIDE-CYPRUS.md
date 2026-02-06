@@ -174,6 +174,7 @@ Crypto is slightly MORE expensive than dividends. Creating tokens to replace div
 | **Non-dom reset challenged (Path B)** | Medium | Medium — 5% SDC applies (less painful than old 17%) | Establish genuine domicile of choice in Dubai. Buy/rent home. Sever some Cyprus ties. |
 | **Further Cyprus tax reform** | Low | Variable | The 2026 reform was favorable. Cyprus has strong incentive to maintain competitive rates. |
 | **UAE QFZP loss** | Medium | Medium — 9% UAE CT | Doesn't affect personal tax strategy directly. |
+| **S.A./PIF look-through by Cyprus authorities** | Very Low | Medium — distributions could be recharacterized | PIF has no owner under Panamanian law. Distributions flow operating entity → S.A. (0%) → PIF (0%) → Cyprus founder (~7.65%). The S.A. is a standard Panamanian corporation with its own board and governance — not a pass-through. Cyprus has no history of piercing foreign corporate structures for SDC purposes. |
 
 ---
 

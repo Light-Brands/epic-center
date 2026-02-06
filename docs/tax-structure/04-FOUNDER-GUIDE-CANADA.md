@@ -220,7 +220,7 @@ The Canadian founder serves as **Protector** of the Panama PIF. This is a govern
 |---|---|---|---|
 | **CRA challenges non-resident status** | Low | High — full Canadian tax on worldwide income | Sever ALL ties comprehensively. File NR73 for written confirmation. Maintain 90+ days in UAE for TRC. Do not retain Canadian dwelling. |
 | **Accidental Canadian ties** | Low-Medium | High | Do not rent or own a home in Canada. Do not keep provincial health insurance. Minimize days in Canada. Annual review with counsel. |
-| **PIF look-through** | Low | High — CRA attributes PIF income to founder | PIF has no owner under Panamanian law. After departing Canada, CFC rules no longer apply (not a Canadian resident). Foundation Council is independent. |
+| **PIF look-through** | Low | High — CRA attributes PIF income to founder | PIF has no owner under Panamanian law. The PIF owns the S.A., which owns the operating entities — the Canadian founder is a beneficiary of the PIF, not an owner or director of the S.A. or any operating entity. After departing Canada, CFC rules no longer apply (not a Canadian resident). Foundation Council is independent. The S.A. corporate layer further insulates the founder from look-through claims. |
 | **Departure tax higher than expected** | Medium | Medium | Depart BEFORE the seed round closes. Get a formal valuation at departure date. Cost basis at pre-revenue stage should be near zero. |
 | **Canada changes departure tax rules** | Low | Variable | Lock in current rules by departing now. Future changes typically don't apply retroactively to completed departures. |
 | **UAE residency challenge** | Very Low | Medium | Maintain Golden Visa, Emirates ID, UAE bank account, and physical presence (90+ days for TRC). |
