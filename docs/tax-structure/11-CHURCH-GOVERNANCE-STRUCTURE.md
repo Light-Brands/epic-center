@@ -9,7 +9,7 @@
 
 ## 1. TL;DR
 
-The Church of the Living Light is structured so that **Daniel Lawless is the irremovable founding Senior Pastor with life tenure, doctrinal authority over all ministry decisions, board nomination power, budget authority, and succession rights.** The Spiritual Council (board) includes three Lawless family members, one aligned co-founder (Nicholas Courchesne), and three independent members. The Compensation Committee (Diego Dosal, Sydney Griffith, Angelina Adelaide) operates by majority vote — all three are genuinely independent with no family or financial ties to Daniel. Daniel's bylaws protections cannot be amended without his consent.
+The Church of the Living Light is structured so that **Daniel Lawless is the irremovable founding Senior Pastor with life tenure, doctrinal authority over all ministry decisions, board nomination power, budget authority, and succession rights.** The Spiritual Council (board) includes three Lawless family members, one aligned co-founder representative (Nancy Courchesne), and three independent members. The Compensation Committee (Sydney Griffith, Chair; Iryna Voitenko; Angelina Adelaide) operates by majority vote — all three are genuinely independent with no family or financial ties to Daniel. Daniel's bylaws protections cannot be amended without his consent. The board is majority female (5 of 7).
 
 Daniel is **invisible** to the entire corporate structure except as an employee of LBS (Dubai) for FEIE purposes. The church is the only entity Daniel controls — and through the bylaws, he controls it absolutely.
 
@@ -56,21 +56,21 @@ graph TB
 
         B["TIMOTHY LAWLESS<br/>Director of Operations<br/>& Administration<br/>Council Member<br/>Church Treasurer"]
 
-        NC["NICHOLAS COURCHESNE<br/>Director of Outreach<br/>& Programs<br/>Council Member<br/>Church Secretary"]
+        NC["NANCY COURCHESNE<br/>Director of Outreach<br/>& Programs<br/>Council Member<br/>Church Secretary"]
 
-        I1["DIEGO DOSAL<br/>Council Member<br/>Compensation Committee Chair"]
+        I1["IRYNA VOITENKO<br/>Council Member<br/>Compensation Committee"]
 
-        SG["SYDNEY GRIFFITH<br/>Council Member<br/>Compensation Committee"]
+        SG["SYDNEY GRIFFITH<br/>Council Member<br/>Compensation Committee Chair"]
 
         I3["ANGELINA ADELAIDE<br/>Council Member<br/>Compensation Committee"]
     end
 
     subgraph "STANDING COMMITTEES"
-        CC["COMPENSATION COMMITTEE<br/>Diego Dosal (Chair)<br/>Sydney Griffith<br/>Angelina Adelaide<br/>— 3-person majority vote —<br/>— Sets ALL compensation —<br/>— Uses comparable data —"]
+        CC["COMPENSATION COMMITTEE<br/>Sydney Griffith (Chair)<br/>Iryna Voitenko<br/>Angelina Adelaide<br/>— 3-person majority vote —<br/>— Sets ALL compensation —<br/>— Uses comparable data —"]
 
-        FC["FINANCE COMMITTEE<br/>Timothy Lawless (Chair)<br/>Nicholas Courchesne<br/>Senior Pastor (advisory)"]
+        FC["FINANCE COMMITTEE<br/>Timothy Lawless (Chair)<br/>Nancy Courchesne<br/>Senior Pastor (advisory)"]
 
-        NOM["NOMINATIONS COMMITTEE<br/>Senior Pastor (Chair)<br/>Jennifer Lawless<br/>Diego Dosal"]
+        NOM["NOMINATIONS COMMITTEE<br/>Senior Pastor (Chair)<br/>Jennifer Lawless<br/>Sydney Griffith"]
     end
 
     subgraph "CHURCH STAFF (Paid Positions)"
@@ -109,9 +109,9 @@ graph TB
 | **1 — Chairman** | **Daniel Lawless** | Senior Pastor, Chairman of the Board | Family (Founder) | Yes on all matters EXCEPT own compensation |
 | **2** | **Jennifer Lawless** | Director of Worship & Community Life | Family (Wife) | Yes on all matters EXCEPT Daniel's compensation (shared household) |
 | **3** | **Timothy Lawless** | Director of Operations & Administration, Church Treasurer | Family (Brother) | Yes on all matters |
-| **4** | **Nicholas Courchesne** | Director of Outreach & Programs, Church Secretary | Non-Family (LB Co-Founder) | Yes on all matters |
-| **5** | **Diego Dosal** | Council Member, Compensation Committee Chair | Independent | Yes on all matters |
-| **6** | **Sydney Griffith** | Council Member, Compensation Committee | Independent | Yes on all matters |
+| **4** | **Nancy Courchesne** | Director of Outreach & Programs, Church Secretary | Non-Family (Co-Founder's Wife) | Yes on all matters |
+| **5** | **Iryna Voitenko** | Council Member, Compensation Committee | Independent | Yes on all matters |
+| **6** | **Sydney Griffith** | Council Member, Compensation Committee Chair | Independent | Yes on all matters |
 | **7** | **Angelina Adelaide** | Council Member, Compensation Committee | Independent | Yes on all matters |
 
 ### 4.2 Voting Power Map
@@ -122,12 +122,12 @@ graph LR
         DL["Daniel Lawless<br/>Seat 1 — Chairman"]
         JL["Jennifer Lawless<br/>Seat 2"]
         TL["Timothy Lawless<br/>Seat 3"]
-        NC["Nicholas Courchesne<br/>Seat 4 — Aligned"]
+        NC["Nancy Courchesne<br/>Seat 4 — Aligned"]
     end
 
     subgraph "INDEPENDENT BLOC (3 votes)"
-        DD["Diego Dosal<br/>Seat 5 — Comp Chair"]
-        SG["Sydney Griffith<br/>Seat 6 — Comp"]
+        DD["Iryna Voitenko<br/>Seat 5 — Comp"]
+        SG["Sydney Griffith<br/>Seat 6 — Comp Chair"]
         AA["Angelina Adelaide<br/>Seat 7 — Comp"]
     end
 
@@ -163,11 +163,13 @@ graph LR
 
 ### 4.3 Why This Composition Works
 
-**Lawless family (3 of 7):** Daniel + Jennifer + Timothy = 3 seats. Not a standalone majority, but with Nicholas (aligned co-founder) = 4 votes on governance matters — a practical majority for ministry direction, budget approval, property acquisition, hiring, and strategic decisions. Daniel's bylaw protections (life tenure, doctrinal authority, amendment lock, veto on appointments) do not depend on vote counts — they are structurally embedded and cannot be changed without Daniel's written consent.
+**Lawless family (3 of 7):** Daniel + Jennifer + Timothy = 3 seats. Not a standalone majority, but with Nancy Courchesne (aligned — represents the Courchesne family interest) = 4 votes on governance matters — a practical majority for ministry direction, budget approval, property acquisition, hiring, and strategic decisions. Daniel's bylaw protections (life tenure, doctrinal authority, amendment lock, veto on appointments) do not depend on vote counts — they are structurally embedded and cannot be changed without Daniel's written consent.
 
-**Nicholas Courchesne as Director / Secretary (Seat 4):** Nicholas is a co-founder of Light Brands and holds 30% PPAs in LBS and LBC. He serves as Director of Outreach & Programs and Church Secretary — an active operational role with record-keeping duties. He is deliberately NOT on the Compensation Committee, which eliminates any independence question around his co-founder status. Having a non-family member as Church Secretary strengthens governance credibility — official records are maintained by someone outside the Lawless family.
+**Nancy Courchesne as Director / Secretary (Seat 4):** Nancy is the wife of Nicholas Courchesne (Light Brands co-founder, 30% PPA holder). She represents the Courchesne family interest on the Spiritual Council and serves as Director of Outreach & Programs and Church Secretary — an active operational role with record-keeping duties. She is deliberately NOT on the Compensation Committee — under IRC 4958, Nancy is a disqualified person through spousal attribution to Nicholas (co-founder with substantial influence). Having a non-Lawless-family member as Church Secretary strengthens governance credibility — official records are maintained by someone outside the immediate family.
 
-**Independent compensation committee (3 of 3, majority vote):** Diego Dosal (Chair), Sydney Griffith, and Angelina Adelaide set all compensation by majority vote. All three are genuinely independent — no family ties to Daniel, no financial interest in Light Brands or TE entities. Three independent members following the 26 CFR 53.4958-6 process (comparable data + independent deliberation + documentation) gives the strongest possible rebuttable presumption. Decisions require 2-of-3 majority.
+**Independent compensation committee (3 of 3, majority vote):** Sydney Griffith (Chair), Iryna Voitenko, and Angelina Adelaide set all compensation by majority vote. All three are genuinely independent — no family ties to Daniel, no financial interest in Light Brands or TE entities. Three independent members following the 26 CFR 53.4958-6 process (comparable data + independent deliberation + documentation) gives the strongest possible rebuttable presumption. Decisions require 2-of-3 majority.
+
+**Board composition: 5 women, 2 men.** Jennifer, Nancy, Sydney, Iryna, and Angelina. Daniel and Timothy are the only male members. This is strong optics for a modern church governance structure.
 
 **The Copeland precedent:** KCM's board includes Kenneth Copeland (founder/chairman), Gloria Copeland (wife), George Pearsons (son-in-law), and additional members. This structure has operated for 50+ years without IRS challenge to governance.
 
@@ -194,12 +196,12 @@ Independent council members must satisfy ALL of the following:
 - No financial interest that would be affected by Daniel's compensation
 
 **Compensation Committee (all independent, majority vote):**
-- **Diego Dosal (Chair)** — No family or financial ties to Daniel.
-- **Sydney Griffith** — No family or financial ties to Daniel. Close friend, not a family member under IRC 4958.
+- **Sydney Griffith (Chair)** — No family or financial ties to Daniel. Close friend, not a family member under IRC 4958.
+- **Iryna Voitenko** — No family or financial ties to Daniel. No financial interest in Light Brands or TE entities.
 - **Angelina Adelaide** — No family or financial ties to Daniel.
 
 **Not on Compensation Committee:**
-- **Nicholas Courchesne** — serves as Director/Secretary. Excluded from Compensation Committee due to co-founder status in Light Brands.
+- **Nancy Courchesne** — serves as Director/Secretary. Excluded from Compensation Committee due to spousal attribution from Nicholas Courchesne (co-founder of Light Brands, 30% PPA holder). IRC 4958 disqualified person.
 
 **Key insight:** All three committee members are chosen BY Daniel (he controls the Nominations Committee). He selects people he trusts and who share his vision. They must be genuinely independent for IRS purposes — no family ties, no financial entanglement. Compensation decisions require 2-of-3 majority vote.
 
@@ -256,7 +258,7 @@ graph TB
 
 > *"The Senior Pastor may recommend the removal of any Spiritual Council member whose service no longer aligns with the church's doctrinal vision as determined by the Senior Pastor. Upon the Senior Pastor's recommendation, the council shall vote on removal within 30 days. Removal requires a majority vote of the remaining council members."*
 
-**What this means:** If any board member becomes problematic, Daniel recommends removal. With family holding 4 of 7 seats (including Daniel), the vote passes automatically.
+**What this means:** If any board member becomes problematic, Daniel recommends removal. With family + aligned members holding 4 of 7 seats (Daniel, Jennifer, Timothy, Nancy), the vote passes automatically.
 
 ### 5.5 Budget Authority
 
@@ -290,7 +292,7 @@ Each family member holds a genuine ministry role with real responsibilities. The
 | **Relationship** | Daniel's wife |
 | **Ministry Role** | Leads worship services, manages congregation community, oversees women's ministry, plans community events |
 | **Responsibilities** | Weekly worship planning, congregational pastoral care, community outreach coordination, small group ministry |
-| **Compensation** | Set by Compensation Committee (Diego, Sydney, Angelina). Reasonable for role. Separate from Daniel's package. |
+| **Compensation** | Set by Compensation Committee (Sydney, Iryna, Angelina). Reasonable for role. Separate from Daniel's package. |
 | **Recusal** | Recuses from votes on Daniel's compensation (shared household benefit). Votes on all other matters. |
 
 ### 6.2 Timothy Lawless — Director of Operations & Administration / Church Treasurer
@@ -302,34 +304,34 @@ Each family member holds a genuine ministry role with real responsibilities. The
 | **Ministry Role** | Manages church operations, finances, facilities, administration. Serves as Church Treasurer. |
 | **Responsibilities** | Financial oversight, vendor management, facility maintenance, compliance calendar, banking relationships, bookkeeping oversight |
 | **Compensation** | Set by Compensation Committee. Reasonable for role. |
-| **Special Authority** | Co-signatory on church bank accounts (with Diego Dosal or Nicholas Courchesne). Chairs Finance Committee. |
+| **Special Authority** | Co-signatory on church bank accounts (with Sydney Griffith or Nancy Courchesne). Chairs Finance Committee. |
 | **Recusal** | Recuses from votes on own compensation. Votes on all other matters including Daniel's compensation (separate household). |
 
-**Note on Timothy's compensation vote for Daniel:** Timothy is a "disqualified person" under IRC 4958 (sibling of person with substantial influence). However, the Compensation Committee (Diego, Sydney, Angelina) makes the compensation determination. Timothy does NOT sit on the Compensation Committee. Timothy votes on general council matters only. This preserves the rebuttable presumption.
+**Note on Timothy's compensation vote for Daniel:** Timothy is a "disqualified person" under IRC 4958 (sibling of person with substantial influence). However, the Compensation Committee (Sydney, Iryna, Angelina) makes the compensation determination. Timothy does NOT sit on the Compensation Committee. Timothy votes on general council matters only. This preserves the rebuttable presumption.
 
-### 6.3 Nicholas Courchesne — Director of Outreach & Programs / Church Secretary
+### 6.3 Nancy Courchesne — Director of Outreach & Programs / Church Secretary
 
 | Attribute | Detail |
 |---|---|
 | **Council Seat** | Seat 4 |
-| **Relationship** | Light Brands co-founder (non-family) |
+| **Relationship** | Wife of Nicholas Courchesne (Light Brands co-founder, 30% PPA holder). Represents the Courchesne family interest on the council. |
 | **Ministry Role** | Manages outreach programs, strategic partnerships, external mission work. Serves as Church Secretary (official record-keeper). |
 | **Responsibilities** | Program development, mission trip coordination, strategic partnerships, community outreach, council meeting minutes, record-keeping, maintaining bylaws and resolutions |
-| **Compensation** | None (council service is voluntary — Nicholas is compensated through his own 30% PPAs from LBS/LBC, not by the church). If compensated in future, set by Compensation Committee. |
+| **Compensation** | Council service is voluntary or nominal stipend. If compensated in future, set by Compensation Committee. |
 | **Special Authority** | Official record-keeper. Maintains council minutes, resolutions, and bylaws. Co-signatory on PPA Distribution Account (with Timothy). |
-| **Comp Committee** | **NOT on Compensation Committee** — excluded due to co-founder status. Votes on all other matters. |
+| **Comp Committee** | **NOT on Compensation Committee** — excluded due to IRC 4958 spousal attribution from Nicholas (co-founder with substantial influence). Votes on all other council matters. |
 
-**Why Nicholas as Secretary strengthens governance:** Having a non-family member maintain official church records adds credibility. The IRS sees that meeting minutes, compensation resolutions, and financial decisions are documented by someone outside the Lawless family — reducing any appearance that records are self-serving.
+**Why Nancy as Secretary strengthens governance:** Having a non-Lawless-family member maintain official church records adds credibility. The IRS sees that meeting minutes, compensation resolutions, and financial decisions are documented by someone outside the immediate Lawless family — reducing any appearance that records are self-serving. Nancy's connection to the Courchesne family interest also provides a governance check — she has a vested interest in proper documentation because her family's PPAs depend on the same entities.
 
-### 6.4 Sydney Griffith — Council Member, Compensation Committee
+### 6.4 Sydney Griffith — Council Member, Compensation Committee Chair
 
 | Attribute | Detail |
 |---|---|
 | **Council Seat** | Seat 6 |
 | **Relationship** | Independent — close friend of Daniel (not a family member under IRC 4958) |
-| **Ministry Role** | Council governance + Compensation Committee member. Reviews and approves all church staff compensation by majority vote with Diego and Angelina. |
-| **Responsibilities** | Compensation Committee participation (annual review, comparable data analysis, documented deliberations), council governance, program review, community liaison |
-| **Compensation** | Council service is voluntary or nominal stipend. If compensated, amount set by the other two Compensation Committee members (Diego + Angelina) — Sydney recuses from votes on her own compensation. |
+| **Ministry Role** | Council governance + **Compensation Committee Chair.** Leads all compensation deliberations. Presents comparable data. Chairs annual reviews for all church staff compensation. |
+| **Responsibilities** | Leads Compensation Committee (annual review, comparable data analysis, documented deliberations), council governance, program review, Nominations Committee member |
+| **Compensation** | Council service is voluntary or nominal stipend. If compensated, amount set by the other two Compensation Committee members (Iryna + Angelina) — Sydney recuses from votes on her own compensation. |
 | **Independence** | No family relationship with Daniel. No financial interest in Light Brands or TE entities. Genuinely independent for 26 CFR 53.4958-6 purposes. |
 
 ### 6.5 Jason Sparks — Associate Pastor (If Options C/D)
@@ -352,11 +354,11 @@ This is the most critical governance body for tax purposes. It must operate flaw
 graph TB
     subgraph "REBUTTABLE PRESUMPTION PROCESS (26 CFR 53.4958-6)"
         S1["STEP 1: GATHER COMPARABLE DATA<br/>Copeland, Osteen, Creflo Dollar,<br/>NACBA surveys, ERI database"]
-        S2["STEP 2: EXCLUDE AFFECTED PERSON<br/>Daniel leaves the room.<br/>Only Diego, Sydney, Angelina present."]
+        S2["STEP 2: EXCLUDE AFFECTED PERSON<br/>Daniel leaves the room.<br/>Only Sydney, Iryna, Angelina present."]
         S3["STEP 3: INDEPENDENT DELIBERATION<br/>Committee reviews comparables,<br/>discusses total package value,<br/>considers church revenue + size."]
         S4["STEP 4: MAJORITY VOTE<br/>2-of-3 approves compensation.<br/>Salary + housing + retirement + assets."]
         S5["STEP 5: DOCUMENT EVERYTHING<br/>Written resolution with:<br/>amount, comparable data cited,<br/>rationale, who was present."]
-        S6["STEP 6: FILE WITH SECRETARY<br/>Nicholas Courchesne files minutes<br/>within 60 days. Contemporaneous."]
+        S6["STEP 6: FILE WITH SECRETARY<br/>Nancy Courchesne files minutes<br/>within 60 days. Contemporaneous."]
         RESULT["REBUTTABLE PRESUMPTION ACHIEVED<br/>Burden shifts to IRS to prove<br/>compensation is unreasonable."]
     end
 
@@ -375,11 +377,11 @@ graph TB
 
 | Member | Role | Independence |
 |---|---|---|
-| **Diego Dosal (Chair)** | Leads compensation deliberations, presents comparable data | No family ties to Daniel. No Light Brands / TE financial interest. Genuinely independent. |
-| **Sydney Griffith** | Reviews compensation, participates in deliberations | No family ties to Daniel (close friend, not family under IRC 4958). No Light Brands / TE financial interest. Genuinely independent. |
+| **Sydney Griffith (Chair)** | Leads compensation deliberations, presents comparable data, chairs annual reviews | No family ties to Daniel (close friend, not family under IRC 4958). No Light Brands / TE financial interest. Genuinely independent. |
+| **Iryna Voitenko** | Reviews compensation, participates in deliberations | No family ties to Daniel. No Light Brands / TE financial interest. Genuinely independent. |
 | **Angelina Adelaide** | Reviews compensation for reasonableness | No family ties to Daniel. No Light Brands / TE financial interest. Genuinely independent. |
 
-**Three members, all genuinely independent.** No family members. No church employees. No co-founders. No one with any financial interest affected by compensation decisions. Decisions by **2-of-3 majority vote**. Nicholas Courchesne is deliberately excluded from this committee due to his co-founder status — he serves the church as Director/Secretary instead.
+**Three members, all genuinely independent.** No family members. No church employees. No co-founders. No one with any financial interest affected by compensation decisions. Decisions by **2-of-3 majority vote**. Nancy Courchesne is deliberately excluded from this committee due to spousal attribution from Nicholas Courchesne (co-founder) — she serves the church as Director/Secretary instead.
 
 ### 7.2 Process (26 CFR 53.4958-6 Rebuttable Presumption)
 
@@ -427,9 +429,9 @@ The Compensation Committee reviews and approves ALL of the following for each mi
 ```mermaid
 graph TB
     subgraph "BANK ACCOUNTS"
-        OP["OPERATING ACCOUNT<br/>Day-to-day ministry expenses<br/>Signatories: Timothy + Diego<br/>(dual above $10K)"]
-        PPA["PPA DISTRIBUTION ACCOUNT<br/>Receives PPA income from LBS + LBC<br/>Segregated from operations<br/>Signatories: Timothy + Nicholas"]
-        RES["RESERVE / INVESTMENT<br/>Long-term reserves<br/>Signatories: any 2 of<br/>Timothy + Daniel + Diego"]
+        OP["OPERATING ACCOUNT<br/>Day-to-day ministry expenses<br/>Signatories: Timothy + Sydney<br/>(dual above $10K)"]
+        PPA["PPA DISTRIBUTION ACCOUNT<br/>Receives PPA income from LBS + LBC<br/>Segregated from operations<br/>Signatories: Timothy + Nancy"]
+        RES["RESERVE / INVESTMENT<br/>Long-term reserves<br/>Signatories: any 2 of<br/>Timothy + Daniel + Sydney"]
     end
 
     subgraph "SPENDING AUTHORITY TIERS"
@@ -468,9 +470,9 @@ graph TB
 
 | Account | Signatories | Purpose |
 |---|---|---|
-| **Operating Account** | Timothy Lawless (Treasurer) + Diego Dosal (dual signature above $[10,000]) | Day-to-day ministry expenses |
-| **PPA Distribution Account** | Timothy Lawless (Treasurer) + Nicholas Courchesne (Secretary, dual signature) | Receives PPA distributions from LBS and LBC. Segregated from operating funds. |
-| **Reserve / Investment Account** | Timothy Lawless (Treasurer) + Daniel Lawless + Diego Dosal (any two of three) | Long-term reserves, investment of surplus funds |
+| **Operating Account** | Timothy Lawless (Treasurer) + Sydney Griffith (Comp Committee Chair, dual signature above $[10,000]) | Day-to-day ministry expenses |
+| **PPA Distribution Account** | Timothy Lawless (Treasurer) + Nancy Courchesne (Secretary, dual signature) | Receives PPA distributions from LBS and LBC. Segregated from operating funds. |
+| **Reserve / Investment Account** | Timothy Lawless (Treasurer) + Daniel Lawless + Sydney Griffith (any two of three) | Long-term reserves, investment of surplus funds |
 
 ### 8.2 Spending Authority
 
@@ -514,7 +516,7 @@ graph TB
     subgraph "Outflows"
         COMP_D["Daniel's Compensation<br/>Salary + Housing + Retirement + Assets"]
         COMP_J["Jason's Compensation (if C/D)<br/>Proportionate to role"]
-        COMP_F["Staff Compensation<br/>Jennifer, Timothy,<br/>Nicholas, Sydney"]
+        COMP_F["Staff Compensation<br/>Jennifer, Timothy,<br/>Nancy, Sydney, Iryna"]
         CHARITY["Charitable Programs<br/>Mission work, community, education"]
         OPS["Operating Expenses<br/>Facility, technology, administration"]
         RESERVE["Reserves & Investment"]
@@ -668,7 +670,7 @@ graph TB
 
 ### Article IV: Compensation Committee
 
-- **Section 1 — Composition:** Three (3) independent council members (Diego Dosal, Chair; Sydney Griffith; Angelina Adelaide). Decisions by majority vote (2-of-3). No family members. No church employees. No co-founders or PPA holders.
+- **Section 1 — Composition:** Three (3) independent council members (Sydney Griffith, Chair; Iryna Voitenko; Angelina Adelaide). Decisions by majority vote (2-of-3). No family members. No church employees. No co-founders or PPA holders. No spouses of co-founders or PPA holders.
 - **Section 2 — Authority:** Sole authority to set compensation for all church staff, including Senior Pastor, Associate Pastor, and family staff members.
 - **Section 3 — Process:** Must follow 26 CFR 53.4958-6 rebuttable presumption process: (a) obtain comparable data, (b) deliberate without the affected person present, (c) document decision in contemporaneous meeting minutes.
 - **Section 4 — Annual Review:** Reviews all compensation packages annually before the start of each fiscal year.
@@ -705,25 +707,25 @@ graph TB
 | 1 | **Senior Pastor & Chairman** | **Daniel Lawless** | Named in founding bylaws |
 | 2 | **Director of Worship & Community Life** | **Jennifer Lawless** | Named in founding bylaws as council member |
 | 3 | **Director of Operations & Treasurer** | **Timothy Lawless** | Named in founding bylaws as council member |
-| 4 | **Director of Outreach & Secretary** | **Nicholas Courchesne** | Named in founding bylaws as council member. NOT on Compensation Committee (co-founder status). |
-| 5 | **Compensation Committee Chair** | **Diego Dosal** | Confirm availability and willingness to serve. Independence verified. |
-| 6 | **Council Member, Compensation Committee** | **Sydney Griffith** | Named in founding bylaws as council member. Independence verified. Compensation Committee with Diego + Angelina. |
+| 4 | **Director of Outreach & Secretary** | **Nancy Courchesne** | Named in founding bylaws as council member. NOT on Compensation Committee (spousal attribution from Nicholas). |
+| 5 | **Council Member, Compensation Committee** | **Iryna Voitenko** | Confirm availability and willingness to serve. Independence verified. |
+| 6 | **Compensation Committee Chair** | **Sydney Griffith** | Named in founding bylaws as council member. Independence verified. Chairs Compensation Committee with Iryna + Angelina. |
 | 7 | **Compensation Committee Member** | **Angelina Adelaide** | Confirm availability and willingness to serve. Independence verified. |
 
-### Independence Requirements for Compensation Committee (Diego + Sydney + Angelina)
+### Independence Requirements for Compensation Committee (Sydney + Iryna + Angelina)
 
 All three Compensation Committee members must satisfy ALL of the following:
 
-| Requirement | Diego Dosal | Sydney Griffith | Angelina Adelaide |
+| Requirement | Sydney Griffith | Iryna Voitenko | Angelina Adelaide |
 |---|---|---|---|
-| **Not a family member of Daniel** | ✓ | ✓ (not family — close friend) | ✓ |
+| **Not a family member of Daniel** | ✓ (not family — close friend) | ✓ | ✓ |
 | **Not an employee of the church** | ✓ | ✓ | ✓ |
 | **No financial interest in Light Brands / TE entities** | ✓ | ✓ | ✓ |
 | **No financial interest affected by Daniel's compensation** | ✓ | ✓ | ✓ |
 | **Willingness to serve genuinely** | Confirm | Confirm | Confirm |
 | **Comfortable approving Copeland-scale compensation when supported by comparables** | Confirm | Confirm | Confirm |
 
-**Nicholas Courchesne** is NOT on the Compensation Committee. As a Light Brands co-founder with 30% PPAs in LBS/LBC, he serves the church in an operational role (Director of Outreach / Secretary) where his business knowledge is valuable without creating any independence concerns.
+**Nancy Courchesne** is NOT on the Compensation Committee. As the wife of Nicholas Courchesne (Light Brands co-founder with 30% PPAs in LBS/LBC), she is a disqualified person under IRC 4958 through spousal attribution. She serves the church in an operational role (Director of Outreach / Secretary) where her knowledge of the Courchesne family interest is valuable without creating any independence concerns.
 
 ### Formation Documents Needed
 
@@ -732,7 +734,7 @@ All three Compensation Committee members must satisfy ALL of the following:
 | 1 | **Articles of Incorporation** | Religious nonprofit attorney | Critical |
 | 2 | **Bylaws (with all protections from Section 11)** | Religious nonprofit attorney | Critical |
 | 3 | **Statement of Faith** | Daniel + counsel | Critical |
-| 4 | **Organizational Meeting Minutes** | Nicholas Courchesne (Secretary) | Critical |
+| 4 | **Organizational Meeting Minutes** | Nancy Courchesne (Secretary) | Critical |
 | 5 | **EIN Application (Form SS-4)** | Attorney or Daniel | Critical |
 | 6 | **Compensation Committee Charter** | Attorney | Critical |
 | 7 | **Initial Compensation Resolutions** | Compensation Committee | Before first tax year |
@@ -752,8 +754,9 @@ Each family member receives compensation for their church role. The Compensation
 |---|---|---|---|---|
 | **Jennifer Lawless** — Director of Worship & Community Life | $30,000-50,000 | $50,000-80,000 | $80,000-120,000 | Part-time→full-time as church grows. Comparable to worship directors at mid-size churches. |
 | **Timothy Lawless** — Director of Operations & Treasurer | $40,000-60,000 | $60,000-100,000 | $100,000-150,000 | Operations/finance role. Comparable to church administrators. |
-| **Nicholas Courchesne** — Director of Outreach & Secretary | Voluntary / nominal | $30,000-50,000 | $50,000-80,000 | Non-family director. Compensated primarily through own 30% PPAs. Church compensation optional, set by Comp Committee. |
-| **Sydney Griffith** — Council Member, Compensation Committee | Voluntary / nominal | $25,000-40,000 | $40,000-60,000 | Independent governance + Compensation Committee role. Scales as church grows. If compensated, set by Diego + Angelina (Sydney recuses). |
+| **Nancy Courchesne** — Director of Outreach & Secretary | Voluntary / nominal | $30,000-50,000 | $50,000-80,000 | Non-Lawless-family director. Represents Courchesne family interest. Church compensation optional, set by Comp Committee. |
+| **Sydney Griffith** — Compensation Committee Chair | Voluntary / nominal | $25,000-40,000 | $40,000-60,000 | Independent governance + Compensation Committee Chair. Scales as church grows. If compensated, set by Iryna + Angelina (Sydney recuses). |
+| **Iryna Voitenko** — Compensation Committee | Voluntary / nominal | $20,000-35,000 | $35,000-55,000 | Independent governance + Compensation Committee. If compensated, set by Sydney + Angelina (Iryna recuses). |
 
 **Key rules:**
 - Each family member's compensation is set by the Compensation Committee (independents)
@@ -762,7 +765,7 @@ Each family member receives compensation for their church role. The Compensation
 - Each family member recuses from votes on their own compensation
 - Comparable data from NACBA salary surveys supports the ranges above
 
-**Family members can also receive housing allowance (IRC 107) if ordained.** If Jennifer, Timothy, or Sydney become ordained ministers of the church, they qualify for tax-free housing allowance on the same basis as Daniel. This is a significant additional tax benefit. Counsel to advise on ordination requirements and timing.
+**Council members can also receive housing allowance (IRC 107) if ordained.** If Jennifer, Timothy, Nancy, Sydney, or Iryna become ordained ministers of the church, they qualify for tax-free housing allowance on the same basis as Daniel. This is a significant additional tax benefit. Counsel to advise on ordination requirements and timing.
 
 ---
 
@@ -1365,13 +1368,13 @@ gantt
 |---|---|---|---|---|
 | 1 | **Engage religious nonprofit attorney** — experienced with 508(c)(1)(A) churches and megachurch governance | Daniel | Week 1 | **Critical** |
 | 2 | **Draft Statement of Faith** — define the church's theology, spiritual wellness mission, and doctrinal foundation | Daniel + counsel | Weeks 1-2 | **Critical** |
-| 3 | **Confirm independent council members** — Diego Dosal (Comp Committee Chair), Sydney Griffith (Comp Committee), Angelina Adelaide (Comp Committee), Nicholas Courchesne (Director/Secretary, not on Comp Committee) | Daniel | Weeks 1-3 | **Critical** |
+| 3 | **Confirm independent council members** — Sydney Griffith (Comp Committee Chair), Iryna Voitenko (Comp Committee), Angelina Adelaide (Comp Committee), Nancy Courchesne (Director/Secretary, not on Comp Committee) | Daniel | Weeks 1-3 | **Critical** |
 | 4 | **Draft bylaws** with all Senior Pastor protections from Section 11 | Attorney | Weeks 2-4 | **Critical** |
 | 5 | **Draft Articles of Incorporation** — file in optimal state | Attorney | Weeks 2-4 | **Critical** |
 | 6 | **Hold organizational meeting** — adopt bylaws, elect officers, approve initial resolutions | All council members | Week 4-5 | **Critical** |
 | 7 | **Obtain EIN** (Form SS-4) | Attorney or Treasurer | Week 5 | **Critical** |
 | 8 | **Open church bank accounts** — operating + PPA distribution + reserve | Timothy Lawless (Treasurer) | Weeks 5-6 | High |
-| 9 | **Compensation Committee holds first meeting** — Diego + Sydney + Angelina set Y1 compensation for all staff using comparable data (majority vote) | Compensation Committee | Before first tax year | **Critical** |
+| 9 | **Compensation Committee holds first meeting** — Sydney (Chair) + Iryna + Angelina set Y1 compensation for all staff using comparable data (majority vote) | Compensation Committee | Before first tax year | **Critical** |
 | 10 | **Housing allowance designation** — board resolution for Daniel (and Jason if applicable) | Compensation Committee | Before first tax year | **Critical** |
 | 11 | **Begin ordination program** — Daniel + Jason (if joining) + family members (if pursuing ordained status) | Daniel | Weeks 3-8 | High |
 | 12 | **Execute PPA Assignment Agreement (Daniel → Church)** | Attorney | With PPA execution | **Critical** |
@@ -1379,8 +1382,8 @@ gantt
 | 14 | **Draft church employment agreements** — for all compensated staff | Attorney | Weeks 4-6 | High |
 | 15 | **Establish retirement plans** — 403(b)(9) + 457(b) for ministers, potentially 457(f) as revenue grows | Attorney + plan administrator | Months 2-4 | High |
 | 16 | **Begin regular worship services** — weekly, documented, genuine | Daniel + family | Month 1 | **Critical** |
-| 17 | **Launch charitable programs** — at least one charitable initiative beyond minister compensation | Nicholas Courchesne (Outreach Director) | Months 2-3 | High |
-| 18 | **Document everything** — meeting minutes, resolutions, ministry logs, asset use, charitable activity | Nicholas Courchesne (Secretary) | Ongoing | **Critical** |
+| 17 | **Launch charitable programs** — at least one charitable initiative beyond minister compensation | Nancy Courchesne (Outreach Director) | Months 2-3 | High |
+| 18 | **Document everything** — meeting minutes, resolutions, ministry logs, asset use, charitable activity | Nancy Courchesne (Secretary) | Ongoing | **Critical** |
 | 19 | **Draft PPAs incorporating all 14 bulletproof principles** — LBS (30% + 10%) and LBC (30% + 10%), with profit participation, exit participation, anti-dilution, non-subordination, change of control, audit rights, specific performance, survival, MFN (see Section 17) | Attorney (PPA counsel) | Weeks 2-6 | **Critical** |
 | 20 | **Execute Content License Agreement** — church licenses spiritual content to TE Holdings (Cayman) for ongoing royalty | Attorney | Weeks 6-8 | High |
 | 21 | **Execute Spiritual Tech License Agreement** — church licenses spiritual methodologies to LBC (Cook Islands) for ongoing royalty | Attorney | Weeks 6-8 | High |
@@ -1403,7 +1406,7 @@ gantt
 | 6 | Can the church hold real estate in multiple jurisdictions (US parsonage + Dubai property for international ministry)? | Forward |
 | 7 | If the church receives PPA exit proceeds (entity sale), can those proceeds fund minister retirement plans or must they be retained as church assets? | Important |
 | 8 | Review draft bylaws for compliance with state nonprofit corporation act and IRS requirements. | Critical |
-| 9 | Nicholas Courchesne serves as Director/Secretary but is NOT on the Compensation Committee (co-founder of Light Brands, holds 30% PPAs). Confirm this structure eliminates any independence concern. Does his role as Secretary (record-keeper for compensation decisions he doesn't vote on) create any issues? | Important |
+| 9 | Nancy Courchesne (wife of Nicholas Courchesne, co-founder of Light Brands, 30% PPA holder) serves as Director/Secretary but is NOT on the Compensation Committee (excluded via IRC 4958 spousal attribution). Confirm this structure eliminates any independence concern. Does her role as Secretary (record-keeper for compensation decisions she doesn't vote on) create any issues? | Important |
 
 ---
 
