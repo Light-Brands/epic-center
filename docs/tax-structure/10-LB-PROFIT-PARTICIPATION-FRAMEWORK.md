@@ -44,7 +44,7 @@ graph TB
 | **Daniel Lawless** | 30% | 30% | **Church of the Living Light** | US citizen, Dubai resident | PPA assigned to church (tax-exempt). All economics flow through church minister compensation: salary, housing (IRC 107, tax-free), retirement (403b/457b/457f, deferred), church-owned assets. ~2.5% effective. |
 | **Nicholas Courschesne** | 30% | 30% | Nicholas (personal) | Canadian, Dubai resident (post-departure) | PIF beneficiary. 0% on distributions. No Canadian tax post-departure. |
 | **Andreas Demou** | 30% | 30% | Andreas (personal) | Cyprus deemed domiciled | Salary at 0% (90-day exemption). PIF distributions at ~7.65% (5% SDC + GHS). |
-| **Jason Sparks** | 10% | 10% | Jason (personal) | US citizen, Dubai resident | FEIE + Church channels. No foreign ownership → no CFC/GILTI. |
+| **Jason Sparks** | 10% | 10% | Jason (personal) OR Church | US citizen, Dubai resident | **Four options:** (A) PPAs personal, ~11.1% effective Y5; (B) PPAs + TE equity, ~12.8%; (C) PPAs to church (Copeland), ~3.3%; (D) TE equity + church PPAs, ~4.8%. See [03-FOUNDER-GUIDE-US.md](./03-FOUNDER-GUIDE-US.md) Part II. |
 | **Total** | **100%** | **100%** | | | |
 
 ### The Copeland Model (Daniel Lawless)
@@ -169,9 +169,48 @@ graph LR
 
 **Critical:** Daniel does NOT own shares or PPAs. The church holds the PPAs. No CFC. No GILTI. No Form 5471. No Subpart F. PPA distributions never appear on Daniel's personal return — they are church revenue. Daniel is taxed only on minister salary and the portion of UAE salary exceeding FEIE.
 
-### Jason Sparks (US, 10%)
+### Jason Sparks (US, 10% — Options Assessment)
 
-Same structure as Daniel, scaled to 10%. Same tax treatment. Same CFC/GILTI avoidance.
+Jason has **four options** depending on his level of church involvement and desire for TE Holdings equity. Full analysis with year-by-year projections, diagrams, and comparison tables is in [03-FOUNDER-GUIDE-US.md Part II](./03-FOUNDER-GUIDE-US.md#part-ii--jason-sparks-us-founder-options-assessment).
+
+```mermaid
+graph LR
+    LBS_J["LBS (Dubai)"] -->|"10% profit share"| CHOICE{"Jason's choice"}
+    LBC_J["LBC (Cook Islands)"] -->|"10% profit share"| CHOICE
+    CHOICE -->|"Options A/B:<br/>Personal"| JS_P["Jason (personal)<br/>Taxed at marginal rate"]
+    CHOICE -->|"Options C/D:<br/>Church-held"| CHURCH_J["Church of the Living Light<br/>(tax-exempt)"]
+    CHURCH_J -->|"Minister compensation"| JS_C["Jason (as minister)<br/>Tax-efficient channels"]
+    LBS_J -->|"Salary (FEIE)"| JS_P
+
+    style LBS_J fill:#0f3460,stroke:#e94560,color:#fff
+    style LBC_J fill:#0d7377,stroke:#14ffec,color:#fff
+    style CHOICE fill:#2d4059,stroke:#ffd700,color:#fff
+    style JS_P fill:#c9770a,stroke:#fff,color:#fff
+    style CHURCH_J fill:#533483,stroke:#ffd700,color:#fff
+    style JS_C fill:#0a8754,stroke:#fff,color:#fff
+```
+
+**Summary of Options:**
+
+| Option | Description | Y5 Effective Rate | Church Required? | Form 5471? |
+|---|---|---|---|---|
+| **A** | PPAs personal, no TE equity | ~11.1% | No | No |
+| **B** | PPAs personal + ~20% TE equity | ~12.8% | No | Yes |
+| **C** | PPAs assigned to church (full Copeland) | ~3.3% | Yes | No |
+| **D** | Church PPAs + ~20% TE equity (hybrid) | ~4.8% | Yes | Yes |
+
+**If Jason chooses Options C or D (church route):**
+- Same Copeland model as Daniel — PPA irrevocably assigned to the Church of the Living Light
+- Church compensates Jason as minister: salary, IRC 107 housing (tax-free), 403(b)/457 retirement (deferred), church-owned assets
+- Jason's 10% PPA + Daniel's 30% PPA = church receives **40% of LBS + LBC distributable profits**
+- Two ministers strengthen the church's legitimacy
+- PPA distributions are UBIT-exempt under IRC 512(b)(2)
+- CFC/GILTI eliminated (same analysis as Daniel — church is exempt entity)
+
+**If Jason chooses Options A or B (no church):**
+- PPA distributions taxed as ordinary income at federal marginal rate (24-37%)
+- Still no CFC/GILTI on PPAs (contractual, not equity)
+- Option B adds Form 5471 and PFIC risk for TE Holdings equity
 
 ### Nicholas Courschesne (Canadian, 30%)
 
@@ -413,7 +452,7 @@ graph TB
 
 - **Master structure:** [01-MASTER-STRUCTURE.md](./01-MASTER-STRUCTURE.md)
 - **Ecosystem architecture:** [07-ECOSYSTEM-ARCHITECTURE.md](./07-ECOSYSTEM-ARCHITECTURE.md)
-- **US founder playbook (Daniel + Jason):** [03-FOUNDER-GUIDE-US.md](./03-FOUNDER-GUIDE-US.md)
+- **US founder playbook — Daniel (Copeland model) + Jason (options assessment):** [03-FOUNDER-GUIDE-US.md](./03-FOUNDER-GUIDE-US.md)
 - **Canadian founder playbook (Nicholas):** [04-FOUNDER-GUIDE-CANADA.md](./04-FOUNDER-GUIDE-CANADA.md)
 - **Cyprus founder playbook (Andreas):** [05-FOUNDER-GUIDE-CYPRUS.md](./05-FOUNDER-GUIDE-CYPRUS.md)
 - **Cook Islands IBC detail:** [08-COOK-ISLANDS-IBC-DETAIL.md](./08-COOK-ISLANDS-IBC-DETAIL.md)
