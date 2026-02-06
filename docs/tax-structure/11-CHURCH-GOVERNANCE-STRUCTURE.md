@@ -909,7 +909,417 @@ graph TB
 
 ---
 
-## 17. Action Items — Church Formation
+## 17. Agreement Architecture — Equity Without Equity
+
+The church's economic power comes from contractual agreements, not ownership. Each agreement must be drafted to give the church **every economic right that equity would provide** — without a single share being issued. This is what makes the entire structure work: the church acts like a 30% (or 40%) shareholder in every way that matters, while legally holding zero equity.
+
+```mermaid
+graph TB
+    subgraph "THE CHURCH'S AGREEMENT PORTFOLIO"
+        PPA_LBS["PPA — LBS (Dubai)<br/>30% profit participation<br/>30% exit participation<br/>Board seat + veto rights"]
+        PPA_LBC["PPA — LBC (Cook Islands)<br/>30% profit participation<br/>30% exit participation<br/>Advisory board + veto rights"]
+        PPA_J_LBS["PPA — LBS (Jason's, if C/D)<br/>10% profit participation<br/>10% exit participation"]
+        PPA_J_LBC["PPA — LBC (Jason's, if C/D)<br/>10% profit participation<br/>10% exit participation"]
+        LIC_TEH["Content License — TE Holdings<br/>Spiritual content royalty<br/>Ongoing passive income"]
+        LIC_CI["Spiritual Tech License — CI IBC<br/>Spiritual technology royalty<br/>Ongoing passive income"]
+    end
+
+    CHURCH["CHURCH OF THE LIVING LIGHT<br/>508(c)(1)(A) Tax-Exempt<br/>All income received tax-free"]
+
+    PPA_LBS --> CHURCH
+    PPA_LBC --> CHURCH
+    PPA_J_LBS -.-> CHURCH
+    PPA_J_LBC -.-> CHURCH
+    LIC_TEH --> CHURCH
+    LIC_CI --> CHURCH
+
+    style PPA_LBS fill:#0f3460,stroke:#e94560,color:#fff
+    style PPA_LBC fill:#0d7377,stroke:#14ffec,color:#fff
+    style PPA_J_LBS fill:#0f3460,stroke:#e94560,color:#fff
+    style PPA_J_LBC fill:#0d7377,stroke:#14ffec,color:#fff
+    style LIC_TEH fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style LIC_CI fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style CHURCH fill:#533483,stroke:#ffd700,color:#fff
+```
+
+### 17.1 The Core Doctrine: Why Contracts, Not Shares
+
+```mermaid
+graph LR
+    subgraph "WHAT THE CHURCH GETS"
+        E1["Pro-rata profits"]
+        E2["Pro-rata exit proceeds"]
+        E3["Board seat / governance"]
+        E4["Veto on major decisions"]
+        E5["Anti-dilution protection"]
+        E6["Audit rights"]
+        E7["Tag-along on sale"]
+        E8["Information rights"]
+    end
+
+    subgraph "WHAT THE CHURCH DOES NOT GET"
+        N1["Share certificates"]
+        N2["Stock ledger entry"]
+        N3["Legal 'ownership'"]
+    end
+
+    subgraph "WHY THIS MATTERS"
+        W1["No CFC/GILTI attribution<br/>to Daniel or Jason"]
+        W2["No Form 5471 filing"]
+        W3["Creditors cannot seize<br/>'ownership' — there is none"]
+        W4["PIF retains legal title<br/>for asset protection"]
+    end
+
+    E1 --> W1
+    N1 --> W1
+    N3 --> W3
+
+    style E1 fill:#0a8754,stroke:#fff,color:#fff
+    style E2 fill:#0a8754,stroke:#fff,color:#fff
+    style E3 fill:#0a8754,stroke:#fff,color:#fff
+    style E4 fill:#0a8754,stroke:#fff,color:#fff
+    style E5 fill:#0a8754,stroke:#fff,color:#fff
+    style E6 fill:#0a8754,stroke:#fff,color:#fff
+    style E7 fill:#0a8754,stroke:#fff,color:#fff
+    style E8 fill:#0a8754,stroke:#fff,color:#fff
+    style N1 fill:#c0392b,stroke:#fff,color:#fff
+    style N2 fill:#c0392b,stroke:#fff,color:#fff
+    style N3 fill:#c0392b,stroke:#fff,color:#fff
+    style W1 fill:#533483,stroke:#ffd700,color:#fff
+    style W2 fill:#533483,stroke:#ffd700,color:#fff
+    style W3 fill:#533483,stroke:#ffd700,color:#fff
+    style W4 fill:#533483,stroke:#ffd700,color:#fff
+```
+
+**The church gets everything equity provides except the legal label.** That missing label is what eliminates CFC/GILTI, eliminates Form 5471, and preserves the PIF's asset protection layer. The agreements must be drafted so that no court, no IRS agent, and no counterparty can argue the church is being shortchanged — or that the arrangements are really "equity in disguise" for attribution purposes.
+
+### 17.2 The 14 Bulletproof Principles
+
+Every agreement the church enters — PPAs, license agreements, royalty agreements — must be built on these principles. Counsel should treat this as a checklist when drafting.
+
+```mermaid
+graph TB
+    subgraph "ECONOMIC PARITY (Act Like Equity)"
+        P1["1. PROFIT PARTICIPATION<br/>Pro-rata share of distributable<br/>profits, same calculation as<br/>equity distributions"]
+        P2["2. EXIT PARTICIPATION<br/>Pro-rata share of sale/IPO/<br/>liquidation proceeds. 30% PPA<br/>= 30% of exit value."]
+        P3["3. DISTRIBUTION PARITY<br/>When equity holders get paid,<br/>PPA holders get paid. Same time,<br/>same basis. No subordination."]
+        P4["4. ACCUMULATION ACCOUNT<br/>Undistributed profits accrue to<br/>notional capital account. Critical<br/>for exit valuation."]
+    end
+
+    subgraph "STRUCTURAL PROTECTION (Cannot Be Undermined)"
+        P5["5. IRREVOCABILITY<br/>Once assigned to church, PPA<br/>cannot be revoked, clawed back,<br/>or terminated without church consent."]
+        P6["6. ANTI-DILUTION<br/>PPA percentage cannot be reduced<br/>by new equity, new PPAs, or<br/>restructuring without consent."]
+        P7["7. NON-SUBORDINATION<br/>PPA distributions cannot be<br/>subordinated to future debt,<br/>new investors, or mgmt fees."]
+        P8["8. CHANGE OF CONTROL<br/>Entity sale/merger triggers exit<br/>participation automatically.<br/>Cannot be circumvented."]
+    end
+
+    subgraph "TRANSPARENCY & ENFORCEMENT"
+        P9["9. AUDIT RIGHTS<br/>Church can audit entity financials<br/>to verify distribution calculations.<br/>Annual statements within 90 days."]
+        P10["10. INFORMATION RIGHTS<br/>Monthly/quarterly financials,<br/>budget vs. actual, material<br/>event notifications."]
+        P11["11. SPECIFIC PERFORMANCE<br/>Church can seek court-ordered<br/>compliance, not just damages.<br/>Enforceable in entity jurisdiction."]
+        P12["12. SURVIVAL<br/>PPA survives restructuring,<br/>re-domiciliation, entity conversion.<br/>Follows the entity everywhere."]
+    end
+
+    subgraph "GOVERNANCE & CONTROL"
+        P13["13. GOVERNANCE RIGHTS<br/>Board seat (LBS), advisory board<br/>(LBC), veto on major decisions,<br/>consent rights on key actions."]
+        P14["14. MOST-FAVORED-NATION<br/>If entity creates a better PPA<br/>for any party, church's PPA<br/>automatically gets same terms."]
+    end
+
+    style P1 fill:#0a8754,stroke:#fff,color:#fff
+    style P2 fill:#0a8754,stroke:#fff,color:#fff
+    style P3 fill:#0a8754,stroke:#fff,color:#fff
+    style P4 fill:#0a8754,stroke:#fff,color:#fff
+    style P5 fill:#533483,stroke:#ffd700,color:#fff
+    style P6 fill:#533483,stroke:#ffd700,color:#fff
+    style P7 fill:#533483,stroke:#ffd700,color:#fff
+    style P8 fill:#533483,stroke:#ffd700,color:#fff
+    style P9 fill:#0f3460,stroke:#e94560,color:#fff
+    style P10 fill:#0f3460,stroke:#e94560,color:#fff
+    style P11 fill:#0f3460,stroke:#e94560,color:#fff
+    style P12 fill:#0f3460,stroke:#e94560,color:#fff
+    style P13 fill:#c9770a,stroke:#fff,color:#fff
+    style P14 fill:#c9770a,stroke:#fff,color:#fff
+```
+
+### 17.3 Principle-by-Principle Detail
+
+#### Principle 1: Profit Participation
+
+| Element | Requirement |
+|---|---|
+| **Calculation** | Church receives X% of distributable profits, calculated identically to how equity distributions would be calculated |
+| **Distribution frequency** | Quarterly, within 45 days of quarter end |
+| **Distributable profit definition** | Net revenue minus operating expenses minus board-approved reserves. Same waterfall as equity: expenses → reserves → pro-rata distributions |
+| **Currency** | USD or AED equivalent at prevailing rate |
+| **Withholding** | Zero — no WHT on contractual payments from UAE or Cook Islands to US entity |
+
+**Why this matters:** The church's revenue stream must be predictable and calculated on the same basis as if it held actual shares. Any deviation creates an argument that the PPA is "less than equity" — which could undermine the structure's purpose.
+
+#### Principle 2: Exit Participation
+
+| Element | Requirement |
+|---|---|
+| **Trigger events** | Sale of entity, sale of substantially all assets, IPO/listing, merger, liquidation, wind-down |
+| **Calculation** | Church receives X% of net exit proceeds (gross price minus transaction costs minus creditor payoffs) |
+| **Timing** | Paid simultaneously with equity holders, from the same closing proceeds |
+| **Escrow** | If exit includes escrow/holdback, church's share is held and released on the same terms as equity |
+| **Earnout** | If exit includes earnout, church participates pro-rata on same terms |
+
+**Why this matters:** Without exit participation, the PPA is just an income stream — it isn't equity-equivalent. Exit participation is what makes a 30% PPA worth the same as 30% equity. If LBS sells for $50M, the church receives $15M. Period.
+
+#### Principle 3: Distribution Parity
+
+| Element | Requirement |
+|---|---|
+| **Timing** | PPA distributions paid at the same time as any equity distributions |
+| **Priority** | PPA distributions rank pari passu (equal priority) with equity distributions — not junior, not senior |
+| **No selective distributions** | Entity cannot distribute to equity holders while withholding from PPA holders, or vice versa |
+| **Shortfall** | If distributable profits are insufficient to pay all holders in full, distributions are reduced pro-rata across all PPA and equity holders equally |
+
+**Why this matters:** If the entity can pay equity first and PPA holders second, the PPA is subordinated — making it more like debt than equity. Parity ensures the church is treated as a co-owner in every economic sense.
+
+#### Principle 4: Accumulation Account
+
+| Element | Requirement |
+|---|---|
+| **Purpose** | Tracks undistributed profits attributable to each PPA holder |
+| **Calculation** | Each quarter: PPA holder's share of distributable profits minus actual distributions paid = net addition to accumulation account |
+| **Exit relevance** | Accumulation account balance is included in exit valuation — church receives both its share of exit proceeds AND any undistributed accumulation balance |
+| **Reporting** | Accumulation account balance reported to church quarterly |
+
+**Why this matters:** If the entity retains earnings for growth (instead of distributing), the church's share of those retained earnings isn't lost — it accumulates and is paid out on exit. Without this, the entity could retain all earnings, grow in value, sell, and argue the church only gets a share of the sale price minus retained earnings. The accumulation account closes that gap.
+
+#### Principle 5: Irrevocability
+
+| Element | Requirement |
+|---|---|
+| **Assignment** | Daniel's PPA is irrevocably assigned to the church. Cannot be reclaimed. |
+| **Termination** | PPA cannot be terminated without the church's written consent |
+| **Modification** | PPA terms cannot be modified to the church's detriment without the church's written consent |
+| **Entity action** | Neither the entity, the PIF, nor Panamanian Holdings S.A. can unilaterally cancel the PPA |
+| **Founder action** | Daniel cannot revoke the assignment, even if he leaves the church or ceases to be Senior Pastor |
+
+**Why this matters for IRS:** The irrevocability is what makes the PPA assignment to the church legitimate. If Daniel could reclaim the PPA, the IRS would argue he still "owns" it (assignment of income doctrine). Irrevocability means the church — not Daniel — is the economic owner. Full stop.
+
+#### Principle 6: Anti-Dilution
+
+| Element | Requirement |
+|---|---|
+| **New equity** | Entity cannot issue new shares or equity interests without church's written consent |
+| **New PPAs** | Entity cannot create new profit participation agreements without church's written consent (or pro-rata participation rights) |
+| **Restructuring** | Any restructuring that would reduce the effective percentage of the church's PPA requires church consent |
+| **Pre-emptive rights** | If new economic interests are created, church has the right to maintain its pro-rata share |
+
+**Why this matters:** Without anti-dilution, the entity could issue new shares to a third party, diluting the church's 30% down to 15% or less. Anti-dilution ensures the church's economic interest is permanent and cannot be eroded by corporate actions.
+
+#### Principle 7: Non-Subordination
+
+| Element | Requirement |
+|---|---|
+| **Debt** | Entity cannot incur new debt that takes priority over PPA distributions without church consent |
+| **Management fees** | Entity cannot pay management fees or intercompany charges that reduce distributable profits below a reasonable threshold without church consent |
+| **New investors** | Future investors cannot receive liquidation preferences that subordinate the church's PPA |
+| **Contractual priority** | PPA distributions rank pari passu with equity distributions and senior to management/advisory fees |
+
+**Why this matters:** A common way to undermine phantom equity is to load the entity with debt or management fees, reducing distributable profits to zero. Non-subordination prevents this — the church's distributions cannot be squeezed out by new obligations.
+
+#### Principle 8: Change of Control Protection
+
+| Element | Requirement |
+|---|---|
+| **Trigger** | Sale of entity, merger, change of >50% of equity, change of board majority, sale of substantially all assets |
+| **Effect** | Church's exit participation is triggered automatically — church receives its pro-rata share of proceeds |
+| **Put right** | On certain trigger events (key person departure, material breach, prolonged non-distribution), church can demand buyout of PPA at fair market value |
+| **Tag-along** | If PIF/S.A. sells its equity, church participates on same terms |
+| **Drag-along** | If holders of 75%+ of PPAs approve a sale, all holders participate |
+
+**Why this matters:** Without change of control protection, the PIF could sell the entity's shares to a buyer, pocket the proceeds at the PIF level, and argue the PPA holders have no claim on the sale. Change of control protection ensures the church always gets its exit proceeds regardless of how the sale is structured.
+
+#### Principle 9: Audit Rights
+
+| Element | Requirement |
+|---|---|
+| **Annual audit** | Entity provides audited (or reviewed) financial statements within 90 days of fiscal year end |
+| **Church audit right** | Church may engage its own auditor to examine entity books at church's expense, once per year, with 30 days notice |
+| **Distribution verification** | Church may request detailed calculation of distributable profits and its share for any distribution period |
+| **Records access** | Entity must maintain books and records and make them available for inspection on reasonable notice |
+
+#### Principle 10: Information Rights
+
+| Element | Requirement |
+|---|---|
+| **Quarterly financials** | Income statement, balance sheet, cash flow — within 30 days of quarter end |
+| **Annual budget** | Provided before start of fiscal year |
+| **Material events** | Prompt notification of: litigation, regulatory action, key person departure, M&A activity, material contracts, debt incurrence |
+| **Board materials** | Church representative (board seat or advisory board) receives all board materials |
+
+#### Principle 11: Specific Performance
+
+| Element | Requirement |
+|---|---|
+| **Remedy** | Church may seek specific performance (court-ordered compliance) in addition to monetary damages |
+| **Injunctive relief** | Church may seek injunctive relief to prevent entity from taking actions that violate the PPA |
+| **Jurisdiction** | Disputes resolved in entity's jurisdiction: DIFC Courts (LBS/Dubai), Cook Islands courts (LBC), or by arbitration (LCIA/ICC) at neutral venue |
+| **Acceleration** | If entity defaults on distributions for 2+ consecutive quarters, all accrued and future distributions accelerate and become immediately payable |
+
+#### Principle 12: Survival
+
+| Element | Requirement |
+|---|---|
+| **Re-domiciliation** | If entity moves to a new jurisdiction, PPA follows — all terms survive |
+| **Entity conversion** | If entity changes legal form (e.g., FZ-LLC to Ltd), PPA terms survive |
+| **Restructuring** | If entity merges, spins off, or reorganizes, church's PPA attaches to the successor entity |
+| **Dissolution** | If entity dissolves, church receives its pro-rata share of net assets after creditors |
+
+#### Principle 13: Governance Rights
+
+| Element | Requirement |
+|---|---|
+| **Board representation** | Church holds one board seat on LBS (Dubai). Advisory board seat on LBC (Cook Islands, where nominee directors are required). |
+| **Veto rights** | Church consent required for: sale/merger, new debt above threshold, related-party transactions, new PPA issuance, change of business, executive compensation above threshold |
+| **Appointment** | Church's board representative is appointed by the Spiritual Council (Daniel as Senior Pastor nominates) |
+| **Observer rights** | Church representative may attend all board meetings, even for matters not requiring PPA holder vote |
+
+**Who sits on entity boards for the church?** The Spiritual Council appoints the church's representative. In practice, this will be Daniel (who serves on the LBS board as the church's appointee) or another council member. This is a governance role, not an ownership role — Daniel sits on the LBS board as a representative of a PPA holder, not as a shareholder.
+
+#### Principle 14: Most-Favored-Nation
+
+| Element | Requirement |
+|---|---|
+| **Trigger** | If entity grants any other PPA holder (current or future) more favorable terms on any provision |
+| **Effect** | Church's PPA automatically receives the same improved terms |
+| **Scope** | Covers all economic terms: distribution frequency, exit calculation, anti-dilution formulas, information rights, governance rights |
+| **Notification** | Entity must notify church within 30 days of granting improved terms to any other party |
+
+**Why this matters:** Prevents the church from being left with a weaker agreement if the entity later negotiates better terms with a new participant. The church's PPA is always at least as strong as the best PPA in existence.
+
+### 17.4 Agreement-by-Agreement Summary
+
+| Agreement | Counterparty | Church Gets | Key Principles | Governing Law |
+|---|---|---|---|---|
+| **PPA — LBS (Daniel's 30%)** | Light Brands Studio FZ-LLC (Dubai) + Panamanian Holdings S.A. | 30% of quarterly profits + 30% of exit proceeds + board seat + veto rights | All 14 principles | UAE / DIFC |
+| **PPA — LBC (Daniel's 30%)** | Light Brands Consulting Ltd (Cook Islands) + Panamanian Holdings S.A. | 30% of quarterly profits + 30% of exit proceeds + advisory board + veto rights | All 14 principles | Cook Islands |
+| **PPA — LBS (Jason's 10%, if C/D)** | Light Brands Studio FZ-LLC (Dubai) + Panamanian Holdings S.A. | 10% of quarterly profits + 10% of exit proceeds | All 14 principles | UAE / DIFC |
+| **PPA — LBC (Jason's 10%, if C/D)** | Light Brands Consulting Ltd (Cook Islands) + Panamanian Holdings S.A. | 10% of quarterly profits + 10% of exit proceeds | All 14 principles | Cook Islands |
+| **Content License** | TE Wellness Holdings (Cayman) | Ongoing royalty for spiritual content licensed to TE platform | Principles 1, 3, 5, 7, 9, 10, 11, 12 (economic + enforcement) | Cayman Islands |
+| **Spiritual Tech License** | Light Brands Consulting Ltd (Cook Islands) | Ongoing royalty for spiritual technology / methodology | Principles 1, 3, 5, 7, 9, 10, 11, 12 (economic + enforcement) | Cook Islands |
+
+### 17.5 The Assignment Mechanism
+
+The PPAs don't originate with the church — they originate with Daniel (and Jason). The critical legal step is the **irrevocable assignment** from founder to church.
+
+```mermaid
+graph LR
+    subgraph "STEP 1: PPA CREATION"
+        SA["Panamanian Holdings S.A.<br/>(legal owner of entities)"]
+        DL["Daniel Lawless<br/>(individual)"]
+        SA -->|"Grants PPA:<br/>30% LBS + 30% LBC"| DL
+    end
+
+    subgraph "STEP 2: IRREVOCABLE ASSIGNMENT"
+        DL2["Daniel Lawless"]
+        CHURCH["Church of the<br/>Living Light"]
+        DL2 -->|"Irrevocable assignment<br/>Cannot be revoked<br/>Cannot be clawed back<br/>Survives departure"| CHURCH
+    end
+
+    subgraph "RESULT"
+        CHURCH2["Church holds PPA<br/>directly with entities.<br/>Daniel has zero economic<br/>interest in any entity."]
+    end
+
+    DL --> DL2
+    CHURCH --> CHURCH2
+
+    style SA fill:#1a1a2e,stroke:#e94560,color:#fff
+    style DL fill:#c9770a,stroke:#fff,color:#fff
+    style DL2 fill:#c9770a,stroke:#fff,color:#fff
+    style CHURCH fill:#533483,stroke:#ffd700,color:#fff
+    style CHURCH2 fill:#533483,stroke:#ffd700,color:#fff
+```
+
+**Assignment agreement must include:**
+
+| Clause | Requirement |
+|---|---|
+| **Assignor** | Daniel Lawless (individual) |
+| **Assignee** | Church of the Living Light, a 508(c)(1)(A) church |
+| **Interest assigned** | 100% of Daniel's rights under the PPA — profit distributions, exit participation, governance rights, all ancillary rights |
+| **Irrevocability** | Assignment is permanent and irrevocable. Assignor waives all right to reclaim, modify, or redirect the PPA. |
+| **No retained interest** | Assignor retains zero economic or governance interest in the PPA after assignment. |
+| **Consideration** | Assignment is a gift/donation to a tax-exempt church (charitable contribution — but Daniel should not claim a charitable deduction to avoid complexity; counsel to advise). |
+| **Entity consent** | LBS, LBC, and Panamanian Holdings S.A. each consent to the assignment and agree to pay all distributions directly to the church. |
+| **Effective date** | Assignment effective upon execution. All distributions from the effective date forward are the church's property. |
+| **Survival** | Assignment survives Daniel's death, incapacity, departure from church, or any change in Daniel's relationship with the church. |
+
+### 17.6 License Agreements — Church as IP Licensor
+
+The church also earns revenue by licensing spiritual content and methodologies to TE entities. These are arm's-length license agreements, not PPAs.
+
+| Agreement | What's Licensed | From | To | Royalty Basis |
+|---|---|---|---|---|
+| **Content License** | Spiritual wellness content, devotional materials, faith-based curriculum created by the church's ministers | Church | TE Wellness Holdings (Cayman) | % of revenue from products incorporating church content |
+| **Spiritual Tech License** | Spiritual methodologies, healing frameworks, proprietary church practices | Church | LBC (Cook Islands) | % of consulting revenue derived from church methodologies |
+
+**Key license terms:**
+- License is exclusive to TE entities (they can't get it elsewhere)
+- Royalty rate is arm's-length (comparable to content licensing in the wellness/spiritual space)
+- Church retains all IP ownership — it licenses, not assigns
+- License survives entity restructuring
+- Church can audit royalty calculations
+- License can be terminated by church if entity materially breaches
+
+**Why arm's-length matters:** If the IRS reviews these agreements, the royalty rates must be justifiable by comparables. Too high → IRS argues it's disguised profit distribution. Too low → church is being shortchanged (private inurement argument reversed). Counsel should establish transfer pricing documentation for each license.
+
+### 17.7 What Makes These Agreements "Bulletproof"
+
+```mermaid
+graph TB
+    subgraph "BULLETPROOF = THESE 5 THINGS"
+        BP1["ECONOMICALLY IDENTICAL TO EQUITY<br/>Same profits. Same exit. Same governance.<br/>No economic difference between holding<br/>30% shares and holding a 30% PPA."]
+        BP2["LEGALLY DISTINCT FROM EQUITY<br/>No shares issued. No stock ledger.<br/>Contractual right only. Eliminates<br/>CFC/GILTI/Form 5471."]
+        BP3["CANNOT BE UNDERMINED<br/>Anti-dilution. Non-subordination.<br/>Change of control. Survival. MFN.<br/>Every attack vector is closed."]
+        BP4["ENFORCEABLE IN COURT<br/>Specific performance. Acceleration.<br/>Injunctive relief. Governed by<br/>entity jurisdiction law."]
+        BP5["IRS-DEFENSIBLE<br/>Arm's-length terms. Transfer pricing<br/>documentation. Church is legitimate<br/>508(c)(1)(A) entity with genuine mission."]
+    end
+
+    style BP1 fill:#0a8754,stroke:#fff,color:#fff
+    style BP2 fill:#533483,stroke:#ffd700,color:#fff
+    style BP3 fill:#c9770a,stroke:#fff,color:#fff
+    style BP4 fill:#0f3460,stroke:#e94560,color:#fff
+    style BP5 fill:#8b5e3c,stroke:#ffd700,color:#fff
+```
+
+### 17.8 Agreement Checklist for Counsel
+
+| # | Document | Parties | Principles Applied | Priority |
+|---|---|---|---|---|
+| 1 | **PPA — LBS (Daniel's 30%)** | Church ↔ LBS ↔ Panamanian Holdings S.A. | All 14 | Critical |
+| 2 | **PPA — LBC (Daniel's 30%)** | Church ↔ LBC ↔ Panamanian Holdings S.A. | All 14 | Critical |
+| 3 | **PPA Assignment (Daniel → Church)** | Daniel → Church (with entity consent) | Irrevocability (P5), no retained interest | Critical |
+| 4 | **PPA — LBS (Jason's 10%)** — if Option C/D | Church ↔ LBS ↔ Panamanian Holdings S.A. | All 14 | Critical (if applicable) |
+| 5 | **PPA — LBC (Jason's 10%)** — if Option C/D | Church ↔ LBC ↔ Panamanian Holdings S.A. | All 14 | Critical (if applicable) |
+| 6 | **PPA Assignment (Jason → Church)** — if Option C/D | Jason → Church (with entity consent) | Irrevocability (P5), no retained interest | Critical (if applicable) |
+| 7 | **Content License Agreement** | Church ↔ TE Wellness Holdings (Cayman) | P1, P3, P5, P7, P9-P12 | High |
+| 8 | **Spiritual Tech License Agreement** | Church ↔ LBC (Cook Islands) | P1, P3, P5, P7, P9-P12 | High |
+| 9 | **Governance Agreement** | Church ↔ LBS (board seat) | P13, P14 | High |
+| 10 | **Advisory Board Agreement** | Church ↔ LBC (advisory board) | P13, P14 | High |
+| 11 | **Transfer Pricing Documentation** | Internal (church records) | Arm's-length royalty rates for licenses | High |
+
+### 17.9 Questions for Counsel — Agreements
+
+| # | Question | Priority |
+|---|---|---|
+| 1 | Can the PPA assignment from Daniel to the church be structured as a gift without triggering gift tax? If the PPA has zero tax basis at assignment (no distributions received yet), is the gift tax value zero? | Critical |
+| 2 | Should the church be a direct party to the PPA (three-party: entity + S.A. + church), or should the PPA remain bilateral (entity + Daniel) with a separate assignment agreement? Which structure is stronger? | Critical |
+| 3 | Does DIFC law (Dubai) or Cook Islands law provide stronger enforcement mechanisms for PPA holders? Should we include parallel arbitration clauses? | Important |
+| 4 | Can the church's PPA audit rights be exercised by the church's own accountant, or must it be an independent third-party auditor? | Important |
+| 5 | If an entity restructures (e.g., LBS migrates from Dubai to another jurisdiction), what mechanism ensures the PPA survives without requiring a new agreement? | Important |
+| 6 | For content/tech licenses: what comparable royalty rates in the wellness/spiritual content industry support the rates we set? Should we commission a transfer pricing study? | Important |
+| 7 | Can the acceleration clause (default on 2+ quarters of distributions → all future amounts due immediately) be enforced in DIFC and Cook Islands courts? | Important |
+| 8 | If the PIF or S.A. attempts to sell entity shares without triggering PPA change-of-control provisions, what legal remedies does the church have? Can we add a lien or security interest? | Forward |
+
+---
+
+## 18. Action Items — Church Formation (updated — includes agreement execution)
 
 ```mermaid
 gantt
@@ -940,9 +1350,15 @@ gantt
     Launch charitable programs                :a17, 2026-04-01, 60d
     Establish retirement plans                :a15, 2026-04-15, 60d
 
-    section Agreements
-    Execute PPA Assignment (Daniel)           :crit, a12, 2026-04-05, 14d
-    Execute PPA Assignment (Jason, if C/D)    :a13, 2026-04-05, 14d
+    section Agreements (Section 17)
+    Draft PPAs with 14 principles (LBS + LBC)  :crit, a19, 2026-03-08, 28d
+    Transfer pricing study (licenses)           :a24, 2026-03-15, 28d
+    Execute PPA Assignment (Daniel → Church)    :crit, a12, 2026-04-05, 14d
+    Execute PPA Assignment (Jason, if C/D)      :a13, 2026-04-05, 14d
+    Execute content license (TE Holdings)       :a20, 2026-04-12, 14d
+    Execute spiritual tech license (CI IBC)     :a21, 2026-04-12, 14d
+    Execute governance agreement (LBS board)    :a22, 2026-04-12, 14d
+    Execute advisory board agreement (LBC)      :a23, 2026-04-12, 14d
 ```
 
 | # | Action | Owner | Timeline | Priority |
@@ -965,10 +1381,17 @@ gantt
 | 16 | **Begin regular worship services** — weekly, documented, genuine | Daniel + family | Month 1 | **Critical** |
 | 17 | **Launch charitable programs** — at least one charitable initiative beyond minister compensation | Nicholas Courchesne (Outreach Director) | Months 2-3 | High |
 | 18 | **Document everything** — meeting minutes, resolutions, ministry logs, asset use, charitable activity | Nicholas Courchesne (Secretary) | Ongoing | **Critical** |
+| 19 | **Draft PPAs incorporating all 14 bulletproof principles** — LBS (30% + 10%) and LBC (30% + 10%), with profit participation, exit participation, anti-dilution, non-subordination, change of control, audit rights, specific performance, survival, MFN (see Section 17) | Attorney (PPA counsel) | Weeks 2-6 | **Critical** |
+| 20 | **Execute Content License Agreement** — church licenses spiritual content to TE Holdings (Cayman) for ongoing royalty | Attorney | Weeks 6-8 | High |
+| 21 | **Execute Spiritual Tech License Agreement** — church licenses spiritual methodologies to LBC (Cook Islands) for ongoing royalty | Attorney | Weeks 6-8 | High |
+| 22 | **Execute Governance Agreement (LBS)** — church board seat on LBS, veto rights, observer rights per Principle 13 | Attorney | Weeks 6-8 | High |
+| 23 | **Execute Advisory Board Agreement (LBC)** — church advisory board seat on LBC, equivalent governance per Principle 13 | Attorney | Weeks 6-8 | High |
+| 24 | **Commission transfer pricing study** — establish arm's-length royalty rates for content and spiritual tech licenses. Document comparable rates in wellness/spiritual industry. | Attorney + TP consultant | Weeks 3-7 | High |
+| 25 | **PPA holder meeting** — all four PPA holders (church, Nicholas, Andreas, Jason) align on PPA terms, governance structure, and distribution mechanics before execution | Daniel + founders | Week 4 | **Critical** |
 
 ---
 
-## 18. Questions for Counsel (Church-Specific)
+## 19. Questions for Counsel (Church-Specific)
 
 | # | Question | Priority |
 |---|---|---|
