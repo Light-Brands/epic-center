@@ -53,7 +53,6 @@ const NAV_SECTIONS: NavSection[] = [
   {
     title: 'Analysis',
     links: [
-      { name: 'Overview', href: '/overview' },
       { name: 'Financials', href: '/financials' },
       { name: 'Risks', href: '/risks' },
       { name: 'Timeline', href: '/timeline' },
@@ -63,6 +62,7 @@ const NAV_SECTIONS: NavSection[] = [
   {
     title: 'Resources',
     links: [
+      { name: 'Summary', href: '/overview' },
       { name: 'Legal', href: '/legal' },
       { name: 'Counsel', href: '/counsel', locked: true },
       { name: 'Outcomes', href: '/outcomes' },
