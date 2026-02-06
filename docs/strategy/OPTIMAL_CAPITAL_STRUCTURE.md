@@ -166,6 +166,56 @@ INVESTOR ENTRY POINTS (vary by strategy — see Sections 5–7):
   OpCo Investors ──→ TE Wellness Holdings (~30% equity / convertible notes)
 ```
 
+```mermaid
+graph TB
+    PIF["PANAMA PIF<br/>(Private Interest Foundation)<br/>0% tax"]
+    SA["PANAMANIAN HOLDINGS S.A.<br/>(Panama Corporation)<br/>0% territorial"]
+
+    HOLDINGS["TE WELLNESS HOLDINGS<br/>(Cayman Exempted Co.)<br/>Owns all TE IP · Investable vehicle<br/>0% unconditional"]
+    RE_HOLD["TE REAL ESTATE HOLDINGS<br/>(Cayman or Delaware)<br/>Dedicated RE vehicle<br/>Per strategy"]
+    STUDIO["LIGHT BRANDS STUDIO<br/>FZ-LLC (Dubai)<br/>Shared service center<br/>0% QFZP"]
+    CI["LIGHT BRANDS CONSULTING<br/>LTD (Cook Islands IBC)<br/>External revenue · LB IP<br/>0%"]
+
+    OPS["TE OPS MEXICO<br/>S. de R.L. de C.V.<br/>Medical operations<br/>30% on margin"]
+    REDEV["TE RE ACQ & DEV MEXICO<br/>S.A. de C.V.<br/>Property · Fideicomiso<br/>30% on margin"]
+    REMGMT["TE RE MANAGEMENT MEXICO<br/>S.A. de C.V.<br/>Property mgmt · Villa program<br/>30% on margin"]
+    FIDEI["FIDEICOMISO<br/>(50-year Bank Trust)"]
+
+    CHURCH["CHURCH OF THE LIVING LIGHT<br/>508(c)(1)(A) Nonprofit<br/>Dual royalty streams<br/>0% exempt"]
+
+    RE_INV["RE INVESTORS"]
+    OPCO_INV["OPCO INVESTORS<br/>(~30% equity)"]
+
+    PIF -->|"100%"| SA
+    SA -->|"~70%"| HOLDINGS
+    SA -->|"100%"| RE_HOLD
+    SA -->|"100%"| STUDIO
+    SA -->|"100%"| CI
+    HOLDINGS -->|"100%"| OPS
+    RE_HOLD -->|"100%"| REDEV
+    RE_HOLD -->|"100%"| REMGMT
+    REDEV --> FIDEI
+    HOLDINGS -.->|"Content license"| CHURCH
+    CI -.->|"Spiritual tech license"| CHURCH
+
+    RE_INV ==>|"Per strategy"| RE_HOLD
+    OPCO_INV ==>|"Per strategy"| HOLDINGS
+
+    style PIF fill:#1a1a2e,stroke:#e94560,color:#fff
+    style SA fill:#2c1810,stroke:#e94560,color:#fff
+    style HOLDINGS fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style RE_HOLD fill:#4a2c0a,stroke:#ffd700,color:#fff
+    style STUDIO fill:#0f3460,stroke:#e94560,color:#fff
+    style CI fill:#0d7377,stroke:#14ffec,color:#fff
+    style OPS fill:#16213e,stroke:#0f3460,color:#fff
+    style REDEV fill:#16213e,stroke:#0f3460,color:#fff
+    style REMGMT fill:#16213e,stroke:#0f3460,color:#fff
+    style FIDEI fill:#2d4059,stroke:#ea5455,color:#fff
+    style CHURCH fill:#533483,stroke:#ffd700,color:#fff
+    style RE_INV fill:#c9770a,stroke:#fff,color:#fff
+    style OPCO_INV fill:#c9770a,stroke:#fff,color:#fff
+```
+
 > **Source:** `docs/tax-structure/07-ECOSYSTEM-ARCHITECTURE.md`; `docs/strategy/CORPORATE_STRUCTURE_OPTIMIZATION_STRATEGY.md`
 
 ### 3.2 Top-Down Entity Architecture
@@ -327,6 +377,26 @@ TE Wellness Holdings (Cayman)        TE Real Estate Holdings (Cayman/DE)
          │                              │◄─────────────────┤
 ```
 
+```mermaid
+graph LR
+    subgraph owned_by_holdings["Owned by TE Wellness Holdings (Cayman)"]
+        OPS["TE Ops Mexico<br/>(Medical Operations)"]
+    end
+
+    subgraph owned_by_re["Owned by TE Real Estate Holdings"]
+        REDEV["TE RE Acq & Dev Mexico<br/>(Property · Fideicomiso)"]
+        REMGMT["TE RE Management Mexico<br/>(Property Mgmt · Villa Program)"]
+    end
+
+    REDEV -->|"Lease / use agreement<br/>(arm's length rent)"| OPS
+    REMGMT -->|"Facility mgmt services<br/>(maintenance, utilities,<br/>hospitality)"| OPS
+    REMGMT -->|"Property management<br/>agreement"| REDEV
+
+    style OPS fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style REDEV fill:#16213e,stroke:#0f3460,color:#fff
+    style REMGMT fill:#16213e,stroke:#0f3460,color:#fff
+```
+
 **Key intercompany flows:**
 - **TE RE Acq & Dev → TE Ops Mexico:** Lease or use agreement for medical facility space (arm's length rent)
 - **TE RE Management → TE Ops Mexico:** Facility management services (maintenance, utilities, non-clinical hospitality)
@@ -467,6 +537,37 @@ Panama PIF
 RE Investors → Preferred Equity in TE Real Estate Holdings (no common, no votes)
 OpCo Investors → ~25% Preferred Equity in TE Wellness Holdings
 OpCo Investors → Revenue Participation Agreement (separate instrument)
+```
+
+```mermaid
+graph TB
+    F["FOUNDERS<br/>(via Panama PIF → Panamanian Holdings S.A.)"]
+
+    RE["TE REAL ESTATE HOLDINGS, LLC<br/>(Delaware or Cayman)"]
+    OPCO["TE WELLNESS HOLDINGS<br/>(Cayman Exempted Co.)"]
+
+    F -->|"100% common equity<br/>100% voting control"| RE
+    F -->|"≥75% equity<br/>≥75% voting control"| OPCO
+
+    RE --> REDEV["TE RE Acq & Dev Mexico<br/>+ Fideicomiso"]
+    RE --> REMGMT["TE RE Management Mexico"]
+    OPCO --> OPS["TE Ops Mexico<br/>(Medical Operations)"]
+
+    RE_INV["RE INVESTORS<br/>$10–12M"] -.->|"Non-voting Preferred Equity<br/>9% cumulative preferred<br/>Mandatory redemption Year 5<br/>First-lien property security"| RE
+
+    OPCO_EQ["OPCO EQUITY INVESTORS<br/>$2–2.5M"] -.->|"≤25% Preferred Equity<br/>10% cumulative · 1x liq pref"| OPCO
+
+    OPCO_RBF["OPCO REVENUE INVESTORS<br/>$2.5–3M"] -.->|"Revenue Participation<br/>5% gross revenue · 2.0x cap<br/>No equity · Self-liquidating"| OPCO
+
+    style F fill:#2c1810,stroke:#ffd700,color:#fff
+    style RE fill:#4a2c0a,stroke:#ffd700,color:#fff
+    style OPCO fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style REDEV fill:#16213e,stroke:#0f3460,color:#fff
+    style REMGMT fill:#16213e,stroke:#0f3460,color:#fff
+    style OPS fill:#16213e,stroke:#0f3460,color:#fff
+    style RE_INV fill:#c9770a,stroke:#fff,color:#fff
+    style OPCO_EQ fill:#c9770a,stroke:#fff,color:#fff
+    style OPCO_RBF fill:#c9770a,stroke:#fff,color:#fff
 ```
 
 ---
@@ -704,6 +805,37 @@ OpCo Investors → ~30% Preferred Equity in TE Wellness Holdings
 OpCo Investors → Revenue Participation Agreement (separate instrument)
 ```
 
+```mermaid
+graph TB
+    F["FOUNDERS<br/>(via Panama PIF → Panamanian Holdings S.A.)"]
+
+    RE["TE REAL ESTATE HOLDINGS, LLC<br/>(Delaware or Cayman)<br/>100% Founder Equity"]
+    OPCO["TE WELLNESS HOLDINGS<br/>(Cayman Exempted Co.)"]
+
+    F -->|"100% equity ownership<br/>100% control<br/>No investor equity"| RE
+    F -->|"70% equity<br/>70% voting control"| OPCO
+
+    RE --> REDEV["TE RE Acq & Dev Mexico<br/>+ Fideicomiso"]
+    RE --> REMGMT["TE RE Management Mexico"]
+    OPCO --> OPS["TE Ops Mexico<br/>(Medical Operations)"]
+
+    RE_DEBT["RE LENDERS<br/>$10–12M"] -.->|"Secured Notes (DEBT)<br/>11% annual interest<br/>Interest-only 24 months<br/>Amortizing months 25–60<br/>Balloon at Year 5<br/>First-lien security"| RE
+
+    OPCO_EQ["OPCO EQUITY INVESTORS<br/>$2.5–3M"] -.->|"30% Preferred Equity<br/>10% cumulative · 1x liq pref"| OPCO
+
+    OPCO_RBF["OPCO REVENUE INVESTORS<br/>$2–2.5M"] -.->|"Revenue Participation<br/>6% gross revenue · 2.0x cap<br/>No equity · Self-liquidating"| OPCO
+
+    style F fill:#2c1810,stroke:#ffd700,color:#fff
+    style RE fill:#4a2c0a,stroke:#ffd700,color:#fff
+    style OPCO fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style REDEV fill:#16213e,stroke:#0f3460,color:#fff
+    style REMGMT fill:#16213e,stroke:#0f3460,color:#fff
+    style OPS fill:#16213e,stroke:#0f3460,color:#fff
+    style RE_DEBT fill:#c9770a,stroke:#fff,color:#fff
+    style OPCO_EQ fill:#c9770a,stroke:#fff,color:#fff
+    style OPCO_RBF fill:#c9770a,stroke:#fff,color:#fff
+```
+
 ---
 
 ### 6.2 Capital Stack
@@ -934,6 +1066,40 @@ Panama PIF
 RE LP Investors → Limited Partners in TE Real Estate Fund, LP
 OpCo Investors → Convertible Notes in TE Wellness Holdings
 OpCo Investors → Optional Direct Equity Tranche (up to $1.5M)
+```
+
+```mermaid
+graph TB
+    F["FOUNDERS<br/>(via Panama PIF → Panamanian Holdings S.A.)"]
+
+    GP["TE RE GP LLC<br/>(100% Founder-Controlled)"]
+    FUND["TE REAL ESTATE FUND, LP<br/>(Cayman Exempted LP)"]
+    OPCO["TE WELLNESS HOLDINGS<br/>(Cayman Exempted Co.)"]
+
+    F -->|"100% of GP"| GP
+    GP -->|"GP of Fund<br/>1–2% economic · 100% control<br/>1.5% mgmt fee · 20% carry"| FUND
+    F -->|"≥70% equity<br/>(post-conversion)"| OPCO
+
+    FUND --> REDEV["TE RE Acq & Dev Mexico<br/>+ Fideicomiso"]
+    FUND --> REMGMT["TE RE Management Mexico"]
+    OPCO --> OPS["TE Ops Mexico<br/>(Medical Operations)"]
+
+    RE_LP["RE LP INVESTORS<br/>$10–12M"] -.->|"LP Units<br/>98–99% economic<br/>8% preferred return<br/>80/20 split above hurdle<br/>Optional redemption Year 5"| FUND
+
+    OPCO_CONV["OPCO CONVERTIBLE<br/>$3–4M"] -.->|"Convertible Notes<br/>8% accruing interest<br/>Auto-convert Month 24<br/>$15M valuation cap<br/>or 1.5x repayment"| OPCO
+
+    OPCO_EQ["OPCO DIRECT EQUITY<br/>$1–1.5M"] -.->|"15–20% Preferred Equity<br/>12% cumulative · 1x liq pref"| OPCO
+
+    style F fill:#2c1810,stroke:#ffd700,color:#fff
+    style GP fill:#2c1810,stroke:#e94560,color:#fff
+    style FUND fill:#4a2c0a,stroke:#ffd700,color:#fff
+    style OPCO fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style REDEV fill:#16213e,stroke:#0f3460,color:#fff
+    style REMGMT fill:#16213e,stroke:#0f3460,color:#fff
+    style OPS fill:#16213e,stroke:#0f3460,color:#fff
+    style RE_LP fill:#c9770a,stroke:#fff,color:#fff
+    style OPCO_CONV fill:#c9770a,stroke:#fff,color:#fff
+    style OPCO_EQ fill:#c9770a,stroke:#fff,color:#fff
 ```
 
 ---
