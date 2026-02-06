@@ -42,6 +42,7 @@ const NAV_SECTIONS = [
   {
     title: 'Analysis',
     links: [
+      { name: 'Overview', href: '/overview' },
       { name: 'Financials', href: '/financials' },
       { name: 'Risks', href: '/risks' },
       { name: 'Timeline', href: '/timeline' },
