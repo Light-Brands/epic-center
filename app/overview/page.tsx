@@ -640,9 +640,9 @@ export default function OverviewPage() {
           {/* CTA */}
           <Card padding="lg" className="bg-gradient-to-br from-primary-800 to-primary-900 text-white">
             <div className="text-center max-w-xl mx-auto">
-              <h3 className="text-2xl md:text-3xl font-heading mb-3">Ready to Learn More?</h3>
+              <h3 className="text-2xl md:text-3xl font-heading text-white mb-3">Next Steps</h3>
               <p className="text-primary-200 mb-6">
-                Access the full data room or schedule a conversation with our team.
+                Review detailed financials in the data room or connect directly with our team.
               </p>
               <div className="flex flex-wrap items-center justify-center gap-4">
                 <Link href="/data-room">
