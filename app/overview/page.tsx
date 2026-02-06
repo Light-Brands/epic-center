@@ -44,6 +44,7 @@ import {
   INVESTMENT_RETURNS,
   CASITA_PHASING,
   REVENUE_CHART_DATA,
+  VILLA_PROGRAM_FINANCIALS,
 } from '@/lib/sheets/data'
 import {
   formatCurrency,
@@ -121,29 +122,37 @@ const BU_DISPLAY = [
   {
     unit: BUSINESS_UNITS[0], // Healing Center
     icon: Heart,
-    y5Rev: formatCurrency(BUSINESS_UNITS[0].y5Revenue.base),
-    y5EBITDA: formatCurrency(BUSINESS_UNITS[0].y5EBITDA.base),
+    metric1Label: 'Y5 Revenue',
+    metric1: formatCurrency(BUSINESS_UNITS[0].y5Revenue.base),
+    metric2Label: 'Y5 EBITDA',
+    metric2: formatCurrency(BUSINESS_UNITS[0].y5EBITDA.base),
     value: formatCurrency(BUSINESS_UNITS[0].standaloneValue.base),
   },
   {
     unit: BUSINESS_UNITS[1], // Real Estate
     icon: Building2,
-    y5Rev: '$12M cumulative',
-    y5EBITDA: '$12M cumulative',
+    metric1Label: 'Villa Sales',
+    metric1: formatCurrency(VILLA_PROGRAM_FINANCIALS.totalVillaSales),
+    metric2Label: 'Dev Fees',
+    metric2: formatCurrency(VILLA_PROGRAM_FINANCIALS.cumulativeDevFees),
     value: formatCurrency(BUSINESS_UNITS[1].standaloneValue.base),
   },
   {
     unit: BUSINESS_UNITS[2], // Property Management
     icon: Home,
-    y5Rev: formatCurrency(BUSINESS_UNITS[2].y5Revenue.base),
-    y5EBITDA: formatCurrency(BUSINESS_UNITS[2].y5EBITDA.base),
+    metric1Label: 'Y5 Revenue',
+    metric1: formatCurrency(BUSINESS_UNITS[2].y5Revenue.base),
+    metric2Label: 'Y5 EBITDA',
+    metric2: formatCurrency(BUSINESS_UNITS[2].y5EBITDA.base),
     value: formatCurrency(BUSINESS_UNITS[2].standaloneValue.base),
   },
   {
     unit: BUSINESS_UNITS[3], // Technology
     icon: Cpu,
-    y5Rev: '$750K invested',
-    y5EBITDA: 'Internal platform',
+    metric1Label: 'Investment',
+    metric1: '$750K',
+    metric2Label: 'Scope',
+    metric2: '14 systems',
     value: formatCurrency(BUSINESS_UNITS[3].standaloneValue.base),
   },
 ]
@@ -471,12 +480,12 @@ export default function OverviewPage() {
                       <p className="text-xs text-neutral-500 mb-3 line-clamp-2">{bu.unit.description}</p>
                       <div className="grid grid-cols-3 gap-2">
                         <div>
-                          <p className="text-[9px] font-accent uppercase tracking-[0.12em] text-neutral-400">Y5 Revenue</p>
-                          <p className="font-mono text-sm font-semibold text-neutral-900">{bu.y5Rev}</p>
+                          <p className="text-[9px] font-accent uppercase tracking-[0.12em] text-neutral-400">{bu.metric1Label}</p>
+                          <p className="font-mono text-sm font-semibold text-neutral-900">{bu.metric1}</p>
                         </div>
                         <div>
-                          <p className="text-[9px] font-accent uppercase tracking-[0.12em] text-neutral-400">Y5 EBITDA</p>
-                          <p className="font-mono text-sm font-semibold text-neutral-900">{bu.y5EBITDA}</p>
+                          <p className="text-[9px] font-accent uppercase tracking-[0.12em] text-neutral-400">{bu.metric2Label}</p>
+                          <p className="font-mono text-sm font-semibold text-neutral-900">{bu.metric2}</p>
                         </div>
                         <div>
                           <p className="text-[9px] font-accent uppercase tracking-[0.12em] text-neutral-400">Implied Value</p>
