@@ -34,6 +34,18 @@ mermaid.initialize({
     clusterBorder: '#94a3b8',
     // Default link colors
     defaultLinkColor: '#374151',
+    // Gantt chart - white text on dark bars
+    taskTextColor: '#ffffff',
+    taskTextOutsideColor: '#1e3a5f',
+    taskBkgColor: '#1e3a5f',
+    activeTaskBkgColor: '#2c4f7c',
+    activeTaskBorderColor: '#1e3a5f',
+    doneTaskBkgColor: '#374151',
+    doneTaskBorderColor: '#374151',
+    sectionBkgColor: '#f1f5f9',
+    sectionBkgColor2: '#e8edf3',
+    gridColor: '#cbd5e1',
+    todayLineColor: '#d4a853',
     // Fonts
     fontFamily: 'ui-sans-serif, system-ui, sans-serif',
     fontSize: '13px',
