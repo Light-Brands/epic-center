@@ -131,10 +131,10 @@ const BU_DISPLAY = [
   {
     unit: BUSINESS_UNITS[1], // Real Estate
     icon: Building2,
-    metric1Label: 'Villa Sales',
+    metric1Label: 'Villa Program',
     metric1: formatCurrency(VILLA_PROGRAM_FINANCIALS.totalVillaSales),
-    metric2Label: 'Dev Fees',
-    metric2: formatCurrency(VILLA_PROGRAM_FINANCIALS.cumulativeDevFees),
+    metric2Label: 'Dev Fee Rate',
+    metric2: '12.5%',
     value: formatCurrency(BUSINESS_UNITS[1].standaloneValue.base),
   },
   {
