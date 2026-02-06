@@ -21,31 +21,49 @@ graph TB
     end
 
     subgraph "Economic Ownership (via Profit Participation Agreements)"
-        DL["Daniel Lawless<br/>30% LBS + 30% LBC<br/>US founder"]
+        CHURCH["Church of the Living Light<br/>30% LBS + 30% LBC<br/>(Daniel's PPA assigned to Church)"]
         NC["Nicholas Courschesne<br/>30% LBS + 30% LBC<br/>Canadian founder"]
         AD["Andreas Demou<br/>30% LBS + 30% LBC<br/>Cyprus founder"]
         JS["Jason Sparks<br/>10% LBS + 10% LBC<br/>US founder"]
     end
 
-    PIF -.->|"PPA: 30%"| DL
+    PIF -.->|"PPA: 30%"| CHURCH
     PIF -.->|"PPA: 30%"| NC
     PIF -.->|"PPA: 30%"| AD
     PIF -.->|"PPA: 10%"| JS
 
     style PIF fill:#1a1a2e,stroke:#e94560,color:#fff
-    style DL fill:#0a8754,stroke:#fff,color:#fff
+    style CHURCH fill:#533483,stroke:#ffd700,color:#fff
     style NC fill:#0a8754,stroke:#fff,color:#fff
     style AD fill:#0a8754,stroke:#fff,color:#fff
     style JS fill:#0a8754,stroke:#fff,color:#fff
 ```
 
-| Founder | LBS Share | LBC Share | Jurisdiction | Tax Profile |
-|---|---|---|---|---|
-| **Daniel Lawless** | 30% | 30% | US citizen, Dubai resident | FEIE + Church channels. ~3.7% effective. No foreign ownership → no CFC/GILTI. |
-| **Nicholas Courschesne** | 30% | 30% | Canadian, Dubai resident (post-departure) | PIF beneficiary. 0% on distributions. No Canadian tax post-departure. |
-| **Andreas Demou** | 30% | 30% | Cyprus deemed domiciled | Salary at 0% (90-day exemption). PIF distributions at ~7.65% (5% SDC + GHS). |
-| **Jason Sparks** | 10% | 10% | US citizen, Dubai resident | Same structure as Daniel. FEIE + Church. No foreign ownership → no CFC/GILTI. |
-| **Total** | **100%** | **100%** | | |
+| Founder | LBS Share | LBC Share | PPA Holder | Jurisdiction | Tax Profile |
+|---|---|---|---|---|---|
+| **Daniel Lawless** | 30% | 30% | **Church of the Living Light** | US citizen, Dubai resident | PPA assigned to church (tax-exempt). All economics flow through church minister compensation: salary, housing (IRC 107, tax-free), retirement (403b/457b/457f, deferred), church-owned assets. ~2.5% effective. |
+| **Nicholas Courschesne** | 30% | 30% | Nicholas (personal) | Canadian, Dubai resident (post-departure) | PIF beneficiary. 0% on distributions. No Canadian tax post-departure. |
+| **Andreas Demou** | 30% | 30% | Andreas (personal) | Cyprus deemed domiciled | Salary at 0% (90-day exemption). PIF distributions at ~7.65% (5% SDC + GHS). |
+| **Jason Sparks** | 10% | 10% | Jason (personal) | US citizen, Dubai resident | FEIE + Church channels. No foreign ownership → no CFC/GILTI. |
+| **Total** | **100%** | **100%** | | | |
+
+### The Copeland Model (Daniel Lawless)
+
+Daniel's 30% PPA interest in both LBS and LBC is **irrevocably assigned to the Church of the Living Light**. The church — not Daniel — receives quarterly profit distributions. Daniel personally owns minimal assets; the church purchases and owns everything (parsonage, vehicles, technology, travel) and provides for Daniel as its ordained minister through tax-efficient compensation channels.
+
+**Why this works:**
+- The church is a 508(c)(1)(A) tax-exempt organization — PPA distributions are received tax-free
+- Even if the IRS argued PPAs constitute "ownership" (they don't), the "owner" is a tax-exempt entity — CFC/GILTI has no tax consequence for an exempt entity
+- PPA distributions are likely UBIT-exempt as investment/royalty-type income under IRC 512(b)(2) — counsel to confirm
+- The church's total revenue (PPA distributions + content royalty from Holdings + spiritual tech royalty from CI IBC) supports board-approved minister compensation
+- Kenneth Copeland Ministries has operated this model for 50+ years: church-owned $7M parsonage, private jets, survived Congressional investigation with zero penalties
+
+**Bright lines:**
+- PPA assignment must be irrevocable — Daniel cannot retain a right to reclaim the PPA
+- Church Spiritual Council (independent board) controls how PPA revenue is used — Daniel does not control the board
+- Minister compensation must be board-approved with comparable data (rebuttable presumption under 26 CFR 53.4958-6)
+- Church-owned assets must have primary ministry use, documented
+- Church must maintain substantial charitable activity proportional to its revenue — it cannot exist solely to benefit the founder
 
 ---
 
@@ -124,28 +142,32 @@ Each founder's PPA is a standalone agreement with the PIF and/or Panamanian Hold
 
 ## 5. Tax Treatment by Founder
 
-### Daniel Lawless (US, 30%)
+### Daniel Lawless (US, 30% — Church-Held PPA)
 
 ```mermaid
 graph LR
-    LBS_D["LBS (Dubai)"] -->|"Quarterly profit share<br/>30% of distributable profits"| DL["Daniel Lawless"]
-    LBC_D["LBC (Cook Islands)"] -->|"Quarterly profit share<br/>30% of distributable profits"| DL
+    LBS_D["LBS (Dubai)"] -->|"Quarterly profit share<br/>30% of distributable profits"| CHURCH["Church of the<br/>Living Light<br/>(tax-exempt)"]
+    LBC_D["LBC (Cook Islands)"] -->|"Quarterly profit share<br/>30% of distributable profits"| CHURCH
+    CHURCH -->|"Minister salary<br/>Housing allowance<br/>Retirement plans<br/>Church-owned assets"| DL["Daniel Lawless"]
     LBS_D -->|"Salary<br/>(FEIE shelters $130K)"| DL
 
     style LBS_D fill:#0f3460,stroke:#e94560,color:#fff
     style LBC_D fill:#0d7377,stroke:#14ffec,color:#fff
+    style CHURCH fill:#533483,stroke:#ffd700,color:#fff
     style DL fill:#0a8754,stroke:#fff,color:#fff
 ```
 
 | Income Type | Tax Treatment | Rate |
 |---|---|---|
 | Studio salary (employment) | FEIE excludes first $130K; excess taxed as ordinary income | 0% on first $130K |
-| PPA profit distributions (LBS) | Ordinary income when received (not when earned by entity) | Federal marginal rate (~24-37%) |
-| PPA profit distributions (LBC) | Ordinary income when received | Federal marginal rate (~24-37%) |
-| Exit proceeds | Ordinary income (or capital gains if PPA structured as capital asset — counsel to advise) | 20-37% depending on structure |
-| Church minister comp | Salary + tax-free housing (IRC 107) + tax-deferred retirement | Mixed — see founder guide |
+| PPA profit distributions (LBS + LBC) | **Received by church (tax-exempt), not Daniel personally** | **$0 to Daniel** |
+| Church minister salary | Taxable ordinary income (SE opt-out via Form 4361) | Federal marginal rate |
+| Church housing allowance (IRC 107) | **Tax-free.** No dollar cap. Covers parsonage, utilities, furnishings, maintenance. | **0%** |
+| Church retirement (403b/457b/457f) | **Tax-deferred.** 457(f) is unlimited. | **0% (deferred)** |
+| Church-owned assets | Parsonage, vehicle, tech, travel — ministry use documented. Not personal income. | **0%** |
+| Exit proceeds (entity sale) | Church receives exit proceeds per PPA. Church compensates Daniel through approved channels. | Mixed — see founder guide |
 
-**Critical:** Daniel does NOT own shares. No CFC. No GILTI. No Form 5471. No Subpart F. Tax owed only on cash received.
+**Critical:** Daniel does NOT own shares or PPAs. The church holds the PPAs. No CFC. No GILTI. No Form 5471. No Subpart F. PPA distributions never appear on Daniel's personal return — they are church revenue. Daniel is taxed only on minister salary and the portion of UAE salary exceeding FEIE.
 
 ### Jason Sparks (US, 10%)
 
@@ -208,6 +230,8 @@ graph LR
 | 5 | **Vesting Schedule** (can be embedded in PPAs or standalone) | PIF + each founder | 4-year vesting, 1-year cliff, acceleration triggers, good/bad leaver provisions | UAE + US counsel |
 | 6 | **PIF Private Regulations (Amendment)** | PIF Foundation Council | Amend PIF private regulations to acknowledge PPA obligations and ensure PIF distributes per PPAs, and S.A. corporate resolutions acknowledging PPA obligations | Panama counsel |
 | 6b | **S.A. Incorporation Documents** | Panama counsel | Panamanian Holdings S.A. formation as PIF subsidiary. Articles of incorporation, board appointment, registered agent engagement. | Panama counsel |
+| 6c | **PPA Assignment Agreement (Daniel → Church)** | Daniel + Church of the Living Light + PIF + S.A. | Irrevocable assignment of Daniel's 30% PPA interest in LBS and LBC to the church. Church becomes the PPA holder. Daniel retains no right to reclaim the PPA or direct distributions. Church Spiritual Council controls all PPA-related decisions. | US religious nonprofit attorney + US international tax attorney |
+| 6d | **Church UBIT Analysis Memo** | Church + US tax counsel | Written opinion confirming PPA distributions received by the church are UBIT-exempt (investment income under IRC 512(b)(2), not income from unrelated trade or business) | US tax counsel |
 
 ### Tier 2: Protective Agreements (Must Have Before Material Revenue)
 
@@ -253,7 +277,7 @@ graph TB
     RES["Reserves<br/>(3 months operating expenses)"]
     DIST["Distributable Profits"]
 
-    DL_D["Daniel: 30%"]
+    CHURCH_D["Church of the Living Light: 30%<br/>(Daniel's assigned PPA)"]
     NC_D["Nicholas: 30%"]
     AD_D["Andreas: 30%"]
     JS_D["Jason: 10%"]
@@ -263,7 +287,7 @@ graph TB
     TAX --> RES
     RES --> DIST
 
-    DIST --> DL_D
+    DIST --> CHURCH_D
     DIST --> NC_D
     DIST --> AD_D
     DIST --> JS_D
@@ -273,7 +297,7 @@ graph TB
     style TAX fill:#2d4059,stroke:#ea5455,color:#fff
     style RES fill:#2d4059,stroke:#ea5455,color:#fff
     style DIST fill:#8b5e3c,stroke:#ffd700,color:#fff
-    style DL_D fill:#0a8754,stroke:#fff,color:#fff
+    style CHURCH_D fill:#533483,stroke:#ffd700,color:#fff
     style NC_D fill:#0a8754,stroke:#fff,color:#fff
     style AD_D fill:#0a8754,stroke:#fff,color:#fff
     style JS_D fill:#0a8754,stroke:#fff,color:#fff
@@ -285,7 +309,8 @@ graph TB
 3. Entity-level tax: $0 (both entities at 0%)
 4. Retain agreed reserve amount
 5. Remaining = distributable profits → paid to PPA holders pro-rata quarterly
-6. S.A. and PIF receive $0 economic benefit (S.A. holds legal title; PIF owns S.A. — all economics flow to PPA holders)
+6. Daniel's 30% flows to the Church of the Living Light (church-held PPA); Nicholas, Andreas, and Jason receive their shares directly
+7. S.A. and PIF receive $0 economic benefit (S.A. holds legal title; PIF owns S.A. — all economics flow to PPA holders)
 
 ---
 
@@ -317,6 +342,11 @@ graph TB
 | 9 | If a PPA holder becomes a tax resident of a new country, does the PPA need to be restructured? | International tax advisor | Medium |
 | 10 | Insurance: should the entities carry key-person insurance on the four founders? | Insurance broker | Medium |
 | 11 | Should PPAs be with the PIF (ultimate owner) or the S.A. (direct legal owner of LBS and LBC)? If with S.A., does the PIF still need to be a party? | Panama counsel + UAE/CI counsel | High |
+| 12 | Does irrevocable assignment of Daniel's PPA to the church create any adverse tax consequences at the moment of assignment (gift tax, deemed sale, constructive receipt)? | US international tax attorney | **Critical** |
+| 13 | Are PPA distributions received by a 508(c)(1)(A) church UBIT-exempt under IRC 512(b)(2)? If not, what classification applies? | US tax counsel | **Critical** |
+| 14 | Can the church hold PPA interests in foreign entities without creating CFC/GILTI exposure? (Church is tax-exempt — even if PPAs were treated as "ownership," there should be no tax consequence for an exempt entity.) | US international tax attorney | **Critical** |
+| 15 | What is the maximum defensible total minister compensation package (salary + housing + retirement + church-owned assets) relative to church revenue? Is there a safe harbor ratio? | US religious nonprofit attorney | High |
+| 16 | If the church receives PPA exit proceeds on an entity sale, can exit proceeds be distributed to Daniel through church compensation channels (retirement plans, housing allowance)? Or must they be retained as church assets? | US religious nonprofit attorney | High |
 
 ---
 

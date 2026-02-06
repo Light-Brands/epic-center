@@ -137,6 +137,33 @@ Bring the relevant section to each counsel meeting. Questions are organized by j
 **Context:** The church will receive two royalty streams: (1) content license from TE Holdings (Cayman — TE spiritual content), and (2) spiritual technology license from CI IBC (Light Brands tools/platforms). Both should be UBIT-exempt under IRC 512(b)(2) as royalty income.
 **Question:** Does receiving royalties from two separate foreign entities (one in Cayman, one in Cook Islands) raise any additional UBIT, unrelated business income, or church status concerns? Is a royalty from a Cayman Exempted Company treated identically to one from a UAE entity for UBIT purposes? Any special documentation needed for the dual-stream structure?
 
+### Church-Held PPA Questions
+
+### Q61: PPA Assignment — Tax Consequences at Assignment
+**Priority:** CRITICAL
+**Context:** Daniel will irrevocably assign his 30% PPA interest in LBS (Dubai FZ-LLC) and LBC (Cook Islands IBC) to the Church of the Living Light (508(c)(1)(A)). The church will receive quarterly profit distributions.
+**Question:** Does the irrevocable assignment of a PPA interest to a tax-exempt church trigger any adverse tax consequences at the moment of assignment — gift tax, deemed sale, constructive receipt, or recognition of gain?
+
+### Q62: PPA Distributions — UBIT Classification
+**Priority:** CRITICAL
+**Context:** The church will receive quarterly PPA distributions from LBS and LBC. Royalty income is clearly UBIT-exempt under IRC 512(b)(2). PPA distributions are contractual profit-sharing payments, not traditional royalties.
+**Question:** Are PPA distributions received by a 508(c)(1)(A) church classified as UBIT-exempt investment income under IRC 512(b)(2), or as income from an unrelated trade or business subject to UBIT?
+
+### Q63: Church as PPA Holder — CFC Implications
+**Priority:** CRITICAL
+**Context:** PPAs are contractual rights, not equity. However, if the IRS argued that holding a PPA constitutes "ownership" of a foreign entity, the church (a US entity) could theoretically be a "US shareholder" for CFC purposes. Since the church is tax-exempt, GILTI/Subpart F inclusions should have no tax consequence.
+**Question:** Confirm that a 508(c)(1)(A) church holding a PPA in foreign entities (LBS Dubai, LBC Cook Islands) faces no CFC/GILTI exposure — either because PPAs are not "ownership" or because the church is exempt from income tax regardless.
+
+### Q64: Maximum Defensible Minister Compensation
+**Priority:** IMPORTANT
+**Context:** Under the Copeland model, the church's total revenue (PPA distributions + dual royalties) will support minister compensation including salary, IRC 107 housing allowance, 403(b)(9) + 457(b) + 457(f) retirement, and church-owned assets (parsonage, vehicles, technology, travel). Kenneth Copeland Ministries operates a $7M parsonage and private jets.
+**Question:** What is the maximum defensible total minister compensation package relative to church revenue? Is there a safe harbor ratio of minister benefit to total church expenditure? What comparable data should the board use?
+
+### Q65: Constructive Receipt Defense
+**Priority:** IMPORTANT
+**Context:** Daniel irrevocably assigns the PPA to the church. He has no right to reclaim it. The church's Spiritual Council independently decides how PPA revenue is used.
+**Question:** Does the irrevocable nature of the PPA assignment fully eliminate constructive receipt risk? Are there any additional steps needed to ensure the IRS cannot argue Daniel "constructively received" the PPA distributions?
+
 ---
 
 ## 3. US International Tax Attorney
@@ -401,6 +428,7 @@ These do not need immediate answers but should be tracked for future counsel eng
 | **Week 1-2** | UAE tax | Q1 (QFZP for B2B service fees), Q1b (dev services classification), Q47 (UAE↔CI IBC pricing), Q47b (Holdings→Studio QFZP) |
 | **Week 1-2** | US international tax | Q10 (CFC elimination), Q44 (CI IBC look-through) |
 | **Week 1-2** | US religious nonprofit | Q6 (508(c)(1)(A) eligibility), Q45 (dual royalty streams — Cayman source) |
+| **Week 1-2** | US religious nonprofit (Copeland model) | Q61 (PPA assignment tax consequences), Q62 (UBIT classification), Q63 (CFC implications), Q64 (max compensation), Q65 (constructive receipt) |
 | **Week 1-2** | Cook Islands | Q37 (registered agent), Q38 (directors), Q41 (banking) |
 | **Week 1-2** | Cyprus tax | Q27 (90-day exemption) |
 | **Weeks 2-4** | Cayman corporate | Q50 (PIF as majority / director duties), Q52 (dividends) |

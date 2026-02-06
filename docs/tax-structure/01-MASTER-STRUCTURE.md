@@ -356,6 +356,8 @@ graph TB
     CHURCH_PAY["Church of the Living Light<br/>(US)"]
     SA_PAY["Panamanian Holdings S.A."]
     PIF_PAY["Panama PIF"]
+    LBS_PAY["Light Brands Studio<br/>(Dubai — LB profits)"]
+    LBC_PAY["Light Brands Consulting<br/>(Cook Islands — LB profits)"]
 
     US["US Founder<br/>~3.7% effective"]
     CA["Canadian Founder<br/>0% effective"]
@@ -372,6 +374,9 @@ graph TB
     CHURCH_PAY -->|"Minister salary"| CA
     CHURCH_PAY -->|"Minister salary"| CY
 
+    LBS_PAY -->|"PPA: 30% profit share<br/>(Daniel's assigned PPA)"| CHURCH_PAY
+    LBC_PAY -->|"PPA: 30% profit share<br/>(Daniel's assigned PPA)"| CHURCH_PAY
+
     SA_PAY -->|"Dividends (0%)"| PIF_PAY
     PIF_PAY -->|"Distributions<br/>(0% — no Canadian tax)"| CA
     PIF_PAY -->|"Distributions<br/>(~7.65% — SDC + health)"| CY
@@ -380,6 +385,8 @@ graph TB
     style CHURCH_PAY fill:#533483,stroke:#ffd700,color:#fff
     style SA_PAY fill:#2c1810,stroke:#e94560,color:#fff
     style PIF_PAY fill:#1a1a2e,stroke:#e94560,color:#fff
+    style LBS_PAY fill:#0f3460,stroke:#e94560,color:#fff
+    style LBC_PAY fill:#0d7377,stroke:#14ffec,color:#fff
     style US fill:#0a8754,stroke:#fff,color:#fff
     style CA fill:#0a8754,stroke:#fff,color:#fff
     style CY fill:#0a8754,stroke:#fff,color:#fff
@@ -394,9 +401,10 @@ graph TB
 | **Church housing allowance** | Tax-free under IRC 107 | N/A | N/A |
 | **Church retirement** | Tax-deferred (403b/457b/457f) | N/A | N/A |
 | **Church-owned assets** | Ministry use (documented) | N/A | N/A |
-| **PIF distributions** | NOT a beneficiary (no CFC/GILTI) | 0% | ~7.65% (5% SDC + GHS) |
+| **Church-held PPA (LBS + LBC)** | Church receives 30% PPA distributions (Copeland model). $0 personal tax. | N/A | N/A |
+| **PIF distributions** | NOT a beneficiary or PPA holder (PPA assigned to church). No CFC/GILTI. | 0% | ~7.65% (5% SDC + GHS) |
 
-**Critical:** The US founder is **not** a PIF beneficiary or owner. This eliminates CFC, GILTI, Subpart F, and Form 5471 entirely.
+**Critical:** The US founder is **not** a PIF beneficiary or owner. This eliminates CFC, GILTI, Subpart F, and Form 5471 entirely. The church holds Daniel's PPA interest -- LB profit distributions are church revenue, not personal income.
 
 ---
 

@@ -158,6 +158,16 @@ TE satisfies all three. Christ consciousness doctrine predates tax planning, add
 
 **Why TE is safe:** The church has its own independent Spiritual Council. No operating entity has any governance role over the church. No shared bank accounts. No overlapping board members who could create control allegations. The church now receives content licenses from TE Holdings (investor-backed, independent board) rather than from Studio (100% founder-controlled via PIF), which further strengthens the church's independence.
 
+### Church-Held PPA (The Copeland Model)
+
+**Risk:** The IRS could argue the PPA assignment to the church is a sham — that Daniel is using the church as a personal benefit vehicle to avoid tax on LB profits.
+
+**Why TE is safe:** The PPA assignment is irrevocable — Daniel retains no right to reclaim the interest or direct the church's use of PPA revenue. The Church of the Living Light is a genuine 508(c)(1)(A) organization with an independent Spiritual Council, regular congregation, and doctrine that predates any tax planning. Church minister compensation (salary, housing allowance, retirement, church-owned assets) is independently approved by the board using comparable data, triggering the rebuttable presumption under 26 CFR 53.4958-6. The church maintains substantial charitable activity proportional to its revenue.
+
+The strongest precedent is Kenneth Copeland Ministries — a church that owns a $7M parsonage, private jets, and provides extensive minister benefits, and survived a four-year Congressional investigation (Grassley, 2007-2011) with zero penalties, zero legislation, and zero enforcement. The Church of the Living Light operates a more conservative version of this model.
+
+Even if the IRS argued the PPA constitutes "ownership" of foreign entities (it does not — PPAs are contractual, not equity), the "owner" is a tax-exempt church. CFC/GILTI inclusions have no tax consequence for an exempt entity. This provides a double layer of defense: (1) PPAs are not ownership, and (2) even if they were, the holder is exempt.
+
 ---
 
 ## 5. Key Case Law Reference
@@ -193,7 +203,7 @@ TE satisfies all three. Christ consciousness doctrine predates tax planning, add
 | **Optimum Health Institute** (Free Sacred Trinity Church) | Healing retreat as church ministry; charges $2-4K/week for programs | 501(c)(3) tax-exempt | 50+ years |
 | **Church of Scientology** | Charges $500K+ for "auditing" (spiritual counseling) | 508(c)(1)(A) tax-exempt (153 entities) | 70+ years |
 | **Christian Science** | Spiritual healing fees; practitioners recognized as ministers | IRS-recognized | 140+ years |
-| **Kenneth Copeland Ministries** | $7M church-owned parsonage; private jets; refused Congressional investigation | Tax-exempt (no penalties) | 50+ years |
+| **Kenneth Copeland Ministries** | Church-owned $7M parsonage, private jets, minister uses all church assets. Church holds economic interests and provides everything. Survived Grassley Congressional investigation (2007-2011) with zero penalties. | Tax-exempt (no penalties) | 50+ years |
 
 If these organizations maintain exemption under far more aggressive models, a genuine healing ministry with proper governance and conservative compensation has nothing to fear.
 
@@ -207,6 +217,7 @@ If these organizations maintain exemption under far more aggressive models, a ge
 | **IRS challenges housing allowance** | Very Low | Medium | Gaylor v. Mnuchin (2019) upheld constitutionality. Designate amounts in advance. Stay within FRV. |
 | **Excess benefit (Section 4958)** | Low | High | Rebuttable presumption: independent board + comparables + documentation. |
 | **Foreign control allegation** | Low | High | Church board is independent. UAE entity has zero governance role. |
+| **Church-held PPA challenged as sham / constructive receipt** | Low | High | PPA assignment is irrevocable. Church Spiritual Council independently controls PPA revenue. Copeland model has operated 50+ years. Written UBIT opinion confirms tax-exempt treatment. Even if PPA were "ownership," church is exempt from CFC/GILTI. |
 | **QFZP natural persons exclusion** | Medium | Critical | Resolve with UAE counsel before formation. Fallback: 9% still favorable. |
 | **IRS argues US founder is constructive PIF owner** | Low | High | Formally excluded as beneficiary. No signatory authority. No control rights. |
 | **Mexico PE risk** | Medium | High | No UAE personnel in Mexico. Transfer pricing study. Independent OpCo management. |
