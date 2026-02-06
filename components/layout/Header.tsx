@@ -53,20 +53,20 @@ const NAV_SECTIONS: NavSection[] = [
   {
     title: 'Analysis',
     links: [
-      { name: 'Financials', href: '/financials' },
       { name: 'Risks', href: '/risks' },
       { name: 'Timeline', href: '/timeline' },
-      { name: 'The Ask', href: '/invest' },
+      { name: 'Financials', href: '/financials', locked: true },
+      { name: 'The Ask', href: '/invest', locked: true },
     ],
   },
   {
     title: 'Resources',
     links: [
       { name: 'Summary', href: '/overview' },
-      { name: 'Legal', href: '/counsel', locked: true },
       { name: 'Outcomes', href: '/outcomes' },
-      { name: 'Data Room', href: '/data-room', locked: true },
       { name: 'FAQ', href: '/faq' },
+      { name: 'Legal', href: '/counsel', locked: true },
+      { name: 'Data Room', href: '/data-room', locked: true },
     ],
   },
 ]
@@ -224,7 +224,7 @@ export function Header() {
 
             {/* CTA */}
             <Link
-              href="/invest"
+              href="/overview"
               className="flex items-center gap-1.5 px-5 py-2.5 bg-gradient-to-r from-secondary-400 to-secondary-500 text-white text-[10px] font-accent font-bold uppercase tracking-[0.1em] rounded-xl hover:from-secondary-500 hover:to-secondary-600 shadow-md shadow-secondary-500/25 hover:shadow-secondary-500/40 transition-all duration-200"
             >
               Invest
@@ -325,10 +325,10 @@ export function Header() {
                 {/* CTA */}
                 <div className="px-3 pb-3 pt-2 bg-white/40 border-t border-white/30">
                   <Link
-                    href="/invest"
+                    href="/overview"
                     className="flex items-center justify-center gap-2 w-full px-6 py-3 bg-gradient-to-r from-secondary-400 to-secondary-500 text-white text-[11px] font-accent font-bold uppercase tracking-[0.15em] rounded-xl hover:from-secondary-500 hover:to-secondary-600 shadow-md shadow-secondary-500/25 transition-all duration-200"
                   >
-                    View Investment
+                    View Summary
                     <ArrowUpRight className="w-4 h-4" strokeWidth={2.5} />
                   </Link>
                 </div>
