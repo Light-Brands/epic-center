@@ -114,7 +114,54 @@ graph TB
 | **6** | **Sydney Griffith** | Council Member, Compensation Committee | Independent | Yes on all matters |
 | **7** | **Angelina Adelaide** | Council Member, Compensation Committee | Independent | Yes on all matters |
 
-### 4.2 Why This Composition Works
+### 4.2 Voting Power Map
+
+```mermaid
+graph LR
+    subgraph "FAMILY + ALIGNED BLOC (4 votes)"
+        DL["Daniel Lawless<br/>Seat 1 — Chairman"]
+        JL["Jennifer Lawless<br/>Seat 2"]
+        TL["Timothy Lawless<br/>Seat 3"]
+        NC["Nicholas Courchesne<br/>Seat 4 — Aligned"]
+    end
+
+    subgraph "INDEPENDENT BLOC (3 votes)"
+        DD["Diego Dosal<br/>Seat 5 — Comp Chair"]
+        SG["Sydney Griffith<br/>Seat 6 — Comp"]
+        AA["Angelina Adelaide<br/>Seat 7 — Comp"]
+    end
+
+    subgraph "GOVERNANCE VOTES"
+        GOV["Budget, Property, Hiring,<br/>Strategy, Bylaws<br/>4-of-7 = PASS"]
+    end
+
+    subgraph "COMPENSATION VOTES"
+        COMP["All Staff Pay, Housing,<br/>Retirement, Assets<br/>2-of-3 majority<br/>Daniel EXCLUDED"]
+    end
+
+    DL --> GOV
+    JL --> GOV
+    TL --> GOV
+    NC --> GOV
+    DD --> GOV
+    DD --> COMP
+    SG --> COMP
+    AA --> COMP
+
+    style DL fill:#533483,stroke:#ffd700,color:#fff
+    style JL fill:#0f3460,stroke:#e94560,color:#fff
+    style TL fill:#0f3460,stroke:#e94560,color:#fff
+    style NC fill:#0a8754,stroke:#fff,color:#fff
+    style DD fill:#c9770a,stroke:#fff,color:#fff
+    style SG fill:#c9770a,stroke:#fff,color:#fff
+    style AA fill:#c9770a,stroke:#fff,color:#fff
+    style GOV fill:#1a1a2e,stroke:#e94560,color:#fff
+    style COMP fill:#8b5e3c,stroke:#ffd700,color:#fff
+```
+
+**Two separate vote tracks:** Governance decisions go through the full council (family bloc controls). Compensation decisions go through the independent committee only (Daniel has zero influence).
+
+### 4.3 Why This Composition Works
 
 **Lawless family (3 of 7):** Daniel + Jennifer + Timothy = 3 seats. Not a standalone majority, but with Nicholas (aligned co-founder) = 4 votes on governance matters — a practical majority for ministry direction, budget approval, property acquisition, hiring, and strategic decisions. Daniel's bylaw protections (life tenure, doctrinal authority, amendment lock, veto on appointments) do not depend on vote counts — they are structurally embedded and cannot be changed without Daniel's written consent.
 
@@ -124,7 +171,7 @@ graph TB
 
 **The Copeland precedent:** KCM's board includes Kenneth Copeland (founder/chairman), Gloria Copeland (wife), George Pearsons (son-in-law), and additional members. This structure has operated for 50+ years without IRS challenge to governance.
 
-### 4.3 Council Terms and Appointment
+### 4.4 Council Terms and Appointment
 
 | Provision | Detail |
 |---|---|
@@ -136,7 +183,7 @@ graph TB
 | **Vacancies** | Filled by Senior Pastor nomination + majority council vote. |
 | **Quorum** | 4 of 7 members (Senior Pastor counts toward quorum). |
 
-### 4.4 What "Independent" Means for IRS Purposes
+### 4.5 What "Independent" Means for IRS Purposes
 
 Independent council members must satisfy ALL of the following:
 
@@ -161,6 +208,31 @@ Independent council members must satisfy ALL of the following:
 ## 5. Senior Pastor Protections (The Copeland Shield)
 
 These provisions are embedded in the church bylaws and **cannot be amended without the Senior Pastor's written consent**.
+
+```mermaid
+graph TB
+    subgraph "THE COPELAND SHIELD — 7 Layers of Protection"
+        L1["LAYER 1: LIFE TENURE<br/>Cannot be fired. Removal requires<br/>unanimous vote + felony/incapacity."]
+        L2["LAYER 2: DOCTRINAL AUTHORITY<br/>Final say on ALL doctrine.<br/>Courts cannot review (1st Amendment)."]
+        L3["LAYER 3: BOARD NOMINATION<br/>Controls who sits on the board.<br/>Veto on all appointments."]
+        L4["LAYER 4: BOARD REMOVAL<br/>Can remove any member for<br/>'doctrinal misalignment.'<br/>Family majority ensures vote passes."]
+        L5["LAYER 5: BUDGET AUTHORITY<br/>Proposes budget. $50K unilateral<br/>spending. Family majority approves."]
+        L6["LAYER 6: SUCCESSION<br/>Designates own successor.<br/>Council ratifies (family majority)."]
+        L7["LAYER 7: AMENDMENT LOCK<br/>Protected articles CANNOT be changed<br/>without Senior Pastor's written consent.<br/>This clause protects itself."]
+    end
+
+    L1 --> L2 --> L3 --> L4 --> L5 --> L6 --> L7
+
+    style L1 fill:#533483,stroke:#ffd700,color:#fff
+    style L2 fill:#533483,stroke:#ffd700,color:#fff
+    style L3 fill:#533483,stroke:#ffd700,color:#fff
+    style L4 fill:#533483,stroke:#ffd700,color:#fff
+    style L5 fill:#533483,stroke:#ffd700,color:#fff
+    style L6 fill:#533483,stroke:#ffd700,color:#fff
+    style L7 fill:#c9770a,stroke:#ffd700,color:#fff
+```
+
+**Layer 7 is the master lock.** Even if all other protections were somehow circumvented, the amendment lock prevents anyone from changing the rules without Daniel's consent. And the lock protects itself — it cannot be removed without Daniel's consent either.
 
 ### 5.1 Life Tenure
 
@@ -276,6 +348,29 @@ Each family member holds a genuine ministry role with real responsibilities. The
 
 This is the most critical governance body for tax purposes. It must operate flawlessly.
 
+```mermaid
+graph TB
+    subgraph "REBUTTABLE PRESUMPTION PROCESS (26 CFR 53.4958-6)"
+        S1["STEP 1: GATHER COMPARABLE DATA<br/>Copeland, Osteen, Creflo Dollar,<br/>NACBA surveys, ERI database"]
+        S2["STEP 2: EXCLUDE AFFECTED PERSON<br/>Daniel leaves the room.<br/>Only Diego, Sydney, Angelina present."]
+        S3["STEP 3: INDEPENDENT DELIBERATION<br/>Committee reviews comparables,<br/>discusses total package value,<br/>considers church revenue + size."]
+        S4["STEP 4: MAJORITY VOTE<br/>2-of-3 approves compensation.<br/>Salary + housing + retirement + assets."]
+        S5["STEP 5: DOCUMENT EVERYTHING<br/>Written resolution with:<br/>amount, comparable data cited,<br/>rationale, who was present."]
+        S6["STEP 6: FILE WITH SECRETARY<br/>Nicholas Courchesne files minutes<br/>within 60 days. Contemporaneous."]
+        RESULT["REBUTTABLE PRESUMPTION ACHIEVED<br/>Burden shifts to IRS to prove<br/>compensation is unreasonable."]
+    end
+
+    S1 --> S2 --> S3 --> S4 --> S5 --> S6 --> RESULT
+
+    style S1 fill:#0a8754,stroke:#fff,color:#fff
+    style S2 fill:#c9770a,stroke:#fff,color:#fff
+    style S3 fill:#0f3460,stroke:#e94560,color:#fff
+    style S4 fill:#0f3460,stroke:#e94560,color:#fff
+    style S5 fill:#533483,stroke:#ffd700,color:#fff
+    style S6 fill:#533483,stroke:#ffd700,color:#fff
+    style RESULT fill:#0a8754,stroke:#ffd700,color:#fff
+```
+
 ### 7.1 Composition
 
 | Member | Role | Independence |
@@ -328,6 +423,46 @@ The Compensation Committee reviews and approves ALL of the following for each mi
 ---
 
 ## 8. Financial Controls
+
+```mermaid
+graph TB
+    subgraph "BANK ACCOUNTS"
+        OP["OPERATING ACCOUNT<br/>Day-to-day ministry expenses<br/>Signatories: Timothy + Diego<br/>(dual above $10K)"]
+        PPA["PPA DISTRIBUTION ACCOUNT<br/>Receives PPA income from LBS + LBC<br/>Segregated from operations<br/>Signatories: Timothy + Nicholas"]
+        RES["RESERVE / INVESTMENT<br/>Long-term reserves<br/>Signatories: any 2 of<br/>Timothy + Daniel + Diego"]
+    end
+
+    subgraph "SPENDING AUTHORITY TIERS"
+        T1["Under $5K<br/>Senior Pastor alone"]
+        T2["$5K – $50K<br/>Senior Pastor + Treasurer"]
+        T3["$50K – $250K<br/>Council majority (4 of 7)"]
+        T4["Over $250K<br/>Council supermajority (5 of 7)"]
+    end
+
+    subgraph "ASSET ACQUISITION FLOW"
+        A1["1. Senior Pastor<br/>proposes (doctrinal<br/>justification)"]
+        A2["2. Finance Committee<br/>reviews affordability"]
+        A3["3. Comp Committee<br/>reviews as part of<br/>compensation package"]
+        A4["4. Council votes<br/>to approve"]
+        A5["5. Asset titled<br/>in church name"]
+    end
+
+    T1 --> T2 --> T3 --> T4
+    A1 --> A2 --> A3 --> A4 --> A5
+
+    style OP fill:#0f3460,stroke:#e94560,color:#fff
+    style PPA fill:#533483,stroke:#ffd700,color:#fff
+    style RES fill:#1a1a2e,stroke:#e94560,color:#fff
+    style T1 fill:#0a8754,stroke:#fff,color:#fff
+    style T2 fill:#0a8754,stroke:#fff,color:#fff
+    style T3 fill:#c9770a,stroke:#fff,color:#fff
+    style T4 fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style A1 fill:#533483,stroke:#ffd700,color:#fff
+    style A2 fill:#2d4059,stroke:#ea5455,color:#fff
+    style A3 fill:#c9770a,stroke:#fff,color:#fff
+    style A4 fill:#0f3460,stroke:#e94560,color:#fff
+    style A5 fill:#0a8754,stroke:#fff,color:#fff
+```
 
 ### 8.1 Bank Accounts
 
@@ -477,6 +612,34 @@ graph TB
 ## 11. Bylaws Framework — Key Articles
 
 The following provisions must be drafted by the religious nonprofit attorney and incorporated into the church's founding bylaws. These are the structural protections.
+
+```mermaid
+graph TB
+    subgraph "BYLAWS STRUCTURE"
+        A1["ARTICLE I<br/>Name & Purpose<br/>Statement of Faith"]
+        A2["ARTICLE II<br/>SENIOR PASTOR<br/>Life tenure, doctrinal authority,<br/>nomination, budget, succession"]
+        A3["ARTICLE III<br/>SPIRITUAL COUNCIL<br/>7 members, quorum,<br/>voting, removal"]
+        A4["ARTICLE IV<br/>COMPENSATION COMMITTEE<br/>3 independents, majority vote,<br/>rebuttable presumption process"]
+        A5["ARTICLE V<br/>FINANCIAL MANAGEMENT<br/>Treasurer, bank accounts,<br/>budget, audit"]
+        A6["ARTICLE VI<br/>PROPERTY & ASSETS<br/>Church title, minister use,<br/>dissolution clause"]
+        A7["ARTICLE VII<br/>AMENDMENTS<br/>2/3 vote general,<br/>protected articles locked"]
+    end
+
+    LOCK["AMENDMENT LOCK<br/>Articles II, IV §4, and VII §2<br/>CANNOT be amended without<br/>Senior Pastor's written consent"]
+
+    A2 -.->|"PROTECTED"| LOCK
+    A4 -.->|"PROTECTED"| LOCK
+    A7 -.->|"SELF-PROTECTING"| LOCK
+
+    style A1 fill:#2d4059,stroke:#ea5455,color:#fff
+    style A2 fill:#533483,stroke:#ffd700,color:#fff
+    style A3 fill:#0f3460,stroke:#e94560,color:#fff
+    style A4 fill:#c9770a,stroke:#fff,color:#fff
+    style A5 fill:#2d4059,stroke:#ea5455,color:#fff
+    style A6 fill:#2d4059,stroke:#ea5455,color:#fff
+    style A7 fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style LOCK fill:#c0392b,stroke:#ffd700,color:#fff
+```
 
 ### Article I: Name and Purpose
 
@@ -630,6 +793,43 @@ The IRS uses these 14 characteristics to determine church status. The Church of 
 
 ## 15. Bright Lines — Church Governance Rules
 
+```mermaid
+graph TB
+    subgraph "RULES THAT CANNOT BE BROKEN"
+        R1["Comp Committee = 100% independent<br/>No family. No employees. No co-founders."]
+        R2["Compensation set BEFORE services<br/>Never retroactive. Always prospective."]
+        R3["Housing allowance designated<br/>BEFORE the tax year begins"]
+        R4["Genuine charitable activity<br/>Cannot exist solely to benefit founder"]
+        R5["Meeting minutes are contemporaneous<br/>Real-time documentation. Not after-the-fact."]
+        R6["No private inurement<br/>All pay = compensation for services"]
+        R7["No circular cash flows<br/>PPA income ≠ recycled personal income"]
+        R8["Church assets = documented ministry purpose<br/>Annual use logs for all assets"]
+        R9["Daniel recuses from own comp votes<br/>Zero influence on own pay"]
+        R10["Records audit-ready at all times<br/>Even though no Form 990 required"]
+    end
+
+    VIOLATION["CONSEQUENCE OF ANY VIOLATION:<br/>Loss of rebuttable presumption,<br/>excess benefit tax (IRC 4958),<br/>potential loss of church status"]
+
+    R1 -.-> VIOLATION
+    R2 -.-> VIOLATION
+    R3 -.-> VIOLATION
+    R6 -.-> VIOLATION
+
+    style R1 fill:#c0392b,stroke:#ffd700,color:#fff
+    style R2 fill:#c0392b,stroke:#ffd700,color:#fff
+    style R3 fill:#c0392b,stroke:#ffd700,color:#fff
+    style R4 fill:#c0392b,stroke:#ffd700,color:#fff
+    style R5 fill:#c9770a,stroke:#fff,color:#fff
+    style R6 fill:#c0392b,stroke:#ffd700,color:#fff
+    style R7 fill:#c9770a,stroke:#fff,color:#fff
+    style R8 fill:#c9770a,stroke:#fff,color:#fff
+    style R9 fill:#c9770a,stroke:#fff,color:#fff
+    style R10 fill:#c9770a,stroke:#fff,color:#fff
+    style VIOLATION fill:#1a1a2e,stroke:#c0392b,color:#fff
+```
+
+**Red = hard bright lines** (violation directly triggers IRS exposure). **Orange = operational discipline** (violation weakens defense posture).
+
 | Rule | Consequence of Violation |
 |---|---|
 | **Compensation Committee must be 100% independent** | Loss of rebuttable presumption. Excess benefit risk. |
@@ -649,6 +849,50 @@ The IRS uses these 14 characteristics to determine church status. The Church of 
 
 This is how the church connects to the rest of the Transformational Epicenter structure:
 
+```mermaid
+graph TB
+    subgraph "TE CORPORATE ECOSYSTEM"
+        LBS["Light Brands Studio<br/>(Dubai, FZ-LLC)"]
+        LBC["Light Brands Consulting<br/>(Cook Islands, IBC)"]
+        TEH["TE Wellness Holdings<br/>(Cayman)"]
+        SA["Panamanian Holdings S.A."]
+        PIF["Panama PIF"]
+    end
+
+    subgraph "CHURCH OF THE LIVING LIGHT"
+        CHURCH["508(c)(1)(A)<br/>TAX-EXEMPT"]
+    end
+
+    subgraph "DANIEL LAWLESS"
+        DANIEL["Receives:<br/>1. LBS salary (FEIE)<br/>2. Minister compensation"]
+    end
+
+    LBS -->|"30% PPA distributions<br/>(Daniel's, assigned to church)"| CHURCH
+    LBC -->|"30% PPA distributions<br/>(Daniel's, assigned to church)"| CHURCH
+    LBS -.->|"10% PPA (Jason,<br/>if Option C/D)"| CHURCH
+    LBC -.->|"10% PPA (Jason,<br/>if Option C/D)"| CHURCH
+    TEH -->|"Content license<br/>royalty"| CHURCH
+    LBC -->|"Spiritual tech<br/>royalty"| CHURCH
+
+    LBS -->|"Salary (FEIE<br/>$130K excluded)"| DANIEL
+    CHURCH -->|"Minister compensation:<br/>salary + housing (IRC 107)<br/>+ retirement (403b/457)<br/>+ church-owned assets"| DANIEL
+
+    PIF -->|"100%"| SA
+    SA -->|"100%"| LBS
+    SA -->|"100%"| LBC
+    SA -->|"~70%"| TEH
+
+    style LBS fill:#0f3460,stroke:#e94560,color:#fff
+    style LBC fill:#0d7377,stroke:#14ffec,color:#fff
+    style TEH fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style SA fill:#2c1810,stroke:#e94560,color:#fff
+    style PIF fill:#1a1a2e,stroke:#e94560,color:#fff
+    style CHURCH fill:#533483,stroke:#ffd700,color:#fff
+    style DANIEL fill:#c9770a,stroke:#fff,color:#fff
+```
+
+**Two income channels to Daniel:** (1) LBS salary — foreign employer, qualifies for FEIE ($130K tax-free), and (2) Church minister compensation — salary, tax-free housing, tax-deferred retirement, church-owned assets. The church's income (PPAs + royalties) flows from entities Daniel does not own or control.
+
 | Connection | Mechanism | Document Reference |
 |---|---|---|
 | Church receives 30% LBS profits | PPA assigned from Daniel → Church | [10-LB-PROFIT-PARTICIPATION-FRAMEWORK.md](./10-LB-PROFIT-PARTICIPATION-FRAMEWORK.md) |
@@ -666,6 +910,40 @@ This is how the church connects to the rest of the Transformational Epicenter st
 ---
 
 ## 17. Action Items — Church Formation
+
+```mermaid
+gantt
+    title Church Formation Timeline
+    dateFormat YYYY-MM-DD
+    axisFormat %b %d
+
+    section Legal Foundation
+    Engage religious nonprofit attorney       :crit, a1, 2026-03-01, 7d
+    Draft Statement of Faith                  :crit, a2, 2026-03-01, 14d
+    Draft bylaws (all protections)            :crit, a4, 2026-03-08, 21d
+    Draft Articles of Incorporation           :crit, a5, 2026-03-08, 21d
+
+    section Governance
+    Confirm independent council members       :crit, a3, 2026-03-01, 21d
+    Hold organizational meeting               :crit, a6, 2026-03-29, 7d
+    Comp Committee first meeting              :crit, a9, 2026-04-05, 7d
+    Housing allowance designation             :crit, a10, 2026-04-05, 7d
+
+    section Operations
+    Obtain EIN (Form SS-4)                    :crit, a7, 2026-04-05, 3d
+    Open church bank accounts                 :a8, 2026-04-08, 10d
+    Draft employment agreements               :a14, 2026-03-29, 14d
+    Begin ordination program                  :a11, 2026-03-15, 42d
+
+    section Ministry Launch
+    Begin regular worship services            :crit, a16, 2026-03-01, 120d
+    Launch charitable programs                :a17, 2026-04-01, 60d
+    Establish retirement plans                :a15, 2026-04-15, 60d
+
+    section Agreements
+    Execute PPA Assignment (Daniel)           :crit, a12, 2026-04-05, 14d
+    Execute PPA Assignment (Jason, if C/D)    :a13, 2026-04-05, 14d
+```
 
 | # | Action | Owner | Timeline | Priority |
 |---|---|---|---|---|
