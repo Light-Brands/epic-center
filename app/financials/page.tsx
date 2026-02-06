@@ -8,6 +8,7 @@ import { Footer } from '@/components/layout'
 import { MetricCard, ScenarioToggle } from '@/components/financial'
 import { RevenueChart } from '@/components/charts'
 import { AnimatedValue } from '@/components/animation/CountUp'
+import { VaultGate } from '@/components/auth/VaultGate'
 import { useScenario } from '@/lib/context/ScenarioContext'
 import {
   getDashboardMetrics,
@@ -168,6 +169,7 @@ export default function FinancialsPage() {
   ]
 
   return (
+    <VaultGate title="Financial Projections" subtitle="Enter your 4-digit PIN to access financial details.">
     <div className="min-h-screen bg-canvas pt-20">
       <div className="w-full sm:w-[70vw] mx-auto py-12 px-4 sm:px-0">
         {/* Page Header with Scenario Toggle */}
@@ -924,5 +926,6 @@ export default function FinancialsPage() {
       </div>
       <Footer />
     </div>
+    </VaultGate>
   )
 }

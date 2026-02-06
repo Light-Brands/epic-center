@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { ArrowLeft, ArrowRight, Check, Mail, Calendar, Download, Shield, TrendingUp, Building2, Users } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
+import { VaultGate } from '@/components/auth/VaultGate'
 import { Footer } from '@/components/layout'
 import { MetricCard } from '@/components/financial'
 import { UseOfFundsChart } from '@/components/charts'
@@ -18,6 +19,7 @@ export default function InvestPage() {
   const useOfFunds = getUseOfFunds()
 
   return (
+    <VaultGate title="Investment Details" subtitle="Enter your 4-digit PIN to access investment terms.">
     <div className="min-h-screen bg-canvas pt-28">
       <div className="w-full sm:w-[70vw] mx-auto py-12 px-4 sm:px-0">
         {/* Hero Section - The Ask */}
@@ -304,5 +306,6 @@ export default function InvestPage() {
       </div>
       <Footer />
     </div>
+    </VaultGate>
   )
 }
