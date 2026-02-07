@@ -7,13 +7,13 @@
 ### Three Creative Structures for Legacy-Aligned Property Acquisition
 
 **Date:** February 2026
-**Classification:** STRICTLY CONFIDENTIAL --- Founders Only
+**Classification:** STRICTLY CONFIDENTIAL — Founders Only
 **Version:** 1.0
 **Prepared by:** Transformational Epicenter Strategic Finance
 
 ---
 
-> **CONFIDENTIALITY NOTICE**: This document contains proprietary and confidential negotiation strategies. Distribution is limited to founding partners only. This document must never be shared with the seller, the seller's representatives, or any third party without unanimous founder consent. The language, framing, and emotional positioning contained herein are strategic negotiation tools --- not final terms.
+> **CONFIDENTIALITY NOTICE**: This document contains proprietary and confidential negotiation strategies. Distribution is limited to founding partners only. This document must never be shared with the seller, the seller's representatives, or any third party without unanimous founder consent. The language, framing, and emotional positioning contained herein are strategic negotiation tools — not final terms.
 
 > **DISCLAIMER**: This document does not constitute legal, tax, or financial advice. All structures are illustrative and subject to legal counsel review, regulatory compliance, Mexican real estate law, fideicomiso requirements, and final negotiation. Recipients should consult qualified legal and tax advisors before implementing any structure.
 
@@ -22,12 +22,12 @@
 ## Table of Contents
 
 1. [Executive Summary](#1-executive-summary)
-2. [Strategic Context --- The Seller](#2-strategic-context--the-seller)
+2. [Strategic Context — The Seller](#2-strategic-context–the-seller)
 3. [Financial Foundation](#3-financial-foundation)
 4. [Non-Negotiable Principles](#4-non-negotiable-principles)
-5. [Strategy 1: The Legacy Steward --- Seller Carry + Legacy Equity](#5-strategy-1-the-legacy-steward--seller-carry--legacy-equity)
-6. [Strategy 2: The Evolution --- Seller as the Bank + Profit Participation](#6-strategy-2-the-evolution--seller-as-the-bank--profit-participation)
-7. [Strategy 3: The Partnership of Purpose --- Seller Roll-Over + Full Integration](#7-strategy-3-the-partnership-of-purpose--seller-roll-over--full-integration)
+5. [Strategy 1: The Legacy Steward — Seller Carry + Legacy Equity](#5-strategy-1-the-legacy-steward–seller-carry–legacy-equity)
+6. [Strategy 2: The Evolution — Seller as the Bank + Profit Participation](#6-strategy-2-the-evolution–seller-as-the-bank–profit-participation)
+7. [Strategy 3: The Partnership of Purpose — Seller Roll-Over + Full Integration](#7-strategy-3-the-partnership-of-purpose–seller-roll-over–full-integration)
 8. [Strategy Comparison Matrix](#8-strategy-comparison-matrix)
 9. [Seller Conversation Framework](#9-seller-conversation-framework)
 10. [Legal and Structural Integration](#10-legal-and-structural-integration)
@@ -38,13 +38,13 @@
 
 ## 1. Executive Summary
 
-This document presents three distinct, optimized investment strategies designed for a specific and unusual transaction: the acquisition of the Rancho Paraiso Oasis from a seller who is not merely liquidating real estate --- he is parting with a life project.
+This document presents three distinct, optimized investment strategies designed for a specific and unusual transaction: the acquisition of the Rancho Paraiso Oasis from a seller who is not merely liquidating real estate — he is parting with a life project.
 
 The seller invested approximately $30M over time to build this property. He is selling at a significant loss ($11.9M asking price) under personal duress (divorce). He is likely financially secure, meaning the economics of the sale are secondary to the meaning of it. This creates a rare opportunity to structure a deal that transcends conventional acquisition mechanics and enters the territory of legacy, stewardship, and shared purpose.
 
 ### The Core Insight
 
-A seller who built something with his hands, invested $30M, and is now forced to let go for $10--12M does not want to feel like he lost. He wants to feel like what he built will be honored --- and, ideally, elevated.
+A seller who built something with his hands, invested $30M, and is now forced to let go for $10–12M does not want to feel like he lost. He wants to feel like what he built will be honored — and, ideally, elevated.
 
 Our structures are designed to create exactly that feeling while maintaining absolute founder control over vision, operations, IP, and long-term upside.
 
@@ -54,26 +54,26 @@ Our structures are designed to create exactly that feeling while maintaining abs
 |---|-----------|-----------|-----------|
 | **Name** | The Legacy Steward | The Evolution | The Partnership of Purpose |
 | **Character** | Seller carries the note + keeps a piece of the land forever | Seller becomes the bank + earns from the operating success | Seller reinvests alongside founders as a committed partner |
-| **Cash at Close** | $3.0M | $2.0--2.5M | $2.0M |
-| **Seller Note** | $7.0--8.0M | $8.0--9.0M | $6.0--7.0M |
+| **Cash at Close** | $3.0M | $2.0–2.5M | $2.0M |
+| **Seller Note** | $7.0–8.0M | $8.0–9.0M | $6.0–7.0M |
 | **Seller Equity (RE)** | 10% non-controlling | 0% | 8% non-controlling |
-| **Seller OpCo Participation** | Advisory role (symbolic) | 3--5% profit participation (economic) | 2--3% equity (real ownership) |
-| **Seller's Emotional Frame** | "Your name lives on in the land" | "You built the foundation for something extraordinary" | "You're not selling --- you're joining" |
-| **Total Seller Value (5-Year)** | $14.5--16.5M | $15.0--18.0M | $16.0--20.0M+ |
+| **Seller OpCo Participation** | Advisory role (symbolic) | 3–5% profit participation (economic) | 2–3% equity (real ownership) |
+| **Seller's Emotional Frame** | "Your name lives on in the land" | "You built the foundation for something extraordinary" | "You're not selling — you're joining" |
+| **Total Seller Value (5-Year)** | $14.5–16.5M | $15.0–18.0M | $16.0–20.0M+ |
 | **Best For** | Seller who wants connection without involvement | Seller who wants passive income and validation | Seller who wants purpose and active engagement |
 
 ---
 
-## 2. Strategic Context --- The Seller
+## 2. Strategic Context — The Seller
 
 ### 2.1 Seller Profile
 
 | Attribute | Assessment |
 |-----------|------------|
 | **Property Investment** | ~$30M over time (personal life project) |
-| **Asking Price** | $11.9M (negotiation target: $10--11M) |
-| **Implied Loss** | ~$19--20M on original investment |
-| **Reason for Sale** | Divorce --- forced disposition |
+| **Asking Price** | $11.9M (negotiation target: $10–11M) |
+| **Implied Loss** | ~$19–20M on original investment |
+| **Reason for Sale** | Divorce — forced disposition |
 | **Emotional State** | Detached from the asset, not from its meaning |
 | **Financial Position** | Likely multi-millionaire or billionaire; does not need the cash urgently |
 | **Psychological Need** | Legacy, relevance, purpose, recognition |
@@ -83,21 +83,21 @@ Our structures are designed to create exactly that feeling while maintaining abs
 
 The seller is experiencing three simultaneous losses:
 
-1. **Financial loss** --- Selling a $30M investment for $10--12M
-2. **Identity loss** --- The property was a personal expression; a divorce is stripping it away
-3. **Legacy loss** --- If sold to a developer or hotel chain, everything he built gets bulldozed or rebranded
+1. **Financial loss** — Selling a $30M investment for $10–12M
+2. **Identity loss** — The property was a personal expression; a divorce is stripping it away
+3. **Legacy loss** — If sold to a developer or hotel chain, everything he built gets bulldozed or rebranded
 
 Our strategies address all three:
 
-1. **Financial**: Seller financing at attractive rates provides yield income superior to passive alternatives --- without the emotional emptiness of a wire transfer
+1. **Financial**: Seller financing at attractive rates provides yield income superior to passive alternatives — without the emotional emptiness of a wire transfer
 2. **Identity**: The seller remains connected to the property through equity, participation, or named recognition
-3. **Legacy**: The property is not demolished or commoditized --- it is elevated into something with global impact
+3. **Legacy**: The property is not demolished or commoditized — it is elevated into something with global impact
 
 ### 2.3 What the Seller Should Feel
 
 > "I didn't sell my dream. I evolved it. What I built is becoming something that changes lives. And I'm still part of it."
 
-This is not manipulation. This is genuine alignment. The Transformational Epicenter will honor and elevate what this man built. These structures ensure he benefits from that elevation --- financially, emotionally, and symbolically.
+This is not manipulation. This is genuine alignment. The Transformational Epicenter will honor and elevate what this man built. These structures ensure he benefits from that elevation — financially, emotionally, and symbolically.
 
 ---
 
@@ -110,7 +110,7 @@ All strategies are grounded in the verified financial model (Google Sheets: `1Z0
 | Metric | Value | Source |
 |--------|-------|--------|
 | Property Asking Price | $11,900,000 | Acquisition Costs tab |
-| Negotiation Target | $10,000,000--$11,000,000 | Strategy assumption |
+| Negotiation Target | $10,000,000–$11,000,000 | Strategy assumption |
 | Total Project Cost | $16,823,500 | Dashboard tab |
 | Property Acquisition (% of Total) | 70.7% | Dashboard tab |
 | Renovation & Conversion | $1,000,000 | Acquisition Costs tab |
@@ -128,7 +128,7 @@ All strategies are grounded in the verified financial model (Google Sheets: `1Z0
 | Net Income | $2,537,260 | $7,052,462 | $10,144,819 | $11,947,674 | $13,420,452 | $45,102,667 |
 | Free Cash Flow | $3,204,403 | $5,359,605 | $8,976,962 | $11,269,817 | $12,782,595 | $41,593,382 |
 
-> **Source:** Google Sheets --- P&L Statement tab, Cash Flow tab
+> **Source:** Google Sheets — P&L Statement tab, Cash Flow tab
 
 ### 3.3 Key Metrics
 
@@ -183,9 +183,9 @@ These principles apply across all three strategies. They are absolute.
 
 ### 4.2 IP Protection
 
-All intellectual property, AI systems, clinical protocols, brand assets, anonymized outcome databases, and technology platforms are held in **TE Wellness Holdings (Cayman Islands)** --- a separate entity from the real estate vehicle. The seller's participation (equity, debt, or otherwise) attaches to the **real estate entity** or to a **profit participation right** in the OpCo. At no point does the seller acquire ownership of, security interest in, or licensing rights to any IP.
+All intellectual property, AI systems, clinical protocols, brand assets, anonymized outcome databases, and technology platforms are held in **TE Wellness Holdings (Cayman Islands)** — a separate entity from the real estate vehicle. The seller's participation (equity, debt, or otherwise) attaches to the **real estate entity** or to a **profit participation right** in the OpCo. At no point does the seller acquire ownership of, security interest in, or licensing rights to any IP.
 
-> **Source:** `docs/strategy/OPTIMAL_CAPITAL_STRUCTURE.md` --- Section 2.2 (IP Protection Framework)
+> **Source:** `docs/strategy/OPTIMAL_CAPITAL_STRUCTURE.md` — Section 2.2 (IP Protection Framework)
 
 ### 4.3 Seller Participation Boundaries
 
@@ -224,11 +224,11 @@ SELLER ENTRY POINTS:
   Profit Share   → Revenue/profit participation agreement with TE Wellness Holdings
 ```
 
-> **Source:** `docs/strategy/OPTIMAL_CAPITAL_STRUCTURE.md` --- Section 3 (Architecture Foundation); `docs/data-room/legal/16-fideicomiso-structure.md`
+> **Source:** `docs/strategy/OPTIMAL_CAPITAL_STRUCTURE.md` — Section 3 (Architecture Foundation); `docs/data-room/legal/16-fideicomiso-structure.md`
 
 ---
 
-## 5. Strategy 1: The Legacy Steward --- Seller Carry + Legacy Equity
+## 5. Strategy 1: The Legacy Steward — Seller Carry + Legacy Equity
 
 ### Character
 
@@ -248,7 +248,7 @@ This strategy is designed for a seller who wants to remain emotionally connected
 | **Seller Equity** | 10% non-controlling interest in TE Real Estate Holdings |
 | **OpCo Participation** | Honorary "Legacy Steward" advisory role (unpaid; symbolic) |
 
-### 5.2 Capital Flows --- Who Pays What, When
+### 5.2 Capital Flows — Who Pays What, When
 
 **At Closing:**
 
@@ -279,10 +279,10 @@ This strategy is designed for a seller who wants to remain emotionally connected
 |------|--------|
 | **Principal** | $7,500,000 |
 | **Interest Rate** | 7.5% annual, fixed |
-| **Payment Structure** | Interest-only for 24 months; amortizing principal + interest months 25--60 |
+| **Payment Structure** | Interest-only for 24 months; amortizing principal + interest months 25–60 |
 | **Balloon Payment** | Remaining balance due at Month 60 |
 | **Security** | First-position lien/mortgage on property via fideicomiso |
-| **Personal Guarantee** | None --- secured by property only |
+| **Personal Guarantee** | None — secured by property only |
 | **Prepayment** | Permitted at any time without penalty after Month 12 |
 | **Default Provisions** | 90-day cure period; forced sale right after cure period expires |
 | **Financial Covenant** | Minimum 1.5x DSCR maintained quarterly |
@@ -320,25 +320,25 @@ The project comfortably services the seller note at all times. Year 5 balloon ca
 | **Distribution Rights** | 10% of distributions from RE entity after debt service and reserves |
 | **Transfer Restrictions** | Subject to ROFR by founders; no transfer without founder consent |
 | **Buy-Out Option** | Founders may purchase at FMV after Year 5 (optional, not mandatory) |
-| **Tag-Along** | Yes --- seller may participate in any sale of RE entity |
+| **Tag-Along** | Yes — seller may participate in any sale of RE entity |
 | **Information Rights** | Annual property financial statement; annual independent appraisal |
 | **Governance** | No board seat; no veto rights; quarterly written update from founders |
 
 **Illustrative Value of 10% RE Equity:**
 
-The property is acquired at $10.5M. With Tulum appreciation of 8--12% annually and the value created by medical conversion and villa development, the underlying RE value is projected to reach $25--40M by Year 5. The seller's 10% could be worth $2.5--4.0M, in addition to all note payments received.
+The property is acquired at $10.5M. With Tulum appreciation of 8–12% annually and the value created by medical conversion and villa development, the underlying RE value is projected to reach $25–40M by Year 5. The seller's 10% could be worth $2.5–4.0M, in addition to all note payments received.
 
 ### 5.6 Seller Economics Summary (Strategy 1)
 
 | Component | Value | Timing |
 |-----------|-------|--------|
 | Cash at Close | $3,000,000 | Day 1 |
-| Interest Payments (Years 1--2) | $1,125,000 | Quarterly over 24 months |
-| Principal + Interest (Years 3--5) | $7,800,000 | Monthly, months 25--60 |
-| RE Equity Value (10% at Year 5) | $2,500,000--$4,000,000 | Ongoing; liquid via buy-out or tag-along |
-| **Total 5-Year Value to Seller** | **$14,425,000--$15,925,000** | |
+| Interest Payments (Years 1–2) | $1,125,000 | Quarterly over 24 months |
+| Principal + Interest (Years 3–5) | $7,800,000 | Monthly, months 25–60 |
+| RE Equity Value (10% at Year 5) | $2,500,000–$4,000,000 | Ongoing; liquid via buy-out or tag-along |
+| **Total 5-Year Value to Seller** | **$14,425,000–$15,925,000** | |
 
-The seller receives $14.4--15.9M in total value on a $10.5M sale --- a **37--52% total return** over 5 years, plus permanent equity upside. This significantly outperforms passive alternatives (treasuries, bonds, even diversified portfolios).
+The seller receives $14.4–15.9M in total value on a $10.5M sale — a **37–52% total return** over 5 years, plus permanent equity upside. This significantly outperforms passive alternatives (treasuries, bonds, even diversified portfolios).
 
 ### 5.7 Founder Economics and Control
 
@@ -346,17 +346,17 @@ The seller receives $14.4--15.9M in total value on a $10.5M sale --- a **37--52%
 |--------|-------|
 | RE Equity Ownership | 90% (after 10% seller legacy equity) |
 | RE Voting Control | 100% (seller holds non-voting units) |
-| OpCo Equity (TE Wellness Holdings) | Per investor strategy (70--75% minimum) |
+| OpCo Equity (TE Wellness Holdings) | Per investor strategy (70–75% minimum) |
 | IP Ownership | 100% (Cayman; outside RE entity entirely) |
 | Management Authority | 100% (no seller management rights) |
-| Annual Note Service (Years 1--2) | $562,500 (1.7% of Year 1 revenue) |
+| Annual Note Service (Years 1–2) | $562,500 (1.7% of Year 1 revenue) |
 | Buy-Out Optionality | May purchase seller's 10% at FMV after Year 5 |
 
 ### 5.8 Seller Protections
 
 | Protection | Detail |
 |-----------|--------|
-| First-lien security | Mortgage on property via fideicomiso --- seller is first in line |
+| First-lien security | Mortgage on property via fideicomiso — seller is first in line |
 | Quarterly interest payments | Cash income beginning Quarter 1 |
 | Financial covenant (1.5x DSCR) | Early warning system if operations underperform |
 | 90-day cure period + forced sale | Ultimate backstop: seller can force property sale to recover capital |
@@ -370,37 +370,37 @@ The seller receives $14.4--15.9M in total value on a $10.5M sale --- a **37--52%
 
 > "We don't want to buy your property. We want to become its next stewards."
 
-- **Named recognition:** A physical plaque or installation on the property honoring the seller as the original builder --- "Built by [Seller Name], [Year]. Stewardship continues."
+- **Named recognition:** A physical plaque or installation on the property honoring the seller as the original builder — "Built by [Seller Name], [Year]. Stewardship continues."
 - **Legacy Steward title:** The seller is invited to hold the honorary title of "Founding Steward" with an open invitation to visit the property annually as a guest
-- **Quarterly narrative updates:** Not just financials --- a personal letter from founders describing how the property is evolving, the lives being changed, the programs being delivered
-- **Permanent equity connection:** The 10% stake means the seller is not a former owner --- he is a current participant. His wealth grows as the property grows. His legacy is not sold; it is compounding.
+- **Quarterly narrative updates:** Not just financials — a personal letter from founders describing how the property is evolving, the lives being changed, the programs being delivered
+- **Permanent equity connection:** The 10% stake means the seller is not a former owner — he is a current participant. His wealth grows as the property grows. His legacy is not sold; it is compounding.
 
 **Why this is compelling for the seller:**
 
-- He receives more total value ($14.4--15.9M) than a clean $10.5M cash sale
+- He receives more total value ($14.4–15.9M) than a clean $10.5M cash sale
 - He maintains a permanent connection to what he built
 - He receives predictable, secured income for 5 years
-- His property becomes something greater than a hotel --- it becomes a healing destination
+- His property becomes something greater than a hotel — it becomes a healing destination
 - He is honored, not forgotten
 - He has downside protection (first-lien security on property he knows intimately)
 
 ### 5.10 Why This Remains a Strong Deal for Founders and Investors
 
 - **$3M cash at close** preserves maximum capital for operations
-- **7.5% interest rate** is below private lending market rates (10--12% typical)
-- **Interest-only period** (24 months) matches the operating ramp --- no principal pressure during build-out
-- **Seller's 10% is non-controlling, non-voting** --- creates zero governance burden
-- **First-lien is on the property only** --- no access to IP, OpCo, or operating cash
-- **DSCR coverage of 5.7x in Year 1** --- enormous safety margin
-- **Legacy framing reduces negotiation friction** --- seller is less likely to push on price if he feels honored
+- **7.5% interest rate** is below private lending market rates (10–12% typical)
+- **Interest-only period** (24 months) matches the operating ramp — no principal pressure during build-out
+- **Seller's 10% is non-controlling, non-voting** — creates zero governance burden
+- **First-lien is on the property only** — no access to IP, OpCo, or operating cash
+- **DSCR coverage of 5.7x in Year 1** — enormous safety margin
+- **Legacy framing reduces negotiation friction** — seller is less likely to push on price if he feels honored
 
 ---
 
-## 6. Strategy 2: The Evolution --- Seller as the Bank + Profit Participation
+## 6. Strategy 2: The Evolution — Seller as the Bank + Profit Participation
 
 ### Character
 
-**The seller carries the largest possible note and receives no equity in the RE entity. Instead, he earns a profit participation right in the operating company --- a share of the economic success of what his property becomes. He is the banker whose building became a transformation center. His return scales with the project's success.**
+**The seller carries the largest possible note and receives no equity in the RE entity. Instead, he earns a profit participation right in the operating company — a share of the economic success of what his property becomes. He is the banker whose building became a transformation center. His return scales with the project's success.**
 
 This strategy is designed for a seller who cares more about income and validation than ownership. He wants to see financial proof that his property is thriving. He wants cash flow. He wants to know his building enabled something extraordinary.
 
@@ -411,19 +411,19 @@ This strategy is designed for a seller who cares more about income and validatio
 | Component | Detail |
 |-----------|--------|
 | **Purchase Price** | $10,000,000 (negotiated from $11.9M) |
-| **Cash at Close** | $2,000,000--$2,500,000 (from investor capital) |
-| **Seller Note** | $7,500,000--$8,000,000 secured promissory note |
-| **Seller Equity (RE)** | None --- clean debt structure |
-| **OpCo Participation** | 3--5% of net operating profit (EBITDA-linked participation right) |
+| **Cash at Close** | $2,000,000–$2,500,000 (from investor capital) |
+| **Seller Note** | $7,500,000–$8,000,000 secured promissory note |
+| **Seller Equity (RE)** | None — clean debt structure |
+| **OpCo Participation** | 3–5% of net operating profit (EBITDA-linked participation right) |
 
-### 6.2 Capital Flows --- Who Pays What, When
+### 6.2 Capital Flows — Who Pays What, When
 
 **At Closing:**
 
 | Source | Amount | Destination |
 |--------|--------|-------------|
-| Investor capital (RE investors) | $2,000,000--$2,500,000 | Seller (cash at close) |
-| Seller financing (note) | $7,500,000--$8,000,000 | Retained as secured obligation to seller |
+| Investor capital (RE investors) | $2,000,000–$2,500,000 | Seller (cash at close) |
+| Seller financing (note) | $7,500,000–$8,000,000 | Retained as secured obligation to seller |
 | **Total to Seller** | **$10,000,000** | |
 
 ### 6.3 Seller Note Terms
@@ -432,7 +432,7 @@ This strategy is designed for a seller who cares more about income and validatio
 |------|--------|
 | **Principal** | $8,000,000 |
 | **Interest Rate** | 8.0% annual, fixed |
-| **Payment Structure** | Interest-only for 18 months; amortizing months 19--60 |
+| **Payment Structure** | Interest-only for 18 months; amortizing months 19–60 |
 | **Balloon Payment** | Remaining balance due at Month 60 |
 | **Security** | First-position lien/mortgage on property via fideicomiso |
 | **Prepayment** | Permitted without penalty after Month 18 |
@@ -446,9 +446,9 @@ This strategy is designed for a seller who cares more about income and validatio
 | **Participation Basis** | 4% of annual EBITDA of TE Ops Mexico (medical operations entity) |
 | **Payment Frequency** | Semi-annual (June and December), based on trailing 6-month audited EBITDA |
 | **Commencement** | Year 2 (after 12-month ramp period) |
-| **Duration** | 10 years from closing (Years 2--11) |
+| **Duration** | 10 years from closing (Years 2–11) |
 | **Cap** | Participation terminates upon the earlier of: (a) 10-year term, or (b) cumulative payments reaching $5,000,000 |
-| **Equity Impact** | None --- purely economic participation; no voting, no board seat, no governance |
+| **Equity Impact** | None — purely economic participation; no voting, no board seat, no governance |
 | **Subordination** | Profit participation is subordinate to seller note payments (note gets paid first) |
 | **Transfer** | Not transferable without founder consent |
 | **Buy-Out** | Founders may buy out remaining participation at any time for present value of projected remaining payments (8% discount rate) |
@@ -475,30 +475,30 @@ This strategy is designed for a seller who cares more about income and validatio
 | Year 3 | $15,439,741 | $617,590 | $1,053,674 |
 | Year 4 | $18,105,249 | $724,210 | $1,777,884 |
 | Year 5 | $20,299,217 | $811,969 | $2,589,853 |
-| Years 6--11 | Growing | ~$800K--$1M/yr | $5,000,000 cap |
+| Years 6–11 | Growing | ~$800K–$1M/yr | $5,000,000 cap |
 
 **Total 5-Year Cash to Seller:**
 
 | Component | 5-Year Value |
 |-----------|-------------|
-| Cash at Close | $2,000,000--$2,500,000 |
+| Cash at Close | $2,000,000–$2,500,000 |
 | Note Payments (P+I) | ~$9,940,000 |
-| Profit Participation (Years 2--5) | ~$2,590,000 |
-| **5-Year Total** | **$14,530,000--$15,030,000** |
-| Profit Participation (Years 6--11, estimated) | ~$2,410,000 (to $5M cap) |
-| **Lifetime Total** | **$16,940,000--$17,440,000** |
+| Profit Participation (Years 2–5) | ~$2,590,000 |
+| **5-Year Total** | **$14,530,000–$15,030,000** |
+| Profit Participation (Years 6–11, estimated) | ~$2,410,000 (to $5M cap) |
+| **Lifetime Total** | **$16,940,000–$17,440,000** |
 
 ### 6.6 Seller Economics Summary (Strategy 2)
 
 | Component | Value | Timing |
 |-----------|-------|--------|
-| Cash at Close | $2,000,000--$2,500,000 | Day 1 |
-| Note Interest (Yr 1--2) | $1,740,000 | Quarterly |
-| Note Amortization + Balloon (Yr 3--5) | $8,200,000 | Monthly/Balloon |
+| Cash at Close | $2,000,000–$2,500,000 | Day 1 |
+| Note Interest (Yr 1–2) | $1,740,000 | Quarterly |
+| Note Amortization + Balloon (Yr 3–5) | $8,200,000 | Monthly/Balloon |
 | Profit Participation (10-year) | Up to $5,000,000 | Semi-annual |
-| **Total Lifetime Value** | **$16,940,000--$17,440,000** | |
+| **Total Lifetime Value** | **$16,940,000–$17,440,000** | |
 
-The seller receives up to $17.4M on a $10M sale --- a **69--74% total return** over the life of the instruments. His return is partially correlated with the operating success of the project --- if the project thrives (which it is projected to), he thrives.
+The seller receives up to $17.4M on a $10M sale — a **69–74% total return** over the life of the instruments. His return is partially correlated with the operating success of the project — if the project thrives (which it is projected to), he thrives.
 
 ### 6.7 Founder Economics and Control
 
@@ -506,7 +506,7 @@ The seller receives up to $17.4M on a $10M sale --- a **69--74% total return** o
 |--------|-------|
 | RE Equity Ownership | 100% |
 | RE Voting Control | 100% |
-| OpCo Equity (TE Wellness Holdings) | Per investor strategy (70--75% minimum) |
+| OpCo Equity (TE Wellness Holdings) | Per investor strategy (70–75% minimum) |
 | IP Ownership | 100% (Cayman; seller has zero access) |
 | Management Authority | 100% |
 | Year 1 Total Seller Obligation | $640,000 (2.0% of Year 1 revenue) |
@@ -531,39 +531,39 @@ The seller receives up to $17.4M on a $10M sale --- a **69--74% total return** o
 
 > "You built the foundation. We're building the future on top of it. And as the future grows, so does your return."
 
-- **Profit participation creates alignment:** The seller's income grows as the project succeeds. He has a financial incentive to root for the project --- and to tell people about it
-- **"Builder's Return":** Frame the profit participation as a "Builder's Return" --- a recognition that the physical structure he created is generating ongoing value
-- **Annual impact report:** Send the seller an annual report showing guest outcomes, lives changed, programs delivered --- alongside his financial statements. He sees both the money and the meaning.
+- **Profit participation creates alignment:** The seller's income grows as the project succeeds. He has a financial incentive to root for the project — and to tell people about it
+- **"Builder's Return":** Frame the profit participation as a "Builder's Return" — a recognition that the physical structure he created is generating ongoing value
+- **Annual impact report:** Send the seller an annual report showing guest outcomes, lives changed, programs delivered — alongside his financial statements. He sees both the money and the meaning.
 - **No equity = no complexity:** The seller doesn't need to worry about governance, voting, or corporate matters. He receives checks.
 
 **Why this is compelling for the seller:**
 
 - Highest total lifetime return ($17.4M) of Strategies 1 and 2
 - Income grows with the project's success (profit participation)
-- Clean --- no equity complexity, no governance responsibilities
+- Clean — no equity complexity, no governance responsibilities
 - Predictable note income plus variable profit upside
 - Emotional satisfaction of seeing his building generate healing and transformation
 - He can truthfully say: "I built that place. And I still earn from it."
 
 ### 6.10 Why This Remains a Strong Deal for Founders and Investors
 
-- **100% RE equity from Day 1** --- no seller equity to manage or buy out
-- **Profit participation is capped** ($5M) --- total cost is known and bounded
-- **4% of EBITDA is manageable** --- ~$436K in Year 2 on $10.9M EBITDA (4.0%)
+- **100% RE equity from Day 1** — no seller equity to manage or buy out
+- **Profit participation is capped** ($5M) — total cost is known and bounded
+- **4% of EBITDA is manageable** — ~$436K in Year 2 on $10.9M EBITDA (4.0%)
 - **Buy-out option** provides founders the ability to extinguish participation when convenient
-- **No governance rights** --- seller receives economic participation only
-- **Lower cash at close** ($2--2.5M) preserves more capital for operations
-- **Builder's Return framing reduces price sensitivity** --- seller focuses on total value, not headline price
+- **No governance rights** — seller receives economic participation only
+- **Lower cash at close** ($2–2.5M) preserves more capital for operations
+- **Builder's Return framing reduces price sensitivity** — seller focuses on total value, not headline price
 
 ---
 
-## 7. Strategy 3: The Partnership of Purpose --- Seller Roll-Over + Full Integration
+## 7. Strategy 3: The Partnership of Purpose — Seller Roll-Over + Full Integration
 
 ### Character
 
-**The seller carries a note, reinvests a portion of proceeds back into renovations, retains equity in both the RE entity and the OpCo, and joins as an advisory board member. This is the deepest integration --- the seller becomes a partner in the project's future. He does not leave; he evolves.**
+**The seller carries a note, reinvests a portion of proceeds back into renovations, retains equity in both the RE entity and the OpCo, and joins as an advisory board member. This is the deepest integration — the seller becomes a partner in the project's future. He does not leave; he evolves.**
 
-This strategy is designed for a seller who is seeking purpose, engagement, and relevance. He is bored. He is under-stimulated. He wants to be part of something meaningful. This structure gives him that --- with clear boundaries.
+This strategy is designed for a seller who is seeking purpose, engagement, and relevance. He is bored. He is under-stimulated. He wants to be part of something meaningful. This structure gives him that — with clear boundaries.
 
 ---
 
@@ -579,7 +579,7 @@ This strategy is designed for a seller who is seeking purpose, engagement, and r
 | **Seller OpCo Equity** | 2.5% non-controlling interest in TE Wellness Holdings |
 | **Advisory Role** | Paid advisory board member ($50,000/year + annual retreat invitation) |
 
-### 7.2 Capital Flows --- Who Pays What, When
+### 7.2 Capital Flows — Who Pays What, When
 
 **At Closing:**
 
@@ -598,8 +598,8 @@ Instead of receiving $10M in total value at close ($2M cash + $8M note), the sel
 - Advisory board seat with compensation
 
 This structure accomplishes two things simultaneously:
-1. **Reduces the seller note** from $8M to $6M --- lowering founder debt service obligations
-2. **Gives the seller skin in the game** --- he is now a co-investor, not just a creditor
+1. **Reduces the seller note** from $8M to $6M — lowering founder debt service obligations
+2. **Gives the seller skin in the game** — he is now a co-investor, not just a creditor
 
 ### 7.3 Seller Note Terms
 
@@ -607,7 +607,7 @@ This structure accomplishes two things simultaneously:
 |------|--------|
 | **Principal** | $6,000,000 |
 | **Interest Rate** | 7.0% annual, fixed (lower rate reflects seller's equity alignment) |
-| **Payment Structure** | Interest-only for 24 months; amortizing months 25--60 |
+| **Payment Structure** | Interest-only for 24 months; amortizing months 25–60 |
 | **Balloon Payment** | Remaining balance due at Month 60 |
 | **Security** | First-position lien on property via fideicomiso |
 | **Prepayment** | Permitted without penalty after Month 12 |
@@ -641,11 +641,11 @@ This structure accomplishes two things simultaneously:
 
 | Term | Detail |
 |------|--------|
-| Title | Advisory Board Member --- Founding Steward |
+| Title | Advisory Board Member — Founding Steward |
 | Compensation | $50,000/year (paid quarterly) |
 | Term | 3-year initial term; renewable by mutual consent |
 | Responsibilities | Quarterly advisory call; annual on-site visit; introductions to his network |
-| Authority | Advisory only --- no management, operational, or veto authority |
+| Authority | Advisory only — no management, operational, or veto authority |
 | Benefits | Annual 7-day retreat stay (complimentary); guest privileges at preferred rate |
 | Removal | Either party may terminate with 90-day notice |
 
@@ -666,16 +666,16 @@ This structure accomplishes two things simultaneously:
 
 | Year | Annual Payment |
 |------|---------------|
-| Years 1--5 | $50,000/year |
+| Years 1–5 | $50,000/year |
 | **5-Year Total** | **$250,000** |
 
 **Equity Value at Year 5:**
 
 | Holding | Basis | Estimated Year 5 Value |
 |---------|-------|----------------------|
-| 8% TE RE Holdings | Property appreciation + villa program value | $2,000,000--$3,200,000 |
+| 8% TE RE Holdings | Property appreciation + villa program value | $2,000,000–$3,200,000 |
 | 2.5% TE Wellness Holdings | Enterprise value of ~$147M x 2.5% | $3,675,000 |
-| **Total Equity Value** | | **$5,675,000--$6,875,000** |
+| **Total Equity Value** | | **$5,675,000–$6,875,000** |
 
 ### 7.7 Seller Economics Summary (Strategy 3)
 
@@ -684,12 +684,12 @@ This structure accomplishes two things simultaneously:
 | Cash at Close | $2,000,000 | Day 1 |
 | Note Payments (P+I over 5 years) | $7,140,000 | Quarterly/Monthly |
 | Advisory Compensation (5 years) | $250,000 | Quarterly |
-| RE Equity Value (8% at Year 5) | $2,000,000--$3,200,000 | Ongoing |
+| RE Equity Value (8% at Year 5) | $2,000,000–$3,200,000 | Ongoing |
 | OpCo Equity Value (2.5% at Year 5) | $3,675,000 | Ongoing |
-| **Total 5-Year Value** | **$15,065,000--$16,265,000** | |
-| **Including equity fair value** | **$16,065,000--$19,940,000+** | |
+| **Total 5-Year Value** | **$15,065,000–$16,265,000** | |
+| **Including equity fair value** | **$16,065,000–$19,940,000+** | |
 
-The seller receives $16--20M in total value on a $10M sale --- potentially the **highest total return** of all three strategies, driven by equity upside in a $147M enterprise. His 2.5% OpCo stake alone could be worth $3.7M at Year 5 valuations.
+The seller receives $16–20M in total value on a $10M sale — potentially the **highest total return** of all three strategies, driven by equity upside in a $147M enterprise. His 2.5% OpCo stake alone could be worth $3.7M at Year 5 valuations.
 
 ### 7.8 Founder Economics and Control
 
@@ -697,11 +697,11 @@ The seller receives $16--20M in total value on a $10M sale --- potentially the *
 |--------|-------|
 | RE Equity Ownership | 92% |
 | RE Voting Control | 100% (seller holds non-voting units) |
-| OpCo Equity (TE Wellness Holdings) | ~67.5--72.5% (after 2.5% to seller) |
+| OpCo Equity (TE Wellness Holdings) | ~67.5–72.5% (after 2.5% to seller) |
 | IP Ownership | 100% (Cayman; seller has zero IP access) |
 | Management Authority | 100% (advisory role is advisory only) |
-| Year 1 Total Seller Obligation | $470,000 ($420K note + $50K advisory) --- 1.5% of revenue |
-| Seller Note is smallest | $6M vs. $7.5--8M in other strategies |
+| Year 1 Total Seller Obligation | $470,000 ($420K note + $50K advisory) — 1.5% of revenue |
+| Seller Note is smallest | $6M vs. $7.5–8M in other strategies |
 | Advisory cost | $50K/year is negligible against $10.3M Year 1 revenue |
 
 ### 7.9 Seller Protections
@@ -720,30 +720,30 @@ The seller receives $16--20M in total value on a $10M sale --- potentially the *
 
 **How this is presented to the seller:**
 
-> "You're not selling your property. You're joining a mission. You built the body. We're bringing it to life. And you'll be here to see it --- as a partner, an advisor, and a friend."
+> "You're not selling your property. You're joining a mission. You built the body. We're bringing it to life. And you'll be here to see it — as a partner, an advisor, and a friend."
 
 - **The deepest emotional connection:** Seller has equity in both the land and the operating company. His wealth grows as lives are changed.
 - **Advisory role provides purpose:** Quarterly calls, annual visits, and a real title give a bored, under-stimulated man something to care about
-- **Renovation reinvestment is powerful symbolism:** The seller is literally investing back into his own creation --- he is not walking away, he is upgrading
+- **Renovation reinvestment is powerful symbolism:** The seller is literally investing back into his own creation — he is not walking away, he is upgrading
 - **"Founding Steward" title is permanent:** Even after the advisory term ends, the title remains. His name is on the wall. His legacy is in the corporate documents.
-- **Annual retreat stay:** He returns to his property as an honored guest --- not a former owner. He sees the gardens he planted being tended. He sees guests being healed in rooms he designed.
+- **Annual retreat stay:** He returns to his property as an honored guest — not a former owner. He sees the gardens he planted being tended. He sees guests being healed in rooms he designed.
 
 **Why this is compelling for the seller:**
 
-- Highest potential total return ($16--20M+)
+- Highest potential total return ($16–20M+)
 - Deepest personal connection to the project
 - Real purpose and engagement (advisory role)
-- His $2M reinvestment makes the property better --- and increases his own equity value
+- His $2M reinvestment makes the property better — and increases his own equity value
 - He can introduce the project to his network with genuine enthusiasm (he's an owner)
 - His divorce narrative shifts from loss to evolution: "I let go of the property, but I gained something bigger."
 
 ### 7.11 Why This Remains a Strong Deal for Founders and Investors
 
-- **Smallest seller note** ($6M vs. $7.5--8M) --- lowest debt service obligation
+- **Smallest seller note** ($6M vs. $7.5–8M) — lowest debt service obligation
 - **$2M renovation reinvestment** directly reduces capital needed from outside investors
 - **7.0% interest rate** (lowest of all strategies) reflects seller's equity alignment
 - **2.5% OpCo dilution is minimal** on a $147M enterprise
-- **Advisory compensation ($50K/year) is negligible** --- and the seller's network could generate referrals worth multiples of the cost
+- **Advisory compensation ($50K/year) is negligible** — and the seller's network could generate referrals worth multiples of the cost
 - **Seller as advocate:** An equity-holding, advisory-board-sitting, annually-visiting seller becomes the project's most authentic external champion
 - **Reduced negotiation friction:** A seller who becomes a partner has dramatically less incentive to fight on price
 
@@ -756,15 +756,15 @@ The seller receives $16--20M in total value on a $10M sale --- potentially the *
 | Metric | Strategy 1 | Strategy 2 | Strategy 3 |
 |--------|-----------|-----------|-----------|
 | **Purchase Price** | $10,500,000 | $10,000,000 | $10,000,000 |
-| **Cash at Close** | $3,000,000 | $2,000,000--$2,500,000 | $2,000,000 |
+| **Cash at Close** | $3,000,000 | $2,000,000–$2,500,000 | $2,000,000 |
 | **Seller Note** | $7,500,000 | $8,000,000 | $6,000,000 |
 | **Interest Rate** | 7.5% | 8.0% | 7.0% |
 | **Year 1 Cash Obligation** | $562,500 | $640,000 | $470,000 |
 | **5-Year Note Cost** | ~$8,925,000 | ~$9,940,000 | ~$7,140,000 |
 | **Seller RE Equity** | 10% | 0% | 8% |
 | **Seller OpCo Participation** | Advisory (symbolic) | 4% EBITDA ($5M cap) | 2.5% equity |
-| **Total 5-Year Seller Value** | $14.4--15.9M | $14.5--15.0M | $16.1--19.9M |
-| **Total Lifetime Seller Value** | $14.4--15.9M | $16.9--17.4M | $16.1--19.9M+ |
+| **Total 5-Year Seller Value** | $14.4–15.9M | $14.5–15.0M | $16.1–19.9M |
+| **Total Lifetime Seller Value** | $14.4–15.9M | $16.9–17.4M | $16.1–19.9M+ |
 
 ### 8.2 Structural Comparison
 
@@ -799,17 +799,17 @@ The seller receives $16--20M in total value on a $10M sale --- potentially the *
 
 Do not lead with numbers. Lead with story.
 
-**Phase 1: Recognition (5--10 minutes)**
+**Phase 1: Recognition (5–10 minutes)**
 
-> "Before we talk about anything else, we want you to know that we've studied every detail of what you built here. We've walked the grounds. We've seen the cenotes. We understand what this place represents --- not as a property, but as a vision. You didn't build a hotel. You built a sanctuary. And that's exactly why we're here."
+> "Before we talk about anything else, we want you to know that we've studied every detail of what you built here. We've walked the grounds. We've seen the cenotes. We understand what this place represents — not as a property, but as a vision. You didn't build a hotel. You built a sanctuary. And that's exactly why we're here."
 
 **Phase 2: Our Vision (10 minutes)**
 
-> "We're building something that doesn't exist yet --- a world-class medical wellness center where people come to heal. Not a spa. Not a resort. A place where someone battling depression, addiction, or trauma can arrive broken and leave whole. Your property is the only place we've found that can hold this vision. The jungle, the cenotes, the privacy, the scale --- it's perfect. And it's perfect because of what you created."
+> "We're building something that doesn't exist yet — a world-class medical wellness center where people come to heal. Not a spa. Not a resort. A place where someone battling depression, addiction, or trauma can arrive broken and leave whole. Your property is the only place we've found that can hold this vision. The jungle, the cenotes, the privacy, the scale — it's perfect. And it's perfect because of what you created."
 
 **Phase 3: The Invitation (5 minutes)**
 
-> "We could make you a simple offer and walk away. But that doesn't feel right. What you built deserves more than a wire transfer. We want to talk about how you might remain connected to this place --- how your legacy continues, and how you benefit as it grows."
+> "We could make you a simple offer and walk away. But that doesn't feel right. What you built deserves more than a wire transfer. We want to talk about how you might remain connected to this place — how your legacy continues, and how you benefit as it grows."
 
 ### 9.2 Presenting the Structure
 
@@ -823,13 +823,13 @@ Present ONE strategy at a time based on the seller's personality read. Do not pr
 
 | Objection | Response |
 |-----------|---------|
-| "I need more cash at close" | Increase cash by $500K--$1M; reduce note accordingly. All strategies have flexibility. |
+| "I need more cash at close" | Increase cash by $500K–$1M; reduce note accordingly. All strategies have flexibility. |
 | "The interest rate is too low" | "We're offering you something no bank can: permanent connection to your creation. The rate reflects a partnership, not a transaction." Offer 0.5% increase if necessary. |
 | "I don't want any involvement" | Strategy 2 (zero equity, zero governance). "You receive checks. Nothing else is required." |
-| "I want more equity" | Move from 10% to 12--15% RE equity (max). Do NOT increase OpCo above 5%. |
+| "I want more equity" | Move from 10% to 12–15% RE equity (max). Do NOT increase OpCo above 5%. |
 | "I want a seat on the board" | Advisory board (non-voting) only. Never a formal board seat with governance authority. |
 | "What if you can't pay the note?" | "Your loan is secured by the property you built. You know its value better than anyone. If anything goes wrong, you get your property back." |
-| "I invested $30M --- this price is too low" | "The $30M you invested built something priceless. We're honoring that with a structure that gives you ongoing participation in its future. The total value to you over 5 years significantly exceeds the cash price." |
+| "I invested $30M — this price is too low" | "The $30M you invested built something priceless. We're honoring that with a structure that gives you ongoing participation in its future. The total value to you over 5 years significantly exceeds the cash price." |
 
 ---
 
@@ -842,7 +842,7 @@ The seller note is secured by a first-position lien on the property held within 
 - The fideicomiso beneficiary (TE RE Acquisition & Development Mexico, S.A. de C.V.) can pledge beneficial interest as security
 - The seller's security interest attaches to the beneficial interest in the fideicomiso, not to the bank trustee's bare legal title
 - Enforcement requires Mexican legal proceedings but is well-established under the Foreign Investment Law and Banking Law
-- The fideicomiso itself cannot be revoked or modified without beneficiary consent --- protecting both the seller's security and the founders' beneficial ownership
+- The fideicomiso itself cannot be revoked or modified without beneficiary consent — protecting both the seller's security and the founders' beneficial ownership
 
 > **Source:** `docs/data-room/legal/16-fideicomiso-structure.md`
 
@@ -869,9 +869,9 @@ The seller note is secured by a first-position lien on the property held within 
 
 ### 10.4 Securities Considerations
 
-- Seller equity in the RE entity and OpCo constitutes a securities issuance --- requires applicable exemption (private placement)
-- Profit participation agreement may or may not constitute a security depending on jurisdiction --- structure as a contractual commercial arrangement to minimize securities classification risk
-- Seller note is a debt instrument, not a security, when issued in connection with a property sale --- but review with securities counsel
+- Seller equity in the RE entity and OpCo constitutes a securities issuance — requires applicable exemption (private placement)
+- Profit participation agreement may or may not constitute a security depending on jurisdiction — structure as a contractual commercial arrangement to minimize securities classification risk
+- Seller note is a debt instrument, not a security, when issued in connection with a property sale — but review with securities counsel
 
 ---
 
@@ -893,7 +893,7 @@ The seller note is secured by a first-position lien on the property held within 
 | Risk | Probability | Impact | Mitigation |
 |------|------------|--------|------------|
 | Project fails; founders default on note | Very Low | Medium | First-lien security on property; seller gets property back |
-| Property depreciates | Very Low | Medium | Tulum appreciation 8--12%/yr; $2M+ renovation investment enhances value |
+| Property depreciates | Very Low | Medium | Tulum appreciation 8–12%/yr; $2M+ renovation investment enhances value |
 | Founders dilute seller equity | Low | Low | Anti-dilution protection; ROFR on additional issuances |
 | Profit participation underperforms | Low | Low | Conservative EBITDA projections; 83% gross margins provide buffer |
 | Founders refuse to pay out advisory fees | Very Low | Very Low | Contractual obligation; immaterial amount |
@@ -902,28 +902,28 @@ The seller note is secured by a first-position lien on the property held within 
 
 ## 12. Implementation Roadmap
 
-### Phase 1: Seller Relationship Building (Weeks 1--4)
+### Phase 1: Seller Relationship Building (Weeks 1–4)
 
 - [ ] Initial property visit and personal meeting with seller
 - [ ] Understand seller's emotional state, priorities, and needs
 - [ ] Identify which strategy profile fits best
 - [ ] Build rapport before any numbers are discussed
 
-### Phase 2: Soft Presentation (Weeks 4--6)
+### Phase 2: Soft Presentation (Weeks 4–6)
 
 - [ ] Present the vision for the property (not the numbers)
 - [ ] Share the legacy/stewardship framing
 - [ ] Gauge seller interest in remaining connected
 - [ ] Identify which structural elements resonate
 
-### Phase 3: Term Sheet (Weeks 6--8)
+### Phase 3: Term Sheet (Weeks 6–8)
 
 - [ ] Prepare term sheet based on selected strategy (or hybrid)
 - [ ] Present headline economics to seller
 - [ ] Negotiate key terms: price, cash at close, interest rate, equity percentage
 - [ ] Engage seller's counsel in review
 
-### Phase 4: Due Diligence and Documentation (Weeks 8--14)
+### Phase 4: Due Diligence and Documentation (Weeks 8–14)
 
 - [ ] Engage Mexican legal counsel for fideicomiso, mortgage, and entity documentation
 - [ ] Complete property due diligence (title, environmental, structural)
@@ -931,7 +931,7 @@ The seller note is secured by a first-position lien on the property held within 
 - [ ] Obtain divorce court approval (if required)
 - [ ] Finalize fideicomiso setup with bank trustee
 
-### Phase 5: Closing (Week 14--16)
+### Phase 5: Closing (Week 14–16)
 
 - [ ] Execute purchase agreement
 - [ ] Record mortgage via fideicomiso
@@ -960,7 +960,7 @@ The seller note is secured by a first-position lien on the property held within 
 
 ---
 
-**STRICTLY CONFIDENTIAL --- Founders Only**
+**STRICTLY CONFIDENTIAL — Founders Only**
 This document contains proprietary negotiation strategies. Distribution to any party other than founding partners is strictly prohibited. The seller must never see this document.
 
 ---
