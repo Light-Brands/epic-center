@@ -24,7 +24,7 @@ Founders raising institutional capital face a brutal paradox: you need to spend 
 
 A typical $3M-$10M raise requires engaging **8+ separate firms**: a strategy consultancy for positioning, a law firm for entity structuring, tax advisors for multi-jurisdiction optimization, financial modelers for projections, market researchers for competitive intelligence, a web agency for investor-facing digital assets, a design firm for brand identity, and an investment bank for deal packaging. Assembled piecemeal, this costs **$1.5M-$3M+** and takes **6-12 months** before a single dollar is raised.
 
-We built the entire stack -- 153+ documents, a live investor web platform, institutional-grade financial models, a 21-document data room, and a complete design system -- for a real venture raising real capital. Every deliverable is battle-tested, internally cross-referenced, and investor-ready.
+We built the entire stack, 150+ documents, a live investor web platform, institutional-grade financial models, a 20+ document data room, and a complete design system, for a real venture raising real capital. Every deliverable is battle-tested, internally cross-referenced, and investor-ready.
 
 **The offer:** We deliver a unified fundraising operating system, customized to your business, in **14 to 30 days, not 6-12 months** -- at a fraction of the assembled cost.
 
