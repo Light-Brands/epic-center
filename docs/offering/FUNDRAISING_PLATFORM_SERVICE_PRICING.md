@@ -346,7 +346,7 @@ For companies with global ambitions raising $10M+ who need the complete infrastr
 >
 > The complete fundraising operating system. Every document, every model, every platform component -- customized to your business, your market, and your raise. Includes the full 9-Point Enterprise Valuation Report.
 
-> **30 days vs. 12-18 months.** The entire $3M+ fundraising stack -- all 10 categories, 153+ documents, a live web platform, a 12-tab financial model, and a 9-method valuation report -- delivered in one month. Traditional assembly takes over a year and costs 5-10x more.
+> **30 days vs. 12-18 months.** The entire $3M+ fundraising stack -- all 10 categories, 150+ documents, a live web platform, a 12-tab financial model, and a 9-method valuation report -- delivered in one month. Traditional assembly takes over a year and costs 5-10x more.
 
 ---
 
@@ -362,7 +362,7 @@ Individual modules available separately at category pricing listed above. Mix an
 
 The traditional fundraising advisory model is fundamentally broken. Founders don't need a team of consultants billing hours for six months -- they need a finished, investor-ready operating system that works the day it's delivered. The entire industry is built around selling time: monthly retainers, hourly billing, phased engagements that stretch across quarters. Founders pay for process, not product. They pay for meetings about deliverables, not deliverables themselves.
 
-We flipped the model. You pay for a finished, battle-tested fundraising operating system -- 153+ cross-referenced documents, a live interactive investor platform, institutional-grade financial models, and a complete data room -- delivered in 14 to 30 days. Not a team of billable-hour consultants who take 6-12 months to produce a fraction of what we deliver. Not 8 vendors sending 8 invoices on 8 different timelines. One team, one engagement, one invoice, and a complete product that's ready to raise capital the day we hand it over.
+We flipped the model. You pay for a finished, battle-tested fundraising operating system -- 150+ cross-referenced documents, a live interactive investor platform, institutional-grade financial models, and a complete data room -- delivered in 14 to 30 days. Not a team of billable-hour consultants who take 6-12 months to produce a fraction of what we deliver. Not 8 vendors sending 8 invoices on 8 different timelines. One team, one engagement, one invoice, and a complete product that's ready to raise capital the day we hand it over.
 
 The comparison isn't close. Here's the data.
 
@@ -372,13 +372,13 @@ The comparison isn't close. Here's the data.
 |-----------|------------|----------------------|----------------------|--------|
 | **Total cost for $15-17M raise** | $750K - $2M+ | $596K - $1.15M | $113K - $361K | **$75K - $750K** |
 | **Timeline to investor-ready** | 6-12 months | 6-12 months | 4-9 months | **14-30 days** |
-| **Deliverables included** | Strategy + tax only | Pitch deck + introductions | Varies by vendor | **153+ documents, all 10 categories** |
+| **Deliverables included** | Strategy + tax only | Pitch deck + introductions | Varies by vendor | **150+ documents, all 10 categories** |
 | **Financial model quality** | Institutional (part of larger engagement) | Basic to moderate | Moderate (outsourced) | **12-tab linked, variable-driven, institutional-grade** |
 | **Enterprise valuation** | Single-method opinion ($75K-$200K extra) | Back-of-napkin or outsourced | Not offered | **9-method IPEV-compliant report with sensitivity analysis** |
 | **Interactive investor platform** | Not offered | Not offered | Not offered | **30-page custom Next.js platform** |
-| **Data room** | Not included (separate vendor) | Basic folder structure | Third-party VDR subscription | **21-document organized, gated data room** |
+| **Data room** | Not included (separate vendor) | Basic folder structure | Third-party VDR subscription | **20+ document organized, gated data room** |
 | **Market research depth** | Included if scoped (adds $200K+) | Surface-level competitive scan | Template-based | **Multi-industry, 50+ competitor profiles, TAM/SAM/SOM** |
-| **Strategic narrative** | High quality but siloed | Deal-focused, not operational | Generic templates | **Unified across all 153+ documents** |
+| **Strategic narrative** | High quality but siloed | Deal-focused, not operational | Generic templates | **Unified across all 150+ documents** |
 | **Number of vendors to manage** | 3-5 practice groups | 2-4 external vendors | 4-6 freelancers/firms | **1** |
 | **Success fee / hidden costs** | None (but scope creep is standard) | 3-6% success fee ($450K-$1.02M) | None (but change orders add up) | **None. Fixed price, all-inclusive** |
 | **Internal consistency** | Low (multiple practice groups) | Low (multiple vendors) | Very low (fragmented) | **Total -- every document cross-references every other** |
@@ -446,7 +446,7 @@ Speed isn't a nice-to-have -- it's the single biggest driver of fundraising outc
 
 No competitor in any category -- Big 4, boutique IB, startup consultancy, or DIY assembly -- provides what this platform delivers:
 
-- **153+ cross-referenced documents** -- not siloed deliverables from 8 vendors that don't reference each other
+- **150+ cross-referenced documents** -- not siloed deliverables from 8 vendors that don't reference each other
 - **Live interactive investor platform** -- a 30-page custom Next.js application, not a PDF pitch deck emailed as an attachment
 - **12-tab linked financial model** -- variable-driven with cascading assumptions, not a static spreadsheet with hardcoded numbers
 - **9-Point Enterprise Valuation Report** -- IPEV-compliant, 9 independent methods weighted and cross-validated, not a single-method guess on a slide
@@ -477,7 +477,7 @@ We've documented the economics of our own production process:
 
 ### Why This Isn't a Compromise
 
-- **AI handles volume and consistency**: 153+ documents that cross-reference each other perfectly
+- **AI handles volume and consistency**: 150+ documents that cross-reference each other perfectly
 - **Senior professionals handle judgment**: Strategy, legal review, financial validation
 - **The savings are structural**: We don't cut corners -- we eliminated the inefficiency of 8 separate vendor workflows, sequential handoffs, and coordination overhead
 - **Speed is a feature**: Raising capital is time-sensitive. Six months of document preparation is six months of runway burned before you even start
@@ -490,7 +490,7 @@ This is not a template library. This is not a pitch deck generator. This is not 
 
 ### An Integrated System, Not a Collection of Files
 
-Every number in the financial model traces back to the market research. Every claim in the executive summary is supported by the operational blueprint. Every projection in the data room matches the investor platform dashboards. Change one assumption and it cascades through 153+ documents and a live web platform.
+Every number in the financial model traces back to the market research. Every claim in the executive summary is supported by the operational blueprint. Every projection in the data room matches the investor platform dashboards. Change one assumption and it cascades through 150+ documents and a live web platform.
 
 ### Battle-Tested on a Real Raise
 
@@ -504,7 +504,7 @@ Most fundraising advisory ends with a stack of documents. We deliver a **live, i
 
 The 12-tab Google Sheets model isn't a snapshot -- it's an instrument. Adjust assumptions and watch projections cascade in real time. Investors can stress-test your model themselves, which builds the confidence that closes rounds.
 
-### One Coherent Narrative Across 153+ Documents
+### One Coherent Narrative Across 150+ Documents
 
 From the 30,000-foot vision to the granular SOP, every document tells the same story in the same voice with the same numbers. This level of internal consistency is nearly impossible when 8 different vendors each write their own piece.
 
@@ -573,7 +573,7 @@ graph TD
 | **Discovery** | 1-4 | Comprehensive deep-dive across all 10 categories. Business, market, tax/legal, operations, valuation, and expansion scope. |
 | **Content Generation** | 5-16 | All strategic documents, market research, tax/legal architecture, financial models, expansion research, operational blueprints, and data room. |
 | **Platform Build** | 17-25 | Full interactive investor platform, dashboards, data visualization, design system, gated data room portal, and analytics integration. |
-| **Review & Polish** | 26-30 | End-to-end QA across 153+ documents, professional review of all models and legal documents, client walkthrough, and investor outreach strategy. |
+| **Review & Polish** | 26-30 | End-to-end QA across 150+ documents, professional review of all models and legal documents, client walkthrough, and investor outreach strategy. |
 
 > **Every track includes:** daily progress updates, continuous client review checkpoints, and a final walkthrough before delivery. No surprises, no scope creep, no timeline drift.
 
