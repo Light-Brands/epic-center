@@ -1608,7 +1608,7 @@ All new entities integrate into the existing seven-entity architecture without d
 | Subscription Agreement | `docs/data-room/investment/04-subscription-agreement.md` | Investment commitment mechanics |
 | Operating Agreement | `docs/data-room/investment/05-operating-agreement.md` | Governance, distributions, exits |
 | Global Tax Optimization | `docs/strategy/GLOBAL_TAX_OPTIMIZATION_STRATEGY.md` | International tax architecture |
-| Fundraising Platform Pricing | `docs/FUNDRAISING_PLATFORM_SERVICE_PRICING.md` | Service infrastructure, 12-tab model |
+| Fundraising Platform Pricing | `docs/offering/FUNDRAISING_PLATFORM_SERVICE_PRICING.md` | Service infrastructure, 12-tab model |
 
 ### Financial Model
 
