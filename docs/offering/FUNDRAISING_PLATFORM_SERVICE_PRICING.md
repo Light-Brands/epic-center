@@ -34,12 +34,11 @@ We built the entire stack -- 153+ documents, a live investor web platform, insti
 
 | Deliverable | Scale |
 |-------------|-------|
-| Strategic documents | **153+ files (~561,000 words / ~1,120 pages)** |
-| Interactive investor web platform | **30 pages, 20,000+ lines of code (Next.js)** |
+| Strategic documents | **150+ files (~550,000+ words / ~1,100+ pages)** |
+| Interactive investor web platform | **30+ pages, 25,000+ lines of Luxury level code (Next.js)** |
 | Financial model | **12-tab variable-driven Google Sheets model** -- fully linked front-to-back with formulas, scenario toggles, and assumption-driven flexibility |
-| Investor-ready data room | **21 documents**, organized and gated |
+| Investor-ready data room | **20+ documents**, organized and gated |
 | Design system | **Brand guidelines, color tokens, typography, component library** |
-| CSV data exports | **10 structured datasets** |
 
 > Every deliverable is customized to the client's specific business, market, and capital raise strategy. Nothing is a template fill-in.
 
