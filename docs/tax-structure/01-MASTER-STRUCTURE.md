@@ -7,13 +7,156 @@
 
 ## 1. Summary
 
-Transformational Epicenter operates through seven entities across five jurisdictions, owned by a single Panama Private Interest Foundation through a Panamanian holding corporation (with one entity accepting outside investment). The **Panama PIF** holds 100% of **Panamanian Holdings S.A.**, which in turn owns ~70% of **TE Wellness Holdings** (Cayman), 100% of **Light Brands Studio FZ-LLC** (Dubai), and 100% of **Light Brands Consulting Ltd** (Cook Islands IBC) — creating a double layer of asset protection between the foundation and the operating entities. TE Wellness Holdings is the investable vehicle — it owns all TE IP, collects all TE revenue at 0% corporate tax, controls the Mexico OpCo, and licenses content to the Church. Studio is the shared service center — it builds for both TE Holdings and Light Brands under cost-plus contracts at 0% (QFZP). CI IBC faces external consulting and SaaS clients, collects Light Brands revenue at 0%, and subcontracts all development to Studio. A US church distributes the spiritual mission at 0% federal tax and receives dual royalty streams from both TE Holdings and CI IBC. A Mexican operating company delivers the guest experience at 30% on margin only. The US founder has no ownership stake in any foreign entity, eliminating all CFC/GILTI exposure. The Canadian founder departs Canada before the seed round and pays 0% personal tax. The Panamanian Holdings S.A. adds zero additional tax (0% on foreign-source income under Panama territorial taxation). The entity-level effective tax rate is ~1.2%.
+Transformational Epicenter operates through eight entities across five jurisdictions, owned by a single Panama Private Interest Foundation through a Panamanian holding corporation (with one entity accepting outside investment). The **Panama PIF** holds 100% of **Panamanian Holdings S.A.**, which in turn owns ~70% of **TE Wellness Holdings** (Cayman), 100% of **Light Brands Studio FZ-LLC** (Dubai), and 100% of **Light Brands Consulting Ltd** (Cook Islands IBC) — creating a double layer of asset protection between the foundation and the operating entities. TE Wellness Holdings is the investable vehicle — it owns all TE IP, collects all TE revenue at 0% corporate tax, controls two Mexican subsidiaries (TE Ops Mexico for operations and TE RE Mexico for real estate), and licenses content to the Church. Studio is the shared service center — it builds for both TE Holdings and Light Brands under cost-plus contracts at 0% (QFZP). CI IBC faces external consulting and SaaS clients, collects Light Brands revenue at 0%, and subcontracts all development to Studio. A US church distributes the spiritual mission at 0% federal tax and receives dual royalty streams from both TE Holdings and CI IBC. A Mexican operating company delivers the guest experience at 30% on margin only. A second Mexican entity acquires land, holds title, develops villas and facilities, and leases to the operating company — paying 30% on rental income offset by building depreciation. The US founder has no ownership stake in any foreign entity, eliminating all CFC/GILTI exposure. The Canadian founder departs Canada before the seed round and pays 0% personal tax. The Panamanian Holdings S.A. adds zero additional tax (0% on foreign-source income under Panama territorial taxation). The entity-level effective tax rate is ~1.2%.
 
 ---
 
-## 2. The Seven Entities
+## 2. The Full Picture
 
-Seven entities. Five jurisdictions. One architecture. Meet them one at a time.
+All entities, all flows, all connections — one view from top to bottom.
+
+```mermaid
+graph LR
+    subgraph ownership["Ownership"]
+        SHIELD["THE SHIELD<br/>Panama PIF<br/>0%"]
+        FORTRESS["THE FORTRESS<br/>Panamanian Holdings S.A.<br/>0% (territorial)"]
+        INVESTOR["INVESTOR<br/>~30% of Holdings"]
+    end
+
+    subgraph revenue["Revenue Engines"]
+        PRODUCT["THE PRODUCT<br/>TE Holdings (Cayman)<br/>0%"]
+        VOICE["THE VOICE<br/>CI IBC (Cook Islands)<br/>0%"]
+    end
+
+    subgraph operations["Operations"]
+        BUILDER["THE BUILDER<br/>Studio (Dubai)<br/>0% QFZP"]
+        HANDS["THE HANDS<br/>Mexico OpCo<br/>30% margin"]
+        GROUND["THE GROUND<br/>Mexico RE<br/>30% rent minus depreciation"]
+    end
+
+    subgraph mission["Mission"]
+        HEART["THE HEART<br/>Church<br/>0% exempt"]
+    end
+
+    subgraph founders["Founders"]
+        SOUL["THE SOUL<br/>Founders<br/>~0-3.7%"]
+    end
+
+    SHIELD -->|"100%"| FORTRESS
+    FORTRESS -->|"~70%"| PRODUCT
+    INVESTOR -->|"~30%"| PRODUCT
+    FORTRESS -->|"100%"| BUILDER
+    FORTRESS -->|"100%"| VOICE
+    PRODUCT -->|"100%"| HANDS
+    PRODUCT -->|"100%"| GROUND
+
+    PRODUCT -->|"Dev services<br/>(cost + 8-12%)"| BUILDER
+    PRODUCT -->|"Service fee"| HANDS
+    PRODUCT -->|"Equity capital"| GROUND
+    PRODUCT -->|"Content license"| HEART
+    GROUND -->|"Lease<br/>(arm's length rent)"| HANDS
+    VOICE -->|"Subcontracts dev"| BUILDER
+    VOICE -->|"Spiritual tech license"| HEART
+
+    BUILDER -->|"Salary"| SOUL
+    HEART -->|"Minister comp +<br/>housing + retirement"| SOUL
+
+    style PRODUCT fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style BUILDER fill:#0f3460,stroke:#e94560,color:#fff
+    style VOICE fill:#0d7377,stroke:#14ffec,color:#fff
+    style SHIELD fill:#1a1a2e,stroke:#e94560,color:#fff
+    style FORTRESS fill:#2c1810,stroke:#e94560,color:#fff
+    style HEART fill:#533483,stroke:#ffd700,color:#fff
+    style HANDS fill:#16213e,stroke:#0f3460,color:#fff
+    style GROUND fill:#4a3728,stroke:#c9770a,color:#fff
+    style SOUL fill:#0a8754,stroke:#fff,color:#fff
+    style INVESTOR fill:#c9770a,stroke:#fff,color:#fff
+```
+
+---
+
+## 3. Who Owns What
+
+Ownership only — no money flows, no services. Just the lines of control.
+
+```mermaid
+graph TB
+    PIF["Panama PIF<br/>(independent legal person)"]
+    SA["Panamanian Holdings S.A.<br/>(Panama Corporation)"]
+    INVESTOR["Investor"]
+    HOLDINGS["TE Wellness Holdings<br/>(Cayman)"]
+    STUDIO["Light Brands Studio<br/>(Dubai)"]
+    CI["Light Brands Consulting<br/>(Cook Islands)"]
+    MEXICO["TE Ops Mexico<br/>(Tulum)"]
+    MEXICO_RE["TE RE Mexico<br/>(Tulum — RE)"]
+    CHURCH["Church of the Living Light<br/>(US nonprofit)"]
+
+    PIF -->|"100%"| SA
+    SA -->|"~70%"| HOLDINGS
+    INVESTOR -->|"~30%"| HOLDINGS
+    SA -->|"100%"| STUDIO
+    SA -->|"100%"| CI
+    HOLDINGS -->|"100%"| MEXICO
+    HOLDINGS -->|"100%"| MEXICO_RE
+
+    CHURCH -.-|"No owner<br/>(Spiritual Council governs)"| CHURCH
+
+    style PIF fill:#1a1a2e,stroke:#e94560,color:#fff
+    style SA fill:#2c1810,stroke:#e94560,color:#fff
+    style INVESTOR fill:#c9770a,stroke:#fff,color:#fff
+    style HOLDINGS fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style STUDIO fill:#0f3460,stroke:#e94560,color:#fff
+    style CI fill:#0d7377,stroke:#14ffec,color:#fff
+    style MEXICO fill:#16213e,stroke:#0f3460,color:#fff
+    style MEXICO_RE fill:#4a3728,stroke:#c9770a,color:#fff
+    style CHURCH fill:#533483,stroke:#ffd700,color:#fff
+```
+
+Key points:
+- **PIF owns everything through the S.A.** — double layer of asset protection (PIF → S.A. → operating entities)
+- **S.A. holds all operating entity equity** — ~70% of Holdings, 100% of Studio, 100% of CI IBC
+- **Investor equity isolated** to TE Holdings only — no exposure to Studio, LB, or Church
+- **Church has no owner** — nonprofit governed by independent Spiritual Council
+- **Both Mexican entities owned by Holdings** — Holdings controls all TE operations and real estate
+- **RE entity and OpCo are siblings** — separate liability, shared parent
+
+---
+
+## 4. The Eight Entities
+
+Eight entities. Five jurisdictions. One architecture. Presented top-down from the ownership layer through operations.
+
+### THE SHIELD — Panama PIF
+
+```mermaid
+graph TB
+    SHIELD["🛡 THE SHIELD<br/>Panama Private Interest Foundation<br/>(Law 25/1995)<br/>0% tax — foreign income"]
+
+    SHIELD --- holds_sa["Owns 100% of Panamanian Holdings S.A."]
+    SHIELD --- privacy["Beneficiary identities private"]
+    SHIELD --- protection["Asset protection"]
+
+    style SHIELD fill:#1a1a2e,stroke:#e94560,color:#fff
+```
+
+The ownership layer. The PIF is an independent legal person — it has no "owner." It holds 100% of Panamanian Holdings S.A., which in turn owns ~70% of Holdings, 100% of Studio, and 100% of CI IBC, keeping beneficiary identities private. The Canadian founder serves as Protector. The US founder is **not** a beneficiary (eliminating CFC/GILTI). A Foundation Council of 3+ members (at least 1 independent) governs. Private regulations name beneficiaries. 0% on foreign-source income.
+
+### THE FORTRESS — Panamanian Holdings S.A.
+
+```mermaid
+graph TB
+    FORTRESS["🏰 THE FORTRESS<br/>Panamanian Holdings S.A.<br/>(Panama Corporation)<br/>0% tax — territorial"]
+
+    FORTRESS --- holds_te["Owns ~70% of Holdings"]
+    FORTRESS --- holds_studio["Owns 100% of Studio"]
+    FORTRESS --- holds_ci["Owns 100% of CI IBC"]
+    FORTRESS --- layer["Double-layer asset protection"]
+    FORTRESS --- governance["Corporate governance of portfolio"]
+
+    style FORTRESS fill:#2c1810,stroke:#e94560,color:#fff
+```
+
+The intermediate holding company. Panamanian Holdings S.A. sits between the PIF and all operating entities, creating a double layer of asset protection and structural separation. The PIF holds 100% of the S.A.; the S.A. holds ~70% of Holdings, 100% of Studio, and 100% of CI IBC. Creditors must pierce both the S.A. corporate veil AND the PIF to reach operating entities. The S.A. handles corporate governance of the portfolio (appointing directors, signing intercompany agreements, managing equity), while the PIF's role is pure asset protection and beneficiary management. Panama S.A. pays 0% on foreign-source income (territorial taxation). Board of 3+ directors (at least 1 independent), with the Canadian founder as a director. Annual cost: ~$2-4K (agent fee + franchise tax + registered office).
 
 ### THE PRODUCT — TE Wellness Holdings (Cayman)
 
@@ -67,38 +210,6 @@ graph TB
 
 The client-facing consulting and SaaS entity. CI IBC signs the contracts, collects the revenue, owns LB-specific IP, and licenses spiritual technology to the Church. It has **zero employees** — intentionally thin to avoid creating permanent establishment anywhere. All development is subcontracted to Studio at arm's length. 0% on international income with asset protection under Cook Islands law.
 
-### THE SHIELD — Panama PIF
-
-```mermaid
-graph TB
-    SHIELD["🛡 THE SHIELD<br/>Panama Private Interest Foundation<br/>(Law 25/1995)<br/>0% tax — foreign income"]
-
-    SHIELD --- holds_sa["Owns 100% of Panamanian Holdings S.A."]
-    SHIELD --- privacy["Beneficiary identities private"]
-    SHIELD --- protection["Asset protection"]
-
-    style SHIELD fill:#1a1a2e,stroke:#e94560,color:#fff
-```
-
-The ownership layer. The PIF is an independent legal person — it has no "owner." It holds 100% of Panamanian Holdings S.A., which in turn owns ~70% of Holdings, 100% of Studio, and 100% of CI IBC, keeping beneficiary identities private. The Canadian founder serves as Protector. The US founder is **not** a beneficiary (eliminating CFC/GILTI). A Foundation Council of 3+ members (at least 1 independent) governs. Private regulations name beneficiaries. 0% on foreign-source income.
-
-### THE FORTRESS — Panamanian Holdings S.A.
-
-```mermaid
-graph TB
-    FORTRESS["🏰 THE FORTRESS<br/>Panamanian Holdings S.A.<br/>(Panama Corporation)<br/>0% tax — territorial"]
-
-    FORTRESS --- holds_te["Owns ~70% of Holdings"]
-    FORTRESS --- holds_studio["Owns 100% of Studio"]
-    FORTRESS --- holds_ci["Owns 100% of CI IBC"]
-    FORTRESS --- layer["Double-layer asset protection"]
-    FORTRESS --- governance["Corporate governance of portfolio"]
-
-    style FORTRESS fill:#2c1810,stroke:#e94560,color:#fff
-```
-
-The intermediate holding company. Panamanian Holdings S.A. sits between the PIF and all operating entities, creating a double layer of asset protection and structural separation. The PIF holds 100% of the S.A.; the S.A. holds ~70% of Holdings, 100% of Studio, and 100% of CI IBC. Creditors must pierce both the S.A. corporate veil AND the PIF to reach operating entities. The S.A. handles corporate governance of the portfolio (appointing directors, signing intercompany agreements, managing equity), while the PIF's role is pure asset protection and beneficiary management. Panama S.A. pays 0% on foreign-source income (territorial taxation). Board of 3+ directors (at least 1 independent), with the Canadian founder as a director. Annual cost: ~$2-4K (agent fee + franchise tax + registered office).
-
 ### THE HEART — Church of the Living Light
 
 ```mermaid
@@ -131,68 +242,59 @@ graph TB
     style HANDS fill:#16213e,stroke:#0f3460,color:#fff
 ```
 
-The boots on the ground. Mexico OpCo operates the physical facility, employs local staff (facilitators, kitchen, medical, maintenance), and delivers the guest experience. Owned 100% by TE Holdings. It receives only a cost-plus service fee — the vast majority of profit stays in Holdings at 0%. Mexico's 30% corporate tax applies only to the 8-12% margin, keeping total Mexico tax to ~$126K (Y1) → ~$420K (Y5).
+The boots on the ground. Mexico OpCo operates the physical facility, employs local staff (facilitators, kitchen, medical, maintenance), delivers the guest experience, and manages day-to-day property maintenance. Owned 100% by TE Holdings. It receives only a cost-plus service fee — the vast majority of profit stays in Holdings at 0%. Mexico's 30% corporate tax applies only to the 8-12% margin, keeping total Mexico tax to ~$126K (Y1) → ~$420K (Y5).
 
----
-
-## 3. Who Owns What
-
-Ownership only — no money flows, no services. Just the lines of control.
+### THE GROUND — TE RE Mexico S. de R.L. de C.V.
 
 ```mermaid
 graph TB
-    PIF["Panama PIF<br/>(independent legal person)"]
-    SA["Panamanian Holdings S.A.<br/>(Panama Corporation)"]
-    INVESTOR["Investor"]
-    HOLDINGS["TE Wellness Holdings<br/>(Cayman)"]
-    STUDIO["Light Brands Studio<br/>(Dubai)"]
-    CI["Light Brands Consulting<br/>(Cook Islands)"]
-    MEXICO["TE Ops Mexico<br/>(Tulum)"]
-    CHURCH["Church of the Living Light<br/>(US nonprofit)"]
+    GROUND["🏗 THE GROUND<br/>TE RE Mexico<br/>S. de R.L. de C.V.<br/>30% tax — on rental income minus depreciation"]
 
-    PIF -->|"100%"| SA
-    SA -->|"~70%"| HOLDINGS
-    INVESTOR -->|"~30%"| HOLDINGS
-    SA -->|"100%"| STUDIO
-    SA -->|"100%"| CI
-    HOLDINGS -->|"100%"| MEXICO
+    GROUND --- acquires["Acquires land in Tulum"]
+    GROUND --- holds["Holds legal title to all RE assets"]
+    GROUND --- develops["Develops villas, facilities, infrastructure"]
+    GROUND --- leases["Leases property to TE Ops Mexico"]
 
-    CHURCH -.-|"No owner<br/>(Spiritual Council governs)"| CHURCH
-
-    style PIF fill:#1a1a2e,stroke:#e94560,color:#fff
-    style SA fill:#2c1810,stroke:#e94560,color:#fff
-    style INVESTOR fill:#c9770a,stroke:#fff,color:#fff
-    style HOLDINGS fill:#8b5e3c,stroke:#ffd700,color:#fff
-    style STUDIO fill:#0f3460,stroke:#e94560,color:#fff
-    style CI fill:#0d7377,stroke:#14ffec,color:#fff
-    style MEXICO fill:#16213e,stroke:#0f3460,color:#fff
-    style CHURCH fill:#533483,stroke:#ffd700,color:#fff
+    style GROUND fill:#4a3728,stroke:#c9770a,color:#fff
 ```
 
-Key points:
-- **PIF owns everything through the S.A.** — double layer of asset protection (PIF → S.A. → operating entities)
-- **S.A. holds all operating entity equity** — ~70% of Holdings, 100% of Studio, 100% of CI IBC
-- **Investor equity isolated** to TE Holdings only — no exposure to Studio, LB, or Church
-- **Church has no owner** — nonprofit governed by independent Spiritual Council
-- **Mexico OpCo owned by Holdings** (not by Studio) — Holdings controls all TE operations
+The real estate arm. TE RE Mexico acquires land, holds legal title to all real estate assets, develops villas, healing center facilities, and infrastructure, and leases developed property to TE Ops Mexico under an arm's length rental agreement. Owned 100% by TE Holdings — a sibling entity to TE Ops Mexico. Asset-holding and development-focused — NOT client-facing, NOT employing operational staff. Mexico's 30% corporate tax on rental income is offset by building depreciation (5% annual straight-line for commercial structures), significantly reducing the effective RE tax rate. Capitalized via equity contribution from TE Holdings.
 
 ---
 
-## 4. Entity Table
+## 5. Entity Table
 
 | Entity | Jurisdiction | Legal Form | Role | Tax Rate | Ownership | Setup Cost |
 |---|---|---|---|---|---|---|
+| **Panama PIF** | Panama | Private Interest Foundation (Law 25/1995) | Owns 100% of Panamanian Holdings S.A. Ultimate asset protection layer. Beneficiary privacy. | 0% (foreign income) | No owner — independent legal person | ~$2K setup + $1K/yr |
+| **Panamanian Holdings S.A.** | Panama | Sociedad Anonima (S.A.) | Intermediate holding company. Holds all operating entity equity. Adds corporate layer between PIF and operating entities for double-layer asset protection and structural separation. | 0% (foreign-source income, territorial taxation) | 100% owned by Panama PIF | ~$2-4K setup + $2-4K/yr |
 | **TE Wellness Holdings** | Cayman Islands | Exempted Company | Owns all TE IP, collects all TE revenue ($10.7M→$35.5M), controls Mexico OpCo, licenses content to Church. Investable vehicle. | 0% (unconditional, 20-year exemption) | ~70% Panamanian Holdings S.A. + ~30% investor | ~$8-14K |
 | **Light Brands Studio FZ-LLC** | Dubai Internet City, UAE | Free Zone LLC | Shared service center — builds for both TE Holdings and LB. Employs Dubai team + founders. Pure B2B service company. | 0% (QFZP) | 100% owned by Panamanian Holdings S.A. | ~$11-16K |
 | **Light Brands Consulting Ltd** | Cook Islands | International Business Company | External consulting, SaaS, product sales. Signs client contracts. Owns LB-specific IP. Subcontracts dev to Studio. | 0% (international income) | 100% owned by Panamanian Holdings S.A. | ~$4-7K |
-| **Panamanian Holdings S.A.** | Panama | Sociedad Anonima (S.A.) | Intermediate holding company. Holds all operating entity equity. Adds corporate layer between PIF and operating entities for double-layer asset protection and structural separation. | 0% (foreign-source income, territorial taxation) | 100% owned by Panama PIF | ~$2-4K setup + $2-4K/yr |
-| **Panama PIF** | Panama | Private Interest Foundation (Law 25/1995) | Owns 100% of Panamanian Holdings S.A. Ultimate asset protection layer. Beneficiary privacy. | 0% (foreign income) | No owner — independent legal person | ~$2K setup + $1K/yr |
 | **Church of the Living Light** | US (state TBD) | 508(c)(1)(A) nonprofit religious corporation | Distributes teachings, employs founders as ministers, receives dual royalty streams (content from Holdings + spiritual tech from CI IBC), runs worship and charitable programs | 0% (tax-exempt) | No owner — nonprofit governance by Spiritual Council | ~$2-5K |
-| **TE Ops Mexico S. de R.L. de C.V.** | Tulum, Quintana Roo | S. de R.L. de C.V. | Operates healing facility, employs local staff, delivers guest experience | 30% on margin only | Owned by TE Holdings (Cayman) | ~$3-6K |
+| **TE Ops Mexico S. de R.L. de C.V.** | Tulum, Quintana Roo | S. de R.L. de C.V. | Operates healing facility, employs local staff, delivers guest experience, manages property day-to-day | 30% on margin only | Owned by TE Holdings (Cayman) | ~$3-6K |
+| **TE RE Mexico S. de R.L. de C.V.** | Tulum, Quintana Roo | S. de R.L. de C.V. | Acquires land, holds title, develops villas/facilities/infrastructure, leases to OpCo | 30% on rental income minus depreciation | Owned by TE Holdings (Cayman) | ~$5-16K |
 
 ---
 
-## 5. How Money Flows — TE Revenue
+## 6. Substance Requirements
+
+Each entity must be genuinely operational. A shell entity will not survive scrutiny.
+
+| Entity | What Makes It Real | Minimum Requirements |
+|---|---|---|
+| **Panama PIF** | Holds 100% of Panamanian Holdings S.A.; independent governance; ultimate asset protection layer | Foundation Council of 3 members (at least 1 independent), separate bank account, private regulations naming beneficiaries, Protector appointed |
+| **Panamanian Holdings S.A.** | Intermediate holding company — holds equity in Holdings (~70%), Studio (100%), and CI IBC (100%); corporate governance of portfolio | Board of 3+ directors (at least 1 independent), registered agent in Panama, annual franchise tax ($300), registered office, corporate books and records |
+| **TE Holdings (Cayman)** | Owns TE IP, collects $10-35M revenue, controls Mexico OpCo, has investor shareholders and independent board | Board meetings, annual audit (investor requirement), Stripe payment processing, intercompany agreements, Economic Substance Notification filing. **Zero local substance required** — Exempted Companies exempt from ESA for IP/revenue holding. |
+| **Studio FZ-LLC (Dubai)** | Shared service center — employs the team that builds for TE Holdings and LB | Office in DIC, 5-6 employees (CTO, engineers, AI/ML, PM, finance), all development performed here, annual audit, QFZP filing, DEMPE documentation |
+| **CI IBC (Light Brands)** | Client-facing entity that signs contracts, collects LB revenue, owns LB-specific IP | Registered agent in Cook Islands, nominee director, Singapore bank account, intercompany subcontract with Studio, TP documentation. **Intentionally thin — zero employees, zero office.** |
+| **Church** | Genuine religious organization with regular congregation | Independent Spiritual Council (3-5 members, 1+ unrelated to founders), weekly worship services, ordained ministers, doctrinal framework, charitable programs, separate bank account and EIN |
+| **Mexico OpCo** | Operates the physical facility; employs local staff; manages property day-to-day | Local employees (facilitators, kitchen, medical, maintenance), own RFC/tax ID, own bank account, service delivery agreement with TE Holdings, transfer pricing study |
+| **TE RE Mexico** | Acquires land, holds title, develops property, leases to OpCo | Own RFC/tax ID, own bank account (separate from OpCo), registered escritura (deed) with Registro Publico, intercompany lease agreement with OpCo, transfer pricing study for rental rate, comisario (statutory auditor), annual tax filings |
+
+---
+
+## 7. How Money Flows — TE Revenue
 
 ```mermaid
 graph LR
@@ -238,11 +340,39 @@ graph LR
     style F fill:#0a8754,stroke:#fff,color:#fff
 ```
 
-**Revenue path:** Guest pays via TE app (Stripe) → TE Wellness Holdings (Cayman, owned ~70% by Panamanian Holdings S.A.) → retains ~43% EBITDA at 0% tax + pays dev services fee to Studio (cost + 8-12% margin, 0% QFZP) + pays service fee to Mexico OpCo (cost + 8-12% margin, taxed at 30% on the margin) + pays content license fee to Church (arm's length, 0% on both sides). Retained earnings in Holdings flow upstream: Holdings → S.A. (0% territorial) → PIF (0%).
+**Revenue path:** Guest pays via TE app (Stripe) → TE Wellness Holdings (Cayman, owned ~70% by Panamanian Holdings S.A.) → retains ~43% EBITDA at 0% tax + pays dev services fee to Studio (cost + 8-12% margin, 0% QFZP) + pays service fee to Mexico OpCo (cost + 8-12% margin, taxed at 30% on the margin) + pays content license fee to Church (arm's length, 0% on both sides). Holdings also contributes equity to TE RE Mexico for land acquisition and development; RE entity leases developed property to OpCo at arm's length rent (deductible for OpCo, taxable for RE entity minus depreciation). Retained earnings in Holdings flow upstream: Holdings → S.A. (0% territorial) → PIF (0%).
+
+### Flow 7b: RE Entity Capital and Lease Flow
+
+```mermaid
+graph LR
+    subgraph "Holdings — 0%"
+        CAYMAN_RE["TE Wellness Holdings<br/>(Cayman)<br/>0% unconditional"]
+    end
+
+    subgraph "Real Estate — 30% on income minus depreciation"
+        RE["TE RE Mexico<br/>Acquires land, develops,<br/>holds title, leases"]
+    end
+
+    subgraph "Operations — 30% on margin"
+        OPS["TE Ops Mexico<br/>Operates facility,<br/>manages property"]
+    end
+
+    CAYMAN_RE -->|"Equity contribution<br/>(capital for land + dev)"| RE
+    RE -->|"Arm's length lease<br/>(rent for property)"| OPS
+    OPS -->|"Rent payment<br/>(deductible cost)"| RE
+    RE -.->|"Dividends from CUFIN<br/>(0% additional tax)"| CAYMAN_RE
+
+    style CAYMAN_RE fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style RE fill:#4a3728,stroke:#c9770a,color:#fff
+    style OPS fill:#16213e,stroke:#0f3460,color:#fff
+```
+
+**RE flow:** Holdings capitalizes RE entity via equity → RE entity acquires land and develops property → RE entity leases to OpCo at arm's length rent → OpCo's rent becomes part of its cost base (passed to Holdings in cost-plus calculation) → RE entity pays 30% CIT on rental income minus building depreciation (5% annual) → RE entity distributes after-tax profits to Holdings as dividends from CUFIN (0% additional Mexican tax, 0% Cayman receipt).
 
 ---
 
-## 6. How Money Flows — Light Brands Revenue
+## 8. How Money Flows — Light Brands Revenue
 
 ```mermaid
 graph LR
@@ -285,7 +415,7 @@ graph LR
 
 ---
 
-## 7. How Money Flows — REFIPRE Safe Route
+## 9. How Money Flows — REFIPRE Safe Route
 
 Mexico's REFIPRE rules impose **40% WHT** on payments to preferential tax regimes (<22.5% effective). The Cook Islands qualifies. This diagram shows the safe routing path — and the forbidden shortcut.
 
@@ -314,7 +444,7 @@ graph LR
 
 ---
 
-## 8. How IP Is Created and Owned
+## 10. How IP Is Created and Owned
 
 ```mermaid
 graph TB
@@ -348,7 +478,7 @@ graph TB
 
 ---
 
-## 9. How Founders Get Paid
+## 11. How Founders Get Paid
 
 ```mermaid
 graph TB
@@ -408,7 +538,7 @@ graph TB
 
 ---
 
-## 10. Tax Waterfall
+## 12. Tax Waterfall
 
 Where tax is paid at every level — from revenue to founders.
 
@@ -422,6 +552,7 @@ graph TB
         CIBC["CI IBC (Cook Islands)<br/>0%"]
         CHUR["Church (US)<br/>0% exempt"]
         MEXO["Mexico OpCo<br/>30% on margin → ~$420K"]
+        MEXRE["Mexico RE<br/>30% on rent minus<br/>depreciation → ~$75-150K"]
     end
 
     subgraph "Holding Level"
@@ -438,6 +569,7 @@ graph TB
     REV --> HOLD
     HOLD --> STUD
     HOLD --> MEXO
+    HOLD --> MEXRE
     HOLD --> CHUR
     CIBC --> STUD
     CIBC --> CHUR
@@ -458,6 +590,7 @@ graph TB
     style CIBC fill:#0d7377,stroke:#14ffec,color:#fff
     style CHUR fill:#533483,stroke:#ffd700,color:#fff
     style MEXO fill:#16213e,stroke:#0f3460,color:#fff
+    style MEXRE fill:#4a3728,stroke:#c9770a,color:#fff
     style SAF fill:#2c1810,stroke:#e94560,color:#fff
     style PIFF fill:#1a1a2e,stroke:#e94560,color:#fff
     style FCA fill:#0a8754,stroke:#fff,color:#fff
@@ -469,29 +602,31 @@ graph TB
 
 | Level | Tax Paid | Rate |
 |---|---|---|
-| Entity level (all entities) | ~$420,000 | ~1.2% of $35.5M |
+| Entity level — operations (all entities) | ~$420,000 | ~1.2% of $35.5M |
+| Entity level — RE (rental income minus depreciation) | ~$75-150K | Depends on property value and rent |
 | US founder personal | ~$85,400 | ~3.7% of ~$2.3M |
 | Canadian founder personal | $0 | 0% |
 | Cyprus founder personal | ~$7,650 | ~0.85% of ~$900K |
-| **Combined** | **~$505,000** | **~1.4% of group revenue** |
+| **Combined** | **~$580-655K** | **~1.6-1.8% of group revenue** |
 
 ---
 
-## 11. Tax Summary Tables
+## 13. Tax Summary Tables
 
 ### Entity-Level
 
 | Entity | Y1 Revenue/Funding | Tax Rate | Y1 Tax | Y5 Tax |
 |---|---|---|---|---|
+| Panama PIF | N/A (holding) | 0% | $0 | $0 |
+| Panamanian Holdings S.A. | N/A (holding) | 0% (territorial) | $0 | $0 |
 | TE Wellness Holdings (Cayman) | $10.7M (TE revenue) | 0% (unconditional) | $0 | $0 |
 | Light Brands Studio FZ-LLC | Dev service fees from Holdings + LB subcontract fees | 0% (QFZP) | $0 | $0 |
 | Light Brands Consulting Ltd (CI IBC) | LB consulting + SaaS revenue | 0% (international income) | $0 | $0 |
 | Church of the Living Light | Dual royalties + donations | 0% (exempt) | $0 | $0 |
 | TE Ops Mexico | Cost + 8-12% margin | 30% on margin | ~$126K | ~$420K |
-| Panamanian Holdings S.A. | N/A (holding) | 0% (territorial) | $0 | $0 |
-| Panama PIF | N/A (holding) | 0% | $0 | $0 |
-| **Total entity-level tax** | | | **~$126K** | **~$420K** |
-| **Effective rate on $10.7M+ / $35.5M+ TE revenue** | | | **~1.2%** | **~1.2%** |
+| TE RE Mexico | Rental income from OpCo lease | 30% on income minus depreciation | ~$0 (pre-development) | ~$75-150K |
+| **Total entity-level tax** | | | **~$126K** | **~$495-570K** |
+| **Effective rate on $10.7M+ / $35.5M+ TE revenue** | | | **~1.2%** | **~1.4-1.6%** |
 
 *Light Brands revenue is additive. All LB income flows through 0% entities (CI IBC + Studio), so LB revenue does not increase the entity-level tax.*
 
@@ -508,86 +643,12 @@ graph TB
 | Metric | Value |
 |---|---|
 | Group revenue | $35,461,000 |
-| Entity-level tax | ~$420,000 |
+| Entity-level tax (operations) | ~$420,000 |
+| Entity-level tax (RE) | ~$75-150K |
 | US founder personal tax | $85,400 |
 | Canadian founder personal tax | $0 |
-| **Combined tax** | **~$505,000** |
-| **Combined effective rate** | **~1.4%** |
-
----
-
-## 12. The Full Picture
-
-All entities, all flows, all connections — simplified from the spotlights above into one view.
-
-```mermaid
-graph LR
-    subgraph ownership["Ownership"]
-        SHIELD["THE SHIELD<br/>Panama PIF<br/>0%"]
-        FORTRESS["THE FORTRESS<br/>Panamanian Holdings S.A.<br/>0% (territorial)"]
-        INVESTOR["INVESTOR<br/>~30% of Holdings"]
-    end
-
-    subgraph revenue["Revenue Engines"]
-        PRODUCT["THE PRODUCT<br/>TE Holdings (Cayman)<br/>0%"]
-        VOICE["THE VOICE<br/>CI IBC (Cook Islands)<br/>0%"]
-    end
-
-    subgraph operations["Operations"]
-        BUILDER["THE BUILDER<br/>Studio (Dubai)<br/>0% QFZP"]
-        HANDS["THE HANDS<br/>Mexico OpCo<br/>30% margin"]
-    end
-
-    subgraph mission["Mission"]
-        HEART["THE HEART<br/>Church<br/>0% exempt"]
-    end
-
-    subgraph founders["Founders"]
-        SOUL["THE SOUL<br/>Founders<br/>~0-3.7%"]
-    end
-
-    SHIELD -->|"100%"| FORTRESS
-    FORTRESS -->|"~70%"| PRODUCT
-    INVESTOR -->|"~30%"| PRODUCT
-    FORTRESS -->|"100%"| BUILDER
-    FORTRESS -->|"100%"| VOICE
-    PRODUCT -->|"100%"| HANDS
-
-    PRODUCT -->|"Dev services<br/>(cost + 8-12%)"| BUILDER
-    PRODUCT -->|"Service fee"| HANDS
-    PRODUCT -->|"Content license"| HEART
-    VOICE -->|"Subcontracts dev"| BUILDER
-    VOICE -->|"Spiritual tech license"| HEART
-
-    BUILDER -->|"Salary"| SOUL
-    HEART -->|"Minister comp +<br/>housing + retirement"| SOUL
-
-    style PRODUCT fill:#8b5e3c,stroke:#ffd700,color:#fff
-    style BUILDER fill:#0f3460,stroke:#e94560,color:#fff
-    style VOICE fill:#0d7377,stroke:#14ffec,color:#fff
-    style SHIELD fill:#1a1a2e,stroke:#e94560,color:#fff
-    style FORTRESS fill:#2c1810,stroke:#e94560,color:#fff
-    style HEART fill:#533483,stroke:#ffd700,color:#fff
-    style HANDS fill:#16213e,stroke:#0f3460,color:#fff
-    style SOUL fill:#0a8754,stroke:#fff,color:#fff
-    style INVESTOR fill:#c9770a,stroke:#fff,color:#fff
-```
-
----
-
-## 13. Substance Requirements
-
-Each entity must be genuinely operational. A shell entity will not survive scrutiny.
-
-| Entity | What Makes It Real | Minimum Requirements |
-|---|---|---|
-| **TE Holdings (Cayman)** | Owns TE IP, collects $10-35M revenue, controls Mexico OpCo, has investor shareholders and independent board | Board meetings, annual audit (investor requirement), Stripe payment processing, intercompany agreements, Economic Substance Notification filing. **Zero local substance required** — Exempted Companies exempt from ESA for IP/revenue holding. |
-| **Studio FZ-LLC (Dubai)** | Shared service center — employs the team that builds for TE Holdings and LB | Office in DIC, 5-6 employees (CTO, engineers, AI/ML, PM, finance), all development performed here, annual audit, QFZP filing, DEMPE documentation |
-| **CI IBC (Light Brands)** | Client-facing entity that signs contracts, collects LB revenue, owns LB-specific IP | Registered agent in Cook Islands, nominee director, Singapore bank account, intercompany subcontract with Studio, TP documentation. **Intentionally thin — zero employees, zero office.** |
-| **Panamanian Holdings S.A.** | Intermediate holding company — holds equity in Holdings (~70%), Studio (100%), and CI IBC (100%); corporate governance of portfolio | Board of 3+ directors (at least 1 independent), registered agent in Panama, annual franchise tax ($300), registered office, corporate books and records |
-| **Panama PIF** | Holds 100% of Panamanian Holdings S.A.; independent governance; ultimate asset protection layer | Foundation Council of 3 members (at least 1 independent), separate bank account, private regulations naming beneficiaries, Protector appointed |
-| **Church** | Genuine religious organization with regular congregation | Independent Spiritual Council (3-5 members, 1+ unrelated to founders), weekly worship services, ordained ministers, doctrinal framework, charitable programs, separate bank account and EIN |
-| **Mexico OpCo** | Operates the physical facility; employs local staff | Local employees (facilitators, kitchen, medical, maintenance), own RFC/tax ID, own bank account, service delivery agreement with TE Holdings, transfer pricing study |
+| **Combined tax** | **~$580-655K** |
+| **Combined effective rate** | **~1.6-1.8%** |
 
 ---
 
@@ -601,6 +662,7 @@ Each entity must be genuinely operational. A shell entity will not survive scrut
 | **EBITDA Margin** | 43% | 57% | 60% | 60% | 61% |
 | **EBITDA** | $4,672,000 | $10,347,000 | $15,542,000 | $19,029,000 | $21,512,217 |
 | **Mexico OpCo Tax (~30% on margin)** | ~$126K | ~$200K | ~$300K | ~$360K | ~$420K |
+| **Mexico RE Tax (~30% on rent minus depreciation)** | $0 | ~$25-50K | ~$50-100K | ~$75-125K | ~$75-150K |
 | **TE Holdings Tax** | $0 | $0 | $0 | $0 | $0 |
 | **Studio Tax** | $0 | $0 | $0 | $0 | $0 |
 | **Church Tax** | $0 | $0 | $0 | $0 | $0 |
@@ -658,6 +720,10 @@ These are the walls that cannot be moved. The structure is designed around them.
 | **PIF owns everything through the S.A.** | PIF holds 100% of Panamanian Holdings S.A. The S.A. holds ~70% of Holdings + 100% of Studio + 100% of CI IBC. Double layer of asset protection. |
 | **Investor equity in TE Holdings only** | Investor has no claim on Studio, CI IBC, Church, S.A., or PIF. Dilution isolated to TE. |
 | **Mexico OpCo owned by TE Holdings** | Holdings controls all TE operations. Studio has no ownership of operating entities. |
+| **RE entity leases to OpCo only — no direct guest-facing activity** | The RE entity is an asset holder and developer. It does not operate the facility, employ operational staff, or interact with guests. All guest-facing activity is in OpCo. |
+| **RE entity capitalized via equity, not intercompany debt** | Equity contributions from Holdings avoid REFIPRE risk on interest payments, thin capitalization complications, and WHT on outbound interest. Profit extraction via CUFIN dividends. |
+| **Intercompany rent is arm's length** | RE entity → OpCo lease priced at market rent with annual TP benchmarking study. SAT will scrutinize related-party rent between two Mexican entities under common Cayman parent. |
+| **RE and OpCo maintain separate bank accounts** | No commingling between the two Mexican entities. Each has its own RFC, bank account, and compliance filings. |
 
 ---
 
@@ -682,9 +748,11 @@ gantt
     Studio FZ-LLC (Dubai)            :2026-04, 2M
     CI IBC (Cook Islands)            :2026-04, 1M
     Church incorporation (US)        :2026-05, 1M
+    TE RE Mexico formation           :2026-05, 2M
     Golden Visas x2                  :2026-05, 1M
     section Phase 3 — Agreements
     Execute intercompany agreements  :2026-06, 1M
+    RE ↔ OpCo lease agreement        :2026-06, 1M
     Transfer pricing studies         :2026-06, 1M
     Set up Stripe for Holdings       :2026-06, 1M
     section Phase 4 — Operations
@@ -705,6 +773,7 @@ gantt
 | Engage US international tax attorney | Confirm no-ownership eliminates CFC/GILTI; validate dual employment | 2-4 weeks |
 | Engage Canadian emigration tax counsel | Departure tax calculation, NR73 strategy, PIF look-through analysis. **TIME-SENSITIVE.** | 2-4 weeks |
 | Engage Cook Islands registered agent | Confirm CI IBC structure, director requirements, banking path | 1-2 weeks |
+| Engage Mexican RE counsel | Restricted zone analysis, fideicomiso determination, RE entity formation path | 2-4 weeks |
 | Formalize church doctrine | Statement of faith, code of ethics, sacraments, ordination requirements | 2-4 weeks |
 | Draft church constitution & bylaws | Governance, council composition, financial policies, conflict of interest | 2-3 weeks |
 
@@ -720,6 +789,7 @@ gantt
 | UAE FZ-LLC registration (DIC) | S.A. as 100% shareholder; trade license, bank account | 4-8 weeks |
 | Cook Islands IBC formation | Light Brands Consulting Ltd; S.A. as sole shareholder; nominee director; Singapore bank account | 2-5 weeks |
 | Church incorporation | Nonprofit religious corporation; EIN; appoint Spiritual Council | 2-3 weeks |
+| TE RE Mexico formation | S. de R.L. de C.V.; RFC; bank account; restricted zone compliance | 4-8 weeks |
 | Founder ordination | Both founders ordained as ministers through church's program | 1-2 weeks |
 | Board approves compensation | Spiritual Council reviews comparables, approves salaries, designates housing allowances | 1 meeting |
 | Golden Visas x2 | UAE Golden Visa for both founders (entrepreneur pathway) | 1-4 weeks |
@@ -737,6 +807,8 @@ gantt
 | Spiritual tech license agreement | CI IBC licenses spiritual tech to church (arm's length, documented) | 1 week |
 | Transfer Mexico OpCo ownership | From Studio to TE Holdings | 2-4 weeks |
 | Mexico OpCo service delivery agreement | TE Holdings ↔ Mexico OpCo; transfer pricing study | 4-6 weeks |
+| RE ↔ OpCo lease agreement | TE RE Mexico ↔ TE Ops Mexico; arm's length rent; TP study | 4-6 weeks |
+| TE Holdings equity contribution to RE | Capital for land acquisition and development | 2-4 weeks |
 | Set up Stripe for TE Holdings | Payment processing for guest revenue | 2-3 weeks |
 | Launch church worship | Weekly online services, monthly in-person gatherings | From day 1 |
 | Set up retirement plans | 403(b)(9) + 457(b) + 457(f) established by the church | 2-4 weeks |
@@ -764,7 +836,7 @@ gantt
 | TE Holdings audit + Economic Substance Notification | Annually |
 | CI IBC annual return + registered agent fee | Annually |
 | US founder tax return (1040 + 2555 + FBAR + 8938) | Annually |
-| Transfer pricing study update (Holdings↔Studio, Holdings↔Mexico, CI↔Studio, licenses) | Annually |
+| Transfer pricing study update (Holdings↔Studio, Holdings↔Mexico, RE↔OpCo lease, CI↔Studio, licenses) | Annually |
 | S.A. maintenance (franchise tax + agent) | Annually |
 | PIF maintenance ($250 tax + agent) | Annually |
 
@@ -775,9 +847,10 @@ gantt
 
 ## 18. Cross-References
 
-- **Ecosystem architecture (7-entity view):** [07-ECOSYSTEM-ARCHITECTURE.md](./07-ECOSYSTEM-ARCHITECTURE.md)
+- **Ecosystem architecture (8-entity view):** [07-ECOSYSTEM-ARCHITECTURE.md](./07-ECOSYSTEM-ARCHITECTURE.md)
 - **Cayman TE Holdings detail:** [09-CAYMAN-TE-HOLDINGS-DETAIL.md](./09-CAYMAN-TE-HOLDINGS-DETAIL.md)
 - **Cook Islands IBC detail:** [08-COOK-ISLANDS-IBC-DETAIL.md](./08-COOK-ISLANDS-IBC-DETAIL.md)
+- **Mexico RE entity detail:** [12-MEXICO-RE-ENTITY-DETAIL.md](./12-MEXICO-RE-ENTITY-DETAIL.md)
 - **Legal defense:** [02-LEGAL-DEFENSE.md](./02-LEGAL-DEFENSE.md)
 - **US founder playbook:** [03-FOUNDER-GUIDE-US.md](./03-FOUNDER-GUIDE-US.md)
 - **Canadian founder playbook:** [04-FOUNDER-GUIDE-CANADA.md](./04-FOUNDER-GUIDE-CANADA.md)
