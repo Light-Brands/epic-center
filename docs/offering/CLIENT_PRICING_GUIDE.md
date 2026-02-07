@@ -85,9 +85,9 @@ Your raise target determines the scope depth within your chosen package tier. La
 
 ---
 
-## Two Payment Options
+## Three Payment Options
 
-We offer two ways to structure your engagement. Both deliver the exact same product, the same team, and the same timeline.
+We offer three ways to structure your engagement. All three deliver the exact same product, the same team, and the same timeline.
 
 ---
 
@@ -137,21 +137,56 @@ We put skin in the game. You pay 30% upfront to get started, and the remaining 7
 
 ---
 
-### Side-by-Side Comparison
+### Option 3: Founder's Bet (By Invitation)
 
-| Raise Target | Standard (50/50) Total | Confidence Model Total | Difference |
+For a select number of founders we have the highest conviction in, we offer our most aggressive structure. You pay 15% of the project price upfront -- just enough to kick off the engagement -- and a fixed deferred fee after your raise closes.
+
+This isn't on a menu. We extend the Founder's Bet to founders whose businesses, teams, and raise strategies we believe in deeply enough to take the risk alongside you.
+
+| Milestone | Payment |
+|---|---|
+| Contract execution + kickoff | 15% of project price |
+| After your capital raise closes successfully | Fixed deferred engagement fee |
+
+**What this looks like by raise size:**
+
+| Raise Target | Upfront (15%) | After Raise Closes | Total |
 |---|---|---|---|
-| $5M | $75,000 | $82,875 | +$7,875 |
-| $10M | $200,000 | $217,500 | +$17,500 |
-| $25M | $450,000 | $489,375 | +$39,375 |
-| $50M | $600,000 | $642,000 | +$42,000 |
-| $100M+ | $750,000 | $802,500 | +$52,500 |
+| $10M | $30,000 | $250,000 | **$280,000** |
+| $25M | $67,500 | $625,000 | **$692,500** |
+| $50M | $90,000 | $1,250,000 | **$1,340,000** |
+| $100M+ | $112,500 | $2,500,000 | **$2,612,500** |
+
+**Why the deferred fee is larger:** The Founder's Bet radically reduces your upfront commitment -- you get the complete platform for a fraction of the standard cost on Day 1. The deferred fee reflects the full scope and value of what we deliver, paid from your raise proceeds after your round closes. For context, the total deferred fee is a small fraction of the capital you're raising -- and well below what a traditional investment bank charges as a success fee (3-6% of your raise).
+
+> The Founder's Bet is available for raises of $10M+ and is extended by invitation only.
 
 ---
 
-## Confidence Model: Key Terms
+### Side-by-Side Comparison
 
-If you choose the Confidence Model, here's how the deferred payment works.
+| Raise Target | Standard (50/50) | Confidence Model | Founder's Bet |
+|---|---|---|---|
+| $5M | $75,000 | $82,875 | -- |
+| $10M | $200,000 | $217,500 | $280,000 |
+| $25M | $450,000 | $489,375 | $692,500 |
+| $50M | $600,000 | $642,000 | $1,340,000 |
+| $100M+ | $750,000 | $802,500 | $2,612,500 |
+
+### Upfront Commitment Comparison
+
+| Raise Target | Standard (50/50) | Confidence Model | Founder's Bet |
+|---|---|---|---|
+| $10M | $100,000 | $60,000 | **$30,000** |
+| $25M | $225,000 | $135,000 | **$67,500** |
+| $50M | $300,000 | $180,000 | **$90,000** |
+| $100M+ | $375,000 | $225,000 | **$112,500** |
+
+---
+
+## Deferred Payment Terms
+
+If you choose the Confidence Model or the Founder's Bet, here's how the deferred payment works. These terms apply to both structures.
 
 ### What counts as a "successful raise"
 
@@ -227,14 +262,20 @@ Yes. Individual categories are available a la carte. If you already have a finan
 **Is the Confidence Model available for every raise size?**
 The Confidence Model is available for qualified engagements across all raise sizes. We'll discuss eligibility during your initial consultation.
 
+**How do I qualify for the Founder's Bet?**
+The Founder's Bet is extended by invitation to founders we have the highest conviction in. It's available for raises of $10M+ and is based on our assessment of your business, team, market timing, and raise readiness. You don't need to apply -- if we believe you're a fit, we'll bring it to you.
+
 **What if my raise takes longer than 12 months?**
 We include a standard 12-month window with the option to extend to 18 months. We want to give you every chance to succeed.
 
 **Can I pay the deferred balance from raise proceeds?**
-That's exactly what the Confidence Model is designed for. Your balance is due after your raise closes -- funded directly from the capital you've raised.
+That's exactly what both the Confidence Model and the Founder's Bet are designed for. Your balance is due after your raise closes -- funded directly from the capital you've raised.
 
 **Are there any success fees or hidden costs?**
-No. Both payment options are fixed-price engagements. There are no success fees, no percentage of your raise, and no hidden costs. The price you see is the price you pay.
+No. All three payment options are fixed-price engagements. Every fee is a fixed dollar amount agreed upfront -- there are no success fees, no percentage of your raise, and no hidden costs. The price you see is the price you pay.
+
+**Why is the Founder's Bet deferred fee higher than the other options?**
+The Founder's Bet gives you the lowest upfront commitment of any option -- as low as $30,000 to get started on a full engagement. The deferred fee reflects the full value of the platform you receive, and it's funded entirely from your raise proceeds. For perspective, the total is a fraction of what a traditional investment bank charges as a success fee (3-6% of your raise).
 
 **What if I need changes after delivery?**
 Post-delivery support windows are included based on your tier. Full Arsenal+ includes 60-day support; Full Arsenal Enterprise includes 90-day support with quarterly check-ins. Additional support beyond the included window can be scoped separately.
