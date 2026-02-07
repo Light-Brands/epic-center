@@ -10,11 +10,12 @@
 2. [Platform Inventory: What Gets Delivered](#platform-inventory-what-gets-delivered)
 3. [Ten Service Categories](#ten-service-categories-with-market-pricing)
 4. [Package Tiers](#package-tiers)
-5. [Competitive Analysis: Why We Win](#competitive-analysis-why-we-win)
-6. [The AI Advantage: Why Our Pricing Works](#the-ai-advantage-why-our-pricing-works)
-7. [What Makes This Different](#what-makes-this-different)
-8. [Engagement Model & Timeline](#engagement-model--timeline)
-9. [Next Steps](#next-steps)
+5. [Buyer Landscape: Avatars Across the Investment Ecosystem](#buyer-landscape-avatars-across-the-investment-ecosystem)
+6. [Competitive Analysis: Why We Win](#competitive-analysis-why-we-win)
+7. [The AI Advantage: Why Our Pricing Works](#the-ai-advantage-why-our-pricing-works)
+8. [What Makes This Different](#what-makes-this-different)
+9. [Engagement Model & Timeline](#engagement-model--timeline)
+10. [Next Steps](#next-steps)
 
 ---
 
@@ -441,6 +442,16 @@ For early-stage founders raising their first institutional round.
 
 > **14 days vs. 6-9 months.** Traditional firms take half a year to deliver what we ship in two weeks. That's not a marginal improvement -- it's a category change.
 
+#### Who Buys Launch Pad
+
+**The Technical Founder.** Built an incredible product -- maybe even has paying customers -- but their "pitch deck" is a Google Slides with screenshots and a revenue chart. They know their product inside out but can't articulate the business in the language institutional investors speak. They've done a friends-and-family round, maybe an angel check or two, but now they're sitting across from a partner at a VC firm and their materials don't match their ambition. They need the strategic narrative that frames what they've built as an investable business, a financial model that proves the economics, and a data room that signals they're ready for due diligence. *Launch Pad gives them institutional credibility in two weeks.*
+
+**The Accelerator Graduate.** Just finished Y Combinator, Techstars, 500 Global, or a comparable program. They have a demo day deck that worked for $150K-$500K checks from early-stage funds, but now they're raising a $3M-$10M Series A and the bar is exponentially higher. The demo day deck doesn't survive a partner meeting. The spreadsheet model doesn't survive an analyst's scrutiny. And they don't have a data room because nobody asked for one at the pre-seed stage. They need to level up every fundraising artifact -- fast -- because the warm introductions from the accelerator have a shelf life. *Launch Pad bridges the gap between demo day and institutional close.*
+
+**The Domain Expert Turned Founder.** Spent 15-20 years in their industry -- healthcare, hospitality, logistics, fintech, energy, real estate. They know their market cold. They've identified a gap that nobody else sees because nobody else has their vantage point. But they've never raised institutional capital. They don't have an investor network. They don't know what a PPM looks like. They've never built a financial model that investors can stress-test. Their expertise is their unfair advantage, but their fundraising infrastructure is nonexistent. *Launch Pad packages their domain mastery into materials that institutional investors expect.*
+
+**The Solo GP Raising Fund I.** An emerging fund manager launching their first vehicle -- maybe a micro-VC fund, a rolling fund, or a small PE vehicle. They don't have a track record under their own brand, so every piece of infrastructure has to work harder to build LP confidence. They need a strategic thesis, a financial model showing fund economics (management fees, carry, deployment pace, portfolio construction), and a data room that makes a $50M institutional LP feel like they're looking at a $500M fund's infrastructure. *Launch Pad gives them the materials that punch above their AUM.*
+
 ---
 
 ### Tier 2: War Chest -- **$150K - $300K** | Delivered in 21 Days
@@ -462,6 +473,18 @@ For growth-stage companies raising $5M+ who need the full research backing and a
 
 > **21 days vs. 9-12 months.** Three weeks from kickoff to investor-ready -- including a live interactive platform that most agencies quote 4-6 months to build alone.
 
+#### Who Buys War Chest
+
+**The Growth-Stage CEO.** Has product-market fit. Has revenue -- maybe $1M-$5M ARR. Has a team of 15-40 people. The seed round got them here, but now they're raising a Series A or B at $5M-$15M, and the investor audience has shifted entirely. Seed investors bet on teams and ideas. Series A/B investors bet on markets, unit economics, and operational scalability. This CEO needs to graduate from scrappy startup materials to institutional-grade infrastructure -- market research that proves the TAM isn't a fantasy, operational blueprints that prove they can scale, and a digital platform that signals the company operates at a level beyond its current size. *War Chest transforms a promising startup into an institutional-grade investment opportunity.*
+
+**The International Founder.** Building in one geography but raising capital in another -- a Latin American company pitching US venture firms, a Southeast Asian startup raising from Singapore and Hong Kong family offices, a European deeptech company approaching Silicon Valley growth funds. The challenge is asymmetric: the founder knows their local market intimately, but the investors have never been there. Every assumption needs to be proven with data because the investors can't rely on pattern matching. Multi-industry market research, competitive landscape analysis, and operational documentation become non-negotiable -- not because the founder lacks the knowledge, but because the investor lacks the context. And an interactive web platform replaces the in-person chemistry that local founders get through geography. *War Chest bridges the trust gap between where the business operates and where the capital lives.*
+
+**The Franchise or Multi-Location Founder.** Has one profitable location -- a restaurant group, a clinic, a co-working space, a fitness concept, a wellness retreat, a childcare center -- and wants to raise capital to scale to 5, 10, or 50 locations. The pitch is inherently about replicability, but proving replicability requires more than a P&L from one site. It requires market research showing demand across geographies, an operational blueprint that proves the model works without the founder in the room, and unit economics that hold across different cost structures. The interactive platform lets investors explore the expansion thesis visually instead of flipping through a 60-page PDF. *War Chest converts a successful single location into a fundable platform story.*
+
+**The Corporate Spinout or Carve-Out.** A division or product line being separated from a larger parent company. The team has operational expertise and often revenue, but the standalone entity has zero investor-facing infrastructure. There's no independent strategic narrative. The financial model is buried inside a consolidated corporate P&L. The brand identity is the parent company's. And every institutional investor will ask, "Why should this exist outside the parent?" -- a question that requires a strategic foundation, market research, operational documentation, and a digital presence that establishes the spinout as an independent, investable entity. *War Chest builds the standalone identity from scratch.*
+
+**The Searcher / Independent Sponsor.** Someone from the entrepreneurship-through-acquisition (ETA) world -- a search fund operator or independent sponsor who has identified an acquisition target and needs to raise $5M-$20M to close the deal. They don't have a company yet, but they have a thesis, a target, and a deadline. Every LP and co-investor they approach will evaluate two things simultaneously: the quality of the target and the quality of the operator. An interactive platform, a rigorous financial model, comprehensive market research, and a polished data room signal that this operator runs a process at an institutional level -- which is exactly the reassurance that LPs need before wiring money to a first-time buyer. *War Chest is the searcher's credibility engine.*
+
 ---
 
 ### Tier 3: Full Arsenal -- **$350K - $750K** | Delivered in 30 Days
@@ -478,11 +501,98 @@ For companies with global ambitions raising $10M+ who need the complete infrastr
 
 > **30 days vs. 12-18 months.** The entire $3M+ fundraising stack -- all 10 categories, 150+ documents, a live web platform, a 12-tab financial model, and a 9-method valuation report -- delivered in one month. Traditional assembly takes over a year and costs 5-10x more.
 
+#### Who Buys Full Arsenal
+
+**The Institutional-Scale Founder.** Raising $10M-$50M+ from family offices, sovereign wealth funds, or private equity firms. These aren't VCs who bet on velocity and narrative -- these are institutional allocators who deploy capital against infrastructure. They have investment committees. They have compliance teams. They have internal counsel who will scrutinize every document in the data room against a checklist that was designed for Fortune 500 deals. A pitch deck and a handshake won't get past the first gate. These LPs expect Big 4-level documentation: a multi-method valuation report, a tax-efficient multi-entity structure reviewed by counsel, financial models that their analysts can stress-test, and market research with sourced data and bottom-up methodology. Every dollar spent on preparation pays for itself in valuation premium and negotiation leverage, because institutional LPs discount sloppy infrastructure into the price. *Full Arsenal delivers the complete infrastructure that institutional capital expects -- in 30 days instead of the 12-18 months it takes to assemble traditionally.*
+
+**The Multi-Jurisdiction Operator.** Building a business that touches 3-5+ countries -- a global SaaS platform with regional entities, a hospitality group with properties across borders, a logistics company with operations on multiple continents, a fintech with licenses in different regulatory regimes. The complexity isn't just operational -- it's structural. Every jurisdiction introduces tax implications, entity requirements, regulatory constraints, and expansion considerations that compound on each other. This founder needs the full stack: tax and legal architecture across every jurisdiction, expansion research scoring each market, site evaluation for physical locations, financial models that capture multi-entity economics, and a data room that presents the complexity as organized competence rather than operational chaos. *Full Arsenal turns multi-jurisdiction complexity into a structured, investor-ready narrative.*
+
+**The Platform Roll-Up.** A founder or operator acquiring multiple businesses in the same industry to build a consolidated platform -- dental practices, veterinary clinics, home services companies, fitness studios, insurance agencies, accounting firms, car washes, or any fragmented industry ripe for consolidation. The thesis is always the same: buy at 3-5x EBITDA, operate at 8-12x. But proving that thesis to capital partners requires every category in the arsenal. Market research to size the fragmented opportunity. Financial models showing acquisition economics, integration costs, and portfolio-level returns. Operational blueprints proving the post-acquisition playbook works. Expansion research identifying the next 30 markets. A valuation report that justifies the platform premium. And an interactive investor platform that lets private equity partners, family offices, and fundless sponsors explore the thesis from their own angle. *Full Arsenal is the infrastructure that turns a roll-up thesis into a funded platform.*
+
+**The Capital-Intensive Project Developer.** Building something physical -- a resort, a mixed-use development, a manufacturing facility, a data center, a hospital, a campus. The raise is $10M-$100M+, the capital structure is layered (equity, mezzanine, construction debt, government incentives), and every LP in the stack has different documentation requirements. The equity investors want the strategic narrative, the valuation, and the market research. The lenders want the financial model, the operational blueprint, and the site evaluation. The government bodies want the expansion research, the economic impact analysis, and the operational commitment. No single vendor serves all these audiences. *Full Arsenal produces the unified documentation that satisfies every layer of a complex capital stack simultaneously.*
+
+**The UHNW Individual or Family Office Principal.** Not a startup founder in the traditional sense -- a high-net-worth individual or family office deploying $10M-$50M+ of their own capital into a passion-aligned venture. A world-class resort. A medical campus. A sustainable agriculture operation. A sports franchise adjacent business. They don't need to raise from strangers -- they are the capital. But they want institutional-grade infrastructure for their own governance, for potential co-investors they'll bring alongside, and because they operate at a level where anything less than institutional quality is a personal brand risk. Their own advisors -- family office counsel, private bankers, tax advisors -- will scrutinize every document as if it were a third-party investment. *Full Arsenal gives the principal institutional governance for their own venture, plus turnkey materials if they decide to bring in co-investors.*
+
+**The Sovereign or Government-Adjacent Venture.** A project backed by or pitched to sovereign wealth funds, government investment arms, development finance institutions (DFIs), or public-private partnership structures. These entities operate on procurement-grade documentation standards. Every deliverable needs to withstand audit-level scrutiny. The market research must be sourced. The financial models must be stress-tested across downside scenarios. The tax and legal structure must be defensible across multiple regulatory regimes. The valuation must use recognized international methodologies (IPEV). And the data room must be organized to a standard that a 30-person investment committee can navigate independently. *Full Arsenal meets the documentation standard that sovereign and government-adjacent capital requires -- a standard that most fundraising advisors can't even define, let alone deliver.*
+
 ---
 
 ### A La Carte
 
 Individual modules available separately at category pricing listed above. Mix and match based on what you already have in place and where the gaps are.
+
+#### Who Buys A La Carte
+
+**The Partially-Equipped Founder.** Already has some infrastructure -- maybe a decent financial model from a fractional CFO, or a strategy doc from a prior consulting engagement -- but has gaps that are killing the raise. The most common a la carte requests: a founder with a pitch deck but no financial model (C), a founder with a model but no valuation report (D), a founder with documents but no interactive platform (J), or a founder going through due diligence who gets asked for a data room they don't have (I). *A la carte fills the specific gap without rebuilding what already works.*
+
+**The Advisory Firm or Placement Agent.** An investment bank, placement agent, or fundraising advisory firm that has the deal flow and investor relationships but lacks the production capacity to build institutional-grade infrastructure for their clients. They don't need strategy (they provide that themselves) -- they need the execution layer: financial models (C), valuation reports (D), interactive platforms (J), or data room assembly (I) to white-label or co-deliver alongside their own advisory. *A la carte turns advisory firms into full-stack service providers without hiring a 20-person production team.*
+
+**The In-House Team That Hit a Wall.** A company with a competent internal team -- maybe a VP of Finance, a marketing director, and a operations lead -- who've built 60-70% of the fundraising infrastructure themselves but can't get the last 30% to institutional grade. The financial model works internally but doesn't survive LP scrutiny. The market research is solid but not formatted for a data room. The pitch materials are good but not great. They don't need a full engagement -- they need specific modules rebuilt to institutional standard while preserving their existing work. *A la carte upgrades the weakest links without replacing the chain.*
+
+---
+
+## Buyer Landscape: Avatars Across the Investment Ecosystem
+
+The fundraising infrastructure we build serves a wider market than "startup founders raising a seed round." Capital formation happens at every stage, in every industry, through dozens of different structures. Here's a map of the buyer universe -- who they are, what they're raising, and how they find us.
+
+### By Stage of Capital Formation
+
+| Stage | Typical Raise | Primary Avatar | Likely Tier | How They Find Us |
+|-------|---------------|----------------|-------------|------------------|
+| Pre-seed / Seed | $500K - $3M | Technical founders, domain experts, accelerator graduates | Launch Pad | Accelerator networks, founder communities, angel group referrals |
+| Series A / B | $3M - $20M | Growth-stage CEOs, international founders | War Chest | VC referrals, founder peer networks, LinkedIn thought leadership |
+| Growth Equity | $10M - $50M | Institutional-scale founders, platform roll-ups | Full Arsenal | Investment bank referrals, PE operating partners, conference networking |
+| Project Finance | $10M - $100M+ | Capital-intensive developers, UHNW principals | Full Arsenal | Family office networks, real estate circles, development finance |
+| Fund Formation | $5M - $100M+ | Emerging managers, solo GPs | Launch Pad or War Chest | GP/LP networks, fund admin referrals, emerging manager programs |
+| M&A / Acquisition | $5M - $50M | Searchers, independent sponsors, roll-up operators | War Chest or Full Arsenal | ETA community, search fund associations, deal broker networks |
+| Sovereign / DFI | $20M - $500M+ | Government-adjacent ventures, PPP structures | Full Arsenal | Government trade offices, development bank networks, embassy commercial attaches |
+
+### By Industry Vertical
+
+Every vertical has its own version of the fundraising problem. The infrastructure is the same -- the language, the metrics, and the comparables change.
+
+**Healthcare & Life Sciences.** Clinics, med-spas, telehealth platforms, biotech, medical devices, digital health. Investors in this space demand regulatory pathway documentation, clinical outcome projections, and reimbursement model clarity. The operational blueprint (H) and market research (B) do heavy lifting here because healthcare investors evaluate operational risk as aggressively as financial returns.
+
+**Hospitality & Real Estate.** Hotels, resorts, co-living, mixed-use developments, branded residences, experiential hospitality. Capital structures are layered (equity + mezz + construction debt + incentives), and every layer needs different documentation. Site evaluation (G), expansion research (F), and the full financial model (C) are table stakes. The interactive platform (J) differentiates because hospitality investors are visual -- they want to *experience* the investment thesis, not read about it.
+
+**Technology & SaaS.** B2B SaaS, marketplaces, fintech, AI/ML, developer tools, infrastructure. The fastest-moving vertical, where speed to close determines who wins competitive rounds. These founders typically have the product but lack the business infrastructure. Financial models (C) with unit economics (CAC, LTV, payback period, net revenue retention) and market research (B) with competitive landscape mapping are the critical gaps.
+
+**Consumer & Retail.** DTC brands, restaurant groups, fitness concepts, franchise models, CPG. Multi-location economics dominate the investor conversation. Expansion research (F), operational blueprints (H), and unit economics in the financial model (C) are what convert a single-location success into a fundable platform narrative.
+
+**Energy & Infrastructure.** Renewables, energy storage, EV charging, data centers, industrial projects. Large capital requirements, long development timelines, and regulatory complexity. Full Arsenal territory almost by default, because the capital stack involves project finance lenders, tax equity investors, offtake counterparties, and equity sponsors -- each with their own documentation requirements.
+
+**Impact & ESG.** Any venture raising from impact-focused LPs, development finance institutions, or ESG-mandated allocators. These investors require deeper narrative, theory-of-change documentation, impact metrics alongside financial metrics, and operational frameworks that demonstrate measurable social or environmental outcomes. The strategic foundation (A) and operational blueprint (H) carry additional weight because impact LPs evaluate mission alignment as rigorously as financial returns.
+
+### By Buyer Motivation
+
+Not every buyer is a founder raising their first round. Understanding motivation reveals how to position the offering.
+
+**"I need to be taken seriously."** The founder whose materials don't match their ambition. They've had investor meetings where the conversation was strong but the follow-up materials killed the deal. They know their pitch is good in person -- but when the analyst goes back to review the data room, the deal dies. *Motivation: close the credibility gap between verbal pitch and written infrastructure.*
+
+**"I need to move fast."** The founder with a term sheet deadline, a market window closing, or a competitive round where another company is 30 days ahead. They don't have 6 months for consultants. They need everything -- yesterday. *Motivation: speed is the primary buying criterion. They'll pay a premium for 14-day delivery.*
+
+**"I need to justify the valuation."** The founder who knows what their company is worth but can't prove it in a format that survives institutional scrutiny. They're not over-valuing -- they just don't have the 9-method analysis, the sensitivity matrices, and the sourced market data that turns a number into a defensible position. *Motivation: the valuation report (D) and the financial model (C) are the highest-leverage purchases.*
+
+**"I need to look like I've done this before."** The first-time founder who is competing for capital against serial entrepreneurs with 2-3 exits, established investor relationships, and pattern-matched credibility. They can't manufacture a track record, but they can build infrastructure that signals operational sophistication. When the data room, the financial model, the interactive platform, and the strategic narrative all operate at institutional quality, the "first-time founder" objection loses its teeth. *Motivation: infrastructure as a proxy for experience.*
+
+**"I need to impress a specific audience."** The founder raising from a specific type of investor -- a sovereign wealth fund, a family office, a strategic corporate investor, a DFI -- and knows that this audience has documentation standards far beyond a typical VC. They've been told (or they've learned the hard way) that their current materials won't pass the investment committee. *Motivation: match the documentation standard to the specific LP audience.*
+
+**"I don't need to raise -- I need to govern."** The UHNW individual, family office, or self-funded operator who isn't raising external capital but wants institutional-grade infrastructure for their own governance, for board reporting, for potential future co-investors, or because they run every venture at a certain standard. They're not a "customer" in the traditional fundraising advisory sense -- they're a principal who values rigor. *Motivation: governance and optionality, not immediate capital need.*
+
+### How to Reach Each Avatar
+
+| Channel | Avatars Reached | Approach |
+|---------|----------------|----------|
+| **Accelerator partnerships** (YC, Techstars, 500 Global, Plug and Play) | Technical founders, accelerator graduates | Offer as a post-program service; demo with a live platform walkthrough |
+| **VC firm referrals** | Growth-stage CEOs, portfolio companies with weak infrastructure | Position as "the thing your portfolio companies need before they come back for a bridge round" |
+| **Investment bank / placement agent partnerships** | Institutional-scale founders, searchers, roll-up operators | White-label or co-delivery model; they bring the deal, we build the infrastructure |
+| **Family office networks** (TIGER 21, FOX, Family Office Exchange) | UHNW principals, family office direct investments | Lead with governance and quality; these buyers don't optimize for price |
+| **Search fund / ETA communities** (Stanford GSB, Searchfunder, HLSS) | Searchers, independent sponsors | Lead with speed and institutional quality at a fraction of IB cost |
+| **Founder peer networks** (YPO, EO, Founders Network) | Growth-stage CEOs, multi-location founders | Warm referrals; demonstrate with a case study walkthrough |
+| **LinkedIn thought leadership** | All avatars | Publish pricing transparency, behind-the-build content, and before/after case studies |
+| **Conference and event presence** | Industry-specific verticals | Healthcare investor summits, real estate capital markets conferences, impact investing forums |
+| **Accounting / law firm referrals** | Domain experts, corporate spinouts, international founders | Position as the complement to their advisory -- they do legal/tax counsel, we build the fundraising infrastructure |
+| **Development finance / government trade offices** | Sovereign-adjacent ventures, PPP structures, cross-border projects | Formal capability presentations; these buyers require credentials and process documentation |
 
 ---
 
@@ -723,7 +833,7 @@ graph TD
 
 ---
 
-**Document Version:** 2.0
+**Document Version:** 3.0
 **Date:** February 2026
 **Classification:** Client-Facing / Proposal
 
