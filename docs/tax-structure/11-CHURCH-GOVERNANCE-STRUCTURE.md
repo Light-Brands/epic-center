@@ -177,11 +177,12 @@ graph LR
 
 | Provision | Detail |
 |---|---|
-| **Senior Pastor** | Life tenure (see Section 5) |
-| **Family members** | Appointed by Senior Pastor. No term limit. Serve at Senior Pastor's discretion. |
-| **Independent members** | Nominated by Senior Pastor via Nominations Committee. Confirmed by majority council vote. 3-year renewable terms. |
-| **Removal — Family** | Senior Pastor may remove and replace at any time for any reason. |
-| **Removal — Independent** | Senior Pastor may recommend removal for "doctrinal misalignment" or by 2/3 council vote for cause. |
+| **Senior Pastor (Daniel)** | Life tenure (see Section 5). Removal requires unanimous vote + extreme trigger. |
+| **Co-Founder (Jennifer)** | Life tenure (see Section 5A). Same protection standard as Senior Pastor. |
+| **All other members** | Nominated by Senior Pastor via Nominations Committee. Confirmed by majority council vote. 3-year renewable terms. |
+| **Removal — Daniel** | Unanimous vote of all other members + felony/incapacity/moral turpitude. Effectively impossible. |
+| **Removal — Jennifer** | Unanimous vote of all other members + same extreme triggers. Effectively impossible. |
+| **Removal — All others** | **Supermajority (5/7) for cause only.** The member being removed does not vote (5 of 6 voting members must agree). See Section 4.6 for enumerated causes. |
 | **Vacancies** | Filled by Senior Pastor nomination + majority council vote. |
 | **Quorum** | 4 of 7 members (Senior Pastor counts toward quorum). |
 
@@ -205,6 +206,100 @@ Independent council members must satisfy ALL of the following:
 
 **Key insight:** All three committee members are chosen BY Daniel (he controls the Nominations Committee). He selects people he trusts and who share his vision. They must be genuinely independent for IRS purposes — no family ties, no financial entanglement. Compensation decisions require 2-of-3 majority vote.
 
+### 4.6 Removal for Cause — Enumerated Grounds (5/7 Supermajority)
+
+All council members (except Daniel and Jennifer, who have life tenure) may only be removed **for cause** by a **supermajority vote of 5 out of 7 members** (the member being removed does not vote, so effectively 5 of 6 voting members must agree).
+
+**Enumerated causes for removal:**
+
+| Cause | Definition |
+|---|---|
+| **Failure to serve** | Absence from 3 or more consecutive council meetings without justification |
+| **Loss of independence** | Entering a financial relationship with Light Brands, TE entities, or any structure entity that compromises independence (applies to Compensation Committee members) |
+| **Criminal conduct** | Conviction of a felony or crime involving dishonesty |
+| **Conduct harmful to the church** | Actions that materially harm the church's mission, reputation, or financial integrity — as determined by the council |
+| **Breach of confidentiality** | Unauthorized disclosure of church financial records, council deliberations, compensation decisions, or governance pause proceedings |
+| **Violation of the relationship provision** | Forming a romantic relationship with another council member and refusing to either end the relationship or resign within 30 days (see Section 4.7) |
+| **Breach of fiduciary duty** | Self-dealing, misappropriation of church funds, or failure to act in the church's best interest |
+
+**What is NOT a valid cause for removal:**
+- Disagreement with the Senior Pastor's doctrinal decisions
+- Voting against the Senior Pastor on a governance matter
+- Personal conflict with any other member (absent conduct harmful to the church)
+- Change in personal circumstances (divorce, relocation, etc.) unless it results in failure to serve
+
+**Process:**
+1. Written notice of proposed removal delivered to the member, stating the specific cause
+2. Member has 14 days to respond in writing
+3. Council meeting to hear both sides (member may attend and speak)
+4. Vote: 5/7 required (member excluded from vote = 5/6 of voting members)
+5. Decision documented in council minutes by Secretary
+6. If removal approved, effective immediately. Vacancy filled through normal nomination process.
+
+**During the 1-year post-pause cooling off period:** No removal proceedings may be initiated by the Senior Pastor. This prevents retaliatory removal after a governance pause. The council may still initiate removal proceedings for criminal conduct or breach of fiduciary duty during the cooling off period.
+
+### 4.7 No Intra-Board Romantic Relationships
+
+```mermaid
+graph TB
+    subgraph "THE RELATIONSHIP RULE"
+        RULE["No two members of the Spiritual Council<br/>may be in a romantic, dating, or domestic<br/>partnership relationship with each other."]
+        EX["SOLE EXCEPTION:<br/>Daniel & Jennifer Lawless<br/>(Co-Founders, acknowledged at formation)"]
+        END["If Daniel & Jennifer are no longer married,<br/>the exception terminates. Both are then<br/>subject to the same prohibition."]
+    end
+
+    subgraph "IF A RELATIONSHIP FORMS"
+        D1["The relationship must end"]
+        D2["OR one party voluntarily<br/>resigns from the council"]
+        D3["Resigned member may be<br/>re-nominated through standard<br/>Nominations Committee process"]
+        D4["If the resigned member is now<br/>a romantic partner of Daniel or Jennifer,<br/>the NEW SPOUSE VETO applies —<br/>BOTH co-founders must consent."]
+    end
+
+    RULE --> EX
+    EX --> END
+    RULE --> D1
+    RULE --> D2
+    D2 --> D3
+    D3 --> D4
+
+    style RULE fill:#c0392b,stroke:#ffd700,color:#fff
+    style EX fill:#533483,stroke:#ffd700,color:#fff
+    style END fill:#c9770a,stroke:#fff,color:#fff
+    style D1 fill:#0a8754,stroke:#fff,color:#fff
+    style D2 fill:#0a8754,stroke:#fff,color:#fff
+    style D3 fill:#0f3460,stroke:#e94560,color:#fff
+    style D4 fill:#8b5e3c,stroke:#ffd700,color:#fff
+```
+
+**The provision:**
+
+> *"No two members of the Spiritual Council may be in a romantic, dating, or domestic partnership relationship with each other. The marriage of Daniel Lawless and Jennifer Lawless at the time of the church's founding is acknowledged and exempt from this provision. If the Senior Pastor and the Co-Founder are no longer married, this exemption terminates and both are subject to the same prohibition with respect to other council members."*
+
+> *"If a romantic relationship develops between any two council members, one of the following must occur within thirty (30) days of the relationship becoming known to the council: (a) the relationship ends, or (b) one of the involved parties voluntarily resigns from the council. Failure to comply within 30 days constitutes grounds for removal under Section 4.6 (Violation of the relationship provision)."*
+
+> *"A resigned member may be re-nominated to the council through the standard Nominations Committee process. If the resigned member is or has become a romantic partner of the Senior Pastor or the Co-Founder, the New Spouse Veto (Section 4.8) applies — both co-founders must consent in writing before the nomination may proceed."*
+
+**Why this matters:**
+- Prevents the board from becoming entangled in personal relationships
+- Maintains professional governance boundaries
+- After a potential divorce, prevents either Daniel or Jennifer from converting a board seat into a personal relationship platform
+- The 30-day window gives people time to make a considered decision — end the relationship or leave the board
+- The re-nomination pathway keeps the door open — the person isn't banned, they just have to go through the proper process
+
+### 4.8 New Spouse Mutual Veto
+
+> *"No spouse, domestic partner, or romantic partner of the Senior Pastor or the Co-Founder may be appointed to the Spiritual Council without the prior written consent of both the Senior Pastor and the Co-Founder. This provision applies regardless of the marital status of the Senior Pastor and the Co-Founder to each other. This provision may not be amended without the written consent of both the Senior Pastor and the Co-Founder."*
+
+| Scenario | Result |
+|---|---|
+| Daniel wants to put a new partner on the council | **Jennifer must consent in writing.** No consent = no appointment. |
+| Jennifer wants to put a new partner on the council | **Daniel must consent in writing.** No consent = no appointment. |
+| Both have new partners and both consent | Both new partners can join (through normal nomination process, if seats are available) |
+| One consents, the other doesn't | Only the consented partner can join |
+| One co-founder has passed away | Provision no longer applies — surviving co-founder follows normal nomination process |
+
+**The mutual amendment lock:** This provision itself requires BOTH Daniel's AND Jennifer's written consent to amend. Neither can unilaterally change the rules.
+
 ---
 
 ## 5. Senior Pastor Protections (The Copeland Shield)
@@ -217,7 +312,7 @@ graph TB
         L1["LAYER 1: LIFE TENURE<br/>Cannot be fired. Removal requires<br/>unanimous vote + felony/incapacity."]
         L2["LAYER 2: DOCTRINAL AUTHORITY<br/>Final say on ALL doctrine.<br/>Courts cannot review (1st Amendment)."]
         L3["LAYER 3: BOARD NOMINATION<br/>Controls who sits on the board.<br/>Veto on all appointments."]
-        L4["LAYER 4: BOARD REMOVAL<br/>Can remove any member for<br/>'doctrinal misalignment.'<br/>Family majority ensures vote passes."]
+        L4["LAYER 4: BOARD REMOVAL<br/>Can recommend removal for cause.<br/>5/7 supermajority required.<br/>Family bloc (4) + 1 independent = passes."]
         L5["LAYER 5: BUDGET AUTHORITY<br/>Proposes budget. $50K unilateral<br/>spending. Family majority approves."]
         L6["LAYER 6: SUCCESSION<br/>Designates own successor.<br/>Council ratifies (family majority)."]
         L7["LAYER 7: AMENDMENT LOCK<br/>Protected articles CANNOT be changed<br/>without Senior Pastor's written consent.<br/>This clause protects itself."]
@@ -256,9 +351,9 @@ graph TB
 
 ### 5.4 Board Removal Power
 
-> *"The Senior Pastor may recommend the removal of any Spiritual Council member whose service no longer aligns with the church's doctrinal vision as determined by the Senior Pastor. Upon the Senior Pastor's recommendation, the council shall vote on removal within 30 days. Removal requires a majority vote of the remaining council members."*
+> *"The Senior Pastor may recommend the removal of any Spiritual Council member (other than the Co-Founder) for cause, subject to the for-cause removal process established in Section 4.6 and Article III Section 4 of the Bylaws. Removal requires a supermajority vote of five (5) of seven (7) council members. The member being removed does not vote."*
 
-**What this means:** If any board member becomes problematic, Daniel recommends removal. With family + aligned members holding 4 of 7 seats (Daniel, Jennifer, Timothy, Nancy), the vote passes automatically.
+**What this means:** If any non-founder board member becomes problematic, Daniel recommends removal for one of the seven enumerated causes. The 5/7 supermajority standard means 5 of the 6 voting members must agree — this protects members from arbitrary removal while still giving Daniel effective removal power when cause exists. With family + aligned members holding 4 votes (Daniel, Jennifer, Timothy, Nancy), Daniel needs only 1 independent member to agree. **During the 1-year post-pause cooling off period,** Daniel may not initiate removal proceedings (exception: criminal conduct or breach of fiduciary duty).
 
 ### 5.5 Budget Authority
 
@@ -280,20 +375,207 @@ graph TB
 
 ---
 
-## 6. Family Roles — Detailed
+## 5A. Co-Founder Protections (Jennifer Lawless)
 
-Each family member holds a genuine ministry role with real responsibilities. These are not ceremonial titles.
+Jennifer Lawless is recognized as **Co-Founder** of the Church of the Living Light. Her contributions to the founding and establishment of the church are foundational and permanent. Her protections are embedded in the bylaws and **cannot be amended without Jennifer's written consent**.
 
-### 6.1 Jennifer Lawless — Director of Worship & Community Life
+```mermaid
+graph TB
+    subgraph "DANIEL'S PROTECTIONS"
+        D1["Life Tenure"]
+        D2["Doctrinal Authority"]
+        D3["Board Nomination Power"]
+        D4["Board Removal Power"]
+        D5["Budget Authority"]
+        D6["Succession Designation"]
+        D7["Amendment Lock"]
+    end
+
+    subgraph "JENNIFER'S PROTECTIONS"
+        J1["Life Tenure on Council"]
+        J2["Protected Role<br/>(Director of Worship)"]
+        J3["Acting Senior Pastor<br/>Designation"]
+        J4["Governance Pause<br/>Trigger Authority"]
+        J5["Nominations Committee<br/>Seat"]
+        J6["Compensation Protection<br/>(survives separation)"]
+        J7["Amendment Lock<br/>(her own articles)"]
+    end
+
+    subgraph "MUTUAL PROTECTIONS"
+        M1["Neither can remove the other"]
+        M2["New Spouse Veto<br/>(both must consent)"]
+        M3["Separation Clause<br/>(all protections survive)"]
+        M4["Mutual Amendment Lock<br/>(shared provisions require both)"]
+    end
+
+    style D1 fill:#533483,stroke:#ffd700,color:#fff
+    style D2 fill:#533483,stroke:#ffd700,color:#fff
+    style D3 fill:#533483,stroke:#ffd700,color:#fff
+    style D4 fill:#533483,stroke:#ffd700,color:#fff
+    style D5 fill:#533483,stroke:#ffd700,color:#fff
+    style D6 fill:#533483,stroke:#ffd700,color:#fff
+    style D7 fill:#533483,stroke:#ffd700,color:#fff
+    style J1 fill:#0f3460,stroke:#e94560,color:#fff
+    style J2 fill:#0f3460,stroke:#e94560,color:#fff
+    style J3 fill:#0f3460,stroke:#e94560,color:#fff
+    style J4 fill:#0f3460,stroke:#e94560,color:#fff
+    style J5 fill:#0f3460,stroke:#e94560,color:#fff
+    style J6 fill:#0f3460,stroke:#e94560,color:#fff
+    style J7 fill:#0f3460,stroke:#e94560,color:#fff
+    style M1 fill:#c9770a,stroke:#fff,color:#fff
+    style M2 fill:#c9770a,stroke:#fff,color:#fff
+    style M3 fill:#c9770a,stroke:#fff,color:#fff
+    style M4 fill:#c9770a,stroke:#fff,color:#fff
+```
+
+### 5A.1 Life Tenure on the Spiritual Council
+
+> *"Jennifer Lawless, as Co-Founder, shall serve on the Spiritual Council for life or until voluntary resignation. The Co-Founder may only be removed by unanimous vote of ALL Spiritual Council members (excluding the Co-Founder) upon a documented finding of: (a) felony conviction in a court of law, (b) proven moral turpitude as determined by the Spiritual Council, or (c) permanent physical or mental incapacity certified by two licensed physicians."*
+
+**Same standard as Daniel.** Neither co-founder can be removed by the other or by the board under normal circumstances.
+
+### 5A.2 Protected Role
+
+> *"Jennifer Lawless shall serve as Director of Worship & Community Life. This role, its scope, and its ministry responsibilities may not be altered, diminished, or reassigned without the Co-Founder's written consent."*
+
+**What this means:** Jennifer's ministry area is structurally defined. It cannot be hollowed out or transferred to someone else without her agreement.
+
+### 5A.3 Acting Senior Pastor Designation
+
+> *"In the event of a Governance Pause (Article VIII), Jennifer Lawless shall serve as Acting Senior Pastor for the duration of the pause. This designation is structural and survives any change in marital status between the Senior Pastor and the Co-Founder. The Acting Senior Pastor exercises the operational authority of the Senior Pastor but does not acquire the Senior Pastor's structural protections under Article II."*
+
+### 5A.4 Governance Pause Trigger
+
+> *"The Co-Founder may invoke a Governance Pause by filing a written Concern with the Spiritual Council. The pause takes effect upon the concurrence of two (2) independent council members. This trigger authority survives any change in marital status."*
+
+### 5A.5 Compensation Protection
+
+> *"The Co-Founder's compensation, once established by the Compensation Committee, shall not be reduced, suspended, or terminated based on any change in marital status between the Senior Pastor and the Co-Founder. The Compensation Committee shall review the Co-Founder's compensation on the same annual basis as all other staff, based on her role and church revenue, without regard to her marital status."*
+
+### 5A.6 Consultation Right
+
+> *"The Senior Pastor shall consult with the Co-Founder on matters of worship, community ministry, and congregational care before issuing doctrinal determinations in those areas. This consultation is advisory — the Senior Pastor retains final doctrinal authority. The consultation requirement may not be waived or eliminated without the Co-Founder's written consent."*
+
+### 5A.7 Amendment Lock
+
+> *"No amendment to Article [X] (Co-Founder Protections) of these bylaws shall be valid without the prior written consent of the Co-Founder. This provision itself may not be amended without the Co-Founder's consent."*
+
+### 5A.8 The Separation Clause
+
+> *"In the event that the Senior Pastor and the Co-Founder are no longer married, all governance provisions, council seats, protected roles, authority, compensation, and structural protections of each shall continue unaltered. Neither party may invoke the other's removal based on change in marital status. The Co-Founder's Acting Senior Pastor designation, governance pause trigger authority, Nominations Committee seat, consultation right, and amendment lock shall survive any change in marital status. This provision may not be amended without the written consent of both the Senior Pastor and the Co-Founder."*
+
+**What changes if Daniel and Jennifer separate:**
+
+| Element | Before Separation | After Separation |
+|---|---|---|
+| Jennifer's council seat | Life tenure | **Still life tenure** |
+| Jennifer's role | Director of Worship | **Unchanged — protected** |
+| Jennifer's compensation | Set by Comp Committee | **Continues — based on role, not marital status** |
+| Jennifer's Acting Senior Pastor | Active | **Still active** |
+| Jennifer's pause trigger | Can invoke + 2 independents | **Same — not marriage-dependent** |
+| Jennifer's vote on Daniel's comp | Recuses (shared household) | **Now votes — separate households** |
+| Daniel's ability to remove Jennifer | Cannot | **Still cannot** |
+| Jennifer's ability to remove Daniel | Cannot | **Still cannot** |
+| No intra-board relationship rule | Exception for Daniel/Jennifer marriage | **Exception terminates — both subject to rule** |
+| New spouse veto | Dormant | **Active — both must consent to other's new partner** |
+
+---
+
+## 5B. The Governance Pause (Circuit Breaker)
+
+The Governance Pause is a temporary mechanism where operational authority transfers from the Senior Pastor to the Co-Founder (Acting Senior Pastor) and the Spiritual Council. The Senior Pastor retains all structural protections. The purpose is rest, reflection, accountability, and course-correction.
+
+```mermaid
+graph TB
+    NORMAL["NORMAL OPERATIONS<br/>Daniel: Full Senior Pastor authority"]
+    TRIGGER["TRIGGER<br/>5-of-6 council vote, OR<br/>Jennifer + 2 independents, OR<br/>Daniel self-invokes"]
+    PAUSE["GOVERNANCE PAUSE<br/>Jennifer: Acting Senior Pastor<br/>Daniel: Retains title + all structural protections<br/>Steps back from operations"]
+    MIN["MANDATORY MINIMUM: 30 DAYS<br/>No return possible. No exceptions."]
+    WINDOW["RETURN WINDOW OPENS (Day 30+)<br/>Daniel may request return<br/>Council votes: 5/7 majority (Daniel excluded)<br/>Jennifer facilitates"]
+    APPROVED["APPROVED: Daniel returns<br/>1-YEAR COOLING OFF begins<br/>No board reorganization for 12 months<br/>No removal proceedings for 12 months"]
+    DENIED["DENIED: Next review in 30 days<br/>Repeat until approved or Day 180"]
+    AUTO["DAY 180: AUTOMATIC RETURN<br/>Daniel resumes full authority<br/>1-year cooling off begins"]
+
+    NORMAL -->|"Trigger event"| TRIGGER
+    TRIGGER --> PAUSE
+    PAUSE --> MIN
+    MIN --> WINDOW
+    WINDOW -->|"Council approves"| APPROVED
+    WINDOW -->|"Council denies"| DENIED
+    DENIED -->|"30 days later"| WINDOW
+    DENIED -->|"Day 180 reached"| AUTO
+
+    style NORMAL fill:#0a8754,stroke:#fff,color:#fff
+    style TRIGGER fill:#c0392b,stroke:#ffd700,color:#fff
+    style PAUSE fill:#c9770a,stroke:#fff,color:#fff
+    style MIN fill:#533483,stroke:#ffd700,color:#fff
+    style WINDOW fill:#0f3460,stroke:#e94560,color:#fff
+    style APPROVED fill:#0a8754,stroke:#fff,color:#fff
+    style DENIED fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style AUTO fill:#0a8754,stroke:#fff,color:#fff
+```
+
+### Pause Parameters
+
+| Parameter | Value |
+|---|---|
+| **Minimum duration** | 30 days — cannot be shortened by anyone, including Daniel |
+| **Maximum duration** | 180 days — Daniel automatically returns regardless of vote |
+| **Authority transfers to** | Jennifer Lawless (Acting Senior Pastor) |
+| **Return decision** | Council votes: 5/7 majority, Daniel excluded from vote. Jennifer facilitates and votes. |
+| **Review cycle** | Every 30 days after minimum period, until return approved or 180-day cap |
+| **Post-return freeze** | 12 months — Daniel cannot remove or reorganize council members |
+| **Maximum pauses per year** | 2 |
+| **Maximum cumulative days per year** | 180 |
+
+### What Jennifer CAN Do as Acting Senior Pastor
+
+- Chair Spiritual Council meetings
+- Make operational decisions (programs, hiring, day-to-day ministry)
+- Approve spending within Daniel's normal authority ($50K per transaction)
+- Lead or delegate worship services
+- Represent the church on LBS board seat and LBC advisory board
+- Bring a motion to the council for Daniel's return (after 30 days)
+
+### What Jennifer CANNOT Do as Acting Senior Pastor
+
+- Amend bylaws or protected articles
+- Designate a successor Senior Pastor
+- Remove council members
+- Create new council seats or expand the board
+- Change the Statement of Faith
+- Alter Daniel's compensation
+- Make the pause permanent or extend beyond 180 days
+
+### Reciprocal Pause (Jennifer)
+
+The same governance pause mechanism applies to Jennifer's operational authority. If Jennifer needs to step back:
+- Council (5 of 6, excluding Jennifer) can invoke a pause on her Director of Worship duties
+- Daniel or another council member assumes her operational responsibilities temporarily
+- Same 30-180 day window, same 1-year cooling off on return
+- Symmetry ensures both co-founders are subject to the same accountability
+
+### Fallback — If Both Co-Founders Are Unable to Serve
+
+> *"If the Acting Senior Pastor is unable or unwilling to serve during a Governance Pause, the Spiritual Council shall elect an Acting Chair from among its remaining members by majority vote. The Compensation Committee Chair (currently Sydney Griffith) shall serve as interim Acting Chair until the council elects."*
+
+---
+
+## 6. Council Roles — Detailed
+
+Each council member holds a genuine ministry role with real responsibilities. These are not ceremonial titles.
+
+### 6.1 Jennifer Lawless — Co-Founder, Director of Worship & Community Life
 
 | Attribute | Detail |
 |---|---|
-| **Council Seat** | Seat 2 |
-| **Relationship** | Daniel's wife |
+| **Council Seat** | Seat 2 — **Co-Founder (Life Tenure)** |
+| **Relationship** | Daniel's wife and Co-Founder of the Church of the Living Light |
 | **Ministry Role** | Leads worship services, manages congregation community, oversees women's ministry, plans community events |
-| **Responsibilities** | Weekly worship planning, congregational pastoral care, community outreach coordination, small group ministry |
-| **Compensation** | Set by Compensation Committee (Sydney, Iryna, Angelina). Reasonable for role. Separate from Daniel's package. |
-| **Recusal** | Recuses from votes on Daniel's compensation (shared household benefit). Votes on all other matters. |
+| **Structural Protections** | Life tenure on council (same standard as Senior Pastor — unanimous + extreme trigger to remove). Protected role (Director of Worship). Acting Senior Pastor designation during Governance Pause. Governance Pause trigger authority. Compensation protection surviving any change in marital status. Own amendment lock on co-founder provisions. Nominations Committee member. See Section 5A for full details. |
+| **Responsibilities** | Weekly worship planning, congregational pastoral care, community outreach coordination, small group ministry. During a Governance Pause: assumes all operational authority of the Senior Pastor (see Section 5B). |
+| **Compensation** | Set by Compensation Committee (Sydney, Iryna, Angelina). Reasonable for role. Separate from Daniel's package. Protected — cannot be reduced as retaliation for triggering a Governance Pause or exercising any co-founder right. |
+| **Recusal** | Recuses from votes on Daniel's compensation (shared household benefit, if married). Votes on all other matters. |
 
 ### 6.2 Timothy Lawless — Director of Operations & Administration / Church Treasurer
 
@@ -620,27 +902,40 @@ graph TB
     subgraph "BYLAWS STRUCTURE"
         A1["ARTICLE I<br/>Name & Purpose<br/>Statement of Faith"]
         A2["ARTICLE II<br/>SENIOR PASTOR<br/>Life tenure, doctrinal authority,<br/>nomination, budget, succession"]
-        A3["ARTICLE III<br/>SPIRITUAL COUNCIL<br/>7 members, quorum,<br/>voting, removal"]
+        A2A["ARTICLE IIA<br/>CO-FOUNDER PROTECTIONS<br/>Jennifer: life tenure, protected role,<br/>Acting Senior Pastor, separation clause"]
+        A2B["ARTICLE IIB<br/>GOVERNANCE PAUSE<br/>30-180 day circuit breaker,<br/>Jennifer assumes authority,<br/>council votes on return"]
+        A3["ARTICLE III<br/>SPIRITUAL COUNCIL<br/>7 members, quorum, voting,<br/>5/7 for-cause removal,<br/>relationship prohibition,<br/>new spouse veto"]
         A4["ARTICLE IV<br/>COMPENSATION COMMITTEE<br/>3 independents, majority vote,<br/>rebuttable presumption process"]
         A5["ARTICLE V<br/>FINANCIAL MANAGEMENT<br/>Treasurer, bank accounts,<br/>budget, audit"]
         A6["ARTICLE VI<br/>PROPERTY & ASSETS<br/>Church title, minister use,<br/>dissolution clause"]
         A7["ARTICLE VII<br/>AMENDMENTS<br/>2/3 vote general,<br/>protected articles locked"]
     end
 
-    LOCK["AMENDMENT LOCK<br/>Articles II, IV §4, and VII §2<br/>CANNOT be amended without<br/>Senior Pastor's written consent"]
+    LOCK_D["DANIEL'S AMENDMENT LOCK<br/>Articles II, IIB, IV §4, and VII §2<br/>CANNOT be amended without<br/>Senior Pastor's written consent"]
 
-    A2 -.->|"PROTECTED"| LOCK
-    A4 -.->|"PROTECTED"| LOCK
-    A7 -.->|"SELF-PROTECTING"| LOCK
+    LOCK_J["JENNIFER'S AMENDMENT LOCK<br/>Article IIA and §4.8<br/>CANNOT be amended without<br/>Co-Founder's written consent"]
+
+    LOCK_M["MUTUAL AMENDMENT LOCK<br/>§4.7, §4.8 (relationship rule +<br/>new spouse veto) require BOTH<br/>co-founders' written consent"]
+
+    A2 -.->|"PROTECTED"| LOCK_D
+    A2B -.->|"PROTECTED"| LOCK_D
+    A4 -.->|"PROTECTED"| LOCK_D
+    A7 -.->|"SELF-PROTECTING"| LOCK_D
+    A2A -.->|"PROTECTED"| LOCK_J
+    A3 -.->|"§4.7/4.8"| LOCK_M
 
     style A1 fill:#2d4059,stroke:#ea5455,color:#fff
     style A2 fill:#533483,stroke:#ffd700,color:#fff
+    style A2A fill:#0f3460,stroke:#e94560,color:#fff
+    style A2B fill:#0f3460,stroke:#e94560,color:#fff
     style A3 fill:#0f3460,stroke:#e94560,color:#fff
     style A4 fill:#c9770a,stroke:#fff,color:#fff
     style A5 fill:#2d4059,stroke:#ea5455,color:#fff
     style A6 fill:#2d4059,stroke:#ea5455,color:#fff
     style A7 fill:#8b5e3c,stroke:#ffd700,color:#fff
-    style LOCK fill:#c0392b,stroke:#ffd700,color:#fff
+    style LOCK_D fill:#c0392b,stroke:#ffd700,color:#fff
+    style LOCK_J fill:#c0392b,stroke:#ffd700,color:#fff
+    style LOCK_M fill:#c0392b,stroke:#ffd700,color:#fff
 ```
 
 ### Article I: Name and Purpose
@@ -659,14 +954,39 @@ graph TB
 - **Section 6 — Budget Authority:** Senior Pastor proposes annual budget. Authorized to approve expenditures within budget up to $[50,000] per transaction.
 - **Section 7 — Succession:** Senior Pastor designates successor by written instrument. Council ratifies by majority vote.
 
+### Article IIA: Co-Founder Protections (Jennifer Lawless)
+
+- **Section 1 — Recognition:** Jennifer Lawless is recognized as Co-Founder of the Church of the Living Light with permanent, irrevocable protections.
+- **Section 2 — Life Tenure:** Jennifer shall serve on the Spiritual Council for life or until voluntary resignation. Removal requires unanimous vote of all other members upon documented finding of felony conviction, proven moral turpitude, or permanent incapacity certified by two physicians (same standard as Senior Pastor).
+- **Section 3 — Protected Role:** Jennifer holds the title of Director of Worship & Community Life. This role, title, and council seat may not be eliminated, merged, or made redundant.
+- **Section 4 — Acting Senior Pastor:** During any Governance Pause (Article IIB), Jennifer assumes the operational authority of the Senior Pastor.
+- **Section 5 — Governance Pause Trigger:** Jennifer may call for a Governance Pause vote by the council (see Article IIB).
+- **Section 6 — Compensation Protection:** Jennifer's compensation may not be reduced as retaliation for triggering a Governance Pause or exercising any co-founder right.
+- **Section 7 — Nominations Committee:** Jennifer holds a permanent seat on the Nominations Committee.
+- **Section 8 — Separation Clause:** All co-founder protections survive any change in the marital status of the Senior Pastor and the Co-Founder. Governance provisions are independent of personal relationships.
+- **Section 9 — Amendment Lock:** No provision of this Article may be amended without Jennifer's prior written consent. This section protects itself.
+
+### Article IIB: Governance Pause (Circuit Breaker)
+
+- **Section 1 — Trigger:** Any council member (including Jennifer or Daniel himself) may call for a Governance Pause vote. Requires 4/7 council vote to invoke.
+- **Section 2 — Duration:** Minimum 30 days. Maximum 180 days. Duration set by council vote at invocation.
+- **Section 3 — Authority Transfer:** During a Governance Pause, Jennifer Lawless (Co-Founder) assumes all operational authority of the Senior Pastor, including budget authority, staff direction, and ministry operations. She does NOT assume doctrinal authority, board nomination power, amendment consent rights, or succession designation.
+- **Section 4 — Return:** The council votes on the Senior Pastor's return after the minimum period has elapsed. Requires 4/7 council vote to end the pause. Daniel does not vote on his own return.
+- **Section 5 — Post-Return Cooling Off:** For one (1) year following the end of a Governance Pause, the Senior Pastor may not initiate removal proceedings against any council member (exception: criminal conduct or breach of fiduciary duty), may not propose bylaw amendments, and may not reorganize committee assignments.
+- **Section 6 — Reciprocal Pause:** The same mechanism applies to Jennifer if the council votes to invoke a pause for her. During Jennifer's pause, Daniel retains his authority and a temporary Acting Director of Worship is elected by the council.
+- **Section 7 — Fallback:** If both co-founders are unable to serve simultaneously, the Compensation Committee Chair (currently Sydney Griffith) serves as interim Acting Chair until the council elects an Acting Chair by majority vote.
+- **Section 8 — Amendment Lock:** No provision of this Article may be amended without the Senior Pastor's prior written consent.
+
 ### Article III: Spiritual Council
 
-- **Section 1 — Composition:** Seven (7) members including the Senior Pastor.
-- **Section 2 — Family Members:** Appointed by Senior Pastor. No term limit. Serve at Senior Pastor's discretion.
-- **Section 3 — Independent Members:** Nominated by Senior Pastor via Nominations Committee. Confirmed by majority council vote. Three-year renewable terms.
-- **Section 4 — Removal:** Family members: Senior Pastor may remove at any time. Independent members: by Senior Pastor recommendation + majority council vote, or by 2/3 council vote for cause.
+- **Section 1 — Composition:** Seven (7) members including the Senior Pastor and the Co-Founder.
+- **Section 2 — Co-Founders:** Daniel Lawless (Senior Pastor) and Jennifer Lawless (Co-Founder) have life tenure. See Articles II and IIA.
+- **Section 3 — Other Members:** Nominated by Senior Pastor via Nominations Committee. Confirmed by majority council vote. Three-year renewable terms.
+- **Section 4 — Removal (Non-Founder Members):** Supermajority of five (5) of seven (7) members required. For cause only — enumerated causes per Section 4.6 of the governance framework. The member being removed does not vote (5 of 6 voting members must agree).
 - **Section 5 — Quorum:** Four (4) of seven (7) members.
-- **Section 6 — Voting:** Simple majority for ordinary business. Supermajority (5 of 7) for: sale of property valued over $[250,000], incurrence of debt over $[100,000], amendments to bylaws.
+- **Section 6 — Voting:** Simple majority for ordinary business. Supermajority (5 of 7) for: removal of a member, sale of property valued over $[250,000], incurrence of debt over $[100,000], amendments to bylaws.
+- **Section 7 — Relationship Prohibition:** No two council members may be in a romantic relationship with each other, except the Co-Founders' marriage at formation (exception terminates upon divorce). See Section 4.7.
+- **Section 8 — New Spouse Veto:** No spouse or romantic partner of either Co-Founder may join the council without both Co-Founders' written consent. See Section 4.8. This provision requires both Co-Founders' consent to amend.
 
 ### Article IV: Compensation Committee
 
@@ -694,7 +1014,9 @@ graph TB
 ### Article VII: Amendments
 
 - **Section 1 — General Amendments:** Require 2/3 council vote.
-- **Section 2 — Protected Articles:** No amendment to Article II (Senior Pastor), Article IV Section 4 (Doctrinal Authority), or Article VII Section 2 (this provision) shall be valid without the prior written consent of the Senior Pastor.
+- **Section 2 — Senior Pastor Protected Articles:** No amendment to Article II (Senior Pastor), Article IIB (Governance Pause), Article IV Section 4 (Doctrinal Authority), or Article VII Sections 2-4 (this provision) shall be valid without the prior written consent of the Senior Pastor.
+- **Section 3 — Co-Founder Protected Articles:** No amendment to Article IIA (Co-Founder Protections) shall be valid without the prior written consent of the Co-Founder (Jennifer Lawless).
+- **Section 4 — Mutual Protected Provisions:** No amendment to Article III Sections 7-8 (Relationship Prohibition, New Spouse Veto) shall be valid without the prior written consent of BOTH the Senior Pastor AND the Co-Founder.
 
 ---
 
@@ -798,7 +1120,7 @@ The IRS uses these 14 characteristics to determine church status. The Church of 
 
 ```mermaid
 graph TB
-    subgraph "RULES THAT CANNOT BE BROKEN"
+    subgraph "TAX & COMPLIANCE BRIGHT LINES"
         R1["Comp Committee = 100% independent<br/>No family. No employees. No co-founders."]
         R2["Compensation set BEFORE services<br/>Never retroactive. Always prospective."]
         R3["Housing allowance designated<br/>BEFORE the tax year begins"]
@@ -809,6 +1131,14 @@ graph TB
         R8["Church assets = documented ministry purpose<br/>Annual use logs for all assets"]
         R9["Daniel recuses from own comp votes<br/>Zero influence on own pay"]
         R10["Records audit-ready at all times<br/>Even though no Form 990 required"]
+    end
+
+    subgraph "GOVERNANCE BRIGHT LINES"
+        R11["Member removal = 5/7 for cause only<br/>Enumerated causes. No arbitrary removal."]
+        R12["No intra-board romantic relationships<br/>Exception: Daniel/Jennifer marriage at formation<br/>Exception terminates upon divorce."]
+        R13["New spouse veto = MUTUAL<br/>Both co-founders must consent in writing<br/>for either's partner to join council."]
+        R14["Governance provisions survive separation<br/>All protections independent of marital status."]
+        R15["1-year post-pause cooling off<br/>No removal, no bylaw changes,<br/>no committee reorganization."]
     end
 
     VIOLATION["CONSEQUENCE OF ANY VIOLATION:<br/>Loss of rebuttable presumption,<br/>excess benefit tax (IRC 4958),<br/>potential loss of church status"]
@@ -828,10 +1158,15 @@ graph TB
     style R8 fill:#c9770a,stroke:#fff,color:#fff
     style R9 fill:#c9770a,stroke:#fff,color:#fff
     style R10 fill:#c9770a,stroke:#fff,color:#fff
+    style R11 fill:#533483,stroke:#ffd700,color:#fff
+    style R12 fill:#533483,stroke:#ffd700,color:#fff
+    style R13 fill:#533483,stroke:#ffd700,color:#fff
+    style R14 fill:#533483,stroke:#ffd700,color:#fff
+    style R15 fill:#533483,stroke:#ffd700,color:#fff
     style VIOLATION fill:#1a1a2e,stroke:#c0392b,color:#fff
 ```
 
-**Red = hard bright lines** (violation directly triggers IRS exposure). **Orange = operational discipline** (violation weakens defense posture).
+**Red = hard bright lines** (violation directly triggers IRS exposure). **Orange = operational discipline** (violation weakens defense posture). **Purple = governance bright lines** (violation undermines co-founder protections or structural integrity).
 
 | Rule | Consequence of Violation |
 |---|---|
@@ -845,6 +1180,11 @@ graph TB
 | **Church-owned assets must have ministry purpose documented** | Annual log of ministry use for each asset (parsonage, vehicles, tech, travel). |
 | **Daniel must recuse from own compensation votes** | Cannot vote on or approve own compensation package. |
 | **No Form 990 required — but keep records as if one were** | Internal financial records should be audit-ready even though no public filing is required. If the IRS ever invokes Church Audit Procedures Act, records must be available. |
+| **Member removal requires 5/7 for cause only** | Non-founder members cannot be removed without enumerated cause and supermajority vote. Protects council independence and prevents retaliation. |
+| **No intra-board romantic relationships** | Exception only for Daniel/Jennifer marriage at formation. Exception terminates upon divorce. 30-day compliance window. Violation = grounds for removal under Section 4.6. |
+| **New spouse veto is mutual** | Neither co-founder can seat a new partner without the other's written consent. Prevents board capture through personal relationships. |
+| **Governance provisions survive separation** | All co-founder protections, amendment locks, and governance rights are independent of marital status. No provision lapses upon divorce. |
+| **1-year post-pause cooling off** | After a Governance Pause, no removal proceedings, no bylaw amendments, and no committee reorganization for 12 months. Prevents retaliatory action. |
 
 ---
 
@@ -1353,6 +1693,14 @@ gantt
     Launch charitable programs                :a17, 2026-04-01, 60d
     Establish retirement plans                :a15, 2026-04-15, 60d
 
+    section Co-Founder & Governance Provisions
+    Draft Co-Founder Protections (Art. IIA)     :crit, a26, 2026-03-08, 21d
+    Draft Governance Pause (Art. IIB)           :crit, a27, 2026-03-08, 21d
+    Draft 5/7 For-Cause Removal (Art. III)      :crit, a28, 2026-03-08, 21d
+    Draft Relationship & Veto Provisions        :a29, 2026-03-08, 21d
+    Draft Separation Clause                     :crit, a31, 2026-03-08, 21d
+    Jennifer signs Co-Founder Acknowledgment    :crit, a32, 2026-03-29, 7d
+
     section Agreements (Section 17)
     Draft PPAs with 14 principles (LBS + LBC)  :crit, a19, 2026-03-08, 28d
     Transfer pricing study (licenses)           :a24, 2026-03-15, 28d
@@ -1391,6 +1739,13 @@ gantt
 | 23 | **Execute Advisory Board Agreement (LBC)** — church advisory board seat on LBC, equivalent governance per Principle 13 | Attorney | Weeks 6-8 | High |
 | 24 | **Commission transfer pricing study** — establish arm's-length royalty rates for content and spiritual tech licenses. Document comparable rates in wellness/spiritual industry. | Attorney + TP consultant | Weeks 3-7 | High |
 | 25 | **PPA holder meeting** — all four PPA holders (church, Nicholas, Andreas, Jason) align on PPA terms, governance structure, and distribution mechanics before execution | Daniel + founders | Week 4 | **Critical** |
+| 26 | **Draft Co-Founder Protections (Article IIA)** — Jennifer's life tenure, protected role, Acting Senior Pastor designation, governance pause trigger, compensation protection, consultation right, amendment lock, separation clause | Attorney | Weeks 2-4 | **Critical** |
+| 27 | **Draft Governance Pause Procedures (Article IIB)** — trigger mechanism, duration parameters, authority transfer scope, return voting process, post-return cooling off, reciprocal pause for Jennifer, fallback provision | Attorney | Weeks 2-4 | **Critical** |
+| 28 | **Draft 5/7 For-Cause Removal Provision (Article III §4)** — enumerated causes, process, 14-day response period, voting procedure, documentation requirements | Attorney | Weeks 2-4 | **Critical** |
+| 29 | **Draft Relationship Prohibition (Article III §7)** — no intra-board romantic relationships, exception for co-founders' marriage, termination upon divorce, 30-day compliance window, re-nomination pathway | Attorney | Weeks 2-4 | High |
+| 30 | **Draft New Spouse Mutual Veto (Article III §8)** — mutual consent requirement, mutual amendment lock, scenario coverage | Attorney | Weeks 2-4 | High |
+| 31 | **Draft Separation Clause** — explicit language ensuring all governance provisions survive any change in co-founders' marital status. Cross-reference in Articles IIA, III, and VII. | Attorney | Weeks 2-4 | **Critical** |
+| 32 | **Jennifer signs Co-Founder Acknowledgment** — formal written acceptance of co-founder protections, amendment lock rights, and governance pause authority | Jennifer + Attorney | Week 4-5 | **Critical** |
 
 ---
 
@@ -1407,6 +1762,13 @@ gantt
 | 7 | If the church receives PPA exit proceeds (entity sale), can those proceeds fund minister retirement plans or must they be retained as church assets? | Important |
 | 8 | Review draft bylaws for compliance with state nonprofit corporation act and IRS requirements. | Critical |
 | 9 | Nancy Courchesne (wife of Nicholas Courchesne, co-founder of Light Brands, 30% PPA holder) serves as Director/Secretary but is NOT on the Compensation Committee (excluded via IRC 4958 spousal attribution). Confirm this structure eliminates any independence concern. Does her role as Secretary (record-keeper for compensation decisions she doesn't vote on) create any issues? | Important |
+| 10 | **Co-Founder Protections (Article IIA):** Jennifer Lawless has parallel life tenure, a protected council role, and an independent amendment lock. Is this enforceable under [state] nonprofit corporation law? Are there any state-law limitations on making a director irremovable without that director's consent? | Critical |
+| 11 | **Governance Pause (Article IIB):** A circuit-breaker mechanism allows the council to temporarily suspend the Senior Pastor's operational authority for 30-180 days, with Jennifer assuming authority. Is a "governance pause" — distinct from removal — enforceable under state law? Does the 1-year post-pause cooling off period (no removal proceedings, no bylaw amendments) create any ultra vires concerns? | Critical |
+| 12 | **Separation Clause:** All co-founder protections explicitly survive any change in marital status between Daniel and Jennifer. Under [state] law, is there any risk that a divorce proceeding could override or modify church bylaws provisions? Should the separation clause reference the church's First Amendment protections against civil court interference in ecclesiastical governance? | Critical |
+| 13 | **5/7 For-Cause Removal:** Non-founder members can only be removed by 5/7 supermajority for enumerated cause. The member does not vote (5 of 6 must agree). Is the 5/7 standard appropriate, or would 2/3 (5/7 effectively = 83%) be considered too restrictive under state law? | Important |
+| 14 | **Relationship Prohibition:** No romantic relationships between council members (exception: Daniel/Jennifer marriage at formation, terminates upon divorce). Is an outright prohibition enforceable, or should it be framed as a conflict-of-interest policy? Does the 30-day compliance window create any due process concerns? | Important |
+| 15 | **New Spouse Veto:** Neither Daniel nor Jennifer can seat a new romantic partner on the council without the other's written consent. This provision requires both co-founders' consent to amend. Is a mutual veto on board appointments enforceable? Any concern with perpetual veto power surviving death of one co-founder? | Important |
+| 16 | **Multiple Amendment Locks:** Daniel's lock covers Articles II, IIB, IV §4, VII §2-4. Jennifer's lock covers Article IIA. Mutual lock covers Article III §§7-8. Is there any conflict or priority issue between overlapping locks? Should priority be explicitly stated? | Important |
 
 ---
 
