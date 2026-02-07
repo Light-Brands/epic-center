@@ -1,0 +1,54 @@
+{
+  "name": "living-light-os",
+  "version": "1.0.0",
+  "description": "Living Light Operating System — GitHub-native franchise compliance and governance platform",
+  "organization": "Church of the Living Light",
+  "master_repo": "Light-Brands/living-light-franchisee-master",
+  "template_repo": "Light-Brands/living-light-franchisee-template",
+  "installer_version": "1.0.0",
+  "structure": {
+    "master_account": {
+      "github_org": "Light-Brands",
+      "repos": {
+        "os": "Light-Brands/living-light-os",
+        "master_docs": "Light-Brands/living-light-franchisee-master",
+        "template": "Light-Brands/living-light-franchisee-template",
+        "platform": "Light-Brands/living-light-platform",
+        "compliance_engine": "Light-Brands/living-light-compliance"
+      }
+    },
+    "franchisee_account": {
+      "repo_naming": "{franchisee-slug}/living-light-church-{city}",
+      "forked_from": "Light-Brands/living-light-franchisee-template",
+      "shared_access": ["Light-Brands"]
+    }
+  },
+  "compliance": {
+    "check_frequency": "daily",
+    "report_frequency": "monthly",
+    "audit_frequency": "quarterly",
+    "escalation_email": "compliance@livinglightchurch.org"
+  },
+  "document_categories": [
+    "formation",
+    "compliance",
+    "governance",
+    "financials",
+    "membership",
+    "programs",
+    "ordination",
+    "state-filings"
+  ],
+  "auto_generated_documents": [
+    "board-meeting-minutes",
+    "compensation-review",
+    "housing-allowance-designation",
+    "bank-reconciliation-report",
+    "14-point-test-scorecard",
+    "quarterly-compliance-report",
+    "annual-review-package",
+    "membership-rolls",
+    "worship-service-log",
+    "charitable-programs-report"
+  ]
+}

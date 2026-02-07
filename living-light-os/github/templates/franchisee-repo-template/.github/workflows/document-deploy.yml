@@ -1,0 +1,98 @@
+name: Document Deploy
+
+on:
+  repository_dispatch:
+    types: [deploy-document]
+  workflow_dispatch:
+    inputs:
+      document_type:
+        description: 'Type of document to deploy'
+        required: true
+        type: choice
+        options:
+          - board-minutes
+          - bank-reconciliation
+          - compensation-review
+          - housing-allowance
+          - compliance-report
+          - worship-service-log
+          - quarterly-report
+          - annual-package
+      document_content:
+        description: 'Document content (base64 encoded)'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.LIVING_LIGHT_TOKEN }}
+
+      - name: Configure git
+        run: |
+          git config user.name "Living Light OS"
+          git config user.email "os@livinglightchurch.org"
+
+      - name: Determine file path
+        id: path
+        run: |
+          TYPE="${{ github.event.inputs.document_type || github.event.client_payload.document_type }}"
+          DATE=$(date +%Y-%m-%d)
+          MONTH=$(date +%Y-%m)
+          YEAR=$(date +%Y)
+
+          case "$TYPE" in
+            board-minutes)
+              echo "path=governance/board-minutes/${DATE}-board-minutes.md" >> $GITHUB_OUTPUT
+              ;;
+            bank-reconciliation)
+              echo "path=financials/bank-reconciliations/${MONTH}-reconciliation.md" >> $GITHUB_OUTPUT
+              ;;
+            compensation-review)
+              echo "path=financials/compensation/${YEAR}-compensation-review.md" >> $GITHUB_OUTPUT
+              ;;
+            housing-allowance)
+              echo "path=financials/housing-allowance/${YEAR}-housing-allowance-designation.md" >> $GITHUB_OUTPUT
+              ;;
+            compliance-report)
+              echo "path=compliance/quarterly-reports/${DATE}-compliance-report.md" >> $GITHUB_OUTPUT
+              ;;
+            worship-service-log)
+              echo "path=programs/worship-services/${DATE}-service-log.md" >> $GITHUB_OUTPUT
+              ;;
+            quarterly-report)
+              echo "path=compliance/quarterly-reports/${DATE}-quarterly-report.md" >> $GITHUB_OUTPUT
+              ;;
+            annual-package)
+              echo "path=compliance/annual-packages/${YEAR}-annual-package.md" >> $GITHUB_OUTPUT
+              ;;
+          esac
+
+      - name: Deploy document
+        run: |
+          FILE_PATH="${{ steps.path.outputs.path }}"
+          mkdir -p "$(dirname "$FILE_PATH")"
+
+          CONTENT="${{ github.event.inputs.document_content || github.event.client_payload.content }}"
+          if [ -n "$CONTENT" ]; then
+            echo "$CONTENT" | base64 -d > "$FILE_PATH"
+          else
+            echo "# Document Placeholder" > "$FILE_PATH"
+            echo "" >> "$FILE_PATH"
+            echo "This document will be populated by the Living Light OS compliance engine." >> "$FILE_PATH"
+            echo "" >> "$FILE_PATH"
+            echo "Generated: $(date +%Y-%m-%d)" >> "$FILE_PATH"
+          fi
+
+      - name: Commit and push
+        run: |
+          git add "${{ steps.path.outputs.path }}"
+          git commit -m "[Living Light OS] Deploy ${{ github.event.inputs.document_type || github.event.client_payload.document_type }} — $(date +%Y-%m-%d)"
+          git push
