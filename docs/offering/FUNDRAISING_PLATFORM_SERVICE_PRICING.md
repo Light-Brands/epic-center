@@ -8,7 +8,7 @@
 
 1. [The Problem & The Offer](#the-problem--the-offer)
 2. [Platform Inventory: What Gets Delivered](#platform-inventory-what-gets-delivered)
-3. [Nine Service Categories](#nine-service-categories-with-market-pricing)
+3. [Ten Service Categories](#ten-service-categories-with-market-pricing)
 4. [Package Tiers](#package-tiers)
 5. [Competitive Analysis: Why We Win](#competitive-analysis-why-we-win)
 6. [The AI Advantage: Why Our Pricing Works](#the-ai-advantage-why-our-pricing-works)
@@ -44,7 +44,7 @@ We built the entire stack, 150+ documents, a live investor web platform, institu
 
 ---
 
-## Nine Service Categories with Market Pricing
+## Ten Service Categories with Market Pricing
 
 Each category includes: a description of what's built, what's included, the market comparable cost if hired separately, and our price.
 
@@ -54,14 +54,15 @@ Each category includes: a description of what's built, what's included, the mark
 |---|----------|-------------------------------------|-----------|
 | A | [Strategic Foundation](#a-strategic-foundation) | **$750K - $1.5M** | **$50K - $100K** |
 | B | [Tax & Legal Architecture](#b-tax--legal-architecture) | **$400K - $750K** | **$40K - $75K** |
-| C | [Financial Models & Valuation](#c-financial-models--valuation) | **$250K - $500K** | **$25K - $50K** |
+| C | [Financial Models](#c-financial-models) | **$250K - $500K** | **$25K - $50K** |
 | D | [Expansion Research](#d-expansion-research) | **$500K - $1.2M** | **$50K - $100K** |
 | E | [Market Research & Intelligence](#e-market-research--intelligence) | **$150K - $400K** | **$20K - $40K** |
 | F | [Location/Site Evaluation System](#f-locationsite-evaluation-system) | **$100K - $250K** | **$15K - $30K** |
 | G | [Operational Blueprint](#g-operational-blueprint) | **$150K - $350K** | **$20K - $40K** |
 | H | [Interactive Investor Platform](#h-interactive-investor-platform) | **$750K - $2M** | **$75K - $150K** |
 | I | [Data Room & Investment Documents](#i-data-room--investment-documents) | **$200K - $500K** | **$25K - $50K** |
-| | **Total** | **$3.25M - $7.45M** | **$320K - $635K** |
+| J | [9-Point Enterprise Valuation Report](#j-9-point-enterprise-valuation-report) | **$100K - $250K** | **$35K - $75K** |
+| | **Total** | **$3.35M - $7.7M** | **$355K - $710K** |
 
 ---
 
@@ -104,13 +105,12 @@ Each category includes: a description of what's built, what's included, the mark
 
 ---
 
-### C. Financial Models & Valuation
+### C. Financial Models
 
 **What it is:** A **12-tab variable-driven Google Sheets financial model** where every tab is linked, all projections are driven by adjustable assumption variables, and changing a single input cascades through revenue, P&L, cash flow, unit economics, sensitivity analysis, and investment returns in real time.
 
 **What's included:**
 - 12-tab integrated Google Sheets model (revenue, expenses, P&L, cash flow, unit economics, sensitivity analysis, cap table, investment returns, scenario comparisons, assumptions dashboard, and more)
-- IPEV-compliant valuation report using 9+ methodologies
 - DCF analysis with multiple discount rate scenarios
 - Sensitivity matrices across key variables
 - Cap table modeling with dilution scenarios
@@ -248,6 +248,49 @@ Each category includes: a description of what's built, what's included, the mark
 
 ---
 
+### J. 9-Point Enterprise Valuation Report
+
+**What it is:** A standalone, institutional-grade enterprise valuation report that triangulates your company's worth through **9 independent IPEV-compliant valuation methods** -- weighted, cross-validated, and delivered as a single cohesive document that answers the question every investor asks first: *"What is this worth, and how did you get there?"*
+
+This is not a back-of-napkin valuation or a single-method estimate. It is a comprehensive, multi-method analysis that would typically require a dedicated valuation team at a Big 4 firm working for 6-8 weeks. The report covers qualitative scoring methods, venture capital methods, and discounted cash flow methods -- each independently derived, then combined using a weighted framework that follows International Private Equity Valuation (IPEV) Guidelines.
+
+**What's included:**
+
+*9 Independent Valuation Methods:*
+1. **Scorecard Method** -- Qualitative assessment against regional industry benchmarks with weighted scoring across team, market, product, and traction
+2. **Checklist (Berkus) Method** -- Intangible asset valuation across 5 critical building blocks: sound idea, prototype, quality team, strategic relationships, and product rollout
+3. **Cost Approach** -- Replacement cost analysis of all tangible and intangible assets, including IP premiums and organizational capital
+4. **Tiered Revenue VC Method** -- Revenue-quality-adjusted multiples applied across different revenue streams at different growth stages
+5. **Simple VC Method (Revenue Multiple)** -- Terminal value estimation using revenue multiples discounted by required investor ROI
+6. **Simple VC Method (EBITDA Multiple)** -- EBITDA-based terminal value with industry-appropriate multiples
+7. **Simple VC Method (Net Income)** -- P/E multiple approach with earnings-based terminal value
+8. **DCF Growth-Adjusted** -- Discounted cash flow analysis with terminal growth rate modeling and multi-scenario discount rates
+9. **DCF with EBITDA Multiples** -- Hybrid DCF using EBITDA multiples for terminal value calculation
+
+*Supporting Analysis:*
+- Weighted average post-money valuation with method-by-method confidence weighting
+- Valuation range (low-mid-high) with statistical basis
+- 5-year consolidated financial projections (P&L, cash flow, unit economics) across all business units
+- Sum-of-parts enterprise value analysis by business unit
+- Capital budget breakdown with detailed allocation
+- TAM/SAM/SOM market sizing with CAGR projections
+- Scenario analysis (conservative, base, aggressive) with probability-weighted outcomes
+- Sensitivity matrices across pricing, occupancy, growth rate, and discount rate
+- Break-even analysis and downside protection calculations
+- Property/asset scoring methodology with weighted criteria
+- 11 detailed appendices covering D&A schedules, expansion economics, pricing sensitivity, and more
+- Project IRR, MOIC, and investor return calculations
+
+> **This report is the single most important document in your data room.** When institutional investors conduct due diligence, the valuation report is what they scrutinize first, challenge hardest, and use to anchor every negotiation. A rigorous 9-method analysis doesn't just justify your number -- it demonstrates the kind of financial sophistication that separates fundable companies from aspirational ones. Having 9 independent methods converge on a valuation range is exponentially more defensible than a single-method estimate.
+
+**Market comparable:** Big 4 valuation services (KPMG, EY, Deloitte, PwC) charge **$75K-$200K** for a formal multi-method valuation opinion. Boutique valuation firms and ASA-certified appraisers charge **$40K-$100K** for a standard report. A 9-method IPEV-compliant report with this level of depth -- including full financial projections, scenario analysis, sensitivity matrices, and 11 appendices -- typically runs **$100K-$250K** through a combination of valuation specialists, financial modelers, and industry analysts working 6-8 weeks.
+
+> Sources: KPMG Valuation Services (published engagement guides), Duff & Phelps/Kroll (valuation benchmarks), ASA (appraisal fee surveys), Big 4 TAS engagement letters
+
+**Our price: $35K - $75K**
+
+---
+
 ## Package Tiers
 
 ### Tier 1: Launch Pad -- **$75K - $150K** | Delivered in 14 Days
@@ -257,12 +300,14 @@ For early-stage founders raising their first institutional round.
 | Included | Category |
 |----------|----------|
 | Strategic Foundation | A |
-| Financial Models & Valuation | C |
+| Financial Models | C |
 | Data Room & Investment Documents | I |
 
 > **Comparable cost assembled separately: $1.2M - $2.5M**
 >
 > You get the strategic narrative, institutional-grade financial models, and a complete data room -- everything you need to walk into an investor meeting with credibility.
+>
+> **Add the 9-Point Enterprise Valuation Report (J) for +$35K-$75K** -- the single most defensible document you can put in front of an investor.
 
 > **14 days vs. 6-9 months.** Traditional firms take half a year to deliver what we ship in two weeks. That's not a marginal improvement -- it's a category change.
 
@@ -282,6 +327,8 @@ For growth-stage companies raising $5M+ who need the full research backing and a
 > **Comparable cost assembled separately: $2.25M - $5M**
 >
 > You get everything in Launch Pad plus deep market research, a detailed operational playbook, and a custom interactive web platform that replaces the pitch deck entirely.
+>
+> **Add the 9-Point Enterprise Valuation Report (J) for +$35K-$75K** -- 9 independent methods that make your valuation bulletproof in due diligence.
 
 > **21 days vs. 9-12 months.** Three weeks from kickoff to investor-ready -- including a live interactive platform that most agencies quote 4-6 months to build alone.
 
@@ -289,17 +336,17 @@ For growth-stage companies raising $5M+ who need the full research backing and a
 
 ### Tier 3: Full Arsenal -- **$350K - $750K** | Delivered in 30 Days
 
-For companies with global ambitions raising $10M+ who need the complete infrastructure across all 9 categories.
+For companies with global ambitions raising $10M+ who need the complete infrastructure across all 10 categories.
 
 | Included | Category |
 |----------|----------|
-| All 9 categories, fully customized | A through I |
+| All 10 categories, fully customized | A through J |
 
-> **Comparable cost assembled separately: $3.25M - $7.45M**
+> **Comparable cost assembled separately: $3.35M - $7.7M**
 >
-> The complete fundraising operating system. Every document, every model, every platform component -- customized to your business, your market, and your raise.
+> The complete fundraising operating system. Every document, every model, every platform component -- customized to your business, your market, and your raise. Includes the full 9-Point Enterprise Valuation Report.
 
-> **30 days vs. 12-18 months.** The entire $3M+ fundraising stack -- all 9 categories, 153+ documents, a live web platform, and a 12-tab financial model -- delivered in one month. Traditional assembly takes over a year and costs 5-10x more.
+> **30 days vs. 12-18 months.** The entire $3M+ fundraising stack -- all 10 categories, 153+ documents, a live web platform, a 12-tab financial model, and a 9-method valuation report -- delivered in one month. Traditional assembly takes over a year and costs 5-10x more.
 
 ---
 
@@ -325,8 +372,9 @@ The comparison isn't close. Here's the data.
 |-----------|------------|----------------------|----------------------|--------|
 | **Total cost for $15-17M raise** | $750K - $2M+ | $596K - $1.15M | $113K - $361K | **$75K - $750K** |
 | **Timeline to investor-ready** | 6-12 months | 6-12 months | 4-9 months | **14-30 days** |
-| **Deliverables included** | Strategy + tax only | Pitch deck + introductions | Varies by vendor | **153+ documents, all 9 categories** |
+| **Deliverables included** | Strategy + tax only | Pitch deck + introductions | Varies by vendor | **153+ documents, all 10 categories** |
 | **Financial model quality** | Institutional (part of larger engagement) | Basic to moderate | Moderate (outsourced) | **12-tab linked, variable-driven, institutional-grade** |
+| **Enterprise valuation** | Single-method opinion ($75K-$200K extra) | Back-of-napkin or outsourced | Not offered | **9-method IPEV-compliant report with sensitivity analysis** |
 | **Interactive investor platform** | Not offered | Not offered | Not offered | **30-page custom Next.js platform** |
 | **Data room** | Not included (separate vendor) | Basic folder structure | Third-party VDR subscription | **21-document organized, gated data room** |
 | **Market research depth** | Included if scoped (adds $200K+) | Surface-level competitive scan | Template-based | **Multi-industry, 50+ competitor profiles, TAM/SAM/SOM** |
@@ -351,7 +399,7 @@ When you look at what comparable infrastructure costs through traditional channe
 | Interactive investor portal | Not offered | *This doesn't exist in their service catalog* |
 | **Total** | **$750K - $2M+** | **Strategy + tax + model only. No pitch materials, no platform, no data room.** |
 
-You're paying top dollar for 3 deliverable categories out of 9. Each practice group runs its own timeline, bills independently, and operates in its own silo. There is no unified narrative. There is no cross-referencing. And you still need to hire 3-4 additional vendors to fill the gaps.
+You're paying top dollar for 3 deliverable categories out of 10. Each practice group runs its own timeline, bills independently, and operates in its own silo. There is no unified narrative. There is no cross-referencing. And you still need to hire 3-4 additional vendors to fill the gaps.
 
 #### The Boutique IB Path: $596K - $1.15M | 6-12 Months
 
@@ -401,6 +449,7 @@ No competitor in any category -- Big 4, boutique IB, startup consultancy, or DIY
 - **153+ cross-referenced documents** -- not siloed deliverables from 8 vendors that don't reference each other
 - **Live interactive investor platform** -- a 30-page custom Next.js application, not a PDF pitch deck emailed as an attachment
 - **12-tab linked financial model** -- variable-driven with cascading assumptions, not a static spreadsheet with hardcoded numbers
+- **9-Point Enterprise Valuation Report** -- IPEV-compliant, 9 independent methods weighted and cross-validated, not a single-method guess on a slide
 - **30 days or less from kickoff to investor-ready** -- not 6-12 months of phased engagements and sequential vendor handoffs
 - **One team, one narrative, one invoice** -- not 8 vendors, 8 timelines, 8 invoices, and a founder playing project manager
 - **Complete fundraising operating system** -- strategy, tax, legal, financial models, market research, operations, investor platform, data room, and design system, all integrated and internally consistent
@@ -521,7 +570,7 @@ graph TD
 
 | Phase | Days | Activities |
 |-------|------|------------|
-| **Discovery** | 1-4 | Comprehensive deep-dive across all 9 categories. Business, market, tax/legal, operations, and expansion scope. |
+| **Discovery** | 1-4 | Comprehensive deep-dive across all 10 categories. Business, market, tax/legal, operations, valuation, and expansion scope. |
 | **Content Generation** | 5-16 | All strategic documents, market research, tax/legal architecture, financial models, expansion research, operational blueprints, and data room. |
 | **Platform Build** | 17-25 | Full interactive investor platform, dashboards, data visualization, design system, gated data room portal, and analytics integration. |
 | **Review & Polish** | 26-30 | End-to-end QA across 153+ documents, professional review of all models and legal documents, client walkthrough, and investor outreach strategy. |
