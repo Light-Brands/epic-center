@@ -1,0 +1,149 @@
+name: Onboard New Franchisee
+
+on:
+  workflow_dispatch:
+    inputs:
+      church_name:
+        description: 'Full church name (e.g., Living Light Church of Austin)'
+        required: true
+        type: string
+      city:
+        description: 'City name'
+        required: true
+        type: string
+      state:
+        description: 'State abbreviation (e.g., TX)'
+        required: true
+        type: string
+      lead_name:
+        description: 'Church lead name'
+        required: true
+        type: string
+      lead_email:
+        description: 'Church lead email'
+        required: true
+        type: string
+      github_user:
+        description: 'Franchisee GitHub username (optional)'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  onboard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout OS repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Create franchisee repository
+        env:
+          GH_TOKEN: ${{ secrets.LIVING_LIGHT_ADMIN_TOKEN }}
+        run: |
+          CITY_SLUG=$(echo "${{ inputs.city }}" | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
+          REPO_NAME="living-light-church-${CITY_SLUG}"
+
+          echo "Creating repository: $REPO_NAME"
+
+          # Create from template
+          gh repo create "Light-Brands/$REPO_NAME" \
+            --template "Light-Brands/living-light-franchisee-template" \
+            --private \
+            --description "${{ inputs.church_name }} — Living Light OS Managed"
+
+          sleep 5
+
+          # Clone and customize
+          gh repo clone "Light-Brands/$REPO_NAME" "/tmp/$REPO_NAME"
+          cd "/tmp/$REPO_NAME"
+
+          # Replace template variables
+          find . -name "*.md" -exec sed -i \
+            -e "s/{{CITY_NAME}}/${{ inputs.city }}/g" \
+            -e "s/{{STATE}}/${{ inputs.state }}/g" \
+            -e "s/{{LEAD_NAME}}/${{ inputs.lead_name }}/g" \
+            -e "s/{{LEAD_EMAIL}}/${{ inputs.lead_email }}/g" \
+            -e "s/{{CHURCH_NAME}}/${{ inputs.church_name }}/g" \
+            -e "s/{{STATUS}}/Pending/g" \
+            {} +
+
+          # Create config
+          cat > .living-light-config.json << CONF
+          {
+            "church_name": "${{ inputs.church_name }}",
+            "city": "${{ inputs.city }}",
+            "state": "${{ inputs.state }}",
+            "lead_name": "${{ inputs.lead_name }}",
+            "lead_email": "${{ inputs.lead_email }}",
+            "lead_title": "Senior Minister",
+            "github_user": "${{ inputs.github_user }}",
+            "repo_name": "$REPO_NAME",
+            "master_org": "Light-Brands",
+            "installed": "$(date +%Y-%m-%d)",
+            "os_version": "1.0.0"
+          }
+          CONF
+
+          # Commit customizations
+          git config user.name "Living Light OS"
+          git config user.email "os@livinglightchurch.org"
+          git add -A
+          git commit -m "[Living Light OS] Church setup — ${{ inputs.church_name }}"
+          git push origin main
+
+      - name: Add franchisee collaborator
+        if: inputs.github_user != ''
+        env:
+          GH_TOKEN: ${{ secrets.LIVING_LIGHT_ADMIN_TOKEN }}
+        run: |
+          CITY_SLUG=$(echo "${{ inputs.city }}" | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
+          gh api "repos/Light-Brands/living-light-church-${CITY_SLUG}/collaborators/${{ inputs.github_user }}" \
+            --method PUT \
+            -f permission=admin
+
+      - name: Create onboarding issue
+        env:
+          GH_TOKEN: ${{ secrets.LIVING_LIGHT_ADMIN_TOKEN }}
+        run: |
+          CITY_SLUG=$(echo "${{ inputs.city }}" | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
+          gh issue create \
+            --repo "Light-Brands/living-light-church-${CITY_SLUG}" \
+            --title "[Living Light OS] Welcome — Setup Checklist" \
+            --body "## Welcome to the Living Light Network
+
+          **${{ inputs.church_name }}** is now part of the Living Light network.
+
+          ### Setup Checklist
+
+          - [ ] Review formation documents in \`formation/\`
+          - [ ] Have documents reviewed by legal counsel
+          - [ ] File articles of incorporation with ${{ inputs.state }}
+          - [ ] Apply for EIN (Form SS-4)
+          - [ ] Open church bank account
+          - [ ] Designate housing allowance (if applicable)
+          - [ ] Schedule first board meeting
+          - [ ] Conduct and document first worship service
+          - [ ] Log in to compliance dashboard at os.livinglightchurch.org
+
+          ### Resources
+
+          - [Living Light Doctrine](https://github.com/Light-Brands/living-light-franchisee-master)
+          - [Compliance Dashboard](https://os.livinglightchurch.org)
+          - Email: support@livinglightchurch.org
+
+          ---
+          *Created by Living Light OS*"
+
+      - name: Notify HQ
+        run: |
+          echo "New franchisee onboarded: ${{ inputs.church_name }}"
+          echo "Lead: ${{ inputs.lead_name }} (${{ inputs.lead_email }})"
+          echo "Location: ${{ inputs.city }}, ${{ inputs.state }}"
+          # In production: POST to platform API / send Slack notification

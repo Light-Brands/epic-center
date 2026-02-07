@@ -1,0 +1,136 @@
+{
+  "description": "Living Light OS Compliance Schedule — All recurring compliance actions for franchisee churches",
+  "timezone": "America/Chicago",
+  "schedules": {
+    "weekly": {
+      "worship_service_log": {
+        "name": "Document Worship Service",
+        "day": "sunday",
+        "description": "Log worship service attendance and details",
+        "auto_generate": true,
+        "template": "worship-service-log",
+        "deploy_to": "programs/worship-services/"
+      }
+    },
+    "monthly": {
+      "bank_reconciliation": {
+        "name": "Bank Reconciliation",
+        "day": 5,
+        "description": "Reconcile previous month's bank statement",
+        "auto_generate": true,
+        "template": "bank-reconciliation",
+        "deploy_to": "financials/bank-reconciliations/",
+        "requires_review": true,
+        "reviewer_count": 2
+      },
+      "14_point_scoring": {
+        "name": "14-Point Test Scoring",
+        "day": 1,
+        "description": "Score the church against the IRS 14-point test",
+        "auto_generate": true,
+        "template": "14-point-scorecard",
+        "deploy_to": "compliance/14-point-test/"
+      },
+      "tithe_calculation": {
+        "name": "Association Tithe",
+        "day": 10,
+        "description": "Calculate and report monthly tithe to Living Light Association",
+        "auto_generate": true,
+        "deploy_to": "financials/tithes/"
+      }
+    },
+    "quarterly": {
+      "board_meeting": {
+        "name": "Board of Elders Meeting",
+        "months": [3, 6, 9, 12],
+        "day": 15,
+        "description": "Quarterly board meeting with documented minutes",
+        "auto_generate_agenda": true,
+        "template": "board-meeting-agenda",
+        "deploy_agenda_to": "governance/board-minutes/",
+        "requires_minutes": true,
+        "minutes_due_days": 7
+      },
+      "compliance_report": {
+        "name": "Quarterly Compliance Report",
+        "months": [3, 6, 9, 12],
+        "day": 28,
+        "description": "Comprehensive quarterly compliance report",
+        "auto_generate": true,
+        "template": "quarterly-report",
+        "deploy_to": "compliance/quarterly-reports/",
+        "send_to_hq": true
+      }
+    },
+    "annually": {
+      "housing_allowance_prep": {
+        "name": "Housing Allowance Preparation",
+        "month": 10,
+        "day": 1,
+        "description": "Prepare housing allowance designation for next tax year",
+        "auto_generate": true,
+        "template": "housing-allowance",
+        "deploy_to": "financials/housing-allowance/"
+      },
+      "compensation_review_prep": {
+        "name": "Compensation Review Preparation",
+        "month": 10,
+        "day": 15,
+        "description": "Prepare compensation review package with comparable data",
+        "auto_generate": true,
+        "template": "compensation-review",
+        "deploy_to": "financials/compensation/"
+      },
+      "housing_allowance_filing": {
+        "name": "Housing Allowance Board Approval",
+        "month": 11,
+        "day": 15,
+        "description": "Board must approve housing allowance before Dec 31",
+        "requires_board_vote": true,
+        "critical": true,
+        "escalation_days": 15
+      },
+      "compensation_review_completion": {
+        "name": "Compensation Review Completion",
+        "month": 12,
+        "day": 1,
+        "description": "Complete six-step compensation review process",
+        "requires_board_vote": true,
+        "critical": true
+      },
+      "annual_compliance_package": {
+        "name": "Annual Compliance Package",
+        "month": 12,
+        "day": 15,
+        "description": "Compile and file annual compliance package",
+        "auto_generate": true,
+        "template": "annual-package",
+        "deploy_to": "compliance/annual-packages/",
+        "send_to_hq": true
+      },
+      "state_filings_check": {
+        "name": "State Filing Requirements",
+        "month": 1,
+        "day": 15,
+        "description": "Check and file any required state annual reports",
+        "state_dependent": true,
+        "deploy_to": "compliance/state-filings/"
+      },
+      "annual_budget": {
+        "name": "Annual Budget",
+        "month": 12,
+        "day": 1,
+        "description": "Prepare and approve annual budget for next year",
+        "requires_board_vote": true,
+        "deploy_to": "financials/budgets/"
+      }
+    }
+  },
+  "escalation": {
+    "warning_days": 14,
+    "critical_days": 7,
+    "overdue_days": 0,
+    "channels": ["email", "dashboard", "github-issue"],
+    "hq_notification_threshold": "critical"
+  }
+}

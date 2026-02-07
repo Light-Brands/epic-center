@@ -1,0 +1,40 @@
+name: Network Compliance Scan
+
+on:
+  schedule:
+    - cron: '0 10 * * *'  # Daily at 10 AM UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: living-light-os
+
+      - name: Run network compliance scan
+        env:
+          LIVING_LIGHT_GITHUB_TOKEN: ${{ secrets.LIVING_LIGHT_ADMIN_TOKEN }}
+          LIVING_LIGHT_API_URL: ${{ secrets.PLATFORM_API_URL }}
+        run: |
+          npx tsx living-light-os/compliance/engine.ts
+
+      - name: Upload audit results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: compliance-audit-${{ github.run_number }}
+          path: audit-report-*.md
+          retention-days: 90
