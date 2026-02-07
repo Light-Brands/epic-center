@@ -50,19 +50,28 @@ Each category includes: a description of what's built, what's included, the mark
 
 ### Summary Table
 
-| # | Category | Market Value (Assembled Separately) | Our Price |
-|---|----------|-------------------------------------|-----------|
-| A | [Strategic Foundation](#a-strategic-foundation) | **$750K - $1.5M** | **$50K - $100K** |
-| B | [Tax & Legal Architecture](#b-tax--legal-architecture) | **$400K - $750K** | **$40K - $75K** |
-| C | [Financial Models](#c-financial-models) | **$250K - $500K** | **$25K - $50K** |
-| D | [Expansion Research](#d-expansion-research) | **$500K - $1.2M** | **$50K - $100K** |
-| E | [Market Research & Intelligence](#e-market-research--intelligence) | **$150K - $400K** | **$20K - $40K** |
-| F | [Location/Site Evaluation System](#f-locationsite-evaluation-system) | **$100K - $250K** | **$15K - $30K** |
-| G | [Operational Blueprint](#g-operational-blueprint) | **$150K - $350K** | **$20K - $40K** |
-| H | [Interactive Investor Platform](#h-interactive-investor-platform) | **$750K - $2M** | **$75K - $150K** |
-| I | [Data Room & Investment Documents](#i-data-room--investment-documents) | **$200K - $500K** | **$25K - $50K** |
-| J | [9-Point Enterprise Valuation Report](#j-9-point-enterprise-valuation-report) | **$100K - $250K** | **$35K - $75K** |
-| | **Total** | **$3.35M - $7.7M** | **$355K - $710K** |
+Organized in build order -- the sequence deliverables are produced during an engagement.
+
+| # | Category | Team | Market Value | Our Price |
+|---|----------|------|-------------|-----------|
+| | **Strategy & Positioning** | | | |
+| A | [Strategic Foundation](#a-strategic-foundation) | Strategy | **$750K - $1.5M** | **$50K - $100K** |
+| B | [Market Research & Intelligence](#b-market-research--intelligence) | Research | **$150K - $400K** | **$20K - $40K** |
+| | **Finance & Valuation** | | | |
+| C | [Financial Models](#c-financial-models) | Finance | **$250K - $500K** | **$25K - $50K** |
+| D | [9-Point Enterprise Valuation Report](#d-9-point-enterprise-valuation-report) | Finance | **$100K - $250K** | **$35K - $75K** |
+| | **Legal & Tax Structure** | | | |
+| E | [Tax & Legal Architecture](#e-tax--legal-architecture) | Legal / Tax | **$400K - $750K** | **$40K - $75K** |
+| | **Research & Site Selection** | | | |
+| F | [Expansion Research](#f-expansion-research) | Research | **$500K - $1.2M** | **$50K - $100K** |
+| G | [Location/Site Evaluation System](#g-locationsite-evaluation-system) | Research | **$100K - $250K** | **$15K - $30K** |
+| | **Operations** | | | |
+| H | [Operational Blueprint](#h-operational-blueprint) | Operations | **$150K - $350K** | **$20K - $40K** |
+| | **Investor Experience & Deal Packaging** | | | |
+| I | [Data Room & Investment Documents](#i-data-room--investment-documents) | Legal / Finance | **$200K - $500K** | **$25K - $50K** |
+| J | [Interactive Investor Platform](#j-interactive-investor-platform) | Technology | **$750K - $2M** | **$75K - $150K** |
+| | | | | |
+| | **Total (All 10 Categories)** | | **$3.35M - $7.7M** | **$355K - $710K** |
 
 ---
 
@@ -85,23 +94,23 @@ Each category includes: a description of what's built, what's included, the mark
 
 ---
 
-### B. Tax & Legal Architecture
+### B. Market Research & Intelligence
 
-**What it is:** Multi-entity, multi-jurisdiction corporate structuring optimized for asset protection, tax efficiency, and investor-ready governance -- complete with founder guides, board governance documentation, and entity-by-entity analysis.
+**What it is:** Multi-industry competitive intelligence covering your competitive landscape, pricing benchmarks, market sizing, geographic intelligence, and trend analysis.
 
 **What's included:**
-- Multi-entity master structure (e.g., holdings, operating companies, IP vehicles)
-- Jurisdiction-by-jurisdiction analysis with tax optimization
-- Board governance documents, committee charters, and bylaws
-- Founder guides explaining personal tax implications
-- Church/nonprofit structuring (where applicable)
-- Entity setup guides and operational procedures
+- Competitive landscape analysis with 50+ competitor profiles
+- Multi-industry market research (your sector and adjacent markets)
+- Pricing analysis with tiered benchmarking
+- Geographic intelligence and market accessibility scoring
+- Cross-border demand and international market analysis
+- Market sizing with TAM/SAM/SOM breakdown
 
-**Market comparable:** Big 4 tax structuring engagements (PwC, EY, Deloitte, KPMG) cost **$200K-$750K** for multi-jurisdiction work. Specialized international tax counsel runs **$500-$1,200/hr** with engagements totaling **$150K-$400K**.
+**Market comparable:** Custom market research studies run **$25K-$65K each** (MainBrain, Drive Research). A comprehensive multi-study package covering 4+ industries with competitive profiling typically costs **$150K-$400K** through research firms or MBB.
 
-> Sources: PwC and EY published rate cards, international tax advisory benchmarks
+> Sources: MainBrain (research pricing), Drive Research (study costs), IBISWorld benchmarks
 
-**Our price: $40K - $75K**
+**Our price: $20K - $40K**
 
 ---
 
@@ -126,129 +135,7 @@ Each category includes: a description of what's built, what's included, the mark
 
 ---
 
-### D. Expansion Research
-
-**What it is:** A comprehensive global expansion analysis that scores and ranks potential markets, provides deep regional dives, and delivers an actionable implementation roadmap with risk assessment.
-
-**What's included:**
-- Global location scoring matrix (30+ locations evaluated)
-- Regional deep dives (Americas, Europe, Asia-Pacific, Middle East/Africa)
-- Selection methodology with weighted criteria
-- Market demand analysis per region
-- Infrastructure requirements assessment
-- Risk assessment with mitigation strategies
-- Financial analysis per expansion target
-- Implementation roadmap with phasing
-
-**Market comparable:** Global site selection and expansion research from firms like Cushman & Wakefield, JLL, or MBB strategy firms runs **$500K-$1.2M** for multi-region, multi-criteria analysis.
-
-> Sources: NMS Consulting, MBB engagement benchmarks, JLL advisory fee structures
-
-**Our price: $50K - $100K**
-
----
-
-### E. Market Research & Intelligence
-
-**What it is:** Multi-industry competitive intelligence covering your competitive landscape, pricing benchmarks, market sizing, geographic intelligence, and trend analysis.
-
-**What's included:**
-- Competitive landscape analysis with 50+ competitor profiles
-- Multi-industry market research (your sector and adjacent markets)
-- Pricing analysis with tiered benchmarking
-- Geographic intelligence and market accessibility scoring
-- Cross-border demand and international market analysis
-- Market sizing with TAM/SAM/SOM breakdown
-
-**Market comparable:** Custom market research studies run **$25K-$65K each** (MainBrain, Drive Research). A comprehensive multi-study package covering 4+ industries with competitive profiling typically costs **$150K-$400K** through research firms or MBB.
-
-> Sources: MainBrain (research pricing), Drive Research (study costs), IBISWorld benchmarks
-
-**Our price: $20K - $40K**
-
----
-
-### F. Location/Site Evaluation System
-
-**What it is:** A structured property and site evaluation framework with individual property assessments, comparison matrices, and due diligence documentation.
-
-**What's included:**
-- Property evaluation framework with standardized scoring criteria
-- Individual property assessments (4-8+ properties)
-- Comparison summary with ranked recommendations
-- Due diligence checklists per property
-- Regulatory and zoning analysis
-- Infrastructure and renovation cost estimates
-
-**Market comparable:** Commercial real estate advisory and site selection consulting from firms like CBRE, JLL, or Cushman & Wakefield runs **$100K-$250K** for multi-property evaluation with due diligence support.
-
-**Our price: $15K - $30K**
-
----
-
-### G. Operational Blueprint
-
-**What it is:** The detailed operational playbook -- standard operating procedures, program design, staffing models, and clinical/service protocols that prove to investors you know how to execute.
-
-**What's included:**
-- Standard operating procedures (SOPs) for core business segments
-- Program design with guest/customer journey mapping
-- Staffing models and organizational structure
-- Service delivery protocols (medical, hospitality, technology, or your domain)
-- Pre-service and post-service care frameworks
-- Operational segment documentation (6-8 segments)
-
-**Market comparable:** Operational consulting from Deloitte, Accenture, or boutique ops firms costs **$150K-$350K** for comprehensive SOP development, org design, and process documentation.
-
-**Our price: $20K - $40K**
-
----
-
-### H. Interactive Investor Platform
-
-**What it is:** A fully custom Next.js web application that replaces the static pitch deck with an immersive, interactive investor experience -- complete with dashboards, gated data room, analytics, and a professional design system.
-
-**What's included:**
-- 30-page interactive investor web platform (Next.js / React)
-- Password-protected investor portal with access controls
-- Interactive financial dashboards with live data visualization
-- Gated data room with document organization
-- Design system with brand tokens, typography, color palettes, and component library
-- Mobile-responsive, performance-optimized build
-- Investor engagement analytics (time-on-page, section views, return visits)
-- Meeting scheduler integration
-- 20,000+ lines of production code
-
-**Market comparable:** Custom SaaS/web platform development from agencies runs **$500K-$2M** (Clutch 2026, ScienceSoft benchmarks). A comparable investor portal with dashboards, gated access, and analytics from a top-tier agency would cost **$750K-$2M**.
-
-> Sources: Clutch (2026 agency rate data), ScienceSoft (custom development pricing)
-
-**Our price: $75K - $150K**
-
----
-
-### I. Data Room & Investment Documents
-
-**What it is:** The complete set of investor-facing legal and financial documents required to close a round -- organized, formatted, and ready for due diligence.
-
-**What's included:**
-- Private Placement Memorandum (PPM)
-- Subscription agreement templates
-- Investor pitch materials (narrative-driven, not slide decks)
-- Due diligence document checklist and index
-- Financial model guide for investors
-- Investment thesis and risk factor documentation
-- 21-document organized data room
-
-**Market comparable:** PPM preparation alone costs **$15K-$75K** through securities attorneys (ContractsCounsel). Full data room assembly with investment documents through an investment bank advisory engagement runs **$200K-$500K**.
-
-> Sources: ContractsCounsel (PPM pricing), Lazard/Evercore comparable advisory fees
-
-**Our price: $25K - $50K**
-
----
-
-### J. 9-Point Enterprise Valuation Report
+### D. 9-Point Enterprise Valuation Report
 
 **What it is:** A standalone, institutional-grade enterprise valuation report that triangulates your company's worth through **9 independent IPEV-compliant valuation methods** -- weighted, cross-validated, and delivered as a single cohesive document that answers the question every investor asks first: *"What is this worth, and how did you get there?"*
 
@@ -291,6 +178,128 @@ This is not a back-of-napkin valuation or a single-method estimate. It is a comp
 
 ---
 
+### E. Tax & Legal Architecture
+
+**What it is:** Multi-entity, multi-jurisdiction corporate structuring optimized for asset protection, tax efficiency, and investor-ready governance -- complete with founder guides, board governance documentation, and entity-by-entity analysis.
+
+**What's included:**
+- Multi-entity master structure (e.g., holdings, operating companies, IP vehicles)
+- Jurisdiction-by-jurisdiction analysis with tax optimization
+- Board governance documents, committee charters, and bylaws
+- Founder guides explaining personal tax implications
+- Church/nonprofit structuring (where applicable)
+- Entity setup guides and operational procedures
+
+**Market comparable:** Big 4 tax structuring engagements (PwC, EY, Deloitte, KPMG) cost **$200K-$750K** for multi-jurisdiction work. Specialized international tax counsel runs **$500-$1,200/hr** with engagements totaling **$150K-$400K**.
+
+> Sources: PwC and EY published rate cards, international tax advisory benchmarks
+
+**Our price: $40K - $75K**
+
+---
+
+### F. Expansion Research
+
+**What it is:** A comprehensive global expansion analysis that scores and ranks potential markets, provides deep regional dives, and delivers an actionable implementation roadmap with risk assessment.
+
+**What's included:**
+- Global location scoring matrix (30+ locations evaluated)
+- Regional deep dives (Americas, Europe, Asia-Pacific, Middle East/Africa)
+- Selection methodology with weighted criteria
+- Market demand analysis per region
+- Infrastructure requirements assessment
+- Risk assessment with mitigation strategies
+- Financial analysis per expansion target
+- Implementation roadmap with phasing
+
+**Market comparable:** Global site selection and expansion research from firms like Cushman & Wakefield, JLL, or MBB strategy firms runs **$500K-$1.2M** for multi-region, multi-criteria analysis.
+
+> Sources: NMS Consulting, MBB engagement benchmarks, JLL advisory fee structures
+
+**Our price: $50K - $100K**
+
+---
+
+### G. Location/Site Evaluation System
+
+**What it is:** A structured property and site evaluation framework with individual property assessments, comparison matrices, and due diligence documentation.
+
+**What's included:**
+- Property evaluation framework with standardized scoring criteria
+- Individual property assessments (4-8+ properties)
+- Comparison summary with ranked recommendations
+- Due diligence checklists per property
+- Regulatory and zoning analysis
+- Infrastructure and renovation cost estimates
+
+**Market comparable:** Commercial real estate advisory and site selection consulting from firms like CBRE, JLL, or Cushman & Wakefield runs **$100K-$250K** for multi-property evaluation with due diligence support.
+
+**Our price: $15K - $30K**
+
+---
+
+### H. Operational Blueprint
+
+**What it is:** The detailed operational playbook -- standard operating procedures, program design, staffing models, and clinical/service protocols that prove to investors you know how to execute.
+
+**What's included:**
+- Standard operating procedures (SOPs) for core business segments
+- Program design with guest/customer journey mapping
+- Staffing models and organizational structure
+- Service delivery protocols (medical, hospitality, technology, or your domain)
+- Pre-service and post-service care frameworks
+- Operational segment documentation (6-8 segments)
+
+**Market comparable:** Operational consulting from Deloitte, Accenture, or boutique ops firms costs **$150K-$350K** for comprehensive SOP development, org design, and process documentation.
+
+**Our price: $20K - $40K**
+
+---
+
+### I. Data Room & Investment Documents
+
+**What it is:** The complete set of investor-facing legal and financial documents required to close a round -- organized, formatted, and ready for due diligence.
+
+**What's included:**
+- Private Placement Memorandum (PPM)
+- Subscription agreement templates
+- Investor pitch materials (narrative-driven, not slide decks)
+- Due diligence document checklist and index
+- Financial model guide for investors
+- Investment thesis and risk factor documentation
+- 21-document organized data room
+
+**Market comparable:** PPM preparation alone costs **$15K-$75K** through securities attorneys (ContractsCounsel). Full data room assembly with investment documents through an investment bank advisory engagement runs **$200K-$500K**.
+
+> Sources: ContractsCounsel (PPM pricing), Lazard/Evercore comparable advisory fees
+
+**Our price: $25K - $50K**
+
+---
+
+### J. Interactive Investor Platform
+
+**What it is:** A fully custom Next.js web application that replaces the static pitch deck with an immersive, interactive investor experience -- complete with dashboards, gated data room, analytics, and a professional design system.
+
+**What's included:**
+- 30-page interactive investor web platform (Next.js / React)
+- Password-protected investor portal with access controls
+- Interactive financial dashboards with live data visualization
+- Gated data room with document organization
+- Design system with brand tokens, typography, color palettes, and component library
+- Mobile-responsive, performance-optimized build
+- Investor engagement analytics (time-on-page, section views, return visits)
+- Meeting scheduler integration
+- 20,000+ lines of production code
+
+**Market comparable:** Custom SaaS/web platform development from agencies runs **$500K-$2M** (Clutch 2026, ScienceSoft benchmarks). A comparable investor portal with dashboards, gated access, and analytics from a top-tier agency would cost **$750K-$2M**.
+
+> Sources: Clutch (2026 agency rate data), ScienceSoft (custom development pricing)
+
+**Our price: $75K - $150K**
+
+---
+
 ## Package Tiers
 
 ### Tier 1: Launch Pad -- **$75K - $150K** | Delivered in 14 Days
@@ -307,7 +316,7 @@ For early-stage founders raising their first institutional round.
 >
 > You get the strategic narrative, institutional-grade financial models, and a complete data room -- everything you need to walk into an investor meeting with credibility.
 >
-> **Add the 9-Point Enterprise Valuation Report (J) for +$35K-$75K** -- the single most defensible document you can put in front of an investor.
+> **Add the 9-Point Enterprise Valuation Report (D) for +$35K-$75K** -- the single most defensible document you can put in front of an investor.
 
 > **14 days vs. 6-9 months.** Traditional firms take half a year to deliver what we ship in two weeks. That's not a marginal improvement -- it's a category change.
 
@@ -320,15 +329,15 @@ For growth-stage companies raising $5M+ who need the full research backing and a
 | Included | Category |
 |----------|----------|
 | Everything in Launch Pad | A, C, I |
-| Market Research & Intelligence | E |
-| Operational Blueprint | G |
-| Interactive Investor Platform | H |
+| Market Research & Intelligence | B |
+| Operational Blueprint | H |
+| Interactive Investor Platform | J |
 
 > **Comparable cost assembled separately: $2.25M - $5M**
 >
 > You get everything in Launch Pad plus deep market research, a detailed operational playbook, and a custom interactive web platform that replaces the pitch deck entirely.
 >
-> **Add the 9-Point Enterprise Valuation Report (J) for +$35K-$75K** -- 9 independent methods that make your valuation bulletproof in due diligence.
+> **Add the 9-Point Enterprise Valuation Report (D) for +$35K-$75K** -- 9 independent methods that make your valuation bulletproof in due diligence.
 
 > **21 days vs. 9-12 months.** Three weeks from kickoff to investor-ready -- including a live interactive platform that most agencies quote 4-6 months to build alone.
 
