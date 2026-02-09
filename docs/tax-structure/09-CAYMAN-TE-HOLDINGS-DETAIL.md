@@ -7,7 +7,7 @@
 
 ## 1. Summary
 
-TE Wellness Holdings is a Cayman Islands Exempted Company that serves as the single investable vehicle for the TE healing center business. It owns all TE intellectual property, collects all TE revenue ($10.7M Y1 → $35.5M Y5), controls the Mexico OpCo, and licenses content to the Church of the Living Light. Panamanian Holdings S.A. (a Panama corporation 100% owned by the PIF) holds ~70% of equity; an investor holds ~30%. Light Brands Studio FZ-LLC (Dubai) provides all development services to Holdings under a cost-plus contract — Studio builds, Holdings owns.
+TE Wellness Holdings is a Cayman Islands Exempted Company that serves as the single investable vehicle for the TE healing center business. It owns all TE intellectual property, collects all TE revenue ($10.7M Y1 → $35.5M Y5), controls two Mexican subsidiaries (TE Ops Mexico for facility operations and TE RE Mexico for real estate acquisition, development, and leasing), and licenses content to the Church of the Living Light. Panamanian Holdings S.A. (a Panama corporation 100% owned by the PIF) holds ~70% of equity; an investor holds ~30%. Light Brands Studio FZ-LLC (Dubai) provides all development services to Holdings under a cost-plus contract — Studio builds, Holdings owns. Holdings capitalizes the RE entity via equity contribution for land acquisition and development in Tulum.
 
 Post-money valuation: $29,350,000 at seed. 0% corporate tax (Cayman sovereign exemption, unconditional, 20-year certificate). Zero substance requirements. VC-standard governance.
 
@@ -160,6 +160,7 @@ All revenue flows to Holdings at 0% corporate tax. Holdings then pays:
 - Development services fee to Studio (cost + 8-12%)
 - Service delivery fee to Mexico OpCo (cost + 8-12%)
 - Content license fee to Church (arm's length royalty)
+- Equity contribution to TE RE Mexico (capital for land acquisition and development — not an operating expense, but a capital investment that gives Holdings economic exposure to Tulum real estate via its 100% ownership of the RE entity)
 
 ### EBITDA Retention
 
@@ -171,7 +172,7 @@ All revenue flows to Holdings at 0% corporate tax. Holdings then pays:
 | 4 | $31,715,000 | 60% | $19,029,000 | $0 | $19,029,000 |
 | 5 | $35,461,000 | 61% | $21,512,217 | $0 | $21,512,217 |
 
-*Mexico OpCo pays ~30% on its 8-12% service margin locally. All other profit retained in Holdings at 0%.*
+*Mexico OpCo pays ~30% on its 8-12% service margin locally. TE RE Mexico pays ~30% on rental income minus building depreciation. All other profit retained in Holdings at 0%. Holdings also receives dividends from TE RE Mexico (from CUFIN at 0% additional tax) — representing after-tax RE profits.*
 
 ---
 
@@ -182,6 +183,7 @@ All revenue flows to Holdings at 0% corporate tax. Holdings then pays:
 | **Development Services Agreement** | TE Holdings (Cayman) | Light Brands Studio (Dubai) | Services (IP creation, platform dev, maintenance) | Cost + 8-12% | Ongoing |
 | **Content License Agreement** | TE Holdings (Cayman) | Church of the Living Light (US) | License (royalty) | Arm's length, market rate | Annual renewal |
 | **Service Delivery Agreement** | TE Holdings (Cayman) | TE Ops Mexico | Services (facility operations) | Cost + 8-12% margin | Ongoing |
+| **Property Lease Agreement** | TE RE Mexico | TE Ops Mexico | Lease (real property — between two Holdings subsidiaries) | Arm's length market rent (TP study) | Ongoing |
 | **IP Assignment (work-for-hire)** | Light Brands Studio (Dubai) | TE Holdings (Cayman) | IP transfer | Per deliverable (included in Dev Services fee) | Per project |
 
 ### Development Services Agreement — Key Terms
@@ -378,15 +380,16 @@ The Cayman structure pays for itself within the first day of operations.
 | **Single dev budget** | Studio carries all developer costs, office, and substance. TE Holdings and LB Consulting both contract with Studio. One team, two clients. |
 | **Shared service center** | Studio operates as a shared service center — builds for Holdings and for LB Consulting. This strengthens Studio's QFZP position (pure B2B service company) and its DEMPE substance. |
 | **Future products = new entities** | The architecture supports adding new product entities (each contracted with Studio) without restructuring. |
-| **Clean expansion** | New healing center locations → new OpCos under Holdings. Each location's OpCo contracts with Holdings for IP and services. |
+| **Clean expansion** | New healing center locations → new OpCos under Holdings. Each location's OpCo contracts with Holdings for IP and services. RE entity can acquire additional properties, or new RE entities can be formed per location. |
 
 ---
 
 ## Cross-References
 
-- **Ecosystem architecture (7-entity view):** [07-ECOSYSTEM-ARCHITECTURE.md](./07-ECOSYSTEM-ARCHITECTURE.md)
+- **Ecosystem architecture (8-entity view):** [07-ECOSYSTEM-ARCHITECTURE.md](./07-ECOSYSTEM-ARCHITECTURE.md)
 - **Master structure:** [01-MASTER-STRUCTURE.md](./01-MASTER-STRUCTURE.md)
 - **Cook Islands IBC detail:** [08-COOK-ISLANDS-IBC-DETAIL.md](./08-COOK-ISLANDS-IBC-DETAIL.md)
+- **Mexico RE entity detail:** [12-MEXICO-RE-ENTITY-DETAIL.md](./12-MEXICO-RE-ENTITY-DETAIL.md)
 - **Legal defense:** [02-LEGAL-DEFENSE.md](./02-LEGAL-DEFENSE.md)
 - **US founder playbook:** [03-FOUNDER-GUIDE-US.md](./03-FOUNDER-GUIDE-US.md)
 - **Canadian founder playbook:** [04-FOUNDER-GUIDE-CANADA.md](./04-FOUNDER-GUIDE-CANADA.md)

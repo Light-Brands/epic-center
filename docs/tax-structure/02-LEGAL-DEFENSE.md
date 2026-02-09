@@ -21,9 +21,9 @@ graph TB
 
     W2["WALL 2: STATUTORY<br/>IRC 508(c)(1)(A)<br/>Automatic tax exemption<br/>No Form 990 required<br/>Church Audit Procedures Act"]
 
-    W3["WALL 3: JURISDICTIONAL<br/>Cayman 0% on TE revenue (unconditional)<br/>UAE sovereign tax law (0% QFZP on service fees)<br/>Cook Islands IBC (0% international)<br/>Panama PIF privacy (constitutional)<br/>Panama S.A. 0% territorial (holding layer)<br/>Mexico OpCo: only local margin taxed"]
+    W3["WALL 3: JURISDICTIONAL<br/>Cayman 0% on TE revenue (unconditional)<br/>UAE sovereign tax law (0% QFZP on service fees)<br/>Cook Islands IBC (0% international)<br/>Panama PIF privacy (constitutional)<br/>Panama S.A. 0% territorial (holding layer)<br/>Mexico OpCo: only local margin taxed<br/>Mexico RE: rent minus depreciation"]
 
-    W4["WALL 4: STRUCTURAL<br/>No entity controls another<br/>No circular cash flows<br/>Seven entities, five jurisdictions<br/>Each with independent purpose<br/>Double-layer protection (PIF → S.A.)<br/>Investor validates Holdings<br/>US founder is NOT an owner"]
+    W4["WALL 4: STRUCTURAL<br/>No entity controls another<br/>No circular cash flows<br/>Eight entities, five jurisdictions<br/>Each with independent purpose<br/>Double-layer protection (PIF → S.A.)<br/>Investor validates Holdings<br/>US founder is NOT an owner"]
 
     W5["WALL 5: OPERATIONAL<br/>Doctrine predates tax planning<br/>Regular congregation assembles<br/>Independent board governs<br/>Charitable activity serves the public"]
 
@@ -76,7 +76,9 @@ Congress mandated that churches are **automatically exempt** from applying to th
 
 **Panamanian Holdings S.A. ("THE FORTRESS"):** The S.A. is a standard Sociedad Anonima under the Panama Commercial Code, wholly owned by the PIF. It holds ~70% of TE Holdings (Cayman), 100% of Studio (UAE), and 100% of CI IBC (Cook Islands). Panama's territorial tax system imposes **0% tax on all foreign-source income** — dividends, capital gains, and management fees from foreign subsidiaries are entirely untaxed. There is no withholding tax on dividends from Cayman, UAE, or Cook Islands into the S.A., and no withholding tax on dividends from the S.A. upstream to the PIF (both Panama entities). The S.A. creates a **double layer of asset protection**: any creditor attempting to reach operating entity equity must pierce both the S.A. corporate veil (Panama Commercial Code) AND the PIF foundation structure (Law 25 of 1995) — two separate legal proceedings, in two separate Panamanian courts, under two separate bodies of law. Panama does not recognize foreign court judgments against S.A.s or PIFs. This is the same intermediate holding structure used by multinational corporations worldwide.
 
-**Mexico OpCo:** Owned by TE Holdings (Cayman). Receives cost + 8-12% margin via arm's-length service delivery agreement with Holdings. No UAE personnel in Mexico eliminates permanent establishment risk. Transfer pricing study supports the arrangement.
+**Mexico OpCo:** Owned by TE Holdings (Cayman). Receives cost + 8-12% margin via arm's-length service delivery agreement with Holdings. Also manages property day-to-day (maintenance, security, groundskeeping). No UAE personnel in Mexico eliminates permanent establishment risk. Transfer pricing study supports the arrangement.
+
+**Mexico RE Entity:** TE RE Mexico S. de R.L. de C.V., also owned by TE Holdings (Cayman) — a sibling entity to TE Ops Mexico. Acquires land, holds title, develops villas and facilities, and leases property to OpCo at arm's length rent. Pays 30% CIT on rental income offset by building depreciation (5% annual straight-line for commercial structures). Capitalized via equity from Holdings (no intercompany debt, avoiding REFIPRE and thin capitalization issues). The separation of real estate from operations ensures that guest liability, employment claims, and program risk in OpCo cannot reach the land and developed property. Tulum is in Mexico's restricted zone (within 50 km of coast) — commercial use is permitted for Mexican companies with foreign shareholders under Article 10-A of the Foreign Investment Law; residential use may require a fideicomiso (bank trust). This classification must be resolved with Mexican counsel.
 
 ### Wall 4: Structural Protection (Entity Separation)
 
@@ -87,7 +89,7 @@ The IRS's primary attack on multi-entity structures is "substance over form" —
 3. Arm's-length transactions between entities
 4. No single person controlling all entities
 
-TE satisfies all four with all seven entities. TE Holdings exists to own TE IP, collect TE revenue, and serve as the investable vehicle — it has an independent board and third-party investor shareholders. Studio exists as the shared service center that employs the development team. The CI IBC exists to serve external consulting and SaaS clients under the Light Brands brand — a genuinely separate business line from the TE healing center. The church exists to pursue a religious mission. The Mexico OpCo exists to deliver services. The PIF exists for ultimate asset protection and beneficiary management. The Panamanian Holdings S.A. exists as the intermediate holding company — it provides a corporate layer between the PIF and operating entities, handling corporate governance of subsidiaries (director appointments, intercompany agreements, portfolio management) while the PIF focuses solely on asset protection and beneficiary matters. None is pretextual.
+TE satisfies all four with all eight entities. TE Holdings exists to own TE IP, collect TE revenue, and serve as the investable vehicle — it has an independent board and third-party investor shareholders. Studio exists as the shared service center that employs the development team. The CI IBC exists to serve external consulting and SaaS clients under the Light Brands brand — a genuinely separate business line from the TE healing center. The church exists to pursue a religious mission. The Mexico OpCo exists to deliver services and manage property. The Mexico RE entity exists to acquire, develop, and hold real estate — separating high-value land and buildings from operational liability. The PIF exists for ultimate asset protection and beneficiary management. The Panamanian Holdings S.A. exists as the intermediate holding company — it provides a corporate layer between the PIF and operating entities, handling corporate governance of subsidiaries (director appointments, intercompany agreements, portfolio management) while the PIF focuses solely on asset protection and beneficiary matters. None is pretextual.
 
 **The double-layer defense (PIF → S.A. → operating entities)** is one of the structure's strongest features. A creditor or adversary pursuing operating entity equity faces two independent Panamanian barriers:
 
@@ -134,11 +136,29 @@ TE satisfies all three. Christ consciousness doctrine predates tax planning, add
 
 **Why TE is safe:** The US founder has zero ownership. The Panama PIF holds 100% of Panamanian Holdings S.A. (a Panama corporation), which holds ~70% of TE Holdings, 100% of Studio, and 100% of CI IBC. Adding the S.A. intermediary does not create any new ownership attribution — the US founder has zero ownership of the S.A. just as they have zero ownership of the PIF. The investor holds ~30% of TE Holdings directly. The Canadian founder is the PIF Protector. The US founder is not a beneficiary, has no signatory authority, cannot direct distributions, and has no contractual right to PIF assets. The same no-ownership analysis applies identically to the S.A. and all three S.A.-owned operating entities — the US founder has zero relationship with any foreign entity.
 
-### Transfer Pricing
+### Transfer Pricing — OpCo Service Fee
 
 **Risk:** SAT could challenge the margin allocated to Mexico OpCo.
 
 **Why TE is defensible:** Cost + 8-12% margin is a standard intercompany service arrangement. Supported by an annual transfer pricing benchmarking study. Comparable to how every multinational hotel chain (Marriott, Hilton, Four Seasons) operates in Mexico.
+
+### Transfer Pricing — RE Entity Intercompany Rent
+
+**Risk:** SAT could challenge the rental rate between TE RE Mexico and TE Ops Mexico as non-arm's length (either too high, reducing OpCo's taxable margin, or too low, understating RE entity income).
+
+**Why TE is defensible:** The intercompany lease is priced using Comparable Uncontrolled Price (CUP) methodology, benchmarked against arm's length rental rates for similar commercial properties in the Tulum/Riviera Maya market. Annual TP study with contemporaneous documentation. Both entities pay 30% CIT, so there is no tax arbitrage motive between the two Mexican entities — the rent allocation only affects the timing and character of the tax (service margin vs. rental income minus depreciation).
+
+### Restricted Zone Compliance (RE Entity)
+
+**Risk:** Tulum is in Mexico's restricted zone. If the RE entity's use of property is classified as residential rather than commercial, direct title holding by a Mexican company with foreign shareholders may violate the Foreign Investment Law. A fideicomiso (bank trust) may be required.
+
+**Why TE is defensible:** The villas are part of a commercial hospitality operation — guests stay in villas during healing center programs. The property is not subdivided for individual residential sale. This is the same model used by hotel chains (Marriott, Banyan Tree, Hyatt) that hold beachfront property through Mexican subsidiaries in the restricted zone. However, this classification must be confirmed with Mexican counsel before entity formation. If any residential component exists, a fideicomiso will be established as a precaution.
+
+### RE Entity Capitalization — REFIPRE and Thin Cap
+
+**Risk:** If the RE entity were funded by intercompany loans from TE Holdings (Cayman, 0%), interest payments from Mexico to Cayman could trigger REFIPRE (40% WHT + non-deductibility) and/or violate Mexico's thin capitalization rules (3:1 debt-to-equity limit for related-party debt).
+
+**Why TE is safe:** The RE entity is capitalized via equity contribution from Holdings, not intercompany debt. No interest payments = no REFIPRE trigger, no thin cap issues, no outbound WHT. Profit extraction occurs via dividends from the CUFIN balance (0% additional tax on after-tax profits). This is the cleanest capitalization structure available.
 
 ### Concealed Dividends (Cyprus 2026)
 
@@ -231,6 +251,10 @@ If these organizations maintain exemption under far more aggressive models, a ge
 | **TE Holdings challenged as sham entity** | Very Low | High | Genuine $10-35M revenue. Third-party investor at arms-length valuation. Independent board. Active operating subsidiary. VC-standard Cayman structure. |
 | **Studio transfer pricing challenged (Holdings↔Studio)** | Low | Medium | Cost-plus 8-12% margin. Annual TP benchmarking study. IT outsourcing comparables. Both at 0% (no tax arbitrage motive). |
 | **Cayman stigma / reputational concern** | Very Low | Low | VC-standard jurisdiction. FATF compliant, not EU blacklisted. Used by majority of institutional VC investments. Investor's choice of Cayman validates structure. |
+| **RE entity restricted zone non-compliance** | Low-Medium | Critical | Resolve commercial vs. residential classification with Mexican counsel before entity formation. Establish fideicomiso if any residential component. Follow hotel chain precedent for commercial use. |
+| **RE entity intercompany rent challenged by SAT** | Low-Medium | Medium | Annual TP study using CUP methodology. Tulum/Riviera Maya commercial rental comparables. Both entities at 30% — no tax arbitrage motive. |
+| **RE entity development cost treatment challenged** | Low | Medium | Capitalize all construction costs per LISR. Depreciate at statutory rates (5% buildings, 10% FF&E). Pre-operating expenses amortized at 10%. Mexican CPA oversight. |
+| **RE entity REFIPRE on outbound payments** | Very Low | High | RE entity capitalized via equity (no interest). Outbound payments limited to CUFIN dividends (0% additional tax). No management fees or royalties from RE entity to Holdings. |
 | **Cyprus 90-day exemption challenged** | Low-Medium | High | Meticulous travel records. Boarding passes. Work calendars. Employment contract with UAE entity. |
 
 ---

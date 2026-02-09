@@ -341,6 +341,46 @@ Bring the relevant section to each counsel meeting. Questions are organized by j
 **Context:** Mexico-UAE have no bilateral tax treaty. Service fees from UAE to Mexico could face WHT questions.
 **Question:** What is the WHT treatment of inbound service fees from a UAE entity to a Mexican OpCo? Any issues with the lack of a Mexico-UAE treaty?
 
+### Q71: Restricted Zone — Direct Title Holding for Commercial Hospitality
+**Priority:** CRITICAL
+**Context:** TE RE Mexico S. de R.L. de C.V. (100% owned by TE Holdings, Cayman) will acquire land in Tulum, which is in Mexico's restricted zone (within 50 km of the Caribbean coast). Under Article 10-A of the Ley de Inversion Extranjera, Mexican companies with foreign shareholders can own land in the restricted zone for commercial (non-residential) activities. The property will be used as a healing center — villas for guest accommodation during programs, not personal residences for sale.
+**Question:** Can TE RE Mexico hold title directly (without a fideicomiso) for commercial hospitality use — specifically, healing center villas used exclusively for guest programs? What documentation or classification is needed to confirm commercial use? Does the SRE need to approve?
+
+### Q72: Fideicomiso — Required for Villas?
+**Priority:** CRITICAL
+**Context:** If any villas are classified as residential (even though they are part of a commercial hospitality operation), a fideicomiso (bank trust) may be required. The classification is the critical question.
+**Question:** Under what circumstances would healing center villas require a fideicomiso? What is the test for "residential" vs. "commercial" use? If a fideicomiso is required, what is the setup process, cost, and impact on the RE entity's tax treatment (depreciation, rental income, IVA)?
+
+### Q73: Intercompany Rent TP — Defensible Rental Rate Methodology
+**Priority:** IMPORTANT
+**Context:** TE RE Mexico will lease developed property to TE Ops Mexico at arm's length rent. Both are Mexican entities under a common Cayman parent. SAT will scrutinize the rental rate.
+**Question:** What is the defensible transfer pricing methodology for the intercompany lease? CUP method using Tulum/Riviera Maya commercial rental comparables? What data sources and benchmarks does SAT accept? Should the rent be per-square-meter, percentage-of-revenue, or fixed annual amount?
+
+### Q74: Development Cost Capitalization and Depreciation
+**Priority:** IMPORTANT
+**Context:** TE RE Mexico will incur significant development costs (land acquisition, construction, architecture, engineering, permits, pre-operating expenses). These must be properly capitalized and depreciated under LISR.
+**Question:** Confirm the capitalization rules for each category: land (not depreciable), buildings (5% straight-line), furniture/fixtures (10%), pre-operating expenses (10% amortization). Can architecture and engineering fees be included in the building's depreciable base? What about interest during construction (if any)?
+
+### Q75: REFIPRE on Outbound Payments from RE Entity to Holdings
+**Priority:** IMPORTANT
+**Context:** TE RE Mexico is capitalized via equity from TE Holdings (Cayman, 0%). The RE entity will extract profits via dividends from CUFIN. There should be no interest, management fees, or royalty payments from the RE entity to Holdings.
+**Question:** Confirm that CUFIN dividends from TE RE Mexico to TE Holdings (Cayman) do not trigger REFIPRE. Are there any outbound payments from the RE entity that could trigger REFIPRE even if structured as equity? Does SAT have a "recharacterization" risk for equity contributions?
+
+### Q76: Optimal Capitalization — Equity vs. Intercompany Loan vs. Hybrid
+**Priority:** IMPORTANT
+**Context:** TE Holdings (Cayman, 0%) will fund TE RE Mexico for land acquisition and development ($9-28M over 3-5 years). Equity avoids REFIPRE and thin cap but locks capital. Intercompany loans provide interest deductions but trigger REFIPRE risk (Cayman <22.5%) and thin cap rules (3:1 debt-to-equity).
+**Question:** Is pure equity the optimal capitalization for TE RE Mexico given the REFIPRE and thin cap constraints? Is there any scenario where a hybrid (partial equity + partial loan) makes sense — e.g., a loan from a third-party Mexican bank guaranteed by Holdings? What about a loan from a non-REFIPRE jurisdiction?
+
+### Q77: IVA Treatment of Intercompany Rent
+**Priority:** IMPORTANT
+**Context:** TE RE Mexico will charge 16% IVA on intercompany rent to TE Ops Mexico. OpCo should claim the input credit.
+**Question:** Confirm that 16% IVA applies to intercompany rent between two related Mexican entities. Can OpCo claim the full input credit? Any timing issues between the RE entity's IVA obligation and OpCo's credit claim? Any risk of SAT disallowing the credit on related-party transactions?
+
+### Q78: CUFIN Management — Ensuring Dividends from After-Tax Profits
+**Priority:** IMPORTANT
+**Context:** TE RE Mexico will accumulate after-tax profits in its CUFIN (Cuenta de Utilidad Fiscal Neta). Dividends to TE Holdings from CUFIN incur 0% additional tax. Dividends exceeding CUFIN trigger 10% additional tax on the gross-up.
+**Question:** What is the best practice for CUFIN management? How frequently should the balance be calculated and reconciled? What are the common mistakes that cause dividends to exceed CUFIN (e.g., timing of provisional payments, PTU adjustments, inflationary adjustments)? Should the RE entity maintain a policy of only distributing from confirmed CUFIN?
+
 ---
 
 ## 7. Cook Islands Counsel
@@ -464,6 +504,7 @@ These do not need immediate answers but should be tracked for future counsel eng
 | **Weeks 2-4** | Panama S.A. counsel | Q56 (S.A. formation), Q57 (jurisdiction issues), Q58 (directors), Q59 (transfer pricing), Q60 (banking) |
 | **Weeks 2-4** | Cook Islands | Q39 (TP methodology), Q40 (church royalty rate), Q42 (CRS/AEOI) |
 | **Months 3-5** | Mexican tax | Q23 (REFIPRE with Cayman parent), Q24 (transfer pricing) |
+| **Months 3-5** | Mexican RE counsel | Q71 (restricted zone title), Q72 (fideicomiso), Q73 (rent TP), Q74 (capitalization/depreciation), Q75 (REFIPRE on RE outbound), Q76 (equity vs. loan), Q77 (IVA on rent), Q78 (CUFIN management) |
 | **Ongoing** | All | Forward-looking questions as they become relevant |
 
 ---
