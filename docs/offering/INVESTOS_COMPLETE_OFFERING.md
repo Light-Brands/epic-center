@@ -1,4 +1,4 @@
-# OSinvest™ — The Operating System for High-Trust Investment Platforms
+# InvestOS™ — The Operating System for High-Trust Investment Platforms
 
 **Turn complexity into clarity in 14-30 days, not 6-12 months — at a fraction of the cost.**
 
@@ -6,9 +6,9 @@
 
 ## Table of Contents
 
-1. [Why OSinvest Exists](#why-osinvest-exists)
+1. [Why InvestOS Exists](#why-investos-exists)
 2. [The Problem & The Broken Model](#the-problem--the-broken-model)
-3. [What Is OSinvest?](#what-is-osinvest)
+3. [What Is InvestOS?](#what-is-investos)
 4. [What Gets Delivered](#what-gets-delivered)
 5. [Service Categories](#service-categories)
 6. [Package Tiers](#package-tiers)
@@ -20,7 +20,7 @@
 
 ---
 
-## Why OSinvest Exists
+## Why InvestOS Exists
 
 ### Speed Beats Strategy When Reality Is Moving
 
@@ -31,7 +31,7 @@ Most organizations don't fail because they chose the wrong direction. They fail 
 
 By the time traditional consulting firms finish discovery, alignment, and roadmaps — the market has already shifted. Capital windows close. Competitive rounds get announced. Runway burns.
 
-**OSinvest exists because the old model is dying — and founders raising capital can't afford to wait.**
+**InvestOS exists because the old model is dying — and founders raising capital can't afford to wait.**
 
 ---
 
@@ -64,7 +64,7 @@ Traditional consulting relies on:
 * **Endless handoffs** — each vendor waits for the previous vendor to finish
 * **Decks instead of deployment** — you get PowerPoints, not operating systems
 
-To build what OSinvest delivers, traditional firms require:
+To build what InvestOS delivers, traditional firms require:
 
 * A strategist
 * A systems architect
@@ -93,9 +93,9 @@ The result?
 
 ---
 
-## What Is OSinvest?
+## What Is InvestOS?
 
-OSinvest is a **vertical operating system** designed for organizations where:
+InvestOS is a **vertical operating system** designed for organizations where:
 
 * Capital must be raised responsibly
 * Trust must be earned, not assumed
@@ -112,7 +112,7 @@ It's purpose-built for:
 * Founder-led platforms raising private capital
 * Any organization where **belief, trust, and execution** are non-negotiable
 
-### What OSinvest Replaces
+### What InvestOS Replaces
 
 Instead of juggling:
 
@@ -124,9 +124,9 @@ Instead of juggling:
 * Disconnected AI tools
 * 8 different vendors on 8 different timelines
 
-**OSinvest unifies everything into a single, coherent operating system.**
+**InvestOS unifies everything into a single, coherent operating system.**
 
-### OSinvest Collapses the Stack
+### InvestOS Collapses the Stack
 
 We replace:
 
@@ -142,9 +142,51 @@ Instead of hiring:
 
 ---
 
+## InvestOS: The Commercial Wedge
+
+**InvestOS is not just a website or a product.**
+**It is the monetized edge of Lightbrand AI Consulting.**
+
+Think of it this way:
+
+```
+┌─────────────────────────────────────────────────┐
+│   LIGHTBRAND AI CONSULTING                      │
+│   Front-facing relationship, trust, scoping,    │
+│   strategy, sales, and stewardship.             │
+└─────────────────────────────────────────────────┘
+                    ▼
+┌─────────────────────────────────────────────────┐
+│   INVESTOS                                      │
+│   A productized consulting system that feels    │
+│   like software, delivers like IB + Big 4, and  │
+│   prices like an operating system.              │
+└─────────────────────────────────────────────────┘
+                    ▼
+┌─────────────────────────────────────────────────┐
+│   LIGHTBRAND AI STUDIO                          │
+│   The invisible engine that actually builds     │
+│   everything InvestOS promises.                 │
+└─────────────────────────────────────────────────┘
+```
+
+This separation is strategic:
+
+* **Consulting** owns the client relationship, strategy, and accountability
+* **InvestOS** provides the productized offering and pricing clarity
+* **Studio** protects IP, maintains margins, and scales production
+
+**Clients buy InvestOS, not "custom consulting."**
+
+The Studio remains invisible to clients. This architecture protects IP, margins, scalability, and future partner expansion.
+
+> *InvestOS is a productized intelligence platform built by Lightbrand AI Consulting.*
+
+---
+
 ## What Gets Delivered
 
-Every OSinvest engagement delivers a complete, investor-ready operating system — customized to your business, market, and capital raise strategy.
+Every InvestOS engagement delivers a complete, investor-ready operating system — customized to your business, market, and capital raise strategy.
 
 ### Platform Inventory
 
@@ -162,11 +204,11 @@ Every OSinvest engagement delivers a complete, investor-ready operating system �
 
 ## Service Categories
 
-OSinvest is organized around **10 service categories** — each one replacing what would traditionally require a separate firm, a separate engagement, and a separate invoice.
+InvestOS is organized around **10 service categories** — each one replacing what would traditionally require a separate firm, a separate engagement, and a separate invoice.
 
 ### Summary Table
 
-| # | Category | Traditional Market Value | OSinvest Price |
+| # | Category | Traditional Market Value | InvestOS Price |
 |---|----------|------------------------|----------------|
 | **Strategy & Positioning** | | |
 | A | [Strategic Foundation](#a-strategic-foundation) | $750K - $1.5M | $50K - $100K |
@@ -210,7 +252,7 @@ OSinvest is organized around **10 service categories** — each one replacing wh
 
 **Market comparable:** McKinsey/Bain/BCG strategy engagements run **$500K-$2M** per project. Boutique strategy firms charge **$200K-$400K**.
 
-**OSinvest price: $50K - $100K**
+**InvestOS price: $50K - $100K**
 
 ---
 
@@ -240,7 +282,7 @@ OSinvest is organized around **10 service categories** — each one replacing wh
 
 **Market comparable:** Custom market research studies run **$25K-$65K each**. A comprehensive multi-study package covering 4+ industries typically costs **$150K-$400K**.
 
-**OSinvest price: $20K - $40K**
+**InvestOS price: $20K - $40K**
 
 ---
 
@@ -269,7 +311,7 @@ OSinvest is organized around **10 service categories** — each one replacing wh
 
 **Market comparable:** Boutique investment banks and financial advisory firms charge **$50K-$150K+** for a fully linked, variable-driven multi-tab model. Big 4 transaction advisory services charge **$150K-$500K**.
 
-**OSinvest price: $25K - $50K**
+**InvestOS price: $25K - $50K**
 
 ---
 
@@ -302,7 +344,7 @@ OSinvest is organized around **10 service categories** — each one replacing wh
 
 **Market comparable:** Big 4 valuation services charge **$75K-$200K** for a formal multi-method valuation opinion. Boutique valuation firms charge **$40K-$100K**.
 
-**OSinvest price: $35K - $75K**
+**InvestOS price: $35K - $75K**
 
 ---
 
@@ -329,7 +371,7 @@ OSinvest is organized around **10 service categories** — each one replacing wh
 
 **Market comparable:** Big 4 tax structuring engagements cost **$200K-$750K** for multi-jurisdiction work. Specialized international tax counsel runs **$500-$1,200/hr** with engagements totaling **$150K-$400K**.
 
-**OSinvest price: $40K - $75K**
+**InvestOS price: $40K - $75K**
 
 ---
 
@@ -361,7 +403,7 @@ OSinvest is organized around **10 service categories** — each one replacing wh
 
 **Market comparable:** Global site selection and expansion research from firms like Cushman & Wakefield, JLL, or MBB strategy firms runs **$500K-$1.2M**.
 
-**OSinvest price: $50K - $100K**
+**InvestOS price: $50K - $100K**
 
 ---
 
@@ -391,7 +433,7 @@ OSinvest is organized around **10 service categories** — each one replacing wh
 
 **Market comparable:** Commercial real estate advisory and site selection consulting runs **$100K-$250K** for multi-property evaluation.
 
-**OSinvest price: $15K - $30K**
+**InvestOS price: $15K - $30K**
 
 ---
 
@@ -421,7 +463,7 @@ OSinvest is organized around **10 service categories** — each one replacing wh
 
 **Market comparable:** Operational consulting from Deloitte, Accenture, or boutique ops firms costs **$150K-$350K**.
 
-**OSinvest price: $20K - $40K**
+**InvestOS price: $20K - $40K**
 
 ---
 
@@ -452,7 +494,7 @@ OSinvest is organized around **10 service categories** — each one replacing wh
 
 **Market comparable:** PPM preparation alone costs **$15K-$75K**. Full data room assembly through an investment bank advisory engagement runs **$200K-$500K**.
 
-**OSinvest price: $25K - $50K**
+**InvestOS price: $25K - $50K**
 
 ---
 
@@ -485,7 +527,7 @@ OSinvest is organized around **10 service categories** — each one replacing wh
 
 **Market comparable:** Custom SaaS/web platform development from agencies runs **$500K-$2M**. A comparable investor portal would cost **$750K-$2M**.
 
-**OSinvest price: $75K - $150K**
+**InvestOS price: $75K - $150K**
 
 ---
 
@@ -644,7 +686,7 @@ The fundraising infrastructure we build serves a wider market than "startup foun
 
 ### The Real Savings
 
-Clients don't choose OSinvest because it's "cheaper software."
+Clients don't choose InvestOS because it's "cheaper software."
 
 They choose it because it eliminates:
 
@@ -672,7 +714,7 @@ Everyone is smart.
 Everyone has a point of view.
 No one owns the whole system.
 
-OSinvest replaces scattered intelligence with:
+InvestOS replaces scattered intelligence with:
 
 * One coherent operating model
 * One source of truth
@@ -692,7 +734,7 @@ Their current model:
 * Caps leverage
 * Breaks under speed demands
 
-OSinvest lets them:
+InvestOS lets them:
 
 * Deliver faster
 * Reduce team size
@@ -704,7 +746,7 @@ OSinvest lets them:
 
 ### Head-to-Head Comparison
 
-| Dimension | Big 4 Firms | Boutique IB / Advisory | Startup Consultancies | **OSinvest** |
+| Dimension | Big 4 Firms | Boutique IB / Advisory | Startup Consultancies | **InvestOS** |
 |-----------|------------|----------------------|----------------------|--------|
 | **Total cost** | $750K - $2M+ | $596K - $1.15M | $113K - $361K | **$75K - $750K** |
 | **Timeline** | 6-12 months | 6-12 months | 4-9 months | **14-30 days** |
@@ -717,7 +759,7 @@ OSinvest lets them:
 
 ### What You Get That Nobody Else Delivers
 
-No competitor provides what OSinvest delivers:
+No competitor provides what InvestOS delivers:
 
 - **150+ cross-referenced documents** — not siloed deliverables from 8 vendors
 - **Live interactive investor platform** — a 30-page custom Next.js application, not a PDF
@@ -736,7 +778,7 @@ No competitor provides what OSinvest delivers:
 
 Our pricing isn't a discount — it's a structural cost advantage.
 
-| Metric | Traditional | OSinvest |
+| Metric | Traditional | InvestOS |
 |--------|-------------|-----------|
 | **Cost reduction** | -- | **96-98%** lower production costs |
 | **Delivery timeline** | 6-12 months | **14-30 days** |

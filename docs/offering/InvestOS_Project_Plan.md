@@ -1,12 +1,12 @@
 This is a **very smart instinct** — and honestly, this niche move is where the leverage is.
 
-I’ll give you a **clear-eyed assessment** of OSinvest as a focused product *vs* the broader “personalized AI OS for enterprises,” and then a straight recommendation.
+I’ll give you a **clear-eyed assessment** of InvestOS as a focused product *vs* the broader “personalized AI OS for enterprises,” and then a straight recommendation.
 
 ---
 
-## **First: What OSinvest *actually is* (not what it sounds like)**
+## **First: What InvestOS *actually is* (not what it sounds like)**
 
-Based on what you’ve built with **Transformational Epicenter**, OSinvest is **not** a generic AI OS.
+Based on what you’ve built with **Transformational Epicenter**, InvestOS is **not** a generic AI OS.
 
 It’s a:
 
@@ -46,7 +46,7 @@ This is a **hard mode** business early on.
 
 ---
 
-### **Option B: OSinvest (Niched, Proven, Vertical)**
+### **Option B: InvestOS (Niched, Proven, Vertical)**
 
 **Pros**
 
@@ -68,11 +68,11 @@ This is **leverage mode**.
 
 ---
 
-## **Market Reality for OSinvest**
+## **Market Reality for InvestOS**
 
 ### **Who Actually Buys This?**
 
-OSinvest naturally fits:
+InvestOS naturally fits:
 
 * Clinics raising private capital  
 * Alternative health / longevity centers  
@@ -118,7 +118,7 @@ That’s defensible.
 
 ## **Pricing Power (Much Better Than Generic AI OS)**
 
-Because OSinvest:
+Because InvestOS:
 
 * Touches **revenue**  
 * Touches **capital**  
@@ -148,7 +148,7 @@ Margins stay strong because:
 
 ## **Operational Reality (Way Safer)**
 
-With OSinvest:
+With InvestOS:
 
 * You already know the workflows  
 * You already know the edge cases  
@@ -193,7 +193,7 @@ No hope marketing. No cold AI hype.
 
 ## **Long-Term Expansion Path (This is important)**
 
-OSinvest is not a dead end.
+InvestOS is not a dead end.
 
 It’s a **wedge**.
 
@@ -229,7 +229,7 @@ These are controllable risks.
 
 ## **My Clear Verdict**
 
-**OSinvest is the stronger, smarter move right now.**
+**InvestOS is the stronger, smarter move right now.**
 
 Not because it’s smaller —  
 but because it’s **real, proven, defensible, and monetizable today**.
@@ -238,7 +238,7 @@ but because it’s **real, proven, defensible, and monetizable today**.
 
 ## **Recommendation**
 
-### **Proceed with OSinvest as your lead product.**
+### **Proceed with InvestOS as your lead product.**
 
 Do **not** kill the broader AI OS vision — just **sequence it later**.
 
@@ -247,7 +247,7 @@ Do **not** kill the broader AI OS vision — just **sequence it later**.
 ## **Immediate Next Steps (Prioritized)**
 
 1. **Rename and lock the category**  
-   * OSinvest \= *Investment & Trust Operating System*  
+   * InvestOS \= *Investment & Trust Operating System*  
 2. **Turn Transformational Epicenter into the flagship case study**  
    * Clear before/after  
    * Time saved  
@@ -265,10 +265,10 @@ Do **not** kill the broader AI OS vision — just **sequence it later**.
 
 If you want, next we can:
 
-* Tighten the OSinvest positioning page  
+* Tighten the InvestOS positioning page  
 * Write the exact homepage narrative  
 * Productize the offer into 3 clean tiers  
-* Decide whether Light Brands sits *behind* OSinvest or *above* it
+* Decide whether Light Brands sits *behind* InvestOS or *above* it
 
 Just say the word.
 
@@ -280,7 +280,7 @@ This is **not fluffy brand copy** — it’s crisp, executive, and trust-forward
 
 ---
 
-# **OSinvest**
+# **InvestOS**
 
 ## **The Operating System Behind High-Trust Investment & Transformation Platforms**
 
@@ -294,10 +294,10 @@ This is **not fluffy brand copy** — it’s crisp, executive, and trust-forward
 **The OS Behind High-Trust Investment Platforms**
 
 **Subheadline**  
-OSinvest is a purpose-built operating system for investment-backed clinics, funds, and transformation platforms that need trust, compliance, education, and execution to work together — without chaos.
+InvestOS is a purpose-built operating system for investment-backed clinics, funds, and transformation platforms that need trust, compliance, education, and execution to work together — without chaos.
 
 **Primary CTA**  
-→ See If OSinvest Is a Fit
+→ See If InvestOS Is a Fit
 
 ---
 
@@ -325,13 +325,13 @@ When money, people, and reputation are on the line — that’s not acceptable.
 High-trust platforms don’t need *more tools*.  
 They need **one operating system** that orchestrates everything.
 
-That’s what OSinvest is built for.
+That’s what InvestOS is built for.
 
 ---
 
-### **What Is OSinvest?**
+### **What Is InvestOS?**
 
-OSinvest is a **vertical operating system** designed for organizations where:
+InvestOS is a **vertical operating system** designed for organizations where:
 
 • Capital must be raised responsibly  
 • Trust must be earned, not assumed  
@@ -347,9 +347,9 @@ An operating system.
 
 ---
 
-### **Who OSinvest Is For**
+### **Who InvestOS Is For**
 
-OSinvest is built specifically for:
+InvestOS is built specifically for:
 
 • Investment-backed clinics & health platforms  
 • Regenerative / longevity / transformation centers  
@@ -357,11 +357,11 @@ OSinvest is built specifically for:
 • Impact-driven funds  
 • Founder-led platforms raising private capital
 
-If your organization depends on **belief, trust, and execution**, OSinvest fits.
+If your organization depends on **belief, trust, and execution**, InvestOS fits.
 
 ---
 
-### **What OSinvest Replaces**
+### **What InvestOS Replaces**
 
 Instead of juggling:
 
@@ -372,7 +372,7 @@ Instead of juggling:
 • Manual workflows  
 • Disconnected AI tools
 
-OSinvest unifies everything into a **single source of truth**.
+InvestOS unifies everything into a **single source of truth**.
 
 ---
 
@@ -395,11 +395,11 @@ Built with governance and risk in mind, not bolted on later.
 
 ---
 
-### **Why OSinvest Is Different**
+### **Why InvestOS Is Different**
 
 Most platforms are built for **transactions**.
 
-OSinvest is built for **conviction**.
+InvestOS is built for **conviction**.
 
 It understands that:  
 • Trust precedes capital  
@@ -407,13 +407,13 @@ It understands that:
 • Clarity accelerates decisions  
 • Systems protect reputation
 
-That’s why generic software fails here — and why OSinvest works.
+That’s why generic software fails here — and why InvestOS works.
 
 ---
 
 ### **Proof, Not Promises**
 
-OSinvest is already powering real platforms with real complexity — replacing what would normally require:
+InvestOS is already powering real platforms with real complexity — replacing what would normally require:
 
 • Large dev teams  
 • Months of custom builds  
@@ -427,7 +427,7 @@ All inside one unified OS.
 
 ### **How Engagements Work**
 
-OSinvest is implemented as a **done-with-you operating system**, not a DIY product.
+InvestOS is implemented as a **done-with-you operating system**, not a DIY product.
 
 Typical engagements include:
 
@@ -443,7 +443,7 @@ This is infrastructure — not a template.
 
 ### **Who It’s Not For**
 
-OSinvest is **not** for:  
+InvestOS is **not** for:  
 • Early-stage experiments  
 • DIY builders  
 • Low-trust, high-volume plays  
@@ -457,13 +457,13 @@ If speed without integrity is the goal — this isn’t it.
 
 **Build the system your platform actually needs.**
 
-→ Apply to Explore OSinvest
+→ Apply to Explore InvestOS
 
 ---
 
 ## **Optional Footer Positioning Line**
 
-**OSinvest**  
+**InvestOS**  
 *The Operating System for High-Trust Capital & Transformation Platforms*
 
 ---
@@ -474,12 +474,12 @@ I can:
 
 * Tighten this into a **1-screen hero \+ scroll narrative**  
 * Create a **case-study section** specifically for Transformational Epicenter  
-* Productize OSinvest into **3 clean tiers**  
-* Decide whether **Light Brands** sits behind OSinvest or as the parent brand
+* Productize InvestOS into **3 clean tiers**  
+* Decide whether **Light Brands** sits behind InvestOS or as the parent brand
 
 Just tell me the next move.
 
-productize OSinvest into 3 clean tiers
+productize InvestOS into 3 clean tiers
 
 Perfect. Here’s a **clean, disciplined 3-tier productization** that:
 
@@ -487,19 +487,19 @@ Perfect. Here’s a **clean, disciplined 3-tier productization** that:
 * Preserves margins  
 * Signals seriousness  
 * Scales without custom hell  
-* Matches the *trust \+ capital \+ compliance* nature of OSinvest
+* Matches the *trust \+ capital \+ compliance* nature of InvestOS
 
 No fluff. No bloated menus. Clear buyer logic.
 
 ---
 
-# **OSinvest™ — Productized Tiers**
+# **InvestOS™ — Productized Tiers**
 
 **The Operating System for High-Trust Investment & Transformation Platforms**
 
 ---
 
-## **Tier 1: OSinvest — Foundation**
+## **Tier 1: InvestOS — Foundation**
 
 ### ***“Stabilize trust. Eliminate chaos.”***
 
@@ -515,7 +515,7 @@ Founder-led platforms or clinics preparing to raise capital, onboard partners, o
 
 ### **What’s Included**
 
-* OSinvest Core Platform (licensed)  
+* InvestOS Core Platform (licensed)  
 * Trust-first website & platform architecture  
 * Investor / participant journey mapping  
 * Education & onboarding flows  
@@ -536,7 +536,7 @@ A unified, credible operating system that replaces duct-taped tools and restores
 
 ---
 
-## **Tier 2: OSinvest — Scale**
+## **Tier 2: InvestOS — Scale**
 
 ### ***“Raise capital. Move faster. Reduce risk.”***
 
@@ -573,7 +573,7 @@ A platform that can **raise, onboard, and operate at scale** without losing trus
 
 ---
 
-## **Tier 3: OSinvest — Partner**
+## **Tier 3: InvestOS — Partner**
 
 ### ***“Build infrastructure that compounds.”***
 
@@ -590,12 +590,12 @@ Funds, clinics, or platforms building long-term ecosystems, multiple raises, or 
 ### **Everything in Scale, plus:**
 
 * Multi-entity / portfolio OS architecture  
-* White-label OSinvest deployment  
+* White-label InvestOS deployment  
 * Custom AI intelligence layers  
 * Long-term systems roadmap  
 * Strategic advisory (capital, structure, scale)  
 * Optional rev-share / equity alignment  
-* Priority access to new OSinvest capabilities
+* Priority access to new InvestOS capabilities
 
 ### **Engagement Structure**
 
@@ -633,7 +633,7 @@ You show:
 
 With one CTA:
 
-**Apply to Explore OSinvest**
+**Apply to Explore InvestOS**
 
 ---
 
@@ -670,11 +670,11 @@ This is written to **pre-qualify**, not convince — calm, confident, and trust-
 
 # **Pricing**
 
-## **OSinvest™**
+## **InvestOS™**
 
 **Infrastructure for high-trust investment & transformation platforms.**
 
-OSinvest is not software you “try.”  
+InvestOS is not software you “try.”  
 It’s operating infrastructure you install when trust, capital, and reputation matter.
 
 That’s why engagements are structured, intentional, and selective.
@@ -683,7 +683,7 @@ That’s why engagements are structured, intentional, and selective.
 
 ## **How Pricing Works**
 
-Every OSinvest engagement includes:
+Every InvestOS engagement includes:
 
 * Strategic OS design  
 * Platform implementation  
@@ -702,7 +702,7 @@ Below are our **three engagement tiers**.
 
 ---
 
-## **OSinvest — Foundation**
+## **InvestOS — Foundation**
 
 ### ***Stabilize trust. Eliminate chaos.***
 
@@ -711,7 +711,7 @@ Founder-led platforms or clinics preparing to scale, raise capital, or professio
 
 **What’s Included**
 
-* OSinvest Core Platform  
+* InvestOS Core Platform  
 * Trust-first platform architecture  
 * Investor / participant journey design  
 * Education & onboarding flows  
@@ -733,7 +733,7 @@ A unified operating system that replaces fragmented tools and restores clarity.
 
 ---
 
-## **OSinvest — Scale**
+## **InvestOS — Scale**
 
 ### ***Raise capital. Move faster. Reduce risk.***
 
@@ -763,7 +763,7 @@ A platform capable of raising, onboarding, and operating at scale — without lo
 
 ---
 
-## **OSinvest — Partner**
+## **InvestOS — Partner**
 
 ### ***Build infrastructure that compounds.***
 
@@ -773,12 +773,12 @@ Funds, clinics, or platforms building long-term ecosystems, portfolios, or multi
 **Includes everything in Scale, plus**
 
 * Multi-entity / portfolio OS architecture  
-* White-label OSinvest deployment  
+* White-label InvestOS deployment  
 * Custom AI intelligence layers  
 * Long-term systems roadmap  
 * Strategic advisory partnership  
 * Optional equity or performance alignment  
-* Priority access to new OSinvest capabilities
+* Priority access to new InvestOS capabilities
 
 **Timeline**  
 10–14+ weeks
@@ -790,11 +790,11 @@ Funds, clinics, or platforms building long-term ecosystems, portfolios, or multi
   *(or alternative equity / rev-share alignment)*
 
 **Outcome**  
-OSinvest becomes strategic infrastructure — not a tool.
+InvestOS becomes strategic infrastructure — not a tool.
 
 ---
 
-## **What OSinvest Replaces**
+## **What InvestOS Replaces**
 
 Most clients replace:
 
@@ -809,9 +809,9 @@ With **one operating system** designed for trust, clarity, and execution.
 
 ---
 
-## **Who OSinvest Is *Not* For**
+## **Who InvestOS Is *Not* For**
 
-OSinvest is not a fit for:
+InvestOS is not a fit for:
 
 * Early-stage experiments  
 * DIY builders  
@@ -824,7 +824,7 @@ If speed without integrity is the priority — this is not the right solution.
 
 ## **Proof, Not Theory**
 
-OSinvest is already powering real, complex platforms — including  
+InvestOS is already powering real, complex platforms — including  
 Transformational Epicenter
 
 This is built from lived implementation, not hypothetical frameworks.
@@ -833,9 +833,9 @@ This is built from lived implementation, not hypothetical frameworks.
 
 ## **Next Step**
 
-OSinvest engagements are limited and selective.
+InvestOS engagements are limited and selective.
 
-**→ Apply to Explore OSinvest**
+**→ Apply to Explore InvestOS**
 
 We’ll review your platform, goals, and complexity — and recommend the right tier if there’s a fit.
 
@@ -843,7 +843,7 @@ We’ll review your platform, goals, and complexity — and recommend the right 
 
 ### **Optional Footer Line**
 
-**OSinvest™**  
+**InvestOS™**  
 *The Operating System for High-Trust Capital & Transformation Platforms*
 
 ---
@@ -863,13 +863,13 @@ Yes — this is the *right* angle.
 You’re not competing on “AI sophistication.”  
 You’re competing on **speed, leverage, and structural inevitability**.
 
-Below is **tightened positioning copy** that reframes OSinvest around **speed-to-market, cost collapse, and intelligence consolidation** — and quietly declares the death of the billable-hours model.
+Below is **tightened positioning copy** that reframes InvestOS around **speed-to-market, cost collapse, and intelligence consolidation** — and quietly declares the death of the billable-hours model.
 
-You can drop this straight into the site as a **“Why OSinvest Wins” / “The Real Advantage”** section.
+You can drop this straight into the site as a **“Why InvestOS Wins” / “The Real Advantage”** section.
 
 ---
 
-## **Why OSinvest Exists**
+## **Why InvestOS Exists**
 
 ### **Speed Beats Strategy When Reality Is Moving**
 
@@ -893,7 +893,7 @@ Traditional consulting relies on:
 * Endless handoffs  
 * Decks instead of deployment
 
-To build what OSinvest delivers, they require:
+To build what InvestOS delivers, they require:
 
 * A strategist  
 * A systems architect  
@@ -918,9 +918,9 @@ That model is dying.
 
 ---
 
-## **OSinvest Collapses the Stack**
+## **InvestOS Collapses the Stack**
 
-OSinvest replaces:
+InvestOS replaces:
 
 * Strategy decks with live systems  
 * Committees with clarity  
@@ -937,7 +937,7 @@ You install **one operating system**.
 
 ## **Speed to Market Is the Advantage**
 
-OSinvest is built to deploy in **weeks — not quarters**.
+InvestOS is built to deploy in **weeks — not quarters**.
 
 What normally takes:
 
@@ -958,7 +958,7 @@ Is delivered through:
 
 ## **The Real Savings**
 
-Clients don’t choose OSinvest because it’s “cheaper software.”
+Clients don’t choose InvestOS because it’s “cheaper software.”
 
 They choose it because it eliminates:
 
@@ -988,7 +988,7 @@ Everyone is smart.
 Everyone has a point of view.  
 No one owns the whole system.
 
-OSinvest replaces scattered intelligence with:
+InvestOS replaces scattered intelligence with:
 
 * One coherent operating model  
 * One source of truth  
@@ -1010,7 +1010,7 @@ Their current model:
 * Caps leverage  
 * Breaks under speed demands
 
-OSinvest lets them:
+InvestOS lets them:
 
 * Deliver faster  
 * Reduce team size  
@@ -1038,22 +1038,22 @@ It rewards:
 * Orchestration  
 * Systems that actually run
 
-**OSinvest is built for that future.**
+**InvestOS is built for that future.**
 
 ---
 
 ### **CTA (Keep It Calm, Confident)**
 
-**If speed, savings, and sanity matter — OSinvest is the conversation.**
+**If speed, savings, and sanity matter — InvestOS is the conversation.**
 
-→ Apply to Explore OSinvest
+→ Apply to Explore InvestOS
 
 ---
 
 If you want next, I can:
 
 * Rewrite the **homepage hero** to lead with *speed & savings*  
-* Create a **“Build vs OSinvest” comparison section**  
+* Create a **“Build vs InvestOS” comparison section**  
 * Craft a **consulting-boutique version** of this positioning  
 * Turn this into a **sales call narrative** that closes fast
 

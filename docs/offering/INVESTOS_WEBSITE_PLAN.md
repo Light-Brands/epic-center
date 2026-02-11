@@ -1,21 +1,21 @@
-# OSinvest Website: Complete Implementation Plan
+# InvestOS Website: Complete Implementation Plan
 
-**Document Version:** 1.0
+**Document Version:** 2.0
 **Date:** February 10, 2026
-**Purpose:** Comprehensive plan for building the OSinvest marketing website
+**Purpose:** Comprehensive plan for building the InvestOS marketing website (Updated with InvestOS rebrand)
 **For Review By:** Team
 
 ---
 
 ## Executive Summary
 
-This document outlines the complete plan for building the OSinvest website - a high-converting B2B marketing site that positions OSinvest as a credible alternative to Big 4 consulting firms for founders raising institutional capital.
+This document outlines the complete plan for building the InvestOS website - a high-converting B2B marketing site that positions InvestOS as a credible alternative to Big 4 consulting firms for founders raising institutional capital.
 
 **Key Decisions:**
-- **Brand:** Separate domain (osinvest.com), independent from Transformational Epicenter
+- **Brand:** Separate domain (investos.com), independent from Transformational Epicenter
 - **Scope:** Full comprehensive build with all interactive features
 - **Design:** Reuse existing botanical/luxury design system from TE codebase
-- **Content:** All content derived from OSINVEST_COMPLETE_OFFERING.md
+- **Content:** All content derived from INVESTOS_COMPLETE_OFFERING.md
 - **Timeline:** 6-week phased implementation
 
 **Deliverables:**
@@ -47,7 +47,7 @@ This document outlines the complete plan for building the OSinvest website - a h
 
 ### What We're Building
 
-OSinvest is a fundraising infrastructure service that delivers in 14-30 days what traditionally costs $3.35M-$7.7M and takes 6-12 months. The website must:
+InvestOS is a fundraising infrastructure service that delivers in 14-30 days what traditionally costs $3.35M-$7.7M and takes 6-12 months. The website must:
 
 1. **Sell and wow** visitors immediately with compelling value proposition
 2. **Build credibility** through detailed service descriptions and proof points
@@ -79,7 +79,7 @@ OSinvest is a fundraising infrastructure service that delivers in 14-30 days wha
 ### Recommended Structure: Separate Next.js Application
 
 **Why separate from Transformational Epicenter:**
-- Different domain (osinvest.com)
+- Different domain (investos.com)
 - Independent brand identity and navigation
 - Different analytics, forms, integrations
 - Cleaner separation of concerns
@@ -91,7 +91,7 @@ OSinvest is a fundraising infrastructure service that delivers in 14-30 days wha
 transformational-epicenter/
 ├── [existing TE app]
 │
-└── osinvest/                        # NEW: Separate Next.js app
+└── investos/                        # NEW: Separate Next.js app
     ├── package.json
     ├── next.config.js
     ├── tailwind.config.ts           # Extends TE design
@@ -113,7 +113,7 @@ transformational-epicenter/
     │   │   └── [id]/page.tsx        # Dynamic A-J pages
     │   │
     │   ├── how-it-works/page.tsx
-    │   ├── why-osinvest/page.tsx
+    │   ├── why-investos/page.tsx
     │   ├── case-studies/page.tsx
     │   ├── faq/page.tsx
     │   ├── contact/page.tsx
@@ -131,7 +131,7 @@ transformational-epicenter/
     │   ├── data/
     │   │   ├── tiers.ts             # Foundation/Scale/Partner
     │   │   ├── services.ts          # A-J categories
-    │   │   ├── comparisons.ts       # Big 4 vs OSinvest
+    │   │   ├── comparisons.ts       # Big 4 vs InvestOS
     │   │   └── personas.ts          # Buyer personas
     │   ├── utils/
     │   │   ├── pricing.ts
@@ -155,14 +155,14 @@ import { CountUp, FadeIn, StaggerContainer } from '../../components/animation'
 import { cn } from '../../lib/utils'
 ```
 
-**Build new (OSinvest-specific):**
+**Build new (InvestOS-specific):**
 - TierCard (pricing tier display)
 - ServiceCard (A-J categories)
 - CompetitorMatrix (Big 4 comparison)
 - ROICalculator (savings calculator)
 - TierSelector (recommendation tool)
 - ProcessTimeline (14/21/30 day visualization)
-- Header/Footer (OSinvest branding)
+- Header/Footer (InvestOS branding)
 
 ---
 
@@ -179,7 +179,7 @@ import { cn } from '../../lib/utils'
 - Libre Baskerville headings
 - Source Sans 3 body text
 
-**OSinvest adaptations:**
+**InvestOS adaptations:**
 - Slightly larger base font (18px vs 16px) for B2B audience
 - Higher information density (more details per section)
 - Optional investment blue accent for financial credibility
@@ -188,7 +188,7 @@ import { cn } from '../../lib/utils'
 ### Tailwind Configuration
 
 ```typescript
-// osinvest/tailwind.config.ts
+// investos/tailwind.config.ts
 import teConfig from '../tailwind.config'
 
 export default {
@@ -240,7 +240,7 @@ Homepage (/)
 │
 ├── Supporting Pages
 │   ├── How It Works (/how-it-works)
-│   ├── Why OSinvest (/why-osinvest)
+│   ├── Why InvestOS (/why-investos)
 │   ├── Case Studies (/case-studies)
 │   ├── FAQ (/faq)
 │   ├── Contact (/contact)
@@ -262,11 +262,11 @@ Homepage (/)
 
 **Section 2: The Problem**
 - "The $3M Problem Nobody Talks About"
-- Split-screen comparison: Traditional (8 vendors, $3.35M-$7.7M, 6-12 months) vs OSinvest (1 system, $355K-$710K, 14-30 days)
+- Split-screen comparison: Traditional (8 vendors, $3.35M-$7.7M, 6-12 months) vs InvestOS (1 system, $355K-$710K, 14-30 days)
 - Visual: Fragmented nodes vs unified hub-and-spoke
 
 **Section 3: The Solution**
-- "What Is OSinvest?"
+- "What Is InvestOS?"
 - Vertical operating system explanation
 - What it replaces (8 vendors → 1 system)
 - Stack collapse narrative
@@ -280,7 +280,7 @@ Homepage (/)
 
 **Section 5: Service Categories**
 - 10-category grid (A-J)
-- Each with icon, name, traditional cost vs OSinvest price
+- Each with icon, name, traditional cost vs InvestOS price
 - Expandable cards with deliverables
 - Links to detail pages
 
@@ -298,9 +298,9 @@ Homepage (/)
 
 **Section 8: Why We Win**
 - Head-to-head comparison table
-- Big 4 vs Boutique IB vs OSinvest
+- Big 4 vs Boutique IB vs InvestOS
 - Dimensions: Cost, timeline, quality, vendors, hidden costs
-- Unique capabilities OSinvest offers
+- Unique capabilities InvestOS offers
 
 **Section 9: AI Advantage**
 - "96-98% cost reduction without cutting corners"
@@ -390,7 +390,7 @@ export const SERVICES = {
     description: '...',
     deliverables: [/* ... */],
     marketComparable: { min: 750000, max: 1500000 },
-    osinvestPrice: { min: 50000, max: 100000 },
+    investosPrice: { min: 50000, max: 100000 },
     whyItMatters: '...',
   },
   // B through J
@@ -411,14 +411,14 @@ export const SERVICES = {
 
 **ServiceCard**
 - Displays service category (A-J)
-- Traditional cost vs OSinvest price
+- Traditional cost vs InvestOS price
 - Expandable deliverables list
 - Links to service detail page
 
 **CompetitorMatrix**
-- Comparison table: Big 4 | Boutique IB | OSinvest
+- Comparison table: Big 4 | Boutique IB | InvestOS
 - Dimensions: Cost, Timeline, Quality, Hidden costs
-- Highlighting/checkmarks for OSinvest advantages
+- Highlighting/checkmarks for InvestOS advantages
 - Responsive: horizontal scroll on mobile
 
 **ContactForm**
@@ -436,7 +436,7 @@ export const SERVICES = {
 - "Book call to confirm scope" CTA
 
 **ROICalculator**
-- Calculator showing traditional cost vs OSinvest savings
+- Calculator showing traditional cost vs InvestOS savings
 - Inputs: Traditional budget, Timeline, Number of vendors
 - Output: Cost savings, Time savings, ROI percentage
 - Shareable results (PDF or link)
@@ -561,7 +561,7 @@ export async function POST(req: Request) {
 **Meta Tags** (per page):
 ```typescript
 export const metadata = {
-  title: 'OSinvest - Fundraising Infrastructure in 14-30 Days',
+  title: 'InvestOS - Fundraising Infrastructure in 14-30 Days',
   description: '$75K-$750K for what traditionally costs $3.35M-$7.7M...',
   keywords: ['fundraising consulting', 'financial modeling', ...],
   openGraph: { /* ... */ },
@@ -574,7 +574,7 @@ export const metadata = {
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "OSinvest Foundation Tier",
+  "name": "InvestOS Foundation Tier",
   "offers": {
     "@type": "Offer",
     "priceRange": "$75,000-$150,000",
@@ -602,7 +602,7 @@ export const metadata = {
 ### Week 1: Foundation & Data
 **Goals:** Set up structure, create data files
 
-- [ ] Set up osinvest/ directory
+- [ ] Set up investos/ directory
 - [ ] Install dependencies (Next.js 14, React 18, Tailwind, TypeScript)
 - [ ] Configure Tailwind to import TE design system
 - [ ] Create tier data (`lib/data/tiers.ts`)
@@ -620,7 +620,7 @@ export const metadata = {
 ### Week 2: Core Pages
 **Goals:** Build main pages with content
 
-- [ ] Build root layout (OSinvest header/footer)
+- [ ] Build root layout (InvestOS header/footer)
 - [ ] Build homepage (11 sections)
 - [ ] Build tier detail pages (Foundation, Scale, Partner)
 - [ ] Build service category pages (A-J via dynamic route)
@@ -704,13 +704,13 @@ export const metadata = {
 - [ ] Mobile responsiveness testing
 - [ ] Accessibility audit (WCAG 2.1 AA)
 - [ ] Cross-browser testing
-- [ ] Deploy to osinvest.com
+- [ ] Deploy to investos.com
 
 **Deliverables:**
 - Lighthouse score >90
 - Mobile optimized
 - Accessible
-- Live on osinvest.com
+- Live on investos.com
 
 ---
 
@@ -796,7 +796,7 @@ export const metadata = {
 ### Deployment
 - **Vercel** - Hosting and deployment
 - **GitHub** - Version control
-- **osinvest.com** - Custom domain
+- **investos.com** - Custom domain
 
 ---
 
