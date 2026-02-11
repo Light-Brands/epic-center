@@ -77,19 +77,19 @@ Gets a charitable tax deduction of $15-28M (appraised FMV)
 Tax savings of $5.6M to $10.4M+ (depending on AGI and appraisal)
    |
    v
-SEPARATELY receives 14% equity in the Operating Company
+SEPARATELY receives 15% equity in the Operating Company
    |
    v
 Joins the team as Founding Steward with advisory role
    |
    v
-14% OpCo equity at Year 5 = potentially $20,580,000
+15% OpCo equity at Year 5 = $22,050,000
    |
    v
 We can buy him out at Fair Market Value at any time
    |
    v
-TOTAL VALUE: $27M-30M+ vs. $11.9M from a sale
+TOTAL VALUE: $28M-31M+ vs. $11.9M from a sale
 ```
 
 ### Why This Works
@@ -99,10 +99,10 @@ TOTAL VALUE: $27M-30M+ vs. $11.9M from a sale
 | Cash received | $11.9M | $0 direct (but $5.6-10.4M in tax savings) |
 | Capital loss | ~$16M (limited annual use) | Not applicable |
 | Tax savings from loss | ~$3.8M (over many years) | $5.6-10.4M (over 6 years) |
-| Equity in project | $0 | 14% OpCo = $20.58M at Year 5 |
+| Equity in project | $0 | 15% OpCo = $22.05M at Year 5 |
 | Buyout option | N/A | We can buy him out at FMV anytime |
 | Purpose & involvement | None | Founding Steward, advisory board |
-| Total 5-year value | ~$15.7M | **$27-30M+** |
+| Total 5-year value | ~$15.7M | **$28-31M+** |
 | Emotional outcome | "I sold at a loss" | "I'm part of something that changes lives" |
 
 ---
@@ -152,7 +152,7 @@ Based on his expressed desires and psychological profile:
 |------|-------------------|
 | **Purpose** | Founding Steward of a healing center that changes lives |
 | **Legacy** | His property becomes a world-class transformation destination |
-| **Financial upside** | 14% equity in a $147M enterprise ($20M+ at Year 5) |
+| **Financial upside** | 15% equity in a $147M enterprise ($22M+ at Year 5) |
 | **Tax efficiency** | Charitable deduction worth $5.6-10.4M+ |
 | **Community** | Part of a team, advisory board, annual visits |
 | **Identity** | "I didn't sell at a loss. I donated to a cause that's changing the world." |
@@ -403,7 +403,7 @@ SELLER donates property to 501(c)(3)
 OpCo operates the Transformational Epicenter
    |
    v
-Seller receives 14% OpCo equity (SEPARATE from donation)
+Seller receives 15% OpCo equity (SEPARATE from donation)
    |
    v
 Seller joins advisory board as Founding Steward
@@ -456,15 +456,15 @@ The seller's equity in the OpCo must be **legally, temporally, and economically 
 | **No binding commitment** | At the time of donation, there must be no binding commitment to grant equity |
 | **Economic independence** | Each transaction must stand on its own economic merit |
 
-### 5.4 The Equity Terms -- 14% OpCo
+### 5.4 The Equity Terms -- 15% OpCo
 
 | Term | Detail |
 |------|--------|
-| **Stake** | 14% non-controlling interest in TE Wellness Holdings (OpCo) |
+| **Stake** | 15% non-controlling interest in TE Wellness Holdings (OpCo) |
 | **Justification** | Advisory services, industry expertise, property knowledge, network access, ongoing mentorship |
 | **Voting rights** | Non-voting preferred units |
 | **Vesting** | 4-year vest with 1-year cliff (protects founders if relationship sours) |
-| **Distribution rights** | 14% of OpCo distributions after preferred return to any investors |
+| **Distribution rights** | 15% of OpCo distributions after preferred return to any investors |
 | **Transfer** | Subject to ROFR by founders |
 | **Buyout** | Founders may purchase at FMV at any time after Year 1 (founders' option only) |
 | **Tag-along** | Yes |
@@ -472,13 +472,13 @@ The seller's equity in the OpCo must be **legally, temporally, and economically 
 
 ### 5.5 OpCo Equity Value Projection
 
-| Year | Enterprise Value | Seller's 14% | Basis |
+| Year | Enterprise Value | Seller's 15% | Basis |
 |------|-----------------|-------------|-------|
-| Year 1 | ~$29,000,000 | $4,060,000 | Post-money valuation |
-| Year 2 | ~$55,000,000 | $7,700,000 | Revenue multiple |
-| Year 3 | ~$87,000,000 | $12,180,000 | Revenue multiple |
-| Year 4 | ~$110,000,000 | $15,400,000 | Revenue multiple |
-| Year 5 | ~$147,000,000 | $20,580,000 | Sum-of-parts valuation |
+| Year 1 | ~$29,000,000 | $4,350,000 | Post-money valuation |
+| Year 2 | ~$55,000,000 | $8,250,000 | Revenue multiple |
+| Year 3 | ~$87,000,000 | $13,050,000 | Revenue multiple |
+| Year 4 | ~$110,000,000 | $16,500,000 | Revenue multiple |
+| Year 5 | ~$147,000,000 | $22,050,000 | Sum-of-parts valuation |
 
 ### 5.6 Total Value to Seller (Strategy A)
 
@@ -486,11 +486,11 @@ The seller's equity in the OpCo must be **legally, temporally, and economically 
 |-----------|-------|--------|
 | Cash received | $0 | -- |
 | Tax savings from donation (FMV $20M) | ~$7,560,000 | Years 1-6 |
-| 14% OpCo equity value (Year 5) | $20,580,000 | Ongoing |
+| 15% OpCo equity value (Year 5) | $22,050,000 | Ongoing |
 | Advisory compensation ($50K/year) | $250,000 | Years 1-5 |
-| **Total 5-year value** | **~$28,390,000** | |
+| **Total 5-year value** | **~$29,860,000** | |
 
-**Compared to selling for $11.9M: The donation deal is worth ~2.4x more.**
+**Compared to selling for $11.9M: The donation deal is worth ~2.5x more.**
 
 ### 5.7 What the 501(c)(3) Gets
 
@@ -506,10 +506,10 @@ The seller's equity in the OpCo must be **legally, temporally, and economically 
 | Benefit | Detail |
 |---------|--------|
 | Property at zero acquisition cost | No $10-12M raise needed for RE |
-| 86% OpCo control | After 14% to seller |
+| 85% OpCo control | After 15% to seller |
 | Full voting control | Seller holds non-voting units |
 | All IP protected | In Cayman entity, outside all arrangements |
-| Seller as advocate | 14% owner becomes the biggest champion |
+| Seller as advocate | 15% owner becomes the biggest champion |
 | Buyout optionality | Can consolidate to 100% whenever we want at FMV |
 | Reduced capital raise | Only need $5M for operations (not $15-17M) |
 
@@ -676,13 +676,13 @@ PROPERTY DONATION
   Estimated tax savings: $6,000,000 - $8,000,000+
 
 OPERATING COMPANY EQUITY
-  14% non-controlling equity in TE Wellness Holdings (OpCo)
+  15% non-controlling equity in TE Wellness Holdings (OpCo)
   Non-voting preferred units
   4-year vesting with 1-year cliff
-  Projected Year 5 value: $20,580,000
+  Projected Year 5 value: $22,050,000 (~$22M)
 
 BUYOUT CLAUSE
-  Founders may purchase seller's 14% at FMV at any time after Year 1
+  Founders may purchase seller's 15% at FMV at any time after Year 1
   Seller cannot force a sale -- founders' option only
   Price: Fair Market Value (independent valuation or trailing EBITDA x agreed multiple)
   Payment: Cash, or 50% cash + 50% over 12 months
@@ -701,10 +701,10 @@ OPERATIONAL INVESTMENT (FROM OUR SIDE)
 
 TOTAL VALUE TO SELLER (5-YEAR HORIZON)
   Tax savings:           $6,000,000 - $8,000,000+
-  OpCo equity (Year 5):  $20,580,000
+  OpCo equity (Year 5):  $22,050,000
   Advisory compensation:  $250,000
   ─────────────────────────────────────────
-  TOTAL:                  $27,000,000 - $29,000,000+
+  TOTAL:                  $28,000,000 - $31,000,000+
 
   vs. $11,900,000 from a market sale
 
@@ -715,9 +715,9 @@ TOTAL VALUE TO SELLER (5-YEAR HORIZON)
 
 > "You invested $28 million of your life into this property. You built something extraordinary. Right now, the market is offering you $12 million -- less than half of what you put in.
 >
-> We're not here to negotiate you down. We're here to show you how your $12 million property becomes $20 million -- while getting a multi-million dollar tax write-off, joining a team that's going to change thousands of lives, and being remembered as the man who made it all possible.
+> We're not here to negotiate you down. We're here to show you how your $12 million property becomes $22 million -- while getting a multi-million dollar tax write-off, joining a team that's going to change thousands of lives, and being remembered as the man who made it all possible.
 >
-> The market values your property at $12 million. We value it at $20 million -- because we know what it's going to become. Your $20 million comes as 14% of everything we build.
+> The market values your property at $12 million. We value it at $22 million -- because we know what it's going to become. Your $22 million comes as 15% of everything we build.
 >
 > This is not a sale. This is an evolution. Your property doesn't get flipped or bulldozed. It becomes the birthplace of a global healing movement. And you're not a former owner watching from the sidelines -- you're a founding partner with equity in everything we build.
 >
@@ -734,12 +734,12 @@ TOTAL VALUE TO SELLER (5-YEAR HORIZON)
 | **Day 1 Cash** | $11,900,000 | $0 |
 | **Tax savings (Year 1-6)** | ~$3,800,000 (capital loss, IF future gains exist) | $6,000,000 - $8,000,000+ (charitable deduction) |
 | **Tax mechanism** | Capital loss (limited to $3K/yr vs ordinary income) | Charitable deduction (reduces ordinary income) |
-| **Equity in project** | $0 | 14% OpCo = $20,580,000 at Year 5 |
+| **Equity in project** | $0 | 15% OpCo = $22.05M at Year 5 |
 | **Buyout option** | N/A | We can buy him out at FMV anytime after Year 1 |
 | **Advisory income** | $0 | $50,000/year |
 | **Purpose & involvement** | Zero -- he's gone | Founding Steward, advisory board |
 | **Legacy** | Property likely gets flipped/demolished | Property becomes a healing destination |
-| **Total 5-year economic value** | ~$15,700,000 | ~$27,000,000 - $29,000,000+ |
+| **Total 5-year economic value** | ~$15,700,000 | ~$28,000,000 - $31,000,000+ |
 | **Story** | "I sold at a 57% loss in my divorce" | "I donated my life's work to launch a global healing movement and I'm a founding partner" |
 | **Emotional outcome** | Loss, grief, closure | Purpose, growth, evolution |
 
@@ -775,20 +775,20 @@ TOTAL VALUE TO SELLER (5-YEAR HORIZON)
 
 ## 10. Equity Structure & Financial Modeling
 
-### 10.1 Why 14% OpCo -- The Math
+### 10.1 Why 15% OpCo -- The Math
 
-The seller's property is worth ~$12M on the open market. We value it at $20M through equity -- because we know what it's going to become. 14% of our Year 5 value ($147M) = $20,580,000. Clean. Fair. Generous. Defensible.
+The seller's property is worth ~$12M on the open market. We value it at $22M through equity -- because we know what it's going to become. 15% of our Year 5 value ($147M) = $22,050,000. Clean. Fair. Generous. Defensible.
 
-**Why 14% -- not 25% or 10%:**
+**Why 15% -- not 25% or 10%:**
 
 ```
 His property (market value):          ~$12,000,000
-We value it at:                       $20,000,000 (through equity)
-14% of our Year 5 value ($147M):     $20,580,000 ✓
+We value it at:                       $22,000,000 (through equity)
+15% of our Year 5 value ($147M):     $22,050,000 ✓
 
 Not 25% — because $36.75M overvalues a $12M property by 3x.
 Not 10% — because $14.7M doesn't clear the market price by enough.
-14% = $20M. Clean. Fair. Generous. Defensible.
+15% = $22M. Clean. Fair. Generous. Defensible.
 ```
 
 **From the seller's perspective:**
@@ -797,17 +797,17 @@ Not 10% — because $14.7M doesn't clear the market price by enough.
 |-------|-------|
 | Property FMV (market) | ~$12,000,000 |
 | Tax savings received | ~$7,500,000 |
-| 14% of Year 5 enterprise value ($147M) | $20,580,000 |
-| Return on market value | **72% gain in 5 years** |
+| 15% of Year 5 enterprise value ($147M) | $22,050,000 |
+| Return on market value | **83% gain in 5 years** |
 
 **From the founders' perspective:**
 
 | Metric | Value |
 |--------|-------|
-| OpCo equity retained | 86% (minimum) |
-| Value of 86% at Year 5 | $126,420,000 |
-| Cost of seller's 14% | $0 cash |
-| What 14% replaced | $10-12M capital raise for RE acquisition |
+| OpCo equity retained | 85% (minimum) |
+| Value of 85% at Year 5 | $124,950,000 |
+| Cost of seller's 15% | $0 cash |
+| What 15% replaced | $10-12M capital raise for RE acquisition |
 | Effective cost of equity | $0 (the donation IS the consideration) |
 | Buyout optionality | Can consolidate to 100% at FMV anytime after Year 1 |
 
@@ -818,7 +818,7 @@ Since the property is donated to the 501(c)(3), the **nonprofit owns the real es
 | Old Structure | New Structure |
 |---------------|---------------|
 | Seller owns 25% of RE entity | 501(c)(3) owns 100% of RE |
-| Seller's RE equity | No RE equity -- replaced by 14% OpCo equity |
+| Seller's RE equity | No RE equity -- replaced by 15% OpCo equity |
 | RE value to seller | Captured through OpCo lease payments |
 
 The 501(c)(3) leases the property to the OpCo at arm's length rent. The OpCo's operating margins already account for rent. The lease structure means:
@@ -826,7 +826,7 @@ The 501(c)(3) leases the property to the OpCo at arm's length rent. The OpCo's o
 - Nonprofit earns rental income (supports its mission)
 - OpCo has a lease expense (standard business expense)
 - Founders control the OpCo (which is where all the value is)
-- Seller's 14% OpCo equity captures value from operations on the property
+- Seller's 15% OpCo equity captures value from operations on the property
 
 ### 10.3 The $5M Operations Capital
 
@@ -853,10 +853,10 @@ This $5M covers:
 |------------------|---------------|
 | Need to raise $15-17M | Need to raise $5M |
 | Investors get 25-30% OpCo | Investors get 10-15% OpCo |
-| Seller gets 0-10% | Seller gets 14% |
+| Seller gets 0-10% | Seller gets 15% |
 | Founders retain ~65-75% | Founders retain ~71-76% |
 
-**Net effect:** Founders retain MORE ownership than the non-donation scenario because the 14% equity stake eliminates the entire RE capital raise and its associated complexity, debt service, and investor management overhead. Plus we can buy the seller out at FMV anytime.
+**Net effect:** Founders retain MORE ownership than the non-donation scenario because the 15% equity stake eliminates the entire RE capital raise and its associated complexity, debt service, and investor management overhead. Plus we can buy the seller out at FMV anytime.
 
 ---
 
@@ -955,7 +955,7 @@ If the seller hesitates on the one-term offer, we have a sweetener:
 | Year 4 | $18.1M | $3,105,000 | $1,552,500 | $1,772,500 |
 | Year 5 | $20.3M | $5,299,000 | $2,649,500 | $4,422,000 |
 
-At a $15M threshold, the seller earns an additional ~$4.4M over 5 years. Combined with everything else, total package approaches **$33M+**.
+At a $15M threshold, the seller earns an additional ~$4.4M over 5 years. Combined with everything else, total package approaches **$35M+**.
 
 ### 12.3 When to Play This Card
 
@@ -990,7 +990,7 @@ At a $15M threshold, the seller earns an additional ~$4.4M over 5 years. Combine
 | **Anti-dilution** | Weighted average anti-dilution on future equity issuances |
 | **Information rights** | Quarterly financial summaries |
 | **Annual property visit** | Contractual right to annual complimentary stay |
-| **FMV buyout** | If founders want to buy out the 14%, must be at fair market value |
+| **FMV buyout** | If founders want to buy out the 15%, must be at fair market value |
 
 ### 13.3 Donation Clawback Scenarios
 
@@ -1152,7 +1152,7 @@ The US qualified appraisal requirements (USPAP) still apply, but appraising Mexi
 | 501(c)(3) Mexican registration | $5,000 - $15,000 | Founders |
 | **Total Mexico-specific costs** | **$330,000 - $1,285,000** | |
 
-These costs are meaningful but do not change the fundamental economics. On a deal where the seller's total value is $27-29M+, even $1.3M in Mexican transaction costs is ~4-5%.
+These costs are meaningful but do not change the fundamental economics. On a deal where the seller's total value is $28-31M+, even $1.3M in Mexican transaction costs is ~4%.
 
 ### 14B.6 Alternative: Donate to a Mexican Donataria Autorizada
 
@@ -1352,11 +1352,11 @@ Before finalizing this strategy, we MUST answer these questions:
 | **Cash to seller** | $0 | $5,000,000 | $1.2M/year stream |
 | **Charitable deduction** | $18-22M (full FMV) | $15M (partial) | $5-7M (remainder value) |
 | **Tax savings** | $6-8M+ | $5.6M | $2-2.6M |
-| **Equity** | 14% OpCo ($20.58M at Yr 5) | 14% OpCo ($20.58M at Yr 5) | 14% OpCo ($20.58M at Yr 5) |
+| **Equity** | 15% OpCo ($22.05M at Yr 5) | 15% OpCo ($22.05M at Yr 5) | 15% OpCo ($22.05M at Yr 5) |
 | **Buyout** | FMV anytime after Year 1 | FMV anytime after Year 1 | FMV anytime after Year 1 |
 | **Complexity** | Medium | High | Highest |
 | **IRS risk** | Medium (appraisal + step transaction) | Medium | Low-Medium |
-| **Total 5-year value** | $27-29M+ | $26-28M+ | $23-26M+ |
+| **Total 5-year value** | $28-31M+ | $28-30M+ | $24-27M+ |
 | **Best for seller who...** | Believes in the mission, has AGI to absorb deduction | Needs some cash now | Wants income stream + tax benefit |
 | **Our recommendation** | **YES** | If seller needs cash | If seller/advisor is conservative |
 
@@ -1368,13 +1368,13 @@ Before finalizing this strategy, we MUST answer these questions:
 
 1. He donates the property to a 501(c)(3)
 2. He gets a $6-8M+ tax write-off (over 6 years)
-3. He gets 14% of a $147M enterprise -- worth $20M at Year 5
+3. He gets 15% of a $147M enterprise -- worth $22M at Year 5
 4. He gets a title, a role, and a reason to wake up
 5. We can buy him out at Fair Market Value anytime after Year 1
 6. His property becomes something that changes thousands of lives
-7. His total economic value is **$27-29M+** vs. **$11.9M from a sale**
+7. His total economic value is **$28-31M+** vs. **$11.9M from a sale**
 
-The donation deal isn't just better than selling. It's in a completely different universe. **He gets 2x+ the total value, a purpose, a legacy, and a front-row seat to watch his property change the world.** And the equity is the engine -- his $12M property becomes $20M, plus the tax savings on top.
+The donation deal isn't just better than selling. It's in a completely different universe. **He gets 2x+ the total value, a purpose, a legacy, and a front-row seat to watch his property change the world.** And the equity is the engine -- his $12M property becomes $22M, plus the tax savings on top.
 
 ---
 
@@ -1452,22 +1452,22 @@ All $22M of the deduction is fully utilized. Zero waste.
 
 **OpCo Equity Value**
 
-| Year | Enterprise Value | Seller's 14% |
+| Year | Enterprise Value | Seller's 15% |
 |------|-----------------|-------------|
-| Year 1 | $29,000,000 | $4,060,000 |
-| Year 2 | $55,000,000 | $7,700,000 |
-| Year 3 | $87,000,000 | $12,180,000 |
-| Year 4 | $110,000,000 | $15,400,000 |
-| Year 5 | $147,000,000 | **$20,580,000** |
+| Year 1 | $29,000,000 | $4,350,000 |
+| Year 2 | $55,000,000 | $8,250,000 |
+| Year 3 | $87,000,000 | $13,050,000 |
+| Year 4 | $110,000,000 | $16,500,000 |
+| Year 5 | $147,000,000 | **$22,050,000** |
 
 **Buyout Optionality (Best Case)**
 
-| Buyout Timing | His 14% FMV | Founders Get |
+| Buyout Timing | His 15% FMV | Founders Get |
 |------|-------------|-------------|
-| Year 2 | ~$7,700,000 | 100% of OpCo |
-| Year 3 | ~$12,180,000 | 100% of OpCo |
-| Year 5 | ~$20,580,000 | 100% of OpCo |
-| Never | Rides equity | 86% of OpCo |
+| Year 2 | ~$8,250,000 | 100% of OpCo |
+| Year 3 | ~$13,050,000 | 100% of OpCo |
+| Year 5 | ~$22,050,000 | 100% of OpCo |
+| Never | Rides equity | 85% of OpCo |
 
 **Total Package -- Best Case**
 
@@ -1475,14 +1475,14 @@ All $22M of the deduction is fully utilized. Zero waste.
 |-----------|-------|------|
 | Cash at close | $0 | -- |
 | Tax savings (federal + state) | **$9,240,000** | Years 1-5 |
-| 14% OpCo equity (Year 5 FMV) | **$20,580,000** | Ongoing |
+| 15% OpCo equity (Year 5 FMV) | **$22,050,000** | Ongoing |
 | Advisory compensation ($50K/yr x 5) | **$250,000** | Years 1-5 |
 | Less: Mexican transfer costs | **-$330,000** | Day 1 (we absorb this) |
-| **TOTAL 5-YEAR VALUE** | **$29,740,000** | |
+| **TOTAL 5-YEAR VALUE** | **$31,210,000** | |
 
 **vs. selling for $11.9M + capital loss tax savings of ~$3.8M = ~$15.7M**
 
-**The donation deal is worth 1.9x more than selling.** The equity is the engine -- his $12M property becomes $20M. The tax savings are the cherry on top.
+**The donation deal is worth 2x more than selling.** The equity is the engine -- his $12M property becomes $22M. The tax savings are the cherry on top.
 
 ```
 ╔═══════════════════════════════════════════════════════════════╗
@@ -1490,14 +1490,14 @@ All $22M of the deduction is fully utilized. Zero waste.
 ║                                                               ║
 ║  Donation value:     $22,000,000 (appraised FMV)              ║
 ║  Tax savings:        $9,240,000  (fully utilized, zero waste) ║
-║  14% OpCo equity:    $20,580,000 (Year 5 value)               ║
+║  15% OpCo equity:    $22,050,000 (Year 5 value)               ║
 ║  Advisory comp:      $250,000                                 ║
 ║  Mexican costs:      -$330,000                                ║
 ║  ─────────────────────────────────────────────────────────    ║
-║  TOTAL TO SELLER:    $29,740,000                              ║
+║  TOTAL TO SELLER:    $31,210,000                              ║
 ║                                                               ║
 ║  vs. SELLING:        $15,700,000                              ║
-║  DONATION PREMIUM:   +$14,040,000 (89% more)                  ║
+║  DONATION PREMIUM:   +$15,510,000 (99% more)                  ║
 ║                                                               ║
 ║  Deduction waste:    $0                                       ║
 ║  IRS risk:           LOW-MEDIUM (defensible appraisal)        ║
@@ -1675,11 +1675,11 @@ Tax savings (23.8% LTCG + NIIT):   $544,000
 | Net cash after mortgage payoff | **$0** | -- |
 | Tax savings from deduction | **$1,890,000** | Years 1-6 |
 | Tax savings from capital loss | **$544,000** | Year 1-2 |
-| 14% OpCo equity (Year 5 FMV) | **$20,580,000** | Ongoing |
+| 15% OpCo equity (Year 5 FMV) | **$22,050,000** | Ongoing |
 | Advisory compensation | **$250,000** | Years 1-5 |
 | Less: Mexican transfer costs | **-$1,200,000** | Day 1 |
 | Less: Mortgage payoff (if we fund) | **$0** (seller covers from divorce) | |
-| **TOTAL 5-YEAR VALUE** | **$22,064,000** | |
+| **TOTAL 5-YEAR VALUE** | **$23,534,000** | |
 
 **vs. selling for $11.9M + capital loss savings of $2.38M = ~$14.28M**
 
@@ -1692,14 +1692,14 @@ Tax savings (23.8% LTCG + NIIT):   $544,000
 ║  Tax savings:         $2,434,000  ($1.89M deduction + $544K   ║
 ║                                    capital loss)              ║
 ║  Deduction wasted:    $4,600,000  (46% lost to AGI limit)    ║
-║  14% OpCo equity:     $20,580,000 (Year 5 value)              ║
+║  15% OpCo equity:     $22,050,000 (Year 5 value)              ║
 ║  Advisory comp:        $250,000                                ║
 ║  Mexican costs:        -$1,200,000                             ║
 ║  ─────────────────────────────────────────────────────────    ║
-║  TOTAL TO SELLER:      $22,064,000                            ║
+║  TOTAL TO SELLER:      $23,534,000                            ║
 ║                                                               ║
 ║  vs. SELLING:          $14,280,000                            ║
-║  DONATION PREMIUM:     +$7,784,000 (55% more)                 ║
+║  DONATION PREMIUM:     +$9,254,000 (65% more)                 ║
 ║                                                               ║
 ║  IRS risk:             MEDIUM-HIGH                             ║
 ║  Timeline to close:    8-14 months (new entity + divorce)     ║
@@ -1732,11 +1732,11 @@ The donation strategy **does not work** if any of these are true:
 |--------|--------------|--------------------|--------------------|
 | **Cash received** | $11,900,000 | $0 (net after mortgage) | $0 |
 | **Tax savings** | $2,380,000 | $2,434,000 | $9,240,000 |
-| **14% OpCo equity (Yr 5)** | $0 | $20,580,000 | $20,580,000 |
+| **15% OpCo equity (Yr 5)** | $0 | $22,050,000 | $22,050,000 |
 | **Advisory comp** | $0 | $250,000 | $250,000 |
 | **Mexican costs** | ~$300,000 | -$1,200,000 | -$330,000 |
-| **Total 5-year value** | **$13,980,000** | **$22,064,000** | **$29,740,000** |
-| **vs. selling** | baseline | **+$8.1M (+58%)** | **+$15.8M (+113%)** |
+| **Total 5-year value** | **$13,980,000** | **$23,534,000** | **$31,210,000** |
+| **vs. selling** | baseline | **+$9.6M (+68%)** | **+$17.2M (+123%)** |
 | **Deduction efficiency** | N/A | 54% (46% wasted) | 100% (zero waste) |
 | **Buyout option** | N/A | FMV anytime after Year 1 | FMV anytime after Year 1 |
 | **IRS audit risk** | None | Medium-High | Low-Medium |
@@ -1747,7 +1747,7 @@ The donation strategy **does not work** if any of these are true:
 
 ### 18.6 The Takeaway
 
-**Even in the worst case, the donation deal is worth $8M+ more than selling.** The equity in the OpCo is the engine. Whether the tax savings are $1.9M or $9.2M, the 14% OpCo equity at $20.58M is what makes this deal work -- his $12M property becomes $20M, a 72% gain on market value.
+**Even in the worst case, the donation deal is worth $9.5M+ more than selling.** The equity in the OpCo is the engine. Whether the tax savings are $1.9M or $9.2M, the 15% OpCo equity at $22.05M is what makes this deal work -- his $12M property becomes $22M, an 83% gain on market value.
 
 The tax deduction is the cherry on top. The equity is the cake. And the buyout clause gives us the optionality to consolidate to 100% whenever we're ready.
 
@@ -1759,7 +1759,7 @@ The tax deduction is the cherry on top. The equity is the cake. And the buyout c
 4. **What is his AGI?** (Determines deduction efficiency: wasted vs. fully used)
 5. **Can we get a good appraisal?** (Determines deduction size: $14M vs. $22M)
 
-Everything else is solvable with money and time. And if the donation mechanics don't work at all, the property-for-equity deal (see SIMPLE_PROPERTY_FOR_EQUITY.md) gets the same $20M equity outcome with less complexity -- just without the tax savings on top.
+Everything else is solvable with money and time. And if the donation mechanics don't work at all, the property-for-equity deal (see SIMPLE_PROPERTY_FOR_EQUITY.md) gets the same $22M equity outcome with less complexity -- just without the tax savings on top.
 
 ---
 
@@ -1768,5 +1768,5 @@ This document contains proprietary negotiation strategies and illustrative tax a
 
 ---
 
-*Document Version: 2.0 | February 2026 | Transformational Epicenter*
-*Updated: Equity adjusted from 25% to 14% targeting $20M at Year 5. Buyout clause added. Property-for-equity alternative referenced.*
+*Document Version: 2.1 | February 2026 | Transformational Epicenter*
+*Updated: Equity set at 15% targeting $22M at Year 5. Buyout clause included. Property-for-equity alternative referenced.*

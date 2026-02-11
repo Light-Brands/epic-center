@@ -1,6 +1,6 @@
 # The Donation Deal
 
-**He donates the property. Gets a massive tax write-off. Gets 14% of everything we build — worth $20M in 5 years. We can buy him out anytime. Total value: $22-29M vs. $11.9M from a sale.**
+**He donates the property. Gets a massive tax write-off. Gets 15% of everything we build — worth $22M in 5 years. We can buy him out anytime. Total value: $24-31M vs. $11.9M from a sale.**
 
 ---
 
@@ -10,7 +10,7 @@ He paid $28M. He's selling for $11.9M. That's a $16M loss no matter how you cut 
 
 Selling gives him $11.9M cash and a capital loss he can barely use ($3,000/year against regular income). Total realistic value from selling: **~$14M**.
 
-Donating gives him a tax write-off worth $2-9M, 14% ownership in a $147M company worth $20M at Year 5, and a reason to get out of bed. Total value: **$22-29M**.
+Donating gives him a tax write-off worth $2-9M, 15% ownership in a $147M company worth $22M at Year 5, and a reason to get out of bed. Total value: **$24-31M**.
 
 ```
 SELLING:
@@ -19,8 +19,8 @@ SELLING:
   + a story about losing money in his divorce
 
 DONATING:
-  $0 cash + $2-9M tax write-off + 14% of a $147M business ($20M)
-  = $22-29M total
+  $0 cash + $2-9M tax write-off + 15% of a $147M business ($22M)
+  = $24-31M total
   + a story about launching a global healing movement
 ```
 
@@ -39,7 +39,7 @@ STEP 2:  He gets a charitable tax deduction worth $14-22M
 STEP 3:  Tax savings: $2-9M over 6 years
          (depends on his income — higher income = bigger savings)
             |
-STEP 4:  SEPARATELY, he gets 14% equity in our operating company
+STEP 4:  SEPARATELY, he gets 15% equity in our operating company
          (for advisory services, expertise, and being part of the team)
             |
 STEP 5:  The nonprofit owns the property. We lease it. We operate.
@@ -51,30 +51,30 @@ STEP 6:  We can buy him out at Fair Market Value at any time.
 
 ---
 
-## What 14% Is Worth — Year by Year
+## What 15% Is Worth — Year by Year
 
-| Year | Enterprise Value | His 14% | What's Happening |
+| Year | Enterprise Value | His 15% | What's Happening |
 |------|-----------------|---------|------------------|
-| Year 1 | $29,000,000 | $4,060,000 | Building + first guests |
-| Year 2 | $55,000,000 | $7,700,000 | Ramping to capacity |
-| Year 3 | $87,000,000 | $12,180,000 | Full operations + expansion planning |
-| Year 4 | $110,000,000 | $15,400,000 | Brand established + licensing |
-| Year 5 | $147,000,000 | **$20,580,000** | Global platform + multiple revenue streams |
+| Year 1 | $29,000,000 | $4,350,000 | Building + first guests |
+| Year 2 | $55,000,000 | $8,250,000 | Ramping to capacity |
+| Year 3 | $87,000,000 | $13,050,000 | Full operations + expansion planning |
+| Year 4 | $110,000,000 | $16,500,000 | Brand established + licensing |
+| Year 5 | $147,000,000 | **$22,050,000** | Global platform + multiple revenue streams |
 
-His property becomes $20M in equity. That's not a loss. That's a 70%+ return on the market price — plus the tax savings on top.
+His property becomes $22M in equity. That's not a loss. That's an 83% return on the market price — plus the tax savings on top.
 
 ---
 
-## Why 14%
+## Why 15%
 
 ```
 His property (market value):          ~$12,000,000
-We value it at:                       $20,000,000 (through equity)
-14% of our Year 5 value ($147M):     $20,580,000 ✓
+We value it at:                       $22,000,000 (through equity)
+15% of our Year 5 value ($147M):     $22,050,000 ✓
 
 Not 25% — because $36.75M overvalues a $12M property by 3x.
 Not 10% — because $14.7M doesn't clear the market price by enough.
-14% = $20M. Clean. Fair. Generous. Defensible.
+15% = $22M. Clean. Fair. Generous. Defensible.
 ```
 
 ---
@@ -84,19 +84,19 @@ Not 10% — because $14.7M doesn't clear the market price by enough.
 ```
 SELLER gets:
   Tax write-off -------> $2M to $9M in saved taxes (over 6 years)
-  14% of OpCo ---------> Worth $20M at Year 5
+  15% of OpCo ---------> Worth $22M at Year 5
   Advisory role --------> $50K/year + annual retreat stay
   Buyout option --------> We buy him out at FMV whenever we're ready
   Purpose -------------> Founding Steward of a healing center
   Legacy --------------> His name on the wall. His property changes lives.
                          ---------
-                         TOTAL: $22M to $29M+
+                         TOTAL: $24M to $31M+
                          vs. $14M from a sale
 ```
 
 **What the seller gets (plain English):**
 - A tax deduction that could save him $2-9M depending on his income
-- 14% ownership in a business projected to be worth $147M in 5 years
+- 15% ownership in a business projected to be worth $147M in 5 years ($22M value)
 - A title, a role, quarterly calls, and an annual visit to his property
 - A guaranteed buyout at fair value whenever we choose to exercise it
 - The most powerful personal story he'll ever tell
@@ -104,14 +104,14 @@ SELLER gets:
 **What we get:**
 - The property at zero acquisition cost (no $10-12M capital raise needed)
 - Only need $5M for operations (instead of $15-17M)
-- 86% of the operating company
-- Full voting control — his 14% is non-voting
+- 85% of the operating company
+- Full voting control — his 15% is non-voting
 - Buyout option — we can consolidate to 100% anytime at FMV
 - A seller who's now our most powerful advocate
 - All IP stays protected in our Cayman entity — untouched
 
 **The pitch to the seller:**
-> "The market values your property at $12 million. We value it at $20 million — because we know what it's going to become. Your $20 million comes as 14% of everything we build. Plus a multi-million dollar tax write-off on top. This isn't a sale. This is your legacy."
+> "The market values your property at $12 million. We value it at $22 million — because we know what it's going to become. Your $22 million comes as 15% of everything we build. Plus a multi-million dollar tax write-off on top. This isn't a sale. This is your legacy."
 
 **Who this works for:** A seller who wants purpose. Who built something with his hands and can't stomach watching it get flipped into condos. Who said out loud: "I need more purpose." This is that purpose.
 
@@ -119,7 +119,7 @@ SELLER gets:
 
 ## The Buyout Clause
 
-We can buy his 14% at any time. Our option, not his.
+We can buy his 15% at any time. Our option, not his.
 
 | Term | Detail |
 |------|--------|
@@ -131,9 +131,9 @@ We can buy his 14% at any time. Our option, not his.
 | **Earliest** | After Year 1 |
 
 **What this looks like:**
-- Year 2: Buy him out at ~$7.7M
-- Year 3: Buy him out at ~$12.2M
-- Year 5: Buy him out at ~$20.6M
+- Year 2: Buy him out at ~$8.25M
+- Year 3: Buy him out at ~$13.05M
+- Year 5: Buy him out at ~$22.05M
 - Or never — let him ride
 
 We control the timing. He gets fair value whenever we move.
@@ -199,14 +199,14 @@ The deduction is limited to **30% of his annual income**. Whatever he can't use 
 |---|---|---|---|
 | **Cash in hand** | $11,900,000 | $0 | $0 |
 | **Tax savings** | ~$2,400,000 | ~$2,400,000 | ~$9,200,000 |
-| **14% OpCo equity (Yr 5)** | $0 | $20,580,000 | $20,580,000 |
+| **15% OpCo equity (Yr 5)** | $0 | $22,050,000 | $22,050,000 |
 | **Advisory comp** | $0 | $250,000 | $250,000 |
-| **Total 5-year value** | **~$14,000,000** | **~$23,000,000** | **~$30,000,000** |
-| **vs. selling** | — | +$9M more | +$16M more |
+| **Total 5-year value** | **~$14,000,000** | **~$25,000,000** | **~$31,500,000** |
+| **vs. selling** | — | +$11M more | +$17.5M more |
 | **Purpose** | None | Full | Full |
 | **His story** | "Sold at a loss" | "Built a healing center" | "Built a healing center" |
 
-Even in the worst case, the donation deal is worth **$9M more than selling**. The equity is the engine. The tax write-off is the cherry on top.
+Even in the worst case, the donation deal is worth **$11M more than selling**. The equity is the engine. The tax write-off is the cherry on top.
 
 ---
 
@@ -257,7 +257,7 @@ We bring the ibogaine experience to his property. Full medical team. Full ceremo
 
 **If he's not a US taxpayer, the tax write-off doesn't work.** The entire charitable deduction is a US tax benefit. No US taxes = no deduction = no tax savings.
 
-If the write-off doesn't work, pivot to the **Property-for-Equity deal** (no donation, no nonprofit, just property for 14% equity). Same $20M outcome — just without the tax savings on top.
+If the write-off doesn't work, pivot to the **Property-for-Equity deal** (no donation, no nonprofit, just property for 15% equity). Same $22M outcome — just without the tax savings on top.
 
 Other things that make it harder (but don't kill it):
 - Marital property → need divorce court approval
@@ -289,15 +289,15 @@ Get those five answers and we can dial this in precisely.
 |---|---|---|
 | **Property goes to** | 501(c)(3) nonprofit | Our RE entity directly |
 | **Tax write-off** | $2-9M+ | None |
-| **Equity** | 14% OpCo ($20M at Yr 5) | 14% OpCo ($20M at Yr 5) |
+| **Equity** | 15% OpCo ($22M at Yr 5) | 15% OpCo ($22M at Yr 5) |
 | **Buyout clause** | Yes — FMV anytime | Yes — FMV anytime |
-| **Total 5-year value** | $22-29M+ | $20M+ |
+| **Total 5-year value** | $24-31M+ | $22M+ |
 | **Complexity** | Higher (nonprofit, appraisal, IRS) | Lower (equity agreement only) |
 | **Best for** | US taxpayer with high income | Non-US taxpayer or simpler deal |
 | **His story** | "Donated to launch a healing movement" | "Invested my property into a $147M company" |
 
-**The donation deal is the premium offer.** More value, better story, bigger tax benefit. But if the donation mechanics don't work (not a US taxpayer, no aligned nonprofit, etc.), the property-for-equity deal gets the same $20M outcome with less complexity.
+**The donation deal is the premium offer.** More value, better story, bigger tax benefit. But if the donation mechanics don't work (not a US taxpayer, no aligned nonprofit, etc.), the property-for-equity deal gets the same $22M outcome with less complexity.
 
 ---
 
-**Bottom line:** Both deals give him $20M in equity. The donation deal adds $2-9M in tax savings on top. Either way, it's better than selling for $11.9M. We get the property, he gets purpose and equity, and we can buy him out whenever we want.
+**Bottom line:** Both deals give him $22M in equity. The donation deal adds $2-9M in tax savings on top. Either way, it's better than selling for $11.9M. We get the property, he gets purpose and equity, and we can buy him out whenever we want.
