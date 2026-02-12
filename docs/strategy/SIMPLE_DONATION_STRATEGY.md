@@ -1,6 +1,6 @@
 # The Donation Deal
 
-**He donates the property. Gets a massive tax write-off. Gets 15% of the Mexico operation (TE Ops Mexico + TE RE Mexico) — worth $22M in 5 years. We can buy him out anytime. Total value: $24-31M vs. $11.9M from a sale.**
+**He donates the property. Gets a massive tax write-off. Gets 15% of the Mexico operation (TE Ops Mexico + TE RE Mexico), worth $22M in 5 years. We can buy him out anytime. Total value: $24-31M vs. $11.9M from a sale.**
 
 ---
 
@@ -34,13 +34,13 @@ It's not even close.
 STEP 1:  Seller donates the property to a 501(c)(3) nonprofit
             |
 STEP 2:  He gets a charitable tax deduction worth $14-22M
-         (based on an independent appraisal — NOT his $28M cost)
+         (based on an independent appraisal, NOT his $28M cost)
             |
 STEP 3:  Tax savings: $2-9M over 6 years
-         (depends on his income — higher income = bigger savings)
+         (depends on his income, higher income = bigger savings)
             |
 STEP 4:  SEPARATELY, he gets 15% equity in the Mexico operation
-         (TE Ops Mexico + TE RE Mexico — this location only)
+         (TE Ops Mexico + TE RE Mexico, this location only)
             |
 STEP 5:  The nonprofit owns the property. We lease it. We operate.
          He's a Founding Steward with a seat at the table.
@@ -51,7 +51,7 @@ STEP 6:  We can buy him out at Fair Market Value at any time.
 
 ---
 
-## What 15% Is Worth — Year by Year
+## What 15% Is Worth: Year by Year
 
 *Enterprise values below reflect the Mexico operation (TE Ops Mexico + TE RE Mexico) only.*
 
@@ -63,7 +63,7 @@ STEP 6:  We can buy him out at Fair Market Value at any time.
 | Year 4 | $110,000,000 | $16,500,000 | Brand established + training programs |
 | Year 5 | $147,000,000 | **$22,050,000** | Mature operation + multiple revenue streams |
 
-His property becomes $22M in equity. That's not a loss. That's an 83% return on the market price — plus the tax savings on top.
+His property becomes $22M in equity. That's not a loss. That's an 83% return on the market price, plus the tax savings on top.
 
 ---
 
@@ -74,8 +74,8 @@ His property (market value):          ~$12,000,000
 We value it at:                       $22,000,000 (through equity)
 15% of our Year 5 value ($147M):     $22,050,000 ✓
 
-Not 25% — because $36.75M overvalues a $12M property by 3x.
-Not 10% — because $14.7M doesn't clear the market price by enough.
+Not 25% because $36.75M overvalues a $12M property by 3x.
+Not 10% because $14.7M doesn't clear the market price by enough.
 15% = $22M. Clean. Fair. Generous. Defensible.
 ```
 
@@ -107,12 +107,12 @@ SELLER gets:
 - The property at zero acquisition cost (no $10-12M capital raise needed)
 - Only need $5M for operations (instead of $15-17M)
 - 85% of the Mexico operation (TE Ops Mexico + TE RE Mexico)
-- Full voting control — his 15% is non-voting
-- Buyout option — we can consolidate Mexico to 100% anytime at FMV
+- Full voting control. His 15% is non-voting
+- Buyout option. We can consolidate Mexico to 100% anytime at FMV
 - A seller who's now our most powerful advocate
 
 **The pitch to the seller:**
-> "The market values your property at $12 million. We value it at $22 million — because we know what it's going to become. Your $22 million comes as 15% of everything we build at this location. Plus a multi-million dollar tax write-off on top. This isn't a sale. This is your legacy."
+> "The market values your property at $12 million. We value it at $22 million because we know what it's going to become. Your $22 million comes as 15% of everything we build at this location. Plus a multi-million dollar tax write-off on top. This isn't a sale. This is your legacy."
 
 **Who this works for:** A seller who wants purpose. Who built something with his hands and can't stomach watching it get flipped into condos. Who said out loud: "I need more purpose." This is that purpose.
 
@@ -135,7 +135,7 @@ We can buy his 15% at any time. Our option, not his.
 - Year 2: Buy him out at ~$8.25M
 - Year 3: Buy him out at ~$13.05M
 - Year 5: Buy him out at ~$22.05M
-- Or never — let him ride
+- Or never. Let him ride
 
 We control the timing. He gets fair value whenever we move.
 
@@ -145,7 +145,7 @@ We control the timing. He gets fair value whenever we move.
 
 **Can he write off the full $28M he invested?**
 
-Probably not. The IRS doesn't care what he paid. The charitable deduction is based on what the property is **worth today** — determined by an independent appraiser.
+Probably not. The IRS doesn't care what he paid. The charitable deduction is based on what the property is **worth today**, determined by an independent appraiser.
 
 ```
 What he paid:            $28,000,000  ← doesn't matter for the deduction
@@ -154,7 +154,7 @@ What an appraiser says:  $14-22M     ← THIS is the deduction
 ```
 
 **Why the appraisal could be higher than $11.9M:**
-- The listing price reflects a divorce fire sale — not true market value
+- The listing price reflects a divorce fire sale, not true market value
 - Replacement cost to rebuild this property today: $20M+
 - Income potential as a wellness retreat: supports $15-25M valuation
 - Take it off the market, wait 60-90 days, get a proper appraisal
@@ -163,7 +163,7 @@ What an appraiser says:  $14-22M     ← THIS is the deduction
 
 ---
 
-## The Tax Write-Off — How Fast He Uses It
+## The Tax Write-Off: How Fast He Uses It
 
 The deduction is limited to **30% of his annual income**. Whatever he can't use in Year 1 carries forward for 5 more years (6 years total). After that, anything unused is gone.
 
@@ -176,7 +176,7 @@ The deduction is limited to **30% of his annual income**. Whatever he can't use 
 | 3 | $4,500,000 | $1,890,000 | $5,670,000 |
 | 4 | $4,500,000 | $1,890,000 | $7,560,000 |
 | 5 | $4,000,000 | $1,680,000 | **$9,240,000** |
-| | **$22M used — nothing wasted** | | |
+| | **$22M used, nothing wasted** | | |
 
 **If he makes $3M/year** (worst case):
 
@@ -188,7 +188,7 @@ The deduction is limited to **30% of his annual income**. Whatever he can't use 
 | 4 | $900,000 | $315,000 | $1,260,000 |
 | 5 | $900,000 | $315,000 | $1,575,000 |
 | 6 | $900,000 | $315,000 | **$1,890,000** |
-| | **$5.4M used — $8.6M wasted** | | |
+| | **$5.4M used, $8.6M wasted** | | |
 
 **Bottom line:** His income determines how much of the write-off he actually gets to use. Higher income = more savings. But even in the worst case, the equity makes the deal worth it.
 
@@ -203,7 +203,7 @@ The deduction is limited to **30% of his annual income**. Whatever he can't use 
 | **15% TE Mexico equity (Yr 5)** | $0 | $22,050,000 | $22,050,000 |
 | **Advisory comp** | $0 | $250,000 | $250,000 |
 | **Total 5-year value** | **~$14,000,000** | **~$25,000,000** | **~$31,500,000** |
-| **vs. selling** | — | +$11M more | +$17.5M more |
+| **vs. selling** | - | +$11M more | +$17.5M more |
 | **Purpose** | None | Full | Full |
 | **His story** | "Sold at a loss" | "Built a healing center" | "Built a healing center" |
 
@@ -241,14 +241,14 @@ We bring the ibogaine experience to his property. Full medical team. Full ceremo
 
 **Why:**
 - He *feels* what we're building instead of hearing about it
-- He experiences transformation in his own home — the property becomes sacred to him in a new way
+- He experiences transformation in his own home. The property becomes sacred to him in a new way
 - Post-journey, he's in a state of clarity, openness, and purpose
-- The pitch isn't theoretical anymore — he has a direct reference
+- The pitch isn't theoretical anymore. He has a direct reference
 
 **The sequence:**
 1. Visit. Build relationship. Share the vision. No numbers.
 2. Invite him to experience the medicine. On his property.
-3. After integration — share the donation concept.
+3. After integration, share the donation concept.
 4. Present the one-term offer.
 5. Send $100K deposit on verbal agreement.
 
@@ -258,7 +258,7 @@ We bring the ibogaine experience to his property. Full medical team. Full ceremo
 
 **If he's not a US taxpayer, the tax write-off doesn't work.** The entire charitable deduction is a US tax benefit. No US taxes = no deduction = no tax savings.
 
-If the write-off doesn't work, pivot to the **Property-for-Equity deal** (no donation, no nonprofit, just property for 15% equity). Same $22M outcome — just without the tax savings on top.
+If the write-off doesn't work, pivot to the **Property-for-Equity deal** (no donation, no nonprofit, just property for 15% equity). Same $22M outcome, just without the tax savings on top.
 
 Other things that make it harder (but don't kill it):
 - Marital property → need divorce court approval
@@ -278,7 +278,7 @@ Before we present this to him, we need to know:
 2. **What does he make per year?** (Determines how much of the write-off he can use)
 3. **Is the property 100% his?** (If marital, divorce court has to approve)
 4. **Is there a mortgage?** (Must be paid off before donation)
-5. **What's Travis's 501(c)(3)?** (Mission, status, board — has to be the right fit)
+5. **What's Travis's 501(c)(3)?** (Mission, status, board. Has to be the right fit)
 
 Get those five answers and we can dial this in precisely.
 
@@ -291,7 +291,7 @@ Get those five answers and we can dial this in precisely.
 | **Property goes to** | 501(c)(3) nonprofit | TE RE Mexico directly |
 | **Tax write-off** | $2-9M+ | None |
 | **Equity** | 15% TE Mexico ($22M at Yr 5) | 15% TE Mexico ($22M at Yr 5) |
-| **Buyout clause** | Yes — FMV anytime | Yes — FMV anytime |
+| **Buyout clause** | Yes, FMV anytime | Yes, FMV anytime |
 | **Total 5-year value** | $24-31M+ | $22M+ |
 | **Complexity** | Higher (nonprofit, appraisal, IRS) | Lower (equity agreement only) |
 | **Best for** | US taxpayer with high income | Non-US taxpayer or simpler deal |

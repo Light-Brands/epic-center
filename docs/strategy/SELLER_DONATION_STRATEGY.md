@@ -787,8 +787,8 @@ His property (market value):          ~$12,000,000
 We value it at:                       $22,000,000 (through equity)
 15% of Mexico Year 5 value ($147M):  $22,050,000 ✓
 
-Not 25% — because $36.75M overvalues a $12M property by 3x.
-Not 10% — because $14.7M doesn't clear the market price by enough.
+Not 25% because $36.75M overvalues a $12M property by 3x.
+Not 10% because $14.7M doesn't clear the market price by enough.
 15% = $22M. Clean. Fair. Generous. Defensible. Mexico only.
 ```
 

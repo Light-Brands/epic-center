@@ -1,18 +1,18 @@
 # The Property-for-Equity Deal
 
-**He gives us the property. We give him 15% of the Mexico operation — TE Ops Mexico + TE RE Mexico. His 15% is worth $22M in 5 years. We can buy him out anytime.**
+**He gives us the property. We give him 15% of the Mexico operation (TE Ops Mexico + TE RE Mexico). His 15% is worth $22M in 5 years. We can buy him out anytime.**
 
 ---
 
 ## The Narrative
 
-He put $28M into this property. The market says it's worth $12M. That's the market's number — not ours.
+He put $28M into this property. The market says it's worth $12M. That's the market's number, not ours.
 
-We value what he built at $22M. Not based on what a broker says. Based on what we're going to build on top of it. His property is the foundation of the Mexico operation — projected to be worth $147M at Year 5. We're giving him 15% of that operation, worth $22M in 5 years — more than what any buyer on the open market would pay him today.
+We value what he built at $22M. Not based on what a broker says. Based on what we're going to build on top of it. His property is the foundation of the Mexico operation, projected to be worth $147M at Year 5. We're giving him 15% of that operation, worth $22M in 5 years. More than what any buyer on the open market would pay him today.
 
 He's not selling at a loss. He's converting his property into equity in this location's operation.
 
-> "The market values your property at $12 million. We value it at $22 million — because we know what it's going to become. Here's your $22 million. It's called 15% of everything we build at this location."
+> "The market values your property at $12 million. We value it at $22 million because we know what it's going to become. Here's your $22 million. It's called 15% of everything we build at this location."
 
 ---
 
@@ -38,7 +38,7 @@ That's it. One term. Clean. His equity is in the Mexico operation only.
 
 ---
 
-## What 15% Is Worth — Year by Year
+## What 15% Is Worth: Year by Year
 
 *Enterprise values below reflect the Mexico operation (TE Ops Mexico + TE RE Mexico) only.*
 
@@ -54,7 +54,7 @@ His $12M property becomes $22M+ in equity. That's not a loss. That's an 83%+ ret
 
 ---
 
-## Why 15% — The Math
+## Why 15%: The Math
 
 ```
 His property (market value):          ~$12,000,000
@@ -66,9 +66,9 @@ His "recovery" vs. $28M cost:         79% recovered through equity alone
                                       (vs. 43% recovered by selling for $11.9M)
 ```
 
-**Why not 25%?** Because 15% already gives him $22M — nearly double what the property is worth on the open market. 25% would be $36.75M, which overvalues a $12M property by 3x. 15% is fair, generous, and defensible.
+**Why not 25%?** Because 15% already gives him $22M, nearly double what the property is worth on the open market. 25% would be $36.75M, which overvalues a $12M property by 3x. 15% is fair, generous, and defensible.
 
-**Why not 10%?** Because $14.7M at Year 5 doesn't clear the $12M market value by enough margin. 15% gives him a clear premium — $22M on a $12M contribution. That's the sweet spot.
+**Why not 10%?** Because $14.7M at Year 5 doesn't clear the $12M market value by enough margin. 15% gives him a clear premium. $22M on a $12M contribution. That's the sweet spot.
 
 ---
 
@@ -77,7 +77,7 @@ His "recovery" vs. $28M cost:         79% recovered through equity alone
 ```
 SELLER gets:
   15% of TE Mexico -----> Worth $22M at Year 5
-  (TE Ops Mexico + TE RE Mexico — this location only)
+  (TE Ops Mexico + TE RE Mexico, this location only)
   Advisory role ---------> $50K/year + annual retreat stay
   Founding Steward ------> Permanent title, name on the wall
   Buyout option ---------> We can buy him out at FMV anytime
@@ -89,11 +89,11 @@ SELLER gets:
 
 **Plain English:**
 - 15% ownership in the Mexico operation projected to be worth $147M
-- Non-voting — he has no say in operations, but he benefits from every dollar we earn
-- $50K/year advisory fee — real money for showing up to quarterly calls
+- Non-voting. He has no say in operations, but he benefits from every dollar we earn
+- $50K/year advisory fee. Real money for showing up to quarterly calls
 - A complimentary annual retreat stay on the property he built
 - His name on the wall. Permanently.
-- If we want to buy him out early — say Year 3 when his 15% is worth $13M — we pay him FMV and he walks away with cash
+- If we want to buy him out early, say Year 3 when his 15% is worth $13M, we pay him FMV and he walks away with cash
 
 ## What We Get
 
@@ -104,14 +104,14 @@ WE get:
   Full voting control ----> His 15% is non-voting
   Buyout optionality -----> Can consolidate Mexico to 100% whenever we want
   Capital efficiency -----> Only need $5M for operations (not $15-17M)
-  Built-in advocate ------> He owns 15% of this location — he's our biggest champion
+  Built-in advocate ------> He owns 15% of this location, so he's our biggest champion
 ```
 
 ---
 
 ## The Buyout Clause
 
-We can buy his 15% at any time. He can't force a sale — only we can trigger the buyout.
+We can buy his 15% at any time. He can't force a sale. Only we can trigger the buyout.
 
 | Term | Detail |
 |------|--------|
@@ -126,7 +126,7 @@ We can buy his 15% at any time. He can't force a sale — only we can trigger th
 - Year 2: If we want to consolidate before a big raise, we buy him out at ~$8.25M
 - Year 3: Before expansion, buy out at ~$13.05M
 - Year 5: After full maturity, buy out at ~$22.05M
-- Or never — let him ride and collect distributions
+- Or never. Let him ride and collect distributions
 
 We control the timing. He gets the upside whenever we decide to move.
 
@@ -136,9 +136,9 @@ We control the timing. He gets the upside whenever we decide to move.
 
 > "You built this property with $28 million and 8 years of your life. The market wants to hand you $12 million and forget your name.
 >
-> We're offering you something the market can't — $22 million in equity in a Mexico operation that's going to be worth $147 million. Your property doesn't get flipped. It becomes the birthplace of a global healing movement. And you're not a former owner. You're a founding partner.
+> We're offering you something the market can't: $22 million in equity in a Mexico operation that's going to be worth $147 million. Your property doesn't get flipped. It becomes the birthplace of a global healing movement. And you're not a former owner. You're a founding partner.
 >
-> Your 15% is non-voting — we run the show. But every dollar we earn, you earn 15 cents. Every life we change, your property made it possible. And if we ever want to buy you out, we pay you fair market value in cash.
+> Your 15% is non-voting. We run the show. But every dollar we earn, you earn 15 cents. Every life we change, your property made it possible. And if we ever want to buy you out, we pay you fair market value in cash.
 >
 > You told us you want more purpose. This is it."
 
@@ -150,17 +150,17 @@ We control the timing. He gets the upside whenever we decide to move.
 |---|---|---|
 | **Cash Day 1** | $11,900,000 | $0 |
 | **Year 5 value** | $11,900,000 (spent) | $22,050,000 (growing) |
-| **Total return** | $11.9M — done | $22M+ and still climbing |
+| **Total return** | $11.9M, done | $22M+ and still climbing |
 | **Involvement** | Gone | Founding Steward |
 | **What happens to property** | Flipped by the next buyer | Healing center changing lives |
 | **His story** | "Sold at a 57% loss" | "I'm a founding partner" |
 
 ---
 
-## Protections — Both Sides
+## Protections: Both Sides
 
 **For us:**
-- Non-voting equity — zero governance for him
+- Non-voting equity, zero governance for him
 - 4-year vesting with 1-year cliff (if he disengages, unvested shares forfeit)
 - Buyout at FMV at any time (our option)
 - ROFR if he tries to transfer
@@ -173,7 +173,7 @@ We control the timing. He gets the upside whenever we decide to move.
 - Anti-dilution protection (weighted average)
 - Quarterly financial summaries
 - Annual complimentary retreat stay
-- FMV buyout — can't be squeezed below fair value
+- FMV buyout, can't be squeezed below fair value
 - Vesting accelerates on change of control
 
 ---
@@ -190,4 +190,4 @@ That's it. No cash from him. No complicated financing. Property for equity. One 
 
 ---
 
-**Bottom line:** We're not asking him to sell at a loss. We're asking him to invest his property into a Mexico operation worth $147M — and keep 15% of it. His $12M property becomes $22M. He gets purpose, equity, and a legacy. We get the property, full control, and 85% of the operation. One clean deal.
+**Bottom line:** We're not asking him to sell at a loss. We're asking him to invest his property into a Mexico operation worth $147M and keep 15% of it. His $12M property becomes $22M. He gets purpose, equity, and a legacy. We get the property, full control, and 85% of the operation. One clean deal.
