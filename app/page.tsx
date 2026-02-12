@@ -629,7 +629,7 @@ export default function VisionPage() {
           </p>
           <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl shadow-neutral-900/15 border border-neutral-200/50">
             <iframe
-              src="https://www.youtube.com/embed/tzPCRxYmrfY?si=59AA_x0VoVHQRdAN"
+              src="https://www.youtube.com/embed/YFByodI4j0U?si=gFf-5hBSAU3u9VWC"
               title="Rancho Paraiso Oasis - Property Walkthrough"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
