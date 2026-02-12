@@ -25,7 +25,7 @@
 2. [The Seller's Reality -- Why Donation Beats Selling](#2-the-sellers-reality)
 3. [The $28M Question -- Can He Write Off His Full Cost?](#3-the-28m-question)
 4. [Deep Dive: Tax Write-Off Analysis](#4-deep-dive-tax-write-off-analysis)
-5. [Strategy A: Full Donation to 501(c)(3) + OpCo Equity](#5-strategy-a-full-donation--opco-equity)
+5. [Strategy A: Full Donation to 501(c)(3) + TE Mexico Equity](#5-strategy-a-full-donation--te-mexico-equity)
 6. [Strategy B: Bargain Sale + Partial Donation](#6-strategy-b-bargain-sale--partial-donation)
 7. [Strategy C: Charitable Remainder Trust (CRT)](#7-strategy-c-charitable-remainder-trust)
 8. [The One-Term Offer -- What We Present](#8-the-one-term-offer)
@@ -77,13 +77,13 @@ Gets a charitable tax deduction of $15-28M (appraised FMV)
 Tax savings of $5.6M to $10.4M+ (depending on AGI and appraisal)
    |
    v
-SEPARATELY receives 15% equity in the Operating Company
+SEPARATELY receives 15% equity in the Mexico operation (TE Ops Mexico + TE RE Mexico)
    |
    v
 Joins the team as Founding Steward with advisory role
    |
    v
-15% OpCo equity at Year 5 = $22,050,000
+15% TE Mexico equity at Year 5 = $22,050,000
    |
    v
 We can buy him out at Fair Market Value at any time
@@ -99,7 +99,7 @@ TOTAL VALUE: $28M-31M+ vs. $11.9M from a sale
 | Cash received | $11.9M | $0 direct (but $5.6-10.4M in tax savings) |
 | Capital loss | ~$16M (limited annual use) | Not applicable |
 | Tax savings from loss | ~$3.8M (over many years) | $5.6-10.4M (over 6 years) |
-| Equity in project | $0 | 15% OpCo = $22.05M at Year 5 |
+| Equity in project | $0 | 15% TE Mexico = $22.05M at Year 5 |
 | Buyout option | N/A | We can buy him out at FMV anytime |
 | Purpose & involvement | None | Founding Steward, advisory board |
 | Total 5-year value | ~$15.7M | **$28-31M+** |
@@ -152,7 +152,7 @@ Based on his expressed desires and psychological profile:
 |------|-------------------|
 | **Purpose** | Founding Steward of a healing center that changes lives |
 | **Legacy** | His property becomes a world-class transformation destination |
-| **Financial upside** | 15% equity in a $147M enterprise ($22M+ at Year 5) |
+| **Financial upside** | 15% equity in the Mexico operation ($22M+ at Year 5) |
 | **Tax efficiency** | Charitable deduction worth $5.6-10.4M+ |
 | **Community** | Part of a team, advisory board, annual visits |
 | **Identity** | "I didn't sell at a loss. I donated to a cause that's changing the world." |
@@ -380,11 +380,11 @@ If the seller donates:
 - **Loses the capital loss entirely**
 - The difference between cost and FMV evaporates -- no deduction for the loss portion
 
-This means the donation must create **more tax value** than the combination of sale proceeds + capital loss tax savings. This is why the equity component is essential -- the donation deal only wins when you include the OpCo equity.
+This means the donation must create **more tax value** than the combination of sale proceeds + capital loss tax savings. This is why the equity component is essential -- the donation deal only wins when you include the TE Mexico equity.
 
 ---
 
-## 5. Strategy A: Full Donation to 501(c)(3) + OpCo Equity
+## 5. Strategy A: Full Donation to 501(c)(3) + TE Mexico Equity
 
 ### The Structure
 
@@ -403,7 +403,7 @@ SELLER donates property to 501(c)(3)
 OpCo operates the Transformational Epicenter
    |
    v
-Seller receives 15% OpCo equity (SEPARATE from donation)
+Seller receives 15% equity in TE Ops Mexico + TE RE Mexico (SEPARATE from donation)
    |
    v
 Seller joins advisory board as Founding Steward
@@ -440,7 +440,7 @@ Seller joins advisory board as Founding Steward
 
 **THIS IS THE MOST CRITICAL LEGAL POINT IN THE ENTIRE STRATEGY.**
 
-The seller's equity in the OpCo must be **legally, temporally, and economically separate** from the donation. If the IRS determines the equity was a condition of the donation, two catastrophic things happen:
+The seller's equity in TE Mexico must be **legally, temporally, and economically separate** from the donation. If the IRS determines the equity was a condition of the donation, two catastrophic things happen:
 
 1. **Quid pro quo:** The charitable deduction is reduced by the FMV of the equity received
 2. **Step transaction doctrine:** The IRS treats the donation + equity grant as a single transaction, potentially eliminating the deduction entirely
@@ -456,24 +456,26 @@ The seller's equity in the OpCo must be **legally, temporally, and economically 
 | **No binding commitment** | At the time of donation, there must be no binding commitment to grant equity |
 | **Economic independence** | Each transaction must stand on its own economic merit |
 
-### 5.4 The Equity Terms -- 15% OpCo
+### 5.4 The Equity Terms -- 15% TE Mexico
 
 | Term | Detail |
 |------|--------|
-| **Stake** | 15% non-controlling interest in TE Wellness Holdings (OpCo) |
+| **Stake** | 15% non-controlling interest in TE Ops Mexico + TE RE Mexico (Mexico operation only) |
 | **Justification** | Advisory services, industry expertise, property knowledge, network access, ongoing mentorship |
 | **Voting rights** | Non-voting preferred units |
 | **Vesting** | 4-year vest with 1-year cliff (protects founders if relationship sours) |
-| **Distribution rights** | 15% of OpCo distributions after preferred return to any investors |
+| **Distribution rights** | 15% of TE Mexico distributions after preferred return to any investors |
 | **Transfer** | Subject to ROFR by founders |
 | **Buyout** | Founders may purchase at FMV at any time after Year 1 (founders' option only) |
 | **Tag-along** | Yes |
 | **Anti-dilution** | Weighted average anti-dilution on future equity issuances |
 
-### 5.5 OpCo Equity Value Projection
+### 5.5 TE Mexico Equity Value Projection
 
-| Year | Enterprise Value | Seller's 15% | Basis |
-|------|-----------------|-------------|-------|
+*Enterprise values below reflect the Mexico operation (TE Ops Mexico + TE RE Mexico) only.*
+
+| Year | Mexico Enterprise Value | Seller's 15% | Basis |
+|------|------------------------|-------------|-------|
 | Year 1 | ~$29,000,000 | $4,350,000 | Post-money valuation |
 | Year 2 | ~$55,000,000 | $8,250,000 | Revenue multiple |
 | Year 3 | ~$87,000,000 | $13,050,000 | Revenue multiple |
@@ -486,7 +488,7 @@ The seller's equity in the OpCo must be **legally, temporally, and economically 
 |-----------|-------|--------|
 | Cash received | $0 | -- |
 | Tax savings from donation (FMV $20M) | ~$7,560,000 | Years 1-6 |
-| 15% OpCo equity value (Year 5) | $22,050,000 | Ongoing |
+| 15% TE Mexico equity value (Year 5) | $22,050,000 | Ongoing |
 | Advisory compensation ($50K/year) | $250,000 | Years 1-5 |
 | **Total 5-year value** | **~$29,860,000** | |
 
@@ -506,11 +508,13 @@ The seller's equity in the OpCo must be **legally, temporally, and economically 
 | Benefit | Detail |
 |---------|--------|
 | Property at zero acquisition cost | No $10-12M raise needed for RE |
-| 85% OpCo control | After 15% to seller |
+| 85% of TE Mexico | After 15% to seller (this location only) |
 | Full voting control | Seller holds non-voting units |
-| All IP protected | In Cayman entity, outside all arrangements |
-| Seller as advocate | 15% owner becomes the biggest champion |
-| Buyout optionality | Can consolidate to 100% whenever we want at FMV |
+| **100% of TE Holdings (Cayman)** | Global parent entity — entirely ours |
+| **100% of all IP** | All IP stays in Cayman entity — untouched |
+| **100% of future locations** | Any future sites — entirely ours |
+| Seller as advocate | 15% owner of this location becomes the biggest champion |
+| Buyout optionality | Can consolidate Mexico to 100% whenever we want at FMV |
 | Reduced capital raise | Only need $5M for operations (not $15-17M) |
 
 ---
@@ -675,8 +679,8 @@ PROPERTY DONATION
   Estimated FMV: $18,000,000 - $22,000,000
   Estimated tax savings: $6,000,000 - $8,000,000+
 
-OPERATING COMPANY EQUITY
-  15% non-controlling equity in TE Wellness Holdings (OpCo)
+MEXICO OPERATION EQUITY
+  15% non-controlling equity in TE Ops Mexico + TE RE Mexico (this location only)
   Non-voting preferred units
   4-year vesting with 1-year cliff
   Projected Year 5 value: $22,050,000 (~$22M)
@@ -701,7 +705,7 @@ OPERATIONAL INVESTMENT (FROM OUR SIDE)
 
 TOTAL VALUE TO SELLER (5-YEAR HORIZON)
   Tax savings:           $6,000,000 - $8,000,000+
-  OpCo equity (Year 5):  $22,050,000
+  TE Mexico equity (Year 5):  $22,050,000
   Advisory compensation:  $250,000
   ─────────────────────────────────────────
   TOTAL:                  $28,000,000 - $31,000,000+
@@ -717,7 +721,7 @@ TOTAL VALUE TO SELLER (5-YEAR HORIZON)
 >
 > We're not here to negotiate you down. We're here to show you how your $12 million property becomes $22 million -- while getting a multi-million dollar tax write-off, joining a team that's going to change thousands of lives, and being remembered as the man who made it all possible.
 >
-> The market values your property at $12 million. We value it at $22 million -- because we know what it's going to become. Your $22 million comes as 15% of everything we build.
+> The market values your property at $12 million. We value it at $22 million -- because we know what it's going to become. Your $22 million comes as 15% of everything we build at this location.
 >
 > This is not a sale. This is an evolution. Your property doesn't get flipped or bulldozed. It becomes the birthplace of a global healing movement. And you're not a former owner watching from the sidelines -- you're a founding partner with equity in everything we build.
 >
@@ -734,7 +738,7 @@ TOTAL VALUE TO SELLER (5-YEAR HORIZON)
 | **Day 1 Cash** | $11,900,000 | $0 |
 | **Tax savings (Year 1-6)** | ~$3,800,000 (capital loss, IF future gains exist) | $6,000,000 - $8,000,000+ (charitable deduction) |
 | **Tax mechanism** | Capital loss (limited to $3K/yr vs ordinary income) | Charitable deduction (reduces ordinary income) |
-| **Equity in project** | $0 | 15% OpCo = $22.05M at Year 5 |
+| **Equity in project** | $0 | 15% TE Mexico = $22.05M at Year 5 |
 | **Buyout option** | N/A | We can buy him out at FMV anytime after Year 1 |
 | **Advisory income** | $0 | $50,000/year |
 | **Purpose & involvement** | Zero -- he's gone | Founding Steward, advisory board |
@@ -775,20 +779,20 @@ TOTAL VALUE TO SELLER (5-YEAR HORIZON)
 
 ## 10. Equity Structure & Financial Modeling
 
-### 10.1 Why 15% OpCo -- The Math
+### 10.1 Why 15% TE Mexico -- The Math
 
-The seller's property is worth ~$12M on the open market. We value it at $22M through equity -- because we know what it's going to become. 15% of our Year 5 value ($147M) = $22,050,000. Clean. Fair. Generous. Defensible.
+The seller's property is worth ~$12M on the open market. We value it at $22M through equity -- because we know what it's going to become. 15% of the Mexico operation's Year 5 value ($147M) = $22,050,000. Clean. Fair. Generous. Defensible. And scoped to this location only.
 
 **Why 15% -- not 25% or 10%:**
 
 ```
 His property (market value):          ~$12,000,000
 We value it at:                       $22,000,000 (through equity)
-15% of our Year 5 value ($147M):     $22,050,000 ✓
+15% of Mexico Year 5 value ($147M):  $22,050,000 ✓
 
 Not 25% — because $36.75M overvalues a $12M property by 3x.
 Not 10% — because $14.7M doesn't clear the market price by enough.
-15% = $22M. Clean. Fair. Generous. Defensible.
+15% = $22M. Clean. Fair. Generous. Defensible. Mexico only.
 ```
 
 **From the seller's perspective:**
@@ -797,19 +801,21 @@ Not 10% — because $14.7M doesn't clear the market price by enough.
 |-------|-------|
 | Property FMV (market) | ~$12,000,000 |
 | Tax savings received | ~$7,500,000 |
-| 15% of Year 5 enterprise value ($147M) | $22,050,000 |
+| 15% of Mexico Year 5 enterprise value ($147M) | $22,050,000 |
 | Return on market value | **83% gain in 5 years** |
 
 **From the founders' perspective:**
 
 | Metric | Value |
 |--------|-------|
-| OpCo equity retained | 85% (minimum) |
+| TE Mexico equity retained | 85% (minimum) |
 | Value of 85% at Year 5 | $124,950,000 |
 | Cost of seller's 15% | $0 cash |
 | What 15% replaced | $10-12M capital raise for RE acquisition |
 | Effective cost of equity | $0 (the donation IS the consideration) |
-| Buyout optionality | Can consolidate to 100% at FMV anytime after Year 1 |
+| Buyout optionality | Can consolidate Mexico to 100% at FMV anytime after Year 1 |
+| **TE Holdings (Cayman)** | **100% ours — seller has zero interest** |
+| **All IP & future locations** | **100% ours — seller has zero interest** |
 
 ### 10.2 RE Ownership -- The 501(c)(3) Structure
 
@@ -818,7 +824,7 @@ Since the property is donated to the 501(c)(3), the **nonprofit owns the real es
 | Old Structure | New Structure |
 |---------------|---------------|
 | Seller owns 25% of RE entity | 501(c)(3) owns 100% of RE |
-| Seller's RE equity | No RE equity -- replaced by 15% OpCo equity |
+| Seller's RE equity | No RE equity -- replaced by 15% TE Mexico equity |
 | RE value to seller | Captured through OpCo lease payments |
 
 The 501(c)(3) leases the property to the OpCo at arm's length rent. The OpCo's operating margins already account for rent. The lease structure means:
@@ -826,7 +832,8 @@ The 501(c)(3) leases the property to the OpCo at arm's length rent. The OpCo's o
 - Nonprofit earns rental income (supports its mission)
 - OpCo has a lease expense (standard business expense)
 - Founders control the OpCo (which is where all the value is)
-- Seller's 15% OpCo equity captures value from operations on the property
+- Seller's 15% TE Mexico equity captures value from operations on the property
+- Seller has ZERO interest in TE Holdings (Cayman parent), global IP, or future locations
 
 ### 10.3 The $5M Operations Capital
 
@@ -852,11 +859,11 @@ This $5M covers:
 | Without Donation | With Donation |
 |------------------|---------------|
 | Need to raise $15-17M | Need to raise $5M |
-| Investors get 25-30% OpCo | Investors get 10-15% OpCo |
+| Investors get 25-30% TE Mexico | Investors get 10-15% TE Mexico |
 | Seller gets 0-10% | Seller gets 15% |
 | Founders retain ~65-75% | Founders retain ~71-76% |
 
-**Net effect:** Founders retain MORE ownership than the non-donation scenario because the 15% equity stake eliminates the entire RE capital raise and its associated complexity, debt service, and investor management overhead. Plus we can buy the seller out at FMV anytime.
+**Net effect:** Founders retain MORE ownership than the non-donation scenario because the 15% equity stake (Mexico only) eliminates the entire RE capital raise and its associated complexity, debt service, and investor management overhead. Plus we can buy the seller out at FMV anytime. The global parent (TE Holdings), all IP, and future locations remain 100% founder-controlled.
 
 ---
 
@@ -929,7 +936,7 @@ If the seller hesitates on the one-term offer, we have a sweetener:
 
 | Term | Detail |
 |------|--------|
-| **Trigger** | OpCo EBITDA exceeds $[threshold] in any given year |
+| **Trigger** | TE Mexico EBITDA exceeds $[threshold] in any given year |
 | **Share** | 50% of EBITDA above the threshold |
 | **Duration** | 5 years from first operational year |
 | **Cap** | $10,000,000 lifetime maximum |
@@ -990,7 +997,7 @@ At a $15M threshold, the seller earns an additional ~$4.4M over 5 years. Combine
 | **Anti-dilution** | Weighted average anti-dilution on future equity issuances |
 | **Information rights** | Quarterly financial summaries |
 | **Annual property visit** | Contractual right to annual complimentary stay |
-| **FMV buyout** | If founders want to buy out the 15%, must be at fair market value |
+| **FMV buyout** | If founders want to buy out the 15% of TE Mexico, must be at fair market value |
 
 ### 13.3 Donation Clawback Scenarios
 
@@ -1352,7 +1359,7 @@ Before finalizing this strategy, we MUST answer these questions:
 | **Cash to seller** | $0 | $5,000,000 | $1.2M/year stream |
 | **Charitable deduction** | $18-22M (full FMV) | $15M (partial) | $5-7M (remainder value) |
 | **Tax savings** | $6-8M+ | $5.6M | $2-2.6M |
-| **Equity** | 15% OpCo ($22.05M at Yr 5) | 15% OpCo ($22.05M at Yr 5) | 15% OpCo ($22.05M at Yr 5) |
+| **Equity** | 15% TE Mexico ($22.05M at Yr 5) | 15% TE Mexico ($22.05M at Yr 5) | 15% TE Mexico ($22.05M at Yr 5) |
 | **Buyout** | FMV anytime after Year 1 | FMV anytime after Year 1 | FMV anytime after Year 1 |
 | **Complexity** | Medium | High | Highest |
 | **IRS risk** | Medium (appraisal + step transaction) | Medium | Low-Medium |
@@ -1368,7 +1375,7 @@ Before finalizing this strategy, we MUST answer these questions:
 
 1. He donates the property to a 501(c)(3)
 2. He gets a $6-8M+ tax write-off (over 6 years)
-3. He gets 15% of a $147M enterprise -- worth $22M at Year 5
+3. He gets 15% of the Mexico operation -- worth $22M at Year 5
 4. He gets a title, a role, and a reason to wake up
 5. We can buy him out at Fair Market Value anytime after Year 1
 6. His property becomes something that changes thousands of lives
@@ -1450,10 +1457,12 @@ Mexican costs:   ~$330,000
 
 All $22M of the deduction is fully utilized. Zero waste.
 
-**OpCo Equity Value**
+**TE Mexico Equity Value**
 
-| Year | Enterprise Value | Seller's 15% |
-|------|-----------------|-------------|
+*Mexico operation (TE Ops Mexico + TE RE Mexico) only.*
+
+| Year | Mexico Enterprise Value | Seller's 15% |
+|------|------------------------|-------------|
 | Year 1 | $29,000,000 | $4,350,000 |
 | Year 2 | $55,000,000 | $8,250,000 |
 | Year 3 | $87,000,000 | $13,050,000 |
@@ -1464,10 +1473,10 @@ All $22M of the deduction is fully utilized. Zero waste.
 
 | Buyout Timing | His 15% FMV | Founders Get |
 |------|-------------|-------------|
-| Year 2 | ~$8,250,000 | 100% of OpCo |
-| Year 3 | ~$13,050,000 | 100% of OpCo |
-| Year 5 | ~$22,050,000 | 100% of OpCo |
-| Never | Rides equity | 85% of OpCo |
+| Year 2 | ~$8,250,000 | 100% of TE Mexico |
+| Year 3 | ~$13,050,000 | 100% of TE Mexico |
+| Year 5 | ~$22,050,000 | 100% of TE Mexico |
+| Never | Rides equity | 85% of TE Mexico |
 
 **Total Package -- Best Case**
 
@@ -1475,7 +1484,7 @@ All $22M of the deduction is fully utilized. Zero waste.
 |-----------|-------|------|
 | Cash at close | $0 | -- |
 | Tax savings (federal + state) | **$9,240,000** | Years 1-5 |
-| 15% OpCo equity (Year 5 FMV) | **$22,050,000** | Ongoing |
+| 15% TE Mexico equity (Year 5 FMV) | **$22,050,000** | Ongoing |
 | Advisory compensation ($50K/yr x 5) | **$250,000** | Years 1-5 |
 | Less: Mexican transfer costs | **-$330,000** | Day 1 (we absorb this) |
 | **TOTAL 5-YEAR VALUE** | **$31,210,000** | |
@@ -1490,7 +1499,7 @@ All $22M of the deduction is fully utilized. Zero waste.
 ║                                                               ║
 ║  Donation value:     $22,000,000 (appraised FMV)              ║
 ║  Tax savings:        $9,240,000  (fully utilized, zero waste) ║
-║  15% OpCo equity:    $22,050,000 (Year 5 value)               ║
+║  15% TE Mexico equity:    $22,050,000 (Year 5 value)               ║
 ║  Advisory comp:      $250,000                                 ║
 ║  Mexican costs:      -$330,000                                ║
 ║  ─────────────────────────────────────────────────────────    ║
@@ -1675,7 +1684,7 @@ Tax savings (23.8% LTCG + NIIT):   $544,000
 | Net cash after mortgage payoff | **$0** | -- |
 | Tax savings from deduction | **$1,890,000** | Years 1-6 |
 | Tax savings from capital loss | **$544,000** | Year 1-2 |
-| 15% OpCo equity (Year 5 FMV) | **$22,050,000** | Ongoing |
+| 15% TE Mexico equity (Year 5 FMV) | **$22,050,000** | Ongoing |
 | Advisory compensation | **$250,000** | Years 1-5 |
 | Less: Mexican transfer costs | **-$1,200,000** | Day 1 |
 | Less: Mortgage payoff (if we fund) | **$0** (seller covers from divorce) | |
@@ -1692,7 +1701,7 @@ Tax savings (23.8% LTCG + NIIT):   $544,000
 ║  Tax savings:         $2,434,000  ($1.89M deduction + $544K   ║
 ║                                    capital loss)              ║
 ║  Deduction wasted:    $4,600,000  (46% lost to AGI limit)    ║
-║  15% OpCo equity:     $22,050,000 (Year 5 value)              ║
+║  15% TE Mexico equity:     $22,050,000 (Year 5 value)              ║
 ║  Advisory comp:        $250,000                                ║
 ║  Mexican costs:        -$1,200,000                             ║
 ║  ─────────────────────────────────────────────────────────    ║
@@ -1732,7 +1741,7 @@ The donation strategy **does not work** if any of these are true:
 |--------|--------------|--------------------|--------------------|
 | **Cash received** | $11,900,000 | $0 (net after mortgage) | $0 |
 | **Tax savings** | $2,380,000 | $2,434,000 | $9,240,000 |
-| **15% OpCo equity (Yr 5)** | $0 | $22,050,000 | $22,050,000 |
+| **15% TE Mexico equity (Yr 5)** | $0 | $22,050,000 | $22,050,000 |
 | **Advisory comp** | $0 | $250,000 | $250,000 |
 | **Mexican costs** | ~$300,000 | -$1,200,000 | -$330,000 |
 | **Total 5-year value** | **$13,980,000** | **$23,534,000** | **$31,210,000** |
@@ -1747,7 +1756,7 @@ The donation strategy **does not work** if any of these are true:
 
 ### 18.6 The Takeaway
 
-**Even in the worst case, the donation deal is worth $9.5M+ more than selling.** The equity in the OpCo is the engine. Whether the tax savings are $1.9M or $9.2M, the 15% OpCo equity at $22.05M is what makes this deal work -- his $12M property becomes $22M, an 83% gain on market value.
+**Even in the worst case, the donation deal is worth $9.5M+ more than selling.** The equity in TE Mexico is the engine. Whether the tax savings are $1.9M or $9.2M, the 15% TE Mexico equity at $22.05M is what makes this deal work -- his $12M property becomes $22M, an 83% gain on market value. And it's scoped to this location only -- the global parent, all IP, and future locations remain 100% ours.
 
 The tax deduction is the cherry on top. The equity is the cake. And the buyout clause gives us the optionality to consolidate to 100% whenever we're ready.
 
@@ -1768,5 +1777,5 @@ This document contains proprietary negotiation strategies and illustrative tax a
 
 ---
 
-*Document Version: 2.1 | February 2026 | Transformational Epicenter*
-*Updated: Equity set at 15% targeting $22M at Year 5. Buyout clause included. Property-for-equity alternative referenced.*
+*Document Version: 2.2 | February 2026 | Transformational Epicenter*
+*Updated: Equity set at 15% of TE Mexico (TE Ops Mexico + TE RE Mexico) targeting $22M at Year 5. Scoped to Mexico operation only — global parent, IP, and future locations excluded. Buyout clause included.*

@@ -1,6 +1,6 @@
 # The Property-for-Equity Deal
 
-**He gives us the property. We give him 15% of everything we build. His 15% is worth $22M in 5 years. We can buy him out anytime.**
+**He gives us the property. We give him 15% of the Mexico operation — TE Ops Mexico + TE RE Mexico. His 15% is worth $22M in 5 years. We can buy him out anytime. Global IP and parent entity are ours — untouched.**
 
 ---
 
@@ -8,21 +8,21 @@
 
 He put $28M into this property. The market says it's worth $12M. That's the market's number — not ours.
 
-We value what he built at $22M. Not based on what a broker says. Based on what we're going to build on top of it. His property is the foundation of a $147M enterprise. And we're giving him a piece of that enterprise that's worth $22M in 5 years — more than what any buyer on the open market would pay him today.
+We value what he built at $22M. Not based on what a broker says. Based on what we're going to build on top of it. His property is the foundation of the Mexico operation — projected to be worth $147M at Year 5. We're giving him 15% of that operation, worth $22M in 5 years — more than what any buyer on the open market would pay him today.
 
-He's not selling at a loss. He's converting his property into equity in something bigger than a building.
+He's not selling at a loss. He's converting his property into equity in this location's operation.
 
-> "The market values your property at $12 million. We value it at $22 million — because we know what it's going to become. Here's your $22 million. It's called 15% of everything we build."
+> "The market values your property at $12 million. We value it at $22 million — because we know what it's going to become. Here's your $22 million. It's called 15% of everything we build at this location."
 
 ---
 
 ## The Deal
 
 ```
-SELLER contributes the property
+SELLER contributes the property to TE RE Mexico
    |
    v
-Gets 15% of the Operating Company (non-voting)
+Gets 15% of TE Ops Mexico + TE RE Mexico (non-voting)
    |
    v
 His 15% is projected to be worth $22M at Year 5
@@ -32,21 +32,26 @@ We can buy him out at Fair Market Value at any time
    |
    v
 He stays connected as Founding Steward
+   |
+   v
+Global parent (TE Holdings, Cayman), all IP, and future locations = OURS (100%)
 ```
 
-That's it. One term. Clean.
+That's it. One term. Clean. His equity is in the Mexico operation only.
 
 ---
 
 ## What 15% Is Worth — Year by Year
 
-| Year | Enterprise Value | His 15% | What's Happening |
-|------|-----------------|---------|------------------|
+*Enterprise values below reflect the Mexico operation (TE Ops Mexico + TE RE Mexico) only.*
+
+| Year | Mexico Enterprise Value | His 15% | What's Happening |
+|------|------------------------|---------|------------------|
 | Year 1 | $29,000,000 | $4,350,000 | Building + first guests |
 | Year 2 | $55,000,000 | $8,250,000 | Ramping to capacity |
-| Year 3 | $87,000,000 | $13,050,000 | Full operations + expansion planning |
-| Year 4 | $110,000,000 | $16,500,000 | Brand established + licensing |
-| Year 5 | $147,000,000 | **$22,050,000** | Global platform + multiple revenue streams |
+| Year 3 | $87,000,000 | $13,050,000 | Full operations + at capacity |
+| Year 4 | $110,000,000 | $16,500,000 | Brand established + training programs |
+| Year 5 | $147,000,000 | **$22,050,000** | Mature operation + multiple revenue streams |
 
 His $12M property becomes $22M+ in equity. That's not a loss. That's an 83%+ return on the market price.
 
@@ -56,7 +61,7 @@ His $12M property becomes $22M+ in equity. That's not a loss. That's an 83%+ ret
 
 ```
 His property (market value):          ~$12,000,000
-Our Year 5 enterprise value:          $147,000,000
+Mexico Year 5 enterprise value:       $147,000,000
 15% of $147M:                         $22,050,000
 
 His "return" on market value:         +$10,050,000 (83% gain)
@@ -74,18 +79,19 @@ His "recovery" vs. $28M cost:         79% recovered through equity alone
 
 ```
 SELLER gets:
-  15% of OpCo ---------> Worth $22M at Year 5
-  Advisory role --------> $50K/year + annual retreat stay
-  Founding Steward -----> Permanent title, name on the wall
-  Buyout option --------> We can buy him out at FMV anytime
-                          (he gets liquidity whenever we're ready)
-                         ---------
-                         TOTAL: ~$22M+ over 5 years
-                         vs. $11.9M cash from a sale
+  15% of TE Mexico -----> Worth $22M at Year 5
+  (TE Ops Mexico + TE RE Mexico — this location only)
+  Advisory role ---------> $50K/year + annual retreat stay
+  Founding Steward ------> Permanent title, name on the wall
+  Buyout option ---------> We can buy him out at FMV anytime
+                           (he gets liquidity whenever we're ready)
+                          ---------
+                          TOTAL: ~$22M+ over 5 years
+                          vs. $11.9M cash from a sale
 ```
 
 **Plain English:**
-- 15% ownership in a company projected to be worth $147M
+- 15% ownership in the Mexico operation projected to be worth $147M
 - Non-voting — he has no say in operations, but he benefits from every dollar we earn
 - $50K/year advisory fee — real money for showing up to quarterly calls
 - A complimentary annual retreat stay on the property he built
@@ -96,14 +102,23 @@ SELLER gets:
 
 ```
 WE get:
-  The property ---------> At zero cash cost (equity only)
-  85% of OpCo ---------> Worth $125M+ at Year 5
-  Full voting control --> His 15% is non-voting
-  IP protected ---------> All IP stays in Cayman entity
-  Buyout optionality ---> Can consolidate to 100% whenever we want
-  Capital efficiency ---> Only need $5M for operations (not $15-17M)
-  Built-in advocate ----> He owns 15% — he's telling everyone about us
+  The property -----------> At zero cash cost (equity only)
+  85% of TE Mexico -------> Worth $125M+ at Year 5
+  Full voting control ----> His 15% is non-voting
+  100% of TE Holdings ----> Global parent entity (Cayman) — entirely ours
+  100% of all IP ---------> All IP stays in Cayman entity — untouched
+  100% of future sites ---> Any future locations — entirely ours
+  Buyout optionality -----> Can consolidate Mexico to 100% whenever we want
+  Capital efficiency -----> Only need $5M for operations (not $15-17M)
+  Built-in advocate ------> He owns 15% of this location — he's our biggest champion
 ```
+
+**What the seller does NOT get (explicit):**
+- Zero interest in TE Wellness Holdings (Cayman parent)
+- Zero interest in global IP, trademarks, or licensing revenue
+- Zero interest in future locations outside Mexico
+- Zero interest in Light Brands, Dubai Studio, or Church entities
+- Zero governance rights in any entity
 
 ---
 
@@ -134,7 +149,7 @@ We control the timing. He gets the upside whenever we decide to move.
 
 > "You built this property with $28 million and 8 years of your life. The market wants to hand you $12 million and forget your name.
 >
-> We're offering you something the market can't — $22 million in equity in a company that's going to be worth $147 million. Your property doesn't get flipped. It becomes the birthplace of a global healing movement. And you're not a former owner. You're a founding partner.
+> We're offering you something the market can't — $22 million in equity in a Mexico operation that's going to be worth $147 million. Your property doesn't get flipped. It becomes the birthplace of a global healing movement. And you're not a former owner. You're a founding partner.
 >
 > Your 15% is non-voting — we run the show. But every dollar we earn, you earn 15 cents. Every life we change, your property made it possible. And if we ever want to buy you out, we pay you fair market value in cash.
 >
@@ -188,4 +203,4 @@ That's it. No cash from him. No complicated financing. Property for equity. One 
 
 ---
 
-**Bottom line:** We're not asking him to sell at a loss. We're asking him to invest his property into something worth $147M — and keep 15% of it. His $12M property becomes $22M. He gets purpose, equity, and a legacy. We get the property, control, and a built-in advocate. One clean deal.
+**Bottom line:** We're not asking him to sell at a loss. We're asking him to invest his property into a Mexico operation worth $147M — and keep 15% of it. His $12M property becomes $22M. He gets purpose, equity, and a legacy. We get the property, control of this location, and 100% of the global parent, all IP, and every future site. One clean deal.

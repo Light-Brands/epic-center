@@ -1,6 +1,6 @@
 # The Donation Deal
 
-**He donates the property. Gets a massive tax write-off. Gets 15% of everything we build — worth $22M in 5 years. We can buy him out anytime. Total value: $24-31M vs. $11.9M from a sale.**
+**He donates the property. Gets a massive tax write-off. Gets 15% of the Mexico operation (TE Ops Mexico + TE RE Mexico) — worth $22M in 5 years. We can buy him out anytime. Global parent, all IP, and future locations stay 100% ours. Total value: $24-31M vs. $11.9M from a sale.**
 
 ---
 
@@ -10,7 +10,7 @@ He paid $28M. He's selling for $11.9M. That's a $16M loss no matter how you cut 
 
 Selling gives him $11.9M cash and a capital loss he can barely use ($3,000/year against regular income). Total realistic value from selling: **~$14M**.
 
-Donating gives him a tax write-off worth $2-9M, 15% ownership in a $147M company worth $22M at Year 5, and a reason to get out of bed. Total value: **$24-31M**.
+Donating gives him a tax write-off worth $2-9M, 15% ownership in the Mexico operation (projected $147M at Year 5) worth $22M, and a reason to get out of bed. Total value: **$24-31M**.
 
 ```
 SELLING:
@@ -19,7 +19,7 @@ SELLING:
   + a story about losing money in his divorce
 
 DONATING:
-  $0 cash + $2-9M tax write-off + 15% of a $147M business ($22M)
+  $0 cash + $2-9M tax write-off + 15% of the Mexico operation ($22M)
   = $24-31M total
   + a story about launching a global healing movement
 ```
@@ -39,8 +39,8 @@ STEP 2:  He gets a charitable tax deduction worth $14-22M
 STEP 3:  Tax savings: $2-9M over 6 years
          (depends on his income — higher income = bigger savings)
             |
-STEP 4:  SEPARATELY, he gets 15% equity in our operating company
-         (for advisory services, expertise, and being part of the team)
+STEP 4:  SEPARATELY, he gets 15% equity in the Mexico operation
+         (TE Ops Mexico + TE RE Mexico — this location only)
             |
 STEP 5:  The nonprofit owns the property. We lease it. We operate.
          He's a Founding Steward with a seat at the table.
@@ -53,13 +53,15 @@ STEP 6:  We can buy him out at Fair Market Value at any time.
 
 ## What 15% Is Worth — Year by Year
 
-| Year | Enterprise Value | His 15% | What's Happening |
-|------|-----------------|---------|------------------|
+*Enterprise values below reflect the Mexico operation (TE Ops Mexico + TE RE Mexico) only.*
+
+| Year | Mexico Enterprise Value | His 15% | What's Happening |
+|------|------------------------|---------|------------------|
 | Year 1 | $29,000,000 | $4,350,000 | Building + first guests |
 | Year 2 | $55,000,000 | $8,250,000 | Ramping to capacity |
-| Year 3 | $87,000,000 | $13,050,000 | Full operations + expansion planning |
-| Year 4 | $110,000,000 | $16,500,000 | Brand established + licensing |
-| Year 5 | $147,000,000 | **$22,050,000** | Global platform + multiple revenue streams |
+| Year 3 | $87,000,000 | $13,050,000 | Full operations + at capacity |
+| Year 4 | $110,000,000 | $16,500,000 | Brand established + training programs |
+| Year 5 | $147,000,000 | **$22,050,000** | Mature operation + multiple revenue streams |
 
 His property becomes $22M in equity. That's not a loss. That's an 83% return on the market price — plus the tax savings on top.
 
@@ -84,7 +86,7 @@ Not 10% — because $14.7M doesn't clear the market price by enough.
 ```
 SELLER gets:
   Tax write-off -------> $2M to $9M in saved taxes (over 6 years)
-  15% of OpCo ---------> Worth $22M at Year 5
+  15% of TE Mexico -----> Worth $22M at Year 5 (this location only)
   Advisory role --------> $50K/year + annual retreat stay
   Buyout option --------> We buy him out at FMV whenever we're ready
   Purpose -------------> Founding Steward of a healing center
@@ -96,7 +98,7 @@ SELLER gets:
 
 **What the seller gets (plain English):**
 - A tax deduction that could save him $2-9M depending on his income
-- 15% ownership in a business projected to be worth $147M in 5 years ($22M value)
+- 15% ownership in the Mexico operation (TE Ops Mexico + TE RE Mexico) projected to be worth $147M in 5 years ($22M value)
 - A title, a role, quarterly calls, and an annual visit to his property
 - A guaranteed buyout at fair value whenever we choose to exercise it
 - The most powerful personal story he'll ever tell
@@ -104,14 +106,17 @@ SELLER gets:
 **What we get:**
 - The property at zero acquisition cost (no $10-12M capital raise needed)
 - Only need $5M for operations (instead of $15-17M)
-- 85% of the operating company
+- 85% of the Mexico operation (TE Ops Mexico + TE RE Mexico)
 - Full voting control — his 15% is non-voting
-- Buyout option — we can consolidate to 100% anytime at FMV
+- Buyout option — we can consolidate Mexico to 100% anytime at FMV
 - A seller who's now our most powerful advocate
-- All IP stays protected in our Cayman entity — untouched
+- **100% of TE Holdings (Cayman parent) — entirely ours**
+- **100% of all IP, trademarks, and licensing — untouched**
+- **100% of all future locations — entirely ours**
+- Zero seller interest in any global entity
 
 **The pitch to the seller:**
-> "The market values your property at $12 million. We value it at $22 million — because we know what it's going to become. Your $22 million comes as 15% of everything we build. Plus a multi-million dollar tax write-off on top. This isn't a sale. This is your legacy."
+> "The market values your property at $12 million. We value it at $22 million — because we know what it's going to become. Your $22 million comes as 15% of everything we build at this location. Plus a multi-million dollar tax write-off on top. This isn't a sale. This is your legacy."
 
 **Who this works for:** A seller who wants purpose. Who built something with his hands and can't stomach watching it get flipped into condos. Who said out loud: "I need more purpose." This is that purpose.
 
@@ -199,7 +204,7 @@ The deduction is limited to **30% of his annual income**. Whatever he can't use 
 |---|---|---|---|
 | **Cash in hand** | $11,900,000 | $0 | $0 |
 | **Tax savings** | ~$2,400,000 | ~$2,400,000 | ~$9,200,000 |
-| **15% OpCo equity (Yr 5)** | $0 | $22,050,000 | $22,050,000 |
+| **15% TE Mexico equity (Yr 5)** | $0 | $22,050,000 | $22,050,000 |
 | **Advisory comp** | $0 | $250,000 | $250,000 |
 | **Total 5-year value** | **~$14,000,000** | **~$25,000,000** | **~$31,500,000** |
 | **vs. selling** | — | +$11M more | +$17.5M more |
@@ -287,17 +292,17 @@ Get those five answers and we can dial this in precisely.
 
 | | Donation Deal | Property-for-Equity Deal |
 |---|---|---|
-| **Property goes to** | 501(c)(3) nonprofit | Our RE entity directly |
+| **Property goes to** | 501(c)(3) nonprofit | TE RE Mexico directly |
 | **Tax write-off** | $2-9M+ | None |
-| **Equity** | 15% OpCo ($22M at Yr 5) | 15% OpCo ($22M at Yr 5) |
+| **Equity** | 15% TE Mexico ($22M at Yr 5) | 15% TE Mexico ($22M at Yr 5) |
 | **Buyout clause** | Yes — FMV anytime | Yes — FMV anytime |
 | **Total 5-year value** | $24-31M+ | $22M+ |
 | **Complexity** | Higher (nonprofit, appraisal, IRS) | Lower (equity agreement only) |
 | **Best for** | US taxpayer with high income | Non-US taxpayer or simpler deal |
-| **His story** | "Donated to launch a healing movement" | "Invested my property into a $147M company" |
+| **His story** | "Donated to launch a healing movement" | "Invested my property into a $147M operation" |
 
 **The donation deal is the premium offer.** More value, better story, bigger tax benefit. But if the donation mechanics don't work (not a US taxpayer, no aligned nonprofit, etc.), the property-for-equity deal gets the same $22M outcome with less complexity.
 
 ---
 
-**Bottom line:** Both deals give him $22M in equity. The donation deal adds $2-9M in tax savings on top. Either way, it's better than selling for $11.9M. We get the property, he gets purpose and equity, and we can buy him out whenever we want.
+**Bottom line:** Both deals give him $22M in equity in the Mexico operation. The donation deal adds $2-9M in tax savings on top. Either way, it's better than selling for $11.9M. We get the property, he gets purpose and equity in this location, and we can buy him out whenever we want. The global parent (TE Holdings), all IP, and any future locations remain 100% ours.
