@@ -16,7 +16,7 @@ We see a foundation. The first location of something that's going to change thou
 
 ## 2. The Problem With Selling
 
-The market wants to hand you $11.9 million for a property you built with $28 million. That's a $16 million loss on paper — and something worse off paper. Because whoever buys it at $11.9M is going to flip it, gut it, or bulldoze it. Everything you built becomes someone else's margin.
+The market wants to hand you $11.9 million for a property you built with $28 million. That's a $16 million loss on paper — and something worse off paper. Because whoever buys it at $11.9M is going to flip it or gut it. Everything you built becomes someone else's margin.
 
 You walk away with less than half of what you put in, and nothing to show for the years. No connection. No legacy. No story worth telling.
 
@@ -79,7 +79,7 @@ Here's what the two paths look like side by side:
 | **Equity value (Year 5)** | $0 | $22,050,000 |
 | **Advisory compensation** | $0 | $250,000 |
 | **Total 5-year value** | **~$14,000,000** | **$24,000,000 - $31,500,000** |
-| **What happens to property** | Flipped or bulldozed | Healing center changing lives |
+| **What happens to property** | Flipped by the next buyer | Healing center changing lives |
 | **Your story** | "Sold at a 57% loss" | "I'm a founding partner" |
 
 Your 15% equity, year by year:

@@ -720,7 +720,7 @@ TOTAL VALUE TO SELLER (5-YEAR HORIZON)
 >
 > The market values your property at $12 million. We value it at $22 million -- because we know what it's going to become. Your $22 million comes as 15% of everything we build at this location.
 >
-> This is not a sale. This is an evolution. Your property doesn't get flipped or bulldozed. It becomes the birthplace of a global healing movement. And you're not a former owner watching from the sidelines -- you're a founding partner with equity in everything we build.
+> This is not a sale. This is an evolution. Your property doesn't get flipped. It becomes the birthplace of a global healing movement. And you're not a former owner watching from the sidelines -- you're a founding partner with equity in everything we build.
 >
 > You told us you're looking for more purpose. We're offering you the most purposeful thing you could possibly do with this property. And the economics are better than any deal you'll ever see on a sale."
 

@@ -85,7 +85,7 @@ The seller is experiencing three simultaneous losses:
 
 1. **Financial loss** — Selling a $30M investment for $10–12M
 2. **Identity loss** — The property was a personal expression; a divorce is stripping it away
-3. **Legacy loss** — If sold to a developer or hotel chain, everything he built gets bulldozed or rebranded
+3. **Legacy loss** — If sold to a developer or hotel chain, everything he built gets rebranded and repurposed
 
 Our strategies address all three:
 

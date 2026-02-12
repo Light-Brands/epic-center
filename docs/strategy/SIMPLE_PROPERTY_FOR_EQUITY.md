@@ -152,7 +152,7 @@ We control the timing. He gets the upside whenever we decide to move.
 | **Year 5 value** | $11,900,000 (spent) | $22,050,000 (growing) |
 | **Total return** | $11.9M — done | $22M+ and still climbing |
 | **Involvement** | Gone | Founding Steward |
-| **What happens to property** | Flipped or bulldozed | Healing center changing lives |
+| **What happens to property** | Flipped by the next buyer | Healing center changing lives |
 | **His story** | "Sold at a 57% loss" | "I'm a founding partner" |
 
 ---
