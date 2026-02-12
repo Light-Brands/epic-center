@@ -1,6 +1,6 @@
 # The Donation Deal
 
-**He donates the property. Gets a massive tax write-off. Gets 15% of the Mexico operation (TE Ops Mexico + TE RE Mexico) — worth $22M in 5 years. We can buy him out anytime. Global parent, all IP, and future locations stay 100% ours. Total value: $24-31M vs. $11.9M from a sale.**
+**He donates the property. Gets a massive tax write-off. Gets 15% of the Mexico operation (TE Ops Mexico + TE RE Mexico) — worth $22M in 5 years. We can buy him out anytime. Total value: $24-31M vs. $11.9M from a sale.**
 
 ---
 
@@ -110,10 +110,6 @@ SELLER gets:
 - Full voting control — his 15% is non-voting
 - Buyout option — we can consolidate Mexico to 100% anytime at FMV
 - A seller who's now our most powerful advocate
-- **100% of TE Holdings (Cayman parent) — entirely ours**
-- **100% of all IP, trademarks, and licensing — untouched**
-- **100% of all future locations — entirely ours**
-- Zero seller interest in any global entity
 
 **The pitch to the seller:**
 > "The market values your property at $12 million. We value it at $22 million — because we know what it's going to become. Your $22 million comes as 15% of everything we build at this location. Plus a multi-million dollar tax write-off on top. This isn't a sale. This is your legacy."
@@ -305,4 +301,4 @@ Get those five answers and we can dial this in precisely.
 
 ---
 
-**Bottom line:** Both deals give him $22M in equity in the Mexico operation. The donation deal adds $2-9M in tax savings on top. Either way, it's better than selling for $11.9M. We get the property, he gets purpose and equity in this location, and we can buy him out whenever we want. The global parent (TE Holdings), all IP, and any future locations remain 100% ours.
+**Bottom line:** Both deals give him $22M in equity in the Mexico operation. The donation deal adds $2-9M in tax savings on top. Either way, it's better than selling for $11.9M. We get the property, he gets purpose and equity in this location, and we can buy him out whenever we want.

@@ -1,6 +1,6 @@
 # The Property-for-Equity Deal
 
-**He gives us the property. We give him 15% of the Mexico operation — TE Ops Mexico + TE RE Mexico. His 15% is worth $22M in 5 years. We can buy him out anytime. Global IP and parent entity are ours — untouched.**
+**He gives us the property. We give him 15% of the Mexico operation — TE Ops Mexico + TE RE Mexico. His 15% is worth $22M in 5 years. We can buy him out anytime.**
 
 ---
 
@@ -32,9 +32,6 @@ We can buy him out at Fair Market Value at any time
    |
    v
 He stays connected as Founding Steward
-   |
-   v
-Global parent (TE Holdings, Cayman), all IP, and future locations = OURS (100%)
 ```
 
 That's it. One term. Clean. His equity is in the Mexico operation only.
@@ -105,20 +102,10 @@ WE get:
   The property -----------> At zero cash cost (equity only)
   85% of TE Mexico -------> Worth $125M+ at Year 5
   Full voting control ----> His 15% is non-voting
-  100% of TE Holdings ----> Global parent entity (Cayman) — entirely ours
-  100% of all IP ---------> All IP stays in Cayman entity — untouched
-  100% of future sites ---> Any future locations — entirely ours
   Buyout optionality -----> Can consolidate Mexico to 100% whenever we want
   Capital efficiency -----> Only need $5M for operations (not $15-17M)
   Built-in advocate ------> He owns 15% of this location — he's our biggest champion
 ```
-
-**What the seller does NOT get (explicit):**
-- Zero interest in TE Wellness Holdings (Cayman parent)
-- Zero interest in global IP, trademarks, or licensing revenue
-- Zero interest in future locations outside Mexico
-- Zero interest in Light Brands, Dubai Studio, or Church entities
-- Zero governance rights in any entity
 
 ---
 
@@ -179,7 +166,7 @@ We control the timing. He gets the upside whenever we decide to move.
 - ROFR if he tries to transfer
 - Drag-along if we sell 100%
 - Non-compete (5 years)
-- All IP stays in Cayman — untouched
+
 
 **For him:**
 - Tag-along if we sell (he participates on same terms)
@@ -203,4 +190,4 @@ That's it. No cash from him. No complicated financing. Property for equity. One 
 
 ---
 
-**Bottom line:** We're not asking him to sell at a loss. We're asking him to invest his property into a Mexico operation worth $147M — and keep 15% of it. His $12M property becomes $22M. He gets purpose, equity, and a legacy. We get the property, control of this location, and 100% of the global parent, all IP, and every future site. One clean deal.
+**Bottom line:** We're not asking him to sell at a loss. We're asking him to invest his property into a Mexico operation worth $147M — and keep 15% of it. His $12M property becomes $22M. He gets purpose, equity, and a legacy. We get the property, full control, and 85% of the operation. One clean deal.

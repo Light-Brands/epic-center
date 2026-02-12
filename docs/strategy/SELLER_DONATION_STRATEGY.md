@@ -510,9 +510,6 @@ The seller's equity in TE Mexico must be **legally, temporally, and economically
 | Property at zero acquisition cost | No $10-12M raise needed for RE |
 | 85% of TE Mexico | After 15% to seller (this location only) |
 | Full voting control | Seller holds non-voting units |
-| **100% of TE Holdings (Cayman)** | Global parent entity — entirely ours |
-| **100% of all IP** | All IP stays in Cayman entity — untouched |
-| **100% of future locations** | Any future sites — entirely ours |
 | Seller as advocate | 15% owner of this location becomes the biggest champion |
 | Buyout optionality | Can consolidate Mexico to 100% whenever we want at FMV |
 | Reduced capital raise | Only need $5M for operations (not $15-17M) |
@@ -814,8 +811,6 @@ Not 10% — because $14.7M doesn't clear the market price by enough.
 | What 15% replaced | $10-12M capital raise for RE acquisition |
 | Effective cost of equity | $0 (the donation IS the consideration) |
 | Buyout optionality | Can consolidate Mexico to 100% at FMV anytime after Year 1 |
-| **TE Holdings (Cayman)** | **100% ours — seller has zero interest** |
-| **All IP & future locations** | **100% ours — seller has zero interest** |
 
 ### 10.2 RE Ownership -- The 501(c)(3) Structure
 
@@ -833,7 +828,6 @@ The 501(c)(3) leases the property to the OpCo at arm's length rent. The OpCo's o
 - OpCo has a lease expense (standard business expense)
 - Founders control the OpCo (which is where all the value is)
 - Seller's 15% TE Mexico equity captures value from operations on the property
-- Seller has ZERO interest in TE Holdings (Cayman parent), global IP, or future locations
 
 ### 10.3 The $5M Operations Capital
 
@@ -863,7 +857,7 @@ This $5M covers:
 | Seller gets 0-10% | Seller gets 15% |
 | Founders retain ~65-75% | Founders retain ~71-76% |
 
-**Net effect:** Founders retain MORE ownership than the non-donation scenario because the 15% equity stake (Mexico only) eliminates the entire RE capital raise and its associated complexity, debt service, and investor management overhead. Plus we can buy the seller out at FMV anytime. The global parent (TE Holdings), all IP, and future locations remain 100% founder-controlled.
+**Net effect:** Founders retain MORE ownership than the non-donation scenario because the 15% equity stake (Mexico only) eliminates the entire RE capital raise and its associated complexity, debt service, and investor management overhead. Plus we can buy the seller out at FMV anytime.
 
 ---
 
@@ -1778,4 +1772,4 @@ This document contains proprietary negotiation strategies and illustrative tax a
 ---
 
 *Document Version: 2.2 | February 2026 | Transformational Epicenter*
-*Updated: Equity set at 15% of TE Mexico (TE Ops Mexico + TE RE Mexico) targeting $22M at Year 5. Scoped to Mexico operation only — global parent, IP, and future locations excluded. Buyout clause included.*
+*Updated: Equity set at 15% of TE Mexico (TE Ops Mexico + TE RE Mexico) targeting $22M at Year 5. Scoped to Mexico operation only. Buyout clause included.*
