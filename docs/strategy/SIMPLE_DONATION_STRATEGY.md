@@ -1,26 +1,26 @@
-# The Donation Deal
+# The Equity Conversion Deal
 
-**He donates the property. Gets a massive tax write-off. Gets 15% of the Mexico operation (TE Ops Mexico + TE RE Mexico), worth $22M in 5 years. We can buy him out anytime. Total value: $24-31M vs. $11.9M from a sale.**
+**We buy the property for $11.9M. $2M cash at closing. The remaining $9.9M converts into 15% equity in the Real Estate Company + 15% equity in the Operating Company. No interest. No debt. Pure equity conversion. His 15% is projected to be worth $22M in 5 years. We can buy him out at Year 5 over 24–36 months. Total value: $24M+ vs. $14M from a straight sale.**
 
 ---
 
-## Why Donate Instead of Sell?
+## Why This Structure — Not a Straight Sale?
 
 He paid $28M. He's selling for $11.9M. That's a $16M loss no matter how you cut it.
 
 Selling gives him $11.9M cash and a capital loss he can barely use ($3,000/year against regular income). Total realistic value from selling: **~$14M**.
 
-Donating gives him a tax write-off worth $2-9M, 15% ownership in the Mexico operation (projected $147M at Year 5) worth $22M, and a reason to get out of bed. Total value: **$24-31M**.
+Our deal gives him $2M cash at closing, 15% ownership in two companies projected to reach $147M at Year 5 (his 15% = $22M), and a reason to get out of bed. Total value: **$24M+**.
 
 ```
-SELLING:
+STRAIGHT SALE:
   $11.9M cash + ~$2.4M in tax savings from capital loss
   = ~$14M total
   + a story about losing money in his divorce
 
-DONATING:
-  $0 cash + $2-9M tax write-off + 15% of the Mexico operation ($22M)
-  = $24-31M total
+EQUITY CONVERSION DEAL:
+  $2M cash + 15% Real Estate Co + 15% Operating Co ($22M at Year 5)
+  = $24M+ total
   + a story about launching a global healing movement
 ```
 
@@ -28,32 +28,61 @@ It's not even close.
 
 ---
 
-## How It Works
+## The Structure: $11.9M Purchase Price
 
 ```
-STEP 1:  Seller donates the property to a 501(c)(3) nonprofit
-            |
-STEP 2:  He gets a charitable tax deduction worth $14-22M
-         (based on an independent appraisal, NOT his $28M cost)
-            |
-STEP 3:  Tax savings: $2-9M over 6 years
-         (depends on his income, higher income = bigger savings)
-            |
-STEP 4:  SEPARATELY, he gets 15% equity in the Mexico operation
-         (TE Ops Mexico + TE RE Mexico, this location only)
-            |
-STEP 5:  The nonprofit owns the property. We lease it. We operate.
-         He's a Founding Steward with a seat at the table.
-            |
-STEP 6:  We can buy him out at Fair Market Value at any time.
-         He gets liquidity. We get consolidation. Everyone wins.
+PURCHASE PRICE:   $11,900,000
+
+PAID AS:
+  $2,000,000 -----> Cash at closing (immediate liquidity)
+  $9,900,000 -----> Converted into equity:
+                      • 15% equity in Real Estate Company (TE RE Mexico)
+                      • 15% equity in Operating Company (TE Ops Mexico)
+
+NOT seller financing.
+NOT structured debt.
+NOT a note with interest.
+NO interest is paid on the $9.9M balance.
+
+This is a full equity conversion — $9.9M in value exchanged for
+ownership stakes in two operating entities.
 ```
+
+---
+
+## Two Companies, Clear Separation
+
+### Real Estate Company (TE RE Mexico)
+- Owns the physical property
+- Captures asset appreciation
+- Seller gets **15% equity** — participates in property value growth
+
+### Operating Company (TE Ops Mexico)
+- Runs the business (clinical operations, guests, revenue)
+- Captures operating profit and enterprise value
+- Seller gets **15% equity** — participates in business growth
+
+**Why separate?** Clean separation protects the asset from operational risk. Each entity has its own valuation trajectory. The seller benefits from both.
+
+---
+
+## The $5M Operational Investment
+
+Separately, we're committing **$5 million in operational capital** into the Operating Company:
+
+- Medical buildout and clinical infrastructure
+- Staff recruitment and training
+- Technology and guest experience systems
+- Marketing, brand launch, guest acquisition
+- Working capital through ramp-up
+
+This is NOT part of the $11.9M purchase price. This is additional capital invested to build the operation on the foundation the seller created.
 
 ---
 
 ## What 15% Is Worth: Year by Year
 
-*Enterprise values below reflect the Mexico operation (TE Ops Mexico + TE RE Mexico) only.*
+*Enterprise values below reflect the combined Mexico operation (TE Ops Mexico + TE RE Mexico).*
 
 | Year | Mexico Enterprise Value | His 15% | What's Happening |
 |------|------------------------|---------|------------------|
@@ -63,20 +92,37 @@ STEP 6:  We can buy him out at Fair Market Value at any time.
 | Year 4 | $110,000,000 | $16,500,000 | Brand established + training programs |
 | Year 5 | $147,000,000 | **$22,050,000** | Mature operation + multiple revenue streams |
 
-His property becomes $22M in equity. That's not a loss. That's an 83% return on the market price, plus the tax savings on top.
+His $9.9M equity conversion becomes $22M in ownership value. That's a 122% return on the converted amount, plus $2M cash in hand from day one.
 
 ---
 
-## Why 15%
+## The $22M Year 5 Projection Logic
+
+The $147M combined enterprise value at Year 5 is driven by:
+
+- Revenue ramp from initial guest cohorts to full capacity
+- Multiple revenue streams: clinical programs, extended stays, training, licensing
+- Asset appreciation as purpose-built medical wellness facility
+- Brand premium from first-mover advantage
+- Operating leverage: fixed-cost infrastructure with scaling revenue
+
+His 15% of $147M = **$22,050,000**.
+
+---
+
+## Why 15% + 15%
 
 ```
-His property (market value):          ~$12,000,000
-We value it at:                       $22,000,000 (through equity)
-15% of our Year 5 value ($147M):     $22,050,000 ✓
+His property (market value):              $11,900,000
+Cash he receives at closing:              $2,000,000
+Value converted to equity:                $9,900,000
+15% of our Year 5 value ($147M):         $22,050,000 ✓
 
-Not 25% because $36.75M overvalues a $12M property by 3x.
-Not 10% because $14.7M doesn't clear the market price by enough.
-15% = $22M. Clean. Fair. Generous. Defensible.
+The $9.9M equity conversion grows to $22M — a 122% return.
+
+Not 25% because $36.75M overvalues a $9.9M conversion by 3.7x.
+Not 10% because $14.7M barely clears the converted amount.
+15% + 15% = $22M. Clean. Fair. Generous. Defensible.
 ```
 
 ---
@@ -85,34 +131,38 @@ Not 10% because $14.7M doesn't clear the market price by enough.
 
 ```
 SELLER gets:
-  Tax write-off -------> $2M to $9M in saved taxes (over 6 years)
-  15% of TE Mexico -----> Worth $22M at Year 5 (this location only)
-  Advisory role --------> $50K/year + annual retreat stay
-  Buyout option --------> We buy him out at FMV whenever we're ready
-  Purpose -------------> Founding Steward of a healing center
-  Legacy --------------> His name on the wall. His property changes lives.
-                         ---------
-                         TOTAL: $24M to $31M+
-                         vs. $14M from a sale
+  Cash at closing -------> $2,000,000 (immediate liquidity)
+  15% Real Estate Co ----> Participation in asset appreciation
+  15% Operating Co ------> Participation in operating growth
+  Combined equity (Yr 5) > Worth $22M at Year 5
+  Advisory role ---------> $50K/year + annual retreat stay
+  Buyout option ---------> Year 5 buyout over 24–36 months with interest
+  Purpose --------------> Founding Steward of a healing center
+  Legacy ---------------> His name on the wall. His property changes lives.
+                           ---------
+                           TOTAL: $24M+
+                           vs. $14M from a sale
 ```
 
 **What the seller gets (plain English):**
-- A tax deduction that could save him $2-9M depending on his income
-- 15% ownership in the Mexico operation (TE Ops Mexico + TE RE Mexico) projected to be worth $147M in 5 years ($22M value)
+- $2 million cash at closing — immediate liquidity
+- 15% ownership in the Real Estate Company — participates in asset value growth
+- 15% ownership in the Operating Company — participates in business growth
+- Combined equity projected to be worth $22M at Year 5
 - A title, a role, quarterly calls, and an annual visit to his property
-- A guaranteed buyout at fair value whenever we choose to exercise it
+- A Year 5 buyout option at fair value, paid over 24–36 months with interest
 - The most powerful personal story he'll ever tell
 
 **What we get:**
-- The property at zero acquisition cost (no $10-12M capital raise needed)
-- Only need $5M for operations (instead of $15-17M)
-- 85% of the Mexico operation (TE Ops Mexico + TE RE Mexico)
-- Full voting control. His 15% is non-voting
-- Buyout option. We can consolidate Mexico to 100% anytime at FMV
+- The property for $2M cash + equity (no $12M capital raise needed)
+- Only need $5M for operations (instead of $17M+)
+- 85% of both the Real Estate Company and the Operating Company
+- Full voting control. His 15% is non-voting in both entities
+- Year 5 buyout option. We can consolidate to 100% at FMV
 - A seller who's now our most powerful advocate
 
 **The pitch to the seller:**
-> "The market values your property at $12 million. We value it at $22 million because we know what it's going to become. Your $22 million comes as 15% of everything we build at this location. Plus a multi-million dollar tax write-off on top. This isn't a sale. This is your legacy."
+> "The market values your property at $11.9 million. We'll give you $2 million cash at closing and convert the remaining $9.9 million into 15% equity in two companies — the Real Estate Company and the Operating Company. No interest. No debt. Pure ownership. Your 15% is projected to be worth $22 million in five years. This isn't seller financing. This is your seat at the table."
 
 **Who this works for:** A seller who wants purpose. Who built something with his hands and can't stomach watching it get flipped into condos. Who said out loud: "I need more purpose." This is that purpose.
 
@@ -120,94 +170,65 @@ SELLER gets:
 
 ## The Buyout Clause
 
-We can buy his 15% at any time. Our option, not his.
+At Year 5, we can buy his 15% in both entities at fair market value, paid over **24 to 36 months with interest** on the buyout balance.
 
 | Term | Detail |
 |------|--------|
 | **Who triggers** | Founders only |
+| **Earliest exercise** | Year 5 |
 | **Price** | Fair Market Value at time of buyout |
 | **FMV method** | Independent valuation or formula (trailing EBITDA x agreed multiple) |
-| **Payment** | Cash, or 50% cash + 50% over 12 months |
+| **Payment timeline** | 24–36 months from exercise date |
+| **Interest** | Interest accrues on unpaid buyout balance |
 | **Notice** | 60 days written notice |
-| **Earliest** | After Year 1 |
 
 **What this looks like:**
-- Year 2: Buy him out at ~$8.25M
-- Year 3: Buy him out at ~$13.05M
-- Year 5: Buy him out at ~$22.05M
-- Or never. Let him ride
+- Year 5: Buy him out at ~$22.05M, paid over 24–36 months with interest
+- Or never exercise. Let him ride
 
-We control the timing. He gets fair value whenever we move.
+We control the timing. He gets fair value plus interest on the balance over the payment period.
 
 ---
 
-## The $28M Write-Off Question
+## Optional: Donation + Tax Credit Strategy
 
-**Can he write off the full $28M he invested?**
+The seller may have the option to donate a portion of his equity or property value into a qualifying charitable structure. This is **optional — not mandatory** — and is presented as an available scenario for further deal optimization.
 
-Probably not. The IRS doesn't care what he paid. The charitable deduction is based on what the property is **worth today**, determined by an independent appraiser.
+**What it could provide:**
 
-```
-What he paid:            $28,000,000  ← doesn't matter for the deduction
-What it's listed at:     $11,900,000  ← the floor
-What an appraiser says:  $14-22M     ← THIS is the deduction
-```
+- **Tax credit benefits** — Charitable contribution of qualifying assets could generate meaningful tax credits or deductions
+- **Strategic tax efficiency** — A donation into a 501(c)(3) or similar entity can create tax savings that compound the deal's financial value
+- **Legacy positioning** — Adds a philanthropic dimension to the seller's involvement in the mission
 
-**Why the appraisal could be higher than $11.9M:**
-- The listing price reflects a divorce fire sale, not true market value
-- Replacement cost to rebuild this property today: $20M+
-- Income potential as a wellness retreat: supports $15-25M valuation
-- Take it off the market, wait 60-90 days, get a proper appraisal
+**How it relates to the core deal:**
 
-**Realistic range:** $15-22M. We target the high end with a top-tier appraiser.
+This option does NOT change the equity conversion structure. The $2M cash, 15% + 15% equity, and buyout terms remain intact. The donation component layers on top as an optional tax optimization strategy.
 
----
+**What's needed to evaluate:**
+- Is the seller a US taxpayer?
+- What is his annual income? (Determines deduction utilization)
+- Is there a qualifying 501(c)(3) entity available?
+- Tax counsel review of specific structure and timing
 
-## The Tax Write-Off: How Fast He Uses It
-
-The deduction is limited to **30% of his annual income**. Whatever he can't use in Year 1 carries forward for 5 more years (6 years total). After that, anything unused is gone.
-
-**If he makes $15M/year** (best case):
-
-| Year | Deduction Used | Tax Saved | Running Total |
-|------|---------------|-----------|---------------|
-| 1 | $4,500,000 | $1,890,000 | $1,890,000 |
-| 2 | $4,500,000 | $1,890,000 | $3,780,000 |
-| 3 | $4,500,000 | $1,890,000 | $5,670,000 |
-| 4 | $4,500,000 | $1,890,000 | $7,560,000 |
-| 5 | $4,000,000 | $1,680,000 | **$9,240,000** |
-| | **$22M used, nothing wasted** | | |
-
-**If he makes $3M/year** (worst case):
-
-| Year | Deduction Used | Tax Saved | Running Total |
-|------|---------------|-----------|---------------|
-| 1 | $900,000 | $315,000 | $315,000 |
-| 2 | $900,000 | $315,000 | $630,000 |
-| 3 | $900,000 | $315,000 | $945,000 |
-| 4 | $900,000 | $315,000 | $1,260,000 |
-| 5 | $900,000 | $315,000 | $1,575,000 |
-| 6 | $900,000 | $315,000 | **$1,890,000** |
-| | **$5.4M used, $8.6M wasted** | | |
-
-**Bottom line:** His income determines how much of the write-off he actually gets to use. Higher income = more savings. But even in the worst case, the equity makes the deal worth it.
+*No heavy tax assumptions are made here. This scenario requires independent tax advice specific to the seller's situation.*
 
 ---
 
 ## Best Case vs. Worst Case vs. Selling
 
-| | Sell for $11.9M | Donate (Worst Case) | Donate (Best Case) |
-|---|---|---|---|
-| **Cash in hand** | $11,900,000 | $0 | $0 |
-| **Tax savings** | ~$2,400,000 | ~$2,400,000 | ~$9,200,000 |
-| **15% TE Mexico equity (Yr 5)** | $0 | $22,050,000 | $22,050,000 |
-| **Advisory comp** | $0 | $250,000 | $250,000 |
-| **Total 5-year value** | **~$14,000,000** | **~$25,000,000** | **~$31,500,000** |
-| **vs. selling** | - | +$11M more | +$17.5M more |
-| **Purpose** | None | Full | Full |
-| **His story** | "Sold at a loss" | "Built a healing center" | "Built a healing center" |
+| | Sell for $11.9M | Equity Conversion Deal |
+|---|---|---|
+| **Cash at closing** | $11,900,000 | $2,000,000 |
+| **15% equity value (Yr 5)** | $0 | $22,050,000 |
+| **Advisory comp** | $0 | $250,000 |
+| **Subtotal** | **~$14,000,000** | **$24,300,000** |
+| **Optional: Donation tax savings** | N/A | +$2M to $9M (if applicable) |
+| **Total with optional donation** | **~$14,000,000** | **$26M – $33M+** |
+| **vs. selling** | - | +$10M to $19M more |
+| **Purpose** | None | Full |
+| **His story** | "Sold at a loss" | "Built a healing center" |
 
-Even in the worst case, the donation deal is worth **$11M more than selling**. The equity is the engine. The tax write-off is the cherry on top.
+Even without the optional donation, the equity conversion deal is worth **$10M+ more than selling**. The equity is the engine. The donation is an optional accelerator.
 
 ---
 
@@ -248,7 +269,7 @@ We bring the ibogaine experience to his property. Full medical team. Full ceremo
 **The sequence:**
 1. Visit. Build relationship. Share the vision. No numbers.
 2. Invite him to experience the medicine. On his property.
-3. After integration, share the donation concept.
+3. After integration, share the equity conversion concept.
 4. Present the one-term offer.
 5. Send $100K deposit on verbal agreement.
 
@@ -256,17 +277,15 @@ We bring the ibogaine experience to his property. Full medical team. Full ceremo
 
 ## The One Thing That Kills This Deal
 
-**If he's not a US taxpayer, the tax write-off doesn't work.** The entire charitable deduction is a US tax benefit. No US taxes = no deduction = no tax savings.
-
-If the write-off doesn't work, pivot to the **Property-for-Equity deal** (no donation, no nonprofit, just property for 15% equity). Same $22M outcome, just without the tax savings on top.
+**If the seller doesn't believe in the vision.** The equity conversion only works if the seller sees the upside. If he just wants cash, the $2M at closing won't compete with $11.9M from a straight sale.
 
 Other things that make it harder (but don't kill it):
 - Marital property → need divorce court approval
-- Debt on the property → must be paid off first
-- Low income → wastes part of the deduction
-- No aligned nonprofit → need to form one (3-12 months)
+- Debt on the property → must be paid off or assumed at closing
+- He's impatient → equity is a long game; he needs to buy into Year 5
+- No aligned nonprofit → only matters for the optional donation scenario
 
-None of those are fatal. They just take time and money to solve.
+None of those are fatal. They just take time and alignment to solve.
 
 ---
 
@@ -274,31 +293,30 @@ None of those are fatal. They just take time and money to solve.
 
 Before we present this to him, we need to know:
 
-1. **Is he a US taxpayer?** (Donation deal or equity-only deal?)
-2. **What does he make per year?** (Determines how much of the write-off he can use)
-3. **Is the property 100% his?** (If marital, divorce court has to approve)
-4. **Is there a mortgage?** (Must be paid off before donation)
-5. **What's Travis's 501(c)(3)?** (Mission, status, board. Has to be the right fit)
+1. **Is the property 100% his?** (If marital, divorce court has to approve)
+2. **Is there a mortgage?** (Must be addressed at closing)
+3. **What's his appetite for equity vs. cash?** (Determines how hard we lean on the vision)
+4. **Is he a US taxpayer?** (Only matters for the optional donation scenario)
+5. **What does he make per year?** (Only matters for donation deduction utilization)
 
-Get those five answers and we can dial this in precisely.
+Get those answers and we can dial this in precisely.
 
 ---
 
-## Donation Deal vs. Property-for-Equity Deal
+## Key Distinction: This Is NOT Seller Financing
 
-| | Donation Deal | Property-for-Equity Deal |
+| | Seller Financing | Our Equity Conversion |
 |---|---|---|
-| **Property goes to** | 501(c)(3) nonprofit | TE RE Mexico directly |
-| **Tax write-off** | $2-9M+ | None |
-| **Equity** | 15% TE Mexico ($22M at Yr 5) | 15% TE Mexico ($22M at Yr 5) |
-| **Buyout clause** | Yes, FMV anytime | Yes, FMV anytime |
-| **Total 5-year value** | $24-31M+ | $22M+ |
-| **Complexity** | Higher (nonprofit, appraisal, IRS) | Lower (equity agreement only) |
-| **Best for** | US taxpayer with high income | Non-US taxpayer or simpler deal |
-| **His story** | "Donated to launch a healing movement" | "Invested my property into a $147M operation" |
+| **What seller holds** | A note (debt instrument) | Equity (ownership stakes) |
+| **Interest** | Yes, interest accrues | No interest on $9.9M |
+| **Risk** | Default risk on payments | Enterprise risk (upside + downside) |
+| **Upside** | Capped at note amount + interest | Uncapped — grows with enterprise value |
+| **Seller's role** | Creditor | Owner / Partner |
+| **Relationship** | Adversarial (debtor vs. creditor) | Aligned (shared upside) |
+| **Tax treatment** | Interest income | Capital gains on equity |
 
-**The donation deal is the premium offer.** More value, better story, bigger tax benefit. But if the donation mechanics don't work (not a US taxpayer, no aligned nonprofit, etc.), the property-for-equity deal gets the same $22M outcome with less complexity.
+The seller is not carrying a note. The seller is not financing the deal. The seller is converting $9.9M of value into ownership in two companies. This is a fundamentally different structure with fundamentally different upside.
 
 ---
 
-**Bottom line:** Both deals give him $22M in equity in the Mexico operation. The donation deal adds $2-9M in tax savings on top. Either way, it's better than selling for $11.9M. We get the property, he gets purpose and equity in this location, and we can buy him out whenever we want.
+**Bottom line:** $11.9M purchase price. $2M cash at closing. $9.9M converted into 15% equity in the Real Estate Company + 15% equity in the Operating Company. No interest. No debt. His 15% is projected to be worth $22M at Year 5. Year 5 optional buyout over 24–36 months with interest. Optional donation strategy layers on top for additional tax efficiency. Either way, it's worth $10M+ more than a straight sale. We get the property, he gets purpose and equity in both entities, and we can buy him out when we're ready.
