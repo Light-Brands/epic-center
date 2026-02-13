@@ -26,19 +26,61 @@ You told us you want more purpose. Selling doesn't give you that. Selling gives 
 
 ## 3. The Offer
 
-Donate the property to a nonprofit aligned with our mission. In return, you get three things:
+We're acquiring the property for **$11.9 million**, structured to give you both immediate liquidity and long-term enterprise upside:
 
-**A massive tax write-off.** Based on an independent appraisal of the property's fair market value, potentially $15-22M. Depending on your income, that saves you $2-9M in taxes over six years.
+**$2 million cash at closing.** Immediate liquidity. You walk away from the closing table with real money in hand.
 
-**15% of the Mexico operation.** You become an equity partner in everything we build at this location. Your 15% is projected to be worth $22 million in five years. Non-voting (we run the day-to-day) but every dollar the operation earns, you earn 15 cents of it.
+**$9.9 million converted into equity ownership:**
+
+- **15% equity in the Real Estate Company (TE RE Mexico)** — You participate in the appreciation of the physical asset, the property you built, as it transforms into a world-class healing center.
+- **15% equity in the Operating Company (TE Ops Mexico)** — You participate in the operating growth of the business: revenue, profitability, and enterprise value as it scales.
+
+**This is not seller financing. This is not structured debt. There is no interest owed on the $9.9 million.** The remaining balance is fully converted into equity ownership — a direct stake in two entities that are projected to generate significant enterprise value.
 
 **A role and a title.** Founding Steward. $50,000/year advisory fee. Quarterly engagement. An annual retreat stay on the property you built. Your name on the wall. Permanently.
 
-**Total value: $24-31 million.** Compared to $11.9M from a sale.
+### Why Equity Conversion — Not Debt
+
+This structure gives you something a traditional sale never could:
+
+- **Immediate liquidity** — $2M cash at closing
+- **Long-term enterprise upside** — participation in both asset appreciation (Real Estate Co) and operating growth (Operating Co)
+- **No debt risk** — you're not waiting on payments; you own a piece of the enterprise
+- **Alignment** — your success is directly tied to the success of what your property becomes
+
+This is not deferred payment. This is not seller financing. This is ownership.
 
 ---
 
-## 4. What Your Property Becomes
+## 4. Two Companies, One Vision
+
+Your equity spans two distinct entities, each with a clear purpose:
+
+### The Real Estate Company (TE RE Mexico)
+Owns the physical property. Manages the asset. Captures appreciation as the property transforms from a private estate into a premier medical wellness destination. Your 15% here means you participate in every dollar of asset value growth.
+
+### The Operating Company (TE Ops Mexico)
+Runs the business. Manages clinical operations, guest experiences, revenue, and growth. This is where the cash flow lives. Your 15% here means you participate in every dollar of operating profit and enterprise value creation.
+
+**Why two entities?** Clean separation protects the asset from operational risk and gives each entity its own valuation trajectory. You benefit from both.
+
+---
+
+## 5. The $5 Million Operational Investment
+
+We're committing **$5 million in operational capital** to launch and scale the business at your property. This covers:
+
+- Medical buildout and clinical infrastructure
+- Staff recruitment and training (clinical, hospitality, operations)
+- Technology systems and guest experience platforms
+- Marketing, brand launch, and initial guest acquisition
+- Working capital through ramp-up to profitability
+
+This is separate from the property acquisition. The $5M goes directly into the Operating Company to build a world-class operation on the foundation you created.
+
+---
+
+## 6. What Your Property Becomes
 
 Your property doesn't get flipped. It doesn't become condos. It becomes the birthplace of a world-class healing center.
 
@@ -50,13 +92,13 @@ Every person who heals here. Every life that changes direction. Every family tha
 
 ---
 
-## 5. What You Become
+## 7. What You Become
 
 You're not a former owner who sold at a loss. You're a founding partner of a $147 million operation.
 
 **Founding Steward.** A permanent title that recognizes your role in making this possible.
 
-**Equity partner.** 15% of the Mexico operation, growing every year as we scale.
+**Equity partner.** 15% of both the Real Estate Company and the Operating Company, growing every year as we scale.
 
 **Advisory role.** $50,000 per year to show up to quarterly calls, share your insight, and stay connected to what's happening on your property.
 
@@ -68,21 +110,22 @@ You go from "the guy who lost money in a divorce" to "the founding partner of a 
 
 ---
 
-## 6. The Numbers
+## 8. The Numbers
 
 Here's what the two paths look like side by side:
 
-| | Sell for $11.9M | Donate + Equity |
+| | Sell for $11.9M | Equity Conversion Deal |
 |---|---|---|
-| **Cash at closing** | $11,900,000 | $0 |
-| **Tax savings** | ~$2,400,000 | $2,000,000 - $9,200,000 |
-| **Equity value (Year 5)** | $0 | $22,050,000 |
+| **Cash at closing** | $11,900,000 | $2,000,000 |
+| **Equity in Real Estate Co (Year 5)** | $0 | 15% ownership |
+| **Equity in Operating Co (Year 5)** | $0 | 15% ownership |
+| **Combined equity value (Year 5)** | $0 | $22,050,000 |
 | **Advisory compensation** | $0 | $250,000 |
-| **Total 5-year value** | **~$14,000,000** | **$24,000,000 - $31,500,000** |
+| **Total 5-year value** | **~$14,000,000** | **$24,300,000+** |
 | **What happens to property** | Flipped by the next buyer | Healing center changing lives |
 | **Your story** | "Sold at a 57% loss" | "I'm a founding partner" |
 
-Your 15% equity, year by year:
+Your 15% equity, year by year (combined Real Estate Co + Operating Co):
 
 | Year | Mexico Operation Value | Your 15% | What's Happening |
 |------|----------------------|----------|------------------|
@@ -92,62 +135,77 @@ Your 15% equity, year by year:
 | Year 4 | $110,000,000 | $16,500,000 | Brand established |
 | Year 5 | $147,000,000 | **$22,050,000** | Mature operation |
 
-Your $12M property becomes $22M+ in equity. That's an 83% return on market value, plus the tax savings on top.
+Your $9.9M equity conversion becomes $22M+ in ownership value. That's a 122% return on the converted amount, plus $2M cash in hand from day one.
 
 ---
 
-## 7. The Tax Benefit
+## 9. The $22M Year 5 Projection
 
-When you donate the property, you receive a charitable tax deduction based on an independent appraisal of its fair market value. The IRS doesn't care what you paid. They care what it's worth today.
+The $147M combined enterprise value at Year 5 is built on:
 
-**Your listing price** reflects a divorce fire sale, not true value. A proper appraisal, considering replacement cost, income potential, and comparable properties, could land at $15-22M.
+- **Revenue ramp** from initial guest cohorts through full-capacity operations
+- **Multiple revenue streams**: clinical programs, extended stays, training programs, licensing
+- **Asset appreciation**: the property itself increases in value as a purpose-built medical wellness facility
+- **Brand premium**: first-mover advantage in a rapidly growing market
+- **Operating leverage**: fixed-cost infrastructure with scaling revenue
 
-**How the deduction works:** You can deduct up to 30% of your annual income each year. Whatever you can't use carries forward for five more years (six years total).
-
-**If your income is high**, you could save $7-9M in taxes over those six years. Even if your income is modest, the equity alone makes the deal worth it. The tax savings are a bonus.
+Your 15% of $147M = **$22,050,000**. This is the projected value of your combined equity in both entities at Year 5.
 
 ---
 
-## 8. The Buyout
+## 10. The Buyout
 
-Your 15% isn't locked up forever. If we ever want to consolidate the operation to 100%, we buy you out at fair market value, determined by an independent valuation at the time.
+At Year 5, we have the option to buy back your equity at fair market value, structured over **24 to 36 months with interest on the buyout value**.
 
 | Term | Detail |
 |------|--------|
 | **Price** | Fair Market Value at time of buyout |
 | **How FMV is set** | Independent third-party valuation |
-| **Payment** | Cash |
+| **Earliest exercise** | Year 5 |
+| **Payment timeline** | 24–36 months from exercise date |
+| **Interest** | Interest accrues on unpaid buyout balance |
 | **Notice** | 60 days written notice |
-| **Earliest** | After Year 1 |
 
 What that looks like in practice:
-- **Year 2:** Buyout at ~$8.25M
-- **Year 3:** Buyout at ~$13.05M
-- **Year 5:** Buyout at ~$22.05M
+- **Year 5 FMV:** ~$22.05M for your combined 15%
+- **Payment:** Structured over 24–36 months with interest
+- **Result:** Full liquidity at fair value, on a defined schedule
 
-You can't be squeezed below fair value. If we buy you out, you get paid what your share is actually worth, in cash.
-
----
-
-## 9. Why Now
-
-Tax law changes are coming. The current charitable deduction rules, the ones that make this deal so powerful, are under active legislative review. The window to lock in a deduction of this size may not be open much longer.
-
-Your property is listed now. Every month it sits on the market, it loses leverage. Take it off the market, get a proper appraisal, and make this move while the tax environment still favors it.
-
-The operation is ready to launch. We have the team, the medical protocols, the capital plan. What we need is the property. Your property. And the window to make this work at maximum value is 2026.
+You can't be squeezed below fair value. If we exercise the buyout, you get paid what your share is actually worth, with interest on the balance until fully paid.
 
 ---
 
-## 10. The Invitation
+## 11. Optional: Donation + Tax Credit Strategy
 
-This isn't a negotiation. We're not trying to get your property for less than it's worth. We're offering you more than the market will: in equity, in tax savings, in purpose, and in legacy.
+In addition to the equity conversion structure, you may have the option to donate a portion of your equity or a segment of the property's value into a qualifying charitable structure. This is an **optional scenario** — not mandatory — and could provide:
 
-You built something extraordinary. The market wants to give you $12 million and forget your name. We want to give you $22 million in equity, a multi-million dollar tax benefit, a title, a role, and a story that matters.
+**Tax credit benefits.** Depending on how the donation is structured and your individual tax position, a charitable contribution of qualifying assets could generate meaningful tax credits or deductions.
+
+**Strategic tax efficiency.** A well-structured donation, potentially into a 501(c)(3) or similar qualifying entity, can create tax savings that compound the financial value of this deal beyond the equity alone.
+
+**Legacy positioning.** A charitable component adds a philanthropic dimension to your involvement — not just as a founding partner, but as someone who contributed to a mission-driven organization.
+
+This option would be structured in consultation with qualified tax counsel and would not affect your core equity position or the terms of the acquisition. It is presented here as an available pathway for further optimization — one that aligns with the charitable and healing mission of the enterprise.
+
+*Note: No heavy tax assumptions are made here. This scenario requires independent tax advice specific to your situation.*
+
+---
+
+## 12. Why Now
+
+Your property is listed now. Every month it sits on the market, it loses leverage. The operation is ready to launch. We have the team, the medical protocols, the capital plan. What we need is the property. Your property. And the window to make this work at maximum value is 2026.
+
+---
+
+## 13. The Invitation
+
+This isn't a negotiation. We're not trying to get your property for less than it's worth. We're offering you more than the market will: in cash, in equity, in purpose, and in legacy.
+
+You built something extraordinary. The market wants to give you $12 million and forget your name. We want to give you $2 million in cash, $22 million in equity across two companies, a title, a role, and a story that matters.
 
 Your property doesn't get torn down. It becomes a healing center. Your name doesn't get forgotten. It goes on the wall. You don't walk away with a loss. You walk away as a founding partner of something that outlives both of us.
 
-> "You put $28 million and eight years into this property. The market wants to hand you $12 million and erase your name. We're offering you $22 million in equity, millions in tax savings, and a legacy. Your property becomes the birthplace of a global healing movement. And you're not a former owner. You're a founding partner."
+> "You put $28 million and eight years into this property. The market wants to hand you $12 million and erase your name. We're offering you $2 million cash, 15% equity in two companies projected to be worth $22 million, and a legacy. Your property becomes the birthplace of a global healing movement. And you're not a former owner. You're a founding partner."
 
 We're not asking you to sell. We're inviting you to be part of something worth building.
 
