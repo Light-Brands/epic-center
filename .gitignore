@@ -43,3 +43,6 @@ coverage/
 # Misc
 *.log
 *.tsbuildinfo
+
+# QIE Intelligence Framework (symlink — not part of this project)
+_bmad
