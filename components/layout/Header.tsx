@@ -129,8 +129,11 @@ export function Header() {
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-        className="fixed top-0 left-0 right-0 z-50 pt-4 md:pt-5 flex justify-center"
+        className="fixed top-0 left-0 right-0 z-50 pt-[calc(env(safe-area-inset-top,0px)+1rem)] md:pt-[calc(env(safe-area-inset-top,0px)+1.25rem)] flex justify-center"
       >
+        {/* Safe area fill — covers the status bar region on PWA */}
+        <div className="absolute top-0 left-0 right-0 h-[env(safe-area-inset-top,0px)] bg-white/80 backdrop-blur-xl" />
+
         <nav className={`
           w-full sm:w-[70vw]
           flex items-center justify-between
@@ -266,9 +269,9 @@ export function Header() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
               transition={{ duration: 0.2 }}
-              className="fixed top-20 left-4 right-4 z-50 lg:hidden"
+              className="fixed top-[calc(env(safe-area-inset-top,0px)+5rem)] left-4 right-4 z-50 lg:hidden"
             >
-              <div className="bg-white/90 backdrop-blur-xl rounded-2xl shadow-2xl border border-white/50 overflow-hidden max-h-[calc(100vh-6rem)] overflow-y-auto">
+              <div className="bg-white/90 backdrop-blur-xl rounded-2xl shadow-2xl border border-white/50 overflow-hidden max-h-[calc(100vh-env(safe-area-inset-top,0px)-6rem)] overflow-y-auto">
                 {/* Nav Sections - Collapsible Accordion */}
                 <div className="px-3 py-3 space-y-0.5">
                   {mobileNavSections.map((section) => {
