@@ -1019,6 +1019,287 @@ Must be for-profit (E-2 requires commercial enterprise), but can support church 
 
 ---
 
+## Return Pathway: Regaining US Citizenship After Renunciation
+
+### Core Principle: Stay Married, Keep the Door Open
+
+**The single most important strategic decision:** Do NOT divorce before renouncing. Stay legally married. Your wife's US citizenship is your permanent, clean, legitimate lifeline back into the United States whenever you choose to use it.
+
+**Why staying married is superior to divorce/remarry:**
+
+| Factor | Stay Married | Divorce → Remarry |
+|--------|-------------|-------------------|
+| **Immigration fraud risk** | None | High (USCIS trained to spot this pattern) |
+| **Spousal petition available** | Yes, anytime | Only after remarriage |
+| **USCIS scrutiny** | Standard | Elevated (pattern triggers investigation) |
+| **Criminal exposure** | None | Potential federal charges if deemed sham |
+| **Timeline to green card** | 12-18 months whenever you file | 12-18 months AFTER remarriage + scrutiny delays |
+| **Legal complexity** | Simple | Two divorces, two marriages, fraud defense |
+| **Cost** | ~$5-10k legal | $20-50k+ (divorces, remarriage, immigration defense) |
+
+**The math is simple:** Staying married gives you all the same benefits with none of the legal risk.
+
+---
+
+### How the Return Pathway Works
+
+**Your wife, as a US citizen, can petition for you as an "immediate relative" at any point.** This is the cleanest, fastest family-based immigration pathway in US law.
+
+#### Step-by-Step Process
+
+**Step 1: Your Wife Files Form I-130 (Petition for Alien Relative)**
+- Files with USCIS
+- Proves valid marriage (marriage certificate, photos, shared life evidence)
+- Filing fee: $535
+- Processing time: 5-12 months
+
+**Step 2: National Visa Center Processing**
+- Case forwarded to NVC after I-130 approval
+- Submit Form DS-260 (Immigrant Visa Application)
+- Gather civil documents (birth certificate, police clearances, medical exam)
+- Pay immigrant visa fee: $325
+
+**Step 3: Consular Interview**
+- Interview at US embassy/consulate in your country of residence
+- Present documents, answer questions about relationship and intentions
+- Medical exam results submitted
+- If approved: Immigrant visa stamped in passport
+
+**Step 4: Enter the US as Lawful Permanent Resident**
+- Enter US on immigrant visa
+- Green card mailed to US address
+- You are now a permanent resident (green card holder)
+
+**Step 5: Wait 3 Years (Married to US Citizen)**
+- Maintain continuous residence in US
+- Be physically present for at least 18 of 36 months
+- No extended trips abroad (6+ months breaks continuity)
+- Stay married to the same US citizen spouse
+
+**Step 6: Apply for Naturalization (Form N-400)**
+- Filing fee: $710
+- Biometrics appointment
+- Civics test (100 questions, must answer 6 of 10 correctly)
+- English test (reading, writing, speaking)
+- Interview with USCIS officer
+
+**Step 7: Take Oath of Allegiance**
+- Attend naturalization ceremony
+- Take oath
+- Receive Certificate of Naturalization
+- Apply for US passport
+
+**You are a US citizen again.**
+
+---
+
+### Timeline: From Decision to Citizenship
+
+```
+DECISION TO RETURN
+       │
+       ▼
+   Wife files I-130 ────────────── Month 0
+       │
+       ▼
+   I-130 Approved ─────────────── Month 5-12
+       │
+       ▼
+   NVC Processing ─────────────── Month 8-15
+       │
+       ▼
+   Consular Interview ─────────── Month 10-18
+       │
+       ▼
+   Enter US with Green Card ───── Month 12-20
+       │
+       ▼
+   3-Year Residency Period ────── Month 12-56
+       │
+       ▼
+   File N-400 Naturalization ──── Month 48-56
+       │
+       ▼
+   Naturalization Interview ───── Month 54-62
+       │
+       ▼
+   Oath Ceremony ──────────────── Month 56-65
+       │
+       ▼
+   US CITIZEN AGAIN ───────────── ~4.5 to 5.5 years from filing
+```
+
+**Total timeline: Approximately 4.5 to 5.5 years from when your wife files the petition to when you take the oath.**
+
+This is a real commitment, but it's a clean, legal, well-worn path that thousands of people walk every year.
+
+---
+
+### What Makes This Pathway Clean
+
+**No special rules for former citizens.** Once you renounce, you are legally a foreign national. The immigration system treats you like any other foreign national married to a US citizen. There is no "former citizen" penalty or expedited review.
+
+**Immediate relative = no visa caps.** Unlike other family-based categories (siblings, adult children), spouses of US citizens are "immediate relatives" under INA § 201(b)(2)(A)(i). This means:
+- No annual numerical limits
+- No waiting in a visa backlog queue
+- Processed as quickly as USCIS can handle them
+
+**The marriage is genuine.** You are actually married. You have a real history, shared life, possibly children. This is the strongest possible case for a marriage-based petition. USCIS looks for fraud -- they won't find it because there is none.
+
+---
+
+### Important Considerations for Former Citizens
+
+#### The Covered Expatriate Shadow
+
+If you are classified as a "covered expatriate" at the time of renunciation (net worth > $2M, average tax > $190k, or failed 5-year tax compliance), certain tax consequences follow you even after you return:
+
+**Gifts and bequests TO US persons:**
+- Any gift or bequest FROM a covered expatriate TO a US citizen/resident faces a special transfer tax
+- Taxed at the highest gift/estate tax rate (~40%) on amounts exceeding the annual exclusion ($18,000/year in 2026)
+- This applies to your wife, children, and any other US persons
+- **This does NOT expire.** It follows you permanently, even if you regain citizenship
+
+**Strategy to minimize covered expatriate status:**
+- Work with expat tax attorney to get net worth below $2M before renunciation
+- Transfer assets to wife before renunciation (but watch gift tax implications and timing)
+- Ensure 5 years of perfect tax compliance
+- Time renunciation when average annual tax liability is below the threshold
+- Use the $866,000 gain exclusion strategically
+
+**If you can avoid "covered expatriate" classification, the transfer tax issue disappears entirely.**
+
+#### Green Card Holder Tax Obligations
+
+Once you have a green card, you are a "US person" for tax purposes again:
+- Worldwide income is taxable by the US
+- Must file annual tax returns
+- FBAR reporting on foreign accounts over $10,000
+- FATCA compliance
+
+**This is the trade-off.** You regain US access and eventually citizenship, but you also regain US tax obligations. Plan your asset and income structure accordingly before re-entering.
+
+#### Re-entry After the Reed Amendment
+
+The Reed Amendment (INA § 212(a)(10)(E)) makes inadmissible any former citizen who renounced for the purpose of tax avoidance. In practice:
+
+- Rarely enforced (almost never in its history)
+- Burden of proof is on the Attorney General
+- But filing for a green card creates a touchpoint where this COULD be raised
+- Having a genuine marriage and non-tax reasons for renunciation (philosophical, sovereignty, lifestyle) strengthens your position
+- Document your non-tax motivations clearly before renouncing
+
+**Practical mitigation:** Consult with an immigration attorney before filing the I-130. They can assess Reed Amendment risk for your specific situation and prepare accordingly.
+
+---
+
+### Alternative Return Pathways (If Marriage Path Not Used)
+
+If for any reason the spousal petition is not available or desired, here are the other paths to permanent residency and eventual citizenship:
+
+#### EB-5 Immigrant Investor Visa
+
+- **Investment:** $800,000 (targeted employment area) or $1,050,000 (standard)
+- **Job creation:** Must create 10 full-time US jobs
+- **Timeline:** 2-4 years to green card
+- **Then:** 5 years to naturalization eligibility
+- **Total to citizenship:** ~7-9 years
+- **Best for:** If you have significant capital and want independence from spousal petition
+
+#### Employment-Based Green Card (EB-1, EB-2, EB-3)
+
+- **EB-1A (Extraordinary Ability):** No employer sponsor needed, but must demonstrate extraordinary achievement
+- **EB-1C (Multinational Manager):** Transfer from foreign office of company to US office
+- **EB-2/EB-3:** Requires US employer sponsor and labor certification
+- **Timeline:** 1-5 years depending on category and country of chargeability
+- **Then:** 3-5 years to naturalization
+- **Best for:** If you build a substantial business or career outside the US
+
+#### R-1 Religious Worker → Green Card
+
+- **Pathway:** R-1 visa (religious worker) → EB-4 Special Immigrant Religious Worker → Green card
+- **Requirements:** 2 years working for qualifying religious organization abroad, US religious organization sponsors you
+- **Timeline:** R-1 (up to 5 years) → EB-4 green card (1-2 years) → Naturalization (5 years)
+- **Best for:** If Church of Living Light becomes established with both foreign and US operations
+- **Note:** This could pair well with your church strategy -- establish abroad, create US branch, enter as religious worker
+
+---
+
+### Decision Tree: Do I Want Back In?
+
+```
+ARE YOU HAPPY OUTSIDE THE US?
+       │
+       ├── YES → Stay on E-2/B-2 for visits. No action needed.
+       │         Your wife's citizenship remains your safety net.
+       │
+       └── NO → Do you want to LIVE in the US permanently?
+                    │
+                    ├── NO → E-2 visa is sufficient.
+                    │         Live in US part-time, run business.
+                    │         Renew indefinitely. No citizenship needed.
+                    │
+                    └── YES → Do you want US CITIZENSHIP again?
+                                 │
+                                 ├── NO → Green card via wife's I-130.
+                                 │         Permanent resident status.
+                                 │         Live and work freely.
+                                 │         No need to naturalize.
+                                 │
+                                 └── YES → Green card via wife's I-130.
+                                           Wait 3 years.
+                                           Apply for naturalization.
+                                           ~4.5-5.5 years total.
+```
+
+**The beauty of this structure:** You never have to decide now. The door stays open. Your wife's citizenship is a permanent option that can be exercised 1 year from now, 10 years from now, or never.
+
+---
+
+### Costs: Return Pathway
+
+| Item | Cost |
+|------|------|
+| I-130 filing fee | $535 |
+| DS-260 immigrant visa fee | $325 |
+| Medical exam | $200-$500 |
+| Document translation/apostille | $500-$1,000 |
+| Immigration attorney | $3,000-$8,000 |
+| USCIS immigrant fee (green card production) | $220 |
+| N-400 naturalization filing fee | $710 |
+| **Total (green card only)** | **$5,000-$11,000** |
+| **Total (through naturalization)** | **$5,700-$11,700** |
+
+Compared to the hundreds of thousands spent on CBI programs and E-2 businesses, the return pathway is remarkably affordable. The real cost is time (4.5-5.5 years) and the resumption of US tax obligations.
+
+---
+
+### The "One Foot In / One Foot Out" Summary
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    YOUR STRUCTURE                            │
+│                                                             │
+│  YOU (Grenada/Paraguay citizen)    YOUR WIFE (US citizen)   │
+│  ┌─────────────────────┐          ┌──────────────────────┐  │
+│  │ • No US tax          │          │ • Full US rights      │  │
+│  │ • E-2 for US access  │◄─MARRIED─►│ • Can petition you   │  │
+│  │ • Global mobility    │          │ • Maintains your      │  │
+│  │ • Sovereign          │          │   return option       │  │
+│  └─────────────────────┘          └──────────────────────┘  │
+│                                                             │
+│  DAY-TO-DAY:          EMERGENCY/LONG-TERM:                  │
+│  E-2 visa for US      Wife files I-130 → Green card         │
+│  visits & business    → Naturalization (4.5-5.5 years)      │
+│                                                             │
+│  RESULT: Freedom from US system + permanent door back in    │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**You get sovereignty. You keep the safety net. No divorce needed. No fraud risk. Clean and legal.**
+
+---
+
 ## Strategic Passport Portfolios
 
 ### Portfolio A: Maximum US Access (Premium)
