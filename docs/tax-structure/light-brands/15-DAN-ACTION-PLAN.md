@@ -4,7 +4,8 @@
 > **Last Updated:** February 15, 2026
 > **For:** Daniel Lawless
 > **Urgency:** HIGH — covered expatriate window is closing as business value grows
-> **Reference:** [14-LIGHT-BRANDS-AI-CORPORATE-SETUP.md](./14-LIGHT-BRANDS-AI-CORPORATE-SETUP.md) for full corporate architecture
+> **Reference:** [14-LIGHT-BRANDS-AI-CORPORATE-SETUP.md](./14-LIGHT-BRANDS-AI-CORPORATE-SETUP.md) for corporate architecture; [16-CYPRUS-STUDIO-SUBSTANCE-LAYER.md](./16-CYPRUS-STUDIO-SUBSTANCE-LAYER.md) for Cyprus Studio detail
+> **Structure:** PIF → Panama Holdings → LBC (Cook Islands IBC) / LBS (Cyprus Studio)
 
 ---
 
@@ -12,7 +13,7 @@
 
 This is a sequential action plan. Each phase depends on the previous phase. Within each phase, items marked **PARALLEL** can run simultaneously. Items marked **SEQUENTIAL** must complete before the next step.
 
-**The critical path:** Grenada CBI takes 4-6 months. Entity formation takes 4-8 weeks. Renunciation takes 2-6 months after second citizenship. **Total: 10-18 months from today to full operation as a non-US citizen.**
+**The critical path:** Grenada CBI takes 4-6 months. Entity formation (including Cyprus Studio) takes 6-12 weeks. Renunciation takes 2-6 months after second citizenship. **Total: 10-18 months from today to full operation as a non-US citizen.**
 
 The window to avoid covered expatriate status is shrinking. Every new deal that adds business value pushes closer to the $2M threshold. Act now.
 
@@ -56,10 +57,10 @@ The window to avoid covered expatriate status is shrinking. Every new deal that 
 
   If deals are close to signing that could push net worth over $2M:
   - **Do NOT sign equity agreements yet** — keep business interests at zero FMV
-  - **Defer equity issuance** to other founders — Dan's shares can be issued after renunciation
-  - **Structure deals through the CI IBC** (once formed) — so the value accrues to the corporate entity, not Dan personally
+  - **Defer equity issuance** — Dan's S.A. shares (via PIF) can be issued after renunciation
+  - **Structure deals through the CI IBC** (once formed) — so the value accrues to the corporate structure (S.A. → LBC/LBS), not Dan personally
 
-  **Key principle:** At the date of renunciation, Dan should personally own as little as possible. Business value should sit in entities (CI IBC), not in Dan's hands.
+  **Key principle:** At the date of renunciation, Dan should personally own as little as possible. Business value should sit in the corporate structure (PIF → S.A. → subsidiaries), not in Dan's hands.
 
 ---
 
@@ -87,7 +88,7 @@ The window to avoid covered expatriate status is shrinking. Every new deal that 
 - [ ] **1.2 — Engage Cook Islands registered agent**
 
   Scope:
-  - Confirm CI IBC formation with multi-shareholder structure (Panamanian S.A. + 3 individual shareholders)
+  - Confirm CI IBC formation with 100% ownership by Light Brands Holdings S.A.
   - Confirm nominee director availability
   - Confirm timeline and costs
   - Discuss Singapore bank introduction (many CI agents have banking relationships)
@@ -96,14 +97,39 @@ The window to avoid covered expatriate status is shrinking. Every new deal that 
 
   **Budget:** $1,500-2,500 for formation consultation + setup
 
+- [ ] **1.2b — Engage Cyprus corporate counsel**
+
+  Scope:
+  - Form Light Brands Studio Ltd (Cyprus Private Company)
+  - Advise on employment contracts for developers
+  - Advise on Andreas's dual role (director + employee)
+  - Confirm S.A. (Panamanian corporation) as shareholder of Cyprus Ltd — any issues?
+  - Confirm VAT registration requirements (B2B to non-EU entity)
+  - Office lease guidance (Limassol or Nicosia)
+
+  **Where to find:** Elias Neocleous & Co, Chrysostomides & Co, or Andreas Neocleous & Co (top Cyprus firms).
+
+  **Budget:** $3,000-6,000 for formation + initial counsel
+
+- [ ] **1.2c — Engage transfer pricing advisor**
+
+  Scope:
+  - Prepare initial TP documentation (Master File + Local File)
+  - Benchmark cost-plus 8-12% for Cyprus captive development center
+  - Draft/review MDSA pricing methodology
+  - Annual maintenance plan
+
+  **Budget:** $8,000-12,000 initial, $3,000-5,000/yr maintenance
+
 - [ ] **1.3 — Engage Panama PIF counsel**
 
   Scope:
-  - Form Fundación Light Brands (PIF)
+  - Form Dan's PIF: Fundación Light Brands (Dan's vehicle)
+  - Form Nicholas's PIF: separate foundation (Nicholas's vehicle)
   - Form Light Brands Holdings S.A.
-  - Draft Foundation Charter + Private Regulations
-  - Appoint Foundation Council (at least 1 Panamanian resident nominee)
-  - Confirm PIF → S.A. → CI IBC chain is valid
+  - Draft Foundation Charters + Private Regulations (both PIFs)
+  - Appoint Foundation Councils (at least 1 Panamanian resident nominee each)
+  - Confirm PIF → S.A. → LBC/LBS chain is valid
 
   **Where to find:** Icaza, González-Ruiz & Alemán; Morgan & Morgan; or Arias, Fábrega & Fábrega (top Panama firms).
 
@@ -144,19 +170,25 @@ The window to avoid covered expatriate status is shrinking. Every new deal that 
 
 ### SEQUENTIAL — Form in This Order
 
-- [ ] **2.1 — Form Panama PIF: Fundación Light Brands**
+- [ ] **2.1 — Form Panama PIFs (two foundations)**
 
   Timeline: 2-4 weeks from counsel engagement
 
-  Deliverables:
+  **Dan's PIF — Fundación Light Brands:**
   - Foundation Charter (public, filed with Panama Registry)
-  - Private Regulations (private, names beneficiaries)
+  - Private Regulations (private, names Dan as beneficiary)
   - Foundation Council appointed (3+ members)
   - Protector appointed (optional, recommended)
   - Initial endowment ($10,000)
   - Certificate of Registration
 
-  **Beneficiaries named in Private Regulations:** Dan, Nicholas, Andreas. NOT wife. NOT Jason.
+  **Nicholas's PIF — [Name TBD]:**
+  - Same structure as Dan's PIF
+  - Names Nicholas as beneficiary
+  - Separate Foundation Council
+  - Certificate of Registration
+
+  **Beneficiaries:** Dan's PIF names Dan only. Nicholas's PIF names Nicholas only. NOT wife. NOT Jason. NOT Andreas.
 
 - [ ] **2.2 — Form Panama S.A.: Light Brands Holdings S.A.**
 
@@ -166,31 +198,60 @@ The window to avoid covered expatriate status is shrinking. Every new deal that 
   - Articles of Incorporation
   - Board of Directors appointed (3 minimum)
   - Officers appointed (President, Secretary, Treasurer)
-  - Shares issued — 100% to Fundación Light Brands (PIF)
+  - Shares issued to all four founders:
+    - 30% → Dan's PIF (Fundación Light Brands)
+    - 30% → Nicholas's PIF ([Name TBD])
+    - 30% → Andreas Demou (direct, Cyprus citizen)
+    - 10% → Jason Sparks (direct, US citizen)
   - Certificate of Incorporation
   - Tax ID (RUC) obtained
+  - **Governance:** 2/3 majority vote by 30% founders (Dan, Nicholas, Andreas) controls all major decisions
 
-  **Dependency:** PIF must exist to be the sole shareholder of the S.A.
+  **Dependency:** Both PIFs must exist before S.A. shares can be issued to them.
 
-- [ ] **2.3 — Form Cook Islands IBC: Light Brands AI Ltd**
+- [ ] **2.3 — Form Cook Islands IBC: LBC — Light Brands AI Ltd**
 
   Timeline: 2-5 weeks from engagement of CI registered agent
 
   Deliverables:
   - Memorandum of Association
-  - Articles of Association (include shareholder restrictions, transfer rules, dividend policy)
+  - Articles of Association (include transfer rules, dividend policy)
   - Certificate of Incorporation
   - Register of Directors (Dan + nominee)
-  - Register of Shareholders (4 shareholders per cap table)
-  - Share certificates issued:
-    - 300 shares → Light Brands Holdings S.A. (Dan's vehicle)
-    - 300 shares → Nicholas Courschesne
-    - 300 shares → Andreas Demou
-    - 100 shares → Jason Sparks
+  - Register of Shareholders: **Light Brands Holdings S.A. — 100% sole shareholder**
+  - Share certificates issued: 100% to S.A.
 
-  **Dependency:** S.A. must exist to be a shareholder. Nicholas, Andreas, Jason can hold shares directly.
+  **Dependency:** S.A. must exist to be the sole shareholder.
 
-  **Important timing note:** If Dan has not yet renounced US citizenship at the time of CI IBC formation, his equity should be issued to the S.A. (owned by PIF), NOT to Dan personally. This keeps the business value in the PIF structure, not in Dan's personal net worth for covered expatriate calculation.
+  **Important timing note:** Because the CI IBC is 100% owned by the S.A. (not by Dan personally), the business value sits in the corporate structure — not in Dan's personal net worth for covered expatriate calculation. All founder equity is at the S.A. level.
+
+- [ ] **2.3b — Form Cyprus Studio: LBS — Light Brands Studio Ltd**
+
+  Timeline: 3-6 weeks from engagement of Cyprus counsel (can run parallel with CI IBC formation)
+
+  Deliverables:
+  - Memorandum and Articles of Association
+  - Certificate of Incorporation
+  - Tax Identification Number (TIN)
+  - VAT registration (if turnover > EUR 15,600 or voluntarily)
+  - Social Insurance Services registration
+  - Share certificates issued: **Light Brands Holdings S.A. — 100% sole shareholder**
+  - Director appointed: Andreas Demou
+  - Secretary appointed (local service provider)
+  - Auditor appointed (required under Cyprus law)
+
+  **Dependency:** S.A. must exist to be the sole shareholder. Cyprus counsel must be engaged.
+
+- [ ] **2.3c — Lease Cyprus office space**
+
+  Timeline: Weeks 5-8 (once Studio is incorporated)
+
+  Actions:
+  - Lease office in Limassol or Nicosia (where Andreas resides)
+  - Budget: ~$2,000-3,000/month for a small office
+  - Set up equipment, internet, development infrastructure
+
+  **This is substance.** A real office with real equipment where real developers work.
 
 - [ ] **2.4 — Open Singapore bank account for CI IBC**
 
@@ -204,9 +265,21 @@ The window to avoid covered expatriate status is shrinking. Every new deal that 
 
   **Dependency:** CI IBC must be incorporated. KYC docs from all entities (PIF, S.A., IBC) required.
 
+- [ ] **2.4b — Open Cyprus bank account for Studio**
+
+  Timeline: 2-4 weeks after Cyprus Studio incorporation
+
+  Actions:
+  - Apply at Bank of Cyprus or Hellenic Bank
+  - EUR primary account for payroll and local operations
+  - Optional USD account for receiving payments from CI IBC
+  - Full SEPA access for EU transactions
+
+  **Dependency:** Cyprus Studio must be incorporated with TIN issued.
+
 - [ ] **2.5 — Open Panama bank account for S.A.**
 
-  Timeline: 2-4 weeks (can be parallel with Singapore)
+  Timeline: 2-4 weeks (can be parallel with Singapore and Cyprus)
 
   Actions:
   - Apply at Banco General or Banistmo
@@ -231,29 +304,46 @@ The window to avoid covered expatriate status is shrinking. Every new deal that 
 
 ### PARALLEL — All Can Be Drafted Simultaneously
 
-- [ ] **3.1 — Shareholders' Agreement**
+- [ ] **3.1 — Shareholders' Agreement (S.A. level)**
 
-  Between: Light Brands Holdings S.A. (Dan), Nicholas, Andreas, Jason
+  Between: Dan's PIF (30%), Nicholas's PIF (30%), Andreas Demou (30%), Jason Sparks (10%) — as shareholders of Light Brands Holdings S.A.
 
   Key terms:
-  - Equity split: 30/30/30/10
+  - Equity split: 30/30/30/10 at the S.A. level
+  - Both operating entities (LBC + LBS) are 100% subsidiaries of S.A. — no separate shareholder agreements needed for them
+  - Governance: 2/3 majority vote by 30% founders (Dan, Nicholas, Andreas) on all major decisions
   - Vesting: 4 years, 1-year cliff
-  - Right of first refusal on share transfers
+  - Right of first refusal on S.A. share transfers
   - Tag-along / drag-along rights
   - Dividend policy (minimum quarterly distribution of X% of net profit)
   - Reserved matters (requiring supermajority: new share issuance, sale of company, change of Articles)
   - Deadlock resolution mechanism
   - Non-compete and non-solicit
   - Departure terms (good leaver / bad leaver)
-  - Governing law: Cook Islands or English law (counsel advises)
+  - Governing law: Panama or English law (counsel advises)
 
-  **Who drafts:** CI registered agent's legal team or independent commercial lawyer (Singapore or UK firm).
+  **Who drafts:** Panama counsel or independent commercial lawyer (Singapore or UK firm).
 
   **Budget:** $3,000-8,000
 
+- [ ] **3.1b — Master Development Services Agreement (MDSA)**
+
+  Between: Light Brands AI Ltd (CI IBC) and Light Brands Studio Ltd (Cyprus)
+
+  Key terms:
+  - Cyprus Studio provides all development services to CI IBC
+  - Cost-plus pricing: Studio's actual costs + 10% markup
+  - All IP created by Studio automatically assigned to CI IBC upon creation
+  - Monthly invoicing based on actual costs incurred
+  - Annual benchmark review of markup against comparable transactions
+
+  **Who drafts:** Transfer pricing advisor + Cyprus counsel jointly.
+
+  **Budget:** Included in TP advisor engagement (~$8,000-12,000 for initial study + MDSA)
+
 - [ ] **3.2 — Dan's contractor/director agreement**
 
-  Between: Dan Lawless and Light Brands AI Ltd
+  Between: Dan Lawless and Light Brands AI Ltd (CI IBC)
 
   Key terms:
   - Role: Managing Director + Lead Consultant
@@ -289,13 +379,44 @@ The window to avoid covered expatriate status is shrinking. Every new deal that 
 
   **Budget for legal drafting:** $1,000-3,000 for template
 
+- [ ] **3.4b — Andreas's employment/director contract with Cyprus Studio**
+
+  Between: Andreas Demou and Light Brands Studio Ltd
+
+  Key terms:
+  - Role: Executive Director — runs office, manages team, oversees delivery
+  - Employment contract under Cyprus law
+  - Market-rate director salary (EUR 60,000-120,000 depending on scale)
+  - Social insurance contributions (employer ~12%, employee ~8.3%)
+  - IP: all work product belongs to Cyprus Studio (which assigns to CI IBC per MDSA)
+
+- [ ] **3.4c — Hire first Cyprus-based developers**
+
+  Timeline: Month 3-4 (once office is ready, bank is open)
+
+  Actions:
+  - Andreas recruits locally in Limassol/Nicosia tech scene
+  - Employment contracts under Cyprus law
+  - Start with 2-4 developers (minimum viable substance)
+  - Budget: EUR 30,000-50,000/yr per mid-level developer
+
+- [ ] **3.4d — Prepare initial transfer pricing documentation**
+
+  Timeline: Month 3-4 (once MDSA is signed)
+
+  Deliverables:
+  - Master File (group overview)
+  - Local File (Cyprus Studio FAR analysis, comparable search, pricing methodology)
+  - Annual maintenance schedule
+
 - [ ] **3.5 — Begin client contracting**
 
-  Light Brands AI Ltd signs its first client contracts. Revenue flows to the Singapore bank account.
+  Light Brands AI Ltd (LBC) signs its first client contracts. Revenue flows to the Singapore bank account.
 
   - Consulting agreements → CI IBC is the contracting party
   - SaaS terms of service → CI IBC is the provider
   - All invoices issued by Light Brands AI Ltd
+  - All development work contracted to Cyprus Studio under MDSA
 
 ---
 
@@ -329,10 +450,12 @@ The window to avoid covered expatriate status is shrinking. Every new deal that 
   | 5-year tax compliance confirmed | [ ] |
   | Expat tax attorney has signed off | [ ] |
   | Wife understands and agrees | [ ] |
-  | All entity formation complete (PIF, S.A., CI IBC) | [ ] |
+  | All entity formation complete (PIFs, S.A., CI IBC, Cyprus Studio) | [ ] |
   | Singapore bank account open and operational | [ ] |
+  | Cyprus bank account open and operational | [ ] |
   | Revenue flowing through CI IBC (not through Dan personally) | [ ] |
-  | Dan's equity is held by S.A./PIF (not personally) | [ ] |
+  | Dan's equity is held by PIF → S.A. (not personally) | [ ] |
+  | Both LBC and LBS are 100% owned by S.A. | [ ] |
 
   **If net worth has crossed $2M since Phase 0:** STOP. Consult expat tax attorney immediately. Options may include: transferring assets to PIF before renunciation (must be done carefully to avoid fraudulent transfer claims), timing the renunciation to a point where business valuation is lower, or accepting covered expatriate status and modeling the consequences.
 
@@ -444,24 +567,51 @@ The window to avoid covered expatriate status is shrinking. Every new deal that 
 
 **What ongoing operations look like once everything is in place:**
 
+### OpEx Reserve Fund — The Safety Net
+
+The CI IBC's Singapore bank account maintains a mandatory operating reserve before any partner distributions:
+
+| Parameter | Amount |
+|-----------|--------|
+| **Minimum reserve** | $600,000 (12 months at $50K/mo burn) |
+| **Target reserve** | $1,200,000 (24 months at $50K/mo burn) |
+| **Burn rate** | $50,000/month — all team salaries, contractors, Cyprus Studio, infrastructure |
+
+**Buildup phase (OpEx Fund < $600K):**
+- All revenue after expenses goes to building the reserve
+- Bonuses split **50/50** — half to OpEx Fund, half to bonus pool
+- No quarterly distributions to partners until fund hits $600K
+
+**Funded phase (OpEx Fund ≥ $600K):**
+- Full bonuses paid out (100% to bonus pool)
+- Quarterly distributions of profit above reserve to partners via S.A. (30/30/30/10)
+- Maintain fund above $600K at all times, target $1M+
+- Detailed thresholds and escalation decisions made as the business scales
+
 ### Monthly
 
 | Task | Who | Action |
 |------|-----|--------|
-| Client billing | CI IBC | Invoice clients, collect via Stripe/bank transfer |
-| Contractor payments | CI IBC | Pay via Wise/Deel from Singapore account |
-| Dan's contractor fee | CI IBC → Dan | Monthly transfer from CI IBC to Dan's personal account |
+| Client billing | CI IBC (LBC) | Invoice clients, collect via Stripe/bank transfer |
+| Pay Cyprus Studio | CI IBC → Studio | Monthly cost-plus transfer to Cyprus bank account |
+| Developer payroll | Cyprus Studio (LBS) | Pay salaries, social insurance via Cyprus bank |
+| Contractor payments | CI IBC | Pay non-Cyprus contractors via Wise/Deel |
+| Dan's contractor fee | CI IBC → Dan | Monthly transfer to Dan's personal account |
 | Wife's contractor fee | CI IBC → Wife | Monthly transfer, $10,833/month |
-| Bookkeeping | CI IBC | Record all transactions (use Xero, QuickBooks, or Wave) |
+| Bookkeeping | CI IBC + Studio | Record all transactions (use Xero, QuickBooks, or Wave) |
 
-### Quarterly
+### Quarterly (once OpEx Fund ≥ $600K)
 
 | Task | Who | Action |
 |------|-----|--------|
-| Declare dividend | CI IBC Board | Board resolution declaring quarterly dividend |
-| Distribute dividends | CI IBC | 30% to S.A. (Dan), 30% to Nicholas, 30% to Andreas, 10% to Jason |
-| S.A. → PIF distribution | S.A. | Forward dividends from S.A. to PIF |
-| PIF → Dan distribution | PIF Foundation Council | Distribute to Dan per Private Regulations |
+| Confirm OpEx Fund balance | CFO / Dan | Verify Singapore bank balance ≥ $600K after all expenses |
+| Calculate distributable profit | CI IBC Board | Revenue minus expenses minus reserve top-up = distributable amount |
+| Declare CI IBC dividend | CI IBC Board | Board resolution declaring quarterly dividend (profit above reserve only) |
+| CI IBC → S.A. | CI IBC | Distributable profit to S.A. (sole shareholder) |
+| Cyprus Studio → S.A. | LBS Board | Any excess profit after costs to S.A. (sole shareholder) |
+| Declare S.A. dividend | S.A. Board | Board resolution distributing to all four shareholders |
+| S.A. → shareholders | S.A. | 30% to Dan's PIF, 30% to Nicholas's PIF, 30% to Andreas, 10% to Jason |
+| PIFs → founders | Foundation Councils | Distribute to Dan and Nicholas per Private Regulations |
 
 ### Annually
 
@@ -469,12 +619,16 @@ The window to avoid covered expatriate status is shrinking. Every new deal that 
 |------|-----|------|
 | CI IBC annual return | CI registered agent | Included in annual fee |
 | CI IBC registered agent fee | Dan / CI IBC | ~$1,500-2,500 |
+| Cyprus Studio audit | Cyprus auditor | ~$4,000 |
+| Cyprus Studio annual return + corporate tax filing | Cyprus accountant | ~$2,500 |
+| Cyprus Studio transfer pricing documentation update | TP advisor | ~$3,000-5,000 |
 | S.A. franchise tax + maintenance | Panama counsel | ~$1,600-3,000 |
 | PIF annual registration | Panama counsel | ~$2,000-3,500 |
 | Wife's US tax return (1040 + 2555 + FBAR + 8938) | US expat tax preparer | ~$1,500-3,000 |
 | Jason's US tax return (1040 + 5471 + FBAR) | Jason's US accountant | ~$1,500-3,000 |
 | Singapore bank maintenance | Bank | ~$200-500 |
-| **Total annual compliance** | | **~$8,300-15,500** |
+| Cyprus bank maintenance | Bank | ~$200-600 |
+| **Total annual compliance** | | **~$18,000-27,600** |
 
 ---
 
@@ -491,17 +645,24 @@ MONTH 0 (NOW)
 MONTHS 1-2
 ├── Phase 2.1: Form Panama PIF
 ├── Phase 2.2: Form Panama S.A.
-└── Phase 2.3: Begin CI IBC formation
+├── Phase 2.3: Begin CI IBC (LBC) formation
+└── Phase 2.3b: Begin Cyprus Studio (LBS) formation (parallel)
 
 MONTHS 2-3
 ├── Phase 2.3: CI IBC incorporated, shares issued
+├── Phase 2.3b: Cyprus Studio incorporated, shares issued
+├── Phase 2.3c: Lease Cyprus office space
 ├── Phase 2.4: Open Singapore bank account (trip required)
+├── Phase 2.4b: Open Cyprus bank account
 ├── Phase 2.5: Open Panama bank account
 └── Phase 2.6: Set up Stripe + Wise + Deel
 
 MONTHS 3-4
-├── Phase 3.1: Execute shareholders' agreement
-├── Phase 3.2-3.4: Execute all contractor agreements
+├── Phase 3.1: Execute shareholders' agreements (both entities)
+├── Phase 3.1b: Execute MDSA (CI IBC ↔ Cyprus Studio)
+├── Phase 3.2-3.4: Execute all contractor/employment agreements
+├── Phase 3.4c: Hire first Cyprus-based developers
+├── Phase 3.4d: Prepare initial transfer pricing documentation
 └── Phase 3.5: Begin client contracting → revenue flows
 
 MONTHS 4-6
@@ -531,9 +692,10 @@ MONTH 12+
 
 ══════════════════════════════════════════════════
 RESULT: Dan is a Grenada citizen, Panama/CR resident,
-        with 0% personal tax, 0% entity tax, and
-        Light Brands AI operating globally through a
-        single CI IBC with $7-13K/yr overhead.
+        with 0% personal tax. Light Brands AI operates
+        through CI IBC (0% tax) + Cyprus Studio (12.5%
+        on cost-plus markup only). All equity held at
+        S.A. level. ~$21-37K/yr total overhead.
 ══════════════════════════════════════════════════
 ```
 
@@ -547,39 +709,46 @@ RESULT: Dan is a Grenada citizen, Panama/CR resident,
 |------|------|
 | Grenada CBI (single applicant) | $252,000-295,000 |
 | Paraguay residency (optional, parallel) | $8,000-12,000 |
-| Panama PIF formation | $3,000-5,000 |
+| Panama PIFs formation (two foundations) | $6,000-10,000 |
 | Panama S.A. formation | $2,000-3,500 |
 | Cook Islands IBC formation | $3,000-5,000 |
+| Cyprus Studio formation | $3,000-6,000 |
 | Singapore bank opening (incl. travel) | $1,500-2,500 |
-| Legal counsel (US expat, Panama, CI) | $10,000-20,000 |
-| Shareholders' agreement | $3,000-8,000 |
+| Cyprus bank opening | $500-1,000 |
+| Legal counsel (US expat, Panama, CI, Cyprus) | $15,000-28,000 |
+| Transfer pricing study (initial) | $8,000-12,000 |
+| Shareholders' agreement (S.A. level) | $3,000-8,000 |
+| MDSA drafting (CI IBC ↔ Cyprus Studio) | Included in TP study |
 | Contractor agreement templates | $1,000-3,000 |
 | US renunciation fee | $2,350 |
 | Final US tax return preparation | $2,000-5,000 |
-| **Total one-time (with Grenada)** | **~$288,000-359,000** |
-| **Total one-time (without Grenada — if other citizenship available)** | **~$28,000-52,000** |
+| **Total one-time (with Grenada)** | **~$305,000-391,000** |
+| **Total one-time (without Grenada — if other citizenship available)** | **~$45,000-84,000** |
 
 ### Annual Ongoing Costs
 
 | Item | Cost |
 |------|------|
 | CI IBC maintenance | $2,500-4,500 |
+| Cyprus Studio audit + tax filing | $6,500-10,000 |
+| Cyprus Studio TP documentation update | $3,000-5,000 |
 | Panama S.A. maintenance | $1,600-3,000 |
-| Panama PIF maintenance | $2,000-3,500 |
+| Panama PIFs maintenance (two foundations) | $4,000-7,000 |
 | Singapore bank | $200-500 |
+| Cyprus bank | $200-600 |
 | Wife's US tax prep | $1,500-3,000 |
 | Jason's US tax prep (his expense) | $1,500-3,000 |
-| **Total annual** | **~$9,300-17,500** |
+| **Total annual** | **~$21,000-36,600** |
 
 ### The ROI
 
 | Scenario | Annual LB AI Revenue | Tax Under Current US Structure | Tax Under This Plan | Annual Savings |
 |----------|---------------------|-------------------------------|--------------------|-|
-| Year 1 | $500,000 | ~$60-80K (Dan's US tax + entity overhead) | ~$13K (entity overhead only) | **~$47-67K** |
-| Year 3 | $1,500,000 | ~$150-250K | ~$13K | **~$137-237K** |
-| Year 5 | $3,000,000+ | ~$300-500K+ | ~$13K | **~$287-487K+** |
+| Year 1 | $500,000 | ~$60-80K (Dan's US tax + entity overhead) | ~$27K (entity overhead + Cyprus 12.5% on markup) | **~$33-53K** |
+| Year 3 | $1,500,000 | ~$150-250K | ~$30K | **~$120-220K** |
+| Year 5 | $3,000,000+ | ~$300-500K+ | ~$35K | **~$265-465K+** |
 
-The Grenada CBI cost ($252-295K) pays for itself within 2-4 years at modest revenue levels.
+The Grenada CBI cost ($252-295K) pays for itself within 2-4 years at modest revenue levels. The Cyprus Studio adds annual cost but the 12.5% tax only applies to the cost-plus markup (not full revenue), keeping the effective rate minimal.
 
 ---
 
@@ -591,7 +760,7 @@ Options:
 1. **Accelerate renunciation** — some embassies have shorter wait times. Consider Bridgetown, Barbados or smaller Caribbean posts.
 2. **Transfer assets to PIF before renunciation** — must be done carefully. If IRS views it as tax-motivated, it could be challenged. Expat tax attorney must advise.
 3. **Accept covered expatriate status** — model the consequences. The ~40% gift tax to US persons is harsh, but if your wife earns $130K independently and you rarely gift her large amounts, the practical impact may be manageable.
-4. **Defer equity issuance** — if CI IBC shares haven't been issued to the S.A. yet, the business value doesn't appear on Dan's personal balance sheet. The PIF/S.A. exist as empty shells with minimal value.
+4. **Defer equity issuance** — if S.A. shares haven't been issued to Dan's PIF yet, the business value doesn't appear on Dan's personal balance sheet. The PIF exists as an empty shell with minimal value.
 
 ### "What if Grenada CBI takes longer than 6 months?"
 
@@ -622,7 +791,8 @@ She fails the 330-day test for FEIE. Options:
 - **Dan's US exit analysis:** [13-DAN-EXIT-US-AND-LB-SIMPLIFIED-STRUCTURE.md](./13-DAN-EXIT-US-AND-LB-SIMPLIFIED-STRUCTURE.md)
 - **Citizenship strategy (comprehensive):** [../CITIZENSHIP_STRATEGY.md](../CITIZENSHIP_STRATEGY.md)
 - **Cook Islands IBC detail:** [08-COOK-ISLANDS-IBC-DETAIL.md](./08-COOK-ISLANDS-IBC-DETAIL.md)
+- **Cyprus Studio substance layer:** [16-CYPRUS-STUDIO-SUBSTANCE-LAYER.md](./16-CYPRUS-STUDIO-SUBSTANCE-LAYER.md)
 
 ---
 
-*This is an actionable execution plan for forming Light Brands AI as a Cook Islands IBC with Panama PIF asset protection, and for Daniel Lawless to renounce US citizenship while avoiding covered expatriate status. Timelines are estimates based on standard processing times for Grenada CBI, Panama entity formation, Cook Islands IBC incorporation, and US renunciation procedures as of February 2026. Actual timelines may vary. All actions should be validated by qualified professionals: US expat tax attorney, Cook Islands registered agent, Panama PIF counsel, and Grenada CBI authorized agent. This is not legal or tax advice.*
+*This is an actionable execution plan for forming Light Brands AI as a four-entity structure (PIF → S.A. → LBC Cook Islands IBC / LBS Cyprus Studio) with Panama PIF asset protection, and for Daniel Lawless to renounce US citizenship while avoiding covered expatriate status. Timelines are estimates based on standard processing times for Grenada CBI, Panama entity formation, Cook Islands IBC incorporation, Cyprus company formation, and US renunciation procedures as of February 2026. Actual timelines may vary. All actions should be validated by qualified professionals: US expat tax attorney, Cook Islands registered agent, Panama PIF counsel, Cyprus corporate counsel, transfer pricing advisor, and Grenada CBI authorized agent. This is not legal or tax advice.*

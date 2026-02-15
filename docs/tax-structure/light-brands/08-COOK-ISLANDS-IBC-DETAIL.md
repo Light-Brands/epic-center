@@ -1,13 +1,16 @@
-# Cook Islands IBC: Light Brands Consulting Ltd — Operating Detail
+# Cook Islands IBC: Light Brands AI Ltd (LBC) — Operating Detail
 
-> **Status:** Entity specification — requires Cook Islands counsel + UAE counsel validation
+> **Status:** Entity specification — requires Cook Islands counsel + Cyprus counsel validation
 > **Last Updated:** February 2026
+> **Structure:** PIF → Panama Holdings S.A. → LBC (Cook Islands IBC) / LBS (Cyprus Studio)
 
 ---
 
 ## 1. Summary
 
-Light Brands Consulting Ltd is a Cook Islands International Business Company (IBC) that serves as the client-facing entity for all external consulting, SaaS, and product sales outside the TE healing center ecosystem. It signs contracts with external clients, collects revenue, owns LB-specific IP, and subcontracts all development to the UAE entity. It has zero employees, zero office space, and zero physical presence — by design. This "thin" entity structure preserves its unconditional 0% tax rate on international income while the UAE entity provides all operational substance.
+Light Brands AI Ltd (LBC) is a Cook Islands International Business Company (IBC) that serves as the consulting principal — "The Brain" — for all external consulting, SaaS, and product sales. It signs contracts with external clients, collects revenue, owns LB-specific IP, and subcontracts all development to Light Brands Studio Ltd (LBS), a Cyprus Private Company. LBC has zero employees, zero office space, and zero physical presence — by design. This "thin" entity structure preserves its unconditional 0% tax rate on international income while the Cyprus Studio provides all operational substance (real office, real employees, real development work).
+
+LBC is 100% owned by Light Brands Holdings S.A. (Panama), which is in turn owned by four shareholders: Dan's PIF (30%), Nicholas's PIF (30%), Andreas Demou (30%), and Jason Sparks (10%).
 
 ---
 
@@ -42,7 +45,7 @@ Light Brands Consulting Ltd is a Cook Islands International Business Company (IB
 | **Registered agent** | Required — must be a licensed CI trustee company |
 | **Registered office** | At the registered agent's address in Rarotonga |
 | **Directors** | Minimum 1 director. Can be corporate or individual. No CI residency requirement. **Critical: fewer than 3 CI-resident directors** to avoid local tax obligations. |
-| **Shareholders** | Minimum 1. Panamanian Holdings S.A. (100% PIF-owned Panama corporation) is sole shareholder. |
+| **Shareholders** | Minimum 1. **Light Brands Holdings S.A. (Panama) is 100% sole shareholder.** S.A. is owned by: Dan's PIF (30%), Nicholas's PIF (30%), Andreas Demou (30%), Jason Sparks (10%). |
 | **Secretary** | Optional (recommended for governance) |
 | **Share capital** | Flexible — standard is USD $10,000 authorized, $1 issued |
 | **Public registry** | Company name, registered agent, date of incorporation. Directors and shareholders are NOT public. |
@@ -54,7 +57,7 @@ Light Brands Consulting Ltd is a Cook Islands International Business Company (IB
 | Director | Role | Residence |
 |---|---|---|
 | Professional corporate director (nominee) | Day-to-day signing authority for routine matters | Cook Islands or Singapore |
-| Canadian founder | Strategic direction (via board resolutions) | UAE |
+| Dan Lawless | Strategic direction (via board resolutions) | Panama / Costa Rica (post-renunciation) |
 
 **Key constraint:** The CI IBC must NOT have 3 or more Cook Islands-resident directors. Under the International Companies Act, a company with 3+ CI-resident directors becomes subject to Cook Islands domestic tax law. Keep CI-resident directors to 1 (the nominee) or 0.
 
@@ -90,7 +93,7 @@ Light Brands Consulting Ltd is a Cook Islands International Business Company (IB
 |---|---|
 | Dividends paid by CI IBC to Panamanian Holdings S.A. | **0%** |
 | Royalties paid by CI IBC to any entity | **0%** |
-| Service fees paid by CI IBC to UAE entity | **0%** |
+| Service fees paid by CI IBC to Cyprus Studio | **0%** |
 | Interest paid by CI IBC | **0%** |
 
 **The 0% is unconditional for IBCs.** There is no minimum substance requirement, no qualifying activity test, and no revenue threshold. As long as the entity does not conduct business with Cook Islands residents or hold Cook Islands real property, the 0% rate applies.
@@ -104,7 +107,7 @@ Light Brands Consulting Ltd is a Cook Islands International Business Company (IB
 | Having 3+ CI-resident directors | Company becomes domestically taxable |
 | Employees physically located in CI | Creates CI substance — potential domestic tax |
 
-None of these apply to Light Brands Consulting Ltd.
+None of these apply to Light Brands AI Ltd (LBC).
 
 ---
 
@@ -112,17 +115,17 @@ None of these apply to Light Brands Consulting Ltd.
 
 ### How LB IP Is Created
 
-1. **CI IBC commissions the work** — CI IBC enters into a Development Subcontract with the UAE entity
-2. **UAE entity builds it** — the Dubai team (employees of the UAE entity) develops the software, frameworks, tools
-3. **IP transfers to CI IBC upon delivery** — the subcontract specifies that all IP in the deliverables is assigned to CI IBC as the commissioning party (work-for-hire / IP assignment clause)
+1. **CI IBC commissions the work** — LBC enters into a Master Development Services Agreement (MDSA) with Light Brands Studio Ltd (Cyprus)
+2. **Cyprus Studio builds it** — the Cyprus team (employees of LBS, led by Andreas Demou) develops the software, frameworks, tools from a real office in Limassol/Nicosia
+3. **IP transfers to CI IBC upon creation** — the MDSA specifies that all IP in the deliverables is assigned to LBC as the commissioning party (work-for-hire / IP assignment clause)
 4. **CI IBC owns the IP** — it can license, sell, or distribute as it sees fit
 
 ### Why This Structure Works
 
-- **UAE entity retains DEMPE substance** for TE-related IP (healing center platform, AI agents, etc.)
-- **CI IBC is the commissioning entity** for LB-related IP — this is a standard client→contractor IP arrangement
-- **No IP migration issues** — the IP was never "in" the UAE entity. It was created under contract for CI IBC from inception
-- **TP defensibility** — the subcontract fee (cost + margin) is the arm's length price for development services. Standard comparables exist (IT outsourcing benchmarks)
+- **Cyprus Studio provides genuine OECD-compliant substance** — real office, real employees, real development work. This is not a shell entity.
+- **CI IBC is the commissioning principal** for LB-related IP — standard OECD principal/routine service provider model
+- **No IP migration issues** — the IP was never "in" the Cyprus entity. It was created under contract for CI IBC from inception
+- **TP defensibility** — the cost-plus fee (actual costs + 8-12% markup) is the arm's length price for captive development services. Standard comparables exist (IT outsourcing benchmarks, captive center studies)
 
 ### IP Licensing to Church
 
@@ -137,44 +140,49 @@ None of these apply to Light Brands Consulting Ltd.
 
 ---
 
-## 6. Subcontracting Relationship with UAE Entity
+## 6. Development Relationship with Cyprus Studio
 
 ### Structure
 
 ```
-Light Brands Consulting Ltd (CI IBC) — "The Voice"
-    Signs client contract (consulting, SaaS, products)
+Light Brands AI Ltd (CI IBC / LBC) — "The Brain"
+    Signs client contracts (consulting, SaaS, products)
     Collects client payment
-    Subcontracts delivery to:
+    Owns all IP
+    Subcontracts all development to:
 
-Light Brands Studio FZ-LLC (Dubai) — "The Builder"
+Light Brands Studio Ltd (Cyprus / LBS) — "The Hands"
     Provides all development, implementation, support
-    Uses Dubai team (engineers, AI/ML, PM)
-    Bills CI IBC at cost + arm's length margin
-    Delivers work product with IP assigned to CI IBC
+    Real office in Limassol/Nicosia with employed developers
+    Led by Andreas Demou (Executive Director)
+    Bills LBC at cost + 8-12% arm's length margin
+    Delivers work product with IP assigned to LBC upon creation
 ```
 
-**Shared service center model:** Studio also provides development services to TE Wellness Holdings (Cayman) under a separate Development Services Agreement. This shared service center model — Studio building for both TE Holdings and CI IBC — strengthens Studio's DEMPE substance (the team genuinely develops for multiple clients) and its QFZP position (pure B2B service company earning fees from corporate entities). The dual-client model also provides natural arm's length pricing comparables between the two development contracts.
+**OECD principal/routine service provider model:** LBC (CI IBC) is the entrepreneurial principal — it bears market risk, owns IP, acquires clients, and makes strategic decisions. LBS (Cyprus Studio) is the routine service provider — it performs development functions under contract, earns a cost-plus return, and assumes no market risk. This is a well-established OECD transfer pricing model with abundant comparable data.
 
-### Key Contractual Terms
+### Key Contractual Terms (MDSA)
 
 | Term | Detail |
 |---|---|
+| **Agreement** | Master Development Services Agreement (MDSA) |
 | **Scope** | All software development, consulting delivery, implementation, and technical support for LB clients |
-| **Pricing** | Cost-plus method (developer cost + 15-25% markup). Benchmarked against IT outsourcing comparables. |
-| **IP assignment** | All deliverables and IP created under the subcontract are assigned to CI IBC |
-| **Payment terms** | Monthly or per-milestone, in USD |
+| **Pricing** | Cost-plus method (actual costs + 8-12% markup). Benchmarked against captive development center comparables. |
+| **IP assignment** | All deliverables and IP created under the MDSA are assigned to LBC upon creation |
+| **Payment terms** | Monthly invoicing based on actual costs incurred, in USD or EUR |
 | **Term** | Rolling annual, with project-specific SOWs |
-| **Dispute resolution** | Arbitration (Singapore International Arbitration Centre or Dubai equivalent) |
+| **Dispute resolution** | Arbitration (Singapore International Arbitration Centre or London Court of International Arbitration) |
 
 ### Transfer Pricing Considerations
 
-The CI IBC → UAE subcontract must withstand TP scrutiny from any authority examining either entity:
+The LBC → LBS development contract must withstand TP scrutiny from Cyprus tax authorities (primary risk) and any other authority examining the structure:
 
-- **Comparable method:** Cost-plus using IT outsourcing benchmarks (Deloitte Global Outsourcing Survey, NASSCOM data)
-- **Target margin for UAE entity:** 15-25% on fully loaded cost (includes salaries, office, equipment, overhead)
-- **Documentation:** Annual TP study with contemporaneous documentation
-- **Functional analysis:** UAE entity performs development functions, assumes technical risk. CI IBC performs entrepreneurial functions (client acquisition, market risk, IP ownership)
+- **Comparable method:** Cost-plus using captive development center benchmarks (IT outsourcing studies, Deloitte Global Outsourcing Survey, NASSCOM data)
+- **Target margin for Cyprus Studio:** 8-12% on fully loaded cost (includes salaries, office, equipment, social insurance, overhead)
+- **Why 8-12% (not higher):** Cyprus Studio is a captive service provider with a single client (LBC). It bears no market risk, no client acquisition risk, and no IP risk. Captive centers typically earn lower margins than independent service providers. OECD guidelines and comparable studies support 8-12% for routine development services.
+- **Documentation:** Annual TP study with contemporaneous documentation (Master File + Local File)
+- **Functional analysis:** Cyprus Studio performs development functions only, assumes no entrepreneurial risk. LBC performs entrepreneurial functions (client acquisition, market risk, IP ownership, strategic direction)
+- **Cyprus tax impact:** Cyprus taxes Studio's profit (the 8-12% markup) at 12.5%. On a $500K cost base with 10% markup, that's $50K profit × 12.5% = ~$6,250 in Cyprus tax. This is the only tax in the entire structure.
 
 ---
 
@@ -186,9 +194,24 @@ The CI IBC → UAE subcontract must withstand TP scrutiny from any authority exa
 |---|---|---|
 | **Singapore bank (recommended)** | Strong banking jurisdiction, CI IBCs accepted by several banks, multi-currency, Wise integration | Requires in-person account opening (Singapore trip) |
 | **Hong Kong bank** | Good for Asia-Pacific clients | Longer account opening process |
-| **UAE bank (secondary)** | Close to the team, easy transfers to UAE entity | Some UAE banks cautious with CI entities |
+| **Cyprus bank (secondary)** | Close to the Studio team, easy EUR transfers to LBS | Primarily useful for EUR-denominated payments |
 
 **Recommended approach:** Open primary account at a Singapore bank (DBS, OCBC, or digital-first bank like Aspire/Statrys). Singapore banks are accustomed to servicing IBCs from clean jurisdictions.
+
+### OpEx Reserve Fund
+
+The CI IBC's Singapore bank account serves as the company's operating treasury and safety net:
+
+| Parameter | Amount |
+|-----------|--------|
+| **Minimum reserve** | **$600,000** (12 months at $50K/mo burn) |
+| **Target reserve** | **$1,200,000** (24 months at $50K/mo burn) |
+| **Burn rate** | $50,000/month — all team salaries, contractors, Cyprus Studio cost-plus, infrastructure |
+| **Tax on retained funds** | **0%** — reserves sit in the 0% CI IBC |
+
+All company expenses are paid from this account. Partner distributions only occur after the reserve threshold is met. During the buildup phase, bonuses are split 50/50 between the OpEx Fund and the bonus pool. Once the fund reaches $600K, full bonuses are paid and quarterly distributions begin for profit above the reserve.
+
+See [14-LIGHT-BRANDS-AI-CORPORATE-SETUP.md](./14-LIGHT-BRANDS-AI-CORPORATE-SETUP.md) for the full treasury policy and distribution waterfall.
 
 ### Payment Processing
 
@@ -235,11 +258,12 @@ The Cook Islands is consistently ranked as the **#1 asset protection jurisdictio
 | *FTC v. Affordable Media* | 1999 | US court held trustee in contempt, but CI trustee legally refused to comply — assets protected |
 | *In re Huber* | 2013 | US bankruptcy court attempted to reach CI trust assets — CI protections held |
 
-### Why This Matters for TE
+### Why This Matters for Light Brands
 
 - **Litigation shield:** If a disgruntled client, competitor, or government entity sues, LB's revenue and IP are in a jurisdiction where foreign judgments have no force
-- **Founder protection:** The PIF → S.A. → CI IBC chain creates three layers of asset protection (Panama PIF privacy + S.A. corporate veil + Cook Islands enforcement immunity)
-- **Separation from TE operations:** Even if the TE healing center faces liability (medical malpractice, guest injury), LB assets in the CI IBC are structurally isolated
+- **Founder protection:** The PIF → S.A. → CI IBC chain creates multiple layers of asset protection (Panama PIF privacy + S.A. corporate veil + Cook Islands enforcement immunity). Founders hold equity at the S.A. level — not directly in the CI IBC — adding another layer of separation.
+- **Separation from TE operations:** Even if the TE healing center faces liability, LB assets in the CI IBC are structurally isolated
+- **Cyprus Studio isolation:** Even if a Cyprus employment or regulatory claim arises against the Studio, LBC's IP and revenue are in a separate jurisdiction (Cook Islands) and entity
 
 ---
 
@@ -253,7 +277,7 @@ The Cook Islands participates in the OECD Common Reporting Standard (CRS) and Au
 | **Reported to whom** | Cook Islands Inland Revenue → OECD exchange network → participating jurisdictions |
 | **Who reports** | CI financial institutions (banks, trust companies) |
 | **Impact on CI IBC** | The CI IBC's bank (Singapore or elsewhere) reports to its local authority, which exchanges with CI and the founders' resident jurisdictions |
-| **Impact on founders** | Founders must report CI IBC interests on personal tax returns (FBAR for US founder, equivalent for others) |
+| **Impact on founders** | Founders must report S.A. and CI IBC interests on personal tax returns (FBAR/5471 for Jason as US citizen; equivalent reporting for others in their tax residence jurisdictions) |
 
 **This is not a problem.** CRS/AEOI ensures transparency, which actually strengthens the structure's defensibility. The 0% tax rate is a sovereign policy choice, not evasion. Full reporting compliance demonstrates the structure is not trying to hide anything.
 
@@ -280,7 +304,7 @@ The Cook Islands participates in the OECD Common Reporting Standard (CRS) and Au
 | Government annual license fee | ~$300-500 |
 | Nominee director fee | ~$500-1,000 |
 | Bank account maintenance | ~$200-500 |
-| Transfer pricing study (CI↔UAE) | ~$5,000-10,000 (shared with UAE TP study) |
+| Transfer pricing study (LBC↔LBS Cyprus) | ~$3,000-5,000 (annual update) |
 | **Total annual** | **~$7,500-14,500** |
 
 ### Cost in Context
@@ -294,22 +318,27 @@ At even modest Light Brands revenue ($500K/year), the annual cost of maintaining
 | Phase | Step | Timeline | Dependency |
 |---|---|---|---|
 | **1. Counsel** | Engage Cook Islands registered agent / formation specialist | Week 1 | None |
-| **1. Counsel** | Confirm CI IBC → UAE subcontract structure with UAE counsel | Week 1-2 | UAE counsel engaged |
+| **1. Counsel** | Confirm CI IBC → Cyprus Studio MDSA structure with Cyprus counsel | Week 1-2 | Cyprus counsel engaged |
+| **1. Counsel** | Engage transfer pricing advisor for MDSA pricing | Week 1-2 | None |
 | **1. Counsel** | Confirm CI IBC → Church royalty structure with US nonprofit attorney | Week 1-2 | US counsel engaged |
-| **2. Formation** | Incorporate Light Brands Consulting Ltd as CI IBC | Weeks 2-3 | Agent engaged |
-| **2. Formation** | Appoint directors, issue shares to Panamanian Holdings S.A. | With incorporation | S.A. formed, PIF formed |
+| **2. Formation** | Incorporate Light Brands AI Ltd as CI IBC | Weeks 2-3 | Agent engaged |
+| **2. Formation** | Appoint directors, issue 100% shares to Light Brands Holdings S.A. | With incorporation | S.A. formed |
 | **2. Formation** | Open Singapore bank account | Weeks 3-5 | Incorporation complete |
-| **3. Contracts** | Execute Development Subcontract with UAE entity | Weeks 4-6 | Both entities formed |
+| **3. Contracts** | Execute MDSA with Cyprus Studio (LBS) | Weeks 4-6 | Both entities formed, TP advisor engaged |
 | **3. Contracts** | Execute Spiritual Tech License with Church | Weeks 4-6 | Church formed |
 | **3. Contracts** | Set up payment processing (Stripe/Wise) | Weeks 5-7 | Bank account open |
 | **4. Operations** | Begin client contracting under LB brand | Month 2-3 | All contracts in place |
 
-**Total time to operational:** ~6-8 weeks from engagement of registered agent.
+**Total time to operational:** ~6-8 weeks from engagement of registered agent. Cyprus Studio formation runs in parallel (see [16-CYPRUS-STUDIO-SUBSTANCE-LAYER.md](./16-CYPRUS-STUDIO-SUBSTANCE-LAYER.md)).
 
 ---
 
 ## Cross-References
 
+- **Corporate architecture detail:** [14-LIGHT-BRANDS-AI-CORPORATE-SETUP.md](./14-LIGHT-BRANDS-AI-CORPORATE-SETUP.md)
+- **Cyprus Studio substance layer:** [16-CYPRUS-STUDIO-SUBSTANCE-LAYER.md](./16-CYPRUS-STUDIO-SUBSTANCE-LAYER.md)
+- **Dan's US exit analysis:** [13-DAN-EXIT-US-AND-LB-SIMPLIFIED-STRUCTURE.md](./13-DAN-EXIT-US-AND-LB-SIMPLIFIED-STRUCTURE.md)
+- **Action plan:** [15-DAN-ACTION-PLAN.md](./15-DAN-ACTION-PLAN.md)
 - **Ecosystem architecture:** [07-ECOSYSTEM-ARCHITECTURE.md](./07-ECOSYSTEM-ARCHITECTURE.md)
 - **Master structure:** [01-MASTER-STRUCTURE.md](./01-MASTER-STRUCTURE.md)
 - **Legal defense:** [02-LEGAL-DEFENSE.md](./02-LEGAL-DEFENSE.md)
@@ -317,4 +346,4 @@ At even modest Light Brands revenue ($500K/year), the annual cost of maintaining
 
 ---
 
-*This document describes the operating specifications for a Cook Islands International Business Company within the Light Brands Global unified structure. The Cook Islands IBC regime is an explicit provision of the Cook Islands International Companies Act 1981-82. All tax treatments described are based on current Cook Islands law and international tax frameworks. Implementation requires validation by a qualified Cook Islands registered agent and coordination with UAE, US, and Panama counsel.*
+*This document describes the operating specifications for a Cook Islands International Business Company within the Light Brands four-entity structure (PIF → S.A. → LBC / LBS). The Cook Islands IBC regime is an explicit provision of the Cook Islands International Companies Act 1981-82. All tax treatments described are based on current Cook Islands law and international tax frameworks. Implementation requires validation by a qualified Cook Islands registered agent and coordination with Cyprus, US, and Panama counsel, as well as a transfer pricing advisor for the LBC↔LBS intercompany relationship.*

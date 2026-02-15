@@ -92,11 +92,11 @@ The CI IBC doesn't need substance because it's a **principal entity** that contr
 │  │         LIGHT BRANDS HOLDINGS S.A.                            │   │
 │  │         (Panamanian Corporation)                               │   │
 │  │                                                               │   │
-│  │  Holds Dan's equity in both CI IBC and Cyprus Studio          │   │
+│  │  Central holding co — all founders are shareholders            │   │
 │  │  Tax: 0% on foreign-source income (territorial)               │   │
 │  │  Layer 2 of asset protection                                  │   │
 │  └──────────┬──────────────────────────────────┬─────────────────┘   │
-│             │ Dan's 30%                        │ Dan's 30%            │
+│             │ 100% ownership                   │ 100% ownership       │
 │             ▼                                  ▼                      │
 │  LAYER 2: REVENUE + DELIVERY                                         │
 │                                                                      │
@@ -113,10 +113,7 @@ The CI IBC doesn't need substance because it's a **principal entity** that contr
 │  │  • 0% tax                  │   │  • 15% tax on margin only     │  │
 │  │                            │   │                               │  │
 │  │  Shareholders:             │   │  Shareholders:                │  │
-│  │  Dan 30% (via S.A.)        │   │  Dan 30% (via S.A.)           │  │
-│  │  Nicholas 25% (direct)     │   │  Nicholas 25% (direct)        │  │
-│  │  Andreas 25% (direct)      │   │  Andreas 25% (direct)         │  │
-│  │  Jason 20% (direct)        │   │  Jason 20% (direct)           │  │
+│  │  100% owned by S.A.        │   │  100% owned by S.A.           │  │
 │  └────────────────────────────┘   └──────────────────────────────┘  │
 │                                                                      │
 │  LAYER 3: PEOPLE                                                     │
@@ -156,7 +153,7 @@ The CI IBC doesn't need substance because it's a **principal entity** that contr
 | **Registered office** | Physical office in Cyprus (Limassol or Nicosia) |
 | **Director** | Andreas Demou (Cyprus citizen, resident) |
 | **Secretary** | Required under Cyprus law — can be a local service provider |
-| **Shareholders** | Mirror CI IBC: Dan 30% (via S.A.), Nicholas 25%, Andreas 25%, Jason 20% |
+| **Shareholders** | Light Brands Holdings S.A. (sole shareholder — 100%). Equity is held at S.A. level: Dan's PIF 30%, Nicholas's PIF 30%, Andreas 30%, Jason 10%. |
 | **Share capital** | EUR 1,000 minimum (standard) |
 | **Auditor** | Required — must appoint licensed Cyprus auditor |
 | **Financial year** | Calendar year (January-December) |
@@ -268,10 +265,14 @@ LB CONSULTING (CI IBC) ◄─── collects 100% of revenue
             │
             ▼
         Distributes to shareholders
-        ├── Dan's 30% → S.A. (0%) → PIF (0%) → Dan (0%)
-        ├── Nicholas 25% → direct (taxed per his residence)
-        ├── Andreas 25% → direct (~7.65% Cyprus SDC+GESY)
-        └── Jason 20% → direct (US tax obligations)
+        100% to S.A. (sole shareholder, 0% WHT)
+            │
+            ▼
+        S.A. distributes to its shareholders
+        ├── Dan's 30% → PIF (0%) → Dan (0% in territorial country)
+        ├── Nicholas's 30% → PIF (0%) → Nicholas (0% in territorial country)
+        ├── Andreas 30% → direct (~7.65% Cyprus SDC+GESY)
+        └── Jason 10% → direct (US tax obligations)
 ```
 
 ### Example: $3M Annual Revenue
@@ -386,9 +387,9 @@ After entity-level tax, distributions to founders are taxed personally:
 | Founder | Share | On $1.5M Profit (Y3) | Personal Tax | Net Received |
 |---------|-------|----------------------|-------------|-------------|
 | **Dan** (Grenada, via PIF) | 30% | $450,000 | 0% | $450,000 |
-| **Nicholas** | 25% | $375,000 | Per residence | Varies |
-| **Andreas** (Cyprus, deemed domiciled) | 25% | $375,000 | ~7.65% (SDC+GESY) | ~$346,300 |
-| **Jason** (US citizen) | 20% | $300,000 | US rates (~25-35%) | ~$195,000-$225,000 |
+| **Nicholas** | 30% | $450,000 | Per residence | Varies |
+| **Andreas** (Cyprus, deemed domiciled) | 30% | $450,000 | ~7.65% (SDC+GESY) | ~$415,600 |
+| **Jason** (US citizen) | 10% | $150,000 | US rates (~25-35%) | ~$97,500-$112,500 |
 
 ---
 
@@ -406,29 +407,21 @@ Andreas Demou wears two hats in this structure.
 | **Tax on salary** | Cyprus progressive rates (0% on first EUR 19,500, then 20-35%) |
 | **Social insurance** | Employee contribution ~8.3%, employer ~12% (capped) |
 
-### Hat 2: Shareholder of CI IBC (25% direct)
+### Hat 2: Shareholder of S.A. (30% direct)
 
 | Item | Detail |
 |------|--------|
-| **Ownership** | 25% of CI IBC shares held directly (not through PIF) |
-| **Dividends** | CI IBC distributes profits → Andreas receives 25% |
+| **Ownership** | 30% of Light Brands Holdings S.A. held directly (not through PIF) |
+| **Dividends** | S.A. receives 100% of CI IBC profits → distributes to shareholders → Andreas receives 30% |
 | **Tax on dividends** | 5% SDC + 2.65% GESY = **~7.65%** (deemed domiciled) |
 | **GESY cap** | EUR 180,000 income → max EUR 4,770/year GESY |
-
-### Hat 3: Shareholder of Cyprus Studio (25% direct)
-
-| Item | Detail |
-|------|--------|
-| **Ownership** | 25% of Cyprus Studio shares held directly |
-| **Dividends from Studio** | Minimal — Studio operates at cost-plus, retains little profit |
-| **Tax on Studio dividends** | Same: 5% SDC + 2.65% GESY |
 
 ### Optimal Personal Tax Strategy for Andreas
 
 | Income Source | Amount (Y3 example) | Tax Treatment | Tax |
 |---------------|---------------------|--------------|-----|
 | Studio salary | EUR 80,000 | Progressive (effective ~15%) | ~EUR 12,000 |
-| CI IBC dividends (25% of $1.5M) | ~EUR 345,000 | 5% SDC + 2.65% GESY (capped) | ~EUR 21,990 |
+| S.A. dividends (30% of $1.5M CI IBC profit) | ~EUR 414,000 | 5% SDC + 2.65% GESY (capped) | ~EUR 26,400 |
 | Studio dividends | Minimal | 7.65% | Minimal |
 | **Total on ~EUR 425,000** | | | **~EUR 34,000 (8%)** |
 

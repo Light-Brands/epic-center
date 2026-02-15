@@ -2,7 +2,7 @@
 
 > **Status:** Strategic planning document — requires international tax counsel validation
 > **Last Updated:** February 15, 2026
-> **Scope:** Daniel Lawless exits US citizenship. Wife remains US citizen. Light Brands restructured for a non-US founder running a 100% remote team.
+> **Scope:** Daniel Lawless exits US citizenship. Wife remains US citizen. Light Brands restructured as a four-entity structure: PIF → Panama Holdings → LBC (Cook Islands IBC) / LBS (Cyprus Studio).
 
 ---
 
@@ -43,7 +43,7 @@
 | **Net worth** | Under $2M (critical — see Section 2) |
 | **Average annual tax (last 5 years)** | Under $190K (critical — see Section 2) |
 | **Residence** | Currently abroad / planning abroad |
-| **Income sources** | Light Brands entities (Studio + Consulting) |
+| **Income sources** | Light Brands entities — LBC (Cook Islands IBC, consulting) + LBS (Cyprus Studio, development) |
 | **Church plans** | Will establish internationally, NOT as US 508(c)(1)(a) |
 | **Team** | 100% remote, developers worldwide |
 
@@ -261,10 +261,11 @@ Her US citizenship is your permanent, unconditional door back to the US:
 | Joint personal property | Both | Yes | Standard marital property |
 | Joint bank accounts | Both | Yes | Standard |
 | Her salary/income | Her | N/A | Hers regardless |
-| Your 30% equity in LB entities | Held by S.A. (owned by PIF) | **Protected** | Three layers of separation — shares are not personally held |
+| Your 30% equity in S.A. | Held by PIF | **Protected** | Three layers of separation — shares are not personally held |
 | Panama PIF assets | PIF (independent legal person) | **Protected** | PIF is not your property. Panama does not recognize foreign judgments against PIFs |
-| Panamanian Holdings S.A. | Owned by PIF | **Protected** | Same — PIF layer protects |
-| CI IBC assets/revenue | Owned by S.A. (owned by PIF) | **Protected** | Three layers of separation |
+| Panamanian Holdings S.A. shares | PIF owns Dan's 30% of S.A. | **Protected** | PIF layer protects |
+| CI IBC (LBC) assets/revenue | 100% owned by S.A. | **Protected** | S.A. is protected by PIF chain |
+| Cyprus Studio (LBS) assets/revenue | 100% owned by S.A. | **Protected** | Same — both operating entities wholly owned by S.A. |
 
 ### Key Protection: The PIF
 
@@ -274,11 +275,11 @@ The Panama PIF is an independent legal person under Law 25 of 1995. It has no "o
 - Requires creditors (including divorce claimants) to litigate in Panama under Panamanian law
 - Protects beneficiary identities (private regulations)
 
-**Your equity is protected by design.** Your 30% shares are held by the S.A., which is owned by the PIF. You don't personally hold the shares — the PIF does (through the S.A.). This means your equity interest is not a personal asset subject to division. The PIF is an independent legal person under Panamanian law.
+**Your equity is protected by design.** Your 30% of the S.A. is held by the PIF. You don't personally hold any shares — the PIF holds them. The S.A. in turn owns 100% of both operating entities (LBC + LBS). This means your equity interest is not a personal asset subject to division. The PIF is an independent legal person under Panamanian law.
 
 ### Her Independent Income Stream
 
-She has an employment/contractor agreement with the CI IBC. This gives her income that is **independent of the marriage.** This protects her and gives her security regardless of the marriage status.
+She has a contractor agreement with the CI IBC (LBC). This gives her income that is **independent of the marriage.** This protects her and gives her security regardless of the marriage status.
 
 ---
 
@@ -294,8 +295,8 @@ The current Light Brands architecture was designed around specific constraints t
 |-------------------|---------------|--------------------------|
 | FEIE requirement (330 days abroad) | Shelter $130K of UAE salary from US tax | **Irrelevant** — you're not a US person |
 | Dubai Golden Visa | Needed for FEIE bona fide residence | **Unnecessary for tax** — get residency wherever you want |
-| Dubai Studio FZ-LLC (QFZP) | Employs team for substance + 0% QFZP tax | **Unnecessary** — CI IBC is already 0% with no substance requirement |
-| Shared service center model (Studio builds for both TE + LB) | DEMPE substance for TE Holdings IP + QFZP qualification | **LB doesn't need TE's structure** if LB operates independently |
+| Dubai Studio FZ-LLC (QFZP) | Employs team for substance + 0% QFZP tax | **Replaced by Cyprus Studio** — real substance with a Cyprus citizen director, real office, real employees. 15% tax on cost-plus margin only (~0.4% effective). |
+| Shared service center model (Studio builds for both TE + LB) | DEMPE substance for TE Holdings IP + QFZP qualification | **LB doesn't need TE's structure** — Cyprus Studio provides LB's own substance layer independently |
 | CFC/GILTI avoidance | US founder can't own foreign corporations | **Irrelevant** — you're not a US person |
 | Form 5471 avoidance | $10K penalty for non-filing of foreign corp ownership | **Irrelevant** — no US filing obligations |
 | Church-held equity | Sheltered income from US tax | **Irrelevant** — your income isn't US-taxable |
@@ -314,103 +315,116 @@ The current Light Brands architecture was designed around specific constraints t
 | Annual bookkeeping | ~$5-10K/yr |
 | **Total Dubai overhead** | **~$35-65K/yr + ~$15K setup** |
 
-**For a 100% remote team with no US tax constraints, this is pure overhead.**
+**Dubai is replaced by Cyprus Studio** — real substance (Cyprus citizen director, real office, real employees) at ~$30K/yr overhead plus ~0.4% effective tax rate. Better substance, lower cost, no QFZP compliance.
 
 ---
 
 ## 9. The New Architecture {#9-new-architecture}
 
-### The Simplified Stack
+### The Definitive Stack: PIF → Panama Holdings → LBC CI / LBS CY
 
 ```
-┌─────────────────────────────────────────────────────┐
-│                                                     │
-│  LAYER 1: OWNERSHIP + ASSET PROTECTION              │
-│                                                     │
-│  ┌───────────────────────────────────────────────┐  │
-│  │         PANAMA PIF (0%)                        │  │
-│  │                                               │  │
-│  │  Dan is a beneficiary (safe — not US person)  │  │
-│  │  Wife is NOT a beneficiary (she's US person)  │  │
-│  │  Foundation Council: 3+ members               │  │
-│  │  Protector: independent advisor               │  │
-│  │  0% on foreign income. 0% WHT.               │  │
-│  └──────────────────┬────────────────────────────┘  │
-│                     │ 100%                           │
-│                     ▼                                │
-│  ┌───────────────────────────────────────────────┐  │
-│  │    PANAMANIAN HOLDINGS S.A. (0%)              │  │
-│  │                                               │  │
-│  │  Intermediate holding company                 │  │
-│  │  Manages banking + contractor payments        │  │
-│  │  0% on foreign-source income (territorial)    │  │
-│  │  Double-layer asset protection                │  │
-│  └──────────────────┬────────────────────────────┘  │
-│                     │ 100%                           │
-│                     ▼                                │
-│  LAYER 2: REVENUE + IP                              │
-│                                                     │
-│  ┌───────────────────────────────────────────────┐  │
-│  │    LIGHT BRANDS LTD (Cook Islands IBC, 0%)    │  │
-│  │                                               │  │
-│  │  Single entity replaces both LBC + LBS        │  │
-│  │                                               │  │
-│  │  • Signs all client contracts                 │  │
-│  │  • Collects all revenue                       │  │
-│  │  • Owns all IP                                │  │
-│  │  • Pays contractors worldwide                 │  │
-│  │  • Zero employees                             │  │
-│  │  • Zero office space                          │  │
-│  │  • Zero substance requirements                │  │
-│  │  • 0% unconditional on international income   │  │
-│  └───────────────────────────────────────────────┘  │
-│                                                     │
-│  LAYER 3: PEOPLE (No entity needed)                 │
-│                                                     │
-│  ┌───────────────────────────────────────────────┐  │
-│  │  Dan — contractor/director (Grenada citizen,  │  │
-│  │         Costa Rica/Panama resident)           │  │
-│  │  Wife — contractor (US citizen, lives abroad) │  │
-│  │  Developers — contractors worldwide           │  │
-│  │  Managed via Deel / Remote / direct contracts │  │
-│  └───────────────────────────────────────────────┘  │
-│                                                     │
-└─────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────┐
+│                                                                      │
+│  LAYER 1: OWNERSHIP + ASSET PROTECTION                               │
+│                                                                      │
+│  ┌──────────────────────────────────────────────────────────────┐   │
+│  │              FUNDACIÓN LIGHT BRANDS (PIF)                     │   │
+│  │              Panama Private Interest Foundation               │   │
+│  │                                                               │   │
+│  │  Dan is a beneficiary (safe — not US person)                  │   │
+│  │  Wife is NOT a beneficiary (she's US person)                  │   │
+│  │  Foundation Council: 3+ members                               │   │
+│  │  Protector: independent advisor                               │   │
+│  │  0% on foreign income. 0% WHT.                               │   │
+│  └────────────────────────┬──────────────────────────────────────┘   │
+│                           │ 100%                                      │
+│                           ▼                                           │
+│  ┌──────────────────────────────────────────────────────────────┐   │
+│  │         LIGHT BRANDS HOLDINGS S.A.                            │   │
+│  │         (Panamanian Corporation)                               │   │
+│  │                                                               │   │
+│  │  Central holding company — ALL founders are shareholders:     │   │
+│  │    PIF (Dan) 30% │ Nicholas 30% │ Andreas 30% │ Jason 10%    │   │
+│  │  Owns 100% of BOTH operating entities                         │   │
+│  │  0% on foreign-source income (territorial)                    │   │
+│  └──────────┬──────────────────────────────────┬─────────────────┘   │
+│             │ 100% ownership                   │ 100% ownership       │
+│             ▼                                  ▼                      │
+│  LAYER 2: REVENUE + DELIVERY                                         │
+│                                                                      │
+│  ┌────────────────────────────┐   ┌──────────────────────────────┐  │
+│  │  LBC — LIGHT BRANDS        │   │  LBS — LIGHT BRANDS STUDIO   │  │
+│  │  CONSULTING LTD             │   │  LTD                         │  │
+│  │  (Cook Islands IBC)         │   │  (Cyprus Private Company)    │  │
+│  │  "THE BRAIN"                │   │  "THE HANDS"                 │  │
+│  │                             │   │                              │  │
+│  │  • Client-facing            │   │  • Development delivery      │  │
+│  │  • Owns IP + methodology   │──►│  • Real office in Cyprus     │  │
+│  │  • Bears credit risk        │   │  • Real employees (devs)     │  │
+│  │  • Invoices clients         │   │  • Andreas Demou = Director  │  │
+│  │  • Contracts dev to Cyprus  │   │  • Cost-plus pricing         │  │
+│  │  • 0% tax (unconditional)   │   │  • 15% tax on margin only    │  │
+│  │                             │   │                              │  │
+│  │  Owned: 100% by S.A.        │   │  Owned: 100% by S.A.         │  │
+│  └────────────────────────────┘   └──────────────────────────────┘  │
+│                                                                      │
+│  LAYER 3: PEOPLE                                                     │
+│                                                                      │
+│  ┌──────────────────────────────────────────────────────────────┐   │
+│  │  Dan — Director of CI IBC (renounced US, Grenada citizen)     │   │
+│  │  Nicholas — Co-founder (renounced Canada, via own PIF)        │   │
+│  │  Andreas — Director of Cyprus Studio (Cyprus citizen)         │   │
+│  │  Jason — Co-founder (US citizen, 10% direct S.A. shareholder) │   │
+│  │  Wife — Contractor to CI IBC (US citizen, FEIE)               │   │
+│  │  Dev team — Employees of Cyprus Studio + CI IBC contractors   │   │
+│  └──────────────────────────────────────────────────────────────┘   │
+│                                                                      │
+└──────────────────────────────────────────────────────────────────────┘
 ```
 
-### Three Entities. That's It.
+### Four Entities. Clean Split.
 
 | Entity | Jurisdiction | Tax | Purpose | Annual Cost |
 |--------|-------------|-----|---------|-------------|
-| **Panama PIF** | Panama | 0% | Ownership, asset protection, beneficiary distributions | ~$2-4K/yr |
-| **Panamanian Holdings S.A.** | Panama | 0% (territorial) | Holds CI IBC equity, operational banking, contractor payments | ~$2-4K/yr |
-| **Light Brands Ltd** | Cook Islands | 0% (unconditional) | Revenue, IP, client contracts | ~$3-5K/yr |
-| **Total** | | | | **~$7-13K/yr** |
+| **Fundación Light Brands (PIF)** | Panama | 0% | Ownership, asset protection, beneficiary distributions | ~$2-4K/yr |
+| **Light Brands Holdings S.A.** | Panama | 0% (territorial) | Central holding company. All founders are shareholders. Owns 100% of LBC + LBS. | ~$2-4K/yr |
+| **LBC — Light Brands AI Ltd** | Cook Islands | 0% (unconditional) | Client-facing: revenue, IP, client contracts, invoicing | ~$3-5K/yr |
+| **LBS — Light Brands Studio Ltd** | Cyprus | 15% (on margin only) | Development delivery: office, employees, builds everything | ~$20-30K/yr |
+| **Total** | | | | **~$27-43K/yr** |
 
 **Compare to current structure:** PIF + S.A. + Dubai Studio + CI IBC = ~$45-80K/yr in entity maintenance alone.
 
-**Savings: ~$35-70K/yr in overhead.**
+**Savings: ~$18-37K/yr in overhead** — plus ironclad substance that Dubai Studio provided but at lower cost.
 
-### Why One CI IBC Instead of Two
+### Why Two Operating Entities (CI IBC + Cyprus Studio)
 
-The current structure splits LB into two entities: LB Consulting (CI IBC, client-facing) and LB Studio (Dubai FZ-LLC, builds everything). This existed because Dubai needed to employ the team for QFZP substance.
+The CI IBC is a **principal entity** — it owns clients, IP, and risk. But a principal with zero employees, zero office, and zero substance faces real-world challenges: banking friction, PE claims from client countries, and enterprise client hesitancy.
 
-With a 100% remote contractor model:
-- No team to "employ" → no need for Studio as an employer
-- CI IBC can pay contractors directly → no need for a service center
-- One entity signs contracts, owns IP, collects revenue, pays contractors
+The Cyprus Studio solves this. It's a **genuine development shop** with:
+- A **Cyprus citizen director** (Andreas Demou) living and working in Cyprus
+- A **real office** in Limassol or Nicosia
+- **Real employees** on Cyprus payroll with social insurance
+- A real development operation delivering real work
 
-If consulting revenue and SaaS/product revenue need separate tracking (for profit allocation or liability isolation), use **internal revenue streams** within one entity rather than maintaining two separate entities with their own compliance, banking, and overhead.
+The CI IBC contracts all development to the Cyprus Studio under a **Master Development Services Agreement (MDSA)** at cost-plus 8-12%. The Studio pays 15% Cyprus tax on that margin only — resulting in an **effective tax rate of ~0.4% on total group revenue** at $3M.
 
-**Exception:** If you want liability isolation between consulting and SaaS (so a consulting client dispute can't reach SaaS revenue), keep two CI IBCs. The marginal cost is ~$3-5K/yr — worth it if the businesses are meaningfully different.
+This is the OECD-standard **principal/routine service provider** model. The most commonly used and most thoroughly documented transfer pricing arrangement in international business. See [16-CYPRUS-STUDIO-SUBSTANCE-LAYER.md](./16-CYPRUS-STUDIO-SUBSTANCE-LAYER.md) for complete detail.
 
 ---
 
 ## 10. Remote Team Management {#10-remote-team}
 
-### Contractor Model
+### Dual-Entity Team Model
 
-All team members are independent contractors, not employees. The CI IBC has zero employees by design.
+The team is split across two entities by design:
+
+| Entity | Team | Relationship | Why |
+|--------|------|-------------|-----|
+| **Cyprus Studio (LBS)** | Cyprus-based developers, Andreas | **Employees** on Cyprus payroll | Real employment = real substance. This is the whole point of the Cyprus entity. |
+| **CI IBC (LBC)** | Dan, Wife, remote contractors worldwide | **Contractors** | No connection to Cyprus. Paid directly by CI IBC. |
+
+### CI IBC Contractors
 
 | Method | Best For | How It Works |
 |--------|----------|-------------|
@@ -418,51 +432,63 @@ All team members are independent contractors, not employees. The CI IBC has zero
 | **Deel / Remote (EOR)** | Team members in countries with strict labor laws (EU, Brazil, etc.) | Deel legally employs the person in their country. CI IBC pays Deel. Deel handles payroll, benefits, taxes, compliance. ~$500-700/month per person |
 | **Deel / Remote (Contractor)** | Contractors who want simple payment processing | Deel manages contracts and payments. ~$49/month per person |
 
-### Permanent Establishment Risk
+### Cyprus Studio Employees
 
-The main risk with remote contractors: if a contractor in a specific country works exclusively for the CI IBC, that country could argue the CI IBC has a **permanent establishment** (PE) there, subjecting CI IBC profits to that country's tax.
+Developers in Cyprus are **real employees** of Light Brands Studio Ltd with:
+- Cyprus employment contracts
+- Social insurance contributions (employer ~12%, employee ~8.3%)
+- Payroll processed through Cyprus banking
+- EU employment law protections
 
-**Mitigation:**
+This is the substance that protects the entire structure. The Cyprus Studio has a real office, real employees, and a real director (Andreas Demou, Cyprus citizen) making real decisions on the ground.
+
+### Permanent Establishment Risk — Mitigated by Cyprus
+
+The main PE risk with remote contractors is largely **eliminated** by the Cyprus Studio:
 
 | Strategy | Detail |
 |----------|--------|
+| **Cyprus Studio absorbs development substance** | All "real work" happens in Cyprus — client countries cannot argue it happened in their country |
 | Use EOR (Deel/Remote) for high-risk countries | EOR is the legal employer — the CI IBC has no PE |
-| Ensure contractors are genuinely independent | Multiple clients, own equipment, flexible schedule, not integrated into CI IBC's org |
-| Avoid concentration | Don't have 80% of your team in one country |
-| No physical office anywhere | The CI IBC has no office — contractors work from home/coworking |
-| Board decisions made in Cook Islands (nominee director) | Governance/management not in any contractor's country |
+| Ensure contractors are genuinely independent | Multiple clients, own equipment, flexible schedule |
+| CI IBC has no employees or office | It's a principal entity that contracts work to Cyprus |
+| Board decisions via nominee director in Cook Islands | Governance not in any contractor's country |
 
 ### Recommended Team Structure
 
 ```
-Light Brands Ltd (CI IBC)
+LBC — Light Brands AI Ltd (CI IBC)
     │
     ├── Dan (contractor/director) — Costa Rica or Panama
     │
     ├── Wife (contractor) — same location as Dan
     │
-    ├── Senior developers (direct contracts)
-    │   └── Paid via CI IBC Singapore bank → Wise
+    ├── Remote contractors (non-Cyprus)
+    │   └── Paid via CI IBC Singapore bank → Wise / Deel
     │
-    ├── EU-based team (via Deel EOR)
-    │   └── Deel employs them locally, CI IBC pays Deel
+    └── Contracts all development to ──►
+                                         │
+LBS — Light Brands Studio Ltd (Cyprus)   │
+    │                                    ◄┘
+    ├── Andreas Demou (director + employee) — Cyprus
     │
-    └── Other contractors (via Deel Contractor or direct)
-        └── Global, flexible
+    ├── Cyprus-based developers (employees, 2-15 depending on scale)
+    │   └── Real employment, real office, real payroll
+    │
+    └── Office in Limassol or Nicosia
 ```
 
 ---
 
 ## 11. Banking and Payments {#11-banking}
 
-### Primary Banking: Singapore
-
-CI IBCs are well-accepted by Singapore banks. Recommended setup:
+### Account Structure
 
 | Account | Bank | Purpose |
 |---------|------|---------|
-| **CI IBC primary** | DBS / OCBC / Statrys (Singapore) | Client revenue collection, contractor payments |
-| **S.A. operational** | Banco General / Banistmo (Panama) | Backup banking, Panama-based payments |
+| **CI IBC (LBC) primary** | DBS / OCBC / Statrys (Singapore) | Client revenue collection, contractor payments |
+| **Cyprus Studio (LBS)** | Bank of Cyprus / Hellenic Bank | Payroll, office costs, local operations. SEPA access. |
+| **S.A. operational** | Banco General / Banistmo (Panama) | Receive dividends, operational flexibility |
 | **PIF account** | Singapore or Panama | Distributions to beneficiaries |
 
 ### Payment Processing
@@ -480,26 +506,34 @@ CI IBCs are well-accepted by Singapore banks. Recommended setup:
 Client pays invoice
     │
     ▼
-Light Brands Ltd (CI IBC) — Singapore bank — 0% tax
+LBC — Light Brands Consulting (CI IBC) — Singapore bank — 0% tax
     │
-    ├── Pay contractors (via Wise or Deel)
-    ├── Pay SaaS/infra costs (Stripe fees, AWS, etc.)
-    ├── Retain profit
+    ├── Pay Cyprus Studio monthly (cost-plus 10%)
+    │       │
+    │       ▼
+    │   LBS — Light Brands Studio (Cyprus) — Cyprus bank
+    │       ├── Pay developer salaries (Cyprus payroll)
+    │       ├── Pay office costs
+    │       └── Pay 15% tax on margin (~$12K on $3M rev)
+    │
+    ├── Pay Dan (director/contractor fee)
+    ├── Pay Wife (contractor, FEIE-eligible)
+    ├── Pay other contractors (via Wise or Deel)
+    ├── Pay SaaS/infra costs
+    ├── Retain profit (0% tax)
     │
     ▼
-Distribute to S.A. (dividends, 0% WHT from CI)
+CI IBC distributes 100% to S.A. (sole shareholder, 0% WHT)
     │
     ▼
-Distribute to PIF (dividends, 0% Panama territorial)
-    │
-    ▼
-Distribute to Dan (beneficiary distribution, 0% WHT)
-    │
-    ▼
-Dan receives in Costa Rica/Panama — 0% personal tax (territorial)
+S.A. distributes to its shareholders (board resolution)
+    ├── Dan's 30% → PIF (0%) → Dan (0% in territorial country)
+    ├── Nicholas 30% → direct (per residence)
+    ├── Andreas 30% → direct (~7.65% Cyprus SDC+GESY)
+    └── Jason 10% → direct (US tax)
 ```
 
-**Total tax on this entire chain: $0**
+**Total entity-level tax on $3M revenue: ~$12,000 (0.4%)**
 
 ---
 
@@ -508,23 +542,37 @@ Dan receives in Costa Rica/Panama — 0% personal tax (territorial)
 ### How IP Gets Created and Owned
 
 ```
-Contractor builds software/framework/product
+Cyprus Studio employees build software/framework/product
     │
     ▼
-IP assigned to Light Brands Ltd (CI IBC)
+IP assigned to LBC (CI IBC) upon creation
+via Master Development Services Agreement (MDSA)
+    │
+    ▼
+CI IBC contractors create methodology/strategy/tools
+    │
+    ▼
+IP assigned to LBC (CI IBC)
 via contractor agreement IP assignment clause
     │
     ▼
-CI IBC owns all IP — can license, sell, distribute
+CI IBC owns ALL IP — can license, sell, distribute
 ```
 
-**Key contract clauses for every contractor agreement:**
+**Two IP creation paths, one owner:**
 
-1. **Work-for-hire / IP assignment:** All work product and IP created during the engagement belongs to Light Brands Ltd
-2. **Pre-existing IP exclusion:** Contractor retains their own pre-existing tools/frameworks (specifically enumerated)
-3. **Moral rights waiver:** Where applicable (varies by jurisdiction)
+| Source | IP Created | Mechanism | Owner |
+|--------|-----------|-----------|-------|
+| Cyprus Studio employees | Software, platforms, AI models | Work-for-hire under MDSA | **CI IBC** |
+| CI IBC contractors | Methodology, strategy, tools | Contractor IP assignment clause | **CI IBC** |
 
-**No separate IP entity needed.** The CI IBC owns the IP directly. There's no need for a Delaware IPCo or separate holding entity — that structure was only useful for treaty routing from Mexico (REFIPRE avoidance). LB has no Mexican operations.
+**Key contract clauses:**
+
+1. **MDSA (Cyprus Studio):** All deliverables and IP created by Studio automatically assigned to CI IBC upon creation
+2. **Contractor agreements:** Work-for-hire / IP assignment — all work product belongs to LBC
+3. **Pre-existing IP exclusion:** Contractors/Studio retain their own pre-existing tools (specifically enumerated)
+
+**No separate IP entity needed.** The CI IBC owns all IP directly. The Cyprus Studio develops under contract — it never owns the IP it creates. This is standard for captive development centers worldwide.
 
 ---
 
@@ -532,7 +580,7 @@ CI IBC owns all IP — can license, sell, distribute
 
 Post-renunciation, Dan has three channels, all at 0%:
 
-### Channel 1: Contractor/Director Fee from CI IBC
+### Channel 1: Contractor/Director Fee from CI IBC (LBC)
 
 | Detail | Value |
 |--------|-------|
@@ -546,7 +594,7 @@ Post-renunciation, Dan has three channels, all at 0%:
 | Detail | Value |
 |--------|-------|
 | What | 30% of Light Brands distributable profits, paid quarterly as dividends |
-| Flow | CI IBC → S.A. (Dan's 30% shares) → PIF → Dan |
+| Flow | CI IBC → S.A. (100%) → Dan's 30% of S.A. → PIF → Dan |
 | Tax to Dan | **$0** — PIF distributes at 0% WHT, received in territorial country |
 | Reporting | None |
 
@@ -579,7 +627,7 @@ She is a US citizen. The US taxes her worldwide income. Strategy: keep her earne
 
 | Income Source | Amount | Tax Treatment |
 |---------------|--------|---------------|
-| **Contractor fee from CI IBC** | $130,000/yr | Fully excluded by FEIE (Form 2555) |
+| **Contractor fee from CI IBC (LBC)** | $130,000/yr | Fully excluded by FEIE (Form 2555) |
 | **Gifts from Dan (post-renunciation)** | Unlimited (if not covered expatriate) | Not income. Report on Form 3520 if > $100K |
 
 ### Her Tax at $130K Salary Only
@@ -616,24 +664,31 @@ She is a US citizen. If she is named as a PIF beneficiary:
 
 Previous planning documents used PPAs (Profit Participation Agreements) — phantom equity designed to avoid triggering US CFC/GILTI/Form 5471 requirements while Dan was a US citizen. **With Dan renouncing US citizenship before formation, PPAs are unnecessary.** Real shares are simpler, enforceable under corporate law, and standard.
 
-### Cap Table (Both Entities Mirror)
+### Cap Table — Light Brands Holdings S.A.
 
-| Shareholder | CI IBC Shares | Cyprus Studio Shares | How Held |
-|-------------|--------------|---------------------|----------|
-| Daniel Lawless | 30% | 30% | Via S.A. → PIF (asset + divorce protection) |
-| Nicholas Courschesne | 25% | 25% | Direct |
-| Andreas Demou | 25% | 25% | Direct |
-| Jason Sparks | 20% | 20% | Direct |
-| **Total** | **100%** | **100%** | |
+All equity lives at the S.A. level. Both operating entities (LBC + LBS) are 100% owned by the S.A.
+
+| S.A. Shareholder | Ownership | How Held |
+|------------------|-----------|----------|
+| **Fundación Light Brands (PIF)** — Dan's vehicle | **30%** | PIF is independent legal person (asset + divorce protection) |
+| **Nicholas Courschesne** | **30%** | Direct |
+| **Andreas Demou** | **30%** | Direct |
+| **Jason Sparks** | **10%** | Direct |
+| **Total** | **100%** | |
+
+| Operating Entity | Ownership |
+|------------------|-----------|
+| **LBC — Light Brands AI Ltd (CI IBC)** | 100% owned by S.A. |
+| **LBS — Light Brands Studio Ltd (Cyprus)** | 100% owned by S.A. |
 
 ### Dan's Equity: Protected by Design
 
 | Layer | Protection |
 |-------|-----------|
-| Shares held by S.A. (not Dan personally) | Not a personal asset — not divisible in divorce |
-| S.A. owned by PIF | PIF is independent legal person under Panama Law 25 of 1995 |
-| PIF has no "owner" | Panama does not recognize foreign divorce judgments against PIFs |
-| Dan is PIF beneficiary | Receives distributions — but beneficiary interest is protected |
+| Dan's 30% of S.A. held by PIF (not Dan personally) | Not a personal asset — not divisible in divorce |
+| PIF is independent legal person under Panama Law 25 of 1995 | Has no "owner" — Dan is a beneficiary |
+| S.A. owns 100% of both operating entities | All business value flows through S.A. |
+| Panama does not recognize foreign divorce judgments against PIFs | Beneficiary interest is protected |
 
 **The economics are identical to the old PPA model (0% tax either way), but the legal standing is stronger.** Real shares carry voting rights, shareholder protections, standard transfer mechanics, and clear valuation for any future exit.
 
@@ -645,14 +700,15 @@ Wife holds no shares in any entity. She is a contractor to CI IBC ($130K/year, F
 
 ## 16. Tax Summary — The Complete Picture {#16-tax-summary}
 
-### Entity-Level Tax
+### Entity-Level Tax (at $3M Revenue)
 
 | Entity | Revenue/Income | Tax Rate | Tax Paid |
 |--------|---------------|----------|----------|
-| Light Brands Ltd (CI IBC) | All LB revenue | 0% | $0 |
-| Panamanian Holdings S.A. | Dividends from CI IBC | 0% (territorial) | $0 |
-| Panama PIF | Dividends from S.A. | 0% | $0 |
-| **Total entity-level tax** | | | **$0** |
+| LBC — Light Brands Consulting (CI IBC) | All client revenue ($3M) | 0% | **$0** |
+| LBS — Light Brands Studio (Cyprus) | Cost-plus margin ($80K at $3M rev) | 15% | **$12,000** |
+| Light Brands Holdings S.A. | 100% of CI IBC dividends | 0% (territorial) | $0 |
+| Fundación Light Brands (PIF) | Dan's 30% share of S.A. dividends | 0% | $0 |
+| **Total entity-level tax** | | | **$12,000 (0.4%)** |
 
 ### Personal-Level Tax
 
@@ -666,25 +722,35 @@ Wife holds no shares in any entity. She is a contractor to CI IBC ($130K/year, F
 | Metric | Amount |
 |--------|--------|
 | Light Brands revenue | (depends on business) |
-| Entity-level tax | **$0** |
+| Entity-level tax (Cyprus margin only) | **~$12-27K** |
 | Dan's personal tax | **$0** |
 | Wife's personal tax | **$0** |
-| **Total tax on entire LB operation** | **$0** |
-| **Entity maintenance overhead** | ~$7-13K/yr |
+| **Total tax on entire LB operation** | **~$12-27K (0.3-0.4%)** |
+| **Entity maintenance overhead** | ~$27-43K/yr |
+
+### Tax Projections at Scale
+
+| Revenue | Cyprus Studio Costs | Margin (10%) | Cyprus Tax (15%) | CI IBC Tax | **Total Tax** | **Effective Rate** |
+|---------|--------------------|--------------|--------------------|-----------|-------------|-------------------|
+| $1M | $400K | $40K | $6,000 | $0 | **$6,000** | **0.6%** |
+| $3M | $800K | $80K | $12,000 | $0 | **$12,000** | **0.4%** |
+| $5M | $1.2M | $120K | $18,000 | $0 | **$18,000** | **0.36%** |
+| $8M | $1.8M | $180K | $27,000 | $0 | **$27,000** | **0.34%** |
 
 ### Comparison: Before vs After
 
-| | Current (US citizen, Dubai Studio, two entities) | Simplified (Non-US, CI IBC only) |
-|--|--------------------------------------------------|----------------------------------|
-| Entity count | 4 (PIF + S.A. + Studio + CI IBC) | 3 (PIF + S.A. + CI IBC) |
-| Entity overhead | ~$45-80K/yr | ~$7-13K/yr |
+| | Current (US citizen, Dubai Studio) | New (Non-US, CI IBC + Cyprus Studio) |
+|--|-------------------------------------|---------------------------------------|
+| Entity count | 4 (PIF + S.A. + Dubai + CI IBC) | 4 (PIF + S.A. + CI IBC + Cyprus Studio) |
+| Entity overhead | ~$45-80K/yr | ~$27-43K/yr |
+| Entity-level tax | $0 | ~$12-27K (0.3-0.4%) |
 | Dan's personal tax | ~$85K-$117K/yr (Y5) | $0 |
 | Wife's personal tax | ~$0-$10K/yr | ~$0-$7.4K/yr |
 | CFC/GILTI risk | Must be managed carefully | None |
 | Form 5471 | Avoided through no-ownership | Not applicable |
 | FEIE tracking (330 days) | Critical for both | Wife only |
-| Dubai office/visas | Required | Eliminated |
-| **Total annual cost (tax + overhead)** | **$130-200K+** | **$7-20K** |
+| Substance | Dubai (expensive, complex) | Cyprus (cheaper, ironclad) |
+| **Total annual cost (tax + overhead)** | **$130-200K+** | **$39-70K** |
 
 ---
 
@@ -706,22 +772,29 @@ Wife holds no shares in any entity. She is a contractor to CI IBC ($130K/year, F
 |---|--------|----------|------------|
 | 6 | Form Panama PIF (if not already formed) | Weeks 2-4 | Counsel engaged |
 | 7 | Form Panamanian Holdings S.A. (if not already formed) | Weeks 2-4 | PIF formed |
-| 8 | Form Light Brands Ltd (Cook Islands IBC) | Weeks 2-5 | S.A. formed |
-| 9 | Open Singapore bank account for CI IBC | Weeks 4-6 | CI IBC incorporated |
-| 10 | Open Panama bank account for S.A. | Weeks 4-6 | S.A. formed |
-| 11 | Set up Stripe + Wise Business | Weeks 5-7 | Bank accounts open |
-| 12 | Set up Deel/Remote account for contractors | Week 4 | CI IBC incorporated |
+| 8 | Form LBC — Light Brands AI Ltd (Cook Islands IBC) | Weeks 2-5 | S.A. formed |
+| 9 | Form LBS — Light Brands Studio Ltd (Cyprus) | Weeks 3-6 | Cyprus counsel engaged |
+| 10 | Open Singapore bank account for CI IBC | Weeks 4-6 | CI IBC incorporated |
+| 11 | Open Cyprus bank account for Studio | Weeks 5-7 | Cyprus Studio incorporated |
+| 12 | Open Panama bank account for S.A. | Weeks 4-6 | S.A. formed |
+| 13 | Set up Stripe + Wise Business | Weeks 5-7 | Bank accounts open |
+| 14 | Set up Deel/Remote account for contractors | Week 4 | CI IBC incorporated |
+| 15 | Lease Cyprus office space (Limassol or Nicosia) | Weeks 5-8 | Cyprus Studio incorporated |
+| 16 | Register Cyprus Studio for VAT, social insurance | Weeks 5-7 | TIN issued |
 
 ### Phase 2: Agreements (Months 2-4)
 
 | # | Action | Timeline |
 |---|--------|----------|
-| 13 | Issue shares to all four founders per cap table (Doc 14/16) | Months 2-3 |
-| 14 | Draft contractor agreements (with IP assignment) | Month 2 |
-| 15 | Wife's contractor agreement with CI IBC | Month 2 |
-| 16 | Dan's director/contractor agreement with CI IBC | Month 2 |
-| 17 | Execute shareholder agreements (voting, transfer, tag/drag-along) | Month 3 |
-| 18 | Transfer pricing documentation (CI IBC ↔ Cyprus Studio) | Month 3-4 |
+| 17 | Issue shares to all four founders per cap table in BOTH LBC + LBS (Doc 14/16) | Months 2-3 |
+| 18 | Draft and execute Master Development Services Agreement (MDSA) — CI IBC ↔ Cyprus Studio | Month 2-3 |
+| 19 | Draft contractor agreements (with IP assignment) | Month 2 |
+| 20 | Wife's contractor agreement with CI IBC | Month 2 |
+| 21 | Dan's director/contractor agreement with CI IBC | Month 2 |
+| 22 | Andreas's employment/director contract with Cyprus Studio | Month 2 |
+| 23 | Execute shareholder agreements for both entities (voting, transfer, tag/drag-along) | Month 3 |
+| 24 | Prepare initial transfer pricing documentation (CI IBC ↔ Cyprus Studio) | Month 3-4 |
+| 25 | Hire first Cyprus-based developers | Month 3-4 |
 
 ### Phase 3: Renunciation (Months 6-9)
 
@@ -738,11 +811,16 @@ Wife holds no shares in any entity. She is a contractor to CI IBC ($130K/year, F
 
 | Activity | Frequency |
 |----------|-----------|
-| Client revenue → CI IBC | Continuous |
-| Pay contractors via Deel/Wise | Monthly |
+| Client revenue → CI IBC (LBC) | Continuous |
+| CI IBC pays Cyprus Studio (LBS) monthly (cost-plus) | Monthly |
+| Cyprus Studio pays developer salaries (payroll) | Monthly |
+| CI IBC pays contractors via Deel/Wise | Monthly |
 | CI IBC → S.A. → PIF → Dan distributions | Quarterly |
 | Wife files US tax return (1040 + 2555 + FBAR) | Annually |
 | CI IBC annual return | Annually |
+| Cyprus Studio audit + annual return | Annually |
+| Cyprus Studio transfer pricing documentation update | Annually |
+| Cyprus Studio corporate tax filing (15% on margin) | Annually |
 | S.A. annual maintenance (franchise tax) | Annually |
 | PIF annual registration ($400) | Annually |
 
@@ -760,19 +838,23 @@ Wife holds no shares in any entity. She is a contractor to CI IBC ($130K/year, F
 
 4. **Gifts from covered vs. non-covered expatriate:** Confirm the exact mechanics of Form 3520 reporting for gifts from Dan (non-US person) to wife (US person). Any dollar limits?
 
-5. **CI IBC PE risk:** With contractors in multiple countries, what specific measures prevent PE creation? Is Deel/Remote sufficient?
-
-6. **Single CI IBC vs. two:** Any legal/tax reason to maintain separate LBC and LBS entities? Or is one CI IBC with internal revenue streams cleaner?
+5. **Cyprus Studio transfer pricing:** Confirm cost-plus 8-12% is defensible for a Cyprus captive software development center. Identify comparable transactions.
 
 ### Important (During Formation)
 
-7. **Panama S.A. as payment agent:** Can the S.A. make contractor payments on behalf of the CI IBC without creating substance/PE issues in Panama?
+6. **S.A. as shareholder of Cyprus Ltd:** Confirm that a Panamanian S.A. (owned by PIF) can hold 30% of a Cyprus Private Company. Any KYC or regulatory issues?
+
+7. **S.A. as shareholder of CI IBC:** Same confirmation for Cook Islands IBC shares. CI registered agent acceptance?
 
 8. **Singapore banking for CI IBC:** Which banks currently accept CI IBCs with Panama PIF ultimate ownership? DBS, OCBC, Statrys?
 
 9. **Wife's FEIE and contractor classification:** Does wife working as a contractor (not employee) of the CI IBC qualify for FEIE? FEIE requires "earned income" — contractor income qualifies if it's for services performed.
 
-10. **Share issuance through S.A.:** Confirm the mechanics of S.A. holding Dan's 30% shares in CI IBC and Cyprus Studio. Any issues with a Panamanian corporation holding shares in a Cook Islands IBC or Cyprus Ltd?
+10. **Cyprus Studio VAT:** Should Studio register for VAT voluntarily from day one? B2B services to non-EU entity (CI IBC) should be 0% reverse charge — confirm.
+
+11. **Jason as shareholder of Cyprus Studio:** Jason (US citizen) holding 10% of Cyprus Studio — any Form 5471 or CFC implications? Cyprus Studio has taxable income (15%) which may reduce GILTI impact.
+
+12. **MDSA execution:** Does the CI IBC registered agent need to be involved in executing the Master Development Services Agreement with Cyprus Studio?
 
 ---
 
@@ -788,4 +870,4 @@ Wife holds no shares in any entity. She is a contractor to CI IBC ($130K/year, F
 
 ---
 
-*This document describes a legal tax optimization strategy combining US citizenship renunciation, Cook Islands IBC tax neutrality, Panama PIF asset protection, and FEIE for the remaining US citizen spouse. All mechanisms cited are explicit provisions of the relevant tax codes. Implementation requires validation by qualified US expat tax counsel, Cook Islands registered agent, Panama PIF counsel, and immigration attorney. The religious organization is planned for international establishment and is not part of this tax structure. This is not legal or tax advice.*
+*This document describes a legal tax optimization strategy combining US citizenship renunciation, a four-entity structure (PIF → Panama Holdings → CI IBC + Cyprus Studio), and FEIE for the remaining US citizen spouse. The structure uses the OECD-standard principal/routine service provider model with cost-plus transfer pricing. All mechanisms cited are explicit provisions of the relevant tax codes. Implementation requires validation by qualified US expat tax counsel, Cook Islands registered agent, Panama PIF counsel, Cyprus corporate counsel, transfer pricing advisor, and immigration attorney. This is not legal or tax advice.*

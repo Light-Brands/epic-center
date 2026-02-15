@@ -2,7 +2,7 @@
 
 > **Status:** Formation-ready specification — requires international counsel validation
 > **Last Updated:** February 15, 2026
-> **Scope:** Clean-slate corporate formation for Light Brands AI. Real equity ownership. 100% remote digital team. Three entities total.
+> **Scope:** Clean-slate corporate formation for Light Brands AI. Real equity ownership. Four entities: PIF → Panama Holdings → LBC (Cook Islands IBC) / LBS (Cyprus Studio).
 > **Brand:** Light Brands AI — an AI consulting, SaaS, and product company
 > **Founder:** Daniel Lawless (renouncing US citizenship prior to formation)
 
@@ -39,20 +39,20 @@ Light Brands AI is a new AI consulting, SaaS, and product company. Nothing has b
 | Principle | Implementation |
 |-----------|---------------|
 | **Real equity ownership** | Founders hold actual shares (not phantom equity, not PPAs). Standard corporate mechanics. |
-| **Minimum viable structure** | Three entities total. No unnecessary jurisdictions. |
-| **Zero entity-level tax** | PIF (0%) → S.A. (0% territorial) → CI IBC (0% unconditional). Total entity tax: $0. |
+| **Minimum viable structure** | Four entities total. PIF → S.A. → CI IBC (consulting) + Cyprus Studio (development). |
+| **Near-zero entity-level tax** | PIF (0%) → S.A. (0% territorial) → CI IBC (0%) + Cyprus Studio (15% on cost-plus margin only). Total entity tax: ~0.4% of revenue. |
 | **100% remote** | No office, no employees on payroll. Contractors + EOR worldwide. |
 | **Asset protection** | Panama PIF + Cook Islands IBC = strongest protection stack available. |
 | **Divorce protection** | Dan's equity held through PIF, not personally. PIF is independent legal person. |
-| **Simplicity** | One revenue entity, one holding company, one foundation. Done. |
+| **Simplicity** | One consulting entity, one development studio, one holding company, one foundation. Clean split. |
 
 ### The Math
 
 | Metric | Value |
 |--------|-------|
-| Total entities | **3** |
-| Total annual overhead | **~$7-13K** |
-| Entity-level tax rate | **0%** |
+| Total entities | **4** |
+| Total annual overhead | **~$27-43K** |
+| Entity-level tax rate | **~0.4% of revenue** (15% Cyprus tax on cost-plus margin only) |
 | Dan's personal tax rate (post-renunciation) | **0%** |
 | Wife's personal tax rate ($130K salary via FEIE) | **0%** |
 | Combined household tax | **$0-$7,400/yr** (only if wife has additional income beyond FEIE) |
@@ -80,94 +80,93 @@ Light Brands AI is a new AI consulting, SaaS, and product company. Nothing has b
 | **Products** | One-time digital product sales | Frameworks, templates, AI models |
 | **Licensing** | IP licensing to third parties | Technology licenses, white-label agreements |
 
-All revenue streams flow through a single entity: Light Brands AI Ltd (CI IBC).
+All revenue streams flow through LBC — Light Brands AI Ltd (CI IBC). Development delivery is contracted to LBS — Light Brands Studio Ltd (Cyprus).
 
 ---
 
 ## 3. Corporate Architecture {#3-corporate-architecture}
 
-### Three Entities. Nothing More.
+### Four Entities. Clean Split: PIF → Panama Holdings → LBC CI / LBS CY
 
 ```
-┌──────────────────────────────────────────────────────────────────┐
-│                                                                  │
-│  LAYER 1: ASSET PROTECTION + OWNERSHIP                          │
-│                                                                  │
-│  ┌──────────────────────────────────────────────────────────┐   │
-│  │              FUNDACIÓN LIGHT BRANDS                       │   │
-│  │              (Panama Private Interest Foundation)          │   │
-│  │                                                           │   │
-│  │  Type: Independent legal person — has no "owner"          │   │
-│  │  Beneficiaries: Dan + other non-US founders               │   │
-│  │  Tax: 0% on all foreign income                            │   │
-│  │  Asset protection: Panama Law 25 of 1995                  │   │
-│  │  Divorce protection: PIF assets ≠ personal property       │   │
-│  └────────────────────────┬──────────────────────────────────┘   │
-│                           │ 100% ownership                       │
-│                           ▼                                      │
-│  ┌──────────────────────────────────────────────────────────┐   │
-│  │         LIGHT BRANDS HOLDINGS S.A.                        │   │
-│  │         (Panamanian Corporation)                           │   │
-│  │                                                           │   │
-│  │  Purpose: Holds shares in CI IBC                          │   │
-│  │  Tax: 0% on foreign-source income (territorial)           │   │
-│  │  Banking: Panama account for operational flexibility      │   │
-│  │  Layer 2 of asset protection                              │   │
-│  └────────────────────────┬──────────────────────────────────┘   │
-│                           │ Holds Dan's 30% equity               │
-│                           ▼                                      │
-│  LAYER 2: REVENUE + OPERATIONS + IP                              │
-│                                                                  │
-│  ┌──────────────────────────────────────────────────────────┐   │
-│  │         LIGHT BRANDS AI LTD                               │   │
-│  │         (Cook Islands International Business Company)      │   │
-│  │                                                           │   │
-│  │  THE business entity. Everything happens here:            │   │
-│  │                                                           │   │
-│  │  • Signs all client contracts                             │   │
-│  │  • Collects all revenue (consulting, SaaS, products)      │   │
-│  │  • Owns all intellectual property                         │   │
-│  │  • Pays all contractors worldwide                         │   │
-│  │  • Zero employees on payroll                              │   │
-│  │  • Zero physical office                                   │   │
-│  │  • Zero substance requirements                            │   │
-│  │                                                           │   │
-│  │  Tax: 0% — unconditional for Cook Islands IBCs            │   │
-│  │  Asset protection: #1 globally (Cook Islands)             │   │
-│  │  Banking: Singapore (primary), Wise, Stripe               │   │
-│  └──────────────────────────────────────────────────────────┘   │
-│                                                                  │
-│  LAYER 3: PEOPLE (No entity required)                            │
-│                                                                  │
-│  ┌──────────────────────────────────────────────────────────┐   │
-│  │  Dan Lawless — Director + Lead (Grenada citizen)          │   │
-│  │  Nicholas Courschesne — Co-founder (direct shareholder)   │   │
-│  │  Andreas Demou — Co-founder (direct shareholder)          │   │
-│  │  Jason Sparks — Co-founder (direct shareholder, US)       │   │
-│  │  Wife — Contractor (US citizen, NOT a shareholder)        │   │
-│  │  Dev team — Contractors via Deel / direct agreements      │   │
-│  └──────────────────────────────────────────────────────────┘   │
-│                                                                  │
-└──────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────┐
+│                                                                      │
+│  LAYER 1: ASSET PROTECTION + OWNERSHIP                               │
+│                                                                      │
+│  ┌──────────────────────────────────────────────────────────────┐   │
+│  │              FUNDACIÓN LIGHT BRANDS (PIF)                     │   │
+│  │              Panama Private Interest Foundation               │   │
+│  │                                                               │   │
+│  │  Independent legal person — has no "owner"                    │   │
+│  │  Beneficiaries: Dan + other non-US founders                   │   │
+│  │  Tax: 0% on all foreign income                                │   │
+│  │  Asset protection: Panama Law 25 of 1995                      │   │
+│  │  Divorce protection: PIF assets ≠ personal property           │   │
+│  └────────────────────────┬──────────────────────────────────────┘   │
+│                           │ 100% ownership                            │
+│                           ▼                                           │
+│  ┌──────────────────────────────────────────────────────────────┐   │
+│  │         LIGHT BRANDS HOLDINGS S.A.                            │   │
+│  │         (Panamanian Corporation)                               │   │
+│  │                                                               │   │
+│  │  Central holding company — ALL founders are shareholders:      │   │
+│  │    PIF (Dan) 30% │ Nicholas 30% │ Andreas 30% │ Jason 10%    │   │
+│  │  Owns 100% of BOTH operating entities                         │   │
+│  │  Tax: 0% on foreign-source income (territorial)               │   │
+│  │  Banking: Panama account for operational flexibility          │   │
+│  └──────────┬──────────────────────────────────┬─────────────────┘   │
+│             │ 100% ownership                   │ 100% ownership       │
+│             ▼                                  ▼                      │
+│  LAYER 2: REVENUE + DELIVERY                                         │
+│                                                                      │
+│  ┌────────────────────────────┐   ┌──────────────────────────────┐  │
+│  │  LBC — LIGHT BRANDS AI LTD │   │  LBS — LIGHT BRANDS STUDIO   │  │
+│  │  (Cook Islands IBC)         │   │  LTD                         │  │
+│  │  "THE BRAIN"                │   │  (Cyprus Private Company)    │  │
+│  │                             │   │  "THE HANDS"                 │  │
+│  │  • Client-facing            │   │                              │  │
+│  │  • Owns IP + methodology   │──►│  • Development delivery      │  │
+│  │  • Bears credit risk        │   │  • Real office in Cyprus     │  │
+│  │  • Invoices clients         │   │  • Real employees (devs)     │  │
+│  │  • Contracts dev to Cyprus  │   │  • Andreas Demou = Director  │  │
+│  │  • 0% tax (unconditional)   │   │  • Cost-plus pricing         │  │
+│  │                             │   │  • 15% tax on margin only    │  │
+│  │  Asset protection: #1       │   │                              │  │
+│  │  Banking: Singapore, Wise   │   │  Banking: Cyprus (EU/SEPA)   │  │
+│  └────────────────────────────┘   └──────────────────────────────┘  │
+│                                                                      │
+│  LAYER 3: PEOPLE                                                     │
+│                                                                      │
+│  ┌──────────────────────────────────────────────────────────────┐   │
+│  │  Dan Lawless — Director of CI IBC. Client relationships.      │   │
+│  │  Andreas Demou — Director of Cyprus Studio. Runs the office.  │   │
+│  │  Nicholas Courschesne — Co-founder (via his own PIF)           │   │
+│  │  Jason Sparks — Co-founder (direct S.A. shareholder, US)      │   │
+│  │  Wife — Contractor to CI IBC (US citizen, NOT a shareholder)  │   │
+│  │  Dev team — Employees of Cyprus Studio + CI IBC contractors   │   │
+│  └──────────────────────────────────────────────────────────────┘   │
+│                                                                      │
+└──────────────────────────────────────────────────────────────────────┘
 ```
 
 ### Why Each Entity Exists
 
 | Entity | Why It Exists | What Happens Without It |
 |--------|--------------|------------------------|
-| **Panama PIF** | Asset protection. Divorce protection. Dan's equity is held by an independent legal person, not Dan personally. | Dan's shares are personal property — exposed in divorce, lawsuits, creditor claims |
-| **Light Brands Holdings S.A.** | Intermediate holding company between PIF and CI IBC. Required because PIF cannot directly hold shares in a CI IBC (PIF acts through a corporate vehicle). Also provides banking flexibility and double-layer protection. | PIF would need to hold CI IBC shares directly (may not be accepted by CI registered agent) |
-| **Light Brands AI Ltd (CI IBC)** | The operating entity. Holds all revenue, IP, contracts. 0% tax. Strongest asset protection jurisdiction globally. | No business entity exists |
+| **Fundación Light Brands (PIF)** | Asset protection. Divorce protection. Dan's equity is held by an independent legal person, not Dan personally. | Dan's shares are personal property — exposed in divorce, lawsuits, creditor claims |
+| **Light Brands Holdings S.A.** | Central holding company. All founders are shareholders (Dan's PIF 30%, Nicholas's PIF 30%, Andreas 30%, Jason 10%). Owns 100% of both operating entities. Banking flexibility + asset protection. | No central governance — each founder would hold shares directly in each operating entity, complicating management |
+| **LBC — Light Brands AI Ltd (CI IBC)** | The consulting principal. Client-facing, owns all IP, bears risk. 0% tax. Strongest asset protection jurisdiction globally. | No client-facing entity exists |
+| **LBS — Light Brands Studio Ltd (Cyprus)** | The development shop. Employs team, runs office, delivers work. Provides ironclad substance for the group. 15% tax on cost-plus margin only. | Zero substance — PE claims, banking friction, enterprise client hesitancy |
 
-### Why NOT Dubai
+### Why Cyprus Studio Instead of Dubai
 
-| Dubai Element | Why It Was Considered | Why It's Unnecessary |
-|--------------|----------------------|---------------------|
-| FZ-LLC with QFZP status | 0% corporate tax + employs team for substance | CI IBC is already 0% with no substance requirement |
+| Dubai Element | Why It Was Considered | Why Cyprus Studio Is Better |
+|--------------|----------------------|---------------------------|
+| FZ-LLC with QFZP status | 0% corporate tax + employs team for substance | Cyprus provides real substance (EU jurisdiction, real office, real employees) with only 12.5% on cost-plus markup — the CI IBC retains 0% on all revenue |
 | Golden Visa | FEIE bona fide residence for US tax | Dan won't be a US citizen — no FEIE needed for him |
-| Office space | Required for FZ-LLC license | 100% remote team — no office needed anywhere |
-| Employment visas | Legal employment for team members | Team are contractors, not employees |
-| **Saved: ~$35-65K/yr** | | |
+| Office space + visas | Required for FZ-LLC license, expensive | Cyprus office is cheaper (~$2-3K/mo), and Andreas (Cyprus citizen) handles all local operations |
+| QFZP compliance risk | Complex qualifying conditions, audit risk | No equivalent compliance risk in Cyprus — standard corporate tax regime |
+| **Dubai overhead saved: ~$35-65K/yr** | | **Cyprus overhead: ~$30K/yr + minimal tax** |
 
 ---
 
@@ -179,17 +178,24 @@ Previous planning documents referenced PPAs (Profit Participation Agreements) �
 
 **With Dan renouncing US citizenship before formation, PPAs are unnecessary.** Real shares are simpler, standard, and enforceable under corporate law.
 
-### Cap Table: Light Brands AI Ltd
+### Cap Table — Light Brands Holdings S.A.
 
-| Shareholder | Shares | Ownership | Held Through | Residence/Citizenship |
-|-------------|--------|-----------|-------------|----------------------|
-| **Light Brands Holdings S.A.** (Dan's PIF vehicle) | 300 | **30%** | PIF → S.A. → shares | Dan: Grenada citizen, Costa Rica/Panama resident |
-| **Nicholas Courschesne** | 300 | **30%** | Direct (or personal holding entity) | Cyprus |
-| **Andreas Demou** | 300 | **30%** | Direct (or personal holding entity) | Cyprus |
+All equity lives at the S.A. level. Both operating entities (LBC + LBS) are **100% owned by the S.A.**
+
+| S.A. Shareholder | Shares | Ownership | Held Through | Citizenship/Residence |
+|------------------|--------|-----------|-------------|----------------------|
+| **Fundación Light Brands** (Dan's PIF) | 300 | **30%** | PIF → S.A. | Dan: Grenada citizen (renounced US), Costa Rica/Panama resident |
+| **Nicholas's PIF** | 300 | **30%** | PIF → S.A. | Nicholas: renounced Canadian citizen |
+| **Andreas Demou** | 300 | **30%** | Direct | Cyprus citizen |
 | **Jason Sparks** | 100 | **10%** | Direct | US citizen |
 | **Total** | **1,000** | **100%** | | |
 
-### Share Structure
+| Operating Entity | Ownership |
+|------------------|-----------|
+| **LBC — Light Brands AI Ltd (CI IBC)** | 100% owned by S.A. |
+| **LBS — Light Brands Studio Ltd (Cyprus)** | 100% owned by S.A. |
+
+### Share Structure (S.A.)
 
 | Parameter | Value |
 |-----------|-------|
@@ -203,34 +209,37 @@ Previous planning documents referenced PPAs (Profit Participation Agreements) �
 ### How Dan's Equity Is Protected
 
 ```
-Dan (personally) owns NOTHING in Light Brands AI Ltd.
+Dan (personally) owns NOTHING in Light Brands.
 
 Instead:
 
-Fundación Light Brands (PIF)
-    → 100% owns Light Brands Holdings S.A.
-        → S.A. holds 300 shares (30%) in Light Brands AI Ltd
+Fundación Light Brands (Dan's PIF)
+    → holds 30% of Light Brands Holdings S.A.
+        → S.A. owns 100% of LBC (CI IBC)
+        → S.A. owns 100% of LBS (Cyprus Studio)
 
 Dan is a BENEFICIARY of the PIF.
 Dan is NOT a shareholder, director, or officer of the S.A.
-Dan IS a director of Light Brands AI Ltd (operational role).
+Dan IS a director of LBC (CI IBC) — operational role only.
 
 In divorce:
     Dan's personal assets = divisible
     PIF assets = NOT divisible (independent legal person under Panama Law 25)
     S.A. shares = owned by PIF, not Dan
-    CI IBC shares = owned by S.A., not Dan
+    LBC + LBS = owned by S.A., not Dan
 
 Result: Dan's 30% equity is protected by three legal layers.
+
+Nicholas has the same protection through his own PIF.
 ```
 
 ### What Each Founder Owns
 
 | Founder | Economic Rights | Voting Rights | Dividend Rights | Board Seat |
 |---------|----------------|---------------|-----------------|------------|
-| Dan (via S.A.) | 30% of distributable profits | 30% of votes | 30% of declared dividends | Yes (Director) |
+| Dan (via S.A.) | 30% of distributable profits | 30% of votes | 30% of declared dividends | Yes (CI IBC Director) |
 | Nicholas | 30% of distributable profits | 30% of votes | 30% of declared dividends | Yes (Director) |
-| Andreas | 30% of distributable profits | 30% of votes | 30% of declared dividends | Yes (Director) |
+| Andreas | 30% of distributable profits | 30% of votes | 30% of declared dividends | Yes (Cyprus Studio Director) |
 | Jason | 10% of distributable profits | 10% of votes | 10% of declared dividends | Optional |
 
 ---
@@ -264,20 +273,23 @@ Result: Dan's 30% equity is protected by three legal layers.
 | Distributions to non-Panamanian beneficiaries | **0% WHT** |
 | Local Panamanian income | 25% (not applicable — PIF has no Panama operations) |
 
-### PIF Beneficiary Structure
+### PIF Structure
 
-| Beneficiary | Share of Distributions | Why Included |
-|-------------|----------------------|--------------|
-| Dan Lawless | Per Private Regulations | Lead founder, non-US citizen |
-| Nicholas Courschesne | Per Private Regulations | Co-founder, Cyprus resident |
-| Andreas Demou | Per Private Regulations | Co-founder, Cyprus resident |
+Two PIFs exist — one for Dan, one for Nicholas. Each PIF holds its founder's 30% of the S.A.
 
-**Excluded:**
+| PIF | Beneficiary | S.A. Ownership |
+|-----|------------|----------------|
+| **Fundación Light Brands** (Dan's PIF) | Dan Lawless | 30% of S.A. |
+| **Nicholas's PIF** (name TBD) | Nicholas Courschesne | 30% of S.A. |
 
-| Person | Why Excluded |
-|--------|-------------|
-| **Wife** | US citizen. Beneficial interest in a foreign entity creates complex IRS reporting (Form 3520-A, potential foreign trust treatment). She receives money through contractor fees and gifts from Dan instead. |
-| **Jason Sparks** | US citizen. PIF beneficiary status could create foreign trust attribution under IRC 679/684. He receives dividends as a direct shareholder of the CI IBC. |
+**Not in a PIF:**
+
+| Person | Why Direct | S.A. Ownership |
+|--------|-----------|----------------|
+| **Andreas Demou** | Cyprus citizen — no need for PIF protection (stays in Cyprus, no renunciation). Holds S.A. shares directly. | 30% direct |
+| **Jason Sparks** | US citizen — PIF beneficiary status could create foreign trust attribution under IRC 679/684. Holds S.A. shares directly. | 10% direct |
+
+**Wife is excluded from all PIFs and equity.** She receives money through contractor fees from CI IBC and gifts from Dan.
 
 ### Annual Requirements
 
@@ -298,10 +310,10 @@ Result: Dan's 30% equity is protected by three legal layers.
 |---------|--------|
 | **Type** | Sociedad Anónima (Panamanian corporation) |
 | **Governing law** | Panama Law 32 of 1927 |
-| **Sole shareholder** | Fundación Light Brands (PIF) |
+| **Shareholders** | Dan's PIF (30%), Nicholas's PIF (30%), Andreas Demou (30%), Jason Sparks (10%) |
 | **Directors** | 3 minimum under Panama law. Nominee directors from registered agent + PIF Foundation Council overlap |
 | **Officers** | President, Secretary, Treasurer (can be same as directors) |
-| **Purpose** | Hold 30% equity in Light Brands AI Ltd (CI IBC) on behalf of PIF |
+| **Purpose** | Central holding company. Owns 100% of LBC (CI IBC) and LBS (Cyprus Studio). All founders are shareholders. |
 | **Registered agent** | Same firm as PIF (simplifies) |
 | **Bearer shares** | Not used (eliminated by Panama in 2015 — all shares must be registered or immobilized) |
 
@@ -315,12 +327,13 @@ Result: Dan's 30% equity is protected by three legal layers.
 
 ### Why This Entity Exists
 
-The S.A. serves as the **corporate vehicle** through which the PIF holds equity. This is standard practice because:
+The S.A. serves as the **central holding company** for all founders and both operating entities. This is standard practice because:
 
-1. **CI registered agents** prefer corporate shareholders — cleaner KYC than a PIF directly holding shares
-2. **Double-layer protection** — a creditor must pierce both the PIF and the S.A. to reach CI IBC shares
-3. **Banking flexibility** — the S.A. can hold bank accounts for operational purposes
-4. **Standard mechanics** — dividends flow CI IBC → S.A. → PIF → beneficiaries through well-understood corporate channels
+1. **Single cap table** — one shareholders' agreement governs all equity. No need to mirror cap tables across entities.
+2. **100% ownership of operating entities** — clean, simple ownership. Both LBC and LBS are wholly-owned subsidiaries.
+3. **Asset protection** — Dan and Nicholas hold their shares through PIFs. A creditor must pierce PIF + S.A. to reach operating entity value.
+4. **Banking flexibility** — the S.A. can hold bank accounts for operational purposes
+5. **Standard mechanics** — dividends flow operating entities → S.A. → shareholders through well-understood corporate channels
 
 ### Annual Requirements
 
@@ -344,7 +357,7 @@ The S.A. serves as the **corporate vehicle** through which the PIF holds equity.
 | **Registered agent** | Required — licensed CI trustee company in Rarotonga |
 | **Registered office** | At registered agent's address |
 | **Share capital** | 1,000 ordinary shares at $1.00 par value |
-| **Shareholders** | See cap table (Section 4) — four shareholders |
+| **Shareholders** | Light Brands Holdings S.A. (sole shareholder — 100%) |
 | **Directors** | Dan Lawless (operational) + nominee director (CI or Singapore) |
 | **Secretary** | Optional (recommended) |
 | **Employees** | Zero. All team are contractors. |
@@ -365,21 +378,24 @@ The S.A. serves as the **corporate vehicle** through which the PIF holds equity.
 
 **The 0% is unconditional.** No substance requirements. No qualifying activity test. No revenue threshold. As long as the entity does not transact with Cook Islands residents or hold CI real property.
 
-### What This Entity Does
+### What This Entity Does — "The Brain"
 
-Everything:
+The CI IBC is the **principal entity** — it owns the clients, the IP, and the risk:
 
-- Signs client contracts (consulting agreements, SaaS terms of service, license agreements)
+- Signs all client contracts (consulting agreements, SaaS terms of service, license agreements)
 - Collects all revenue (Stripe for recurring, bank transfers for enterprise, Wise for international)
 - Owns all intellectual property (AI tools, platforms, frameworks, code, designs)
-- Pays all contractors worldwide (via Wise, Deel, or direct bank transfer)
+- Contracts all development work to **Light Brands Studio Ltd (Cyprus)**
+- Pays non-Cyprus contractors worldwide (via Wise, Deel, or direct bank transfer)
 - Holds the Singapore bank account (primary operating account)
 - Manages operational expenses (cloud infrastructure, SaaS tools, marketing)
+- Bears all client credit risk and entrepreneurial risk
 
 ### What This Entity Does NOT Do
 
-- Employ anyone (zero payroll)
+- Employ anyone (zero payroll — developers are employed by Cyprus Studio)
 - Maintain physical office space (zero premises)
+- Perform development work (contracted to Cyprus Studio via MDSA)
 - Conduct business with Cook Islands residents
 - Hold Cook Islands real property
 - Have 3+ CI-resident directors (which would trigger domestic tax)
@@ -492,9 +508,9 @@ Per the marriage agreement, wife receives half of everything. Her protections:
 
 ## 10. Remote Team Structure {#10-remote-team}
 
-### The Model: Zero Employees, All Contractors
+### The Model: Dual-Entity Team
 
-Light Brands AI Ltd has zero employees. The entire team operates as independent contractors or through Employer of Record (EOR) services.
+The team is split across two entities. Cyprus Studio (LBS) employs developers in Cyprus for substance. CI IBC (LBC) engages remote contractors worldwide.
 
 ### Engagement Methods
 
@@ -519,7 +535,7 @@ If a contractor works exclusively for CI IBC from one country, that country coul
 ### Team Structure
 
 ```
-Light Brands AI Ltd (CI IBC)
+LBC — Light Brands AI Ltd (CI IBC)
     │
     ├── Dan Lawless — Director + Lead Consultant
     │   (Grenada citizen, Costa Rica/Panama resident)
@@ -529,44 +545,58 @@ Light Brands AI Ltd (CI IBC)
     │   (US citizen, lives abroad with Dan)
     │   (Contractor agreement with CI IBC, $130K/yr)
     │
-    ├── Senior developers (direct contractor agreements)
-    │   └── Paid via CI IBC Singapore bank → Wise
+    ├── Remote contractors (non-Cyprus)
+    │   └── Paid via CI IBC Singapore bank → Wise / Deel
     │
-    ├── EU-based team (via Deel EOR)
-    │   └── Deel employs them locally, CI IBC pays Deel
+    └── Contracts all development to ──►
+
+LBS — Light Brands Studio Ltd (Cyprus)
     │
-    └── Other contractors (Deel Contractor or direct)
-        └── Global, flexible engagement
+    ├── Andreas Demou — Director + Employee
+    │   (Cyprus citizen, lives in Cyprus)
+    │
+    ├── Cyprus-based developers (employees)
+    │   └── Real employment, real office, real payroll
+    │
+    └── Office in Limassol or Nicosia
 ```
 
 ---
 
 ## 11. IP Ownership {#11-ip-ownership}
 
-### All IP Belongs to Light Brands AI Ltd
+### All IP Belongs to LBC — Light Brands AI Ltd
+
+IP is created by two sources but owned by one entity:
 
 ```
-Contractor builds software / AI model / framework / product
+Cyprus Studio employees build software / AI model / platform
     │
     ▼
-IP assigned to Light Brands AI Ltd (CI IBC)
+IP assigned to LBC (CI IBC) upon creation
+    via Master Development Services Agreement (MDSA)
+    │
+CI IBC contractors create methodology / strategy / tools
+    │
+    ▼
+IP assigned to LBC (CI IBC)
     via contractor agreement IP assignment clause
     │
     ▼
-CI IBC owns all IP — can license, sell, distribute, sublicense
+CI IBC owns ALL IP — can license, sell, distribute, sublicense
 ```
 
-### Required Contract Clauses (Every Contractor Agreement)
+### Required Contract Clauses
 
-1. **IP assignment / work-for-hire:** All work product, inventions, and IP created during the engagement belong to Light Brands AI Ltd
-2. **Pre-existing IP exclusion:** Contractor retains their own pre-existing tools (specifically enumerated in the agreement)
-3. **Moral rights waiver:** Where applicable under contractor's local law
+1. **MDSA (Cyprus Studio → CI IBC):** All deliverables and IP created by Studio automatically assigned to CI IBC upon creation
+2. **Contractor agreements:** IP assignment / work-for-hire — all work product belongs to LBC
+3. **Pre-existing IP exclusion:** Contractors/Studio retain their own pre-existing tools (specifically enumerated)
 4. **Confidentiality:** Standard NDA provisions
 5. **Non-compete:** As enforceable in contractor's jurisdiction (typically narrow scope)
 
 ### No Separate IP Entity Needed
 
-The CI IBC owns IP directly. There is no need for:
+The CI IBC owns IP directly. The Cyprus Studio develops under contract — it never owns the IP it creates. There is no need for:
 - A Delaware IP holding company (no US operations)
 - A Dutch royalty conduit (no treaty routing needed)
 - A separate licensing entity (CI IBC licenses directly)
@@ -623,23 +653,35 @@ The CI IBC account opening will require:
 CLIENT PAYS INVOICE / SUBSCRIPTION
     │
     ▼
-Light Brands AI Ltd (CI IBC)              TAX: 0%
+LBC — Light Brands AI Ltd (CI IBC)       TAX: 0%
     Singapore bank receives payment
+    │
+    ├──→ Pay Cyprus Studio (cost-plus 10%) TAX: 15% on margin only
+    │       │
+    │       ▼
+    │    LBS — Light Brands Studio (Cyprus)
+    │    ├── Pay developer salaries (Cyprus payroll)
+    │    ├── Pay office costs
+    │    └── 15% tax on ~10% margin = ~0.4% of total revenue
     │
     ├──→ Pay contractors (Wise / Deel)     TAX: N/A (expense)
     ├──→ Pay operational costs (AWS, etc.) TAX: N/A (expense)
-    ├──→ Retain working capital            TAX: 0%
     │
     ▼
-DECLARE DIVIDEND (board resolution)
+OPEX FUND — CI IBC retains $600K-$1.2M    TAX: 0%
+    Singapore bank operating reserve
+    Covers 12-24 months at $50K/mo burn
     │
-    ├──→ 30% to Light Brands Holdings S.A. (Dan's vehicle)
-    │        │  CI→Panama WHT: 0%
-    │        ▼
-    │    S.A. receives dividend             TAX: 0% (territorial)
-    │        │
-    │        ▼
-    │    S.A. distributes to PIF            TAX: 0% WHT
+    ▼ (distributable profit ABOVE reserve)
+CI IBC DISTRIBUTES TO S.A. (sole shareholder)
+    │  CI→Panama WHT: 0%
+    ▼
+S.A. receives dividend                    TAX: 0% (territorial)
+    │
+    ▼
+S.A. DISTRIBUTES TO ITS SHAREHOLDERS (board resolution)
+    │
+    ├──→ 30% to Dan's PIF                  TAX: 0%
     │        │
     │        ▼
     │    PIF distributes to Dan             TAX: 0%
@@ -647,11 +689,14 @@ DECLARE DIVIDEND (board resolution)
     │        ▼
     │    Dan receives in Costa Rica/Panama  TAX: 0% (territorial)
     │
-    ├──→ 30% to Nicholas (direct)          TAX: depends on Cyprus treatment
-    ├──→ 30% to Andreas (direct)           TAX: depends on Cyprus treatment
+    ├──→ 30% to Nicholas's PIF             TAX: 0%
+    │        └──→ PIF distributes to Nicholas (0% in territorial country)
+    │
+    ├──→ 30% to Andreas (direct)           TAX: ~7.65% Cyprus SDC+GESY
     └──→ 10% to Jason (direct)             TAX: US qualified dividend rate (15-20%)
 
 
+TOTAL ENTITY-LEVEL TAX: ~0.4% of revenue (Cyprus margin tax only)
 TOTAL TAX ON DAN'S SHARE: $0
 ```
 
@@ -659,12 +704,14 @@ TOTAL TAX ON DAN'S SHARE: $0
 
 | Step | Entity/Person | Tax Event | Rate |
 |------|--------------|-----------|------|
-| Revenue received by CI IBC | Light Brands AI Ltd | Corporate income tax | **0%** |
-| Dividend to S.A. | CI IBC → S.A. | Withholding tax | **0%** |
-| Dividend to PIF | S.A. → PIF | Panama territorial | **0%** |
-| Distribution to Dan | PIF → Dan | Beneficiary distribution | **0%** |
+| Revenue received by CI IBC | LBC (CI IBC) | Corporate income tax | **0%** |
+| Payment to Cyprus Studio | LBS (Cyprus) | Corporate tax on cost-plus margin | **15% on ~10% margin** |
+| Dividend to S.A. | CI IBC → S.A. (100%) | Withholding tax | **0%** |
+| S.A. receives | S.A. | Panama territorial tax | **0%** |
+| S.A. distributes to Dan's PIF | S.A. → PIF (30%) | WHT | **0%** |
+| PIF distributes to Dan | PIF → Dan | Beneficiary distribution | **0%** |
 | Dan receives in Costa Rica | Dan | Personal income tax | **0%** (territorial) |
-| **Cumulative tax rate on Dan's income** | | | **0%** |
+| **Cumulative tax on Dan's share** | | | **~0.4% entity + 0% personal** |
 
 ### Wife's Income Flow
 
@@ -687,6 +734,38 @@ Light Brands AI Ltd (CI IBC)
          Tax: $0
 ```
 
+### Treasury Policy — OpEx Reserve Fund
+
+The CI IBC's Singapore bank account serves as the company's operating treasury. Before any distributions to shareholders, the company maintains a mandatory operating reserve:
+
+| Parameter | Detail |
+|-----------|--------|
+| **Reserve location** | CI IBC Singapore bank account |
+| **Minimum reserve** | **$600,000** (12 months at $50K/mo burn) |
+| **Target reserve** | **$1,200,000** (24 months at $50K/mo burn) |
+| **Burn rate basis** | $50,000/month — covers all team salaries, contractor fees, Cyprus Studio costs, SaaS infrastructure, and operational expenses |
+| **Tax on reserves** | **0%** — funds sit in 0% CI IBC, earning interest (also 0% taxed) |
+
+**What gets paid from this fund:** Everything. All expenses flow through the CI IBC — Cyprus Studio cost-plus payments, contractor fees, Dan's and wife's contractor fees, SaaS costs, operational overhead. The fund is the single source of truth for company cash.
+
+**Distribution policy:**
+
+| Phase | Condition | Bonus Allocation | Distributions to Partners |
+|-------|-----------|-----------------|--------------------------|
+| **Buildup** | OpEx Fund < $600K | 50% to OpEx Fund, 50% to bonus pool | **None** — all profit builds the reserve |
+| **Funded** | OpEx Fund ≥ $600K | 100% to bonus pool | Quarterly distributions of profit above reserve, pro-rata by S.A. equity (30/30/30/10) |
+| **Fully funded** | OpEx Fund ≥ $1M+ | 100% to bonus pool | Quarterly distributions, maintain fund at $1M+ |
+
+**How quarterly distributions work (once funded):**
+
+1. Calculate CI IBC revenue for the quarter
+2. Subtract all expenses (Cyprus Studio, contractors, fees, wife's salary, SaaS, overhead)
+3. Confirm remaining balance keeps OpEx Fund at or above $600K minimum
+4. Distribute excess to S.A. (100% → sole shareholder) via board resolution
+5. S.A. distributes to shareholders: 30% Dan's PIF, 30% Nicholas's PIF, 30% Andreas, 10% Jason
+
+**Key principle:** The OpEx Fund is a safety net, not a profit center. It ensures the entire team — developers, contractors, founders — can be paid for 12-24 months even if revenue drops to zero. This is non-negotiable. Partners get paid after the company is secure.
+
 ---
 
 ## 14. Annual Cost Analysis {#14-cost-analysis}
@@ -697,30 +776,33 @@ Light Brands AI Ltd (CI IBC)
 |--------|---------------------|----------------|
 | **Panama PIF** | ~$3,000-5,000 | ~$2,000-3,500 |
 | **Panama S.A.** | ~$2,000-3,500 | ~$1,600-3,000 |
-| **Cook Islands IBC** | ~$3,000-5,000 | ~$2,500-4,500 |
+| **Cook Islands IBC (LBC)** | ~$3,000-5,000 | ~$2,500-4,500 |
+| **Cyprus Studio (LBS)** | ~$4,000 | ~$19,600 (audit, bookkeeping, TP docs, legal) |
+| **Cyprus office setup** | ~$8,000 | — |
+| **Transfer pricing study (initial)** | ~$10,000 | ~$3,000-5,000/yr maintenance |
+| **MDSA + employment contracts** | ~$8,000 | — |
 | **Singapore bank setup** | ~$1,500-2,500 (incl. travel) | ~$200-500 |
 | **Stripe + Wise setup** | $0 | ~$0 (transaction fees only) |
 | **Deel setup** | $0 | ~$49-700/person/month |
 | **Legal (formation counsel)** | ~$5,000-10,000 | — |
-| **Total formation** | **~$14,500-26,000** | |
-| **Total annual (entities only)** | | **~$6,300-11,500** |
+| **Total formation** | **~$44,500-56,000** | |
+| **Total annual (entities only)** | | **~$27,000-43,000** |
 
 ### Cost in Context
 
-| Annual LB AI Revenue | Entity Overhead | Overhead as % of Revenue |
-|---------------------|-----------------|--------------------------|
-| $250,000 | ~$9K | 3.6% |
-| $500,000 | ~$9K | 1.8% |
-| $1,000,000 | ~$9K | 0.9% |
-| $2,000,000+ | ~$9K | < 0.5% |
+| Annual LB AI Revenue | Entity Overhead | Cyprus Tax (~0.4%) | Total Cost | % of Revenue |
+|---------------------|-----------------|-------------------|------------|--------------|
+| $500,000 | ~$35K | ~$3K | ~$38K | 7.6% |
+| $1,000,000 | ~$35K | ~$6K | ~$41K | 4.1% |
+| $2,000,000 | ~$35K | ~$9K | ~$44K | 2.2% |
+| $3,000,000+ | ~$35K | ~$12K | ~$47K | 1.6% |
 
 ### What You're NOT Paying
 
 | Item | Cost Avoided |
 |------|-------------|
-| Dubai FZ-LLC (license, office, visas, audit) | ~$35-65K/yr |
-| Cayman Holdings (registered office, compliance) | ~$5-10K/yr |
-| Corporate income tax | $0 saved vs $0 (both structures are 0%) |
+| Dubai FZ-LLC (license, office, visas, audit) | ~$35-65K/yr saved |
+| Cayman Holdings (registered office, compliance) | ~$5-10K/yr saved |
 | Dan's personal US tax (post-renunciation) | $85-117K/yr saved at Y5 |
 | Form 5471 preparation | ~$1-3K/yr per form saved |
 | CFC/GILTI compliance | ~$5-10K/yr in professional fees saved |
@@ -750,13 +832,14 @@ Light Brands AI Ltd (CI IBC)
 
 ### Shareholder Agreement
 
-A shareholders' agreement should be executed between all four shareholders covering:
+A shareholders' agreement should be executed between all four S.A. shareholders covering:
 
 1. **Vesting schedule** — 4-year vest, 1-year cliff (recommended)
 2. **Right of first refusal** — existing shareholders can buy shares before outside sale
 3. **Tag-along / drag-along** — standard protections for minority shareholders
 4. **Non-compete** — founders agree not to compete during involvement
-5. **Deadlock resolution** — what happens if 30/30/30 founders disagree
+5. **Governance control** — the three 30% founders (Dan, Nicholas, Andreas) control the S.A. with 2/3 majority vote on all major decisions. Jason (10%) participates but does not have a controlling vote.
+6. **Deadlock resolution** — what happens if 30/30/30 founders disagree
 6. **Departure terms** — what happens to unvested shares if a founder leaves
 7. **Valuation methodology** — how shares are valued for transfers
 8. **Dividend policy** — minimum distribution frequency and percentage
@@ -766,29 +849,22 @@ A shareholders' agreement should be executed between all four shareholders cover
 
 ## 16. Jason Sparks — US Citizen Considerations {#16-jason-sparks}
 
-### The Trade-Off: Real Equity vs. Phantom Equity
+### Jason's Position — 10% of S.A.
 
-With PPAs (phantom equity), Jason avoids Form 5471. With real 10% equity, he triggers filing requirements but has genuine ownership rights.
+Jason holds 10% of Light Brands Holdings S.A. (Panama), which owns 100% of both CI IBC and Cyprus Studio. He does not hold shares directly in either operating entity.
 
-| Factor | PPA (Phantom Equity) | Real 10% Equity |
-|--------|---------------------|-----------------|
-| Economic rights | Contractual right to 10% of profits | 10% shareholder — dividends, voting, sale proceeds |
-| Form 5471 | Likely not required (counsel confirm) | **Required** (Category 3 or 4 filer) |
-| CFC status of CI IBC | Not relevant (PPA holder ≠ shareholder) | CI IBC is **NOT a CFC** (US shareholders hold only 10%, need >50% for CFC) |
-| GILTI | Not applicable | Not applicable (CI IBC is not a CFC) |
-| PFIC risk | Not applicable | **Possible** — if CI IBC's income is primarily passive. Consulting revenue is active. SaaS revenue classification depends on facts. Counsel must analyze. |
-| Dividend taxation | Ordinary income (PPA distributions) | Qualified dividends (15-20%) if CI IBC is a qualified foreign corporation |
-| Sale/exit proceeds | Contractual payout per PPA terms | Capital gains (long-term if held > 1 year) |
-| Legal enforceability | Contractual — only as strong as the agreement | Shareholder rights under CI corporate law |
+**Governance:** The three 30% founders (Dan, Nicholas, Andreas) control the S.A. with 2/3 majority vote on all major decisions. Jason participates in votes but does not have a controlling vote.
 
-### Recommendation for Jason
+### US Tax Implications for Jason
 
-**Give Jason real equity (10% shares).** Here's why:
-
-1. **CI IBC is not a CFC** — total US ownership is only 10% (need >50% for CFC). No GILTI, no Subpart F.
-2. **Form 5471 is manageable** — annual filing, ~$1-3K in preparation fees. Not pleasant, but not catastrophic.
-3. **Real equity is real ownership** — voting rights, shareholder protections, sale proceeds. PPAs can be disputed or restructured by other founders.
-4. **PFIC risk must be analyzed** — if consulting revenue dominates (it should for an AI consulting firm), the company is not a PFIC. If passive income (SaaS subscriptions) dominates, PFIC analysis becomes important.
+| Factor | Detail |
+|--------|--------|
+| **What Jason owns** | 10% of a Panamanian S.A. (which owns 100% of CI IBC + Cyprus Studio) |
+| **Form 5471** | **Likely required** — Jason owns 10%+ of a foreign corporation. Counsel must confirm category. |
+| **CFC status** | S.A. is **NOT a CFC** — US shareholders hold only 10% (need >50% for CFC). No GILTI, no Subpart F. |
+| **PFIC risk** | Must be analyzed — depends on whether S.A. (holding company) or underlying entities are tested. If consulting revenue dominates, not a PFIC. |
+| **Dividend taxation** | Dividends from S.A. → Jason. Qualified foreign corporation dividends at 15-20% if applicable. |
+| **Real ownership** | 10% of S.A. = voting rights, shareholder protections, sale proceeds under Panamanian corporate law. |
 
 ### Jason's Annual US Obligations
 
@@ -806,7 +882,7 @@ With PPAs (phantom equity), Jason avoids Form 5471. With real 10% equity, he tri
 
 ### Critical (Before Formation)
 
-1. **Jason's PFIC exposure:** Is Light Brands AI Ltd (CI IBC) a PFIC if revenue is primarily consulting + SaaS? What percentage of revenue must be "active" to avoid PFIC classification?
+1. **Jason's position as S.A. shareholder:** Jason holds 10% of a Panama S.A. that owns 100% of CI IBC and Cyprus Studio. What are the Form 5471 / CFC / PFIC implications? Is the S.A. the relevant entity for PFIC analysis, or the underlying operating entities?
 
 2. **Wife's contractor arrangement and FEIE:** Does wife working as a contractor (not employee) of the CI IBC qualify for FEIE? FEIE requires "earned income" — confirm contractor income from a foreign entity qualifies.
 
@@ -826,7 +902,7 @@ With PPAs (phantom equity), Jason avoids Form 5471. With real 10% equity, he tri
 
 9. **Dan as director of CI IBC — PE risk:** If Dan (Costa Rica resident) serves as director and performs management functions, does this create a PE for the CI IBC in Costa Rica? Mitigation: nominee CI director makes board decisions, Dan provides advisory services under contractor agreement.
 
-10. **Transfer pricing — is it needed?** In a single-entity structure (CI IBC only), there are no intercompany transactions to price. The CI IBC pays contractors at market rates. No TP study should be needed. Confirm.
+10. **Transfer pricing — CI IBC ↔ Cyprus Studio:** Confirm cost-plus 8-12% is defensible for a Cyprus captive software development center. Cyprus requires TP documentation for related-party transactions — confirm documentation level needed at our revenue scale.
 
 11. **Singapore bank — which banks accept CI IBCs with PIF ownership?** Current market: DBS, OCBC, Statrys, Aspire — which are currently onboarding CI IBCs?
 
@@ -845,9 +921,11 @@ With PPAs (phantom equity), Jason avoids Form 5471. With real 10% equity, he tri
 ## Cross-References
 
 - **Dan's US exit plan:** [13-DAN-EXIT-US-AND-LB-SIMPLIFIED-STRUCTURE.md](./13-DAN-EXIT-US-AND-LB-SIMPLIFIED-STRUCTURE.md)
+- **Cyprus Studio substance layer (definitive):** [16-CYPRUS-STUDIO-SUBSTANCE-LAYER.md](./16-CYPRUS-STUDIO-SUBSTANCE-LAYER.md)
+- **Dan's action plan:** [15-DAN-ACTION-PLAN.md](./15-DAN-ACTION-PLAN.md)
 - **Cook Islands IBC detail:** [08-COOK-ISLANDS-IBC-DETAIL.md](./08-COOK-ISLANDS-IBC-DETAIL.md)
 - **Citizenship strategy:** [../CITIZENSHIP_STRATEGY.md](../CITIZENSHIP_STRATEGY.md)
 
 ---
 
-*This document specifies the corporate formation plan for Light Brands AI — an AI consulting, SaaS, and product company structured through a Cook Islands IBC with Panama PIF asset protection. All tax treatments described are based on current law in the Cook Islands (International Companies Act 1981-82), Panama (Law 25 of 1995, Law 32 of 1927), and the US Internal Revenue Code (FEIE under IRC 911, covered expatriate rules under IRC 877A). Real equity ownership replaces previous phantom equity (PPA) planning. Implementation requires validation by Cook Islands registered agent, Panama PIF counsel, US expat tax attorney, and Singapore banking specialist. This is not legal or tax advice.*
+*This document specifies the corporate formation plan for Light Brands AI — an AI consulting, SaaS, and product company structured through four entities: PIF → Panama Holdings → CI IBC (consulting principal) + Cyprus Studio (development delivery). The structure uses the OECD-standard principal/routine service provider model with cost-plus transfer pricing. All tax treatments described are based on current law in the Cook Islands (International Companies Act 1981-82), Panama (Law 25 of 1995, Law 32 of 1927), Cyprus (Companies Law Cap. 113), and the US Internal Revenue Code (FEIE under IRC 911, covered expatriate rules under IRC 877A). Real equity ownership replaces previous phantom equity (PPA) planning. Implementation requires validation by Cook Islands registered agent, Panama PIF counsel, Cyprus corporate counsel, transfer pricing advisor, US expat tax attorney, and Singapore banking specialist. This is not legal or tax advice.*
