@@ -54,7 +54,7 @@ export default function RootLayout({
       <head>
         <AppleSplashLinks />
       </head>
-      <body className="min-h-screen flex flex-col">
+      <body className="min-h-screen flex flex-col pt-[env(safe-area-inset-top,0px)]">
         <ScenarioProvider>
           <VaultProvider>
             <Header />
