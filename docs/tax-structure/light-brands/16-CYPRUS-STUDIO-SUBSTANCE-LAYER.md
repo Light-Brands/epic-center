@@ -674,7 +674,7 @@ Cyprus has an IP Box regime (effective ~2.5% on qualifying IP income). We are NO
 - **Dan's US exit plan:** [13-DAN-EXIT-US-AND-LB-SIMPLIFIED-STRUCTURE.md](./13-DAN-EXIT-US-AND-LB-SIMPLIFIED-STRUCTURE.md)
 - **Dan's action plan:** [15-DAN-ACTION-PLAN.md](./15-DAN-ACTION-PLAN.md)
 - **Cook Islands IBC detail:** [08-COOK-ISLANDS-IBC-DETAIL.md](./08-COOK-ISLANDS-IBC-DETAIL.md)
-- **LB profit participation (legacy, replaced by real equity):** [10-LB-PROFIT-PARTICIPATION-FRAMEWORK.md](./10-LB-PROFIT-PARTICIPATION-FRAMEWORK.md)
+- **LB profit participation (SUPERSEDED by real equity):** [10-LB-PROFIT-PARTICIPATION-FRAMEWORK.md](./10-LB-PROFIT-PARTICIPATION-FRAMEWORK.md)
 - **Cyprus founder tax playbook:** [../05-FOUNDER-GUIDE-CYPRUS.md](../05-FOUNDER-GUIDE-CYPRUS.md)
 - **Cyprus non-dom reference:** [../../strategy/CYPRUS_NONDOM_REFERENCE.md](../../strategy/CYPRUS_NONDOM_REFERENCE.md)
 - **Citizenship strategy (Dan's renunciation):** [../../CITIZENSHIP_STRATEGY.md](../../CITIZENSHIP_STRATEGY.md)

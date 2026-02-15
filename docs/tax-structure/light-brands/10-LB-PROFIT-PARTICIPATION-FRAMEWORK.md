@@ -1,8 +1,12 @@
 # Light Brands Profit Participation Framework
 
-> **Status:** Draft — requires counsel review before any agreements are executed
-> **Last Updated:** February 2026
+> **Status:** SUPERSEDED — replaced by real equity ownership in [14-LIGHT-BRANDS-AI-CORPORATE-SETUP.md](./14-LIGHT-BRANDS-AI-CORPORATE-SETUP.md)
+> **Superseded Date:** February 15, 2026
+> **Reason:** Dan is renouncing US citizenship before formation. PPAs were a workaround for US CFC/GILTI/Form 5471 requirements. With Dan as a non-US person, real equity is simpler, stronger, and standard. See Doc 14 for the real equity cap table and Doc 16 for the Cyprus Studio substance layer.
+> **Original Date:** February 2026
 > **Entities Covered:** Light Brands Studio FZ-LLC (Dubai) + Light Brands Consulting Ltd (Cook Islands IBC)
+>
+> **This document is retained for historical reference only. Do not use for formation or legal planning.**
 
 ---
 

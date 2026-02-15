@@ -25,7 +25,7 @@
 12. [IP Ownership](#12-ip-ownership)
 13. [How Dan Gets Paid](#13-dan-compensation)
 14. [How Wife Gets Paid](#14-wife-compensation)
-15. [PPA Adjustments](#15-ppa-adjustments)
+15. [Equity Structure](#15-equity-structure)
 16. [Tax Summary — The Complete Picture](#16-tax-summary)
 17. [Formation Roadmap](#17-formation-roadmap)
 18. [Open Questions for Counsel](#18-open-questions)
@@ -95,7 +95,7 @@ If you ARE a covered expatriate:
 | Obtain second citizenship FIRST | Grenada ($235-265K, 4-6 months) — cannot be stateless | **Months 1-6** |
 | Renounce BEFORE net worth crosses $2M | If LB entities appreciate rapidly, the window closes | **Within 12 months** |
 
-**The math is simple:** If your LB PPA interest (30% of LBS + LBC) becomes worth $2M+ at the time of renunciation, you're a covered expatriate. If LB is still pre-revenue or early revenue, the PPA's fair market value is minimal. **Every month of revenue growth narrows the window.**
+**The math is simple:** If your 30% equity interest in Light Brands becomes worth $2M+ at the time of renunciation, you're a covered expatriate. If LB is still pre-revenue or early revenue, the fair market value of your shares is minimal. **Every month of revenue growth narrows the window.**
 
 ---
 
@@ -261,11 +261,10 @@ Her US citizenship is your permanent, unconditional door back to the US:
 | Joint personal property | Both | Yes | Standard marital property |
 | Joint bank accounts | Both | Yes | Standard |
 | Her salary/income | Her | N/A | Hers regardless |
-| Your PPA (30% LBS + LBC) | You (personally held) | **Yes** | This is your contractual right — subject to the marriage agreement |
+| Your 30% equity in LB entities | Held by S.A. (owned by PIF) | **Protected** | Three layers of separation — shares are not personally held |
 | Panama PIF assets | PIF (independent legal person) | **Protected** | PIF is not your property. Panama does not recognize foreign judgments against PIFs |
 | Panamanian Holdings S.A. | Owned by PIF | **Protected** | Same — PIF layer protects |
 | CI IBC assets/revenue | Owned by S.A. (owned by PIF) | **Protected** | Three layers of separation |
-| Her PPA (if she has one) | Her | N/A | Hers regardless — independent contractual right |
 
 ### Key Protection: The PIF
 
@@ -275,15 +274,11 @@ The Panama PIF is an independent legal person under Law 25 of 1995. It has no "o
 - Requires creditors (including divorce claimants) to litigate in Panama under Panamanian law
 - Protects beneficiary identities (private regulations)
 
-**Your PPA is the vulnerability.** Without the church holding it, the PPA is your personal asset. Options to protect it:
-
-1. **Assign the PPA to the PIF** — distributions flow through the PIF (0% tax post-renunciation), protected by Panama asset protection
-2. **Structure the PPA through the S.A.** — add a contractual layer
-3. **Accept the exposure** — the PPA generates income, and the marriage agreement covers it
+**Your equity is protected by design.** Your 30% shares are held by the S.A., which is owned by the PIF. You don't personally hold the shares — the PIF does (through the S.A.). This means your equity interest is not a personal asset subject to division. The PIF is an independent legal person under Panamanian law.
 
 ### Her Independent Income Stream
 
-If she holds her own PPA (even a small one — 5%) or has an employment contract with the LB entity, she has income that is **independent of the marriage.** This protects her and gives her security regardless of the marriage status.
+She has an employment/contractor agreement with the CI IBC. This gives her income that is **independent of the marriage.** This protects her and gives her security regardless of the marriage status.
 
 ---
 
@@ -303,7 +298,7 @@ The current Light Brands architecture was designed around specific constraints t
 | Shared service center model (Studio builds for both TE + LB) | DEMPE substance for TE Holdings IP + QFZP qualification | **LB doesn't need TE's structure** if LB operates independently |
 | CFC/GILTI avoidance | US founder can't own foreign corporations | **Irrelevant** — you're not a US person |
 | Form 5471 avoidance | $10K penalty for non-filing of foreign corp ownership | **Irrelevant** — no US filing obligations |
-| Church-held PPA | Sheltered PPA income from US tax | **Irrelevant** — your income isn't US-taxable |
+| Church-held equity | Sheltered income from US tax | **Irrelevant** — your income isn't US-taxable |
 
 **Every piece of complexity in the current LB structure exists to navigate the US tax code.** Remove the US citizen, remove the complexity.
 
@@ -405,7 +400,7 @@ With a 100% remote contractor model:
 - CI IBC can pay contractors directly → no need for a service center
 - One entity signs contracts, owns IP, collects revenue, pays contractors
 
-If consulting revenue and SaaS/product revenue need separate tracking (for PPA calculations or liability isolation), use **internal revenue streams** within one entity rather than maintaining two separate entities with their own compliance, banking, and overhead.
+If consulting revenue and SaaS/product revenue need separate tracking (for profit allocation or liability isolation), use **internal revenue streams** within one entity rather than maintaining two separate entities with their own compliance, banking, and overhead.
 
 **Exception:** If you want liability isolation between consulting and SaaS (so a consulting client dispute can't reach SaaS revenue), keep two CI IBCs. The marginal cost is ~$3-5K/yr — worth it if the businesses are meaningfully different.
 
@@ -546,12 +541,12 @@ Post-renunciation, Dan has three channels, all at 0%:
 | Tax to Dan | **$0** — foreign income in a territorial tax country |
 | Reporting | None (not a US person) |
 
-### Channel 2: PPA Distributions (30% of LB Profits)
+### Channel 2: Equity Dividends (30% of LB Profits)
 
 | Detail | Value |
 |--------|-------|
-| What | 30% of Light Brands distributable profits, paid quarterly |
-| Flow | CI IBC → S.A. → PIF → Dan |
+| What | 30% of Light Brands distributable profits, paid quarterly as dividends |
+| Flow | CI IBC → S.A. (Dan's 30% shares) → PIF → Dan |
 | Tax to Dan | **$0** — PIF distributes at 0% WHT, received in territorial country |
 | Reporting | None |
 
@@ -568,7 +563,7 @@ Post-renunciation, Dan has three channels, all at 0%:
 | Channel | Y1 | Y3 | Y5 |
 |---------|-----|-----|-----|
 | Contractor/director fee | $120,000 | $180,000 | $250,000 |
-| PPA distributions (30% LB profits) | ~$60,000 | ~$200,000 | ~$400,000+ |
+| Equity dividends (30% LB profits) | ~$60,000 | ~$200,000 | ~$400,000+ |
 | PIF distributions (retained) | As needed | As needed | As needed |
 | **Total accessible income** | **$180,000+** | **$380,000+** | **$650,000+** |
 | **Tax** | **$0** | **$0** | **$0** |
@@ -585,7 +580,6 @@ She is a US citizen. The US taxes her worldwide income. Strategy: keep her earne
 | Income Source | Amount | Tax Treatment |
 |---------------|--------|---------------|
 | **Contractor fee from CI IBC** | $130,000/yr | Fully excluded by FEIE (Form 2555) |
-| **Her own PPA (optional, 5%)** | ~$10,000 → $65,000/yr (growing) | Taxed at marginal rate (10-22%) |
 | **Gifts from Dan (post-renunciation)** | Unlimited (if not covered expatriate) | Not income. Report on Form 3520 if > $100K |
 
 ### Her Tax at $130K Salary Only
@@ -598,19 +592,11 @@ She is a US citizen. The US taxes her worldwide income. Strategy: keep her earne
 | Federal tax | **$0** |
 | State tax | **$0** (if no state ties) |
 
-**If she also has PPA income:**
-
-| Scenario | Salary | PPA Income | Total | FEIE | Taxable | Tax | Rate |
-|----------|--------|-----------|-------|------|---------|-----|------|
-| Y1 | $130,000 | $10,000 | $140,000 | $130,000 | $10,000 | ~$1,000 | 0.7% |
-| Y3 | $130,000 | $33,000 | $163,000 | $130,000 | $33,000 | ~$3,700 | 2.3% |
-| Y5 | $130,000 | $65,000 | $195,000 | $130,000 | $65,000 | ~$7,400 | 3.8% |
-
 ### Should She Own Equity in the CI IBC?
 
 **No.** If she owns 10%+ of a foreign corporation, she must file Form 5471 annually ($10K penalty for non-filing). If she plus other US persons own >50%, it becomes a CFC with GILTI/Subpart F inclusions.
 
-**Keep her as a contractor only.** No equity, no Form 5471, no CFC risk. She can hold a PPA (contractual right, not equity) if counsel confirms PPAs don't trigger Form 5471 for US persons. This is the same analysis from the current structure — PPAs are contractual, not equity.
+**Keep her as a contractor only.** No equity, no Form 5471, no CFC risk. She receives income through her contractor fee and gifts from Dan.
 
 ### Critical: Wife Must NOT Be a PIF Beneficiary
 
@@ -620,57 +606,40 @@ She is a US citizen. If she is named as a PIF beneficiary:
 - Potential CFC attribution issues
 - Complex, expensive compliance
 
-**Keep her completely outside the ownership structure.** She gets money through: (1) her contractor fee, (2) her PPA, and (3) gifts from Dan.
+**Keep her completely outside the ownership structure.** She gets money through: (1) her contractor fee and (2) gifts from Dan.
 
 ---
 
-## 15. PPA Adjustments {#15-ppa-adjustments}
+## 15. Equity Structure {#15-equity-structure}
 
-### Current PPA Structure (Four Founders)
+### Real Equity — Not PPAs
 
-| Founder | LBS Share | LBC Share |
-|---------|-----------|-----------|
-| Daniel Lawless | 30% | 30% |
-| Nicholas Courschesne | 30% | 30% |
-| Andreas Demou | 30% | 30% |
-| Jason Sparks | 10% | 10% |
+Previous planning documents used PPAs (Profit Participation Agreements) — phantom equity designed to avoid triggering US CFC/GILTI/Form 5471 requirements while Dan was a US citizen. **With Dan renouncing US citizenship before formation, PPAs are unnecessary.** Real shares are simpler, enforceable under corporate law, and standard.
 
-### Simplified PPA (Single Entity)
+### Cap Table (Both Entities Mirror)
 
-If LBS and LBC merge into a single **Light Brands Ltd** (CI IBC):
+| Shareholder | CI IBC Shares | Cyprus Studio Shares | How Held |
+|-------------|--------------|---------------------|----------|
+| Daniel Lawless | 30% | 30% | Via S.A. → PIF (asset + divorce protection) |
+| Nicholas Courschesne | 25% | 25% | Direct |
+| Andreas Demou | 25% | 25% | Direct |
+| Jason Sparks | 20% | 20% | Direct |
+| **Total** | **100%** | **100%** | |
 
-| PPA Holder | Share of Light Brands Ltd Profits |
-|------------|----------------------------------|
-| Daniel Lawless | 30% |
-| Nicholas Courschesne | 30% |
-| Andreas Demou | 30% |
-| Jason Sparks | 10% |
-| **Total** | **100%** |
+### Dan's Equity: Protected by Design
 
-The PPA mechanics remain identical — quarterly distributions based on distributable profit. The simplification is that there's one profit pool instead of two.
+| Layer | Protection |
+|-------|-----------|
+| Shares held by S.A. (not Dan personally) | Not a personal asset — not divisible in divorce |
+| S.A. owned by PIF | PIF is independent legal person under Panama Law 25 of 1995 |
+| PIF has no "owner" | Panama does not recognize foreign divorce judgments against PIFs |
+| Dan is PIF beneficiary | Receives distributions — but beneficiary interest is protected |
 
-### Dan's PPA: Personal vs. PIF-Held
+**The economics are identical to the old PPA model (0% tax either way), but the legal standing is stronger.** Real shares carry voting rights, shareholder protections, standard transfer mechanics, and clear valuation for any future exit.
 
-| Option | Tax | Asset Protection | Divorce Exposure |
-|--------|-----|-----------------|-----------------|
-| Hold PPA personally | 0% (post-renunciation) | Low — personal asset | High — divisible per marriage agreement |
-| Assign PPA to PIF | 0% (PIF distributes to Dan) | Maximum — PIF protected | Low — PIF is independent legal person |
+### Wife: No Equity
 
-**Recommendation:** Assign the PPA to the PIF. The economics are identical (0% either way), but the PIF provides asset protection and divorce insulation. The PIF's Foundation Council manages the PPA interest and distributes to Dan as beneficiary.
-
-### Wife's PPA (Optional)
-
-If the wife holds a small PPA (5%), it would be carved from Dan's 30%:
-
-| PPA Holder | Share |
-|------------|-------|
-| Daniel Lawless (via PIF) | 25% |
-| Wife (personal) | 5% |
-| Nicholas | 30% |
-| Andreas | 30% |
-| Jason | 10% |
-
-This gives her independent income that survives divorce.
+Wife holds no shares in any entity. She is a contractor to CI IBC ($130K/year, FEIE-eligible). She receives additional income through gifts from Dan (unlimited if Dan avoids covered expatriate status). This keeps her entirely outside the ownership structure — no Form 5471, no CFC risk, no complications.
 
 ---
 
@@ -691,7 +660,6 @@ This gives her independent income that survives divorce.
 |--------|--------|-----|------|
 | **Dan** (Grenada citizen, territorial country) | $180K-$650K+ | $0 | **0%** |
 | **Wife** (US citizen, lives abroad) | $130K salary | $0 | **0%** |
-| Wife (if PPA income of ~$10-65K) | $140K-$195K | $1K-$7.4K | **0.7-3.8%** |
 
 ### Combined Household Tax (Year 5)
 
@@ -700,8 +668,8 @@ This gives her independent income that survives divorce.
 | Light Brands revenue | (depends on business) |
 | Entity-level tax | **$0** |
 | Dan's personal tax | **$0** |
-| Wife's personal tax | **$0-$7,400** |
-| **Total tax on entire LB operation** | **$0-$7,400** |
+| Wife's personal tax | **$0** |
+| **Total tax on entire LB operation** | **$0** |
 | **Entity maintenance overhead** | ~$7-13K/yr |
 
 ### Comparison: Before vs After
@@ -748,12 +716,12 @@ This gives her independent income that survives divorce.
 
 | # | Action | Timeline |
 |---|--------|----------|
-| 13 | Draft and execute PPA agreements (all four founders) | Months 2-3 |
+| 13 | Issue shares to all four founders per cap table (Doc 14/16) | Months 2-3 |
 | 14 | Draft contractor agreements (with IP assignment) | Month 2 |
 | 15 | Wife's contractor agreement with CI IBC | Month 2 |
 | 16 | Dan's director/contractor agreement with CI IBC | Month 2 |
-| 17 | Assign Dan's PPA to PIF (for asset protection) | Month 3 |
-| 18 | Transfer pricing documentation (if any intercompany flows) | Month 3-4 |
+| 17 | Execute shareholder agreements (voting, transfer, tag/drag-along) | Month 3 |
+| 18 | Transfer pricing documentation (CI IBC ↔ Cyprus Studio) | Month 3-4 |
 
 ### Phase 3: Renunciation (Months 6-9)
 
@@ -784,9 +752,9 @@ This gives her independent income that survives divorce.
 
 ### Critical (Before Formation)
 
-1. **PPA and Form 5471 for wife:** If wife holds a 5% PPA in the CI IBC, does the IRS treat the PPA as "ownership" requiring Form 5471? PPAs are contractual, not equity — but confirm.
+1. **Wife and Form 5471:** Confirm that wife holding zero equity in any foreign entity means no Form 5471 obligation. She is contractor only.
 
-2. **Covered expatriate net worth calculation:** Does Dan's 30% PPA interest in LB count toward the $2M threshold? If so, what is the FMV of a 30% PPA in a pre-revenue / early-revenue company?
+2. **Covered expatriate net worth calculation:** Does Dan's 30% equity interest in LB (held via S.A./PIF) count toward the $2M threshold? If so, what is the FMV of a 30% stake in a pre-revenue / early-revenue company?
 
 3. **PIF beneficiary and wife's US tax:** Confirm that Dan being a PIF beneficiary post-renunciation creates zero US tax exposure for wife (she is NOT a beneficiary).
 
@@ -804,7 +772,7 @@ This gives her independent income that survives divorce.
 
 9. **Wife's FEIE and contractor classification:** Does wife working as a contractor (not employee) of the CI IBC qualify for FEIE? FEIE requires "earned income" — contractor income qualifies if it's for services performed.
 
-10. **PPA assignment to PIF:** What are the mechanics of assigning Dan's PPA interest to the PIF? Does this create any gift tax or transfer tax event? (Should be none — Dan is transferring to a PIF he's a beneficiary of.)
+10. **Share issuance through S.A.:** Confirm the mechanics of S.A. holding Dan's 30% shares in CI IBC and Cyprus Studio. Any issues with a Panamanian corporation holding shares in a Cook Islands IBC or Cyprus Ltd?
 
 ---
 
@@ -813,8 +781,10 @@ This gives her independent income that survives divorce.
 - **Citizenship strategy:** [../CITIZENSHIP_STRATEGY.md](../CITIZENSHIP_STRATEGY.md)
 - **Current master structure:** [01-MASTER-STRUCTURE.md](./01-MASTER-STRUCTURE.md)
 - **Cook Islands IBC detail:** [08-COOK-ISLANDS-IBC-DETAIL.md](./08-COOK-ISLANDS-IBC-DETAIL.md)
-- **LB Profit Participation Framework:** [10-LB-PROFIT-PARTICIPATION-FRAMEWORK.md](./10-LB-PROFIT-PARTICIPATION-FRAMEWORK.md)
-- **US founder playbook (legacy):** [03-FOUNDER-GUIDE-US.md](./03-FOUNDER-GUIDE-US.md)
+- **LB Profit Participation Framework (SUPERSEDED):** [10-LB-PROFIT-PARTICIPATION-FRAMEWORK.md](./10-LB-PROFIT-PARTICIPATION-FRAMEWORK.md) — replaced by real equity in Doc 14/16
+- **LB AI Corporate Setup (real equity):** [14-LIGHT-BRANDS-AI-CORPORATE-SETUP.md](./14-LIGHT-BRANDS-AI-CORPORATE-SETUP.md)
+- **Cyprus Studio Substance Layer:** [16-CYPRUS-STUDIO-SUBSTANCE-LAYER.md](./16-CYPRUS-STUDIO-SUBSTANCE-LAYER.md)
+- **US founder playbook (legacy):** [03-FOUNDER-GUIDE-US.md](../03-FOUNDER-GUIDE-US.md)
 
 ---
 
