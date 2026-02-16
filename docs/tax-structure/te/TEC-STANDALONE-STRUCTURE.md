@@ -50,92 +50,212 @@ This document presents a comprehensive legal, tax, and corporate structuring str
 
 ## 1. Recommended Entity Architecture
 
-### 1.1 Six-Entity Structure
+### 1.1 Scalable Multi-Location Architecture
+
+The structure is designed to scale globally. The **top 4 entities never change** — only the bottom (local OpCos + RECos) grows per location.
 
 ```mermaid
 graph TB
-    subgraph "Founder Layer"
-        PIF["NICHOLAS'S PANAMA PIF<br/>0% tax on foreign income<br/>Beneficiary privacy<br/>Asset protection"]
-        JASON["JASON SPARKS<br/>(US citizen, 50% S.A. shareholder)<br/>Subject to CFC/GILTI — see Section 8.2"]
+    subgraph "FIXED — Founder Layer (never changes)"
+        PIF["NICHOLAS'S PANAMA PIF<br/>0% tax on foreign income<br/>Beneficiary privacy"]
+        JASON["JASON SPARKS<br/>(US citizen, 50% S.A. shareholder)<br/>CFC/GILTI — see Section 8.2"]
     end
 
-    subgraph "Holding Layer (Panama)"
-        SA["TEC HOLDINGS S.A.<br/>(Panama Sociedad Anonima)<br/>0% tax on foreign income<br/>50% Nicholas's PIF / 50% Jason<br/>Central governance & SHA"]
+    subgraph "FIXED — Holding Layer (Panama)"
+        SA["TEC HOLDINGS S.A.<br/>(Panama Sociedad Anonima)<br/>0% tax on foreign income<br/>50% Nicholas's PIF / 50% Jason"]
     end
 
-    subgraph "Investment Layer (Cayman Islands)"
-        OPCO_CAYMAN["TEC OPERATIONS HOLDCO<br/>(Cayman Exempted Co.)<br/>0% tax unconditional<br/>Owns: Platform IP, Ops revenue<br/>~70% S.A. + ~30% Operations Investors"]
+    subgraph "FIXED — Investment Layer (Cayman Islands)"
+        OPS_HQ["TEC OPERATIONS HOLDCO<br/>(Cayman Exempted Co.) — 0% tax<br/>Owns: ALL OpCos worldwide + Platform IP<br/>Collects ALL client revenue globally<br/>~70% S.A. + ~30% Operations Investors"]
 
-        PROCO_CAYMAN["TEC REAL ESTATE HOLDCO<br/>(Cayman Exempted Co.)<br/>0% tax unconditional<br/>Owns: Land, buildings, development<br/>~70% S.A. + ~30% Real Estate Investors"]
+        RE_HQ["TEC REAL ESTATE HOLDCO<br/>(Cayman Exempted Co.) — 0% tax<br/>Owns: ALL RECos worldwide<br/>Controls all land & buildings globally<br/>~70% S.A. + ~30% Real Estate Investors"]
     end
 
-    subgraph "Operating Layer (Mexico)"
-        MEXICO_OPS["TEC OPERATING COMPANY<br/>(S. de R.L. de C.V.)<br/>30% tax on margin only<br/>Provides: On-ground services<br/>Owned 100% by Ops HoldCo"]
+    subgraph "Location 1: Mexico (Tulum)"
+        MX_OPS["TEC MEXICO OPCO<br/>(S. de R.L. de C.V.)<br/>30% on margin only<br/>Staff, services, facilities"]
+        MX_RE["TEC MEXICO RECO<br/>(S. de R.L. de C.V.)<br/>30% on rent minus depreciation<br/>Tulum land & buildings"]
+    end
 
-        MEXICO_RE["TEC REAL ESTATE ENTITY<br/>(S. de R.L. de C.V.)<br/>30% tax on rent minus depreciation<br/>Owns: Land, buildings in Tulum<br/>Owned 100% by RE HoldCo"]
+    subgraph "Location 2: Costa Rica"
+        CR_OPS["TEC COSTA RICA OPCO<br/>(S.R.L.)<br/>30% on margin only<br/>Staff, services, facilities"]
+        CR_RE["TEC COSTA RICA RECO<br/>(S.R.L.)<br/>30% on rent minus depreciation<br/>Land & buildings"]
+    end
+
+    subgraph "Location N: (Future — Portugal, Thailand, etc.)"
+        N_OPS["TEC [COUNTRY] OPCO<br/>(local entity type)<br/>Local tax on margin only<br/>Staff, services, facilities"]
+        N_RE["TEC [COUNTRY] RECO<br/>(local entity type)<br/>Local tax on rent minus depreciation<br/>Land & buildings"]
     end
 
     subgraph "Investors"
-        OPS_INV["Operations Investors<br/>~30% of Ops HoldCo"]
-        RE_INV["Real Estate Investors<br/>~30% of RE HoldCo"]
+        OPS_INV["Operations Investors<br/>~30% of Ops HoldCo<br/>Exposure to ALL locations' revenue"]
+        RE_INV["Real Estate Investors<br/>~30% of RE HoldCo<br/>Exposure to ALL locations' real estate"]
     end
 
     PIF -->|"50%"| SA
     JASON -->|"50%"| SA
-    SA -->|"70%"| OPCO_CAYMAN
-    SA -->|"70%"| PROCO_CAYMAN
-    OPS_INV -->|"30%"| OPCO_CAYMAN
-    RE_INV -->|"30%"| PROCO_CAYMAN
+    SA -->|"70%"| OPS_HQ
+    SA -->|"70%"| RE_HQ
+    OPS_INV -->|"30%"| OPS_HQ
+    RE_INV -->|"30%"| RE_HQ
 
-    OPCO_CAYMAN -->|"100%"| MEXICO_OPS
-    PROCO_CAYMAN -->|"100%"| MEXICO_RE
+    OPS_HQ -->|"100%"| MX_OPS
+    OPS_HQ -->|"100%"| CR_OPS
+    OPS_HQ -.->|"100%"| N_OPS
+    RE_HQ -->|"100%"| MX_RE
+    RE_HQ -->|"100%"| CR_RE
+    RE_HQ -.->|"100%"| N_RE
 
-    MEXICO_RE -.->|"Leases property"| MEXICO_OPS
+    MX_RE -.->|"Leases property"| MX_OPS
+    CR_RE -.->|"Leases property"| CR_OPS
+    N_RE -.->|"Leases property"| N_OPS
 
     style PIF fill:#1a1a2e,stroke:#e94560,color:#fff
     style JASON fill:#8b0000,stroke:#ff6347,color:#fff
     style SA fill:#2d2d44,stroke:#9370db,color:#fff
-    style OPCO_CAYMAN fill:#8b5e3c,stroke:#ffd700,color:#fff
-    style PROCO_CAYMAN fill:#4a3728,stroke:#c9770a,color:#fff
-    style MEXICO_OPS fill:#16213e,stroke:#0f3460,color:#fff
-    style MEXICO_RE fill:#2c5f2d,stroke:#97cc04,color:#fff
+    style OPS_HQ fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style RE_HQ fill:#4a3728,stroke:#c9770a,color:#fff
+    style MX_OPS fill:#16213e,stroke:#0f3460,color:#fff
+    style MX_RE fill:#2c5f2d,stroke:#97cc04,color:#fff
+    style CR_OPS fill:#16213e,stroke:#0f3460,color:#fff
+    style CR_RE fill:#2c5f2d,stroke:#97cc04,color:#fff
+    style N_OPS fill:#333,stroke:#888,color:#ccc
+    style N_RE fill:#333,stroke:#888,color:#ccc
     style OPS_INV fill:#c9770a,stroke:#fff,color:#fff
     style RE_INV fill:#c9770a,stroke:#fff,color:#fff
 ```
 
+**The scaling rule:** Adding a new location = 2 new local entities. The Cayman layer, Panama layer, and founder layer are **fixed forever**.
+
 ### 1.2 Entity Summary Table
 
-| Entity | Jurisdiction | Role | Tax Rate | Ownership | Purpose |
-|--------|-------------|------|----------|-----------|---------|
-| **Nicholas's PIF** | Panama | Asset protection, beneficiary privacy for Nicholas | 0% | No owner (independent legal person) | Holds Nicholas's 50% of S.A., protects founder |
-| **TEC Holdings S.A.** | Panama | Central holding, governance, shareholders' agreement | 0% on foreign income | 50% Nicholas's PIF + 50% Jason Sparks | Single point of governance, owns 70% of both Cayman HoldCos |
-| **TEC Operations HoldCo** | Cayman Islands | Collects all client revenue, owns platform IP, controls Mexico OpCo | 0% (unconditional, 20-year guarantee) | 70% S.A. + 30% Operations Investors | Investable vehicle for operations |
-| **TEC Real Estate HoldCo** | Cayman Islands | Owns all real estate assets, controls Mexico RE entity | 0% (unconditional, 20-year guarantee) | 70% S.A. + 30% Real Estate Investors | Investable vehicle for real estate |
-| **TEC Operating Company** | Mexico (Tulum) | Delivers on-ground services, employs local staff, operates facilities | 30% on 8-12% service margin only | 100% owned by Ops HoldCo | Legally required Mexican presence |
-| **TEC Real Estate Entity** | Mexico (Tulum) | Acquires land, develops property, holds title, leases to OpCo | 30% on rental income minus depreciation | 100% owned by RE HoldCo | Asset protection, depreciation benefits |
+#### Fixed Entities (4 — never changes regardless of locations)
 
-### 1.3 Why Six Entities (Not More, Not Fewer)
+| Entity | Jurisdiction | Role | Tax Rate | Ownership |
+|--------|-------------|------|----------|-----------|
+| **Nicholas's PIF** | Panama | Asset protection, beneficiary privacy | 0% | No owner (independent legal person) |
+| **TEC Holdings S.A.** | Panama | Central governance, SHA | 0% on foreign income | 50% Nicholas's PIF + 50% Jason |
+| **TEC Operations HoldCo** | Cayman Islands | Collects ALL client revenue globally, owns platform IP, controls ALL OpCos | 0% (unconditional, 20-year guarantee) | 70% S.A. + 30% Ops Investors |
+| **TEC Real Estate HoldCo** | Cayman Islands | Owns ALL real estate assets globally, controls ALL RECos | 0% (unconditional, 20-year guarantee) | 70% S.A. + 30% RE Investors |
 
-**Too few (4 entities: PIF + S.A. + single Cayman + Mexico):**
-- Cannot separate operations investors from real estate investors
-- Single Cayman entity concentrates both revenue streams and real estate assets
-- Limits exit flexibility (cannot sell real estate separately from operations)
-- Mixes operational liability with real estate assets
+#### Per-Location Entities (2 per location)
 
-**Too many (8+ entities with intermediary holding companies):**
-- Additional compliance cost (~$15-25K per entity annually)
-- No additional tax benefit (all intermediate layers would be 0% anyway)
-- Increased governance complexity
-- Transfer pricing multiplication
+| Entity | Jurisdiction | Role | Tax Rate | Ownership |
+|--------|-------------|------|----------|-----------|
+| **TEC Mexico OpCo** | Mexico (Tulum) | On-ground services, local staff, facilities | 30% on 8-12% margin | 100% Ops HoldCo |
+| **TEC Mexico RECo** | Mexico (Tulum) | Land, buildings, development in Tulum | 30% on rent minus depreciation | 100% RE HoldCo |
+| **TEC Costa Rica OpCo** | Costa Rica | On-ground services, local staff, facilities | 30% on 8-12% margin | 100% Ops HoldCo |
+| **TEC Costa Rica RECo** | Costa Rica | Land, buildings, development | 30% on rent minus depreciation | 100% RE HoldCo |
+| **TEC [Location N] OpCo** | *Any country* | On-ground services, local staff, facilities | *Local rate on margin* | 100% Ops HoldCo |
+| **TEC [Location N] RECo** | *Any country* | Land, buildings, development | *Local rate on rent minus depreciation* | 100% RE HoldCo |
 
-**Six is optimal:**
-- **PIF** protects Nicholas's ownership (beneficiary privacy, asset protection post-Canada renunciation)
-- **S.A.** provides single governance layer (one shareholders' agreement, one voting body for Jason + Nicholas)
-- **Dual Cayman HoldCos** achieve investor separation (different pools for ops vs. RE) and VC-standard vehicle
-- **Dual Mexico entities** isolate operational liability from real estate assets
-- Maximizes asset protection (PIF/Jason → S.A. → dual Cayman → dual Mexico = 4-5 layers)
-- Enables independent exits (sell ops, sell RE, or both)
-- Minimizes compliance burden relative to benefits
+**Entity count formula:** 4 fixed + (2 × number of locations)
+
+| Locations | Total Entities | Example |
+|-----------|---------------|---------|
+| 1 (Mexico only) | 6 | Launch configuration |
+| 2 (Mexico + Costa Rica) | 8 | First expansion |
+| 3 | 10 | |
+| 5 | 14 | |
+| 10 | 24 | Global scale |
+
+### 1.3 Why TWO Cayman HoldCos (Not One)
+
+This is the critical structural question, especially at scale with multiple locations. Here's why:
+
+#### The Single HoldCo Alternative
+
+```
+S.A. → ONE Cayman HoldCo → Mexico OpCo + Mexico RECo + Costa Rica OpCo + Costa Rica RECo + ...
+```
+
+**Seems simpler. Why NOT do this?**
+
+#### 1 vs 2 Cayman HoldCos: Multi-Location Comparison
+
+| Aspect | 1 HoldCo (Simpler) | 2 HoldCos (Recommended) |
+|--------|---------------------|------------------------|
+| **Investor experience** | Every investor gets forced exposure to BOTH operations revenue AND real estate across ALL locations. A VC wanting platform/tech exposure must also accept Tulum land risk. | Ops investors get pure operations exposure (revenue, IP, platform) across all locations. RE investors get pure real estate exposure (land, buildings, appreciation) across all locations. **Clean separation.** |
+| **Fundraising** | Single cap table. Must price operations AND real estate together. Hard to value. | Two cap tables. Operations valued on revenue multiples (SaaS-like). Real estate valued on NAV + development pipeline. **Different investors, different thesis, different terms.** |
+| **Exit flexibility** | To sell the operations business, must also sell or restructure all real estate. To sell real estate, must also restructure operations. Pre-exit restructuring costs $100K+ in legal fees and months of delay. | Sell Ops HoldCo (ALL locations' operations, platform, IP) to a strategic acquirer (e.g., Marriott, Six Senses) while KEEPING all real estate. Or sell RE HoldCo (entire global real estate portfolio) to a REIT while keeping the operations business. **Clean independent exits from day one.** |
+| **Risk isolation** | Guest injury lawsuit in Mexico can reach Costa Rica real estate assets. Environmental liability on Tulum land can freeze operating cash flow in Costa Rica. All locations' risks are pooled. | Guest injury claim hits Mexico OpCo → contained under Ops HoldCo. Cannot reach ANY real estate in ANY location. Environmental claim on Tulum land hits Mexico RECo → contained under RE HoldCo. Cannot reach ANY operating cash flow. **Global risk isolation.** |
+| **Adding Location N** | 2 new local entities under 1 HoldCo. Simple, but investors get involuntary exposure to new location risk. | 2 new local entities — 1 under Ops HoldCo, 1 under RE HoldCo. Investors automatically get exposure to new location in their chosen asset class. **Scales naturally.** |
+| **Annual cost** | ~$16-27K (1 Cayman entity) | ~$32-54K (2 Cayman entities) |
+| **Cost difference** | — | **+$16-27K/year** |
+
+#### Why the Cost Difference Is Irrelevant
+
+At $10-30M fundraise scale:
+- $16-27K/year additional = **0.05-0.3% of capital raised**
+- The FIRST time you need to sell operations independently from real estate (or vice versa), the restructuring cost to separate them AFTER the fact would be **$100-500K in legal fees + 3-6 months delay**
+- The FIRST time a VC says "I want operations exposure only, not real estate risk" and you can say "invest in Ops HoldCo" instead of losing the deal = **worth millions**
+
+**Verdict: 2 HoldCos. The cost is trivial. The optionality is enormous. At scale with multiple locations, the separation becomes MORE valuable, not less.**
+
+### 1.4 How Adding a New Location Works
+
+When TEC expands to a new country, the process is:
+
+```
+WHAT CHANGES:
+├── Form [Country] OpCo (local entity, 100% owned by Ops HoldCo)
+├── Form [Country] RECo (local entity, 100% owned by RE HoldCo)
+├── Execute service delivery agreement (Ops HoldCo ↔ new OpCo)
+├── Execute lease agreement (new RECo ↔ new OpCo)
+└── Commission transfer pricing study for new jurisdiction
+
+WHAT DOES NOT CHANGE:
+├── Nicholas's PIF — unchanged
+├── TEC Holdings S.A. — unchanged
+├── TEC Operations HoldCo — unchanged (just adds another subsidiary)
+├── TEC Real Estate HoldCo — unchanged (just adds another subsidiary)
+├── Investor agreements — unchanged (investors automatically get exposure to new location)
+└── Cayman compliance — unchanged (same 2 entities, same annual filings)
+```
+
+**Per-location setup cost:** ~$10-30K (local counsel + entity formation + TP study)
+**Per-location ongoing cost:** ~$15-30K/year (local accounting, tax filings, TP updates)
+
+#### Costa Rica: Concrete Example
+
+| Detail | Costa Rica |
+|--------|-----------|
+| **Entity types** | S.R.L. (Sociedad de Responsabilidad Limitada) for both OpCo and RECo |
+| **Corporate tax** | 30% on net income (same as Mexico) |
+| **Foreign ownership** | No restrictions — 100% foreign ownership allowed (unlike Mexico's restricted zone) |
+| **Real estate** | No fideicomiso required. RECo can hold title directly. |
+| **Tax on margin (OpCo)** | 30% on 8-12% cost-plus margin (same model as Mexico) |
+| **Depreciation (RECo)** | Buildings: ~2-5% annual depending on type. Offsets rental income. |
+| **Transfer pricing** | Costa Rica follows OECD guidelines. Annual TP study required for intercompany transactions. |
+| **WHT on dividends to Cayman** | 15% withholding tax on dividends from CR entities to Cayman HoldCos (higher than Mexico's 0% CUFIN dividends — **factor into modeling**) |
+| **Setup cost** | ~$8-15K (local counsel + formation) |
+| **Ongoing cost** | ~$12-20K/year (accounting, tax filings, TP study) |
+
+**Costa Rica advantage over Mexico:** No restricted zone, no fideicomiso, simpler foreign ownership. Strong wellness tourism market (already established Blue Zone destination — Nicoya Peninsula).
+
+**Costa Rica disadvantage vs Mexico:** 15% dividend WHT to Cayman (Mexico can distribute via CUFIN at 0%). This means ~15% tax leakage on profits extracted from Costa Rica, making the effective rate higher than Mexico for the same margin structure.
+
+### 1.5 Why NOT Per-Location HoldCos
+
+A more complex alternative would be per-location Cayman HoldCos:
+
+```
+S.A. → Mexico Ops HoldCo (Cayman) → Mexico OpCo
+S.A. → Mexico RE HoldCo (Cayman) → Mexico RECo
+S.A. → Costa Rica Ops HoldCo (Cayman) → Costa Rica OpCo
+S.A. → Costa Rica RE HoldCo (Cayman) → Costa Rica RECo
+... (2 Cayman entities per location = 2N Cayman entities)
+```
+
+**This is over-engineered because:**
+- Each additional Cayman entity costs ~$16-27K/year in compliance
+- 5 locations = 10 Cayman entities = $160-270K/year in Cayman compliance alone
+- No additional tax benefit (all 0% anyway)
+- Per-location exit flexibility is rarely needed — you'd sell the entire portfolio or nothing
+- Investor separation is already achieved with 2 umbrella HoldCos
+
+**The only scenario where per-location HoldCos make sense:** If you want to bring in a location-specific investor (e.g., a Costa Rica-only RE investor who doesn't want Mexico exposure). In that case, you can always restructure LATER — create a sub-holdco when needed, not preemptively.
+
+**Bottom line:** 2 umbrella HoldCos (one for all ops, one for all RE) is the sweet spot between simplicity and scalability. It handles 1 location or 20 locations with the same Cayman structure.
 
 ---
 
@@ -166,30 +286,22 @@ graph TB
 | **0% on foreign income** | Panama S.A. taxes only Panamanian-source income. TEC revenue is international → 0%. |
 | **Deadlock resolution** | 50/50 ownership requires a deadlock mechanism (buy-sell, arbitration, or mediator). S.A. SHA handles this cleanly. |
 
-#### Benefits of Dual Cayman HoldCos
+#### Benefits of Dual Cayman HoldCos (Umbrella Model)
 
 | Benefit | Impact |
 |---------|--------|
-| **Investor separation** | Operations investors want exposure to $35M revenue stream. Real estate investors want exposure to Tulum land appreciation and development. Different risk profiles, different economics. Dual HoldCos allow clean separation. |
-| **Exit flexibility** | Can sell Ops HoldCo (platform, IP, client relationships) to strategic acquirer while retaining real estate. Or sell RE HoldCo to REIT/developer while continuing operations. |
-| **Risk isolation** | Guest injury claim against OpCo cannot reach real estate assets. Environmental liability on real estate cannot reach operating cash flow. |
+| **Investor separation** | Operations investors get exposure to ALL locations' revenue stream. Real estate investors get exposure to ALL locations' land and development. Different risk profiles, different economics. Dual HoldCos allow clean separation at global scale. |
+| **Exit flexibility** | Can sell Ops HoldCo (ALL locations' operations, platform, IP, client relationships) to strategic acquirer while retaining ALL real estate. Or sell RE HoldCo (entire global RE portfolio) to REIT/developer while continuing operations everywhere. |
+| **Global risk isolation** | Guest injury claim in Mexico cannot reach Costa Rica real estate. Environmental liability in Costa Rica cannot reach Mexico operating cash flow. Each location's risks are isolated within its asset class. |
+| **Scalability** | Adding a new location = 2 local entities under existing HoldCos. No new Cayman entities, no shareholder restructuring, no investor renegotiation. See Section 1.4. |
 | **0% unconditional** | Cayman has NEVER had corporate tax. 20-year Tax Undertaking Certificate guarantees this. No substance requirements for holding companies. |
 | **VC-standard** | Cayman Exempted Companies are the global standard for institutional VC. Sequoia, a16z, Tiger Global all use this structure. Investors will recognize it immediately. |
 
 #### Alternative Considered: Single Cayman HoldCo
 
-| Aspect | Single HoldCo | Dual HoldCos (Recommended) |
-|--------|---------------|---------------------------|
-| **Investor flexibility** | All investors must accept both ops AND real estate exposure | Ops investors can invest in Ops HoldCo only; RE investors can invest in RE HoldCo only |
-| **Valuation complexity** | Single valuation covering both assets | Separate valuations for operations ($147M SOTP) and real estate (based on development cost + appreciation) |
-| **Exit options** | Must sell everything together OR restructure before exit | Clean independent exits from day one |
-| **Risk concentration** | Operational liability and real estate liability in same entity | Completely isolated |
-| **Compliance cost** | 1 Cayman entity (~$16-27K/year) | 2 Cayman entities (~$32-54K/year) |
+See **Section 1.3** for the comprehensive 1 vs 2 HoldCo comparison, including multi-location scaling analysis.
 
-**Verdict:** The additional $16-27K annual cost of the second Cayman HoldCo is trivial compared to:
-- Ability to raise $10-30M in real estate investment separately from operations investment
-- Exit flexibility worth millions in future M&A scenarios
-- Risk isolation protecting $100M+ in real estate assets from operational claims
+**Short answer:** 2 HoldCos costs ~$16-27K/year more. The investor separation, exit flexibility, and global risk isolation are worth orders of magnitude more. At scale with N locations, the 2 umbrella HoldCos become MORE valuable — each new location's ops automatically pools under Ops HoldCo, each new location's real estate automatically pools under RE HoldCo. Investors get diversified exposure without structural changes.
 
 ### 2.2 S.A. Ownership & Cayman HoldCo Percentages
 
@@ -992,14 +1104,20 @@ Jason's indirect 35% ownership of each Cayman HoldCo means that **any additional
 
 ### 11.1 Optimal Structure
 
-**Six-entity architecture (3 jurisdictions: Panama, Cayman, Mexico):**
+**Scalable architecture: 4 fixed entities + 2 per location (3+ jurisdictions: Panama, Cayman, Mexico, Costa Rica, ...)**
 
+**Fixed layer (never changes):**
 1. **Nicholas's Panama PIF** — Asset protection, beneficiary privacy for Nicholas (50% founder)
-2. **TEC Holdings S.A. (Panama)** — Central governance, shareholders' agreement, 50% Nicholas's PIF + 50% Jason, owns 70% of both Cayman HoldCos
-3. **TEC Operations HoldCo (Cayman)** — Collects client revenue, owns platform IP, investable vehicle for operations investors
-4. **TEC Real Estate HoldCo (Cayman)** — Owns real estate assets, investable vehicle for real estate investors
-5. **TEC Operating Company (Mexico)** — Delivers services, employs local staff, 30% on 8-12% margin
-6. **TEC Real Estate Entity (Mexico)** — Acquires land, develops property, leases to OpCo, 30% on rent minus depreciation
+2. **TEC Holdings S.A. (Panama)** — Central governance, SHA, 50% Nicholas's PIF + 50% Jason, owns 70% of both Cayman HoldCos
+3. **TEC Operations HoldCo (Cayman)** — Collects ALL client revenue globally, owns platform IP, investable vehicle for operations investors, umbrella for ALL OpCos
+4. **TEC Real Estate HoldCo (Cayman)** — Owns ALL real estate globally, investable vehicle for real estate investors, umbrella for ALL RECos
+
+**Per-location layer (2 per location):**
+5. **TEC Mexico OpCo** — Delivers services in Tulum, employs local staff, 30% on 8-12% margin
+6. **TEC Mexico RECo** — Acquires/develops Tulum property, leases to OpCo, 30% on rent minus depreciation
+7. **TEC Costa Rica OpCo** — Delivers services at CR location, employs local staff, 30% on 8-12% margin
+8. **TEC Costa Rica RECo** — Acquires/develops CR property, leases to OpCo, 30% on rent minus depreciation
+9-N. **TEC [Country] OpCo + RECo** — Same pattern, any jurisdiction worldwide
 
 ### 11.2 Revenue Flow Model: VIABLE
 
@@ -1016,17 +1134,18 @@ Jason's indirect 35% ownership of each Cayman HoldCo means that **any additional
 - Contemporaneous documentation of Ops HoldCo's functions (DEMPE analysis)
 - Genuine economic substance in Cayman (board meetings, client contracts, Stripe merchant account)
 
-### 11.3 Real Estate Strategy: DUAL CAYMAN HOLDCOS RECOMMENDED
+### 11.3 Real Estate Strategy: DUAL CAYMAN HOLDCOS (UMBRELLA MODEL)
 
-**Why separate Operations HoldCo from Real Estate HoldCo?**
+**Why 2 Cayman HoldCos as global umbrellas?** (See Section 1.3 for full analysis)
 
-✅ **Investor separation** — Ops investors want revenue/platform exposure; RE investors want land appreciation
-✅ **Exit flexibility** — Can sell ops, sell RE, or both independently
-✅ **Risk isolation** — Guest liability cannot reach RE assets; environmental liability cannot reach operating cash flow
-✅ **Depreciation optimization** — Building depreciation in RE entity offsets rental income, reducing total Mexico tax
+✅ **Global investor separation** — Ops investors get ALL locations' revenue/platform exposure; RE investors get ALL locations' land appreciation
+✅ **Global exit flexibility** — Sell entire operations business (all locations) OR entire RE portfolio (all locations) independently
+✅ **Cross-location risk isolation** — Mexico guest liability cannot reach Costa Rica real estate; environmental liability in one country cannot freeze operations in another
+✅ **Scales without structural changes** — New location = 2 local entities under existing HoldCos. No new Cayman entities needed.
+✅ **Depreciation optimization** — Building depreciation in each country's RECo offsets rental income, reducing local tax
 
-**Cost:** Additional $16-27K annually for second Cayman entity
-**Benefit:** Ability to raise $10-30M in dedicated real estate capital + exit flexibility worth millions
+**Cost:** $16-27K/year for second Cayman entity (fixed — doesn't increase with locations)
+**Benefit:** Ability to raise $10-30M in dedicated real estate capital across ALL locations + exit flexibility worth millions
 
 ### 11.4 IP & Data Protection: CAYMAN OPS HOLDCO
 
@@ -1093,11 +1212,12 @@ Jason's indirect 35% ownership of each Cayman HoldCo means that **any additional
 | **Panama counsel** | Panama | Nicholas's PIF formation + TEC Holdings S.A. formation, shareholders' agreement, asset protection analysis | $10,000-20,000 |
 | **Cayman counsel** | Cayman Islands | Dual HoldCo formation, SHA drafting, Tax Undertakings, investor share classes | $15,000-25,000 |
 | **Mexican counsel** | Mexico (Tulum) | Dual entity formation (OpCo + RE), restricted zone analysis, fideicomiso if needed | $10,000-20,000 |
-| **US international tax attorney** | US | Jason's CFC/GILTI analysis, Section 962 strategy, Form 5471 planning, investor CFC structuring, blocker entity design | $15,000-25,000 |
+| **Costa Rica counsel** | Costa Rica | Dual entity formation (OpCo + RE S.R.L.s), real estate ownership, medical licensing | $8,000-15,000 |
+| **US international tax attorney** | US | Jason's CFC/GILTI analysis, Section 962 strategy, Form 5471 planning, investor CFC structuring, blocker entity design, multi-location QBAI modeling | $15,000-25,000 |
 | **Canadian tax counsel** | Canada | Nicholas's departure tax calculation, emigration strategy, renunciation planning | $5,000-10,000 |
-| **Transfer pricing specialist** | International | TP study framework, benchmarking methodology | $15,000-30,000 |
+| **Transfer pricing specialist** | International | TP study framework for Mexico + Costa Rica, benchmarking methodology per jurisdiction | $18,000-35,000 |
 
-**Total Phase 1 cost:** $70,000-130,000
+**Total Phase 1 cost:** $81,000-150,000
 
 ### Phase 2: Entity Formation (Months 2-4)
 
@@ -1110,11 +1230,13 @@ Jason's indirect 35% ownership of each Cayman HoldCo means that **any additional
 | Form TEC RE HoldCo (Cayman) | 1-2 weeks | Cayman counsel engaged |
 | S.A. subscribes for 70% of each Cayman HoldCo | 1 week | S.A. + both HoldCos formed |
 | Obtain Tax Undertaking Certificates (both Cayman entities) | 1-2 weeks | Cayman entities formed |
-| Form TEC Operating Company (Mexico) | 4-6 weeks | Mexican counsel engaged, restricted zone resolved |
-| Form TEC Real Estate Entity (Mexico) | 4-8 weeks | Mexican counsel engaged, restricted zone resolved, fideicomiso determination |
-| Establish fideicomiso (if required) | 4-6 weeks | SRE permit obtained |
+| Form TEC Mexico OpCo (S. de R.L. de C.V.) | 4-6 weeks | Mexican counsel engaged, restricted zone resolved |
+| Form TEC Mexico RECo (S. de R.L. de C.V.) | 4-8 weeks | Mexican counsel engaged, restricted zone resolved, fideicomiso determination |
+| Establish fideicomiso (if required for Mexico) | 4-6 weeks | SRE permit obtained |
+| Form TEC Costa Rica OpCo (S.R.L.) | 3-4 weeks | CR counsel engaged |
+| Form TEC Costa Rica RECo (S.R.L.) | 3-4 weeks | CR counsel engaged |
 
-**Total Phase 2 cost:** $30,000-50,000
+**Total Phase 2 cost:** $38,000-65,000
 
 ### Phase 3: Capitalization & Agreements (Months 4-6)
 
@@ -1124,13 +1246,18 @@ Jason's indirect 35% ownership of each Cayman HoldCo means that **any additional
 | Operations investors invest in Ops HoldCo (30% equity) | Per investor timeline | Cayman Ops HoldCo formed, SHA executed |
 | Real estate investors invest in RE HoldCo (30% equity) | Per investor timeline | Cayman RE HoldCo formed, SHA executed |
 | Ops HoldCo contributes equity to Mexico OpCo | 1-2 weeks | Both entities formed |
-| RE HoldCo contributes equity to Mexico RE entity | 1-2 weeks | Both entities formed |
+| Ops HoldCo contributes equity to Costa Rica OpCo | 1-2 weeks | Both entities formed |
+| RE HoldCo contributes equity to Mexico RECo | 1-2 weeks | Both entities formed |
+| RE HoldCo contributes equity to Costa Rica RECo | 1-2 weeks | Both entities formed |
 | Execute Service Delivery Agreement (Ops HoldCo ↔ Mexico OpCo) | 2-3 weeks | TP study framework complete |
-| Execute Lease Agreement (Mexico RE ↔ Mexico OpCo) | 2-3 weeks | TP study framework complete, property acquired |
+| Execute Service Delivery Agreement (Ops HoldCo ↔ Costa Rica OpCo) | 2-3 weeks | TP study framework complete |
+| Execute Lease Agreement (Mexico RECo ↔ Mexico OpCo) | 2-3 weeks | TP study framework complete, property acquired |
+| Execute Lease Agreement (Costa Rica RECo ↔ Costa Rica OpCo) | 2-3 weeks | TP study framework complete, property acquired |
 | Set up Stripe merchant account (Ops HoldCo) | 2-3 weeks | Cayman Ops HoldCo bank account open |
-| Mexico RE entity acquires land | 4-12 weeks | Capitalized, due diligence complete, fideicomiso established if needed |
+| Mexico RECo acquires Tulum land | 4-12 weeks | Capitalized, due diligence complete, fideicomiso if needed |
+| Costa Rica RECo acquires land | 4-12 weeks | Capitalized, due diligence complete |
 
-**Total Phase 3 cost:** Investor capital + $10,000-20,000 (agreements, banking)
+**Total Phase 3 cost:** Investor capital + $15,000-30,000 (agreements, banking, 2 locations)
 
 ### Phase 4: Operations & Compliance (Ongoing)
 
@@ -1141,13 +1268,15 @@ Jason's indirect 35% ownership of each Cayman HoldCo means that **any additional
 | **Panama PIF maintenance** (tax, agent fee) | Annual | $1,000-2,000 |
 | **Panama S.A. maintenance** (registered agent, annual fee) | Annual | $2,000-4,000 |
 | **Mexico compliance** (2 entities: accounting, tax filings, comisario) | Annual | $20,000-40,000 |
+| **Costa Rica compliance** (2 entities: accounting, tax filings, reports) | Annual | $12,000-20,000 |
 | **Jason's US tax compliance** (Form 5471 x3, GILTI calc, §962 election, FBAR, Form 8938) | Annual | $15,000-25,000 |
 | **Nicholas's tax filings** (depends on residency jurisdiction) | Annual | $2,000-5,000 |
 | **Legal counsel (general)** | As needed | $15,000-30,000 |
+| **Per additional future location** | Annual | ~$15,000-30,000 each |
 
-**Total ongoing cost (Year 1):** ~$102,000-190,000
+**Total ongoing cost (Year 1, 2 locations):** ~$114,000-210,000
 
-**Context:** At $10.7M Year 1 revenue, ongoing compliance is ~1.0-1.8% of revenue. At $35.5M Year 5 revenue, ongoing compliance is ~0.3-0.5% of revenue.
+**Context:** At $10.7M Year 1 revenue (Mexico only), ongoing compliance is ~1.1-2.0% of revenue. At $35.5M Year 5 revenue (multi-location), ongoing compliance is ~0.3-0.6% of revenue.
 
 **Tax saved vs. all-Mexico structure (Year 1):** ~$3.2M
 **Tax saved vs. all-Mexico structure (Year 5):** ~$9.8M
@@ -1158,14 +1287,16 @@ Jason's indirect 35% ownership of each Cayman HoldCo means that **any additional
 
 | Milestone | Target Date | Key Outcome |
 |-----------|-------------|-------------|
-| **All entities formed** | Month 4 | Six-entity structure operational (PIF, S.A., 2 Cayman HoldCos, 2 Mexico entities) |
+| **Core structure formed** | Month 4 | PIF, S.A., 2 Cayman HoldCos, 4 local entities (2 Mexico + 2 Costa Rica) |
 | **First client payment received** | Month 6 | Revenue flows to Ops HoldCo (Cayman) at 0% |
 | **First service fee paid to Mexico OpCo** | Month 6 | Platform-as-Principal model activated |
-| **Land acquisition complete** | Month 6-12 | Mexico RE entity owns Tulum property |
-| **First TP study filed** | Month 12 | Transfer pricing documentation complete |
+| **Mexico land acquisition complete** | Month 6-12 | Mexico RECo owns Tulum property |
+| **First TP study filed** | Month 12 | Transfer pricing documentation complete (Mexico) |
 | **Year 1 tax filings** | Month 13 | All entities file first annual returns |
 | **Jason's first Form 5471 + GILTI filing** | Month 16 (April 15) | US tax return with Section 962 election, Form 5471 x3, GILTI calculation |
 | **Nicholas's Canada departure finalized** | Month 3-6 | Final Canadian return filed, NR73 submitted, residency certificate obtained |
+| **Costa Rica expansion** | Month 12-18 | Form CR OpCo + CR RECo under existing HoldCos. Execute service + lease agreements. Commission CR TP study. |
+| **Location N expansion** | As needed | 2 new local entities per location. Same HoldCo layer, same process. ~$10-30K setup per location. |
 
 ---
 
@@ -1175,7 +1306,8 @@ Jason's indirect 35% ownership of each Cayman HoldCo means that **any additional
 |--------------|---------------|-------------------|----------------|---------------|------------|-------------|-------------|
 | **Cayman Islands** | 0% unconditional | NO (for holding companies) | Industry standard | Clean | $8-14K | $16-27K per entity | **SELECTED — VC standard, zero tax, zero substance** |
 | **Panama (PIF)** | 0% on foreign income | Foundation Council (minimal) | Moderate | Improving | $2-4K | $1-2K | **SELECTED — Asset protection, beneficiary privacy** |
-| **Mexico** | 30% | YES (employees, office, operations) | Standard | OECD member | $3-6K | $10-20K per entity | **REQUIRED — Operations and real estate must be in Mexico** |
+| **Mexico** | 30% | YES (employees, office, operations) | Standard | OECD member | $3-6K | $10-20K per entity | **SELECTED — Location 1 (Tulum). 0% WHT on CUFIN dividends to Cayman.** |
+| **Costa Rica** | 30% | YES (employees, office, operations) | Standard | FATF compliant | $4-8K | $12-20K per entity | **SELECTED — Location 2. No restricted zone. 15% dividend WHT to Cayman (higher leakage than Mexico).** |
 | Dubai (QFZP) | 0% on qualifying B2B | YES (office, employees, substance) | Growing | Clean | $11-16K | $50-80K | Not needed for TEC — no operational presence, but could serve as founder residency |
 | Singapore | 0-17% (conditional) | YES (real presence) | High (Asia VC) | Excellent | $8-15K | $20-40K | Higher tax, substance burden |
 | Cook Islands (IBC) | 0% on international income | Minimal (registered agent) | Low (asset protection niche) | Adequate | $4-7K | $3-5K | Strong asset protection but less VC-familiar than Cayman |
@@ -1232,13 +1364,37 @@ Jason's indirect 35% ownership of each Cayman HoldCo means that **any additional
 - [ ] Property tax (predial) payments
 - [ ] Fideicomiso renewal (if applicable, every 50 years)
 
+### TEC Costa Rica OpCo (S.R.L.)
+- [ ] Monthly provisional tax payments
+- [ ] Annual corporate tax return (Declaracion del Impuesto sobre la Renta)
+- [ ] Transfer pricing study update (service fee benchmarking) ($8,000-15,000)
+- [ ] CCSS (social security) employer contributions
+- [ ] Annual report to Registro Nacional
+- [ ] IVA (13%) filings
+
+### TEC Costa Rica RECo (S.R.L.)
+- [ ] Monthly provisional tax payments
+- [ ] Annual corporate tax return
+- [ ] Transfer pricing study update (lease benchmarking) ($7,000-15,000)
+- [ ] Property tax (impuesto sobre bienes inmuebles) payments
+- [ ] Annual report to Registro Nacional
+- [ ] Track dividend WHT (15%) on distributions to RE HoldCo
+
+### Per New Location (Template)
+- [ ] Form local OpCo (100% owned by Ops HoldCo)
+- [ ] Form local RECo (100% owned by RE HoldCo)
+- [ ] Execute service delivery agreement (Ops HoldCo ↔ new OpCo)
+- [ ] Execute lease agreement (new RECo ↔ new OpCo)
+- [ ] Commission local TP study
+- [ ] Ongoing: local tax filings, accounting, TP updates
+
 ### Jason Sparks (US Citizen, 50% Owner)
 - [ ] File Form 1040 (US individual return)
 - [ ] File Form 5471 for TEC Holdings S.A. (Panama)
 - [ ] File Form 5471 for TEC Operations HoldCo (Cayman)
 - [ ] File Form 5471 for TEC Real Estate HoldCo (Cayman)
 - [ ] Calculate GILTI inclusion and make Section 962 election
-- [ ] Claim foreign tax credits for Mexico taxes paid by CFCs
+- [ ] Claim foreign tax credits for Mexico + Costa Rica + other location taxes paid by CFCs
 - [ ] File Form 2555 (FEIE) if taking salary and residing outside US
 - [ ] File FBAR (FinCEN 114) for all foreign accounts >$10K aggregate
 - [ ] File Form 8938 (FATCA) if foreign assets >$200K (end of year) or $300K (at any time)
@@ -1284,10 +1440,18 @@ Jason's indirect 35% ownership of each Cayman HoldCo means that **any additional
 4. Confirm that RE entity with ZERO employees is exempt from PTU (10% profit sharing) on capital gains upon property sale.
 5. Advise on development cost capitalization — what soft costs (architecture, engineering, project management fees paid to Cayman entities) can be capitalized on Mexican RE entity books?
 
+### For Costa Rica Counsel
+1. **Entity formation:** Form TEC Costa Rica OpCo (S.R.L.) and TEC Costa Rica RECo (S.R.L.), both 100% foreign-owned by Cayman HoldCos. Confirm no restrictions on 100% foreign ownership for commercial hospitality real estate.
+2. **Real estate ownership:** Confirm RECo can hold title directly (no fideicomiso equivalent required in Costa Rica).
+3. **Transfer pricing:** Costa Rica follows OECD TP guidelines. Confirm that cost-plus 8-12% service fee (Ops HoldCo ↔ CR OpCo) and intercompany lease (CR RECo ↔ CR OpCo) are defensible.
+4. **Dividend withholding tax:** Confirm 15% WHT on dividends from CR entities to Cayman HoldCos. Is there a reduced rate available via any mechanism?
+5. **Labor law:** Employment requirements, social security (CCSS) obligations, and termination rules for local wellness/medical staff.
+6. **Medical licensing:** Requirements for operating a wellness/health facility in Costa Rica. Medical director requirements, licensing from Colegio de Medicos, COFEPRIS equivalent.
+
 ### For US International Tax Attorney (CRITICAL — Jason's Structure)
 1. **CFC confirmation:** Jason owns 50% of Panama S.A. which owns 70% of two Cayman HoldCos. Confirm CFC status of S.A. and both HoldCos. Map the full attribution chain under IRC §958.
-2. **GILTI calculation:** Model Jason's GILTI inclusion at Year 1 ($10.7M revenue) and Year 5 ($35.5M revenue). What is QBAI (tangible asset base) in Mexico entities?
-3. **Section 962 election:** Confirm Section 962 is available for Jason. Model the effective rate: 21% corporate rate on 50%-reduced GILTI, minus foreign tax credits for Mexico taxes. What is the net additional tax on actual distributions (the "Section 962 haircut")?
+2. **GILTI calculation:** Model Jason's GILTI inclusion at Year 1 ($10.7M revenue) and Year 5 ($35.5M revenue across multiple locations). What is QBAI (tangible asset base) across Mexico + Costa Rica + future entities? More locations = more tangible assets = higher QBAI = lower GILTI (this is favorable).
+3. **Section 962 election:** Confirm Section 962 is available for Jason. Model the effective rate: 21% corporate rate on 50%-reduced GILTI, minus foreign tax credits for Mexico + Costa Rica taxes. What is the net additional tax on actual distributions (the "Section 962 haircut")? Does adding high-tax jurisdictions (30% Mexico, 30% Costa Rica) improve the foreign tax credit position?
 4. **Subpart F vs. GILTI:** Confirm that Ops HoldCo client revenue is ACTIVE (GILTI, not Subpart F). Analyze RE HoldCo rental income — is it passive (Subpart F) or active?
 5. **Form 5471:** Jason must file for S.A., Ops HoldCo, and RE HoldCo. Confirm categories (2, 4, or 5) and information requirements.
 6. **Investor CFC aggregation:** If US investors buy into Cayman HoldCos, at what threshold does CFC trigger independently at the HoldCo level? Can non-voting preferred shares avoid "US shareholder" classification?
