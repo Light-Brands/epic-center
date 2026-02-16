@@ -53,6 +53,36 @@
 
 This is the single most time-sensitive decision. You must renounce **before** your net worth crosses $2M.
 
+### Covered Expatriate Decision Tree
+
+```mermaid
+graph TD
+    START["RENUNCIATION DAY:<br/>Are you a covered expatriate?"]
+
+    NW["Net worth > $2M?"]
+    TAX["Avg annual tax > $190K<br/>(last 5 years)?"]
+    COMPLY["5-year tax compliance<br/>certified?"]
+
+    COVERED["⚠️ COVERED EXPATRIATE<br/>• Exit tax (mark-to-market)<br/>• 40% transfer tax on gifts to US persons FOREVER<br/>• 30% WHT on retirement distributions"]
+
+    CLEAR["✅ NOT COVERED<br/>• No exit tax<br/>• Unlimited tax-free gifts to wife<br/>• No transfer tax<br/>• Complete freedom"]
+
+    START --> NW
+    NW -->|"YES"| COVERED
+    NW -->|"NO"| TAX
+    TAX -->|"YES"| COVERED
+    TAX -->|"NO"| COMPLY
+    COMPLY -->|"NO (failed)"| COVERED
+    COMPLY -->|"YES (compliant)"| CLEAR
+
+    style COVERED fill:#8b0000,stroke:#ff6347,color:#fff
+    style CLEAR fill:#006400,stroke:#90ee90,color:#fff
+    style START fill:#2d4059,stroke:#ea5455,color:#fff
+    style NW fill:#c9770a,stroke:#fff,color:#fff
+    style TAX fill:#c9770a,stroke:#fff,color:#fff
+    style COMPLY fill:#c9770a,stroke:#fff,color:#fff
+```
+
 ### What Triggers "Covered Expatriate" Status
 
 You become a covered expatriate if **any one** of these is true on the date of renunciation:
@@ -112,33 +142,36 @@ If you ARE a covered expatriate:
 
 ### The Process
 
-```
-MONTH 0:  Begin Grenada CBI application ($235-265K)
-          Begin Paraguay residency ($8K, parallel track)
-          Engage US expat tax attorney
+```mermaid
+graph TD
+    M0["MONTH 0<br/>Begin Grenada CBI ($235-265K)<br/>Begin Paraguay residency ($8K)<br/>Engage US expat tax attorney"]
 
-MONTHS 1-6:  Grenada due diligence + processing
-             Continue LB operations normally
-             Prepare renunciation documents
+    M1_6["MONTHS 1-6<br/>Grenada due diligence + processing<br/>Continue LB operations normally<br/>Prepare renunciation documents"]
 
-MONTH 6-7:  Receive Grenada citizenship + passport
-            YOU NOW HAVE A SECOND CITIZENSHIP
+    M6_7["MONTH 6-7<br/>Receive Grenada citizenship + passport<br/>🎯 YOU NOW HAVE A SECOND CITIZENSHIP"]
 
-MONTH 7-8:  Schedule renunciation appointment at US embassy
-            (San Jose, Costa Rica or wherever you are)
+    M7_8["MONTH 7-8<br/>Schedule renunciation appointment<br/>at US embassy (San Jose, CR or wherever)"]
 
-MONTH 8-9:  Attend appointment
-            Complete forms: DS-4079, DS-4080, DS-4081, DS-4083
-            Take oath of renunciation
-            Pay $2,350 fee
-            Surrender US passport
+    M8_9["MONTH 8-9<br/>Attend appointment<br/>DS-4079, DS-4080, DS-4081, DS-4083<br/>Take oath of renunciation<br/>Pay $2,350 fee<br/>Surrender US passport"]
 
-MONTH 9-15: File final US tax return (partial year)
-            File Form 8854 (expatriation statement)
-            Pay exit tax if applicable ($0 if under $2M)
-            Receive Certificate of Loss of Nationality (CLN)
+    M9_15["MONTH 9-15<br/>File final US tax return (partial year)<br/>File Form 8854 (expatriation statement)<br/>Exit tax: $0 if under $2M<br/>Receive CLN"]
 
-YOU ARE NO LONGER A US CITIZEN.
+    DONE["YOU ARE NO LONGER A US CITIZEN<br/>$0 US tax obligations going forward"]
+
+    M0 --> M1_6
+    M1_6 --> M6_7
+    M6_7 --> M7_8
+    M7_8 --> M8_9
+    M8_9 --> M9_15
+    M9_15 --> DONE
+
+    style M0 fill:#c9770a,stroke:#fff,color:#fff
+    style M1_6 fill:#c9770a,stroke:#fff,color:#fff
+    style M6_7 fill:#2d4059,stroke:#ea5455,color:#fff
+    style M7_8 fill:#c9770a,stroke:#fff,color:#fff
+    style M8_9 fill:#8b0000,stroke:#ff6347,color:#fff
+    style M9_15 fill:#c9770a,stroke:#fff,color:#fff
+    style DONE fill:#006400,stroke:#90ee90,color:#fff
 ```
 
 ### After Renunciation
@@ -267,6 +300,34 @@ Her US citizenship is your permanent, unconditional door back to the US:
 | CI IBC (LBC) assets/revenue | 100% owned by S.A. | **Protected** | S.A. is protected by PIF chain |
 | Cyprus Studio (LBS) assets/revenue | 100% owned by S.A. | **Protected** | Same — both operating entities wholly owned by S.A. |
 
+### Asset Protection Layers (Visual)
+
+```mermaid
+graph TB
+    subgraph "PROTECTED — Not Dan's personal property"
+        PIF_ASSET["Layer 3: Panama PIF<br/>Independent legal person<br/>Panama Law 25 of 1995<br/>Does NOT recognize foreign<br/>divorce judgments"]
+        SA_ASSET["Layer 2: Light Brands Holdings S.A.<br/>Dan's 30% held BY the PIF<br/>(not by Dan personally)"]
+        OPS_ASSET["Layer 1: Operating Entities<br/>LBC (CI IBC) + LBS (Cyprus)<br/>100% owned by S.A."]
+    end
+
+    subgraph "DIVISIBLE — Normal marital property"
+        JOINT["Joint bank accounts<br/>Joint personal property<br/>Shared living expenses"]
+    end
+
+    subgraph "HER OWN — Independent"
+        WIFE_IND["Wife's contractor income<br/>$130K/yr from CI IBC<br/>Independent of marriage"]
+    end
+
+    PIF_ASSET -->|"PIF holds<br/>Dan's 30%"| SA_ASSET
+    SA_ASSET -->|"S.A. owns<br/>100% of both"| OPS_ASSET
+
+    style PIF_ASSET fill:#006400,stroke:#90ee90,color:#fff
+    style SA_ASSET fill:#006400,stroke:#90ee90,color:#fff
+    style OPS_ASSET fill:#006400,stroke:#90ee90,color:#fff
+    style JOINT fill:#c9770a,stroke:#fff,color:#fff
+    style WIFE_IND fill:#16213e,stroke:#0f3460,color:#fff
+```
+
 ### Key Protection: The PIF
 
 The Panama PIF is an independent legal person under Law 25 of 1995. It has no "owner." Assets transferred to the PIF are legally separate from your personal estate. Panama:
@@ -323,64 +384,68 @@ The current Light Brands architecture was designed around specific constraints t
 
 ### The Definitive Stack: PIF → Panama Holdings → LBC CI / LBS CY
 
-```
-┌──────────────────────────────────────────────────────────────────────┐
-│                                                                      │
-│  LAYER 1: OWNERSHIP + ASSET PROTECTION                               │
-│                                                                      │
-│  ┌──────────────────────────────────────────────────────────────┐   │
-│  │              FUNDACIÓN LIGHT BRANDS (PIF)                     │   │
-│  │              Panama Private Interest Foundation               │   │
-│  │                                                               │   │
-│  │  Dan is a beneficiary (safe — not US person)                  │   │
-│  │  Wife is NOT a beneficiary (she's US person)                  │   │
-│  │  Foundation Council: 3+ members                               │   │
-│  │  Protector: independent advisor                               │   │
-│  │  0% on foreign income. 0% WHT.                               │   │
-│  └────────────────────────┬──────────────────────────────────────┘   │
-│                           │ 100%                                      │
-│                           ▼                                           │
-│  ┌──────────────────────────────────────────────────────────────┐   │
-│  │         LIGHT BRANDS HOLDINGS S.A.                            │   │
-│  │         (Panamanian Corporation)                               │   │
-│  │                                                               │   │
-│  │  Central holding company — ALL founders are shareholders:     │   │
-│  │    PIF (Dan) 30% │ Nicholas 30% │ Andreas 30% │ Jason 10%    │   │
-│  │  Owns 100% of BOTH operating entities                         │   │
-│  │  0% on foreign-source income (territorial)                    │   │
-│  └──────────┬──────────────────────────────────┬─────────────────┘   │
-│             │ 100% ownership                   │ 100% ownership       │
-│             ▼                                  ▼                      │
-│  LAYER 2: REVENUE + DELIVERY                                         │
-│                                                                      │
-│  ┌────────────────────────────┐   ┌──────────────────────────────┐  │
-│  │  LBC — LIGHT BRANDS        │   │  LBS — LIGHT BRANDS STUDIO   │  │
-│  │  CONSULTING LTD             │   │  LTD                         │  │
-│  │  (Cook Islands IBC)         │   │  (Cyprus Private Company)    │  │
-│  │  "THE BRAIN"                │   │  "THE HANDS"                 │  │
-│  │                             │   │                              │  │
-│  │  • Client-facing            │   │  • Development delivery      │  │
-│  │  • Owns IP + methodology   │──►│  • Real office in Cyprus     │  │
-│  │  • Bears credit risk        │   │  • Real employees (devs)     │  │
-│  │  • Invoices clients         │   │  • Andreas Demou = Director  │  │
-│  │  • Contracts dev to Cyprus  │   │  • Cost-plus pricing         │  │
-│  │  • 0% tax (unconditional)   │   │  • 15% tax on margin only    │  │
-│  │                             │   │                              │  │
-│  │  Owned: 100% by S.A.        │   │  Owned: 100% by S.A.         │  │
-│  └────────────────────────────┘   └──────────────────────────────┘  │
-│                                                                      │
-│  LAYER 3: PEOPLE                                                     │
-│                                                                      │
-│  ┌──────────────────────────────────────────────────────────────┐   │
-│  │  Dan — Director of CI IBC (renounced US, Grenada citizen)     │   │
-│  │  Nicholas — Co-founder (renounced Canada, via own PIF)        │   │
-│  │  Andreas — Director of Cyprus Studio (Cyprus citizen)         │   │
-│  │  Jason — Co-founder (US citizen, 10% direct S.A. shareholder) │   │
-│  │  Wife — Contractor to CI IBC (US citizen, FEIE)               │   │
-│  │  Dev team — Employees of Cyprus Studio + CI IBC contractors   │   │
-│  └──────────────────────────────────────────────────────────────┘   │
-│                                                                      │
-└──────────────────────────────────────────────────────────────────────┘
+```mermaid
+graph TB
+    subgraph "LAYER 1: OWNERSHIP + ASSET PROTECTION"
+        PIF["FUNDACIÓN LIGHT BRANDS (PIF)<br/>Panama Private Interest Foundation<br/>0% on foreign income, 0% WHT<br/>Dan = beneficiary (safe — not US person)<br/>Wife ≠ beneficiary (she's US person)<br/>Foundation Council: 3+ members"]
+    end
+
+    subgraph "HOLDING LAYER"
+        SA["LIGHT BRANDS HOLDINGS S.A.<br/>(Panamanian Corporation)<br/>0% on foreign-source income (territorial)<br/>Owns 100% of BOTH operating entities"]
+    end
+
+    subgraph "SHAREHOLDERS OF S.A."
+        DAN_PIF["PIF (Dan)<br/>30%"]
+        NICH["Nicholas<br/>30%"]
+        ANDREAS_EQ["Andreas<br/>30%"]
+        JASON_EQ["Jason<br/>10%"]
+    end
+
+    subgraph "LAYER 2: REVENUE + DELIVERY"
+        LBC["LBC — LIGHT BRANDS AI LTD<br/>(Cook Islands IBC)<br/>'THE BRAIN'<br/>• Client-facing, owns IP + methodology<br/>• Bears credit risk, invoices clients<br/>• Contracts dev to Cyprus<br/>• 0% tax (unconditional)"]
+
+        LBS["LBS — LIGHT BRANDS STUDIO LTD<br/>(Cyprus Private Company)<br/>'THE HANDS'<br/>• Development delivery<br/>• Real office in Cyprus<br/>• Real employees (devs)<br/>• Andreas Demou = Director<br/>• 15% tax on margin only"]
+    end
+
+    subgraph "LAYER 3: PEOPLE"
+        DAN_P["Dan — Director/Contractor of LBC<br/>(renounced US, Grenada citizen)"]
+        WIFE["Wife — Contractor to LBC<br/>(US citizen, FEIE $130K)"]
+        NICH_P["Nicholas — Co-founder<br/>(renounced Canada, via own PIF)"]
+        ANDREAS_P["Andreas — Director of LBS<br/>(Cyprus citizen, on-ground)"]
+        JASON_P["Jason — Co-founder<br/>(US citizen, 10% S.A.)"]
+        DEVS["Dev team — LBS employees<br/>+ LBC contractors worldwide"]
+    end
+
+    PIF -->|"Dan's 30%"| SA
+    DAN_PIF -.-> SA
+    NICH -->|"30%"| SA
+    ANDREAS_EQ -->|"30%"| SA
+    JASON_EQ -->|"10%"| SA
+
+    SA -->|"100% ownership"| LBC
+    SA -->|"100% ownership"| LBS
+
+    LBC -->|"MDSA: contracts dev<br/>at cost-plus 8-12%"| LBS
+
+    LBC --- DAN_P
+    LBC --- WIFE
+    LBS --- ANDREAS_P
+    LBS --- DEVS
+
+    style PIF fill:#1a1a2e,stroke:#e94560,color:#fff
+    style SA fill:#2d2d44,stroke:#9370db,color:#fff
+    style LBC fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style LBS fill:#16213e,stroke:#0f3460,color:#fff
+    style DAN_P fill:#006400,stroke:#90ee90,color:#fff
+    style WIFE fill:#8b0000,stroke:#ff6347,color:#fff
+    style ANDREAS_P fill:#006400,stroke:#90ee90,color:#fff
+    style DEVS fill:#333,stroke:#888,color:#ccc
+    style DAN_PIF fill:#333,stroke:#888,color:#ccc
+    style NICH fill:#333,stroke:#888,color:#ccc
+    style ANDREAS_EQ fill:#333,stroke:#888,color:#ccc
+    style JASON_EQ fill:#333,stroke:#888,color:#ccc
+    style NICH_P fill:#333,stroke:#888,color:#ccc
+    style JASON_P fill:#333,stroke:#888,color:#ccc
 ```
 
 ### Four Entities. Clean Split.
@@ -456,26 +521,34 @@ The main PE risk with remote contractors is largely **eliminated** by the Cyprus
 
 ### Recommended Team Structure
 
-```
-LBC — Light Brands AI Ltd (CI IBC)
-    │
-    ├── Dan (contractor/director) — Costa Rica or Panama
-    │
-    ├── Wife (contractor) — same location as Dan
-    │
-    ├── Remote contractors (non-Cyprus)
-    │   └── Paid via CI IBC Singapore bank → Wise / Deel
-    │
-    └── Contracts all development to ──►
-                                         │
-LBS — Light Brands Studio Ltd (Cyprus)   │
-    │                                    ◄┘
-    ├── Andreas Demou (director + employee) — Cyprus
-    │
-    ├── Cyprus-based developers (employees, 2-15 depending on scale)
-    │   └── Real employment, real office, real payroll
-    │
-    └── Office in Limassol or Nicosia
+```mermaid
+graph TB
+    subgraph "LBC — Light Brands AI Ltd (CI IBC)"
+        DAN_TEAM["Dan<br/>contractor/director<br/>Costa Rica or Panama"]
+        WIFE_TEAM["Wife<br/>contractor<br/>same location as Dan"]
+        REMOTE["Remote contractors<br/>(non-Cyprus, worldwide)<br/>Paid via Singapore bank → Wise/Deel"]
+    end
+
+    MDSA_LINK["MDSA<br/>All development<br/>contracted to Studio"]
+
+    subgraph "LBS — Light Brands Studio Ltd (Cyprus)"
+        ANDREAS_TEAM["Andreas Demou<br/>director + employee<br/>Cyprus citizen, on-ground"]
+        CY_DEVS_TEAM["Cyprus-based developers<br/>2-15 employees depending on scale<br/>Real employment, real office, real payroll"]
+        OFFICE["Office in Limassol or Nicosia"]
+    end
+
+    DAN_TEAM --- MDSA_LINK
+    MDSA_LINK --> ANDREAS_TEAM
+    ANDREAS_TEAM --- CY_DEVS_TEAM
+    CY_DEVS_TEAM --- OFFICE
+
+    style DAN_TEAM fill:#006400,stroke:#90ee90,color:#fff
+    style WIFE_TEAM fill:#8b0000,stroke:#ff6347,color:#fff
+    style REMOTE fill:#333,stroke:#888,color:#ccc
+    style MDSA_LINK fill:#2d2d44,stroke:#9370db,color:#fff
+    style ANDREAS_TEAM fill:#006400,stroke:#90ee90,color:#fff
+    style CY_DEVS_TEAM fill:#16213e,stroke:#0f3460,color:#fff
+    style OFFICE fill:#16213e,stroke:#0f3460,color:#fff
 ```
 
 ---
@@ -502,35 +575,62 @@ LBS — Light Brands Studio Ltd (Cyprus)   │
 
 ### Revenue Flow
 
-```
-Client pays invoice
-    │
-    ▼
-LBC — Light Brands Consulting (CI IBC) — Singapore bank — 0% tax
-    │
-    ├── Pay Cyprus Studio monthly (cost-plus 10%)
-    │       │
-    │       ▼
-    │   LBS — Light Brands Studio (Cyprus) — Cyprus bank
-    │       ├── Pay developer salaries (Cyprus payroll)
-    │       ├── Pay office costs
-    │       └── Pay 15% tax on margin (~$12K on $3M rev)
-    │
-    ├── Pay Dan (director/contractor fee)
-    ├── Pay Wife (contractor, FEIE-eligible)
-    ├── Pay other contractors (via Wise or Deel)
-    ├── Pay SaaS/infra costs
-    ├── Retain profit (0% tax)
-    │
-    ▼
-CI IBC distributes 100% to S.A. (sole shareholder, 0% WHT)
-    │
-    ▼
-S.A. distributes to its shareholders (board resolution)
-    ├── Dan's 30% → PIF (0%) → Dan (0% in territorial country)
-    ├── Nicholas 30% → direct (per residence)
-    ├── Andreas 30% → direct (~7.65% Cyprus SDC+GESY)
-    └── Jason 10% → direct (US tax)
+```mermaid
+graph TB
+    CLIENT["CLIENT<br/>Pays invoice"]
+
+    subgraph "0% Tax Layer"
+        LBC_BANK["LBC — Light Brands AI Ltd<br/>(CI IBC) — Singapore bank<br/>0% tax<br/>Receives ALL client revenue"]
+    end
+
+    subgraph "Substance Layer (Cyprus)"
+        LBS_BANK["LBS — Light Brands Studio<br/>(Cyprus) — Cyprus bank<br/>15% tax on margin only"]
+        LBS_PAY["Cyprus payroll + office costs"]
+        LBS_TAX["Cyprus tax: ~$12K on $3M rev"]
+    end
+
+    subgraph "Operating Expenses"
+        DAN_FEE["Dan — director/contractor fee"]
+        WIFE_FEE["Wife — contractor ($130K, FEIE)"]
+        CONTRACTORS["Other contractors<br/>(via Wise or Deel)"]
+        SAAS["SaaS/infra costs"]
+    end
+
+    subgraph "Distribution Chain"
+        SA_DIST["S.A. receives 100%<br/>(sole shareholder, 0% WHT)"]
+        DAN_DIST["Dan's 30% → PIF → Dan<br/>0% tax (territorial country)"]
+        NICH_DIST["Nicholas 30% → direct<br/>(per residence)"]
+        ANDREAS_DIST["Andreas 30% → direct<br/>(~7.65% Cyprus SDC+GESY)"]
+        JASON_DIST["Jason 10% → direct<br/>(US tax)"]
+    end
+
+    CLIENT -->|"$$$"| LBC_BANK
+    LBC_BANK -->|"Cost-plus 10%<br/>monthly"| LBS_BANK
+    LBS_BANK --> LBS_PAY
+    LBS_BANK --> LBS_TAX
+
+    LBC_BANK --> DAN_FEE
+    LBC_BANK --> WIFE_FEE
+    LBC_BANK --> CONTRACTORS
+    LBC_BANK --> SAAS
+
+    LBC_BANK -->|"Retained profit<br/>(0% tax) →<br/>quarterly dividends"| SA_DIST
+
+    SA_DIST --> DAN_DIST
+    SA_DIST --> NICH_DIST
+    SA_DIST --> ANDREAS_DIST
+    SA_DIST --> JASON_DIST
+
+    style CLIENT fill:#2d4059,stroke:#ea5455,color:#fff
+    style LBC_BANK fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style LBS_BANK fill:#16213e,stroke:#0f3460,color:#fff
+    style LBS_PAY fill:#16213e,stroke:#0f3460,color:#fff
+    style LBS_TAX fill:#8b0000,stroke:#ff6347,color:#fff
+    style SA_DIST fill:#2d2d44,stroke:#9370db,color:#fff
+    style DAN_DIST fill:#006400,stroke:#90ee90,color:#fff
+    style NICH_DIST fill:#006400,stroke:#90ee90,color:#fff
+    style ANDREAS_DIST fill:#006400,stroke:#90ee90,color:#fff
+    style JASON_DIST fill:#8b0000,stroke:#ff6347,color:#fff
 ```
 
 **Total entity-level tax on $3M revenue: ~$12,000 (0.4%)**
@@ -541,22 +641,34 @@ S.A. distributes to its shareholders (board resolution)
 
 ### How IP Gets Created and Owned
 
-```
-Cyprus Studio employees build software/framework/product
-    │
-    ▼
-IP assigned to LBC (CI IBC) upon creation
-via Master Development Services Agreement (MDSA)
-    │
-    ▼
-CI IBC contractors create methodology/strategy/tools
-    │
-    ▼
-IP assigned to LBC (CI IBC)
-via contractor agreement IP assignment clause
-    │
-    ▼
-CI IBC owns ALL IP — can license, sell, distribute
+```mermaid
+graph LR
+    subgraph "Creation Path 1: Cyprus Studio"
+        CY_DEVS["LBS employees<br/>build software,<br/>frameworks, AI models"]
+    end
+
+    subgraph "Creation Path 2: CI IBC Contractors"
+        CI_CONTRACTORS["CI IBC contractors<br/>create methodology,<br/>strategy, tools"]
+    end
+
+    MDSA["MDSA<br/>(Master Development<br/>Services Agreement)<br/>Auto-assigns IP on creation"]
+
+    CONTRACTOR_CLAUSE["Contractor Agreement<br/>IP assignment clause<br/>Work-for-hire"]
+
+    subgraph "Single IP Owner"
+        LBC_IP["LBC — LIGHT BRANDS AI LTD<br/>(CI IBC)<br/>Owns ALL IP<br/>Can license, sell, distribute<br/>0% tax on IP income"]
+    end
+
+    CY_DEVS -->|"IP assigned<br/>upon creation"| MDSA
+    MDSA --> LBC_IP
+    CI_CONTRACTORS -->|"IP assigned<br/>upon creation"| CONTRACTOR_CLAUSE
+    CONTRACTOR_CLAUSE --> LBC_IP
+
+    style CY_DEVS fill:#16213e,stroke:#0f3460,color:#fff
+    style CI_CONTRACTORS fill:#333,stroke:#888,color:#ccc
+    style MDSA fill:#2d2d44,stroke:#9370db,color:#fff
+    style CONTRACTOR_CLAUSE fill:#2d2d44,stroke:#9370db,color:#fff
+    style LBC_IP fill:#8b5e3c,stroke:#ffd700,color:#fff
 ```
 
 **Two IP creation paths, one owner:**
@@ -579,6 +691,41 @@ CI IBC owns ALL IP — can license, sell, distribute
 ## 13. How Dan Gets Paid {#13-dan-compensation}
 
 Post-renunciation, Dan has three channels, all at 0%:
+
+```mermaid
+graph LR
+    subgraph "Channel 1: Fee"
+        LBC_FEE["LBC (CI IBC)"]
+        DAN_FEE2["Dan<br/>Director/contractor fee<br/>Flexible amount"]
+    end
+
+    subgraph "Channel 2: Dividends"
+        LBC_DIV["LBC (CI IBC)"]
+        SA_DIV["S.A.<br/>(100% dividends)"]
+        PIF_DIV["PIF<br/>(Dan's 30%)"]
+        DAN_DIV["Dan<br/>30% of LB profits<br/>Quarterly"]
+    end
+
+    subgraph "Channel 3: PIF"
+        PIF_DIST["PIF<br/>Accumulated assets"]
+        DAN_PIF2["Dan<br/>Unlimited distributions<br/>Foundation Council decides"]
+    end
+
+    LBC_FEE -->|"Monthly<br/>$0 tax"| DAN_FEE2
+    LBC_DIV -->|"100%"| SA_DIV
+    SA_DIV -->|"30%"| PIF_DIV
+    PIF_DIV -->|"0% WHT"| DAN_DIV
+    PIF_DIST -->|"0% tax"| DAN_PIF2
+
+    style LBC_FEE fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style LBC_DIV fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style SA_DIV fill:#2d2d44,stroke:#9370db,color:#fff
+    style PIF_DIV fill:#1a1a2e,stroke:#e94560,color:#fff
+    style PIF_DIST fill:#1a1a2e,stroke:#e94560,color:#fff
+    style DAN_FEE2 fill:#006400,stroke:#90ee90,color:#fff
+    style DAN_DIV fill:#006400,stroke:#90ee90,color:#fff
+    style DAN_PIF2 fill:#006400,stroke:#90ee90,color:#fff
+```
 
 ### Channel 1: Contractor/Director Fee from CI IBC (LBC)
 
@@ -699,6 +846,48 @@ Wife holds no shares in any entity. She is a contractor to CI IBC ($130K/year, F
 ---
 
 ## 16. Tax Summary — The Complete Picture {#16-tax-summary}
+
+### Tax Flow Visualization (at $3M Revenue)
+
+```mermaid
+graph TB
+    REV["$3M Client Revenue"]
+
+    subgraph "0% Entities"
+        LBC_TAX["LBC (CI IBC)<br/>$0 tax"]
+        SA_TAX["S.A. (Panama)<br/>$0 tax"]
+        PIF_TAX["PIF (Panama)<br/>$0 tax"]
+    end
+
+    subgraph "Taxed Entity"
+        LBS_TAX["LBS (Cyprus Studio)<br/>$12,000 tax<br/>(15% on $80K margin)"]
+    end
+
+    subgraph "Personal Tax"
+        DAN_TAX["Dan: $0<br/>(territorial country)"]
+        WIFE_TAX["Wife: $0<br/>(FEIE covers $130K)"]
+    end
+
+    TOTAL["TOTAL TAX: ~$12,000<br/>Effective Rate: 0.4%"]
+
+    REV --> LBC_TAX
+    LBC_TAX -->|"Cost-plus 10%"| LBS_TAX
+    LBC_TAX -->|"100% dividends"| SA_TAX
+    SA_TAX -->|"Dan's 30%"| PIF_TAX
+    PIF_TAX --> DAN_TAX
+    LBC_TAX -->|"$130K fee"| WIFE_TAX
+
+    LBS_TAX --> TOTAL
+
+    style REV fill:#2d4059,stroke:#ea5455,color:#fff
+    style LBC_TAX fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style SA_TAX fill:#2d2d44,stroke:#9370db,color:#fff
+    style PIF_TAX fill:#1a1a2e,stroke:#e94560,color:#fff
+    style LBS_TAX fill:#16213e,stroke:#0f3460,color:#fff
+    style DAN_TAX fill:#006400,stroke:#90ee90,color:#fff
+    style WIFE_TAX fill:#006400,stroke:#90ee90,color:#fff
+    style TOTAL fill:#006400,stroke:#90ee90,color:#fff
+```
 
 ### Entity-Level Tax (at $3M Revenue)
 
