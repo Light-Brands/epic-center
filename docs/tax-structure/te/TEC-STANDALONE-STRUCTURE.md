@@ -1,14 +1,16 @@
 # Transformational Epicenter: Standalone Tax & Legal Structure
 
 > **Status:** Strategic Architecture — Requires Multi-Jurisdictional Counsel Validation
-> **Prepared For:** Felipe Strategic Review
 > **Last Updated:** February 2026
+> **Founders:** Jason Sparks (50%, US citizen) + Nicholas Courschesne (50%, renouncing Canada)
+> **Structure:** Nicholas's PIF + Jason → Panama Holdings S.A. → Dual Cayman HoldCos → Mexico OpCo + RECo
+> **Fundraise Target:** $10M-$30M
 
 ---
 
 ## Executive Summary
 
-This document presents a comprehensive legal, tax, and corporate structuring strategy for **Transformational Epicenter (TEC)** as a **standalone entity**, completely separate from LightBrand Consulting and LightBrand Studio.
+This document presents a comprehensive legal, tax, and corporate structuring strategy for **Transformational Epicenter (TEC)** as a **standalone entity**, completely separate from Light Brands AI Ltd and Light Brands Studio Ltd.
 
 **The Company:** High-end health, medical, wellness, bio-optimization, and real estate-integrated destination operating primarily in Mexico (Tulum/Quintana Roo), serving international clients with:
 - Medical and wellness services
@@ -17,11 +19,15 @@ This document presents a comprehensive legal, tax, and corporate structuring str
 - Real estate ownership and development
 - Sensitive health and biometric data collection
 
-**The Structure:** Panama Private Interest Foundation → Two Cayman Islands HoldCos (Operations + Real Estate) → Mexican Operating Company + Mexican Real Estate Entity
+**The Founders:** Jason Sparks (50%, US citizen) and Nicholas Courschesne (50%, renouncing Canadian citizenship). Two founders, equal ownership, $10-30M fundraise target.
 
-**Tax Efficiency:** ~1.4-1.8% combined global tax rate on $35M+ revenue at scale
+**The Structure:** Nicholas's Panama PIF + Jason → Panama Holdings S.A. → Two Cayman Islands HoldCos (Operations + Real Estate) → Mexican Operating Company + Mexican Real Estate Entity
 
-**Key Optimization:** Revenue collected in 0% jurisdiction (Cayman), minimal profit retained in 30% jurisdiction (Mexico), maximum asset protection via multiple jurisdictional layers, separate investor pools for operations vs. real estate.
+**Tax Efficiency:** ~2.0-3.5% combined global tax rate on $35M+ revenue at scale (higher than a non-US-owner structure due to Jason's US tax obligations — see Section 8.2)
+
+**Key Optimization:** Revenue collected in 0% jurisdiction (Cayman), minimal profit retained in 30% jurisdiction (Mexico), maximum asset protection via multiple jurisdictional layers, separate investor pools for operations vs. real estate. Jason's US tax managed via Section 962 election to minimize GILTI impact.
+
+**Critical Tax Constraint:** Jason (US citizen, 50% owner) triggers CFC/GILTI rules on TEC's foreign income. This is managed — not avoided — through Section 962 elections, active business exemptions, and careful structuring. See Section 8.2 for full analysis.
 
 ---
 
@@ -44,18 +50,23 @@ This document presents a comprehensive legal, tax, and corporate structuring str
 
 ## 1. Recommended Entity Architecture
 
-### 1.1 Five-Entity Structure
+### 1.1 Six-Entity Structure
 
 ```mermaid
 graph TB
-    subgraph "Ultimate Protection Layer"
-        PIF["PANAMA PRIVATE INTEREST FOUNDATION<br/>0% tax on foreign income<br/>Beneficiary privacy<br/>Asset protection"]
+    subgraph "Founder Layer"
+        PIF["NICHOLAS'S PANAMA PIF<br/>0% tax on foreign income<br/>Beneficiary privacy<br/>Asset protection"]
+        JASON["JASON SPARKS<br/>(US citizen, 50% S.A. shareholder)<br/>Subject to CFC/GILTI — see Section 8.2"]
     end
 
-    subgraph "Holding & Investment Layer (Cayman Islands)"
-        OPCO_CAYMAN["TEC OPERATIONS HOLDCO<br/>(Cayman Exempted Co.)<br/>0% tax unconditional<br/>Owns: Platform IP, Ops revenue<br/>~70% PIF + ~30% Operations Investor"]
+    subgraph "Holding Layer (Panama)"
+        SA["TEC HOLDINGS S.A.<br/>(Panama Sociedad Anonima)<br/>0% tax on foreign income<br/>50% Nicholas's PIF / 50% Jason<br/>Central governance & SHA"]
+    end
 
-        PROCO_CAYMAN["TEC REAL ESTATE HOLDCO<br/>(Cayman Exempted Co.)<br/>0% tax unconditional<br/>Owns: Land, buildings, development<br/>~70% PIF + ~30% Real Estate Investor"]
+    subgraph "Investment Layer (Cayman Islands)"
+        OPCO_CAYMAN["TEC OPERATIONS HOLDCO<br/>(Cayman Exempted Co.)<br/>0% tax unconditional<br/>Owns: Platform IP, Ops revenue<br/>~70% S.A. + ~30% Operations Investors"]
+
+        PROCO_CAYMAN["TEC REAL ESTATE HOLDCO<br/>(Cayman Exempted Co.)<br/>0% tax unconditional<br/>Owns: Land, buildings, development<br/>~70% S.A. + ~30% Real Estate Investors"]
     end
 
     subgraph "Operating Layer (Mexico)"
@@ -69,8 +80,10 @@ graph TB
         RE_INV["Real Estate Investors<br/>~30% of RE HoldCo"]
     end
 
-    PIF -->|"70%"| OPCO_CAYMAN
-    PIF -->|"70%"| PROCO_CAYMAN
+    PIF -->|"50%"| SA
+    JASON -->|"50%"| SA
+    SA -->|"70%"| OPCO_CAYMAN
+    SA -->|"70%"| PROCO_CAYMAN
     OPS_INV -->|"30%"| OPCO_CAYMAN
     RE_INV -->|"30%"| PROCO_CAYMAN
 
@@ -80,6 +93,8 @@ graph TB
     MEXICO_RE -.->|"Leases property"| MEXICO_OPS
 
     style PIF fill:#1a1a2e,stroke:#e94560,color:#fff
+    style JASON fill:#8b0000,stroke:#ff6347,color:#fff
+    style SA fill:#2d2d44,stroke:#9370db,color:#fff
     style OPCO_CAYMAN fill:#8b5e3c,stroke:#ffd700,color:#fff
     style PROCO_CAYMAN fill:#4a3728,stroke:#c9770a,color:#fff
     style MEXICO_OPS fill:#16213e,stroke:#0f3460,color:#fff
@@ -92,29 +107,33 @@ graph TB
 
 | Entity | Jurisdiction | Role | Tax Rate | Ownership | Purpose |
 |--------|-------------|------|----------|-----------|---------|
-| **Panama PIF** | Panama | Ultimate asset protection, beneficiary privacy | 0% | No owner (independent legal person) | Owns 70% of both Cayman HoldCos, protects founders |
-| **TEC Operations HoldCo** | Cayman Islands | Collects all client revenue, owns platform IP, controls Mexico OpCo | 0% (unconditional, 20-year guarantee) | 70% PIF + 30% Operations Investors | Investable vehicle for operations |
-| **TEC Real Estate HoldCo** | Cayman Islands | Owns all real estate assets, controls Mexico RE entity | 0% (unconditional, 20-year guarantee) | 70% PIF + 30% Real Estate Investors | Investable vehicle for real estate |
+| **Nicholas's PIF** | Panama | Asset protection, beneficiary privacy for Nicholas | 0% | No owner (independent legal person) | Holds Nicholas's 50% of S.A., protects founder |
+| **TEC Holdings S.A.** | Panama | Central holding, governance, shareholders' agreement | 0% on foreign income | 50% Nicholas's PIF + 50% Jason Sparks | Single point of governance, owns 70% of both Cayman HoldCos |
+| **TEC Operations HoldCo** | Cayman Islands | Collects all client revenue, owns platform IP, controls Mexico OpCo | 0% (unconditional, 20-year guarantee) | 70% S.A. + 30% Operations Investors | Investable vehicle for operations |
+| **TEC Real Estate HoldCo** | Cayman Islands | Owns all real estate assets, controls Mexico RE entity | 0% (unconditional, 20-year guarantee) | 70% S.A. + 30% Real Estate Investors | Investable vehicle for real estate |
 | **TEC Operating Company** | Mexico (Tulum) | Delivers on-ground services, employs local staff, operates facilities | 30% on 8-12% service margin only | 100% owned by Ops HoldCo | Legally required Mexican presence |
 | **TEC Real Estate Entity** | Mexico (Tulum) | Acquires land, develops property, holds title, leases to OpCo | 30% on rental income minus depreciation | 100% owned by RE HoldCo | Asset protection, depreciation benefits |
 
-### 1.3 Why Five Entities (Not More, Not Fewer)
+### 1.3 Why Six Entities (Not More, Not Fewer)
 
-**Too few (3 entities: PIF + Cayman + Mexico):**
+**Too few (4 entities: PIF + S.A. + single Cayman + Mexico):**
 - Cannot separate operations investors from real estate investors
 - Single Cayman entity concentrates both revenue streams and real estate assets
 - Limits exit flexibility (cannot sell real estate separately from operations)
 - Mixes operational liability with real estate assets
 
-**Too many (7+ entities with intermediary holding companies):**
+**Too many (8+ entities with intermediary holding companies):**
 - Additional compliance cost (~$15-25K per entity annually)
 - No additional tax benefit (all intermediate layers would be 0% anyway)
 - Increased governance complexity
 - Transfer pricing multiplication
 
-**Five is optimal:**
-- Achieves investor separation (different pools for ops vs. RE)
-- Maximizes asset protection (PIF → dual Cayman → dual Mexico = 4 layers)
+**Six is optimal:**
+- **PIF** protects Nicholas's ownership (beneficiary privacy, asset protection post-Canada renunciation)
+- **S.A.** provides single governance layer (one shareholders' agreement, one voting body for Jason + Nicholas)
+- **Dual Cayman HoldCos** achieve investor separation (different pools for ops vs. RE) and VC-standard vehicle
+- **Dual Mexico entities** isolate operational liability from real estate assets
+- Maximizes asset protection (PIF/Jason → S.A. → dual Cayman → dual Mexico = 4-5 layers)
 - Enables independent exits (sell ops, sell RE, or both)
 - Minimizes compliance burden relative to benefits
 
@@ -135,6 +154,17 @@ graph TB
 | **0% on foreign income** | Panama taxes only Panamanian-source income. All TEC revenue is international → 0%. |
 | **Flexible distributions** | PIF can distribute to beneficiaries at any time, any amount, without "dividend" classification issues. |
 | **No forced disclosure** | Unlike US LLCs or Canadian corps, PIF has no public beneficial ownership registry. |
+
+**Note:** The PIF applies to **Nicholas only**. Jason (US citizen) holds his 50% of the S.A. directly — a PIF would not reduce Jason's US tax burden (IRS looks through foreign structures for US citizens). Jason's ownership is visible in the S.A. share register.
+
+#### Benefits of Panama S.A. (Holdings Layer)
+
+| Benefit | Impact |
+|---------|--------|
+| **Single governance** | One shareholders' agreement between Nicholas's PIF and Jason. One voting body for all major decisions. |
+| **Clean ownership** | S.A. owns 70% of both Cayman HoldCos — investors negotiate with S.A. (one counterparty), not individual founders. |
+| **0% on foreign income** | Panama S.A. taxes only Panamanian-source income. TEC revenue is international → 0%. |
+| **Deadlock resolution** | 50/50 ownership requires a deadlock mechanism (buy-sell, arbitration, or mediator). S.A. SHA handles this cleanly. |
 
 #### Benefits of Dual Cayman HoldCos
 
@@ -161,17 +191,26 @@ graph TB
 - Exit flexibility worth millions in future M&A scenarios
 - Risk isolation protecting $100M+ in real estate assets from operational claims
 
-### 2.2 PIF Ownership Percentages
+### 2.2 S.A. Ownership & Cayman HoldCo Percentages
 
-**Recommended:** PIF owns 70% of BOTH Cayman HoldCos
+**Founder ownership (at S.A. level):**
 
-| Scenario | PIF % | Ops Investor % | RE Investor % | Rationale |
-|----------|-------|----------------|---------------|-----------|
-| **Recommended** | 70% / 70% | 30% | 30% | Founders retain control of both entities via PIF. Clean 70/30 split for each investor class. Simple governance. |
+| S.A. Shareholder | Ownership | Holding Vehicle |
+|-----------------|-----------|-----------------|
+| **Nicholas Courschesne** | 50% | Via Nicholas's Panama PIF |
+| **Jason Sparks** | 50% | Direct (US citizen — PIF would not provide US tax benefit) |
+
+**S.A. ownership of Cayman HoldCos (recommended 70/30 split):**
+
+| Scenario | S.A. % | Ops Investor % | RE Investor % | Rationale |
+|----------|--------|----------------|---------------|-----------|
+| **Recommended** | 70% / 70% | 30% | 30% | Founders retain control of both entities via S.A. Clean 70/30 split for each investor class. Simple governance. |
 | Alternative A | 80% / 80% | 20% | 20% | Founders retain more equity but investors may push back on dilution for same check size. |
 | Alternative B | 60% / 60% | 40% | 40% | Higher dilution; founders risk losing control if investors coordinate. |
 
-**Critical founder protection:** PIF beneficiaries should include Canadian founder and potentially Cyprus founder, but **NOT the US founder** (to avoid CFC/GILTI complications — see Section 8.2).
+**Jason's effective ownership chain:** Jason (50% S.A.) → S.A. (70% each HoldCo) = **35% indirect ownership** of each Cayman HoldCo. This triggers CFC/GILTI — see Section 8.2 for full analysis and mitigation.
+
+**Nicholas's PIF:** Protects Nicholas's 50% S.A. stake with beneficiary privacy and Panamanian asset protection. Critical for post-renunciation security — no public registry of PIF beneficiaries.
 
 ---
 
@@ -603,12 +642,11 @@ graph TB
     end
 
     subgraph "Personal Level"
-        CAN["Canadian founder: $0 (Dubai resident)"]
-        US["US founder: ~$85K (~3.7% rate)"]
-        CYP["Cyprus founder: ~$8K (~0.85% rate)"]
+        NICH["Nicholas: $0 (renounced Canada, non-US resident)<br/>PIF distributions = 0% personal tax"]
+        JASON_TAX["Jason: ~$350-900K (US citizen, 50% owner)<br/>GILTI + Section 962 election<br/>~10.5-21% on his share of CFC income"]
     end
 
-    TOTAL["TOTAL TAX: ~$723-863K<br/>Effective Rate: ~2.0-2.4%"]
+    TOTAL["TOTAL TAX: ~$980K-1.7M<br/>Effective Rate: ~2.8-4.8%<br/>(driven by Jason's US obligations)"]
 
     REV --> OPS_CAY
     REV --> RE_CAY
@@ -616,14 +654,12 @@ graph TB
     RE_CAY --> MEX_RE_TAX
     OPS_CAY --> PIF_TAX
     RE_CAY --> PIF_TAX
-    PIF_TAX --> CAN
-    PIF_TAX --> US
-    PIF_TAX --> CYP
+    PIF_TAX --> NICH
+    PIF_TAX --> JASON_TAX
 
     MEX_OPS_TAX --> TOTAL
     MEX_RE_TAX --> TOTAL
-    US --> TOTAL
-    CYP --> TOTAL
+    JASON_TAX --> TOTAL
 
     style REV fill:#2d4059,stroke:#ea5455,color:#fff
     style OPS_CAY fill:#8b5e3c,stroke:#ffd700,color:#fff
@@ -631,6 +667,8 @@ graph TB
     style PIF_TAX fill:#1a1a2e,stroke:#e94560,color:#fff
     style MEX_OPS_TAX fill:#16213e,stroke:#0f3460,color:#fff
     style MEX_RE_TAX fill:#2c5f2d,stroke:#97cc04,color:#fff
+    style NICH fill:#006400,stroke:#90ee90,color:#fff
+    style JASON_TAX fill:#8b0000,stroke:#ff6347,color:#fff
     style TOTAL fill:#c9770a,stroke:#fff,color:#fff
 ```
 
@@ -663,74 +701,185 @@ graph TB
 
 ### 8.1 Founder Residency & Tax Optimization
 
-| Founder | Residency | Tax Strategy | Personal Effective Rate |
-|---------|-----------|--------------|-------------------------|
-| **Canadian founder** | Dubai, UAE (Golden Visa) | 0% UAE income tax. Depart Canada before seed round to avoid departure tax. PIF beneficiary. | **0%** |
-| **US founder** | Dubai, UAE (Golden Visa) | Salary from Ops HoldCo via employment agreement. Foreign Earned Income Exclusion (FEIE) shelters first $130K. NOT a PIF beneficiary (avoids CFC/GILTI). | **~3.7%** |
-| **Cyprus founder** (if applicable) | Cyprus or Dubai | Salary from Ops HoldCo. Cyprus 90-day overseas employment exemption if working outside Cyprus >90 days. Or 0% Dubai income tax. | **~0.85%** |
+| Founder | Ownership | Residency | Tax Strategy | Personal Effective Rate |
+|---------|-----------|-----------|--------------|-------------------------|
+| **Nicholas Courschesne** | 50% (via PIF → S.A.) | Renouncing Canada, establishing non-US residency (Costa Rica, Panama, or Dubai) | 0% personal income tax in chosen jurisdiction. PIF distributions tax-free. Depart Canada BEFORE seed round to minimize departure tax. | **0%** |
+| **Jason Sparks** | 50% (direct → S.A.) | US citizen (worldwide taxation regardless of residency) | CFC/GILTI applies — Jason taxed on his share of Cayman HoldCo income whether or not distributed. Section 962 election reduces effective rate. See Section 8.2. | **~10.5-21% on his share** |
 
-### 8.2 US Founder: CFC/GILTI Analysis
+**Key asymmetry:** Nicholas can achieve 0% personal tax through PIF + non-US residency. Jason, as a US citizen, faces worldwide taxation on his 50% share of CFC income. This asymmetry is inherent to US citizenship — it cannot be structured away, only managed.
 
-**Critical constraint:** The US founder MUST NOT be a PIF beneficiary or have ownership/control of any foreign entity, or US worldwide taxation applies.
+### 8.2 Jason (US Citizen, 50% Owner): CFC/GILTI Analysis
 
-#### Controlled Foreign Corporation (CFC) Rules
+> **This is the single most critical tax section in this document.** Jason's US citizenship as a 50% owner fundamentally shapes the structure's tax profile.
 
-| Scenario | CFC Triggered? | Tax Impact |
-|----------|----------------|------------|
-| **US person owns >10% of foreign corporation** AND **US persons collectively own >50%** | YES | All "Subpart F income" and GILTI taxed to US shareholder annually (even if not distributed) |
-| **US person is employee (not owner) of foreign corporation** | NO | Only salary taxed (FEIE can shelter first $130K) |
+#### Why CFC Is Triggered
 
-**TEC structure compliance:**
-- US founder is **employee** of Ops HoldCo (receives salary via employment agreement)
-- US founder is **NOT a PIF beneficiary**
-- US founder has **NO ownership** of Ops HoldCo, RE HoldCo, or PIF
-- Canadian founder owns 70% via PIF → no US person crosses 10% threshold → no CFC
+A **Controlled Foreign Corporation (CFC)** is any foreign corporation where **US shareholders** (each owning >10%) collectively own >50%.
 
-#### Form 5471 Requirement
+| Entity in Chain | Jason's Ownership | CFC Status |
+|----------------|-------------------|------------|
+| **TEC Holdings S.A.** (Panama) | 50% direct | **CFC** — Jason owns >10%, and >50% is US-owned |
+| **TEC Operations HoldCo** (Cayman) | 35% indirect (50% of S.A.'s 70%) | **CFC** — Jason constructively owns >10% via S.A. attribution rules (IRC §958) |
+| **TEC Real Estate HoldCo** (Cayman) | 35% indirect | **CFC** — same attribution |
+| **TEC Operating Company** (Mexico) | 35% indirect (via S.A. → Ops HoldCo) | **CFC** — indirect ownership via chain |
+| **TEC Real Estate Entity** (Mexico) | 35% indirect (via S.A. → RE HoldCo) | **CFC** — indirect ownership via chain |
 
-US persons who own >10% of foreign corporations OR who are officers/directors must file Form 5471 (Information Return of U.S. Persons With Respect to Certain Foreign Corporations).
+**Result:** Every entity in the TEC structure (except Nicholas's PIF) is a CFC because Jason owns >10% and US persons own >50% of the chain.
 
-**Mitigation:**
-- US founder is NOT a director of Ops HoldCo or RE HoldCo
-- US founder is an employee only
-- No Form 5471 filing required
+#### What CFC Means for Jason
+
+Jason is taxed CURRENTLY (each year, whether or not distributions are made) on:
+
+| Income Category | Definition | Tax Treatment |
+|----------------|------------|---------------|
+| **Subpart F Income** (IRC §951) | Passive income: interest, dividends, rents, royalties, capital gains from related parties | Taxed at ordinary income rates (up to 37%) |
+| **GILTI** (IRC §951A) | Global Intangible Low-Taxed Income: essentially ALL active business income of CFCs minus a 10% return on tangible assets (QBAI) | Taxed with 50% deduction → effective 10.5-13.125% (individual rate varies — see Section 962 below) |
+
+**Critical distinction:** Ops HoldCo revenue from clients is ACTIVE income (not Subpart F). This means it falls under **GILTI**, not Subpart F — and GILTI has favorable treatment.
+
+#### GILTI Calculation (Year 5 Example)
+
+| Line Item | Amount | Notes |
+|-----------|--------|-------|
+| **Total CFC income (Ops HoldCo + RE HoldCo)** | ~$17,961,000 | Cayman entities' net income |
+| **Jason's pro-rata share (35%)** | ~$6,286,000 | 50% of S.A.'s 70% |
+| **Minus: 10% of QBAI (tangible assets)** | (~$500,000) | 10% of Mexico OpCo + RE entity tangible depreciable assets attributable to Jason's share |
+| **Jason's GILTI inclusion** | ~$5,786,000 | Amount included in Jason's US taxable income |
+
+#### Section 962 Election — The Key Mitigation
+
+**Without Section 962:** Jason pays individual tax rates on GILTI (up to 37%), with only a partial deduction. Effective rate: ~18.5-21%.
+
+**With Section 962 election:** Jason elects to be taxed as if he were a domestic C-corporation for purposes of CFC income. This unlocks:
+
+| Benefit | Impact |
+|---------|--------|
+| **50% GILTI deduction** (IRC §250) | Reduces GILTI inclusion by 50% |
+| **Foreign tax credit for Mexico taxes** | Mexico OpCo's 30% tax on margin is creditable against Jason's US GILTI liability |
+| **Corporate rate of 21%** | Applied to reduced GILTI amount |
+| **Effective rate** | ~10.5% on GILTI (before foreign tax credits) |
+
+**Section 962 calculation (Year 5):**
+
+| Step | Amount |
+|------|--------|
+| Jason's GILTI inclusion | $5,786,000 |
+| 50% GILTI deduction | ($2,893,000) |
+| Taxable GILTI | $2,893,000 |
+| Tax at 21% corporate rate | $607,530 |
+| Foreign tax credit (Jason's share of Mexico tax) | (~$220,500) |
+| **Net US tax on GILTI** | **~$387,030** |
+| **Effective rate on Jason's share** | **~6.7%** |
+
+**Important caveat:** When Jason later receives actual distributions from the S.A. (dividends), there may be additional US tax on the difference between the distribution and previously taxed GILTI amounts. This is the "Section 962 haircut" — distributions may be taxed at dividend rates (up to 23.8%) minus credit for the 21% already paid. Net additional tax is modest but nonzero. US international tax counsel must model this.
+
+#### Form 5471 Filing Requirement
+
+Jason MUST file **Form 5471** (Information Return of U.S. Persons With Respect to Certain Foreign Corporations) annually for:
+- TEC Holdings S.A. (direct >10% ownership)
+- TEC Operations HoldCo (indirect >10% ownership)
+- TEC Real Estate HoldCo (indirect >10% ownership)
+
+**Penalties for non-filing:** $10,000 per form per year, plus potential criminal penalties. This is non-negotiable compliance.
+
+#### FBAR and Form 8938
+
+Jason must also file:
+- **FBAR (FinCEN 114):** If any foreign accounts exceed $10,000 aggregate at any point during the year
+- **Form 8938 (FATCA):** If foreign financial assets exceed $200,000 (end of year) or $300,000 (at any time)
+- **Form 8865:** If S.A. is treated as a partnership (unlikely given S.A. structure, but counsel must confirm)
 
 #### PFIC (Passive Foreign Investment Company) Risk
 
-If Ops HoldCo is deemed a PFIC (>75% of income is passive, OR >50% of assets produce passive income), punitive US tax rates apply.
+| Entity | PFIC Risk | Analysis |
+|--------|-----------|----------|
+| **Ops HoldCo** | LOW | Income is ACTIVE (client service revenue). >75% of income from active business operations. Not a PFIC. |
+| **RE HoldCo** | MEDIUM | Rental income may be treated as passive. However, if RE entity has employees managing property, income may be recharacterized as active. **Counsel must analyze.** |
+| **S.A.** | LOW | S.A. is a holding company — look-through rules apply to underlying CFC income. Already taxed under CFC/GILTI rules, so PFIC overlap is avoided (CFC takes priority). |
 
-**Mitigation:**
-- Ops HoldCo's income is ACTIVE (service revenue from clients)
-- Platform operation, client acquisition, service delivery = active business
-- NOT a PFIC
+#### Impact on Investor Structure (CFC Aggregation)
+
+**Critical risk:** If US investors also buy into Cayman HoldCos, their ownership aggregates with Jason's for CFC purposes.
+
+| Scenario | Jason's Indirect % | US Investor % | Total US % | CFC? |
+|----------|-------------------|---------------|------------|------|
+| No US investors | 35% | 0% | 35% | YES (Jason >10% alone, but need >50% collective) — **Actually NO if only 35%** |
+| Wait — correction | | | | |
+
+**Let's be precise about CFC thresholds:**
+
+A foreign corporation is a CFC if **US shareholders** (each owning ≥10%) own **>50%** in aggregate.
+
+- Jason owns 35% of each Cayman HoldCo (indirect via S.A.)
+- 35% < 50% → **CFC is NOT triggered at the HoldCo level from Jason alone**
+- BUT: S.A. is 50% Jason → S.A. IS a CFC (Jason owns >50%)
+- Through S.A., CFC rules attribute S.A.'s income (including HoldCo income) to Jason
+
+**The nuance:** Even though Jason doesn't own >50% of the Cayman HoldCos directly, the **S.A. IS a CFC** (50% US ownership), and CFC income rolls up through the chain. Jason is taxed on his pro-rata share of ALL CFC income in the chain.
+
+**If US investors buy into Cayman HoldCos:**
+- Each US investor owning ≥10% becomes a "US shareholder"
+- If US investors collectively + Jason's indirect 35% exceed 50% → HoldCos become CFCs independently
+- This means US investors ALSO face GILTI on their share
+- **Recommendation:** Cap US investor participation at <15% per HoldCo, OR structure investor shares as preferred (non-voting) to avoid "US shareholder" attribution
+
+#### Summary: Jason's Annual US Tax Obligation
+
+| Jason's Tax Component | Amount (Year 5) | Rate |
+|-----------------------|-----------------|------|
+| GILTI (Section 962 election) | ~$387,000 | ~6.7% on his $5.8M share |
+| Form 5471 compliance cost | ~$15,000-25,000 | N/A |
+| Salary (if taking salary) + FEIE | Minimal (FEIE covers ~$130K) | 0-24% on excess |
+| **Total Jason US tax** | **~$400-450K** | **~6.9-7.8% on his share** |
+
+**Compared to all-US structure:** Jason would pay ~37% on $5.8M = ~$2.1M. TEC structure saves Jason ~$1.7M annually at Year 5 scale.
 
 ### 8.3 Investor Structure
 
 #### Operations Investors
 
 - **Vehicle:** TEC Operations HoldCo (Cayman Exempted Company)
-- **Equity structure:** Series Seed Preferred shares, 30% post-money
+- **Equity structure:** Series Seed Preferred shares, ~30% post-money (S.A. retains ~70%)
 - **Investment amount:** $4-10M (example)
 - **Rights:** Liquidation preference (1x non-participating), anti-dilution (broad-based weighted average), board observer seat, pro-rata rights
-- **Tax treatment:** 0% entity-level tax. Investor taxed only on dividends/capital gains at personal rate (US investors: qualified dividend rate ~15-20%, capital gains 0-20%).
+- **Tax treatment:** 0% entity-level tax. Non-US investors taxed only on dividends/capital gains at personal rate. **US investors: see CFC warning below.**
 
 #### Real Estate Investors
 
 - **Vehicle:** TEC Real Estate HoldCo (Cayman Exempted Company)
-- **Equity structure:** Series Seed Preferred shares, 30% post-money
+- **Equity structure:** Series Seed Preferred shares, ~30% post-money (S.A. retains ~70%)
 - **Investment amount:** $10-30M (for land acquisition + development)
 - **Rights:** Liquidation preference, anti-dilution, board representation (if large enough), information rights
-- **Tax treatment:** 0% entity-level tax. Investor receives dividends from Mexico RE → RE HoldCo (0% additional tax) → investor (taxed at personal rate).
+- **Tax treatment:** 0% entity-level tax. Non-US investors receive dividends from Mexico RE → RE HoldCo (0% additional tax) → investor (taxed at personal rate). **US investors: see CFC warning below.**
+
+#### US Investor CFC Warning
+
+Jason's indirect 35% ownership of each Cayman HoldCo means that **any additional US investor owning ≥10%** creates CFC risk at the HoldCo level:
+
+| US Investor Stake | Combined US % (Jason 35% + investor) | CFC at HoldCo Level? |
+|-------------------|--------------------------------------|---------------------|
+| <10% per investor | N/A (below 10% threshold, not a "US shareholder") | No additional CFC impact |
+| 10-14% | 45-49% | Not yet (below 50%) |
+| ≥16% | ≥51% | **YES — HoldCo becomes CFC independently** |
+| Multiple US investors totaling ≥16% (each ≥10%) | ≥51% | **YES** |
+
+**Recommendation for US investors:**
+- Structure investor shares as **non-voting preferred** (may avoid "US shareholder" classification under IRC §958 if combined voting power <10%)
+- **Cap any single US investor at <10%** of each HoldCo to avoid "US shareholder" status
+- Prioritize **non-US investors** (Middle East family offices, European funds, Asian capital) for >10% stakes
+- If US VCs insist on large stakes, consider a **blocker corporation** (US C-corp that invests) — investor pays 21% US corporate tax but avoids GILTI complexity
 
 #### Investor Diversification
 
-| Investor Type | Preferred Investment | Rationale |
-|---------------|---------------------|-----------|
-| **VC / Growth Equity** | Ops HoldCo | High-growth revenue model, platform scalability, data value |
-| **REIT / Real Estate Fund** | RE HoldCo | Tulum land appreciation, development upside, rental yield |
-| **Family Office** | Both (can take positions in Ops HoldCo AND RE HoldCo) | Diversification, different risk/return profiles |
+| Investor Type | Preferred Investment | CFC Consideration | Rationale |
+|---------------|---------------------|-------------------|-----------|
+| **Non-US VC / Growth Equity** | Ops HoldCo | No CFC issue | High-growth revenue model, platform scalability, data value |
+| **US VC / Growth Equity** | Ops HoldCo (via blocker or <10%) | Must be structured carefully | Same thesis but CFC-aware structuring needed |
+| **Non-US REIT / Real Estate Fund** | RE HoldCo | No CFC issue | Tulum land appreciation, development upside, rental yield |
+| **Family Office (non-US)** | Both | No CFC issue | Diversification, different risk/return profiles |
+| **Family Office (US)** | Both (via blockers) | Blocker recommended | Same thesis, US tax management via blocker entity |
 
-**Synergy:** Some investors (e.g., hospitality-focused funds) may invest in BOTH vehicles, benefiting from both revenue growth and real estate appreciation.
+**Target fundraise: $10-30M.** Given CFC constraints, prioritize international investor capital for large check sizes. US investors can participate via blocker structures or small (<10%) stakes.
 
 ---
 
@@ -750,7 +899,7 @@ If Ops HoldCo is deemed a PFIC (>75% of income is passive, OR >50% of assets pro
 
 | Risk | Severity | Mitigation |
 |------|----------|------------|
-| **Mexican tax authorities claim Ops HoldCo has PE in Mexico** | LOW | Ops HoldCo has NO office, employees, or directors in Mexico. Mexico OpCo is a separate legal entity (not a branch). All strategic decisions made outside Mexico. Founders reside in Dubai, not Mexico. |
+| **Mexican tax authorities claim Ops HoldCo has PE in Mexico** | LOW | Ops HoldCo has NO office, employees, or directors in Mexico. Mexico OpCo is a separate legal entity (not a branch). All strategic decisions made outside Mexico. Founders do not reside in Mexico (Nicholas TBD, Jason US-based or abroad). |
 | **Technology platform servers located in Mexico** | LOW | Use cloud hosting (AWS, Google Cloud) with servers outside Mexico. No physical server presence in Mexico. |
 
 ### 9.3 Cayman Economic Substance Risk
@@ -767,14 +916,17 @@ If Ops HoldCo is deemed a PFIC (>75% of income is passive, OR >50% of assets pro
 
 **Note:** If the structure were inverted (Mexico OpCo contracting services FROM Cayman and paying Cayman), REFIPRE would apply. The Platform-as-Principal model avoids this.
 
-### 9.5 US Founder CFC/GILTI Risk
+### 9.5 Jason's CFC/GILTI Tax Exposure
 
 | Risk | Severity | Mitigation |
 |------|----------|------------|
-| **IRS claims US founder has constructive ownership of PIF** | LOW | US founder is documented as NOT a PIF beneficiary. PIF beneficiaries are Canadian founder (and potentially Cyprus founder). US founder is employee only, with no ownership, no control, no distributions. |
-| **IRS claims US founder controls PIF via employment relationship** | VERY LOW | Employment with Ops HoldCo does not confer ownership of PIF. PIF is governed by Foundation Council (independent of US founder). Cayman entities have independent boards. |
+| **Jason's GILTI inclusion is higher than projected** | MEDIUM | Section 962 election with proper Mexico foreign tax credit documentation. Annual GILTI calculations by US international tax counsel. Conservative estimates already built into projections. |
+| **Section 962 election challenged or modified by IRS** | LOW | Section 962 is statutory (IRC §962). Well-established election. But IRS could issue new guidance narrowing its application — unlikely but monitor. |
+| **CFC income recharacterized as Subpart F (passive) instead of GILTI (active)** | MEDIUM | Ensure Ops HoldCo's income is demonstrably ACTIVE (client service contracts, not passive licensing or investment income). RE HoldCo rental income requires careful analysis — may need active real estate management to avoid passive characterization. |
+| **US investors trigger independent CFC at HoldCo level** | MEDIUM | Cap US investor ownership per HoldCo to avoid >50% aggregate US ownership. Use non-voting preferred shares for US investors. Prioritize non-US investors for large check sizes. |
+| **Form 5471 non-compliance penalties** | HIGH (if non-compliant) | Jason MUST file Form 5471 for S.A. + both Cayman HoldCos annually. Budget $15-25K for US international tax compliance. |
 
-**Critical documentation:** PIF private regulations, Foundation Council minutes, employment agreements, and explicit disclaimers of US founder ownership must be prepared by qualified US international tax counsel.
+**Critical: Jason's CFC/GILTI exposure is a MANAGED cost, not an avoidable one.** The structure minimizes his rate (~6.7% effective via Section 962) vs. the alternative (~37% if fully US-based). But it requires annual compliance, counsel engagement, and careful investor structuring.
 
 ### 9.6 Regulatory Risk Summary
 
@@ -783,8 +935,8 @@ If Ops HoldCo is deemed a PFIC (>75% of income is passive, OR >50% of assets pro
 | **Mexico** | Transfer pricing audit, REFIPRE challenges, PE claims | MEDIUM (Mexico is increasingly aggressive on TP) | Annual TP studies, conservative service fee margins, no Mexico-to-Cayman service payments, genuine Mexican substance (employees, facility) |
 | **Cayman** | Economic substance reporting, beneficial ownership disclosure | LOW (compliance-focused, not enforcement-heavy) | Annual ES notifications, maintain registered office, file beneficial ownership with competent authority (not public) |
 | **Panama** | PIF governance, anti-money laundering | LOW (Panama protects foundations; AML focused on banks) | Independent Foundation Council, clear beneficiary designation, AML-compliant banking |
-| **US (IRS)** | CFC/GILTI claims, Form 5471 | MEDIUM (IRS scrutinizes foreign structures involving US persons) | US founder as employee only (not owner), no PIF beneficiary status, document independence of foreign entities |
-| **Canada (CRA)** | Departure tax on emigration | TIME-SENSITIVE | Canadian founder must depart BEFORE seed round closes (pre-revenue = minimal deemed disposition) |
+| **US (IRS)** | CFC/GILTI compliance, Form 5471 filings, Section 962 election validity | HIGH (Jason is 50% owner of CFC chain — IRS will scrutinize) | Annual GILTI calculations by US international tax counsel, Section 962 election filed timely, Form 5471 for all 3 CFCs, proper foreign tax credit documentation |
+| **Canada (CRA)** | Departure tax on Nicholas's emigration/renunciation | TIME-SENSITIVE | Nicholas must depart/renounce BEFORE seed round closes (pre-revenue = minimal deemed disposition of PIF/S.A. shares) |
 
 ---
 
@@ -797,13 +949,13 @@ If Ops HoldCo is deemed a PFIC (>75% of income is passive, OR >50% of assets pro
 | **Service fee margin** | 8-10% (Mexico OpCo) | Higher Mexico tax (~$840K vs. $630K at 12%) but lower audit risk |
 | **Real estate lease** | Market rent at 75th percentile (conservative high rent) | Higher Mexico RE tax but easier to defend |
 | **Development costs** | Capitalize only hard costs on Mexico RE books | Lower cost basis, higher future capital gains tax |
-| **Founder residency** | All founders in Dubai, zero time in Mexico | Clear PE avoidance, but less operational presence |
+| **Founder residency** | Nicholas outside Mexico/US (0% personal). Jason files all CFC/GILTI forms conservatively. | Clear PE avoidance, full US compliance |
 | **IP ownership** | Ops HoldCo owns platform IP; consider separate IP HoldCo in different jurisdiction | Additional complexity, potentially lower risk |
 
-**Total effective tax rate (conservative):** ~2.8-3.2%
+**Total effective tax rate (conservative):** ~3.5-4.8% (including Jason's GILTI)
 
-**Advantages:** Easier to defend, lower audit risk, VC-acceptable
-**Disadvantages:** Pays slightly more tax (~$400K more annually at scale)
+**Advantages:** Easier to defend, lower audit risk, VC-acceptable, full US compliance
+**Disadvantages:** Pays more tax (~$400-600K more annually at scale)
 
 ### 10.2 Aggressive Model
 
@@ -813,12 +965,12 @@ If Ops HoldCo is deemed a PFIC (>75% of income is passive, OR >50% of assets pro
 | **Real estate lease** | Market rent at 25th percentile (aggressive low rent) | Lower Mexico RE tax but TP audit risk |
 | **Development costs** | Capitalize hard costs + soft costs + intercompany service fees on Mexico RE books | Maximum cost basis, minimum future capital gains tax |
 | **IP licensing** | Ops HoldCo licenses IP to Mexico OpCo (royalty income to Cayman, deduction for Mexico OpCo) | Could further reduce Mexico tax but triggers REFIPRE concerns |
-| **Founder residency** | Founders split time between Dubai and Mexico | Operational convenience but PE risk increases |
+| **Founder residency** | Founders split time between Mexico and base. Jason aggressively claims QBAI deductions. | Operational convenience but PE risk increases, IRS scrutiny risk |
 
-**Total effective tax rate (aggressive):** ~1.2-1.6%
+**Total effective tax rate (aggressive):** ~2.0-2.8% (including optimized Jason GILTI)
 
-**Advantages:** Maximum tax efficiency (~$600K less tax annually)
-**Disadvantages:** Higher audit risk, potential REFIPRE triggers, reputation risk, investor concerns
+**Advantages:** Maximum tax efficiency (~$400-600K less tax annually)
+**Disadvantages:** Higher audit risk, potential REFIPRE triggers, IRS challenge on GILTI optimization, reputation risk
 
 ### 10.3 Recommended Model (Balanced)
 
@@ -828,11 +980,11 @@ If Ops HoldCo is deemed a PFIC (>75% of income is passive, OR >50% of assets pro
 | **Real estate lease** | Market rent at 50th percentile (median) | Fair market value, strong comparables |
 | **Development costs** | Capitalize hard costs + legitimate soft costs (architecture, engineering, legal, permits) + genuine intercompany development services | Strong cost basis without artificial inflation |
 | **No IP licensing to Mexico** | Mexico OpCo uses platform under service arrangement (no separate royalty) | Avoids REFIPRE, simplifies structure |
-| **Founder residency** | Dubai primary (>183 days), short visits to Mexico for ops (<30 days/year per founder) | Clear tax residency, minimal PE risk, operational engagement |
+| **Founder residency** | Nicholas in non-US, non-Mexico jurisdiction (>183 days). Jason files conservatively with §962 election. Short Mexico visits (<30 days/year per founder). | Clear tax residency, minimal PE risk, full US compliance |
 
-**Total effective tax rate (balanced):** ~2.0-2.4%
+**Total effective tax rate (balanced):** ~2.8-3.5% (including Jason's GILTI via §962)
 
-**This is the recommended model** — balances tax efficiency, legal defensibility, investor acceptability, and operational practicality.
+**This is the recommended model** — balances tax efficiency, legal defensibility, investor acceptability, full US compliance for Jason, and operational practicality.
 
 ---
 
@@ -840,13 +992,14 @@ If Ops HoldCo is deemed a PFIC (>75% of income is passive, OR >50% of assets pro
 
 ### 11.1 Optimal Structure
 
-**Five-entity architecture:**
+**Six-entity architecture (3 jurisdictions: Panama, Cayman, Mexico):**
 
-1. **Panama Private Interest Foundation** — Ultimate asset protection, beneficiary privacy, 0% tax
-2. **TEC Operations HoldCo (Cayman)** — Collects client revenue, owns platform IP, investable vehicle for operations investors
-3. **TEC Real Estate HoldCo (Cayman)** — Owns real estate assets, investable vehicle for real estate investors
-4. **TEC Operating Company (Mexico)** — Delivers services, employs local staff, 30% on 8-12% margin
-5. **TEC Real Estate Entity (Mexico)** — Acquires land, develops property, leases to OpCo, 30% on rent minus depreciation
+1. **Nicholas's Panama PIF** — Asset protection, beneficiary privacy for Nicholas (50% founder)
+2. **TEC Holdings S.A. (Panama)** — Central governance, shareholders' agreement, 50% Nicholas's PIF + 50% Jason, owns 70% of both Cayman HoldCos
+3. **TEC Operations HoldCo (Cayman)** — Collects client revenue, owns platform IP, investable vehicle for operations investors
+4. **TEC Real Estate HoldCo (Cayman)** — Owns real estate assets, investable vehicle for real estate investors
+5. **TEC Operating Company (Mexico)** — Delivers services, employs local staff, 30% on 8-12% margin
+6. **TEC Real Estate Entity (Mexico)** — Acquires land, develops property, leases to OpCo, 30% on rent minus depreciation
 
 ### 11.2 Revenue Flow Model: VIABLE
 
@@ -880,17 +1033,17 @@ If Ops HoldCo is deemed a PFIC (>75% of income is passive, OR >50% of assets pro
 ✅ **IP ownership:** Ops HoldCo (Cayman) owns platform IP, medical protocols, brand
 ✅ **Data governance:** Ops HoldCo controls data policies, access, monetization
 ✅ **Data collection:** Mexico OpCo collects data operationally; client agreements assign rights to Ops HoldCo
-✅ **Privacy protection:** Cayman has no forced-disclosure regime; PIF ownership layer adds beneficiary privacy
+✅ **Privacy protection:** Cayman has no forced-disclosure regime; Nicholas's PIF + S.A. intermediary layers add beneficiary privacy
 
-### 11.5 Founders & Investors: STRUCTURE ACCOMMODATES BOTH
+### 11.5 Founders & Investors: MANAGED WITHIN CONSTRAINTS
 
-✅ **Canadian/US/Cyprus founders:** All reside in Dubai (Golden Visas), 0% or minimal personal tax
-✅ **US founder:** Employee only (not PIF beneficiary) → avoids CFC/GILTI
-✅ **Operations investors:** Buy 30% of Ops HoldCo (Cayman) — VC-standard vehicle
-✅ **Real estate investors:** Buy 30% of RE HoldCo (Cayman) — clean RE exposure
-✅ **No tax treaty complications:** Cayman has no tax treaties (because there's no tax to treaty against)
+✅ **Nicholas (50%):** PIF → S.A. → 0% personal tax (renounced Canada, non-US resident)
+⚠️ **Jason (50%, US citizen):** Direct → S.A. → ~6.7% effective via Section 962 election on GILTI. This is the structure's primary tax cost at the personal level, but saves ~$1.7M/year vs. all-US structure.
+✅ **Operations investors:** Buy ~30% of Ops HoldCo (Cayman) — VC-standard vehicle
+✅ **Real estate investors:** Buy ~30% of RE HoldCo (Cayman) — clean RE exposure
+⚠️ **US investor concentration:** Must be managed — cap individual US investors at <10% per HoldCo to avoid compounding CFC exposure. Prioritize non-US capital for large check sizes.
 
-### 11.6 Tax Efficiency: ~2.0-2.4% TOTAL RATE
+### 11.6 Tax Efficiency: ~2.8-3.5% TOTAL RATE
 
 | Level | Tax Paid (Year 5) | Rate |
 |-------|-------------------|------|
@@ -898,16 +1051,21 @@ If Ops HoldCo is deemed a PFIC (>75% of income is passive, OR >50% of assets pro
 | **Mexico RE** (30% on rent minus depreciation) | ~$0-150K | Minimal (depreciation offset) |
 | **Ops HoldCo (Cayman)** | $0 | 0% |
 | **RE HoldCo (Cayman)** | $0 | 0% |
-| **Panama PIF** | $0 | 0% |
-| **Founders (personal)** | ~$93K | ~0.3% of $35M revenue |
-| **TOTAL** | **~$723-873K** | **~2.0-2.5%** |
+| **Panama S.A.** | $0 | 0% (foreign-source) |
+| **Nicholas's PIF** | $0 | 0% |
+| **Nicholas (personal)** | $0 | 0% (non-US resident, PIF distributions) |
+| **Jason (personal — GILTI via §962)** | ~$387-450K | ~6.7-7.8% on his ~$5.8M share |
+| **TOTAL** | **~$1.0-1.2M** | **~2.8-3.5%** |
 
 **Compared to:**
 - All-Mexico: 30% = $10.6M tax
-- Delaware + Mexico: ~22% = $7.8M tax
+- Delaware C-Corp + Mexico: ~22% = $7.8M tax
 - Single Cayman (no RE separation): ~3.4% = $1.2M tax
+- Same structure WITHOUT US founder: ~1.8% = ~$630K tax
 
-**Tax saved annually (vs. all-Mexico):** ~$9.8M at Year 5 scale
+**Tax saved annually (vs. all-Mexico):** ~$9.4M at Year 5 scale
+**Tax saved annually (vs. Delaware + Mexico):** ~$6.6M at Year 5 scale
+**Cost of Jason's US citizenship (vs. non-US founder):** ~$387-450K/year at Year 5 scale
 
 ### 11.7 Conservative vs. Aggressive: BALANCED MODEL RECOMMENDED
 
@@ -915,12 +1073,14 @@ If Ops HoldCo is deemed a PFIC (>75% of income is passive, OR >50% of assets pro
 - 10-12% service fee margin (Mexico OpCo)
 - Market rent at 50th percentile (Mexico RE → OpCo lease)
 - Capitalize hard costs + legitimate soft costs + genuine intercompany services
-- Founders reside in Dubai (>183 days), minimal time in Mexico
+- Nicholas resides in non-US, non-Mexico jurisdiction (>183 days)
+- Jason files all US CFC/GILTI returns conservatively with Section 962 election
 - No IP licensing to Mexico (avoids REFIPRE complexity)
+- Cap US investors at <10% per HoldCo; prioritize non-US capital
 
-**Effective rate:** ~2.0-2.4%
-**Audit risk:** Low-Medium
-**Investor acceptability:** High
+**Effective rate:** ~2.8-3.5% (including Jason's GILTI)
+**Audit risk:** Low-Medium (Mexico), Medium (US/IRS for Jason)
+**Investor acceptability:** High (Cayman Exempted Co. is VC-standard)
 
 ---
 
@@ -930,34 +1090,37 @@ If Ops HoldCo is deemed a PFIC (>75% of income is passive, OR >50% of assets pro
 
 | Counsel | Jurisdiction | Scope | Estimated Cost |
 |---------|-------------|-------|----------------|
-| **Panama counsel** | Panama | PIF formation, asset protection analysis | $8,000-15,000 |
-| **Cayman counsel** | Cayman Islands | Dual HoldCo formation, SHA drafting, Tax Undertakings | $15,000-25,000 |
+| **Panama counsel** | Panama | Nicholas's PIF formation + TEC Holdings S.A. formation, shareholders' agreement, asset protection analysis | $10,000-20,000 |
+| **Cayman counsel** | Cayman Islands | Dual HoldCo formation, SHA drafting, Tax Undertakings, investor share classes | $15,000-25,000 |
 | **Mexican counsel** | Mexico (Tulum) | Dual entity formation (OpCo + RE), restricted zone analysis, fideicomiso if needed | $10,000-20,000 |
-| **US international tax attorney** | US | CFC/GILTI analysis, FEIE strategy, US founder structure | $8,000-15,000 |
-| **Canadian tax counsel** | Canada | Departure tax calculation, emigration strategy | $5,000-10,000 |
+| **US international tax attorney** | US | Jason's CFC/GILTI analysis, Section 962 strategy, Form 5471 planning, investor CFC structuring, blocker entity design | $15,000-25,000 |
+| **Canadian tax counsel** | Canada | Nicholas's departure tax calculation, emigration strategy, renunciation planning | $5,000-10,000 |
 | **Transfer pricing specialist** | International | TP study framework, benchmarking methodology | $15,000-30,000 |
 
-**Total Phase 1 cost:** $61,000-115,000
+**Total Phase 1 cost:** $70,000-130,000
 
 ### Phase 2: Entity Formation (Months 2-4)
 
 | Step | Timeline | Dependencies |
 |------|----------|--------------|
-| Form Panama PIF | 2-3 weeks | Panama counsel engaged |
+| Form Nicholas's Panama PIF | 2-3 weeks | Panama counsel engaged |
+| Form TEC Holdings S.A. (Panama) | 2-3 weeks | Panama counsel engaged, PIF formed |
+| Issue S.A. shares: 50% to Nicholas's PIF, 50% to Jason | 1 week | S.A. formed, PIF formed |
 | Form TEC Ops HoldCo (Cayman) | 1-2 weeks | Cayman counsel engaged |
 | Form TEC RE HoldCo (Cayman) | 1-2 weeks | Cayman counsel engaged |
+| S.A. subscribes for 70% of each Cayman HoldCo | 1 week | S.A. + both HoldCos formed |
 | Obtain Tax Undertaking Certificates (both Cayman entities) | 1-2 weeks | Cayman entities formed |
 | Form TEC Operating Company (Mexico) | 4-6 weeks | Mexican counsel engaged, restricted zone resolved |
 | Form TEC Real Estate Entity (Mexico) | 4-8 weeks | Mexican counsel engaged, restricted zone resolved, fideicomiso determination |
 | Establish fideicomiso (if required) | 4-6 weeks | SRE permit obtained |
 
-**Total Phase 2 cost:** $25,000-45,000
+**Total Phase 2 cost:** $30,000-50,000
 
 ### Phase 3: Capitalization & Agreements (Months 4-6)
 
 | Step | Timeline | Dependencies |
 |------|----------|--------------|
-| PIF capitalizes both Cayman HoldCos (70% equity) | 1 week | All entities formed |
+| S.A. capitalizes both Cayman HoldCos (70% equity) | 1 week | All entities formed |
 | Operations investors invest in Ops HoldCo (30% equity) | Per investor timeline | Cayman Ops HoldCo formed, SHA executed |
 | Real estate investors invest in RE HoldCo (30% equity) | Per investor timeline | Cayman RE HoldCo formed, SHA executed |
 | Ops HoldCo contributes equity to Mexico OpCo | 1-2 weeks | Both entities formed |
@@ -976,13 +1139,15 @@ If Ops HoldCo is deemed a PFIC (>75% of income is passive, OR >50% of assets pro
 | **Transfer pricing studies** (service fee + lease) | Annual | $15,000-30,000 |
 | **Cayman compliance** (2 entities: registered office, annual fees, audits) | Annual | $32,000-54,000 |
 | **Panama PIF maintenance** (tax, agent fee) | Annual | $1,000-2,000 |
+| **Panama S.A. maintenance** (registered agent, annual fee) | Annual | $2,000-4,000 |
 | **Mexico compliance** (2 entities: accounting, tax filings, comisario) | Annual | $20,000-40,000 |
-| **US/Canadian/Cyprus tax filings** (founders) | Annual | $10,000-20,000 |
+| **Jason's US tax compliance** (Form 5471 x3, GILTI calc, §962 election, FBAR, Form 8938) | Annual | $15,000-25,000 |
+| **Nicholas's tax filings** (depends on residency jurisdiction) | Annual | $2,000-5,000 |
 | **Legal counsel (general)** | As needed | $15,000-30,000 |
 
-**Total ongoing cost (Year 1):** ~$93,000-176,000
+**Total ongoing cost (Year 1):** ~$102,000-190,000
 
-**Context:** At $10.7M Year 1 revenue, ongoing compliance is ~0.9-1.6% of revenue. At $35.5M Year 5 revenue, ongoing compliance is ~0.3-0.5% of revenue.
+**Context:** At $10.7M Year 1 revenue, ongoing compliance is ~1.0-1.8% of revenue. At $35.5M Year 5 revenue, ongoing compliance is ~0.3-0.5% of revenue.
 
 **Tax saved vs. all-Mexico structure (Year 1):** ~$3.2M
 **Tax saved vs. all-Mexico structure (Year 5):** ~$9.8M
@@ -993,12 +1158,14 @@ If Ops HoldCo is deemed a PFIC (>75% of income is passive, OR >50% of assets pro
 
 | Milestone | Target Date | Key Outcome |
 |-----------|-------------|-------------|
-| **All entities formed** | Month 4 | Five-entity structure operational |
+| **All entities formed** | Month 4 | Six-entity structure operational (PIF, S.A., 2 Cayman HoldCos, 2 Mexico entities) |
 | **First client payment received** | Month 6 | Revenue flows to Ops HoldCo (Cayman) at 0% |
 | **First service fee paid to Mexico OpCo** | Month 6 | Platform-as-Principal model activated |
 | **Land acquisition complete** | Month 6-12 | Mexico RE entity owns Tulum property |
 | **First TP study filed** | Month 12 | Transfer pricing documentation complete |
 | **Year 1 tax filings** | Month 13 | All entities file first annual returns |
+| **Jason's first Form 5471 + GILTI filing** | Month 16 (April 15) | US tax return with Section 962 election, Form 5471 x3, GILTI calculation |
+| **Nicholas's Canada departure finalized** | Month 3-6 | Final Canadian return filed, NR73 submitted, residency certificate obtained |
 
 ---
 
@@ -1009,7 +1176,7 @@ If Ops HoldCo is deemed a PFIC (>75% of income is passive, OR >50% of assets pro
 | **Cayman Islands** | 0% unconditional | NO (for holding companies) | Industry standard | Clean | $8-14K | $16-27K per entity | **SELECTED — VC standard, zero tax, zero substance** |
 | **Panama (PIF)** | 0% on foreign income | Foundation Council (minimal) | Moderate | Improving | $2-4K | $1-2K | **SELECTED — Asset protection, beneficiary privacy** |
 | **Mexico** | 30% | YES (employees, office, operations) | Standard | OECD member | $3-6K | $10-20K per entity | **REQUIRED — Operations and real estate must be in Mexico** |
-| Dubai (QFZP) | 0% on qualifying B2B | YES (office, employees, substance) | Growing | Clean | $11-16K | $50-80K | Not needed for TEC (no Light Brands Studio) |
+| Dubai (QFZP) | 0% on qualifying B2B | YES (office, employees, substance) | Growing | Clean | $11-16K | $50-80K | Not needed for TEC — no operational presence, but could serve as founder residency |
 | Singapore | 0-17% (conditional) | YES (real presence) | High (Asia VC) | Excellent | $8-15K | $20-40K | Higher tax, substance burden |
 | Cook Islands (IBC) | 0% on international income | Minimal (registered agent) | Low (asset protection niche) | Adequate | $4-7K | $3-5K | Strong asset protection but less VC-familiar than Cayman |
 | Delaware (C-Corp) | 21% federal + state | YES | Highest (US VC) | N/A (US) | $2-5K | $5-10K | **21% federal tax disqualifying** |
@@ -1019,11 +1186,17 @@ If Ops HoldCo is deemed a PFIC (>75% of income is passive, OR >50% of assets pro
 
 ## Appendix B: Annual Compliance Checklist
 
-### Panama PIF
+### Nicholas's Panama PIF
 - [ ] Pay annual tax ($250 USD)
 - [ ] Pay registered agent fee ($750-1,500)
 - [ ] Foundation Council meeting (at least annually)
 - [ ] Review private regulations and beneficiaries
+
+### TEC Holdings S.A. (Panama)
+- [ ] Pay annual registered agent fee ($1,500-3,000)
+- [ ] Pay annual franchise tax
+- [ ] Board/shareholder meeting (at least annually)
+- [ ] Maintain share register (50% Nicholas's PIF / 50% Jason)
 
 ### TEC Ops HoldCo (Cayman)
 - [ ] Pay government annual fee ($3,000-5,000)
@@ -1059,10 +1232,24 @@ If Ops HoldCo is deemed a PFIC (>75% of income is passive, OR >50% of assets pro
 - [ ] Property tax (predial) payments
 - [ ] Fideicomiso renewal (if applicable, every 50 years)
 
-### Founders (Personal)
-- [ ] US founder: File 1040, Form 2555 (FEIE), FBAR (if foreign accounts >$10K), Form 8938 (if foreign assets >$200K)
-- [ ] Canadian founder: File final Canadian tax return (year of departure), NR73 (determination of residency status), confirm UAE residency certificate
-- [ ] Cyprus founder: File Cyprus tax return (if Cypriot resident), track 90-day overseas employment for exemption
+### Jason Sparks (US Citizen, 50% Owner)
+- [ ] File Form 1040 (US individual return)
+- [ ] File Form 5471 for TEC Holdings S.A. (Panama)
+- [ ] File Form 5471 for TEC Operations HoldCo (Cayman)
+- [ ] File Form 5471 for TEC Real Estate HoldCo (Cayman)
+- [ ] Calculate GILTI inclusion and make Section 962 election
+- [ ] Claim foreign tax credits for Mexico taxes paid by CFCs
+- [ ] File Form 2555 (FEIE) if taking salary and residing outside US
+- [ ] File FBAR (FinCEN 114) for all foreign accounts >$10K aggregate
+- [ ] File Form 8938 (FATCA) if foreign assets >$200K (end of year) or $300K (at any time)
+- [ ] Make quarterly estimated tax payments on projected GILTI inclusion
+
+### Nicholas Courschesne (Renouncing Canada, 50% Owner via PIF)
+- [ ] File final Canadian tax return (year of departure) — departure tax on deemed disposition
+- [ ] File NR73 (determination of residency status) with CRA
+- [ ] Obtain residency certificate from new jurisdiction (Costa Rica, Panama, or Dubai)
+- [ ] File tax return in new residency jurisdiction (if required)
+- [ ] Confirm PIF distributions are not taxable in residency jurisdiction
 
 ### Transfer Pricing (All Intercompany Transactions)
 - [ ] Update TP study for Ops HoldCo ↔ Mexico OpCo service fee
@@ -1076,15 +1263,19 @@ If Ops HoldCo is deemed a PFIC (>75% of income is passive, OR >50% of assets pro
 
 ### For Cayman Counsel
 1. Confirm that dual Cayman HoldCos (Ops + RE) are exempt from Economic Substance Act requirements for holding IP and collecting revenue from clients.
-2. Draft Shareholder Agreements for both HoldCos — standard VC terms (liquidation preference, anti-dilution, board composition, drag-along/tag-along).
-3. Confirm that 20-year Tax Undertaking Certificates guarantee 0% tax even if Cayman introduces corporate tax in the future.
-4. Advise on director/officer requirements — can directors be non-Cayman residents?
+2. Draft Shareholder Agreements for both HoldCos — S.A. holds 70% common shares, investor terms include standard VC provisions (liquidation preference, anti-dilution, board composition, drag-along/tag-along).
+3. **US investor share class design:** Can non-voting preferred shares for US investors avoid "US shareholder" classification under IRC §958 (relevant to CFC aggregation with Jason's indirect 35%)?
+4. Confirm that 20-year Tax Undertaking Certificates guarantee 0% tax even if Cayman introduces corporate tax in the future.
+5. Advise on director/officer requirements — can directors be non-Cayman residents?
+6. **Beneficial ownership:** Confirm that S.A. (not individual founders) is reported as beneficial owner. What triggers look-through to Jason/Nicholas?
 
 ### For Panama Counsel
-1. Confirm that PIF paying 0% on foreign-source income applies when PIF owns equity in Cayman companies receiving international revenue.
-2. Draft PIF private regulations naming beneficiaries (Canadian founder, Cyprus founder) and explicitly excluding US founder.
-3. Confirm that PIF Foundation Council can include non-Panamanian members.
-4. Advise on annual reporting requirements for PIF.
+1. **PIF formation:** Form Nicholas's PIF with beneficiary = Nicholas Courschesne. Confirm 0% tax on foreign-source income when PIF owns equity in Panama S.A.
+2. **S.A. formation:** Form TEC Holdings S.A. Issue shares: 50% to Nicholas's PIF, 50% to Jason Sparks (US citizen, direct holding). Draft shareholders' agreement with 50/50 governance and deadlock resolution.
+3. **S.A. → Cayman ownership:** Confirm S.A. can hold 70% equity in two Cayman Exempted Companies without Panama tax implications.
+4. Confirm that PIF Foundation Council can include non-Panamanian members.
+5. Advise on annual reporting requirements for both PIF and S.A.
+6. **Jason's direct holding:** Are there any Panama implications of a US citizen holding 50% of a Panama S.A. directly (without PIF)?
 
 ### For Mexican Counsel
 1. **Restricted zone analysis:** Can TEC Real Estate Entity (Mexican company with foreign shareholders) own land directly in Tulum for COMMERCIAL hospitality use under Article 10-A, or is fideicomiso required?
@@ -1093,11 +1284,17 @@ If Ops HoldCo is deemed a PFIC (>75% of income is passive, OR >50% of assets pro
 4. Confirm that RE entity with ZERO employees is exempt from PTU (10% profit sharing) on capital gains upon property sale.
 5. Advise on development cost capitalization — what soft costs (architecture, engineering, project management fees paid to Cayman entities) can be capitalized on Mexican RE entity books?
 
-### For US International Tax Attorney
-1. Confirm that US founder as employee (not owner/beneficiary) of Ops HoldCo avoids CFC, GILTI, Subpart F, and Form 5471 filing requirements.
-2. Confirm that FEIE ($130K exclusion) applies to salary from Cayman employer while residing in Dubai.
-3. Advise on PFIC risk — is Ops HoldCo a PFIC given that it collects service revenue (active income)?
-4. Confirm that US founder NOT being PIF beneficiary is sufficient to avoid constructive ownership claims.
+### For US International Tax Attorney (CRITICAL — Jason's Structure)
+1. **CFC confirmation:** Jason owns 50% of Panama S.A. which owns 70% of two Cayman HoldCos. Confirm CFC status of S.A. and both HoldCos. Map the full attribution chain under IRC §958.
+2. **GILTI calculation:** Model Jason's GILTI inclusion at Year 1 ($10.7M revenue) and Year 5 ($35.5M revenue). What is QBAI (tangible asset base) in Mexico entities?
+3. **Section 962 election:** Confirm Section 962 is available for Jason. Model the effective rate: 21% corporate rate on 50%-reduced GILTI, minus foreign tax credits for Mexico taxes. What is the net additional tax on actual distributions (the "Section 962 haircut")?
+4. **Subpart F vs. GILTI:** Confirm that Ops HoldCo client revenue is ACTIVE (GILTI, not Subpart F). Analyze RE HoldCo rental income — is it passive (Subpart F) or active?
+5. **Form 5471:** Jason must file for S.A., Ops HoldCo, and RE HoldCo. Confirm categories (2, 4, or 5) and information requirements.
+6. **Investor CFC aggregation:** If US investors buy into Cayman HoldCos, at what threshold does CFC trigger independently at the HoldCo level? Can non-voting preferred shares avoid "US shareholder" classification?
+7. **Blocker entity:** If large US VCs want >10% of a HoldCo, design a blocker structure (US C-corp investing in Cayman HoldCo) that limits CFC exposure to other investors.
+8. **PFIC risk:** Is RE HoldCo at risk of PFIC classification due to rental income? How to mitigate?
+9. **FEIE:** If Jason takes salary from Ops HoldCo while residing outside the US, confirm FEIE covers the first ~$130K.
+10. **Estimated tax payments:** What quarterly estimated payments should Jason make on projected GILTI inclusion?
 
 ### For Transfer Pricing Specialist
 1. Benchmark study: What is the defensible arm's length margin for Mexico OpCo as a limited-risk service provider in hospitality/wellness? 8-12% range acceptable?
@@ -1105,14 +1302,16 @@ If Ops HoldCo is deemed a PFIC (>75% of income is passive, OR >50% of assets pro
 3. DEMPE analysis: Document that Ops HoldCo performs Development, Enhancement, Maintenance, Protection, and Exploitation of IP (not Mexico OpCo).
 4. Real estate lease: Benchmark arm's length rental rates for commercial hospitality properties in Riviera Maya / Tulum.
 
-### For Canadian Tax Counsel
-1. Calculate departure tax for Canadian founder emigrating to UAE — what is the deemed disposition value pre-seed round?
-2. Confirm that UAE residency certificate + departure from Canada eliminates Canadian tax on future PIF distributions.
-3. Confirm that PIF distributions are not taxable in Canada if Canadian founder is non-resident and PIF is offshore.
-4. Advise on NR73 filing and CRA determination process.
+### For Canadian Tax Counsel (Nicholas's Renunciation)
+1. **Departure tax:** Calculate departure tax for Nicholas emigrating from Canada — what is the deemed disposition value of his S.A. shares (held via PIF) pre-seed round? If PIF was formed BEFORE acquiring S.A. shares, is departure tax avoided?
+2. **Timing:** Must Nicholas depart Canada BEFORE the seed round closes to avoid high deemed disposition?
+3. **Renunciation vs. emigration:** Nicholas is renouncing Canadian citizenship entirely (not just emigrating). What are the tax implications of full renunciation vs. maintaining citizenship with non-resident status?
+4. **PIF distributions:** Confirm that PIF distributions are not taxable in Canada if Nicholas is a non-resident and non-citizen. Are there any trailing Canadian tax obligations?
+5. **NR73 filing:** Advise on NR73 filing and CRA determination process for residency severance.
+6. **New residency:** Nicholas may establish residency in Costa Rica, Panama, or Dubai. Which is most favorable for receiving PIF distributions?
 
 ---
 
-*This document presents a comprehensive strategic architecture for Transformational Epicenter as a standalone entity. All tax treatments described are based on current law in each jurisdiction. Implementation requires validation by qualified legal and tax counsel in Panama, Cayman Islands, Mexico, United States, and Canada. This is NOT legal or tax advice — it is a strategic framework for counsel review.*
+*This document presents a comprehensive strategic architecture for Transformational Epicenter as a standalone entity, completely separate from Light Brands. All tax treatments described are based on current law in each jurisdiction. Jason Sparks' CFC/GILTI analysis is based on IRC §§951, 951A, 958, 962, and 250 as of February 2026 — US tax law changes could significantly alter these projections. Implementation requires validation by qualified legal and tax counsel in Panama, Cayman Islands, Mexico, United States, and Canada. This is NOT legal or tax advice — it is a strategic framework for counsel review.*
 
-*Prepared February 2026*
+*Prepared February 2026 — Jason Sparks (50%) + Nicholas Courschesne (50%)*
