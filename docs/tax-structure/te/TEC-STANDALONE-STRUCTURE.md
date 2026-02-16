@@ -62,33 +62,33 @@ graph TB
     end
 
     subgraph "FIXED — Holding Layer (Panama)"
-        SA["TEC HOLDINGS S.A.<br/>(Panama Sociedad Anonima)<br/>0% tax on foreign income<br/>50% Nicholas's PIF / 50% Jason"]
+        SA["TEC HOLDINGS S.A.<br/>Panama — 0% foreign income<br/>50% Nicholas PIF / 50% Jason"]
     end
 
     subgraph "FIXED — Investment Layer (Cayman Islands)"
-        OPS_HQ["TEC OPERATIONS HOLDCO<br/>(Cayman Exempted Co.) — 0% tax<br/>Owns: ALL OpCos worldwide + Platform IP<br/>Collects ALL client revenue globally<br/>~70% S.A. + ~30% Operations Investors"]
+        OPS_HQ["TEC OPS HOLDCO<br/>Cayman — 0% tax<br/>ALL OpCos + Platform IP<br/>70% S.A. / 30% Investors"]
 
-        RE_HQ["TEC REAL ESTATE HOLDCO<br/>(Cayman Exempted Co.) — 0% tax<br/>Owns: ALL RECos worldwide<br/>Controls all land & buildings globally<br/>~70% S.A. + ~30% Real Estate Investors"]
+        RE_HQ["TEC RE HOLDCO<br/>Cayman — 0% tax<br/>ALL RECos + Real Estate<br/>70% S.A. / 30% Investors"]
     end
 
     subgraph "Location 1: Mexico (Tulum)"
-        MX_OPS["TEC MEXICO OPCO<br/>(S. de R.L. de C.V.)<br/>30% on margin only<br/>Staff, services, facilities"]
-        MX_RE["TEC MEXICO RECO<br/>(S. de R.L. de C.V.)<br/>30% on rent minus depreciation<br/>Tulum land & buildings"]
+        MX_OPS["TEC MEXICO OPCO<br/>S. de R.L. de C.V.<br/>30% on margin only"]
+        MX_RE["TEC MEXICO RECO<br/>S. de R.L. de C.V.<br/>30% on rent - depreciation"]
     end
 
     subgraph "Location 2: Costa Rica"
-        CR_OPS["TEC COSTA RICA OPCO<br/>(S.R.L.)<br/>30% on margin only<br/>Staff, services, facilities"]
-        CR_RE["TEC COSTA RICA RECO<br/>(S.R.L.)<br/>30% on rent minus depreciation<br/>Land & buildings"]
+        CR_OPS["TEC COSTA RICA OPCO<br/>S.R.L. — 30% on margin"]
+        CR_RE["TEC COSTA RICA RECO<br/>S.R.L. — 30% on rent - depreciation"]
     end
 
     subgraph "Location N: (Future — Portugal, Thailand, etc.)"
-        N_OPS["TEC [COUNTRY] OPCO<br/>(local entity type)<br/>Local tax on margin only<br/>Staff, services, facilities"]
-        N_RE["TEC [COUNTRY] RECO<br/>(local entity type)<br/>Local tax on rent minus depreciation<br/>Land & buildings"]
+        N_OPS["TEC [COUNTRY] OPCO<br/>Local entity type<br/>Local tax on margin"]
+        N_RE["TEC [COUNTRY] RECO<br/>Local entity type<br/>Local tax on rent - depreciation"]
     end
 
     subgraph "Investors"
-        OPS_INV["Operations Investors<br/>~30% of Ops HoldCo<br/>Exposure to ALL locations' revenue"]
-        RE_INV["Real Estate Investors<br/>~30% of RE HoldCo<br/>Exposure to ALL locations' real estate"]
+        OPS_INV["Ops Investors<br/>~30% of Ops HoldCo"]
+        RE_INV["RE Investors<br/>~30% of RE HoldCo"]
     end
 
     PIF -->|"50%"| SA
@@ -699,13 +699,13 @@ TEC collects extraordinarily sensitive data:
 ```mermaid
 graph TB
     CLIENTS["Clients / Guests"]
-    MEXICO_OPS_DATA["TEC Operating Company<br/>(Mexico)<br/>DATA COLLECTOR<br/>NOT data owner"]
-    OPS_CAYMAN_DATA["TEC Ops HoldCo<br/>(Cayman)<br/>DATA OWNER<br/>Controls policies, access, monetization"]
+    MEXICO_OPS_DATA["TEC Mexico OpCo<br/>DATA COLLECTOR<br/>(not data owner)"]
+    OPS_CAYMAN_DATA["TEC Ops HoldCo (Cayman)<br/>DATA OWNER<br/>Controls access + monetization"]
 
     CLIENTS -->|"Provides health data<br/>Signs data agreement"| MEXICO_OPS_DATA
     MEXICO_OPS_DATA -->|"Client agreements assign<br/>data rights to Ops HoldCo"| OPS_CAYMAN_DATA
 
-    OPS_CAYMAN_DATA -.->|"No forced disclosure<br/>No Cayman data privacy law<br/>(but respects source jurisdictions)"| OPS_CAYMAN_DATA
+    OPS_CAYMAN_DATA -.->|"No forced disclosure<br/>(respects source jurisdictions)"| OPS_CAYMAN_DATA
 
     style CLIENTS fill:#2d4059,stroke:#ea5455,color:#fff
     style MEXICO_OPS_DATA fill:#16213e,stroke:#0f3460,color:#fff
@@ -754,11 +754,11 @@ graph TB
     end
 
     subgraph "Personal Level"
-        NICH["Nicholas: $0 (renounced Canada, non-US resident)<br/>PIF distributions = 0% personal tax"]
-        JASON_TAX["Jason: ~$350-900K (US citizen, 50% owner)<br/>GILTI + Section 962 election<br/>~10.5-21% on his share of CFC income"]
+        NICH["Nicholas: $0<br/>Renounced Canada<br/>PIF → 0% personal tax"]
+        JASON_TAX["Jason: ~$350-900K<br/>US citizen, 50% owner<br/>GILTI + §962 election"]
     end
 
-    TOTAL["TOTAL TAX: ~$980K-1.7M<br/>Effective Rate: ~2.8-4.8%<br/>(driven by Jason's US obligations)"]
+    TOTAL["TOTAL TAX: ~$980K-1.7M<br/>Effective: ~2.8-4.8%"]
 
     REV --> OPS_CAY
     REV --> RE_CAY

@@ -57,23 +57,23 @@ This is the single most time-sensitive decision. You must renounce **before** yo
 
 ```mermaid
 graph TD
-    START["RENUNCIATION DAY:<br/>Are you a covered expatriate?"]
+    START["RENUNCIATION DAY"]
 
     NW["Net worth > $2M?"]
-    TAX["Avg annual tax > $190K<br/>(last 5 years)?"]
-    COMPLY["5-year tax compliance<br/>certified?"]
+    TAX["Avg tax > $190K/yr?"]
+    COMPLY["5-year compliance?"]
 
-    COVERED["⚠️ COVERED EXPATRIATE<br/>• Exit tax (mark-to-market)<br/>• 40% transfer tax on gifts to US persons FOREVER<br/>• 30% WHT on retirement distributions"]
+    COVERED["COVERED EXPATRIATE<br/>Exit tax + 40% gift tax<br/>to US persons FOREVER"]
 
-    CLEAR["✅ NOT COVERED<br/>• No exit tax<br/>• Unlimited tax-free gifts to wife<br/>• No transfer tax<br/>• Complete freedom"]
+    CLEAR["NOT COVERED<br/>No exit tax, unlimited<br/>tax-free gifts to wife"]
 
     START --> NW
     NW -->|"YES"| COVERED
     NW -->|"NO"| TAX
     TAX -->|"YES"| COVERED
     TAX -->|"NO"| COMPLY
-    COMPLY -->|"NO (failed)"| COVERED
-    COMPLY -->|"YES (compliant)"| CLEAR
+    COMPLY -->|"NO"| COVERED
+    COMPLY -->|"YES"| CLEAR
 
     style COVERED fill:#8b0000,stroke:#ff6347,color:#fff
     style CLEAR fill:#006400,stroke:#90ee90,color:#fff
@@ -144,17 +144,17 @@ If you ARE a covered expatriate:
 
 ```mermaid
 graph TD
-    M0["MONTH 0<br/>Begin Grenada CBI ($235-265K)<br/>Begin Paraguay residency ($8K)<br/>Engage US expat tax attorney"]
+    M0["MONTH 0<br/>Begin Grenada CBI ($235-265K)<br/>Paraguay residency ($8K)<br/>Engage expat tax attorney"]
 
-    M1_6["MONTHS 1-6<br/>Grenada due diligence + processing<br/>Continue LB operations normally<br/>Prepare renunciation documents"]
+    M1_6["MONTHS 1-6<br/>Grenada processing<br/>Continue LB operations<br/>Prepare documents"]
 
-    M6_7["MONTH 6-7<br/>Receive Grenada citizenship + passport<br/>🎯 YOU NOW HAVE A SECOND CITIZENSHIP"]
+    M6_7["MONTH 6-7<br/>Receive Grenada passport<br/>🎯 SECOND CITIZENSHIP"]
 
-    M7_8["MONTH 7-8<br/>Schedule renunciation appointment<br/>at US embassy (San Jose, CR or wherever)"]
+    M7_8["MONTH 7-8<br/>Schedule embassy appointment"]
 
-    M8_9["MONTH 8-9<br/>Attend appointment<br/>DS-4079, DS-4080, DS-4081, DS-4083<br/>Take oath of renunciation<br/>Pay $2,350 fee<br/>Surrender US passport"]
+    M8_9["MONTH 8-9<br/>Attend appointment, take oath<br/>Pay $2,350, surrender passport"]
 
-    M9_15["MONTH 9-15<br/>File final US tax return (partial year)<br/>File Form 8854 (expatriation statement)<br/>Exit tax: $0 if under $2M<br/>Receive CLN"]
+    M9_15["MONTH 9-15<br/>File final return + Form 8854<br/>Exit tax: $0 if under $2M<br/>Receive CLN"]
 
     DONE["YOU ARE NO LONGER A US CITIZEN<br/>$0 US tax obligations going forward"]
 
@@ -305,9 +305,9 @@ Her US citizenship is your permanent, unconditional door back to the US:
 ```mermaid
 graph TB
     subgraph "PROTECTED — Not Dan's personal property"
-        PIF_ASSET["Layer 3: Panama PIF<br/>Independent legal person<br/>Panama Law 25 of 1995<br/>Does NOT recognize foreign<br/>divorce judgments"]
-        SA_ASSET["Layer 2: Light Brands Holdings S.A.<br/>Dan's 30% held BY the PIF<br/>(not by Dan personally)"]
-        OPS_ASSET["Layer 1: Operating Entities<br/>LBC (CI IBC) + LBS (Cyprus)<br/>100% owned by S.A."]
+        PIF_ASSET["Layer 3: Panama PIF<br/>Independent legal person<br/>No foreign divorce recognition"]
+        SA_ASSET["Layer 2: LB Holdings S.A.<br/>Dan's 30% held BY PIF<br/>(not personally)"]
+        OPS_ASSET["Layer 1: LBC + LBS<br/>100% owned by S.A."]
     end
 
     subgraph "DIVISIBLE — Normal marital property"
@@ -386,12 +386,12 @@ The current Light Brands architecture was designed around specific constraints t
 
 ```mermaid
 graph TB
-    subgraph "LAYER 1: OWNERSHIP + ASSET PROTECTION"
-        PIF["FUNDACIÓN LIGHT BRANDS (PIF)<br/>Panama Private Interest Foundation<br/>0% on foreign income, 0% WHT<br/>Dan = beneficiary (safe — not US person)<br/>Wife ≠ beneficiary (she's US person)<br/>Foundation Council: 3+ members"]
+    subgraph "LAYER 1: OWNERSHIP + PROTECTION"
+        PIF["FUNDACIÓN LIGHT BRANDS<br/>Panama PIF — 0% tax<br/>Dan = beneficiary<br/>Council: 3+ members"]
     end
 
     subgraph "HOLDING LAYER"
-        SA["LIGHT BRANDS HOLDINGS S.A.<br/>(Panamanian Corporation)<br/>0% on foreign-source income (territorial)<br/>Owns 100% of BOTH operating entities"]
+        SA["LB HOLDINGS S.A.<br/>Panama — 0% foreign income<br/>Owns 100% of LBC + LBS"]
     end
 
     subgraph "SHAREHOLDERS OF S.A."
@@ -402,18 +402,18 @@ graph TB
     end
 
     subgraph "LAYER 2: REVENUE + DELIVERY"
-        LBC["LBC — LIGHT BRANDS AI LTD<br/>(Cook Islands IBC)<br/>'THE BRAIN'<br/>• Client-facing, owns IP + methodology<br/>• Bears credit risk, invoices clients<br/>• Contracts dev to Cyprus<br/>• 0% tax (unconditional)"]
+        LBC["LBC — LIGHT BRANDS AI LTD<br/>Cook Islands IBC — 0% tax<br/>Client-facing, owns IP<br/>Invoices clients, contracts dev"]
 
-        LBS["LBS — LIGHT BRANDS STUDIO LTD<br/>(Cyprus Private Company)<br/>'THE HANDS'<br/>• Development delivery<br/>• Real office in Cyprus<br/>• Real employees (devs)<br/>• Andreas Demou = Director<br/>• 15% tax on margin only"]
+        LBS["LBS — LIGHT BRANDS STUDIO<br/>Cyprus — 15% on margin<br/>Real office + employees<br/>Andreas Demou = Director"]
     end
 
     subgraph "LAYER 3: PEOPLE"
-        DAN_P["Dan — Director/Contractor of LBC<br/>(renounced US, Grenada citizen)"]
-        WIFE["Wife — Contractor to LBC<br/>(US citizen, FEIE $130K)"]
-        NICH_P["Nicholas — Co-founder<br/>(renounced Canada, via own PIF)"]
-        ANDREAS_P["Andreas — Director of LBS<br/>(Cyprus citizen, on-ground)"]
-        JASON_P["Jason — Co-founder<br/>(US citizen, 10% S.A.)"]
-        DEVS["Dev team — LBS employees<br/>+ LBC contractors worldwide"]
+        DAN_P["Dan — Director/Contractor<br/>Grenada citizen"]
+        WIFE["Wife — Contractor<br/>US citizen, FEIE $130K"]
+        NICH_P["Nicholas — Co-founder<br/>Renounced Canada"]
+        ANDREAS_P["Andreas — Director LBS<br/>Cyprus citizen"]
+        JASON_P["Jason — Co-founder<br/>US citizen, 10% S.A."]
+        DEVS["Dev team<br/>LBS employees + contractors"]
     end
 
     PIF -->|"Dan's 30%"| SA
@@ -533,7 +533,7 @@ graph TB
 
     subgraph "LBS — Light Brands Studio Ltd (Cyprus)"
         ANDREAS_TEAM["Andreas Demou<br/>director + employee<br/>Cyprus citizen, on-ground"]
-        CY_DEVS_TEAM["Cyprus-based developers<br/>2-15 employees depending on scale<br/>Real employment, real office, real payroll"]
+        CY_DEVS_TEAM["Cyprus-based developers<br/>2-15 employees at scale<br/>Real office + payroll"]
         OFFICE["Office in Limassol or Nicosia"]
     end
 
@@ -614,7 +614,7 @@ graph TB
     LBC_BANK --> CONTRACTORS
     LBC_BANK --> SAAS
 
-    LBC_BANK -->|"Retained profit<br/>(0% tax) →<br/>quarterly dividends"| SA_DIST
+    LBC_BANK -->|"Retained profit →<br/>quarterly dividends"| SA_DIST
 
     SA_DIST --> DAN_DIST
     SA_DIST --> NICH_DIST
@@ -656,7 +656,7 @@ graph LR
     CONTRACTOR_CLAUSE["Contractor Agreement<br/>IP assignment clause<br/>Work-for-hire"]
 
     subgraph "Single IP Owner"
-        LBC_IP["LBC — LIGHT BRANDS AI LTD<br/>(CI IBC)<br/>Owns ALL IP<br/>Can license, sell, distribute<br/>0% tax on IP income"]
+        LBC_IP["LBC — LIGHT BRANDS AI LTD<br/>CI IBC — Owns ALL IP<br/>0% tax on IP income"]
     end
 
     CY_DEVS -->|"IP assigned<br/>upon creation"| MDSA
