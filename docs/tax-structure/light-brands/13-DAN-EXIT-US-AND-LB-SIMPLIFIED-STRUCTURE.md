@@ -553,87 +553,107 @@ graph TB
 
 ---
 
-## 11. Banking and Payments {#11-banking}
+## 11. Banking, Payments, and Crypto-Native Treasury {#11-banking}
 
-### Account Structure
+> **Architecture decision:** Light Brands AI is crypto-native from day one. All client revenue settles as USDC via Stripe. All internal flows are on-chain. Fiat touchpoints minimized to Cyprus payroll only. See [17-CRYPTO-NATIVE-TREASURY-ARCHITECTURE.md](./17-CRYPTO-NATIVE-TREASURY-ARCHITECTURE.md) for complete detail.
 
-| Account | Bank | Purpose |
-|---------|------|---------|
-| **CI IBC (LBC) primary** | DBS / OCBC / Statrys (Singapore) | Client revenue collection, contractor payments |
-| **Cyprus Studio (LBS)** | Bank of Cyprus / Hellenic Bank | Payroll, office costs, local operations. SEPA access. |
-| **S.A. operational** | Banco General / Banistmo (Panama) | Receive dividends, operational flexibility |
-| **PIF account** | Singapore or Panama | Distributions to beneficiaries |
+### Infrastructure Stack
 
-### Payment Processing
+| Service | Role | Cost |
+|---------|------|------|
+| **Stripe** (USDC settlement) | Client-facing payments. Cards/ACH → settles as USDC to CI IBC wallet. | 1.5% flat |
+| **Fireblocks** | Enterprise crypto custody, multi-sig wallets, batched transfers | ~$1,000-2,000/mo |
+| **Circle (Mint API)** | USDC on/off-ramp. Convert USDC ↔ fiat when needed (Cyprus payroll). | Per-transaction |
+| **Gnosis Safe** | Multi-sig wallets for PIFs and founders | Free |
+| **Distribution smart contract** | Automated quarterly cap table distribution | One-time: $10-15K |
 
-| Method | Use Case |
-|--------|----------|
-| **Stripe** (connected to Singapore bank) | SaaS subscriptions, recurring billing, online sales |
-| **Wise Business** | International contractor payments (best FX rates), multi-currency receiving |
-| **Direct bank transfer** | Large consulting engagements, enterprise clients |
-| **Deel** | Contractor and EOR payments (handles FX, compliance, tax docs) |
+### Bank Accounts (Backup / Reduced Role)
 
-### Revenue Flow
+| Account | Bank | Purpose | Activity |
+|---------|------|---------|:--------:|
+| **CI IBC (LBC)** | DBS / OCBC / Statrys (Singapore) | **Backup only** — enterprise wire transfers | Low |
+| **Cyprus Studio (LBS)** | Bank of Cyprus / Hellenic Bank | **Payroll only** — receives off-ramp from USDC | Medium |
+| **S.A.** | Banco General / Banistmo (Panama) | Corporate maintenance | Very Low |
+| **PIF** | Optional — distributions flow on-chain | May not need a bank account | Minimal |
+
+### Revenue Flow (Crypto-Native)
 
 ```mermaid
 graph TB
-    CLIENT["CLIENT<br/>Pays invoice"]
+    CLIENT["CLIENT<br/>Pays with card<br/>(normal checkout)"]
 
-    subgraph "0% Tax Layer"
-        LBC_BANK["LBC — Light Brands AI Ltd<br/>(CI IBC) — Singapore bank<br/>0% tax<br/>Receives ALL client revenue"]
+    subgraph "Payment Processing"
+        STRIPE["STRIPE<br/>1.5% fee<br/>Settles as USDC"]
+    end
+
+    subgraph "CI IBC Treasury (0% tax, 100% USDC)"
+        LBC_WALLET["LBC Master Wallet<br/>(Fireblocks, multi-sig)<br/>All revenue as USDC"]
+        OPEX["OpEx Reserve<br/>$600K-$1.2M USDC"]
     end
 
     subgraph "Substance Layer (Cyprus)"
-        LBS_BANK["LBS — Light Brands Studio<br/>(Cyprus) — Cyprus bank<br/>15% tax on margin only"]
-        LBS_PAY["Cyprus payroll + office costs"]
+        LBS_WALLET["LBS Wallet (USDC)<br/>Receives cost-plus"]
+        LBS_OFFRAMP["Off-ramp → EUR<br/>Cyprus bank → payroll"]
         LBS_TAX["Cyprus tax: ~$12K on $3M rev"]
     end
 
-    subgraph "Operating Expenses"
-        DAN_FEE["Dan — director/contractor fee"]
-        WIFE_FEE["Wife — contractor ($130K, FEIE)"]
-        CONTRACTORS["Other contractors<br/>(via Wise or Deel)"]
-        SAAS["SaaS/infra costs"]
+    subgraph "Operating Expenses (USDC)"
+        DAN_FEE["Dan — contractor fee (USDC)"]
+        WIFE_FEE["Wife — contractor (USDC)"]
+        CONTRACTORS["Contractors<br/>(USDC batch transfer)"]
+        SAAS["SaaS/infra"]
     end
 
-    subgraph "Distribution Chain"
-        SA_DIST["S.A. receives 100%<br/>(sole shareholder, 0% WHT)"]
-        DAN_DIST["Dan's 30% → PIF → Dan<br/>0% tax (territorial country)"]
-        NICH_DIST["Nicholas 30% → direct<br/>(per residence)"]
-        ANDREAS_DIST["Andreas 30% → direct<br/>(~7.65% Cyprus SDC+GESY)"]
-        JASON_DIST["Jason 10% → direct<br/>(US tax)"]
+    subgraph "Smart Contract Distribution"
+        SA_CONTRACT["Distribution Contract<br/>2-of-3 multi-sig trigger"]
+        DAN_DIST["Dan's PIF wallet: 30%<br/>0% tax"]
+        NICH_DIST["Nicholas's PIF wallet: 30%"]
+        ANDREAS_DIST["Andreas wallet: 30%<br/>(~7.65% Cyprus SDC+GESY)"]
+        JASON_DIST["Jason wallet: 10%<br/>(US tax)"]
     end
 
-    CLIENT -->|"$$$"| LBC_BANK
-    LBC_BANK -->|"Cost-plus 10%<br/>monthly"| LBS_BANK
-    LBS_BANK --> LBS_PAY
-    LBS_BANK --> LBS_TAX
+    CLIENT -->|"Card payment"| STRIPE
+    STRIPE -->|"USDC"| LBC_WALLET
+    LBC_WALLET -->|"Reserve first"| OPEX
+    LBC_WALLET -->|"Cost-plus 10%<br/>monthly USDC"| LBS_WALLET
+    LBS_WALLET --> LBS_OFFRAMP
+    LBS_WALLET --> LBS_TAX
 
-    LBC_BANK --> DAN_FEE
-    LBC_BANK --> WIFE_FEE
-    LBC_BANK --> CONTRACTORS
-    LBC_BANK --> SAAS
+    LBC_WALLET -->|"USDC"| DAN_FEE
+    LBC_WALLET -->|"USDC"| WIFE_FEE
+    LBC_WALLET -->|"USDC"| CONTRACTORS
+    LBC_WALLET --> SAAS
 
-    LBC_BANK -->|"Retained profit →<br/>quarterly dividends"| SA_DIST
+    LBC_WALLET -->|"Quarterly profit<br/>USDC"| SA_CONTRACT
 
-    SA_DIST --> DAN_DIST
-    SA_DIST --> NICH_DIST
-    SA_DIST --> ANDREAS_DIST
-    SA_DIST --> JASON_DIST
+    SA_CONTRACT --> DAN_DIST
+    SA_CONTRACT --> NICH_DIST
+    SA_CONTRACT --> ANDREAS_DIST
+    SA_CONTRACT --> JASON_DIST
 
     style CLIENT fill:#2d4059,stroke:#ea5455,color:#fff
-    style LBC_BANK fill:#8b5e3c,stroke:#ffd700,color:#fff
-    style LBS_BANK fill:#16213e,stroke:#0f3460,color:#fff
-    style LBS_PAY fill:#16213e,stroke:#0f3460,color:#fff
+    style STRIPE fill:#635bff,stroke:#fff,color:#fff
+    style LBC_WALLET fill:#8b5e3c,stroke:#ffd700,color:#fff
+    style OPEX fill:#006400,stroke:#90ee90,color:#fff
+    style LBS_WALLET fill:#16213e,stroke:#0f3460,color:#fff
+    style LBS_OFFRAMP fill:#16213e,stroke:#0f3460,color:#fff
     style LBS_TAX fill:#8b0000,stroke:#ff6347,color:#fff
-    style SA_DIST fill:#2d2d44,stroke:#9370db,color:#fff
+    style SA_CONTRACT fill:#1a1a2e,stroke:#e94560,color:#fff
     style DAN_DIST fill:#006400,stroke:#90ee90,color:#fff
     style NICH_DIST fill:#006400,stroke:#90ee90,color:#fff
     style ANDREAS_DIST fill:#006400,stroke:#90ee90,color:#fff
     style JASON_DIST fill:#8b0000,stroke:#ff6347,color:#fff
 ```
 
-**Total entity-level tax on $3M revenue: ~$12,000 (0.4%)**
+### Fiat Touchpoints (Minimized)
+
+| Touchpoint | Why | Eliminable? |
+|------------|-----|:-----------:|
+| Client's credit card | Clients pay in fiat | Not yet |
+| Cyprus payroll (EUR) | Employment law requires bank payroll | No |
+| Singapore bank (backup) | Enterprise clients insisting on wire | Over time |
+
+**Everything else is on-chain. Total entity-level tax on $3M revenue: ~$12,000 (0.4%)**
 
 ---
 
@@ -966,10 +986,14 @@ graph TB
 | 10 | Open Singapore bank account for CI IBC | Weeks 4-6 | CI IBC incorporated |
 | 11 | Open Cyprus bank account for Studio | Weeks 5-7 | Cyprus Studio incorporated |
 | 12 | Open Panama bank account for S.A. | Weeks 4-6 | S.A. formed |
-| 13 | Set up Stripe + Wise Business | Weeks 5-7 | Bank accounts open |
-| 14 | Set up Deel/Remote account for contractors | Week 4 | CI IBC incorporated |
-| 15 | Lease Cyprus office space (Limassol or Nicosia) | Weeks 5-8 | Cyprus Studio incorporated |
-| 16 | Register Cyprus Studio for VAT, social insurance | Weeks 5-7 | TIN issued |
+| 13 | Open Circle Business Account + Fireblocks enterprise custody | Weeks 4-6 | CI IBC incorporated |
+| 14 | Create CI IBC master wallet (Fireblocks, multi-sig) | Weeks 5-6 | Fireblocks active |
+| 15 | Set up Stripe account (USDC settlement to CI IBC wallet) | Weeks 6-8 | Entity + Fireblocks active |
+| 16 | Set up Circle Mint API (on/off-ramp for Cyprus payroll) | Weeks 6-8 | Circle account active |
+| 17 | Set up Deel/Remote account for contractors | Week 4 | CI IBC incorporated |
+| 18 | Lease Cyprus office space (Limassol or Nicosia) | Weeks 5-8 | Cyprus Studio incorporated |
+| 19 | Register Cyprus Studio for VAT, social insurance | Weeks 5-7 | TIN issued |
+| 20 | Build + audit distribution smart contract | Weeks 8-16 | Wallets + cap table finalized |
 
 ### Phase 2: Agreements (Months 2-4)
 
@@ -1055,6 +1079,7 @@ graph TB
 - **LB Profit Participation Framework (SUPERSEDED):** [10-LB-PROFIT-PARTICIPATION-FRAMEWORK.md](./10-LB-PROFIT-PARTICIPATION-FRAMEWORK.md) — replaced by real equity in Doc 14/16
 - **LB AI Corporate Setup (real equity):** [14-LIGHT-BRANDS-AI-CORPORATE-SETUP.md](./14-LIGHT-BRANDS-AI-CORPORATE-SETUP.md)
 - **Cyprus Studio Substance Layer:** [16-CYPRUS-STUDIO-SUBSTANCE-LAYER.md](./16-CYPRUS-STUDIO-SUBSTANCE-LAYER.md)
+- **Crypto-Native Treasury Architecture:** [17-CRYPTO-NATIVE-TREASURY-ARCHITECTURE.md](./17-CRYPTO-NATIVE-TREASURY-ARCHITECTURE.md)
 - **US founder playbook (legacy):** [03-FOUNDER-GUIDE-US.md](../03-FOUNDER-GUIDE-US.md)
 
 ---

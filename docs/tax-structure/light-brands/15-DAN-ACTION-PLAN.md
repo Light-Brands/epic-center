@@ -253,17 +253,28 @@ The window to avoid covered expatriate status is shrinking. Every new deal that 
 
   **This is substance.** A real office with real equipment where real developers work.
 
-- [ ] **2.4 — Open Singapore bank account for CI IBC**
+- [ ] **2.4 — Set up crypto-native treasury infrastructure for CI IBC**
 
   Timeline: 2-4 weeks after CI IBC incorporation
 
   Actions:
-  - Apply to DBS, OCBC, or Statrys (CI registered agent may have banking introductions)
-  - Prepare KYC documentation (see doc 14, Section 12)
-  - Schedule Singapore trip for in-person account opening (budget $1,500-2,500 for travel)
-  - Set up online banking, multi-currency capabilities
+  - [ ] **Circle Account** — Apply for Circle Mint account (CI IBC as entity). Enables USDC minting/redemption.
+  - [ ] **Fireblocks Vault** — Set up enterprise-grade custody. Configure multi-sig (2-of-3: Dan + Nicholas + Andreas). Create wallet structure: Operating Wallet, Distribution Wallet, Reserve Wallet.
+  - [ ] **Stripe USDC Settlement** — Register Stripe account under CI IBC (or Cyprus Studio if CI not supported). Enable "Pay out in USDC" (launched Dec 2025). Settlement fee: 1.5% flat. Connect external USDC wallet (Fireblocks Operating Wallet) for settlement.
+  - [ ] **Smart Contract** — Deploy distribution contract on Base/Ethereum for quarterly founder distributions (30/30/30/10 split). Audit contract before mainnet deployment.
 
-  **Dependency:** CI IBC must be incorporated. KYC docs from all entities (PIF, S.A., IBC) required.
+  **Dependency:** CI IBC must be incorporated. Circle requires KYC for the entity.
+
+- [ ] **2.4-BACKUP — Open Singapore bank account (optional backup)**
+
+  Timeline: 2-4 weeks (can run parallel with crypto setup)
+
+  Actions:
+  - Apply to DBS, OCBC, or Statrys (CI registered agent may have banking introductions)
+  - This is a **fiat backup only** — not the primary treasury
+  - Useful for: legacy client wire transfers, fiat-only vendors, emergency off-ramp
+
+  **Note:** With Stripe USDC settlement as primary revenue channel, Singapore bank dependency is eliminated for day-to-day operations. Open only if counsel recommends maintaining a fiat backup.
 
 - [ ] **2.4b — Open Cyprus bank account for Studio**
 
@@ -286,14 +297,18 @@ The window to avoid covered expatriate status is shrinking. Every new deal that 
   - Standard Panama corporate account opening
   - This account receives dividends from CI IBC and distributes to PIF
 
-- [ ] **2.6 — Set up payment infrastructure**
+- [ ] **2.6 — Set up payment infrastructure (crypto-native)**
 
-  Timeline: 1-2 weeks after bank accounts open
+  Timeline: 1-2 weeks after crypto treasury infrastructure is live
 
   Actions:
-  - [ ] Stripe account (connected to Singapore bank) — for SaaS/product billing
-  - [ ] Wise Business account — for international contractor payments
+  - [ ] Stripe USDC settlement activated — clients pay with cards, CI IBC receives USDC (1.5% fee, lower than standard 2.9%)
+  - [ ] Circle off-ramp configured — for EUR conversion to Cyprus Studio payroll bank
+  - [ ] Wise Business account — backup for fiat contractor payments (non-crypto vendors only)
   - [ ] Deel account — for EOR and contractor management (if needed immediately)
+  - [ ] USDC payment rails tested — send test USDC from Fireblocks to all payee wallets
+
+  **See:** [17-CRYPTO-NATIVE-TREASURY-ARCHITECTURE.md](./17-CRYPTO-NATIVE-TREASURY-ARCHITECTURE.md) for full treasury architecture
 
 ---
 
@@ -451,8 +466,9 @@ The window to avoid covered expatriate status is shrinking. Every new deal that 
   | Expat tax attorney has signed off | [ ] |
   | Wife understands and agrees | [ ] |
   | All entity formation complete (PIFs, S.A., CI IBC, Cyprus Studio) | [ ] |
-  | Singapore bank account open and operational | [ ] |
-  | Cyprus bank account open and operational | [ ] |
+  | Crypto treasury live (Fireblocks + Circle + Stripe USDC) | [ ] |
+  | Distribution smart contract deployed and audited | [ ] |
+  | Cyprus bank account open and operational (EUR payroll) | [ ] |
   | Revenue flowing through CI IBC (not through Dan personally) | [ ] |
   | Dan's equity is held by PIF → S.A. (not personally) | [ ] |
   | Both LBC and LBS are 100% owned by S.A. | [ ] |
@@ -567,50 +583,51 @@ The window to avoid covered expatriate status is shrinking. Every new deal that 
 
 **What ongoing operations look like once everything is in place:**
 
-### OpEx Reserve Fund — The Safety Net
+### OpEx Reserve Fund — The Safety Net (USDC Reserve)
 
-The CI IBC's Singapore bank account maintains a mandatory operating reserve before any partner distributions:
+The CI IBC's Fireblocks Reserve Wallet maintains a mandatory USDC operating reserve before any partner distributions:
 
 | Parameter | Amount |
 |-----------|--------|
-| **Minimum reserve** | $600,000 (12 months at $50K/mo burn) |
-| **Target reserve** | $1,200,000 (24 months at $50K/mo burn) |
+| **Minimum reserve** | $600,000 USDC (12 months at $50K/mo burn) |
+| **Target reserve** | $1,200,000 USDC (24 months at $50K/mo burn) |
 | **Burn rate** | $50,000/month — all team salaries, contractors, Cyprus Studio, infrastructure |
+| **Reserve location** | Fireblocks Reserve Wallet (multi-sig 2-of-3) |
 
-**Buildup phase (OpEx Fund < $600K):**
+**Buildup phase (OpEx Fund < $600K USDC):**
 - All revenue after expenses goes to building the reserve
 - Bonuses split **50/50** — half to OpEx Fund, half to bonus pool
-- No quarterly distributions to partners until fund hits $600K
+- No quarterly distributions to partners until fund hits $600K USDC
 
-**Funded phase (OpEx Fund ≥ $600K):**
+**Funded phase (OpEx Fund ≥ $600K USDC):**
 - Full bonuses paid out (100% to bonus pool)
-- Quarterly distributions of profit above reserve to partners via S.A. (30/30/30/10)
-- Maintain fund above $600K at all times, target $1M+
+- Quarterly distributions of profit above reserve via smart contract (30/30/30/10)
+- Maintain fund above $600K USDC at all times, target $1M+
 - Detailed thresholds and escalation decisions made as the business scales
 
 ### Monthly
 
 | Task | Who | Action |
 |------|-----|--------|
-| Client billing | CI IBC (LBC) | Invoice clients, collect via Stripe/bank transfer |
-| Pay Cyprus Studio | CI IBC → Studio | Monthly cost-plus transfer to Cyprus bank account |
-| Developer payroll | Cyprus Studio (LBS) | Pay salaries, social insurance via Cyprus bank |
-| Contractor payments | CI IBC | Pay non-Cyprus contractors via Wise/Deel |
-| Dan's contractor fee | CI IBC → Dan | Monthly transfer to Dan's personal account |
-| Wife's contractor fee | CI IBC → Wife | Monthly transfer, $10,833/month |
-| Bookkeeping | CI IBC + Studio | Record all transactions (use Xero, QuickBooks, or Wave) |
+| Client billing | CI IBC (LBC) | Invoice clients → clients pay via Stripe → USDC settles to Fireblocks |
+| Pay Cyprus Studio | CI IBC → Studio | Monthly USDC → Circle off-ramp → EUR → Cyprus bank (cost-plus transfer) |
+| Developer payroll | Cyprus Studio (LBS) | Pay salaries, social insurance via Cyprus EUR bank account |
+| Contractor payments | CI IBC | Pay non-Cyprus contractors in USDC (crypto-native) or via Wise (fiat vendors) |
+| Dan's contractor fee | CI IBC → Dan | USDC to Dan's self-custodied wallet |
+| Wife's contractor fee | CI IBC → Wife | USDC to wallet or fiat via Circle off-ramp, $10,833/month |
+| Bookkeeping | CI IBC + Studio | Record all transactions (Xero/QuickBooks + on-chain records via Fireblocks) |
 
-### Quarterly (once OpEx Fund ≥ $600K)
+### Quarterly (once OpEx Fund ≥ $600K USDC)
 
 | Task | Who | Action |
 |------|-----|--------|
-| Confirm OpEx Fund balance | CFO / Dan | Verify Singapore bank balance ≥ $600K after all expenses |
+| Confirm OpEx Fund balance | CFO / Dan | Verify Fireblocks Reserve Wallet ≥ $600K USDC after all expenses |
 | Calculate distributable profit | CI IBC Board | Revenue minus expenses minus reserve top-up = distributable amount |
 | Declare CI IBC dividend | CI IBC Board | Board resolution declaring quarterly dividend (profit above reserve only) |
-| CI IBC → S.A. | CI IBC | Distributable profit to S.A. (sole shareholder) |
+| CI IBC → S.A. | CI IBC | Distributable USDC to S.A. |
 | Cyprus Studio → S.A. | LBS Board | Any excess profit after costs to S.A. (sole shareholder) |
 | Declare S.A. dividend | S.A. Board | Board resolution distributing to all four shareholders |
-| S.A. → shareholders | S.A. | 30% to Dan's PIF, 30% to Nicholas's PIF, 30% to Andreas, 10% to Jason |
+| **Smart contract distribution** | S.A. / Automated | USDC sent to distribution smart contract → auto-splits 30/30/30/10 to founder wallets |
 | PIFs → founders | Foundation Councils | Distribute to Dan and Nicholas per Private Regulations |
 
 ### Annually
@@ -626,9 +643,12 @@ The CI IBC's Singapore bank account maintains a mandatory operating reserve befo
 | PIF annual registration | Panama counsel | ~$2,000-3,500 |
 | Wife's US tax return (1040 + 2555 + FBAR + 8938) | US expat tax preparer | ~$1,500-3,000 |
 | Jason's US tax return (1040 + 5471 + FBAR) | Jason's US accountant | ~$1,500-3,000 |
-| Singapore bank maintenance | Bank | ~$200-500 |
-| Cyprus bank maintenance | Bank | ~$200-600 |
-| **Total annual compliance** | | **~$18,000-27,600** |
+| Fireblocks custody (annual) | Fireblocks | ~$5,000-10,000 |
+| Circle Mint (annual) | Circle | ~$1,000-2,000 |
+| Smart contract maintenance + audit | Dev / Auditor | ~$2,000-5,000 |
+| Cyprus bank maintenance (EUR payroll only) | Bank | ~$200-600 |
+| Singapore bank maintenance (if opened) | Bank | ~$0-500 |
+| **Total annual compliance** | | **~$26,000-42,100** |
 
 ---
 
@@ -652,10 +672,11 @@ MONTHS 2-3
 ├── Phase 2.3: CI IBC incorporated, shares issued
 ├── Phase 2.3b: Cyprus Studio incorporated, shares issued
 ├── Phase 2.3c: Lease Cyprus office space
-├── Phase 2.4: Open Singapore bank account (trip required)
-├── Phase 2.4b: Open Cyprus bank account
+├── Phase 2.4: Crypto treasury live (Fireblocks + Circle + Stripe USDC)
+├── Phase 2.4-BACKUP: Open Singapore bank (optional fiat backup)
+├── Phase 2.4b: Open Cyprus bank account (EUR payroll)
 ├── Phase 2.5: Open Panama bank account
-└── Phase 2.6: Set up Stripe + Wise + Deel
+└── Phase 2.6: Deploy distribution smart contract + test payment rails
 
 MONTHS 3-4
 ├── Phase 3.1: Execute shareholders' agreements (both entities)
@@ -693,9 +714,11 @@ MONTH 12+
 ══════════════════════════════════════════════════
 RESULT: Dan is a Grenada citizen, Panama/CR resident,
         with 0% personal tax. Light Brands AI operates
-        through CI IBC (0% tax) + Cyprus Studio (12.5%
-        on cost-plus markup only). All equity held at
-        S.A. level. ~$21-37K/yr total overhead.
+        100% crypto-native: Stripe → USDC → Fireblocks →
+        Smart contract distributions. CI IBC (0% tax) +
+        Cyprus Studio (15% on cost-plus margin only).
+        All equity at S.A. level. ~$26-42K/yr overhead.
+        Single fiat touchpoint: Cyprus EUR payroll.
 ══════════════════════════════════════════════════
 ```
 
@@ -713,8 +736,10 @@ RESULT: Dan is a Grenada citizen, Panama/CR resident,
 | Panama S.A. formation | $2,000-3,500 |
 | Cook Islands IBC formation | $3,000-5,000 |
 | Cyprus Studio formation | $3,000-6,000 |
-| Singapore bank opening (incl. travel) | $1,500-2,500 |
-| Cyprus bank opening | $500-1,000 |
+| Crypto treasury setup (Fireblocks + Circle + Stripe USDC) | $5,000-10,000 |
+| Smart contract development + audit | $8,000-15,000 |
+| Singapore bank opening (optional backup, incl. travel) | $0-2,500 |
+| Cyprus bank opening (EUR payroll) | $500-1,000 |
 | Legal counsel (US expat, Panama, CI, Cyprus) | $15,000-28,000 |
 | Transfer pricing study (initial) | $8,000-12,000 |
 | Shareholders' agreement (S.A. level) | $3,000-8,000 |
@@ -722,8 +747,8 @@ RESULT: Dan is a Grenada citizen, Panama/CR resident,
 | Contractor agreement templates | $1,000-3,000 |
 | US renunciation fee | $2,350 |
 | Final US tax return preparation | $2,000-5,000 |
-| **Total one-time (with Grenada)** | **~$305,000-391,000** |
-| **Total one-time (without Grenada — if other citizenship available)** | **~$45,000-84,000** |
+| **Total one-time (with Grenada)** | **~$316,500-413,500** |
+| **Total one-time (without Grenada — if other citizenship available)** | **~$56,500-106,500** |
 
 ### Annual Ongoing Costs
 
@@ -770,7 +795,9 @@ Options:
 
 ### "What if Singapore banks won't open an account for the CI IBC?"
 
-Alternative banking:
+**With crypto-native architecture, this is no longer a critical risk.** The primary treasury operates on USDC via Fireblocks. Singapore bank is an optional fiat backup, not a dependency.
+
+If a fiat backup is still desired:
 - Hong Kong (Statrys, HSBC) — accepts CI IBCs
 - Mauritius — more flexible KYC for offshore structures
 - EMI (Electronic Money Institution) — Mercury, Relay (may accept CI IBCs with PIF ownership)
@@ -792,6 +819,7 @@ She fails the 330-day test for FEIE. Options:
 - **Citizenship strategy (comprehensive):** [../CITIZENSHIP_STRATEGY.md](../CITIZENSHIP_STRATEGY.md)
 - **Cook Islands IBC detail:** [08-COOK-ISLANDS-IBC-DETAIL.md](./08-COOK-ISLANDS-IBC-DETAIL.md)
 - **Cyprus Studio substance layer:** [16-CYPRUS-STUDIO-SUBSTANCE-LAYER.md](./16-CYPRUS-STUDIO-SUBSTANCE-LAYER.md)
+- **Crypto-native treasury architecture:** [17-CRYPTO-NATIVE-TREASURY-ARCHITECTURE.md](./17-CRYPTO-NATIVE-TREASURY-ARCHITECTURE.md)
 
 ---
 

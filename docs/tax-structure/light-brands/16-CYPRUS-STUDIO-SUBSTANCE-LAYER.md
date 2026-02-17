@@ -435,40 +435,68 @@ If Andreas spends 90+ days per year working outside Cyprus (business travel, con
 
 ---
 
-## 9. Banking & Payments {#9-banking}
+## 9. Banking & Payments (Crypto-Native) {#9-banking}
 
-### CI IBC Banking (unchanged from Doc 14)
+### CI IBC Treasury — 100% Crypto-Native
 
-| Bank | Purpose | Status |
-|------|---------|--------|
-| Singapore bank (DBS/OCBC/Statrys) | Primary — client payments in, contractor payments out | Primary |
-| Wise Business | Multi-currency payments to contractors | Secondary |
-| Stripe | SaaS/product revenue collection | Revenue |
+The CI IBC operates a crypto-native treasury. Revenue enters as USDC via Stripe settlement. All operations run on-chain except Cyprus EUR payroll.
+
+| Infrastructure | Purpose | Role |
+|---------------|---------|------|
+| **Stripe (USDC settlement)** | Client-facing payments | Clients pay with cards → Stripe settles as USDC to Fireblocks (1.5% fee) |
+| **Fireblocks** | Enterprise custody + operations | Multi-sig (2-of-3), three wallets: Operating, Distribution, Reserve |
+| **Circle Mint** | USDC ↔ fiat off-ramp | Monthly EUR conversion for Cyprus Studio payroll — **the only fiat touchpoint** |
+| **Smart contract** | Quarterly founder distributions | Auto-splits USDC 30/30/30/10 to founder wallets |
+| **Singapore bank (optional)** | Fiat backup only | Not primary — only for legacy wire transfers or fiat-only vendors |
+| **Wise Business** | Backup fiat payments | Non-crypto vendors only |
 
 ### Cyprus Studio Banking
 
 | Bank | Purpose | Notes |
 |------|---------|-------|
-| Cyprus bank (Bank of Cyprus / Hellenic Bank) | Primary — payroll, office costs, local operations | EU bank, full SEPA access |
-| EUR account | Developer salaries, office rent, local costs | Main operating account |
-| USD account (optional) | Receive payments from CI IBC in USD | Avoids FX on intercompany flow |
+| Cyprus bank (Bank of Cyprus / Hellenic Bank) | **EUR payroll + local operations only** | EU bank, full SEPA access |
+| EUR account | Developer salaries, office rent, local costs | Funded monthly via Circle off-ramp (USDC → EUR) |
 
-### Payment Flow
+**Key change:** Cyprus Studio no longer receives bank wire transfers from CI IBC's Singapore account. Instead:
+1. CI IBC sends USDC to Circle
+2. Circle converts USDC → EUR
+3. EUR arrives in Cyprus Studio's bank account
+4. Studio runs payroll and local operations in EUR
+
+This is the **single fiat touchpoint** in the entire structure — required by Cyprus employment law (payroll must be EUR bank transfer).
+
+### Payment Flow (Crypto-Native)
 
 ```
-Clients → CI IBC Singapore bank (revenue)
-               │
-               ├──► Monthly transfer to Cyprus Studio (EUR)
-               │         │
-               │         └──► Developer salaries (Cyprus payroll)
-               │         └──► Office costs
-               │         └──► Equipment/tools
-               │
-               ├──► Wise → Dan (director fee)
-               ├──► Wise → Wife (contractor)
-               ├──► Wise → Other contractors
-               └──► Retained in Singapore (profit)
+CLIENTS (pay with credit/debit cards)
+    │
+    ▼
+STRIPE (processes card payment)
+    │ settles as USDC (1.5% fee)
+    ▼
+CI IBC — FIREBLOCKS OPERATING WALLET (USDC)
+    │
+    ├──► Circle off-ramp → EUR → Cyprus Studio bank (monthly cost-plus)
+    │         │
+    │         └──► Developer salaries (Cyprus payroll, EUR)
+    │         └──► Office costs (EUR)
+    │         └──► Equipment/tools (EUR)
+    │
+    ├──► USDC → Dan's wallet (director fee)
+    ├──► USDC → Wife's wallet (contractor)
+    ├──► USDC → Other contractor wallets (or Wise for fiat vendors)
+    │
+    ├──► USDC → Fireblocks Reserve Wallet (maintain $600K+ reserve)
+    │
+    └──► USDC → Distribution Smart Contract (quarterly, when reserve funded)
+              │ auto-splits 30/30/30/10
+              ├──► Dan's PIF wallet (30%)
+              ├──► Nicholas's PIF wallet (30%)
+              ├──► Andreas's wallet (30%)
+              └──► Jason's wallet (10%)
 ```
+
+**See:** [17-CRYPTO-NATIVE-TREASURY-ARCHITECTURE.md](./17-CRYPTO-NATIVE-TREASURY-ARCHITECTURE.md) for full treasury architecture, compliance framework, and infrastructure detail.
 
 ---
 
@@ -671,6 +699,7 @@ Cyprus has an IP Box regime (effective ~2.5% on qualifying IP income). We are NO
 - **Cyprus founder tax playbook:** [../05-FOUNDER-GUIDE-CYPRUS.md](../05-FOUNDER-GUIDE-CYPRUS.md)
 - **Cyprus non-dom reference:** [../../strategy/CYPRUS_NONDOM_REFERENCE.md](../../strategy/CYPRUS_NONDOM_REFERENCE.md)
 - **Citizenship strategy (Dan's renunciation):** [../../CITIZENSHIP_STRATEGY.md](../../CITIZENSHIP_STRATEGY.md)
+- **Crypto-native treasury architecture:** [17-CRYPTO-NATIVE-TREASURY-ARCHITECTURE.md](./17-CRYPTO-NATIVE-TREASURY-ARCHITECTURE.md)
 
 ---
 
