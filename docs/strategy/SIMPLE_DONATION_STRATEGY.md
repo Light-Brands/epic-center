@@ -1,6 +1,6 @@
 # The Equity Conversion Deal
 
-**We buy the property for $11.9M. $2M cash at closing. The remaining $9.9M converts into 15% equity in the Mexican Real Estate Company + 15% equity in the Mexican Operating Company. No interest. No debt. Pure equity conversion. His 15% is projected to be worth $22M in 5 years. Either party can trigger a buyout at Year 5 over 24–36 months. Total value: $24M+ vs. $12M from a straight sale.**
+**We buy the property for $11.9M. $2M cash at closing. The remaining $9.9M converts into 12% equity in the Mexican Real Estate Company + 12% equity in the Mexican Operating Company. No interest. No debt. Pure equity conversion. His 12% is projected to be worth $23.4M in 5 years. Either party can trigger a buyout at Year 5 over 24–36 months. Minimum protected outcome: $15.86M. Total projected value: $25.4M+ vs. $11.9M from a straight sale.**
 
 ---
 
@@ -10,7 +10,7 @@ He invested $30M. He's selling for $11.9M. That's an $18M gap no matter how you 
 
 Selling gives him $11.9M cash. Total realistic value from selling: **~$11.9M**.
 
-Our deal gives him $2M cash at closing, 15% ownership in two companies projected to reach $147M at Year 5 (his 15% = $22M), and participation in a mission that gives his property meaning. Total value: **$24M+**.
+Our deal gives him $2M cash at closing, 12% ownership in two companies projected to reach $194.9M at Year 5 (his 12% = $23.4M), a minimum protection floor of $15.86M, and participation in a mission that gives his property meaning. Total projected value: **$25.4M+**.
 
 ```
 STRAIGHT SALE:
@@ -19,8 +19,9 @@ STRAIGHT SALE:
   + a story about selling at a loss
 
 EQUITY CONVERSION DEAL:
-  $2M cash + 15% Mexican Real Estate Co + 15% Mexican Operating Co ($22M at Year 5)
-  = $24M+ total
+  $2M cash + 12% Mexican Real Estate Co + 12% Mexican Operating Co ($23.4M at Year 5)
+  Minimum protected outcome: $15.86M
+  = $25.4M+ total (projected)
   + a story about launching a global healing movement
 ```
 
@@ -36,8 +37,8 @@ PURCHASE PRICE:   $11,900,000
 PAID AS:
   $2,000,000 -----> Cash at closing (immediate liquidity)
   $9,900,000 -----> Converted into equity:
-                      • 15% equity in Mexican Real Estate Company
-                      • 15% equity in Mexican Operating Company
+                      • 12% equity in Mexican Real Estate Company
+                      • 12% equity in Mexican Operating Company
 
 NOT seller financing.
 NOT structured debt.
@@ -65,12 +66,16 @@ The seller maintains **full lien security on the property** during the agreed st
 ### Mexican Real Estate Company
 - Owns the physical property
 - Captures asset appreciation
-- Seller gets **15% equity** — participates in property value growth
+- Seller gets **12% equity** — participates in property value growth
 
 ### Mexican Operating Company
-- Runs the business (clinical operations, guests, revenue)
-- Captures operating profit and enterprise value
-- Seller gets **15% equity** — participates in business growth
+Runs the full Transformational Epicenter platform:
+- **Property management** — ongoing stewardship and enhancement of the physical asset
+- **Real estate development** — expansion, buildout, and capital improvement
+- **Technology infrastructure** — systems, integrations, and operational technology
+- **Digital platform** — guest-facing technology, booking, experience management
+- **E-link center** — the digital and operational hub connecting all platform elements
+- Seller gets **12% equity** — participates in business growth across the entire platform
 
 **Why separate?** Clean separation protects the asset from operational risk. Each entity has its own valuation trajectory. The seller benefits from both.
 
@@ -80,61 +85,69 @@ The seller maintains **full lien security on the property** during the agreed st
 
 Separately, we're committing **$5 million in operational capital** into the Mexican Operating Company:
 
-- Medical buildout and clinical infrastructure
-- Staff recruitment and training
-- Technology and guest experience systems
-- Marketing, brand launch, guest acquisition
-- Working capital through ramp-up
+- Clinical infrastructure
+- Team recruitment and training
+- Systems and operational technology
+- Brand development and launch
+- Programming and guest experience design
+- Sales engine and guest acquisition
+- Technology and digital integration
 
 This is NOT part of the $11.9M purchase price. This is additional capital invested to build the operation on the foundation the seller created.
 
+**Without this $5M deployment, the projected valuation trajectory is not achievable.** This operational investment is what transforms a property into a platform — and a platform into a $194.9 million enterprise.
+
 ---
 
-## What 15% Is Worth: Year by Year
+## What 12% Is Worth: Year by Year
 
-*Enterprise values below reflect the combined Mexico operation (Mexican Operating Company + Mexican Real Estate Company).*
+*Enterprise values below reflect the combined Mexico operation (Mexican Operating Company + Mexican Real Estate Company), inclusive of the fully integrated platform.*
 
-| Year | Mexico Enterprise Value | His 15% | What's Happening |
+| Year | Mexico Enterprise Value | His 12% | What's Happening |
 |------|------------------------|---------|------------------|
-| Year 1 | $29,000,000 | $4,350,000 | Building + first guests |
-| Year 2 | $55,000,000 | $8,250,000 | Ramping to capacity |
-| Year 3 | $87,000,000 | $13,050,000 | Full operations + at capacity |
-| Year 4 | $110,000,000 | $16,500,000 | Brand established + training programs |
-| Year 5 | $147,000,000 | **$22,050,000** | Mature operation + multiple revenue streams |
+| Year 1 | $32,000,000 | $3,840,000 | Building + first guests |
+| Year 2 | $62,000,000 | $7,440,000 | Ramping to capacity + digital platform |
+| Year 3 | $98,000,000 | $11,760,000 | Full operations + technology platform launch |
+| Year 4 | $142,000,000 | $17,040,000 | Brand established + E-link center scaling |
+| Year 5 | $194,900,000 | **$23,388,000** | Mature operation + fully integrated platform |
 
-He receives $2M cash immediately. His $9.9M equity conversion is projected to reach $22M in ownership value by Year 5 — a 122% return on the converted amount.
+He receives $2M cash immediately. His $9.9M equity conversion is projected to reach $23.4M in ownership value by Year 5 — a 136% return on the converted amount.
 
 *All projections are estimates based on the current operating model and are subject to change.*
 
 ---
 
-## The $22M Year 5 Projection Logic
+## The $23.4M Year 5 Projection Logic
 
-The $147M combined enterprise value at Year 5 is driven by:
+The **$194.9M combined enterprise value** at Year 5 reflects the fully integrated Transformational Epicenter platform:
 
 - Revenue ramp from initial guest cohorts to full capacity
 - Multiple revenue streams: clinical programs, extended stays, training, licensing
+- Property management and real estate development
+- Technology infrastructure driving operational efficiency
+- Digital platform at scale
+- E-link center — the operational and digital hub
 - Asset appreciation as purpose-built medical wellness facility
 - Brand premium from first-mover advantage
 - Operating leverage: fixed-cost infrastructure with scaling revenue
 
-His 15% of $147M = **$22,050,000** *(projected)*.
+His 12% of $194.9M = **$23,388,000** *(projected)*.
 
 ---
 
-## Why 15% + 15%
+## Why 12% + 12%
 
 ```
 His property (market value):              $11,900,000
 Cash he receives at closing:              $2,000,000
 Value converted to equity:                $9,900,000
-15% of our Year 5 value ($147M):         $22,050,000 (projected)
+12% of our Year 5 value ($194.9M):       $23,388,000 (projected)
 
-The $9.9M equity conversion grows to $22M — a 122% return.
+The $9.9M equity conversion grows to $23.4M — a 136% return.
 
-Not 25% because $36.75M overvalues a $9.9M conversion by 3.7x.
-Not 10% because $14.7M barely clears the converted amount.
-15% + 15% = $22M. Clean. Fair. Generous. Defensible.
+Not 20% because $38.98M overvalues a $9.9M conversion by 3.9x.
+Not 8% because $15.59M barely clears the converted amount.
+12% + 12% = $23.4M. Clean. Fair. Generous. Defensible.
 ```
 
 ---
@@ -144,37 +157,40 @@ Not 10% because $14.7M barely clears the converted amount.
 ```
 SELLER gets:
   Cash at closing -------> $2,000,000 (immediate liquidity)
-  15% Mexican RE Co -----> Participation in asset appreciation
-  15% Mexican Ops Co ----> Participation in operating growth
-  Combined equity (Yr 5) > Worth $22M at Year 5 (projected)
+  12% Mexican RE Co -----> Participation in asset appreciation
+  12% Mexican Ops Co ----> Participation in full platform growth
+  Combined equity (Yr 5) > Worth $23.4M at Year 5 (projected)
   Property security -----> Full lien security during structure period
+  Minimum protection ----> $13.86M equity floor ($15.86M total with cash)
   Buyout option ---------> Mutual Year 5 buyout over 24–36 months with interest
-  Purpose --------------> Founding Steward of a healing center
+  Purpose --------------> Founding Steward of a healing center + platform
   Legacy ---------------> His name on the wall. His property changes lives.
                            ---------
-                           TOTAL: $24M+
+                           PROJECTED TOTAL: $25.4M+
+                           MINIMUM PROTECTED: $15.86M
                            vs. $11.9M from a sale
 ```
 
 **What the seller gets (plain English):**
 - $2 million cash at closing — immediate liquidity
-- 15% ownership in the Mexican Real Estate Company — participates in asset value growth
-- 15% ownership in the Mexican Operating Company — participates in business growth
-- Combined equity projected to be worth $22M at Year 5
+- 12% ownership in the Mexican Real Estate Company — participates in asset value growth
+- 12% ownership in the Mexican Operating Company — participates in full platform growth
+- Combined equity projected to be worth $23.4M at Year 5
 - Full lien security on the property during the structure period
+- Minimum value protection guarantee: $13.86M equity floor ($15.86M total including cash)
 - Mutual Year 5 buyout option at fair value, paid over 24–36 months with interest
 - A permanent title and recognition
 
 **What we get:**
 - The property for $2M cash + equity (no $12M capital raise needed)
 - Only need $5M for operations (instead of $17M+)
-- 85% of both the Mexican Real Estate Company and the Mexican Operating Company
-- Full voting control. His 15% is non-voting in both entities
+- 88% of both the Mexican Real Estate Company and the Mexican Operating Company
+- Full voting control. His 12% is non-voting in both entities
 - Year 5 buyout option. We can consolidate to 100% at FMV
 - A seller who's now our most powerful advocate
 
 **The pitch to the seller:**
-> "The market values your property at $11.9 million. We'll give you $2 million cash at closing and convert the remaining $9.9 million into 15% equity in the Mexican Real Estate Company and 15% equity in the Mexican Operating Company. No interest. No debt. Pure ownership. Your 15% is projected to be worth $22 million in five years. This isn't seller financing. This is your seat at the table."
+> "The market values your property at $11.9 million. We'll give you $2 million cash at closing and convert the remaining $9.9 million into 12% equity in the Mexican Real Estate Company and 12% equity in the Mexican Operating Company. No interest. No debt. Pure ownership. Your 12% is projected to be worth $23.4 million in five years — with a minimum protection floor of $15.86 million. This isn't seller financing. This is your seat at the table."
 
 **Who this works for:** A seller who invested $30 million and eight years into this property and wants more than a check. Who built something with his hands and can't stomach watching it get flipped into condos. This is purpose. This is partnership.
 
@@ -182,25 +198,68 @@ SELLER gets:
 
 ## The Five-Year Partnership Window & Buyout
 
-The 15% ownership in both entities is structured around a **five-year value creation period**.
+The 12% ownership in both entities is structured around a **five-year value creation period**.
 
-After Year 5, **either party** may initiate a buyout of the seller's 15% in both companies at fair market value.
+After Year 5, **either party** may initiate a buyout of the seller's 12% in both companies at fair market value.
 
 | Term | Detail |
 |------|--------|
 | **Who can trigger** | Either party (seller or founders) |
 | **Earliest exercise** | Year 5 |
-| **Price** | Fair Market Value at time of buyout |
+| **Price** | Fair Market Value at time of buyout (subject to minimum floor) |
 | **FMV method** | Independent third-party valuation, or pre-agreed EBITDA multiple methodology |
 | **Payment timeline** | 24–36 months from exercise date |
 | **Interest** | Interest accrues on the buyout valuation amount |
 | **Notice** | 60 days written notice |
 
 **What this looks like:**
-- Year 5: Buyout at ~$22.05M *(projected)*, paid over 24–36 months with interest
+- Year 5: Buyout at ~$23.39M *(projected)*, paid over 24–36 months with interest
+- Minimum buyout price: $13.86M for the 12% equity stake (if FMV is lower)
 - Or neither party exercises. The partnership continues.
 
-This is balanced, fair, and mutually protective. Both sides have liquidity rights at fair value.
+This is balanced, fair, and mutually protective. Both sides have liquidity rights at fair value, with the seller's position protected by the minimum floor.
+
+---
+
+## Minimum Value Protection Guarantee
+
+All enterprise values, including the projected $194.9M valuation, are projections based on operating assumptions. To provide downside protection, the agreement includes a **negotiated minimum buyout floor**.
+
+### How It Works
+
+The seller will not receive less than:
+
+- The original **$11.9 million** valuation basis
+- Plus **8% annual interest** applied to the $9.9 million equity reinvestment portion
+
+The 8% applies only to the $9.9M equity portion — not the $2M cash paid at closing.
+
+### Five-Year Calculation
+
+```
+Equity reinvestment amount:         $9,900,000
+Annual interest (8%):               $792,000/year
+Interest over five years:           $3,960,000
+                                    ──────────
+Minimum protected equity value:     $13,860,000
+Cash already received at closing:   $2,000,000
+                                    ──────────
+TOTAL MINIMUM PROTECTED OUTCOME:    $15,860,000
+```
+
+### How FMV Interacts With the Floor
+
+- **FMV > floor** → Fair market value applies (e.g., projected $23,388,000 at 12%)
+- **FMV < floor** → Minimum buyout price = $13,860,000 for the 12% equity stake (plus $2M already received)
+
+### What This Represents
+
+- **Capital preservation** — the seller's reinvested equity is protected
+- **Confidence-building mechanism** — removes fear of total downside
+- **Downside protection** — worst-case outcome exceeds a straight sale
+- **Alignment assurance** — both parties incentivized to build value
+
+This is not a guaranteed return. It is a **negotiated minimum buyout floor**, subject to the definitive agreement.
 
 ---
 
@@ -218,7 +277,7 @@ If a **tax-efficient structure** can be legally implemented and is beneficial to
 
 **How it relates to the core deal:**
 
-This option does NOT change the equity conversion structure. The $2M cash, 15% + 15% equity, and buyout terms remain intact.
+This option does NOT change the equity conversion structure. The $2M cash, 12% + 12% equity, minimum protection floor, and buyout terms remain intact.
 
 **Important clarifications:**
 
@@ -236,15 +295,16 @@ This option does NOT change the equity conversion structure. The $2M cash, 15% +
 | | Sell for $11.9M | Equity Conversion Partnership |
 |---|---|---|
 | **Cash at closing** | $11,900,000 | $2,000,000 |
-| **15% equity value (Yr 5)** | $0 | $22,050,000 (projected) |
-| **Subtotal** | **~$11,900,000** | **$24,050,000** |
+| **12% equity value (Yr 5)** | $0 | $23,388,000 (projected) |
+| **Subtotal (projected)** | **~$11,900,000** | **$25,388,000** |
+| **Minimum protected outcome** | N/A | **$15,860,000** |
 | **Optional: Tax enhancement savings** | N/A | +$2M to $9M (if applicable) |
-| **Total with optional enhancement** | **~$11,900,000** | **$26M – $33M+** |
-| **vs. selling** | - | +$12M to $21M more |
-| **Purpose** | None | Full |
+| **Total with optional enhancement** | **~$11,900,000** | **$27M – $34M+** |
+| **vs. selling (projected)** | - | +$13.5M more |
+| **vs. selling (minimum floor)** | - | +$3.96M more |
 | **His role** | Former owner | Founding partner |
 
-Even without the optional tax enhancement, the equity conversion deal is worth **$12M+ more than selling**. The equity is the engine. The tax enhancement is an optional accelerator.
+Even at the minimum protection floor, the equity conversion deal exceeds a straight sale by **$3.96M**. At projected values, it's worth **$13.5M+ more than selling**. The equity is the engine. The minimum floor is the safety net. The tax enhancement is an optional accelerator.
 
 ---
 
@@ -293,7 +353,7 @@ We bring the ibogaine experience to his property. Full medical team. Full ceremo
 
 ## The One Thing That Kills This Deal
 
-**If the seller doesn't believe in the vision.** The equity conversion only works if the seller sees the upside. If he just wants cash, the $2M at closing won't compete with $11.9M from a straight sale.
+**If the seller doesn't believe in the vision.** The equity conversion only works if the seller sees the upside. If he just wants cash, the $2M at closing won't compete with $11.9M from a straight sale — even with the minimum protection floor.
 
 Other things that make it harder (but don't kill it):
 - Debt on the property — must be paid off or assumed at closing
@@ -325,12 +385,13 @@ Get those answers and we can dial this in precisely.
 | **Interest** | Yes, interest accrues | No interest on $9.9M |
 | **Risk** | Default risk on payments | Enterprise risk (upside + downside) |
 | **Upside** | Capped at note amount + interest | Uncapped — grows with enterprise value |
+| **Downside protection** | Foreclosure | Minimum buyout floor + lien security |
 | **Seller's role** | Creditor | Owner / Partner |
 | **Relationship** | Adversarial (debtor vs. creditor) | Aligned (shared upside) |
 | **Tax treatment** | Interest income | Capital gains on equity |
 
-The seller is not carrying a note. The seller is not financing the deal. The seller is converting $9.9M of value into ownership in two companies. This is a fundamentally different structure with fundamentally different upside.
+The seller is not carrying a note. The seller is not financing the deal. The seller is converting $9.9M of value into ownership in two companies. This is a fundamentally different structure with fundamentally different upside — and fundamentally better downside protection.
 
 ---
 
-**Bottom line:** $11.9M purchase price. $2M cash at closing. $9.9M converted into 15% equity in the Mexican Real Estate Company + 15% equity in the Mexican Operating Company. No interest. No debt. His 15% is projected to be worth $22M at Year 5. Mutual buyout rights after Year 5, paid over 24–36 months with interest. Optional tax-efficient enhancement layers on top if applicable. Either way, it's worth $12M+ more than a straight sale. We get the property, he gets purpose and equity in both entities, and either party can trigger a buyout when the time is right. Seller invested $30M total. This deal gives him a path to recover — and exceed — that investment through partnership.
+**Bottom line:** $11.9M purchase price. $2M cash at closing. $9.9M converted into 12% equity in the Mexican Real Estate Company + 12% equity in the Mexican Operating Company. No interest. No debt. His 12% is projected to be worth $23.4M at Year 5 based on a $194.9M enterprise valuation. Mutual buyout rights after Year 5, paid over 24–36 months with interest. Minimum protection floor: $13.86M equity value ($15.86M total with cash). Optional tax-efficient enhancement layers on top if applicable. At projected values, it's worth $13.5M+ more than a straight sale. At the minimum floor, it still exceeds a sale by $3.96M. Seller invested $30M total. This deal gives him a path to recover — and exceed — that investment through partnership.
