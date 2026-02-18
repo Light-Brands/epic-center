@@ -10,7 +10,7 @@
 
 **Your superpower in this interview:** You're not a marketer interviewing a client. You're a 20-year tech veteran who built enterprise infrastructure at the highest level. You understand what Nicholas has been through because you've operated in those same rooms. Use that shared language to pull depth out of him that a generic interviewer never could.
 
-**Pacing:** 12 questions across 5 blocks. 3-5 minutes each. ~45 minutes total with natural transitions.
+**Pacing:** 14 questions across 7 blocks (including demo). 3-5 minutes each. ~45 minutes total with natural transitions. The demo block is a brief, high-level walkthrough -- not a feature tour. Nicholas drives it, you steer.
 
 ---
 
@@ -164,17 +164,56 @@
 
 *Let him land on:* Fraction of the cost, fraction of the time, equal or better quality, actually understands founders, not a machine -- a partnership.
 
-*Transition line:* "That's incredible. And I think that leads to the part of the story that really says it all..."
+*Transition line:* "You know what -- instead of just talking about it, let's show them. Nicholas, let's pull up what we actually built and walk people through it..."
 
 ---
 
-### BLOCK 4: THE CONVERSION (Questions 10-11)
+### BLOCK 4: THE DEMO (Questions 10-11)
+
+*Goal: Show, don't tell. After 20 minutes of hearing how good it is, the viewer now SEES it. This isn't a feature tour -- it's a slow scroll through the platform while Nicholas reacts and puts it in context. The point is the sheer DEPTH across every section, the fact that ONE team did all of this, and the incomprehensible timeline. He drives the commentary, you steer with questions. The live site is at transformational-epicenter.com.*
+
+**Production note:** Screen-share the live site. Have it loaded and ready. Scroll slowly through the major sections while Nicholas talks. Don't stop and explain individual pages -- let the volume of what's there speak for itself. The visual sweep IS the argument.
+
+---
+
+**Q10. "Nicholas -- instead of just talking about it, let's show people. I'm going to pull up the platform right now. Just walk me through what you're looking at and what your reaction was the first time you saw all of this come together."**
+
+*Why this works:* This transitions from conversation to visual proof. Every viewer who's been nodding along now gets to SEE the thing. And Nicholas narrating his genuine reaction is infinitely more powerful than you giving a product tour. He's the customer reacting to what was built for him.
+
+*As you scroll, let him talk. Guide with these prompts only as needed:*
+- "Look at how many sections there are -- the strategy, the market analysis, the financials, the property, the legal, the data room. Just the sheer amount of ground we covered. When you first scrolled through all of this, what went through your head?"
+- "This wasn't five different firms handling five different pieces. This was one team. Talk about what that meant for you -- not having to coordinate ten vendors and hope it all fits together."
+- "You've worked with firms where each of these sections would be a separate engagement, a separate timeline, a separate invoice. What's it like to get all of it from one group?"
+- "And remind people how long this took. Because I think seeing the depth of what's here makes that timeline even harder to believe."
+
+*Let him land on:* The incomparable depth -- every section is fully built out, not placeholder content. One team produced all of it. One relationship to manage. One timeline. And it's a living platform, not a PDF in an email. The gap between this and what he's experienced before should be obvious just from scrolling.
+
+*Important:* Keep scrolling. Don't park on any one section. The power is in the sweep -- section after section after section, all done, all polished, all from one team. Nicholas's running disbelief is the content.
+
+---
+
+**Q11. "For anyone who's been through a raise before -- you know what this process usually looks like. Multiple firms, multiple timelines, hoping it all comes together. Nicholas, compare what we're looking at right now to what that process actually looks like when you go the traditional route."**
+
+*Why this works:* He's staring at the live product AND speaking from experience managing multi-vendor raises. The viewer hears an expert say "normally this takes five firms and six months -- these guys did it all, and they did it in weeks" while scrolling through the proof. There's nowhere to hide from that comparison.
+
+*Follow-up prompts to guide him:*
+- "How many different firms or consultants would it normally take to produce everything we're looking at on this screen?"
+- "What does it do for you as a founder to only have to work with one team? Not just in cost -- but in coherence, in speed, in not losing your mind managing it all?"
+- "If an investor lands on this versus getting a PDF deck in their inbox -- what's the difference in how seriously they take it?"
+
+*Let him land on:* What normally requires multiple firms, months of coordination, and a massive budget was done by one team in a fraction of the time. The end product is more cohesive because one team built it -- no translation layers, no version conflicts, no herding consultants. And it's better than what the traditional path produces. The viewer should be thinking: "I need this for MY raise."
+
+*Transition line:* "And that's what you saw. That's what made you make the decision you made. Let's talk about that..."
+
+---
+
+### BLOCK 5: THE CONVERSION (Questions 12-13)
 
 *Goal: The punchline. He was so blown away he joined. This is the ultimate social proof.*
 
 ---
 
-**Q10. "So here's the part I really want to dig into. You came in as a client -- as a founder looking for help. And then something shifted. Tell me about the moment you decided you didn't just want to use this -- you wanted to be part of building it."**
+**Q12. "So here's the part I really want to dig into. You came in as a client -- as a founder looking for help. And then something shifted. Tell me about the moment you decided you didn't just want to use this -- you wanted to be part of building it."**
 
 *Why this works:* This is the emotional climax of the entire interview. A paying client who becomes a team member is the strongest possible endorsement. You can't fake that. You can't buy that. Let him tell it in his own words.
 
@@ -190,7 +229,7 @@
 
 ---
 
-**Q11. "What does it say about something when a founder -- someone who's built their own thing, who's closed big deals, who knows what good looks like -- decides to go all in? What did you see that made you that confident?"**
+**Q13. "What does it say about something when a founder -- someone who's built their own thing, who's closed big deals, who knows what good looks like -- decides to go all in? What did you see that made you that confident?"**
 
 *Why this works:* This reframes his decision as PROOF of quality. He's not just a testimonial -- he's due diligence personified. A founder who bet his career on what he saw. Every viewer will think: "If HE went all in, what am I waiting for?"
 
@@ -203,13 +242,13 @@
 
 ---
 
-### BLOCK 5: THE CLOSE (Question 12)
+### BLOCK 6: THE CLOSE (Question 14)
 
 *Goal: Direct advice to the viewer. Founder-to-founder. No filter.*
 
 ---
 
-**Q12. "Last thing. If there's a founder watching this right now -- someone sitting where you were six months ago, with a big vision and not enough firepower to execute it -- what would you tell them?"**
+**Q14. "Last thing. If there's a founder watching this right now -- someone sitting where you were six months ago, with a big vision and not enough firepower to execute it -- what would you tell them?"**
 
 *Why this works:* This is the call to action, but it comes from HIM, not you. It's peer advice. It's authentic. And it's the last thing they hear before whatever CTA button lives on this page.
 
@@ -226,7 +265,7 @@
 
 **Bonus (if time allows):** Ask him to describe the experience in three words. Quick-hit soundbite you can use everywhere.
 
-**Editing guidance:** The money clips are Q7 (speed comparison), Q10 (the moment he decided to join), and Q12 (the direct advice). Those three answers alone could be a 3-minute highlight reel. Your Heathrow intro is also a standalone clip for other uses.
+**Editing guidance:** The money clips are Q7 (speed comparison), Q10-11 (the live demo with his reactions), Q12 (the moment he decided to join), and Q14 (the direct advice). The demo segment is also a standalone piece you can use on the site. Your Heathrow intro works as a clip for other uses.
 
 **What NOT to do:**
 
@@ -253,7 +292,8 @@ The viewer goes on the same journey the founder did:
 2. **Pain** (Q3-5) -- "I was stuck, traditional options failed me, it was costing me everything"
 3. **Discovery** (Q6-7) -- "Then I found these guys and everything changed -- fast"
 4. **Proof** (Q8-9) -- "The quality was institutional-grade, delivered at startup speed"
-5. **Conversion** (Q10-11) -- "I was so blown away I joined the team"
-6. **Action** (Q12) -- "If you're where I was, don't wait"
+5. **The Demo** (Q10-11) -- "Look at this. One team. This timeline. Every section. Are you serious?"
+6. **Conversion** (Q12-13) -- "I was so blown away I joined the team"
+7. **Action** (Q14) -- "If you're where I was, don't wait"
 
-By Q9, anyone watching has already decided they want to talk to you. Q10-11 remove the last shred of doubt. Q12 tells them exactly what to do about it.
+By Q9, anyone watching has already decided they want to talk to you. Q10-11 lets them SEE it with their own eyes. Q12-13 remove the last shred of doubt. Q14 tells them exactly what to do about it.
