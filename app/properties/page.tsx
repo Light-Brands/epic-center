@@ -161,7 +161,7 @@ export default function PropertiesPage() {
                   { label: 'Year 2 Net Income', value: '$7.5M' },
                   { label: 'Year 3-5 Net Income', value: '$12.6M avg/yr' },
                   { label: '5-Year Net Income', value: '$48.1M' },
-                  { label: 'Y5 Enterprise Value', value: '$146.7M' },
+                  { label: 'Y5 Enterprise Value', value: '$194.9M' },
                 ].map((item) => (
                   <div key={item.label} className="flex justify-between items-center py-2 border-b border-neutral-100 last:border-0">
                     <span className="text-neutral-700">{item.label}</span>

@@ -200,7 +200,7 @@ export default function SanctuaryPage() {
               <span className="font-accent text-sm text-white">Mexico, Quintana Roo</span>
             </div>
             <div className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
-              <span className="font-accent text-sm text-white">10 Private Guest Rooms</span>
+              <span className="font-accent text-sm text-white">60 Private Guest Rooms</span>
             </div>
           </motion.div>
 
@@ -450,7 +450,7 @@ export default function SanctuaryPage() {
                   {[
                     { label: 'Location', value: 'Mexico (Quintana Roo region)' },
                     { label: 'Land', value: '0.5 to 1 hectare' },
-                    { label: 'Capacity', value: '10 private guest rooms' },
+                    { label: 'Capacity', value: '60 private guest rooms' },
                     { label: 'Structure', value: 'Low-density, nature-integrated' },
                     { label: 'Staff Ratio', value: '3:1 staff-to-guest' },
                     { label: 'Hospital Access', value: 'Within 15 minutes' },
@@ -544,9 +544,9 @@ export default function SanctuaryPage() {
             ethical, medical, and spiritual standards.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/expansion">
+            <Link href="/market">
               <Button variant="accent" size="lg" className="group">
-                Expansion Strategy
+                The Market
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
               </Button>
             </Link>
@@ -567,9 +567,9 @@ export default function SanctuaryPage() {
               <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
               <span className="font-accent text-sm uppercase tracking-wide">The Science</span>
             </Link>
-            <Link href="/expansion">
+            <Link href="/market">
               <Button variant="primary" size="lg">
-                Expansion
+                The Market
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
             </Link>
