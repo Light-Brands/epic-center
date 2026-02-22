@@ -118,7 +118,7 @@ When a Canadian resident departs, the CRA treats all assets as **deemed disposed
 | **NOW (pre-revenue, pre-raise)** | Near cost basis (~$0) | **Minimal to zero** |
 | After seed round ($29.35M post-money) | Pro-rata share of valuation | **Significant** |
 | After Year 1 ($10.7M revenue) | Higher | **Substantial** |
-| After Year 5 (~$147M enterprise value) | Pro-rata of $147M | **Enormous** |
+| After Year 5 (~$189M enterprise value) | Pro-rata of $189M | **Enormous** |
 
 **Every month of value creation increases the departure tax.** The window is NOW — before the seed round closes and establishes a formal valuation.
 

@@ -116,7 +116,7 @@ The Board of Managers shall cause to be filed all certificates, notices, and doc
 
 ### 2.1 Total Capital
 
-The total capital to be raised by the Company is **$16,823,500**, to be contributed by the Members in accordance with their respective Subscription Agreements and the terms of this Agreement.
+The total capital to be raised by the Company is **$17,323,500**, to be contributed by the Members in accordance with their respective Subscription Agreements and the terms of this Agreement.
 
 ### 2.2 Initial Capital Contributions
 
@@ -592,7 +592,7 @@ This Agreement is for the sole benefit of the Members and the Company and shall 
 | [To be completed] | Class A | $[AMOUNT] | [DATE] |
 | [To be completed] | Class B | $[AMOUNT] | [DATE] |
 | [To be completed] | Class B | $[AMOUNT] | [DATE] |
-| **Total** | | **$16,823,500** | |
+| **Total** | | **$17,323,500** | |
 
 *[Schedule B will be updated upon receipt of each Capital Contribution and will reflect the then-current capital accounts of all Members.]*
 

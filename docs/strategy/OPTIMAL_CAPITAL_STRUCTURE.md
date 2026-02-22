@@ -77,7 +77,7 @@ All capital is raised from investors. Founders contribute:
 - Executive leadership and operational management
 - Network, relationships, and market access
 
-The value of these contributions is substantiated by the Valuation Report, which establishes a $29.35M post-money valuation through a 9-method IPEV-compliant framework, with the founder contribution premium representing $12.53M above the $16.82M cost basis.
+The value of these contributions is substantiated by the Valuation Report, which establishes a $29.35M post-money valuation through a 9-method IPEV-compliant framework, with the founder contribution premium representing $12.53M above the $17.32M cost basis.
 
 > **Source:** `docs/data-room/financial/22-valuation-report.md` — Section 4, Valuation Summary
 
@@ -465,9 +465,9 @@ The following data underpins all three strategies. Numbers are derived from the 
 
 | Scenario | Probability | Y5 Revenue | Y5 EBITDA | 5-Year Revenue | IRR | MOIC |
 |----------|------------|-----------|----------|---------------|-----|------|
-| Conservative | 25% | $27,200,000 | $16,239,374 | $96,560,000 | 66% | 5.3x |
-| **Base Case** | **50%** | **$34,000,000** | **$20,299,217** | **$120,700,000** | **78%** | **7.5x** |
-| Aggressive | 20% | $37,400,000 | $22,329,139 | $132,770,000 | 87% | 9.6x |
+| Conservative | 25% | $27,200,000 | $16,239,374 | $96,560,000 | 78% | 6.7x |
+| **Base Case** | **50%** | **$34,000,000** | **$20,299,217** | **$120,700,000** | **78%** | **6.8x** |
+| Aggressive | 20% | $37,400,000 | $22,329,139 | $132,770,000 | 86% | 10.1x |
 | Downside | 5% | $17,000,000 | $8,119,687 | $60,350,000 | ~20% | ~2.5x |
 
 > **Source:** Google Sheets — Sensitivity tab; `docs/data-room/financial/08-sensitivity-analysis.md`
@@ -753,7 +753,7 @@ The 2.0x cap ($5.5M) is reached during Year 5. The obligation self-extinguishes.
 - **Clear, predictable return profile:** No complex waterfall or promote structure — investors know exactly what they get
 
 **For OpCo Investors:**
-- **Exposure to an 83% gross margin business** with 78% base-case IRR and 7.5x MOIC
+- **Exposure to an 83% gross margin business** with 78% base-case IRR and 6.8x MOIC
 - **Revenue participation provides early cash returns** — quarterly payments starting Month 6, self-liquidating at 2.0x
 - **Preferred equity provides structural protection** — 1x liquidation preference, 10% cumulative preferred
 - **Diversified return sources:** cash-on-cash from revenue share + equity upside from preferred position
@@ -763,7 +763,7 @@ The 2.0x cap ($5.5M) is reached during Year 5. The obligation self-extinguishes.
 - **Revenue participation is temporary:** 2.0x cap reached by Year 5; obligation then terminates
 - **Permanent OpCo dilution limited to 20–25%:** Well above the 70% control threshold
 - **IP and brand completely protected:** Cayman structure places all intangible value outside investor reach
-- **Maximum long-term optionality:** Once RE preferred is redeemed and revenue participation self-liquidates, founders control a $147M enterprise with ~75% ownership and zero RE encumbrances
+- **Maximum long-term optionality:** Once RE preferred is redeemed and revenue participation self-liquidates, founders control a $189M enterprise with ~75% ownership and zero RE encumbrances
 
 ---
 
@@ -1016,14 +1016,14 @@ Same protections as Strategy 1 — 83% gross margins, ~3% break-even, 1x liquida
 **For OpCo Investors:**
 - **Pure operating exposure** — investors buy into the business, not the real estate
 - **Revenue participation provides early cash-on-cash** — quarterly payments from Month 6
-- **30% equity in a high-growth business** — 78% base-case IRR, 7.5x MOIC (on total project basis)
+- **30% equity in a high-growth business** — 78% base-case IRR, 6.8x MOIC (on total project basis)
 
 **For Founders:**
 - **Maximum ownership from day one** — 100% RE + 70% OpCo
 - **Debt is finite** — unlike equity, the obligation ends. Once retired, founders own everything
 - **No governance concessions on RE** — debt holders are creditors, not partners
 - **Refinancing optionality** — as the property appreciates and the business matures, founders can refinance at lower conventional rates (5–7%), dramatically reducing carrying cost
-- **Clear path to unencumbered ownership** — at Year 5, with debt retired and revenue participation self-liquidated, founders control a ~$147M enterprise with 70–100% ownership across all vehicles
+- **Clear path to unencumbered ownership** — at Year 5, with debt retired and revenue participation self-liquidated, founders control a ~$189M enterprise with 70–100% ownership across all vehicles
 
 ---
 
@@ -1305,7 +1305,7 @@ This is the most institutionally recognized format for real estate investment an
 
 **For OpCo Investors:**
 - **Downside protection** — 8% accruing interest + 1.5x maturity/buy-back floor provide minimum returns regardless of operating performance
-- **Upside optionality** — conversion at $15M cap into a business projected at $147M Y5 enterprise value represents enormous upside potential
+- **Upside optionality** — conversion at $15M cap into a business projected at $189M Y5 enterprise value represents enormous upside potential
 - **Multiple exit paths** — conversion to equity, buy-back at 1.5x, or maturity repayment
 - **Milestone-driven** — conversion occurs only after 24 months of operating data, reducing blind-pool risk
 

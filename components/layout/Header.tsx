@@ -58,6 +58,7 @@ const NAV_SECTIONS: NavSection[] = [
       { name: 'Timeline', href: '/timeline' },
       { name: 'Financials', href: '/financials', locked: true },
       { name: 'The Ask', href: '/invest', locked: true },
+      { name: 'The Offer', href: '/offer', locked: true },
     ],
   },
   {
@@ -135,9 +136,10 @@ export function Header() {
         <div className="absolute top-0 left-0 right-0 h-[env(safe-area-inset-top,0px)] bg-white/80 backdrop-blur-xl" />
 
         <nav className={`
-          w-full sm:w-[70vw]
+          w-[calc(100%-2rem)] sm:w-[85vw] xl:w-[75vw] 2xl:w-[70vw]
+          max-w-7xl
           flex items-center justify-between
-          px-4 sm:px-6 lg:px-8 py-3.5
+          px-4 sm:px-6 xl:px-8 py-3.5
           bg-white/80 backdrop-blur-xl
           rounded-2xl
           border border-white/50
@@ -157,7 +159,7 @@ export function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-1">
+          <div className="hidden xl:flex items-center gap-1">
             {NAV_SECTIONS.map((section) => (
               <div
                 key={section.title}
@@ -241,7 +243,7 @@ export function Header() {
           {/* Mobile Menu Toggle */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="lg:hidden w-9 h-9 flex items-center justify-center rounded-xl text-primary-700/80 hover:bg-white/60 transition-colors"
+            className="xl:hidden w-9 h-9 flex items-center justify-center rounded-xl text-primary-700/80 hover:bg-white/60 transition-colors"
             aria-label="Menu"
           >
             {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -259,7 +261,7 @@ export function Header() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.2 }}
-              className="fixed inset-0 z-40 bg-neutral-900/40 backdrop-blur-sm lg:hidden"
+              className="fixed inset-0 z-40 bg-neutral-900/40 backdrop-blur-sm xl:hidden"
               onClick={() => setIsMobileMenuOpen(false)}
             />
 
@@ -269,7 +271,7 @@ export function Header() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
               transition={{ duration: 0.2 }}
-              className="fixed top-[calc(env(safe-area-inset-top,0px)+5rem)] left-4 right-4 z-50 lg:hidden"
+              className="fixed top-[calc(env(safe-area-inset-top,0px)+5rem)] left-4 right-4 z-50 xl:hidden"
             >
               <div className="bg-white/90 backdrop-blur-xl rounded-2xl shadow-2xl border border-white/50 overflow-hidden max-h-[calc(100vh-env(safe-area-inset-top,0px)-6rem)] overflow-y-auto">
                 {/* Nav Sections - Collapsible Accordion */}

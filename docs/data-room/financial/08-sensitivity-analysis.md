@@ -36,8 +36,8 @@ The sensitivity analysis framework tests the Transformational Epicenter financia
 
 ### Key Findings
 
-- **The project generates strong positive returns across all modeled scenarios**, with base case IRR of 78% and MOIC of 7.5x, driven by the phased casita model (15 to 60 casitas over five years)
-- **The probability-weighted expected IRR exceeds 73%** with expected MOIC of 7.4x, confirming exceptional risk-adjusted returns
+- **The project generates strong positive returns across all modeled scenarios**, with base case IRR of 78% and MOIC of 6.8x, driven by the phased casita model (15 to 60 casitas over five years)
+- **The probability-weighted expected IRR exceeds 73%** with expected MOIC of 7.2x, confirming exceptional risk-adjusted returns
 - **Occupancy is the primary value driver** -- a 10-percentage-point change in Year 3 occupancy (44 effective rooms) moves EBITDA by approximately $2.7M
 - **Pricing has high leverage** -- a 10% change in average daily rate moves Year 3 EBITDA by approximately $1.8M
 - **The breakeven occupancy of approximately 3%** (~25 guests/year) provides an exceptionally wide margin of safety against demand shortfalls
@@ -50,19 +50,19 @@ Four scenarios are modeled with assigned probabilities reflecting management's a
 
 | Scenario | Probability | 5-Year Revenue | Y5 Revenue | IRR | MOIC |
 |----------|-------------|----------------|------------|-----|------|
-| Conservative | 25% | $96,560,000 | $27,200,000 | 66% | 5.3x |
-| **Base Case** | **50%** | **$125,880,000** | **$35,461,000** | **78%** | **7.5x** |
-| Aggressive | 20% | $132,770,000 | $37,400,000 | 87% | 9.6x |
+| Conservative | 25% | $96,560,000 | $27,200,000 | 78% | 6.7x |
+| **Base Case** | **50%** | **$125,880,000** | **$35,461,000** | **78%** | **6.8x** |
+| Aggressive | 20% | $132,770,000 | $37,400,000 | 86% | 10.1x |
 | Downside | 5% | $60,000,000 | $17,000,000 | ~20% | ~2.5x |
-| **Expected Value (Weighted)** | **100%** | **$114,044,000** | **$32,130,000** | **~74%** | **7.4x** |
+| **Expected Value (Weighted)** | **100%** | **$114,044,000** | **$32,130,000** | **~74%** | **7.2x** |
 
 ### Scenario Definitions
 
-**Conservative (25% probability)** -- Models slower-than-expected occupancy ramp, modest pricing pressure, and higher operating costs. Assumes Year 1 occupancy of ~48% (310 guests, $8,240,000 revenue), stabilizing at ~64% by Year 5 ($27,200,000 revenue). The same casita phasing (15 to 60) is maintained but demand builds more slowly. This scenario reflects a challenging early market environment where brand awareness builds slowly and competition creates pricing tension. Even in this case, the project generates a 66% IRR and 5.3x MOIC with $96,560,000 in 5-year cumulative revenue.
+**Conservative (25% probability)** -- Models slower-than-expected occupancy ramp, modest pricing pressure, and higher operating costs. Assumes Year 1 occupancy of ~48% (310 guests, $8,240,000 revenue), stabilizing at ~64% by Year 5 ($27,200,000 revenue). The same casita phasing (15 to 60) is maintained but demand builds more slowly. This scenario reflects a challenging early market environment where brand awareness builds slowly and competition creates pricing tension. Even in this case, the project generates a 78% IRR and 6.7x MOIC with $96,560,000 in 5-year cumulative revenue.
 
-**Base Case (50% probability)** -- The central projection using the phased casita model (15 to 60 casitas over five years) with 60% Year 1 occupancy ramping to 80% by Year 3. Revenue grows from $10,748,000 in Year 1 to $35,461,000 in Year 5 ($125,880,000 cumulative). Pricing holds at $2,000/day ($26,600 average per guest) with no escalation. EBITDA expands from $4,672,000 (43% margin) to $21,512,217 (61% margin) as operating leverage builds. This scenario reflects management's best estimate of achievable performance, projecting a 78% IRR, 7.5x MOIC, and Y5 enterprise value of ~$147,000,000.
+**Base Case (50% probability)** -- The central projection using the phased casita model (15 to 60 casitas over five years) with 60% Year 1 occupancy ramping to 80% by Year 3. Revenue grows from $10,748,000 in Year 1 to $35,461,000 in Year 5 ($125,880,000 cumulative). Pricing holds at $2,000/day ($26,600 average per guest) with no escalation. EBITDA expands from $4,672,000 (34% margin) to $21,512,217 (68% margin) as operating leverage builds. This scenario reflects management's best estimate of achievable performance, projecting a 78% IRR, 6.8x MOIC, and Y5 enterprise value of ~$189,400,000.
 
-**Aggressive (20% probability)** -- Models faster market penetration with higher occupancy and potential pricing upside. Assumes Year 1 occupancy of ~66% (426 guests, $11,330,000 revenue), stabilizing at ~88% by Year 5 ($37,400,000 revenue). This case reflects a scenario where the Rancho Paraiso Oasis rapidly establishes itself as the definitive luxury plant medicine destination, benefiting from strong word-of-mouth referrals and media attention. Projects an 87% IRR, 9.6x MOIC, and $132,770,000 in cumulative 5-year revenue.
+**Aggressive (20% probability)** -- Models faster market penetration with higher occupancy and potential pricing upside. Assumes Year 1 occupancy of ~66% (426 guests, $11,330,000 revenue), stabilizing at ~88% by Year 5 ($37,400,000 revenue). This case reflects a scenario where the Rancho Paraiso Oasis rapidly establishes itself as the definitive luxury plant medicine destination, benefiting from strong word-of-mouth referrals and media attention. Projects an 86% IRR, 10.1x MOIC, and $132,770,000 in cumulative 5-year revenue.
 
 **Downside (5% probability)** -- A stress scenario modeling severe demand disruption, potentially caused by a combination of adverse regulatory changes, a safety incident affecting industry reputation, or a significant macroeconomic downturn reducing luxury discretionary spending. Assumes Year 5 revenue of approximately $17,000,000 (~50% of base case) with compressed margins. Even this extreme scenario produces positive returns (~20% IRR, ~2.5x MOIC) due to real asset backing, high gross margins, and the phased capital deployment model. It is assigned a 5% probability reflecting its tail-risk nature.
 
@@ -74,9 +74,9 @@ The probability-weighted expected value across all four scenarios produces:
 |----------------------|--------|
 | Expected Y5 Revenue | $32,130,000 |
 | Expected 5-Year Revenue | $114,044,000 |
-| Expected MOIC | 7.4x |
+| Expected MOIC | 7.2x |
 
-The expected MOIC of 7.4x is 95% of the base case MOIC (7.5x), confirming that the probability-weighted outcome is only modestly below the central projection. This reflects the asymmetric payoff structure: upside scenarios (Aggressive) add more value than downside scenarios subtract, weighted by their respective probabilities. Base case NPV at 10% discount rate is $18,200,000 (at 12%: $16,100,000; at 15%: $13,400,000).
+The expected MOIC of 7.2x is closely aligned with the base case MOIC (6.8x), confirming that the probability-weighted outcome is only modestly above the central projection. This reflects the asymmetric payoff structure: upside scenarios (Aggressive) add more value than downside scenarios subtract, weighted by their respective probabilities. Base case NPV at 10% discount rate is $18,200,000 (at 12%: $16,100,000; at 15%: $13,400,000).
 
 ---
 
@@ -148,7 +148,7 @@ The following risk matrix identifies the primary threats to financial performanc
 | **Regulatory change** (ibogaine restriction in Mexico) | Low (10%) | Severe | Multi-modality offerings; psilocybin, ketamine as alternatives; geographic diversification | Revenue could decline 30-40% if ibogaine restricted; other modalities partially offset |
 | **Safety incident** (serious adverse event) | Low (5%) | Severe | Hospital-grade protocols; full medical screening; 24/7 monitoring; insurance coverage; crisis plan | Temporary occupancy decline of 20-30% for 6-12 months; reputational recovery plan |
 | **Slower demand ramp** (brand awareness) | Medium (30%) | Moderate | Phased marketing investment; referral programs; strategic partnerships; PR strategy | Captured in Conservative scenario; ~48% Y1 occupancy vs. 60% base |
-| **Cost overruns** (renovation/construction) | Medium (25%) | Moderate | 5.7% contingency reserve; phased renovation; fixed-price contracts where possible | $847,500 contingency covers ~21% overrun on renovation budget |
+| **Cost overruns** (renovation/construction) | Medium (25%) | Moderate | 4.9% contingency reserve; phased renovation; fixed-price contracts where possible | $847,500 contingency covers ~21% overrun on renovation budget |
 | **Currency risk** (MXN/USD) | Medium (35%) | Low-Moderate | Majority of costs in MXN; revenue in USD; natural hedge; forward contracts if needed | Favorable USD/MXN movement could reduce costs 5-10%; adverse movement increases costs |
 | **Key person risk** (founder/CMO departure) | Low (10%) | Moderate | Vesting schedules; employment contracts; operational documentation; deep bench | Temporary operational disruption; 3-6 month recruitment cycle |
 | **Competition** (new entrants) | Medium (30%) | Low-Moderate | First-mover advantage; brand establishment; talent lock-up; proprietary protocols | Pricing pressure of 5-10% over 3-5 years; captured in Conservative scenario |
@@ -164,7 +164,7 @@ The following risk matrix identifies the primary threats to financial performanc
 | Financial | Low ($0-$400K) | Conservative budgeting; currency hedging; contingency |
 | **Total Expected Risk Cost** | **$500K-$2.7M/year** | **Covered by operating margin buffer** |
 
-The total expected annual risk cost of $500K-$2.7M is well within the operating margin buffer. At Year 3 base case EBITDA of approximately $15.2M, even the upper bound of expected risk costs ($2.7M) would reduce EBITDA margin from 58% to 48% -- still highly profitable.
+The total expected annual risk cost of $500K-$2.7M is well within the operating margin buffer. At Year 3 base case EBITDA of approximately $15.2M, even the upper bound of expected risk costs ($2.7M) would reduce EBITDA margin from 66% to 56% -- still highly profitable.
 
 ---
 
@@ -178,7 +178,7 @@ The Transformational Epicenter investment thesis incorporates multiple layers of
 
 The Rancho Paraiso Oasis provides tangible collateral with a property acquisition cost of $11,900,000. In a liquidation scenario, the improved property (post-renovation) would have an estimated fair market value of $12-$15M, providing significant capital recovery even in a complete operational failure.
 
-| Downside Scenario | Estimated Recovery | % of Capital ($16.82M) |
+| Downside Scenario | Estimated Recovery | % of Capital ($17.32M) |
 |--------------------|-------------------|------------------------|
 | Orderly sale (operating business) | $14-$17M | 83-100% |
 | Asset sale (property + equipment) | $12-$14M | 71-83% |
@@ -198,7 +198,7 @@ Revenue is diversified across four program lengths (7/14/21/28 days), multiple t
 
 **5. Contingency Reserves**
 
-The $847,500 contingency reserve (5.7% of total project cost of $16,823,500) provides a dedicated buffer for construction overruns, and the medical evacuation reserve ($809/guest) accumulates a growing safety fund for emergency medical costs.
+The $847,500 contingency reserve (5.7% of total project cost of $17,323,500) provides a dedicated buffer for construction overruns, and the medical evacuation reserve ($809/guest) accumulates a growing safety fund for emergency medical costs.
 
 ### Stress Test Results
 
@@ -222,7 +222,7 @@ While a full Monte Carlo simulation is not presented in this document, the scena
 
 **Positively Skewed Returns** -- The distribution of potential outcomes is positively skewed: the upside scenarios (Aggressive, potential add-on revenue, pricing power) add more value than the downside scenarios subtract. This asymmetry favors the investor.
 
-**Concentrated Probability Mass** -- 75% of the probability weight (Base Case + Conservative) produces strong positive returns with IRR ranging from 66% to 78% and MOIC from 5.3x to 7.5x. All scenarios produce positive returns.
+**Concentrated Probability Mass** -- 75% of the probability weight (Base Case + Conservative) produces strong positive returns with IRR of 78% and MOIC from 6.7x to 6.8x. All scenarios produce positive returns.
 
 **Fat Tail Protection** -- Even the extreme downside (5% probability) produces a positive IRR of approximately 20% and MOIC of approximately 2.5x, not a loss. Real asset backing and the phased capital deployment model ensure significant capital recovery in all scenarios.
 

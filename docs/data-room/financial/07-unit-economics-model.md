@@ -50,7 +50,7 @@ The Transformational Epicenter's unit economics benefit from three structural ad
 
 1. **Premium pricing power** -- Guests seeking medically supervised plant medicine treatment in a luxury setting have limited alternatives, supporting $2,000/day pricing that is competitive within the category while generating substantial margins
 2. **Low variable cost base** -- The primary cost inputs (medical oversight, facilitators, plant medicine materials, food) scale modestly per guest compared to revenue, maintaining gross margins above 80% across all occupancy levels
-3. **High fixed-cost leverage** -- The fixed cost base (management, facilities, insurance) is spread across more guests as capacity and occupancy increase, driving EBITDA margin expansion from 43% in Year 1 (23 rooms, 60% occupancy) to 61% by Year 5 (57 rooms, 80% occupancy)
+3. **High fixed-cost leverage** -- The fixed cost base (management, facilities, insurance) is spread across more guests as capacity and occupancy increase, driving EBITDA margin expansion from 34% in Year 1 (23 rooms, 60% occupancy) to 68% by Year 5 (57 rooms, 80% occupancy)
 
 ---
 
@@ -167,15 +167,15 @@ Fixed operating expenses are allocated across guests on a per-capita basis. The 
 
 | Year | Casitas | Eff. Rooms | Occupancy | Guests | Fixed OpEx | Fixed Cost/Guest | Total Cost/Guest | EBITDA/Guest | EBITDA Margin |
 |------|---------|------------|-----------|--------|------------|------------------|------------------|--------------|---------------|
-| Y1 | 15→30 | 23 | 60% | 387 | $4,206,000 | $10,868 | $15,497 | $11,103 | 43% |
-| Y2 | 30→40 | 35 | 75% | 737 | $5,366,000 | $7,281 | $11,910 | $14,690 | 57% |
-| Y3 | 40→48 | 44 | 80% | 988 | $6,391,000 | $6,468 | $11,097 | $15,503 | 60% |
-| Y4 | 48→54 | 51 | 80% | 1,145 | $7,210,000 | $6,297 | $10,926 | $15,674 | 60% |
-| Y5 | 54→60 | 57 | 80% | 1,280 | $7,921,000 | $6,188 | $10,817 | $15,783 | 61% |
+| Y1 | 15→30 | 23 | 60% | 387 | $4,206,000 | $10,868 | $15,497 | $11,103 | 34% |
+| Y2 | 30→40 | 35 | 75% | 737 | $5,366,000 | $7,281 | $11,910 | $14,690 | 61% |
+| Y3 | 40→48 | 44 | 80% | 988 | $6,391,000 | $6,468 | $11,097 | $15,503 | 66% |
+| Y4 | 48→54 | 51 | 80% | 1,145 | $7,210,000 | $6,297 | $10,926 | $15,674 | 67% |
+| Y5 | 54→60 | 57 | 80% | 1,280 | $7,921,000 | $6,188 | $10,817 | $15,783 | 68% |
 
 ### Key Insight
 
-The phased casita model creates a dual growth engine: increasing both the number of casitas online and occupancy rates simultaneously. As the facility scales from 23 effective rooms in Year 1 to 57 in Year 5, and occupancy ramps from 60% to 80%, the fixed cost burden per guest declines from $10,868 to $6,075 -- driving EBITDA margin expansion from 43% to 61%.
+The phased casita model creates a dual growth engine: increasing both the number of casitas online and occupancy rates simultaneously. As the facility scales from 23 effective rooms in Year 1 to 57 in Year 5, and occupancy ramps from 60% to 80%, the fixed cost burden per guest declines from $10,868 to $6,075 -- driving EBITDA margin expansion from 34% to 68%.
 
 This demonstrates that the path to profitability improvement is driven by both capacity expansion and occupancy growth. The operating model generates attractive returns even in Year 1 with only 15-30 casitas and becomes highly profitable as the full 60-casita campus comes online.
 
@@ -252,7 +252,7 @@ The unit economics model supports significant revenue scalability through multip
 | Direct Cost/Guest | $4,629 | $4,629 | $4,629 | $5,100 |
 | Gross Margin | 83% | 83% | 83% | 83% |
 | Fixed Cost/Guest | $10,868 | $6,579 | $6,075 | $6,075 |
-| EBITDA Margin | 43% | 60% | 61% | 63%+ |
+| EBITDA Margin | 34% | 66% | 68% | 70%+ |
 
 ### Long-Term Unit Economics Potential
 

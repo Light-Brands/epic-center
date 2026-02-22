@@ -173,11 +173,11 @@ Longer programs deepen every dimension -- additional bio-optimization cycles, ex
 
 | Scenario | MOIC | IRR |
 |----------|------|-----|
-| Conservative | 5.3x | 66% |
-| **Base Case** | **7.5x** | **78%** |
-| Aggressive | 9.6x | 87% |
+| Conservative | 6.7x | 78% |
+| **Base Case** | **6.8x** | **78%** |
+| Aggressive | 10.1x | 86% |
 
-**Year 5 Enterprise Value (Base, Sum-of-Parts): ~$147,000,000**
+**Year 5 Enterprise Value (Base, Sum-of-Parts): ~$189,400,000**
 
 Cash-flow positive from Year 1. Revenue grows 3.3x as capacity expands from 15 to 60 casitas. Expansion beyond Year 1 funded entirely from operating cash flow -- no additional equity raise required.
 
@@ -194,9 +194,9 @@ Cash-flow positive from Year 1. Revenue grows 3.3x as capacity expands from 15 t
 | **Post-Money Valuation** | **$29,350,000** |
 | **Valuation Range** | $20,300,000 - $43,300,000 |
 | **Pre-Money Valuation** | $12,527,000 |
-| **Y5 Enterprise Value (SOTP)** | **~$147,000,000** |
+| **Y5 Enterprise Value (SOTP)** | **~$189,400,000** |
 
-Nine independent valuation methods -- including Scorecard, Checklist, Cost Approach, Venture Capital (3 variants), Tiered Revenue VC, and DCF (2 variants) -- all produce positive valuations using consolidated enterprise financials across four business units. The weighted average exceeds the $16.82M capital requirement, confirming the project creates immediate intrinsic value above its cost basis.
+Nine independent valuation methods -- including Scorecard, Checklist, Cost Approach, Venture Capital (3 variants), Tiered Revenue VC, and DCF (2 variants) -- all produce positive valuations using consolidated enterprise financials across four business units. The weighted average exceeds the $17.32M capital requirement, confirming the project creates immediate intrinsic value above its cost basis.
 
 Full methodology detailed in the IPEV-Compliant Valuation Report (Document 22).
 
@@ -211,16 +211,16 @@ This is a **legacy asset** — the founders are building a category-defining bus
 | Value Driver | 5-Year Impact |
 |-------------|---------------|
 | **Free Cash Flow** | $40.7M cumulative — cash-generative from Year 1, supporting distributions at Board discretion |
-| **Enterprise Value** | ~$147M (sum-of-parts) — embedded wealth in ownership stake, not a target sale price |
-| **EBITDA Growth** | 43% → 61% margins — operational excellence compounds value over time |
+| **Enterprise Value** | ~$189M (sum-of-parts) — embedded wealth in ownership stake, not a target sale price |
+| **EBITDA Growth** | 34% → 68% margins — operational excellence compounds value over time |
 
 **Return Profile:**
 
 | Scenario | MOIC | IRR |
 |----------|------|-----|
-| Conservative | 5.3x | 66% |
-| **Base Case** | **7.5x** | **78%** |
-| Aggressive | 9.6x | 87% |
+| Conservative | 6.7x | 78% |
+| **Base Case** | **6.8x** | **78%** |
+| Aggressive | 10.1x | 86% |
 
 **Minority Liquidity Options:** Investors may sell stakes in secondary transactions (subject to ROFR). Founders may pursue partial recapitalizations to provide liquidity windows while maintaining operational and vision control.
 
@@ -254,20 +254,20 @@ This is a **legacy asset** — the founders are building a category-defining bus
 
 ## Slide 10: Investment Structure
 
-### $16,823,500 total capital required.
+### $17,323,500 total capital required.
 
 | Category | Amount | % |
 |----------|--------|---|
-| Property Acquisition | $11,900,000 | 70.7% |
-| Working Capital | $1,126,000 | 6.7% |
-| Renovation & Conversion | $1,000,000 | 5.9% |
-| Medical + Biohacking | $1,000,000 | 5.9% |
-| Contingency | $847,500 | 5.0% |
-| Technology | $750,000 | 4.5% |
+| Property Acquisition | $12,400,000 | 71.6% |
+| Working Capital | $1,126,000 | 6.5% |
+| Renovation & Conversion | $1,000,000 | 5.8% |
+| Medical + Biohacking | $1,000,000 | 5.8% |
+| Contingency | $847,500 | 4.9% |
+| Technology | $750,000 | 4.3% |
 | Pre-Opening | $200,000 | 1.2% |
-| **Total** | **$16,823,500** | **100%** |
+| **Total** | **$17,323,500** | **100%** |
 
-**76.6% of capital goes to hard assets** (property + renovation + medical equipment), creating tangible collateral. Technology ($750K) creates proprietary AI and data infrastructure.
+**83.1% of capital goes to hard assets** (property + renovation + medical equipment), creating tangible collateral. Technology ($750K) creates proprietary AI and data infrastructure.
 
 ---
 
@@ -389,7 +389,7 @@ Published clinical outcomes justify premium pricing and build institutional trus
 
 ## Slide 17: The Ask
 
-### $16,823,500 to build the category-defining facility.
+### $17,323,500 to build the category-defining facility.
 
 **What this capital buys:**
 
@@ -402,9 +402,9 @@ Published clinical outcomes justify premium pricing and build institutional trus
 **What this capital returns (base case):**
 
 - 78% IRR
-- 7.5x MOIC over five years
+- 6.8x MOIC over five years
 - $125.9M in cumulative revenue from a single campus
-- ~$147M Year 5 enterprise value
+- ~$189M Year 5 enterprise value
 - $21.04M post-money valuation (IPEV 9-method weighted average)
 - Proof of concept for multi-property expansion
 

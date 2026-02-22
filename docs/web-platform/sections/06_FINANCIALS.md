@@ -52,7 +52,7 @@
 │   │   OPTION A: Jungle Estate Only            OPTION B: Dual Strategy   │  │
 │   │   ──────────────────────                 ─────────────────────     │  │
 │   │                                                                     │  │
-│   │   Total Investment: $16.82M               Total: $32.9M             │  │
+│   │   Total Investment: $17.32M               Total: $32.9M             │  │
 │   │   Casitas: 60 (phased 15→60)                              Rooms: 40+                 │  │
 │   │   5-Yr Revenue: $125.9M                  Y5 Revenue: $21.0M        │  │
 │   │   5-Year IRR: 78%                     Blended IRR: ~65%+        │  │
@@ -92,9 +92,9 @@
 #### Scenario Analysis (Interactive Toggle)
 | Scenario | Occupancy | Y1 Revenue | 5-Year IRR | 5-Year MOIC |
 |----------|-----------|------------|------------|-------------|
-| **Conservative** | 50→70% | $8.24M | 66% | 5.3x |
-| **Base Case** | 60→80% | $10.7M | 78% | 7.5x |
-| **Aggressive** | 70→85% | $11.33M | 87% | 9.6x |
+| **Conservative** | 50→70% | $8.24M | 78% | 6.7x |
+| **Base Case** | 60→80% | $10.7M | 78% | 6.8x |
+| **Aggressive** | 70→85% | $11.33M | 86% | 10.1x |
 
 #### Detailed Revenue Breakdown (Year 2 Base Case)
 ```
@@ -212,16 +212,16 @@
 │                                                                             │
 │   SEED ROUND (Current Raise)                                               │
 │   ──────────────────────────────────────────────────────────────────────   │
-│   Amount:              $16,823,500                                         │
+│   Amount:              $17,323,500                                         │
 │   Instrument:          Preferred Equity (Series Seed)                      │
 │                                                                             │
 │   Use of Funds:                                                            │
-│   • Property Acquisition:                  $11,900,000  (70.7%)            │
-│   • Working Capital:                        $1,126,000  (6.7%)             │
-│   • Renovation & Conversion:                $1,000,000  (5.9%)             │
-│   • Medical + Biohacking:                   $1,000,000  (5.9%)             │
-│   • Contingency:                              $847,500  (5.0%)             │
-│   • Technology:                                $750,000  (4.5%)             │
+│   • Property Acquisition:                  $12,400,000  (71.6%)            │
+│   • Working Capital:                        $1,126,000  (6.5%)             │
+│   • Renovation & Conversion:                $1,000,000  (5.8%)             │
+│   • Medical + Biohacking:                   $1,000,000  (5.8%)             │
+│   • Contingency:                              $847,500  (4.9%)             │
+│   • Technology:                                $750,000  (4.3%)             │
 │   • Pre-Opening:                              $200,000  (1.2%)             │
 │                                                                             │
 │   ──────────────────────────────────────────────────────────────────────   │
@@ -278,24 +278,24 @@
 │   COST ASSUMPTIONS                                                         │
 │   • Direct costs (COGS): 17% of revenue ($4,629/guest)                     │
 │   • Gross margin: 83% (sustained across all 5 years)                       │
-│   • EBITDA margin: Y1: 43% → Y2: 57% → Y5: 61%                            │
+│   • EBITDA margin: Y1: 34% → Y2: 61% → Y5: 68%                            │
 │   • Customer acquisition cost: $2,613/guest (blended)                      │
 │   • OpEx escalation: ~4% annually (standard inflation + capacity scaling)  │
 │                                                                             │
 │   CAPITAL REQUIREMENTS                                                     │
-│   • Total project cost: $16,823,500 (all-equity seed round)                │
+│   • Total project cost: $17,323,500 (all-equity seed round)                │
 │   • Expansion CapEx (Y2-5): ~$6.75M from operating cash flow               │
 │   • Technology platform: $750K (AI + clinical + infrastructure)            │
 │   • Annual technology OpEx: $228K (Year 1), escalating ~4%/year            │
 │                                                                             │
 │   RETURN METRICS (5-Year Hold)                                             │
 │   • IRR: 78% (base case)                                                │
-│   • MOIC: 7.5x                                                            │
+│   • MOIC: 6.8x                                                            │
 │   • Exit multiple assumption: 4.0x EBITDA (single location)               │
 │   • 5-Year Revenue: $125,880,000                                           │
 │   • 5-Year Net Income: $48,109,937                                         │
 │   • Y5 EBITDA: $21,512,217                                                 │
-│   • Y5 Enterprise Value (Base): ~$147,000,000                              │
+│   • Y5 Enterprise Value (Base): ~$189,400,000                              │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```

@@ -90,7 +90,7 @@ graph LR
     subgraph "Revenue — 0%"
         G["Guest<br/>Program Fee"]
         S["Stripe"]
-        CAYMAN["TE Holdings<br/>(Cayman)<br/>Retains ~43% EBITDA<br/>at 0% tax"]
+        CAYMAN["TE Holdings<br/>(Cayman)<br/>Retains ~34% EBITDA<br/>at 0% tax"]
     end
 
     subgraph "Development — 0%"

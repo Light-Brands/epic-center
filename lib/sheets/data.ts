@@ -18,8 +18,8 @@ import type {
 // Base case = 60% Y1 → 75% Y2 → 80% Y3-5 occupancy, ramping capacity, $2,000/night ADR
 // Conservative = ~50-70% occupancy ramp | Aggressive = ~70-90% occupancy ramp
 // Add-on revenue: Bio-opt 15%, Wellness 4%, Post-care 6%, Concierge 3% (28% total at maturity)
-// Personnel: $236,510/mo (base $176,500 + 34% benefits), G&A: $34,500/mo
-// Total fixed costs: $412,010/mo ($4,944,120/yr), inflating at 4%/yr
+// Personnel: $236,510/mo (base $176,500 + 34% benefits), G&A: $117,833/mo (includes $83,333 management fee)
+// Total fixed costs: $495,343/mo ($5,944,120/yr), inflating at 4%/yr
 
 // ─── Casita Phasing Data ───────────────────────────────────────────────
 export const CASITA_PHASING = {
@@ -79,8 +79,8 @@ export const PROPERTIES: Property[] = [
     acquisition: {
       askingPrice: 11900000,
       negotiatedPrice: 11900000,
-      closingCosts: 0,
-      totalAcquisitionCost: 11900000,
+      closingCosts: 500000,
+      totalAcquisitionCost: 12400000,
     },
     imageUrl: '/images/properties/hotel-alea-tulum.jpg',
   },
@@ -97,16 +97,16 @@ export const DASHBOARD_METRICS: DashboardMetrics = {
   averageDailyRate: 2000,
   keyMetrics: {
     acquisitionPrice: 11900000,
-    totalProjectCost: 16823500,
-    costPerRoom: 280392, // $16,823,500 / 60 rooms at full build
+    totalProjectCost: 17323500,
+    costPerRoom: 288725, // $17,323,500 / 60 rooms at full build
     revenue: {
       year1: { conservative: 9772000, base: 11720000, aggressive: 13668000 },
       year3: { conservative: 28771000, base: 32890000, aggressive: 37010000 },
       year5: { conservative: 37283000, base: 42594000, aggressive: 47940000 },
       fiveYearTotal: { conservative: 130438000, base: 149852000, aggressive: 169301000 },
     },
-    projectIRR: { conservative: 0.82, base: 0.83, aggressive: 0.91 },
-    fiveYearMOIC: { conservative: 7.1, base: 7.2, aggressive: 10.7 },
+    projectIRR: { conservative: 0.78, base: 0.78, aggressive: 0.86 },
+    fiveYearMOIC: { conservative: 6.7, base: 6.8, aggressive: 10.1 },
   },
 }
 
@@ -172,8 +172,8 @@ export const REVENUE_CHART_DATA: RevenueChartData[] = [
 
 // P&L from updated model - base case with casita phasing
 // Now includes all 4 add-on revenue streams (Bio-opt 15%, Wellness 4%, Post-care 6%, Concierge 3%)
-// Personnel: $236,510/mo (base + 34% benefits), G&A: $34,500/mo
-// Total fixed costs: $4,944,120/yr (Y1), inflating at 4%/yr
+// Personnel: $236,510/mo (base + 34% benefits), G&A: $117,833/mo (includes $83,333 management fee)
+// Total fixed costs: $5,944,120/yr (Y1), inflating at 4%/yr
 // D&A: $677,143/yr (flat - building 15yr, equip 7yr, FF&E 10yr, tech 5yr, pre-opening 5yr)
 // 30% tax rate
 export const PL_STATEMENTS: PLStatement[] = [
@@ -196,18 +196,18 @@ export const PL_STATEMENTS: PLStatement[] = [
       professionalServices: 228000,
       technology: 228000,
       marketing: 660000,
-      gAndA: 414000,
-      total: 4944120,
+      gAndA: 1414000,
+      total: 5944120,
     },
-    totalOpex: 4944120,
-    ebitda: 5021000,
-    ebitdaMarginPercent: 0.43,
+    totalOpex: 5944120,
+    ebitda: 4021000,
+    ebitdaMarginPercent: 0.34,
     depreciation: 677143,
-    ebit: 4344000,
+    ebit: 3344000,
     interestExpense: 0,
-    ebt: 4344000,
-    taxes: 1303000,
-    netIncome: 3041000,
+    ebt: 3344000,
+    taxes: 1003000,
+    netIncome: 2341000,
   },
   {
     year: 2,
@@ -228,18 +228,18 @@ export const PL_STATEMENTS: PLStatement[] = [
       professionalServices: 237120,
       technology: 237120,
       marketing: 686400,
-      gAndA: 430560,
-      total: 5141885,
+      gAndA: 1430560,
+      total: 6141885,
     },
-    totalOpex: 5141885,
-    ebitda: 15906000,
-    ebitdaMarginPercent: 0.65,
+    totalOpex: 6141885,
+    ebitda: 14906000,
+    ebitdaMarginPercent: 0.61,
     depreciation: 677143,
-    ebit: 15229000,
+    ebit: 14229000,
     interestExpense: 0,
-    ebt: 15229000,
-    taxes: 4569000,
-    netIncome: 10661000,
+    ebt: 14229000,
+    taxes: 4269000,
+    netIncome: 9961000,
   },
   {
     year: 3,
@@ -260,18 +260,18 @@ export const PL_STATEMENTS: PLStatement[] = [
       professionalServices: 246605,
       technology: 246605,
       marketing: 713856,
-      gAndA: 447782,
-      total: 5347560,
+      gAndA: 1447782,
+      total: 6347560,
     },
-    totalOpex: 5347560,
-    ebitda: 22706000,
-    ebitdaMarginPercent: 0.69,
+    totalOpex: 6347560,
+    ebitda: 21706000,
+    ebitdaMarginPercent: 0.66,
     depreciation: 677143,
-    ebit: 22029000,
+    ebit: 21029000,
     interestExpense: 0,
-    ebt: 22029000,
-    taxes: 6609000,
-    netIncome: 15420000,
+    ebt: 21029000,
+    taxes: 6309000,
+    netIncome: 14720000,
   },
   {
     year: 4,
@@ -292,18 +292,18 @@ export const PL_STATEMENTS: PLStatement[] = [
       professionalServices: 256469,
       technology: 256469,
       marketing: 742410,
-      gAndA: 465694,
-      total: 5561463,
+      gAndA: 1465694,
+      total: 6561463,
     },
-    totalOpex: 5561463,
-    ebitda: 26740000,
-    ebitdaMarginPercent: 0.70,
+    totalOpex: 6561463,
+    ebitda: 25740000,
+    ebitdaMarginPercent: 0.67,
     depreciation: 677143,
-    ebit: 26063000,
+    ebit: 25063000,
     interestExpense: 0,
-    ebt: 26063000,
-    taxes: 7819000,
-    netIncome: 18244000,
+    ebt: 25063000,
+    taxes: 7519000,
+    netIncome: 17544000,
   },
   {
     year: 5,
@@ -324,18 +324,18 @@ export const PL_STATEMENTS: PLStatement[] = [
       professionalServices: 266728,
       technology: 266728,
       marketing: 772107,
-      gAndA: 484321,
-      total: 5783921,
+      gAndA: 1484321,
+      total: 6783921,
     },
-    totalOpex: 5783921,
-    ebitda: 30036000,
-    ebitdaMarginPercent: 0.71,
+    totalOpex: 6783921,
+    ebitda: 29036000,
+    ebitdaMarginPercent: 0.68,
     depreciation: 677143,
-    ebit: 29359000,
+    ebit: 28359000,
     interestExpense: 0,
-    ebt: 29359000,
-    taxes: 8808000,
-    netIncome: 20551000,
+    ebt: 28359000,
+    taxes: 8508000,
+    netIncome: 19851000,
   },
 ]
 
@@ -370,72 +370,72 @@ export const UNIT_ECONOMICS: UnitEconomics = {
 }
 
 // Investment returns - updated for corrected formula model
-// Total investment: $16,823,500 | 5-year cumulative net income: ~$67.9M
-// IRR with exit: 82-91% | MOIC: 7.1-10.7x
+// Total investment: $17,323,500 | 5-year cumulative net income: ~$64.4M
+// IRR with exit: 78-86% | MOIC: 6.7-10.1x
 export const INVESTMENT_RETURNS: InvestmentReturns = {
-  totalCapitalRequired: 16823500,
-  equityInvestment: 16823500,
+  totalCapitalRequired: 17323500,
+  equityInvestment: 17323500,
   debtFinancing: 0,
   yearlyReturns: [
     {
       year: 1,
-      totalInvestment: 16823500,
-      annualNetIncome: 3041000,
-      cumulativeNetIncome: 3041000,
-      roiCumulative: 0.181,
-      roiAnnualized: 0.181,
+      totalInvestment: 17323500,
+      annualNetIncome: 2341000,
+      cumulativeNetIncome: 2341000,
+      roiCumulative: 0.135,
+      roiAnnualized: 0.135,
     },
     {
       year: 2,
-      totalInvestment: 16823500,
-      annualNetIncome: 10661000,
-      cumulativeNetIncome: 13701000,
-      roiCumulative: 0.814,
-      roiAnnualized: 0.347,
+      totalInvestment: 17323500,
+      annualNetIncome: 9961000,
+      cumulativeNetIncome: 12302000,
+      roiCumulative: 0.710,
+      roiAnnualized: 0.308,
     },
     {
       year: 3,
-      totalInvestment: 16823500,
-      annualNetIncome: 15420000,
-      cumulativeNetIncome: 29122000,
-      roiCumulative: 1.731,
-      roiAnnualized: 0.398,
+      totalInvestment: 17323500,
+      annualNetIncome: 14720000,
+      cumulativeNetIncome: 27022000,
+      roiCumulative: 1.560,
+      roiAnnualized: 0.368,
     },
     {
       year: 4,
-      totalInvestment: 16823500,
-      annualNetIncome: 18244000,
-      cumulativeNetIncome: 47366000,
-      roiCumulative: 2.815,
-      roiAnnualized: 0.398,
+      totalInvestment: 17323500,
+      annualNetIncome: 17544000,
+      cumulativeNetIncome: 44566000,
+      roiCumulative: 2.573,
+      roiAnnualized: 0.374,
     },
     {
       year: 5,
-      totalInvestment: 16823500,
-      annualNetIncome: 20551000,
-      cumulativeNetIncome: 67917000,
-      roiCumulative: 4.037,
-      roiAnnualized: 0.382,
+      totalInvestment: 17323500,
+      annualNetIncome: 19851000,
+      cumulativeNetIncome: 64417000,
+      roiCumulative: 3.719,
+      roiAnnualized: 0.364,
     },
   ],
   npv: {
-    rate10: 34089000,
-    rate12: 31028000,
-    rate15: 26907000,
+    rate10: 30936000,
+    rate12: 28005000,
+    rate15: 24060000,
   },
-  irr: { conservative: 0.82, base: 0.83, aggressive: 0.91 },
-  moic: { conservative: 7.1, base: 7.2, aggressive: 10.7 },
+  irr: { conservative: 0.78, base: 0.78, aggressive: 0.86 },
+  moic: { conservative: 6.7, base: 6.8, aggressive: 10.1 },
 }
 
 // Use of funds from valuation report Section 6
-// Total: $16,823,500
+// Total: $17,323,500
 export const USE_OF_FUNDS: UseOfFunds[] = [
-  { category: 'Property Acquisition', amount: 11900000, percentage: 70.7, description: '$11.9M acquisition price (all-in)' },
-  { category: 'Working Capital', amount: 1126000, percentage: 6.7, description: 'Operating runway' },
-  { category: 'Renovation & Conversion', amount: 1000000, percentage: 5.9, description: 'Renovations to make property operational' },
-  { category: 'Medical + Biohacking', amount: 1000000, percentage: 5.9, description: 'ICU/monitoring, diagnostic, IV systems, biohacking equipment' },
-  { category: 'Contingency', amount: 847500, percentage: 5.0, description: 'Risk buffer' },
-  { category: 'Technology', amount: 750000, percentage: 4.5, description: 'Tech development' },
+  { category: 'Property Acquisition', amount: 12400000, percentage: 71.6, description: '$11.9M purchase + $500K closing costs' },
+  { category: 'Working Capital', amount: 1126000, percentage: 6.5, description: 'Operating runway' },
+  { category: 'Renovation & Conversion', amount: 1000000, percentage: 5.8, description: 'Renovations to make property operational' },
+  { category: 'Medical + Biohacking', amount: 1000000, percentage: 5.8, description: 'ICU/monitoring, diagnostic, IV systems, biohacking equipment' },
+  { category: 'Contingency', amount: 847500, percentage: 4.9, description: 'Risk buffer' },
+  { category: 'Technology', amount: 750000, percentage: 4.3, description: 'Tech development' },
   { category: 'Pre-Opening', amount: 200000, percentage: 1.2, description: 'Licensing, training, soft launch' },
 ]
 
@@ -464,11 +464,11 @@ export const BUSINESS_UNITS: BusinessUnit[] = [
     name: 'Healing Center',
     description: 'Clinical operations: ibogaine, psilocybin, 5-MeO-DMT, bio-optimization treatment programs',
     y5Revenue: { conservative: 37283000, base: 42594000, aggressive: 47940000 },
-    y5EBITDA: { conservative: 25568000, base: 30036000, aggressive: 34530000 },
-    y5Margin: 0.71,
+    y5EBITDA: { conservative: 24568000, base: 29036000, aggressive: 33530000 },
+    y5Margin: 0.68,
     multiple: 5.5,
     multipleLabel: 'Behavioral health operators',
-    standaloneValue: { conservative: 140600000, base: 165200000, aggressive: 189900000 },
+    standaloneValue: { conservative: 135100000, base: 159700000, aggressive: 184400000 },
     yearlyRevenue: [
       { conservative: 9772000, base: 11720000, aggressive: 13668000 },
       { conservative: 21246000, base: 24515000, aggressive: 27783000 },
@@ -477,11 +477,11 @@ export const BUSINESS_UNITS: BusinessUnit[] = [
       { conservative: 37283000, base: 42594000, aggressive: 47940000 },
     ],
     yearlyEBITDA: [
-      { conservative: 3364000, base: 5021000, aggressive: 6678000 },
-      { conservative: 13101000, base: 15906000, aggressive: 18713000 },
-      { conservative: 19194000, base: 22706000, aggressive: 26222000 },
-      { conservative: 22703000, base: 26740000, aggressive: 30781000 },
-      { conservative: 25568000, base: 30036000, aggressive: 34530000 },
+      { conservative: 2364000, base: 4021000, aggressive: 5678000 },
+      { conservative: 12101000, base: 14906000, aggressive: 17713000 },
+      { conservative: 18194000, base: 21706000, aggressive: 25222000 },
+      { conservative: 21703000, base: 25740000, aggressive: 29781000 },
+      { conservative: 24568000, base: 29036000, aggressive: 33530000 },
     ],
   },
   {
@@ -566,10 +566,10 @@ export const BUSINESS_UNITS: BusinessUnit[] = [
 export const ENTERPRISE_VALUATION: EnterpriseValuation = {
   businessUnits: BUSINESS_UNITS,
   combinedY5Revenue: { conservative: 38643000, base: 44294000, aggressive: 49980000 },
-  combinedY5EBITDA: { conservative: 26384000, base: 31056000, aggressive: 35754000 },
-  combinedY5NetIncome: { conservative: 17995000, base: 21265000, aggressive: 24554000 },
-  combinedY5FCF: { conservative: 18672000, base: 21942000, aggressive: 25231000 },
-  sumOfPartsValue: { conservative: 163360000, base: 194900000, aggressive: 226540000 },
+  combinedY5EBITDA: { conservative: 25384000, base: 30056000, aggressive: 34754000 },
+  combinedY5NetIncome: { conservative: 17295000, base: 20565000, aggressive: 23854000 },
+  combinedY5FCF: { conservative: 17972000, base: 21242000, aggressive: 24531000 },
+  sumOfPartsValue: { conservative: 157860000, base: 189400000, aggressive: 221040000 },
   valuationMethods: [
     {
       id: 1,
@@ -662,3 +662,80 @@ export const CONSOLIDATED_PL_STATEMENTS = PL_STATEMENTS.map((pl, index) => {
     totalConsolidatedNetIncome: pl.netIncome + (additionalEBITDA - additionalTaxes),
   }
 })
+
+// ─── Pablo's 3-Entity Offer Projections ──────────────────────────────────
+// Restructures the business into 3 investment entities with Pablo receiving 30% across all three.
+// Entity A: Real Estate — $12.4M acquisition, appreciation-driven
+// Entity B: Clinic + Operations + IP — Healing center EBITDA × 5.5x multiple + villa dev/mgmt
+// Entity C: Data + AI + Health Intelligence — Tech platform + per-patient-record data premium
+// Cumulative guests from CASITA_PHASING: Y1=379, Y2=1099, Y3=2065, Y4=3185, Y5=4436
+const CUMULATIVE_GUESTS = CASITA_PHASING.years.reduce<number[]>((acc, yr) => {
+  const prev = acc.length > 0 ? acc[acc.length - 1] : 0
+  acc.push(prev + yr.guests)
+  return acc
+}, [])
+
+export const PABLO_OFFER_PROJECTIONS = {
+  pabloEquityPercent: 0.30,
+  realEstateBase: 12400000,
+
+  // Per-year projections across 3 scenarios
+  years: [1, 2, 3, 4, 5].map((year, i) => {
+    const healingCenter = BUSINESS_UNITS.find(u => u.id === 'healing-center')!
+    const techPlatform = BUSINESS_UNITS.find(u => u.id === 'technology-platform')!
+    const cumulativeGuests = CUMULATIVE_GUESTS[i]
+
+    // Entity A: Real Estate appreciation
+    const reAppreciation = {
+      conservative: Math.round(12400000 * Math.pow(1.05, year)),
+      base:         Math.round(12400000 * Math.pow(1.07, year)),
+      aggressive:   Math.round(12400000 * Math.pow(1.10, year)),
+    }
+
+    // Entity B: Clinic/Ops/IP — EBITDA × 5.5x multiple
+    const clinicValue = {
+      conservative: Math.round(healingCenter.yearlyEBITDA[i].conservative * 5.5),
+      base:         Math.round(healingCenter.yearlyEBITDA[i].base * 5.5),
+      aggressive:   Math.round(healingCenter.yearlyEBITDA[i].aggressive * 5.5),
+    }
+
+    // Entity C: Data/AI — tech platform base + per-patient-record premium
+    const dataValue = {
+      conservative: Math.round(techPlatform.standaloneValue.conservative + (5000 * cumulativeGuests)),
+      base:         Math.round(techPlatform.standaloneValue.base + (10000 * cumulativeGuests)),
+      aggressive:   Math.round(techPlatform.standaloneValue.aggressive + (15000 * cumulativeGuests)),
+    }
+
+    // Combined enterprise value
+    const totalEnterprise = {
+      conservative: reAppreciation.conservative + clinicValue.conservative + dataValue.conservative,
+      base:         reAppreciation.base + clinicValue.base + dataValue.base,
+      aggressive:   reAppreciation.aggressive + clinicValue.aggressive + dataValue.aggressive,
+    }
+
+    // Pablo's 30%
+    const pabloEquity = {
+      conservative: Math.round(totalEnterprise.conservative * 0.30),
+      base:         Math.round(totalEnterprise.base * 0.30),
+      aggressive:   Math.round(totalEnterprise.aggressive * 0.30),
+    }
+
+    return {
+      year,
+      cumulativeGuests,
+      realEstate: reAppreciation,
+      clinicOpsIP: clinicValue,
+      dataAI: dataValue,
+      totalEnterprise,
+      pabloEquity,
+    }
+  }),
+
+  // Pre-care / post-care revenue tiers
+  careTiers: [
+    { name: '3-Month Foundation', price: 4500, retentionRate: 0.70 },
+    { name: '6-Month Integration', price: 8000, retentionRate: 0.50 },
+    { name: '9-Month Transformation', price: 12000, retentionRate: 0.35 },
+    { name: '12-Month Executive', price: 18000, retentionRate: 0.25 },
+  ],
+}

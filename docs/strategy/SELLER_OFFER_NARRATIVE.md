@@ -86,7 +86,7 @@ We're committing **$5 million in operational capital** to launch and scale the b
 
 This is separate from the property acquisition. The $5M goes directly into the Mexican Operating Company to build a world-class operation on the foundation you created.
 
-**Without this $5M deployment, the projected valuation trajectory is not achievable.** This operational investment is what transforms a property into a platform — and a platform into a $194.9 million enterprise.
+**Without this $5M deployment, the projected valuation trajectory is not achievable.** This operational investment is what transforms a property into a platform — and a platform into a $189.4 million enterprise.
 
 ---
 
@@ -104,7 +104,7 @@ Every person who heals here. Every life that changes direction. Every family tha
 
 ## 7. What You Become
 
-You're not a former owner who sold at market price. You're a founding partner of a $194.9 million operation.
+You're not a former owner who sold at market price. You're a founding partner of a $189.4 million operation.
 
 **Founding Steward.** A permanent title that recognizes your role in making this possible.
 
@@ -127,8 +127,8 @@ Here's what the two paths look like side by side:
 | **Cash at closing** | $11,900,000 | $2,000,000 |
 | **Equity in Mexican Real Estate Co (Year 5)** | $0 | 12% ownership |
 | **Equity in Mexican Operating Co (Year 5)** | $0 | 12% ownership |
-| **Combined equity value (Year 5)** | $0 | $23,388,000 (projected) |
-| **Total 5-year value** | **~$11,900,000** | **$25,388,000+** |
+| **Combined equity value (Year 5)** | $0 | $22,728,000 (projected) |
+| **Total 5-year value** | **~$11,900,000** | **$24,728,000+** |
 | **Minimum protected outcome** | N/A | $15,860,000 |
 | **What happens to property** | Flipped by the next buyer | Healing center + technology platform |
 | **Your role** | Former owner | Founding partner |
@@ -141,17 +141,17 @@ Your 12% equity, year by year (combined Mexican Real Estate Co + Mexican Operati
 | Year 2 | $62,000,000 | $7,440,000 | Ramping to capacity + digital platform |
 | Year 3 | $98,000,000 | $11,760,000 | Full operations + technology platform launch |
 | Year 4 | $142,000,000 | $17,040,000 | Brand established + E-link center scaling |
-| Year 5 | $194,900,000 | **$23,388,000** | Mature operation + fully integrated platform |
+| Year 5 | $189,400,000 | **$22,728,000** | Mature operation + fully integrated platform |
 
-You receive $2M cash immediately. Your $9.9M equity conversion is projected to reach $23.4M+ in ownership value by Year 5 — a 136% return on the converted amount.
+You receive $2M cash immediately. Your $9.9M equity conversion is projected to reach $22.7M+ in ownership value by Year 5 — a 129% return on the converted amount.
 
 *All projections are estimates based on the current operating model and are subject to change.*
 
 ---
 
-## 9. The $23.4M Year 5 Projection
+## 9. The $22.7M Year 5 Projection
 
-The **$194.9M combined enterprise value** at Year 5 reflects the fully integrated Transformational Epicenter platform:
+The **$189.4M combined enterprise value** at Year 5 reflects the fully integrated Transformational Epicenter platform:
 
 - **Revenue ramp** from initial guest cohorts through full-capacity operations
 - **Multiple revenue streams**: clinical programs, extended stays, training programs, licensing
@@ -163,7 +163,7 @@ The **$194.9M combined enterprise value** at Year 5 reflects the fully integrate
 - **Brand premium**: first-mover advantage in a rapidly growing market
 - **Operating leverage**: fixed-cost infrastructure with scaling revenue
 
-Your 12% of $194.9M = **$23,388,000** *(projected)*. This is the projected value of your combined equity in both entities at Year 5.
+Your 12% of $189.4M = **$22,728,000** *(projected)*. This is the projected value of your combined equity in both entities at Year 5.
 
 ---
 
@@ -189,7 +189,7 @@ This is a balanced, mutual mechanism — both sides have the ability to trigger 
 | **Notice** | 60 days written notice |
 
 What that looks like in practice:
-- **Year 5 FMV:** ~$23.39M for your combined 12% *(projected)*
+- **Year 5 FMV:** ~$22.73M for your combined 12% *(projected)*
 - **Payment:** Structured over 24–36 months with interest
 - **Result:** Full liquidity at fair value, on a defined schedule
 
@@ -199,7 +199,7 @@ You can't be squeezed below fair value. If a buyout is exercised, you get paid w
 
 ## 11. Minimum Value Protection Guarantee
 
-All enterprise values, including the projected $194.9M valuation, are projections based on operating assumptions. To provide downside protection and confidence in this structure, the agreement includes a **negotiated minimum buyout floor**.
+All enterprise values, including the projected $189.4M valuation, are projections based on operating assumptions. To provide downside protection and confidence in this structure, the agreement includes a **negotiated minimum buyout floor**.
 
 ### How It Works
 
@@ -223,7 +223,7 @@ The 8% applies only to the $9.9M equity portion — not the $2M cash paid at clo
 
 ### How Fair Market Value Interacts With the Floor
 
-- If **fair market value at Year 5** (projected: $23,388,000 at 12%) **exceeds** the minimum floor → **fair market value applies**. The seller receives the higher amount.
+- If **fair market value at Year 5** (projected: $22,728,000 at 12%) **exceeds** the minimum floor → **fair market value applies**. The seller receives the higher amount.
 - If **fair market value is lower** than the minimum floor → the **minimum buyout price becomes $13,860,000** for the 12% equity stake (plus the $2M already received at closing).
 
 ### What This Represents
@@ -270,11 +270,11 @@ Your property is listed now. The operation is ready to launch. We have the team,
 
 This isn't a negotiation. We're not trying to get your property for less than it's worth. We're offering you more than the market will: in cash, in equity, in purpose, and in legacy.
 
-You built something extraordinary. You invested $30 million and eight years. The market wants to hand you $12 million and move on. We want to give you $2 million in cash, 12% equity in two companies projected to be worth $23.4 million, a minimum protection floor that guarantees your outcome exceeds a straight sale, and a legacy that endures.
+You built something extraordinary. You invested $30 million and eight years. The market wants to hand you $12 million and move on. We want to give you $2 million in cash, 12% equity in two companies projected to be worth $22.7 million, a minimum protection floor that guarantees your outcome exceeds a straight sale, and a legacy that endures.
 
 Your property doesn't get torn down. It becomes a healing center and technology platform. Your name doesn't get forgotten. It goes on the wall. You don't walk away with a transaction. You walk away as a founding partner of something that outlives both of us.
 
-> "You invested $30 million and eight years into this property. The market wants to hand you $12 million. We're offering you $2 million cash, 12% equity in the Mexican Real Estate Company, 12% equity in the Mexican Operating Company — projected to be worth $23.4 million combined — with a minimum protection floor of $15.86 million. Your property becomes the birthplace of a global healing movement. And you're not a former owner. You're a founding partner."
+> "You invested $30 million and eight years into this property. The market wants to hand you $12 million. We're offering you $2 million cash, 12% equity in the Mexican Real Estate Company, 12% equity in the Mexican Operating Company — projected to be worth $22.7 million combined — with a minimum protection floor of $15.86 million. Your property becomes the birthplace of a global healing movement. And you're not a former owner. You're a founding partner."
 
 We're not asking you to sell. We're inviting you to be part of something worth building.
 

@@ -62,7 +62,7 @@
 | **Issuer** | Transformational Epicenter Holdings, LLC |
 | **Jurisdiction of Formation** | State of Delaware, United States |
 | **Type of Security** | [To be determined -- LLC Membership Interests / Preferred Units / SAFE] |
-| **Total Raise** | $16,823,500 |
+| **Total Raise** | $17,323,500 |
 | **Minimum Investment** | [Pending -- to be set by counsel] |
 | **Investor Qualification** | Accredited Investors only (Rule 501(a), Regulation D) |
 | **Exemption** | Rule 506(b) or 506(c) of Regulation D [Pending counsel determination] |
@@ -115,14 +115,14 @@ The Company intends to use the net proceeds of this offering approximately as fo
 
 | Category | Amount | % of Total | Description |
 |----------|--------|-----------|-------------|
-| **Property Acquisition** | $11,900,000 | 70.7% | Purchase of Rancho Paraiso Oasis, Tulum, Q.R. ($11.9M all-in) |
-| **Working Capital Reserve** | $1,126,000 | 6.7% | Operating cash reserve to fund operations through cash-flow positive status |
-| **Renovation & Conversion** | $1,000,000 | 5.9% | Renovations to make property operational |
-| **Medical + Biohacking** | $1,000,000 | 5.9% | ICU/monitoring, diagnostic, IV therapy, biohacking equipment, pharmacy |
-| **Contingency** | $847,500 | 5.0% | Project contingency reserve including regulatory, legal, and unforeseen costs |
-| **Technology** | $750,000 | 4.5% | Tech development |
+| **Property Acquisition** | $12,400,000 | 71.6% | Purchase of Rancho Paraiso Oasis, Tulum, Q.R. ($11.9M purchase + $500K closing costs) |
+| **Working Capital Reserve** | $1,126,000 | 6.5% | Operating cash reserve to fund operations through cash-flow positive status |
+| **Renovation & Conversion** | $1,000,000 | 5.8% | Renovations to make property operational |
+| **Medical + Biohacking** | $1,000,000 | 5.8% | ICU/monitoring, diagnostic, IV therapy, biohacking equipment, pharmacy |
+| **Contingency** | $847,500 | 4.9% | Project contingency reserve including regulatory, legal, and unforeseen costs |
+| **Technology** | $750,000 | 4.3% | Tech development |
 | **Pre-Opening** | $200,000 | 1.2% | Staff recruitment and training, clinical protocol development, supply chain establishment |
-| **Total** | **$16,823,500** | **100.0%** | |
+| **Total** | **$17,323,500** | **100.0%** | |
 
 *[Note: The Company reserves the right to reallocate proceeds among categories based on business needs and changing conditions. Actual expenditures may vary from the estimates above.]*
 
@@ -290,9 +290,9 @@ No single competitor integrates all four market pillars. SHA Wellness Clinic (Sp
 
 | Scenario | Enterprise Value (Y5) | MOIC | IRR |
 |----------|----------------------|------|-----|
-| Conservative | $116,000,000 | 5.3x | 66% |
-| **Base Case** | **~$147,000,000** | **7.5x** | **78%** |
-| Aggressive | $168,000,000 | 9.6x | 87% |
+| Conservative | $116,000,000 | 6.7x | 78% |
+| **Base Case** | **~$189,400,000** | **6.8x** | **78%** |
+| Aggressive | $168,000,000 | 10.1x | 86% |
 
 ### Key Assumptions
 
@@ -300,7 +300,7 @@ No single competitor integrates all four market pillars. SHA Wellness Clinic (Sp
 - Average Daily Rate of $2,000/night across all programs
 - Average revenue per guest of $26,600
 - Average direct cost per guest of $4,629
-- Gross margin of 83%; EBITDA margins expanding from ~43% (Year 1) to ~61% (Year 5)
+- Gross margin of 83%; EBITDA margins expanding from ~34% (Year 1) to ~68% (Year 5)
 - No price increases modeled over the five-year period
 
 *[Note: Detailed financial model and assumptions available in Data Room -- Financial section.]*

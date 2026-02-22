@@ -73,7 +73,7 @@ Founders hold full management authority over both vehicles. Investor protective 
 
 **For investors:** Bond-like economics secured by hard real estate. A defined exit at Year 5 — not a permanent illiquid position. Forced sale backstop if anything goes wrong. Simple and predictable.
 
-**For founders:** Zero permanent dilution on real estate. At Year 5, preferred equity is redeemed and revenue participation self-extinguishes — founders own the property outright and control a ~$147M enterprise with ~75% ownership. IP remains permanently protected in the Cayman holding company, outside all investor vehicles.
+**For founders:** Zero permanent dilution on real estate. At Year 5, preferred equity is redeemed and revenue participation self-extinguishes — founders own the property outright and control a ~$189M enterprise with ~75% ownership. IP remains permanently protected in the Cayman holding company, outside all investor vehicles.
 
 ---
 ---
@@ -115,7 +115,7 @@ Debt holders are creditors, not owners. They have no LP governance, no board sea
 ### Investor Returns
 
 - **RE debt investors:** 11% annual fixed interest, contractual and predictable. Not dependent on occupancy, revenue, or exit. Total payments over 5 years: ~$14.5M on $11M invested. Secured by first-lien on property.
-- **OpCo equity investors:** 10% cumulative preferred, 1x liquidation preference, 30% equity in a business projecting 78% IRR and 7.5x MOIC.
+- **OpCo equity investors:** 10% cumulative preferred, 1x liquidation preference, 30% equity in a business projecting 78% IRR and 6.8x MOIC.
 - **Revenue participation investors:** 6% of gross revenue quarterly from Month 6. 2.0x cap reached during Year 4. Self-liquidates. No equity.
 
 ---

@@ -8,7 +8,7 @@
 
 He put $28M into this property. The market says it's worth $12M. That's the market's number, not ours.
 
-We value what he built at $22M. Not based on what a broker says. Based on what we're going to build on top of it. His property is the foundation of the Mexico operation, projected to be worth $147M at Year 5. We're giving him 15% of that operation, worth $22M in 5 years. More than what any buyer on the open market would pay him today.
+We value what he built at $22M. Not based on what a broker says. Based on what we're going to build on top of it. His property is the foundation of the Mexico operation, projected to be worth $189M at Year 5. We're giving him 15% of that operation, worth $22M in 5 years. More than what any buyer on the open market would pay him today.
 
 He's not selling at a loss. He's converting his property into equity in this location's operation.
 
@@ -48,7 +48,7 @@ That's it. One term. Clean. His equity is in the Mexico operation only.
 | Year 2 | $55,000,000 | $8,250,000 | Ramping to capacity |
 | Year 3 | $87,000,000 | $13,050,000 | Full operations + at capacity |
 | Year 4 | $110,000,000 | $16,500,000 | Brand established + training programs |
-| Year 5 | $147,000,000 | **$22,050,000** | Mature operation + multiple revenue streams |
+| Year 5 | $189,400,000 | **$28,410,000** | Mature operation + multiple revenue streams |
 
 His $12M property becomes $22M+ in equity. That's not a loss. That's an 83%+ return on the market price.
 
@@ -58,8 +58,8 @@ His $12M property becomes $22M+ in equity. That's not a loss. That's an 83%+ ret
 
 ```
 His property (market value):          ~$12,000,000
-Mexico Year 5 enterprise value:       $147,000,000
-15% of $147M:                         $22,050,000
+Mexico Year 5 enterprise value:       $189,400,000
+15% of $189M:                         $28,410,000
 
 His "return" on market value:         +$10,050,000 (83% gain)
 His "recovery" vs. $28M cost:         79% recovered through equity alone
@@ -88,7 +88,7 @@ SELLER gets:
 ```
 
 **Plain English:**
-- 15% ownership in the Mexico operation projected to be worth $147M
+- 15% ownership in the Mexico operation projected to be worth $189M
 - Non-voting. He has no say in operations, but he benefits from every dollar we earn
 - $50K/year advisory fee. Real money for showing up to quarterly calls
 - A complimentary annual retreat stay on the property he built
@@ -136,7 +136,7 @@ We control the timing. He gets the upside whenever we decide to move.
 
 > "You built this property with $28 million and 8 years of your life. The market wants to hand you $12 million and forget your name.
 >
-> We're offering you something the market can't: $22 million in equity in a Mexico operation that's going to be worth $147 million. Your property doesn't get flipped. It becomes the birthplace of a global healing movement. And you're not a former owner. You're a founding partner.
+> We're offering you something the market can't: $22 million in equity in a Mexico operation that's going to be worth $189 million. Your property doesn't get flipped. It becomes the birthplace of a global healing movement. And you're not a former owner. You're a founding partner.
 >
 > Your 15% is non-voting. We run the show. But every dollar we earn, you earn 15 cents. Every life we change, your property made it possible. And if we ever want to buy you out, we pay you fair market value in cash.
 >
@@ -190,4 +190,4 @@ That's it. No cash from him. No complicated financing. Property for equity. One 
 
 ---
 
-**Bottom line:** We're not asking him to sell at a loss. We're asking him to invest his property into a Mexico operation worth $147M and keep 15% of it. His $12M property becomes $22M. He gets purpose, equity, and a legacy. We get the property, full control, and 85% of the operation. One clean deal.
+**Bottom line:** We're not asking him to sell at a loss. We're asking him to invest his property into a Mexico operation worth $189M and keep 15% of it. His $12M property becomes $22M. He gets purpose, equity, and a legacy. We get the property, full control, and 85% of the operation. One clean deal.

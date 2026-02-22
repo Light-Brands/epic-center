@@ -84,7 +84,7 @@ The following assumptions are shared across all three strategies and are derived
 |-----------|--------|
 | Property Acquisition (negotiated) | ~$10,000,000 |
 | Operating Capital (working capital, renovation, medical, technology, pre-opening, contingency) | ~$5,000,000–$6,800,000 |
-| **Total Capital Raise** | **$15,000,000–$16,800,000** |
+| **Total Capital Raise** | **$15,000,000–$17,323,500** |
 
 The acquisition price reflects an ongoing negotiation from the listed $11.9M to a target of ~$10M, creating immediate equity cushion for real estate investors.
 
@@ -108,7 +108,7 @@ The acquisition price reflects an ongoing negotiation from the listed $11.9M to 
 | Average Revenue Per Guest | $26,600 |
 | Year 5 Enterprise Value (base) | $81,200,000 |
 | Project IRR with Exit (base) | 78% |
-| 5-Year MOIC (base) | 7.5x |
+| 5-Year MOIC (base) | 6.8x |
 | IP Value Estimate (Year 5) | $19–42M |
 | 5-Year Cumulative Net Income | $45,102,667 |
 
@@ -147,7 +147,7 @@ These thresholds ensure founders retain full management authority over both real
 |---------|--------------|---------------------|----------------------|
 | RE LP | $10,000,000 | $5,100,000 (51%) | $4,900,000 (49%) |
 | OpCo (TE Holdings) | $5,000,000–$6,800,000 | $3,500,000–$4,760,000 (70%) | $1,500,000–$2,040,000 (30%) |
-| **Total** | **$15,000,000–$16,800,000** | **$8,600,000–$9,860,000** | **$6,400,000–$6,940,000** |
+| **Total** | **$15,000,000–$17,323,500** | **$8,600,000–$9,860,000** | **$6,400,000–$6,940,000** |
 
 ### Investor Returns — Real Estate LP
 
@@ -198,7 +198,7 @@ These thresholds ensure founders retain full management authority over both real
 
 **For OpCo investors:**
 - Exposure to an 83% gross margin operating business
-- Venture-style upside: 78% base-case IRR, 7.5x MOIC on total project
+- Venture-style upside: 78% base-case IRR, 6.8x MOIC on total project
 - Pro-rata rights protect against dilution in future rounds
 - Clean Cayman structure familiar to institutional and family office investors
 
@@ -232,7 +232,7 @@ These thresholds ensure founders retain full management authority over both real
 | RE — Senior Secured Notes | $7,000,000–$8,000,000 | Promissory notes secured by property | 10–12% annual; interest-only 24 months; amortizing months 25–60; balloon at Year 5 |
 | RE — Founder Equity | $2,000,000–$3,000,000 | Founder capital contribution | — |
 | OpCo — Equity | $5,000,000–$6,800,000 | Preferred equity (30% investor) | 10–12% pref return + waterfall |
-| **Total** | **$15,000,000–$16,800,000** | | |
+| **Total** | **$15,000,000–$17,323,500** | | |
 
 *Note: RE debt and founder equity are inversely correlated — they sum to ~$10M for the property acquisition (e.g., $8M debt + $2M founder equity, or $7M debt + $3M founder equity). The component ranges shown are not independently variable.*
 
@@ -328,9 +328,9 @@ Same structure as Strategy A:
 | RE — Founder Equity | $2,000,000–$3,000,000 | Founder capital | — |
 | OpCo — Revenue Participation | $3,000,000–$4,000,000 | Revenue-based financing | 5–8% of gross revenue until 2.0x capital returned; optional equity conversion at up to 30% |
 | OpCo — Direct Equity (optional) | $1,000,000–$2,000,000 | Preferred equity | 12% pref return, 1x liquidation preference |
-| **Total** | **$15,000,000–$16,800,000** | | |
+| **Total** | **$15,000,000–$17,323,500** | | |
 
-*Note: Component ranges are correlated, not independently variable. RE convertible notes + founder equity sum to ~$10M for the property acquisition. OpCo tranches (revenue participation + direct equity) are sized to the remaining capital need. Specific combinations are calibrated to hit the $15–16.8M total.*
+*Note: Component ranges are correlated, not independently variable. RE convertible notes + founder equity sum to ~$10M for the property acquisition. OpCo tranches (revenue participation + direct equity) are sized to the remaining capital need. Specific combinations are calibrated to hit the $15–17.3M total.*
 
 ### Investor Returns — RE Convertible Notes
 
@@ -416,7 +416,7 @@ At 6% of revenue, a $3.5M investment returns $6.9M by end of Year 5 — approach
 
 | Dimension | Strategy A: Parallel Equity | Strategy B: Secured Debt + Equity | Strategy C: Convertible Hybrid |
 |-----------|---------------------------|----------------------------------|-------------------------------|
-| **Total Capital Raised** | $15–16.8M | $15–16.8M | $15–16.8M |
+| **Total Capital Raised** | $15–17.3M | $15–17.3M | $15–17.3M |
 | **Founder RE Ownership** | 51% | 100% | 51–100% (depends on conversion) |
 | **Founder OpCo Ownership** | 70% | 70% | 70–100% (depends on conversion) |
 | **Investor RE Ownership** | Up to 49% LP equity | 0% (debt only) | 0–49% (converts at Month 24) |

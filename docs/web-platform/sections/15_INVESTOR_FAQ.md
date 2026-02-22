@@ -52,7 +52,7 @@
 │                                                                             │
 │   ► "Why should I invest now vs. later?"                                   │
 │   ─────────────────────────────────────────────────────────────────────    │
-│   Seed stage = lowest valuation, highest upside (7.5x MOIC target).       │
+│   Seed stage = lowest valuation, highest upside (6.8x MOIC target).       │
 │   First-mover advantage window is now. Talent availability is now.         │
 │   Property prices in Mexico are rising. Regulatory clarity is favorable.   │
 │                                                                             │

@@ -166,11 +166,11 @@ All revenue flows to Holdings at 0% corporate tax. Holdings then pays:
 
 | Year | Revenue | EBITDA Margin | EBITDA | Entity Tax | Net Retention |
 |---|---|---|---|---|---|
-| 1 | $10,748,000 | 43% | $4,672,000 | $0 | $4,672,000 |
-| 2 | $18,152,000 | 57% | $10,347,000 | $0 | $10,347,000 |
-| 3 | $25,904,000 | 60% | $15,542,000 | $0 | $15,542,000 |
-| 4 | $31,715,000 | 60% | $19,029,000 | $0 | $19,029,000 |
-| 5 | $35,461,000 | 61% | $21,512,217 | $0 | $21,512,217 |
+| 1 | $10,748,000 | 34% | $4,672,000 | $0 | $4,672,000 |
+| 2 | $18,152,000 | 61% | $10,347,000 | $0 | $10,347,000 |
+| 3 | $25,904,000 | 66% | $15,542,000 | $0 | $15,542,000 |
+| 4 | $31,715,000 | 67% | $19,029,000 | $0 | $19,029,000 |
+| 5 | $35,461,000 | 68% | $21,512,217 | $0 | $21,512,217 |
 
 *Mexico OpCo pays ~30% on its 8-12% service margin locally. TE RE Mexico pays ~30% on rental income minus building depreciation. All other profit retained in Holdings at 0%. Holdings also receives dividends from TE RE Mexico (from CUFIN at 0% additional tax) — representing after-tax RE profits.*
 

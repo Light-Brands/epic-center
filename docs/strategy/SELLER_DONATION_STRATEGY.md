@@ -61,7 +61,7 @@ The **One Big Beautiful Bill Act (OBBBA)**, signed into law, introduces changes 
 
 A man who built something with $28M of his own money and is about to walk away with $11.9M -- taking a $16M loss -- does not want to feel like he lost. He wants to feel like what he built became something extraordinary. And he wants to be part of it.
 
-**Selling gives him cash and a loss. Donating gives him a legacy, a tax shield, equity in a $147M enterprise, and a reason to wake up in the morning.**
+**Selling gives him cash and a loss. Donating gives him a legacy, a tax shield, equity in a $189M enterprise, and a reason to wake up in the morning.**
 
 ### The One-Term Offer
 
@@ -480,7 +480,7 @@ The seller's equity in TE Mexico must be **legally, temporally, and economically
 | Year 2 | ~$55,000,000 | $8,250,000 | Revenue multiple |
 | Year 3 | ~$87,000,000 | $13,050,000 | Revenue multiple |
 | Year 4 | ~$110,000,000 | $16,500,000 | Revenue multiple |
-| Year 5 | ~$147,000,000 | $22,050,000 | Sum-of-parts valuation |
+| Year 5 | ~$189,400,000 | $22,050,000 | Sum-of-parts valuation |
 
 ### 5.6 Total Value to Seller (Strategy A)
 
@@ -778,14 +778,14 @@ TOTAL VALUE TO SELLER (5-YEAR HORIZON)
 
 ### 10.1 Why 15% TE Mexico -- The Math
 
-The seller's property is worth ~$12M on the open market. We value it at $22M through equity -- because we know what it's going to become. 15% of the Mexico operation's Year 5 value ($147M) = $22,050,000. Clean. Fair. Generous. Defensible. And scoped to this location only.
+The seller's property is worth ~$12M on the open market. We value it at $22M through equity -- because we know what it's going to become. 15% of the Mexico operation's Year 5 value ($189M) = $22,050,000. Clean. Fair. Generous. Defensible. And scoped to this location only.
 
 **Why 15% -- not 25% or 10%:**
 
 ```
 His property (market value):          ~$12,000,000
 We value it at:                       $22,000,000 (through equity)
-15% of Mexico Year 5 value ($147M):  $22,050,000 ✓
+15% of Mexico Year 5 value ($189M):  $22,050,000 ✓
 
 Not 25% because $36.75M overvalues a $12M property by 3x.
 Not 10% because $14.7M doesn't clear the market price by enough.
@@ -798,7 +798,7 @@ Not 10% because $14.7M doesn't clear the market price by enough.
 |-------|-------|
 | Property FMV (market) | ~$12,000,000 |
 | Tax savings received | ~$7,500,000 |
-| 15% of Mexico Year 5 enterprise value ($147M) | $22,050,000 |
+| 15% of Mexico Year 5 enterprise value ($189M) | $22,050,000 |
 | Return on market value | **83% gain in 5 years** |
 
 **From the founders' perspective:**
@@ -1461,7 +1461,7 @@ All $22M of the deduction is fully utilized. Zero waste.
 | Year 2 | $55,000,000 | $8,250,000 |
 | Year 3 | $87,000,000 | $13,050,000 |
 | Year 4 | $110,000,000 | $16,500,000 |
-| Year 5 | $147,000,000 | **$22,050,000** |
+| Year 5 | $189,400,000 | **$28,410,000** |
 
 **Buyout Optionality (Best Case)**
 

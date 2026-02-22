@@ -56,7 +56,7 @@ The business generates and processes extremely high-value data:
 
 - **Mixed Canadian and U.S. founders**
 - **Mixed Canadian and U.S. investors** (accredited, Reg D)
-- $16.82M seed raise targeting $29.35M post-money valuation
+- $17.32M seed raise targeting $29.35M post-money valuation
 - Future capital raises, strategic partnerships, and potential exit at Year 5-7
 
 ### 1.3 The North Star

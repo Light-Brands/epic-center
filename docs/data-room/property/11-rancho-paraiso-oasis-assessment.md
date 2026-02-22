@@ -46,7 +46,7 @@ The Rancho Paraiso Oasis (Kaax Cenote) is a 45,000 m2 jungle compound comprising
 | **Property Score** | 88/100 |
 | **Acquisition Price** | $11,900,000 |
 | **Total Renovation** | $1,000,000 |
-| **Total Project Cost** | $16,823,500 |
+| **Total Project Cost** | $17,323,500 |
 | **Total Casitas (Full Build)** | 60 (phased 15→60 over 5 years) |
 | **Average Daily Rate** | $2,000 |
 | **Average Revenue Per Guest** | $26,600 |
@@ -54,10 +54,10 @@ The Rancho Paraiso Oasis (Kaax Cenote) is a 45,000 m2 jungle compound comprising
 | **Year 1 Net Income** | $2,796,400 |
 | **5-Year Total Revenue** | $125,880,000 |
 | **Project IRR (Base)** | 78% |
-| **Project IRR (Conservative)** | 66% |
-| **Year 5 Enterprise Value (Base)** | ~$147,000,000 |
-| **5-Year MOIC (Base)** | 7.5x |
-| **5-Year MOIC (Conservative)** | 5.3x |
+| **Project IRR (Conservative)** | 78% |
+| **Year 5 Enterprise Value (Base)** | ~$189,400,000 |
+| **5-Year MOIC (Base)** | 6.8x |
+| **5-Year MOIC (Conservative)** | 6.7x |
 
 ---
 
@@ -151,10 +151,11 @@ The property is situated in the Tulum corridor of the Riviera Maya, one of the f
 
 | Line Item | Amount | % of Acquisition |
 |-----------|--------|------------------|
-| Purchase Price | $11,900,000 | 100.0% |
-| **TOTAL ACQUISITION** | **$11,900,000** | **100.0%** |
+| Purchase Price | $11,900,000 | 96.0% |
+| Closing Costs | $500,000 | 4.0% |
+| **TOTAL ACQUISITION** | **$12,400,000** | **100.0%** |
 
-*Note: Closing costs, legal fees, due diligence, and fideicomiso setup are included in the $11.9M all-in acquisition price.*
+*Note: Closing costs confirmed at $500,000 (one-time). Total acquisition: $11.9M purchase price + $500K closing = $12.4M. Closing costs cover legal fees, due diligence, fideicomiso setup, and title insurance.*
 
 ### 4.2 Acquisition Notes
 
@@ -219,15 +220,15 @@ The 15% contingency provides a buffer against cost overruns, supply chain delays
 
 | Category | Amount | % of Total |
 |----------|--------|------------|
-| Acquisition | $11,900,000 | 70.7% |
-| Renovation | $1,000,000 | 5.9% |
-| Medical Equipment | $750,000 | 5.0% |
-| FF&E | $600,000 | 4.0% |
-| Technology | $750,000 | 4.5% |
-| Pre-Opening | $200,000 | 1.3% |
-| Working Capital | $1,126,000 | 7.5% |
-| Contingency | $847,500 | 5.7% |
-| **TOTAL PROJECT COST** | **$16,823,500** | **100.0%** |
+| Acquisition | $12,400,000 | 71.6% |
+| Renovation | $1,000,000 | 5.8% |
+| Medical Equipment | $750,000 | 4.3% |
+| FF&E | $600,000 | 3.5% |
+| Technology | $750,000 | 4.3% |
+| Pre-Opening | $200,000 | 1.2% |
+| Working Capital | $1,126,000 | 6.5% |
+| Contingency | $847,500 | 4.9% |
+| **TOTAL PROJECT COST** | **$17,323,500** | **100.0%** |
 
 ### 7.2 Cost Efficiency Metrics
 
@@ -307,9 +308,9 @@ The 15% contingency provides a buffer against cost overruns, supply chain delays
 
 | Metric | Base Case | Conservative Case | Aggressive Case |
 |--------|-----------|-------------------|-----------------|
-| **Project IRR** | **78%** | **66%** | **87%** |
-| **Year 5 Enterprise Value** | **~$147,000,000** | -- | -- |
-| **5-Year MOIC** | **7.5x** | **5.3x** | **9.6x** |
+| **Project IRR** | **78%** | **78%** | **86%** |
+| **Year 5 Enterprise Value** | **~$189,400,000** | -- | -- |
+| **5-Year MOIC** | **6.8x** | **6.7x** | **10.1x** |
 | Year 1 Cash-on-Cash Return | 37.4% | 31.2% | 43.6% |
 | Payback Period | ~2.7 years | ~3.2 years | ~2.2 years |
 | 5-Year Cumulative Net Income | $48,109,937 | $37,585,556 | $52,619,778 |
@@ -326,9 +327,9 @@ The 15% contingency provides a buffer against cost overruns, supply chain delays
 
 | Scenario | Occupancy Adjustment | IRR Impact | MOIC Impact |
 |----------|---------------------|------------|-------------|
-| Aggressive Case | Higher occupancy ramp | 87% | 9.6x |
-| Base Case | As modeled | 78% | 7.5x |
-| Conservative Case | Lower occupancy ramp | 66% | 5.3x |
+| Aggressive Case | Higher occupancy ramp | 86% | 10.1x |
+| Base Case | As modeled | 78% | 6.8x |
+| Conservative Case | Lower occupancy ramp | 78% | 6.7x |
 | Bear Case (-20% occupancy) | -20% across all years | 52% | 3.5x |
 | ADR Sensitivity (+$500/day) | Flat occupancy, +$500 ADR | +15-20% | +1.5x |
 | ADR Sensitivity (-$500/day) | Flat occupancy, -$500 ADR | -18-22% | -1.3x |
@@ -372,7 +373,7 @@ Based on the comprehensive assessment presented in this document, the recommenda
 **Supporting rationale:**
 
 1. **Highest score** of all evaluated properties at 88/100
-2. **Strongest financial returns** with 78% IRR and 7.5x MOIC (base case), producing ~$147M enterprise value at Year 5
+2. **Strongest financial returns** with 78% IRR and 6.8x MOIC (base case), producing ~$189M enterprise value at Year 5
 3. **Exceptional capacity** of 60 casitas (phased 15→60) supporting $10.7M Year 1 revenue
 4. **Best cost efficiency** at $249,225 per casita at full build
 5. **Unmatched expansion potential** on 45,000 m2 across 9 lots

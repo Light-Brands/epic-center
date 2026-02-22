@@ -111,8 +111,8 @@ All strategies are grounded in the verified financial model (Google Sheets: `1Z0
 |--------|-------|--------|
 | Property Asking Price | $11,900,000 | Acquisition Costs tab |
 | Negotiation Target | $10,000,000–$11,000,000 | Strategy assumption |
-| Total Project Cost | $16,823,500 | Dashboard tab |
-| Property Acquisition (% of Total) | 70.7% | Dashboard tab |
+| Total Project Cost | $17,323,500 | Dashboard tab |
+| Property Acquisition (% of Total) | 71.6% | Dashboard tab |
 | Renovation & Conversion | $1,000,000 | Acquisition Costs tab |
 | Medical + Biohacking Equipment | $1,000,000 | Acquisition Costs tab |
 | Working Capital | $1,126,000 | Dashboard tab |
@@ -139,8 +139,8 @@ All strategies are grounded in the verified financial model (Google Sheets: `1Z0
 | Break-Even Occupancy | ~3% (25 guests/year) |
 | Average Revenue Per Guest | $26,600 |
 | Project IRR (Base Case) | 78% |
-| 5-Year MOIC | 7.5x |
-| Year 5 Enterprise Value (Sum-of-Parts) | ~$147,000,000 |
+| 5-Year MOIC | 6.8x |
+| Year 5 Enterprise Value (Sum-of-Parts) | ~$189,400,000 |
 | Post-Money Valuation (9-Method IPEV) | $29,350,000 |
 | Project Payback | ~2.7 years |
 
@@ -674,7 +674,7 @@ This structure accomplishes two things simultaneously:
 | Holding | Basis | Estimated Year 5 Value |
 |---------|-------|----------------------|
 | 8% TE RE Holdings | Property appreciation + villa program value | $2,000,000–$3,200,000 |
-| 2.5% TE Wellness Holdings | Enterprise value of ~$147M x 2.5% | $3,675,000 |
+| 2.5% TE Wellness Holdings | Enterprise value of ~$189M x 2.5% | $4,735,000 |
 | **Total Equity Value** | | **$5,675,000–$6,875,000** |
 
 ### 7.7 Seller Economics Summary (Strategy 3)
@@ -689,7 +689,7 @@ This structure accomplishes two things simultaneously:
 | **Total 5-Year Value** | **$15,065,000–$16,265,000** | |
 | **Including equity fair value** | **$16,065,000–$19,940,000+** | |
 
-The seller receives $16–20M in total value on a $10M sale — potentially the **highest total return** of all three strategies, driven by equity upside in a $147M enterprise. His 2.5% OpCo stake alone could be worth $3.7M at Year 5 valuations.
+The seller receives $16–20M in total value on a $10M sale — potentially the **highest total return** of all three strategies, driven by equity upside in a $189M enterprise. His 2.5% OpCo stake alone could be worth $3.7M at Year 5 valuations.
 
 ### 7.8 Founder Economics and Control
 
@@ -742,7 +742,7 @@ The seller receives $16–20M in total value on a $10M sale — potentially the 
 - **Smallest seller note** ($6M vs. $7.5–8M) — lowest debt service obligation
 - **$2M renovation reinvestment** directly reduces capital needed from outside investors
 - **7.0% interest rate** (lowest of all strategies) reflects seller's equity alignment
-- **2.5% OpCo dilution is minimal** on a $147M enterprise
+- **2.5% OpCo dilution is minimal** on a $189M enterprise
 - **Advisory compensation ($50K/year) is negligible** — and the seller's network could generate referrals worth multiples of the cost
 - **Seller as advocate:** An equity-holding, advisory-board-sitting, annually-visiting seller becomes the project's most authentic external champion
 - **Reduced negotiation friction:** A seller who becomes a partner has dramatically less incentive to fight on price
@@ -950,7 +950,7 @@ The seller note is secured by a first-position lien on the property held within 
 | `docs/strategy/OPTIMAL_CAPITAL_STRUCTURE.md` | Entity architecture, non-negotiable principles, IP protection framework |
 | `docs/strategy/INVESTMENT_STRUCTURING_STRATEGIES.md` | Capital formation strategies, dual-vehicle architecture |
 | `docs/data-room/financial/06-financial-projections-5-year.md` | 5-year P&L, capacity model, cash flow, investment returns |
-| `docs/data-room/financial/22-valuation-report.md` | Enterprise valuation ($147M Year 5), 9-method IPEV framework |
+| `docs/data-room/financial/22-valuation-report.md` | Enterprise valuation ($189M Year 5), 9-method IPEV framework |
 | `docs/data-room/financial/09-cap-table.md` | Equity structure, share classes, distribution waterfall |
 | `docs/data-room/legal/16-fideicomiso-structure.md` | Fideicomiso trust structure for restricted-zone property |
 | `docs/data-room/property/10-property-evaluation-matrix.md` | Property selection rationale, financial comparison |

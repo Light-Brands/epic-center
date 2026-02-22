@@ -50,14 +50,14 @@ Transformational Epicenter is purpose-built to occupy this uncontested position,
 
 | Metric | Value |
 |--------|-------|
-| **Total Project Cost** | $16,823,500 |
+| **Total Project Cost** | $17,323,500 |
 | **Acquisition** | $11,900,000 |
 | **Renovation** | $1,000,000 |
 | **Year 1 Revenue (Base)** | $10,748,000 |
 | **5-Year Total Revenue** | $125,880,000 |
-| **Project IRR (Base / Conservative)** | 78% / 66% |
-| **Year 5 Enterprise Value (Base)** | ~$147,000,000 |
-| **5-Year MOIC (Base / Conservative)** | 7.5x / 5.3x |
+| **Project IRR (Base / Conservative)** | 78% / 78% |
+| **Year 5 Enterprise Value (Base)** | ~$189,400,000 |
+| **5-Year MOIC (Base / Conservative)** | 6.8x / 6.7x |
 
 ---
 

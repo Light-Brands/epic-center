@@ -30,17 +30,17 @@
 
 Transformational Epicenter conducted a rigorous multi-property evaluation across Quintana Roo, Mexico to identify the optimal site for its flagship luxury medical wellness facility. Four properties were evaluated against a weighted 100-point scoring framework encompassing location quality, medical infrastructure feasibility, revenue potential, and investment risk.
 
-**Result:** The **Rancho Paraiso Oasis (Kaax Cenote)** was selected as the flagship property with a score of **88/100**, a projected IRR of **78%**, and a total project cost of **$16,823,500**. The property's combination of expansive jungle setting (45,000 m2 across 9 lots), 60-casita capacity (phased 15→60 over 5 years), and alignment with the Transformational Epicenter brand makes it the clear frontrunner for development.
+**Result:** The **Rancho Paraiso Oasis (Kaax Cenote)** was selected as the flagship property with a score of **88/100**, a projected IRR of **78%**, and a total project cost of **$17,323,500**. The property's combination of expansive jungle setting (45,000 m2 across 9 lots), 60-casita capacity (phased 15→60 over 5 years), and alignment with the Transformational Epicenter brand makes it the clear frontrunner for development.
 
 | Metric | Selected Property |
 |--------|-------------------|
 | **Property** | Rancho Paraiso Oasis (Kaax Cenote) |
 | **Location** | Tulum, Q.R., Mexico |
 | **Score** | 88/100 |
-| **Project IRR** | 78% (base), 66% (conservative) |
-| **Total Project Cost** | $16,823,500 |
-| **Year 5 Enterprise Value (Base)** | ~$147,000,000 |
-| **5-Year MOIC** | 7.5x (base), 5.3x (conservative) |
+| **Project IRR** | 78% (base), 78% (conservative) |
+| **Total Project Cost** | $17,323,500 |
+| **Year 5 Enterprise Value (Base)** | ~$189,400,000 |
+| **5-Year MOIC** | 6.8x (base), 6.7x (conservative) |
 | **Year 1 Revenue** | $10,748,000 |
 | **Decision** | SELECTED |
 
@@ -99,7 +99,7 @@ Each property was evaluated across 10 weighted categories totaling 100 points. C
 | Financial Metric | Riviera Maya | Hotel Alea Tulum | Hacienda Caracol | Mini Hotel Cancun |
 |------------------|-------------|-------------------|-------------------|---------------------|
 | Acquisition Price | $11,900,000 | $6,400,000 | $4,900,000 | $1,100,000 |
-| Total Project Cost | $16,823,500 | $19,036,750 | $13,914,000 | $10,517,000 |
+| Total Project Cost | $17,323,500 | $19,036,750 | $13,914,000 | $10,517,000 |
 | Total Guest Rooms | 60 | 21 | 10 | 20 |
 | Cost per Room | $249,225 | $906,512 | $1,391,400 | $525,850 |
 | Average Daily Rate | $2,000 | $2,321 | $3,157 | $2,321 |
@@ -107,7 +107,7 @@ Each property was evaluated across 10 weighted categories totaling 100 points. C
 | Year 1 Revenue | $10,748,000 | $8,200,000 | $4,200,000 | N/A |
 | 5-Year Total Revenue | $125,880,000 | $62,100,000 | $32,300,000 | N/A |
 | Project IRR (Base) | **78%** | 29.54% | 18% | -15% |
-| 5-Year MOIC | **7.5x** | 2.61x | 1.85x | 0.65x |
+| 5-Year MOIC | **6.8x** | 2.61x | 1.85x | 0.65x |
 
 ---
 
@@ -117,14 +117,14 @@ Each property was evaluated across 10 weighted categories totaling 100 points. C
 
 | Rank | Property | Score | IRR (Base) | Total Investment | Decision |
 |------|----------|-------|------------|------------------|----------|
-| **1** | **Rancho Paraiso Oasis** | **88/100** | **78%** | **$16,823,500** | **SELECTED** |
+| **1** | **Rancho Paraiso Oasis** | **88/100** | **78%** | **$17,323,500** | **SELECTED** |
 | 2 | Mini Hotel Cancun | 79/100 | -15% | $10,517,000 | PASS |
 | 3 | Hacienda Caracol | 76/100 | 18% | $13,914,000 | Strong #2 |
 | 4 | Hotel Alea Tulum | 75/100 | 29.54% | $19,036,750 | HNW Flagship Alternate |
 
 ### Ranking Analysis
 
-**Rank 1 - Rancho Paraiso Oasis (SELECTED):** Highest overall score (88/100) driven by exceptional land size, room capacity, expansion potential, and revenue projections. The 78% base-case IRR and 7.5x MOIC represent the strongest risk-adjusted returns of any property evaluated, producing ~$147M in enterprise value at Year 5. The 45,000 m2 compound provides a canvas for phased build-out and long-term platform expansion.
+**Rank 1 - Rancho Paraiso Oasis (SELECTED):** Highest overall score (88/100) driven by exceptional land size, room capacity, expansion potential, and revenue projections. The 78% base-case IRR and 6.8x MOIC represent the strongest risk-adjusted returns of any property evaluated, producing ~$189M in enterprise value at Year 5. The 45,000 m2 compound provides a canvas for phased build-out and long-term platform expansion.
 
 **Rank 2 - Mini Hotel Cancun (PASS):** Despite the second-highest property score (79/100) driven by medical infrastructure and market access, the property fails on financial viability with a negative IRR of -15%. Urban Cancun location fundamentally misaligned with the healing-focused, nature-immersive brand positioning. No amount of renovation overcomes the brand disconnect.
 
@@ -143,7 +143,7 @@ Each property was evaluated across 10 weighted categories totaling 100 points. C
 | **Capacity & Scale** | 60 casitas at full build-out (phased 15→60 over 5 years) -- largest capacity of all candidates. Supports 4,537 guests over 5 years, enabling meaningful revenue scale from Year 1. |
 | **Land & Expansion** | 45,000 m2 across 9 lots provides unmatched expansion potential. Phased development from 15 casitas (Year 1) to 60 casitas (Year 5) de-risks the build-out. |
 | **Brand Alignment** | Pristine jungle setting with cenotes delivers the immersive, nature-connected healing environment central to the TE brand. No other property matches this. |
-| **Financial Returns** | 78% base-case IRR and 7.5x MOIC represent the strongest risk-adjusted returns, producing ~$147M enterprise value at Year 5. $125.9M in projected 5-year revenue provides substantial cash generation. |
+| **Financial Returns** | 78% base-case IRR and 6.8x MOIC represent the strongest risk-adjusted returns, producing ~$189M enterprise value at Year 5. $125.9M in projected 5-year revenue provides substantial cash generation. |
 | **Cost Efficiency** | $249,225 cost per casita at full build -- lowest of all evaluated properties. Exceptional value for the capacity and land area acquired. |
 | **Pricing Power** | Jungle estate setting supports $2,000/day ADR with full medical + plant medicine programming. Average revenue per guest of $26,600 reflects comprehensive program value. |
 | **Regulatory Favorability** | Rural jungle zoning presents fewer regulatory hurdles than beach zone (Hacienda Caracol) or hotel zone (Mini Hotel Cancun) properties. |
@@ -216,7 +216,7 @@ The $750,000 Medical Suite renovation budget provides:
 The Rancho Paraiso Oasis was selected based on the highest composite score across financial viability, brand alignment, operational capacity, and strategic expansion potential. While other properties scored competitively in individual categories (Mini Hotel Cancun in medical access, Hotel Alea Tulum in proven operations), no other property delivered the combination of:
 
 1. **Scale** -- 60 casitas (phased 15→60) enabling $10.7M Year 1 revenue at 60% occupancy
-2. **Returns** -- 78% IRR and 7.5x MOIC in the base case (~$147M enterprise value at Year 5)
+2. **Returns** -- 78% IRR and 6.8x MOIC in the base case (~$189M enterprise value at Year 5)
 3. **Brand fit** -- Pristine jungle compound with cenotes, perfect for healing environment
 4. **Expansion** -- 45,000 m2 across 9 lots, supporting long-term platform growth
 5. **Value** -- $249,225 per casita at full build, lowest cost per unit of capacity

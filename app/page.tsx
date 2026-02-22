@@ -790,8 +790,8 @@ export default function VisionPage() {
             variants={staggerContainer}
           >
             {[
-              { icon: '/icons/project-cost.png', label: 'Total Raise', value: '$16.8M', description: 'All-equity seed round' },
-              { icon: '/icons/year-5-revenue.png', label: 'Y5 Enterprise Value', value: '$194.9M', description: 'Sum-of-parts (4 units)' },
+              { icon: '/icons/project-cost.png', label: 'Total Raise', value: '$17.3M', description: 'All-equity seed round' },
+              { icon: '/icons/year-5-revenue.png', label: 'Y5 Enterprise Value', value: '$189.4M', description: 'Sum-of-parts (4 units)' },
               { icon: '/icons/project-irr.png', label: 'Y5 Revenue', value: '$34M', description: 'Full 60-casita campus' },
               { icon: '/icons/moic.png', label: 'Total Casitas', value: '60', description: 'Phased expansion plan' },
               { icon: '/icons/moic.png', label: 'Total Villas', value: '48', description: 'Villa expansion phase' },

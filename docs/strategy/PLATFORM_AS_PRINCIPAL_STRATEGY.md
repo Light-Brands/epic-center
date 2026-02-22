@@ -389,7 +389,7 @@ This is the critical risk factor. Mexico's SAT (Tax Administration Service) has 
 
 ### 6.1 The Goal
 
-Transform the Mexican OpCo from a **profit center** (43% EBITDA margin, 30% tax on substantial income) to a **break-even or minimal-profit entity** by legitimately routing value through the platform.
+Transform the Mexican OpCo from a **profit center** (34% EBITDA margin, 30% tax on substantial income) to a **break-even or minimal-profit entity** by legitimately routing value through the platform.
 
 ### 6.2 Year 1: The Extraction Math
 

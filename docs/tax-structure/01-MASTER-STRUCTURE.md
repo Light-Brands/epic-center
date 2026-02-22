@@ -304,7 +304,7 @@ graph LR
 
     subgraph "Holdings — 0%"
         S["Stripe"]
-        CAYMAN["TE Wellness Holdings<br/>(Cayman)<br/>Retains ~43% EBITDA"]
+        CAYMAN["TE Wellness Holdings<br/>(Cayman)<br/>Retains ~34% EBITDA"]
     end
 
     subgraph "Development — 0%"
@@ -340,7 +340,7 @@ graph LR
     style F fill:#0a8754,stroke:#fff,color:#fff
 ```
 
-**Revenue path:** Guest pays via TE app (Stripe) → TE Wellness Holdings (Cayman, owned ~70% by Panamanian Holdings S.A.) → retains ~43% EBITDA at 0% tax + pays dev services fee to Studio (cost + 8-12% margin, 0% QFZP) + pays service fee to Mexico OpCo (cost + 8-12% margin, taxed at 30% on the margin) + pays content license fee to Church (arm's length, 0% on both sides). Holdings also contributes equity to TE RE Mexico for land acquisition and development; RE entity leases developed property to OpCo at arm's length rent (deductible for OpCo, taxable for RE entity minus depreciation). Retained earnings in Holdings flow upstream: Holdings → S.A. (0% territorial) → PIF (0%).
+**Revenue path:** Guest pays via TE app (Stripe) → TE Wellness Holdings (Cayman, owned ~70% by Panamanian Holdings S.A.) → retains ~34% EBITDA at 0% tax + pays dev services fee to Studio (cost + 8-12% margin, 0% QFZP) + pays service fee to Mexico OpCo (cost + 8-12% margin, taxed at 30% on the margin) + pays content license fee to Church (arm's length, 0% on both sides). Holdings also contributes equity to TE RE Mexico for land acquisition and development; RE entity leases developed property to OpCo at arm's length rent (deductible for OpCo, taxable for RE entity minus depreciation). Retained earnings in Holdings flow upstream: Holdings → S.A. (0% territorial) → PIF (0%).
 
 ### Flow 7b: RE Entity Capital and Lease Flow
 
@@ -659,7 +659,7 @@ graph TB
 | Metric | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 |
 |---|---|---|---|---|---|
 | **HC Revenue** | $10,748,000 | $18,152,000 | $25,904,000 | $31,715,000 | $35,461,000 |
-| **EBITDA Margin** | 43% | 57% | 60% | 60% | 61% |
+| **EBITDA Margin** | 34% | 61% | 66% | 67% | 68% |
 | **EBITDA** | $4,672,000 | $10,347,000 | $15,542,000 | $19,029,000 | $21,512,217 |
 | **Mexico OpCo Tax (~30% on margin)** | ~$126K | ~$200K | ~$300K | ~$360K | ~$420K |
 | **Mexico RE Tax (~30% on rent minus depreciation)** | $0 | ~$25-50K | ~$50-100K | ~$75-125K | ~$75-150K |
@@ -668,7 +668,7 @@ graph TB
 | **Church Tax** | $0 | $0 | $0 | $0 | $0 |
 | **Entity Effective Rate** | ~1.2% | ~1.1% | ~1.2% | ~1.1% | ~1.2% |
 | **5-Year Cumulative Revenue** | | | | | **$125,880,000** |
-| **Y5 Enterprise Value (SOTP)** | | | | | **~$147,000,000** |
+| **Y5 Enterprise Value (SOTP)** | | | | | **~$189,400,000** |
 
 ### Light Brands (estimates — pre-revenue, scale TBD)
 
@@ -841,7 +841,7 @@ gantt
 | PIF maintenance ($250 tax + agent) | Annually |
 
 **Total Year 1 cost (setup + operations):** ~$1.3-2.4M
-**Context:** At $10.7M Y1 revenue with 43% EBITDA, the structure cost is a fraction of the ~$3.2M+ that would be paid in Mexican corporate tax alone under an all-local structure. Light Brands revenue is additive with negligible incremental cost.
+**Context:** At $10.7M Y1 revenue with 34% EBITDA, the structure cost is a fraction of the ~$3.2M+ that would be paid in Mexican corporate tax alone under an all-local structure. Light Brands revenue is additive with negligible incremental cost.
 
 ---
 

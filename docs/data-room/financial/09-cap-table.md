@@ -60,21 +60,21 @@ The total capital requirement for the Transformational Epicenter project has bee
 
 | Component | Amount | % of Total |
 |-----------|--------|------------|
-| Property Acquisition | $11,900,000 | 70.7% |
-| Working Capital | $1,126,000 | 6.7% |
-| Renovation & Conversion | $1,000,000 | 5.9% |
-| Medical + Biohacking | $1,000,000 | 5.9% |
-| Contingency | $847,500 | 5.0% |
-| Technology | $750,000 | 4.5% |
+| Property Acquisition | $12,400,000 | 71.6% |
+| Working Capital | $1,126,000 | 6.5% |
+| Renovation & Conversion | $1,000,000 | 5.8% |
+| Medical + Biohacking | $1,000,000 | 5.8% |
+| Contingency | $847,500 | 4.9% |
+| Technology | $750,000 | 4.3% |
 | Pre-Opening | $200,000 | 1.2% |
-| **Total Capital Required** | **$16,823,500** | **100%** |
+| **Total Capital Required** | **$17,323,500** | **100%** |
 
 ### Capital Structure Considerations
 
 The capital structure is expected to be primarily equity-funded, with potential for a senior secured facility against the real property once acquired. The equity-heavy structure reflects:
 
 - **Early-stage risk profile** -- Pre-revenue, pre-construction projects command equity rather than debt pricing
-- **Real asset backing** -- The $11.9M property acquisition provides tangible collateral that supports future debt financing
+- **Real asset backing** -- The $12.4M property acquisition provides tangible collateral that supports future debt financing
 - **Operational flexibility** -- An equity-heavy balance sheet avoids mandatory debt service during the critical ramp period
 - **Investor alignment** -- Equity participation ensures all stakeholders share in both risk and upside
 

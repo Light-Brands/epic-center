@@ -759,7 +759,7 @@ export default function TechnologyPage() {
                     <h4 className="font-medium text-neutral-900 mb-2">Financial Model Integrity</h4>
                     <p className="text-sm text-neutral-600 leading-relaxed">
                       Technology costs are fully integrated into the financial model. The $750K CapEx
-                      is reflected in the total raise of $16.8M. Annual OpEx of $228K is included in
+                      is reflected in the total raise of $17.3M. Annual OpEx of $228K is included in
                       operating expenses across all P&L projections. D&A of $200K/yr (5-year straight-line)
                       is captured in the depreciation schedule.
                     </p>

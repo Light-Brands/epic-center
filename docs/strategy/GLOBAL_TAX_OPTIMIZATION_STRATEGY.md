@@ -61,7 +61,7 @@ When a Canadian or American **personally** owns a foreign corporation, their hom
 
 Capital gains taxes only trigger when you **sell** an asset. If you never sell, you never pay. Meanwhile, you can borrow against the value of your assets to fund your lifestyle. Loans are not income. Interest is often deductible.
 
-**The move:** As the enterprise value grows from $29M to $147M+, borrow against your equity position rather than taking distributions. No sale = no capital gains = no tax. At death (or through proper trust structures), the basis steps up and the gains disappear.
+**The move:** As the enterprise value grows from $29M to $189M+, borrow against your equity position rather than taking distributions. No sale = no capital gains = no tax. At death (or through proper trust structures), the basis steps up and the gains disappear.
 
 ---
 
@@ -243,7 +243,7 @@ The departure tax is based on fair market value at the date of departure. For TE
 | After seed raise closes | Pro-rata share of $29.35M post-money | Could be significant |
 | After Year 1 operations | Higher (revenue generating) | Substantial |
 | After Year 3 | Much higher (proven model) | Very substantial |
-| After Year 5 ($147M EV) | Pro-rata of $147M | Enormous |
+| After Year 5 ($189M EV) | Pro-rata of $189M | Enormous |
 
 > **The window is NOW.** Before the seed round closes and establishes a formal valuation. Before revenue. Before EBITDA. The departure tax bill grows with every milestone.
 
@@ -577,7 +577,7 @@ All revenue flows to DataCo → Treaty HoldCo → Panama PIF, bypassing Mexico e
 
 ### 9.1 The Concept
 
-As TE's enterprise value grows from ~$29M to ~$147M (Year 5) and beyond, the founder's beneficial interest in the Panama PIF appreciates correspondingly. This unrealized gain is **never taxed** because:
+As TE's enterprise value grows from ~$29M to ~$189M (Year 5) and beyond, the founder's beneficial interest in the Panama PIF appreciates correspondingly. This unrealized gain is **never taxed** because:
 
 1. The PIF has no owner (no deemed disposition)
 2. Panama has no capital gains tax on foreign assets
@@ -600,7 +600,7 @@ Instead of distributing all cash from the PIF:
 
 ```
 Year 0:  Founder's beneficial interest = ~$5M (cost basis)
-Year 5:  Enterprise value = ~$147M; founder's share = ~$80-100M
+Year 5:  Enterprise value = ~$189M; founder's share = ~$80-100M
 Year 10: Multi-location platform = $500M-$1B+
 
 Tax on appreciation: $0 (no sale, no owner, no jurisdiction taxing)

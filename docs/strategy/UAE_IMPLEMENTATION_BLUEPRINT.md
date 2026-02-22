@@ -87,7 +87,7 @@ graph LR
     S -->|"T+5 days<br/>payout"| UAE_BANK
     UAE_BANK --> UAE_CO
     UAE_CO -->|"Service delivery fee<br/>(cost + 8-12% margin)<br/>~57% of revenue"| MEX_CO
-    UAE_CO -->|"Retains ~43%<br/>(EBITDA margin)<br/>Taxed at 0%"| UAE_CO
+    UAE_CO -->|"Retains ~34%<br/>(EBITDA margin)<br/>Taxed at 0%"| UAE_CO
 
     style G fill:#2d4059,stroke:#ea5455,color:#fff
     style S fill:#2d4059,stroke:#ea5455,color:#fff
@@ -630,7 +630,7 @@ This agreement must be supported by the annual transfer pricing study.
 | **Low estimate** | ~$1.1M |
 | **High estimate** | ~$2.0M |
 
-**Context:** At Year 1 revenue of $10.7M with 43% EBITDA margin, the UAE structure cost ($1.1-2.0M) is a fraction of the $3.2M+ that would be paid in Mexican corporate tax alone under an all-local structure.
+**Context:** At Year 1 revenue of $10.7M with 34% EBITDA margin, the UAE structure cost ($1.1-2.0M) is a fraction of the $3.2M+ that would be paid in Mexican corporate tax alone under an all-local structure.
 
 ---
 
@@ -743,14 +743,14 @@ flowchart TD
 | Y1 Revenue (Tulum) | $10,748,000 | data.ts |
 | Y5 Revenue (Tulum) | $35,461,000 | data.ts |
 | 5-Year Cumulative Revenue | $125,880,000 | data.ts |
-| Y1 EBITDA | $4,672,000 (43% margin) | data.ts |
-| Y5 EBITDA | $21,512,217 (61% margin) | data.ts |
+| Y1 EBITDA | $4,672,000 (34% margin) | data.ts |
+| Y5 EBITDA | $21,512,217 (68% margin) | data.ts |
 | HC 5-Year Net Income | $48,109,937 | data.ts |
 | Consolidated 5-Year Net Income | $57,136,577 | data.ts |
 | Consolidated 5-Year EBITDA | $86,239,396 | data.ts |
-| Total Project Cost | $16,823,500 | data.ts |
+| Total Project Cost | $17,323,500 | data.ts |
 | OpCo receives | ~57% of revenue (cost + 8-12% margin) | TP model |
-| Tech entity retains | ~43% of revenue (EBITDA margin) | TP model |
+| Tech entity retains | ~34% of revenue (EBITDA margin) | TP model |
 | UAE CT rate (QFZP) | 0% | UAE Corporate Tax Law |
 | UAE CT rate (standard) | 9% | UAE Corporate Tax Law |
 | Mexico CT rate | 30% | Mexican tax law |

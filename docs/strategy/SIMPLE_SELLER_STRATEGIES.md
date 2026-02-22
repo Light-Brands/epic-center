@@ -86,7 +86,7 @@ SELLER gets:
   $6M note -------> 7% interest (lowest rate — he's aligned)
   $2M reinvested -> Goes into renovations (grows his own equity)
   8% RE equity ---> Worth $2-3.2M at Year 5
-  2.5% OpCo -----> Worth $3.7M at Year 5 (on a $147M business)
+  2.5% OpCo -----> Worth $3.7M at Year 5 (on a $189M business)
   Advisory fee ---> $50K/year + annual retreat stay
                     ---------
                     TOTAL: $16-20M+ on a $10M sale
@@ -94,7 +94,7 @@ SELLER gets:
 
 **What the seller gets:**
 - Highest potential total return of all options ($16-20M+)
-- Equity in a $147M enterprise (his 2.5% OpCo alone could be worth $3.7M)
+- Equity in a $189M enterprise (his 2.5% OpCo alone could be worth $3.7M)
 - Paid advisory role — real purpose, real money
 - His $2M reinvestment directly increases his own equity value
 - Lowest note amount = gets paid back fastest

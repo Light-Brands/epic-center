@@ -169,7 +169,7 @@ The seller carries a $6M note, reinvests $2M back into property renovations, and
 | **Total 5-year value** | **$15,065,000–$16,265,000** | |
 | **Including equity at fair value** | **$16,065,000–$19,940,000+** | |
 
-**Highest total potential return** of all three strategies — driven by equity upside in a $147M enterprise. The seller's 2.5% OpCo stake alone could be worth $3.7M at Year 5.
+**Highest total potential return** of all three strategies — driven by equity upside in a $189M enterprise. The seller's 2.5% OpCo stake alone could be worth $3.7M at Year 5.
 
 **Protections:** First-lien on property. Equity upside in both vehicles. Renovation reinvestment directly enhances his own equity value. Advisory income floor. Tag-along on both equity positions. Buy-out at FMV after Year 5.
 
@@ -180,7 +180,7 @@ The seller carries a $6M note, reinvests $2M back into property renovations, and
 - **Smallest seller note** ($6M vs. $7.5–8M in other strategies) — lowest debt service obligation
 - **$2M renovation reinvestment** directly reduces capital needed from outside investors
 - **7.0% interest rate** — lowest of all strategies, reflecting seller's equity alignment
-- **2.5% OpCo dilution is minimal** on a $147M projected enterprise
+- **2.5% OpCo dilution is minimal** on a $189M projected enterprise
 - **Advisory fee ($50K/year) is negligible** — and the seller's network could generate referrals worth multiples
 - **Seller becomes the project's most authentic external champion** — an equity-holding, board-sitting, annually-visiting advocate
 
@@ -202,7 +202,7 @@ This is the deepest emotional structure. The seller has equity in both the land 
 
 ### Why This Is a Win-Win
 
-- **Seller:** Highest potential total return ($16–20M+). Deepest personal connection. Real purpose and engagement. Equity upside in a $147M enterprise. His divorce narrative shifts from loss to evolution.
+- **Seller:** Highest potential total return ($16–20M+). Deepest personal connection. Real purpose and engagement. Equity upside in a $189M enterprise. His divorce narrative shifts from loss to evolution.
 - **Founders:** Smallest debt obligation. $2M renovation capital from seller. Lowest interest rate. Seller becomes an advocate, not an adversary. Reduced negotiation friction.
 - **Investors:** Strongest seller alignment signal. Reduced capital requirements. Clean deal dynamics. Seller's continued involvement provides credibility and continuity with minimal governance cost.
 

@@ -586,7 +586,7 @@ The following models assume each location reaches **steady-state maturity** (com
 | Assumption | Value | Basis |
 |---|---|---|
 | Average revenue per mature location | $30M | Tulum Y5 = $35.5M; smaller locations = $20-25M; blended average |
-| Tech entity extraction rate | 43% | Matches EBITDA margin — tech entity retains what would have been operating profit |
+| Tech entity extraction rate | 34-68% | Matches EBITDA margin — tech entity retains what would have been operating profit |
 | OpCo service delivery fee | 57% of revenue | Cost base + 10% margin |
 | OpCo margin on costs | 10% | Arm's length for limited-risk service provider |
 | Average OpCo cost base per location | $15.5M | Staff, facility, COGS, overhead at maturity |

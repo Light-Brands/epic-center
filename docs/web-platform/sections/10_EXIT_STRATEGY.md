@@ -53,10 +53,10 @@
 │                                                                             │
 │   PROJECTED RETURNS (Base Case)                                            │
 │   ──────────────────────────────                                           │
-│   Total Raise: $16,823,500                                                 │
+│   Total Raise: $17,323,500                                                 │
 │   5-Year IRR: 78%                                                       │
-│   MOIC: 7.5x                                                              │
-│   Y5 Enterprise Value: ~$147,000,000 (SOTP across 4 business units)        │
+│   MOIC: 6.8x                                                              │
+│   Y5 Enterprise Value: ~$189,400,000 (SOTP across 4 business units)        │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -150,9 +150,9 @@
 │   • Single location at scale, strong unit economics                        │
 │   • Conservative single-location multiple during expansion phase           │
 │                                                                             │
-│   Base Case (SOTP):            ~$147M                                      │
+│   Base Case (SOTP):            ~$189M                                      │
 │   • Sum-of-parts enterprise value across 4 business units                  │
-│   • Y5 Enterprise Value: ~$147M                                            │
+│   • Y5 Enterprise Value: ~$189M                                            │
 │                                                                             │
 │   Optimistic (6.0x):           $122.0M                                     │
 │   • Expansion underway, category leadership established                    │
@@ -169,7 +169,7 @@
 │   • Industry standard for boutique wellness/hospitality                    │
 │   • Comparable: Life Time (2.9x), Equinox (1.2x but EBITDA heavy)          │
 │                                                                             │
-│   Base Case (SOTP):             ~$147M                                     │
+│   Base Case (SOTP):             ~$189M                                     │
 │   • Aligns with EBITDA-method base case                                    │
 │   • Comparable: Six Senses (3.8x), SHA (5x)                                │
 │                                                                             │
@@ -182,19 +182,19 @@
 │   Return Profile Summary                                                   │
 │   ────────────────────────────────────────────────────────────────────────│
 │                                                                             │
-│   Y5 Enterprise Value (Base):   ~$147,000,000                              │
+│   Y5 Enterprise Value (Base):   ~$189,400,000                              │
 │   5-Year Revenue:               $125,880,000                               │
 │   5-Year Net Income:            $48,109,937                                │
 │   Y5 EBITDA:                    $21,512,217                                │
 │   ──────────────────────────────────────                                   │
 │                                                                             │
 │   Investor Returns (Seed Round):                                           │
-│   Total Raise: $16,823,500                                                 │
+│   Total Raise: $17,323,500                                                 │
 │   ──────────────────────────────────────                                   │
-│   MOIC: 7.5x (base case)                                                  │
+│   MOIC: 6.8x (base case)                                                  │
 │   IRR: 78% (5-year hold, base case)                                     │
-│   Conservative: 66% IRR / 5.3x MOIC                                       │
-│   Aggressive: 87% IRR / 9.6x MOIC                                        │
+│   Conservative: 78% IRR / 6.7x MOIC                                       │
+│   Aggressive: 86% IRR / 10.1x MOIC                                       │
 │                                                                             │
 │   Note: Base case assumptions. Series A dilution would reduce ownership    │
 │   but increase absolute value through growth acceleration.                 │

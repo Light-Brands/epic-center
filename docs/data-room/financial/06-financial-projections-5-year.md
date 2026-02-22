@@ -38,20 +38,20 @@ The Transformational Epicenter five-year financial model projects strong revenue
 
 | Metric | Value |
 |--------|-------|
-| **Total Project Cost** | **$16,823,500** |
+| **Total Project Cost** | **$17,323,500** |
 | **Year 1 Revenue** | **$10,748,000** |
 | **Year 5 Revenue** | **$35,461,000** |
 | **5-Year Total Revenue** | **$125,880,000** |
-| **Year 5 Enterprise Value (Base)** | **~$147,000,000** |
+| **Year 5 Enterprise Value (Base)** | **~$189,400,000** |
 | **Project IRR (Base Case)** | **78%** |
-| **5-Year MOIC** | **7.5x** |
+| **5-Year MOIC** | **6.8x** |
 
 ### Investment Highlights
 
 - **High-margin revenue model** with 83% gross margins sustained across all five years, driven by premium pricing of $2,000/day and efficient direct cost structure
 - **Phased expansion model** from 15 casitas at launch to 60 casitas by Year 5 -- expansion beyond Year 1 is funded entirely from operating cash flow, requiring no additional equity raise
 - **Revenue grows 3.3x** from $10.7M (Year 1) to $35.5M (Year 5) as both capacity and occupancy increase
-- **EBITDA margins expand** from 43% in Year 1 to 61% at maturity, demonstrating powerful operational leverage as fixed costs are spread across a growing revenue base
+- **EBITDA margins expand** from 34% in Year 1 to 68% at maturity, demonstrating powerful operational leverage as fixed costs are spread across a growing revenue base
 - **Defensible economics** supported by a break-even occupancy of ~3% (25 guests/year), providing an enormous safety margin
 
 ---
@@ -62,43 +62,43 @@ Three scenarios model the range of expected outcomes based on occupancy rates, r
 
 | Metric | Base Case | Conservative | Aggressive |
 |--------|-----------|--------------|------------|
-| **Total Project Cost** | $16,823,500 | $16,823,500 | $16,823,500 |
+| **Total Project Cost** | $17,323,500 | $17,323,500 | $17,323,500 |
 | **Year 1 Revenue** | $10,748,000 | $8,553,000 | $11,867,000 |
 | **Year 3 Revenue** | $27,426,000 | $21,839,000 | $30,281,000 |
 | **Year 5 Revenue** | $35,461,000 | $28,237,000 | $39,153,000 |
 | **5-Year Total Revenue** | $125,880,000 | $100,232,000 | $138,986,000 |
-| **Year 5 Enterprise Value** | ~$147,000,000 | -- | -- |
-| **Project IRR** | 78% | 66% | 87% |
-| **5-Year MOIC** | 7.5x | 5.3x | 9.6x |
+| **Year 5 Enterprise Value** | ~$189,400,000 | -- | -- |
+| **Project IRR** | 78% | 78% | 86% |
+| **5-Year MOIC** | 6.8x | 6.7x | 10.1x |
 
 ### Scenario Definitions
 
 **Base Case** -- Assumes 60% occupancy in Year 1, ramping to 75% in Year 2, and stabilizing at 80% from Year 3 onward. Pricing holds at $2,000/day with the current program mix. Revenue includes program fees plus ancillary revenue from bio-optimization premium services and post-care subscriptions. Capacity expands from 15 to 60 casitas over five years. This scenario reflects management's best estimate of achievable performance given the property's location, competitive positioning, and planned marketing investment.
 
-**Conservative Case** -- Assumes ~50-70% occupancy ramp with lower utilization in early years and more modest demand growth. This case models headwinds including slower brand awareness growth, regional competition, and potential macroeconomic softness in the luxury wellness segment. Even in this downside scenario, the project generates attractive returns with a 66% IRR and 5.3x MOIC.
+**Conservative Case** -- Assumes ~50-70% occupancy ramp with lower utilization in early years and more modest demand growth. This case models headwinds including slower brand awareness growth, regional competition, and potential macroeconomic softness in the luxury wellness segment. Even in this downside scenario, the project generates attractive returns with a 78% IRR and 6.7x MOIC.
 
-**Aggressive Case** -- Assumes ~70-85% occupancy ramp with faster market penetration and stronger demand. This case reflects a scenario where brand traction exceeds expectations, referral rates are high, and the Rancho Paraiso Oasis establishes itself rapidly as the category-defining facility. The aggressive case projects an 87% IRR and 9.6x MOIC.
+**Aggressive Case** -- Assumes ~70-85% occupancy ramp with faster market penetration and stronger demand. This case reflects a scenario where brand traction exceeds expectations, referral rates are high, and the Rancho Paraiso Oasis establishes itself rapidly as the category-defining facility. The aggressive case projects an 86% IRR and 10.1x MOIC.
 
 ---
 
 ## 3. Funding Allocation
 
-Total project funding of $16,823,500 is allocated across seven categories, with the property acquisition representing the majority of the capital requirement.
+Total project funding of $17,323,500 is allocated across seven categories, with the property acquisition representing the majority of the capital requirement.
 
 | Category | Amount | % of Total | Notes |
 |----------|--------|------------|-------|
-| Property Acquisition | $11,900,000 | 70.7% | $11.9M all-in acquisition price |
-| Working Capital | $1,126,000 | 6.7% | Operating runway, initial inventory, deposits |
-| Renovation & Conversion | $1,000,000 | 5.9% | Renovations to make property operational |
-| Medical + Biohacking | $1,000,000 | 5.9% | ICU/monitoring, diagnostic, IV systems, biohacking equipment |
-| Contingency | $847,500 | 5.0% | Risk buffer |
-| Technology | $750,000 | 4.5% | Tech development |
+| Property Acquisition | $12,400,000 | 71.6% | $11.9M purchase + $500K closing costs |
+| Working Capital | $1,126,000 | 6.5% | Operating runway, initial inventory, deposits |
+| Renovation & Conversion | $1,000,000 | 5.8% | Renovations to make property operational |
+| Medical + Biohacking | $1,000,000 | 5.8% | ICU/monitoring, diagnostic, IV systems, biohacking equipment |
+| Contingency | $847,500 | 4.9% | Risk buffer |
+| Technology | $750,000 | 4.3% | Tech development |
 | Pre-Opening | $200,000 | 1.2% | Licensing, staff training, soft launch |
-| **TOTAL** | **$16,823,500** | **100%** | |
+| **TOTAL** | **$17,323,500** | **100%** | |
 
 ### Funding Allocation Commentary
 
-**Property Acquisition (70.7%)** -- The single largest allocation covers the Rancho Paraiso Oasis acquisition at $11,900,000 all-in. The property's 45,000 m2 compound across 9 lots in Tulum, Q.R. provides the physical foundation for 60 treatment casitas with existing structural improvements that significantly reduce renovation scope compared to greenfield development.
+**Property Acquisition (71.6%)** -- The single largest allocation covers the Rancho Paraiso Oasis acquisition at $12,400,000 ($11.9M purchase + $500K closing costs). The property's 45,000 m2 compound across 9 lots in Tulum, Q.R. provides the physical foundation for 60 treatment casitas with existing structural improvements that significantly reduce renovation scope compared to greenfield development.
 
 **Working Capital (6.7%)** -- Operating runway covering initial inventory, deposits, and working capital needs through revenue ramp.
 
@@ -148,7 +148,7 @@ The property follows a phased casita expansion from 15 at launch to 60 by Year 5
 | Total Operating Expenses | ($4,206,000) | ($5,365,911) | ($6,391,359) | ($7,209,751) | ($7,920,783) | ($31,093,804) |
 | | | | | | | |
 | **EBITDA** | **$4,672,000** | **$11,599,089** | **$16,372,641** | **$19,188,249** | **$21,512,217** | **$73,344,196** |
-| **EBITDA Margin** | **43%** | **57%** | **60%** | **60%** | **61%** | **58%** |
+| **EBITDA Margin** | **34%** | **61%** | **66%** | **67%** | **68%** | **59%** |
 | | | | | | | |
 | Depreciation & Amortization | ($677,143) | ($827,143) | ($947,143) | ($1,037,143) | ($1,127,143) | ($4,615,715) |
 | **EBT** | **$3,994,857** | **$10,771,946** | **$15,425,498** | **$18,151,106** | **$20,385,074** | **$68,728,481** |
@@ -163,7 +163,7 @@ The property follows a phased casita expansion from 15 at launch to 60 by Year 5
 
 **Stable Gross Margins** -- Gross margins hold at 83% across all five years. Direct costs scale proportionally with guest volume at approximately $4,629 per guest, covering medical staff, facilitators, food & hospitality, bio-optimization supplies, plant medicine materials, and guest amenities.
 
-**Operating Leverage** -- EBITDA margins expand from 43% in Year 1 to 61% by Year 5. The cost structure scales at approximately 1.6x for a 2x increase in capacity -- fixed costs (facilities, management, technology infrastructure) are spread across a much larger revenue base as the campus expands.
+**Operating Leverage** -- EBITDA margins expand from 34% in Year 1 to 68% by Year 5. The cost structure scales at approximately 1.6x for a 2x increase in capacity -- fixed costs (facilities, management, technology infrastructure) are spread across a much larger revenue base as the campus expands.
 
 **Net Income** -- Five-year cumulative net income of $48.1M represents a 38% average net margin, demonstrating the capital efficiency of the operating model at scale.
 
@@ -180,13 +180,13 @@ The property follows a phased casita expansion from 15 at launch to 60 by Year 5
 
 ### Cash Flow Commentary
 
-**Year 1 Cash Position** -- Year 1 generates $3.2M in free cash flow despite being the lowest-occupancy year. The initial $16.82M capital deployment is treated as the opening investment, with Year 1 representing the first year of operations. Expansion CapEx begins in Year 2 as the first phase-funded casitas come online.
+**Year 1 Cash Position** -- Year 1 generates $3.2M in free cash flow despite being the lowest-occupancy year. The initial $17.32M capital deployment is treated as the opening investment, with Year 1 representing the first year of operations. Expansion CapEx begins in Year 2 as the first phase-funded casitas come online.
 
 **Expansion CapEx** -- The ($6.75M) in expansion capital expenditures over Years 2-5 funds the build-out from 30 to 60 casitas at approximately $225,000 per casita. This expansion is funded entirely from operating cash flow -- no additional equity raise is required.
 
 **Maintenance CapEx** -- Annual maintenance capital of $400K-$700K (escalating as the facility grows) covers equipment replacement, facility upkeep, and technology upgrades.
 
-**Cumulative Position** -- Five-year cumulative free cash flow of $40.7M represents 2.7x the initial investment, confirming strong cash generation after funding all expansion and maintenance needs. The initial $16.82M investment is fully recovered from cumulative free cash flow between Year 2 and Year 3 (approximately 2.7 years payback).
+**Cumulative Position** -- Five-year cumulative free cash flow of $40.7M represents 2.7x the initial investment, confirming strong cash generation after funding all expansion and maintenance needs. The initial $17.32M investment is fully recovered from cumulative free cash flow between Year 2 and Year 3 (approximately 2.7 years payback).
 
 ---
 
@@ -214,13 +214,13 @@ All NPV scenarios are strongly positive, confirming the project creates signific
 
 | Metric | Value |
 |--------|-------|
-| **Total Project Cost** | $16,823,500 |
+| **Total Project Cost** | $17,323,500 |
 | **5-Year Total Revenue** | $125,880,000 |
 | **5-Year Net Income** | $48,109,937 |
 | **5-Year Free Cash Flow** | $40,723,382 |
-| **Year 5 Enterprise Value (Base)** | ~$147,000,000 |
+| **Year 5 Enterprise Value (Base)** | ~$189,400,000 |
 | **Project IRR (Base)** | 78% |
-| **5-Year MOIC** | 7.5x |
+| **5-Year MOIC** | 6.8x |
 | **NPV @ 12%** | $17,200,000 |
 
 ---

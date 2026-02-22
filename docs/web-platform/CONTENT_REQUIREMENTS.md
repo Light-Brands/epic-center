@@ -375,7 +375,7 @@ This document catalogs all content needed for the 16-page investment platform. C
 ### Sections
 | Element | Content | Source |
 |---------|---------|--------|
-| The Ask | $16,823,500 | 📄 |
+| The Ask | $17,323,500 | 📄 |
 | Use of Funds | 5 categories with % and $ | 📄 EXEC_SUMMARY |
 | Investment Thesis | 6 reasons | 📄 |
 | Deal terms | Summary TBD | ✏️ |

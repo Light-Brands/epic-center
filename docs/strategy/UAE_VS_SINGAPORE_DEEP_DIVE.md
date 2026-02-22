@@ -95,7 +95,7 @@
 │  │  (salaries $1.2-2.5M + office $50-100K + cloud $100-300K)          ││
 │  │                                                                     ││
 │  │  COLLECTS: All guest payments globally via Stripe                   ││
-│  │  RETAINS: ~43% of revenue (platform margin)                         ││
+│  │  RETAINS: ~34% of revenue (platform margin)                         ││
 │  │  PAYS OUT: Service delivery fees to local OpCos                     ││
 │  │                                                                     ││
 │  │  Pays service delivery fees (cost + 8-12%) to:                      ││
@@ -227,7 +227,7 @@ This could collapse the entire UAE structure.
 │  │  + R&D spending commitment to EDB                                   ││
 │  │                                                                     ││
 │  │  COLLECTS: All guest payments globally via Stripe                   ││
-│  │  RETAINS: ~43% of revenue (platform margin)                         ││
+│  │  RETAINS: ~34% of revenue (platform margin)                         ││
 │  │  PAYS OUT: Service delivery fees to local OpCos                     ││
 │  │                                                                     ││
 │  │  [Same local OpCo structure as UAE route]                           ││
@@ -627,7 +627,7 @@ The DMTT creates a hard floor. Below it, jurisdiction differences matter. Above 
 
 ### 10.1 Single Location (Tulum, Y1-Y5)
 
-**Assumptions:** Revenue from data.ts; tech entity retains EBITDA margin (~43%); OpCo at cost + 10%; Mexico 30% corporate rate.
+**Assumptions:** Revenue from data.ts; tech entity retains EBITDA margin (~34%); OpCo at cost + 10%; Mexico 30% corporate rate.
 
 | Year | Revenue | UAE Tax | SG Pioneer Tax | SG IDI Tax | Difference (UAE vs SG Pioneer) |
 |---|---|---|---|---|---|

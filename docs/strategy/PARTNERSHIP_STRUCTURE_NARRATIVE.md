@@ -98,7 +98,7 @@ OPERATING COMPANY
 ├─ Runs: Medical center, hospitality, programs
 ├─ Value Driver: Revenue and enterprise value
 ├─ Your Stake: 15% non-voting equity
-└─ Projected Year 5 Enterprise Value: ~$147M
+└─ Projected Year 5 Enterprise Value: ~$189M
    └─ Your 15%: $22M
 
 COMBINED VALUE TO YOU: $27-28M at Year 5
@@ -246,7 +246,7 @@ This is not unsecured debt. This is real estate-backed financing where **you are
 | Year 2 | $55,000,000 | $8,250,000 |
 | Year 3 | $87,000,000 | $13,050,000 |
 | Year 4 | $110,000,000 | $16,500,000 |
-| Year 5 | **$147,000,000** | **$22,050,000** |
+| Year 5 | **$189,400,000** | **$22,050,000** |
 
 *OpCo enterprise value driven by revenue, EBITDA, and enterprise valuation multiples (8-10x EBITDA).*
 
@@ -312,7 +312,7 @@ If you request a buyout of your 15% Operating Company stake at Year 5:
 
 | Component | Value |
 |-----------|-------|
-| OpCo Enterprise Value (Year 5) | $147,000,000 |
+| OpCo Enterprise Value (Year 5) | $189,400,000 |
 | Your 15% | $22,050,000 |
 | **Cash at Buyout Close** | $11,025,000 |
 | **Deferred Payment (24-36 months)** | $11,025,000 + 6% interest |
@@ -364,7 +364,7 @@ If you request a buyout of both your RE and OpCo stakes:
 
 | Component | Projected Value | Notes |
 |-----------|----------------|-------|
-| 15% Operating Company | $22,050,000 | Based on $147M enterprise value at 8-10x EBITDA |
+| 15% Operating Company | $22,050,000 | Based on $189M enterprise value at 8-10x EBITDA |
 | 15% Real Estate Company | $5,250,000 | Based on property appreciation + villa development |
 | **Total Equity Value** | **$27,300,000** | |
 
@@ -474,13 +474,13 @@ If this structure resonates with you, the next steps are:
 
 ### Appendix B: Valuation Methodology
 
-**Operating Company Enterprise Value (Year 5): $147M**
+**Operating Company Enterprise Value (Year 5): $189M**
 
 Based on:
 - Year 5 EBITDA: $20.3M
 - Industry multiple: 7-10x EBITDA (medical wellness, high-margin, recurring revenue)
 - Conservative multiple applied: 7.25x
-- Enterprise value: $20.3M x 7.25 = **$147M**
+- Enterprise value: $20.3M x 9.32 = **$189M**
 
 **Real Estate Company Value (Year 5): $35M**
 

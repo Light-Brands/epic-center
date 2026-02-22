@@ -132,7 +132,7 @@ This model is structurally analogous to:
 | Average Revenue Per Guest | $26,600 |
 | Year 5 Enterprise Value (base) | $81,200,000 |
 | Project IRR with Exit (base) | 78% |
-| 5-Year MOIC (base) | 7.5x |
+| 5-Year MOIC (base) | 6.8x |
 | IP Value Estimate (Year 5) | $19–42M |
 | 5-Year Cumulative Net Income | $45,102,667 |
 | NPV @ 15% Discount Rate | $13,400,000 |
@@ -565,7 +565,7 @@ Three options (investor selects based on preference):
 | Event | Outcome |
 |-------|---------|
 | Property appreciates to $16M by Month 30 | Notes convert at $14–18M cap — investors receive 30–40% LP equity at discount to market |
-| Founders exercise buy-back at Month 30 | Founders repay 1.4x ($14–16.8M on $10–12M) — investors earn 40% return; founders retain 100% |
+| Founders exercise buy-back at Month 30 | Founders repay 1.4x ($14–17.3M on $10–12M) — investors earn 40% return; founders retain 100% |
 | No conversion, no buy-back | Balloon repayment at Month 60 at 1.5x principal — investors earn 50% return over 5 years |
 | Notes convert, then founders repurchase LP units at Year 5 | Founders repurchase LP units at FMV via independent appraisal |
 

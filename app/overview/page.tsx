@@ -256,7 +256,7 @@ export default function OverviewPage() {
             />
             <OverviewMetricCard
               label="Y5 Enterprise Value"
-              value="$194.9M"
+              value="$189.4M"
               subtitle="Sum-of-parts"
             />
             <OverviewMetricCard

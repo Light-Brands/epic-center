@@ -165,7 +165,7 @@ Guests do not pay $14,000-$56,000 for any single modality. They pay for the inte
 
 | Metric | Value |
 |--------|-------|
-| **Total Capital Required** | $16,823,500 |
+| **Total Capital Required** | $17,323,500 |
 | **Acquisition** | $11,900,000 |
 | **Renovation** | $1,000,000 |
 | **Technology** | $750,000 |
@@ -193,11 +193,11 @@ Guests do not pay $14,000-$56,000 for any single modality. They pay for the inte
 
 | Scenario | MOIC | IRR |
 |----------|------|-----|
-| **Conservative** | 5.3x | 66% |
-| **Base Case** | **7.5x** | **78%** |
-| **Aggressive** | 9.6x | 87% |
+| **Conservative** | 6.7x | 78% |
+| **Base Case** | **6.8x** | **78%** |
+| **Aggressive** | 10.1x | 86% |
 
-**Year 5 Enterprise Value (Sum-of-Parts): ~$147,000,000**
+**Year 5 Enterprise Value (Sum-of-Parts): ~$189,400,000**
 
 ### Key Unit Economics
 
@@ -208,7 +208,7 @@ Guests do not pay $14,000-$56,000 for any single modality. They pay for the inte
 | **Gross Margin per Guest** | 83% |
 | **Average Daily Rate (ADR)** | $2,000/night |
 
-Even the conservative scenario delivers a 66% IRR and 5.3x MOIC over five years. The financial model is resilient because premium pricing, 83% gross margins, and expanding EBITDA margins (43%→61%) provide substantial buffer against occupancy shortfalls. The break-even at just ~3% occupancy (~25 guests/year) represents an extraordinary safety margin against the base case projection of 387 guests in Year 1.
+Even the conservative scenario delivers a 78% IRR and 6.7x MOIC over five years. The financial model is resilient because premium pricing, 83% gross margins, and expanding EBITDA margins (34%→68%) provide substantial buffer against occupancy shortfalls. The break-even at just ~3% occupancy (~25 guests/year) represents an extraordinary safety margin against the base case projection of 387 guests in Year 1.
 
 ---
 
@@ -219,10 +219,10 @@ Even the conservative scenario delivers a 66% IRR and 5.3x MOIC over five years.
 | **Post-Money Valuation** | **$29,350,000** |
 | **Valuation Range** | $20,300,000 - $43,300,000 |
 | **Pre-Money Valuation** | $12,527,000 |
-| **Y5 Enterprise Value (SOTP)** | **~$147,000,000** |
+| **Y5 Enterprise Value (SOTP)** | **~$189,400,000** |
 | **Methodology** | IPEV-Compliant 9-Method Weighted Average |
 
-The post-money valuation of $29.35M is derived from nine independent valuation methods following International Private Equity Valuation (IPEV) guidelines, now using consolidated enterprise financials across four business units (healing center, real estate development, property management, and technology platform). The Year 5 enterprise value of ~$147M represents the sum-of-parts forward-looking valuation investors are positioned to capture. The weighted average exceeds the total capital requirement of $16.82M, demonstrating that the project creates immediate intrinsic value above its cost basis.
+The post-money valuation of $29.35M is derived from nine independent valuation methods following International Private Equity Valuation (IPEV) guidelines, now using consolidated enterprise financials across four business units (healing center, real estate development, property management, and technology platform). The Year 5 enterprise value of ~$189M represents the sum-of-parts forward-looking valuation investors are positioned to capture. The weighted average exceeds the total capital requirement of $17.32M, demonstrating that the project creates immediate intrinsic value above its cost basis.
 
 The full valuation methodology is detailed in the IPEV-Compliant Valuation Report (Document 22).
 
@@ -236,13 +236,13 @@ Transformational Epicenter is structured as a **legacy investment** — a long-t
 
 | Component | 5-Year Value | Mechanism |
 |-----------|-------------|-----------|
-| **Cumulative Free Cash Flow** | $40,723,382 | High-margin operations (43%→61% EBITDA margins), cash-flow positive from Year 1 |
-| **Enterprise Value (Sum-of-Parts)** | ~$147,000,000 | Four business units: Healing center + Real estate dev + Property mgmt + Technology |
+| **Cumulative Free Cash Flow** | $40,723,382 | High-margin operations (34%→68% EBITDA margins), cash-flow positive from Year 1 |
+| **Enterprise Value (Sum-of-Parts)** | ~$189,400,000 | Four business units: Healing center + Real estate dev + Property mgmt + Technology |
 
 **How Investors Participate in Value:**
 
 1. **Operating Cash Flow** — The business generates $40.7M in free cash flow over five years, supporting distributions at the Board's discretion
-2. **Embedded Value Appreciation** — Ownership stake in a high-margin ($21.5M EBITDA), growing enterprise valued at ~$147M at Year 5
+2. **Embedded Value Appreciation** — Ownership stake in a high-margin ($21.5M EBITDA), growing enterprise valued at ~$189M at Year 5
 3. **Minority Liquidity Options** — Investors may sell stakes in secondary transactions (subject to ROFR). Founders may pursue partial recapitalizations to provide liquidity windows while maintaining operational and vision control
 
 **Investment Philosophy:** The founders are building TE to own and operate for the long term — not to sell in 5-7 years. Multi-location platform expansion represents additional upside beyond the base case, with established behavioral health platforms commanding 8-16x EBITDA valuations. No planned sale, IPO, or PE acquisition.
@@ -379,16 +379,16 @@ TE measures and publishes clinical outcomes -- addiction interruption rates, dep
 
 | Category | Amount | % of Total |
 |----------|--------|-----------|
-| **Property Acquisition** | $11,900,000 | 70.7% |
-| **Working Capital** | $1,126,000 | 6.7% |
-| **Renovation & Conversion** | $1,000,000 | 5.9% |
-| **Medical + Biohacking** | $1,000,000 | 5.9% |
-| **Contingency** | $847,500 | 5.0% |
-| **Technology** | $750,000 | 4.5% |
+| **Property Acquisition** | $12,400,000 | 71.6% |
+| **Working Capital** | $1,126,000 | 6.5% |
+| **Renovation & Conversion** | $1,000,000 | 5.8% |
+| **Medical + Biohacking** | $1,000,000 | 5.8% |
+| **Contingency** | $847,500 | 4.9% |
+| **Technology** | $750,000 | 4.3% |
 | **Pre-Opening** | $200,000 | 1.2% |
-| **Total** | **$16,823,500** | **100.0%** |
+| **Total** | **$17,323,500** | **100.0%** |
 
-The largest allocation (76.6%) goes to the physical asset -- property acquisition, renovation, and medical equipment. This creates tangible collateral backing the investment. The $750,000 technology investment creates a proprietary data moat. The remaining 17.9% funds working capital, contingency, and pre-opening costs to reach cash-flow positive operations.
+The largest allocation (83.1%) goes to the physical asset -- property acquisition, renovation, and medical equipment. This creates tangible collateral backing the investment. The $750,000 technology investment creates a proprietary data moat. The remaining 12.5% funds working capital, contingency, and pre-opening costs to reach cash-flow positive operations.
 
 ---
 
@@ -405,7 +405,7 @@ The largest allocation (76.6%) goes to the physical asset -- property acquisitio
 **Key observations:**
 
 - Revenue grows 3.3x from $10.7M to $35.5M driven by the dual engine of capacity expansion (15→60 casitas) and occupancy ramp (60%→80%)
-- The business generates positive net income from Year 1 due to 83% gross margins, with EBITDA margins expanding from 43% to 61%
+- The business generates positive net income from Year 1 due to 83% gross margins, with EBITDA margins expanding from 34% to 68%
 - Five-year cumulative revenue of $125.9M from a single campus demonstrates the power of phased expansion funded from operating cash flow
 - Conservative revenue estimates assume no price increases over the five-year period; actual ADR growth would further improve returns
 - Expansion beyond Year 1 (30→60 casitas) requires no additional equity raise -- funded entirely from operating cash flow
@@ -452,9 +452,9 @@ Dependence on founding team for vision execution and clinical protocol developme
 
 ## 13. The Ask
 
-**Total Capital Required: $16,823,500**
+**Total Capital Required: $17,323,500**
 
-This capital fully funds property acquisition ($11.9M), renovation, medical + biohacking equipment, technology, pre-opening operations, and working capital through cash-flow positive operations.
+This capital fully funds property acquisition ($12.4M), renovation, medical + biohacking equipment, technology, pre-opening operations, and working capital through cash-flow positive operations.
 
 The investment funds a single-property proof of concept that demonstrates the unit economics, clinical outcomes, and market demand for the integrated model. Successful execution of Property 1 establishes the template for multi-property expansion across jurisdictions identified in the TE Global Expansion Strategy.
 

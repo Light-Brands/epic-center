@@ -22,7 +22,7 @@ const FAQS: FAQ[] = [
   {
     category: 'Investment',
     question: 'What is the investment structure?',
-    answer: 'This is a 100% equity investment totaling $16.8M for the initial 30-casita campus. Expansion to 60 casitas is funded from operating cash flow, with no additional equity raise required. Investors receive common equity in Transformational Epicenter Holdings, LLC (Delaware).',
+    answer: 'This is a 100% equity investment totaling $17.3M for the initial 30-casita campus. Expansion to 60 casitas is funded from operating cash flow, with no additional equity raise required. Investors receive common equity in Transformational Epicenter Holdings, LLC (Delaware).',
   },
   // Legal & Regulatory
   {
