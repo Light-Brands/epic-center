@@ -201,7 +201,7 @@ TE's pricing positions the property at the upper end of the medical wellness mar
 
 | Price Component | % of Total | Justification |
 |----------------|-----------|---------------|
-| Medical services (physician, nursing, labs) | 30-35% | Board-certified oversight, 1:1 nursing, comprehensive diagnostics |
+| Medical services (physician, nursing, labs) | 30-35% | Board-certified oversight, 1:3 nursing, comprehensive diagnostics |
 | Treatment protocols (ibogaine, bio-opt) | 25-30% | Proprietary protocols, premium compounds, advanced technology |
 | Luxury hospitality (suite, F&B, concierge) | 20-25% | Ultra-luxury accommodations, chef-prepared nutrition, private service |
 | Integration & aftercare | 10-15% | 12-month program, telepsychiatry, digital platform access |

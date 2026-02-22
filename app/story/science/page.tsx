@@ -117,7 +117,7 @@ const MONITORING_PHASES = [
       'Continuous 12-lead ECG',
       'Vital signs every 30 minutes',
       'QTc calculation every 2 hours',
-      '1:1 nursing ratio',
+      '1:3 nursing ratio',
       'Physician on-site 24/7',
     ],
   },
@@ -239,7 +239,7 @@ export default function SciencePage() {
               <span className="font-accent text-sm text-white">12-Lead Continuous ECG</span>
             </div>
             <div className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
-              <span className="font-accent text-sm text-white">1:1 Nursing Ratio</span>
+              <span className="font-accent text-sm text-white">1:3 Nursing Ratio</span>
             </div>
           </motion.div>
         </div>
@@ -282,7 +282,7 @@ export default function SciencePage() {
           >
             {[
               { icon: '/icons/diff-medical.png', label: 'On-Site Physician', detail: '24/7 during ceremonies' },
-              { icon: '/icons/story-nursing.png', label: '1:1 Nursing', detail: 'Dedicated nursing care' },
+              { icon: '/icons/story-nursing.png', label: '1:3 Nursing', detail: 'Dedicated nursing care' },
               { icon: '/icons/story-ecg.png', label: 'Continuous ECG', detail: '12-lead cardiac monitoring' },
               { icon: '/icons/model-shield.png', label: 'Emergency Ready', detail: '<5 min response time' },
             ].map((item) => (

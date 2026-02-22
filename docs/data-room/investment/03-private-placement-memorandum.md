@@ -214,7 +214,7 @@ No single competitor integrates all four market pillars. SHA Wellness Clinic (Sp
 
 **Description:** Plant medicine administration carries inherent medical risk, including cardiac complications from ibogaine (QTc prolongation). An adverse medical event could result in liability, reputational damage, and potential regulatory consequences.
 
-**Mitigations:** Hospital-grade safety protocols including comprehensive pre-screening, CYP2D6 pharmacogenomic testing, continuous cardiac telemetry, 1:1 nursing during acute phases, ACLS-certified staff, and hospital transfer agreements. The Company maintains medical malpractice insurance and has documented emergency response protocols. Published fatality data demonstrates that adverse events are associated with inadequate screening and monitoring, not with properly administered ibogaine under medical supervision.
+**Mitigations:** Hospital-grade safety protocols including comprehensive pre-screening, CYP2D6 pharmacogenomic testing, continuous cardiac telemetry, 1:3 nursing during acute phases, ACLS-certified staff, and hospital transfer agreements. The Company maintains medical malpractice insurance and has documented emergency response protocols. Published fatality data demonstrates that adverse events are associated with inadequate screening and monitoring, not with properly administered ibogaine under medical supervision.
 
 ### 6.4 Operational and Execution Risk
 

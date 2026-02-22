@@ -272,7 +272,7 @@ By combining clinical data, biological markers, neurological insights, and exper
 │  - Continuous ECG monitoring                                             │
 │  - Vital signs every 30 minutes (or per protocol)                       │
 │  - QTc calculation every 2 hours                                        │
-│  - 1:1 nursing ratio                                                    │
+│  - 1:3 nursing ratio                                                    │
 │  - Physician on-site                                                     │
 │                                                                          │
 │  Post-Ceremony (24-72 hours)                                            │

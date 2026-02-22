@@ -323,7 +323,7 @@ Published clinical outcomes justify premium pricing and build institutional trus
 
 - CYP2D6 pharmacogenomic testing personalizes dosing for each guest
 - Continuous cardiac telemetry during all plant medicine sessions
-- 1:1 nursing ratio during acute treatment phases
+- 1:3 nursing ratio during acute treatment phases
 - Standardized outcome measurement at baseline, discharge, and 30/90/180/365 days
 - Outcome data collected and analyzed to continuously improve protocols
 

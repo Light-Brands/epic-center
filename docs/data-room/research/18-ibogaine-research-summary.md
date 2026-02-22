@@ -261,7 +261,7 @@ Transformational Epicenter's ibogaine protocol represents the most medically rig
 | Staff | Coverage | Role |
 |-------|----------|------|
 | **Board-certified physician** | On-site 24/7 during treatment window | Medical oversight, emergency response |
-| **ACLS-certified nurses** | 1:1 nursing ratio during acute phase | Continuous monitoring, medication administration |
+| **ACLS-certified nurses** | 1:3 nursing ratio during acute phase | Continuous monitoring, medication administration |
 | **Emergency physician** | On-call within 15 minutes | Cardiac emergency response |
 | **Cardiologist** | Telemedicine consultation available 24/7 | ECG interpretation, arrhythmia management |
 | **Psychiatrist** | On-site during treatment week | Psychological safety, medication management |
@@ -307,7 +307,7 @@ The following table compares the leading ibogaine treatment centers globally aga
 | Continuous cardiac telemetry | Yes | Yes | Yes | Limited | Limited |
 | CYP2D6 pharmacogenomic testing | Yes | No | No | No | No |
 | Echocardiogram screening | Yes | Case-by-case | No | No | No |
-| 1:1 nursing during acute phase | Yes | No | Partial | No | No |
+| 1:3 nursing during acute phase | Yes | No | Partial | No | No |
 | Hyperbaric oxygen therapy | Yes | No | No | No | No |
 | IV NAD+ protocols | Yes | No | No | No | No |
 | Neurofeedback integration | Yes | No | No | No | No |

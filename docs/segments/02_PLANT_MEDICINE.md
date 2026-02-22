@@ -223,7 +223,7 @@ See [Segment 1: Medical Oversight](./01_MEDICAL_OVERSIGHT.md) for detailed monit
 
 **Emergency Response Team**
 - Physician always on-site during ceremony
-- Nursing staff 1:1
+- Nursing staff 1:3
 - Clear chain of command
 - Practiced scenarios
 
