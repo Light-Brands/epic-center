@@ -82,19 +82,19 @@ function OfferContent() {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <MetricCard
-              label={`Total Enterprise Value (Y5 ${SCENARIO_LABELS[scenario]})`}
+              label="Total Enterprise Value"
               value={fmtM(y5.totalEnterprise[scenario])}
               subtitle="Across 3 entities"
               accent
             />
             <MetricCard
-              label={`Pablo's 30% Equity (Y5 ${SCENARIO_LABELS[scenario]})`}
+              label="Pablo's 30% Equity"
               value={fmtM(y5.pabloEquity[scenario])}
               subtitle="Combined stake"
               accent
             />
             <MetricCard
-              label={`5-Year Growth (${SCENARIO_LABELS[scenario]})`}
+              label="5 Year Growth"
               value={`${fmtM(proj.years[0].pabloEquity[scenario])} to ${fmtM(y5.pabloEquity[scenario])}`}
               subtitle="Year 1 to Year 5"
               className="[&_.font-heading]:text-3xl [&_.font-heading]:md:text-4xl [&_.font-heading]:whitespace-nowrap"
