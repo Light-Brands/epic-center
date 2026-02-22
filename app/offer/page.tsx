@@ -94,9 +94,9 @@ function OfferContent() {
               accent
             />
             <MetricCard
-              label="5-Year Range"
-              value={`${fmtM(y5.pabloEquity.conservative)} to ${fmtM(y5.pabloEquity.aggressive)}`}
-              subtitle="Conservative to strong performance"
+              label={`5-Year Growth (${SCENARIO_LABELS[scenario]})`}
+              value={`${fmtM(proj.years[0].pabloEquity[scenario])} to ${fmtM(y5.pabloEquity[scenario])}`}
+              subtitle="Year 1 to Year 5"
               className="[&_.font-heading]:text-3xl [&_.font-heading]:md:text-4xl [&_.font-heading]:whitespace-nowrap"
             />
           </div>
