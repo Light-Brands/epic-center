@@ -81,8 +81,9 @@ export default function OfferPage() {
             />
             <MetricCard
               label="5-Year Range"
-              value={`${fmtM(y5.pabloEquity.conservative)} – ${fmtM(y5.pabloEquity.aggressive)}`}
+              value={`${fmtM(y5.pabloEquity.conservative)}–${fmtM(y5.pabloEquity.aggressive)}`}
               subtitle="Conservative to strong performance"
+              className="[&_.font-heading]:text-3xl [&_.font-heading]:md:text-4xl [&_.font-heading]:whitespace-nowrap"
             />
           </div>
         </section>
