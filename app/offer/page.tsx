@@ -27,6 +27,7 @@ import { useScenario, type Scenario } from '@/lib/context/ScenarioContext'
 import {
   PABLO_OFFER_PROJECTIONS,
   CASITA_PHASING,
+  REVENUE_PROJECTIONS,
 } from '@/lib/sheets/data'
 import { formatCurrency } from '@/lib/sheets/service'
 
@@ -80,19 +81,19 @@ function OfferContent() {
             <MetricCard
               label="Total Enterprise Value"
               value={fmtM(y5.totalEnterprise[scenario])}
-              subtitle="Across 3 entities"
+              subtitle="Year 5 across 3 entities"
               accent
             />
             <MetricCard
-              label="Pablo's 30% Equity"
+              label="Total 5 Year Revenue"
+              value={fmtM(REVENUE_PROJECTIONS.reduce((sum, yr) => sum + yr.totalRevenue[scenario], 0))}
+              subtitle="Cumulative operating revenue"
+              accent
+            />
+            <MetricCard
+              label="Pablo's 30% Share"
               value={fmtM(y5.pabloEquity[scenario])}
-              subtitle="Combined stake"
-              accent
-            />
-            <MetricCard
-              label="5 Year Growth"
-              value={`${(y5.pabloEquity[scenario] / proj.years[0].pabloEquity[scenario]).toFixed(1)}x`}
-              subtitle="Year 1 to Year 5 multiple"
+              subtitle="Year 5 equity value"
               accent
             />
           </div>
