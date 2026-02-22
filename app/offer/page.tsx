@@ -91,8 +91,8 @@ function OfferContent() {
             />
             <MetricCard
               label="5 Year Growth"
-              value={fmtM(y5.pabloEquity[scenario])}
-              subtitle="Projected Year 5 value"
+              value={`${(y5.pabloEquity[scenario] / proj.years[0].pabloEquity[scenario]).toFixed(1)}x`}
+              subtitle="Year 1 to Year 5 multiple"
               accent
             />
           </div>
