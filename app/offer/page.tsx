@@ -28,11 +28,7 @@ import {
   PABLO_OFFER_PROJECTIONS,
   CASITA_PHASING,
 } from '@/lib/sheets/data'
-import {
-  formatCurrency,
-  formatCurrencyFull,
-  formatPercent,
-} from '@/lib/sheets/service'
+import { formatCurrency } from '@/lib/sheets/service'
 
 const proj = PABLO_OFFER_PROJECTIONS
 
@@ -95,9 +91,9 @@ function OfferContent() {
             />
             <MetricCard
               label="5 Year Growth"
-              value={`${fmtM(proj.years[0].pabloEquity[scenario])} to ${fmtM(y5.pabloEquity[scenario])}`}
-              subtitle="Year 1 to Year 5"
-              className="[&_.font-heading]:text-3xl [&_.font-heading]:md:text-4xl [&_.font-heading]:whitespace-nowrap"
+              value={fmtM(y5.pabloEquity[scenario])}
+              subtitle="Projected Year 5 value"
+              accent
             />
           </div>
         </section>
@@ -459,96 +455,7 @@ function OfferContent() {
         </section>
 
         {/* ═══════════════════════════════════════════════════════════
-            Section 6 — Pre-Care & Post-Care Revenue Multiplier
-        ═══════════════════════════════════════════════════════════ */}
-        <section className="mb-20">
-          <h2 className="text-3xl font-heading text-neutral-900 mb-4">Pre-Care & Post-Care as Revenue Multiplier</h2>
-          <p className="text-neutral-600 mb-8 max-w-3xl">
-            The continuous care model wraps around each guest's treatment with months of
-            preparation before arrival and structured integration after departure.
-            This extends revenue per guest, improves outcomes, and generates the
-            longitudinal data that powers Entity C.
-          </p>
-
-          {/* Program tiers */}
-          <h4 className="font-heading text-lg text-neutral-900 mb-4">Post-Care Program Tiers</h4>
-          <Card padding="none" className="overflow-hidden mb-8">
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="bg-neutral-100">
-                    <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider text-neutral-600">Program</th>
-                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider text-neutral-600">Price</th>
-                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider text-neutral-600">Enrollment Rate</th>
-                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider text-neutral-600">Rev / Enrolled Guest</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-neutral-100">
-                  {proj.careTiers.map((tier, i) => (
-                    <tr key={tier.name} className={i % 2 === 0 ? 'bg-white' : 'bg-neutral-50'}>
-                      <td className="px-4 py-3 text-neutral-800 font-medium">{tier.name}</td>
-                      <td className="px-4 py-3 text-right text-neutral-700">{formatCurrencyFull(tier.price)}</td>
-                      <td className="px-4 py-3 text-right text-neutral-700">{formatPercent(tier.retentionRate)}</td>
-                      <td className="px-4 py-3 text-right text-secondary-600 font-medium">{formatCurrencyFull(tier.price)}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </Card>
-
-          {/* LTV projection */}
-          <h4 className="font-heading text-lg text-neutral-900 mb-4">Client Retention & LTV Model</h4>
-          <Card padding="none" className="overflow-hidden mb-8">
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="bg-neutral-100">
-                    <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider text-neutral-600">Year</th>
-                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider text-neutral-600">Guests</th>
-                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider text-neutral-600">3-Mo Enroll (70%)</th>
-                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider text-neutral-600">6-Mo Enroll (50%)</th>
-                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider text-neutral-600">Post-Care Rev</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-neutral-100">
-                  {CASITA_PHASING.years.map((yr, i) => {
-                    const threeMonth = Math.round(yr.guests * 0.70)
-                    const sixMonth = Math.round(yr.guests * 0.50)
-                    const postCareRev = threeMonth * 4500 + sixMonth * 8000
-                    return (
-                      <tr key={yr.year} className={i % 2 === 0 ? 'bg-white' : 'bg-neutral-50'}>
-                        <td className="px-4 py-3 text-neutral-800 font-medium">Year {yr.year}</td>
-                        <td className="px-4 py-3 text-right text-neutral-700">{yr.guests.toLocaleString()}</td>
-                        <td className="px-4 py-3 text-right text-neutral-700">{threeMonth.toLocaleString()}</td>
-                        <td className="px-4 py-3 text-right text-neutral-700">{sixMonth.toLocaleString()}</td>
-                        <td className="px-4 py-3 text-right text-secondary-600 font-medium">{formatCurrency(postCareRev)}</td>
-                      </tr>
-                    )
-                  })}
-                </tbody>
-              </table>
-            </div>
-          </Card>
-
-          <Card padding="lg" className="bg-primary-50 border border-primary-200">
-            <div className="flex items-start gap-3">
-              <Database className="w-5 h-5 text-primary-700 mt-0.5 shrink-0" />
-              <div>
-                <p className="text-sm font-medium text-primary-800 mb-1">Data Compounding Effect</p>
-                <p className="text-sm text-primary-700">
-                  Every post-care enrollment generates 3 to 12 additional months of longitudinal
-                  outcome data per patient, dramatically increasing per-record value and
-                  research dataset quality. This is the flywheel. Better data produces better outcomes,
-                  which drives higher enrollment, which produces more data.
-                </p>
-              </div>
-            </div>
-          </Card>
-        </section>
-
-        {/* ═══════════════════════════════════════════════════════════
-            Section 7 — Strategic Positioning & Scalability
+            Section 6 — Strategic Positioning & Scalability
         ═══════════════════════════════════════════════════════════ */}
         <section className="mb-20">
           <h2 className="text-3xl font-heading text-neutral-900 mb-4">Strategic Positioning & Scalability</h2>
@@ -594,7 +501,7 @@ function OfferContent() {
         </section>
 
         {/* ═══════════════════════════════════════════════════════════
-            Section 8 — Risk Mitigation
+            Section 7 — Risk Mitigation
         ═══════════════════════════════════════════════════════════ */}
         <section className="mb-20">
           <h2 className="text-3xl font-heading text-neutral-900 mb-4">Risk Mitigation</h2>
@@ -641,7 +548,7 @@ function OfferContent() {
         </section>
 
         {/* ═══════════════════════════════════════════════════════════
-            Section 9 — Disclaimer
+            Section 8 — Disclaimer
         ═══════════════════════════════════════════════════════════ */}
         <section className="mb-16">
           <Card padding="md" className="bg-neutral-100 border border-neutral-200">
