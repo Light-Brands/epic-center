@@ -22,6 +22,8 @@ import { Button, Card } from '@/components/ui'
 import { VaultGate } from '@/components/auth/VaultGate'
 import { Footer } from '@/components/layout'
 import { MetricCard } from '@/components/financial'
+import { ScenarioToggle } from '@/components/financial/ScenarioToggle'
+import { useScenario, type Scenario } from '@/lib/context/ScenarioContext'
 import {
   PABLO_OFFER_PROJECTIONS,
   CASITA_PHASING,
@@ -33,15 +35,22 @@ import {
 } from '@/lib/sheets/service'
 
 const proj = PABLO_OFFER_PROJECTIONS
-const y5 = proj.years[4] // Year 5 data
 
 function fmtM(value: number): string {
   return `$${Math.round(value / 1000000)}M`
 }
 
-export default function OfferPage() {
+const SCENARIO_LABELS: Record<Scenario, string> = {
+  conservative: 'Conservative',
+  base: 'Base',
+  aggressive: 'Strong Performance',
+}
+
+function OfferContent() {
+  const { scenario } = useScenario()
+  const y5 = proj.years[4]
+
   return (
-    <VaultGate title="Strategic Proposal" subtitle="Enter your 4-digit PIN to access the equity offer.">
     <div className="min-h-screen bg-canvas pt-28">
       <div className="w-full sm:w-[70vw] mx-auto py-12 px-4 sm:px-0">
 
@@ -61,21 +70,26 @@ export default function OfferPage() {
               health intelligence platform — spanning real estate, clinical operations,
               and proprietary data — at the frontier of psychedelic medicine.
             </p>
-            <p className="text-lg text-neutral-500">
+            <p className="text-lg text-neutral-500 mb-8">
               This is a legacy investment. Not a fund allocation.
             </p>
+
+            {/* Scenario toggle */}
+            <div className="flex justify-center">
+              <ScenarioToggle size="md" showDescriptions />
+            </div>
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <MetricCard
-              label="Total Enterprise Value (Y5 Base)"
-              value={fmtM(y5.totalEnterprise.base)}
+              label={`Total Enterprise Value (Y5 ${SCENARIO_LABELS[scenario]})`}
+              value={fmtM(y5.totalEnterprise[scenario])}
               subtitle="Across 3 entities"
               accent
             />
             <MetricCard
-              label="Pablo's 30% Equity (Y5 Base)"
-              value={fmtM(y5.pabloEquity.base)}
+              label={`Pablo's 30% Equity (Y5 ${SCENARIO_LABELS[scenario]})`}
+              value={fmtM(y5.pabloEquity[scenario])}
               subtitle="Combined stake"
               accent
             />
@@ -94,7 +108,7 @@ export default function OfferPage() {
         <section className="mb-20">
           <h2 className="text-3xl font-heading text-neutral-900 mb-4">Vision & Purpose</h2>
           <p className="text-neutral-600 mb-8 max-w-3xl">
-            Nicholas and Angela's personal journey through addiction, recovery, and
+            Nicholas and Jason's personal journey through addiction, recovery, and
             radical transformation fuels every dimension of this venture. What began as
             a quest for healing became an architecture for human renewal — medically
             rigorous, data-driven, and designed to compound in value with every guest served.
@@ -300,12 +314,12 @@ export default function OfferPage() {
                   <span className="text-neutral-800 font-medium">{formatCurrency(12400000)}</span>
                 </div>
                 <div className="flex justify-between text-sm">
-                  <span className="text-neutral-500">Y5 Value (Base)</span>
-                  <span className="text-neutral-800 font-medium">{formatCurrency(y5.realEstate.base)}</span>
+                  <span className="text-neutral-500">Y5 Value ({SCENARIO_LABELS[scenario]})</span>
+                  <span className="text-neutral-800 font-medium">{formatCurrency(y5.realEstate[scenario])}</span>
                 </div>
                 <div className="flex justify-between text-sm">
-                  <span className="text-neutral-500">Pablo's 30%</span>
-                  <span className="text-secondary-600 font-medium">{formatCurrency(Math.round(y5.realEstate.base * 0.30))}</span>
+                  <span className="text-neutral-500">Pablo&apos;s 30%</span>
+                  <span className="text-secondary-600 font-medium">{formatCurrency(Math.round(y5.realEstate[scenario] * 0.30))}</span>
                 </div>
               </div>
             </Card>
@@ -328,16 +342,16 @@ export default function OfferPage() {
               </p>
               <div className="space-y-2 pt-4 border-t border-neutral-100">
                 <div className="flex justify-between text-sm">
-                  <span className="text-neutral-500">Y5 EBITDA (Base)</span>
-                  <span className="text-neutral-800 font-medium">{formatCurrency(29036000)}</span>
+                  <span className="text-neutral-500">Y5 EBITDA ({SCENARIO_LABELS[scenario]})</span>
+                  <span className="text-neutral-800 font-medium">{formatCurrency(Math.round(y5.clinicOpsIP[scenario] / 5.5))}</span>
                 </div>
                 <div className="flex justify-between text-sm">
-                  <span className="text-neutral-500">Y5 Enterprise (Base)</span>
-                  <span className="text-neutral-800 font-medium">{formatCurrency(y5.clinicOpsIP.base)}</span>
+                  <span className="text-neutral-500">Y5 Enterprise ({SCENARIO_LABELS[scenario]})</span>
+                  <span className="text-neutral-800 font-medium">{formatCurrency(y5.clinicOpsIP[scenario])}</span>
                 </div>
                 <div className="flex justify-between text-sm">
-                  <span className="text-neutral-500">Pablo's 30%</span>
-                  <span className="text-secondary-600 font-medium">{formatCurrency(Math.round(y5.clinicOpsIP.base * 0.30))}</span>
+                  <span className="text-neutral-500">Pablo&apos;s 30%</span>
+                  <span className="text-secondary-600 font-medium">{formatCurrency(Math.round(y5.clinicOpsIP[scenario] * 0.30))}</span>
                 </div>
               </div>
             </Card>
@@ -364,12 +378,12 @@ export default function OfferPage() {
                   <span className="text-neutral-800 font-medium">{y5.cumulativeGuests.toLocaleString()}</span>
                 </div>
                 <div className="flex justify-between text-sm">
-                  <span className="text-neutral-500">Y5 Data Value (Base)</span>
-                  <span className="text-neutral-800 font-medium">{formatCurrency(y5.dataAI.base)}</span>
+                  <span className="text-neutral-500">Y5 Data Value ({SCENARIO_LABELS[scenario]})</span>
+                  <span className="text-neutral-800 font-medium">{formatCurrency(y5.dataAI[scenario])}</span>
                 </div>
                 <div className="flex justify-between text-sm">
-                  <span className="text-neutral-500">Pablo's 30%</span>
-                  <span className="text-secondary-600 font-medium">{formatCurrency(Math.round(y5.dataAI.base * 0.30))}</span>
+                  <span className="text-neutral-500">Pablo&apos;s 30%</span>
+                  <span className="text-secondary-600 font-medium">{formatCurrency(Math.round(y5.dataAI[scenario] * 0.30))}</span>
                 </div>
               </div>
             </Card>
@@ -377,59 +391,46 @@ export default function OfferPage() {
         </section>
 
         {/* ═══════════════════════════════════════════════════════════
-            Section 5 — Financial Projections (3 scenarios)
+            Section 5 — Financial Projections (scenario-driven)
         ═══════════════════════════════════════════════════════════ */}
         <section className="mb-20">
           <h2 className="text-3xl font-heading text-neutral-900 mb-4">Proposed Equity Offer — Financial Projections</h2>
           <p className="text-neutral-600 mb-8 max-w-3xl">
-            Pablo's 30% stake across all three entities. Projections shown across three
-            scenarios reflecting different occupancy ramps, appreciation rates, and
-            data premium levels.
+            Pablo's 30% stake across all three entities. Use the scenario toggle above
+            to switch between conservative, base, and strong performance projections.
           </p>
 
-          {/* Scenario tables */}
-          {[
-            { label: 'Conservative', key: 'conservative' as const, color: 'bg-neutral-100', textColor: 'text-neutral-700' },
-            { label: 'Base Case', key: 'base' as const, color: 'bg-primary-50', textColor: 'text-primary-800' },
-            { label: 'Strong Performance', key: 'aggressive' as const, color: 'bg-secondary-50', textColor: 'text-secondary-700' },
-          ].map((scenario) => (
-            <div key={scenario.key} className="mb-10">
-              <div className={`inline-block px-3 py-1 rounded-full text-xs font-accent uppercase tracking-wider mb-4 ${scenario.color} ${scenario.textColor}`}>
-                {scenario.label}
-              </div>
-              <Card padding="none" className="overflow-hidden">
-                <div className="overflow-x-auto">
-                  <table className="w-full text-sm">
-                    <thead>
-                      <tr className="bg-primary-800 text-white">
-                        <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Year</th>
-                        <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Real Estate</th>
-                        <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Clinic/Ops/IP</th>
-                        <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Data/AI</th>
-                        <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Total Enterprise</th>
-                        <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider font-bold">Pablo's 30%</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-neutral-100">
-                      {proj.years.map((yr, i) => (
-                        <tr key={yr.year} className={i % 2 === 0 ? 'bg-white' : 'bg-neutral-50'}>
-                          <td className="px-4 py-3 text-neutral-800 font-medium">Year {yr.year}</td>
-                          <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(yr.realEstate[scenario.key])}</td>
-                          <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(yr.clinicOpsIP[scenario.key])}</td>
-                          <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(yr.dataAI[scenario.key])}</td>
-                          <td className="px-4 py-3 text-right text-neutral-800 font-medium">{formatCurrency(yr.totalEnterprise[scenario.key])}</td>
-                          <td className="px-4 py-3 text-right text-secondary-600 font-bold">{formatCurrency(yr.pabloEquity[scenario.key])}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              </Card>
+          <Card padding="none" className="overflow-hidden">
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-primary-800 text-white">
+                    <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Year</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Real Estate</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Clinic/Ops/IP</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Data/AI</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Total Enterprise</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider font-bold">Pablo&apos;s 30%</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-neutral-100">
+                  {proj.years.map((yr, i) => (
+                    <tr key={yr.year} className={i % 2 === 0 ? 'bg-white' : 'bg-neutral-50'}>
+                      <td className="px-4 py-3 text-neutral-800 font-medium">Year {yr.year}</td>
+                      <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(yr.realEstate[scenario])}</td>
+                      <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(yr.clinicOpsIP[scenario])}</td>
+                      <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(yr.dataAI[scenario])}</td>
+                      <td className="px-4 py-3 text-right text-neutral-800 font-medium">{formatCurrency(yr.totalEnterprise[scenario])}</td>
+                      <td className="px-4 py-3 text-right text-secondary-600 font-bold">{formatCurrency(yr.pabloEquity[scenario])}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
-          ))}
+          </Card>
 
           {/* Summary cards */}
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
             <Card padding="lg">
               <p className="text-xs font-accent text-neutral-500 uppercase tracking-wider mb-2">Dividend Potential</p>
               <p className="font-heading text-2xl text-neutral-900 mb-2">Y2 Onwards</p>
@@ -676,6 +677,13 @@ export default function OfferPage() {
       </div>
       <Footer />
     </div>
+  )
+}
+
+export default function OfferPage() {
+  return (
+    <VaultGate title="Strategic Proposal" subtitle="Enter your 4-digit PIN to access the equity offer.">
+      <OfferContent />
     </VaultGate>
   )
 }
