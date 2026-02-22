@@ -35,6 +35,10 @@ import {
 const proj = PABLO_OFFER_PROJECTIONS
 const y5 = proj.years[4] // Year 5 data
 
+function fmtM(value: number): string {
+  return `$${Math.round(value / 1000000)}M`
+}
+
 export default function OfferPage() {
   return (
     <VaultGate title="Strategic Proposal" subtitle="Enter your 4-digit PIN to access the equity offer.">
@@ -65,19 +69,19 @@ export default function OfferPage() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <MetricCard
               label="Total Enterprise Value (Y5 Base)"
-              value={formatCurrency(y5.totalEnterprise.base)}
+              value={fmtM(y5.totalEnterprise.base)}
               subtitle="Across 3 entities"
               accent
             />
             <MetricCard
               label="Pablo's 30% Equity (Y5 Base)"
-              value={formatCurrency(y5.pabloEquity.base)}
+              value={fmtM(y5.pabloEquity.base)}
               subtitle="Combined stake"
               accent
             />
             <MetricCard
               label="5-Year Range"
-              value={`${formatCurrency(y5.pabloEquity.conservative)} – ${formatCurrency(y5.pabloEquity.aggressive)}`}
+              value={`${fmtM(y5.pabloEquity.conservative)} – ${fmtM(y5.pabloEquity.aggressive)}`}
               subtitle="Conservative to strong performance"
             />
           </div>
