@@ -67,8 +67,8 @@ function OfferContent() {
             </h1>
             <p className="text-xl text-neutral-600 mb-4">
               A once-in-a-generation opportunity to own 30% of a vertically integrated
-              health intelligence platform — spanning real estate, clinical operations,
-              and proprietary data — at the frontier of psychedelic medicine.
+              health intelligence platform spanning real estate, clinical operations,
+              and proprietary data at the frontier of psychedelic medicine.
             </p>
             <p className="text-lg text-neutral-500 mb-8">
               This is a legacy investment. Not a fund allocation.
@@ -95,7 +95,7 @@ function OfferContent() {
             />
             <MetricCard
               label="5-Year Range"
-              value={`${fmtM(y5.pabloEquity.conservative)}–${fmtM(y5.pabloEquity.aggressive)}`}
+              value={`${fmtM(y5.pabloEquity.conservative)} to ${fmtM(y5.pabloEquity.aggressive)}`}
               subtitle="Conservative to strong performance"
               className="[&_.font-heading]:text-3xl [&_.font-heading]:md:text-4xl [&_.font-heading]:whitespace-nowrap"
             />
@@ -110,7 +110,7 @@ function OfferContent() {
           <p className="text-neutral-600 mb-8 max-w-3xl">
             Nicholas and Jason's personal journey through addiction, recovery, and
             radical transformation fuels every dimension of this venture. What began as
-            a quest for healing became an architecture for human renewal — medically
+            a quest for healing became an architecture for human renewal. Medically
             rigorous, data-driven, and designed to compound in value with every guest served.
           </p>
 
@@ -119,7 +119,7 @@ function OfferContent() {
               { icon: Heart, title: 'Medical Ibogaine & Psilocybin', description: 'Evidence-based psychedelic protocols with full cardiac monitoring, medical oversight, and integration therapy.' },
               { icon: Activity, title: 'Biohacking & Bio-Optimization', description: 'Stem cells, NAD+, peptide therapy, IV micronutrient infusions, and precision wellness protocols.' },
               { icon: Layers, title: 'Pre & Post-Care Ecosystem', description: 'Months of preparation and integration creating a continuous care model that compounds clinical outcomes.' },
-              { icon: Database, title: 'Longitudinal Data Intelligence', description: 'Every guest generates rich biomarker, neurological, and outcomes data — the foundation of a health AI engine.' },
+              { icon: Database, title: 'Longitudinal Data Intelligence', description: 'Every guest generates rich biomarker, neurological, and outcomes data that forms the foundation of a health AI engine.' },
             ].map((pillar) => (
               <Card key={pillar.title} padding="lg">
                 <pillar.icon className="w-8 h-8 text-secondary-500 mb-4" />
@@ -144,7 +144,7 @@ function OfferContent() {
           <p className="text-neutral-600 mb-8 max-w-3xl">
             Every guest who passes through the Epicenter generates a proprietary dataset
             that no competitor possesses. This data becomes exponentially more valuable
-            with scale — powering clinical outcomes, research partnerships, and future AI applications.
+            with scale, powering clinical outcomes, research partnerships, and future AI applications.
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -287,7 +287,7 @@ function OfferContent() {
           <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Three Investment Pillars</h2>
           <p className="text-neutral-600 mb-8 max-w-3xl">
             The Epicenter is structured as three distinct but synergistic entities.
-            Pablo receives 30% equity across all three — participating in real asset
+            Pablo receives 30% equity across all three, participating in real asset
             appreciation, operational cash flow, and exponential data value.
           </p>
 
@@ -394,7 +394,7 @@ function OfferContent() {
             Section 5 — Financial Projections (scenario-driven)
         ═══════════════════════════════════════════════════════════ */}
         <section className="mb-20">
-          <h2 className="text-3xl font-heading text-neutral-900 mb-4">Proposed Equity Offer — Financial Projections</h2>
+          <h2 className="text-3xl font-heading text-neutral-900 mb-4">Proposed Equity Offer: Financial Projections</h2>
           <p className="text-neutral-600 mb-8 max-w-3xl">
             Pablo's 30% stake across all three entities. Use the scenario toggle above
             to switch between conservative, base, and strong performance projections.
@@ -441,7 +441,7 @@ function OfferContent() {
             </Card>
             <Card padding="lg">
               <p className="text-xs font-accent text-neutral-500 uppercase tracking-wider mb-2">Exit Scenarios</p>
-              <p className="font-heading text-2xl text-neutral-900 mb-2">Year 5-7</p>
+              <p className="font-heading text-2xl text-neutral-900 mb-2">Year 5 to 7</p>
               <p className="text-sm text-neutral-600">
                 Strategic acquisition by behavioral health consolidators, healthcare PE,
                 or health data/AI companies. Each entity can exit independently or combined.
@@ -464,7 +464,7 @@ function OfferContent() {
         <section className="mb-20">
           <h2 className="text-3xl font-heading text-neutral-900 mb-4">Pre-Care & Post-Care as Revenue Multiplier</h2>
           <p className="text-neutral-600 mb-8 max-w-3xl">
-            The continuous care model wraps around each guest's treatment — months of
+            The continuous care model wraps around each guest's treatment with months of
             preparation before arrival and structured integration after departure.
             This extends revenue per guest, improves outcomes, and generates the
             longitudinal data that powers Entity C.
@@ -537,10 +537,10 @@ function OfferContent() {
               <div>
                 <p className="text-sm font-medium text-primary-800 mb-1">Data Compounding Effect</p>
                 <p className="text-sm text-primary-700">
-                  Every post-care enrollment generates 3-12 additional months of longitudinal
-                  outcome data per patient — dramatically increasing per-record value and
-                  research dataset quality. This is the flywheel: better data → better outcomes
-                  → higher enrollment → more data.
+                  Every post-care enrollment generates 3 to 12 additional months of longitudinal
+                  outcome data per patient, dramatically increasing per-record value and
+                  research dataset quality. This is the flywheel. Better data produces better outcomes,
+                  which drives higher enrollment, which produces more data.
                 </p>
               </div>
             </div>
@@ -560,7 +560,7 @@ function OfferContent() {
               <p className="text-sm text-neutral-600">
                 This is not a hotel that offers treatments. It is medical infrastructure
                 with a hospitality wrapper. The technology platform, clinical protocols,
-                and data architecture are the core value — the real estate is the vehicle.
+                and data architecture are the core value. The real estate is the vehicle.
               </p>
             </Card>
             <Card padding="lg">
@@ -576,7 +576,7 @@ function OfferContent() {
               <Globe className="w-8 h-8 text-secondary-600 mb-4" />
               <h4 className="font-medium text-neutral-900 mb-2">Multi-Location Model</h4>
               <p className="text-sm text-neutral-600">
-                Tulum is location one. The model is designed for replication —
+                Tulum is location one. The model is designed for replication across
                 Costa Rica, Portugal, Thailand, and other jurisdictions with favorable
                 regulatory environments for psychedelic-assisted therapy.
               </p>
