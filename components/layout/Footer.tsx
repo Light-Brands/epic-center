@@ -48,7 +48,6 @@ const FOOTER_LINKS = [
     title: 'Resources',
     links: [
       { name: 'Timeline', href: '/timeline' },
-      { name: 'Legal', href: '/legal' },
       { name: 'Outcomes', href: '/outcomes' },
       { name: 'FAQ', href: '/faq' },
     ],
@@ -166,9 +165,6 @@ export function Footer() {
               &copy; {new Date().getFullYear()} Transformational Epicenter. Confidential Investment Materials.
             </p>
             <div className="flex flex-wrap items-center justify-center md:justify-end gap-3 sm:gap-6 text-xs sm:text-sm text-primary-300/60">
-              <Link href="/legal" className="hover:text-secondary-400 transition-colors duration-300">
-                Legal
-              </Link>
               <Link href="/risks" className="hover:text-secondary-400 transition-colors duration-300">
                 Risk Factors
               </Link>

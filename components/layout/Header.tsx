@@ -67,7 +67,6 @@ const NAV_SECTIONS: NavSection[] = [
       { name: 'Summary', href: '/overview' },
       { name: 'Outcomes', href: '/outcomes' },
       { name: 'FAQ', href: '/faq' },
-      { name: 'Legal', href: '/counsel', locked: true },
       { name: 'Data Room', href: '/data-room', locked: true },
     ],
   },
