@@ -22,9 +22,23 @@ import {
   Zap,
   Globe,
   ChevronRight,
+  Dna,
+  FileText,
+  Smartphone,
+  Video,
+  Package,
+  CalendarClock,
+  BarChart3,
+  ClipboardCheck,
+  Target,
+  LayoutDashboard,
+  TrendingUp,
+  Code2,
+  type LucideIcon,
 } from 'lucide-react'
 import { Button, Card } from '@/components/ui'
 import { Footer } from '@/components/layout'
+import { BUSINESS_UNITS, CASITA_PHASING } from '@/lib/sheets/data'
 
 // Animation variants
 const fadeUpVariants = {
@@ -54,6 +68,127 @@ const scaleInVariants = {
   },
 }
 
+// Derive dynamic values from data.ts
+const techUnit = BUSINESS_UNITS.find(u => u.id === 'technology-platform')!
+const techEnterpriseValue = techUnit.standaloneValue.base
+const cumulativeGuestsY5 = CASITA_PHASING.years.reduce((sum, yr) => sum + yr.guests, 0)
+
+// 14 integrated systems grouped into 4 categories
+const PLATFORM_SYSTEMS: {
+  category: string
+  description: string
+  systems: { icon: LucideIcon; name: string; does: string; matters: string }[]
+}[] = [
+  {
+    category: 'Clinical Core',
+    description: 'Precision medicine infrastructure',
+    systems: [
+      {
+        icon: Dna,
+        name: 'AI Treatment Personalization',
+        does: 'Pharmacogenomic dosing, intake risk scoring, protocol generation based on genetics + medical history + goals',
+        matters: 'Transforms generic therapy into precision medicine. The core IP differentiator.',
+      },
+      {
+        icon: FileText,
+        name: 'Clinical Protocol Engine',
+        does: 'Manages treatment protocols as living documents that adapt in real-time based on biometric feedback',
+        matters: 'Ensures consistency across staff, standardizes care, enables multi-location scaling.',
+      },
+      {
+        icon: Activity,
+        name: 'Biometric Monitoring',
+        does: 'Wearable biosensor integration streaming real-time vitals (HR, HRV, SpO2, EEG) with anomaly detection',
+        matters: 'Non-negotiable for ibogaine safety. Cardiac monitoring is a medical requirement.',
+      },
+      {
+        icon: Database,
+        name: 'EHR Integration',
+        does: 'Electronic health records with structured clinical data, intake assessments, outcome measurements',
+        matters: 'Required for medical licensure. Feeds the AI engine. Supports clinical research.',
+      },
+    ],
+  },
+  {
+    category: 'Guest Experience',
+    description: 'Full lifecycle relationship management',
+    systems: [
+      {
+        icon: Users,
+        name: 'Guest Portal & CRM',
+        does: 'Full guest lifecycle management from first inquiry through booking, intake, stay, and years of aftercare',
+        matters: 'Revenue engine. Drives acquisition, conversion, retention. Replaces $50K+/yr SaaS stack.',
+      },
+      {
+        icon: Smartphone,
+        name: 'Aftercare App',
+        does: 'Mobile app delivering AI-updated weekly integration protocols, guided journaling, crisis detection',
+        matters: 'The 12-month integration period is where outcomes are won or lost. This is the product moat.',
+      },
+      {
+        icon: Video,
+        name: 'Telemedicine Platform',
+        does: 'HIPAA-compliant video consultations for pre-arrival screening, post-care follow-ups, remote oversight',
+        matters: 'Extends care beyond physical walls. Enables $2M/yr post-care subscription revenue at Y5.',
+      },
+    ],
+  },
+  {
+    category: 'Operations',
+    description: 'AI-optimized facility management',
+    systems: [
+      {
+        icon: Package,
+        name: 'Inventory Management',
+        does: 'AI demand forecasting, automated vendor ordering, waste tracking for medical supplies and amenities',
+        matters: 'Reduces waste, prevents stockouts on critical medical supplies.',
+      },
+      {
+        icon: CalendarClock,
+        name: 'Staff Scheduling',
+        does: 'AI-optimized scheduling based on guest profiles, treatment schedules, skill requirements, and labor law',
+        matters: 'Manages 40+ staff across clinical, hospitality, and support roles.',
+      },
+      {
+        icon: BarChart3,
+        name: 'Financial Analytics',
+        does: 'Real-time P&L, KPI dashboards, investor reporting, budget tracking, variance analysis',
+        matters: 'Powers the investor platform. Enables data-driven decisions on a $42.6M/yr revenue business.',
+      },
+      {
+        icon: ClipboardCheck,
+        name: 'Compliance Tracking',
+        does: 'HIPAA compliance monitoring, COFEPRIS regulatory docs, audit logging, consent management',
+        matters: 'Non-optional. Required for operating a medical facility. Failure = shutdown.',
+      },
+    ],
+  },
+  {
+    category: 'Intelligence',
+    description: 'The compounding data advantage',
+    systems: [
+      {
+        icon: Target,
+        name: 'Marketing Automation',
+        does: 'AI-driven guest acquisition, personalized outreach, conversion optimization, referral tracking',
+        matters: 'Drives the $2,613 blended CAC against $34,048 LTV (13:1 ratio).',
+      },
+      {
+        icon: Server,
+        name: 'Data Warehouse',
+        does: 'Centralized data infrastructure capturing every biosensor reading, clinical observation, and outcome metric',
+        matters: 'The foundation that makes all AI features possible. Builds the most valuable dataset in psychedelic therapy.',
+      },
+      {
+        icon: LayoutDashboard,
+        name: 'Reporting Dashboard',
+        does: 'Operational command center with real-time occupancy, revenue, clinical outcomes, and staff performance',
+        matters: 'Management visibility across all 4 business units.',
+      },
+    ],
+  },
+]
+
 // Journey stages data
 const JOURNEY_STAGES = [
   {
@@ -68,6 +203,7 @@ const JOURNEY_STAGES = [
       'Secure digital intake & consent',
       'Pre-arrival video consultations',
     ],
+    systems: ['AI Treatment Personalization', 'Guest Portal & CRM', 'EHR Integration', 'Telemedicine Platform'],
   },
   {
     phase: 'On-Site',
@@ -81,6 +217,7 @@ const JOURNEY_STAGES = [
       'Intelligent staff handoff system',
       'Distraction-free guest tablets',
     ],
+    systems: ['Clinical Protocol Engine', 'Biometric Monitoring', 'Staff Scheduling', 'Inventory Management'],
   },
   {
     phase: 'Integration',
@@ -94,6 +231,7 @@ const JOURNEY_STAGES = [
       'Early crisis detection & outreach',
       'Longitudinal outcome tracking',
     ],
+    systems: ['Aftercare App', 'Telemedicine Platform', 'Marketing Automation', 'Data Warehouse'],
   },
   {
     phase: 'Community',
@@ -107,6 +245,7 @@ const JOURNEY_STAGES = [
       'Ambassador & referral engine',
       'Evidence-building & research contribution',
     ],
+    systems: ['Reporting Dashboard', 'Marketing Automation', 'Data Warehouse', 'Compliance Tracking'],
   },
 ]
 
@@ -295,9 +434,10 @@ export default function TechnologyPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           >
-            Technology doesn't replace the human experience. It deepens it.
-            Our platform weaves AI, biosensors, and adaptive protocols into a seamless
-            system that makes every guest feel profoundly cared for.
+            One senior architect directing AI agents at 10-20x productivity.
+            A $2-4M platform built for $750K. 14 integrated systems feeding one data warehouse.
+            That unified data layer makes the AI possible. The AI makes the data
+            a ${(techEnterpriseValue / 1_000_000).toFixed(1)}M asset.
           </motion.p>
 
           {/* Floating stat badges */}
@@ -314,6 +454,10 @@ export default function TechnologyPage() {
             <div className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
               <Server className="w-5 h-5 text-secondary-400" />
               <span className="font-accent text-sm text-white">14 Integrated Systems</span>
+            </div>
+            <div className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
+              <TrendingUp className="w-5 h-5 text-secondary-400" />
+              <span className="font-accent text-sm text-white">${(techEnterpriseValue / 1_000_000).toFixed(1)}M Enterprise Value</span>
             </div>
           </motion.div>
         </div>
@@ -337,6 +481,188 @@ export default function TechnologyPage() {
               <span className="highlight text-secondary-600 inline-block">cared for</span>, not managed.
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* ═══════════════════════════════════════════════════════════════════════════
+          THE BUILDER - "Built by Someone Who Has Done This Before"
+          ═══════════════════════════════════════════════════════════════════════════ */}
+      <section className="py-24 md:py-32 bg-canvas relative overflow-hidden">
+        <div className="absolute top-1/2 right-0 w-96 h-96 rounded-full bg-secondary-500/5 blur-[150px]" />
+
+        <div className="w-full sm:w-[70vw] mx-auto relative">
+          <motion.div
+            className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-start"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+            variants={staggerContainer}
+          >
+            {/* Left: Narrative */}
+            <motion.div variants={fadeUpVariants}>
+              <div className="flex items-center gap-4 mb-6">
+                <div className="h-px w-12 bg-gradient-to-r from-secondary-400 to-secondary-600" />
+                <p className="font-accent text-sm uppercase tracking-[0.2em] text-secondary-600">
+                  The Architect
+                </p>
+              </div>
+
+              <h2 className="font-heading text-4xl md:text-5xl text-neutral-900 mb-8 leading-tight">
+                Built by Someone Who Has Done This Before
+              </h2>
+
+              <div className="space-y-6 text-neutral-600 leading-relaxed">
+                <p>
+                  Dan Lawless brings 20+ years of full-stack architecture experience to Epicenter's
+                  technology platform. As Technical Lead, he directs the entire build, from clinical
+                  protocol engines to investor-facing dashboards.
+                </p>
+                <p>
+                  The methodology is what makes the numbers work. One senior architect directing
+                  AI development agents achieves 10-20x productivity on boilerplate, UI components,
+                  data modeling, and standard patterns. Human expertise stays focused on architecture
+                  decisions, clinical domain modeling, and security. A $1.04M scope delivered for
+                  ~$520K in effective cost.
+                </p>
+                <p>
+                  Why custom instead of off-the-shelf? Because an EHR designed for general practice
+                  doesn't handle pharmacogenomic dosing protocols. A standard CRM doesn't integrate
+                  with a 12-month aftercare engine. Custom means every system feeds one centralized
+                  data warehouse. That unified data layer makes the AI possible. The AI makes the
+                  data a ${(techEnterpriseValue / 1_000_000).toFixed(1)}M asset.
+                </p>
+              </div>
+            </motion.div>
+
+            {/* Right: Proof card */}
+            <motion.div variants={scaleInVariants} className="space-y-6">
+              <Card padding="lg" className="bg-white border-neutral-200">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="w-10 h-10 rounded-xl bg-success-500/10 border border-success-500/20 flex items-center justify-center">
+                    <Code2 className="w-5 h-5 text-success-500" />
+                  </div>
+                  <h3 className="font-heading text-xl text-neutral-900">What's Already Built</h3>
+                </div>
+
+                <div className="grid grid-cols-3 gap-4 mb-6">
+                  {[
+                    { value: '115', label: 'Source Files' },
+                    { value: '26,700', label: 'Lines of Code' },
+                    { value: '19', label: 'Pages Delivered' },
+                  ].map((stat) => (
+                    <div key={stat.label} className="text-center p-3 rounded-xl bg-canvas">
+                      <p className="font-heading text-2xl text-neutral-900">{stat.value}</p>
+                      <p className="text-xs text-neutral-500 mt-1">{stat.label}</p>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="p-4 rounded-xl bg-primary-50 border border-primary-100">
+                  <p className="text-sm text-primary-800 font-medium mb-1">
+                    Estimated traditional value
+                  </p>
+                  <p className="text-2xl font-heading text-primary-900">$165K - $280K</p>
+                  <p className="text-xs text-primary-600 mt-1">
+                    22-37% of the $750K budget already deployed
+                  </p>
+                </div>
+              </Card>
+
+              <Card padding="lg" className="bg-gradient-to-r from-primary-800 to-primary-900 text-white">
+                <h3 className="font-heading text-lg mb-4">Market Rate Comparison</h3>
+                <div className="space-y-3">
+                  <div className="flex justify-between items-baseline">
+                    <span className="text-primary-200 text-sm">Traditional build cost</span>
+                    <span className="font-heading text-xl text-white">$2.2M - $4.4M</span>
+                  </div>
+                  <div className="flex justify-between items-baseline">
+                    <span className="text-primary-200 text-sm">Epicenter actual cost</span>
+                    <span className="font-heading text-xl text-secondary-400">$750K</span>
+                  </div>
+                  <div className="h-px bg-primary-700 my-2" />
+                  <div className="flex justify-between items-baseline">
+                    <span className="text-primary-200 text-sm">Cost savings</span>
+                    <span className="font-accent text-sm text-success-400 uppercase tracking-wider">66-83%</span>
+                  </div>
+                </div>
+              </Card>
+            </motion.div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* ═══════════════════════════════════════════════════════════════════════════
+          14 SYSTEMS - "14 Systems. One Integrated Intelligence."
+          ═══════════════════════════════════════════════════════════════════════════ */}
+      <section className="py-24 md:py-32 bg-primary-900 text-white relative overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/30 to-transparent" />
+        <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary-500/30 to-transparent" />
+        <div className="absolute top-1/3 -right-48 w-96 h-96 rounded-full bg-accent-500/10 blur-[150px]" />
+        <div className="absolute bottom-1/4 -left-32 w-80 h-80 rounded-full bg-secondary-500/8 blur-[120px]" />
+
+        <div className="w-full sm:w-[70vw] mx-auto relative">
+          <motion.div
+            className="text-center mb-16"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.3 }}
+            variants={fadeUpVariants}
+          >
+            <div className="flex items-center justify-center gap-4 mb-6">
+              <div className="h-px w-12 bg-gradient-to-r from-transparent to-secondary-400" />
+              <p className="font-accent text-sm uppercase tracking-[0.2em] text-secondary-400">
+                The Platform
+              </p>
+              <div className="h-px w-12 bg-gradient-to-l from-transparent to-secondary-400" />
+            </div>
+            <h2 className="font-heading text-4xl md:text-5xl mb-6">
+              14 Systems. One Integrated Intelligence.
+            </h2>
+            <p className="text-lg text-primary-200 max-w-2xl mx-auto">
+              Not 14 disconnected tools. One platform where every system feeds a centralized
+              data warehouse, and every data point compounds the AI's intelligence.
+            </p>
+          </motion.div>
+
+          <motion.div
+            className="space-y-12"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.1 }}
+            variants={staggerContainer}
+          >
+            {PLATFORM_SYSTEMS.map((group) => (
+              <motion.div key={group.category} variants={fadeUpVariants}>
+                <div className="flex items-center gap-3 mb-6">
+                  <h3 className="font-heading text-xl text-secondary-400">{group.category}</h3>
+                  <div className="h-px flex-1 bg-primary-700/50" />
+                  <span className="font-accent text-xs uppercase tracking-widest text-primary-400">
+                    {group.description}
+                  </span>
+                </div>
+
+                <div className={`grid md:grid-cols-2 ${group.systems.length > 3 ? 'lg:grid-cols-4' : 'lg:grid-cols-3'} gap-4`}>
+                  {group.systems.map((system) => (
+                    <motion.div
+                      key={system.name}
+                      variants={scaleInVariants}
+                      whileHover={{ y: -4, transition: { duration: 0.3, ease: [0.16, 1, 0.3, 1] } }}
+                      className="group bg-primary-800/50 rounded-xl p-5 border border-primary-700/50 hover:border-secondary-500/30 transition-all duration-300"
+                    >
+                      <div className="flex items-center gap-3 mb-3">
+                        <div className="w-9 h-9 rounded-lg bg-secondary-500/10 border border-secondary-500/20 flex items-center justify-center group-hover:bg-secondary-500/20 transition-colors">
+                          <system.icon className="w-4.5 h-4.5 text-secondary-400" />
+                        </div>
+                        <h4 className="font-medium text-sm text-white leading-tight">{system.name}</h4>
+                      </div>
+                      <p className="text-xs text-primary-300 leading-relaxed mb-2">{system.does}</p>
+                      <p className="text-xs text-secondary-400/80 leading-relaxed italic">{system.matters}</p>
+                    </motion.div>
+                  ))}
+                </div>
+              </motion.div>
+            ))}
+          </motion.div>
         </div>
       </section>
 
@@ -425,6 +751,23 @@ export default function TechnologyPage() {
                         </div>
                       ))}
                     </div>
+
+                    {/* Active systems */}
+                    <div className="pt-4 mt-4 border-t border-neutral-100">
+                      <p className="font-accent text-[9px] uppercase tracking-[0.2em] text-neutral-400 mb-2">
+                        Active Systems
+                      </p>
+                      <div className="flex flex-wrap gap-1.5">
+                        {stage.systems.map((sys) => (
+                          <span
+                            key={sys}
+                            className="inline-flex items-center px-2 py-0.5 rounded-full bg-primary-50 text-[10px] text-primary-700 border border-primary-100"
+                          >
+                            {sys}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
                   </div>
                 </motion.div>
               ))}
@@ -469,11 +812,36 @@ export default function TechnologyPage() {
                 responses, integration progress, and long-term outcomes) to build a living
                 model of each guest's healing trajectory.
               </p>
-              <p className="text-primary-200/80 mb-10 leading-relaxed">
+              <p className="text-primary-200/80 mb-8 leading-relaxed">
                 This isn't automation. It's augmentation. Every recommendation is reviewed by
                 physicians. Every protocol adjustment is clinically validated. The AI accelerates
                 insight; humans hold the relationship.
               </p>
+
+              {/* Data value callout */}
+              <div className="p-5 rounded-xl bg-gradient-to-r from-secondary-500/15 to-secondary-400/10 border border-secondary-500/20 mb-10">
+                <div className="flex items-center gap-2 mb-3">
+                  <Database className="w-4 h-4 text-secondary-400" />
+                  <p className="font-accent text-xs uppercase tracking-widest text-secondary-400">
+                    The Data Asset
+                  </p>
+                </div>
+                <p className="text-sm text-primary-100 leading-relaxed mb-3">
+                  Every data point contributes to a proprietary clinical dataset valued at $10K per patient record.
+                  {' '}{cumulativeGuestsY5.toLocaleString()} cumulative guests by Year 5 creates a ${((cumulativeGuestsY5 * 10_000) / 1_000_000).toFixed(1)}M
+                  data asset.
+                </p>
+                <div className="flex items-center gap-2 text-sm">
+                  <span className="text-primary-300">$7.5M IP base</span>
+                  <span className="text-primary-500">+</span>
+                  <span className="text-primary-300">${((cumulativeGuestsY5 * 10_000) / 1_000_000).toFixed(1)}M data premium</span>
+                  <span className="text-primary-500">=</span>
+                  <span className="font-heading text-lg text-secondary-400">
+                    ${(techEnterpriseValue / 1_000_000).toFixed(1)}M
+                  </span>
+                  <span className="text-primary-400 text-xs">technology enterprise value</span>
+                </div>
+              </div>
 
               <div className="space-y-4">
                 {[
@@ -736,10 +1104,10 @@ export default function TechnologyPage() {
                   {[
                     { label: 'Total Technology CapEx', value: '$750,000' },
                     { label: 'Annual Technology OpEx', value: '$228,000' },
-                    { label: 'Percentage of Total Raise', value: '4.8%' },
-                    { label: 'Engineering Team', value: '2 FTE' },
+                    { label: 'Percentage of Total Raise', value: '4.3%' },
                     { label: 'Integrated Systems', value: '14' },
-                    { label: 'D&A (Technology)', value: '$200,000/yr' },
+                    { label: 'Platform Enterprise Value', value: `$${(techEnterpriseValue / 1_000_000).toFixed(1)}M` },
+                    { label: 'Value Creation Multiple', value: `${Math.round(techEnterpriseValue / 750_000)}x` },
                   ].map((item) => (
                     <div
                       key={item.label}
@@ -756,12 +1124,27 @@ export default function TechnologyPage() {
                 <div className="flex items-start gap-3">
                   <Monitor className="w-6 h-6 text-primary-600 mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-medium text-neutral-900 mb-2">Financial Model Integrity</h4>
+                    <h4 className="font-medium text-neutral-900 mb-3">The Value Bridge</h4>
+                    <div className="flex flex-wrap items-center gap-2 mb-3">
+                      {[
+                        { label: '$750K', sublabel: 'investment' },
+                        { label: '$7.5M', sublabel: 'IP base' },
+                        { label: `$${((cumulativeGuestsY5 * 10_000) / 1_000_000).toFixed(1)}M`, sublabel: 'data premium' },
+                        { label: `$${(techEnterpriseValue / 1_000_000).toFixed(1)}M`, sublabel: 'enterprise value' },
+                      ].map((step, i) => (
+                        <div key={step.label} className="flex items-center gap-2">
+                          <div className="text-center px-3 py-1.5 rounded-lg bg-white border border-neutral-200">
+                            <p className="font-heading text-sm text-neutral-900">{step.label}</p>
+                            <p className="text-[10px] text-neutral-500">{step.sublabel}</p>
+                          </div>
+                          {i < 3 && <ArrowRight className="w-3 h-3 text-neutral-400 flex-shrink-0" />}
+                        </div>
+                      ))}
+                    </div>
                     <p className="text-sm text-neutral-600 leading-relaxed">
-                      Technology costs are fully integrated into the financial model. The $750K CapEx
-                      is reflected in the total raise of $17.3M. Annual OpEx of $228K is included in
-                      operating expenses across all P&L projections. D&A of $200K/yr (5-year straight-line)
-                      is captured in the depreciation schedule.
+                      Technology represents 22% of the total $239M enterprise valuation. The $750K
+                      CapEx is reflected in the $17.3M raise. Annual OpEx of $228K is included across
+                      all P&L projections.
                     </p>
                   </div>
                 </div>
@@ -865,16 +1248,23 @@ export default function TechnologyPage() {
           variants={fadeUpVariants}
         >
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl mb-8 leading-tight">
-            See How the Numbers Work
+            $750K Becomes ${(techEnterpriseValue / 1_000_000).toFixed(1)}M
           </h2>
           <p className="text-xl text-primary-200 mb-12 max-w-2xl mx-auto leading-relaxed">
-            The $750K technology investment is fully integrated into our financial projections.
-            Explore the complete model.
+            The technology platform is both the engine and the asset.
+            Every guest adds to a proprietary clinical dataset that compounds in value.
+            Explore the numbers, the data story, and the investment.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/financials">
               <button className="group inline-flex items-center gap-2 px-10 py-5 rounded-xl font-accent text-sm font-semibold uppercase tracking-wider text-primary-950 bg-gradient-to-r from-secondary-400 to-secondary-500 hover:from-secondary-500 hover:to-secondary-600 shadow-xl shadow-secondary-500/25 hover:shadow-secondary-500/40 transition-all duration-300">
                 View Financials
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
+              </button>
+            </Link>
+            <Link href="/technology/data">
+              <button className="group inline-flex items-center gap-2 px-10 py-5 rounded-xl font-accent text-sm font-semibold uppercase tracking-wider text-white border-2 border-white/20 hover:bg-white/10 hover:border-white/40 transition-all duration-300 backdrop-blur-sm">
+                Explore the Data Story
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
               </button>
             </Link>
