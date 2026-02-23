@@ -19,7 +19,6 @@ const TREATMENT_PROGRAMS = [
     id: 'ibogaine',
     name: 'Ibogaine Protocol',
     duration: '10-14 days',
-    price: '$35,000-$55,000',
     icon: '/icons/program-ibogaine.png',
     description: 'Medically-supervised ibogaine treatment for addiction interruption and deep psychological reset.',
     outcomes: ['60-80% addiction interruption rate', 'Reduces withdrawal symptoms by 90%', 'Single treatment effectiveness'],
@@ -29,7 +28,6 @@ const TREATMENT_PROGRAMS = [
     id: 'psilocybin',
     name: 'Psilocybin Journey',
     duration: '7-10 days',
-    price: '$25,000-$40,000',
     icon: '/icons/program-psilocybin.png',
     description: 'Guided psilocybin experiences for depression, anxiety, and existential distress.',
     outcomes: ['67% remission rate for treatment-resistant depression', 'Sustained effects at 6-month follow-up', 'Enhanced neuroplasticity'],
@@ -39,7 +37,6 @@ const TREATMENT_PROGRAMS = [
     id: 'integration',
     name: '5-MeO-DMT Integration',
     duration: '5-7 days',
-    price: '$20,000-$30,000',
     icon: '/icons/program-5meo.png',
     description: 'Profound ego dissolution experiences with comprehensive integration support.',
     outcomes: ['Rapid mystical experiences', 'Deep trauma processing', 'Spiritual awakening'],
@@ -49,7 +46,6 @@ const TREATMENT_PROGRAMS = [
     id: 'bio-optimization',
     name: 'Bio-Optimization',
     duration: 'Ongoing',
-    price: '$5,000-$15,000',
     icon: '/icons/program-bio.png',
     description: 'Cutting-edge protocols for physical optimization enhancing treatment outcomes.',
     outcomes: ['NAD+ therapy', 'Hyperbaric oxygen', 'IV nutrient therapy'],
@@ -230,7 +226,6 @@ export default function ModelPage() {
                                 <Image src="/icons/util-clock.png" alt="Duration" width={16} height={16} className="object-contain sm:w-5 sm:h-5" />
                                 {program.duration}
                               </span>
-                              <span className="font-medium text-primary-600">{program.price}</span>
                             </div>
                           </div>
                         </div>
