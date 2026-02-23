@@ -55,7 +55,7 @@ The Rancho Paraiso Oasis (Kaax Cenote) is a 45,000 m2 jungle compound comprising
 | **5-Year Total Revenue** | $125,880,000 |
 | **Project IRR (Base)** | 78% |
 | **Project IRR (Conservative)** | 78% |
-| **Year 5 Enterprise Value (Base)** | ~$189,400,000 |
+| **Year 5 Enterprise Value (Base)** | ~$239,200,000 |
 | **5-Year MOIC (Base)** | 6.8x |
 | **5-Year MOIC (Conservative)** | 6.7x |
 
@@ -309,7 +309,7 @@ The 15% contingency provides a buffer against cost overruns, supply chain delays
 | Metric | Base Case | Conservative Case | Aggressive Case |
 |--------|-----------|-------------------|-----------------|
 | **Project IRR** | **78%** | **78%** | **86%** |
-| **Year 5 Enterprise Value** | **~$189,400,000** | -- | -- |
+| **Year 5 Enterprise Value** | **~$239,200,000** | -- | -- |
 | **5-Year MOIC** | **6.8x** | **6.7x** | **10.1x** |
 | Year 1 Cash-on-Cash Return | 37.4% | 31.2% | 43.6% |
 | Payback Period | ~2.7 years | ~3.2 years | ~2.2 years |
@@ -373,7 +373,7 @@ Based on the comprehensive assessment presented in this document, the recommenda
 **Supporting rationale:**
 
 1. **Highest score** of all evaluated properties at 88/100
-2. **Strongest financial returns** with 78% IRR and 6.8x MOIC (base case), producing ~$189M enterprise value at Year 5
+2. **Strongest financial returns** with 78% IRR and 6.8x MOIC (base case), producing ~$239M enterprise value at Year 5
 3. **Exceptional capacity** of 60 casitas (phased 15→60) supporting $10.7M Year 1 revenue
 4. **Best cost efficiency** at $249,225 per casita at full build
 5. **Unmatched expansion potential** on 45,000 m2 across 9 lots

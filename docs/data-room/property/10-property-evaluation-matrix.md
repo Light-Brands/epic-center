@@ -39,7 +39,7 @@ Transformational Epicenter conducted a rigorous multi-property evaluation across
 | **Score** | 88/100 |
 | **Project IRR** | 78% (base), 78% (conservative) |
 | **Total Project Cost** | $17,323,500 |
-| **Year 5 Enterprise Value (Base)** | ~$189,400,000 |
+| **Year 5 Enterprise Value (Base)** | ~$239,200,000 |
 | **5-Year MOIC** | 6.8x (base), 6.7x (conservative) |
 | **Year 1 Revenue** | $10,748,000 |
 | **Decision** | SELECTED |
@@ -124,7 +124,7 @@ Each property was evaluated across 10 weighted categories totaling 100 points. C
 
 ### Ranking Analysis
 
-**Rank 1 - Rancho Paraiso Oasis (SELECTED):** Highest overall score (88/100) driven by exceptional land size, room capacity, expansion potential, and revenue projections. The 78% base-case IRR and 6.8x MOIC represent the strongest risk-adjusted returns of any property evaluated, producing ~$189M in enterprise value at Year 5. The 45,000 m2 compound provides a canvas for phased build-out and long-term platform expansion.
+**Rank 1 - Rancho Paraiso Oasis (SELECTED):** Highest overall score (88/100) driven by exceptional land size, room capacity, expansion potential, and revenue projections. The 78% base-case IRR and 6.8x MOIC represent the strongest risk-adjusted returns of any property evaluated, producing ~$239M in enterprise value at Year 5. The 45,000 m2 compound provides a canvas for phased build-out and long-term platform expansion.
 
 **Rank 2 - Mini Hotel Cancun (PASS):** Despite the second-highest property score (79/100) driven by medical infrastructure and market access, the property fails on financial viability with a negative IRR of -15%. Urban Cancun location fundamentally misaligned with the healing-focused, nature-immersive brand positioning. No amount of renovation overcomes the brand disconnect.
 
@@ -143,7 +143,7 @@ Each property was evaluated across 10 weighted categories totaling 100 points. C
 | **Capacity & Scale** | 60 casitas at full build-out (phased 15→60 over 5 years) -- largest capacity of all candidates. Supports 4,537 guests over 5 years, enabling meaningful revenue scale from Year 1. |
 | **Land & Expansion** | 45,000 m2 across 9 lots provides unmatched expansion potential. Phased development from 15 casitas (Year 1) to 60 casitas (Year 5) de-risks the build-out. |
 | **Brand Alignment** | Pristine jungle setting with cenotes delivers the immersive, nature-connected healing environment central to the TE brand. No other property matches this. |
-| **Financial Returns** | 78% base-case IRR and 6.8x MOIC represent the strongest risk-adjusted returns, producing ~$189M enterprise value at Year 5. $125.9M in projected 5-year revenue provides substantial cash generation. |
+| **Financial Returns** | 78% base-case IRR and 6.8x MOIC represent the strongest risk-adjusted returns, producing ~$239M enterprise value at Year 5. $149.9M in projected 5-year revenue provides substantial cash generation. |
 | **Cost Efficiency** | $249,225 cost per casita at full build -- lowest of all evaluated properties. Exceptional value for the capacity and land area acquired. |
 | **Pricing Power** | Jungle estate setting supports $2,000/day ADR with full medical + plant medicine programming. Average revenue per guest of $26,600 reflects comprehensive program value. |
 | **Regulatory Favorability** | Rural jungle zoning presents fewer regulatory hurdles than beach zone (Hacienda Caracol) or hotel zone (Mini Hotel Cancun) properties. |
@@ -216,7 +216,7 @@ The $750,000 Medical Suite renovation budget provides:
 The Rancho Paraiso Oasis was selected based on the highest composite score across financial viability, brand alignment, operational capacity, and strategic expansion potential. While other properties scored competitively in individual categories (Mini Hotel Cancun in medical access, Hotel Alea Tulum in proven operations), no other property delivered the combination of:
 
 1. **Scale** -- 60 casitas (phased 15→60) enabling $10.7M Year 1 revenue at 60% occupancy
-2. **Returns** -- 78% IRR and 6.8x MOIC in the base case (~$189M enterprise value at Year 5)
+2. **Returns** -- 78% IRR and 6.8x MOIC in the base case (~$239M enterprise value at Year 5)
 3. **Brand fit** -- Pristine jungle compound with cenotes, perfect for healing environment
 4. **Expansion** -- 45,000 m2 across 9 lots, supporting long-term platform growth
 5. **Value** -- $249,225 per casita at full build, lowest cost per unit of capacity

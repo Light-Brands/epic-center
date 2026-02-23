@@ -177,7 +177,7 @@ Longer programs deepen every dimension -- additional bio-optimization cycles, ex
 | **Base Case** | **6.8x** | **78%** |
 | Aggressive | 10.1x | 86% |
 
-**Year 5 Enterprise Value (Base, Sum-of-Parts): ~$189,400,000**
+**Year 5 Enterprise Value (Base, Sum-of-Parts): ~$239,200,000**
 
 Cash-flow positive from Year 1. Revenue grows 3.3x as capacity expands from 15 to 60 casitas. Expansion beyond Year 1 funded entirely from operating cash flow -- no additional equity raise required.
 
@@ -185,16 +185,16 @@ Cash-flow positive from Year 1. Revenue grows 3.3x as capacity expands from 15 t
 
 ## Slide 8a: Valuation
 
-### Post-Money Valuation: $29,350,000
+### Post-Money Valuation: ~$36,350,000
 
 **IPEV-Compliant 9-Method Weighted Average**
 
 | Metric | Value |
 |--------|-------|
-| **Post-Money Valuation** | **$29,350,000** |
+| **Post-Money Valuation** | **~$36,350,000** |
 | **Valuation Range** | $20,300,000 - $43,300,000 |
-| **Pre-Money Valuation** | $12,527,000 |
-| **Y5 Enterprise Value (SOTP)** | **~$189,400,000** |
+| **Pre-Money Valuation** | $19,527,000 |
+| **Y5 Enterprise Value (SOTP)** | **~$239,200,000** |
 
 Nine independent valuation methods -- including Scorecard, Checklist, Cost Approach, Venture Capital (3 variants), Tiered Revenue VC, and DCF (2 variants) -- all produce positive valuations using consolidated enterprise financials across four business units. The weighted average exceeds the $17.32M capital requirement, confirming the project creates immediate intrinsic value above its cost basis.
 
@@ -211,7 +211,7 @@ This is a **legacy asset** — the founders are building a category-defining bus
 | Value Driver | 5-Year Impact |
 |-------------|---------------|
 | **Free Cash Flow** | $40.7M cumulative — cash-generative from Year 1, supporting distributions at Board discretion |
-| **Enterprise Value** | ~$189M (sum-of-parts) — embedded wealth in ownership stake, not a target sale price |
+| **Enterprise Value** | ~$239M (sum-of-parts) — embedded wealth in ownership stake, not a target sale price |
 | **EBITDA Growth** | 34% → 68% margins — operational excellence compounds value over time |
 
 **Return Profile:**
@@ -403,9 +403,9 @@ Published clinical outcomes justify premium pricing and build institutional trus
 
 - 78% IRR
 - 6.8x MOIC over five years
-- $125.9M in cumulative revenue from a single campus
-- ~$189M Year 5 enterprise value
-- $21.04M post-money valuation (IPEV 9-method weighted average)
+- ~$149.9M in cumulative revenue from a single campus
+- ~$239M Year 5 enterprise value
+- ~$36.4M post-money valuation (IPEV 9-method weighted average)
 - Proof of concept for multi-property expansion
 
 **Investment structure and terms are detailed in the accompanying Private Placement Memorandum.**

@@ -487,13 +487,13 @@ export const BUSINESS_UNITS: BusinessUnit[] = [
   {
     id: 'real-estate',
     name: 'Real Estate Development',
-    description: '48-villa condo-hotel with buyer-funded construction and development fees',
+    description: '48-villa condo-hotel plus $12.4M property appreciating at 5-10% annually',
     y5Revenue: { conservative: 0, base: 0, aggressive: 0 }, // Y5 has no sales (all sold by Y4)
     y5EBITDA: { conservative: 0, base: 0, aggressive: 0 },
     y5Margin: 0,
-    multiple: 1.0, // Valued on cumulative profit
-    multipleLabel: 'Cumulative dev fees + asset base',
-    standaloneValue: { conservative: 9600000, base: 12000000, aggressive: 14400000 },
+    multiple: 1.4, // ~appreciation factor at Y5 base (7% compound on $12.4M)
+    multipleLabel: 'Property appreciation (5/7/10% compound)',
+    standaloneValue: { conservative: 15826000, base: 17392000, aggressive: 19970000 },
     yearlyRevenue: [
       { conservative: 1600000, base: 2000000, aggressive: 2400000 },
       { conservative: 2600000, base: 3250000, aggressive: 3900000 },
@@ -537,13 +537,13 @@ export const BUSINESS_UNITS: BusinessUnit[] = [
   {
     id: 'technology-platform',
     name: 'Technology & Digital Platform',
-    description: '14 integrated systems: AI personalization, clinical protocols, biometric monitoring, aftercare app',
+    description: '14 integrated systems generating proprietary clinical data — IP base plus per-patient-record data premium',
     y5Revenue: { conservative: 0, base: 0, aggressive: 0 }, // Internal platform, no external revenue
     y5EBITDA: { conservative: 0, base: 0, aggressive: 0 },
     y5Margin: 0,
-    multiple: 1.0, // Cost-replacement method
-    multipleLabel: 'IP + scalability optionality',
-    standaloneValue: { conservative: 5000000, base: 7500000, aggressive: 10000000 },
+    multiple: 1.0, // Base platform cost-replacement
+    multipleLabel: 'IP base + data premium ($10K/record)',
+    standaloneValue: { conservative: 27180000, base: 51860000, aggressive: 76540000 },
     yearlyRevenue: [
       { conservative: 0, base: 0, aggressive: 0 },
       { conservative: 0, base: 0, aggressive: 0 },
@@ -569,7 +569,7 @@ export const ENTERPRISE_VALUATION: EnterpriseValuation = {
   combinedY5EBITDA: { conservative: 25384000, base: 30056000, aggressive: 34754000 },
   combinedY5NetIncome: { conservative: 17295000, base: 20565000, aggressive: 23854000 },
   combinedY5FCF: { conservative: 17972000, base: 21242000, aggressive: 24531000 },
-  sumOfPartsValue: { conservative: 157860000, base: 189400000, aggressive: 221040000 },
+  sumOfPartsValue: { conservative: 186266000, base: 239152000, aggressive: 293150000 },
   valuationMethods: [
     {
       id: 1,
@@ -663,47 +663,57 @@ export const CONSOLIDATED_PL_STATEMENTS = PL_STATEMENTS.map((pl, index) => {
   }
 })
 
+// ─── Value Appreciation Constants ────────────────────────────────────────
+// Real estate appreciates at 5%/7%/10% compound annually (cons/base/agg)
+// Technology data premium: cumulative patient records × $5K/$10K/$15K per record
+const RE_BASE_VALUE = 12400000
+const RE_APPRECIATION_RATES = { conservative: 0.05, base: 0.07, aggressive: 0.10 }
+const TECH_BASE_VALUE = { conservative: 5000000, base: 7500000, aggressive: 10000000 }
+const DATA_PREMIUM_PER_RECORD = { conservative: 5000, base: 10000, aggressive: 15000 }
+
 // ─── Pablo's 3-Entity Offer Projections ──────────────────────────────────
-// Restructures the business into 3 investment entities with Pablo receiving 30% across all three.
-// Entity A: Real Estate — $12.4M acquisition, appreciation-driven
-// Entity B: Clinic + Operations + IP — Healing center EBITDA × 5.5x multiple + villa dev/mgmt
-// Entity C: Data + AI + Health Intelligence — Tech platform + per-patient-record data premium
-// Cumulative guests from CASITA_PHASING: Y1=379, Y2=1099, Y3=2065, Y4=3185, Y5=4436
+// Maps 4 business units into 3 investment entities with value appreciation:
+//   Entity A (Real Estate) = $12.4M property appreciating at compound rates
+//   Entity B (Clinic/Ops) = Healing Center EBITDA × 5.5x + Property Mgmt EBITDA × 10x
+//   Entity C (Data/AI) = Technology platform base + per-patient-record data premium
+// Y5 entity totals align with BUSINESS_UNITS standaloneValues and ENTERPRISE_VALUATION.
+// Pablo receives 30% across all three entities.
 const CUMULATIVE_GUESTS = CASITA_PHASING.years.reduce<number[]>((acc, yr) => {
   const prev = acc.length > 0 ? acc[acc.length - 1] : 0
   acc.push(prev + yr.guests)
   return acc
 }, [])
 
+const healingCenter = BUSINESS_UNITS.find(u => u.id === 'healing-center')!
+const propertyMgmt = BUSINESS_UNITS.find(u => u.id === 'property-management')!
+
 export const PABLO_OFFER_PROJECTIONS = {
   pabloEquityPercent: 0.30,
-  realEstateBase: 12400000,
+  realEstateBase: RE_BASE_VALUE,
 
   // Per-year projections across 3 scenarios
   years: [1, 2, 3, 4, 5].map((year, i) => {
-    const healingCenter = BUSINESS_UNITS.find(u => u.id === 'healing-center')!
-    const techPlatform = BUSINESS_UNITS.find(u => u.id === 'technology-platform')!
     const cumulativeGuests = CUMULATIVE_GUESTS[i]
 
-    // Entity A: Real Estate appreciation
+    // Entity A: Real Estate — property appreciation at 5%/7%/10% compound
     const reAppreciation = {
-      conservative: Math.round(12400000 * Math.pow(1.05, year)),
-      base:         Math.round(12400000 * Math.pow(1.07, year)),
-      aggressive:   Math.round(12400000 * Math.pow(1.10, year)),
+      conservative: Math.round(RE_BASE_VALUE * Math.pow(1 + RE_APPRECIATION_RATES.conservative, year)),
+      base:         Math.round(RE_BASE_VALUE * Math.pow(1 + RE_APPRECIATION_RATES.base, year)),
+      aggressive:   Math.round(RE_BASE_VALUE * Math.pow(1 + RE_APPRECIATION_RATES.aggressive, year)),
     }
 
-    // Entity B: Clinic/Ops/IP — EBITDA × 5.5x multiple
+    // Entity B: Clinic/Ops — Healing Center EBITDA × 5.5x + Property Mgmt EBITDA × 10x
     const clinicValue = {
-      conservative: Math.round(healingCenter.yearlyEBITDA[i].conservative * 5.5),
-      base:         Math.round(healingCenter.yearlyEBITDA[i].base * 5.5),
-      aggressive:   Math.round(healingCenter.yearlyEBITDA[i].aggressive * 5.5),
+      conservative: Math.round(healingCenter.yearlyEBITDA[i].conservative * 5.5) + Math.round(propertyMgmt.yearlyEBITDA[i].conservative * 10),
+      base:         Math.round(healingCenter.yearlyEBITDA[i].base * 5.5) + Math.round(propertyMgmt.yearlyEBITDA[i].base * 10),
+      aggressive:   Math.round(healingCenter.yearlyEBITDA[i].aggressive * 5.5) + Math.round(propertyMgmt.yearlyEBITDA[i].aggressive * 10),
     }
 
-    // Entity C: Data/AI — tech platform base + per-patient-record premium
+    // Entity C: Data/AI — technology platform base + per-patient-record data premium
     const dataValue = {
-      conservative: Math.round(techPlatform.standaloneValue.conservative + (5000 * cumulativeGuests)),
-      base:         Math.round(techPlatform.standaloneValue.base + (10000 * cumulativeGuests)),
-      aggressive:   Math.round(techPlatform.standaloneValue.aggressive + (15000 * cumulativeGuests)),
+      conservative: Math.round(TECH_BASE_VALUE.conservative + (DATA_PREMIUM_PER_RECORD.conservative * cumulativeGuests)),
+      base:         Math.round(TECH_BASE_VALUE.base + (DATA_PREMIUM_PER_RECORD.base * cumulativeGuests)),
+      aggressive:   Math.round(TECH_BASE_VALUE.aggressive + (DATA_PREMIUM_PER_RECORD.aggressive * cumulativeGuests)),
     }
 
     // Combined enterprise value

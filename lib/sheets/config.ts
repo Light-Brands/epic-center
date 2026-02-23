@@ -29,25 +29,6 @@ export const RANGES = {
   USE_OF_FUNDS: 'Acquisition Costs!A1:D30',
 } as const
 
-// Scenario multipliers for adjusting base values
-// Aligned with updated model: Base IRR 78%, MOIC 6.8x (casita phasing 30→60 rooms)
-export const SCENARIO_MULTIPLIERS = {
-  conservative: {
-    revenue: 0.80, // ~$96M vs $120.7M 5-year total
-    occupancy: 0.875, // 70% vs 80% steady-state
-    irr: 1.000, // 78% vs 78%
-    moic: 0.985, // 6.7x vs 6.8x
-  },
-  base: {
-    revenue: 1.0,
-    occupancy: 1.0,
-    irr: 1.0,
-    moic: 1.0,
-  },
-  aggressive: {
-    revenue: 1.10, // ~$133M vs $120.7M 5-year total
-    occupancy: 1.063, // 85% vs 80% steady-state
-    irr: 1.103, // 86% vs 78%
-    moic: 1.485, // 10.1x vs 6.8x
-  },
-} as const
+// Scenario data is pre-calculated in data.ts for all three cases (conservative/base/aggressive).
+// Pages read the active scenario from ScenarioContext and index into ScenarioValue objects.
+// No runtime multipliers are needed — all scenario math is done at the data layer.

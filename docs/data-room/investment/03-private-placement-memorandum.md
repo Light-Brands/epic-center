@@ -284,14 +284,14 @@ No single competitor integrates all four market pillars. SHA Wellness Clinic (Sp
 | Break-even Occupancy | ~3% (~25 guests/year) |
 | LTV:CAC | 13.0x |
 | CAC | $2,613 |
-| Post-Money Valuation | $29,350,000 |
+| Post-Money Valuation | ~$36,350,000 |
 
 **Return Profile:**
 
 | Scenario | Enterprise Value (Y5) | MOIC | IRR |
 |----------|----------------------|------|-----|
 | Conservative | $116,000,000 | 6.7x | 78% |
-| **Base Case** | **~$189,400,000** | **6.8x** | **78%** |
+| **Base Case** | **~$239,200,000** | **6.8x** | **78%** |
 | Aggressive | $168,000,000 | 10.1x | 86% |
 
 ### Key Assumptions

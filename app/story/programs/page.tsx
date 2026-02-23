@@ -43,7 +43,6 @@ const PROGRAMS = [
     name: '7-Day Reset',
     subtitle: 'Nervous System Reset',
     duration: '7 days',
-    price: '$14,000',
     postCare: '3 months',
     ceremonies: '1',
     integrationSessions: '4',
@@ -60,7 +59,6 @@ const PROGRAMS = [
     name: '14-Day Interruption',
     subtitle: 'Trauma Interruption & Integration',
     duration: '14 days',
-    price: '$28,000',
     postCare: '6 months',
     ceremonies: '1\u20132',
     integrationSessions: '8',
@@ -78,7 +76,6 @@ const PROGRAMS = [
     name: '21-Day Recalibration',
     subtitle: 'Deep Recalibration',
     duration: '21 days',
-    price: '$42,000',
     postCare: '9 months',
     ceremonies: '1\u20132',
     integrationSessions: '12',
@@ -96,7 +93,6 @@ const PROGRAMS = [
     name: '28-Day Full Transformation',
     subtitle: 'Complete Transformation Arc',
     duration: '28 days',
-    price: '$56,000',
     postCare: '12 months',
     ceremonies: '1\u20132',
     integrationSessions: '16',
@@ -217,7 +213,7 @@ export default function ProgramsPage() {
             transition={{ duration: 0.8, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
           >
             Different depths of work require different amounts of time. We honor that truth
-            in how we&apos;ve structured each journey. Base rate: $2,000 per day, all-inclusive.
+            in how we&apos;ve structured each journey.
           </motion.p>
 
           <motion.div
@@ -230,7 +226,7 @@ export default function ProgramsPage() {
               <span className="font-accent text-sm text-white">7 to 28+ Day Programs</span>
             </div>
             <div className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
-              <span className="font-accent text-sm text-white">$2,000/Day All-Inclusive</span>
+              <span className="font-accent text-sm text-white">All-Inclusive Experience</span>
             </div>
           </motion.div>
 
@@ -303,7 +299,6 @@ export default function ProgramsPage() {
                         </p>
                         <h3 className="font-heading text-xl text-white">{program.name}</h3>
                       </div>
-                      <p className="font-display text-2xl font-light text-secondary-400">{program.price}</p>
                     </div>
                   </div>
 
@@ -374,7 +369,6 @@ export default function ProgramsPage() {
                     30+ days
                   </p>
                   <h3 className="font-heading text-2xl text-white">Custom Extended Programs</h3>
-                  <p className="font-display text-xl font-light text-secondary-400 mt-1">Starting at $60,000+</p>
                 </div>
                 <p className="text-primary-200/70 max-w-md leading-relaxed">
                   For guests requiring extended time, we design fully bespoke journeys.

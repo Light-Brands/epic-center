@@ -42,7 +42,7 @@ The Transformational Epicenter five-year financial model projects strong revenue
 | **Year 1 Revenue** | **$10,748,000** |
 | **Year 5 Revenue** | **$35,461,000** |
 | **5-Year Total Revenue** | **$125,880,000** |
-| **Year 5 Enterprise Value (Base)** | **~$189,400,000** |
+| **Year 5 Enterprise Value (Base)** | **~$239,200,000** |
 | **Project IRR (Base Case)** | **78%** |
 | **5-Year MOIC** | **6.8x** |
 
@@ -67,7 +67,7 @@ Three scenarios model the range of expected outcomes based on occupancy rates, r
 | **Year 3 Revenue** | $27,426,000 | $21,839,000 | $30,281,000 |
 | **Year 5 Revenue** | $35,461,000 | $28,237,000 | $39,153,000 |
 | **5-Year Total Revenue** | $125,880,000 | $100,232,000 | $138,986,000 |
-| **Year 5 Enterprise Value** | ~$189,400,000 | -- | -- |
+| **Year 5 Enterprise Value** | ~$239,200,000 | ~$186,300,000 | ~$293,200,000 |
 | **Project IRR** | 78% | 78% | 86% |
 | **5-Year MOIC** | 6.8x | 6.7x | 10.1x |
 
@@ -218,7 +218,7 @@ All NPV scenarios are strongly positive, confirming the project creates signific
 | **5-Year Total Revenue** | $125,880,000 |
 | **5-Year Net Income** | $48,109,937 |
 | **5-Year Free Cash Flow** | $40,723,382 |
-| **Year 5 Enterprise Value (Base)** | ~$189,400,000 |
+| **Year 5 Enterprise Value (Base)** | ~$239,200,000 |
 | **Project IRR (Base)** | 78% |
 | **5-Year MOIC** | 6.8x |
 | **NPV @ 12%** | $17,200,000 |

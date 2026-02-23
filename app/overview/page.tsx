@@ -37,11 +37,9 @@ import { ScenarioTable } from '@/components/overview/ScenarioTable'
 import { OverviewFundsChart } from '@/components/overview/FundsChart'
 import {
   DASHBOARD_METRICS,
-  PL_STATEMENTS,
-  CONSOLIDATED_PL_STATEMENTS,
   BUSINESS_UNITS,
   UNIT_ECONOMICS,
-  INVESTMENT_RETURNS,
+  ENTERPRISE_VALUATION,
   CASITA_PHASING,
   REVENUE_CHART_DATA,
   VILLA_PROGRAM_FINANCIALS,
@@ -51,7 +49,11 @@ import {
   formatCurrencyFull,
   formatPercent,
   formatMultiple,
+  getScenarioPLStatements,
+  getScenarioInvestmentReturns,
 } from '@/lib/sheets'
+import { useScenario } from '@/lib/context/ScenarioContext'
+import { ScenarioToggle } from '@/components/financial/ScenarioToggle'
 
 // ─── Animation Variants ──────────────────────────────────────────────────
 const sectionVariants = {
@@ -82,32 +84,7 @@ const itemVariants = {
 
 // ─── Derived Data ────────────────────────────────────────────────────────
 const metrics = DASHBOARD_METRICS.keyMetrics
-const fiveYearRevenue = metrics.revenue.fiveYearTotal.base
-const y1Ebitda = PL_STATEMENTS[0].ebitda
-const y5Ebitda = PL_STATEMENTS[4].ebitda
-const y1Margin = PL_STATEMENTS[0].ebitdaMarginPercent
-const y5Margin = PL_STATEMENTS[4].ebitdaMarginPercent
-const grossMargin = PL_STATEMENTS[0].grossMarginPercent
-
-// Payback period: year where cumulative net income >= total investment
-const paybackYear = INVESTMENT_RETURNS.yearlyReturns.find(
-  (yr) => yr.cumulativeNetIncome >= INVESTMENT_RETURNS.totalCapitalRequired
-)?.year ?? 3
-
-// Break-even guests: total annual fixed costs / gross profit per guest
-const y1FixedCosts = PL_STATEMENTS[0].totalOpex
-const breakEvenGuests = Math.ceil(y1FixedCosts / UNIT_ECONOMICS.grossProfitPerGuest)
-const y1Rooms = CASITA_PHASING.years[0].effectiveAvgRooms
-const breakEvenOccupancy = (breakEvenGuests * 13) / (y1Rooms * 365) // 13-day avg stay
-
-// ─── Revenue chart data (mini) ──────────────────────────────────────────
-const revenueChartData = REVENUE_CHART_DATA.map((d) => ({
-  year: d.year,
-  revenue: d.base / 1000000,
-}))
-
-// ─── Consolidated P&L for table ────────────────────────────────────────
-const consolidatedData = CONSOLIDATED_PL_STATEMENTS
+// Scenario-dependent data computed inside component
 
 // ─── Market pillars ────────────────────────────────────────────────────
 const MARKET_PILLARS = [
@@ -117,45 +94,7 @@ const MARKET_PILLARS = [
   { icon: Pill, name: 'Psychedelic Therapy', size: '$3-5B', color: 'text-accent-500' },
 ]
 
-// ─── Business unit cards ───────────────────────────────────────────────
-const BU_DISPLAY = [
-  {
-    unit: BUSINESS_UNITS[0], // Healing Center
-    icon: Heart,
-    metric1Label: 'Y5 Revenue',
-    metric1: formatCurrency(BUSINESS_UNITS[0].y5Revenue.base),
-    metric2Label: 'Y5 EBITDA',
-    metric2: formatCurrency(BUSINESS_UNITS[0].y5EBITDA.base),
-    value: formatCurrency(BUSINESS_UNITS[0].standaloneValue.base),
-  },
-  {
-    unit: BUSINESS_UNITS[1], // Real Estate
-    icon: Building2,
-    metric1Label: 'Villa Program',
-    metric1: formatCurrency(VILLA_PROGRAM_FINANCIALS.totalVillaSales),
-    metric2Label: 'Dev Fee Rate',
-    metric2: '12.5%',
-    value: formatCurrency(BUSINESS_UNITS[1].standaloneValue.base),
-  },
-  {
-    unit: BUSINESS_UNITS[2], // Property Management
-    icon: Home,
-    metric1Label: 'Y5 Revenue',
-    metric1: formatCurrency(BUSINESS_UNITS[2].y5Revenue.base),
-    metric2Label: 'Y5 EBITDA',
-    metric2: formatCurrency(BUSINESS_UNITS[2].y5EBITDA.base),
-    value: formatCurrency(BUSINESS_UNITS[2].standaloneValue.base),
-  },
-  {
-    unit: BUSINESS_UNITS[3], // Technology
-    icon: Cpu,
-    metric1Label: 'Investment',
-    metric1: '$750K',
-    metric2Label: 'Scope',
-    metric2: '14 systems',
-    value: formatCurrency(BUSINESS_UNITS[3].standaloneValue.base),
-  },
-]
+// Business unit cards computed inside component (scenario-aware)
 
 // ─── Team ──────────────────────────────────────────────────────────────
 const TEAM = [
@@ -185,6 +124,91 @@ function ChartTooltip({ active, payload, label }: any) {
 // PAGE COMPONENT
 // ═════════════════════════════════════════════════════════════════════════
 export default function OverviewPage() {
+  const { scenario, scenarioLabel } = useScenario()
+
+  // Scenario-aware financial data
+  const scenarioPL = getScenarioPLStatements(scenario)
+  const fiveYearRevenue = metrics.revenue.fiveYearTotal[scenario]
+  const y1Ebitda = scenarioPL[0].ebitda
+  const y5Ebitda = scenarioPL[4].ebitda
+  const y1Margin = scenarioPL[0].ebitdaMarginPercent
+  const y5Margin = scenarioPL[4].ebitdaMarginPercent
+  const grossMargin = scenarioPL[0].grossMarginPercent
+
+  const scenarioReturns = getScenarioInvestmentReturns(scenario)
+  const paybackYear = scenarioReturns.yearlyReturns.find(
+    (yr) => yr.cumulativeNetIncome >= scenarioReturns.totalCapitalRequired
+  )?.year ?? 3
+
+  const y1FixedCosts = scenarioPL[0].totalOpex
+  const breakEvenGuests = Math.ceil(y1FixedCosts / UNIT_ECONOMICS.grossProfitPerGuest)
+  const y1Rooms = CASITA_PHASING.years[0].effectiveAvgRooms
+  const breakEvenOccupancy = (breakEvenGuests * 13) / (y1Rooms * 365)
+
+  const revenueChartData = REVENUE_CHART_DATA.map((d) => ({
+    year: d.year,
+    revenue: d[scenario] / 1000000,
+  }))
+
+  const consolidatedData = scenarioPL.map((pl, index) => {
+    const villaYear = VILLA_PROGRAM_FINANCIALS.yearly[index]
+    const additionalRevenue = villaYear.developmentFee + villaYear.mgmtFeeIncome
+    const additionalCosts = villaYear.developmentFee * 0.15 + villaYear.mgmtFeeIncome * 0.40
+    const additionalEBITDA = additionalRevenue - additionalCosts
+    const additionalTaxes = additionalEBITDA * 0.30
+    return {
+      year: pl.year,
+      healingCenterRevenue: pl.revenue.total,
+      villaDevFees: villaYear.developmentFee,
+      managementFees: villaYear.mgmtFeeIncome,
+      totalConsolidatedRevenue: pl.revenue.total + additionalRevenue,
+      healingCenterEBITDA: pl.ebitda,
+      villaDevEBITDA: villaYear.developmentFee * 0.85,
+      managementEBITDA: villaYear.mgmtFeeIncome * 0.60,
+      totalConsolidatedEBITDA: pl.ebitda + additionalEBITDA,
+      totalConsolidatedNetIncome: pl.netIncome + (additionalEBITDA - additionalTaxes),
+    }
+  })
+
+  const buDisplay = [
+    {
+      unit: BUSINESS_UNITS[0],
+      icon: Heart,
+      metric1Label: 'Y5 Revenue',
+      metric1: formatCurrency(BUSINESS_UNITS[0].y5Revenue[scenario]),
+      metric2Label: 'Y5 EBITDA',
+      metric2: formatCurrency(BUSINESS_UNITS[0].y5EBITDA[scenario]),
+      value: formatCurrency(BUSINESS_UNITS[0].standaloneValue[scenario]),
+    },
+    {
+      unit: BUSINESS_UNITS[1],
+      icon: Building2,
+      metric1Label: 'Property Base',
+      metric1: '$12.4M',
+      metric2Label: 'Y5 Appreciated',
+      metric2: formatCurrency(BUSINESS_UNITS[1].standaloneValue[scenario]),
+      value: formatCurrency(BUSINESS_UNITS[1].standaloneValue[scenario]),
+    },
+    {
+      unit: BUSINESS_UNITS[2],
+      icon: Home,
+      metric1Label: 'Y5 Revenue',
+      metric1: formatCurrency(BUSINESS_UNITS[2].y5Revenue[scenario]),
+      metric2Label: 'Y5 EBITDA',
+      metric2: formatCurrency(BUSINESS_UNITS[2].y5EBITDA[scenario]),
+      value: formatCurrency(BUSINESS_UNITS[2].standaloneValue[scenario]),
+    },
+    {
+      unit: BUSINESS_UNITS[3],
+      icon: Cpu,
+      metric1Label: '4,436 Records',
+      metric1: 'Y5 cumulative',
+      metric2Label: 'Data Premium',
+      metric2: '$10K/record',
+      value: formatCurrency(BUSINESS_UNITS[3].standaloneValue[scenario]),
+    },
+  ]
+
   return (
     <div className="min-h-screen bg-canvas">
       {/* ─── 1. HERO BANNER ──────────────────────────────────────── */}
@@ -224,6 +248,11 @@ export default function OverviewPage() {
 
       <div className="w-full sm:w-[70vw] mx-auto px-4 sm:px-0 py-12">
 
+        {/* ─── SCENARIO SELECTOR ──────────────────────────────────── */}
+        <div className="flex justify-center mb-8 -mt-4">
+          <ScenarioToggle size="sm" />
+        </div>
+
         {/* ─── 2. KEY METRICS STRIP ────────────────────────────────── */}
         <motion.section
           variants={containerVariants}
@@ -247,16 +276,16 @@ export default function OverviewPage() {
               subtitle="Y1 to Y5 expansion"
             />
             <OverviewMetricCard
-              label="MOIC (Base)"
-              value={formatMultiple(metrics.fiveYearMOIC.base)}
+              label={`MOIC (${scenarioLabel})`}
+              value={formatMultiple(metrics.fiveYearMOIC[scenario])}
             />
             <OverviewMetricCard
-              label="IRR (Base)"
-              value={formatPercent(metrics.projectIRR.base)}
+              label={`IRR (${scenarioLabel})`}
+              value={formatPercent(metrics.projectIRR[scenario])}
             />
             <OverviewMetricCard
               label="Y5 Enterprise Value"
-              value="$189.4M"
+              value={formatCurrency(ENTERPRISE_VALUATION.sumOfPartsValue[scenario])}
               subtitle="Sum-of-parts"
             />
             <OverviewMetricCard
@@ -330,7 +359,7 @@ export default function OverviewPage() {
                   <thead>
                     <tr className="border-b-2 border-neutral-300">
                       <th className="text-left py-2 text-[10px] font-accent uppercase tracking-[0.12em] text-neutral-500">Metric</th>
-                      {PL_STATEMENTS.map((pl) => (
+                      {scenarioPL.map((pl) => (
                         <th key={pl.year} className="text-right py-2 text-[10px] font-accent uppercase tracking-[0.12em] text-neutral-500">
                           Y{pl.year}
                         </th>
@@ -341,7 +370,7 @@ export default function OverviewPage() {
                     {/* HC Revenue */}
                     <tr className="border-b border-neutral-100">
                       <td className="py-2 text-neutral-600">HC Revenue</td>
-                      {PL_STATEMENTS.map((pl) => (
+                      {scenarioPL.map((pl) => (
                         <td key={pl.year} className="text-right py-2 font-mono tabular-nums text-neutral-900">
                           {formatCurrency(pl.revenue.total)}
                         </td>
@@ -350,7 +379,7 @@ export default function OverviewPage() {
                     {/* HC EBITDA */}
                     <tr className="border-b border-neutral-100">
                       <td className="py-2 text-neutral-600">HC EBITDA</td>
-                      {PL_STATEMENTS.map((pl) => (
+                      {scenarioPL.map((pl) => (
                         <td key={pl.year} className="text-right py-2 font-mono tabular-nums text-neutral-900">
                           {formatCurrency(pl.ebitda)}
                         </td>
@@ -359,7 +388,7 @@ export default function OverviewPage() {
                     {/* EBITDA Margin */}
                     <tr className="border-b border-neutral-100">
                       <td className="py-2 text-neutral-600 italic">Margin</td>
-                      {PL_STATEMENTS.map((pl) => (
+                      {scenarioPL.map((pl) => (
                         <td key={pl.year} className="text-right py-2 font-mono tabular-nums text-primary-700 italic text-xs">
                           {(pl.ebitdaMarginPercent * 100).toFixed(0)}%
                         </td>
@@ -368,7 +397,7 @@ export default function OverviewPage() {
                     {/* HC Net Income */}
                     <tr className="border-b border-neutral-100">
                       <td className="py-2 text-neutral-600">HC Net Income</td>
-                      {PL_STATEMENTS.map((pl) => (
+                      {scenarioPL.map((pl) => (
                         <td key={pl.year} className="text-right py-2 font-mono tabular-nums text-neutral-900">
                           {formatCurrency(pl.netIncome)}
                         </td>
@@ -406,7 +435,7 @@ export default function OverviewPage() {
             {/* Mini Revenue Chart */}
             <Card padding="lg">
               <h3 className="font-heading text-lg text-neutral-900 mb-1">Revenue Trajectory</h3>
-              <p className="text-sm text-neutral-500 mb-4">Base case healing center revenue ($M)</p>
+              <p className="text-sm text-neutral-500 mb-4">{scenarioLabel} case healing center revenue ($M)</p>
               <div className="h-[240px]">
                 <ResponsiveContainer width="100%" height="100%">
                   <ComposedChart data={revenueChartData} margin={{ top: 10, right: 10, left: -10, bottom: 0 }}>
@@ -468,7 +497,7 @@ export default function OverviewPage() {
             viewport={{ once: true }}
             className="grid sm:grid-cols-2 gap-4"
           >
-            {BU_DISPLAY.map((bu) => (
+            {buDisplay.map((bu) => (
               <motion.div key={bu.unit.id} variants={itemVariants}>
                 <Card padding="lg" hoverable className="h-full">
                   <div className="flex items-start gap-4">

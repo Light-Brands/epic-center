@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowLeft, ArrowRight } from 'lucide-react'
@@ -9,6 +11,8 @@ import {
   getVillaProgramFinancials,
   formatCurrency,
 } from '@/lib/sheets'
+import { useScenario } from '@/lib/context/ScenarioContext'
+import { ScenarioToggle } from '@/components/financial/ScenarioToggle'
 
 const TREATMENT_PROGRAMS = [
   {
@@ -62,6 +66,7 @@ const TECH_SYSTEMS = [
 ]
 
 export default function ModelPage() {
+  const { scenario, scenarioLabel } = useScenario()
   const businessUnits = getBusinessUnits()
   const enterprise = getEnterpriseValuation()
   const villaFinancials = getVillaProgramFinancials()
@@ -77,11 +82,14 @@ export default function ModelPage() {
           <h2 className="text-4xl md:text-5xl font-heading text-neutral-900 mb-6">
             Enterprise Business Model
           </h2>
-          <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
+          <p className="text-xl text-neutral-600 max-w-3xl mx-auto mb-6">
             Four integrated operating units — clinical operations, real estate development,
             property management, and technology — combine to create a diversified enterprise
-            positioned for a {formatCurrency(enterprise.sumOfPartsValue.base)} Year 5 valuation.
+            positioned for a {formatCurrency(enterprise.sumOfPartsValue[scenario])} Year 5 valuation.
           </p>
+          <div className="flex justify-center">
+            <ScenarioToggle size="md" />
+          </div>
         </section>
 
         {/* Enterprise Value Summary */}
@@ -92,17 +100,17 @@ export default function ModelPage() {
                 Year 5 Enterprise Value
               </p>
               <p className="font-heading text-3xl sm:text-5xl md:text-6xl text-white mb-2">
-                {formatCurrency(enterprise.sumOfPartsValue.base)}
+                {formatCurrency(enterprise.sumOfPartsValue[scenario])}
               </p>
-              <p className="text-primary-300 text-sm sm:text-lg">Sum-of-Parts Valuation (Base Case)</p>
+              <p className="text-primary-300 text-sm sm:text-lg">Sum-of-Parts Valuation ({scenarioLabel} Case)</p>
             </div>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-4">
               {businessUnits.map((unit) => (
                 <div key={unit.id} className="bg-white/10 rounded-lg p-3 sm:p-4 text-center hover:bg-white/15 transition-colors">
-                  <p className="font-heading text-base sm:text-2xl text-white">{formatCurrency(unit.standaloneValue.base)}</p>
+                  <p className="font-heading text-base sm:text-2xl text-white">{formatCurrency(unit.standaloneValue[scenario])}</p>
                   <p className="text-xs sm:text-sm text-primary-200 mt-1">{unit.name}</p>
-                  {unit.y5Revenue.base > 0 && (
-                    <p className="text-[10px] sm:text-xs text-primary-400 mt-1">{formatCurrency(unit.y5Revenue.base)} Y5 Rev</p>
+                  {unit.y5Revenue[scenario] > 0 && (
+                    <p className="text-[10px] sm:text-xs text-primary-400 mt-1">{formatCurrency(unit.y5Revenue[scenario])} Y5 Rev</p>
                   )}
                 </div>
               ))}
@@ -184,17 +192,17 @@ export default function ModelPage() {
                 </div>
                 <div className="min-w-0">
                   <h4 className="text-lg sm:text-xl font-heading text-neutral-900">Healing Center</h4>
-                  <p className="text-xs sm:text-sm text-neutral-500">Clinical operations — {formatCurrency(businessUnits[0].standaloneValue.base)} standalone value</p>
+                  <p className="text-xs sm:text-sm text-neutral-500">Clinical operations — {formatCurrency(businessUnits[0].standaloneValue[scenario])} standalone value</p>
                 </div>
               </div>
               <div className="px-4 sm:px-6 pb-4 sm:pb-6 border-t border-neutral-200">
                   <div className="grid grid-cols-3 gap-2 sm:gap-4 py-4 mb-4">
                     <div className="text-center p-2 sm:p-3 bg-neutral-50 rounded-lg">
-                      <p className="font-heading text-sm sm:text-xl text-primary-800">{formatCurrency(businessUnits[0].y5Revenue.base)}</p>
+                      <p className="font-heading text-sm sm:text-xl text-primary-800">{formatCurrency(businessUnits[0].y5Revenue[scenario])}</p>
                       <p className="text-[10px] sm:text-xs text-neutral-500">Y5 Revenue</p>
                     </div>
                     <div className="text-center p-2 sm:p-3 bg-neutral-50 rounded-lg">
-                      <p className="font-heading text-sm sm:text-xl text-primary-800">{formatCurrency(businessUnits[0].y5EBITDA.base)}</p>
+                      <p className="font-heading text-sm sm:text-xl text-primary-800">{formatCurrency(businessUnits[0].y5EBITDA[scenario])}</p>
                       <p className="text-[10px] sm:text-xs text-neutral-500">Y5 EBITDA (61%)</p>
                     </div>
                     <div className="text-center p-2 sm:p-3 bg-neutral-50 rounded-lg">
@@ -254,7 +262,7 @@ export default function ModelPage() {
                 </div>
                 <div className="min-w-0">
                   <h4 className="text-lg sm:text-xl font-heading text-neutral-900">Real Estate Development</h4>
-                  <p className="text-xs sm:text-sm text-neutral-500">48-villa condo-hotel — {formatCurrency(businessUnits[1].standaloneValue.base)} standalone value</p>
+                  <p className="text-xs sm:text-sm text-neutral-500">48-villa condo-hotel — {formatCurrency(businessUnits[1].standaloneValue[scenario])} standalone value</p>
                 </div>
               </div>
               <div className="px-4 sm:px-6 pb-4 sm:pb-6 border-t border-neutral-200">
@@ -297,7 +305,7 @@ export default function ModelPage() {
                     </table>
                   </div>
                   <p className="text-xs sm:text-sm text-neutral-500 mt-4">
-                    All construction is buyer-funded. Development fees are earned on sale with minimal capital at risk.
+                    All construction is buyer-funded. Development fees are earned on sale with minimal capital at risk. Underlying $12.4M property appreciates at 7% compound (base case), reaching {formatCurrency(businessUnits[1].standaloneValue[scenario])} by Year 5.
                   </p>
                 </div>
             </Card>
@@ -310,17 +318,17 @@ export default function ModelPage() {
                 </div>
                 <div className="min-w-0">
                   <h4 className="text-lg sm:text-xl font-heading text-neutral-900">Property Management</h4>
-                  <p className="text-xs sm:text-sm text-neutral-500">25% villa rental revenue — {formatCurrency(businessUnits[2].standaloneValue.base)} standalone value</p>
+                  <p className="text-xs sm:text-sm text-neutral-500">25% villa rental revenue — {formatCurrency(businessUnits[2].standaloneValue[scenario])} standalone value</p>
                 </div>
               </div>
               <div className="px-4 sm:px-6 pb-4 sm:pb-6 border-t border-neutral-200">
                   <div className="grid grid-cols-3 gap-2 sm:gap-4 py-4 mb-4">
                     <div className="text-center p-2 sm:p-3 bg-neutral-50 rounded-lg">
-                      <p className="font-heading text-sm sm:text-xl text-primary-800">{formatCurrency(businessUnits[2].y5Revenue.base)}</p>
+                      <p className="font-heading text-sm sm:text-xl text-primary-800">{formatCurrency(businessUnits[2].y5Revenue[scenario])}</p>
                       <p className="text-[10px] sm:text-xs text-neutral-500">Y5 Revenue (Recurring)</p>
                     </div>
                     <div className="text-center p-2 sm:p-3 bg-neutral-50 rounded-lg">
-                      <p className="font-heading text-sm sm:text-xl text-primary-800">{formatCurrency(businessUnits[2].y5EBITDA.base)}</p>
+                      <p className="font-heading text-sm sm:text-xl text-primary-800">{formatCurrency(businessUnits[2].y5EBITDA[scenario])}</p>
                       <p className="text-[10px] sm:text-xs text-neutral-500">Y5 EBITDA (60%)</p>
                     </div>
                     <div className="text-center p-2 sm:p-3 bg-neutral-50 rounded-lg">
@@ -364,7 +372,7 @@ export default function ModelPage() {
                 </div>
                 <div className="min-w-0">
                   <h4 className="text-lg sm:text-xl font-heading text-neutral-900">Technology & Digital Platform</h4>
-                  <p className="text-xs sm:text-sm text-neutral-500">14 integrated systems — {formatCurrency(businessUnits[3].standaloneValue.base)} standalone value</p>
+                  <p className="text-xs sm:text-sm text-neutral-500">14 integrated systems — {formatCurrency(businessUnits[3].standaloneValue[scenario])} standalone value</p>
                 </div>
               </div>
               <div className="px-4 sm:px-6 pb-4 sm:pb-6 border-t border-neutral-200">
@@ -390,7 +398,7 @@ export default function ModelPage() {
                     ))}
                   </div>
                   <p className="text-sm text-neutral-500 mt-4">
-                    Valued using cost-replacement method plus scalability optionality. Proprietary platform enables 60% cost reduction for new-site deployment.
+                    Valued on IP base (cost-replacement) plus per-patient-record data premium at $10K/record. At 4,436 cumulative guests by Y5, the proprietary clinical dataset becomes the highest-value asset in the portfolio.
                   </p>
                 </div>
             </Card>
@@ -423,30 +431,30 @@ export default function ModelPage() {
                     <tr key={unit.id} className="border-b border-neutral-100 hover:bg-neutral-50 transition-colors">
                       <td className="py-3 sm:py-4 pr-3 sm:pr-4 font-medium text-neutral-900">{unit.name}</td>
                       <td className="py-3 sm:py-4 px-2 sm:px-4 text-right text-neutral-700">
-                        {unit.y5Revenue.base > 0 ? formatCurrency(unit.y5Revenue.base) : '—'}
+                        {unit.y5Revenue[scenario] > 0 ? formatCurrency(unit.y5Revenue[scenario]) : '—'}
                       </td>
                       <td className="py-3 sm:py-4 px-2 sm:px-4 text-right text-neutral-700">
-                        {unit.y5EBITDA.base > 0 ? formatCurrency(unit.y5EBITDA.base) : '—'}
+                        {unit.y5EBITDA[scenario] > 0 ? formatCurrency(unit.y5EBITDA[scenario]) : '—'}
                       </td>
                       <td className="py-3 sm:py-4 px-2 sm:px-4 text-right text-neutral-700">{unit.multiple.toFixed(1)}x</td>
                       <td className="py-3 sm:py-4 px-2 sm:px-4 text-right text-neutral-500">{unit.multipleLabel}</td>
                       <td className="py-3 sm:py-4 pl-2 sm:pl-4 text-right font-heading text-sm sm:text-lg text-primary-800">
-                        {formatCurrency(unit.standaloneValue.base)}
+                        {formatCurrency(unit.standaloneValue[scenario])}
                       </td>
                     </tr>
                   ))}
                   <tr className="border-t-2 border-primary-800 bg-primary-50">
                     <td className="py-3 sm:py-4 pr-3 sm:pr-4 font-heading text-sm sm:text-lg text-primary-900">Combined Enterprise</td>
                     <td className="py-3 sm:py-4 px-2 sm:px-4 text-right font-medium text-primary-800">
-                      {formatCurrency(enterprise.combinedY5Revenue.base)}
+                      {formatCurrency(enterprise.combinedY5Revenue[scenario])}
                     </td>
                     <td className="py-3 sm:py-4 px-2 sm:px-4 text-right font-medium text-primary-800">
-                      {formatCurrency(enterprise.combinedY5EBITDA.base)}
+                      {formatCurrency(enterprise.combinedY5EBITDA[scenario])}
                     </td>
                     <td className="py-3 sm:py-4 px-2 sm:px-4" />
                     <td className="py-3 sm:py-4 px-2 sm:px-4 text-right text-primary-600">Sum-of-Parts</td>
                     <td className="py-3 sm:py-4 pl-2 sm:pl-4 text-right font-heading text-base sm:text-2xl text-primary-900">
-                      {formatCurrency(enterprise.sumOfPartsValue.base)}
+                      {formatCurrency(enterprise.sumOfPartsValue[scenario])}
                     </td>
                   </tr>
                 </tbody>
@@ -602,7 +610,7 @@ export default function ModelPage() {
                 {[
                   { value: '60', label: 'Casitas', sublabel: 'Full campus (Year 5)' },
                   { value: '1,280', label: 'Guests/Year', sublabel: 'At 80% occupancy' },
-                  { value: formatCurrency(enterprise.combinedY5Revenue.base), label: 'Y5 Revenue', sublabel: 'All business units' },
+                  { value: formatCurrency(enterprise.combinedY5Revenue[scenario]), label: 'Y5 Revenue', sublabel: 'All business units' },
                   { value: '61%', label: 'EBITDA Margin', sublabel: 'Healing center at maturity' },
                 ].map((stat) => (
                   <div key={stat.label} className="bg-white/20 rounded-lg p-3 sm:p-4 text-center">

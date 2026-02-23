@@ -60,7 +60,7 @@ Transformational Epicenter targets the intersection of four high-growth market s
 | **Year 1 Revenue (Base)** | $10,748,000 |
 | **5-Year Total Revenue** | $125,880,000 |
 | **Project IRR (Base / Conservative)** | 78% / 78% |
-| **Year 5 Enterprise Value (Base)** | ~$189,400,000 |
+| **Year 5 Enterprise Value (Base)** | ~$239,200,000 |
 | **5-Year MOIC (Base / Conservative)** | 6.8x / 6.7x |
 
 ---
