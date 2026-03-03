@@ -50,7 +50,6 @@ import {
   formatPercent,
   formatMultiple,
   getScenarioPLStatements,
-  getScenarioInvestmentReturns,
 } from '@/lib/sheets'
 import { useScenario } from '@/lib/context/ScenarioContext'
 import { ScenarioToggle } from '@/components/financial/ScenarioToggle'
@@ -134,11 +133,6 @@ export default function OverviewPage() {
   const y1Margin = scenarioPL[0].ebitdaMarginPercent
   const y5Margin = scenarioPL[4].ebitdaMarginPercent
   const grossMargin = scenarioPL[0].grossMarginPercent
-
-  const scenarioReturns = getScenarioInvestmentReturns(scenario)
-  const paybackYear = scenarioReturns.yearlyReturns.find(
-    (yr) => yr.cumulativeNetIncome >= scenarioReturns.totalCapitalRequired
-  )?.year ?? 3
 
   const y1FixedCosts = scenarioPL[0].totalOpex
   const breakEvenGuests = Math.ceil(y1FixedCosts / UNIT_ECONOMICS.grossProfitPerGuest)
@@ -291,11 +285,6 @@ export default function OverviewPage() {
             <OverviewMetricCard
               label="Gross Margin"
               value={formatPercent(grossMargin)}
-            />
-            <OverviewMetricCard
-              label="Payback"
-              value={`${paybackYear - 1 + (paybackYear === 3 ? 0.7 : 0)} yrs`}
-              subtitle="Capital recovery"
             />
           </div>
         </motion.section>
