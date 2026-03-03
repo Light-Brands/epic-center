@@ -22,10 +22,26 @@ We're acquiring the property for **$11.9 million**, structured to give you both 
 
 **$9.9 million converted into equity ownership:**
 
-- **12% equity in the Mexican Real Estate Company** — the entity that owns and develops the property. You participate in the appreciation of the physical asset as it transforms into a world-class healing center.
-- **12% equity in the Mexican Operating Company** — the entity that runs the Transformational Epicenter platform, inclusive of property management, real estate development, technology infrastructure, digital platform, and E-link center. You participate in the operating growth of the full enterprise: revenue, profitability, and enterprise value as it scales.
+- **17.17% equity across three entities:**
+  - **Transformational Epicenter Real Estate Company** — the entity that owns and develops the property
+  - **Transformational Epicenter Operating Company** — the entity that runs the platform, inclusive of property management, real estate development, technology infrastructure, digital platform, and E-link center
+  - **Transformational Epicenter IP / Data Company** — the entity that owns proprietary intellectual property, data assets, clinical protocols, and technology IP
 
-**This is not seller financing. This is not structured debt. This is not interest-bearing. There is no interest owed on the $9.9 million.** The remaining balance is fully converted into equity ownership — a direct stake in two entities that are projected to generate significant enterprise value.
+You participate in the full spectrum of value creation: asset appreciation, operating growth, and intellectual property monetization.
+
+### Capital Raise Structure
+
+We are raising **$17.3 million** in total capital for the three Transformational Epicenter entities. For this raise, we are offering **30% total equity** across all three companies.
+
+This implies a **post-money valuation of approximately $57.67 million**.
+
+Your **$9.9 million** represents **57.2% of the total raise**. At 30% total equity offered:
+
+> **57.2% × 30% = 17.17% equity ownership**
+
+Your position is proportional, protected, and aligned with the success of the entire enterprise.
+
+**This is not seller financing. This is not structured debt. This is not interest-bearing. There is no interest owed on the $9.9 million.** The remaining balance is fully converted into equity ownership — a direct stake in three entities that are projected to generate significant enterprise value.
 
 This is an **equity-based partnership structure**. The $9.9 million is effectively reinvested by the seller into the project as equity participation.
 
@@ -34,7 +50,7 @@ This is an **equity-based partnership structure**. The $9.9 million is effective
 This structure gives you something a traditional sale never could:
 
 - **Immediate liquidity** — $2M cash at closing
-- **Long-term enterprise upside** — participation in both asset appreciation (Mexican Real Estate Company) and operating growth across the full platform (Mexican Operating Company)
+- **Long-term enterprise upside** — participation in asset appreciation, operating growth, and IP value across all three entities
 - **No debt risk** — you're not waiting on payments; you own a piece of the enterprise
 - **Alignment** — your success is directly tied to the success of what your property becomes
 
@@ -50,14 +66,14 @@ Your interest in the property is secured until the equity structure is fully in 
 
 ---
 
-## 4. Two Companies, One Vision
+## 4. Three Companies, One Vision
 
-Your equity spans two distinct entities, each with a clear purpose:
+Your equity spans three distinct entities, each with a clear purpose:
 
-### The Mexican Real Estate Company
-Owns the physical property. Manages the asset. Captures appreciation as the property transforms from a private estate into a premier medical wellness destination. Your 12% here means you participate in every dollar of asset value growth.
+### Transformational Epicenter Real Estate Company
+Owns the physical property. Manages the asset. Captures appreciation as the property transforms from a private estate into a premier medical wellness destination. Your equity here means you participate in every dollar of asset value growth.
 
-### The Mexican Operating Company
+### Transformational Epicenter Operating Company
 Runs the full Transformational Epicenter platform:
 
 - **Property management** — ongoing stewardship and enhancement of the physical asset
@@ -66,9 +82,19 @@ Runs the full Transformational Epicenter platform:
 - **Digital platform** — guest-facing technology, booking, experience management
 - **E-link center** — the digital and operational hub connecting all platform elements
 
-This is where the cash flow lives. Your 12% here means you participate in every dollar of operating profit and enterprise value creation across the entire platform.
+This is where the cash flow lives. Your equity here means you participate in every dollar of operating profit and enterprise value creation across the entire platform.
 
-**Why two entities?** Clean separation protects the asset from operational risk and gives each entity its own valuation trajectory. You benefit from both.
+### Transformational Epicenter IP / Data Company
+Owns and monetizes the intellectual property, proprietary data, clinical protocols, treatment methodologies, and technology IP generated by the enterprise:
+
+- **Clinical protocols** — proprietary treatment frameworks and medical methodologies
+- **Data assets** — anonymized patient outcomes, efficacy data, and research intelligence
+- **Technology IP** — software, algorithms, and digital systems developed for the platform
+- **Licensing potential** — the ability to license protocols, data, and technology to future locations and partners
+
+This is where long-term scalable value compounds. Your equity here means you participate in the most defensible and highest-margin layer of the enterprise.
+
+**Why three entities?** Clean separation protects the asset from operational risk, isolates IP value for licensing and scale, and gives each entity its own valuation trajectory. You benefit from all three.
 
 ---
 
@@ -84,9 +110,9 @@ We're committing **$5 million in operational capital** to launch and scale the b
 - Sales engine and guest acquisition
 - Technology and digital integration
 
-This is separate from the property acquisition. The $5M goes directly into the Mexican Operating Company to build a world-class operation on the foundation you created.
+This is separate from the property acquisition. The $5M goes directly into the operating infrastructure to build a world-class operation on the foundation you created.
 
-**Without this $5M deployment, the projected valuation trajectory is not achievable.** This operational investment is what transforms a property into a platform — and a platform into a $189.4 million enterprise.
+**Without this $5M deployment, the projected valuation trajectory is not achievable.** This operational investment is what transforms a property into a platform — and a platform into a multi-hundred-million-dollar enterprise.
 
 ---
 
@@ -104,11 +130,11 @@ Every person who heals here. Every life that changes direction. Every family tha
 
 ## 7. What You Become
 
-You're not a former owner who sold at market price. You're a founding partner of a $189.4 million operation.
+You're not a former owner who sold at market price. You're a founding partner of a transformational enterprise.
 
 **Founding Steward.** A permanent title that recognizes your role in making this possible.
 
-**Equity partner.** 12% of both the Mexican Real Estate Company and the Mexican Operating Company, growing every year as we scale.
+**Equity partner.** 17.17% across the Transformational Epicenter Real Estate Company, the Transformational Epicenter Operating Company, and the Transformational Epicenter IP / Data Company — growing every year as we scale.
 
 **Annual retreat.** A complimentary stay every year at the healing center you helped launch.
 
@@ -125,33 +151,46 @@ Here's what the two paths look like side by side:
 | | Sell for $11.9M | Equity Conversion Partnership |
 |---|---|---|
 | **Cash at closing** | $11,900,000 | $2,000,000 |
-| **Equity in Mexican Real Estate Co (Year 5)** | $0 | 12% ownership |
-| **Equity in Mexican Operating Co (Year 5)** | $0 | 12% ownership |
-| **Combined equity value (Year 5)** | $0 | $22,728,000 (projected) |
-| **Total 5-year value** | **~$11,900,000** | **$24,728,000+** |
+| **Equity in three entities (Year 5)** | $0 | 17.17% ownership |
+| **Combined equity value (Year 5, Base)** | $0 | $41,036,300 (projected) |
+| **Total 5-year value (Base)** | **~$11,900,000** | **$43,036,300+** |
 | **Minimum protected outcome** | N/A | $15,860,000 |
 | **What happens to property** | Flipped by the next buyer | Healing center + technology platform |
 | **Your role** | Former owner | Founding partner |
 
-Your 12% equity, year by year (combined Mexican Real Estate Co + Mexican Operating Co):
+### Five-Year Valuation Scenarios
 
-| Year | Combined Enterprise Value | Your 12% | What's Happening |
-|------|----------------------|----------|------------------|
-| Year 1 | $32,000,000 | $3,840,000 | Building + first guests |
-| Year 2 | $62,000,000 | $7,440,000 | Ramping to capacity + digital platform |
-| Year 3 | $98,000,000 | $11,760,000 | Full operations + technology platform launch |
-| Year 4 | $142,000,000 | $17,040,000 | Brand established + E-link center scaling |
-| Year 5 | $189,400,000 | **$22,728,000** | Mature operation + fully integrated platform |
+Your 17.17% equity across all three entities:
 
-You receive $2M cash immediately. Your $9.9M equity conversion is projected to reach $22.7M+ in ownership value by Year 5 — a 129% return on the converted amount.
+| Scenario | Combined Enterprise Value | Your 17.17% Equity | + $2M Cash | **Total Value** |
+|----------|--------------------------|---------------------|------------|-----------------|
+| **Conservative** | $186,000,000 | $31,936,200 | $2,000,000 | **$33,936,200** |
+| **Base** | $239,000,000 | $41,036,300 | $2,000,000 | **$43,036,300** |
+| **Aggressive** | $293,000,000 | $50,308,100 | $2,000,000 | **$52,308,100** |
+
+In every scenario, your total value significantly exceeds a straight sale at $11.9 million.
+
+### Base Case Year-by-Year Trajectory
+
+Your 17.17% equity, year by year (combined across all three entities, Base scenario):
+
+| Year | Combined Enterprise Value | Your 17.17% | What's Happening |
+|------|--------------------------|-------------|------------------|
+| Year 1 | $40,000,000 | $6,868,000 | Building + first guests |
+| Year 2 | $78,000,000 | $13,392,600 | Ramping to capacity + digital platform |
+| Year 3 | $124,000,000 | $21,290,800 | Full operations + technology platform launch |
+| Year 4 | $179,000,000 | $30,734,300 | Brand established + E-link center scaling |
+| Year 5 | $239,000,000 | **$41,036,300** | Mature operation + fully integrated platform |
+
+You receive $2M cash immediately. Your $9.9M equity conversion is projected to reach between $31.9M and $50.3M in ownership value by Year 5 — far exceeding the original investment.
 
 *All projections are estimates based on the current operating model and are subject to change.*
 
 ---
 
-## 9. The $22.7M Year 5 Projection
+## 9. The Valuation Projections
 
-The **$189.4M combined enterprise value** at Year 5 reflects the fully integrated Transformational Epicenter platform:
+The combined enterprise value at Year 5 reflects the fully integrated Transformational Epicenter platform across all three entities:
 
 - **Revenue ramp** from initial guest cohorts through full-capacity operations
 - **Multiple revenue streams**: clinical programs, extended stays, training programs, licensing
@@ -159,22 +198,27 @@ The **$189.4M combined enterprise value** at Year 5 reflects the fully integrate
 - **Technology infrastructure** — proprietary systems driving operational efficiency
 - **Digital platform** — guest-facing technology, booking, and experience management at scale
 - **E-link center** — the operational and digital hub connecting all platform elements
+- **IP and data monetization** — licensing protocols, anonymized outcomes data, technology licensing
 - **Asset appreciation**: the property itself increases in value as a purpose-built medical wellness facility
 - **Brand premium**: first-mover advantage in a rapidly growing market
 - **Operating leverage**: fixed-cost infrastructure with scaling revenue
 
-Your 12% of $189.4M = **$22,728,000** *(projected)*. This is the projected value of your combined equity in both entities at Year 5.
+| Scenario | Enterprise Value | Your 17.17% | + Cash | **Total** |
+|----------|------------------|-------------|--------|-----------|
+| **Conservative** | $186M | $31,936,200 | $2M | **$33,936,200** |
+| **Base** | $239M | $41,036,300 | $2M | **$43,036,300** |
+| **Aggressive** | $293M | $50,308,100 | $2M | **$52,308,100** |
 
 ---
 
 ## 10. Five-Year Partnership Window & Buyout
 
-The 12% ownership in both the Mexican Real Estate Company and the Mexican Operating Company is structured around a **five-year value creation period**.
+The 17.17% ownership across the Transformational Epicenter Real Estate Company, the Transformational Epicenter Operating Company, and the Transformational Epicenter IP / Data Company is structured around a **five-year value creation period**.
 
 After Year 5, **either party** may initiate a buyout:
 
-- **You have the right** to request a buyout of your 12% ownership in both companies at fair market value.
-- **We have the right** to initiate a buyout of your 12% ownership in both companies at fair market value.
+- **You have the right** to request a buyout of your 17.17% ownership across all three companies at fair market value.
+- **We have the right** to initiate a buyout of your 17.17% ownership across all three companies at fair market value.
 
 This is a balanced, mutual mechanism — both sides have the ability to trigger liquidity when the time is right.
 
@@ -188,8 +232,8 @@ This is a balanced, mutual mechanism — both sides have the ability to trigger 
 | **Interest** | Interest accrues on the buyout valuation amount |
 | **Notice** | 60 days written notice |
 
-What that looks like in practice:
-- **Year 5 FMV:** ~$22.73M for your combined 12% *(projected)*
+What that looks like in practice (Base scenario):
+- **Year 5 FMV:** ~$41.04M for your combined 17.17% *(projected)*
 - **Payment:** Structured over 24–36 months with interest
 - **Result:** Full liquidity at fair value, on a defined schedule
 
@@ -199,7 +243,7 @@ You can't be squeezed below fair value. If a buyout is exercised, you get paid w
 
 ## 11. Minimum Value Protection Guarantee
 
-All enterprise values, including the projected $189.4M valuation, are projections based on operating assumptions. To provide downside protection and confidence in this structure, the agreement includes a **negotiated minimum buyout floor**.
+All enterprise values are projections based on operating assumptions. To provide downside protection and confidence in this structure, the agreement includes a **negotiated minimum buyout floor**.
 
 ### How It Works
 
@@ -223,8 +267,16 @@ The 8% applies only to the $9.9M equity portion — not the $2M cash paid at clo
 
 ### How Fair Market Value Interacts With the Floor
 
-- If **fair market value at Year 5** (projected: $22,728,000 at 12%) **exceeds** the minimum floor → **fair market value applies**. The seller receives the higher amount.
-- If **fair market value is lower** than the minimum floor → the **minimum buyout price becomes $13,860,000** for the 12% equity stake (plus the $2M already received at closing).
+- If **fair market value at Year 5** exceeds the minimum floor → **fair market value applies**. The seller receives the higher amount.
+- If **fair market value is lower** than the minimum floor → the **minimum buyout price becomes $13,860,000** for the 17.17% equity stake (plus the $2M already received at closing).
+
+Under all three valuation scenarios, the projected FMV far exceeds the minimum floor:
+
+| Scenario | 17.17% FMV | Minimum Floor | Outcome |
+|----------|------------|---------------|---------|
+| **Conservative** | $31,936,200 | $13,860,000 | FMV applies |
+| **Base** | $41,036,300 | $13,860,000 | FMV applies |
+| **Aggressive** | $50,308,100 | $13,860,000 | FMV applies |
 
 ### What This Represents
 
@@ -237,7 +289,21 @@ This is not a guaranteed return. It is a **negotiated minimum buyout floor**, su
 
 ---
 
-## 12. Optional: Tax-Efficient Enhancement
+## 12. First Right of Refusal
+
+The seller receives **first right of refusal** to invest in all future Transformational Epicenter expansion:
+
+- **Second Transformational Epicenter location**
+- **Third Transformational Epicenter location**
+- **Any future global expansion sites**
+
+This right ensures long-term alignment and legacy continuity. As the Transformational Epicenter model expands globally, you have the first opportunity to extend your founding partnership into every new location — on the same terms offered to incoming investors.
+
+Your legacy doesn't stop at the first property. It grows with every location that follows.
+
+---
+
+## 13. Optional: Tax-Efficient Enhancement
 
 The primary offer is the equity conversion partnership described above. It stands fully on its own merit.
 
@@ -251,7 +317,7 @@ In addition, if a **tax-efficient structure** can be legally implemented and is 
 
 **Important clarifications:**
 
-- This option does NOT change the core equity conversion structure. The $2M cash, 12% + 12% equity, and buyout terms remain intact.
+- This option does NOT change the core equity conversion structure. The $2M cash, 17.17% equity, and buyout terms remain intact.
 - If this pathway is not viable or not advantageous to you, the primary partnership structure stands entirely on its own.
 - Tax implications are conditional and subject to independent professional verification.
 - This is not presented as a tax write-off strategy. It is an optional enhancement, available only if it genuinely benefits you.
@@ -260,21 +326,25 @@ In addition, if a **tax-efficient structure** can be legally implemented and is 
 
 ---
 
-## 13. Why Now
+## 14. Why Now
 
 Your property is listed now. The operation is ready to launch. We have the team, the medical protocols, the capital plan. What we need is the property — your property. And the window to make this work at maximum value is 2026.
 
 ---
 
-## 14. The Invitation
+## 15. The Invitation
 
 This isn't a negotiation. We're not trying to get your property for less than it's worth. We're offering you more than the market will: in cash, in equity, in purpose, and in legacy.
 
-You built something extraordinary. You invested $30 million and eight years. The market wants to hand you $12 million and move on. We want to give you $2 million in cash, 12% equity in two companies projected to be worth $22.7 million, a minimum protection floor that guarantees your outcome exceeds a straight sale, and a legacy that endures.
+You built something extraordinary. You invested **$30 million** and **eight years of your life** into this property. The market wants to hand you $12 million and move on.
+
+**Our intention is for you to receive back $30 million or more in value if you join this project.** Not because we owe it — but because we believe in honoring both the capital and the life force you invested. Eight years is not just money. It is time, energy, vision, and sacrifice. That deserves to be met with something worthy of what you gave.
+
+We want to give you $2 million in cash, 17.17% equity across three companies projected to be worth between $31.9M and $50.3M, a minimum protection floor that guarantees your outcome exceeds a straight sale, first right of refusal on every future location, and a legacy that endures.
 
 Your property doesn't get torn down. It becomes a healing center and technology platform. Your name doesn't get forgotten. It goes on the wall. You don't walk away with a transaction. You walk away as a founding partner of something that outlives both of us.
 
-> "You invested $30 million and eight years into this property. The market wants to hand you $12 million. We're offering you $2 million cash, 12% equity in the Mexican Real Estate Company, 12% equity in the Mexican Operating Company — projected to be worth $22.7 million combined — with a minimum protection floor of $15.86 million. Your property becomes the birthplace of a global healing movement. And you're not a former owner. You're a founding partner."
+> "You invested $30 million and eight years into this property. The market wants to hand you $12 million. We're offering you $2 million cash, 17.17% equity in the Transformational Epicenter Real Estate Company, the Transformational Epicenter Operating Company, and the Transformational Epicenter IP / Data Company — projected to be worth between $31.9M and $50.3M combined — with a minimum protection floor of $15.86 million and first right of refusal on every future location. Your property becomes the birthplace of a global healing movement. And you're not a former owner. You're a founding partner."
 
 We're not asking you to sell. We're inviting you to be part of something worth building.
 
