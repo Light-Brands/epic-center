@@ -23,9 +23,9 @@ We're acquiring the property for **$11.9 million**, structured to give you both 
 **$9.9 million converted into equity ownership:**
 
 - **17.17% equity across three entities:**
-  - **Transformational Epicenter Real Estate Company** - the entity that owns and develops the property
-  - **Transformational Epicenter Operating Company** - the entity that runs the platform, inclusive of property management, real estate development, technology infrastructure, digital platform, and E-link center
-  - **Transformational Epicenter IP / Data Company** - the entity that owns proprietary intellectual property, data assets, clinical protocols, and technology IP
+  - **Transformational Epicenter Real Estate Company**, the entity that owns and develops the property
+  - **Transformational Epicenter Operating Company**, the entity that runs the platform, inclusive of property management, real estate development, technology infrastructure, digital platform, and E-link center
+  - **Transformational Epicenter IP / Data Company**, the entity that owns proprietary intellectual property, data assets, clinical protocols, and technology IP
 
 You participate in the full spectrum of value creation: asset appreciation, operating growth, and intellectual property monetization.
 
@@ -41,18 +41,18 @@ Your **$9.9 million** represents **57.2% of the total raise**. At 30% total equi
 
 Your position is proportional, protected, and aligned with the success of the entire enterprise.
 
-**This is not seller financing. This is not structured debt. This is not interest-bearing. There is no interest owed on the $9.9 million.** The remaining balance is fully converted into equity ownership - a direct stake in three entities that are projected to generate significant enterprise value.
+**This is not seller financing. This is not structured debt. This is not interest-bearing. There is no interest owed on the $9.9 million.** The remaining balance is fully converted into equity ownership, giving you a direct stake in three entities that are projected to generate significant enterprise value.
 
 This is an **equity-based partnership structure**. The $9.9 million is effectively reinvested by the seller into the project as equity participation.
 
-### Why Equity Conversion - Not Debt
+### Why Equity Conversion, Not Debt
 
 This structure gives you something a traditional sale never could:
 
-- **Immediate liquidity** - $2M cash at closing
-- **Long-term enterprise upside** - participation in asset appreciation, operating growth, and IP value across all three entities
-- **No debt risk** - you're not waiting on payments; you own a piece of the enterprise
-- **Alignment** - your success is directly tied to the success of what your property becomes
+- **Immediate liquidity.** $2M cash at closing.
+- **Long-term enterprise upside.** Participation in asset appreciation, operating growth, and IP value across all three entities.
+- **No debt risk.** You're not waiting on payments; you own a piece of the enterprise.
+- **Alignment.** Your success is directly tied to the success of what your property becomes.
 
 This is not deferred payment. This is not seller financing. This is ownership.
 
@@ -62,7 +62,7 @@ This is not deferred payment. This is not seller financing. This is ownership.
 
 Under this structure, you maintain **full lien security on the property** during the agreed structure period. This ensures alignment between both parties and provides downside protection for your position.
 
-Your interest in the property is secured until the equity structure is fully in place and the partnership terms are satisfied. This is not a handshake - it is a contractually protected arrangement.
+Your interest in the property is secured until the equity structure is fully in place and the partnership terms are satisfied. This is not a handshake. It is a contractually protected arrangement.
 
 ---
 
@@ -76,21 +76,21 @@ Owns the physical property. Manages the asset. Captures appreciation as the prop
 ### Transformational Epicenter Operating Company
 Runs the full Transformational Epicenter platform:
 
-- **Property management** - ongoing stewardship and enhancement of the physical asset
-- **Real estate development** - expansion, buildout, and capital improvement
-- **Technology infrastructure** - systems, integrations, and operational technology
-- **Digital platform** - guest-facing technology, booking, experience management
-- **E-link center** - the digital and operational hub connecting all platform elements
+- **Property management.** Ongoing stewardship and enhancement of the physical asset.
+- **Real estate development.** Expansion, buildout, and capital improvement.
+- **Technology infrastructure.** Systems, integrations, and operational technology.
+- **Digital platform.** Guest-facing technology, booking, and experience management.
+- **E-link center.** The digital and operational hub connecting all platform elements.
 
 This is where the cash flow lives. Your equity here means you participate in every dollar of operating profit and enterprise value creation across the entire platform.
 
 ### Transformational Epicenter IP / Data Company
 Owns and monetizes the intellectual property, proprietary data, clinical protocols, treatment methodologies, and technology IP generated by the enterprise:
 
-- **Clinical protocols** - proprietary treatment frameworks and medical methodologies
-- **Data assets** - anonymized patient outcomes, efficacy data, and research intelligence
-- **Technology IP** - software, algorithms, and digital systems developed for the platform
-- **Licensing potential** - the ability to license protocols, data, and technology to future locations and partners
+- **Clinical protocols.** Proprietary treatment frameworks and medical methodologies.
+- **Data assets.** Anonymized patient outcomes, efficacy data, and research intelligence.
+- **Technology IP.** Software, algorithms, and digital systems developed for the platform.
+- **Licensing potential.** The ability to license protocols, data, and technology to future locations and partners.
 
 This is where long-term scalable value compounds. Your equity here means you participate in the most defensible and highest-margin layer of the enterprise.
 
@@ -112,7 +112,7 @@ We're committing **$5 million in operational capital** to launch and scale the b
 
 This is separate from the property acquisition. The $5M goes directly into the operating infrastructure to build a world-class operation on the foundation you created.
 
-**Without this $5M deployment, the projected valuation trajectory is not achievable.** This operational investment is what transforms a property into a platform - and a platform into a multi-hundred-million-dollar enterprise.
+**Without this $5M deployment, the projected valuation trajectory is not achievable.** This operational investment is what transforms a property into a platform, and a platform into a multi-hundred-million-dollar enterprise.
 
 ---
 
@@ -120,7 +120,7 @@ This is separate from the property acquisition. The $5M goes directly into the o
 
 Your property doesn't get flipped. It doesn't become condos. It becomes the birthplace of a world-class healing center and integrated technology platform.
 
-We're building a medical wellness destination: ibogaine-assisted therapy, advanced diagnostics, biohacking, and long-term recovery, all operating at the highest clinical standard - powered by a fully integrated digital platform, E-link center, and technology infrastructure. The kind of place people fly across the world to reach. The kind of place that changes the trajectory of someone's life in a single week.
+We're building a medical wellness destination: ibogaine-assisted therapy, advanced diagnostics, biohacking, and long-term recovery, all operating at the highest clinical standard, powered by a fully integrated digital platform, E-link center, and technology infrastructure. The kind of place people fly across the world to reach. The kind of place that changes the trajectory of someone's life in a single week.
 
 This is the first location of a global movement. And it's built on land you created.
 
@@ -134,7 +134,7 @@ You're not a former owner who sold at market price. You're a founding partner of
 
 **Founding Steward.** A permanent title that recognizes your role in making this possible.
 
-**Equity partner.** 17.17% across the Transformational Epicenter Real Estate Company, the Transformational Epicenter Operating Company, and the Transformational Epicenter IP / Data Company - growing every year as we scale.
+**Equity partner.** 17.17% across the Transformational Epicenter Real Estate Company, the Transformational Epicenter Operating Company, and the Transformational Epicenter IP / Data Company, growing every year as we scale.
 
 **Annual retreat.** A complimentary stay every year at the healing center you helped launch.
 
@@ -182,7 +182,7 @@ Your 17.17% equity, year by year (combined across all three entities, Conservati
 | Year 4 | $139,000,000 | $23,866,300 | Brand established + E-link center scaling |
 | Year 5 | $186,000,000 | **$31,936,200** | Mature operation + fully integrated platform |
 
-You receive $2M cash immediately. Your $9.9M equity conversion is conservatively projected to reach $31.9M+ in ownership value by Year 5 - far exceeding the original investment.
+You receive $2M cash immediately. Your $9.9M equity conversion is conservatively projected to reach $31.9M+ in ownership value by Year 5, far exceeding the original investment.
 
 *All projections are estimates based on the current operating model and are subject to change.*
 
@@ -193,15 +193,15 @@ You receive $2M cash immediately. Your $9.9M equity conversion is conservatively
 The combined enterprise value at Year 5 reflects the fully integrated Transformational Epicenter platform across all three entities:
 
 - **Revenue ramp** from initial guest cohorts through full-capacity operations
-- **Multiple revenue streams**: clinical programs, extended stays, training programs, licensing
-- **Property management and real estate development** - ongoing asset enhancement and expansion
-- **Technology infrastructure** - proprietary systems driving operational efficiency
-- **Digital platform** - guest-facing technology, booking, and experience management at scale
-- **E-link center** - the operational and digital hub connecting all platform elements
-- **IP and data monetization** - licensing protocols, anonymized outcomes data, technology licensing
-- **Asset appreciation**: the property itself increases in value as a purpose-built medical wellness facility
-- **Brand premium**: first-mover advantage in a rapidly growing market
-- **Operating leverage**: fixed-cost infrastructure with scaling revenue
+- **Multiple revenue streams** including clinical programs, extended stays, training programs, and licensing
+- **Property management and real estate development** through ongoing asset enhancement and expansion
+- **Technology infrastructure** with proprietary systems driving operational efficiency
+- **Digital platform** delivering guest-facing technology, booking, and experience management at scale
+- **E-link center** serving as the operational and digital hub connecting all platform elements
+- **IP and data monetization** through licensing protocols, anonymized outcomes data, and technology licensing
+- **Asset appreciation** as the property itself increases in value as a purpose-built medical wellness facility
+- **Brand premium** from first-mover advantage in a rapidly growing market
+- **Operating leverage** through fixed-cost infrastructure with scaling revenue
 
 | Scenario | Enterprise Value | Your 17.17% | + Cash | **Total** |
 |----------|------------------|-------------|--------|-----------|
@@ -220,7 +220,7 @@ After Year 5, **either party** may initiate a buyout:
 - **You have the right** to request a buyout of your 17.17% ownership across all three companies at fair market value.
 - **We have the right** to initiate a buyout of your 17.17% ownership across all three companies at fair market value.
 
-This is a balanced, mutual mechanism - both sides have the ability to trigger liquidity when the time is right.
+This is a balanced, mutual mechanism. Both sides have the ability to trigger liquidity when the time is right.
 
 | Term | Detail |
 |------|--------|
@@ -228,13 +228,13 @@ This is a balanced, mutual mechanism - both sides have the ability to trigger li
 | **Earliest exercise** | Year 5 |
 | **Price** | Fair Market Value at time of buyout |
 | **How FMV is determined** | Independent third-party valuation, or pre-agreed EBITDA multiple methodology |
-| **Payment timeline** | 24–36 months from exercise date |
+| **Payment timeline** | 24 to 36 months from exercise date |
 | **Interest** | Interest accrues on the buyout valuation amount |
 | **Notice** | 60 days written notice |
 
 What that looks like in practice (Conservative scenario):
 - **Year 5 FMV:** ~$31.94M for your combined 17.17% *(projected)*
-- **Payment:** Structured over 24–36 months with interest
+- **Payment:** Structured over 24 to 36 months with interest
 - **Result:** Full liquidity at fair value, on a defined schedule
 
 You can't be squeezed below fair value. If a buyout is exercised, you get paid what your share is actually worth, with interest on the balance until fully paid.
@@ -252,7 +252,7 @@ The seller will not receive less than:
 - The original **$11.9 million** valuation basis he is asking for
 - Plus **8% annual interest** applied to the $9.9 million equity reinvestment portion
 
-The 8% applies only to the $9.9M equity portion - not the $2M cash paid at closing.
+The 8% applies only to the $9.9M equity portion, not the $2M cash paid at closing.
 
 ### Five-Year Calculation
 
@@ -267,8 +267,8 @@ The 8% applies only to the $9.9M equity portion - not the $2M cash paid at closi
 
 ### How Fair Market Value Interacts With the Floor
 
-- If **fair market value at Year 5** exceeds the minimum floor → **fair market value applies**. The seller receives the higher amount.
-- If **fair market value is lower** than the minimum floor → the **minimum buyout price becomes $13,860,000** for the 17.17% equity stake (plus the $2M already received at closing).
+- If **fair market value at Year 5** exceeds the minimum floor, then **fair market value applies**. The seller receives the higher amount.
+- If **fair market value is lower** than the minimum floor, the **minimum buyout price becomes $13,860,000** for the 17.17% equity stake (plus the $2M already received at closing).
 
 Under all three valuation scenarios, the projected FMV far exceeds the minimum floor:
 
@@ -280,10 +280,10 @@ Under all three valuation scenarios, the projected FMV far exceeds the minimum f
 
 ### What This Represents
 
-- **Capital preservation** - the seller's reinvested equity is protected
-- **Confidence-building mechanism** - the floor removes the fear of total downside
-- **Downside protection** - even in a worst-case scenario, the outcome exceeds a straight sale
-- **Alignment assurance** - both parties are incentivized to build value, with the seller's position secured
+- **Capital preservation.** The seller's reinvested equity is protected.
+- **Confidence-building mechanism.** The floor removes the fear of total downside.
+- **Downside protection.** Even in a worst-case scenario, the outcome exceeds a straight sale.
+- **Alignment assurance.** Both parties are incentivized to build value, with the seller's position secured.
 
 This is not a guaranteed return. It is a **negotiated minimum buyout floor**, subject to the definitive agreement between the parties.
 
@@ -297,7 +297,7 @@ The seller receives **first right of refusal** to invest in all future Transform
 - **Third Transformational Epicenter location**
 - **Any future global expansion sites**
 
-This right ensures long-term alignment and legacy continuity. As the Transformational Epicenter model expands globally, you have the first opportunity to extend your founding partnership into every new location - on the same terms offered to incoming investors.
+This right ensures long-term alignment and legacy continuity. As the Transformational Epicenter model expands globally, you have the first opportunity to extend your founding partnership into every new location, on the same terms offered to incoming investors.
 
 Your legacy doesn't stop at the first property. It grows with every location that follows.
 
@@ -311,9 +311,9 @@ In addition, if a **tax-efficient structure** can be legally implemented and is 
 
 **What this could provide, if applicable:**
 
-- **Tax credit benefits** - Charitable contribution of qualifying assets could generate meaningful tax credits or deductions
-- **Strategic tax efficiency** - A donation into a 501(c)(3) or similar qualifying entity could create additional tax savings
-- **Legacy positioning** - Adds a philanthropic dimension to your involvement in the mission
+- **Tax credit benefits.** Charitable contribution of qualifying assets could generate meaningful tax credits or deductions.
+- **Strategic tax efficiency.** A donation into a 501(c)(3) or similar qualifying entity could create additional tax savings.
+- **Legacy positioning.** Adds a philanthropic dimension to your involvement in the mission.
 
 **Important clarifications:**
 
@@ -328,7 +328,7 @@ In addition, if a **tax-efficient structure** can be legally implemented and is 
 
 ## 14. Why Now
 
-Your property is listed now. The operation is ready to launch. We have the team, the medical protocols, the capital plan. What we need is the property - your property. And the window to make this work at maximum value is 2026.
+Your property is listed now. The operation is ready to launch. We have the team, the medical protocols, the capital plan. What we need is the property. Your property. And the window to make this work at maximum value is 2026.
 
 ---
 
@@ -338,13 +338,13 @@ This isn't a negotiation. We're not trying to get your property for less than it
 
 You built something extraordinary. You invested **$30 million** and **eight years of your life** into this property. The market wants to hand you $12 million and move on.
 
-**Our intention is for you to receive back $30 million or more in value if you join this project.** Not because we owe it - but because we believe in honoring both the capital and the life force you invested. Eight years is not just money. It is time, energy, vision, and sacrifice. That deserves to be met with something worthy of what you gave.
+**Our intention is for you to receive back $30 million or more in value if you join this project.** Not because we owe it, but because we believe in honoring both the capital and the life force you invested. Eight years is not just money. It is time, energy, vision, and sacrifice. That deserves to be met with something worthy of what you gave.
 
 We want to give you $2 million in cash, 17.17% equity across three companies conservatively projected to be worth $31.9M+, a minimum protection floor that guarantees your outcome exceeds a straight sale, first right of refusal on every future location, and a legacy that endures.
 
 Your property doesn't get torn down. It becomes a healing center and technology platform. Your name doesn't get forgotten. It goes on the wall. You don't walk away with a transaction. You walk away as a founding partner of something that outlives both of us.
 
-> "You invested $30 million and eight years into this property. The market wants to hand you $12 million. We're offering you $2 million cash, 17.17% equity in the Transformational Epicenter Real Estate Company, the Transformational Epicenter Operating Company, and the Transformational Epicenter IP / Data Company - conservatively projected to be worth $31.9M+ combined - with a minimum protection floor of $15.86 million and first right of refusal on every future location. Your property becomes the birthplace of a global healing movement. And you're not a former owner. You're a founding partner."
+> "You invested $30 million and eight years into this property. The market wants to hand you $12 million. We're offering you $2 million cash and 17.17% equity in the Transformational Epicenter Real Estate Company, the Transformational Epicenter Operating Company, and the Transformational Epicenter IP / Data Company, conservatively projected to be worth $31.9M+ combined, with a minimum protection floor of $15.86 million and first right of refusal on every future location. Your property becomes the birthplace of a global healing movement. And you're not a former owner. You're a founding partner."
 
 We're not asking you to sell. We're inviting you to be part of something worth building.
 
