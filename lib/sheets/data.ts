@@ -671,13 +671,13 @@ const RE_APPRECIATION_RATES = { conservative: 0.05, base: 0.07, aggressive: 0.10
 const TECH_BASE_VALUE = { conservative: 5000000, base: 7500000, aggressive: 10000000 }
 const DATA_PREMIUM_PER_RECORD = { conservative: 5000, base: 10000, aggressive: 15000 }
 
-// ─── Pablo's 3-Entity Offer Projections ──────────────────────────────────
+// ─── Investor's 3-Entity Offer Projections ──────────────────────────────────
 // Maps 4 business units into 3 investment entities with value appreciation:
 //   Entity A (Real Estate) = $12.4M property appreciating at compound rates
 //   Entity B (Clinic/Ops) = Healing Center EBITDA × 5.5x + Property Mgmt EBITDA × 10x
 //   Entity C (Data/AI) = Technology platform base + per-patient-record data premium
 // Y5 entity totals align with BUSINESS_UNITS standaloneValues and ENTERPRISE_VALUATION.
-// Pablo receives 30% across all three entities.
+// Investor receives 30% across all three entities.
 const CUMULATIVE_GUESTS = CASITA_PHASING.years.reduce<number[]>((acc, yr) => {
   const prev = acc.length > 0 ? acc[acc.length - 1] : 0
   acc.push(prev + yr.guests)
@@ -687,8 +687,8 @@ const CUMULATIVE_GUESTS = CASITA_PHASING.years.reduce<number[]>((acc, yr) => {
 const healingCenter = BUSINESS_UNITS.find(u => u.id === 'healing-center')!
 const propertyMgmt = BUSINESS_UNITS.find(u => u.id === 'property-management')!
 
-export const PABLO_OFFER_PROJECTIONS = {
-  pabloEquityPercent: 0.30,
+export const INVESTOR_OFFER_PROJECTIONS = {
+  investorEquityPercent: 0.30,
   realEstateBase: RE_BASE_VALUE,
 
   // Per-year projections across 3 scenarios
@@ -723,8 +723,8 @@ export const PABLO_OFFER_PROJECTIONS = {
       aggressive:   reAppreciation.aggressive + clinicValue.aggressive + dataValue.aggressive,
     }
 
-    // Pablo's 30%
-    const pabloEquity = {
+    // Investor's 30%
+    const investorEquity = {
       conservative: Math.round(totalEnterprise.conservative * 0.30),
       base:         Math.round(totalEnterprise.base * 0.30),
       aggressive:   Math.round(totalEnterprise.aggressive * 0.30),
@@ -737,7 +737,7 @@ export const PABLO_OFFER_PROJECTIONS = {
       clinicOpsIP: clinicValue,
       dataAI: dataValue,
       totalEnterprise,
-      pabloEquity,
+      investorEquity,
     }
   }),
 

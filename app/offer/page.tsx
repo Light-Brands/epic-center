@@ -25,13 +25,13 @@ import { MetricCard } from '@/components/financial'
 import { ScenarioToggle } from '@/components/financial/ScenarioToggle'
 import { useScenario, type Scenario } from '@/lib/context/ScenarioContext'
 import {
-  PABLO_OFFER_PROJECTIONS,
+  INVESTOR_OFFER_PROJECTIONS,
   CASITA_PHASING,
   REVENUE_PROJECTIONS,
 } from '@/lib/sheets/data'
 import { formatCurrency } from '@/lib/sheets/service'
 
-const proj = PABLO_OFFER_PROJECTIONS
+const proj = INVESTOR_OFFER_PROJECTIONS
 
 function fmtM(value: number): string {
   return `$${Math.round(value / 1000000)}M`
@@ -91,8 +91,8 @@ function OfferContent() {
               accent
             />
             <MetricCard
-              label="Pablo's 30% Share"
-              value={fmtM(y5.pabloEquity[scenario])}
+              label="Investor's 30% Share"
+              value={fmtM(y5.investorEquity[scenario])}
               subtitle="Year 5 equity value"
               accent
             />
@@ -284,7 +284,7 @@ function OfferContent() {
           <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Three Investment Pillars</h2>
           <p className="text-neutral-600 mb-8 max-w-3xl">
             The Epicenter is structured as three distinct but synergistic entities.
-            Pablo receives 30% equity across all three, participating in real asset
+            The Investor receives 30% equity across all three, participating in real asset
             appreciation, operational cash flow, and exponential data value.
           </p>
 
@@ -315,7 +315,7 @@ function OfferContent() {
                   <span className="text-neutral-800 font-medium">{formatCurrency(y5.realEstate[scenario])}</span>
                 </div>
                 <div className="flex justify-between text-sm">
-                  <span className="text-neutral-500">Pablo&apos;s 30%</span>
+                  <span className="text-neutral-500">Investor&apos;s 30%</span>
                   <span className="text-secondary-600 font-medium">{formatCurrency(Math.round(y5.realEstate[scenario] * 0.30))}</span>
                 </div>
               </div>
@@ -347,7 +347,7 @@ function OfferContent() {
                   <span className="text-neutral-800 font-medium">{formatCurrency(y5.clinicOpsIP[scenario])}</span>
                 </div>
                 <div className="flex justify-between text-sm">
-                  <span className="text-neutral-500">Pablo&apos;s 30%</span>
+                  <span className="text-neutral-500">Investor&apos;s 30%</span>
                   <span className="text-secondary-600 font-medium">{formatCurrency(Math.round(y5.clinicOpsIP[scenario] * 0.30))}</span>
                 </div>
               </div>
@@ -379,7 +379,7 @@ function OfferContent() {
                   <span className="text-neutral-800 font-medium">{formatCurrency(y5.dataAI[scenario])}</span>
                 </div>
                 <div className="flex justify-between text-sm">
-                  <span className="text-neutral-500">Pablo&apos;s 30%</span>
+                  <span className="text-neutral-500">Investor&apos;s 30%</span>
                   <span className="text-secondary-600 font-medium">{formatCurrency(Math.round(y5.dataAI[scenario] * 0.30))}</span>
                 </div>
               </div>
@@ -393,7 +393,7 @@ function OfferContent() {
         <section className="mb-20">
           <h2 className="text-3xl font-heading text-neutral-900 mb-4">Proposed Equity Offer: Financial Projections</h2>
           <p className="text-neutral-600 mb-8 max-w-3xl">
-            Pablo's 30% stake across all three entities. Use the scenario toggle above
+            The Investor&apos;s 30% stake across all three entities. Use the scenario toggle above
             to switch between conservative, base, and strong performance projections.
           </p>
 
@@ -407,7 +407,7 @@ function OfferContent() {
                     <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Clinic/Ops/IP</th>
                     <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Data/AI</th>
                     <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Total Enterprise</th>
-                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider font-bold">Pablo&apos;s 30%</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider font-bold">Investor&apos;s 30%</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-neutral-100">
@@ -418,7 +418,7 @@ function OfferContent() {
                       <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(yr.clinicOpsIP[scenario])}</td>
                       <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(yr.dataAI[scenario])}</td>
                       <td className="px-4 py-3 text-right text-neutral-800 font-medium">{formatCurrency(yr.totalEnterprise[scenario])}</td>
-                      <td className="px-4 py-3 text-right text-secondary-600 font-bold">{formatCurrency(yr.pabloEquity[scenario])}</td>
+                      <td className="px-4 py-3 text-right text-secondary-600 font-bold">{formatCurrency(yr.investorEquity[scenario])}</td>
                     </tr>
                   ))}
                 </tbody>
