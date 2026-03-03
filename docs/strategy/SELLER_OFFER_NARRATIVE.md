@@ -152,8 +152,8 @@ Here's what the two paths look like side by side:
 |---|---|---|
 | **Cash at closing** | $11,900,000 | $2,000,000 |
 | **Equity in three entities (Year 5)** | $0 | 17.17% ownership |
-| **Combined equity value (Year 5, Base)** | $0 | $41,036,300 (projected) |
-| **Total 5-year value (Base)** | **~$11,900,000** | **$43,036,300+** |
+| **Combined equity value (Year 5, Conservative)** | $0 | $31,936,200 (projected) |
+| **Total 5-year value (Conservative)** | **~$11,900,000** | **$33,936,200+** |
 | **Minimum protected outcome** | N/A | $15,860,000 |
 | **What happens to property** | Flipped by the next buyer | Healing center + technology platform |
 | **Your role** | Former owner | Founding partner |
@@ -170,19 +170,19 @@ Your 17.17% equity across all three entities:
 
 In every scenario, your total value significantly exceeds a straight sale at $11.9 million.
 
-### Base Case Year-by-Year Trajectory
+### Conservative Year-by-Year Trajectory
 
-Your 17.17% equity, year by year (combined across all three entities, Base scenario):
+Your 17.17% equity, year by year (combined across all three entities, Conservative scenario):
 
 | Year | Combined Enterprise Value | Your 17.17% | What's Happening |
 |------|--------------------------|-------------|------------------|
-| Year 1 | $40,000,000 | $6,868,000 | Building + first guests |
-| Year 2 | $78,000,000 | $13,392,600 | Ramping to capacity + digital platform |
-| Year 3 | $124,000,000 | $21,290,800 | Full operations + technology platform launch |
-| Year 4 | $179,000,000 | $30,734,300 | Brand established + E-link center scaling |
-| Year 5 | $239,000,000 | **$41,036,300** | Mature operation + fully integrated platform |
+| Year 1 | $31,000,000 | $5,322,700 | Building + first guests |
+| Year 2 | $61,000,000 | $10,473,700 | Ramping to capacity + digital platform |
+| Year 3 | $96,000,000 | $16,483,200 | Full operations + technology platform launch |
+| Year 4 | $139,000,000 | $23,866,300 | Brand established + E-link center scaling |
+| Year 5 | $186,000,000 | **$31,936,200** | Mature operation + fully integrated platform |
 
-You receive $2M cash immediately. Your $9.9M equity conversion is projected to reach between $31.9M and $50.3M in ownership value by Year 5 — far exceeding the original investment.
+You receive $2M cash immediately. Your $9.9M equity conversion is conservatively projected to reach $31.9M+ in ownership value by Year 5 — far exceeding the original investment.
 
 *All projections are estimates based on the current operating model and are subject to change.*
 
@@ -232,8 +232,8 @@ This is a balanced, mutual mechanism — both sides have the ability to trigger 
 | **Interest** | Interest accrues on the buyout valuation amount |
 | **Notice** | 60 days written notice |
 
-What that looks like in practice (Base scenario):
-- **Year 5 FMV:** ~$41.04M for your combined 17.17% *(projected)*
+What that looks like in practice (Conservative scenario):
+- **Year 5 FMV:** ~$31.94M for your combined 17.17% *(projected)*
 - **Payment:** Structured over 24–36 months with interest
 - **Result:** Full liquidity at fair value, on a defined schedule
 
@@ -340,11 +340,11 @@ You built something extraordinary. You invested **$30 million** and **eight year
 
 **Our intention is for you to receive back $30 million or more in value if you join this project.** Not because we owe it — but because we believe in honoring both the capital and the life force you invested. Eight years is not just money. It is time, energy, vision, and sacrifice. That deserves to be met with something worthy of what you gave.
 
-We want to give you $2 million in cash, 17.17% equity across three companies projected to be worth between $31.9M and $50.3M, a minimum protection floor that guarantees your outcome exceeds a straight sale, first right of refusal on every future location, and a legacy that endures.
+We want to give you $2 million in cash, 17.17% equity across three companies conservatively projected to be worth $31.9M+, a minimum protection floor that guarantees your outcome exceeds a straight sale, first right of refusal on every future location, and a legacy that endures.
 
 Your property doesn't get torn down. It becomes a healing center and technology platform. Your name doesn't get forgotten. It goes on the wall. You don't walk away with a transaction. You walk away as a founding partner of something that outlives both of us.
 
-> "You invested $30 million and eight years into this property. The market wants to hand you $12 million. We're offering you $2 million cash, 17.17% equity in the Transformational Epicenter Real Estate Company, the Transformational Epicenter Operating Company, and the Transformational Epicenter IP / Data Company — projected to be worth between $31.9M and $50.3M combined — with a minimum protection floor of $15.86 million and first right of refusal on every future location. Your property becomes the birthplace of a global healing movement. And you're not a former owner. You're a founding partner."
+> "You invested $30 million and eight years into this property. The market wants to hand you $12 million. We're offering you $2 million cash, 17.17% equity in the Transformational Epicenter Real Estate Company, the Transformational Epicenter Operating Company, and the Transformational Epicenter IP / Data Company — conservatively projected to be worth $31.9M+ combined — with a minimum protection floor of $15.86 million and first right of refusal on every future location. Your property becomes the birthplace of a global healing movement. And you're not a former owner. You're a founding partner."
 
 We're not asking you to sell. We're inviting you to be part of something worth building.
 
