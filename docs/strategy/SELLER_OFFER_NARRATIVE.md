@@ -22,7 +22,7 @@ We're acquiring the property for **$11.9 million**, structured to give you both 
 
 **$9.9 million converted into equity ownership:**
 
-- **17.17% equity across three entities:**
+- **27.24% equity across three entities:**
   - **Transformational Epicenter Real Estate Company**, the entity that owns and develops the property
   - **Transformational Epicenter Operating Company**, the entity that runs the platform, inclusive of property management, real estate development, technology infrastructure, digital platform, and E-link center
   - **Transformational Epicenter IP / Data Company**, the entity that owns proprietary intellectual property, data assets, clinical protocols, and technology IP
@@ -31,13 +31,17 @@ You participate in the full spectrum of value creation: asset appreciation, oper
 
 ### Capital Raise Structure
 
-We are raising **$17.3 million** in total capital for the three Transformational Epicenter entities. For this raise, we are offering **30% total equity** across all three companies.
+We are raising **$17.3 million** in total capital for the three Transformational Epicenter entities.
 
-This implies a **post-money valuation of approximately $57.67 million**.
+The **weighted average post-money valuation**, derived from nine independent valuation methodologies, is **$36.35 million**.
 
-Your **$9.9 million** represents **57.2% of the total raise**. At 30% total equity offered:
+At this valuation, the total raise represents:
 
-> **57.2% × 30% = 17.17% equity ownership**
+> **$17.3M ÷ $36.35M = 47.6% equity**
+
+Your **$9.9 million** investment values directly against the enterprise:
+
+> **$9.9M ÷ $36.35M = 27.24% equity ownership**
 
 Your position is proportional, protected, and aligned with the success of the entire enterprise.
 
@@ -134,7 +138,7 @@ You're not a former owner who sold at market price. You're a founding partner of
 
 **Founding Steward.** A permanent title that recognizes your role in making this possible.
 
-**Equity partner.** 17.17% across the Transformational Epicenter Real Estate Company, the Transformational Epicenter Operating Company, and the Transformational Epicenter IP / Data Company, growing every year as we scale.
+**Equity partner.** 27.24% across the Transformational Epicenter Real Estate Company, the Transformational Epicenter Operating Company, and the Transformational Epicenter IP / Data Company, growing every year as we scale.
 
 **Annual retreat.** A complimentary stay every year at the healing center you helped launch.
 
@@ -151,38 +155,38 @@ Here's what the two paths look like side by side:
 | | Sell for $11.9M | Equity Conversion Partnership |
 |---|---|---|
 | **Cash at closing** | $11,900,000 | $2,000,000 |
-| **Equity in three entities (Year 5)** | $0 | 17.17% ownership |
-| **Combined equity value (Year 5, Conservative)** | $0 | $31,936,200 (projected) |
-| **Total 5-year value (Conservative)** | **~$11,900,000** | **$33,936,200+** |
-| **Minimum protected outcome** | N/A | $15,860,000 |
+| **Equity in three entities (Year 5)** | $0 | 27.24% ownership |
+| **Combined equity value (Year 5, Base)** | $0 | $65,103,600 (projected) |
+| **Total 5-year value (Base)** | **~$11,900,000** | **$67,103,600+** |
+| **Minimum capital recovery** | N/A | $11,900,000 |
 | **What happens to property** | Flipped by the next buyer | Healing center + technology platform |
 | **Your role** | Former owner | Founding partner |
 
 ### Five-Year Valuation Scenarios
 
-Your 17.17% equity across all three entities:
+Your 27.24% equity across all three entities:
 
-| Scenario | Combined Enterprise Value | Your 17.17% Equity | + $2M Cash | **Total Value** |
+| Scenario | Combined Enterprise Value | Your 27.24% Equity | + $2M Cash | **Total Value** |
 |----------|--------------------------|---------------------|------------|-----------------|
-| **Conservative** | $186,000,000 | $31,936,200 | $2,000,000 | **$33,936,200** |
-| **Base** | $239,000,000 | $41,036,300 | $2,000,000 | **$43,036,300** |
-| **Aggressive** | $293,000,000 | $50,308,100 | $2,000,000 | **$52,308,100** |
+| **Conservative** | $186,000,000 | $50,666,400 | $2,000,000 | **$52,666,400** |
+| **Base** | $239,000,000 | $65,103,600 | $2,000,000 | **$67,103,600** |
+| **Aggressive** | $293,000,000 | $79,813,200 | $2,000,000 | **$81,813,200** |
 
 In every scenario, your total value significantly exceeds a straight sale at $11.9 million.
 
-### Conservative Year-by-Year Trajectory
+### Base Case Year-by-Year Trajectory
 
-Your 17.17% equity, year by year (combined across all three entities, Conservative scenario):
+Your 27.24% equity, year by year (combined across all three entities, Base scenario):
 
-| Year | Combined Enterprise Value | Your 17.17% | What's Happening |
+| Year | Combined Enterprise Value | Your 27.24% | What's Happening |
 |------|--------------------------|-------------|------------------|
-| Year 1 | $31,000,000 | $5,322,700 | Building + first guests |
-| Year 2 | $61,000,000 | $10,473,700 | Ramping to capacity + digital platform |
-| Year 3 | $96,000,000 | $16,483,200 | Full operations + technology platform launch |
-| Year 4 | $139,000,000 | $23,866,300 | Brand established + E-link center scaling |
-| Year 5 | $186,000,000 | **$31,936,200** | Mature operation + fully integrated platform |
+| Year 1 | $40,000,000 | $10,896,000 | Building + first guests |
+| Year 2 | $78,000,000 | $21,247,200 | Ramping to capacity + digital platform |
+| Year 3 | $124,000,000 | $33,777,600 | Full operations + technology platform launch |
+| Year 4 | $179,000,000 | $48,759,600 | Brand established + E-link center scaling |
+| Year 5 | $239,000,000 | **$65,103,600** | Mature operation + fully integrated platform |
 
-You receive $2M cash immediately. Your $9.9M equity conversion is conservatively projected to reach $31.9M+ in ownership value by Year 5, far exceeding the original investment.
+You receive $2M cash immediately. Your $9.9M equity conversion is projected to reach $65.1M in ownership value by Year 5 under the base case, far exceeding the original investment.
 
 *All projections are estimates based on the current operating model and are subject to change.*
 
@@ -203,89 +207,64 @@ The combined enterprise value at Year 5 reflects the fully integrated Transforma
 - **Brand premium** from first-mover advantage in a rapidly growing market
 - **Operating leverage** through fixed-cost infrastructure with scaling revenue
 
-| Scenario | Enterprise Value | Your 17.17% | + Cash | **Total** |
+| Scenario | Enterprise Value | Your 27.24% | + Cash | **Total** |
 |----------|------------------|-------------|--------|-----------|
-| **Conservative** | $186M | $31,936,200 | $2M | **$33,936,200** |
-| **Base** | $239M | $41,036,300 | $2M | **$43,036,300** |
-| **Aggressive** | $293M | $50,308,100 | $2M | **$52,308,100** |
+| **Conservative** | $186M | $50,666,400 | $2M | **$52,666,400** |
+| **Base** | $239M | $65,103,600 | $2M | **$67,103,600** |
+| **Aggressive** | $293M | $79,813,200 | $2M | **$81,813,200** |
 
 ---
 
-## 10. Five-Year Partnership Window & Buyout
+## 10. Five-Year Liquidity Mechanism
 
-The 17.17% ownership across the Transformational Epicenter Real Estate Company, the Transformational Epicenter Operating Company, and the Transformational Epicenter IP / Data Company is structured around a **five-year value creation period**.
+Your 27.24% ownership across the Transformational Epicenter Real Estate Company, the Transformational Epicenter Operating Company, and the Transformational Epicenter IP / Data Company is structured around a **five-year value creation period**.
 
-After Year 5, **either party** may initiate a buyout:
+After five years, if you desire partial liquidity, the company may repurchase your original **$9.9 million principal investment**. This amount would be deducted from the fair market value of your equity at that time, and your ownership percentage would then be recalculated proportionally based on the remaining equity value.
 
-- **You have the right** to request a buyout of your 17.17% ownership across all three companies at fair market value.
-- **We have the right** to initiate a buyout of your 17.17% ownership across all three companies at fair market value.
-
-This is a balanced, mutual mechanism. Both sides have the ability to trigger liquidity when the time is right.
-
-| Term | Detail |
-|------|--------|
-| **Who can trigger** | Either party (seller or founders) |
-| **Earliest exercise** | Year 5 |
-| **Price** | Fair Market Value at time of buyout |
-| **How FMV is determined** | Independent third-party valuation, or pre-agreed EBITDA multiple methodology |
-| **Payment timeline** | 24 to 36 months from exercise date |
-| **Interest** | Interest accrues on the buyout valuation amount |
-| **Notice** | 60 days written notice |
-
-What that looks like in practice (Conservative scenario):
-- **Year 5 FMV:** ~$31.94M for your combined 17.17% *(projected)*
-- **Payment:** Structured over 24 to 36 months with interest
-- **Result:** Full liquidity at fair value, on a defined schedule
-
-You can't be squeezed below fair value. If a buyout is exercised, you get paid what your share is actually worth, with interest on the balance until fully paid.
-
----
-
-## 11. Minimum Value Protection Guarantee
-
-All enterprise values are projections based on operating assumptions. To provide downside protection and confidence in this structure, the agreement includes a **negotiated minimum buyout floor**.
+This gives you the ability to recover your original capital while maintaining a significant ongoing ownership position in the enterprise.
 
 ### How It Works
 
-The seller will not receive less than:
+| Step | Detail |
+|------|--------|
+| **Eligibility** | After Year 5 |
+| **Repurchase amount** | $9,900,000 (original principal) |
+| **Deducted from** | Fair market value of your 27.24% equity at time of repurchase |
+| **Remaining equity** | Recalculated proportionally based on remaining value |
 
-- The original **$11.9 million** valuation basis he is asking for
-- Plus **8% annual interest** applied to the $9.9 million equity reinvestment portion
+### Illustrative Recalculation by Scenario
 
-The 8% applies only to the $9.9M equity portion, not the $2M cash paid at closing.
+| | Conservative ($186M) | Base ($239M) | Aggressive ($293M) |
+|---|---|---|---|
+| **Initial equity value (27.24%)** | $50,666,400 | $65,103,600 | $79,813,200 |
+| **Principal repayment** | $9,900,000 | $9,900,000 | $9,900,000 |
+| **Remaining equity value** | $40,766,400 | $55,203,600 | $69,913,200 |
+| **Recalculated ownership** | **~21.92%** | **~23.10%** | **~23.86%** |
 
-### Five-Year Calculation
+In every scenario, you recover your full $9.9M principal and retain a substantial ownership position in a high-growth enterprise. You receive your capital back and continue to participate in the long-term value creation.
+
+---
+
+## 11. Minimum Capital Recovery
+
+All enterprise values are projections based on operating assumptions. To provide clarity and confidence in this structure, the agreement includes a **minimum capital recovery provision**.
+
+After five years, the minimum capital recovered by the seller equals:
 
 | Component | Value |
 |-----------|-------|
-| Equity reinvestment amount | $9,900,000 |
-| Annual interest (8%) | $792,000 per year |
-| Interest over five years | $3,960,000 |
-| **Minimum protected equity value at Year 5** | **$13,860,000** |
-| Cash already received at closing | $2,000,000 |
-| **Total minimum protected outcome** | **$15,860,000** |
+| Cash received at closing | $2,000,000 |
+| Principal repayment at Year 5 | $9,900,000 |
+| **Total minimum capital recovery** | **$11,900,000** |
 
-### How Fair Market Value Interacts With the Floor
-
-- If **fair market value at Year 5** exceeds the minimum floor, then **fair market value applies**. The seller receives the higher amount.
-- If **fair market value is lower** than the minimum floor, the **minimum buyout price becomes $13,860,000** for the 17.17% equity stake (plus the $2M already received at closing).
-
-Under all three valuation scenarios, the projected FMV far exceeds the minimum floor:
-
-| Scenario | 17.17% FMV | Minimum Floor | Outcome |
-|----------|------------|---------------|---------|
-| **Conservative** | $31,936,200 | $13,860,000 | FMV applies |
-| **Base** | $41,036,300 | $13,860,000 | FMV applies |
-| **Aggressive** | $50,308,100 | $13,860,000 | FMV applies |
+This ensures that the seller recovers the full $11.9 million valuation basis, regardless of enterprise performance, while retaining an ongoing equity position in the enterprise.
 
 ### What This Represents
 
-- **Capital preservation.** The seller's reinvested equity is protected.
+- **Capital preservation.** The seller's full investment is recoverable.
 - **Confidence-building mechanism.** The floor removes the fear of total downside.
-- **Downside protection.** Even in a worst-case scenario, the outcome exceeds a straight sale.
-- **Alignment assurance.** Both parties are incentivized to build value, with the seller's position secured.
-
-This is not a guaranteed return. It is a **negotiated minimum buyout floor**, subject to the definitive agreement between the parties.
+- **Continued upside.** Even after recovering full capital, the seller retains significant equity ownership.
+- **Alignment assurance.** Both parties are incentivized to build value, with the seller's position secured from day one.
 
 ---
 
@@ -317,7 +296,7 @@ In addition, if a **tax-efficient structure** can be legally implemented and is 
 
 **Important clarifications:**
 
-- This option does NOT change the core equity conversion structure. The $2M cash, 17.17% equity, and buyout terms remain intact.
+- This option does NOT change the core equity conversion structure. The $2M cash, 27.24% equity, and partnership terms remain intact.
 - If this pathway is not viable or not advantageous to you, the primary partnership structure stands entirely on its own.
 - Tax implications are conditional and subject to independent professional verification.
 - This is not presented as a tax write-off strategy. It is an optional enhancement, available only if it genuinely benefits you.
@@ -340,14 +319,14 @@ You built something extraordinary. You invested **$30 million** and **eight year
 
 **Our intention is for you to receive back $30 million or more in value if you join this project.** Not because we owe it, but because we believe in honoring both the capital and the life force you invested. Eight years is not just money. It is time, energy, vision, and sacrifice. That deserves to be met with something worthy of what you gave.
 
-We want to give you $2 million in cash, 17.17% equity across three companies conservatively projected to be worth $31.9M+, a minimum protection floor that guarantees your outcome exceeds a straight sale, first right of refusal on every future location, and a legacy that endures.
+We want to give you $2 million in cash, 27.24% equity across three companies projected to be worth $65.1M+ at base case, a capital recovery provision that ensures you get your full $11.9M back, first right of refusal on every future location, and a legacy that endures.
 
 Your property doesn't get torn down. It becomes a healing center and technology platform. Your name doesn't get forgotten. It goes on the wall. You don't walk away with a transaction. You walk away as a founding partner of something that outlives both of us.
 
-> "You invested $30 million and eight years into this property. The market wants to hand you $12 million. We're offering you $2 million cash and 17.17% equity in the Transformational Epicenter Real Estate Company, the Transformational Epicenter Operating Company, and the Transformational Epicenter IP / Data Company, conservatively projected to be worth $31.9M+ combined, with a minimum protection floor of $15.86 million and first right of refusal on every future location. Your property becomes the birthplace of a global healing movement. And you're not a former owner. You're a founding partner."
+> "You invested $30 million and eight years into this property. The market wants to hand you $12 million. We're offering you $2 million cash and 27.24% equity in the Transformational Epicenter Real Estate Company, the Transformational Epicenter Operating Company, and the Transformational Epicenter IP / Data Company, projected to be worth $65.1M+ combined at base case, with full capital recovery of $11.9 million and first right of refusal on every future location. Your property becomes the birthplace of a global healing movement. And you're not a former owner. You're a founding partner."
 
 We're not asking you to sell. We're inviting you to be part of something worth building.
 
 ---
 
-*This document is a summary of our offer and vision. All figures are projections based on current operating models and are subject to change. The minimum value protection guarantee is a negotiated buyout floor subject to definitive agreements. Tax benefits depend on individual circumstances and must be validated by qualified tax counsel. Equity terms will be formalized in a definitive agreement.*
+*This document is a summary of our offer and vision. All figures are projections based on current operating models and are subject to change. The minimum capital recovery provision is subject to definitive agreements. Tax benefits depend on individual circumstances and must be validated by qualified tax counsel. Equity terms will be formalized in a definitive agreement.*
