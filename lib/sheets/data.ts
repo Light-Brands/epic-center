@@ -14,7 +14,7 @@ import type {
 
 // All financial data aligned with updated expansion model (Feb 2026)
 // Synced with Google Sheets financial model — formula-driven values as of Feb 2026
-// Casita phasing: 15→60 rooms over 5 years, funded from operating cash flow
+// Casita phasing: 15→60 rooms over 5 years, Year 1 foundation (15 only), funded from operating cash flow
 // Base case = 60% Y1 → 75% Y2 → 80% Y3-5 occupancy, ramping capacity, $2,000/night ADR
 // Conservative = ~50-70% occupancy ramp | Aggressive = ~70-90% occupancy ramp
 // Add-on revenue: Bio-opt 15%, Wellness 4%, Post-care 6%, Concierge 3% (28% total at maturity)
@@ -24,15 +24,15 @@ import type {
 // ─── Casita Phasing Data ───────────────────────────────────────────────
 export const CASITA_PHASING = {
   years: [
-    { year: 1, startRooms: 15, added: 15, endRooms: 30, effectiveAvgRooms: 23, occupancy: 0.60, guests: 379 },
-    { year: 2, startRooms: 30, added: 10, endRooms: 40, effectiveAvgRooms: 35, occupancy: 0.75, guests: 720 },
-    { year: 3, startRooms: 40, added: 8, endRooms: 48, effectiveAvgRooms: 44, occupancy: 0.80, guests: 966 },
-    { year: 4, startRooms: 48, added: 6, endRooms: 54, effectiveAvgRooms: 51, occupancy: 0.80, guests: 1120 },
-    { year: 5, startRooms: 54, added: 6, endRooms: 60, effectiveAvgRooms: 57, occupancy: 0.80, guests: 1251 },
+    { year: 1, startRooms: 15, added: 0,  endRooms: 15, effectiveAvgRooms: 15, occupancy: 0.60, guests: 253 },
+    { year: 2, startRooms: 15, added: 15, endRooms: 30, effectiveAvgRooms: 23, occupancy: 0.70, guests: 440 },
+    { year: 3, startRooms: 30, added: 15, endRooms: 45, effectiveAvgRooms: 38, occupancy: 0.75, guests: 780 },
+    { year: 4, startRooms: 45, added: 8,  endRooms: 53, effectiveAvgRooms: 49, occupancy: 0.80, guests: 1073 },
+    { year: 5, startRooms: 53, added: 7,  endRooms: 60, effectiveAvgRooms: 57, occupancy: 0.80, guests: 1248 },
   ],
   totalCapacity: 60,
-  buildCostPerCasita: 225000, // ~$200-250K each
-  totalExpansionCost: 6750000, // ~$6-7.5M total over Years 2-5
+  buildCostPerCasita: 225000,
+  totalExpansionCost: 10125000, // 45 additional casitas × $225K (was $6.75M for 30 casitas)
   fundedFrom: 'Operating cash flow (no additional equity raise)',
 }
 
