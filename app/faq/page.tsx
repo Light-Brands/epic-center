@@ -44,7 +44,7 @@ const FAQS: FAQ[] = [
   {
     category: 'Operations',
     question: 'What is the treatment capacity?',
-    answer: 'The campus starts with 15 casitas at launch, expanding to 30 by end of Year 1 and ultimately to 60 casitas by Year 5. At 80% occupancy with a weighted average 13-day stay, we can serve approximately 1,280 guests annually at full capacity. Expansion is funded from operating cash flow.',
+    answer: 'The campus starts with 15 casitas at launch, remaining at 15 for the entire foundation year to prove the clinical model. Expansion to 30 casitas begins in Year 2, scaling to 60 by Year 5. At 80% occupancy with a weighted average 13-day stay, we serve approximately 1,248 guests annually at full capacity. All expansion is funded from operating cash flow — no additional equity raise required.',
   },
   {
     category: 'Operations',
