@@ -47,11 +47,11 @@ export const PROPERTY_FINANCIALS: Record<string, {
   guestsPerYear: { conservative: number; base: number; aggressive: number }
 }> = {
   'rancho-paraiso-oasis': {
-    revenuePotential: { conservative: 14600000, base: 17520000, aggressive: 18620000 },
+    revenuePotential: { conservative: 37000000, base: 42500000, aggressive: 48000000 },
     renovationCost: 1000000,
     operatingCostPerYear: 3015000,
     projectedIRR: { conservative: 0.25, base: 0.35, aggressive: 0.42 },
     paybackYears: 2,
-    guestsPerYear: { conservative: 1095, base: 1251, aggressive: 1329 },
+    guestsPerYear: { conservative: 1095, base: 1248, aggressive: 1400 },
   },
 }

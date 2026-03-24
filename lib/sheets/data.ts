@@ -14,7 +14,7 @@ import type {
 
 // All financial data aligned with updated expansion model (Feb 2026)
 // Synced with Google Sheets financial model — formula-driven values as of Feb 2026
-// Casita phasing: 30→60 rooms over 5 years, funded from operating cash flow
+// Casita phasing: 15→60 rooms over 5 years, funded from operating cash flow
 // Base case = 60% Y1 → 75% Y2 → 80% Y3-5 occupancy, ramping capacity, $2,000/night ADR
 // Conservative = ~50-70% occupancy ramp | Aggressive = ~70-90% occupancy ramp
 // Add-on revenue: Bio-opt 15%, Wellness 4%, Post-care 6%, Concierge 3% (28% total at maturity)
@@ -77,10 +77,10 @@ export const PROPERTIES: Property[] = [
       maxGuestsPerYear: 1251, // 57 effective rooms × 365 days / 13-day avg stay × 80% occ
     },
     acquisition: {
-      askingPrice: 11900000,
-      negotiatedPrice: 11900000,
+      askingPrice: 8000000,
+      negotiatedPrice: 8000000,
       closingCosts: 500000,
-      totalAcquisitionCost: 12400000,
+      totalAcquisitionCost: 8500000,
     },
     imageUrl: '/images/properties/hotel-alea-tulum.jpg',
   },
@@ -96,9 +96,9 @@ export const DASHBOARD_METRICS: DashboardMetrics = {
   recommendation: 'PROCEED',
   averageDailyRate: 2000,
   keyMetrics: {
-    acquisitionPrice: 11900000,
-    totalProjectCost: 17323500,
-    costPerRoom: 288725, // $17,323,500 / 60 rooms at full build
+    acquisitionPrice: 8000000,
+    totalProjectCost: 13423500,
+    costPerRoom: 223725, // $13,423,500 / 60 rooms at full build
     revenue: {
       year1: { conservative: 9772000, base: 11720000, aggressive: 13668000 },
       year3: { conservative: 28771000, base: 32890000, aggressive: 37010000 },
@@ -428,15 +428,15 @@ export const INVESTMENT_RETURNS: InvestmentReturns = {
 }
 
 // Use of funds from valuation report Section 6
-// Total: $17,323,500
+// Total: $13,423,500
 export const USE_OF_FUNDS: UseOfFunds[] = [
-  { category: 'Property Acquisition', amount: 12400000, percentage: 71.6, description: '$11.9M purchase + $500K closing costs' },
-  { category: 'Working Capital', amount: 1126000, percentage: 6.5, description: 'Operating runway' },
-  { category: 'Renovation & Conversion', amount: 1000000, percentage: 5.8, description: 'Renovations to make property operational' },
-  { category: 'Medical + Biohacking', amount: 1000000, percentage: 5.8, description: 'ICU/monitoring, diagnostic, IV systems, biohacking equipment' },
-  { category: 'Contingency', amount: 847500, percentage: 4.9, description: 'Risk buffer' },
-  { category: 'Technology', amount: 750000, percentage: 4.3, description: 'Tech development' },
-  { category: 'Pre-Opening', amount: 200000, percentage: 1.2, description: 'Licensing, training, soft launch' },
+  { category: 'Property Acquisition', amount: 8500000, percentage: 63.3, description: '$8.0M purchase + $500K closing costs' },
+  { category: 'Working Capital', amount: 1126000, percentage: 8.4, description: 'Operating runway' },
+  { category: 'Renovation & Conversion', amount: 1000000, percentage: 7.5, description: 'Renovations to make property operational' },
+  { category: 'Medical + Biohacking', amount: 1000000, percentage: 7.5, description: 'ICU/monitoring, diagnostic, IV systems, biohacking equipment' },
+  { category: 'Contingency', amount: 847500, percentage: 6.3, description: 'Risk buffer' },
+  { category: 'Technology', amount: 750000, percentage: 5.6, description: 'Tech development' },
+  { category: 'Pre-Opening', amount: 200000, percentage: 1.5, description: 'Licensing, training, soft launch' },
 ]
 
 // ─── Villa Program Financials ────────────────────────────────────────────
@@ -487,11 +487,11 @@ export const BUSINESS_UNITS: BusinessUnit[] = [
   {
     id: 'real-estate',
     name: 'Real Estate Development',
-    description: '48-villa condo-hotel plus $12.4M property appreciating at 5-10% annually',
+    description: '48-villa condo-hotel plus $8.5M property appreciating at 5-10% annually',
     y5Revenue: { conservative: 0, base: 0, aggressive: 0 }, // Y5 has no sales (all sold by Y4)
     y5EBITDA: { conservative: 0, base: 0, aggressive: 0 },
     y5Margin: 0,
-    multiple: 1.4, // ~appreciation factor at Y5 base (7% compound on $12.4M)
+    multiple: 1.4, // ~appreciation factor at Y5 base (7% compound on $8.5M)
     multipleLabel: 'Property appreciation (5/7/10% compound)',
     standaloneValue: { conservative: 15826000, base: 17392000, aggressive: 19970000 },
     yearlyRevenue: [
@@ -666,14 +666,14 @@ export const CONSOLIDATED_PL_STATEMENTS = PL_STATEMENTS.map((pl, index) => {
 // ─── Value Appreciation Constants ────────────────────────────────────────
 // Real estate appreciates at 5%/7%/10% compound annually (cons/base/agg)
 // Technology data premium: cumulative patient records × $5K/$10K/$15K per record
-const RE_BASE_VALUE = 12400000
+const RE_BASE_VALUE = 8500000
 const RE_APPRECIATION_RATES = { conservative: 0.05, base: 0.07, aggressive: 0.10 }
 const TECH_BASE_VALUE = { conservative: 5000000, base: 7500000, aggressive: 10000000 }
 const DATA_PREMIUM_PER_RECORD = { conservative: 5000, base: 10000, aggressive: 15000 }
 
 // ─── Investor's 3-Entity Offer Projections ──────────────────────────────────
 // Maps 4 business units into 3 investment entities with value appreciation:
-//   Entity A (Real Estate) = $12.4M property appreciating at compound rates
+//   Entity A (Real Estate) = $8.5M property appreciating at compound rates
 //   Entity B (Clinic/Ops) = Healing Center EBITDA × 5.5x + Property Mgmt EBITDA × 10x
 //   Entity C (Data/AI) = Technology platform base + per-patient-record data premium
 // Y5 entity totals align with BUSINESS_UNITS standaloneValues and ENTERPRISE_VALUATION.
