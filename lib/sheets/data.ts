@@ -51,11 +51,11 @@ export const VILLA_MODEL = {
     { name: 'Estate Villa', priceRange: '$2.5M - $3M', beds: 3, sqft: '2,800-3,500', count: 10 },
   ],
   phasing: [
-    { year: 1, villasSold: 8, builtOperational: 6, salesRevenue: 16000000 },
-    { year: 2, villasSold: 13, builtOperational: 16, salesRevenue: 26000000 },
-    { year: 3, villasSold: 16, builtOperational: 32, salesRevenue: 32000000 },
-    { year: 4, villasSold: 11, builtOperational: 48, salesRevenue: 22000000 },
-    { year: 5, villasSold: 0, builtOperational: 48, salesRevenue: 0 },
+    { year: 1, villasSold: 0, builtOperational: 0, salesRevenue: 0 },
+    { year: 2, villasSold: 4, builtOperational: 2, salesRevenue: 8000000 },
+    { year: 3, villasSold: 10, builtOperational: 10, salesRevenue: 20000000 },
+    { year: 4, villasSold: 16, builtOperational: 28, salesRevenue: 32000000 },
+    { year: 5, villasSold: 18, builtOperational: 48, salesRevenue: 36000000 },
   ],
   buyerFundedConstruction: true,
   revenueSplit: { owner: 75, management: 25 },
@@ -445,11 +445,11 @@ export const USE_OF_FUNDS: UseOfFunds[] = [
 // Rental revenue assumes ~70% occupancy, $300/night avg across villa types
 export const VILLA_PROGRAM_FINANCIALS: VillaProgramFinancials = {
   yearly: [
-    { year: 1, villasSold: 8, builtOperational: 6, salesRevenue: 16000000, developmentFee: 2000000, cumulativeDevFees: 2000000, mgmtFeeIncome: 164000, rentalRevenue: 657000 },
-    { year: 2, villasSold: 13, builtOperational: 16, salesRevenue: 26000000, developmentFee: 3250000, cumulativeDevFees: 5250000, mgmtFeeIncome: 438000, rentalRevenue: 1752000 },
-    { year: 3, villasSold: 16, builtOperational: 32, salesRevenue: 32000000, developmentFee: 4000000, cumulativeDevFees: 9250000, mgmtFeeIncome: 876000, rentalRevenue: 3504000 },
-    { year: 4, villasSold: 11, builtOperational: 48, salesRevenue: 22000000, developmentFee: 2750000, cumulativeDevFees: 12000000, mgmtFeeIncome: 1314000, rentalRevenue: 5256000 },
-    { year: 5, villasSold: 0, builtOperational: 48, salesRevenue: 0, developmentFee: 0, cumulativeDevFees: 12000000, mgmtFeeIncome: 1700000, rentalRevenue: 6800000 },
+    { year: 1, villasSold: 0, builtOperational: 0, salesRevenue: 0, developmentFee: 0, cumulativeDevFees: 0, mgmtFeeIncome: 0, rentalRevenue: 0 },
+    { year: 2, villasSold: 4, builtOperational: 2, salesRevenue: 8000000, developmentFee: 1000000, cumulativeDevFees: 1000000, mgmtFeeIncome: 71000, rentalRevenue: 283000 },
+    { year: 3, villasSold: 10, builtOperational: 10, salesRevenue: 20000000, developmentFee: 2500000, cumulativeDevFees: 3500000, mgmtFeeIncome: 354000, rentalRevenue: 1417000 },
+    { year: 4, villasSold: 16, builtOperational: 28, salesRevenue: 32000000, developmentFee: 4000000, cumulativeDevFees: 7500000, mgmtFeeIncome: 992000, rentalRevenue: 3967000 },
+    { year: 5, villasSold: 18, builtOperational: 48, salesRevenue: 36000000, developmentFee: 4500000, cumulativeDevFees: 12000000, mgmtFeeIncome: 1700000, rentalRevenue: 6800000 },
   ],
   cumulativeDevFees: 12000000,
   totalVillaSales: 96000000,
