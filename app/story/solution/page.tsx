@@ -209,7 +209,7 @@ const VISION_PHASES = [
   {
     year: 'Year 4\u20135',
     title: 'Maturity',
-    description: 'Optimized operations at 80% occupancy. 48-villa program nearing completion. $34M annual revenue. Industry-leading clinical outcomes and research.',
+    description: 'Optimized operations at 80% occupancy. 48-villa program nearing completion. $42M annual revenue. Industry-leading clinical outcomes and research.',
   },
 ]
 

@@ -35,10 +35,10 @@ const scaleInVariants = {
 const HIGHLIGHTS = [
   {
     icon: '/icons/project-cost.png',
-    stat: '$17.3M',
+    stat: '$13.4M',
     label: 'Total Project',
     description:
-      'A vertically integrated health intelligence platform spanning real estate, clinical operations, and proprietary data.',
+      'A capital-efficient, vertically integrated health intelligence platform spanning real estate, clinical operations, and proprietary data.',
   },
   {
     icon: '/icons/diff-luxury.png',

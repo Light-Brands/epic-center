@@ -6,11 +6,11 @@ import { Button, Card } from '@/components/ui'
 import { Footer } from '@/components/layout'
 
 const CASITA_PHASES = [
-  { year: 'Year 1', start: 15, add: '+15', end: 30, occ: '60%', guests: '~387', revenue: '$10.3M' },
-  { year: 'Year 2', start: 30, add: '+10', end: 40, occ: '75%', guests: '~737', revenue: '$19.6M' },
-  { year: 'Year 3', start: 40, add: '+8', end: 48, occ: '80%', guests: '~988', revenue: '$26.3M' },
-  { year: 'Year 4', start: 48, add: '+6', end: 54, occ: '80%', guests: '~1,145', revenue: '$30.5M' },
-  { year: 'Year 5', start: 54, add: '+6', end: 60, occ: '80%', guests: '~1,280', revenue: '$34.0M' },
+  { year: 'Year 1', start: 15, add: '+0', end: 15, occ: '60%', guests: '~253', revenue: '$7.8M' },
+  { year: 'Year 2', start: 15, add: '+15', end: 30, occ: '70%', guests: '~440', revenue: '$14.4M' },
+  { year: 'Year 3', start: 30, add: '+15', end: 45, occ: '75%', guests: '~780', revenue: '$25.7M' },
+  { year: 'Year 4', start: 45, add: '+8', end: 53, occ: '80%', guests: '~1,073', revenue: '$35.7M' },
+  { year: 'Year 5', start: 53, add: '+7', end: 60, occ: '80%', guests: '~1,248', revenue: '$42.0M' },
 ]
 
 
@@ -50,8 +50,8 @@ export default function ExpansionPage() {
                   {[
                     'Funded from operating cash flow - no dilution',
                     'Operational leverage: ~1.6x costs for 2x rooms',
-                    'Revenue grows from $10.3M → $34.0M over 5 years',
-                    'EBITDA margin expands from 42% to 60%',
+                    'Revenue grows from $7.8M → $42M over 5 years',
+                    'EBITDA margin expands from 8% to 70%',
                   ].map((item) => (
                     <div key={item} className="flex items-center gap-2">
                       <CheckCircle2 className="w-5 h-5 text-secondary-400 flex-shrink-0" />
@@ -63,9 +63,9 @@ export default function ExpansionPage() {
               <div className="grid grid-cols-2 gap-4">
                 {[
                   { value: '60', label: 'Total Casitas', sublabel: 'By Year 5' },
-                  { value: '1,280', label: 'Guests/Year', sublabel: 'At full capacity' },
-                  { value: '$34M', label: 'Year 5 Revenue', sublabel: 'Base case' },
-                  { value: '$120.7M', label: '5-Year Revenue', sublabel: 'Cumulative' },
+                  { value: '1,248', label: 'Guests/Year', sublabel: 'At full capacity' },
+                  { value: '$42M', label: 'Year 5 Revenue', sublabel: 'Base case' },
+                  { value: '$126M', label: '5-Year Revenue', sublabel: 'Cumulative' },
                 ].map((stat) => (
                   <div key={stat.label} className="bg-primary-700/50 rounded-xl p-4 text-center">
                     <p className="font-heading text-2xl text-secondary-400">{stat.value}</p>
@@ -185,9 +185,9 @@ export default function ExpansionPage() {
 
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             {[
-              { phase: 'Phase 1', period: '2026-2027', focus: 'Launch & Prove', details: 'Open with 15 casitas, ramp to 30. Establish clinical protocols, build brand, achieve 60% occupancy.' },
-              { phase: 'Phase 2', period: '2027-2028', focus: 'Scale Operations', details: 'Expand to 40-48 casitas. Launch villa sales program. Reach 75-80% occupancy and operating profitability.' },
-              { phase: 'Phase 3', period: '2029-2030', focus: 'Full Capacity', details: 'Complete 60-casita campus. 48-villa collection in progress. $34M annual revenue at 80% occupancy.' },
+              { phase: 'Phase 1', period: '2026', focus: 'Foundation Year', details: 'Open with 15 casitas. Prove the clinical model, build data systems, achieve 60% occupancy. Precision over pressure.' },
+              { phase: 'Phase 2', period: '2027-2028', focus: 'Scale & Expand', details: 'Expand 15 → 30 → 45 casitas. Launch villa sales program. Reach 70-75% occupancy and strong profitability.' },
+              { phase: 'Phase 3', period: '2029-2030', focus: 'Full Capacity', details: 'Complete 60-casita campus. 48-villa collection in progress. $42M annual revenue at 80% occupancy.' },
             ].map((phase, index) => (
               <Card key={phase.phase} padding="lg" className={index === 0 ? 'border-2 border-primary-600' : ''}>
                 {index === 0 && (
@@ -218,8 +218,8 @@ export default function ExpansionPage() {
                 {[
                   { value: '60', label: 'Casitas', sublabel: 'Treatment capacity' },
                   { value: '48', label: 'Villas', sublabel: '$96M total sales' },
-                  { value: '$34M', label: 'Annual Revenue', sublabel: 'Year 5 base case' },
-                  { value: '60%', label: 'EBITDA Margin', sublabel: 'At maturity' },
+                  { value: '$42M', label: 'Annual Revenue', sublabel: 'Year 5 base case' },
+                  { value: '70%', label: 'EBITDA Margin', sublabel: 'At maturity' },
                 ].map((item) => (
                   <div key={item.label} className="bg-primary-700/50 rounded-lg p-4">
                     <p className="font-heading text-2xl text-secondary-400 mb-1">{item.value}</p>

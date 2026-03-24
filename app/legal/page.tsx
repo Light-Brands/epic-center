@@ -68,7 +68,7 @@ const RISK_FIREWALLS = [
   {
     entity: 'PropCo (Real Estate)',
     risks: 'Construction, environment, property disputes',
-    assets: '$12.4M property',
+    assets: '$8.5M property',
   },
   {
     entity: 'OpCo (Operations)',

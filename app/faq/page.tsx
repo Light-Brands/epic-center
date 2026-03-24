@@ -22,7 +22,7 @@ const FAQS: FAQ[] = [
   {
     category: 'Investment',
     question: 'What is the investment structure?',
-    answer: 'This is a 100% equity investment totaling $17.3M for the initial 30-casita campus. Expansion to 60 casitas is funded from operating cash flow, with no additional equity raise required. Investors receive common equity in Transformational Epicenter Holdings, LLC (Delaware).',
+    answer: 'This is a 100% equity investment totaling $13.4M for the foundation-year 15-casita campus. Expansion to 60 casitas over 5 years is funded from operating cash flow, with no additional equity raise required. Investors receive 49% common equity in Transformational Epicenter Holdings, LLC (Delaware) — a true co-ownership partnership.',
   },
   // Legal & Regulatory
   {
@@ -81,7 +81,7 @@ const FAQS: FAQ[] = [
   {
     category: 'Timeline',
     question: 'When will the facility open?',
-    answer: 'First patients begin in Q2 2026 with 15 casitas. An additional 15 casitas come online through Q4 2026, reaching 30-casita capacity by year end. Continued expansion adds 30 more casitas over Years 2-5, reaching full 60-casita capacity by 2030.',
+    answer: 'First patients begin in Q2 2026 with 15 casitas. Year 1 is the foundation year — proving the clinical model at 15 casitas. Expansion to 30 casitas begins in Year 2, funded from operating cash flow, reaching full 60-casita capacity by 2030.',
   },
   {
     category: 'Timeline',

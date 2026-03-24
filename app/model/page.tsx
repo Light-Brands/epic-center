@@ -300,7 +300,7 @@ export default function ModelPage() {
                     </table>
                   </div>
                   <p className="text-xs sm:text-sm text-neutral-500 mt-4">
-                    All construction is buyer-funded. Development fees are earned on sale with minimal capital at risk. Underlying $12.4M property appreciates at 7% compound (base case), reaching {formatCurrency(businessUnits[1].standaloneValue[scenario])} by Year 5.
+                    All construction is buyer-funded. Development fees are earned on sale with minimal capital at risk. Underlying $8.5M property appreciates at 7% compound (base case), reaching {formatCurrency(businessUnits[1].standaloneValue[scenario])} by Year 5.
                   </p>
                 </div>
             </Card>

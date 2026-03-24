@@ -81,7 +81,7 @@ export default function PropertiesPage() {
                 <p className="text-primary-200 max-w-xl">
                   A phased development opportunity: 15 casitas operational at launch, expanding
                   to 60 over 5 years. Expansion funded from operating cash flow. Total seed investment
-                  of {formatCurrency(17323500)} for acquisition, build-out, and technology.
+                  of {formatCurrency(13423500)} for acquisition, build-out, and technology.
                 </p>
               </div>
               <Link href={`/properties/${property.id}`}>
@@ -98,15 +98,15 @@ export default function PropertiesPage() {
         <section className="mb-16">
           <h3 className="text-2xl font-heading text-neutral-900 mb-6">Casita Expansion Plan</h3>
           <p className="text-neutral-600 mb-6">
-            Expanding from 30 to 60 casitas over 5 years, funded entirely from operating cash flow, no additional equity raise required.
+            Starting with 15 casitas in the foundation year, expanding to 60 over 5 years, funded entirely from operating cash flow. No additional equity raise required.
           </p>
           <div className="grid md:grid-cols-5 gap-4">
             {[
-              { year: 'Year 1', start: 15, add: '+15', end: 30, occ: '60%', guests: '~387' },
-              { year: 'Year 2', start: 30, add: '+10', end: 40, occ: '75%', guests: '~737' },
-              { year: 'Year 3', start: 40, add: '+8', end: 48, occ: '80%', guests: '~988' },
-              { year: 'Year 4', start: 48, add: '+6', end: 54, occ: '80%', guests: '~1,145' },
-              { year: 'Year 5', start: 54, add: '+6', end: 60, occ: '80%', guests: '~1,280' },
+              { year: 'Year 1', start: 15, add: '+0', end: 15, occ: '60%', guests: '~253' },
+              { year: 'Year 2', start: 15, add: '+15', end: 30, occ: '70%', guests: '~440' },
+              { year: 'Year 3', start: 30, add: '+15', end: 45, occ: '75%', guests: '~780' },
+              { year: 'Year 4', start: 45, add: '+8', end: 53, occ: '80%', guests: '~1,073' },
+              { year: 'Year 5', start: 53, add: '+7', end: 60, occ: '80%', guests: '~1,248' },
             ].map((phase, index) => (
               <Card key={phase.year} padding="lg" className={index === 4 ? 'bg-primary-50' : ''}>
                 <p className="font-accent text-sm uppercase tracking-widest text-primary-600 mb-2">{phase.year}</p>
@@ -129,13 +129,13 @@ export default function PropertiesPage() {
               <h4 className="font-heading text-lg text-neutral-900 mb-4">Capital Allocation</h4>
               <div className="space-y-3">
                 {[
-                  { label: 'Property Acquisition', value: '$12,400,000', pct: '71.6%' },
-                  { label: 'Working Capital', value: '$1,126,000', pct: '6.5%' },
-                  { label: 'Renovation & Conversion', value: '$1,000,000', pct: '5.8%' },
-                  { label: 'Medical + Biohacking', value: '$1,000,000', pct: '5.8%' },
-                  { label: 'Contingency', value: '$847,500', pct: '4.9%' },
-                  { label: 'Technology', value: '$750,000', pct: '4.3%' },
-                  { label: 'Pre-Opening', value: '$200,000', pct: '1.2%' },
+                  { label: 'Property Acquisition', value: '$8,500,000', pct: '63.3%' },
+                  { label: 'Working Capital', value: '$1,126,000', pct: '8.4%' },
+                  { label: 'Renovation & Conversion', value: '$1,000,000', pct: '7.5%' },
+                  { label: 'Medical + Biohacking', value: '$1,000,000', pct: '7.5%' },
+                  { label: 'Contingency', value: '$847,500', pct: '6.3%' },
+                  { label: 'Technology', value: '$750,000', pct: '5.6%' },
+                  { label: 'Pre-Opening', value: '$200,000', pct: '1.5%' },
                 ].map((item) => (
                   <div key={item.label} className="flex justify-between items-center py-2 border-b border-neutral-100 last:border-0">
                     <span className="text-neutral-700">{item.label}</span>
@@ -148,7 +148,7 @@ export default function PropertiesPage() {
                 <div className="pt-3 border-t-2 border-primary-800">
                   <div className="flex justify-between items-center">
                     <span className="font-medium text-neutral-900">Total Investment</span>
-                    <span className="font-heading text-2xl text-primary-800">$17,323,500</span>
+                    <span className="font-heading text-2xl text-primary-800">$13,423,500</span>
                   </div>
                 </div>
               </div>
@@ -157,11 +157,11 @@ export default function PropertiesPage() {
               <h4 className="font-heading text-lg text-neutral-900 mb-4">Financial Projections</h4>
               <div className="space-y-3">
                 {[
-                  { label: 'Year 1 Net Income', value: '$2.8M' },
-                  { label: 'Year 2 Net Income', value: '$7.5M' },
-                  { label: 'Year 3-5 Net Income', value: '$12.6M avg/yr' },
-                  { label: '5-Year Net Income', value: '$48.1M' },
-                  { label: 'Y5 Enterprise Value', value: '$189.4M' },
+                  { label: 'Year 1 Net Income', value: '-$19K' },
+                  { label: 'Year 2 Net Income', value: '$3.9M' },
+                  { label: 'Year 3-5 Net Income', value: '$15.7M avg/yr' },
+                  { label: '5-Year Net Income', value: '$51.0M' },
+                  { label: 'Y5 Enterprise Value', value: '$229M' },
                 ].map((item) => (
                   <div key={item.label} className="flex justify-between items-center py-2 border-b border-neutral-100 last:border-0">
                     <span className="text-neutral-700">{item.label}</span>

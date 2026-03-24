@@ -37,19 +37,19 @@ const VILLA_TIERS = [
 ]
 
 const VILLA_PHASING = [
-  { year: 'Year 1', sold: 8, built: 6, salesRevenue: '$16M' },
-  { year: 'Year 2', sold: 13, built: 16, salesRevenue: '$26M' },
-  { year: 'Year 3', sold: 16, built: 32, salesRevenue: '$32M' },
-  { year: 'Year 4', sold: 11, built: 48, salesRevenue: '$22M' },
-  { year: 'Year 5', sold: 0, built: 48, salesRevenue: '$0' },
+  { year: 'Year 1', sold: 0, built: 0, salesRevenue: '$0' },
+  { year: 'Year 2', sold: 4, built: 2, salesRevenue: '$8M' },
+  { year: 'Year 3', sold: 10, built: 10, salesRevenue: '$20M' },
+  { year: 'Year 4', sold: 16, built: 28, salesRevenue: '$32M' },
+  { year: 'Year 5', sold: 18, built: 48, salesRevenue: '$36M' },
 ]
 
 const REVENUE_PROJECTIONS = [
-  { year: 'Year 1', devFees: '$2.0M', mgmtFees: '$0.1M', totalFees: '$2.1M' },
-  { year: 'Year 2', devFees: '$3.25M', mgmtFees: '$0.4M', totalFees: '$3.65M' },
-  { year: 'Year 3', devFees: '$4.0M', mgmtFees: '$0.9M', totalFees: '$4.9M' },
-  { year: 'Year 4', devFees: '$2.75M', mgmtFees: '$1.4M', totalFees: '$4.15M' },
-  { year: 'Year 5', devFees: '$0', mgmtFees: '$1.7M', totalFees: '$1.7M' },
+  { year: 'Year 1', devFees: '$0', mgmtFees: '$0', totalFees: '$0' },
+  { year: 'Year 2', devFees: '$1.0M', mgmtFees: '$0.07M', totalFees: '$1.07M' },
+  { year: 'Year 3', devFees: '$2.5M', mgmtFees: '$0.35M', totalFees: '$2.85M' },
+  { year: 'Year 4', devFees: '$4.0M', mgmtFees: '$0.99M', totalFees: '$4.99M' },
+  { year: 'Year 5', devFees: '$4.5M', mgmtFees: '$1.7M', totalFees: '$6.2M' },
 ]
 
 const fadeUp = {

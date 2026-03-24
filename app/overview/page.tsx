@@ -178,7 +178,7 @@ export default function OverviewPage() {
       unit: BUSINESS_UNITS[1],
       icon: Building2,
       metric1Label: 'Property Base',
-      metric1: '$12.4M',
+      metric1: '$8.5M',
       metric2Label: 'Y5 Appreciated',
       metric2: formatCurrency(BUSINESS_UNITS[1].standaloneValue[scenario]),
       value: formatCurrency(BUSINESS_UNITS[1].standaloneValue[scenario]),
@@ -235,7 +235,7 @@ export default function OverviewPage() {
             <span className="font-heading text-2xl md:text-3xl text-secondary-400">
               {formatCurrency(metrics.totalProjectCost)}
             </span>
-            <span className="text-sm text-primary-300">seed round &middot; ~30% equity</span>
+            <span className="text-sm text-primary-300">seed round &middot; 49% equity</span>
           </div>
         </motion.div>
       </section>

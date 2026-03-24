@@ -1142,8 +1142,8 @@ export default function TechnologyPage() {
                       ))}
                     </div>
                     <p className="text-sm text-neutral-600 leading-relaxed">
-                      Technology represents 22% of the total $239M enterprise valuation. The $750K
-                      CapEx is reflected in the $17.3M raise. Annual OpEx of $228K is included across
+                      Technology represents a significant share of the $229M enterprise valuation. The $750K
+                      CapEx is reflected in the $13.4M raise. Annual OpEx of $228K is included across
                       all P&L projections.
                     </p>
                   </div>

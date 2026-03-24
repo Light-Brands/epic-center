@@ -28,10 +28,14 @@ import {
   INVESTOR_OFFER_PROJECTIONS,
   CASITA_PHASING,
   REVENUE_PROJECTIONS,
+  PROPERTIES,
+  INVESTMENT_RETURNS,
 } from '@/lib/sheets/data'
 import { formatCurrency } from '@/lib/sheets/service'
 
 const proj = INVESTOR_OFFER_PROJECTIONS
+const equityPct = proj.investorEquityPercent
+const equityLabel = `${Math.round(equityPct * 100)}%`
 
 function fmtM(value: number): string {
   return `$${Math.round(value / 1000000)}M`
@@ -63,9 +67,9 @@ function OfferContent() {
               The Offer
             </h1>
             <p className="text-xl text-neutral-600 mb-4">
-              A once-in-a-generation opportunity to own 30% of a vertically integrated
+              A once-in-a-generation opportunity to own {equityLabel} of a vertically integrated
               health intelligence platform spanning real estate, clinical operations,
-              and proprietary data at the frontier of psychedelic medicine.
+              and proprietary data at the frontier of psychedelic medicine — a true co-ownership partnership.
             </p>
             <p className="text-lg text-neutral-500 mb-8">
               This is a legacy investment. Not a fund allocation.
@@ -91,7 +95,7 @@ function OfferContent() {
               accent
             />
             <MetricCard
-              label="Investor's 30% Share"
+              label="Investor&apos;s {equityLabel} Share"
               value={fmtM(y5.investorEquity[scenario])}
               subtitle="Year 5 equity value"
               accent
@@ -284,8 +288,8 @@ function OfferContent() {
           <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Three Investment Pillars</h2>
           <p className="text-neutral-600 mb-8 max-w-3xl">
             The Epicenter is structured as three distinct but synergistic entities.
-            The Investor receives 30% equity across all three, participating in real asset
-            appreciation, operational cash flow, and exponential data value.
+            The Investor receives {equityLabel} equity across all three, participating in real asset
+            appreciation, operational cash flow, and exponential data value — a genuine co-ownership partnership.
           </p>
 
           <div className="grid lg:grid-cols-3 gap-6">
@@ -308,15 +312,15 @@ function OfferContent() {
               <div className="space-y-2 pt-4 border-t border-neutral-100">
                 <div className="flex justify-between text-sm">
                   <span className="text-neutral-500">Acquisition Cost</span>
-                  <span className="text-neutral-800 font-medium">{formatCurrency(12400000)}</span>
+                  <span className="text-neutral-800 font-medium">{formatCurrency(PROPERTIES[0].acquisition.totalAcquisitionCost)}</span>
                 </div>
                 <div className="flex justify-between text-sm">
                   <span className="text-neutral-500">Y5 Value ({SCENARIO_LABELS[scenario]})</span>
                   <span className="text-neutral-800 font-medium">{formatCurrency(y5.realEstate[scenario])}</span>
                 </div>
                 <div className="flex justify-between text-sm">
-                  <span className="text-neutral-500">Investor&apos;s 30%</span>
-                  <span className="text-secondary-600 font-medium">{formatCurrency(Math.round(y5.realEstate[scenario] * 0.30))}</span>
+                  <span className="text-neutral-500">Investor&apos;s {equityLabel}</span>
+                  <span className="text-secondary-600 font-medium">{formatCurrency(Math.round(y5.realEstate[scenario] * equityPct))}</span>
                 </div>
               </div>
             </Card>
@@ -347,8 +351,8 @@ function OfferContent() {
                   <span className="text-neutral-800 font-medium">{formatCurrency(y5.clinicOpsIP[scenario])}</span>
                 </div>
                 <div className="flex justify-between text-sm">
-                  <span className="text-neutral-500">Investor&apos;s 30%</span>
-                  <span className="text-secondary-600 font-medium">{formatCurrency(Math.round(y5.clinicOpsIP[scenario] * 0.30))}</span>
+                  <span className="text-neutral-500">Investor&apos;s {equityLabel}</span>
+                  <span className="text-secondary-600 font-medium">{formatCurrency(Math.round(y5.clinicOpsIP[scenario] * equityPct))}</span>
                 </div>
               </div>
             </Card>
@@ -379,8 +383,8 @@ function OfferContent() {
                   <span className="text-neutral-800 font-medium">{formatCurrency(y5.dataAI[scenario])}</span>
                 </div>
                 <div className="flex justify-between text-sm">
-                  <span className="text-neutral-500">Investor&apos;s 30%</span>
-                  <span className="text-secondary-600 font-medium">{formatCurrency(Math.round(y5.dataAI[scenario] * 0.30))}</span>
+                  <span className="text-neutral-500">Investor&apos;s {equityLabel}</span>
+                  <span className="text-secondary-600 font-medium">{formatCurrency(Math.round(y5.dataAI[scenario] * equityPct))}</span>
                 </div>
               </div>
             </Card>
@@ -393,7 +397,7 @@ function OfferContent() {
         <section className="mb-20">
           <h2 className="text-3xl font-heading text-neutral-900 mb-4">Proposed Equity Offer: Financial Projections</h2>
           <p className="text-neutral-600 mb-8 max-w-3xl">
-            The Investor&apos;s 30% stake across all three entities. Use the scenario toggle above
+            The Investor&apos;s {equityLabel} stake across all three entities. Use the scenario toggle above
             to switch between conservative, base, and strong performance projections.
           </p>
 
@@ -407,7 +411,7 @@ function OfferContent() {
                     <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Clinic/Ops/IP</th>
                     <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Data/AI</th>
                     <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Total Enterprise</th>
-                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider font-bold">Investor&apos;s 30%</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider font-bold">Investor&apos;s {equityLabel}</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-neutral-100">
@@ -536,7 +540,7 @@ function OfferContent() {
               {
                 icon: Home,
                 title: 'Real Estate Floor',
-                description: 'The $12.4M property provides hard asset protection. Even in a worst case, prime Tulum real estate retains and appreciates in value independently of operations.',
+                description: 'The $8.5M property provides hard asset protection. Even in a worst case, prime Tulum real estate retains and appreciates in value independently of operations.',
               },
             ].map((risk) => (
               <Card key={risk.title} padding="lg">
