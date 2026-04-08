@@ -1,6 +1,5 @@
 'use client'
 
-import { useState } from 'react'
 import { motion } from 'framer-motion'
 import {
   Shield,
@@ -21,22 +20,19 @@ import { MetricCard } from '@/components/financial'
 import { Footer } from '@/components/layout'
 import {
   PROPERTY_FACTS,
-  FIRE_SALE_SCENARIOS,
   SCENARIO_A,
   SELLER_FINANCE_TERMS,
   PAYMENT_SCHEDULE,
   PAYMENT_TOTALS,
-  EQUITY_TIERS,
+  EQUITY,
   ENTERPRISE_VALUATIONS,
   ANNUAL_DISTRIBUTIONS,
   STEADY_STATE_DIVIDENDS,
-  CUMULATIVE_RETURN_10PCT,
+  CUMULATIVE_RETURN,
   DEFAULT_SCENARIOS,
-  TOTAL_RETURN_SUMMARY,
+  TOTAL_RETURN,
   formatCurrency,
 } from '@/lib/data/partner-scenarios'
-
-type EquityTier = 'base' | 'withReinvestment'
 
 const fadeUp = {
   initial: { opacity: 0, y: 24 },
@@ -44,18 +40,7 @@ const fadeUp = {
   transition: { duration: 0.6, ease: [0.25, 0.1, 0.25, 1] },
 }
 
-const stagger = {
-  animate: { transition: { staggerChildren: 0.1 } },
-}
-
 export default function PartnerPage() {
-  const [selectedTier, setSelectedTier] = useState<EquityTier>('withReinvestment')
-  const tier = EQUITY_TIERS[selectedTier]
-  const equityPct = tier.equityPercent
-  const summary = selectedTier === 'base' ? TOTAL_RETURN_SUMMARY.at8Percent : TOTAL_RETURN_SUMMARY.at10Percent
-  const dividendKey = selectedTier === 'base' ? 'at8Pct' : 'at10Pct'
-  const steadyState = STEADY_STATE_DIVIDENDS[dividendKey]
-
   return (
     <div className="min-h-screen bg-canvas">
       {/* ═══════════════════════════════════════════════════════════════
@@ -78,11 +63,11 @@ export default function PartnerPage() {
             A Private Partnership Proposal
           </p>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-display text-white mb-6 leading-tight">
-            Jeff, Your Land Could Be<br className="hidden md:block" /> Worth More Than You Think
+            Jeff, We Want to Pay<br className="hidden md:block" /> Your Full Asking Price
           </h1>
           <p className="text-xl text-primary-100 max-w-2xl mx-auto mb-4">
-            You put $25 million into Rancho Paraiso Oasis. We believe that investment
-            can come back to you. Not through a fire sale. Through a partnership.
+            $11.9 million. No discount. No negotiation on price. And a partnership
+            structure that could recover the full $25 million you invested.
           </p>
           <p className="text-lg text-primary-200/70">
             Two paths. One property. Your choice.
@@ -104,9 +89,8 @@ export default function PartnerPage() {
           </p>
           <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
             That investment represents more than construction costs. It represents
-            vision, risk, and years of commitment. We see the value you created. The
-            market may not reflect it right now, but we believe the right use of this
-            property can.
+            vision, risk, and years of commitment. We see the value you created, and
+            we are prepared to pay your full asking price for it.
           </p>
 
           <div className="grid sm:grid-cols-3 gap-6">
@@ -117,74 +101,30 @@ export default function PartnerPage() {
               accent
             />
             <MetricCard
-              label="Current List Price"
-              value={formatCurrency(PROPERTY_FACTS.listPrice)}
-              subtitle="Public asking price"
+              label="Our Offer"
+              value={formatCurrency(PROPERTY_FACTS.askingPrice)}
+              subtitle="Your full asking price"
+              accent
             />
             <MetricCard
-              label="Implied Loss"
-              value="-$13M+"
-              subtitle="At current list price"
-              trend="down"
-              trendValue="53% loss"
+              label="Partnership Path"
+              value="$30.7M+"
+              subtitle="Total value with equity + dividends"
+              trend="up"
+              trendValue="122% recovery"
+              accent
             />
           </div>
         </motion.section>
 
         {/* ═══════════════════════════════════════════════════════════
-            Section 3: The Fire Sale Reality
-        ═══════════════════════════════════════════════════════════ */}
-        <motion.section className="mb-24" {...fadeUp}>
-          <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Fire Sale Reality</h2>
-          <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-            A 20% agent commission on an $11.9M listing is $2.38 million that goes to
-            someone else. And fire sales rarely close at list price. Here is what you
-            actually net at various sale prices.
-          </p>
-
-          <Card padding="none" className="overflow-hidden mb-8">
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="bg-primary-800 text-white">
-                    <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Scenario</th>
-                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Sale Price</th>
-                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Commission (20%)</th>
-                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Net to You</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-neutral-100">
-                  {FIRE_SALE_SCENARIOS.map((row) => (
-                    <tr key={row.label} className="hover:bg-canvas-subtle transition-colors">
-                      <td className="px-4 py-3 text-neutral-800">{row.label}</td>
-                      <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(row.salePrice)}</td>
-                      <td className="px-4 py-3 text-right text-error-600">{row.commission > 0 ? `-${formatCurrency(row.commission)}` : '$0'}</td>
-                      <td className="px-4 py-3 text-right font-medium text-neutral-900">{formatCurrency(row.netToJeff)}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </Card>
-
-          <Card padding="lg" className="bg-secondary-50 border border-secondary-200">
-            <p className="text-neutral-800">
-              <span className="font-medium">The reality:</span> After commissions, a fire sale at list
-              price nets you $9.52M. If it sells below list (common in fire sales), you
-              could net less than $8M. Our clean offer of $8M with zero commission puts
-              you in the same position with certainty.
-            </p>
-          </Card>
-        </motion.section>
-
-        {/* ═══════════════════════════════════════════════════════════
-            Section 4: Two Paths Forward
+            Section 3: Two Paths Forward
         ═══════════════════════════════════════════════════════════ */}
         <motion.section className="mb-24" {...fadeUp}>
           <h2 className="text-3xl font-heading text-neutral-900 mb-4">Two Paths Forward</h2>
           <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-            We are offering you a choice. One path is simple and immediate. The other
-            is the path to recovering the full value of what you built.
+            Both paths start at the same number: $11.9 million. The difference is
+            what happens after.
           </p>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -202,24 +142,24 @@ export default function PartnerPage() {
               <div className="space-y-4 mb-6">
                 <div className="flex justify-between">
                   <span className="text-neutral-600">Purchase price</span>
-                  <span className="font-medium text-neutral-900">$8,000,000</span>
+                  <span className="font-medium text-neutral-900">{formatCurrency(SCENARIO_A.purchasePrice)}</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-neutral-600">Commission</span>
-                  <span className="font-medium text-success-700">$0</span>
+                  <span className="text-neutral-600">Broker commission (6%)</span>
+                  <span className="font-medium text-neutral-500">Paid by us</span>
                 </div>
                 <div className="border-t border-neutral-200 pt-3 flex justify-between">
                   <span className="font-medium text-neutral-800">Net to you</span>
-                  <span className="font-heading text-2xl text-neutral-900">$8M</span>
+                  <span className="font-heading text-2xl text-neutral-900">{formatCurrency(SCENARIO_A.netToJeff)}</span>
                 </div>
               </div>
               <p className="text-sm text-neutral-500 mb-4">
-                Certainty. Speed. No ongoing relationship. You walk away clean.
-                You recover 32% of your $25M investment.
+                Full asking price. Certainty. Speed. No ongoing relationship. You
+                recover 48% of your $25M investment.
               </p>
               <div className="bg-neutral-50 rounded-lg p-4">
                 <p className="text-xs font-accent uppercase tracking-wider text-neutral-500 mb-1">Recovery</p>
-                <p className="font-heading text-3xl text-neutral-900">32%</p>
+                <p className="font-heading text-3xl text-neutral-900">48%</p>
                 <p className="text-sm text-neutral-500">of your $25M investment</p>
               </div>
             </Card>
@@ -240,50 +180,50 @@ export default function PartnerPage() {
               </div>
               <div className="space-y-4 mb-6">
                 <div className="flex justify-between">
-                  <span className="text-neutral-600">Day-one cash</span>
-                  <span className="font-medium text-neutral-900">$1,600,000</span>
+                  <span className="text-neutral-600">Purchase price</span>
+                  <span className="font-medium text-neutral-900">{formatCurrency(SELLER_FINANCE_TERMS.purchasePrice)}</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-neutral-600">Total cash (6 years)</span>
-                  <span className="font-medium text-neutral-900">$9,519,200</span>
+                  <span className="text-neutral-600">Total cash (6 years + interest)</span>
+                  <span className="font-medium text-neutral-900">{formatCurrency(PAYMENT_TOTALS.totalCashToJeff)}</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-neutral-600">Equity stake</span>
-                  <span className="font-medium text-secondary-600">8-10%</span>
+                  <span className="font-medium text-secondary-600">10%</span>
                 </div>
                 <div className="border-t border-neutral-200 pt-3 flex justify-between">
                   <span className="font-medium text-neutral-800">Total value at Year 6</span>
-                  <span className="font-heading text-2xl text-secondary-600">$26M+</span>
+                  <span className="font-heading text-2xl text-secondary-600">{formatCurrency(TOTAL_RETURN.totalFull)}</span>
                 </div>
               </div>
               <p className="text-sm text-neutral-500 mb-4">
-                You hold the title. You are the bank. You earn cash, equity, and
-                dividends. Your $25M comes back, and then some.
+                Same price. You hold the title. You are the bank. You earn your full
+                asking price plus interest, equity, and dividends.
               </p>
               <div className="bg-secondary-50 rounded-lg p-4">
                 <p className="text-xs font-accent uppercase tracking-wider text-secondary-600 mb-1">Recovery</p>
-                <p className="font-heading text-3xl text-secondary-600">104%+</p>
-                <p className="text-sm text-secondary-700">of your $25M investment (at 10% equity, full expansion)</p>
+                <p className="font-heading text-3xl text-secondary-600">122%+</p>
+                <p className="text-sm text-secondary-700">of your $25M investment (full expansion)</p>
               </div>
             </Card>
           </div>
         </motion.section>
 
         {/* ═══════════════════════════════════════════════════════════
-            Section 5: The Partnership Terms
+            Section 4: The Partnership Terms
         ═══════════════════════════════════════════════════════════ */}
         <motion.section className="mb-24" {...fadeUp}>
           <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Partnership Terms</h2>
           <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-            Seller financing with you in the strongest possible position. You hold the
-            title. You set the pace. You are protected at every step.
+            Seller financing at your full asking price with you in the strongest possible
+            position. You hold the title. You set the pace. You are protected at every step.
           </p>
 
           {/* Key terms */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
             {[
-              { label: 'Purchase Price', value: '$8M', icon: Building2 },
-              { label: 'Down Payment', value: '$1.6M (20%)', icon: DollarSign },
+              { label: 'Purchase Price', value: '$11.9M', icon: Building2 },
+              { label: 'Down Payment', value: '$2.38M (20%)', icon: DollarSign },
               { label: 'Interest Rate', value: '6%', icon: TrendingUp },
               { label: 'Term', value: '6 Years', icon: Shield },
             ].map((item) => (
@@ -347,65 +287,80 @@ export default function PartnerPage() {
         </motion.section>
 
         {/* ═══════════════════════════════════════════════════════════
+            Section 5: The Reinvestment
+        ═══════════════════════════════════════════════════════════ */}
+        <motion.section className="mb-24" {...fadeUp}>
+          <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Reinvestment</h2>
+          <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
+            As part of the partnership, you reinvest $1M back into the property for
+            renovation and buildout. This capital goes directly into improving the asset
+            you built and earns you 10% equity in the enterprise we create together.
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            <Card padding="lg" className="text-center">
+              <DollarSign className="w-8 h-8 text-secondary-500 mx-auto mb-3" />
+              <p className="font-heading text-3xl text-neutral-900 mb-1">$1M</p>
+              <p className="text-sm text-neutral-600">Reinvested into your property</p>
+            </Card>
+            <Card padding="lg" className="text-center border-2 border-secondary-300">
+              <TrendingUp className="w-8 h-8 text-secondary-500 mx-auto mb-3" />
+              <p className="font-heading text-3xl text-secondary-600 mb-1">10%</p>
+              <p className="text-sm text-neutral-600">Equity in the enterprise</p>
+            </Card>
+            <Card padding="lg" className="text-center">
+              <Building2 className="w-8 h-8 text-secondary-500 mx-auto mb-3" />
+              <p className="font-heading text-3xl text-neutral-900 mb-1">{formatCurrency(TOTAL_RETURN.equityFull)}</p>
+              <p className="text-sm text-neutral-600">Equity value at full expansion</p>
+            </Card>
+          </div>
+
+          <Card padding="lg" className="bg-secondary-50 border border-secondary-200 mt-8">
+            <p className="text-neutral-800">
+              <span className="font-medium">The math:</span> Your $1M reinvestment earns 10% equity
+              worth {formatCurrency(TOTAL_RETURN.equityFull)} at full expansion, plus {formatCurrency(STEADY_STATE_DIVIDENDS.low)} to{' '}
+              {formatCurrency(STEADY_STATE_DIVIDENDS.high)} in annual dividends after the buyback. The funds go
+              directly into improving the property you already know better than anyone.
+            </p>
+          </Card>
+        </motion.section>
+
+        {/* ═══════════════════════════════════════════════════════════
             Section 6: Your Path to $25M
         ═══════════════════════════════════════════════════════════ */}
         <motion.section className="mb-24" {...fadeUp}>
-          <h2 className="text-3xl font-heading text-neutral-900 mb-4">Your Path to $25M</h2>
+          <h2 className="text-3xl font-heading text-neutral-900 mb-4">Your Path Beyond $25M</h2>
           <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
             Cash from the seller financing is only part of the picture. As an equity
             partner, you also receive dividends from operations and own a share of the
             enterprise value. Here is how it all adds up.
           </p>
 
-          {/* Equity tier toggle */}
-          <div className="flex gap-3 mb-8">
-            <button
-              onClick={() => setSelectedTier('base')}
-              className={`px-5 py-2.5 rounded-lg font-accent text-sm uppercase tracking-wider transition-all ${
-                selectedTier === 'base'
-                  ? 'bg-primary-800 text-white shadow-sm'
-                  : 'bg-neutral-100 text-neutral-600 hover:bg-neutral-200'
-              }`}
-            >
-              8% Equity
-            </button>
-            <button
-              onClick={() => setSelectedTier('withReinvestment')}
-              className={`px-5 py-2.5 rounded-lg font-accent text-sm uppercase tracking-wider transition-all ${
-                selectedTier === 'withReinvestment'
-                  ? 'bg-secondary-500 text-white shadow-sm'
-                  : 'bg-neutral-100 text-neutral-600 hover:bg-neutral-200'
-              }`}
-            >
-              10% Equity (+$1M Reinvest)
-            </button>
-          </div>
-
           {/* Summary cards */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
             <MetricCard
-              label="Cash Received"
-              value={formatCurrency(summary.cashReceived)}
-              subtitle="Over 6 years"
+              label="Total Cash Received"
+              value={formatCurrency(TOTAL_RETURN.cashReceived)}
+              subtitle="Over 6 years (principal + interest)"
               accent
             />
             <MetricCard
-              label={selectedTier === 'withReinvestment' ? 'Reinvestment' : 'Reinvestment'}
-              value={summary.reinvestment > 0 ? `-${formatCurrency(summary.reinvestment)}` : '$0'}
-              subtitle={summary.reinvestment > 0 ? 'Into renovation (earns 2% more equity)' : 'No additional capital needed'}
+              label="Reinvestment"
+              value={`-${formatCurrency(TOTAL_RETURN.reinvestment)}`}
+              subtitle="Into property renovation"
             />
             <MetricCard
               label="Equity Value (Full Expansion)"
-              value={formatCurrency(summary.equityFull)}
-              subtitle={`${(equityPct * 100).toFixed(0)}% of $175M enterprise`}
+              value={formatCurrency(TOTAL_RETURN.equityFull)}
+              subtitle="10% of $175M enterprise"
               accent
             />
             <MetricCard
               label="Total at Year 6"
-              value={formatCurrency(summary.totalFull)}
+              value={formatCurrency(TOTAL_RETURN.totalFull)}
               subtitle="Cash + equity combined"
               trend="up"
-              trendValue={`${((summary.totalFull / PROPERTY_FACTS.ownerInvestment) * 100).toFixed(0)}% of $25M recovered`}
+              trendValue="122% of $25M recovered"
               accent
             />
           </div>
@@ -419,15 +374,15 @@ export default function PartnerPage() {
                   <tr className="bg-primary-800 text-white">
                     <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Model</th>
                     <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Enterprise Value</th>
-                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Your {(equityPct * 100).toFixed(0)}% Equity</th>
-                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Cash + Equity Total</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Your 10% Equity</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Net Cash + Equity Total</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-neutral-100">
                   {[
-                    { ...ENTERPRISE_VALUATIONS.conservative, equity: summary.equityConservative, total: summary.totalConservative },
-                    { ...ENTERPRISE_VALUATIONS.base, equity: summary.equityBase, total: summary.totalBase },
-                    { ...ENTERPRISE_VALUATIONS.fullExpansion, equity: summary.equityFull, total: summary.totalFull },
+                    { ...ENTERPRISE_VALUATIONS.conservative, equity: TOTAL_RETURN.equityConservative, total: TOTAL_RETURN.totalConservative },
+                    { ...ENTERPRISE_VALUATIONS.base, equity: TOTAL_RETURN.equityBase, total: TOTAL_RETURN.totalBase },
+                    { ...ENTERPRISE_VALUATIONS.fullExpansion, equity: TOTAL_RETURN.equityFull, total: TOTAL_RETURN.totalFull },
                   ].map((row) => (
                     <tr key={row.label} className="hover:bg-canvas-subtle transition-colors">
                       <td className="px-4 py-3 text-neutral-800">{row.label}</td>
@@ -440,87 +395,10 @@ export default function PartnerPage() {
               </table>
             </div>
           </Card>
-
-          {selectedTier === 'withReinvestment' && (
-            <Card padding="lg" className="bg-secondary-50 border border-secondary-200">
-              <p className="text-neutral-800">
-                <span className="font-medium">The reinvestment math:</span> Your $1M earns you an additional
-                2% equity worth $3.5M at full expansion. That is a 3.5x return on the reinvestment alone,
-                on top of everything else you receive.
-              </p>
-            </Card>
-          )}
         </motion.section>
 
         {/* ═══════════════════════════════════════════════════════════
-            Section 7: The Reinvestment Option
-        ═══════════════════════════════════════════════════════════ */}
-        <motion.section className="mb-24" {...fadeUp}>
-          <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Reinvestment Option</h2>
-          <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-            This is your choice, not an obligation. If you reinvest $1M into the
-            property renovation, your equity increases from 8% to 10%. That $1M is
-            the single highest-return investment in this entire structure.
-          </p>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card padding="lg">
-              <h3 className="font-heading text-lg text-neutral-900 mb-4">Without Reinvestment</h3>
-              <div className="space-y-3">
-                <div className="flex justify-between">
-                  <span className="text-neutral-600">Equity stake</span>
-                  <span className="font-medium">8%</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-neutral-600">Equity value (full expansion)</span>
-                  <span className="font-medium">{formatCurrency(TOTAL_RETURN_SUMMARY.at8Percent.equityFull)}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-neutral-600">Annual dividends (steady state)</span>
-                  <span className="font-medium">{formatCurrency(STEADY_STATE_DIVIDENDS.at8Pct.low)}-{formatCurrency(STEADY_STATE_DIVIDENDS.at8Pct.high)}/yr</span>
-                </div>
-                <div className="border-t border-neutral-200 pt-3 flex justify-between">
-                  <span className="font-medium">Total at Year 6</span>
-                  <span className="font-heading text-xl">{formatCurrency(TOTAL_RETURN_SUMMARY.at8Percent.totalFull)}</span>
-                </div>
-              </div>
-            </Card>
-
-            <Card padding="lg" className="border-2 border-secondary-300 relative">
-              <div className="absolute -top-3 left-4 bg-secondary-500 text-white text-xs font-accent uppercase tracking-wider px-3 py-1 rounded-full">
-                +$1M Reinvestment
-              </div>
-              <h3 className="font-heading text-lg text-neutral-900 mb-4 mt-2">With Reinvestment</h3>
-              <div className="space-y-3">
-                <div className="flex justify-between">
-                  <span className="text-neutral-600">Equity stake</span>
-                  <span className="font-medium text-secondary-600">10%</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-neutral-600">Equity value (full expansion)</span>
-                  <span className="font-medium text-secondary-600">{formatCurrency(TOTAL_RETURN_SUMMARY.at10Percent.equityFull)}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-neutral-600">Annual dividends (steady state)</span>
-                  <span className="font-medium text-secondary-600">{formatCurrency(STEADY_STATE_DIVIDENDS.at10Pct.low)}-{formatCurrency(STEADY_STATE_DIVIDENDS.at10Pct.high)}/yr</span>
-                </div>
-                <div className="border-t border-neutral-200 pt-3 flex justify-between">
-                  <span className="font-medium">Total at Year 6</span>
-                  <span className="font-heading text-xl text-secondary-600">{formatCurrency(TOTAL_RETURN_SUMMARY.at10Percent.totalFull)}</span>
-                </div>
-              </div>
-              <div className="mt-4 bg-secondary-50 rounded-lg p-3">
-                <p className="text-sm text-secondary-800">
-                  <span className="font-medium">Return on your $1M:</span> 3.5x
-                  (earns $3.5M in additional equity value at full expansion)
-                </p>
-              </div>
-            </Card>
-          </div>
-        </motion.section>
-
-        {/* ═══════════════════════════════════════════════════════════
-            Section 8: Income for Life
+            Section 7: Income for Life
         ═══════════════════════════════════════════════════════════ */}
         <motion.section className="mb-24" {...fadeUp}>
           <div className="text-center mb-10">
@@ -530,9 +408,7 @@ export default function PartnerPage() {
             <h2 className="text-3xl md:text-4xl font-heading text-neutral-900 mb-4">Income for Life</h2>
             <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
               After Year 6, your buyback is complete. But your equity stays. You own
-              {' '}{(equityPct * 100).toFixed(0)}% of a growing enterprise that pays
-              dividends every year. This is passive income from a property you were about
-              to fire sale.
+              10% of a growing enterprise that pays dividends every year.
             </p>
           </div>
 
@@ -543,7 +419,7 @@ export default function PartnerPage() {
                   <tr className="bg-primary-800 text-white">
                     <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Year</th>
                     <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Enterprise Distributes</th>
-                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Your Share</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Your 10% Share</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-neutral-100">
@@ -554,7 +430,7 @@ export default function PartnerPage() {
                         {row.totalDistributions > 0 ? formatCurrency(row.totalDistributions) : 'Foundation year'}
                       </td>
                       <td className="px-4 py-3 text-right font-medium text-secondary-600">
-                        {row[dividendKey] > 0 ? formatCurrency(row[dividendKey]) : '$0'}
+                        {row.jeffShare > 0 ? formatCurrency(row.jeffShare) : '$0'}
                       </td>
                     </tr>
                   ))}
@@ -562,7 +438,7 @@ export default function PartnerPage() {
                     <td className="px-4 py-3 font-medium text-secondary-800">Year 7+</td>
                     <td className="px-4 py-3 text-right text-secondary-700">Growing annually</td>
                     <td className="px-4 py-3 text-right font-heading text-lg text-secondary-600">
-                      {formatCurrency(steadyState.low)}-{formatCurrency(steadyState.high)}/yr
+                      {formatCurrency(STEADY_STATE_DIVIDENDS.low)}-{formatCurrency(STEADY_STATE_DIVIDENDS.high)}/yr
                     </td>
                   </tr>
                 </tbody>
@@ -572,73 +448,72 @@ export default function PartnerPage() {
 
           <Card padding="lg" className="bg-primary-800 text-white text-center">
             <p className="font-heading text-xl mb-2">
-              After Year 6, you receive {formatCurrency(steadyState.low)} to {formatCurrency(steadyState.high)} per year.
+              After Year 6, you receive {formatCurrency(STEADY_STATE_DIVIDENDS.low)} to {formatCurrency(STEADY_STATE_DIVIDENDS.high)} per year.
             </p>
             <p className="text-primary-200">
-              Every year. Growing. From a property you were about to sell at a loss.
+              Every year. Growing. Passive income from a partnership built on your property.
             </p>
           </Card>
         </motion.section>
 
         {/* ═══════════════════════════════════════════════════════════
-            Section 9: Cumulative Return Timeline
+            Section 8: Cumulative Return Timeline
         ═══════════════════════════════════════════════════════════ */}
-        {selectedTier === 'withReinvestment' && (
-          <motion.section className="mb-24" {...fadeUp}>
-            <h2 className="text-3xl font-heading text-neutral-900 mb-4">Cumulative Return Timeline</h2>
-            <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-              Here is how your total return accumulates year by year across cash payments,
-              dividends, and equity value. At the 10% equity level with full expansion.
-            </p>
+        <motion.section className="mb-24" {...fadeUp}>
+          <h2 className="text-3xl font-heading text-neutral-900 mb-4">Cumulative Return Timeline</h2>
+          <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
+            Here is how your total return accumulates year by year across cash payments,
+            dividends, and equity value at the full expansion model.
+          </p>
 
-            <Card padding="none" className="overflow-hidden mb-8">
-              <div className="overflow-x-auto">
-                <table className="w-full text-sm">
-                  <thead>
-                    <tr className="bg-primary-800 text-white">
-                      <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Period</th>
-                      <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Cash Received</th>
-                      <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Dividends</th>
-                      <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Equity Value</th>
-                      <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Running Total</th>
+          <Card padding="none" className="overflow-hidden mb-8">
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-primary-800 text-white">
+                    <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Period</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Cash Received</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Dividends</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Equity Value</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Running Total</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-neutral-100">
+                  {CUMULATIVE_RETURN.map((row) => (
+                    <tr key={row.label} className={`hover:bg-canvas-subtle transition-colors ${row.year === 6 ? 'bg-secondary-50' : ''}`}>
+                      <td className="px-4 py-3 font-medium text-neutral-800">{row.label}</td>
+                      <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(row.cashReceived)}</td>
+                      <td className="px-4 py-3 text-right text-neutral-600">{row.dividends > 0 ? formatCurrency(row.dividends) : '\u2014'}</td>
+                      <td className="px-4 py-3 text-right text-neutral-600">{row.equityValue > 0 ? formatCurrency(row.equityValue) : '\u2014'}</td>
+                      <td className="px-4 py-3 text-right font-heading text-lg text-neutral-900">
+                        {formatCurrency(row.runningTotal)}
+                      </td>
                     </tr>
-                  </thead>
-                  <tbody className="divide-y divide-neutral-100">
-                    {CUMULATIVE_RETURN_10PCT.map((row) => (
-                      <tr key={row.label} className={`hover:bg-canvas-subtle transition-colors ${row.year === 6 ? 'bg-secondary-50' : ''}`}>
-                        <td className="px-4 py-3 font-medium text-neutral-800">{row.label}</td>
-                        <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(row.cashReceived)}</td>
-                        <td className="px-4 py-3 text-right text-neutral-600">{row.dividends > 0 ? formatCurrency(row.dividends) : '\u2014'}</td>
-                        <td className="px-4 py-3 text-right text-neutral-600">{row.equityValue > 0 ? formatCurrency(row.equityValue) : '\u2014'}</td>
-                        <td className="px-4 py-3 text-right font-heading text-lg text-neutral-900">
-                          {formatCurrency(row.runningTotal)}
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            </Card>
-
-            {/* $25M crossing marker */}
-            <div className="flex items-center gap-4 p-6 bg-success-50 border border-success-200 rounded-xl">
-              <div className="w-12 h-12 rounded-full bg-success-100 flex items-center justify-center shrink-0">
-                <Check className="w-6 h-6 text-success-700" />
-              </div>
-              <div>
-                <p className="font-heading text-lg text-success-800">
-                  You cross $25M between Year 5 and Year 6
-                </p>
-                <p className="text-sm text-success-700">
-                  And it keeps growing. By end of Year 6, your total reaches {formatCurrency(CUMULATIVE_RETURN_10PCT[6].runningTotal)}.
-                </p>
-              </div>
+                  ))}
+                </tbody>
+              </table>
             </div>
-          </motion.section>
-        )}
+          </Card>
+
+          {/* $25M crossing marker */}
+          <div className="flex items-center gap-4 p-6 bg-success-50 border border-success-200 rounded-xl">
+            <div className="w-12 h-12 rounded-full bg-success-100 flex items-center justify-center shrink-0">
+              <Check className="w-6 h-6 text-success-700" />
+            </div>
+            <div>
+              <p className="font-heading text-lg text-success-800">
+                You cross $25M in Year 5 and keep climbing
+              </p>
+              <p className="text-sm text-success-700">
+                By end of Year 6, your total reaches {formatCurrency(CUMULATIVE_RETURN[6].runningTotal)}.
+                Then dividends continue growing every year after.
+              </p>
+            </div>
+          </div>
+        </motion.section>
 
         {/* ═══════════════════════════════════════════════════════════
-            Section 10: Your Safety Net
+            Section 9: Your Safety Net
         ═══════════════════════════════════════════════════════════ */}
         <motion.section className="mb-24" {...fadeUp}>
           <h2 className="text-3xl font-heading text-neutral-900 mb-4">Your Safety Net</h2>
@@ -689,7 +564,7 @@ export default function PartnerPage() {
         </motion.section>
 
         {/* ═══════════════════════════════════════════════════════════
-            Section 11: What We Build Together
+            Section 10: What We Build Together
         ═══════════════════════════════════════════════════════════ */}
         <motion.section className="mb-24" {...fadeUp}>
           <h2 className="text-3xl font-heading text-neutral-900 mb-4">What We Build Together</h2>
@@ -737,7 +612,7 @@ export default function PartnerPage() {
         </motion.section>
 
         {/* ═══════════════════════════════════════════════════════════
-            Section 12: Let's Talk
+            Section 11: Let's Talk
         ═══════════════════════════════════════════════════════════ */}
         <motion.section className="mb-16" {...fadeUp}>
           <Card padding="lg" className="bg-primary-800 text-white text-center py-16">
@@ -752,8 +627,8 @@ export default function PartnerPage() {
               We can have a term sheet ready within days of our conversation.
             </p>
             <p className="text-primary-200 mb-8">
-              No agents. No commissions. No uncertainty. Just a direct conversation
-              about which path makes sense for you.
+              No discount. No lowball. Full asking price, with a path to recovering
+              everything you put in.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
