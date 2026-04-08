@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/Status-Phase%200%20Foundation-blue)](#project-status)
+[![Status](https://img.shields.io/badge/Status-Phase%201%20Active-blue)](#project-status)
 [![Docs](https://img.shields.io/badge/Docs-25%2B%20Documents-green)](#-documentation-nav)
 [![Stack](https://img.shields.io/badge/Stack-Next.js%20%7C%20React%20Native%20%7C%20NestJS-purple)](#technology-stack)
 
