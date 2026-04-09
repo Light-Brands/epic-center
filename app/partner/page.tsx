@@ -994,9 +994,9 @@ export default function PartnerPage() {
         </AnimatePresence>
 
         {/* ═══════════════════════════════════════════════════════════
-            What We Build Together (always visible)
+            What We Build Together (hidden for clean purchase)
         ═══════════════════════════════════════════════════════════ */}
-        <motion.section className="mb-24" {...fadeUp}>
+        {selected !== 'a' && <motion.section className="mb-24" {...fadeUp}>
           <h2 className="text-3xl font-heading text-neutral-900 mb-4">What We Build Together</h2>
           <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
             Your property becomes the foundation for the world's first luxury medical
@@ -1039,7 +1039,7 @@ export default function PartnerPage() {
               accent
             />
           </div>
-        </motion.section>
+        </motion.section>}
 
         {/* ═══════════════════════════════════════════════════════════
             Let's Talk (always visible)
