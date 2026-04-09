@@ -1,0 +1,657 @@
+'use client'
+
+import { motion } from 'framer-motion'
+import {
+  Shield,
+  TrendingUp,
+  DollarSign,
+  Home,
+  Handshake,
+  ArrowRight,
+  Check,
+  Lock,
+  TreePine,
+  Heart,
+  Brain,
+  Building2,
+} from 'lucide-react'
+import { Card } from '@/components/ui'
+import { MetricCard } from '@/components/financial'
+import { Footer } from '@/components/layout'
+import {
+  PROPERTY_FACTS,
+  SCENARIO_A,
+  SELLER_FINANCE_TERMS,
+  PAYMENT_SCHEDULE,
+  PAYMENT_TOTALS,
+  EQUITY,
+  ENTERPRISE_VALUATIONS,
+  ANNUAL_DISTRIBUTIONS,
+  STEADY_STATE_DIVIDENDS,
+  CUMULATIVE_RETURN,
+  DEFAULT_SCENARIOS,
+  TOTAL_RETURN,
+  formatCurrency,
+} from '@/lib/data/partner8-scenarios'
+
+const fadeUp = {
+  initial: { opacity: 0, y: 24 },
+  animate: { opacity: 1, y: 0 },
+  transition: { duration: 0.6, ease: [0.25, 0.1, 0.25, 1] },
+}
+
+export default function Partner8Page() {
+  return (
+    <div className="min-h-screen bg-canvas">
+      {/* ═══════════════════════════════════════════════════════════════
+          Section 1: Hero
+      ═══════════════════════════════════════════════════════════════ */}
+      <section className="relative pt-32 pb-20 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-primary-800 to-primary-900" />
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute inset-0" style={{
+            backgroundImage: 'radial-gradient(circle at 30% 50%, rgba(212, 166, 59, 0.3) 0%, transparent 50%), radial-gradient(circle at 70% 30%, rgba(212, 114, 77, 0.2) 0%, transparent 40%)',
+          }} />
+        </div>
+        <motion.div
+          className="relative w-full sm:w-[70vw] mx-auto px-4 sm:px-0 text-center"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
+          <p className="font-accent text-sm uppercase tracking-widest text-secondary-400 mb-6">
+            A Private Partnership Proposal
+          </p>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-display text-white mb-6 leading-tight">
+            Jeff, We Want to Pay<br className="hidden md:block" /> Your Full Asking Price
+          </h1>
+          <p className="text-xl text-primary-100 max-w-2xl mx-auto mb-4">
+            $8 million. No discount. No negotiation on price. And a partnership
+            structure that could recover the full $25 million you invested.
+          </p>
+          <p className="text-lg text-primary-200/70">
+            Two paths. One property. Your choice.
+          </p>
+        </motion.div>
+      </section>
+
+      <div className="w-full sm:w-[70vw] mx-auto py-12 px-4 sm:px-0">
+
+        {/* ═══════════════════════════════════════════════════════════
+            Section 2: What You Built
+        ═══════════════════════════════════════════════════════════ */}
+        <motion.section className="mb-24" {...fadeUp}>
+          <h2 className="text-3xl font-heading text-neutral-900 mb-4">What You Built</h2>
+          <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
+            Nine lots. 45,000 square meters of jungle compound in one of the most
+            sought-after corridors in the Riviera Maya. Over $25 million invested into
+            creating something extraordinary.
+          </p>
+          <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
+            That investment represents more than construction costs. It represents
+            vision, risk, and years of commitment. We see the value you created, and
+            we are prepared to pay your full asking price for it.
+          </p>
+
+          <div className="grid sm:grid-cols-3 gap-6">
+            <MetricCard
+              label="Your Investment"
+              value="$25M+"
+              subtitle="Total capital invested"
+              accent
+            />
+            <MetricCard
+              label="Our Offer"
+              value={formatCurrency(PROPERTY_FACTS.askingPrice)}
+              subtitle="Your full asking price"
+              accent
+            />
+            <MetricCard
+              label="Partnership Path"
+              value="$26M+"
+              subtitle="Total value with equity + dividends"
+              trend="up"
+              trendValue="104% recovery"
+              accent
+            />
+          </div>
+        </motion.section>
+
+        {/* ═══════════════════════════════════════════════════════════
+            Section 3: Two Paths Forward
+        ═══════════════════════════════════════════════════════════ */}
+        <motion.section className="mb-24" {...fadeUp}>
+          <h2 className="text-3xl font-heading text-neutral-900 mb-4">Two Paths Forward</h2>
+          <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
+            Both paths start at the same number: $8 million. The difference is
+            what happens after.
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Scenario A */}
+            <Card padding="lg" className="border-2 border-neutral-200">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-full bg-neutral-100 flex items-center justify-center">
+                  <DollarSign className="w-5 h-5 text-neutral-600" />
+                </div>
+                <div>
+                  <p className="font-accent text-xs uppercase tracking-wider text-neutral-500">Scenario A</p>
+                  <h3 className="font-heading text-xl text-neutral-900">Clean Purchase</h3>
+                </div>
+              </div>
+              <div className="space-y-4 mb-6">
+                <div className="flex justify-between">
+                  <span className="text-neutral-600">Purchase price</span>
+                  <span className="font-medium text-neutral-900">{formatCurrency(SCENARIO_A.purchasePrice)}</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-neutral-600">Broker commission (6%)</span>
+                  <span className="font-medium text-neutral-500">Paid by us</span>
+                </div>
+                <div className="border-t border-neutral-200 pt-3 flex justify-between">
+                  <span className="font-medium text-neutral-800">Net to you</span>
+                  <span className="font-heading text-2xl text-neutral-900">{formatCurrency(SCENARIO_A.netToJeff)}</span>
+                </div>
+              </div>
+              <p className="text-sm text-neutral-500 mb-4">
+                Full asking price. Certainty. Speed. No ongoing relationship. You
+                recover 32% of your $25M investment.
+              </p>
+              <div className="bg-neutral-50 rounded-lg p-4">
+                <p className="text-xs font-accent uppercase tracking-wider text-neutral-500 mb-1">Recovery</p>
+                <p className="font-heading text-3xl text-neutral-900">32%</p>
+                <p className="text-sm text-neutral-500">of your $25M investment</p>
+              </div>
+            </Card>
+
+            {/* Scenario B */}
+            <Card padding="lg" className="border-2 border-secondary-400 relative overflow-hidden">
+              <div className="absolute top-0 right-0 bg-secondary-500 text-white text-xs font-accent uppercase tracking-wider px-4 py-1.5 rounded-bl-lg">
+                Recommended
+              </div>
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-full bg-secondary-100 flex items-center justify-center">
+                  <Handshake className="w-5 h-5 text-secondary-600" />
+                </div>
+                <div>
+                  <p className="font-accent text-xs uppercase tracking-wider text-secondary-600">Scenario B</p>
+                  <h3 className="font-heading text-xl text-neutral-900">Partnership</h3>
+                </div>
+              </div>
+              <div className="space-y-4 mb-6">
+                <div className="flex justify-between">
+                  <span className="text-neutral-600">Purchase price</span>
+                  <span className="font-medium text-neutral-900">{formatCurrency(SELLER_FINANCE_TERMS.purchasePrice)}</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-neutral-600">Total cash (6 years + interest)</span>
+                  <span className="font-medium text-neutral-900">{formatCurrency(PAYMENT_TOTALS.totalCashToJeff)}</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-neutral-600">Equity stake</span>
+                  <span className="font-medium text-secondary-600">10%</span>
+                </div>
+                <div className="border-t border-neutral-200 pt-3 flex justify-between">
+                  <span className="font-medium text-neutral-800">Total value at Year 6</span>
+                  <span className="font-heading text-2xl text-secondary-600">{formatCurrency(TOTAL_RETURN.totalFull)}</span>
+                </div>
+              </div>
+              <p className="text-sm text-neutral-500 mb-4">
+                Same price. You hold the title. You are the bank. You earn your full
+                asking price plus interest, equity, and dividends.
+              </p>
+              <div className="bg-secondary-50 rounded-lg p-4">
+                <p className="text-xs font-accent uppercase tracking-wider text-secondary-600 mb-1">Recovery</p>
+                <p className="font-heading text-3xl text-secondary-600">104%+</p>
+                <p className="text-sm text-secondary-700">of your $25M investment (full expansion)</p>
+              </div>
+            </Card>
+          </div>
+        </motion.section>
+
+        {/* ═══════════════════════════════════════════════════════════
+            Section 4: The Partnership Terms
+        ═══════════════════════════════════════════════════════════ */}
+        <motion.section className="mb-24" {...fadeUp}>
+          <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Partnership Terms</h2>
+          <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
+            Seller financing at your full asking price with you in the strongest possible
+            position. You hold the title. You set the pace. You are protected at every step.
+          </p>
+
+          {/* Key terms */}
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
+            {[
+              { label: 'Purchase Price', value: '$8M', icon: Building2 },
+              { label: 'Down Payment', value: '$1.6M (20%)', icon: DollarSign },
+              { label: 'Interest Rate', value: '6%', icon: TrendingUp },
+              { label: 'Term', value: '6 Years', icon: Shield },
+            ].map((item) => (
+              <Card key={item.label} padding="md" className="text-center">
+                <item.icon className="w-6 h-6 text-secondary-500 mx-auto mb-2" />
+                <p className="text-xs font-accent uppercase tracking-wider text-neutral-500 mb-1">{item.label}</p>
+                <p className="font-heading text-2xl text-neutral-900">{item.value}</p>
+              </Card>
+            ))}
+          </div>
+
+          {/* Payment schedule */}
+          <h3 className="font-heading text-xl text-neutral-900 mb-4">Payment Schedule</h3>
+          <p className="text-neutral-600 mb-6">
+            Payments are graduated: lower in the early years while the business builds,
+            higher in later years when cash flow is strong.
+          </p>
+          <Card padding="none" className="overflow-hidden mb-6">
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-primary-800 text-white">
+                    <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Period</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Principal</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Interest</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Total Payment</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Cumulative</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-neutral-100">
+                  {PAYMENT_SCHEDULE.map((row) => (
+                    <tr key={row.label} className="hover:bg-canvas-subtle transition-colors">
+                      <td className="px-4 py-3 font-medium text-neutral-800">{row.label}</td>
+                      <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(row.principal)}</td>
+                      <td className="px-4 py-3 text-right text-neutral-500">{row.interest > 0 ? formatCurrency(row.interest) : '\u2014'}</td>
+                      <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(row.totalCash)}</td>
+                      <td className="px-4 py-3 text-right font-medium text-neutral-900">{formatCurrency(row.cumulative)}</td>
+                    </tr>
+                  ))}
+                </tbody>
+                <tfoot>
+                  <tr className="bg-canvas-emphasis font-medium">
+                    <td className="px-4 py-3 text-neutral-900">Total</td>
+                    <td className="px-4 py-3 text-right text-neutral-900">{formatCurrency(PAYMENT_TOTALS.totalPrincipal)}</td>
+                    <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(PAYMENT_TOTALS.totalInterest)}</td>
+                    <td className="px-4 py-3 text-right text-neutral-900">{formatCurrency(PAYMENT_TOTALS.totalCashToJeff)}</td>
+                    <td className="px-4 py-3 text-right text-neutral-900">{formatCurrency(PAYMENT_TOTALS.totalCashToJeff)}</td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+          </Card>
+
+          <div className="flex items-start gap-3 text-sm text-neutral-600">
+            <Lock className="w-4 h-4 text-primary-600 mt-0.5 shrink-0" />
+            <p>
+              You hold the property title through the fideicomiso for the entire term.
+              Title transfers only after the final payment is received. You are the bank.
+            </p>
+          </div>
+        </motion.section>
+
+        {/* ═══════════════════════════════════════════════════════════
+            Section 5: The Reinvestment
+        ═══════════════════════════════════════════════════════════ */}
+        <motion.section className="mb-24" {...fadeUp}>
+          <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Reinvestment</h2>
+          <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
+            As part of the partnership, you reinvest $1M back into the property for
+            renovation and buildout. This capital goes directly into improving the asset
+            you built and earns you 10% equity in the enterprise we create together.
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            <Card padding="lg" className="text-center">
+              <DollarSign className="w-8 h-8 text-secondary-500 mx-auto mb-3" />
+              <p className="font-heading text-3xl text-neutral-900 mb-1">$1M</p>
+              <p className="text-sm text-neutral-600">Reinvested into your property</p>
+            </Card>
+            <Card padding="lg" className="text-center border-2 border-secondary-300">
+              <TrendingUp className="w-8 h-8 text-secondary-500 mx-auto mb-3" />
+              <p className="font-heading text-3xl text-secondary-600 mb-1">10%</p>
+              <p className="text-sm text-neutral-600">Equity in the enterprise</p>
+            </Card>
+            <Card padding="lg" className="text-center">
+              <Building2 className="w-8 h-8 text-secondary-500 mx-auto mb-3" />
+              <p className="font-heading text-3xl text-neutral-900 mb-1">{formatCurrency(TOTAL_RETURN.equityFull)}</p>
+              <p className="text-sm text-neutral-600">Equity value at full expansion</p>
+            </Card>
+          </div>
+
+          <Card padding="lg" className="bg-secondary-50 border border-secondary-200 mt-8">
+            <p className="text-neutral-800">
+              <span className="font-medium">The math:</span> Your $1M reinvestment earns 10% equity
+              worth {formatCurrency(TOTAL_RETURN.equityFull)} at full expansion, plus {formatCurrency(STEADY_STATE_DIVIDENDS.low)} to{' '}
+              {formatCurrency(STEADY_STATE_DIVIDENDS.high)} in annual dividends after the buyback. The funds go
+              directly into improving the property you already know better than anyone.
+            </p>
+          </Card>
+        </motion.section>
+
+        {/* ═══════════════════════════════════════════════════════════
+            Section 6: Your Path to $25M
+        ═══════════════════════════════════════════════════════════ */}
+        <motion.section className="mb-24" {...fadeUp}>
+          <h2 className="text-3xl font-heading text-neutral-900 mb-4">Your Path Beyond $25M</h2>
+          <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
+            Cash from the seller financing is only part of the picture. As an equity
+            partner, you also receive dividends from operations and own a share of the
+            enterprise value. Here is how it all adds up.
+          </p>
+
+          {/* Summary cards */}
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+            <MetricCard
+              label="Total Cash Received"
+              value={formatCurrency(TOTAL_RETURN.cashReceived)}
+              subtitle="Over 6 years (principal + interest)"
+              accent
+            />
+            <MetricCard
+              label="Reinvestment"
+              value={`-${formatCurrency(TOTAL_RETURN.reinvestment)}`}
+              subtitle="Into property renovation"
+            />
+            <MetricCard
+              label="Equity Value (Full Expansion)"
+              value={formatCurrency(TOTAL_RETURN.equityFull)}
+              subtitle="10% of $175M enterprise"
+              accent
+            />
+            <MetricCard
+              label="Total at Year 6"
+              value={formatCurrency(TOTAL_RETURN.totalFull)}
+              subtitle="Cash + equity combined"
+              trend="up"
+              trendValue="104% of $25M recovered"
+              accent
+            />
+          </div>
+
+          {/* Equity value across models */}
+          <h3 className="font-heading text-xl text-neutral-900 mb-4">Equity Value Across Models</h3>
+          <Card padding="none" className="overflow-hidden mb-8">
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-primary-800 text-white">
+                    <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Model</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Enterprise Value</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Your 10% Equity</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Net Cash + Equity Total</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-neutral-100">
+                  {[
+                    { ...ENTERPRISE_VALUATIONS.conservative, equity: TOTAL_RETURN.equityConservative, total: TOTAL_RETURN.totalConservative },
+                    { ...ENTERPRISE_VALUATIONS.base, equity: TOTAL_RETURN.equityBase, total: TOTAL_RETURN.totalBase },
+                    { ...ENTERPRISE_VALUATIONS.fullExpansion, equity: TOTAL_RETURN.equityFull, total: TOTAL_RETURN.totalFull },
+                  ].map((row) => (
+                    <tr key={row.label} className="hover:bg-canvas-subtle transition-colors">
+                      <td className="px-4 py-3 text-neutral-800">{row.label}</td>
+                      <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(row.value)}</td>
+                      <td className="px-4 py-3 text-right font-medium text-secondary-600">{formatCurrency(row.equity)}</td>
+                      <td className="px-4 py-3 text-right font-medium text-neutral-900">{formatCurrency(row.total)}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </Card>
+        </motion.section>
+
+        {/* ═══════════════════════════════════════════════════════════
+            Section 7: Income for Life
+        ═══════════════════════════════════════════════════════════ */}
+        <motion.section className="mb-24" {...fadeUp}>
+          <div className="text-center mb-10">
+            <p className="font-accent text-sm uppercase tracking-widest text-secondary-500 mb-4">
+              The Perpetual Income Stream
+            </p>
+            <h2 className="text-3xl md:text-4xl font-heading text-neutral-900 mb-4">Income for Life</h2>
+            <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
+              After Year 6, your buyback is complete. But your equity stays. You own
+              10% of a growing enterprise that pays dividends every year.
+            </p>
+          </div>
+
+          <Card padding="none" className="overflow-hidden mb-8">
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-primary-800 text-white">
+                    <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Year</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Enterprise Distributes</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Your 10% Share</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-neutral-100">
+                  {ANNUAL_DISTRIBUTIONS.map((row) => (
+                    <tr key={row.year} className="hover:bg-canvas-subtle transition-colors">
+                      <td className="px-4 py-3 text-neutral-800">Year {row.year}</td>
+                      <td className="px-4 py-3 text-right text-neutral-700">
+                        {row.totalDistributions > 0 ? formatCurrency(row.totalDistributions) : 'Foundation year'}
+                      </td>
+                      <td className="px-4 py-3 text-right font-medium text-secondary-600">
+                        {row.jeffShare > 0 ? formatCurrency(row.jeffShare) : '$0'}
+                      </td>
+                    </tr>
+                  ))}
+                  <tr className="bg-secondary-50">
+                    <td className="px-4 py-3 font-medium text-secondary-800">Year 7+</td>
+                    <td className="px-4 py-3 text-right text-secondary-700">Growing annually</td>
+                    <td className="px-4 py-3 text-right font-heading text-lg text-secondary-600">
+                      {formatCurrency(STEADY_STATE_DIVIDENDS.low)}-{formatCurrency(STEADY_STATE_DIVIDENDS.high)}/yr
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </Card>
+
+          <Card padding="lg" className="bg-primary-800 text-white text-center">
+            <p className="font-heading text-xl mb-2">
+              After Year 6, you receive {formatCurrency(STEADY_STATE_DIVIDENDS.low)} to {formatCurrency(STEADY_STATE_DIVIDENDS.high)} per year.
+            </p>
+            <p className="text-primary-200">
+              Every year. Growing. Passive income from a partnership built on your property.
+            </p>
+          </Card>
+        </motion.section>
+
+        {/* ═══════════════════════════════════════════════════════════
+            Section 8: Cumulative Return Timeline
+        ═══════════════════════════════════════════════════════════ */}
+        <motion.section className="mb-24" {...fadeUp}>
+          <h2 className="text-3xl font-heading text-neutral-900 mb-4">Cumulative Return Timeline</h2>
+          <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
+            Here is how your total return accumulates year by year across cash payments,
+            dividends, and equity value at the full expansion model.
+          </p>
+
+          <Card padding="none" className="overflow-hidden mb-8">
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-primary-800 text-white">
+                    <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Period</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Cash Received</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Dividends</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Equity Value</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Running Total</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-neutral-100">
+                  {CUMULATIVE_RETURN.map((row) => (
+                    <tr key={row.label} className={`hover:bg-canvas-subtle transition-colors ${row.year === 6 ? 'bg-secondary-50' : ''}`}>
+                      <td className="px-4 py-3 font-medium text-neutral-800">{row.label}</td>
+                      <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(row.cashReceived)}</td>
+                      <td className="px-4 py-3 text-right text-neutral-600">{row.dividends > 0 ? formatCurrency(row.dividends) : '\u2014'}</td>
+                      <td className="px-4 py-3 text-right text-neutral-600">{row.equityValue > 0 ? formatCurrency(row.equityValue) : '\u2014'}</td>
+                      <td className="px-4 py-3 text-right font-heading text-lg text-neutral-900">
+                        {formatCurrency(row.runningTotal)}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </Card>
+
+          {/* $25M crossing marker */}
+          <div className="flex items-center gap-4 p-6 bg-success-50 border border-success-200 rounded-xl">
+            <div className="w-12 h-12 rounded-full bg-success-100 flex items-center justify-center shrink-0">
+              <Check className="w-6 h-6 text-success-700" />
+            </div>
+            <div>
+              <p className="font-heading text-lg text-success-800">
+                You cross $25M in Year 6 with equity included
+              </p>
+              <p className="text-sm text-success-700">
+                By end of Year 6, your total reaches {formatCurrency(CUMULATIVE_RETURN[6].runningTotal)}.
+                Then dividends continue growing every year after.
+              </p>
+            </div>
+          </div>
+        </motion.section>
+
+        {/* ═══════════════════════════════════════════════════════════
+            Section 9: Your Safety Net
+        ═══════════════════════════════════════════════════════════ */}
+        <motion.section className="mb-24" {...fadeUp}>
+          <h2 className="text-3xl font-heading text-neutral-900 mb-4">Your Safety Net</h2>
+          <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
+            This structure is designed so you cannot lose the asset. You hold the
+            property title for the entire term. If anything goes wrong, you get the
+            property back plus every payment we have already made to you.
+          </p>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
+            {[
+              { icon: Lock, title: 'Title Retained', desc: 'You hold the deed through the fideicomiso until fully paid.' },
+              { icon: Shield, title: 'You Are the Bank', desc: 'First-position security. No other creditor ahead of you.' },
+              { icon: Home, title: 'Asset Returns on Default', desc: 'If we default, you get the property back. Period.' },
+              { icon: TrendingUp, title: 'Equity Is Upside', desc: 'Your equity is on top of the secured position. Pure bonus.' },
+            ].map((item) => (
+              <Card key={item.title} padding="md">
+                <item.icon className="w-6 h-6 text-primary-600 mb-3" />
+                <h4 className="font-medium text-neutral-900 mb-1 text-sm">{item.title}</h4>
+                <p className="text-xs text-neutral-600">{item.desc}</p>
+              </Card>
+            ))}
+          </div>
+
+          <h3 className="font-heading text-xl text-neutral-900 mb-4">What Happens If We Default?</h3>
+          <Card padding="none" className="overflow-hidden">
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-primary-800 text-white">
+                    <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Default At</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Cash + Dividends Received</th>
+                    <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Outcome</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-neutral-100">
+                  {DEFAULT_SCENARIOS.map((row) => (
+                    <tr key={row.year} className="hover:bg-canvas-subtle transition-colors">
+                      <td className="px-4 py-3 font-medium text-neutral-800">Year {row.year}</td>
+                      <td className="px-4 py-3 text-right text-neutral-900 font-medium">{formatCurrency(row.totalReceived)}</td>
+                      <td className="px-4 py-3 text-neutral-700 max-w-md">{row.outcome}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </Card>
+        </motion.section>
+
+        {/* ═══════════════════════════════════════════════════════════
+            Section 10: What We Build Together
+        ═══════════════════════════════════════════════════════════ */}
+        <motion.section className="mb-24" {...fadeUp}>
+          <h2 className="text-3xl font-heading text-neutral-900 mb-4">What We Build Together</h2>
+          <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
+            Your property becomes the foundation for the world's first luxury medical
+            retreat specializing in ibogaine-assisted therapy, addiction recovery, and
+            total human optimization. A facility that does not exist anywhere on earth today.
+          </p>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+            {[
+              { icon: Heart, title: 'Medical-Grade Healing', desc: 'Full ICU capability, 24/7 physician coverage, cardiac monitoring. The safest ibogaine facility in the world.' },
+              { icon: TreePine, title: 'Luxury Sanctuary', desc: '60 treatment casitas at full expansion on your 45,000 m\u00B2 jungle compound. Five-star hospitality meets clinical excellence.' },
+              { icon: Brain, title: 'AI Health Intelligence', desc: 'Every guest generates proprietary brain health data. The resulting dataset becomes one of the most valuable neurological assets on earth.' },
+              { icon: TrendingUp, title: '$175M Enterprise', desc: 'Conservative Year 5 valuation at full expansion. Built on your land, powered by your property, generating real revenue.' },
+            ].map((item) => (
+              <Card key={item.title} padding="lg">
+                <item.icon className="w-8 h-8 text-secondary-500 mb-4" />
+                <h4 className="font-medium text-neutral-900 mb-2">{item.title}</h4>
+                <p className="text-sm text-neutral-600">{item.desc}</p>
+              </Card>
+            ))}
+          </div>
+
+          <div className="grid sm:grid-cols-3 gap-6">
+            <MetricCard
+              label="Year 5 Revenue"
+              value="$17.7M+"
+              subtitle="Annual operating revenue"
+              accent
+            />
+            <MetricCard
+              label="Break-Even"
+              value="~3%"
+              subtitle="Occupancy needed (25 guests/year)"
+              accent
+            />
+            <MetricCard
+              label="Gross Margin"
+              value="82%"
+              subtitle="Per guest contribution margin"
+              accent
+            />
+          </div>
+        </motion.section>
+
+        {/* ═══════════════════════════════════════════════════════════
+            Section 11: Let's Talk
+        ═══════════════════════════════════════════════════════════ */}
+        <motion.section className="mb-16" {...fadeUp}>
+          <Card padding="lg" className="bg-primary-800 text-white text-center py-16">
+            <p className="font-accent text-sm uppercase tracking-widest text-secondary-400 mb-6">
+              Next Steps
+            </p>
+            <h2 className="text-3xl md:text-4xl font-display text-white mb-6">
+              Let's Talk, Jeff
+            </h2>
+            <p className="text-lg text-primary-100 max-w-2xl mx-auto mb-4">
+              This is a real offer from a team that sees the real value in what you built.
+              We can have a term sheet ready within days of our conversation.
+            </p>
+            <p className="text-primary-200 mb-8">
+              No discount. No lowball. Full asking price, with a path to recovering
+              everything you put in.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <a
+                href="mailto:nick@light-brands.com?subject=Rancho%20Paraiso%20Oasis%20Partnership"
+                className="inline-flex items-center justify-center font-accent font-semibold uppercase text-sm tracking-wider px-8 py-4 rounded-lg bg-secondary-500 text-primary-950 hover:bg-secondary-400 transition-all shadow-sm hover:shadow-glow-gold"
+              >
+                Schedule a Conversation <ArrowRight className="w-4 h-4 ml-2" />
+              </a>
+            </div>
+          </Card>
+        </motion.section>
+
+        {/* Disclaimer */}
+        <div className="text-center text-xs text-neutral-400 pb-8">
+          <p>
+            This document is provided for discussion purposes only and does not constitute
+            a binding offer or solicitation. All projections are forward-looking estimates
+            based on management assumptions. Confidential.
+          </p>
+        </div>
+      </div>
+
+      <Footer />
+    </div>
+  )
+}
