@@ -170,12 +170,11 @@ export default function PartnerPage() {
                     <h3 className="font-heading text-lg text-neutral-900">Clean Purchase</h3>
                   </div>
                 </div>
-                <p className="font-heading text-3xl text-neutral-900 mb-2">{formatCurrency(SCENARIO_A.purchasePrice)}</p>
                 <p className="text-sm text-neutral-500 mb-4">Full asking price. Clean sale. Certainty.</p>
                 <div className="bg-neutral-50 rounded-lg p-3">
-                  <p className="text-xs font-accent uppercase tracking-wider text-neutral-500 mb-1">Recovery</p>
-                  <p className="font-heading text-2xl text-neutral-900">32%</p>
-                  <p className="text-xs text-neutral-500">of your $25M investment</p>
+                  <p className="text-xs font-accent uppercase tracking-wider text-neutral-500 mb-1">You Earn</p>
+                  <p className="font-heading text-2xl text-neutral-900">$8M</p>
+                  <p className="text-xs text-neutral-500">Cash at closing</p>
                 </div>
               </Card>
             </button>
@@ -207,12 +206,11 @@ export default function PartnerPage() {
                     <h3 className="font-heading text-lg text-neutral-900">Partnership</h3>
                   </div>
                 </div>
-                <p className="font-heading text-3xl text-secondary-600 mb-2">{formatCurrency(SELLER_FINANCE_TERMS.purchasePrice)}</p>
                 <p className="text-sm text-neutral-500 mb-4">Seller-financed. 10% equity. Income for life.</p>
                 <div className="bg-secondary-50 rounded-lg p-3">
-                  <p className="text-xs font-accent uppercase tracking-wider text-secondary-600 mb-1">Recovery</p>
-                  <p className="font-heading text-2xl text-secondary-600">104%+</p>
-                  <p className="text-xs text-secondary-700">of your $25M investment</p>
+                  <p className="text-xs font-accent uppercase tracking-wider text-secondary-600 mb-1">You Earn</p>
+                  <p className="font-heading text-2xl text-secondary-600">$8M → $26M+</p>
+                  <p className="text-xs text-secondary-700">Cash + equity + dividends</p>
                 </div>
               </Card>
             </button>
@@ -244,12 +242,11 @@ export default function PartnerPage() {
                     <h3 className="font-heading text-lg text-neutral-900">Full Partnership</h3>
                   </div>
                 </div>
-                <p className="font-heading text-3xl text-primary-700 mb-2">{formatCurrency(SCENARIO_C.totalDealValue)}</p>
                 <p className="text-sm text-neutral-500 mb-4">True co-ownership. 49% equity. Build together.</p>
                 <div className="bg-primary-50 rounded-lg p-3">
-                  <p className="text-xs font-accent uppercase tracking-wider text-primary-600 mb-1">Recovery</p>
-                  <p className="font-heading text-2xl text-primary-700">454%+</p>
-                  <p className="text-xs text-primary-700">of your $25M investment</p>
+                  <p className="text-xs font-accent uppercase tracking-wider text-primary-600 mb-1">You Earn</p>
+                  <p className="font-heading text-2xl text-primary-700">$12.9M → $113M+</p>
+                  <p className="text-xs text-primary-700">Equity + revenue share</p>
                 </div>
               </Card>
             </button>
