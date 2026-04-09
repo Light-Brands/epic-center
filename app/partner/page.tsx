@@ -84,7 +84,7 @@ export default function PartnerPage() {
             Jeff, We Want to Pay<br className="hidden md:block" /> Your Full Asking Price
           </h1>
           <p className="text-xl text-primary-100 max-w-2xl mx-auto mb-4">
-            Three paths forward. From a clean $11.9 million purchase to a deep
+            Three paths forward. From a clean $8 million purchase to a deep
             partnership that could recover the full $25 million you invested and beyond.
           </p>
           <p className="text-lg text-primary-200/70">
@@ -174,7 +174,7 @@ export default function PartnerPage() {
                 <p className="text-sm text-neutral-500 mb-4">Full asking price. Clean sale. Certainty.</p>
                 <div className="bg-neutral-50 rounded-lg p-3">
                   <p className="text-xs font-accent uppercase tracking-wider text-neutral-500 mb-1">Recovery</p>
-                  <p className="font-heading text-2xl text-neutral-900">48%</p>
+                  <p className="font-heading text-2xl text-neutral-900">32%</p>
                   <p className="text-xs text-neutral-500">of your $25M investment</p>
                 </div>
               </Card>
@@ -211,7 +211,7 @@ export default function PartnerPage() {
                 <p className="text-sm text-neutral-500 mb-4">Seller-financed. 10% equity. Income for life.</p>
                 <div className="bg-secondary-50 rounded-lg p-3">
                   <p className="text-xs font-accent uppercase tracking-wider text-secondary-600 mb-1">Recovery</p>
-                  <p className="font-heading text-2xl text-secondary-600">122%+</p>
+                  <p className="font-heading text-2xl text-secondary-600">104%+</p>
                   <p className="text-xs text-secondary-700">of your $25M investment</p>
                 </div>
               </Card>
@@ -269,16 +269,16 @@ export default function PartnerPage() {
                 <h2 className="text-3xl font-heading text-neutral-900 mb-4">Clean Purchase</h2>
                 <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
                   The simplest path. We buy the property at your full asking price.
-                  You receive $11.9 million, we pay the broker commission, and the
+                  You receive $8 million, we pay the broker commission, and the
                   transaction is complete.
                 </p>
 
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
                   {[
-                    { label: 'Purchase Price', value: '$11.9M', icon: Building2 },
-                    { label: 'Broker Commission', value: '$714K (6%)', icon: DollarSign },
+                    { label: 'Purchase Price', value: '$8M', icon: Building2 },
+                    { label: 'Broker Commission', value: '$480K (6%)', icon: DollarSign },
                     { label: 'Commission Paid By', value: 'Us', icon: Handshake },
-                    { label: 'Net to You', value: '$11.9M', icon: Shield },
+                    { label: 'Net to You', value: '$8M', icon: Shield },
                   ].map((item) => (
                     <Card key={item.label} padding="md" className="text-center">
                       <item.icon className="w-6 h-6 text-neutral-600 mx-auto mb-2" />
@@ -296,7 +296,7 @@ export default function PartnerPage() {
                       <ul className="space-y-2 text-neutral-600">
                         <li className="flex items-start gap-2">
                           <Check className="w-4 h-4 text-neutral-500 mt-1 shrink-0" />
-                          <span>$11.9 million at closing</span>
+                          <span>$8 million at closing</span>
                         </li>
                         <li className="flex items-start gap-2">
                           <Check className="w-4 h-4 text-neutral-500 mt-1 shrink-0" />
@@ -313,7 +313,7 @@ export default function PartnerPage() {
                       <ul className="space-y-2 text-neutral-600">
                         <li className="flex items-start gap-2">
                           <ArrowRight className="w-4 h-4 text-neutral-400 mt-1 shrink-0" />
-                          <span>48% recovery on your $25M investment</span>
+                          <span>32% recovery on your $25M investment</span>
                         </li>
                         <li className="flex items-start gap-2">
                           <ArrowRight className="w-4 h-4 text-neutral-400 mt-1 shrink-0" />
@@ -360,8 +360,8 @@ export default function PartnerPage() {
 
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
                   {[
-                    { label: 'Purchase Price', value: '$11.9M', icon: Building2 },
-                    { label: 'Down Payment', value: '$2.38M (20%)', icon: DollarSign },
+                    { label: 'Purchase Price', value: '$8M', icon: Building2 },
+                    { label: 'Down Payment', value: '$1.6M (20%)', icon: DollarSign },
                     { label: 'Interest Rate', value: '6%', icon: TrendingUp },
                     { label: 'Term', value: '6 Years', icon: Shield },
                   ].map((item) => (
@@ -493,7 +493,7 @@ export default function PartnerPage() {
                     value={formatCurrency(TOTAL_RETURN.totalFull)}
                     subtitle="Cash + equity combined"
                     trend="up"
-                    trendValue="122% of $25M recovered"
+                    trendValue="104% of $25M recovered"
                     accent
                   />
                 </div>
@@ -630,7 +630,7 @@ export default function PartnerPage() {
                   </div>
                   <div>
                     <p className="font-heading text-lg text-success-800">
-                      You cross $25M in Year 5 and keep climbing
+                      You cross $25M in Year 6 with equity included
                     </p>
                     <p className="text-sm text-success-700">
                       By end of Year 6, your total reaches {formatCurrency(CUMULATIVE_RETURN[6].runningTotal)}.

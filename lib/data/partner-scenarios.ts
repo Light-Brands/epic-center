@@ -1,6 +1,7 @@
 // ═══════════════════════════════════════════════════════════════════════════
 // Jeff Partnership Offer - Financial Data
 // Three scenarios: Clean purchase, Seller-financed partnership, Full partnership
+// All scenarios based on $8M property purchase price
 // ═══════════════════════════════════════════════════════════════════════════
 
 export const PROPERTY_FACTS = {
@@ -10,51 +11,51 @@ export const PROPERTY_FACTS = {
   totalArea: '45,000 m\u00B2',
   lots: 9,
   ownerInvestment: 25_000_000,
-  askingPrice: 11_900_000,
+  askingPrice: 8_000_000,
   brokerCommissionRate: 0.06,
-  brokerCommission: 714_000,
+  brokerCommission: 480_000,
   reinvestment: 1_000_000,
 }
 
 // ─── Scenario A: Clean Purchase ──────────────────────────────────────────
 
 export const SCENARIO_A = {
-  purchasePrice: 11_900_000,
-  brokerCommission: 714_000,
-  netToJeff: 11_900_000,
-  percentRecovered: 0.476, // of $25M
+  purchasePrice: 8_000_000,
+  brokerCommission: 480_000,
+  netToJeff: 8_000_000,
+  percentRecovered: 0.32, // of $25M
   description: 'Full asking price. Clean sale. No ongoing relationship.',
 }
 
 // ─── Scenario B: Seller-Financed Partnership (10% equity) ───────────────
 
 export const SELLER_FINANCE_TERMS = {
-  purchasePrice: 11_900_000,
+  purchasePrice: 8_000_000,
   downPaymentPercent: 0.20,
-  downPayment: 2_380_000,
-  financedBalance: 9_520_000,
+  downPayment: 1_600_000,
+  financedBalance: 6_400_000,
   interestRate: 0.06,
   termYears: 6,
-  brokerCommission: 714_000,
+  brokerCommission: 480_000,
   equityPercent: 0.10,
   reinvestment: 1_000_000,
 }
 
 // Graduated principal payments (lower early, higher later)
 export const PAYMENT_SCHEDULE = [
-  { year: 0, label: 'Closing',  principal: 2_380_000, interest: 0,       totalCash: 2_380_000, cumulative: 2_380_000,  balanceAfter: 9_520_000 },
-  { year: 1, label: 'Year 1',   principal: 952_000,   interest: 571_200, totalCash: 1_523_200, cumulative: 3_903_200,  balanceAfter: 8_568_000 },
-  { year: 2, label: 'Year 2',   principal: 1_190_000, interest: 514_080, totalCash: 1_704_080, cumulative: 5_607_280,  balanceAfter: 7_378_000 },
-  { year: 3, label: 'Year 3',   principal: 1_428_000, interest: 442_680, totalCash: 1_870_680, cumulative: 7_477_960,  balanceAfter: 5_950_000 },
-  { year: 4, label: 'Year 4',   principal: 1_785_000, interest: 357_000, totalCash: 2_142_000, cumulative: 9_619_960,  balanceAfter: 4_165_000 },
-  { year: 5, label: 'Year 5',   principal: 2_082_500, interest: 249_900, totalCash: 2_332_400, cumulative: 11_952_360, balanceAfter: 2_082_500 },
-  { year: 6, label: 'Year 6',   principal: 2_082_500, interest: 124_950, totalCash: 2_207_450, cumulative: 14_159_810, balanceAfter: 0 },
+  { year: 0, label: 'Closing',  principal: 1_600_000, interest: 0,       totalCash: 1_600_000, cumulative: 1_600_000,  balanceAfter: 6_400_000 },
+  { year: 1, label: 'Year 1',   principal: 640_000,   interest: 384_000, totalCash: 1_024_000, cumulative: 2_624_000,  balanceAfter: 5_760_000 },
+  { year: 2, label: 'Year 2',   principal: 800_000,   interest: 345_600, totalCash: 1_145_600, cumulative: 3_769_600,  balanceAfter: 4_960_000 },
+  { year: 3, label: 'Year 3',   principal: 960_000,   interest: 297_600, totalCash: 1_257_600, cumulative: 5_027_200,  balanceAfter: 4_000_000 },
+  { year: 4, label: 'Year 4',   principal: 1_200_000, interest: 240_000, totalCash: 1_440_000, cumulative: 6_467_200,  balanceAfter: 2_800_000 },
+  { year: 5, label: 'Year 5',   principal: 1_400_000, interest: 168_000, totalCash: 1_568_000, cumulative: 8_035_200,  balanceAfter: 1_400_000 },
+  { year: 6, label: 'Year 6',   principal: 1_400_000, interest: 84_000,  totalCash: 1_484_000, cumulative: 9_519_200,  balanceAfter: 0 },
 ]
 
 export const PAYMENT_TOTALS = {
-  totalPrincipal: 11_900_000,
-  totalInterest: 2_259_810,
-  totalCashToJeff: 14_159_810,
+  totalPrincipal: 8_000_000,
+  totalInterest: 1_519_200,
+  totalCashToJeff: 9_519_200,
 }
 
 // ─── Equity (Scenario B) ────────────────────────────────────────────────
@@ -74,15 +75,15 @@ export const ENTERPRISE_VALUATIONS = {
 
 // Jeff's total return - Scenario B (cash + equity at 10%)
 export const TOTAL_RETURN = {
-  cashReceived: 14_159_810,
+  cashReceived: 9_519_200,
   reinvestment: 1_000_000,
-  netCash: 13_159_810,
+  netCash: 8_519_200,
   equityConservative: 44_500_000 * 0.10,   // $4,450,000
   equityBase: 76_800_000 * 0.10,            // $7,680,000
   equityFull: 175_000_000 * 0.10,           // $17,500,000
-  totalConservative: 13_159_810 + 4_450_000, // $17,609,810
-  totalBase: 13_159_810 + 7_680_000,         // $20,839,810
-  totalFull: 13_159_810 + 17_500_000,        // $30,659_810
+  totalConservative: 8_519_200 + 4_450_000,  // $12,969,200
+  totalBase: 8_519_200 + 7_680_000,          // $16,199,200
+  totalFull: 8_519_200 + 17_500_000,         // $26,019,200
 }
 
 // ─── Ongoing Dividends - Scenario B (10% equity) ────────────────────────
@@ -100,13 +101,13 @@ export const STEADY_STATE_DIVIDENDS = { low: 1_600_000, high: 2_000_000 }
 
 // Cumulative return - Scenario B (10% equity, full expansion model)
 export const CUMULATIVE_RETURN = [
-  { year: 0, label: 'Closing',  cashReceived: 2_380_000,  dividends: 0,         equityValue: 0,          runningTotal: 2_380_000 },
-  { year: 1, label: 'Year 1',   cashReceived: 3_903_200,  dividends: 0,         equityValue: 0,          runningTotal: 3_903_200 },
-  { year: 2, label: 'Year 2',   cashReceived: 5_607_280,  dividends: 245_000,   equityValue: 0,          runningTotal: 5_852_280 },
-  { year: 3, label: 'Year 3',   cashReceived: 7_477_960,  dividends: 1_041_000, equityValue: 0,          runningTotal: 8_518_960 },
-  { year: 4, label: 'Year 4',   cashReceived: 9_619_960,  dividends: 2_327_000, equityValue: 0,          runningTotal: 11_946_960 },
-  { year: 5, label: 'Year 5',   cashReceived: 11_952_360, dividends: 3_898_000, equityValue: 0,          runningTotal: 15_850_360 },
-  { year: 6, label: 'Year 6',   cashReceived: 14_159_810, dividends: 5_698_000, equityValue: 17_500_000, runningTotal: 37_357_810 },
+  { year: 0, label: 'Closing',  cashReceived: 1_600_000,  dividends: 0,         equityValue: 0,          runningTotal: 1_600_000 },
+  { year: 1, label: 'Year 1',   cashReceived: 2_624_000,  dividends: 0,         equityValue: 0,          runningTotal: 2_624_000 },
+  { year: 2, label: 'Year 2',   cashReceived: 3_769_600,  dividends: 245_000,   equityValue: 0,          runningTotal: 4_014_600 },
+  { year: 3, label: 'Year 3',   cashReceived: 5_027_200,  dividends: 1_041_000, equityValue: 0,          runningTotal: 6_068_200 },
+  { year: 4, label: 'Year 4',   cashReceived: 6_467_200,  dividends: 2_327_000, equityValue: 0,          runningTotal: 8_794_200 },
+  { year: 5, label: 'Year 5',   cashReceived: 8_035_200,  dividends: 3_898_000, equityValue: 0,          runningTotal: 11_933_200 },
+  { year: 6, label: 'Year 6',   cashReceived: 9_519_200,  dividends: 5_698_000, equityValue: 17_500_000, runningTotal: 32_717_200 },
 ]
 
 // ─── Downside Protection (Scenario B) ───────────────────────────────────
@@ -114,24 +115,24 @@ export const CUMULATIVE_RETURN = [
 export const DEFAULT_SCENARIOS = [
   {
     year: 1,
-    cashReceived: 3_903_200,
+    cashReceived: 2_624_000,
     dividendsReceived: 0,
-    totalReceived: 3_903_200,
-    outcome: 'Jeff takes back the property plus $3.9M in payments already received.',
+    totalReceived: 2_624_000,
+    outcome: 'Jeff takes back the property plus $2.6M in payments already received.',
   },
   {
     year: 3,
-    cashReceived: 7_477_960,
+    cashReceived: 5_027_200,
     dividendsReceived: 1_041_000,
-    totalReceived: 8_518_960,
-    outcome: 'Jeff takes back the improved property plus $8.5M in cash and dividends received.',
+    totalReceived: 6_068_200,
+    outcome: 'Jeff takes back the improved property plus $6.1M in cash and dividends received.',
   },
   {
     year: 5,
-    cashReceived: 11_952_360,
+    cashReceived: 8_035_200,
     dividendsReceived: 3_898_000,
-    totalReceived: 15_850_360,
-    outcome: 'Jeff takes back a significantly improved property plus $15.9M received. Already ahead of any sale outcome.',
+    totalReceived: 11_933_200,
+    outcome: 'Jeff takes back a significantly improved property plus $11.9M received. Already ahead of any sale outcome.',
   },
 ]
 
