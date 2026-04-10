@@ -23,7 +23,6 @@ import { MetricCard } from '@/components/financial'
 import { Footer } from '@/components/layout'
 import {
   PROPERTY_FACTS,
-  SCENARIO_A,
   SELLER_FINANCE_TERMS,
   PAYMENT_SCHEDULE,
   PAYMENT_TOTALS,
@@ -41,7 +40,7 @@ import {
   formatCurrency,
 } from '@/lib/data/partner-scenarios'
 
-type Scenario = 'a' | 'b' | 'c'
+type Scenario = 'a' | 'b'
 
 const fadeUp = {
   initial: { opacity: 0, y: 24 },
@@ -57,7 +56,7 @@ const sectionTransition = {
 }
 
 export default function PartnerPage() {
-  const [selected, setSelected] = useState<Scenario>('b')
+  const [selected, setSelected] = useState<Scenario>('a')
 
   return (
     <div className="min-h-screen bg-canvas">
@@ -84,11 +83,11 @@ export default function PartnerPage() {
             Jeff, We Want to Pay<br className="hidden md:block" /> Your Full Asking Price
           </h1>
           <p className="text-xl text-primary-100 max-w-2xl mx-auto mb-4">
-            Three paths forward. From a clean $8 million purchase to a deep
-            partnership that could recover the full $25 million you invested and beyond.
+            Two partnership paths. Both start at $8 million. Both offer a way
+            to recover the full $25 million you invested and beyond.
           </p>
           <p className="text-lg text-primary-200/70">
-            Three paths. One property. Your choice.
+            Two paths. One property. Your choice.
           </p>
         </motion.div>
       </section>
@@ -136,58 +135,25 @@ export default function PartnerPage() {
         </motion.section>
 
         {/* ═══════════════════════════════════════════════════════════
-            Section 3: Three Paths Forward - Clickable Cards
+            Section 3: Two Partnership Paths - Clickable Cards
         ═══════════════════════════════════════════════════════════ */}
         <motion.section className="mb-16" {...fadeUp}>
-          <h2 className="text-3xl font-heading text-neutral-900 mb-4">Three Paths Forward</h2>
+          <h2 className="text-3xl font-heading text-neutral-900 mb-4">Two Partnership Paths</h2>
           <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-            Each path starts with your property. The difference is how deep the
-            partnership goes. Click any option to see the full details.
+            Both paths start with your property. The difference is how deep the
+            partnership goes. Click either option to see the full details.
           </p>
 
-          <div className="grid md:grid-cols-3 gap-6">
-            {/* Scenario A Card */}
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Option A Card (Seller-Financed, 10% equity) */}
             <button
               onClick={() => setSelected('a')}
               className="text-left transition-all duration-300"
             >
               <Card
                 padding="lg"
-                className={`h-full border-2 transition-all duration-300 ${
-                  selected === 'a'
-                    ? 'border-neutral-800 shadow-lg ring-2 ring-neutral-800/20'
-                    : 'border-neutral-200 hover:border-neutral-400'
-                }`}
-              >
-                <div className="flex items-center gap-3 mb-4">
-                  <div className={`w-10 h-10 rounded-full flex items-center justify-center ${
-                    selected === 'a' ? 'bg-neutral-800' : 'bg-neutral-100'
-                  }`}>
-                    <DollarSign className={`w-5 h-5 ${selected === 'a' ? 'text-white' : 'text-neutral-600'}`} />
-                  </div>
-                  <div>
-                    <p className="font-accent text-xs uppercase tracking-wider text-neutral-500">Option A</p>
-                    <h3 className="font-heading text-lg text-neutral-900">Clean Purchase</h3>
-                  </div>
-                </div>
-                <p className="text-sm text-neutral-500 mb-4">Full asking price. Clean sale. Certainty.</p>
-                <div className="bg-neutral-50 rounded-lg p-3">
-                  <p className="text-xs font-accent uppercase tracking-wider text-neutral-500 mb-1">You Earn</p>
-                  <p className="font-heading text-2xl text-neutral-900">$8M</p>
-                  <p className="text-xs text-neutral-500">Cash at closing</p>
-                </div>
-              </Card>
-            </button>
-
-            {/* Scenario B Card */}
-            <button
-              onClick={() => setSelected('b')}
-              className="text-left transition-all duration-300"
-            >
-              <Card
-                padding="lg"
                 className={`h-full border-2 relative overflow-hidden transition-all duration-300 ${
-                  selected === 'b'
+                  selected === 'a'
                     ? 'border-secondary-500 shadow-lg ring-2 ring-secondary-500/20'
                     : 'border-secondary-300 hover:border-secondary-400'
                 }`}
@@ -197,12 +163,12 @@ export default function PartnerPage() {
                 </div>
                 <div className="flex items-center gap-3 mb-4">
                   <div className={`w-10 h-10 rounded-full flex items-center justify-center ${
-                    selected === 'b' ? 'bg-secondary-500' : 'bg-secondary-100'
+                    selected === 'a' ? 'bg-secondary-500' : 'bg-secondary-100'
                   }`}>
-                    <Handshake className={`w-5 h-5 ${selected === 'b' ? 'text-white' : 'text-secondary-600'}`} />
+                    <Handshake className={`w-5 h-5 ${selected === 'a' ? 'text-white' : 'text-secondary-600'}`} />
                   </div>
                   <div>
-                    <p className="font-accent text-xs uppercase tracking-wider text-secondary-600">Option B</p>
+                    <p className="font-accent text-xs uppercase tracking-wider text-secondary-600">Option A</p>
                     <h3 className="font-heading text-lg text-neutral-900">Partnership</h3>
                   </div>
                 </div>
@@ -215,15 +181,15 @@ export default function PartnerPage() {
               </Card>
             </button>
 
-            {/* Scenario C Card */}
+            {/* Option B Card (Full Partnership, 49% equity) */}
             <button
-              onClick={() => setSelected('c')}
+              onClick={() => setSelected('b')}
               className="text-left transition-all duration-300"
             >
               <Card
                 padding="lg"
                 className={`h-full border-2 relative overflow-hidden transition-all duration-300 ${
-                  selected === 'c'
+                  selected === 'b'
                     ? 'border-primary-600 shadow-lg ring-2 ring-primary-600/20'
                     : 'border-primary-300 hover:border-primary-400'
                 }`}
@@ -233,12 +199,12 @@ export default function PartnerPage() {
                 </div>
                 <div className="flex items-center gap-3 mb-4">
                   <div className={`w-10 h-10 rounded-full flex items-center justify-center ${
-                    selected === 'c' ? 'bg-primary-700' : 'bg-primary-100'
+                    selected === 'b' ? 'bg-primary-700' : 'bg-primary-100'
                   }`}>
-                    <Users className={`w-5 h-5 ${selected === 'c' ? 'text-white' : 'text-primary-700'}`} />
+                    <Users className={`w-5 h-5 ${selected === 'b' ? 'text-white' : 'text-primary-700'}`} />
                   </div>
                   <div>
-                    <p className="font-accent text-xs uppercase tracking-wider text-primary-600">Option C</p>
+                    <p className="font-accent text-xs uppercase tracking-wider text-primary-600">Option B</p>
                     <h3 className="font-heading text-lg text-neutral-900">Full Partnership</h3>
                   </div>
                 </div>
@@ -258,95 +224,10 @@ export default function PartnerPage() {
         ═══════════════════════════════════════════════════════════ */}
         <AnimatePresence mode="wait">
           {/* ═══════════════════════════════════════════════════════════
-              SCENARIO A DETAILS: Clean Purchase
+              OPTION A DETAILS: Seller-Financed Partnership (10%)
           ═══════════════════════════════════════════════════════════ */}
           {selected === 'a' && (
-            <motion.div key="scenario-a" {...sectionTransition}>
-              <section className="mb-24">
-                <h2 className="text-3xl font-heading text-neutral-900 mb-4">Clean Purchase</h2>
-                <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-                  The simplest path. We buy the property at your full asking price.
-                  You receive $8 million, we pay the broker commission, and the
-                  transaction is complete.
-                </p>
-
-                <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
-                  {[
-                    { label: 'Purchase Price', value: '$8M', icon: Building2 },
-                    { label: 'Broker Commission', value: '$480K (6%)', icon: DollarSign },
-                    { label: 'Commission Paid By', value: 'Us', icon: Handshake },
-                    { label: 'Net to You', value: '$8M', icon: Shield },
-                  ].map((item) => (
-                    <Card key={item.label} padding="md" className="text-center">
-                      <item.icon className="w-6 h-6 text-neutral-600 mx-auto mb-2" />
-                      <p className="text-xs font-accent uppercase tracking-wider text-neutral-500 mb-1">{item.label}</p>
-                      <p className="font-heading text-2xl text-neutral-900">{item.value}</p>
-                    </Card>
-                  ))}
-                </div>
-
-                <Card padding="lg" className="bg-neutral-50 border border-neutral-200">
-                  <h3 className="font-heading text-xl text-neutral-900 mb-4">What This Means</h3>
-                  <div className="grid md:grid-cols-2 gap-8">
-                    <div>
-                      <h4 className="font-medium text-neutral-800 mb-2">You Get</h4>
-                      <ul className="space-y-2 text-neutral-600">
-                        <li className="flex items-start gap-2">
-                          <Check className="w-4 h-4 text-neutral-500 mt-1 shrink-0" />
-                          <span>$8 million at closing</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <Check className="w-4 h-4 text-neutral-500 mt-1 shrink-0" />
-                          <span>Clean break. No ongoing obligations.</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <Check className="w-4 h-4 text-neutral-500 mt-1 shrink-0" />
-                          <span>Speed and certainty of a cash transaction</span>
-                        </li>
-                      </ul>
-                    </div>
-                    <div>
-                      <h4 className="font-medium text-neutral-800 mb-2">The Trade-off</h4>
-                      <ul className="space-y-2 text-neutral-600">
-                        <li className="flex items-start gap-2">
-                          <ArrowRight className="w-4 h-4 text-neutral-400 mt-1 shrink-0" />
-                          <span>32% recovery on your $25M investment</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <ArrowRight className="w-4 h-4 text-neutral-400 mt-1 shrink-0" />
-                          <span>No participation in the upside</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <ArrowRight className="w-4 h-4 text-neutral-400 mt-1 shrink-0" />
-                          <span>No ongoing income from the property</span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </Card>
-
-                <div className="mt-8 flex items-center gap-4 p-6 bg-canvas-emphasis rounded-xl">
-                  <div className="w-12 h-12 rounded-full bg-neutral-200 flex items-center justify-center shrink-0">
-                    <DollarSign className="w-6 h-6 text-neutral-600" />
-                  </div>
-                  <div>
-                    <p className="font-heading text-lg text-neutral-800">
-                      Simple and clean, but leaves value on the table.
-                    </p>
-                    <p className="text-sm text-neutral-600">
-                      Options B and C offer paths to recovering significantly more of your $25M investment.
-                    </p>
-                  </div>
-                </div>
-              </section>
-            </motion.div>
-          )}
-
-          {/* ═══════════════════════════════════════════════════════════
-              SCENARIO B DETAILS: Seller-Financed Partnership (10%)
-          ═══════════════════════════════════════════════════════════ */}
-          {selected === 'b' && (
-            <motion.div key="scenario-b" {...sectionTransition}>
+            <motion.div key="option-a" {...sectionTransition}>
               {/* Partnership Terms */}
               <section className="mb-24">
                 <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Partnership Terms</h2>
@@ -689,10 +570,10 @@ export default function PartnerPage() {
           )}
 
           {/* ═══════════════════════════════════════════════════════════
-              SCENARIO C DETAILS: Full Partnership (49%)
+              OPTION B DETAILS: Full Partnership (49%)
           ═══════════════════════════════════════════════════════════ */}
-          {selected === 'c' && (
-            <motion.div key="scenario-c" {...sectionTransition}>
+          {selected === 'b' && (
+            <motion.div key="option-b" {...sectionTransition}>
               {/* Deal Structure */}
               <section className="mb-24">
                 <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Full Partnership</h2>
@@ -991,9 +872,9 @@ export default function PartnerPage() {
         </AnimatePresence>
 
         {/* ═══════════════════════════════════════════════════════════
-            What We Build Together (hidden for clean purchase)
+            What We Build Together
         ═══════════════════════════════════════════════════════════ */}
-        {selected !== 'a' && <motion.section className="mb-24" {...fadeUp}>
+        <motion.section className="mb-24" {...fadeUp}>
           <h2 className="text-3xl font-heading text-neutral-900 mb-4">What We Build Together</h2>
           <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
             Your property becomes the foundation for the world's first luxury medical
@@ -1036,10 +917,10 @@ export default function PartnerPage() {
               accent
             />
           </div>
-        </motion.section>}
+        </motion.section>
 
         {/* ═══════════════════════════════════════════════════════════
-            Let's Talk (always visible)
+            Let's Talk
         ═══════════════════════════════════════════════════════════ */}
         <motion.section className="mb-16" {...fadeUp}>
           <Card padding="lg" className="bg-primary-800 text-white text-center py-16">
@@ -1054,8 +935,8 @@ export default function PartnerPage() {
               We can have a term sheet ready within days of our conversation.
             </p>
             <p className="text-primary-200 mb-8">
-              Three paths. From a clean purchase to a deep partnership.
-              Every one of them starts with your full asking price.
+              Two partnership paths. Both start with your full asking price.
+              Both offer a way to recover everything you put in.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
