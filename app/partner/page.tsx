@@ -138,48 +138,15 @@ export default function PartnerPage() {
           </p>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Option A Card (Seller-Financed, 10% equity) */}
+            {/* Option A Card (Full Partnership, 49% equity) - Preferred */}
             <button
               onClick={() => setSelected('a')}
               className="text-left transition-all duration-300"
             >
               <Card
                 padding="lg"
-                className={`h-full border-2 transition-all duration-300 ${
-                  selected === 'a'
-                    ? 'border-secondary-500 shadow-lg ring-2 ring-secondary-500/20'
-                    : 'border-secondary-300 hover:border-secondary-400'
-                }`}
-              >
-                <div className="flex items-center gap-3 mb-4">
-                  <div className={`w-10 h-10 rounded-full flex items-center justify-center ${
-                    selected === 'a' ? 'bg-secondary-500' : 'bg-secondary-100'
-                  }`}>
-                    <Handshake className={`w-5 h-5 ${selected === 'a' ? 'text-white' : 'text-secondary-600'}`} />
-                  </div>
-                  <div>
-                    <p className="font-accent text-xs uppercase tracking-wider text-secondary-600">Option A</p>
-                    <h3 className="font-heading text-lg text-neutral-900">Partnership</h3>
-                  </div>
-                </div>
-                <p className="text-sm text-neutral-500 mb-4">Seller-financed. 10% across three operating entities. Income for life.</p>
-                <div className="bg-secondary-50 rounded-lg p-3">
-                  <p className="text-xs font-accent uppercase tracking-wider text-secondary-600 mb-1">You Earn</p>
-                  <p className="font-heading text-2xl text-secondary-600">$8M → $25M+</p>
-                  <p className="text-xs text-secondary-700">Cash + equity + dividends</p>
-                </div>
-              </Card>
-            </button>
-
-            {/* Option B Card (Full Partnership, 49% equity) */}
-            <button
-              onClick={() => setSelected('b')}
-              className="text-left transition-all duration-300"
-            >
-              <Card
-                padding="lg"
                 className={`h-full border-2 relative overflow-hidden transition-all duration-300 ${
-                  selected === 'b'
+                  selected === 'a'
                     ? 'border-primary-600 shadow-lg ring-2 ring-primary-600/20'
                     : 'border-primary-300 hover:border-primary-400'
                 }`}
@@ -189,12 +156,12 @@ export default function PartnerPage() {
                 </div>
                 <div className="flex items-center gap-3 mb-4">
                   <div className={`w-10 h-10 rounded-full flex items-center justify-center ${
-                    selected === 'b' ? 'bg-primary-700' : 'bg-primary-100'
+                    selected === 'a' ? 'bg-primary-700' : 'bg-primary-100'
                   }`}>
-                    <Users className={`w-5 h-5 ${selected === 'b' ? 'text-white' : 'text-primary-700'}`} />
+                    <Users className={`w-5 h-5 ${selected === 'a' ? 'text-white' : 'text-primary-700'}`} />
                   </div>
                   <div>
-                    <p className="font-accent text-xs uppercase tracking-wider text-primary-600">Option B</p>
+                    <p className="font-accent text-xs uppercase tracking-wider text-primary-600">Option A</p>
                     <h3 className="font-heading text-lg text-neutral-900">Full Partnership</h3>
                   </div>
                 </div>
@@ -206,6 +173,39 @@ export default function PartnerPage() {
                 </div>
               </Card>
             </button>
+
+            {/* Option B Card (Seller-Financed, 10% equity) */}
+            <button
+              onClick={() => setSelected('b')}
+              className="text-left transition-all duration-300"
+            >
+              <Card
+                padding="lg"
+                className={`h-full border-2 transition-all duration-300 ${
+                  selected === 'b'
+                    ? 'border-secondary-500 shadow-lg ring-2 ring-secondary-500/20'
+                    : 'border-secondary-300 hover:border-secondary-400'
+                }`}
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  <div className={`w-10 h-10 rounded-full flex items-center justify-center ${
+                    selected === 'b' ? 'bg-secondary-500' : 'bg-secondary-100'
+                  }`}>
+                    <Handshake className={`w-5 h-5 ${selected === 'b' ? 'text-white' : 'text-secondary-600'}`} />
+                  </div>
+                  <div>
+                    <p className="font-accent text-xs uppercase tracking-wider text-secondary-600">Option B</p>
+                    <h3 className="font-heading text-lg text-neutral-900">Partnership</h3>
+                  </div>
+                </div>
+                <p className="text-sm text-neutral-500 mb-4">Seller-financed. 10% across three operating entities. Income for life.</p>
+                <div className="bg-secondary-50 rounded-lg p-3">
+                  <p className="text-xs font-accent uppercase tracking-wider text-secondary-600 mb-1">You Earn</p>
+                  <p className="font-heading text-2xl text-secondary-600">$8M → $25M+</p>
+                  <p className="text-xs text-secondary-700">Cash + equity + dividends</p>
+                </div>
+              </Card>
+            </button>
           </div>
         </motion.section>
 
@@ -214,10 +214,10 @@ export default function PartnerPage() {
         ═══════════════════════════════════════════════════════════ */}
         <AnimatePresence mode="wait">
           {/* ═══════════════════════════════════════════════════════════
-              OPTION A DETAILS: Seller-Financed Partnership (10%)
+              OPTION B DETAILS: Seller-Financed Partnership (10%)
           ═══════════════════════════════════════════════════════════ */}
-          {selected === 'a' && (
-            <motion.div key="option-a" {...sectionTransition}>
+          {selected === 'b' && (
+            <motion.div key="option-b" {...sectionTransition}>
               {/* Partnership Terms */}
               <section className="mb-24">
                 <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Partnership Terms</h2>
@@ -590,10 +590,10 @@ export default function PartnerPage() {
           )}
 
           {/* ═══════════════════════════════════════════════════════════
-              OPTION B DETAILS: Full Partnership (49%)
+              OPTION A DETAILS: Full Partnership (49%) - Preferred
           ═══════════════════════════════════════════════════════════ */}
-          {selected === 'b' && (
-            <motion.div key="option-b" {...sectionTransition}>
+          {selected === 'a' && (
+            <motion.div key="option-a" {...sectionTransition}>
               {/* Deal Structure */}
               <section className="mb-24">
                 <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Full Partnership</h2>
