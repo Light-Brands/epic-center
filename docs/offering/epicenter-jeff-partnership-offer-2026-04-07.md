@@ -84,15 +84,15 @@ That is the same net you would receive selling at full list price with a 20% com
 
 ---
 
-## The $1M Reinvestment Option
+## The $5.4M Operations Commitment
 
-If you choose to reinvest $1,000,000 back into the property renovation, your equity increases from 8% to 10%.
+You commit $5.4M in operations capital alongside your property. This funds the buildout and launch of the enterprise. Your equity increases from 8% to 10%.
 
-This is entirely your choice. Not an obligation.
+We pay the $1.6M broker fee separately. That cost is on us, not you.
 
-But here is what it means: that $1M, invested into a property you already know better than anyone, earns an estimated 3.5x return at full expansion. You are not putting money into someone else's vision. You are putting it into the asset you built, now with an operational engine behind it.
+Here is what it means: that $5.4M, invested into an operation built on the property you already know better than anyone, earns an estimated 3.2x return at full expansion. You are not putting money into someone else's vision. You are putting it into the asset you built, now with an operational engine behind it.
 
-At 10% equity in a $175M enterprise, that $1M reinvestment is worth $17.5M.
+At 10% equity in a $175M enterprise, your commitment is worth $17.5M.
 
 ---
 
@@ -100,17 +100,17 @@ At 10% equity in a $175M enterprise, that $1M reinvestment is worth $17.5M.
 
 This is the number that matters. You put in $25M. Here is the path to getting it back and then some.
 
-### At 10% Equity (with $1M reinvestment)
+### At 10% Equity (with $5.4M operations commitment)
 
 | Component | Amount |
 |---|---|
 | Total cash received (6-year buyback) | $9,519,200 |
-| Less: reinvestment | ($1,000,000) |
-| Net cash | $8,519,200 |
+| Less: operations commitment | ($5,400,000) |
+| Net cash | $4,119,200 |
 | Equity value at full expansion (10% of $175M) | $17,500,000 |
-| **Total value at Year 6** | **$26,019,200** |
+| **Total value at Year 6** | **$21,619,200** |
 
-**You recover your full $25M investment and then some.**
+**Combined with seller-finance payments and equity, you are well on the path to recovering your $25M.**
 
 Plus, after the buyback is complete, you continue receiving annual distributions of $1.6M to $2.0M per year. Growing. Indefinitely.
 
@@ -188,14 +188,15 @@ Your property was built for something like this. Nine lots in the Tulum jungle, 
 
 | | Scenario A: Clean Purchase | Scenario B (8% equity) | Scenario B (10% equity) |
 |---|---|---|---|
-| Upfront cash to Jeff | $8,000,000 | $1,600,000 | $1,600,000 (+ $1M reinvest) |
-| Total cash over 6 years | $8,000,000 | $9,519,200 | $8,519,200 net |
+| Upfront cash to Jeff | $8,000,000 | $1,600,000 | $1,600,000 (+ $5.4M ops) |
+| Broker fee | $1.6M (we pay) | $1.6M (we pay) | $1.6M (we pay) |
+| Total cash over 6 years | $8,000,000 | $9,519,200 | $4,119,200 net |
 | Equity in enterprise | None | 8% | 10% |
 | Equity value at full expansion | $0 | $14,000,000 | $17,500,000 |
 | Annual dividends after buyback | $0 | $1.3M to $1.6M/yr | $1.6M to $2.0M/yr |
-| Total value at Year 6 | $8,000,000 | $23,500,000 | $26,000,000 |
+| Total value at Year 6 | $8,000,000 | $23,500,000 | $21,619,200 |
 | Collateral protection | None | Title retained until paid | Title retained until paid |
-| Recovery of $25M investment | 32% | Path to $23.5M | Path to $26M+ |
+| Recovery of $25M investment | 32% | Path to $23.5M | Path to $21.6M+ |
 
 ---
 

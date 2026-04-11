@@ -317,10 +317,9 @@ export default function Partner8Page() {
 
           <Card padding="lg" className="bg-secondary-50 border border-secondary-200 mt-8">
             <p className="text-neutral-800">
-              <span className="font-medium">The math:</span> Your $1M reinvestment earns 10% equity
+              <span className="font-medium">The math:</span> Your $5.4M operations commitment earns 10% equity
               worth {formatCurrency(TOTAL_RETURN.equityFull)} at full expansion, plus {formatCurrency(STEADY_STATE_DIVIDENDS.low)} to{' '}
-              {formatCurrency(STEADY_STATE_DIVIDENDS.high)} in annual dividends after the buyback. The funds go
-              directly into improving the property you already know better than anyone.
+              {formatCurrency(STEADY_STATE_DIVIDENDS.high)} in annual dividends after the buyback. We cover the $1.6M broker fee separately.
             </p>
           </Card>
         </motion.section>
