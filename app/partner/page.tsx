@@ -162,7 +162,7 @@ export default function PartnerPage() {
                     <h3 className="font-heading text-lg text-neutral-900">Partnership</h3>
                   </div>
                 </div>
-                <p className="text-sm text-neutral-500 mb-4">Seller-financed. 10% equity. Income for life.</p>
+                <p className="text-sm text-neutral-500 mb-4">Seller-financed. 10% across three operating entities. Income for life.</p>
                 <div className="bg-secondary-50 rounded-lg p-3">
                   <p className="text-xs font-accent uppercase tracking-wider text-secondary-600 mb-1">You Earn</p>
                   <p className="font-heading text-2xl text-secondary-600">$8M → $25M+</p>
@@ -198,7 +198,7 @@ export default function PartnerPage() {
                     <h3 className="font-heading text-lg text-neutral-900">Full Partnership</h3>
                   </div>
                 </div>
-                <p className="text-sm text-neutral-500 mb-4">True co-ownership. 49% equity. Build together.</p>
+                <p className="text-sm text-neutral-500 mb-4">True co-ownership. 49% across three operating entities. Build together.</p>
                 <div className="bg-primary-50 rounded-lg p-3">
                   <p className="text-xs font-accent uppercase tracking-wider text-primary-600 mb-1">You Earn</p>
                   <p className="font-heading text-2xl text-primary-700">$13.4M → $113M+</p>
@@ -298,7 +298,7 @@ export default function PartnerPage() {
                 <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
                   You contribute the building and cover the broker commission. We raise the
                   $5.4M in operations capital to build and launch the enterprise. Your
-                  contribution earns you 10% equity.
+                  contribution earns you 10% across the three operating entities.
                 </p>
 
                 <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -339,20 +339,22 @@ export default function PartnerPage() {
                   <Card padding="lg" className="text-center border-2 border-secondary-300">
                     <TrendingUp className="w-8 h-8 text-secondary-500 mx-auto mb-3" />
                     <p className="font-heading text-3xl text-secondary-600 mb-1">10%</p>
-                    <p className="text-sm text-neutral-600">Equity in the enterprise</p>
+                    <p className="text-sm text-neutral-600">Across three operating entities</p>
                   </Card>
                   <Card padding="lg" className="text-center">
                     <DollarSign className="w-8 h-8 text-secondary-500 mx-auto mb-3" />
                     <p className="font-heading text-3xl text-neutral-900 mb-1">{formatCurrency(TOTAL_RETURN.equityFull)}</p>
-                    <p className="text-sm text-neutral-600">Equity value at full expansion</p>
+                    <p className="text-sm text-neutral-600">Combined entity value at full expansion</p>
                   </Card>
                 </div>
 
                 <Card padding="lg" className="bg-secondary-50 border border-secondary-200 mt-8">
                   <p className="text-neutral-800">
-                    <span className="font-medium">The math:</span> Your building and $1.6M commission earn 10% equity
-                    worth {formatCurrency(TOTAL_RETURN.equityFull)} at full expansion, plus {formatCurrency(STEADY_STATE_DIVIDENDS.low)} to{' '}
-                    {formatCurrency(STEADY_STATE_DIVIDENDS.high)} in annual dividends after the buyback.
+                    <span className="font-medium">The structure:</span> Your 10% is held across three operating entities:
+                    TE PropCo (real estate), TE OpCo (clinical operations), and TE IP/Data Co (intellectual property).
+                    Combined value of {formatCurrency(TOTAL_RETURN.equityFull)} at full expansion, plus{' '}
+                    {formatCurrency(STEADY_STATE_DIVIDENDS.low)} to {formatCurrency(STEADY_STATE_DIVIDENDS.high)} in
+                    annual dividends after the buyback.
                   </p>
                 </Card>
               </section>
@@ -381,7 +383,7 @@ export default function PartnerPage() {
                   <MetricCard
                     label="Equity Value (Full Expansion)"
                     value={formatCurrency(TOTAL_RETURN.equityFull)}
-                    subtitle="10% of $175M enterprise"
+                    subtitle="10% across three operating entities"
                     accent
                   />
                   <MetricCard
@@ -403,7 +405,7 @@ export default function PartnerPage() {
                         <tr className="bg-primary-800 text-white">
                           <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Model</th>
                           <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Enterprise Value</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Your 10% Equity</th>
+                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Your 10% (3 Entities)</th>
                           <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Net Cash + Equity Total</th>
                         </tr>
                       </thead>
@@ -435,7 +437,7 @@ export default function PartnerPage() {
                   <h2 className="text-3xl md:text-4xl font-heading text-neutral-900 mb-4">Income for Life</h2>
                   <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
                     After Year 6, your buyback is complete. But your equity stays. You own
-                    10% of a growing enterprise that pays dividends every year.
+                    10% across three growing operating entities that pay dividends every year.
                   </p>
                 </div>
 
@@ -647,7 +649,7 @@ export default function PartnerPage() {
                       <ul className="space-y-3 text-neutral-700">
                         <li className="flex items-start gap-3">
                           <Check className="w-5 h-5 text-primary-600 mt-0.5 shrink-0" />
-                          <span><span className="font-medium">49% equity</span> in the enterprise</span>
+                          <span><span className="font-medium">49% equity</span> across three operating entities</span>
                         </li>
                         <li className="flex items-start gap-3">
                           <Check className="w-5 h-5 text-primary-600 mt-0.5 shrink-0" />
@@ -676,8 +678,8 @@ export default function PartnerPage() {
               <section className="mb-24">
                 <h2 className="text-3xl font-heading text-neutral-900 mb-4">Your Equity Position</h2>
                 <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-                  49% ownership means you are not a passive investor. You are a co-builder.
-                  As the enterprise grows, your equity grows with it.
+                  49% ownership across three operating entities means you are not a passive investor.
+                  You are a co-builder. As the entities grow, your equity grows with them.
                 </p>
 
                 <h3 className="font-heading text-xl text-neutral-900 mb-4">Equity Value Across Models</h3>
@@ -688,7 +690,7 @@ export default function PartnerPage() {
                         <tr className="bg-primary-800 text-white">
                           <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Model</th>
                           <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Enterprise Value</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Your 49% Equity</th>
+                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Your 49% (3 Entities)</th>
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-neutral-100">
@@ -712,24 +714,32 @@ export default function PartnerPage() {
                   <MetricCard
                     label="Conservative Equity"
                     value={formatCurrency(SCENARIO_C_RETURN.equityConservative)}
-                    subtitle="49% of $44.5M"
+                    subtitle="49% across 3 entities"
                     accent
                   />
                   <MetricCard
                     label="Base Case Equity"
                     value={formatCurrency(SCENARIO_C_RETURN.equityBase)}
-                    subtitle="49% of $76.8M"
+                    subtitle="49% across 3 entities"
                     accent
                   />
                   <MetricCard
                     label="Full Expansion Equity"
                     value={formatCurrency(SCENARIO_C_RETURN.equityFull)}
-                    subtitle="49% of $175M"
+                    subtitle="49% across 3 entities"
                     trend="up"
                     trendValue="343% of $25M"
                     accent
                   />
                 </div>
+
+                <Card padding="lg" className="bg-primary-50 border border-primary-200 mt-8">
+                  <p className="text-neutral-800">
+                    <span className="font-medium">The structure:</span> Your 49% is held across three operating entities:
+                    TE PropCo (real estate), TE OpCo (clinical operations), and TE IP/Data Co (intellectual property
+                    and data). Each entity can be valued and exited independently.
+                  </p>
+                </Card>
               </section>
 
               {/* Revenue Distributions */}
@@ -740,8 +750,8 @@ export default function PartnerPage() {
                   </p>
                   <h2 className="text-3xl md:text-4xl font-heading text-neutral-900 mb-4">Your Revenue Share</h2>
                   <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-                    As a 49% owner, you receive 49% of all enterprise distributions. Your
-                    contribution is paid back from the revenue the operation generates.
+                    As a 49% owner across three operating entities, you receive 49% of all
+                    distributions. Your contribution is paid back from the revenue the operation generates.
                   </p>
                 </div>
 
