@@ -287,21 +287,21 @@ export default function Partner8Page() {
         </motion.section>
 
         {/* ═══════════════════════════════════════════════════════════
-            Section 5: The Reinvestment
+            Section 5: The Operations Commitment
         ═══════════════════════════════════════════════════════════ */}
         <motion.section className="mb-24" {...fadeUp}>
-          <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Reinvestment</h2>
+          <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Operations Commitment</h2>
           <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-            As part of the partnership, you reinvest $1M back into the property for
-            renovation and buildout. This capital goes directly into improving the asset
-            you built and earns you 10% equity in the enterprise we create together.
+            As part of the partnership, you commit $5.4M in operations capital for
+            buildout and launch. We pay the $1.6M broker fee separately. This earns you
+            10% equity in the enterprise we create together.
           </p>
 
           <div className="grid md:grid-cols-3 gap-6">
             <Card padding="lg" className="text-center">
               <DollarSign className="w-8 h-8 text-secondary-500 mx-auto mb-3" />
-              <p className="font-heading text-3xl text-neutral-900 mb-1">$1M</p>
-              <p className="text-sm text-neutral-600">Reinvested into your property</p>
+              <p className="font-heading text-3xl text-neutral-900 mb-1">$5.4M</p>
+              <p className="text-sm text-neutral-600">Operations capital</p>
             </Card>
             <Card padding="lg" className="text-center border-2 border-secondary-300">
               <TrendingUp className="w-8 h-8 text-secondary-500 mx-auto mb-3" />
@@ -344,7 +344,7 @@ export default function Partner8Page() {
               accent
             />
             <MetricCard
-              label="Reinvestment"
+              label="Operations Commitment"
               value={`-${formatCurrency(TOTAL_RETURN.reinvestment)}`}
               subtitle="Into property renovation"
             />

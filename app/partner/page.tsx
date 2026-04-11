@@ -211,7 +211,7 @@ export default function PartnerPage() {
                 <p className="text-sm text-neutral-500 mb-4">True co-ownership. 49% equity. Build together.</p>
                 <div className="bg-primary-50 rounded-lg p-3">
                   <p className="text-xs font-accent uppercase tracking-wider text-primary-600 mb-1">You Earn</p>
-                  <p className="font-heading text-2xl text-primary-700">$12.9M → $113M+</p>
+                  <p className="font-heading text-2xl text-primary-700">$13.4M → $113M+</p>
                   <p className="text-xs text-primary-700">Equity + revenue share</p>
                 </div>
               </Card>
@@ -302,20 +302,20 @@ export default function PartnerPage() {
                 </div>
               </section>
 
-              {/* The Reinvestment */}
+              {/* The Operations Commitment */}
               <section className="mb-24">
-                <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Reinvestment</h2>
+                <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Operations Commitment</h2>
                 <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-                  As part of the partnership, you reinvest $1M back into the property for
-                  renovation and buildout. This capital goes directly into improving the asset
-                  you built and earns you 10% equity in the enterprise we create together.
+                  As part of the partnership, you commit $5.4M in operations capital for
+                  buildout and launch. We pay the $1.6M broker fee separately. This earns you
+                  10% equity in the enterprise we create together.
                 </p>
 
                 <div className="grid md:grid-cols-3 gap-6">
                   <Card padding="lg" className="text-center">
                     <DollarSign className="w-8 h-8 text-secondary-500 mx-auto mb-3" />
-                    <p className="font-heading text-3xl text-neutral-900 mb-1">$1M</p>
-                    <p className="text-sm text-neutral-600">Reinvested into your property</p>
+                    <p className="font-heading text-3xl text-neutral-900 mb-1">$5.4M</p>
+                    <p className="text-sm text-neutral-600">Operations capital</p>
                   </Card>
                   <Card padding="lg" className="text-center border-2 border-secondary-300">
                     <TrendingUp className="w-8 h-8 text-secondary-500 mx-auto mb-3" />
@@ -355,7 +355,7 @@ export default function PartnerPage() {
                     accent
                   />
                   <MetricCard
-                    label="Reinvestment"
+                    label="Operations Commitment"
                     value={`-${formatCurrency(TOTAL_RETURN.reinvestment)}`}
                     subtitle="Into property renovation"
                   />
@@ -584,9 +584,9 @@ export default function PartnerPage() {
 
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
                   {[
-                    { label: 'Total Deal Value', value: '$12.9M', icon: Briefcase },
+                    { label: 'Total Deal Value', value: '$13.4M', icon: Briefcase },
                     { label: 'Property', value: '$8M', icon: Building2 },
-                    { label: 'Operations Capital', value: '$4.9M', icon: DollarSign },
+                    { label: 'Operations Capital', value: '$5.4M', icon: DollarSign },
                     { label: 'Your Equity', value: '49%', icon: Users },
                   ].map((item) => (
                     <Card key={item.label} padding="md" className="text-center">
@@ -613,13 +613,13 @@ export default function PartnerPage() {
                           <div className="w-6 h-6 rounded-full bg-primary-200 flex items-center justify-center shrink-0 mt-0.5">
                             <span className="text-xs font-medium text-primary-700">2</span>
                           </div>
-                          <span>$4.9M in operations capital for buildout and launch</span>
+                          <span>$5.4M in operations capital for buildout and launch</span>
                         </li>
                         <li className="flex items-start gap-3">
                           <div className="w-6 h-6 rounded-full bg-primary-200 flex items-center justify-center shrink-0 mt-0.5">
                             <span className="text-xs font-medium text-primary-700">3</span>
                           </div>
-                          <span>Total contribution: $12.9M</span>
+                          <span>Total contribution: $13.4M</span>
                         </li>
                       </ul>
                     </div>
@@ -636,7 +636,7 @@ export default function PartnerPage() {
                         </li>
                         <li className="flex items-start gap-3">
                           <Check className="w-5 h-5 text-primary-600 mt-0.5 shrink-0" />
-                          <span>We pay the <span className="font-medium">6% broker commission</span> ($480K)</span>
+                          <span>We pay the <span className="font-medium">broker fee</span> ($1.6M)</span>
                         </li>
                       </ul>
                     </div>
@@ -646,7 +646,7 @@ export default function PartnerPage() {
                 <div className="flex items-start gap-3 text-sm text-neutral-600">
                   <Handshake className="w-4 h-4 text-primary-600 mt-0.5 shrink-0" />
                   <p>
-                    Jeff is a true co-owner and partner in building the enterprise. His $4.9M
+                    Jeff is a true co-owner and partner in building the enterprise. His $5.4M
                     operations capital and the property value are paid back from revenue generated
                     by the operation.
                   </p>
@@ -812,7 +812,7 @@ export default function PartnerPage() {
                     </div>
                     <div>
                       <p className="font-heading text-lg text-success-800">
-                        $12.9M recovered by Year 4
+                        $13.4M recovered by Year 4
                       </p>
                       <p className="text-sm text-success-700">
                         Your full contribution paid back from distributions alone.

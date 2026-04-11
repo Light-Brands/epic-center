@@ -130,15 +130,15 @@ export default function PartnerLitePage() {
           </div>
         </motion.section>
 
-        {/* The $1M Reinvestment + Equity */}
+        {/* The $5.4M Operations Commitment + Equity */}
         <motion.section className="mb-16" {...fadeUp}>
-          <h2 className="font-heading text-2xl text-neutral-900 mb-4">The Reinvestment</h2>
+          <h2 className="font-heading text-2xl text-neutral-900 mb-4">The Operations Commitment</h2>
           <Card padding="lg" className="bg-secondary-50 border border-secondary-200">
             <div className="grid sm:grid-cols-3 gap-6 text-center">
               <div>
-                <p className="text-xs font-accent uppercase tracking-wider text-secondary-600 mb-1">Reinvest</p>
-                <p className="font-heading text-2xl text-neutral-900">$1M</p>
-                <p className="text-xs text-neutral-500">Into property renovation</p>
+                <p className="text-xs font-accent uppercase tracking-wider text-secondary-600 mb-1">Commit</p>
+                <p className="font-heading text-2xl text-neutral-900">$5.4M</p>
+                <p className="text-xs text-neutral-500">Operations capital</p>
               </div>
               <div>
                 <p className="text-xs font-accent uppercase tracking-wider text-secondary-600 mb-1">Earn</p>
