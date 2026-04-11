@@ -22,7 +22,6 @@ import { Card } from '@/components/ui'
 import { MetricCard } from '@/components/financial'
 import { Footer } from '@/components/layout'
 import {
-  PROPERTY_FACTS,
   SELLER_FINANCE_TERMS,
   PAYMENT_SCHEDULE,
   PAYMENT_TOTALS,
@@ -110,17 +109,11 @@ export default function PartnerPage() {
             we have built three paths that honor it.
           </p>
 
-          <div className="grid sm:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 gap-6">
             <MetricCard
               label="Your Investment"
               value="$25M+"
               subtitle="Total capital invested"
-              accent
-            />
-            <MetricCard
-              label="Our Offer"
-              value={formatCurrency(PROPERTY_FACTS.askingPrice)}
-              subtitle="Your full asking price"
               accent
             />
             <MetricCard
@@ -152,15 +145,12 @@ export default function PartnerPage() {
             >
               <Card
                 padding="lg"
-                className={`h-full border-2 relative overflow-hidden transition-all duration-300 ${
+                className={`h-full border-2 transition-all duration-300 ${
                   selected === 'a'
                     ? 'border-secondary-500 shadow-lg ring-2 ring-secondary-500/20'
                     : 'border-secondary-300 hover:border-secondary-400'
                 }`}
               >
-                <div className="absolute top-0 right-0 bg-secondary-500 text-white text-xs font-accent uppercase tracking-wider px-3 py-1 rounded-bl-lg">
-                  Recommended
-                </div>
                 <div className="flex items-center gap-3 mb-4">
                   <div className={`w-10 h-10 rounded-full flex items-center justify-center ${
                     selected === 'a' ? 'bg-secondary-500' : 'bg-secondary-100'
@@ -175,7 +165,7 @@ export default function PartnerPage() {
                 <p className="text-sm text-neutral-500 mb-4">Seller-financed. 10% equity. Income for life.</p>
                 <div className="bg-secondary-50 rounded-lg p-3">
                   <p className="text-xs font-accent uppercase tracking-wider text-secondary-600 mb-1">You Earn</p>
-                  <p className="font-heading text-2xl text-secondary-600">$8M → $26M+</p>
+                  <p className="font-heading text-2xl text-secondary-600">$8M → $25M+</p>
                   <p className="text-xs text-secondary-700">Cash + equity + dividends</p>
                 </div>
               </Card>
@@ -195,7 +185,7 @@ export default function PartnerPage() {
                 }`}
               >
                 <div className="absolute top-0 right-0 bg-primary-700 text-white text-xs font-accent uppercase tracking-wider px-3 py-1 rounded-bl-lg">
-                  Maximum Value
+                  Preferred
                 </div>
                 <div className="flex items-center gap-3 mb-4">
                   <div className={`w-10 h-10 rounded-full flex items-center justify-center ${
@@ -302,20 +292,49 @@ export default function PartnerPage() {
                 </div>
               </section>
 
-              {/* The Operations Commitment */}
+              {/* What Each Side Brings */}
               <section className="mb-24">
-                <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Operations Commitment</h2>
+                <h2 className="text-3xl font-heading text-neutral-900 mb-4">What Each Side Brings</h2>
                 <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-                  As part of the partnership, you commit $5.4M in operations capital for
-                  buildout and launch. We pay the $1.6M broker fee separately. This earns you
-                  10% equity in the enterprise we create together.
+                  You contribute the building and cover the broker commission. We raise the
+                  $5.4M in operations capital to build and launch the enterprise. Your
+                  contribution earns you 10% equity.
                 </p>
+
+                <div className="grid md:grid-cols-2 gap-8 mb-8">
+                  <Card padding="lg" className="bg-secondary-50 border border-secondary-200">
+                    <h3 className="font-heading text-lg text-secondary-800 mb-4">Jeff Contributes</h3>
+                    <ul className="space-y-3 text-neutral-700">
+                      <li className="flex items-start gap-3">
+                        <Check className="w-5 h-5 text-secondary-600 mt-0.5 shrink-0" />
+                        <span>The building ($8M value)</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <Check className="w-5 h-5 text-secondary-600 mt-0.5 shrink-0" />
+                        <span>$1.6M broker commission (paid immediately)</span>
+                      </li>
+                    </ul>
+                  </Card>
+                  <Card padding="lg" className="bg-primary-50 border border-primary-200">
+                    <h3 className="font-heading text-lg text-primary-800 mb-4">Light Brands Contributes</h3>
+                    <ul className="space-y-3 text-neutral-700">
+                      <li className="flex items-start gap-3">
+                        <Check className="w-5 h-5 text-primary-600 mt-0.5 shrink-0" />
+                        <span>$5.4M operations capital (raised independently)</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <Check className="w-5 h-5 text-primary-600 mt-0.5 shrink-0" />
+                        <span>Team, vision, and execution</span>
+                      </li>
+                    </ul>
+                  </Card>
+                </div>
 
                 <div className="grid md:grid-cols-3 gap-6">
                   <Card padding="lg" className="text-center">
-                    <DollarSign className="w-8 h-8 text-secondary-500 mx-auto mb-3" />
-                    <p className="font-heading text-3xl text-neutral-900 mb-1">$5.4M</p>
-                    <p className="text-sm text-neutral-600">Operations capital</p>
+                    <Building2 className="w-8 h-8 text-secondary-500 mx-auto mb-3" />
+                    <p className="font-heading text-3xl text-neutral-900 mb-1">$8M</p>
+                    <p className="text-sm text-neutral-600">Building contributed</p>
                   </Card>
                   <Card padding="lg" className="text-center border-2 border-secondary-300">
                     <TrendingUp className="w-8 h-8 text-secondary-500 mx-auto mb-3" />
@@ -323,7 +342,7 @@ export default function PartnerPage() {
                     <p className="text-sm text-neutral-600">Equity in the enterprise</p>
                   </Card>
                   <Card padding="lg" className="text-center">
-                    <Building2 className="w-8 h-8 text-secondary-500 mx-auto mb-3" />
+                    <DollarSign className="w-8 h-8 text-secondary-500 mx-auto mb-3" />
                     <p className="font-heading text-3xl text-neutral-900 mb-1">{formatCurrency(TOTAL_RETURN.equityFull)}</p>
                     <p className="text-sm text-neutral-600">Equity value at full expansion</p>
                   </Card>
@@ -331,9 +350,9 @@ export default function PartnerPage() {
 
                 <Card padding="lg" className="bg-secondary-50 border border-secondary-200 mt-8">
                   <p className="text-neutral-800">
-                    <span className="font-medium">The math:</span> Your $5.4M operations commitment earns 10% equity
+                    <span className="font-medium">The math:</span> Your building and $1.6M commission earn 10% equity
                     worth {formatCurrency(TOTAL_RETURN.equityFull)} at full expansion, plus {formatCurrency(STEADY_STATE_DIVIDENDS.low)} to{' '}
-                    {formatCurrency(STEADY_STATE_DIVIDENDS.high)} in annual dividends after the buyback. We cover the $1.6M broker fee separately.
+                    {formatCurrency(STEADY_STATE_DIVIDENDS.high)} in annual dividends after the buyback.
                   </p>
                 </Card>
               </section>
@@ -355,9 +374,9 @@ export default function PartnerPage() {
                     accent
                   />
                   <MetricCard
-                    label="Operations Commitment"
-                    value={`-${formatCurrency(TOTAL_RETURN.reinvestment)}`}
-                    subtitle="Into property renovation"
+                    label="Commission Paid"
+                    value={`-${formatCurrency(TOTAL_RETURN.commissionPaid)}`}
+                    subtitle="Broker commission (covered by you)"
                   />
                   <MetricCard
                     label="Equity Value (Full Expansion)"
@@ -370,7 +389,7 @@ export default function PartnerPage() {
                     value={formatCurrency(TOTAL_RETURN.totalFull)}
                     subtitle="Cash + equity combined"
                     trend="up"
-                    trendValue="104% of $25M recovered"
+                    trendValue="102% of $25M recovered"
                     accent
                   />
                 </div>
