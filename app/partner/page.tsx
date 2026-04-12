@@ -1,16 +1,12 @@
 'use client'
 
-import { useState } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'framer-motion'
 import {
-  Shield,
   TrendingUp,
   DollarSign,
-  Home,
   Handshake,
   ArrowRight,
   Check,
-  Lock,
   TreePine,
   Heart,
   Brain,
@@ -22,16 +18,7 @@ import { Card } from '@/components/ui'
 import { MetricCard } from '@/components/financial'
 import { Footer } from '@/components/layout'
 import {
-  SELLER_FINANCE_TERMS,
-  PAYMENT_SCHEDULE,
-  PAYMENT_TOTALS,
   ENTERPRISE_VALUATIONS,
-  ANNUAL_DISTRIBUTIONS,
-  STEADY_STATE_DIVIDENDS,
-  CUMULATIVE_RETURN,
-  DEFAULT_SCENARIOS,
-  TOTAL_RETURN,
-  SCENARIO_C,
   SCENARIO_C_DISTRIBUTIONS,
   SCENARIO_C_STEADY_STATE,
   SCENARIO_C_RETURN,
@@ -39,24 +26,13 @@ import {
   formatCurrency,
 } from '@/lib/data/partner-scenarios'
 
-type Scenario = 'a' | 'b'
-
 const fadeUp = {
   initial: { opacity: 0, y: 24 },
   animate: { opacity: 1, y: 0 },
   transition: { duration: 0.6, ease: [0.25, 0.1, 0.25, 1] },
 }
 
-const sectionTransition = {
-  initial: { opacity: 0, y: 16 },
-  animate: { opacity: 1, y: 0 },
-  exit: { opacity: 0, y: -8 },
-  transition: { duration: 0.4, ease: [0.25, 0.1, 0.25, 1] },
-}
-
 export default function PartnerPage() {
-  const [selected, setSelected] = useState<Scenario>('a')
-
   return (
     <div className="min-h-screen bg-canvas">
       {/* ═══════════════════════════════════════════════════════════════
@@ -79,14 +55,14 @@ export default function PartnerPage() {
             A Private Partnership Proposal
           </p>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-display text-white mb-6 leading-tight">
-            Jeff, We Want to Pay<br className="hidden md:block" /> Your Full Asking Price
+            Jeff, We Want to Build<br className="hidden md:block" /> This With You
           </h1>
           <p className="text-xl text-primary-100 max-w-2xl mx-auto mb-4">
-            Two partnership paths. Both start at $8 million. Both offer a way
-            to recover the full $25 million you invested and beyond.
+            A true co-ownership partnership starting at $8 million, with a
+            path to recover the full $25 million you invested and far beyond.
           </p>
           <p className="text-lg text-primary-200/70">
-            Two paths. One property. Your choice.
+            One property. One partnership. Built together.
           </p>
         </motion.div>
       </section>
@@ -106,7 +82,7 @@ export default function PartnerPage() {
           <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
             That investment represents more than construction costs. It represents
             vision, risk, and years of commitment. We see the value you created, and
-            we have built three paths that honor it.
+            we have built a partnership that honors it.
           </p>
 
           <div className="grid sm:grid-cols-2 gap-6">
@@ -128,776 +104,349 @@ export default function PartnerPage() {
         </motion.section>
 
         {/* ═══════════════════════════════════════════════════════════
-            Section 3: Two Partnership Paths - Clickable Cards
+            Section 3: The Partnership - Headline Card
         ═══════════════════════════════════════════════════════════ */}
         <motion.section className="mb-16" {...fadeUp}>
-          <h2 className="text-3xl font-heading text-neutral-900 mb-4">Two Partnership Paths</h2>
+          <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Partnership</h2>
           <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-            Both paths start with your property. The difference is how deep the
-            partnership goes. Click either option to see the full details.
+            True co-ownership. 49% equity across three operating entities.
+            We build this together, and the value we create is shared.
           </p>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Option A Card (Full Partnership, 49% equity) - Preferred */}
-            <button
-              onClick={() => setSelected('a')}
-              className="text-left transition-all duration-300"
-            >
-              <Card
-                padding="lg"
-                className={`h-full border-2 relative overflow-hidden transition-all duration-300 ${
-                  selected === 'a'
-                    ? 'border-primary-600 shadow-lg ring-2 ring-primary-600/20'
-                    : 'border-primary-300 hover:border-primary-400'
-                }`}
-              >
-                <div className="absolute top-0 right-0 bg-primary-700 text-white text-xs font-accent uppercase tracking-wider px-3 py-1 rounded-bl-lg">
-                  Preferred
-                </div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className={`w-10 h-10 rounded-full flex items-center justify-center ${
-                    selected === 'a' ? 'bg-primary-700' : 'bg-primary-100'
-                  }`}>
-                    <Users className={`w-5 h-5 ${selected === 'a' ? 'text-white' : 'text-primary-700'}`} />
-                  </div>
-                  <div>
-                    <p className="font-accent text-xs uppercase tracking-wider text-primary-600">Option A</p>
-                    <h3 className="font-heading text-lg text-neutral-900">Full Partnership</h3>
-                  </div>
-                </div>
-                <p className="text-sm text-neutral-500 mb-4">True co-ownership. 49% across three operating entities. Build together.</p>
-                <div className="bg-primary-50 rounded-lg p-3">
-                  <p className="text-xs font-accent uppercase tracking-wider text-primary-600 mb-1">You Earn</p>
-                  <p className="font-heading text-2xl text-primary-700">$13.4M → $113M+</p>
-                  <p className="text-xs text-primary-700">Equity + revenue share</p>
-                </div>
-              </Card>
-            </button>
-
-            {/* Option B Card (Seller-Financed, 10% equity) */}
-            <button
-              onClick={() => setSelected('b')}
-              className="text-left transition-all duration-300"
-            >
-              <Card
-                padding="lg"
-                className={`h-full border-2 transition-all duration-300 ${
-                  selected === 'b'
-                    ? 'border-secondary-500 shadow-lg ring-2 ring-secondary-500/20'
-                    : 'border-secondary-300 hover:border-secondary-400'
-                }`}
-              >
-                <div className="flex items-center gap-3 mb-4">
-                  <div className={`w-10 h-10 rounded-full flex items-center justify-center ${
-                    selected === 'b' ? 'bg-secondary-500' : 'bg-secondary-100'
-                  }`}>
-                    <Handshake className={`w-5 h-5 ${selected === 'b' ? 'text-white' : 'text-secondary-600'}`} />
-                  </div>
-                  <div>
-                    <p className="font-accent text-xs uppercase tracking-wider text-secondary-600">Option B</p>
-                    <h3 className="font-heading text-lg text-neutral-900">Partnership</h3>
-                  </div>
-                </div>
-                <p className="text-sm text-neutral-500 mb-4">Seller-financed. 10% across three operating entities. Income for life.</p>
-                <div className="bg-secondary-50 rounded-lg p-3">
-                  <p className="text-xs font-accent uppercase tracking-wider text-secondary-600 mb-1">You Earn</p>
-                  <p className="font-heading text-2xl text-secondary-600">$8M → $25M+</p>
-                  <p className="text-xs text-secondary-700">Cash + equity + dividends</p>
-                </div>
-              </Card>
-            </button>
-          </div>
+          <Card
+            padding="lg"
+            className="border-2 border-primary-600 shadow-lg ring-2 ring-primary-600/20 relative overflow-hidden"
+          >
+            <div className="absolute top-0 right-0 bg-primary-700 text-white text-xs font-accent uppercase tracking-wider px-3 py-1 rounded-bl-lg">
+              Preferred Path
+            </div>
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-10 h-10 rounded-full flex items-center justify-center bg-primary-700">
+                <Users className="w-5 h-5 text-white" />
+              </div>
+              <div>
+                <p className="font-accent text-xs uppercase tracking-wider text-primary-600">Jeff + Light Brands</p>
+                <h3 className="font-heading text-lg text-neutral-900">Full Partnership</h3>
+              </div>
+            </div>
+            <p className="text-neutral-600 mb-4 max-w-2xl">
+              True co-ownership. 49% across three operating entities. Equity plus revenue
+              share from day one of operations.
+            </p>
+            <div className="bg-primary-50 rounded-lg p-4 max-w-sm">
+              <p className="text-xs font-accent uppercase tracking-wider text-primary-600 mb-1">You Earn</p>
+              <p className="font-heading text-3xl text-primary-700">$13.4M → $113M+</p>
+              <p className="text-xs text-primary-700">Equity + revenue share</p>
+            </div>
+          </Card>
         </motion.section>
 
         {/* ═══════════════════════════════════════════════════════════
-            Detail Sections - Change based on selected scenario
+            Partnership Details
         ═══════════════════════════════════════════════════════════ */}
-        <AnimatePresence mode="wait">
-          {/* ═══════════════════════════════════════════════════════════
-              OPTION B DETAILS: Seller-Financed Partnership (10%)
-          ═══════════════════════════════════════════════════════════ */}
-          {selected === 'b' && (
-            <motion.div key="option-b" {...sectionTransition}>
-              {/* Partnership Terms */}
-              <section className="mb-24">
-                <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Partnership Terms</h2>
-                <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-                  Seller financing at your full asking price with you in the strongest possible
-                  position. You hold the title. You set the pace. You are protected at every step.
-                </p>
+        <motion.div {...fadeUp}>
+          {/* Deal Structure */}
+          <section className="mb-24">
+            <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Deal Structure</h2>
+            <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
+              This is not a sale. This is a co-ownership. You contribute your property
+              and operations capital. We contribute the vision, team, and execution.
+              Together, we build something worth far more than the property alone.
+            </p>
 
-                <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
-                  {[
-                    { label: 'Purchase Price', value: '$8M', icon: Building2 },
-                    { label: 'Down Payment', value: '$1.6M (20%)', icon: DollarSign },
-                    { label: 'Interest Rate', value: '6%', icon: TrendingUp },
-                    { label: 'Term', value: '6 Years', icon: Shield },
-                  ].map((item) => (
-                    <Card key={item.label} padding="md" className="text-center">
-                      <item.icon className="w-6 h-6 text-secondary-500 mx-auto mb-2" />
-                      <p className="text-xs font-accent uppercase tracking-wider text-neutral-500 mb-1">{item.label}</p>
-                      <p className="font-heading text-2xl text-neutral-900">{item.value}</p>
-                    </Card>
-                  ))}
-                </div>
-
-                {/* Payment schedule */}
-                <h3 className="font-heading text-xl text-neutral-900 mb-4">Payment Schedule</h3>
-                <p className="text-neutral-600 mb-6">
-                  Payments are graduated: lower in the early years while the business builds,
-                  higher in later years when cash flow is strong.
-                </p>
-                <Card padding="none" className="overflow-hidden mb-6">
-                  <div className="overflow-x-auto">
-                    <table className="w-full text-sm">
-                      <thead>
-                        <tr className="bg-primary-800 text-white">
-                          <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Period</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Principal</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Interest</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Total Payment</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Cumulative</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-neutral-100">
-                        {PAYMENT_SCHEDULE.map((row) => (
-                          <tr key={row.label} className="hover:bg-canvas-subtle transition-colors">
-                            <td className="px-4 py-3 font-medium text-neutral-800">{row.label}</td>
-                            <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(row.principal)}</td>
-                            <td className="px-4 py-3 text-right text-neutral-500">{row.interest > 0 ? formatCurrency(row.interest) : '\u2014'}</td>
-                            <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(row.totalCash)}</td>
-                            <td className="px-4 py-3 text-right font-medium text-neutral-900">{formatCurrency(row.cumulative)}</td>
-                          </tr>
-                        ))}
-                      </tbody>
-                      <tfoot>
-                        <tr className="bg-canvas-emphasis font-medium">
-                          <td className="px-4 py-3 text-neutral-900">Total</td>
-                          <td className="px-4 py-3 text-right text-neutral-900">{formatCurrency(PAYMENT_TOTALS.totalPrincipal)}</td>
-                          <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(PAYMENT_TOTALS.totalInterest)}</td>
-                          <td className="px-4 py-3 text-right text-neutral-900">{formatCurrency(PAYMENT_TOTALS.totalCashToJeff)}</td>
-                          <td className="px-4 py-3 text-right text-neutral-900">{formatCurrency(PAYMENT_TOTALS.totalCashToJeff)}</td>
-                        </tr>
-                      </tfoot>
-                    </table>
-                  </div>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
+              {[
+                { label: 'Total Deal Value', value: '$13.4M', icon: Briefcase },
+                { label: 'Property', value: '$8M', icon: Building2 },
+                { label: 'Operations Capital', value: '$5.4M', icon: DollarSign },
+                { label: 'Your Equity', value: '49%', icon: Users },
+              ].map((item) => (
+                <Card key={item.label} padding="md" className="text-center">
+                  <item.icon className="w-6 h-6 text-primary-600 mx-auto mb-2" />
+                  <p className="text-xs font-accent uppercase tracking-wider text-neutral-500 mb-1">{item.label}</p>
+                  <p className="font-heading text-2xl text-neutral-900">{item.value}</p>
                 </Card>
+              ))}
+            </div>
 
-                <div className="flex items-start gap-3 text-sm text-neutral-600">
-                  <Lock className="w-4 h-4 text-primary-600 mt-0.5 shrink-0" />
-                  <p>
-                    You hold the property title through the fideicomiso for the entire term.
-                    Title transfers only after the final payment is received. You are the bank.
+            <Card padding="lg" className="bg-primary-50 border border-primary-200 mb-8">
+              <h3 className="font-heading text-lg text-primary-900 mb-4">How It Works</h3>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 className="font-medium text-primary-800 mb-3">Jeff Contributes</h4>
+                  <ul className="space-y-3 text-neutral-700">
+                    <li className="flex items-start gap-3">
+                      <div className="w-6 h-6 rounded-full bg-primary-200 flex items-center justify-center shrink-0 mt-0.5">
+                        <span className="text-xs font-medium text-primary-700">1</span>
+                      </div>
+                      <span>The property ($8M value) as the physical foundation</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-6 h-6 rounded-full bg-primary-200 flex items-center justify-center shrink-0 mt-0.5">
+                        <span className="text-xs font-medium text-primary-700">2</span>
+                      </div>
+                      <span>$5.4M in operations capital for buildout and launch</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-6 h-6 rounded-full bg-primary-200 flex items-center justify-center shrink-0 mt-0.5">
+                        <span className="text-xs font-medium text-primary-700">3</span>
+                      </div>
+                      <span>Total contribution: $13.4M</span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-medium text-primary-800 mb-3">Jeff Receives</h4>
+                  <ul className="space-y-3 text-neutral-700">
+                    <li className="flex items-start gap-3">
+                      <Check className="w-5 h-5 text-primary-600 mt-0.5 shrink-0" />
+                      <span><span className="font-medium">49% equity</span> across three operating entities</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Check className="w-5 h-5 text-primary-600 mt-0.5 shrink-0" />
+                      <span><span className="font-medium">Revenue distributions</span> from day one of operations</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Check className="w-5 h-5 text-primary-600 mt-0.5 shrink-0" />
+                      <span>We pay the <span className="font-medium">broker fee</span> ($1.6M)</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+
+            <div className="flex items-start gap-3 text-sm text-neutral-600">
+              <Handshake className="w-4 h-4 text-primary-600 mt-0.5 shrink-0" />
+              <p>
+                Jeff is a true co-owner and partner in building the enterprise. His $5.4M
+                operations capital and the property value are paid back from revenue generated
+                by the operation.
+              </p>
+            </div>
+          </section>
+
+          {/* Equity Position */}
+          <section className="mb-24">
+            <h2 className="text-3xl font-heading text-neutral-900 mb-4">Your Equity Position</h2>
+            <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
+              49% ownership across three operating entities means you are not a passive investor.
+              You are a co-builder. As the entities grow, your equity grows with them.
+            </p>
+
+            <h3 className="font-heading text-xl text-neutral-900 mb-4">Equity Value Across Models</h3>
+            <Card padding="none" className="overflow-hidden mb-8">
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="bg-primary-800 text-white">
+                      <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Model</th>
+                      <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Enterprise Value</th>
+                      <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Your 49% (3 Entities)</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-neutral-100">
+                    {[
+                      { ...ENTERPRISE_VALUATIONS.conservative, equity: SCENARIO_C_RETURN.equityConservative },
+                      { ...ENTERPRISE_VALUATIONS.base, equity: SCENARIO_C_RETURN.equityBase },
+                      { ...ENTERPRISE_VALUATIONS.fullExpansion, equity: SCENARIO_C_RETURN.equityFull },
+                    ].map((row) => (
+                      <tr key={row.label} className="hover:bg-canvas-subtle transition-colors">
+                        <td className="px-4 py-3 text-neutral-800">{row.label}</td>
+                        <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(row.value)}</td>
+                        <td className="px-4 py-3 text-right font-heading text-lg text-primary-700">{formatCurrency(row.equity)}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </Card>
+
+            <div className="grid md:grid-cols-3 gap-6">
+              <MetricCard
+                label="Conservative Equity"
+                value={formatCurrency(SCENARIO_C_RETURN.equityConservative)}
+                subtitle="49% across 3 entities"
+                accent
+              />
+              <MetricCard
+                label="Base Case Equity"
+                value={formatCurrency(SCENARIO_C_RETURN.equityBase)}
+                subtitle="49% across 3 entities"
+                accent
+              />
+              <MetricCard
+                label="Full Expansion Equity"
+                value={formatCurrency(SCENARIO_C_RETURN.equityFull)}
+                subtitle="49% across 3 entities"
+                trend="up"
+                trendValue="343% of $25M"
+                accent
+              />
+            </div>
+
+            <Card padding="lg" className="bg-primary-50 border border-primary-200 mt-8">
+              <p className="text-neutral-800">
+                <span className="font-medium">The structure:</span> Your 49% is held across three operating entities:
+                TE PropCo (real estate), TE OpCo (clinical operations), and TE IP/Data Co (intellectual property
+                and data). Each entity can be valued and exited independently.
+              </p>
+            </Card>
+          </section>
+
+          {/* Revenue Distributions */}
+          <section className="mb-24">
+            <div className="text-center mb-10">
+              <p className="font-accent text-sm uppercase tracking-widest text-primary-500 mb-4">
+                Revenue From Day One
+              </p>
+              <h2 className="text-3xl md:text-4xl font-heading text-neutral-900 mb-4">Your Revenue Share</h2>
+              <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
+                As a 49% owner across three operating entities, you receive 49% of all
+                distributions. Your contribution is paid back from the revenue the operation generates.
+              </p>
+            </div>
+
+            <Card padding="none" className="overflow-hidden mb-8">
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="bg-primary-800 text-white">
+                      <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Year</th>
+                      <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Enterprise Distributes</th>
+                      <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Your 49% Share</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-neutral-100">
+                    {SCENARIO_C_DISTRIBUTIONS.map((row) => (
+                      <tr key={row.year} className="hover:bg-canvas-subtle transition-colors">
+                        <td className="px-4 py-3 text-neutral-800">Year {row.year}</td>
+                        <td className="px-4 py-3 text-right text-neutral-700">
+                          {row.totalDistributions > 0 ? formatCurrency(row.totalDistributions) : 'Foundation year'}
+                        </td>
+                        <td className="px-4 py-3 text-right font-medium text-primary-700">
+                          {row.jeffShare > 0 ? formatCurrency(row.jeffShare) : '$0'}
+                        </td>
+                      </tr>
+                    ))}
+                    <tr className="bg-primary-50">
+                      <td className="px-4 py-3 font-medium text-primary-800">Year 7+</td>
+                      <td className="px-4 py-3 text-right text-primary-700">Growing annually</td>
+                      <td className="px-4 py-3 text-right font-heading text-lg text-primary-700">
+                        {formatCurrency(SCENARIO_C_STEADY_STATE.low)}-{formatCurrency(SCENARIO_C_STEADY_STATE.high)}/yr
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </Card>
+
+            <Card padding="lg" className="bg-primary-800 text-white text-center">
+              <p className="font-heading text-xl mb-2">
+                {formatCurrency(SCENARIO_C_STEADY_STATE.low)} to {formatCurrency(SCENARIO_C_STEADY_STATE.high)} per year. Every year.
+              </p>
+              <p className="text-primary-200">
+                Nearly $10M annually in passive income from an enterprise built on your property.
+              </p>
+            </Card>
+          </section>
+
+          {/* Cumulative Return */}
+          <section className="mb-24">
+            <h2 className="text-3xl font-heading text-neutral-900 mb-4">Cumulative Return Timeline</h2>
+            <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
+              Here is how your total return accumulates year by year across revenue
+              distributions and equity value at the full expansion model.
+            </p>
+
+            <Card padding="none" className="overflow-hidden mb-8">
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="bg-primary-800 text-white">
+                      <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Period</th>
+                      <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Cumulative Distributions</th>
+                      <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Equity Value</th>
+                      <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Running Total</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-neutral-100">
+                    {SCENARIO_C_CUMULATIVE.map((row) => (
+                      <tr key={row.label} className={`hover:bg-canvas-subtle transition-colors ${row.year === 6 ? 'bg-primary-50' : ''}`}>
+                        <td className="px-4 py-3 font-medium text-neutral-800">{row.label}</td>
+                        <td className="px-4 py-3 text-right text-neutral-700">{row.dividends > 0 ? formatCurrency(row.dividends) : '\u2014'}</td>
+                        <td className="px-4 py-3 text-right text-neutral-600">{row.equityValue > 0 ? formatCurrency(row.equityValue) : '\u2014'}</td>
+                        <td className="px-4 py-3 text-right font-heading text-lg text-neutral-900">
+                          {row.runningTotal > 0 ? formatCurrency(row.runningTotal) : '\u2014'}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </Card>
+
+            <div className="grid sm:grid-cols-2 gap-6">
+              <div className="flex items-center gap-4 p-6 bg-success-50 border border-success-200 rounded-xl">
+                <div className="w-12 h-12 rounded-full bg-success-100 flex items-center justify-center shrink-0">
+                  <Check className="w-6 h-6 text-success-700" />
+                </div>
+                <div>
+                  <p className="font-heading text-lg text-success-800">
+                    $13.4M recovered by Year 4
+                  </p>
+                  <p className="text-sm text-success-700">
+                    Your full contribution paid back from distributions alone.
                   </p>
                 </div>
-              </section>
-
-              {/* What Each Side Brings */}
-              <section className="mb-24">
-                <h2 className="text-3xl font-heading text-neutral-900 mb-4">What Each Side Brings</h2>
-                <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-                  You contribute the building and cover the broker commission. We raise the
-                  $5.4M in operations capital to build and launch the enterprise. Your
-                  contribution earns you 10% across the three operating entities.
-                </p>
-
-                <div className="grid md:grid-cols-2 gap-8 mb-8">
-                  <Card padding="lg" className="bg-secondary-50 border border-secondary-200">
-                    <h3 className="font-heading text-lg text-secondary-800 mb-4">Jeff Contributes</h3>
-                    <ul className="space-y-3 text-neutral-700">
-                      <li className="flex items-start gap-3">
-                        <Check className="w-5 h-5 text-secondary-600 mt-0.5 shrink-0" />
-                        <span>The building ($8M value)</span>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <Check className="w-5 h-5 text-secondary-600 mt-0.5 shrink-0" />
-                        <span>$1.6M broker commission (paid immediately)</span>
-                      </li>
-                    </ul>
-                  </Card>
-                  <Card padding="lg" className="bg-primary-50 border border-primary-200">
-                    <h3 className="font-heading text-lg text-primary-800 mb-4">Light Brands Contributes</h3>
-                    <ul className="space-y-3 text-neutral-700">
-                      <li className="flex items-start gap-3">
-                        <Check className="w-5 h-5 text-primary-600 mt-0.5 shrink-0" />
-                        <span>$5.4M operations capital (raised independently)</span>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <Check className="w-5 h-5 text-primary-600 mt-0.5 shrink-0" />
-                        <span>Team, vision, and execution</span>
-                      </li>
-                    </ul>
-                  </Card>
+              </div>
+              <div className="flex items-center gap-4 p-6 bg-success-50 border border-success-200 rounded-xl">
+                <div className="w-12 h-12 rounded-full bg-success-100 flex items-center justify-center shrink-0">
+                  <Check className="w-6 h-6 text-success-700" />
                 </div>
-
-                <div className="grid md:grid-cols-3 gap-6">
-                  <Card padding="lg" className="text-center">
-                    <Building2 className="w-8 h-8 text-secondary-500 mx-auto mb-3" />
-                    <p className="font-heading text-3xl text-neutral-900 mb-1">$8M</p>
-                    <p className="text-sm text-neutral-600">Building contributed</p>
-                  </Card>
-                  <Card padding="lg" className="text-center border-2 border-secondary-300">
-                    <TrendingUp className="w-8 h-8 text-secondary-500 mx-auto mb-3" />
-                    <p className="font-heading text-3xl text-secondary-600 mb-1">10%</p>
-                    <p className="text-sm text-neutral-600">Across three operating entities</p>
-                  </Card>
-                  <Card padding="lg" className="text-center">
-                    <DollarSign className="w-8 h-8 text-secondary-500 mx-auto mb-3" />
-                    <p className="font-heading text-3xl text-neutral-900 mb-1">{formatCurrency(TOTAL_RETURN.equityFull)}</p>
-                    <p className="text-sm text-neutral-600">Combined entity value at full expansion</p>
-                  </Card>
-                </div>
-
-                <Card padding="lg" className="bg-secondary-50 border border-secondary-200 mt-8">
-                  <p className="text-neutral-800">
-                    <span className="font-medium">The structure:</span> Your 10% is held across three operating entities:
-                    TE PropCo (real estate), TE OpCo (clinical operations), and TE IP/Data Co (intellectual property).
-                    Combined value of {formatCurrency(TOTAL_RETURN.equityFull)} at full expansion, plus{' '}
-                    {formatCurrency(STEADY_STATE_DIVIDENDS.low)} to {formatCurrency(STEADY_STATE_DIVIDENDS.high)} in
-                    annual dividends after the buyback.
+                <div>
+                  <p className="font-heading text-lg text-success-800">
+                    $25M recovered by Year 5
                   </p>
-                </Card>
-              </section>
-
-              {/* Path to $25M */}
-              <section className="mb-24">
-                <h2 className="text-3xl font-heading text-neutral-900 mb-4">Your Path Beyond $25M</h2>
-                <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-                  Cash from the seller financing is only part of the picture. As an equity
-                  partner, you also receive dividends from operations and own a share of the
-                  enterprise value. Here is how it all adds up.
-                </p>
-
-                <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
-                  <MetricCard
-                    label="Total Cash Received"
-                    value={formatCurrency(TOTAL_RETURN.cashReceived)}
-                    subtitle="Over 6 years (principal + interest)"
-                    accent
-                  />
-                  <MetricCard
-                    label="Commission Paid"
-                    value={`-${formatCurrency(TOTAL_RETURN.commissionPaid)}`}
-                    subtitle="Broker commission (covered by you)"
-                  />
-                  <MetricCard
-                    label="Equity Value (Full Expansion)"
-                    value={formatCurrency(TOTAL_RETURN.equityFull)}
-                    subtitle="10% across three operating entities"
-                    accent
-                  />
-                  <MetricCard
-                    label="Total at Year 6"
-                    value={formatCurrency(TOTAL_RETURN.totalFull)}
-                    subtitle="Cash + equity combined"
-                    trend="up"
-                    trendValue="102% of $25M recovered"
-                    accent
-                  />
-                </div>
-
-                {/* Equity across models */}
-                <h3 className="font-heading text-xl text-neutral-900 mb-4">Equity Value Across Models</h3>
-                <Card padding="none" className="overflow-hidden mb-8">
-                  <div className="overflow-x-auto">
-                    <table className="w-full text-sm">
-                      <thead>
-                        <tr className="bg-primary-800 text-white">
-                          <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Model</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Enterprise Value</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Your 10% (3 Entities)</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Net Cash + Equity Total</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-neutral-100">
-                        {[
-                          { ...ENTERPRISE_VALUATIONS.conservative, equity: TOTAL_RETURN.equityConservative, total: TOTAL_RETURN.totalConservative },
-                          { ...ENTERPRISE_VALUATIONS.base, equity: TOTAL_RETURN.equityBase, total: TOTAL_RETURN.totalBase },
-                          { ...ENTERPRISE_VALUATIONS.fullExpansion, equity: TOTAL_RETURN.equityFull, total: TOTAL_RETURN.totalFull },
-                        ].map((row) => (
-                          <tr key={row.label} className="hover:bg-canvas-subtle transition-colors">
-                            <td className="px-4 py-3 text-neutral-800">{row.label}</td>
-                            <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(row.value)}</td>
-                            <td className="px-4 py-3 text-right font-medium text-secondary-600">{formatCurrency(row.equity)}</td>
-                            <td className="px-4 py-3 text-right font-medium text-neutral-900">{formatCurrency(row.total)}</td>
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
-                </Card>
-              </section>
-
-              {/* Income for Life */}
-              <section className="mb-24">
-                <div className="text-center mb-10">
-                  <p className="font-accent text-sm uppercase tracking-widest text-secondary-500 mb-4">
-                    The Perpetual Income Stream
-                  </p>
-                  <h2 className="text-3xl md:text-4xl font-heading text-neutral-900 mb-4">Income for Life</h2>
-                  <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-                    After Year 6, your buyback is complete. But your equity stays. You own
-                    10% across three growing operating entities that pay dividends every year.
+                  <p className="text-sm text-success-700">
+                    Full original investment recovered through distributions.
                   </p>
                 </div>
+              </div>
+            </div>
+          </section>
 
-                <Card padding="none" className="overflow-hidden mb-8">
-                  <div className="overflow-x-auto">
-                    <table className="w-full text-sm">
-                      <thead>
-                        <tr className="bg-primary-800 text-white">
-                          <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Year</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Enterprise Distributes</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Your 10% Share</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-neutral-100">
-                        {ANNUAL_DISTRIBUTIONS.map((row) => (
-                          <tr key={row.year} className="hover:bg-canvas-subtle transition-colors">
-                            <td className="px-4 py-3 text-neutral-800">Year {row.year}</td>
-                            <td className="px-4 py-3 text-right text-neutral-700">
-                              {row.totalDistributions > 0 ? formatCurrency(row.totalDistributions) : 'Foundation year'}
-                            </td>
-                            <td className="px-4 py-3 text-right font-medium text-secondary-600">
-                              {row.jeffShare > 0 ? formatCurrency(row.jeffShare) : '$0'}
-                            </td>
-                          </tr>
-                        ))}
-                        <tr className="bg-secondary-50">
-                          <td className="px-4 py-3 font-medium text-secondary-800">Year 7+</td>
-                          <td className="px-4 py-3 text-right text-secondary-700">Growing annually</td>
-                          <td className="px-4 py-3 text-right font-heading text-lg text-secondary-600">
-                            {formatCurrency(STEADY_STATE_DIVIDENDS.low)}-{formatCurrency(STEADY_STATE_DIVIDENDS.high)}/yr
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </Card>
+          {/* Total Value */}
+          <section className="mb-24">
+            <h2 className="text-3xl font-heading text-neutral-900 mb-4">Total Value at Year 6</h2>
+            <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
+              Distributions plus equity value. At full expansion, your total position
+              exceeds $113 million.
+            </p>
 
-                <Card padding="lg" className="bg-primary-800 text-white text-center">
-                  <p className="font-heading text-xl mb-2">
-                    After Year 6, you receive {formatCurrency(STEADY_STATE_DIVIDENDS.low)} to {formatCurrency(STEADY_STATE_DIVIDENDS.high)} per year.
-                  </p>
-                  <p className="text-primary-200">
-                    Every year. Growing. Passive income from a partnership built on your property.
-                  </p>
-                </Card>
-              </section>
-
-              {/* Cumulative Return Timeline */}
-              <section className="mb-24">
-                <h2 className="text-3xl font-heading text-neutral-900 mb-4">Cumulative Return Timeline</h2>
-                <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-                  Here is how your total return accumulates year by year across cash payments,
-                  dividends, and equity value at the full expansion model.
-                </p>
-
-                <Card padding="none" className="overflow-hidden mb-8">
-                  <div className="overflow-x-auto">
-                    <table className="w-full text-sm">
-                      <thead>
-                        <tr className="bg-primary-800 text-white">
-                          <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Period</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Cash Received</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Dividends</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Equity Value</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Running Total</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-neutral-100">
-                        {CUMULATIVE_RETURN.map((row) => (
-                          <tr key={row.label} className={`hover:bg-canvas-subtle transition-colors ${row.year === 6 ? 'bg-secondary-50' : ''}`}>
-                            <td className="px-4 py-3 font-medium text-neutral-800">{row.label}</td>
-                            <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(row.cashReceived)}</td>
-                            <td className="px-4 py-3 text-right text-neutral-600">{row.dividends > 0 ? formatCurrency(row.dividends) : '\u2014'}</td>
-                            <td className="px-4 py-3 text-right text-neutral-600">{row.equityValue > 0 ? formatCurrency(row.equityValue) : '\u2014'}</td>
-                            <td className="px-4 py-3 text-right font-heading text-lg text-neutral-900">
-                              {formatCurrency(row.runningTotal)}
-                            </td>
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
-                </Card>
-
-                <div className="flex items-center gap-4 p-6 bg-success-50 border border-success-200 rounded-xl">
-                  <div className="w-12 h-12 rounded-full bg-success-100 flex items-center justify-center shrink-0">
-                    <Check className="w-6 h-6 text-success-700" />
-                  </div>
-                  <div>
-                    <p className="font-heading text-lg text-success-800">
-                      You cross $25M in Year 6 with equity included
-                    </p>
-                    <p className="text-sm text-success-700">
-                      By end of Year 6, your total reaches {formatCurrency(CUMULATIVE_RETURN[6].runningTotal)}.
-                      Then dividends continue growing every year after.
-                    </p>
-                  </div>
-                </div>
-              </section>
-
-              {/* Safety Net */}
-              <section className="mb-24">
-                <h2 className="text-3xl font-heading text-neutral-900 mb-4">Your Safety Net</h2>
-                <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-                  This structure is designed so you cannot lose the asset. You hold the
-                  property title for the entire term. If anything goes wrong, you get the
-                  property back plus every payment we have already made to you.
-                </p>
-
-                <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
-                  {[
-                    { icon: Lock, title: 'Title Retained', desc: 'You hold the deed through the fideicomiso until fully paid.' },
-                    { icon: Shield, title: 'You Are the Bank', desc: 'First-position security. No other creditor ahead of you.' },
-                    { icon: Home, title: 'Asset Returns on Default', desc: 'If we default, you get the property back. Period.' },
-                    { icon: TrendingUp, title: 'Equity Is Upside', desc: 'Your equity is on top of the secured position. Pure bonus.' },
-                  ].map((item) => (
-                    <Card key={item.title} padding="md">
-                      <item.icon className="w-6 h-6 text-primary-600 mb-3" />
-                      <h4 className="font-medium text-neutral-900 mb-1 text-sm">{item.title}</h4>
-                      <p className="text-xs text-neutral-600">{item.desc}</p>
-                    </Card>
-                  ))}
-                </div>
-
-                <h3 className="font-heading text-xl text-neutral-900 mb-4">What Happens If We Default?</h3>
-                <Card padding="none" className="overflow-hidden">
-                  <div className="overflow-x-auto">
-                    <table className="w-full text-sm">
-                      <thead>
-                        <tr className="bg-primary-800 text-white">
-                          <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Default At</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Cash + Dividends Received</th>
-                          <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Outcome</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-neutral-100">
-                        {DEFAULT_SCENARIOS.map((row) => (
-                          <tr key={row.year} className="hover:bg-canvas-subtle transition-colors">
-                            <td className="px-4 py-3 font-medium text-neutral-800">Year {row.year}</td>
-                            <td className="px-4 py-3 text-right text-neutral-900 font-medium">{formatCurrency(row.totalReceived)}</td>
-                            <td className="px-4 py-3 text-neutral-700 max-w-md">{row.outcome}</td>
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
-                </Card>
-              </section>
-            </motion.div>
-          )}
-
-          {/* ═══════════════════════════════════════════════════════════
-              OPTION A DETAILS: Full Partnership (49%) - Preferred
-          ═══════════════════════════════════════════════════════════ */}
-          {selected === 'a' && (
-            <motion.div key="option-a" {...sectionTransition}>
-              {/* Deal Structure */}
-              <section className="mb-24">
-                <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Full Partnership</h2>
-                <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-                  This is not a sale. This is a co-ownership. You contribute your property
-                  and operations capital. We contribute the vision, team, and execution.
-                  Together, we build something worth far more than the property alone.
-                </p>
-
-                <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
-                  {[
-                    { label: 'Total Deal Value', value: '$13.4M', icon: Briefcase },
-                    { label: 'Property', value: '$8M', icon: Building2 },
-                    { label: 'Operations Capital', value: '$5.4M', icon: DollarSign },
-                    { label: 'Your Equity', value: '49%', icon: Users },
-                  ].map((item) => (
-                    <Card key={item.label} padding="md" className="text-center">
-                      <item.icon className="w-6 h-6 text-primary-600 mx-auto mb-2" />
-                      <p className="text-xs font-accent uppercase tracking-wider text-neutral-500 mb-1">{item.label}</p>
-                      <p className="font-heading text-2xl text-neutral-900">{item.value}</p>
-                    </Card>
-                  ))}
-                </div>
-
-                <Card padding="lg" className="bg-primary-50 border border-primary-200 mb-8">
-                  <h3 className="font-heading text-lg text-primary-900 mb-4">How It Works</h3>
-                  <div className="grid md:grid-cols-2 gap-8">
-                    <div>
-                      <h4 className="font-medium text-primary-800 mb-3">Jeff Contributes</h4>
-                      <ul className="space-y-3 text-neutral-700">
-                        <li className="flex items-start gap-3">
-                          <div className="w-6 h-6 rounded-full bg-primary-200 flex items-center justify-center shrink-0 mt-0.5">
-                            <span className="text-xs font-medium text-primary-700">1</span>
-                          </div>
-                          <span>The property ($8M value) as the physical foundation</span>
-                        </li>
-                        <li className="flex items-start gap-3">
-                          <div className="w-6 h-6 rounded-full bg-primary-200 flex items-center justify-center shrink-0 mt-0.5">
-                            <span className="text-xs font-medium text-primary-700">2</span>
-                          </div>
-                          <span>$5.4M in operations capital for buildout and launch</span>
-                        </li>
-                        <li className="flex items-start gap-3">
-                          <div className="w-6 h-6 rounded-full bg-primary-200 flex items-center justify-center shrink-0 mt-0.5">
-                            <span className="text-xs font-medium text-primary-700">3</span>
-                          </div>
-                          <span>Total contribution: $13.4M</span>
-                        </li>
-                      </ul>
-                    </div>
-                    <div>
-                      <h4 className="font-medium text-primary-800 mb-3">Jeff Receives</h4>
-                      <ul className="space-y-3 text-neutral-700">
-                        <li className="flex items-start gap-3">
-                          <Check className="w-5 h-5 text-primary-600 mt-0.5 shrink-0" />
-                          <span><span className="font-medium">49% equity</span> across three operating entities</span>
-                        </li>
-                        <li className="flex items-start gap-3">
-                          <Check className="w-5 h-5 text-primary-600 mt-0.5 shrink-0" />
-                          <span><span className="font-medium">Revenue distributions</span> from day one of operations</span>
-                        </li>
-                        <li className="flex items-start gap-3">
-                          <Check className="w-5 h-5 text-primary-600 mt-0.5 shrink-0" />
-                          <span>We pay the <span className="font-medium">broker fee</span> ($1.6M)</span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </Card>
-
-                <div className="flex items-start gap-3 text-sm text-neutral-600">
-                  <Handshake className="w-4 h-4 text-primary-600 mt-0.5 shrink-0" />
-                  <p>
-                    Jeff is a true co-owner and partner in building the enterprise. His $5.4M
-                    operations capital and the property value are paid back from revenue generated
-                    by the operation.
-                  </p>
-                </div>
-              </section>
-
-              {/* Equity Position */}
-              <section className="mb-24">
-                <h2 className="text-3xl font-heading text-neutral-900 mb-4">Your Equity Position</h2>
-                <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-                  49% ownership across three operating entities means you are not a passive investor.
-                  You are a co-builder. As the entities grow, your equity grows with them.
-                </p>
-
-                <h3 className="font-heading text-xl text-neutral-900 mb-4">Equity Value Across Models</h3>
-                <Card padding="none" className="overflow-hidden mb-8">
-                  <div className="overflow-x-auto">
-                    <table className="w-full text-sm">
-                      <thead>
-                        <tr className="bg-primary-800 text-white">
-                          <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Model</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Enterprise Value</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Your 49% (3 Entities)</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-neutral-100">
-                        {[
-                          { ...ENTERPRISE_VALUATIONS.conservative, equity: SCENARIO_C_RETURN.equityConservative },
-                          { ...ENTERPRISE_VALUATIONS.base, equity: SCENARIO_C_RETURN.equityBase },
-                          { ...ENTERPRISE_VALUATIONS.fullExpansion, equity: SCENARIO_C_RETURN.equityFull },
-                        ].map((row) => (
-                          <tr key={row.label} className="hover:bg-canvas-subtle transition-colors">
-                            <td className="px-4 py-3 text-neutral-800">{row.label}</td>
-                            <td className="px-4 py-3 text-right text-neutral-700">{formatCurrency(row.value)}</td>
-                            <td className="px-4 py-3 text-right font-heading text-lg text-primary-700">{formatCurrency(row.equity)}</td>
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
-                </Card>
-
-                <div className="grid md:grid-cols-3 gap-6">
-                  <MetricCard
-                    label="Conservative Equity"
-                    value={formatCurrency(SCENARIO_C_RETURN.equityConservative)}
-                    subtitle="49% across 3 entities"
-                    accent
-                  />
-                  <MetricCard
-                    label="Base Case Equity"
-                    value={formatCurrency(SCENARIO_C_RETURN.equityBase)}
-                    subtitle="49% across 3 entities"
-                    accent
-                  />
-                  <MetricCard
-                    label="Full Expansion Equity"
-                    value={formatCurrency(SCENARIO_C_RETURN.equityFull)}
-                    subtitle="49% across 3 entities"
-                    trend="up"
-                    trendValue="343% of $25M"
-                    accent
-                  />
-                </div>
-
-                <Card padding="lg" className="bg-primary-50 border border-primary-200 mt-8">
-                  <p className="text-neutral-800">
-                    <span className="font-medium">The structure:</span> Your 49% is held across three operating entities:
-                    TE PropCo (real estate), TE OpCo (clinical operations), and TE IP/Data Co (intellectual property
-                    and data). Each entity can be valued and exited independently.
-                  </p>
-                </Card>
-              </section>
-
-              {/* Revenue Distributions */}
-              <section className="mb-24">
-                <div className="text-center mb-10">
-                  <p className="font-accent text-sm uppercase tracking-widest text-primary-500 mb-4">
-                    Revenue From Day One
-                  </p>
-                  <h2 className="text-3xl md:text-4xl font-heading text-neutral-900 mb-4">Your Revenue Share</h2>
-                  <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-                    As a 49% owner across three operating entities, you receive 49% of all
-                    distributions. Your contribution is paid back from the revenue the operation generates.
-                  </p>
-                </div>
-
-                <Card padding="none" className="overflow-hidden mb-8">
-                  <div className="overflow-x-auto">
-                    <table className="w-full text-sm">
-                      <thead>
-                        <tr className="bg-primary-800 text-white">
-                          <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Year</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Enterprise Distributes</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Your 49% Share</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-neutral-100">
-                        {SCENARIO_C_DISTRIBUTIONS.map((row) => (
-                          <tr key={row.year} className="hover:bg-canvas-subtle transition-colors">
-                            <td className="px-4 py-3 text-neutral-800">Year {row.year}</td>
-                            <td className="px-4 py-3 text-right text-neutral-700">
-                              {row.totalDistributions > 0 ? formatCurrency(row.totalDistributions) : 'Foundation year'}
-                            </td>
-                            <td className="px-4 py-3 text-right font-medium text-primary-700">
-                              {row.jeffShare > 0 ? formatCurrency(row.jeffShare) : '$0'}
-                            </td>
-                          </tr>
-                        ))}
-                        <tr className="bg-primary-50">
-                          <td className="px-4 py-3 font-medium text-primary-800">Year 7+</td>
-                          <td className="px-4 py-3 text-right text-primary-700">Growing annually</td>
-                          <td className="px-4 py-3 text-right font-heading text-lg text-primary-700">
-                            {formatCurrency(SCENARIO_C_STEADY_STATE.low)}-{formatCurrency(SCENARIO_C_STEADY_STATE.high)}/yr
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </Card>
-
-                <Card padding="lg" className="bg-primary-800 text-white text-center">
-                  <p className="font-heading text-xl mb-2">
-                    {formatCurrency(SCENARIO_C_STEADY_STATE.low)} to {formatCurrency(SCENARIO_C_STEADY_STATE.high)} per year. Every year.
-                  </p>
-                  <p className="text-primary-200">
-                    Nearly $10M annually in passive income from an enterprise built on your property.
-                  </p>
-                </Card>
-              </section>
-
-              {/* Cumulative Return */}
-              <section className="mb-24">
-                <h2 className="text-3xl font-heading text-neutral-900 mb-4">Cumulative Return Timeline</h2>
-                <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-                  Here is how your total return accumulates year by year across revenue
-                  distributions and equity value at the full expansion model.
-                </p>
-
-                <Card padding="none" className="overflow-hidden mb-8">
-                  <div className="overflow-x-auto">
-                    <table className="w-full text-sm">
-                      <thead>
-                        <tr className="bg-primary-800 text-white">
-                          <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Period</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Cumulative Distributions</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Equity Value</th>
-                          <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Running Total</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-neutral-100">
-                        {SCENARIO_C_CUMULATIVE.map((row) => (
-                          <tr key={row.label} className={`hover:bg-canvas-subtle transition-colors ${row.year === 6 ? 'bg-primary-50' : ''}`}>
-                            <td className="px-4 py-3 font-medium text-neutral-800">{row.label}</td>
-                            <td className="px-4 py-3 text-right text-neutral-700">{row.dividends > 0 ? formatCurrency(row.dividends) : '\u2014'}</td>
-                            <td className="px-4 py-3 text-right text-neutral-600">{row.equityValue > 0 ? formatCurrency(row.equityValue) : '\u2014'}</td>
-                            <td className="px-4 py-3 text-right font-heading text-lg text-neutral-900">
-                              {row.runningTotal > 0 ? formatCurrency(row.runningTotal) : '\u2014'}
-                            </td>
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
-                </Card>
-
-                <div className="grid sm:grid-cols-2 gap-6">
-                  <div className="flex items-center gap-4 p-6 bg-success-50 border border-success-200 rounded-xl">
-                    <div className="w-12 h-12 rounded-full bg-success-100 flex items-center justify-center shrink-0">
-                      <Check className="w-6 h-6 text-success-700" />
-                    </div>
-                    <div>
-                      <p className="font-heading text-lg text-success-800">
-                        $13.4M recovered by Year 4
-                      </p>
-                      <p className="text-sm text-success-700">
-                        Your full contribution paid back from distributions alone.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-4 p-6 bg-success-50 border border-success-200 rounded-xl">
-                    <div className="w-12 h-12 rounded-full bg-success-100 flex items-center justify-center shrink-0">
-                      <Check className="w-6 h-6 text-success-700" />
-                    </div>
-                    <div>
-                      <p className="font-heading text-lg text-success-800">
-                        $25M recovered by Year 5
-                      </p>
-                      <p className="text-sm text-success-700">
-                        Full original investment recovered through distributions.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </section>
-
-              {/* Total Value */}
-              <section className="mb-24">
-                <h2 className="text-3xl font-heading text-neutral-900 mb-4">Total Value at Year 6</h2>
-                <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-                  Distributions plus equity value. At full expansion, your total position
-                  exceeds $113 million.
-                </p>
-
-                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                  <MetricCard
-                    label="Conservative"
-                    value={formatCurrency(SCENARIO_C_RETURN.totalConservative)}
-                    subtitle="Distributions + 49% of $44.5M"
-                    accent
-                  />
-                  <MetricCard
-                    label="Base Case"
-                    value={formatCurrency(SCENARIO_C_RETURN.totalBase)}
-                    subtitle="Distributions + 49% of $76.8M"
-                    accent
-                  />
-                  <MetricCard
-                    label="Full Expansion"
-                    value={formatCurrency(SCENARIO_C_RETURN.totalFull)}
-                    subtitle="Distributions + 49% of $175M"
-                    trend="up"
-                    trendValue="454% of $25M"
-                    accent
-                  />
-                </div>
-              </section>
-            </motion.div>
-          )}
-        </AnimatePresence>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              <MetricCard
+                label="Conservative"
+                value={formatCurrency(SCENARIO_C_RETURN.totalConservative)}
+                subtitle="Distributions + 49% of $44.5M"
+                accent
+              />
+              <MetricCard
+                label="Base Case"
+                value={formatCurrency(SCENARIO_C_RETURN.totalBase)}
+                subtitle="Distributions + 49% of $76.8M"
+                accent
+              />
+              <MetricCard
+                label="Full Expansion"
+                value={formatCurrency(SCENARIO_C_RETURN.totalFull)}
+                subtitle="Distributions + 49% of $175M"
+                trend="up"
+                trendValue="454% of $25M"
+                accent
+              />
+            </div>
+          </section>
+        </motion.div>
 
         {/* ═══════════════════════════════════════════════════════════
             What We Build Together
@@ -963,8 +512,8 @@ export default function PartnerPage() {
               We can have a term sheet ready within days of our conversation.
             </p>
             <p className="text-primary-200 mb-8">
-              Two partnership paths. Both start with your full asking price.
-              Both offer a way to recover everything you put in.
+              A real partnership. Your full asking price. True co-ownership of what
+              we build together on the land you created.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
