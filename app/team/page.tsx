@@ -43,10 +43,10 @@ const LEADERSHIP_TEAM = [
     caseStudy: 'Pending Case Study',
   },
   {
-    name: 'Dr. Mariana Hoyo',
+    name: 'Medical Advisor',
     role: 'Chief Medical Advisor',
     focus: 'Medical & Integration',
-    bio: 'General Physician from Universidad Anáhuac México Norte with a Master\'s in Healthcare Management. Certified in Medicinal Cannabis and ThetaHealing, she provides holistic care for physical, mental, and emotional well-being.',
+    bio: 'We are in private conversations with an experienced physician in the plant medicine and integration space. Name and credentials will be shared at the appropriate time.',
     caseStudy: null,
   },
   {

@@ -100,7 +100,6 @@ const TEAM = [
   { name: 'Nicholas Courchesne', role: 'Founder & CEO' },
   { name: 'Jason Sparks', role: 'Co-Founder & COO' },
   { name: 'Dan Lawless', role: 'Technical Lead' },
-  { name: 'Dr. Mariana Hoyo', role: 'Chief Medical Advisor' },
   { name: 'Eyob Mebrahtu', role: 'Head of Marketing' },
 ]
 
