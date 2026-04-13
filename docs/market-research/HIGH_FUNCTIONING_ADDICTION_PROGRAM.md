@@ -617,16 +617,16 @@ Our approach addresses limitations of existing ibogaine providers:
 - **Passages Malibu** - Luxury addiction (non-ibogaine)
 - **The Meadows** - Trauma-informed addiction
 
-### Dr. Mariana Follow-Up Items
+### Medical Director Follow-Up Items
 
-- [ ] Obtain full program documentation shared by Dr. Mariana
+- [ ] Obtain full program documentation shared by Medical Director
 - [ ] Review specific protocols recommended
 - [ ] Identify potential medical director candidates with addiction expertise
-- [ ] Connect with her clinical network
+- [ ] Connect with clinical network
 
 ---
 
-**Document Status:** Draft - Pending Dr. Mariana's additional input
+**Document Status:** Draft - Pending Medical Director additional input
 **Last Updated:** January 2026
 **Owner:** Dan
-**Next Steps:** Review with Dr. Mariana, refine based on her clinical expertise
+**Next Steps:** Review with Medical Director, refine based on clinical expertise

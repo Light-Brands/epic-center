@@ -7,7 +7,7 @@ Place reference photos for each team member in this folder.
 - `nicholas-courchesne.jpg` (or .png, .webp)
 - `jason-sparks.jpg`
 - `dan-lawless.jpg`
-- `mariana-hoyo.jpg`
+- `chief-medical-advisor.jpg`
 - `eyob-mebrahtu.jpg`
 - `julien-leblanc.jpg`
 

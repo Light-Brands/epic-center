@@ -9,7 +9,7 @@
 The AI Guide is a core component of Transformational Epicenter's digital ecosystem, a conversational AI interface that supports guests throughout their transformation journey. This document establishes the guidelines, boundaries, and governance framework for the AI Guide, ensuring it serves guests effectively while maintaining medical safety, scientific accuracy, and alignment with organizational values.
 
 **This document requires input and approval from:**
-- Dr. Mariana (Medical/Clinical Oversight)
+- Chief Medical Advisor (Medical/Clinical Oversight)
 - Nicholas (Strategic Alignment)
 - Dan (Technical Implementation)
 
@@ -676,9 +676,9 @@ Is the request within AI Guide scope?
 
 ---
 
-## Appendix C: Open Questions for Dr. Mariana & Nicholas
+## Appendix C: Open Questions for Chief Medical Advisor & Nicholas
 
-### For Dr. Mariana (Medical/Clinical)
+### For Chief Medical Advisor (Medical/Clinical)
 
 1. What specific medical topics should require automatic human referral?
 2. How should AI Guide handle guests reporting side effects?
@@ -703,7 +703,7 @@ Is the request within AI Guide scope?
 
 ---
 
-**Document Status:** Draft - Requires Dr. Mariana and Nicholas Review
+**Document Status:** Draft - Requires Chief Medical Advisor and Nicholas Review
 **Last Updated:** January 2026
-**Owner:** Dan (draft), Dr. Mariana (clinical review), Nicholas (strategic review)
+**Owner:** Dan (draft), Chief Medical Advisor (clinical review), Nicholas (strategic review)
 **Next Steps:** Schedule review meeting, collect feedback, finalize version 1.0

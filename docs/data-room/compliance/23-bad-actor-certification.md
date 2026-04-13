@@ -86,7 +86,6 @@ The following individuals and entities have been identified as covered persons f
 |------|------|------------------------|
 | **Nicholas Courchesne** | Founder & CEO | (iii) Executive Officer |
 | **Jason Sparks** | Co-Founder & COO | (iii) Executive Officer |
-| **Dr. Mariana Hoyo** | Chief Medical Advisor | (iii) Officer participating in offering |
 | **Dan Lawless** | Technical Lead | (iii) Officer |
 | **Eyob Mebrahtu** | Head of Marketing | (iii) Officer, (vi) Promoter |
 | **Julien Leblanc** | Medicine Advocate | (iii) Officer, (vi) Promoter |
@@ -237,7 +236,6 @@ I certify that the above responses are true and complete to the best of my knowl
 |----------------|----------------------|------|--------|
 | Nicholas Courchesne | Pending | -- | -- |
 | Jason Sparks | Pending | -- | -- |
-| Dr. Mariana Hoyo | Pending | -- | -- |
 | Dan Lawless | Pending | -- | -- |
 | Eyob Mebrahtu | Pending | -- | -- |
 | Julien Leblanc | Pending | -- | -- |

@@ -470,9 +470,9 @@ Month 9-12: Final Approvals
 
 ## 9. Recommended Legal Contacts
 
-### 9.1 To Coordinate with Dr. Mariana
+### 9.1 To Coordinate with Medical Director
 
-**Action Item:** Dr. Mariana to connect team with:
+**Action Item:** Medical Director to connect team with:
 - **Jorge** (referenced lawyer) - Coordinate initial consultation
 - Regenerative medicine contacts - Understand specific permit process
 
@@ -500,9 +500,9 @@ Consider engaging a regulatory affairs consultant with direct COFEPRIS relations
 
 ### Immediate (This Week)
 
-- [ ] **Dr. Mariana:** Send list of required permits to group chat
-- [ ] **Dr. Mariana:** Coordinate call with Jorge (lawyer)
-- [ ] **Dr. Mariana:** Connect team with regenerative medicine contacts
+- [ ] **Medical Director:** Send list of required permits to group chat
+- [ ] **Medical Director:** Coordinate call with Jorge (lawyer)
+- [ ] **Medical Director:** Connect team with regenerative medicine contacts
 - [ ] **Dan:** Share this document with team for review
 
 ### Short-Term (Next 2 Weeks)
@@ -579,6 +579,6 @@ Consider engaging a regulatory affairs consultant with direct COFEPRIS relations
 
 ---
 
-**Document Status:** Draft - Pending Dr. Mariana's input and legal verification
+**Document Status:** Draft - Pending Medical Director input and legal verification
 **Last Updated:** January 2026
-**Owner:** Dan (research), Dr. Mariana (verification), Legal Counsel (final review)
+**Owner:** Dan (research), Medical Director (verification), Legal Counsel (final review)

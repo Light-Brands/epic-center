@@ -351,7 +351,7 @@ The Company's positioning as a **medical wellness and luxury hospitality company
 - The Company operates exclusively in Mexico, where ibogaine is unregulated and its medical administration is lawful
 - The Company does not manufacture, distribute, import, or sell controlled substances in the United States
 - The Company's services integrate clinical medicine, luxury hospitality, bio-optimization, and plant medicine under licensed medical supervision
-- All medical protocols are overseen by Dr. Mariana Hoyo (Chief Medical Advisor) and comply with applicable Mexican healthcare regulations
+- All medical protocols are overseen by our Chief Medical Advisor (MD, Master's in Healthcare Management) and comply with applicable Mexican healthcare regulations
 - Risk disclosures in the PPM comprehensively address the regulatory distinction between US and Mexican classification of ibogaine
 - The Company's four-discipline model (clinical medicine, luxury hospitality, bio-optimization, plant medicine) diversifies revenue risk beyond any single psychedelic modality
 - FATCA, FBAR, and cross-border tax implications are disclosed to prospective US investors

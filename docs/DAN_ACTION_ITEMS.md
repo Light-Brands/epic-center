@@ -50,9 +50,9 @@
 - Complete permit checklist
 
 **Next Steps for Team:**
-- [ ] Dr. Mariana: Review and add any missing permits
-- [ ] Dr. Mariana: Coordinate call with Jorge (lawyer)
-- [ ] Dr. Mariana: Connect team with regenerative medicine contacts
+- [ ] Medical Director: Review and add any missing permits
+- [ ] Medical Director: Coordinate call with Jorge (lawyer)
+- [ ] Medical Director: Connect team with regenerative medicine contacts
 
 ---
 
@@ -107,8 +107,8 @@
 - Opportunity for "Executive Addiction Interruption" program
 
 **Next Steps:**
-- [ ] Dr. Mariana: Share additional program materials referenced
-- [ ] Dr. Mariana: Review proposed approach and protocols
+- [ ] Medical Director: Share additional program materials referenced
+- [ ] Medical Director: Review proposed approach and protocols
 
 ---
 
@@ -140,7 +140,7 @@ Added comprehensive "4 Weeks Before: PRE-TESTING MILESTONE" section including:
 - Neurotransmitter metabolites
 
 **Next Steps:**
-- [ ] Dr. Mariana: Review and refine test list
+- [ ] Medical Director: Review and refine test list
 - [ ] Team: Finalize partner lab relationship (Alliance)
 
 ---
@@ -163,7 +163,7 @@ Added comprehensive "4 Weeks Before: PRE-TESTING MILESTONE" section including:
 - Governance and updates
 
 **Requires Review From:**
-- [ ] **Dr. Mariana:** Medical content, safety protocols, escalation procedures
+- [ ] **Medical Director:** Medical content, safety protocols, escalation procedures
 - [ ] **Nicholas:** Strategic alignment, brand voice, success metrics
 
 **Open Questions Documented (Appendix C):**
@@ -176,7 +176,7 @@ Added comprehensive "4 Weeks Before: PRE-TESTING MILESTONE" section including:
 
 ## Team Dependencies & Follow-Up
 
-### Waiting on Dr. Mariana
+### Waiting on Medical Director
 
 | Item | Status | Action |
 |------|--------|--------|
@@ -200,7 +200,7 @@ Added comprehensive "4 Weeks Before: PRE-TESTING MILESTONE" section including:
 - **Next Week:** Site visits to 5 locations in Quintana Roo (Nicholas, Jason, team)
 - **Tuesday:** Nicholas & Jason meeting on site options and investor conversations
 - **TBD:** Call with lawyer (Jorge) and regenerative medicine contacts
-- **TBD:** AI Guide framework review meeting (Dr. Mariana, Nicholas, Dan)
+- **TBD:** AI Guide framework review meeting (Medical Director, Nicholas, Dan)
 
 ---
 

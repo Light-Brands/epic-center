@@ -378,7 +378,7 @@ To ensure timely SEC filing, internal deadlines should be set:
 | **Auditor [To be designated]** | Annual audit, interim review (if elected), auditor consent letter |
 | **EDGAR Filing Agent** | [To be designated] -- EDGAR formatting, filing, and confirmation |
 | **Technical Lead (Dan Lawless)** | Technology/IP-related disclosures, investor portal data |
-| **Chief Medical Advisor (Dr. Mariana Hoyo)** | Medical program disclosures, clinical outcome reporting, regulatory compliance |
+| **Chief Medical Advisor** | Medical program disclosures, clinical outcome reporting, regulatory compliance |
 | **Head of Marketing (Eyob Mebrahtu)** | Investor communications, marketing material compliance |
 
 ### 8.2 Disclosure Committee

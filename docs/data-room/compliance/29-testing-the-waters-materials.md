@@ -221,7 +221,7 @@ THE DIFFERENTIATOR
 THE TEAM
 - Nicholas Courchesne, Founder & CEO
 - Jason Sparks, Co-Founder & COO
-- Dr. Mariana Hoyo, Chief Medical Advisor
+- Chief Medical Advisor (MD, Master's in Healthcare Management)
 - Dan Lawless, Technical Lead
 - Eyob Mebrahtu, Head of Marketing
 - Julien Leblanc, Medicine Advocate

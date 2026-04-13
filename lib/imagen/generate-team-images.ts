@@ -48,10 +48,10 @@ const teamMembers = [
     referenceImage: "reference-images/dan-lawless.jpg", // Path to reference photo
   },
   {
-    name: "mariana-hoyo",
-    slug: "mariana-hoyo",
-    subject: `Create a portrait illustration matching the person in the reference image. Maintain their facial features, expression, and character. General Physician with Master's in Healthcare Management. Warm, caring, professional medical presence. Professional portrait showing holistic care expertise and medical authority.`,
-    referenceImage: "reference-images/mariana-hoyo.jpg", // Path to reference photo
+    name: "chief-medical-advisor",
+    slug: "chief-medical-advisor",
+    subject: `Portrait illustration of a Chief Medical Advisor. General Physician with Master's in Healthcare Management. Warm, caring, professional medical presence. Professional portrait showing holistic care expertise and medical authority.`,
+    referenceImage: "reference-images/chief-medical-advisor.jpg", // Path to reference photo
   },
   {
     name: "eyob-mebrahtu",
