@@ -208,7 +208,11 @@ export default function PartnerPage() {
                     </li>
                     <li className="flex items-start gap-3">
                       <Check className="w-5 h-5 text-primary-600 mt-0.5 shrink-0" />
-                      <span>We pay the <span className="font-medium">broker fee</span> ($1.6M)</span>
+                      <span>We pay the <span className="font-medium">broker fee</span> at closing</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Check className="w-5 h-5 text-primary-600 mt-0.5 shrink-0" />
+                      <span><span className="font-medium">First lien position</span> on the property, held until the full $8M property value is recovered from revenue</span>
                     </li>
                   </ul>
                 </div>
