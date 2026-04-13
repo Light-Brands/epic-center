@@ -33,8 +33,7 @@ meters of jungle compound in Akumal, Quintana Roo.
 | **Total Interest Over Term** | USD $2,160,000 |
 | **Total Return to Lender** | USD $10,160,000 (27% gross over 36 months) |
 | **Commitment Fee** | 1.00% of principal, payable at closing |
-| **Prepayment Lockout** | 12 months, with makewhole |
-| **Prepayment After Lockout** | Permitted at par, 30 days' notice |
+| **Prepayment** | Open at any time, no penalty, no makewhole (30 days' notice) |
 | **Default Interest** | Note rate plus 4.00% per annum |
 
 ---

@@ -114,8 +114,8 @@ export default function PabloPage() {
         <motion.section className="mb-24" {...fadeUp}>
           <h2 className="text-3xl font-heading text-neutral-900 mb-4">Key Terms at a Glance</h2>
           <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-            A simple, senior secured bridge. No prepayment penalty after month 12.
-            No equity kicker. No participation in upside. Straight debt.
+            A simple, senior secured bridge. Open prepayment at any time with
+            no penalty. No equity kicker. No participation in upside. Straight debt.
           </p>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">

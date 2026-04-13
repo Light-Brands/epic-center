@@ -50,11 +50,11 @@ First interest payment due ninety (90) days after the Closing Date. Subsequent p
 
 ### 6. Prepayment
 
-**Lockout period:** 12 months from Closing Date, during which no voluntary prepayment is permitted.
+**Open prepayment:** Voluntary prepayment permitted in whole or in part at any time, without penalty, premium, or makewhole. No lockout period.
 
-**After lockout:** Voluntary prepayment permitted in whole or in part without penalty, subject to thirty (30) days' prior written notice to Lender.
+**Notice:** Thirty (30) days' prior written notice to Lender of any prepayment, or such shorter notice as the parties mutually agree.
 
-**Makewhole:** During lockout, any prepayment resulting from borrower election (including sale of the Property) triggers a makewhole payment equal to the interest that would have accrued through month 12.
+**Application:** Partial prepayments shall be applied first to accrued but unpaid interest, then to principal. Interest accrues only through the date of prepayment.
 
 ### 7. Use of Proceeds
 
