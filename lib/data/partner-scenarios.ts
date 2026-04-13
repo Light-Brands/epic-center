@@ -130,21 +130,33 @@ export const DEFAULT_SCENARIOS = [
 ]
 
 // ═══════════════════════════════════════════════════════════════════════════
-// Partnership B: Full Partnership (49% equity)
-// Jeff contributes: property ($8M) + $5.4M operations capital = $13.4M total
-// Light Brands pays: $1.6M broker commission
-// Jeff receives: 49% equity, paid back from revenue
+// Partnership B: Full Partnership (49% equity) — $20M Lien Structure
+//
+// Jeff's asking price: $11.9M
+// Light Brands partnership credit: $14.6M (above ask — a commitment premium)
+// Jeff adds: $5.4M operations capital
+// Total lien position: $20M, first-position, secured by property + enterprise
+// Jeff also receives 49% equity across three operating entities
 // ═══════════════════════════════════════════════════════════════════════════
 
+export const JEFF_PROPERTY = {
+  askingPrice: 11_900_000,          // Jeff's asking price — what he said the property is worth
+  partnerCredit: 14_600_000,        // Light Brands partnership credit — above ask
+  askingPremium: 2_700_000,         // $14.6M - $11.9M — the commitment premium
+}
+
 export const SCENARIO_C = {
-  totalDealValue: 13_400_000,
-  propertyValue: 8_000_000,
-  operationsCapital: 5_400_000,
+  totalLienAmount: 20_000_000,      // Jeff's first-position lien
+  propertyCredit: 14_600_000,       // credited property value (above $11.9M ask)
+  askingPrice: 11_900_000,          // Jeff's stated asking price
+  operationsCapital: 5_400_000,     // Jeff's cash contribution for buildout
   brokerCommission: 1_600_000,
-  brokerPaidBy: 'Light Brands',     // We pay the broker commission
+  brokerPaidBy: 'Light Brands',
   jeffEquityPercent: 0.49,
-  jeffContribution: 13_400_000,    // property + operations capital
-  jeffCashContribution: 5_400_000, // cash for operations
+  jeffContribution: 20_000_000,     // property credit + operations capital
+  jeffCashContribution: 5_400_000,
+  lienPosition: 'first',
+  lienSecuredBy: 'property + operating entities',
   paidFromRevenue: true,
 }
 
@@ -170,6 +182,38 @@ export const SCENARIO_C_RETURN = {
   totalBase: 27_930_000 + 37_632_000,         // $65,562,000
   totalFull: 27_930_000 + 85_750_000,         // $113,680,000
 }
+
+// ─── Downside Protection (Partnership B) ────────────────────────────────
+// If Light Brands defaults on the $20M lien at any point, Jeff forecloses on
+// his first-position lien. He recovers:
+//   1. The property (now improved with operations buildout)
+//   2. All revenue distributions received up to that point (49% of enterprise payouts)
+//   3. Any unrecovered portion of the $20M lien as a claim against remaining assets
+// Revenue distributions are ADDITIONAL to the lien — they flow from equity, not principal.
+
+export const SCENARIO_C_DEFAULT_SCENARIOS = [
+  {
+    year: 1,
+    distributionsReceived: 0,
+    propertyStatus: 'Initial buildout underway',
+    lienEnforced: 20_000_000,
+    outcome: 'Jeff forecloses on the $20M first-position lien, recovers the property with initial buildout, and the full lien is enforceable against remaining enterprise assets. Jeff is whole on his position.',
+  },
+  {
+    year: 3,
+    distributionsReceived: 5_096_000,
+    propertyStatus: 'Operational, partial buildout complete',
+    lienEnforced: 20_000_000,
+    outcome: 'Jeff recovers the improved operational property plus $5.1M in revenue distributions already received. The $20M lien remains enforceable. Combined position: property back + $5.1M in hand + lien claim.',
+  },
+  {
+    year: 5,
+    distributionsReceived: 19_110_000,
+    propertyStatus: 'Fully operational, substantial buildout',
+    lienEnforced: 20_000_000,
+    outcome: 'Jeff recovers a fully operational property plus $19.1M in distributions already received. He has already recovered nearly the entire $20M lien amount in cash alone, and the property comes back on top of that.',
+  },
+]
 
 // Cumulative return - Partnership B (49% equity, full expansion model)
 export const SCENARIO_C_CUMULATIVE = [

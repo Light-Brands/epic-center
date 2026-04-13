@@ -13,16 +13,22 @@ import {
   Building2,
   Users,
   Briefcase,
+  Shield,
+  Lock,
+  Home,
 } from 'lucide-react'
 import { Card } from '@/components/ui'
 import { MetricCard } from '@/components/financial'
 import { Footer } from '@/components/layout'
 import {
   ENTERPRISE_VALUATIONS,
+  JEFF_PROPERTY,
+  SCENARIO_C,
   SCENARIO_C_DISTRIBUTIONS,
   SCENARIO_C_STEADY_STATE,
   SCENARIO_C_RETURN,
   SCENARIO_C_CUMULATIVE,
+  SCENARIO_C_DEFAULT_SCENARIOS,
   formatCurrency,
 } from '@/lib/data/partner-scenarios'
 
@@ -55,11 +61,12 @@ export default function PartnerPage() {
             A Private Partnership Proposal
           </p>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-display text-white mb-6 leading-tight">
-            Jeff, We Want to Build<br className="hidden md:block" /> This With You
+            Jeff, We Honor Your Price.<br className="hidden md:block" /> And We Raise It.
           </h1>
           <p className="text-xl text-primary-100 max-w-2xl mx-auto mb-4">
-            A true co-ownership partnership starting at $8 million, with a
-            path to recover the full $25 million you invested and far beyond.
+            You asked $11.9 million for the property. We are crediting you
+            $14.6 million and securing it with a $20 million first-position
+            lien. Because if we believe in this, we commit above your ask.
           </p>
           <p className="text-lg text-primary-200/70">
             One property. One partnership. Built together.
@@ -80,24 +87,31 @@ export default function PartnerPage() {
             creating something extraordinary.
           </p>
           <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-            That investment represents more than construction costs. It represents
-            vision, risk, and years of commitment. We see the value you created, and
-            we have built a partnership that honors it.
+            You priced it at $11.9 million. We hear that price, and we honor it.
+            Then we go further. A sale is a one-time number. A partnership is a
+            commitment. If we are asking to build this with you, the commitment
+            should sit above the ask, not below it.
           </p>
 
-          <div className="grid sm:grid-cols-2 gap-6">
+          <div className="grid sm:grid-cols-3 gap-6">
             <MetricCard
-              label="Your Investment"
-              value="$25M+"
-              subtitle="Total capital invested"
+              label="Your Asking Price"
+              value={formatCurrency(JEFF_PROPERTY.askingPrice)}
+              subtitle="What you said the property is worth"
               accent
             />
             <MetricCard
-              label="Deep Partnership"
-              value="$113M+"
-              subtitle="Total value at full expansion (49% equity)"
+              label="Our Partnership Credit"
+              value={formatCurrency(JEFF_PROPERTY.partnerCredit)}
+              subtitle={`$${(JEFF_PROPERTY.askingPremium / 1_000_000).toFixed(1)}M above your asking price`}
               trend="up"
-              trendValue="454% recovery"
+              trendValue="Above ask"
+              accent
+            />
+            <MetricCard
+              label="Total Lien Position"
+              value={formatCurrency(SCENARIO_C.totalLienAmount)}
+              subtitle="First-position lien, property + enterprise"
               accent
             />
           </div>
@@ -109,8 +123,9 @@ export default function PartnerPage() {
         <motion.section className="mb-16" {...fadeUp}>
           <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Partnership</h2>
           <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-            True co-ownership. 49% equity across three operating entities.
-            We build this together, and the value we create is shared.
+            A $20 million first-position lien plus 49% equity across three
+            operating entities. The lien is your secured floor. The equity is
+            your upside. You get both.
           </p>
 
           <Card
@@ -130,13 +145,13 @@ export default function PartnerPage() {
               </div>
             </div>
             <p className="text-neutral-600 mb-4 max-w-2xl">
-              True co-ownership. 49% across three operating entities. Equity plus revenue
-              share from day one of operations.
+              $20M secured lien. 49% equity across three operating entities.
+              Revenue distributions from day one. Property back on default.
             </p>
             <div className="bg-primary-50 rounded-lg p-4 max-w-sm">
-              <p className="text-xs font-accent uppercase tracking-wider text-primary-600 mb-1">You Earn</p>
-              <p className="font-heading text-3xl text-primary-700">$13.4M → $113M+</p>
-              <p className="text-xs text-primary-700">Equity + revenue share</p>
+              <p className="text-xs font-accent uppercase tracking-wider text-primary-600 mb-1">Your Position</p>
+              <p className="font-heading text-3xl text-primary-700">$20M → $113M+</p>
+              <p className="text-xs text-primary-700">Secured floor + equity upside</p>
             </div>
           </Card>
         </motion.section>
@@ -149,16 +164,18 @@ export default function PartnerPage() {
           <section className="mb-24">
             <h2 className="text-3xl font-heading text-neutral-900 mb-4">The Deal Structure</h2>
             <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-              This is not a sale. This is a co-ownership. You contribute your property
-              and operations capital. We contribute the vision, team, and execution.
-              Together, we build something worth far more than the property alone.
+              This is not a sale. It is a co-ownership secured by a lien.
+              You asked $11.9M for the property. We credit it at $14.6M.
+              You add $5.4M in operations capital. Together that becomes a
+              $20M first-position lien held by you, secured by the property
+              and the operating entities, paid back from revenue.
             </p>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
               {[
-                { label: 'Total Deal Value', value: '$13.4M', icon: Briefcase },
-                { label: 'Property', value: '$8M', icon: Building2 },
-                { label: 'Operations Capital', value: '$5.4M', icon: DollarSign },
+                { label: 'Total Lien Position', value: '$20M', icon: Briefcase },
+                { label: 'Property Credit', value: '$14.6M', icon: Building2 },
+                { label: 'Your Operations Capital', value: '$5.4M', icon: DollarSign },
                 { label: 'Your Equity', value: '49%', icon: Users },
               ].map((item) => (
                 <Card key={item.label} padding="md" className="text-center">
@@ -179,19 +196,19 @@ export default function PartnerPage() {
                       <div className="w-6 h-6 rounded-full bg-primary-200 flex items-center justify-center shrink-0 mt-0.5">
                         <span className="text-xs font-medium text-primary-700">1</span>
                       </div>
-                      <span>The property ($8M value) as the physical foundation</span>
+                      <span>The property, credited at <span className="font-medium">$14.6M</span> ($2.7M above your $11.9M asking price)</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <div className="w-6 h-6 rounded-full bg-primary-200 flex items-center justify-center shrink-0 mt-0.5">
                         <span className="text-xs font-medium text-primary-700">2</span>
                       </div>
-                      <span>$5.4M in operations capital for buildout and launch</span>
+                      <span><span className="font-medium">$5.4M</span> in operations capital for buildout and launch</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <div className="w-6 h-6 rounded-full bg-primary-200 flex items-center justify-center shrink-0 mt-0.5">
                         <span className="text-xs font-medium text-primary-700">3</span>
                       </div>
-                      <span>Total contribution: $13.4M</span>
+                      <span>Total contribution secured by the lien: <span className="font-medium">$20M</span></span>
                     </li>
                   </ul>
                 </div>
@@ -200,7 +217,11 @@ export default function PartnerPage() {
                   <ul className="space-y-3 text-neutral-700">
                     <li className="flex items-start gap-3">
                       <Check className="w-5 h-5 text-primary-600 mt-0.5 shrink-0" />
-                      <span><span className="font-medium">49% equity</span> across three operating entities</span>
+                      <span><span className="font-medium">$20M first-position lien</span> secured by the property and the operating entities</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Check className="w-5 h-5 text-primary-600 mt-0.5 shrink-0" />
+                      <span><span className="font-medium">49% equity</span> across three operating entities, on top of the lien</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <Check className="w-5 h-5 text-primary-600 mt-0.5 shrink-0" />
@@ -210,10 +231,6 @@ export default function PartnerPage() {
                       <Check className="w-5 h-5 text-primary-600 mt-0.5 shrink-0" />
                       <span>We pay the <span className="font-medium">broker fee</span> at closing</span>
                     </li>
-                    <li className="flex items-start gap-3">
-                      <Check className="w-5 h-5 text-primary-600 mt-0.5 shrink-0" />
-                      <span><span className="font-medium">First lien position</span> on the property, held until the full $8M property value is recovered from revenue</span>
-                    </li>
                   </ul>
                 </div>
               </div>
@@ -222,9 +239,9 @@ export default function PartnerPage() {
             <div className="flex items-start gap-3 text-sm text-neutral-600">
               <Handshake className="w-4 h-4 text-primary-600 mt-0.5 shrink-0" />
               <p>
-                Jeff is a true co-owner and partner in building the enterprise. His $5.4M
-                operations capital and the property value are paid back from revenue generated
-                by the operation.
+                Jeff is a true co-owner and a secured creditor. The $20M lien is
+                paid back from revenue. The 49% equity is upside on top. If anything
+                goes wrong, the property and the lien come back to you first.
               </p>
             </div>
           </section>
@@ -453,6 +470,73 @@ export default function PartnerPage() {
         </motion.div>
 
         {/* ═══════════════════════════════════════════════════════════
+            Downside Protection — What Happens If We Default
+        ═══════════════════════════════════════════════════════════ */}
+        <motion.section className="mb-24" {...fadeUp}>
+          <h2 className="text-3xl font-heading text-neutral-900 mb-4">If Anything Goes Wrong</h2>
+          <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
+            The $20M lien is not a formality. It is the spine of the structure.
+            You hold a first-position claim against the property and the
+            operating entities for the entire life of the partnership. If Light
+            Brands defaults on any obligation, you foreclose, recover the
+            property, and keep every revenue distribution already received.
+          </p>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
+            {[
+              { icon: Lock, title: 'First Position', desc: 'Your $20M lien sits ahead of every other creditor on the property and operating entities.' },
+              { icon: Shield, title: 'You Are the Bank', desc: 'The lien is secured by both real property and enterprise assets. Two layers of collateral.' },
+              { icon: Home, title: 'Property Returns on Default', desc: 'Foreclose and the property comes back to you, improved by any buildout already complete.' },
+              { icon: TrendingUp, title: 'Distributions Are Yours', desc: 'Every dollar already distributed from operations stays with you. Those are not clawable.' },
+            ].map((item) => (
+              <Card key={item.title} padding="md">
+                <item.icon className="w-6 h-6 text-primary-600 mb-3" />
+                <h4 className="font-medium text-neutral-900 mb-1 text-sm">{item.title}</h4>
+                <p className="text-xs text-neutral-600">{item.desc}</p>
+              </Card>
+            ))}
+          </div>
+
+          <h3 className="font-heading text-xl text-neutral-900 mb-4">What Happens If We Default</h3>
+          <Card padding="none" className="overflow-hidden">
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-primary-800 text-white">
+                    <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Default At</th>
+                    <th className="text-right px-4 py-3 font-accent text-xs uppercase tracking-wider">Distributions Received</th>
+                    <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Property Status</th>
+                    <th className="text-left px-4 py-3 font-accent text-xs uppercase tracking-wider">Outcome</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-neutral-100">
+                  {SCENARIO_C_DEFAULT_SCENARIOS.map((row) => (
+                    <tr key={row.year} className="hover:bg-canvas-subtle transition-colors">
+                      <td className="px-4 py-3 font-medium text-neutral-800">Year {row.year}</td>
+                      <td className="px-4 py-3 text-right font-medium text-neutral-900">
+                        {row.distributionsReceived > 0 ? formatCurrency(row.distributionsReceived) : '\u2014'}
+                      </td>
+                      <td className="px-4 py-3 text-neutral-700">{row.propertyStatus}</td>
+                      <td className="px-4 py-3 text-neutral-700 max-w-md">{row.outcome}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </Card>
+
+          <div className="flex items-start gap-3 text-sm text-neutral-600 mt-6">
+            <Shield className="w-4 h-4 text-primary-600 mt-0.5 shrink-0" />
+            <p>
+              The lien is recorded at closing and held until the $20M position
+              is fully recovered from revenue. The 49% equity position and
+              revenue distributions sit on top of the lien — they are never a
+              substitute for it.
+            </p>
+          </div>
+        </motion.section>
+
+        {/* ═══════════════════════════════════════════════════════════
             What We Build Together
         ═══════════════════════════════════════════════════════════ */}
         <motion.section className="mb-24" {...fadeUp}>
@@ -516,8 +600,9 @@ export default function PartnerPage() {
               We can have a term sheet ready within days of our conversation.
             </p>
             <p className="text-primary-200 mb-8">
-              A real partnership. Your full asking price. True co-ownership of what
-              we build together on the land you created.
+              Your asking price, honored and raised. A $20M first-position lien
+              as your secured floor. 49% equity as your upside. And the partnership
+              to build it together on the land you created.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
