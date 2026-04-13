@@ -21,7 +21,7 @@ Strategy             Operating System          & Scale          & Raise
 Every client         AI-powered OS at          Operational      Fundraising
 starts here.         the heart of the          expansion,       infrastructure,
                      business.                 market entry,    investor platform,
-Eyob sells this.                               scaling.         data room, models.
+Joe sells this.                                scaling.         data room, models.
                      Unless they
                      already have it.
 ```
@@ -46,9 +46,9 @@ Most $10M-$50M businesses are running fast on founder intuition. It works -- unt
 - Strategic roadmap with phased milestones and KPIs
 - Clear recommendation on which offers (2, 3, 4) the business needs next
 
-**Who sells this:** Eyob. This is the primary front-door conversation.
+**Who sells this:** Joe. This is the primary front-door conversation.
 
-**How Eyob positions it:**
+**How Joe positions it:**
 "Before we talk about systems, scaling, or capital -- we need to get clear. Where are you going? What's the strategy? What's the story? Every great company has clarity at the center. That's where we start."
 
 **Why it's the entry point:**
@@ -247,9 +247,9 @@ They've already got clarity and systems. Offer 1 is a light diagnostic to confir
 
 ---
 
-## How Eyob Opens Every Conversation
+## How Joe Opens Every Conversation
 
-The front-door conversation is always Offer 1. Eyob doesn't sell Offers 2, 3, or 4 upfront. He sells clarity.
+The front-door conversation is always Offer 1. Joe doesn't sell Offers 2, 3, or 4 upfront. He sells clarity.
 
 **The opener:**
 "Tell me where you are and where you're trying to go. Before we talk about anything else -- systems, growth, capital -- let's get clear on the strategy. That's where everything starts."
@@ -262,7 +262,7 @@ The front-door conversation is always Offer 1. Eyob doesn't sell Offers 2, 3, or
 - It builds the trust relationship before larger engagements
 - It creates natural momentum into Offers 2, 3, and 4
 
-**What Eyob is listening for in the first conversation:**
+**What Joe is listening for in the first conversation:**
 
 | What They Say | What It Tells Us | Likely Pathway |
 |---|---|---|

@@ -223,7 +223,7 @@ THE TEAM
 - Jason Sparks, Co-Founder & COO
 - Chief Medical Advisor (MD, Master's in Healthcare Management)
 - Dan Lawless, Technical Lead
-- Eyob Mebrahtu, Head of Marketing
+- Joe McVeen, Head of Marketing
 
 EXPRESS YOUR INTEREST
 [Link to TTW landing page]
@@ -445,7 +445,7 @@ Before any TTW material is distributed, verify:
 
 | # | Action | Priority | Status | Responsible |
 |---|--------|----------|--------|-------------|
-| 1 | Create TTW landing page with IOI form | High | Future state | Eyob Mebrahtu (Marketing) + Legal |
+| 1 | Create TTW landing page with IOI form | High | Future state | Joe McVeen (Marketing) + Legal |
 | 2 | Produce TTW video (3-5 min CEO overview) | High | Future state | Nicholas Courchesne (CEO) + Marketing |
 | 3 | Develop TTW one-pager featuring Rancho Paraiso Oasis and four disciplines | High | Future state | Marketing + Legal |
 | 4 | Create TTW email drip campaign (3-5 emails) | High | Future state | Marketing + Legal |

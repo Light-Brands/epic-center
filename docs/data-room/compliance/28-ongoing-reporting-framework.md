@@ -379,7 +379,7 @@ To ensure timely SEC filing, internal deadlines should be set:
 | **EDGAR Filing Agent** | [To be designated] -- EDGAR formatting, filing, and confirmation |
 | **Technical Lead (Dan Lawless)** | Technology/IP-related disclosures, investor portal data |
 | **Chief Medical Advisor** | Medical program disclosures, clinical outcome reporting, regulatory compliance |
-| **Head of Marketing (Eyob Mebrahtu)** | Investor communications, marketing material compliance |
+| **Head of Marketing (Joe McVeen)** | Investor communications, marketing material compliance |
 
 ### 8.2 Disclosure Committee
 

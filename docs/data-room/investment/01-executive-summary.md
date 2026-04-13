@@ -73,7 +73,7 @@ The distinction matters. Every existing competitor operates in one or two of the
 | **Jason Sparks** | Co-Founder & COO | Luxury resort operations, guest experience optimization |
 | **Chief Medical Advisor** | Chief Medical Advisor | General Physician (Universidad Anahuac), Master's Healthcare Management, Medicinal Cannabis certification |
 | **Dan Lawless** | Technical Lead | 20+ years full-stack development, technology strategy |
-| **Eyob Mebrahtu** | Head of Marketing | Luxury wellness and transformation brand specialist |
+| **Joe McVeen** | Head of Marketing | TBD |
 
 ---
 

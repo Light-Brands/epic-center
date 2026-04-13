@@ -8,7 +8,7 @@ Place reference photos for each team member in this folder.
 - `jason-sparks.jpg`
 - `dan-lawless.jpg`
 - `chief-medical-advisor.jpg`
-- `eyob-mebrahtu.jpg`
+- `joe-mcveen.jpg`
 
 ## Supported Formats
 

@@ -100,7 +100,7 @@ const TEAM = [
   { name: 'Nicholas Courchesne', role: 'Founder & CEO' },
   { name: 'Jason Sparks', role: 'Co-Founder & COO' },
   { name: 'Dan Lawless', role: 'Technical Lead' },
-  { name: 'Eyob Mebrahtu', role: 'Head of Marketing' },
+  { name: 'Joe McVeen', role: 'Head of Marketing' },
 ]
 
 // ─── Chart tooltip ─────────────────────────────────────────────────────

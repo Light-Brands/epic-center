@@ -54,10 +54,10 @@ const teamMembers = [
     referenceImage: "reference-images/chief-medical-advisor.jpg", // Path to reference photo
   },
   {
-    name: "eyob-mebrahtu",
-    slug: "eyob-mebrahtu",
-    subject: `Create a portrait illustration matching the person in the reference image. Maintain their facial features, expression, and character. Marketing leader specializing in luxury wellness and transformation brands. Creative, strategic, brand-focused. Professional portrait showing marketing expertise and brand cultivation.`,
-    referenceImage: "reference-images/eyob-mebrahtu.png", // Path to reference photo
+    name: "joe-mcveen",
+    slug: "joe-mcveen",
+    subject: `Professional portrait of a marketing executive for a luxury wellness brand. Confident, strategic, brand-focused presence.`,
+    referenceImage: "reference-images/joe-mcveen.jpg", // Path to reference photo
   },
 ];
 

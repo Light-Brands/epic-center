@@ -50,11 +50,11 @@ const LEADERSHIP_TEAM = [
     caseStudy: null,
   },
   {
-    name: 'Eyob Mebrahtu',
+    name: 'Joe McVeen',
     role: 'Head of Marketing',
     focus: 'Growth & Brand',
-    bio: 'Marketing leader bringing expertise in luxury wellness and transformation brands. Dedicated to cultivating meaningful client connections and ensuring exceptional experiences throughout their transformation journey.',
-    caseStudy: 'Walking Case Study',
+    bio: 'Bio coming soon.',
+    caseStudy: null,
   },
 ]
 

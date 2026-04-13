@@ -1,6 +1,6 @@
 /**
- * Generate Eyob's portrait image with reference photo
- * Run with: npx tsx --env-file=.env.local lib/imagen/generate-eyob.ts
+ * Generate Joe McVeen's portrait image with reference photo
+ * Run with: npx tsx --env-file=.env.local lib/imagen/generate-joe-mcveen.ts
  */
 
 import { generate, saveImage } from "./index";
@@ -18,13 +18,13 @@ Stylized but recognizable portrait capturing the essence of the person.
 `;
 
 async function main() {
-  console.log("Generating Eyob's portrait image...\n");
+  console.log("Generating Joe McVeen's portrait image...\n");
 
   const fs = await import("fs/promises");
   await fs.mkdir("public/images/team", { recursive: true });
 
-  const referenceImage = "reference-images/eyob-mebrahtu.png";
-  
+  const referenceImage = "reference-images/joe-mcveen.jpg";
+
   // Check if reference exists
   try {
     await fs.access(referenceImage);
@@ -34,19 +34,19 @@ async function main() {
     return;
   }
 
-  const prompt = `Portrait illustration of Eyob Mebrahtu, Head of Marketing. Dark-skinned man in his 30s-40s with short dark tightly curled hair, neat short beard, confident direct gaze, slight gentle smile. Wearing dark charcoal grey blazer over white V-neck t-shirt, arms crossed in confident pose. Marketing leader specializing in luxury wellness and transformation brands. Creative, strategic, brand-focused. Professional portrait showing marketing expertise and brand cultivation.
+  const prompt = `Professional portrait of a marketing executive for a luxury wellness brand, Head of Marketing. Confident, strategic, brand-focused presence. Professional portrait showing marketing expertise and brand cultivation.
 
 ${TEAM_PORTRAIT_STYLE}`;
 
-  const result = await generate({ 
-    prompt, 
-    aspectRatio: "1:1", 
+  const result = await generate({
+    prompt,
+    aspectRatio: "1:1",
     raw: true,
     referenceImage,
   });
 
   if (result.success) {
-    const filepath = `public/images/team/eyob-mebrahtu.jpg`;
+    const filepath = `public/images/team/joe-mcveen.jpg`;
     const saved = await saveImage(result, filepath);
     if (saved) {
       console.log(`✓ Saved to ${filepath}`);

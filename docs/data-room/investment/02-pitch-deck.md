@@ -373,7 +373,7 @@ Published clinical outcomes justify premium pricing and build institutional trus
 | **Jason Sparks** | Co-Founder & COO | Luxury resort operations, guest experience optimization |
 | **Chief Medical Advisor** | Chief Medical Advisor | General Physician (Universidad Anahuac), Master's Healthcare Management, Medicinal Cannabis certification |
 | **Dan Lawless** | Technical Lead | 20+ years full-stack development, technology strategy |
-| **Eyob Mebrahtu** | Head of Marketing | Luxury wellness and transformation brand specialist |
+| **Joe McVeen** | Head of Marketing | TBD |
 
 **Advisory domains represented:**
 
