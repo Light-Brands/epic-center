@@ -9,7 +9,6 @@ Place reference photos for each team member in this folder.
 - `dan-lawless.jpg`
 - `chief-medical-advisor.jpg`
 - `eyob-mebrahtu.jpg`
-- `julien-leblanc.jpg`
 
 ## Supported Formats
 

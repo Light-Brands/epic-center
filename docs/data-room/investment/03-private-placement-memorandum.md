@@ -320,7 +320,6 @@ No single competitor integrates all four market pillars. SHA Wellness Clinic (Sp
 | **Chief Medical Advisor** | Chief Medical Advisor | General Physician (Universidad Anahuac), Master's Healthcare Management, Medicinal Cannabis certification |
 | **Dan Lawless** | Technical Lead | 20+ years full-stack development, technology strategy |
 | **Eyob Mebrahtu** | Head of Marketing | Luxury wellness and transformation brand specialist |
-| **Julien Leblanc** | Medicine Advocate | Professional MMA fighter, plant medicine advocate |
 
 ### Advisory Domains
 

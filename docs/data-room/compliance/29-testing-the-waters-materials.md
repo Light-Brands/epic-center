@@ -224,7 +224,6 @@ THE TEAM
 - Chief Medical Advisor (MD, Master's in Healthcare Management)
 - Dan Lawless, Technical Lead
 - Eyob Mebrahtu, Head of Marketing
-- Julien Leblanc, Medicine Advocate
 
 EXPRESS YOUR INTEREST
 [Link to TTW landing page]

@@ -95,7 +95,6 @@ A central feature of the financial model is the phased casita build-out, which a
 | **Chief Medical Advisor** | Chief Medical Advisor | General Physician (Universidad Anahuac), Master's in Healthcare Management, Medicinal Cannabis certification, ThetaHealing certification |
 | **Dan Lawless** | Technical Lead & Solution Architect | 20+ years full-stack development, technology strategy |
 | **Eyob Mebrahtu** | Head of Marketing | Luxury wellness and transformation brand specialist |
-| **Julien Leblanc** | Medicine Advocate | Professional MMA fighter, plant medicine advocate, built-in audience reach |
 
 ### 2.3 Business Unit Structure
 

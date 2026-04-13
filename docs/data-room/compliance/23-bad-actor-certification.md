@@ -88,7 +88,6 @@ The following individuals and entities have been identified as covered persons f
 | **Jason Sparks** | Co-Founder & COO | (iii) Executive Officer |
 | **Dan Lawless** | Technical Lead | (iii) Officer |
 | **Eyob Mebrahtu** | Head of Marketing | (iii) Officer, (vi) Promoter |
-| **Julien Leblanc** | Medicine Advocate | (iii) Officer, (vi) Promoter |
 | *Broker-Dealer* | *[To be designated]* | (vii) Compensated solicitor |
 | *Board members* | *As appointed* | (iii) Directors |
 | *20%+ members* | *Per cap table* | (iv) Beneficial owners |
@@ -238,7 +237,6 @@ I certify that the above responses are true and complete to the best of my knowl
 | Jason Sparks | Pending | -- | -- |
 | Dan Lawless | Pending | -- | -- |
 | Eyob Mebrahtu | Pending | -- | -- |
-| Julien Leblanc | Pending | -- | -- |
 | Broker-Dealer [To be designated] | Pending | -- | -- |
 
 ---

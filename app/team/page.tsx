@@ -56,13 +56,6 @@ const LEADERSHIP_TEAM = [
     bio: 'Marketing leader bringing expertise in luxury wellness and transformation brands. Dedicated to cultivating meaningful client connections and ensuring exceptional experiences throughout their transformation journey.',
     caseStudy: 'Walking Case Study',
   },
-  {
-    name: 'Julien Leblanc',
-    role: 'Medicine Advocate',
-    focus: 'Outreach & Promotion',
-    bio: 'Professional MMA fighter and passionate advocate for plant medicine as a healing and performance tool. Julien brings visibility and authentic testimony to the transformative power of these treatments.',
-    caseStudy: 'Walking Case Study',
-  },
 ]
 
 const KEY_ROLES_NEEDED = [

@@ -59,12 +59,6 @@ const teamMembers = [
     subject: `Create a portrait illustration matching the person in the reference image. Maintain their facial features, expression, and character. Marketing leader specializing in luxury wellness and transformation brands. Creative, strategic, brand-focused. Professional portrait showing marketing expertise and brand cultivation.`,
     referenceImage: "reference-images/eyob-mebrahtu.png", // Path to reference photo
   },
-  {
-    name: "julien-leblanc",
-    slug: "julien-leblanc",
-    subject: `Create a portrait illustration matching the person in the reference image. Maintain their facial features, expression, and character. Professional MMA fighter and passionate advocate for plant medicine. Strong, determined, authentic presence. Professional portrait showing advocacy and transformation testimony.`,
-    referenceImage: "reference-images/julien-leblanc.jpg", // Path to reference photo
-  },
 ];
 
 async function main() {
