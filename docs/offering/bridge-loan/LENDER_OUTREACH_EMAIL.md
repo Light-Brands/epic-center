@@ -42,7 +42,7 @@ Pick the one that best fits the relationship context.
 >
 > Attached is the full outreach package with terms, property detail, collateral structure, loan-to-value math, and a comparable sales reference including a second Christie's Tulum listing at the same $11.9M price point. A full draft term sheet and loan agreement outline is available under NDA.
 >
-> Targeting 60-day close from signed LOI. Diligence materials are ready to share as soon as an NDA is in place.
+> Targeting **14-day close from signed LOI**. The Property is already held in an existing Mexican real estate trust, so closing is a beneficial interest assignment and lien grant at the existing trustee bank rather than a new trust formation. Counsel on both sides is engaged and ready to draft in parallel from day one. Diligence materials are in the data room ready to share as soon as an NDA is in place.
 >
 > Is this something your group would want to take a closer look at? Happy to get on a call this week to walk through the structure and answer questions.
 >
@@ -100,6 +100,13 @@ Acknowledge that a rate bump is a standard response to the 84% LTV stretch. Hold
 
 ### If lender asks about recourse or guarantees:
 Optional corporate or personal guarantees are negotiable and subject to lender preference. Not automatic in the current package, but available as a structural accommodation.
+
+### If lender questions the 14-day timeline:
+Three facts make 14 days executable:
+1. The Property is already held in an existing Mexican real estate trust. We are assigning the fideicomisario beneficial interest at the existing trustee bank, not forming a new Fideicomiso. This removes 3-4 weeks of trust formation and SRE permitting from the critical path.
+2. US and Mexican counsel are engaged and prepared to draft definitive documents in parallel from day one of LOI.
+3. The data room is already populated and ready to deliver under NDA on day zero.
+The 14-day timeline requires a lender with authority to commit without a multi-week credit committee cycle. That typically means a private bridge fund, family office, or relationship lender with existing cross-border Mexican real estate capability. Institutional HMLs that require a formal credit committee process are not the right fit for this timeline.
 
 ---
 

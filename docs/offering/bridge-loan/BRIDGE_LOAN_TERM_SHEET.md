@@ -20,9 +20,9 @@
 
 | Role | Party |
 |---|---|
-| **Borrower** | Mexican Real Estate Trust (Fideicomiso) to be formed at closing, into which the Property will be transferred simultaneously with loan funding |
-| **Fiduciary Institution** | [Mexican bank trustee (Fiduciario) holding the Fideicomiso, TBD] |
-| **Fideicomisario (Beneficiary)** | [Sponsor operating entity, TBD] |
+| **Borrower** | Existing Mexican Real Estate Trust (Fideicomiso) currently holding title to the Property, via assignment of the fideicomisario beneficial interest to the sponsor at closing. Title remains with the existing Fideicomiso; only the beneficial interest transfers. |
+| **Fiduciary Institution** | Existing Mexican bank trustee (Fiduciario) holding the Fideicomiso of record |
+| **Incoming Fideicomisario (Beneficiary)** | Sponsor operating entity acquiring the beneficial interest at closing |
 | **Lender** | [Lender Vehicle TBD] |
 | **Collateral Agent** | [To be appointed by Lender] |
 
@@ -184,7 +184,7 @@ Both parties agree to maintain the confidentiality of this term sheet and all re
 
 ### 18. Exclusivity
 
-Upon execution of this term sheet, Borrower agrees to a sixty (60) day exclusivity period during which Borrower will not solicit, negotiate, or accept competing financing proposals for the Property.
+Upon execution of this term sheet, Borrower agrees to a twenty-one (21) day exclusivity period during which Borrower will not solicit, negotiate, or accept competing financing proposals for the Property. The 21-day window is sized to cover the targeted 14-day close with a seven-day cushion for final closing mechanics.
 
 ### 19. Binding Effect
 
@@ -361,7 +361,7 @@ The following items require specific attention from Mexican and US counsel befor
 A senior secured bridge loan to fund the acquisition and buildout of a transformational wellness and hospitality property in Akumal, Quintana Roo, Mexico. The Property sits on 45,000 square meters across nine lots and is currently listed on Christie's International Real Estate as "Rancho Paraiso Oasis" at USD $11,900,000. Over $25 million of prior construction capital has been deployed into land, improvements, and infrastructure, embedded in the asset as a replacement-cost backstop beneath the market value.
 
 **The Structure**
-- **Borrower:** Mexican real estate trust (Fideicomiso), formed at closing, into which the Property is transferred simultaneously with loan funding. No US or Delaware entity in the structure.
+- **Borrower:** Existing Mexican real estate trust (Fideicomiso) already holding title to the Property. Sponsor acquires the fideicomisario beneficial interest at closing via assignment at the existing trustee bank. No new Fideicomiso formation required, no SRE permitting delay, no US or Delaware entity in the structure.
 - **Collateral:** First-priority lien on the Fideicomiso's direct title to the Property, plus pledge of the fideicomisario beneficial interest, insurance assignment, and account control agreement.
 - **Governing law:** Mexican law for the Fideicomiso, lien, and enforcement. Loan Agreement and Note governed by New York law for international lender comfort.
 
@@ -381,7 +381,7 @@ A senior secured bridge loan to fund the acquisition and buildout of a transform
 - Clean debt structure that does not complicate future equity capital
 - Takeout at maturity through refinancing or sale
 
-**Timeline:** Targeting signing within 30 days of LOI, closing within 60 days of signing, subject to diligence and Mexican legal workstream.
+**Timeline:** Targeting closing within **14 days** of signed LOI. The deal structure uses assignment of the existing fideicomisario beneficial interest rather than new Fideicomiso formation, which removes the multi-week trust formation and SRE permitting steps and makes a 14-day close executable. Path-to-close detail available in the lender outreach package.
 
 ---
 
