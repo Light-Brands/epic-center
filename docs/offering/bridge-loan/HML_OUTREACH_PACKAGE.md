@@ -179,11 +179,11 @@ A formal Mexican appraisal ("avalúo comercial") can be commissioned and deliver
 
 **Nicholas Courchesne**
 Founder, Transformational Epicenter
-nick@light-brands.com
+nicholas@lightbrands.ai
 
 **Dan Lawless**
-Deal Lead, Light Brands
-dan@light-brands.com
+Managing Partner, Light Brands
+dan@lightbrands.ai
 
 ---
 

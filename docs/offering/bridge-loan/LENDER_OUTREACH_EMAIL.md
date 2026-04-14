@@ -53,7 +53,7 @@ Pick the one that best fits the relationship context.
 > **Nicholas Courchesne**
 > Founder, Transformational Epicenter
 > Light Brands
-> nick@light-brands.com
+> nicholas@lightbrands.ai
 > [phone]
 >
 > ---
