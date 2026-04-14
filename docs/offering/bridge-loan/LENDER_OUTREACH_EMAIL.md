@@ -40,11 +40,11 @@ Pick the one that best fits the relationship context.
 >
 > The Property is Rancho Paraiso Oasis, a 16-bedroom compound on 45,000 square meters (9 contiguous lots) in the Akumal corridor, approximately 30 minutes north of Tulum center. More than $25 million has been deployed into the asset across land, construction, and soft costs. We are acquiring it and repositioning it as the Transformational Epicenter, a luxury wellness and hospitality flagship.
 >
-> **Sponsor-side due diligence on the Property is complete.** Title, trust structure, permits, and physical condition have been verified directly with the current owner. There are no open issues on the property side. The Property is already held in an existing Mexican real estate trust, so closing is a beneficial interest assignment and lien grant at the existing trustee bank rather than a new trust formation, which is what makes a 14-day close executable.
+> **This deal is clean and ready to close.** Property-side due diligence is complete. Title, trust structure, permits, and physical condition have been verified directly with the current owner. There are no open issues on the property side. The Property is already held in an existing Mexican real estate trust, so closing is a beneficial interest assignment and lien grant at the existing trustee bank rather than a new trust formation. US and Mexican counsel are engaged. The data room is populated and ready to deliver under NDA.
 >
 > Attached is the full outreach package with terms, property detail, collateral structure, loan-to-value math, and a comparable sales reference including a second Christie's Tulum listing at the same $11.9M price point. A full draft term sheet and loan agreement outline is available under NDA.
 >
-> Targeting **14-day close from signed LOI**. The Property is already held in an existing Mexican real estate trust, so closing is a beneficial interest assignment and lien grant at the existing trustee bank rather than a new trust formation. Counsel on both sides is engaged and ready to draft in parallel from day one. Diligence materials are in the data room ready to share as soon as an NDA is in place.
+> Targeting **30-day close from signed LOI**. Everything is in place: property-side DD done, existing Mexican trust holding title (no new formation required), counsel on both sides engaged, data room populated. The only variables are lender-side underwriting and document negotiation.
 >
 > Is this something your group would want to take a closer look at? Happy to get on a call this week to walk through the structure and answer questions.
 >
@@ -103,13 +103,13 @@ Acknowledge that a rate bump is a standard response to the 84% LTV stretch. Hold
 ### If lender asks about recourse or guarantees:
 Optional corporate or personal guarantees are negotiable and subject to lender preference. Not automatic in the current package, but available as a structural accommodation.
 
-### If lender questions the 14-day timeline:
-Four facts make 14 days executable:
-1. **Sponsor-side due diligence on the Property is complete.** Title, trust structure, permits, zoning, and physical condition have been verified directly with the current owner. There are no open property-side issues to work through.
-2. The Property is already held in an existing Mexican real estate trust. We are assigning the fideicomisario beneficial interest at the existing trustee bank, not forming a new Fideicomiso. This removes 3-4 weeks of trust formation and SRE permitting from the critical path.
-3. US and Mexican counsel are engaged and prepared to draft definitive documents in parallel from day one of LOI.
-4. The data room is already populated and ready to deliver under NDA on day zero.
-The 14-day timeline requires a lender with authority to commit without a multi-week credit committee cycle. That typically means a private bridge fund, family office, or relationship lender with existing cross-border Mexican real estate capability. Institutional HMLs that require a formal credit committee process are not the right fit for this timeline.
+### If lender questions the 30-day timeline:
+The 30-day close is built around a clean and ready deal where all property-side workstreams are already complete:
+1. **Property-side due diligence is complete.** Title, trust structure, permits, zoning, physical condition, and prior capital deployment verified directly with the current owner. No open property-side issues.
+2. **Existing Mexican real estate trust in place.** The Property is already held in a Fideicomiso at a Mexican trustee bank. Closing is a beneficial interest assignment, not a new trust formation. This removes 3-4 weeks of trust formation and SRE permitting from the critical path.
+3. **Counsel engaged on both sides.** US counsel (loan agreement, NY law) and Mexican counsel (fideicomiso assignment, lien grant, notarial closing) are engaged and ready to draft in parallel from day one of LOI.
+4. **Data room populated.** Title, permits, property overview, trust documentation, and sponsor materials are ready for delivery under NDA on day zero.
+The 30-day timeline is a normal cross-border bridge closing cadence with all property-side prerequisites cleared. The only variables are lender underwriting speed and document negotiation. If a lender's internal process is longer than 30 days, the sponsor can accommodate a 45-day window without restructuring the package.
 
 ---
 

@@ -16,9 +16,11 @@
 
 Light Brands is seeking a **$10,000,000 senior secured bridge loan** to fund the acquisition and buildout of a fully-improved luxury wellness property in Akumal, Tulum, Mexico. The Property, known as Rancho Paraiso Oasis, is publicly listed on Christie's International Real Estate Mexico at **USD $11,900,000**. Over **$25,000,000** of prior construction capital has been deployed into land, improvements, and infrastructure, which remains embedded in the asset as a replacement-cost backstop.
 
-The structure is a clean, single-jurisdiction senior secured bridge with a **14-day target close** from signed LOI. **Sponsor-side due diligence on the Property is complete.** Title, trust structure, permits, and physical condition have been verified directly with the current owner. The Property is already held in an existing Mexican real estate trust (Fideicomiso); the sponsor acquires the fideicomisario beneficial interest at closing via assignment at the same trustee bank. No new Fideicomiso formation is required, which removes the multi-week trust formation and SRE permitting workstream from the critical path. First-priority lien on the existing Fideicomiso's direct title. New York law governs the Loan Agreement; Mexican law governs the Fideicomiso and enforcement. No US or Delaware entity in the structure.
+**This deal is clean and ready to close.** Property-side due diligence is complete. Title, trust structure, permits, and physical condition have been verified directly with the current owner. The Property is already held in an existing Mexican real estate trust. Counsel on both sides is engaged. The data room is populated. There are no open workstreams on the property side.
 
-This is a senior secured position in a hard-asset bridge with a short duration, a clean exit path, an immediate-close timeline, and a defensible market-value anchor validated by two independent Christie's International Real Estate listings at the same price point.
+The structure is a clean, single-jurisdiction senior secured bridge with a **30-day target close** from signed LOI. The sponsor acquires the fideicomisario beneficial interest at closing via assignment at the existing trustee bank. No new Fideicomiso formation is required, which removes the multi-week trust formation and SRE permitting workstream from the critical path. First-priority lien on the existing Fideicomiso's direct title. New York law governs the Loan Agreement; Mexican law governs the Fideicomiso and enforcement. No US or Delaware entity in the structure.
+
+This is a senior secured position in a hard-asset bridge with a short duration, a clean exit path, a ready-to-close timeline, and a defensible market-value anchor validated by two independent Christie's International Real Estate listings at the same price point.
 
 ---
 
@@ -40,7 +42,7 @@ This is a senior secured position in a hard-asset bridge with a short duration, 
 | **Default Interest** | Note rate plus 4.00% per annum |
 | **Borrower** | Existing Mexican real estate trust (Fideicomiso) already holding title to the Property. Sponsor acquires the fideicomisario beneficial interest at closing via assignment. No new trust formation required. |
 | **Governing Law** | Loan Agreement under New York law; Fideicomiso and lien enforcement under Mexican law |
-| **Target Closing** | **14 days from signed LOI** |
+| **Target Closing** | **30 days from signed LOI** |
 
 ---
 
@@ -117,9 +119,11 @@ The $11.9M market value is anchored to the Christie's public listing and indepen
 | Line Item | Allocation |
 |---|---|
 | Property acquisition | $8,000,000 |
-| Buildout, repositioning, and operational launch capital | $1,750,000 |
-| Closing costs, legal, and transaction expenses (capped) | $250,000 |
+| **Closing costs** (legal, notarial, title, fideicomiso assignment, lien recording, transaction expenses) | **$480,000** |
+| Launch capital (operational buildout, repositioning, working capital) | $1,520,000 |
 | **Total** | **$10,000,000** |
+
+Closing costs are **fixed at $480,000** and cover all legal, notarial, title, fideicomiso assignment, lien recording, and transaction expenses on both the US and Mexican sides. The remaining **$1,520,000** funds launch capital for the operational buildout, repositioning, and initial working capital at the Transformational Epicenter.
 
 No proceeds may be distributed to equity holders, affiliates, or used to repay subordinated debt without Lender consent.
 
@@ -133,28 +137,33 @@ The deal team has direct experience structuring cross-border transactions, Mexic
 
 ---
 
-## Path to Close: 14 Days
+## Closing Readiness
 
-This deal is structured for an immediate close. The Property is already held in an existing Mexican real estate trust, so closing is a beneficial interest assignment and lien grant at the same trustee bank rather than a new trust formation. Counsel on both sides is engaged and ready.
+**This deal is ready to close.** The sponsor has done the work. Every workstream that typically extends a cross-border Mexican real estate bridge closing has already been completed or pre-positioned. What is needed from the lender is underwriting, documentation, and funding. Nothing on the property side is waiting to be unblocked.
+
+| | Status |
+|---|---|
+| Property-side due diligence | **Complete.** Title, trust structure, permits, zoning, physical condition, and prior capital deployment verified directly with the current owner. |
+| Mexican real estate trust (Fideicomiso) | **In place.** Existing trust already holds title to the Property. No new formation required. |
+| SRE (foreign investment) permitting | **Not required.** Assignment of existing beneficial interest does not trigger a new SRE permit. |
+| US counsel | **Engaged.** Loan agreement and NY law documentation ready to draft on day one of LOI. |
+| Mexican counsel | **Engaged.** Fideicomiso assignment, lien grant, and notarial closing workstream ready. |
+| Data room | **Populated.** Title, permits, property overview, trust documentation, and sponsor materials ready for delivery under NDA. |
+| Sponsor team | **Committed and available.** Dedicated to closing this transaction on the stated timeline. |
+
+## Path to Close: 30 Days
 
 | Day | Milestone |
 |---|---|
-| Day 0 | LOI signed, NDA in place, lender KYC and AML initiated |
-| Day 1-3 | Data room delivered, definitive loan agreement and security documents circulated for lender review |
-| Day 3-6 | Lender diligence, title confirmation, Mexican trustee bank coordination, lien grant documents finalized |
-| Day 6-9 | Documents signed in escrow, Mexican notary appointment scheduled, closing protocol set |
-| Day 9-12 | Notarial closing in Mexico: fideicomisario beneficial interest assignment and first-priority lien grant against the existing Fideicomiso |
-| Day 12-14 | Loan funded, acquisition close, lien perfected in the public registry |
-| **Day 14** | **Target closing complete** |
+| Day 0 | LOI signed, NDA in place, lender KYC and AML initiated, data room delivered |
+| Day 1-7 | Lender diligence review (title, trust documentation, permits, sponsor materials); optional appraisal commissioned |
+| Day 5-15 | Definitive loan agreement and security documents drafted and circulated by US and Mexican counsel in parallel |
+| Day 15-22 | Document negotiation, final comments addressed, Mexican notary appointment scheduled |
+| Day 22-28 | Notarial closing in Mexico: fideicomisario beneficial interest assignment and first-priority lien grant against the existing Fideicomiso |
+| Day 28-30 | Loan funded, acquisition close, lien perfected in the public registry |
+| **Day 30** | **Target closing complete** |
 
-### What Makes 14 Days Executable
-
-- **Sponsor-side diligence is complete.** Deep due diligence on the Property has been conducted with the current owner. Title, trust structure, permits, zoning, physical condition, and prior capital deployment are verified. No open property-side issues.
-- **No new Fideicomiso formation.** The Property is already held in a Mexican real estate trust. Closing is a beneficial interest assignment at the existing trustee bank, which is days, not weeks.
-- **No SRE permitting delay.** New foreign-owned fideicomiso permits from the Secretaría de Relaciones Exteriores take 3-4 weeks. Assigning an existing trust does not require a new SRE permit.
-- **Counsel engaged.** US counsel (loan agreement, NY law) and Mexican counsel (fideicomiso, lien, notarial closing) are engaged and prepared to draft definitive documents in parallel within the first 72 hours of LOI.
-- **Data room populated.** Title, permits, property overview, trust documentation, and sponsor materials can be delivered to the lender on day 0.
-- **Relationship lender preferred.** A lender with existing capability to underwrite cross-border Mexican secured bridges and authority to commit without a multi-week credit committee process is required for this timeline.
+The 30-day timeline is built around a normal cross-border bridge closing cadence with all property-side prerequisites already cleared. The only variables are lender-side underwriting speed and document negotiation.
 
 ---
 

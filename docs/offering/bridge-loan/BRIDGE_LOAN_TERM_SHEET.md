@@ -63,11 +63,16 @@ First interest payment due ninety (90) days after the Closing Date. Subsequent p
 
 ### 7. Use of Proceeds
 
-Proceeds shall be applied exclusively to:
+Proceeds shall be applied exclusively as follows:
 
-- Acquisition of the Property (Calle Perico Lts 79-80, Av Las Palmas, Akumal, Tulum, Q.R. 77776, Mexico)
-- Capital expenditures and operational buildout of the Transformational Epicenter project
-- Reasonable and documented transaction costs (capped at 2% of principal)
+| Line Item | Allocation |
+|---|---|
+| Acquisition of the Property (Calle Perico Lts 79-80, Av Las Palmas, Akumal, Tulum, Q.R. 77776) | USD $8,000,000 |
+| **Closing costs** (legal, notarial, title, fideicomiso assignment, lien recording, transaction expenses) | **USD $480,000** |
+| Launch capital (operational buildout, repositioning, and working capital at the Transformational Epicenter) | USD $1,520,000 |
+| **Total** | **USD $10,000,000** |
+
+Closing costs are budgeted at USD $480,000 and cover all legal, notarial, title, fideicomiso assignment, lien recording, and transaction expenses on both the US and Mexican sides. The $1,520,000 launch capital line is the residual after acquisition and closing costs.
 
 No proceeds may be distributed to equity holders, affiliates, or used to repay subordinated debt without Lender consent.
 
@@ -188,7 +193,7 @@ Both parties agree to maintain the confidentiality of this term sheet and all re
 
 ### 18. Exclusivity
 
-Upon execution of this term sheet, Borrower agrees to a twenty-one (21) day exclusivity period during which Borrower will not solicit, negotiate, or accept competing financing proposals for the Property. The 21-day window is sized to cover the targeted 14-day close with a seven-day cushion for final closing mechanics.
+Upon execution of this term sheet, Borrower agrees to a forty-five (45) day exclusivity period during which Borrower will not solicit, negotiate, or accept competing financing proposals for the Property. The 45-day window is sized to cover the targeted 30-day close with a cushion for final closing mechanics.
 
 ### 19. Binding Effect
 
@@ -385,7 +390,7 @@ A senior secured bridge loan to fund the acquisition and buildout of a transform
 - Clean debt structure that does not complicate future equity capital
 - Takeout at maturity through refinancing or sale
 
-**Timeline:** Targeting closing within **14 days** of signed LOI. The deal structure uses assignment of the existing fideicomisario beneficial interest rather than new Fideicomiso formation, which removes the multi-week trust formation and SRE permitting steps and makes a 14-day close executable. Path-to-close detail available in the lender outreach package.
+**Timeline:** Targeting closing within **30 days** of signed LOI. Property-side due diligence is complete, title and trust structure are verified, the Property is already held in an existing Mexican real estate trust (no new formation required), counsel on both sides is engaged and ready, and the data room is populated and ready to deliver. Everything is in place for a clean, immediate close. Path-to-close detail available in the lender outreach package.
 
 ---
 
