@@ -20,10 +20,11 @@
 
 | Role | Party |
 |---|---|
-| **Borrower** | [SPV TBD] (Delaware limited liability company), acting through its wholly-owned Mexican subsidiary as Fideicomisario |
+| **Borrower** | Mexican Real Estate Trust (Fideicomiso) to be formed at closing, into which the Property will be transferred simultaneously with loan funding |
+| **Fiduciary Institution** | [Mexican bank trustee (Fiduciario) holding the Fideicomiso, TBD] |
+| **Fideicomisario (Beneficiary)** | [Sponsor operating entity, TBD] |
 | **Lender** | [Lender Vehicle TBD] |
 | **Collateral Agent** | [To be appointed by Lender] |
-| **Fiduciary Institution** | [Mexican bank trustee holding the fideicomiso, TBD] |
 
 ### 2. Loan Amount
 
@@ -72,8 +73,7 @@ No proceeds may be distributed to equity holders, affiliates, or used to repay s
 - First-priority lien on the Mexican real estate trust (fideicomiso) holding fee simple title to the Property, including all improvements, fixtures, and appurtenant rights.
 
 **Additional Security:**
-- Pledge of 100% of the membership interests in Borrower (Delaware SPV)
-- Pledge of beneficial rights under the fideicomiso
+- Pledge of beneficial rights under the Fideicomiso (fideicomisario beneficial interest)
 - Assignment of all insurance policies and proceeds relating to the Property
 - Assignment of material construction contracts, architectural plans, and permits
 - Control agreement over all operating accounts holding Project cash flows
@@ -144,7 +144,7 @@ Upon any Event of Default, Lender shall have the right, in its sole discretion, 
 - **Foreclose** on the Collateral through the fideicomiso enforcement mechanism under Mexican law
 - **Step in** and assume operational control of the Project, including replacement of management
 - **Appoint a receiver** over the Property and operating accounts
-- **Exercise** all rights under the pledged equity interests, including transfer of membership interests in Borrower
+- **Exercise** all rights under the pledged fideicomisario beneficial interest, including substitution of the beneficiary
 - **Set off** any amounts held in controlled accounts against outstanding obligations
 - **Pursue** any other remedies available at law or in equity
 
@@ -174,9 +174,9 @@ Default interest shall accrue at the Interest Rate plus 4.00% per annum from the
 
 ### 16. Fees and Expenses
 
-- **Commitment Fee:** 1.00% of principal, payable at closing
+- **Commitment Fee:** None
 - **Legal and Diligence Costs:** Borrower bears all reasonable and documented legal, title, diligence, and recording costs incurred by Lender
-- **Exit Fee:** None (removed to keep structure clean)
+- **Exit Fee:** None
 
 ### 17. Confidentiality
 
@@ -259,7 +259,7 @@ The definitive Loan Agreement shall be prepared by Lender's counsel and should c
 ### Article VII. Security
 7.01 Grant of Security Interest
 7.02 Fideicomiso Lien Perfection (Mexican law)
-7.03 Equity Pledge (Delaware law)
+7.03 Fideicomiso Beneficial Interest Pledge (Mexican law)
 7.04 Insurance Assignment
 7.05 Account Control Agreement
 7.06 Collateral Maintenance
@@ -356,20 +356,27 @@ The following items require specific attention from Mexican and US counsel befor
 
 **Transformational Epicenter: Senior Secured Bridge Loan**
 
-**$10M at 9% for 36 months. Bullet. First lien on Tulum property with $11.9M public listing value and $25M+ of prior construction capital built in.**
+**$10M at 9% for 36 months. Interest-only, quarterly. Bullet at maturity. No commitment fee. Open prepayment at any time. Borrower is a Mexican real estate trust (Fideicomiso) holding direct title to the Property.**
 
 A senior secured bridge loan to fund the acquisition and buildout of a transformational wellness and hospitality property in Akumal, Quintana Roo, Mexico. The Property sits on 45,000 square meters across nine lots and is currently listed on Christie's International Real Estate as "Rancho Paraiso Oasis" at USD $11,900,000. Over $25 million of prior construction capital has been deployed into land, improvements, and infrastructure, embedded in the asset as a replacement-cost backstop beneath the market value.
 
-**For the Lender:**
+**The Structure**
+- **Borrower:** Mexican real estate trust (Fideicomiso), formed at closing, into which the Property is transferred simultaneously with loan funding. No US or Delaware entity in the structure.
+- **Collateral:** First-priority lien on the Fideicomiso's direct title to the Property, plus pledge of the fideicomisario beneficial interest, insurance assignment, and account control agreement.
+- **Governing law:** Mexican law for the Fideicomiso, lien, and enforcement. Loan Agreement and Note governed by New York law for international lender comfort.
+
+**For the Lender**
 - $225,000 quarterly interest payments
 - Full $10 million principal returned at month 36
 - $12.7 million total cash out (27% gross return)
-- First-priority lien on the Mexican fideicomiso holding title
-- 84% loan-to-value against the $11.9M Christie's listing, with $25M+ of prior construction capital underneath as replacement-cost cushion
-- Senior position, step-in rights, cross-border enforcement mechanics built in
+- First-priority lien on the Fideicomiso's direct title to the Property
+- 84% loan-to-value against the $11.9M Christie's listing, with $25M+ of prior construction capital underneath as a replacement-cost backstop
+- Senior position, step-in rights, clean Mexican enforcement pathway
+- No commitment fee. Open prepayment at any time without penalty.
 
-**For the Sponsor:**
+**For the Sponsor**
 - Non-dilutive capital to complete buildout
+- Simple single-jurisdiction structure with no US entity coordination
 - Short duration (36 months) matched to the buildout to stabilization timeline
 - Clean debt structure that does not complicate future equity capital
 - Takeout at maturity through refinancing or sale

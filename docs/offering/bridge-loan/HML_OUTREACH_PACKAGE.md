@@ -35,9 +35,10 @@ meters of jungle compound in Akumal, Quintana Roo.
 | **Repayment** | Bullet at maturity (principal repaid in full at month 36) |
 | **Total Interest Over Term** | USD $2,700,000 |
 | **Total Return to Lender** | USD $12,700,000 (27% gross over 36 months) |
-| **Commitment Fee** | 1.00% of principal, payable at closing |
+| **Commitment Fee** | None |
 | **Prepayment** | Open at any time, no penalty, no makewhole (30 days' notice) |
 | **Default Interest** | Note rate plus 4.00% per annum |
+| **Borrower** | Mexican real estate trust (Fideicomiso) formed at closing, holding direct title to the Property. No US or Delaware entity in the structure. |
 
 ---
 
@@ -59,11 +60,11 @@ meters of jungle compound in Akumal, Quintana Roo.
 ## Collateral and Security
 
 **Primary Collateral**
-- First-priority lien on the fideicomiso holding fee simple title to the property
-- Full rights, title, and interests in the property and improvements
+- First-priority lien on the Fideicomiso's direct title to the Property
+- Full rights, title, and interests in the Property and improvements
 
 **Additional Security**
-- 100% pledge of membership interests in the US borrower SPV
+- Pledge of the fideicomisario beneficial interest in the Fideicomiso
 - Assignment of all insurance policies, with lender as loss payee
 - Assignment of material construction contracts, plans, and permits
 - Account control agreement over operating accounts
@@ -72,8 +73,8 @@ meters of jungle compound in Akumal, Quintana Roo.
 **Lender Protections**
 - Step-in rights upon event of default
 - Full foreclosure pathway mapped under Mexican fideicomiso enforcement procedure
-- Cross-border documentation with New York law governing the loan agreement
-- Bankruptcy-remote SPV borrower
+- Loan Agreement governed by New York law for international lender comfort; Mexican law governs the Fideicomiso and enforcement
+- Trust assets segregated from any sponsor operating estate (bankruptcy-remote Fideicomiso structure)
 - Customary affirmative and negative covenants
 - Robust events-of-default package with 30-day cure periods
 
