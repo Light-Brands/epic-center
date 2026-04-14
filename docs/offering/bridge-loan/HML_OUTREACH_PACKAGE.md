@@ -7,14 +7,14 @@
 
 ## The Deal in One Minute
 
-We are seeking an **$8,000,000 senior secured bridge loan** against a
+We are seeking a **$10,000,000 senior secured bridge loan** against a
 fully-built luxury wellness property in Tulum, Mexico. The Property is
 currently listed on Christie's International Real Estate as "Rancho Paraiso
 Oasis" at **USD $11,900,000**, and over **$25,000,000** of prior construction
 capital has been built into it. Collateral is a first-priority lien on the
 Mexican real estate trust (fideicomiso) holding title.
 
-**Loan-to-Value:** 67% against the public Christie's listing price. Over $25M of
+**Loan-to-Value:** 84% against the public Christie's listing price. Over $25M of
 prior construction capital is embedded in the asset as a replacement-cost backstop.
 
 **Use of Proceeds:** Acquisition and operational buildout of the
@@ -27,14 +27,14 @@ meters of jungle compound in Akumal, Quintana Roo.
 
 | Term | Value |
 |---|---|
-| **Principal** | USD $8,000,000 |
+| **Principal** | USD $10,000,000 |
 | **Interest Rate** | 9.00% per annum, simple, 30/360 |
 | **Term** | 36 months |
 | **Payment Structure** | Interest-only, quarterly in arrears |
-| **Quarterly Payment** | USD $180,000 |
+| **Quarterly Payment** | USD $225,000 |
 | **Repayment** | Bullet at maturity (principal repaid in full at month 36) |
-| **Total Interest Over Term** | USD $2,160,000 |
-| **Total Return to Lender** | USD $10,160,000 (27% gross over 36 months) |
+| **Total Interest Over Term** | USD $2,700,000 |
+| **Total Return to Lender** | USD $12,700,000 (27% gross over 36 months) |
 | **Commitment Fee** | 1.00% of principal, payable at closing |
 | **Prepayment** | Open at any time, no penalty, no makewhole (30 days' notice) |
 | **Default Interest** | Note rate plus 4.00% per annum |
@@ -84,9 +84,9 @@ meters of jungle compound in Akumal, Quintana Roo.
 | Metric | Amount |
 |---|---|
 | Market Value (Christie's public listing) | $11,900,000 |
-| Requested Loan | $8,000,000 |
-| **Loan-to-Value** | **67%** |
-| Equity Cushion (to lender) | $3,900,000 (33%) |
+| Requested Loan | $10,000,000 |
+| **Loan-to-Value** | **84%** |
+| Equity Cushion (to lender) | $1,900,000 (16%) |
 | Prior Construction Capital (replacement-cost backstop) | $25,000,000+ |
 
 Note: LTV is calculated against the public Christie's International Real
@@ -103,10 +103,11 @@ comercial") and independent broker opinion of value available on engagement.
 **Short duration.** 36 months aligns with typical bridge debt hold periods and
 your capital is not locked up in a long-dated position.
 
-**Hard asset backed.** 67% LTV against the public Christie's listing, with
+**Hard asset backed.** 84% LTV against the public Christie's listing, with
 over $25M of prior construction capital embedded in the asset as a
-replacement-cost backstop. Even in a distressed disposition scenario against
-the market value, recovery economics are durable.
+replacement-cost backstop that sits beneath the market value. Recovery
+economics lean on the construction basis as well as the market value in a
+distressed disposition scenario.
 
 **Senior position.** First lien, no subordinated debt, no pari-passu creditors.
 

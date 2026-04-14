@@ -27,7 +27,7 @@
 
 ### 2. Loan Amount
 
-**USD $8,000,000** (Eight Million United States Dollars), funded in a single drawdown at closing.
+**USD $10,000,000** (Ten Million United States Dollars), funded in a single drawdown at closing.
 
 ### 3. Interest Rate
 
@@ -41,10 +41,10 @@
 
 | Payment Type | Frequency | Amount |
 |---|---|---|
-| Interest | Quarterly in arrears | USD $180,000 per quarter |
-| Principal | Bullet at Maturity | USD $8,000,000 |
-| Total Interest Over Term | — | USD $2,160,000 |
-| Total Cash to Lender | — | USD $10,160,000 |
+| Interest | Quarterly in arrears | USD $225,000 per quarter |
+| Principal | Bullet at Maturity | USD $10,000,000 |
+| Total Interest Over Term | — | USD $2,700,000 |
+| Total Cash to Lender | — | USD $12,700,000 |
 
 First interest payment due ninety (90) days after the Closing Date. Subsequent payments due every ninety (90) days thereafter.
 
@@ -82,7 +82,7 @@ No proceeds may be distributed to equity holders, affiliates, or used to repay s
 
 **Construction Capital Deployed:** Over USD $25,000,000 of prior-owner capital deployed into land, improvements, and infrastructure (9 lots, 45,000 sqm, main house, guest house, spa, gym, cenote pool, cavern lounge, walls, staff infrastructure). Retained as replacement-cost reference, not as collateral value.
 
-**Loan-to-Value Ratio:** 67% (against market value).
+**Loan-to-Value Ratio:** 84% (against market value).
 
 ### 9. Representations and Warranties
 
@@ -356,16 +356,16 @@ The following items require specific attention from Mexican and US counsel befor
 
 **Transformational Epicenter: Senior Secured Bridge Loan**
 
-**$8M at 9% for 36 months. Bullet. First lien on Tulum property with $11.9M public listing value and $25M+ of prior construction capital built in.**
+**$10M at 9% for 36 months. Bullet. First lien on Tulum property with $11.9M public listing value and $25M+ of prior construction capital built in.**
 
 A senior secured bridge loan to fund the acquisition and buildout of a transformational wellness and hospitality property in Akumal, Quintana Roo, Mexico. The Property sits on 45,000 square meters across nine lots and is currently listed on Christie's International Real Estate as "Rancho Paraiso Oasis" at USD $11,900,000. Over $25 million of prior construction capital has been deployed into land, improvements, and infrastructure, embedded in the asset as a replacement-cost backstop beneath the market value.
 
 **For the Lender:**
-- $180,000 quarterly interest payments
-- Full $8 million principal returned at month 36
-- $10.16 million total cash out (27% gross return)
+- $225,000 quarterly interest payments
+- Full $10 million principal returned at month 36
+- $12.7 million total cash out (27% gross return)
 - First-priority lien on the Mexican fideicomiso holding title
-- 67% loan-to-value against the $11.9M Christie's listing, with $25M+ of prior construction capital underneath as replacement-cost cushion
+- 84% loan-to-value against the $11.9M Christie's listing, with $25M+ of prior construction capital underneath as replacement-cost cushion
 - Senior position, step-in rights, cross-border enforcement mechanics built in
 
 **For the Sponsor:**
