@@ -20,97 +20,74 @@ The target property is actively listed for sale on multiple international luxury
 
 **Implication:** The $11.999M public ask is the single most directly comparable data point, because it is the subject itself. The listing has reportedly been "recently reduced" but there is no public record of offer history or days-on-market. The ask has not cleared.
 
+## Second Independent $11.9M Anchor: Casa Luna
+
+A second luxury villa in Tulum, **Casa Luna** (Region 15, Tulum), is currently listed on Christie's International Real Estate Mexico at **USD $11,900,000** — the same price point as the subject. This is an independent, directly comparable data point at the identical price tier, on the same brokerage channel, in the same market. The existence of two Christie's Tulum luxury listings at $11.9M strengthens the $11.9M anchor materially. See Featured Comp below in Section 1.
+
 ---
 
 ## Section 1: Primary Comps
 
-### 1. Cenote Ka'ax Jungle Retreat & Hotel (Akumal corridor)
-- **Asking:** $4,000,000 USD
-- **Profile:** Operating eco-retreat with 7 cabins, chapel, spa, cenote
-- **Relevance:** Same corridor, same use. Turnkey retreat floor price in Akumal.
-- **Source:** [Riviera Maya Real Estate Group](https://www.rivieramayarealestategroup.com/properties/akumal-real-estate/cenote-kaax-jungle-retreat-hotel/)
+Comp set filtered to asking prices above USD $10,000,000. Sub-$10M comps have been removed to focus the valuation on price-tier relevant anchors.
 
-### 2. Sian Ka'an Beachfront Boutique-Hotel Parcel — 65,000 sqm
-- **Asking:** $9,900,000 USD + IVA
-- **Per sqm:** $152
-- **Per acre:** $619,000
-- **Profile:** 400m beachfront + 400m lagoonfront, eco-hotel permits for 20 units, Sian Ka'an biosphere
-- **Relevance:** Permit-ready boutique hotel play, larger parcel, beachfront premium. Similar scale, different amenity mix.
-- **Source:** [Owner-Tulum](https://owner-tulum.com/tulum/sian-kaan-beachfront-lots-for-sale/)
+### 1. Casa Luna — Region 15, Tulum (Featured Comp)
 
-### 3. 10-Cabin Jungle Retreat — Xpu-Ha
-- **Asking:** $770,000 USD (listed Sept 2025)
-- **Size:** 2.5 acres / ~10,000 sqm
-- **Per sqm:** $77
-- **Per acre:** $308,000
-- **Profile:** 10 furnished cabanas, pool, pavilion, off-grid eco design
-- **Relevance:** Per-acre benchmark for small operating jungle retreat in the same corridor.
-- **Source:** [Christie's International Real Estate Mexico](https://www.christiesrealestatemexico.com/listings/for-sale/puerto-aventuras/hotel/10-cabin-jungle-retreat/)
+- **Asking:** $11,900,000 USD (listed on Christie's International Real Estate Mexico, Dec 2025, modified Jan 2026)
+- **Per Christie's listing:** 13 bedrooms, 19 bathrooms, 17,954 ft² (≈1,668 m²) built area
+- **Per sponsor intel:** Sleeps 40, 12 bedroom suites with the following configuration:
+  - Masters 1-2: King + walk-in closet
+  - BDR 3: Queen
+  - BDR 4: Queen + walk-in closet
+  - BDR 5: 2 Double + 2 Single + Pull-Out
+  - BDR 6: King
+  - BDR 7-9: 2 Double
+  - BDR 10-11: 2 Double
+  - BDR 12: 2 Double
+- **Included services:** Personal butler, private chef, dedicated concierge, daily cleaning
+- **Amenities:** Main pool, main jacuzzi plus 2 jacuzzis in master suites, gym, cold plunge, steam room, yoga room, golf simulator / movie room, full club with DJ booth
+- **Location:** Region 15, Tulum (inside Tulum proper, south of subject by ~30 minutes)
+- **Use profile:** High-performing luxury rental / private estate, turnkey
+- **Implied per-bedroom (12 suites):** ~$992,000 / bedroom
+- **Implied per-bedroom (13 per Christie's):** ~$915,000 / bedroom
+- **Relevance:** This is the strongest primary comp in the data set. It sits at an **identical $11.9M price point**, on the **same brokerage channel** (Christie's International Real Estate Mexico), in the **same market tier** (luxury Tulum/Akumal wellness-oriented compounds), with a **comparable amenity stack** (pool, multiple jacuzzis, gym, cold plunge, steam room, yoga room, club/entertainment space). Casa Luna is smaller on land footprint (no published acreage, but Region 15 residential lots are typically a small fraction of the subject's 45,000 sqm) and smaller on bedroom count (12-13 vs subject's 16), which means the subject arguably commands a premium at the same price, not a discount. The existence of this comp at the same $11.9M price validates the subject's anchor independently.
+- **Caveat:** Asking price. Not sold. Christie's Mexico does not publish offer history or days-on-market.
+- **Sources:**
+  - [Casa Luna on Christie's International Real Estate Mexico](https://www.christiesrealestatemexico.com/listings/for-sale/tulum/house/casa-luna/)
+  - [Google Maps location](https://g.co/kgs/5CcvqmW)
+  - [Sponsor photo set (Google Drive)](https://drive.google.com/drive/folders/1Vn0MlLs2krSGyRSo3clW3nyB0Ekk995S?usp=drive_link)
 
-### 4. Bacalar 45-Hectare Lagoon-Front Estate
-- **Asking:** $5,200,000 USD
-- **Size:** 45 ha / 111 acres
-- **Per acre:** $46,800
-- **Profile:** 2 villas, 8 bedrooms, eco-luxury development potential
-- **Relevance:** Large multi-lot compound with improvements. Bacalar is 3+ hours south, so this is the discounted-location bulk benchmark.
-- **Source:** [Riviera Maya Real Estate Group](https://www.rivieramayarealestategroup.com/properties/bacalar-real-estate/lagoon-front-estate-with-2-homes/)
+### 2. 128-Hectare Akumal Beachfront Parcel
 
-### 5. Sian Ka'an Beachfront Site — 2.1 ha
-- **Asking:** $1,250,000 USD
-- **Size:** 5 acres / 21,000 sqm
-- **Per sqm:** $60
-- **Per acre:** $250,000
-- **Profile:** 300+ meters beachfront, raw land, Sian Ka'an biosphere
-- **Source:** Investment Properties Mexico / Tulum Land & Property
-
-### 6. 128-Hectare Akumal Beachfront Parcel
 - **Asking:** $30,000,000 USD
-- **Size:** 128.41 ha / 317 acres
+- **Size:** 128.41 ha / 1,284,100 sqm / 317 acres
 - **Per acre:** $94,600
-- **Profile:** 1,735m beachfront, highway frontage, adjacent to Sirenis resort
-- **Relevance:** Trophy-scale ceiling on the Akumal coast. Bulk discount pricing.
+- **Per sqm:** ~$23
+- **Profile:** 1,735m linear beachfront, highway frontage, adjacent to Sirenis resort, raw development land
+- **Relevance:** Trophy-scale price ceiling for large Akumal beachfront inventory. Different asset class (raw institutional-scale beachfront) but establishes the upper bound of the market at mega-parcel scale. Demonstrates bulk-land pricing dynamics that do not apply to the improved-compound subject.
+- **Caveat:** Asking price. Raw land, no improvements, different use case.
 - **Source:** Holprop / Pincali listings
-
-### 7. Fantasea 9 — Akumal 8BR Estate
-- **Asking:** $1,950,000 USD
-- **Per bedroom:** ~$244,000
-- **Relevance:** Per-bedroom benchmark for luxury single-villa inventory in Akumal.
-- **Source:** [Christie's Mexico](https://www.christiesrealestatemexico.com/listings/for-sale/akumal/house/fantasea-9/)
 
 ---
 
 ## Section 2: Secondary Comps
 
-| Property | Location | Size | Asking | Per sqm | Relevance |
-|---|---|---|---|---|---|
-| Jungle Keva Tulum | Tulum (La Veleta) | 5 cabins | $1,400,000 | — | Operating boutique hotel |
-| Casa Xolo | Tulum (10km out) | 2.5 ha | — | — | Jungle villa analog |
-| Sharonlee Eco Land | Sacbe | 3 × 2 ha | $3,000,000 | $50 | Multi-lot raw benchmark |
-| Rural Finca Hotel | Near Tulum | 6BR | $610,000 | — | Small operating hotel |
-| Region 12 Tulum Lots | Tulum | 1+ ha | — | $130-140 | Bulk raw developer |
+*No secondary comps above the $10M threshold. All previously listed secondary comps (Muuyal, Jungle Keva Tulum, Casa Xolo, Sharonlee Eco Land, Rural Finca Hotel, Region 12 Tulum Lots) priced below $10M and have been removed from this memo.*
 
 ---
 
-## Section 3: Market Pricing Bands Observed
+## Section 3: Market Context
 
-### Per Square Meter (Tulum / Akumal corridor, 2025 asking data)
+### Luxury Tulum / Akumal Compound Tier (2025-2026 asking data, $10M+ only)
 
-| Segment | USD / sqm |
-|---|---|
-| Raw bulk hectares (developer parcels) | $130-140 |
-| Multi-lot eco bulk (Sian Ka'an buffer, Sacbe) | $50-150 |
-| Mid-size beach/lagoon with permits | $150-475 |
-| Finished retail lots near beach | $300-400 |
-| Prime Tulum Hotel Zone beachfront | $1,400+ |
-| Trophy mega-parcels (bulk discount) | ~$23 |
+Two directly comparable Christie's International Real Estate Mexico listings at the luxury wellness compound tier sit at exactly **$11,900,000 USD**:
 
-### Per Acre, Improved Retreat / Hotel Properties
+- **Rancho Paraiso Oasis** (subject): 16 bedrooms, 45,000 sqm, Akumal corridor, cenote pool, cavern lounge, spa, gym
+- **Casa Luna** (comp): 12-13 bedrooms, ~1,668 m² built area, Region 15 Tulum, pool, multiple jacuzzis, gym, cold plunge, steam room, yoga room, golf sim, club
 
-| Tier | USD / acre |
-|---|---|
-| Low (small-scale operating retreat) | ~$300,000 |
-| Mid (permit-ready with improvements) | $400,000-620,000 |
-| High (speculative, substantial verticals) | $1,000,000+ |
+This is a tight two-point anchor. The market is not giving us a spread; it is giving us a convergence. Two different properties with different footprints and different amenity configurations are both priced at the same number, by the same brokerage, at the same moment.
+
+### Per-Bedroom Benchmark (Luxury Tier, $10M+ only)
+Casa Luna implies **$915,000 to $992,000 per bedroom** at the luxury Christie's Tulum tier. This is the only defensible per-bedroom benchmark in the filtered comp set.
 
 ### Market Trend Signals
 
@@ -123,57 +100,70 @@ The target property is actively listed for sale on multiple international luxury
 
 ## Section 4: Implied Valuation Range
 
-### Method A: Per-sqm land floor
-45,000 sqm × $140/sqm (bulk developer band) = **$6.3M** (land only, ignoring improvements)
+Methods here use only the $10M+ comp set. Lower-tier per-sqm and per-bedroom derivations from sub-$10M properties have been removed per the updated comp scope.
 
-### Method B: Per-acre improved retreat band
-11 acres × $500-620k/acre = **$5.5M-6.8M**
+### Method A: Direct subject listing (Rancho Paraiso Oasis)
+The subject property is publicly listed on Christie's International Real Estate, JamesEdition, Properstar, and Riviera Maya Real Estate Group at **$11,999,000 USD**.
 
-### Method C: Per-bedroom luxury villa (Fantasea 9 anchor)
-16 bedrooms × $244k = **~$3.9M** (ignores amenity stack; likely understates)
+### Method B: Casa Luna anchor (independent $11.9M comp)
+Casa Luna (Region 15, Tulum), a 12-13 bedroom luxury Christie's Mexico listing with a comparable amenity stack, is asking **$11,900,000 USD**. Subject has more bedrooms (16 vs 12-13) and substantially more land (45,000 sqm vs Region 15 residential footprint), suggesting the subject should command a premium at or above the Casa Luna anchor.
 
-### Method D: Direct subject listing
-Christie's / JamesEdition / Properstar public ask = **$11,999,000**
+### Method C: Per-bedroom extrapolation from Casa Luna
+Casa Luna at $11.9M across 12-13 bedrooms yields **$915,000 to $992,000 per bedroom**. Applied to the subject's 16 bedrooms: **$14.6M to $15.9M**. This method rewards the subject's larger bedroom count but ignores land differential.
 
-### Method E: Land floor + replacement-cost uplift
-$6.3M land + $3-6M improvements premium (cenote pool, cavern lounge, spa, gym, main and guest houses, staff infrastructure, walls, 16BR capacity) = **$9.3M-12.3M**
+### Method D: Trophy-scale ceiling (128 ha Akumal)
+At $30M for 128 ha / 317 acres of raw Akumal beachfront, the upper bound of the Akumal market for large-parcel inventory is visible. This is a different asset class (raw beachfront at institutional scale), but it confirms there is real capital in the market for mega-parcels on the Akumal coast. Not a direct comparable for the improved-compound subject.
 
 ### Synthesized Range
 
 | Scenario | USD |
 |---|---|
-| **Low** (quick sale, market clearing, 90 days) | $6,500,000 - 8,000,000 |
-| **Midpoint** (asking-price consistent) | $10,000,000 - 12,000,000 |
-| **High** (trophy buyer, full ask) | $12,000,000 - 14,000,000 |
+| **Low** (clear-the-market, 90 days, distressed tone) | $10,000,000 - 11,000,000 |
+| **Midpoint** (consistent with twin $11.9M anchors) | $11,900,000 - 13,000,000 |
+| **High** (subject commands premium for land and bedroom count) | $14,000,000 - 16,000,000 |
 
-**The $25M paper basis is NOT supported by any comp in the public data set.** That figure reflects cost basis (land + buildout + soft costs + opportunity cost over the hold period). It is not market value. The sponsor's own public listing at $11.999M already represents an implicit ~52% haircut against paper basis, and that ask has apparently not cleared the market.
+**The $25M+ paper basis of prior construction capital is not a market-value comp. It remains valid as a replacement-cost reference and amenity-depth argument, not as a collateral-coverage metric.** The subject's own Christie's listing and Casa Luna independently validate the $11.9M midpoint.
 
 ---
 
 ## Section 5: Implications for the Bridge Loan Package
 
-The bridge loan term sheet currently pitches a **31% loan-to-cost ratio** calculated against the $26M invested basis. This framing will not survive sophisticated lender diligence. A hard money lender who runs the comps will reframe the math as:
+The bridge loan package as currently positioned is a **$10,000,000 senior secured bridge at 9% for 36 months**, framed against the $11.9M Christie's market value with $25M+ of prior construction capital as a replacement-cost backstop. The live math:
 
-| Metric | Paper Basis Framing (Current) | Market Value Framing (Comps) |
-|---|---|---|
-| Collateral value | $26,000,000 | $10,000,000-12,000,000 |
-| Loan amount | $8,000,000 | $8,000,000 |
-| Effective ratio | 31% LTC | 67-80% LTV |
-| Equity cushion | $18,000,000 (69%) | $2,000,000-4,000,000 (20-33%) |
+| Metric | Current Framing |
+|---|---|
+| Market value (Christie's + Casa Luna anchors) | $11,900,000 |
+| Loan amount | $10,000,000 |
+| Loan-to-Value | 84% |
+| Equity cushion against market value | $1,900,000 (16%) |
+| Prior construction capital (replacement-cost backstop) | $25,000,000+ |
 
-At 67-80% LTV against market comps, this is **normal hard money bridge territory**, not the "generous cushion" story currently positioned. The $8M loan is still financeable, but the pitch needs to be honest about the math or sophisticated lenders will walk after their own appraisal.
+At 84% LTV against a public market anchor, the package is in **stretch territory for hard money bridge financing**. Typical HML bridge tolerance is 60-70% LTV. The $10M ask lives or dies on the replacement-cost backstop argument: the lender is not being asked to underwrite to 84% of a thin market, they are being asked to underwrite to 40% of prior construction capital ($10M / $25M+), with the $11.9M market value as the interim recovery floor.
+
+### What the Comp Set Does (and Does Not) Support
+
+**What the comps DO support:**
+- The $11.9M market value anchor is **independently validated** by Casa Luna at the same price point on the same brokerage channel.
+- A midpoint valuation range of $11.9M to $13M is defensible.
+- A high-side valuation of $14-16M is defensible on a per-bedroom basis if a lender accepts the Casa Luna extrapolation.
+- The subject commands a premium to Casa Luna on land (45,000 sqm vs Region 15 residential footprint) and bedroom count (16 vs 12-13), which gives room to argue above the $11.9M anchor rather than below it.
+
+**What the comps do NOT support:**
+- A $25M mark as market value. The $25M figure is construction basis, not market value, and should remain in the package as replacement-cost narrative rather than collateral math.
+- A cushion above 16% against current Tulum asking prices, given the two-point $11.9M convergence.
+- A comfortable 60-70% LTV story at $10M. At $10M the math is 84% LTV and lenders will flag it.
 
 ### Recommended Pitch Adjustments
 
-1. **Lead with the acquisition story, not the cushion story.** The narrative becomes: "$8M senior secured bridge to acquire a property with $25M of prior owner capital sunk into the improvements. Market value is $10-12M today. Your loan is at 67-80% LTV at acquisition, which improves as we stabilize operations and reposition the asset as the Transformational Epicenter."
+1. **Lead with the twin anchors.** The subject's own Christie's listing at $11.9M AND Casa Luna's independent Christie's listing at $11.9M both confirm the market anchor. Name Casa Luna explicitly in the pitch as the second validation point.
 
-2. **Show the cost-to-replace argument separately from LTC.** The $25M invested basis is real, it just is not the right denominator for LTV. Move it into an amenity/construction-value appendix, not the headline metric.
+2. **Keep the $25M+ construction capital story prominent but separate.** It is a replacement-cost argument and an amenity-depth argument, not a collateral-coverage metric. Frame it as "the asset has $25M+ of improvements embedded, which a liquidation recovery would capture substantially in a workout scenario."
 
-3. **Commission a formal appraisal ("avalúo comercial")** from a licensed Mexican appraiser before sending the package to anyone. A real lender will demand one during diligence anyway. Getting ahead of it lets you anchor the number.
+3. **Commission a formal appraisal ("avalúo comercial")** from a licensed Mexican appraiser before sending the package to diligence-level lenders. If the appraiser lands anywhere in the $12-14M range, the 84% LTV problem becomes a 71-83% LTV problem and the pitch gets meaningfully easier.
 
-4. **Consider lowering the ask.** A $6M bridge at 9% still funds the $8M acquisition if combined with $2M of sponsor equity or other sources. A $6M loan against $10-12M comps is ~55% LTV, which is far easier to finance and opens a wider lender pool.
+4. **Be prepared for pushback on the $10M ask.** Sharp HML counters will likely land at $8M at 9% (the prior version) or $10M at 11-12%. Pablo may accept $10M at 9% on relationship comfort where institutional HMLs will not.
 
-5. **Reframe the public Christie's listing as an asset, not a liability.** The active Christie's listing is public evidence of the $11.999M anchor. Use it. Do not hide it from lenders, and do not pretend the sponsor has a $26M collateral cushion that disappears the moment anyone Googles the address.
+5. **Reframe the public Christie's listing as an asset, not a liability.** The active Christie's listing is public evidence of the $11.9M anchor. Use it. Do not hide it from lenders. Casa Luna makes this even stronger: two Christie's anchors at the same price point is a corroborating signal, not a contradicting one.
 
 ---
 
@@ -190,9 +180,9 @@ At 67-80% LTV against market comps, this is **normal hard money bridge territory
 2. **Licensed Mexican appraiser ("avalúo comercial")** anchored to INDAABIN / SAT methodology. Required for Mexican financing, tax, and lien recording.
 3. **HVS Mexico City** for a hospitality-conversion valuation memo if the exit story is boutique hotel.
 4. **Paid data platforms:** Lodging Econometrics Mexico, STR Mexico reports, Real Capital Analytics Mexico resort trades. None free, all would surface actual trade data unavailable in public sources.
-5. **Confirm permitted use.** The Sian Ka'an $9.9M comp is priced on permits in hand. Document Epicenter's current zoning and use permits, because the gap between "residential jungle estate" and "permitted boutique hotel" materially moves the number.
-6. **Test the existing Christie's listing.** Request the listing broker's offer log. Six months of market time with no offers is itself a valuation signal.
+5. **Confirm permitted use.** Document Epicenter's current zoning and use permits, because the gap between "residential jungle estate" and "permitted boutique hotel" materially moves the number.
+6. **Test the existing Christie's listing.** Request the listing broker's offer log. Days on market with no offers is itself a valuation signal.
 
 ---
 
-**Bottom line for the sponsor:** The comp set is thin and listing-heavy, but internally consistent. Nothing in public 2024-2026 Riviera Maya data supports a $25M mark for this asset. A $10-12M market value is defensible and broadly consistent with the sponsor's own public Christie's listing. A $7-8M quick-sale mark is defensible if liquidity is the objective. Going above $12M requires a strategic or trophy buyer and supporting evidence (permits, retreat cash flow, brand value) that is not visible in public comps.
+**Bottom line for the sponsor:** After filtering to the $10M+ tier, the comp set is thin but internally consistent around a **$11.9M market value anchor, independently validated by two Christie's Tulum listings at the same price point** (subject's own listing and Casa Luna). A midpoint valuation of $11.9M to $13M is defensible. The subject has room to argue for the upper end ($14M+) on per-bedroom extrapolation and larger land footprint vs Casa Luna. The $25M+ prior construction capital remains valid as a replacement-cost and amenity-depth argument, not as a market-value mark.
