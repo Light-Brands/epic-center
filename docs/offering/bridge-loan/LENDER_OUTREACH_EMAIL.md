@@ -36,9 +36,11 @@ Pick the one that best fits the relationship context.
 > - **Market value anchor:** $11,900,000 (publicly listed on Christie's International Real Estate, independently validated by a comparable Christie's Tulum listing at the same price point)
 > - **Prior construction capital embedded:** $25,000,000+ (replacement-cost backstop beneath the market value)
 > - **Structure:** No US or Delaware entity. Clean single-jurisdiction. Loan Agreement under New York law, Fideicomiso and enforcement under Mexican law.
-> - **Fees:** No commitment fee, no exit fee, open prepayment at any time with no penalty
+> - **Fees:** No commitment fee, no exit fee. Prepayable at any time, with a 6-month makewhole during the first 6 months that guarantees a minimum of $450,000 in interest to the lender, then open at par thereafter.
 >
 > The Property is Rancho Paraiso Oasis, a 16-bedroom compound on 45,000 square meters (9 contiguous lots) in the Akumal corridor, approximately 30 minutes north of Tulum center. More than $25 million has been deployed into the asset across land, construction, and soft costs. We are acquiring it and repositioning it as the Transformational Epicenter, a luxury wellness and hospitality flagship.
+>
+> **Sponsor-side due diligence on the Property is complete.** Title, trust structure, permits, and physical condition have been verified directly with the current owner. There are no open issues on the property side. The Property is already held in an existing Mexican real estate trust, so closing is a beneficial interest assignment and lien grant at the existing trustee bank rather than a new trust formation, which is what makes a 14-day close executable.
 >
 > Attached is the full outreach package with terms, property detail, collateral structure, loan-to-value math, and a comparable sales reference including a second Christie's Tulum listing at the same $11.9M price point. A full draft term sheet and loan agreement outline is available under NDA.
 >
@@ -70,7 +72,7 @@ Pick the one that best fits the relationship context.
 >
 > - The market anchor has been independently validated at $11.9M on two Christie's International Real Estate Mexico listings at the same price point.
 > - The structure has zero US entity complexity. Single Fideicomiso borrower, Mexican law on the trust and enforcement, New York law on the loan agreement. Clean and fast to close.
-> - Open prepayment with no penalty means you have flexibility if you need to recycle the capital early.
+> - Prepayable at any time, with a 6-month minimum interest floor of $450,000. Gives you yield protection in the early window and full flexibility to recycle capital after month 6.
 >
 > Would a 20-minute call this week make sense? I can walk through the collateral and the comps in that time.
 >
@@ -102,10 +104,11 @@ Acknowledge that a rate bump is a standard response to the 84% LTV stretch. Hold
 Optional corporate or personal guarantees are negotiable and subject to lender preference. Not automatic in the current package, but available as a structural accommodation.
 
 ### If lender questions the 14-day timeline:
-Three facts make 14 days executable:
-1. The Property is already held in an existing Mexican real estate trust. We are assigning the fideicomisario beneficial interest at the existing trustee bank, not forming a new Fideicomiso. This removes 3-4 weeks of trust formation and SRE permitting from the critical path.
-2. US and Mexican counsel are engaged and prepared to draft definitive documents in parallel from day one of LOI.
-3. The data room is already populated and ready to deliver under NDA on day zero.
+Four facts make 14 days executable:
+1. **Sponsor-side due diligence on the Property is complete.** Title, trust structure, permits, zoning, and physical condition have been verified directly with the current owner. There are no open property-side issues to work through.
+2. The Property is already held in an existing Mexican real estate trust. We are assigning the fideicomisario beneficial interest at the existing trustee bank, not forming a new Fideicomiso. This removes 3-4 weeks of trust formation and SRE permitting from the critical path.
+3. US and Mexican counsel are engaged and prepared to draft definitive documents in parallel from day one of LOI.
+4. The data room is already populated and ready to deliver under NDA on day zero.
 The 14-day timeline requires a lender with authority to commit without a multi-week credit committee cycle. That typically means a private bridge fund, family office, or relationship lender with existing cross-border Mexican real estate capability. Institutional HMLs that require a formal credit committee process are not the right fit for this timeline.
 
 ---

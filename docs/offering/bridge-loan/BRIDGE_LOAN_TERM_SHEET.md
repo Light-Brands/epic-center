@@ -51,7 +51,11 @@ First interest payment due ninety (90) days after the Closing Date. Subsequent p
 
 ### 6. Prepayment
 
-**Open prepayment:** Voluntary prepayment permitted in whole or in part at any time, without penalty, premium, or makewhole. No lockout period.
+**Voluntary prepayment permitted in whole or in part at any time**, subject to the following:
+
+**Within the first 6 months:** Any prepayment triggers a makewhole payment equal to the interest that would have accrued through the end of month 6 had the Loan remained outstanding. This guarantees Lender a minimum of USD $450,000 in interest regardless of early prepayment.
+
+**After month 6:** Prepayment is permitted at par, without penalty, premium, or makewhole.
 
 **Notice:** Thirty (30) days' prior written notice to Lender of any prepayment, or such shorter notice as the parties mutually agree.
 
@@ -356,7 +360,7 @@ The following items require specific attention from Mexican and US counsel befor
 
 **Transformational Epicenter: Senior Secured Bridge Loan**
 
-**$10M at 9% for 36 months. Interest-only, quarterly. Bullet at maturity. No commitment fee. Open prepayment at any time. Borrower is a Mexican real estate trust (Fideicomiso) holding direct title to the Property.**
+**$10M at 9% for 36 months. Interest-only, quarterly. Bullet at maturity. No commitment fee. Prepayable at any time with a 6-month makewhole (minimum interest of $450,000), then open at par. Borrower is the existing Mexican real estate trust (Fideicomiso) already holding title to the Property, via assignment of the fideicomisario beneficial interest at closing.**
 
 A senior secured bridge loan to fund the acquisition and buildout of a transformational wellness and hospitality property in Akumal, Quintana Roo, Mexico. The Property sits on 45,000 square meters across nine lots and is currently listed on Christie's International Real Estate as "Rancho Paraiso Oasis" at USD $11,900,000. Over $25 million of prior construction capital has been deployed into land, improvements, and infrastructure, embedded in the asset as a replacement-cost backstop beneath the market value.
 
@@ -372,7 +376,7 @@ A senior secured bridge loan to fund the acquisition and buildout of a transform
 - First-priority lien on the Fideicomiso's direct title to the Property
 - 84% loan-to-value against the $11.9M Christie's listing, with $25M+ of prior construction capital underneath as a replacement-cost backstop
 - Senior position, step-in rights, clean Mexican enforcement pathway
-- No commitment fee. Open prepayment at any time without penalty.
+- No commitment fee. Prepayable at any time with a 6-month makewhole (guaranteed minimum interest of $450,000), open at par thereafter.
 
 **For the Sponsor**
 - Non-dilutive capital to complete buildout
