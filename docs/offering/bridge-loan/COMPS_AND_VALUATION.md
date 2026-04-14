@@ -175,6 +175,6 @@ A formal appraisal during diligence will anchor to a specific number within or a
 
 ---
 
-**Confidentiality:** This document is prepared for qualified lender review in connection with the Transformational Epicenter senior secured bridge loan opportunity. It is confidential and may not be reproduced or distributed without prior written consent from Light Brands.
+**Confidentiality:** This document is prepared for qualified lender review in connection with the Transformational Epicenter senior secured bridge loan opportunity. It is confidential and may not be reproduced or distributed without prior written consent from the Transformational Epicenter or Light Brands as transaction facilitator.
 
 *Transformational Epicenter | Market Comparables and Valuation Anchor | April 2026*

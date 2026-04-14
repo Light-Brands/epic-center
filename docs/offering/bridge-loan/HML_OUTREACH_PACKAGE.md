@@ -5,7 +5,7 @@
 
 ---
 
-**Prepared by:** Light Brands, on behalf of the Transformational Epicenter project
+**Prepared by:** The Transformational Epicenter. Light Brands is facilitating the transaction.
 **Date:** April 2026
 **Status:** Open for lender engagement
 **Confidential:** Do not reproduce or distribute without written consent
@@ -14,7 +14,7 @@
 
 ## Executive Summary
 
-Light Brands is seeking a **$10,000,000 senior secured bridge loan** to fund the acquisition and buildout of a fully-improved luxury wellness property in Akumal, Tulum, Mexico. The Property, known as Rancho Paraiso Oasis, is publicly listed on Christie's International Real Estate Mexico at **USD $11,900,000**. Over **$25,000,000** of prior construction capital has been deployed into land, improvements, and infrastructure, which remains embedded in the asset as a replacement-cost backstop.
+**The Transformational Epicenter** is seeking a **$10,000,000 senior secured bridge loan** to fund the acquisition and buildout of a fully-improved luxury wellness property in Akumal, Tulum, Mexico. The Property, known as Rancho Paraiso Oasis, is publicly listed on Christie's International Real Estate Mexico at **USD $11,900,000**. Over **$25,000,000** of prior construction capital has been deployed into land, improvements, and infrastructure, which remains embedded in the asset as a replacement-cost backstop. Light Brands is facilitating the transaction between the Transformational Epicenter, the current property owner, and the incoming lender.
 
 **This deal is clean and ready to close.** Property-side due diligence is complete. Title, trust structure, permits, and physical condition have been verified directly with the current owner. The Property is already held in an existing Mexican real estate trust. Counsel on both sides is engaged. The data room is populated. There are no open workstreams on the property side.
 
@@ -129,11 +129,13 @@ No proceeds may be distributed to equity holders, affiliates, or used to repay s
 
 ---
 
-## Sponsor Overview
+## Sponsor and Facilitator
 
-**Light Brands** is a US-based operating platform building a portfolio of AI-native wellness, hospitality, and community real estate projects. The Transformational Epicenter is the group's luxury wellness flagship, designed as a multi-modality healing compound with boutique hotel operations, programmed retreats, and member community.
+**The Transformational Epicenter** is the sponsor and borrower on this transaction. It is a luxury wellness and hospitality project built around the Rancho Paraiso Oasis property in Akumal, Tulum, designed as a multi-modality healing compound with boutique hotel operations, programmed retreats, and member community. Loan proceeds will be used by the Transformational Epicenter to acquire the Property and fund initial operational launch.
 
-The deal team has direct experience structuring cross-border transactions, Mexican real estate trust formations, and institutional lender relationships. Transaction execution will be led in partnership with qualified US and Mexican counsel engaged specifically for this closing.
+**Light Brands** is facilitating the transaction. Light Brands is a US-based operating platform that builds AI-native wellness, hospitality, and community real estate projects, and is positioned here as the intermediary between the Transformational Epicenter sponsor, the current property owner, and the incoming lender. Light Brands is not the borrower and has no economic stake in the loan. Its role is to structure the transaction, coordinate US and Mexican counsel, manage the data room, and run point on lender relations through close.
+
+Qualified US and Mexican counsel are engaged for this closing to handle the loan agreement under New York law and the Fideicomiso assignment and lien grant under Mexican law.
 
 ---
 
@@ -187,11 +189,11 @@ A formal Mexican appraisal ("avalúo comercial") can be commissioned and deliver
 ## Contact
 
 **Nicholas Courchesne**
-Founder, Transformational Epicenter
+Founder, Transformational Epicenter (Sponsor)
 nicholas@lightbrands.ai
 
 **Dan Lawless**
-Managing Partner, Light Brands
+Managing Partner, Light Brands (Transaction Facilitator)
 dan@lightbrands.ai
 
 ---
@@ -202,7 +204,7 @@ This document is a private opportunity summary prepared for qualified lenders. I
 
 Figures relating to prior capital deployed into the Property are based on sponsor representations and will be subject to lender verification during diligence. The market value anchor is based on the subject's active public listing on Christie's International Real Estate and is independently validated by a comparable public listing, but is subject to third-party appraisal during diligence. Past performance is not indicative of future results.
 
-This document is confidential and proprietary. It may not be reproduced, distributed, or disclosed to any third party without prior written consent from Light Brands. By accepting this document, the recipient agrees to keep its contents confidential and to use the information solely for the purpose of evaluating the proposed transaction.
+This document is confidential and proprietary. It may not be reproduced, distributed, or disclosed to any third party without prior written consent from the Transformational Epicenter or Light Brands as transaction facilitator. By accepting this document, the recipient agrees to keep its contents confidential and to use the information solely for the purpose of evaluating the proposed transaction.
 
 ---
 

@@ -25,7 +25,7 @@ Pick the one that best fits the relationship context.
 >
 > [Optional warm intro line: "[Mutual Contact] suggested I reach out. They mentioned your group looks at cross-border secured bridges in the $5-15M range."]
 >
-> I'm leading a senior secured bridge financing for a fully-built luxury wellness compound in Akumal, Mexico, and I'd like to see if it fits your book.
+> I'm writing on behalf of the Transformational Epicenter, a luxury wellness and hospitality sponsor in Akumal, Mexico. We are raising a $10M senior secured bridge to acquire and launch a fully-built compound, and I'd like to see if it fits your book. Light Brands is facilitating the transaction on the TEC side.
 >
 > The quick version:
 >
@@ -38,7 +38,7 @@ Pick the one that best fits the relationship context.
 > - **Structure:** No US or Delaware entity. Clean single-jurisdiction. Loan Agreement under New York law, Fideicomiso and enforcement under Mexican law.
 > - **Fees:** No commitment fee, no exit fee. Prepayable at any time, with a 6-month makewhole during the first 6 months that guarantees a minimum of $450,000 in interest to the lender, then open at par thereafter.
 >
-> The Property is Rancho Paraiso Oasis, a 16-bedroom compound on 45,000 square meters (9 contiguous lots) in the Akumal corridor, approximately 30 minutes north of Tulum center. More than $25 million has been deployed into the asset across land, construction, and soft costs. We are acquiring it and repositioning it as the Transformational Epicenter, a luxury wellness and hospitality flagship.
+> The Property is Rancho Paraiso Oasis, a 16-bedroom compound on 45,000 square meters (9 contiguous lots) in the Akumal corridor, approximately 30 minutes north of Tulum center. More than $25 million has been deployed into the asset across land, construction, and soft costs. The Transformational Epicenter is acquiring and repositioning it as a luxury wellness and hospitality flagship.
 >
 > **This deal is clean and ready to close.** Property-side due diligence is complete. Title, trust structure, permits, and physical condition have been verified directly with the current owner. There are no open issues on the property side. The Property is already held in an existing Mexican real estate trust, so closing is a beneficial interest assignment and lien grant at the existing trustee bank rather than a new trust formation. US and Mexican counsel are engaged. The data room is populated and ready to deliver under NDA.
 >
@@ -51,10 +51,12 @@ Pick the one that best fits the relationship context.
 > Best,
 >
 > **Nicholas Courchesne**
-> Founder, Transformational Epicenter
-> Light Brands
+> Founder, Transformational Epicenter (Sponsor)
 > nicholas@lightbrands.ai
 > [phone]
+>
+> Light Brands is facilitating this transaction. For deal coordination:
+> **Dan Lawless**, Managing Partner, Light Brands (dan@lightbrands.ai)
 >
 > ---
 >
