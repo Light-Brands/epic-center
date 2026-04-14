@@ -8,11 +8,14 @@
 ## The Deal in One Minute
 
 We are seeking an **$8,000,000 senior secured bridge loan** against a
-fully-built luxury wellness property in Tulum, Mexico, with an invested basis
-of approximately **$26,000,000**. Collateral is a first-priority lien on the
-Mexican real estate trust (fideicomiso) holding title to the property.
+fully-built luxury wellness property in Tulum, Mexico. The Property is
+currently listed on Christie's International Real Estate as "Rancho Paraiso
+Oasis" at **USD $11,900,000**, and over **$25,000,000** of prior construction
+capital has been built into it. Collateral is a first-priority lien on the
+Mexican real estate trust (fideicomiso) holding title.
 
-**Loan-to-Cost:** 31% against invested basis.
+**Loan-to-Value:** 67% against the public Christie's listing price. Over $25M of
+prior construction capital is embedded in the asset as a replacement-cost backstop.
 
 **Use of Proceeds:** Acquisition and operational buildout of the
 Transformational Epicenter, a wellness and hospitality venue on 45,000 square
@@ -48,7 +51,8 @@ meters of jungle compound in Akumal, Quintana Roo.
 - Located in the Riviera Maya wellness corridor
 - Vertical improvements, infrastructure, and built environment already in place
 - Held through a Mexican real estate trust (fideicomiso) at a qualified Mexican bank
-- Approximately USD $26,000,000 in capital already deployed into construction and land
+- Over USD $25,000,000 of prior construction capital deployed into land, improvements, and infrastructure
+- Currently listed on Christie's International Real Estate (ID 047661) as "Rancho Paraiso Oasis" at USD $11,900,000
 
 ---
 
@@ -75,18 +79,22 @@ meters of jungle compound in Akumal, Quintana Roo.
 
 ---
 
-## Loan-to-Cost Math
+## Loan-to-Value Math
 
 | Metric | Amount |
 |---|---|
-| Capital Invested in Property | $26,000,000 |
+| Market Value (Christie's public listing) | $11,900,000 |
 | Requested Loan | $8,000,000 |
-| **Loan-to-Cost** | **31%** |
-| Equity Cushion (to lender) | $18,000,000 (69%) |
+| **Loan-to-Value** | **67%** |
+| Equity Cushion (to lender) | $3,900,000 (33%) |
+| Prior Construction Capital (replacement-cost backstop) | $25,000,000+ |
 
-Note: LTC is calculated on the paper basis of invested capital. Third-party
-appraisal available upon engagement. An independent broker opinion of value
-can also be provided on request.
+Note: LTV is calculated against the public Christie's International Real
+Estate listing price of $11.9M. Over $25M of prior construction capital is
+embedded in the asset (main house, guest house, spa, gym, cenote pool, cavern
+lounge, 16 bedrooms, full infrastructure) and is retained as a replacement-cost
+backstop, not included in the LTV math. Third-party appraisal ("avalúo
+comercial") and independent broker opinion of value available on engagement.
 
 ---
 
@@ -95,8 +103,10 @@ can also be provided on request.
 **Short duration.** 36 months aligns with typical bridge debt hold periods and
 your capital is not locked up in a long-dated position.
 
-**Low LTC.** 31% against invested basis gives you a meaningful equity cushion.
-Even in a distressed disposition scenario, recovery economics are durable.
+**Hard asset backed.** 67% LTV against the public Christie's listing, with
+over $25M of prior construction capital embedded in the asset as a
+replacement-cost backstop. Even in a distressed disposition scenario against
+the market value, recovery economics are durable.
 
 **Senior position.** First lien, no subordinated debt, no pari-passu creditors.
 

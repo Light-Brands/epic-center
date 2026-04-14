@@ -75,8 +75,8 @@ export default function PabloPage() {
           </h1>
           <p className="text-xl text-primary-100 max-w-2xl mx-auto mb-4">
             An $8 million senior secured bridge loan. 9% interest paid quarterly.
-            36 month term. First lien on a property with $26 million of capital
-            already deployed into it.
+            36 month term. First lien on a property publicly listed at $11.9 million
+            with over $25 million of construction capital built into it.
           </p>
           <p className="text-lg text-primary-200/70">
             Clean exit. Senior position. Hard asset collateral.
@@ -214,9 +214,11 @@ export default function PabloPage() {
         <motion.section className="mb-24" {...fadeUp}>
           <h2 className="text-3xl font-heading text-neutral-900 mb-4">How You Are Protected</h2>
           <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-            Your $8 million sits behind a hard asset that had more than three
-            times that amount invested into it. This is a 31% loan-to-cost
-            position on the paper basis of the property.
+            Your $8 million sits behind a hard asset currently listed on
+            Christie's International Real Estate at $11.9 million, with over
+            $25 million of prior construction capital built into it. This is a
+            67% loan-to-value position against the public listing, with the
+            construction capital embedded as a replacement-cost backstop underneath.
           </p>
 
           <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -245,14 +247,17 @@ export default function PabloPage() {
                 </div>
                 <div>
                   <h3 className="font-heading text-lg text-neutral-900 mb-1">Hard Asset Collateral</h3>
-                  <p className="text-sm text-neutral-600">$26M invested basis</p>
+                  <p className="text-sm text-neutral-600">$11.9M listed, $25M+ built in</p>
                 </div>
               </div>
               <p className="text-neutral-700 leading-relaxed">
-                The property has more than $26 million of capital deployed into
-                it: nine lots, 45,000 square meters of jungle compound, fully
-                built infrastructure. Your $8 million is lending against a
-                basis three times larger than the loan.
+                The property is currently listed on Christie's International
+                Real Estate at $11.9 million. More than $25 million of prior
+                construction capital is built into it: nine lots, 45,000 square
+                meters of jungle compound, main house, guest house, spa, gym,
+                cenote pool, and full infrastructure. Your $8 million loan sits
+                at 67% LTV against the listing price, with the construction
+                capital as a replacement-cost backstop.
               </p>
             </Card>
 
@@ -293,13 +298,13 @@ export default function PabloPage() {
           </div>
 
           <Card padding="lg" className="bg-neutral-900 text-white">
-            <h3 className="font-heading text-lg text-white mb-4">Loan-to-Cost Math</h3>
-            <div className="grid sm:grid-cols-3 gap-6 text-center">
+            <h3 className="font-heading text-lg text-white mb-4">Loan-to-Value Math</h3>
+            <div className="grid sm:grid-cols-3 gap-6 text-center mb-6">
               <div>
                 <p className="text-xs font-accent uppercase tracking-wider text-neutral-400 mb-1">
-                  Capital Invested
+                  Market Value (Christie's Listing)
                 </p>
-                <p className="font-heading text-2xl text-white">$26,000,000</p>
+                <p className="font-heading text-2xl text-white">$11,900,000</p>
               </div>
               <div>
                 <p className="text-xs font-accent uppercase tracking-wider text-neutral-400 mb-1">
@@ -309,10 +314,16 @@ export default function PabloPage() {
               </div>
               <div>
                 <p className="text-xs font-accent uppercase tracking-wider text-neutral-400 mb-1">
-                  Loan-to-Cost
+                  Loan-to-Value
                 </p>
-                <p className="font-heading text-2xl text-white">31%</p>
+                <p className="font-heading text-2xl text-white">67%</p>
               </div>
+            </div>
+            <div className="border-t border-neutral-700 pt-4 text-center">
+              <p className="text-xs font-accent uppercase tracking-wider text-neutral-400 mb-1">
+                Prior Construction Capital (Replacement-Cost Backstop)
+              </p>
+              <p className="font-heading text-xl text-neutral-300">$25,000,000+</p>
             </div>
           </Card>
         </motion.section>

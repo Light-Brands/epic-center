@@ -78,9 +78,11 @@ No proceeds may be distributed to equity holders, affiliates, or used to repay s
 - Assignment of material construction contracts, architectural plans, and permits
 - Control agreement over all operating accounts holding Project cash flows
 
-**Property Basis:** Approximately USD $26,000,000 deployed to date (9 lots, 45,000 sqm, improvements and infrastructure).
+**Market Value:** USD $11,900,000 (based on current public listing of the Property as "Rancho Paraiso Oasis" on Christie's International Real Estate, listing ID 047661).
 
-**Loan-to-Cost Ratio:** 31%.
+**Construction Capital Deployed:** Over USD $25,000,000 of prior-owner capital deployed into land, improvements, and infrastructure (9 lots, 45,000 sqm, main house, guest house, spa, gym, cenote pool, cavern lounge, walls, staff infrastructure). Retained as replacement-cost reference, not as collateral value.
+
+**Loan-to-Value Ratio:** 67% (against market value).
 
 ### 9. Representations and Warranties
 
@@ -354,16 +356,16 @@ The following items require specific attention from Mexican and US counsel befor
 
 **Transformational Epicenter: Senior Secured Bridge Loan**
 
-**$8M at 9% for 36 months. Bullet. First lien on Tulum property with $26M basis.**
+**$8M at 9% for 36 months. Bullet. First lien on Tulum property with $11.9M public listing value and $25M+ of prior construction capital built in.**
 
-A senior secured bridge loan to fund the acquisition and buildout of a transformational wellness and hospitality property in Akumal, Quintana Roo, Mexico. The Property sits on 45,000 square meters across nine lots, with more than $26 million in capital already deployed into construction and infrastructure.
+A senior secured bridge loan to fund the acquisition and buildout of a transformational wellness and hospitality property in Akumal, Quintana Roo, Mexico. The Property sits on 45,000 square meters across nine lots and is currently listed on Christie's International Real Estate as "Rancho Paraiso Oasis" at USD $11,900,000. Over $25 million of prior construction capital has been deployed into land, improvements, and infrastructure, embedded in the asset as a replacement-cost backstop beneath the market value.
 
 **For the Lender:**
 - $180,000 quarterly interest payments
 - Full $8 million principal returned at month 36
 - $10.16 million total cash out (27% gross return)
 - First-priority lien on the Mexican fideicomiso holding title
-- 31% loan-to-cost position on the paper basis of the Property
+- 67% loan-to-value against the $11.9M Christie's listing, with $25M+ of prior construction capital underneath as replacement-cost cushion
 - Senior position, step-in rights, cross-border enforcement mechanics built in
 
 **For the Sponsor:**
