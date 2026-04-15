@@ -16,7 +16,7 @@
 
 **The Transformational Epicenter** is seeking a **$10,000,000 senior secured bridge loan** to fund the acquisition and buildout of a fully-improved luxury wellness property in Akumal, Tulum, Mexico. The Property, known as Rancho Paraiso Oasis, is publicly listed on Christie's International Real Estate Mexico at **USD $11,900,000**. Over **$25,000,000** of prior construction capital has been deployed into land, improvements, and infrastructure, which remains embedded in the asset as a replacement-cost backstop. Light Brands is facilitating the transaction between the Transformational Epicenter, the current property owner, and the incoming lender.
 
-**This deal is clean and ready to close.** Property-side due diligence is complete. Title, trust structure, permits, and physical condition have been verified directly with the current owner. The Property is already held in an existing Mexican real estate trust. Counsel on both sides is engaged. The data room is populated. There are no open workstreams on the property side.
+**This deal is structured for an immediate close.** The Property is already held in an existing Mexican real estate trust (no new formation required). US and Mexican counsel are engaged. The data room is populated. Property due diligence is conducted by the Lender and counsel during the closing window, after offer acceptance, in parallel with definitive document drafting.
 
 The structure is a clean, single-jurisdiction senior secured bridge with a **30-day target close** from signed LOI. The sponsor acquires the fideicomisario beneficial interest at closing via assignment at the existing trustee bank. No new Fideicomiso formation is required, which removes the multi-week trust formation and SRE permitting workstream from the critical path. First-priority lien on the existing Fideicomiso's direct title. New York law governs the Loan Agreement; Mexican law governs the Fideicomiso and enforcement. No US or Delaware entity in the structure.
 
@@ -31,8 +31,9 @@ This is a senior secured position in a hard-asset bridge with a short duration, 
 | **Principal** | USD $10,000,000 |
 | **Interest Rate** | 9.00% per annum, simple, 30/360 |
 | **Term** | 36 months |
-| **Payment Structure** | Interest-only, quarterly in arrears |
-| **Quarterly Payment** | USD $225,000 |
+| **Payment Structure** | Year 1 interest accrued and deferred. Quarterly cash payments begin in Year 2. |
+| **First Interest Payment** | Month 12 (lump sum of USD $900,000, representing 12 months of accrued Year 1 interest) |
+| **Quarterly Payments (Year 2-3)** | USD $225,000 every 90 days, starting at month 15 (8 quarterly payments total) |
 | **Repayment** | Bullet at maturity (principal repaid in full at month 36) |
 | **Total Interest Over Term** | USD $2,700,000 |
 | **Total Cash Returned to Lender** | USD $12,700,000 (27% gross over 36 months) |
@@ -141,31 +142,31 @@ Qualified US and Mexican counsel are engaged for this closing to handle the loan
 
 ## Closing Readiness
 
-**This deal is ready to close.** The sponsor has done the work. Every workstream that typically extends a cross-border Mexican real estate bridge closing has already been completed or pre-positioned. What is needed from the lender is underwriting, documentation, and funding. Nothing on the property side is waiting to be unblocked.
+This deal is structured to move fast. The structural prerequisites that typically delay a cross-border Mexican real estate bridge closing have already been cleared or pre-positioned. Property due diligence is conducted by the Lender and counsel during the closing window, after offer acceptance, in parallel with definitive document drafting.
 
 | | Status |
 |---|---|
-| Property-side due diligence | **Complete.** Title, trust structure, permits, zoning, physical condition, and prior capital deployment verified directly with the current owner. |
 | Mexican real estate trust (Fideicomiso) | **In place.** Existing trust already holds title to the Property. No new formation required. |
 | SRE (foreign investment) permitting | **Not required.** Assignment of existing beneficial interest does not trigger a new SRE permit. |
 | US counsel | **Engaged.** Loan agreement and NY law documentation ready to draft on day one of LOI. |
 | Mexican counsel | **Engaged.** Fideicomiso assignment, lien grant, and notarial closing workstream ready. |
-| Data room | **Populated.** Title, permits, property overview, trust documentation, and sponsor materials ready for delivery under NDA. |
+| Data room | **Populated.** Title, trust documentation, permits, property overview, and sponsor materials ready for delivery under NDA. |
+| Property due diligence | **Conducted post-acceptance.** Title, trust verification, permits, physical inspection, environmental, and other property DD performed by Lender and counsel during the 30-day closing window, in parallel with document drafting. |
 | Sponsor team | **Committed and available.** Dedicated to closing this transaction on the stated timeline. |
 
 ## Path to Close: 30 Days
 
 | Day | Milestone |
 |---|---|
-| Day 0 | LOI signed, NDA in place, lender KYC and AML initiated, data room delivered |
-| Day 1-7 | Lender diligence review (title, trust documentation, permits, sponsor materials); optional appraisal commissioned |
-| Day 5-15 | Definitive loan agreement and security documents drafted and circulated by US and Mexican counsel in parallel |
-| Day 15-22 | Document negotiation, final comments addressed, Mexican notary appointment scheduled |
-| Day 22-28 | Notarial closing in Mexico: fideicomisario beneficial interest assignment and first-priority lien grant against the existing Fideicomiso |
+| Day 0 | LOI / offer accepted, NDA in place, lender KYC and AML initiated, data room delivered |
+| Day 1-12 | Property due diligence conducted by Lender and counsel: title verification, trust documentation review, permits, physical inspection, environmental, appraisal commissioned if desired |
+| Day 5-18 | Definitive loan agreement and security documents drafted and circulated by US and Mexican counsel in parallel with DD |
+| Day 18-24 | Document negotiation, DD findings reconciled, final comments addressed, Mexican notary appointment scheduled |
+| Day 24-28 | Notarial closing in Mexico: fideicomisario beneficial interest assignment and first-priority lien grant against the existing Fideicomiso |
 | Day 28-30 | Loan funded, acquisition close, lien perfected in the public registry |
 | **Day 30** | **Target closing complete** |
 
-The 30-day timeline is built around a normal cross-border bridge closing cadence with all property-side prerequisites already cleared. The only variables are lender-side underwriting speed and document negotiation.
+The 30-day timeline is built around a normal cross-border bridge closing cadence with the structural prerequisites (existing trust, no SRE permit, counsel engaged) already cleared. Property DD runs in parallel with document drafting rather than sequentially, which is what makes the timeline executable without compressing the lender's diligence work.
 
 ---
 

@@ -40,14 +40,19 @@
 
 ### 5. Payment Schedule
 
-| Payment Type | Frequency | Amount |
+| Payment Type | Schedule | Amount |
 |---|---|---|
-| Interest | Quarterly in arrears | USD $225,000 per quarter |
+| Year 1 Interest | Accrued, deferred | USD $900,000 paid in lump sum at month 12 |
+| Year 2 and Year 3 Interest | Quarterly in arrears, every 90 days | USD $225,000 per quarter (8 payments) |
 | Principal | Bullet at Maturity | USD $10,000,000 |
 | Total Interest Over Term | — | USD $2,700,000 |
 | Total Cash to Lender | — | USD $12,700,000 |
 
-First interest payment due ninety (90) days after the Closing Date. Subsequent payments due every ninety (90) days thereafter.
+**Year 1 deferral:** Interest accrues during the first 12 months at the stated 9.00% per annum but is not paid in cash. The full Year 1 accrued interest of USD $900,000 is paid as a single lump sum on the first anniversary of the Closing Date (month 12). This deferral aligns the lender's first cash receipt with the operational ramp-up of the Project.
+
+**Quarterly schedule after Year 1:** Beginning at month 15 (the first quarter of Year 2), interest payments of USD $225,000 are due every ninety (90) days through maturity. Total of eight (8) quarterly payments in Years 2 and 3.
+
+**Final payment:** At month 36, Lender receives the final quarterly interest payment of USD $225,000 plus the full bullet repayment of principal of USD $10,000,000.
 
 ### 6. Prepayment
 
@@ -365,7 +370,7 @@ The following items require specific attention from Mexican and US counsel befor
 
 **Transformational Epicenter: Senior Secured Bridge Loan**
 
-**$10M at 9% for 36 months. Interest-only, quarterly. Bullet at maturity. No commitment fee. Prepayable at any time with a 6-month makewhole (minimum interest of $450,000), then open at par. Borrower is the existing Mexican real estate trust (Fideicomiso) already holding title to the Property, via assignment of the fideicomisario beneficial interest at closing.**
+**$10M at 9% for 36 months. Year 1 interest deferred and paid as a $900K lump sum at month 12, then $225K quarterly through maturity. Bullet principal repayment at month 36. No commitment fee. Prepayable at any time with a 6-month makewhole (minimum interest of $450,000), then open at par. Borrower is the existing Mexican real estate trust (Fideicomiso) already holding title to the Property, via assignment of the fideicomisario beneficial interest at closing.**
 
 A senior secured bridge loan to fund the acquisition and buildout of a transformational wellness and hospitality property in Akumal, Quintana Roo, Mexico. The Property sits on 45,000 square meters across nine lots and is currently listed on Christie's International Real Estate as "Rancho Paraiso Oasis" at USD $11,900,000. Over $25 million of prior construction capital has been deployed into land, improvements, and infrastructure, embedded in the asset as a replacement-cost backstop beneath the market value.
 
@@ -375,7 +380,8 @@ A senior secured bridge loan to fund the acquisition and buildout of a transform
 - **Governing law:** Mexican law for the Fideicomiso, lien, and enforcement. Loan Agreement and Note governed by New York law for international lender comfort.
 
 **For the Lender**
-- $225,000 quarterly interest payments
+- Year 1 interest accrued and paid as a $900,000 lump sum at month 12
+- $225,000 quarterly interest payments thereafter, every 90 days through maturity (8 quarterly payments across Years 2 and 3)
 - Full $10 million principal returned at month 36
 - $12.7 million total cash out (27% gross return)
 - First-priority lien on the Fideicomiso's direct title to the Property
@@ -390,7 +396,7 @@ A senior secured bridge loan to fund the acquisition and buildout of a transform
 - Clean debt structure that does not complicate future equity capital
 - Takeout at maturity through refinancing or sale
 
-**Timeline:** Targeting closing within **30 days** of signed LOI. Property-side due diligence is complete, title and trust structure are verified, the Property is already held in an existing Mexican real estate trust (no new formation required), counsel on both sides is engaged and ready, and the data room is populated and ready to deliver. Everything is in place for a clean, immediate close. Path-to-close detail available in the lender outreach package.
+**Timeline:** Targeting closing within **30 days** of signed LOI. Property due diligence is conducted by Lender and counsel during the closing window, after offer acceptance, in parallel with definitive document drafting. The Property is already held in an existing Mexican real estate trust (no new formation required), US and Mexican counsel are engaged and prepared to begin on day one, and the data room is populated for immediate delivery upon NDA execution. Path-to-close detail available in the lender outreach package.
 
 ---
 

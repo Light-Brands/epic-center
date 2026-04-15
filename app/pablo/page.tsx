@@ -32,13 +32,16 @@ const KEY_TERMS = [
 ]
 
 const PAYMENT_SCHEDULE = [
-  { period: 'Quarter 1', interest: 225_000, principal: 0, cumulative: 225_000 },
-  { period: 'Quarter 2', interest: 225_000, principal: 0, cumulative: 450_000 },
-  { period: 'Quarter 3', interest: 225_000, principal: 0, cumulative: 675_000 },
-  { period: 'Quarter 4 (Year 1)', interest: 225_000, principal: 0, cumulative: 900_000 },
-  { period: 'Year 2 Total', interest: 900_000, principal: 0, cumulative: 1_800_000 },
-  { period: 'Year 3 Total', interest: 900_000, principal: 0, cumulative: 2_700_000 },
-  { period: 'Maturity (Month 36)', interest: 0, principal: 10_000_000, cumulative: 12_700_000 },
+  { period: 'Months 1-11 (Year 1 Accrual)', interest: 0, principal: 0, cumulative: 0 },
+  { period: 'Month 12 (Year 1 Lump Sum)', interest: 900_000, principal: 0, cumulative: 900_000 },
+  { period: 'Month 15 (Year 2 Q1)', interest: 225_000, principal: 0, cumulative: 1_125_000 },
+  { period: 'Month 18 (Year 2 Q2)', interest: 225_000, principal: 0, cumulative: 1_350_000 },
+  { period: 'Month 21 (Year 2 Q3)', interest: 225_000, principal: 0, cumulative: 1_575_000 },
+  { period: 'Month 24 (Year 2 Q4)', interest: 225_000, principal: 0, cumulative: 1_800_000 },
+  { period: 'Month 27 (Year 3 Q1)', interest: 225_000, principal: 0, cumulative: 2_025_000 },
+  { period: 'Month 30 (Year 3 Q2)', interest: 225_000, principal: 0, cumulative: 2_250_000 },
+  { period: 'Month 33 (Year 3 Q3)', interest: 225_000, principal: 0, cumulative: 2_475_000 },
+  { period: 'Month 36 (Maturity)', interest: 225_000, principal: 10_000_000, cumulative: 12_700_000 },
 ]
 
 const formatCurrency = (n: number) =>
@@ -74,9 +77,11 @@ export default function PabloPage() {
             Pablo, A Lender Role.<br className="hidden md:block" /> Not a Partnership.
           </h1>
           <p className="text-xl text-primary-100 max-w-2xl mx-auto mb-4">
-            A $10 million senior secured bridge loan. 9% interest paid quarterly.
-            36 month term. First lien on a property publicly listed at $11.9 million
-            with over $25 million of construction capital built into it.
+            A $10 million senior secured bridge loan. 9% interest, with Year 1
+            accrued and paid as a $900K lump sum at month 12, then $225K
+            quarterly through maturity. 36 month term. First lien on a property
+            publicly listed at $11.9 million with over $25 million of
+            construction capital built into it.
           </p>
           <p className="text-lg text-primary-200/70">
             Clean exit. Senior position. Hard asset collateral.
@@ -139,10 +144,13 @@ export default function PabloPage() {
               <span className="font-medium">9% simple interest</span>, secured
               by a <span className="font-medium">first lien</span> on the Tulum
               property held through the Mexican real estate trust (fideicomiso).
-              We pay you <span className="font-medium">$225,000 every quarter</span>{' '}
-              for 36 months, then return your{' '}
+              Year 1 interest accrues and is paid as a single{' '}
+              <span className="font-medium">$900,000 lump sum at month 12</span>.
+              From month 15 through maturity we pay you{' '}
+              <span className="font-medium">$225,000 every 90 days</span>, then
+              return your{' '}
               <span className="font-medium">$10 million principal</span> in full
-              at maturity.
+              at month 36.
             </p>
           </Card>
         </motion.section>
@@ -153,9 +161,12 @@ export default function PabloPage() {
         <motion.section className="mb-24" {...fadeUp}>
           <h2 className="text-3xl font-heading text-neutral-900 mb-4">How You Get Paid</h2>
           <p className="text-lg text-neutral-600 mb-8 max-w-3xl">
-            Interest-only payments, quarterly, for three years. Bullet repayment
-            of the full $10 million principal at month 36. Total interest over the
-            life of the loan: $2.7 million.
+            Year 1 interest accrues and is paid as a single $900,000 lump sum
+            at month 12, aligning your first cash receipt with the operational
+            ramp of the Project. From month 15 through maturity, $225,000
+            quarterly payments every 90 days. Bullet repayment of the full
+            $10 million principal at month 36. Total interest over the life of
+            the loan: $2.7 million.
           </p>
 
           <Card padding="none" className="overflow-hidden mb-6">
@@ -383,7 +394,8 @@ export default function PabloPage() {
                 <div>
                   <h3 className="font-medium text-neutral-900 mb-1">Predictable cash flow</h3>
                   <p className="text-sm text-neutral-600">
-                    $225,000 every quarter. Boring, scheduled, secured. No
+                    $900,000 at month 12, then $225,000 every 90 days through
+                    maturity. Scheduled, secured. No
                     operational volatility to manage.
                   </p>
                 </div>

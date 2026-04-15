@@ -30,7 +30,8 @@ Pick the one that best fits the relationship context.
 > The quick version:
 >
 > - **Amount:** $10,000,000 USD senior secured bridge
-> - **Rate:** 9.00% per annum, interest-only, paid quarterly ($225,000/quarter)
+> - **Rate:** 9.00% per annum, simple
+> - **Payment structure:** Year 1 interest accrues and is paid as a $900,000 lump sum at month 12. From month 15 through maturity, $225,000 quarterly payments every 90 days. Final quarterly payment plus principal at month 36.
 > - **Term:** 36 months, bullet repayment of principal at maturity
 > - **Collateral:** First-priority lien on a Mexican real estate trust (Fideicomiso) holding direct title to the Property
 > - **Market value anchor:** $11,900,000 (publicly listed on Christie's International Real Estate, independently validated by a comparable Christie's Tulum listing at the same price point)
@@ -40,11 +41,11 @@ Pick the one that best fits the relationship context.
 >
 > The Property is Rancho Paraiso Oasis, a 16-bedroom compound on 45,000 square meters (9 contiguous lots) in the Akumal corridor, approximately 30 minutes north of Tulum center. More than $25 million has been deployed into the asset across land, construction, and soft costs. The Transformational Epicenter is acquiring and repositioning it as a luxury wellness and hospitality flagship.
 >
-> **This deal is clean and ready to close.** Property-side due diligence is complete. Title, trust structure, permits, and physical condition have been verified directly with the current owner. There are no open issues on the property side. The Property is already held in an existing Mexican real estate trust, so closing is a beneficial interest assignment and lien grant at the existing trustee bank rather than a new trust formation. US and Mexican counsel are engaged. The data room is populated and ready to deliver under NDA.
+> **This deal is structured to move fast.** The Property is already held in an existing Mexican real estate trust, so closing is a beneficial interest assignment and lien grant at the existing trustee bank rather than a new trust formation. US and Mexican counsel are engaged. The data room is populated and ready to deliver under NDA. Property due diligence is conducted by the Lender and counsel during the closing window after offer acceptance, in parallel with definitive document drafting.
 >
 > Attached is the full outreach package with terms, property detail, collateral structure, loan-to-value math, and a comparable sales reference including a second Christie's Tulum listing at the same $11.9M price point. A full draft term sheet and loan agreement outline is available under NDA.
 >
-> Targeting **30-day close from signed LOI**. Everything is in place: property-side DD done, existing Mexican trust holding title (no new formation required), counsel on both sides engaged, data room populated. The only variables are lender-side underwriting and document negotiation.
+> Targeting **30-day close from signed LOI**. Structural prerequisites are in place: existing Mexican trust holding title (no new formation required), counsel on both sides engaged, data room populated. Property DD runs in parallel with document drafting during the 30-day window.
 >
 > Is this something your group would want to take a closer look at? Happy to get on a call this week to walk through the structure and answer questions.
 >
@@ -106,12 +107,12 @@ Acknowledge that a rate bump is a standard response to the 84% LTV stretch. Hold
 Optional corporate or personal guarantees are negotiable and subject to lender preference. Not automatic in the current package, but available as a structural accommodation.
 
 ### If lender questions the 30-day timeline:
-The 30-day close is built around a clean and ready deal where all property-side workstreams are already complete:
-1. **Property-side due diligence is complete.** Title, trust structure, permits, zoning, physical condition, and prior capital deployment verified directly with the current owner. No open property-side issues.
-2. **Existing Mexican real estate trust in place.** The Property is already held in a Fideicomiso at a Mexican trustee bank. Closing is a beneficial interest assignment, not a new trust formation. This removes 3-4 weeks of trust formation and SRE permitting from the critical path.
-3. **Counsel engaged on both sides.** US counsel (loan agreement, NY law) and Mexican counsel (fideicomiso assignment, lien grant, notarial closing) are engaged and ready to draft in parallel from day one of LOI.
-4. **Data room populated.** Title, permits, property overview, trust documentation, and sponsor materials are ready for delivery under NDA on day zero.
-The 30-day timeline is a normal cross-border bridge closing cadence with all property-side prerequisites cleared. The only variables are lender underwriting speed and document negotiation. If a lender's internal process is longer than 30 days, the sponsor can accommodate a 45-day window without restructuring the package.
+The 30-day close is built around running property due diligence in parallel with definitive document drafting, with the structural prerequisites already cleared:
+1. **Existing Mexican real estate trust in place.** The Property is already held in a Fideicomiso at a Mexican trustee bank. Closing is a beneficial interest assignment, not a new trust formation. This removes 3-4 weeks of trust formation and SRE permitting from the critical path.
+2. **Counsel engaged on both sides.** US counsel (loan agreement, NY law) and Mexican counsel (fideicomiso assignment, lien grant, notarial closing) are engaged and ready to draft in parallel from day one of LOI.
+3. **Data room populated.** Title, trust documentation, permits, property overview, and sponsor materials are ready for delivery under NDA on day zero.
+4. **DD parallel to drafting.** Property due diligence is conducted by Lender and counsel during the 30-day window, in parallel with definitive document drafting rather than sequentially. This is what makes the 30-day timeline executable without compressing the lender's diligence work.
+If a lender's internal process or DD cadence requires more than 30 days, the sponsor can accommodate a 45-day window without restructuring the package.
 
 ---
 
